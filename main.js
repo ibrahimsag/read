@@ -94,9 +94,10 @@ function makeHighlight(p, name, typ, arg1) {
   {
     let [a, o, b] = name.split('').map(l => p.points[l]);
     let [d1, d2] = [a, b].map(x => vec2sub(x, o));
-    let d = vec2scale(vec2add(d1, d2), 0.5);
-    let ps = [d1, d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return curve([...ps], {strokeWidth: 4});
+    let dir = vec2sub(d2, d1);
+    let d = [0.25, 0.5, 0.75].map(l => vec2add(d1, vec2scale(dir, l)));
+    let ps = [d1, ...d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
+    return curve(ps, {strokeWidth: 4});
   }
   else
   {
