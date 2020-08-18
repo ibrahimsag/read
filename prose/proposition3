@@ -1,0 +1,12 @@
+For two given unequal straight-lines, to cut off from the greater a straight-line equal to the lesser.
+
+Let {AB line} and {CG line} be the two given unequal straight-lines, of which let the greater be {AB line}.
+So it is required to cut off a straight-line equal to the lesser {CG line} from the greater {AB line}.
+
+Let the line {AD line}, equal to the straight-line {CG line}, have been placed at point {A point} [Prop. 1.2].
+And let the circle {DEF circle A} have been drawn with center {A point} and radius {AD line} [Post.3].
+
+And since point {A point} is the center of circle {DEF circle A}, {AE line} is equal to {AD line} [Def. 1.15].
+But, {CG line} is also equal to {AD line}. Thus, {AE line} and {CG line} are each equal to {AD line}. So {AE line} is also equal to {CG line} [C.N. 1].
+
+Thus, for two given unequal straight-lines, {AB line} and {CG line}, the (straight-line) {AE line}, equal to the lesser {CG line}, has been cut off from the greater {AB line}. (Which is) the very thing it was required to do.

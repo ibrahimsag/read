@@ -91,7 +91,12 @@ function makeHighlight(p, name, typ, arg1) {
   }
 }
 
+function processProse(t)
+{
+  return t.split('\n\n').map(p => p.split('\n'));
+}
 
+import prose_prop1 from './prose/proposition1'
 let proposition1 = (function()
 {
   const distanceAB = 160;
@@ -102,20 +107,7 @@ let proposition1 = (function()
   const E = [B[0] + distanceAB, B[1]];
   return {
     title: 'Proposition 1',
-    prose: [
-["To construct an equilateral triangle on a given finite straight-line."],
-["Let {AB line} be the given finite straight-line."],
-["So it is required to construct an equilateral triangle on the straight-line {AB line}."],
-["Let the circle {BCD circle A} with center {A point} and radius {AB line} have been drawn [Post. 3], and again let the circle {ACE  circle B} with center {B point} and radius {BA line} have been drawn [Post. 3].",
-  "And let the straight-lines {CA line} and {CB line} have been joined from the point {C point}, where the circles cut one another, to the points {A point} and {B point} (respectively) [Post. 1]."],
-["And since the point {A point} is the center of the circle {CDB circle A}, {AC line} is equal to {AB line} [Def. 1.15].",
-  "Again, since the point {B point} is the center of the circle {CAE circle B}, {BC line} is equal to {BA line} [Def. 1.15].",
-  "But {CA line} was also shown (to be) equal to {AB line}.",
-  "Thus, {CA line} and {CB line} are each equal to {AB line}.",
-  "But things equal to the same thing are also equal to one another [C.N.  1]. Thus, {CA line} is also equal to {CB line}.",
-  "Thus, the three (straight-lines) {CA line}, {AB line}, and {BC line} are equal to one another."],
-["Thus, the triangle {ABC polygon} is equilateral, and has been constructed on the given finite straight-line {AB line}. (Which is) the very thing it was required to do."]
-    ],
+    prose: processProse(prose_prop1),
     points: { A, B, C, D, E },
     shapes: [
       line(A, B),
@@ -134,6 +126,7 @@ let proposition1 = (function()
   }
 })();
 
+import prose_prop2 from './prose/proposition2'
 let proposition2 = (function()
 {
   const A = [200, 270];
@@ -152,23 +145,7 @@ let proposition2 = (function()
   const K = vec2sub(D, vec2scale(de, radius2/ vec2len(de)));
   return {
     title: 'Proposition 2',
-    prose: [
-["To place a straight-line equal to a given straight-line at a given point."],
-["Let {A point} be the given point, and {BC line} the given straight-line.",
-  " So it is required to place a straight-line at point {A point} equal to the given straight-line {BC line}."],
-["For let the straight-line {AB line} have been joined from point {A point} to point {B point} [Post. 1], and let the equilateral triangle {DAB polygon} have been been constructed upon it [Prop. 1.1].",
-  " And let the straight-lines {AE line} and {BF line} have been produced in a straight-line with {DA line} and {DB line} (respectively) [Post. 2].",
-  " And let the circle {CGH circle B} with center {B point} and radius {BC line} have been drawn [Post. 3],",
-  " and again let the circle {GKL circle D} with center {D point} and radius {DG line} have been drawn [Post. 3]."],
-["Therefore, since the point {B point} is the center of (the circle) {CGH circle B}, {BC line} is equal to {BG line} [Def. 1.15].",
-  " Again, since the point {D point} is the center of the circle {GKL circle D}, {DL line} is equal to {DG line} [Def. 1.15].",
-  " And within these, {DA line} is equal to {DB line}.",
-  " Thus, the remainder {AL line} is equal to the remainder {BG line} [C.N. 3].",
-  " But {BC line} was also shown (to be) equal to {BG line}.",
-  " Thus, {AL line} and {BC line} are each equal to {BG line}.",
-  " But things equal to the same thing are also equal to one another [C.N. 1]. Thus, {AL line} is also equal to {BC line}."],
-["Thus, the straight-line {AL line}, equal to the given straight-line {BC line}, has been placed at the given point {A point}. (Which is) the very thing it was required to do."]
-    ],
+    prose: processProse(prose_prop2),
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
       line(B, C),
@@ -193,6 +170,8 @@ let proposition2 = (function()
   }
 })();
 
+import prose_prop3 from './prose/proposition3'
+
 let proposition3 = (function()
 {
   const A = [200, 250];
@@ -207,16 +186,7 @@ let proposition3 = (function()
   const F = vec2add(A, vec2rot(cg, Math.PI * 1/3));
   return {
     title: "Proposition 3",
-    prose: [
-["For two given unequal straight-lines, to cut off from the greater a straight-line equal to the lesser."],
-["Let {AB line} and {CG line} be the two given unequal straight-lines, of which let the greater be {AB line}.",
-  "So it is required to cut off a straight-line equal to the lesser {CG line} from the greater {AB line}."],
-["Let the line {AD line}, equal to the straight-line {CG line}, have been placed at point {A point} [Prop. 1.2].",
-  "And let the circle {DEF circle A} have been drawn with center {A point} and radius {AD line} [Post.3]."],
-["And since point {A point} is the center of circle {DEF circle A}, {AE line} is equal to {AD line} [Def. 1.15].",
-  "But, {CG line} is also equal to {AD line}. Thus, {AE line} and {CG line} are each equal to {AD line}. So {AE line} is also equal to {CG line} [C.N. 1]."],
-["Thus, for two given unequal straight-lines, {AB line} and {CG line}, the (straight-line) {AE line}, equal to the lesser {CG line}, has been cut off from the greater {AB line}. (Which is) the very thing it was required to do."],
-    ],
+    prose: processProse(prose_prop3),
     points: {A, B, C, D, E, F, G},
     shapes: [
       line(A, B),
@@ -302,7 +272,7 @@ function draw(p)
       let sentenceHTML = sentenceProse.replace(/\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g, highlightReference);
 
       let el = document.createElement('span');
-      el.innerHTML = sentenceHTML;
+      el.innerHTML = sentenceHTML + ' ';
       if(isFocusSentence)
       {
         nearHighlights = [...sentenceMarks];
