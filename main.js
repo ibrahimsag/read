@@ -41,7 +41,7 @@ const svg = document.getElementById('figure');
 
 const rsvg = rough.svg(svg);
 
-const roughopts = { roughness: 0.1, stroke: colors.dim };
+const roughopts = { roughness: 0.1, stroke: colors.dim, strokeWidth: 1 };
 
 function curve(vs, o)
 {
@@ -96,7 +96,7 @@ function makeHighlight(p, name, typ, arg1) {
     let [d1, d2] = [a, b].map(x => vec2sub(x, o));
     let d = vec2scale(vec2add(d1, d2), 0.5);
     let ps = [d1, d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return curve([...ps]);
+    return curve([...ps], {strokeWidth: 4});
   }
   else
   {
@@ -357,7 +357,7 @@ function draw(p)
   {
     let shape = makeHighlight(p, ...highlight);
     shape.options["stroke"] = colors.bright;
-    shape.options["strokeWidth"] = 2;
+    shape.options["strokeWidth"] += 1;
     shapes.push(shape);
   }
 
