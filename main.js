@@ -193,6 +193,67 @@ let proposition2 = (function()
   }
 })();
 
+let proposition3 = (function()
+{
+  const A = [200, 250];
+  const B = [450, 250];
+  const C = [180, 50];
+  const G = [330, 50];
+  const cg = vec2sub(G, C);
+  const ae = vec2rot(cg, -Math.PI * 3/4)
+  const r = vec2len(ae);
+  const D = vec2add(A, ae);
+  const E = vec2add(A, cg);
+  const F = vec2add(A, vec2rot(cg, Math.PI * 1/3));
+  return {
+    title: "Proposition 3",
+    prose: [
+["For two given unequal straight-lines, to cut off from the greater a straight-line equal to the lesser."],
+["Let {AB line} and {CG line} be the two given unequal straight-lines, of which let the greater be {AB line}.",
+  "So it is required to cut off a straight-line equal to the lesser {CG line} from the greater {AB line}."],
+["Let the line {AD line}, equal to the straight-line {CG line}, have been placed at point {A point} [Prop. 1.2].",
+  "And let the circle {DEF circle A} have been drawn with center {A point} and radius {AD line} [Post.3]."],
+["And since point {A point} is the center of circle {DEF circle A}, {AE line} is equal to {AD line} [Def. 1.15].",
+  "But, {CG line} is also equal to {AD line}. Thus, {AE line} and {CG line} are each equal to {AD line}. So {AE line} is also equal to {CG line} [C.N. 1]."],
+["Thus, for two given unequal straight-lines, {AB line} and {CG line}, the (straight-line) {AE line}, equal to the lesser {CG line}, has been cut off from the greater {AB line}. (Which is) the very thing it was required to do."],
+    ],
+    points: {A, B, C, D, E, F, G},
+    shapes: [
+      line(A, B),
+      line(C, G),
+      line(A, D),
+      circle(A, 2 * r)
+    ],
+    letters: {
+      A: [3.5, 0.7],
+      B: [-0.5, 1.3],
+      C: [0, 1.3],
+      D: [1.7, 1],
+      E: [0.1, 1.5],
+      F: [6, 1],
+      G: [0, 1.3],
+    }
+  };
+})();
+
+let propositionX = (function()
+{
+  const A = [100, 100]
+  return {
+    title: "Proposition X",
+    prose: [
+      ["{A point}"],
+    ],
+    points: {A},
+    shapes: [
+      circle(A, 100)
+    ],
+    letters: {
+      A: [0, 1.5]
+    }
+  }
+})();
+
 let o = 0;
 
 function draw(p)
@@ -342,4 +403,4 @@ function pressHandler(p)
   }
 }
 
-draw(proposition1);
+draw(proposition3);
