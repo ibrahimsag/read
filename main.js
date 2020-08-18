@@ -43,19 +43,24 @@ const rsvg = rough.svg(svg);
 
 const roughopts = { roughness: 0.1, stroke: colors.dim };
 
+function curve(vs, o)
+{
+  return rsvg.generator.curve(vs, Object.assign(Object.assign({}, roughopts), o));
+}
+
 function polygon(vs, o)
 {
-  return rsvg.generator.polygon(vs, Object.assign(roughopts, o));
+  return rsvg.generator.polygon(vs, Object.assign(Object.assign({}, roughopts), o));
 }
 
 function line(a, b, o)
 {
-  return rsvg.generator.line(a[0], a[1], b[0], b[1], Object.assign(roughopts, o));
+  return rsvg.generator.line(a[0], a[1], b[0], b[1], Object.assign(Object.assign({}, roughopts), o));
 }
 
 function circle(c, d, o)
 {
-  return rsvg.generator.circle(c[0], c[1], d, Object.assign(roughopts, o));
+  return rsvg.generator.circle(c[0], c[1], d, Object.assign(Object.assign({}, roughopts), o));
 }
 
 function makeHighlight(p, name, typ, arg1) {
@@ -85,6 +90,14 @@ function makeHighlight(p, name, typ, arg1) {
   {
     return polygon(name.split('').map(l => p.points[l]));
   }
+  else if(typ == 'angle')
+  {
+    let [a, o, b] = name.split('').map(l => p.points[l]);
+    let [d1, d2] = [a, b].map(x => vec2sub(x, o));
+    let d = vec2scale(vec2add(d1, d2), 0.5);
+    let ps = [d1, d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
+    return curve([...ps]);
+  }
   else
   {
     return p.highlights[typ + ' ' + name];
@@ -96,7 +109,8 @@ function processProse(t)
   return t.split('\n\n').map(p => p.split('\n'));
 }
 
-import prose_prop1 from './prose/proposition1'
+import prose from './prose.js'
+
 let proposition1 = (function()
 {
   const distanceAB = 160;
@@ -107,7 +121,7 @@ let proposition1 = (function()
   const E = [B[0] + distanceAB, B[1]];
   return {
     title: 'Proposition 1',
-    prose: processProse(prose_prop1),
+    prose: processProse(prose.proposition1),
     points: { A, B, C, D, E },
     shapes: [
       line(A, B),
@@ -126,7 +140,6 @@ let proposition1 = (function()
   }
 })();
 
-import prose_prop2 from './prose/proposition2'
 let proposition2 = (function()
 {
   const A = [200, 270];
@@ -145,7 +158,7 @@ let proposition2 = (function()
   const K = vec2sub(D, vec2scale(de, radius2/ vec2len(de)));
   return {
     title: 'Proposition 2',
-    prose: processProse(prose_prop2),
+    prose: processProse(prose.proposition2),
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
       line(B, C),
@@ -170,8 +183,6 @@ let proposition2 = (function()
   }
 })();
 
-import prose_prop3 from './prose/proposition3'
-
 let proposition3 = (function()
 {
   const A = [200, 250];
@@ -186,7 +197,7 @@ let proposition3 = (function()
   const F = vec2add(A, vec2rot(cg, Math.PI * 1/3));
   return {
     title: "Proposition 3",
-    prose: processProse(prose_prop3),
+    prose: processProse(prose.proposition3),
     points: {A, B, C, D, E, F, G},
     shapes: [
       line(A, B),
@@ -204,6 +215,42 @@ let proposition3 = (function()
       G: [0, 1.3],
     }
   };
+})();
+
+let proposition4 = (function()
+{
+  const A = [170, 50];
+  const B = [50, 200];
+  const C = [220, 200];
+  const D = vec2add(A, [230, 0]);
+  const E = vec2add(B, [230, 0]);
+  const F = vec2add(C, [230, 0]);
+  const ef = vec2sub(F, E);
+  let ps = [E];
+  for(var i = 0; i < 6; i++)
+  {
+    ps.push(vec2add(vec2add(E, vec2scale(ef, i/6)), [0, 20*Math.sin(Math.PI * (i/6))]));
+  }
+  ps.push(F)
+
+  return {
+    title: "Proposition 4",
+    prose: processProse(prose.proposition4),
+    points: {A, B, C, D, E, F},
+    shapes: [
+      polygon([A, B, C]),
+      polygon([D, E, F]),
+      curve(ps)
+    ],
+    letters: {
+      A: [.7, 1.2],
+      B: [2.4, 1],
+      C: [-0.5, 1.2],
+      D: [.7, 1.2],
+      E: [2.4, 1],
+      F: [-0.5, 1.2]
+    }
+  }
 })();
 
 let propositionX = (function()
@@ -373,4 +420,4 @@ function pressHandler(p)
   }
 }
 
-draw(proposition3);
+draw(proposition4);
