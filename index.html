@@ -3,13 +3,38 @@
     <style>
 body {
   background: black;
-  color: white;
-    margin: 0;
+  color: #555;
+  margin: 0;
+  font-family: Futura;
+}
+#container {
+  width: 1024px;
+  border-right: 1px solid #222;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+#figure {
+  position: absolute;
+  top: 0;
+  left: 512px;
+}
+#prose {
+  width: 512px;
+  display: block;
+  padding: 12px;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
 }
     </style>
   </head>
   <body>
-    <canvas width="512" height="512" id="figure"></canvas>
-    <script src="bundle.js"></script>
+    <div id="container">
+      <div id="prose"> </div>
+      <svg width="512" height="512" id="figure"></svg>
+    </div>
+    <script src="build/bundle.js"></script>
   </body>
 </html>

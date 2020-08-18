@@ -8,7 +8,8 @@ export default {
     commonjs()
   ],
   output: {
-    file: 'bundle.js',
-    format: 'iife'
+    file: 'build/bundle.js',
+    format: 'cjs',
+    sourcemap: true,
   }
 };

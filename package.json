@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "hsluv": "^0.1.0",
     "roughjs": "^4.3.1"
   },
   "devDependencies": {
