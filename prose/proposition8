@@ -1,0 +1,14 @@
+If two triangles have two corresponding sides equal, and also have equal bases, then the angles encompassed by the equal straight-lines will also be equal.
+
+Let {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.
+(That is) {AB line} to {DE line}, and {AC line} to {DF line}.
+Let them also have the base {BC line} equal to the base {EF line}.
+I say that the angle {BAC angle} is also equal to the angle {EDF angle}.
+
+For if triangle {ABC polygon} is applied to triangle {DEF polygon}, the point {B point} being placed on point {E point}, and the straight-line {BC line} on {EF line}, point {C point} will also coincide with {F point}, on account of {BC line} being equal to {EF line}.
+So (because of) {BC line} coinciding with {EF line}, (the sides) {BA line} and {CA line} will also coincide with {ED line} and {DF line} (respectively).
+For if base {BC line} coincides with base {EF line}, but the sides {AB line} and {AC line} do not coincide with {ED line} and {DF line} (respectively), but miss like {EG line} and {GF line}, then we will have constructed upon the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines, and (meeting) at a different point on the same side (of the straight-line), but having the same ends. But (such straight-lines) cannot be constructed [Prop. 1.7].
+Thus, the base {BC line} being applied to the base {EF line}, the sides {BA line} and {AC line} cannot not coincide with {ED line} and {DF line} (respectively). Thus, they will coincide.
+So the angle {BAC angle} will also coincide with angle {EDF angle}, and they will be equal [C.N. 4].
+
+Thus, if two triangles have two corresponding sides equal, and have equal bases, then the angles encom- passed by the equal straight-lines will also be equal. (Which is) the very thing it was required to show.

@@ -97,7 +97,7 @@ function makeHighlight(p, name, typ, arg1) {
     let dir = vec2sub(d2, d1);
     let d = [0.25, 0.5, 0.75].map(l => vec2add(d1, vec2scale(dir, l)));
     let ps = [d1, ...d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return [line(o, a), line(o, b), curve(ps, {strokeWidth: 10})];
+    return [curve(ps, {strokeWidth: 10}), line(o, a), line(o, b)];
   }
   else
   {
@@ -117,6 +117,7 @@ import prop4 from './prose/proposition4';
 import prop5 from './prose/proposition5';
 import prop6 from './prose/proposition6';
 import prop7 from './prose/proposition7';
+import prop8 from './prose/proposition8';
 
 let book1 = [
 (function()
@@ -347,6 +348,39 @@ let book1 = [
 
 (function()
 {
+  const A = [140, 50];
+  const B = [70, 200];
+  const C = [220, 150];
+  const D = vec2add(A, [230, 0]);
+  const E = vec2add(B, [230, 0]);
+  const F = vec2add(C, [230, 0]);
+  const fg = vec2rot(vec2scale(vec2sub(D, F), 0.8), Math.PI/10);
+  const G = vec2add(F, fg);
+
+  return {
+    title: "Proposition 8",
+    prose: processProse(prop8),
+    points: {A, B, C, D, E, F, G},
+    shapes: [
+      polygon([A, B, C]),
+      polygon([D, E, F]),
+      polygon([G, E, F]),
+    ],
+    letters: {
+      A: [.7, 1.2],
+      B: [2.4, 1],
+      C: [-0.5, 1.2],
+      D: [.7, 1.2],
+      E: [2.4, 1],
+      F: [-0.5, 1.2],
+      G: [0.5, 1.2]
+    }
+  }
+})(),
+
+
+(function()
+{
   const A = [100, 100]
   return {
     title: "Proposition X",
@@ -416,21 +450,13 @@ function draw(p)
 
       let el = document.createElement('span');
       el.innerHTML = sentenceHTML + ' ';
-      if(isFocusSentence)
+      if(isFocusSentence || refCount == o)
       {
         nearHighlights = [...sentenceMarks];
         el.style['color'] = colors.sentence;
       }
 
-      if(sentenceWithoutRef)
-      {
-        if(refCount == o)
-        {
-          el.style['color'] = colors.sentence;
-        }
-        refCount++;
-      }
-
+      refCount++;
       paragraphEl.appendChild(el);
     });
     proseEl.appendChild(paragraphEl);
