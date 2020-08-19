@@ -7,18 +7,16 @@ and (angle) {CBD angle} to {BCE angle}.
 For let the point {F point} have been taken somewhere on {BD line}, and let {AG line} have been cut off from the greater {AE line}, equal to the lesser {AF line} [Prop. 1.3].
 Also, let the straight-lines {FC line} and {GB line} have been joined [Post. 1].
 
-In fact, since {AF line} is equal to {AG line}, and {AB line} to {AC line}, the two (straight-lines) {FA line}, {AC line} are equal to the two (straight-lines) {GA line}, {AB line}, respectively. They also encompass a common angle {FAG angle}.
+In fact, since {AF line} is equal to {AG line}, and {AB line} to {AC line}, the two (straight-lines) {FA line}, {AC line} are equal to the two (straight-lines) {GA line}, {AB line}, respectively.
+They also encompass a common angle {FAG angle}.
 Thus, the base {FC line} is equal to the base {GB line}, and the triangle {AFC polygon} will be equal to the triangle {AGB polygon}, and the remaining angles subtendend by the equal sides will be equal to the corresponding remaining angles [Prop. 1.4].
 (That is) {ACF angle} to {ABG angle}, and {AFC angle} to {AGB angle}.
 And since the whole of {AF line} is equal to the whole of {AG line}, within which {AB line} is equal to {AC line}, the remainder {BF line} is thus equal to the remainder {CG line} [C.N. 3].
 But {FC line} was also shown (to be) equal to {GB line}.
 So the two (straight-lines) {BF line}, {FC line} are equal to the two (straight-lines) {CG line}, {GB line}, respectively, and the angle {BFC angle} (is) equal to the angle {CGB angle}, and the base {BC line} is common to them.
 Thus, the triangle {BFC polygon} will be equal to the triangle {CGB polygon}, and the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles [Prop. 1.4].
-Thus, {FBC angle} is equal to {GCB angle},
-and {BCF angle} to {CBG angle}.
-Therefore, since the whole angle {ABG angle} was shown (to be) equal to the whole angle {ACF angle},
-within which {CBG angle} is equal to {BCF angle},
-the remainder {ABC angle} is thus equal to the remainder {ACB angle} [C.N. 3].
+Thus, {FBC angle} is equal to {GCB angle}, and {BCF angle} to {CBG angle}.
+Therefore, since the whole angle {ABG angle} was shown (to be) equal to the whole angle {ACF angle}, within which {CBG angle} is equal to {BCF angle}, the remainder {ABC angle} is thus equal to the remainder {ACB angle} [C.N. 3].
 And they are at the base of triangle {ABC polygon}.
 And {FBC angle} was also shown (to be) equal to {GCB angle}. And they are under the base.
 
