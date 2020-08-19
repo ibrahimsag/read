@@ -1,0 +1,13 @@
+To cut a given rectilinear angle in half.
+
+Let {BAC angle} be the given rectilinear angle. So it is required to cut it in half.
+
+Let the point {D point} have been taken somewhere on {AB line}, and let {AE line}, equal to {AD line}, have been cut off from {AC line} [Prop. 1.3], and let {DE line} have been joined.
+And let the equilateral triangle {DEF polygon} have been constructed upon {DE line} [Prop. 1.1], and let {AF line} have been joined.
+I say that the angle {BAC angle} has been cut in half by the straight-line {AF line}.
+
+For since {AD line} is equal to {AE line}, and {AF line} is common, the two (straight-lines) {DA line}, {AF line} are equal to the two (straight-lines) {EA line}, {AF line}, respectively.
+And the base {DF line} is equal to the base {EF line}.
+Thus, angle {DAF angle} is equal to angle {EAF angle} [Prop. 1.8].
+
+Thus, the given rectilinear angle {BAC angle} has been cut in half by the straight-line {AF line}. (Which is) the very thing it was required to do.

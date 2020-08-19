@@ -1,109 +1,9 @@
-import rough from 'roughjs';
-import hsluv from 'hsluv';
-
-let colors = {
-  bright: hsluv.hsluvToHex([0, 0, 90]),
-  sentence: hsluv.hsluvToHex([0, 0, 50]),
-  dim: hsluv.hsluvToHex([0, 0, 30])
-};
-
-function vec2sub(a, b)
-{
-  return [a[0] - b[0], a[1] - b[1]];
-}
-
-function vec2add(a, b)
-{
-  return [a[0] + b[0], a[1] + b[1]];
-}
-
-function vec2rot(v, a)
-{
-  return [Math.cos(a) * v[0] - Math.sin(a) * v[1], Math.sin(a) * v[0] + Math.cos(a) * v[1]];
-}
-
-function vec2scale(v, s)
-{
-  return [s * v[0], s * v[1]];
-}
-
-function vec2len(v)
-{
-  return Math.sqrt(v[0] * v[0] + v[1] * v[1]);
-}
-
-function vec2dist(a, b)
-{
-  return vec2len(vec2sub(b, a));
-}
+import vec2 from './vec2.js';
+import makeRG from './makeRG.js';
+import makeGround from './makeGround.js';
 
 const svg = document.getElementById('figure');
-
-const rsvg = rough.svg(svg);
-
-const roughopts = { roughness: 0.1, stroke: colors.dim, strokeWidth: 1 };
-
-function curve(vs, o)
-{
-  return rsvg.generator.curve(vs, Object.assign(Object.assign({}, roughopts), o));
-}
-
-function polygon(vs, o)
-{
-  return rsvg.generator.polygon(vs, Object.assign(Object.assign({}, roughopts), o));
-}
-
-function line(a, b, o)
-{
-  return rsvg.generator.line(a[0], a[1], b[0], b[1], Object.assign(Object.assign({}, roughopts), o));
-}
-
-function circle(c, d, o)
-{
-  return rsvg.generator.circle(c[0], c[1], d, Object.assign(Object.assign({}, roughopts), o));
-}
-
-function makeHighlight(p, name, typ, arg1) {
-  if(typ === 'point')
-  {
-    return [circle(p.points[name], 5)];
-  }
-  else if(typ == 'line')
-  {
-    return [line(p.points[name[0]], p.points[name[1]])];
-  }
-  else if(typ == 'circle')
-  {
-    let c = arg1.trim();
-    if(/[A-Z]/.test(c))
-    {
-      let center = p.points[c];
-      let a = p.points[name[0]];
-      return [circle(center, 2 * vec2dist(center, a))];
-    }
-    else
-    {
-      return undefined;
-    }
-  }
-  else if(typ == 'polygon')
-  {
-    return [polygon(name.split('').map(l => p.points[l]))];
-  }
-  else if(typ == 'angle')
-  {
-    let [a, o, b] = name.split('').map(l => p.points[l]);
-    let [d1, d2] = [a, b].map(x => vec2sub(x, o));
-    let dir = vec2sub(d2, d1);
-    let d = [0.25, 0.5, 0.75].map(l => vec2add(d1, vec2scale(dir, l)));
-    let ps = [d1, ...d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return [curve(ps, {strokeWidth: 10}), line(o, a), line(o, b)];
-  }
-  else
-  {
-    return p.highlights[typ + ' ' + name];
-  }
-}
+const rg = makeRG(svg);
 
 function processProse(t)
 {
@@ -118,6 +18,8 @@ import prop5 from './prose/proposition5';
 import prop6 from './prose/proposition6';
 import prop7 from './prose/proposition7';
 import prop8 from './prose/proposition8';
+import prop9 from './prose/proposition9';
+import prop10 from './prose/proposition10';
 
 let book1 = [
 (function()
@@ -133,11 +35,11 @@ let book1 = [
     prose: processProse(prop1),
     points: { A, B, C, D, E },
     shapes: [
-      line(A, B),
-      line(B, C),
-      line(C, A),
-      circle(A, distanceAB * 2),
-      circle(B, distanceAB * 2),
+      rg.line(A, B),
+      rg.line(B, C),
+      rg.line(C, A),
+      rg.circle(A, distanceAB * 2),
+      rg.circle(B, distanceAB * 2),
     ],
     letters: {
       A: [2.5],
@@ -154,28 +56,28 @@ let book1 = [
   const A = [200, 270];
   const B = [250, 230];
   const C = [250, 120];
-  const D = vec2add(A, vec2rot(vec2sub(B, A), -Math.PI / 3));
-  const E = vec2add(D, vec2scale(vec2sub(A, D), 4));
-  const F = vec2add(D, vec2scale(vec2sub(B, D), 4.5));
-  const bf = vec2sub(B, F);
-  const radius1 = vec2dist(B, C);
-  const G = vec2add(B, vec2scale(bf, -radius1/ vec2len(bf)));
-  const H = vec2add(B, vec2scale(bf, radius1/ vec2len(bf)));
-  const de = vec2sub(E, D);
-  const radius2 = vec2dist(D, G);
-  const L = vec2sub(D, vec2scale(de, -radius2/ vec2len(de)));
-  const K = vec2sub(D, vec2scale(de, radius2/ vec2len(de)));
+  const D = vec2.add(A, vec2.rot(vec2.sub(B, A), -Math.PI / 3));
+  const E = vec2.add(D, vec2.scale(vec2.sub(A, D), 4));
+  const F = vec2.add(D, vec2.scale(vec2.sub(B, D), 4.5));
+  const bf = vec2.sub(B, F);
+  const radius1 = vec2.dist(B, C);
+  const G = vec2.add(B, vec2.scale(bf, -radius1/ vec2.len(bf)));
+  const H = vec2.add(B, vec2.scale(bf, radius1/ vec2.len(bf)));
+  const de = vec2.sub(E, D);
+  const radius2 = vec2.dist(D, G);
+  const L = vec2.sub(D, vec2.scale(de, -radius2/ vec2.len(de)));
+  const K = vec2.sub(D, vec2.scale(de, radius2/ vec2.len(de)));
   return {
     title: 'Proposition 2',
     prose: processProse(prop2),
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
-      line(B, C),
-      line(B, A),
-      line(D, E),
-      line(D, F),
-      circle(B, 2 * radius1),
-      circle(D, 2 * radius2)
+      rg.line(B, C),
+      rg.line(B, A),
+      rg.line(D, E),
+      rg.line(D, F),
+      rg.circle(B, 2 * radius1),
+      rg.circle(D, 2 * radius2)
     ],
     letters: {
       A: [3, 0.7],
@@ -198,21 +100,21 @@ let book1 = [
   const B = [450, 250];
   const C = [180, 50];
   const G = [330, 50];
-  const cg = vec2sub(G, C);
-  const ae = vec2rot(cg, -Math.PI * 3/4)
-  const r = vec2len(ae);
-  const D = vec2add(A, ae);
-  const E = vec2add(A, cg);
-  const F = vec2add(A, vec2rot(cg, Math.PI * 1/3));
+  const cg = vec2.sub(G, C);
+  const ae = vec2.rot(cg, -Math.PI * 3/4)
+  const r = vec2.len(ae);
+  const D = vec2.add(A, ae);
+  const E = vec2.add(A, cg);
+  const F = vec2.add(A, vec2.rot(cg, Math.PI * 1/3));
   return {
     title: "Proposition 3",
     prose: processProse(prop3),
     points: {A, B, C, D, E, F, G},
     shapes: [
-      line(A, B),
-      line(C, G),
-      line(A, D),
-      circle(A, 2 * r)
+      rg.line(A, B),
+      rg.line(C, G),
+      rg.line(A, D),
+      rg.circle(A, 2 * r)
     ],
     letters: {
       A: [3.5, 0.7],
@@ -231,14 +133,14 @@ let book1 = [
   const A = [170, 50];
   const B = [50, 200];
   const C = [220, 200];
-  const D = vec2add(A, [230, 0]);
-  const E = vec2add(B, [230, 0]);
-  const F = vec2add(C, [230, 0]);
-  const ef = vec2sub(F, E);
+  const D = vec2.add(A, [230, 0]);
+  const E = vec2.add(B, [230, 0]);
+  const F = vec2.add(C, [230, 0]);
+  const ef = vec2.sub(F, E);
   let ps = [E];
   for(var i = 0; i < 6; i++)
   {
-    ps.push(vec2add(vec2add(E, vec2scale(ef, i/6)), [0, 20*Math.sin(Math.PI * (i/6))]));
+    ps.push(vec2.add(vec2.add(E, vec2.scale(ef, i/6)), [0, 20*Math.sin(Math.PI * (i/6))]));
   }
   ps.push(F)
 
@@ -247,9 +149,9 @@ let book1 = [
     prose: processProse(prop4),
     points: {A, B, C, D, E, F},
     shapes: [
-      polygon([A, B, C]),
-      polygon([D, E, F]),
-      curve(ps)
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.curve(ps)
     ],
     letters: {
       A: [.7, 1.2],
@@ -267,22 +169,22 @@ let book1 = [
   const A = [256, 50];
   const B = [206, 180];
   const C = [306, 180];
-  const ab = vec2sub(B, A);
-  const ac = vec2sub(C, A);
-  const D = vec2add(A, vec2scale(ab, 2.5));
-  const E = vec2add(A, vec2scale(ac, 2.5));
-  const F = vec2add(A, vec2scale(ab, 1.5));
-  const G = vec2add(A, vec2scale(ac, 1.5));
+  const ab = vec2.sub(B, A);
+  const ac = vec2.sub(C, A);
+  const D = vec2.add(A, vec2.scale(ab, 2.5));
+  const E = vec2.add(A, vec2.scale(ac, 2.5));
+  const F = vec2.add(A, vec2.scale(ab, 1.5));
+  const G = vec2.add(A, vec2.scale(ac, 1.5));
   return {
     title: "Proposition 5",
     prose: processProse(prop5),
     points: { A, B, C, D, E, F, G },
     shapes: [
-      line(B, C),
-      line(A, D),
-      line(A, E),
-      line(F, C),
-      line(B, G)
+      rg.line(B, C),
+      rg.line(A, D),
+      rg.line(A, E),
+      rg.line(F, C),
+      rg.line(B, G)
     ],
     letters: {
       A: [0.9, 1.5],
@@ -301,15 +203,15 @@ let book1 = [
   const A = [256, 50];
   const B = [106, 280];
   const C = [406, 280];
-  const ab = vec2sub(B, A);
-  const D = vec2add(A, vec2scale(ab, 0.3));
+  const ab = vec2.sub(B, A);
+  const D = vec2.add(A, vec2.scale(ab, 0.3));
   return {
     title: "Proposition 6",
     prose: processProse(prop6),
     points: { A, B, C, D },
     shapes: [
-      polygon([A, B, C]),
-      line(C, D)
+      rg.polygon([A, B, C]),
+      rg.line(C, D)
     ],
     letters: {
       A: [0.9, 1.5],
@@ -325,17 +227,17 @@ let book1 = [
   const A = [106, 280];
   const B = [406, 280];
   const C = [226, 50];
-  const bc = vec2rot(vec2sub(C, B), Math.PI/10);
-  const D = vec2add(B, vec2scale(bc, 0.8));
+  const bc = vec2.rot(vec2.sub(C, B), Math.PI/10);
+  const D = vec2.add(B, vec2.scale(bc, 0.8));
   return {
     title: "Proposition 7",
     prose: processProse(prop7),
     points: { A, B, C, D },
     shapes: [
-      polygon([A, B, C]),
-      line(B, D),
-      line(C, D),
-      line(A, D)
+      rg.polygon([A, B, C]),
+      rg.line(B, D),
+      rg.line(C, D),
+      rg.line(A, D)
     ],
     letters: {
       A: [2.4, 1],
@@ -351,20 +253,20 @@ let book1 = [
   const A = [140, 50];
   const B = [70, 200];
   const C = [220, 150];
-  const D = vec2add(A, [230, 0]);
-  const E = vec2add(B, [230, 0]);
-  const F = vec2add(C, [230, 0]);
-  const fg = vec2rot(vec2scale(vec2sub(D, F), 0.8), Math.PI/10);
-  const G = vec2add(F, fg);
+  const D = vec2.add(A, [230, 0]);
+  const E = vec2.add(B, [230, 0]);
+  const F = vec2.add(C, [230, 0]);
+  const fg = vec2.rot(vec2.scale(vec2.sub(D, F), 0.8), Math.PI/10);
+  const G = vec2.add(F, fg);
 
   return {
     title: "Proposition 8",
     prose: processProse(prop8),
     points: {A, B, C, D, E, F, G},
     shapes: [
-      polygon([A, B, C]),
-      polygon([D, E, F]),
-      polygon([G, E, F]),
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.polygon([G, E, F]),
     ],
     letters: {
       A: [.7, 1.2],
@@ -378,214 +280,67 @@ let book1 = [
   }
 })(),
 
+(function()
+{
+  const A = [156, 50];
+  const B = [126, 380];
+  const C = [356, 300];
+  const ad = vec2.scale(vec2.sub(B, A), 0.5);
+  const ac = vec2.sub(C, A);
+  const ae = vec2.scale(ac, vec2.len(ad) / vec2.len(ac));
+  const D = vec2.add(A, ad);
+  const E = vec2.add(A, ae);
+  const de = vec2.sub(E, D);
+  const F = vec2.add(D, vec2.rot(de, Math.PI/3));
+  return {
+    title: "Proposition 9",
+    prose: processProse(prop9),
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.polygon([D, E, F]),
+      rg.line(A, F)
+    ],
+    letters: {
+      A: [0.9, 1.5],
+      B: [2.4, 1],
+      C: [-0.2, 1.2],
+      D: [2.4, 1],
+      E: [-0.2, 1.2],
+      F: [5.5, .5]
+    }
+  }
+})(),
 
 (function()
 {
-  const A = [100, 100]
+  const A = [126, 300];
+  const B = [356, 300];
+  const ab = vec2.sub(B, A);
+  const ac = vec2.rot(ab, -Math.PI/3);
+  const C = vec2.add(A, ac);
+  const ad = vec2.scale(ab, 0.5);
+  const D = vec2.add(A, ad);
+
   return {
-    title: "Proposition X",
-    prose: [
-      ["{A point}"],
-    ],
-    points: {A},
+    title: "Proposition 10",
+    prose: processProse(prop10),
+    points: { A, B, C, D },
     shapes: [
-      circle(A, 100)
+      rg.polygon([A, B, C]),
+      rg.line(C, D)
     ],
     letters: {
-      A: [0, 1.5]
+      A: [2.5],
+      B: [-0.5],
+      C: [0.8, 1.2],
+      D: [5.5, .6]
     }
   }
 })()
 ]
 
+let ground = makeGround(book1, rg, svg);
 
-let o = 0;
-
-function draw(p)
-{
-  let nearHighlights = [];
-  let highlight = [];
-
-  let proseEl = document.querySelector('#prose');
-  proseEl.innerHTML = '';
-
-  let titleEl = document.createElement('h3');
-  titleEl.innerHTML = p.title;
-  titleEl.style['color'] = colors.sentence;
-  proseEl.appendChild(titleEl);
-
-  let refCount = 0;
-  p.prose.forEach(paragraphProse =>
-  {
-    let paragraphEl = document.createElement('p');
-    let content = '';
-    paragraphProse.forEach(sentenceProse =>
-    {
-      let isFocusSentence = false;;
-      let sentenceMarks = [];
-      let sentenceWithoutRef = true;
-      function highlightReference(m, name, typ, arg1)
-      {
-        sentenceMarks.push([name, typ, arg1]);
-
-        let refEl = document.createElement('span');
-        refEl.innerHTML = name;
-        refEl.style['font-style'] = 'italic';
-        refEl.dataset.ref = refCount;
-
-        if(refCount == o)
-        {
-          isFocusSentence = true;
-          refEl.style['color'] = colors.bright;
-
-          highlight = [name, typ, arg1];
-        }
-        refCount++;
-
-        sentenceWithoutRef = false;
-        return refEl.outerHTML;
-      }
-
-      let sentenceHTML = sentenceProse.replace(/\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g, highlightReference);
-
-      let el = document.createElement('span');
-      el.innerHTML = sentenceHTML + ' ';
-      if(isFocusSentence || refCount == o)
-      {
-        nearHighlights = [...sentenceMarks];
-        el.style['color'] = colors.sentence;
-      }
-
-      refCount++;
-      paragraphEl.appendChild(el);
-    });
-    proseEl.appendChild(paragraphEl);
-  })
-
-  if(o < 0)
-  {
-    o = refCount - 1;
-    return draw(p);
-  }
-  else if (o >= refCount && refCount > 0)
-  {
-    o = 0;
-    return draw(p);
-  }
-
-  svg.innerHTML = "";
-
-  let shapes = [...p.shapes];
-
-  nearHighlights.forEach(h =>
-  {
-    makeHighlight(p, ...h).forEach(s =>
-    {
-      if(!(h[1] === 'angle' && s.shape === 'curve'))
-      {
-        s.options["stroke"] = colors.sentence;
-      }
-      shapes.push(s);
-    });
-  });
-
-  if(highlight.length)
-  {
-    makeHighlight(p, ...highlight).forEach(s =>
-    {
-      s.options["stroke"] = colors.bright;
-      s.options["strokeWidth"] += 1;
-      shapes.push(s);
-    });
-  }
-
-  for(var i = 0; i < shapes.length; i++)
-  {
-    svg.appendChild(rsvg.draw(shapes[i]));
-  }
-
-  let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-  let highlightName = highlight.length && highlight[0];
-
-  for(var i in p.letters)
-  {
-    let letter = p.letters[i];
-    let offset;
-    var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    el.setAttribute('font-family', 'Futura');
-    el.setAttribute('font-size', '24px');
-    let fillColor = colors.dim;
-    if(highlightName && highlightName.indexOf(i) > -1)
-    {
-      fillColor = colors.bright;
-    }
-    else if(nearHighlightNames.indexOf(i) > -1)
-    {
-      fillColor = colors.sentence;
-    }
-    el.setAttribute('fill', fillColor);
-    el.textContent = i;
-    svg.appendChild(el);
-
-    if(letter[0] < 8)
-    {
-      let dir = vec2sub(vec2rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
-      let m = el.getBBox();
-      offset = [dir[0] * m.width + 5, dir[1] * 20 - 4];
-    }
-    else
-    {
-      offset = [letter[1], letter[2]];
-    }
-    let pos = vec2add(p.points[i], offset);
-    el.setAttribute('x', pos[0]);
-    el.setAttribute('y', pos[1]);
-  }
-
-  document.onkeypress = pressHandler(p);
-  proseEl.onclick = clickHandler(p);
-}
-
-let ps = book1;
-
-function clickHandler(p)
-{
-  return function(e)
-  {
-    let ref = parseInt(e.srcElement.dataset.ref);
-    if(ref)
-    {
-      o = ref;
-      draw(p);
-    }
-  }
-}
-
-function pressHandler(p)
-{
-  return function(e)
-  {
-    if(e.key == "n")
-    {
-      o = 0;
-      draw(ps[(ps.indexOf(p)-1 + ps.length) % ps.length])
-    }
-    else if(e.key == "m")
-    {
-      o = 0;
-      draw(ps[(ps.indexOf(p)+1) % ps.length])
-    }
-    if(e.key == "j")
-    {
-      o++;
-      draw(p);
-    }
-    else if(e.key == "k")
-    {
-      o--;
-      draw(p);
-    }
-  }
-}
-
-draw(ps[ps.length - 2]);
+ground.draw(0, book1[book1.length - 1]);
