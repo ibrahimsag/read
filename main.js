@@ -66,11 +66,11 @@ function circle(c, d, o)
 function makeHighlight(p, name, typ, arg1) {
   if(typ === 'point')
   {
-    return circle(p.points[name], 5)
+    return [circle(p.points[name], 5)];
   }
   else if(typ == 'line')
   {
-    return line(p.points[name[0]], p.points[name[1]])
+    return [line(p.points[name[0]], p.points[name[1]])];
   }
   else if(typ == 'circle')
   {
@@ -79,7 +79,7 @@ function makeHighlight(p, name, typ, arg1) {
     {
       let center = p.points[c];
       let a = p.points[name[0]];
-      return circle(center, 2 * vec2dist(center, a));
+      return [circle(center, 2 * vec2dist(center, a))];
     }
     else
     {
@@ -88,7 +88,7 @@ function makeHighlight(p, name, typ, arg1) {
   }
   else if(typ == 'polygon')
   {
-    return polygon(name.split('').map(l => p.points[l]));
+    return [polygon(name.split('').map(l => p.points[l]))];
   }
   else if(typ == 'angle')
   {
@@ -97,7 +97,7 @@ function makeHighlight(p, name, typ, arg1) {
     let dir = vec2sub(d2, d1);
     let d = [0.25, 0.5, 0.75].map(l => vec2add(d1, vec2scale(dir, l)));
     let ps = [d1, ...d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return curve(ps, {strokeWidth: 4});
+    return [line(o, a), line(o, b), curve(ps, {strokeWidth: 4})];
   }
   else
   {
@@ -110,9 +110,14 @@ function processProse(t)
   return t.split('\n\n').map(p => p.split('\n'));
 }
 
-import prose from './prose.js'
+import prop1 from './prose/proposition1';
+import prop2 from './prose/proposition2';
+import prop3 from './prose/proposition3';
+import prop4 from './prose/proposition4';
+import prop5 from './prose/proposition5';
 
-let proposition1 = (function()
+let book1 = [
+(function()
 {
   const distanceAB = 160;
   const A = [170, 200];
@@ -122,7 +127,7 @@ let proposition1 = (function()
   const E = [B[0] + distanceAB, B[1]];
   return {
     title: 'Proposition 1',
-    prose: processProse(prose.proposition1),
+    prose: processProse(prop1),
     points: { A, B, C, D, E },
     shapes: [
       line(A, B),
@@ -139,9 +144,9 @@ let proposition1 = (function()
       E: [2.5]
     }
   }
-})();
+})(),
 
-let proposition2 = (function()
+(function()
 {
   const A = [200, 270];
   const B = [250, 230];
@@ -159,7 +164,7 @@ let proposition2 = (function()
   const K = vec2sub(D, vec2scale(de, radius2/ vec2len(de)));
   return {
     title: 'Proposition 2',
-    prose: processProse(prose.proposition2),
+    prose: processProse(prop2),
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
       line(B, C),
@@ -182,9 +187,9 @@ let proposition2 = (function()
       L: [4],
     }
   }
-})();
+})(),
 
-let proposition3 = (function()
+(function()
 {
   const A = [200, 250];
   const B = [450, 250];
@@ -198,7 +203,7 @@ let proposition3 = (function()
   const F = vec2add(A, vec2rot(cg, Math.PI * 1/3));
   return {
     title: "Proposition 3",
-    prose: processProse(prose.proposition3),
+    prose: processProse(prop3),
     points: {A, B, C, D, E, F, G},
     shapes: [
       line(A, B),
@@ -216,9 +221,9 @@ let proposition3 = (function()
       G: [0, 1.3],
     }
   };
-})();
+})(),
 
-let proposition4 = (function()
+(function()
 {
   const A = [170, 50];
   const B = [50, 200];
@@ -236,7 +241,7 @@ let proposition4 = (function()
 
   return {
     title: "Proposition 4",
-    prose: processProse(prose.proposition4),
+    prose: processProse(prop4),
     points: {A, B, C, D, E, F},
     shapes: [
       polygon([A, B, C]),
@@ -252,9 +257,43 @@ let proposition4 = (function()
       F: [-0.5, 1.2]
     }
   }
-})();
+})(),
 
-let propositionX = (function()
+(function()
+{
+  const A = [256, 50];
+  const B = [206, 180];
+  const C = [306, 180];
+  const ab = vec2sub(B, A);
+  const ac = vec2sub(C, A);
+  const D = vec2add(A, vec2scale(ab, 2.5));
+  const E = vec2add(A, vec2scale(ac, 2.5));
+  const F = vec2add(A, vec2scale(ab, 1.5));
+  const G = vec2add(A, vec2scale(ac, 1.5));
+  return {
+    title: "Proposition 5",
+    prose: processProse(prop5),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      line(B, C),
+      line(A, D),
+      line(A, E),
+      line(F, C),
+      line(B, G)
+    ],
+    letters: {
+      A: [0.9, 1.5],
+      B: [2.4, 1],
+      C: [-0.5, 1.2],
+      D: [2.4, 1],
+      E: [-0.5, 1.2],
+      F: [2.4, 1],
+      G: [-0.5, 1.2]
+    }
+  }
+})(),
+
+(function()
 {
   const A = [100, 100]
   return {
@@ -270,7 +309,9 @@ let propositionX = (function()
       A: [0, 1.5]
     }
   }
-})();
+})()
+]
+
 
 let o = 0;
 
@@ -304,6 +345,7 @@ function draw(p)
 
         let refEl = document.createElement('span');
         refEl.innerHTML = name;
+        refEl.dataset.ref = refCount;
 
         if(refCount == o)
         {
@@ -347,19 +389,23 @@ function draw(p)
 
   let shapes = [...p.shapes];
 
-  for(var i = 0; i < nearHighlights.length; i++)
+  nearHighlights.forEach(h =>
   {
-    let h = makeHighlight(p, ...nearHighlights[i]);
-    h.options["stroke"] = colors.sentence;
-    shapes.push(h);
-  }
+    makeHighlight(p, ...h).forEach(s =>
+    {
+      s.options["stroke"] = colors.sentence;
+      shapes.push(s);
+    });
+  });
 
   if(highlight.length)
   {
-    let shape = makeHighlight(p, ...highlight);
-    shape.options["stroke"] = colors.bright;
-    shape.options["strokeWidth"] += 1;
-    shapes.push(shape);
+    makeHighlight(p, ...highlight).forEach(s =>
+    {
+      s.options["stroke"] = colors.bright;
+      s.options["strokeWidth"] += 1;
+      shapes.push(s);
+    });
   }
 
   for(var i = 0; i < shapes.length; i++)
@@ -367,8 +413,8 @@ function draw(p)
     svg.appendChild(rsvg.draw(shapes[i]));
   }
 
-  let nearHighlightNames = '';
-  nearHighlights.forEach(m => nearHighlightNames += m[0]);
+  let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
+  let highlightName = highlight.length && highlight[0];
 
   for(var i in p.letters)
   {
@@ -378,10 +424,14 @@ function draw(p)
     el.setAttribute('font-family', 'Futura');
     el.setAttribute('font-size', '24px');
     let fillColor = colors.dim;
-    if(highlight.length && highlight[0].indexOf(i) > -1)
+    if(highlightName.indexOf(i) > -1)
+    {
       fillColor = colors.bright;
+    }
     else if(nearHighlightNames.indexOf(i) > -1)
+    {
       fillColor = colors.sentence;
+    }
     el.setAttribute('fill', fillColor);
     el.textContent = i;
     svg.appendChild(el);
@@ -401,13 +451,39 @@ function draw(p)
     el.setAttribute('y', pos[1]);
   }
 
-  document.onkeypress = pressHandler(p)
+  document.onkeypress = pressHandler(p);
+  proseEl.onclick = clickHandler(p);
+}
+
+let ps = book1;
+
+function clickHandler(p)
+{
+  return function(e)
+  {
+    let ref = parseInt(e.srcElement.dataset.ref);
+    if(ref)
+    {
+      o = ref;
+      draw(p);
+    }
+  }
 }
 
 function pressHandler(p)
 {
   return function(e)
   {
+    if(e.key == "n")
+    {
+      o = 0;
+      draw(ps[(ps.indexOf(p)-1 + ps.length) % ps.length])
+    }
+    else if(e.key == "m")
+    {
+      o = 0;
+      draw(ps[(ps.indexOf(p)+1) % ps.length])
+    }
     if(e.key == "j")
     {
       o++;
@@ -421,4 +497,4 @@ function pressHandler(p)
   }
 }
 
-draw(proposition4);
+draw(ps[ps.length - 2]);
