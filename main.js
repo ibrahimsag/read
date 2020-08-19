@@ -97,7 +97,7 @@ function makeHighlight(p, name, typ, arg1) {
     let dir = vec2sub(d2, d1);
     let d = [0.25, 0.5, 0.75].map(l => vec2add(d1, vec2scale(dir, l)));
     let ps = [d1, ...d, d2].map(d => vec2add(o, vec2scale(d, 20/vec2len(d))));
-    return [line(o, a), line(o, b), curve(ps, {strokeWidth: 4})];
+    return [line(o, a), line(o, b), curve(ps, {strokeWidth: 10})];
   }
   else
   {
@@ -393,7 +393,10 @@ function draw(p)
   {
     makeHighlight(p, ...h).forEach(s =>
     {
-      s.options["stroke"] = colors.sentence;
+      if(!(h[1] === 'angle' && s.shape === 'curve'))
+      {
+        s.options["stroke"] = colors.sentence;
+      }
       shapes.push(s);
     });
   });
