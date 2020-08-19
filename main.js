@@ -381,22 +381,22 @@ function draw(p)
   proseEl.appendChild(titleEl);
 
   let refCount = 0;
-  for(var i = 0; i < p.prose.length; i++)
+  p.prose.forEach(paragraphProse =>
   {
-    let paragraphProse = p.prose[i];
     let paragraphEl = document.createElement('p');
     let content = '';
-    for(var j = 0; j < paragraphProse.length; j++)
+    paragraphProse.forEach(sentenceProse =>
     {
-      let sentenceProse = paragraphProse[j];
       let isFocusSentence = false;;
       let sentenceMarks = [];
+      let sentenceWithoutRef = true;
       function highlightReference(m, name, typ, arg1)
       {
         sentenceMarks.push([name, typ, arg1]);
 
         let refEl = document.createElement('span');
         refEl.innerHTML = name;
+        refEl.style['font-style'] = 'italic';
         refEl.dataset.ref = refCount;
 
         if(refCount == o)
@@ -408,6 +408,7 @@ function draw(p)
         }
         refCount++;
 
+        sentenceWithoutRef = false;
         return refEl.outerHTML;
       }
 
@@ -421,10 +422,19 @@ function draw(p)
         el.style['color'] = colors.sentence;
       }
 
+      if(sentenceWithoutRef)
+      {
+        if(refCount == o)
+        {
+          el.style['color'] = colors.sentence;
+        }
+        refCount++;
+      }
+
       paragraphEl.appendChild(el);
-    }
+    });
     proseEl.appendChild(paragraphEl);
-  }
+  })
 
   if(o < 0)
   {
