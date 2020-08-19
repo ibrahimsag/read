@@ -1,0 +1,12 @@
+On the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines (which meet) cannot be constructed (meeting) at a different point on the same side (of the straight-line), but having the same ends as the given straight-lines.
+
+For, if possible, let the two straight-lines {AD line}, {DB line}, equal to two (given) straight-lines {AC line}, {CB line}, respectively, have been constructed on the same straight-line {AB line}, meeting at different points, {C point} and {D point}, on the same side (of {AB line}), and having the same ends (on {AB line}).
+So {CA line} and {DA line} are equal, having the same ends at {A point}, and {CB line} and {DB line} are equal, having the same ends at {B point}.
+And let {CD line} have been joined [Post. 1].
+
+Therefore, since {AC line} is equal to {AD line}, the angle {ACD angle} is also equal to angle {ADC angle} [Prop. 1.5].
+Thus, {ADC angle} (is) greater than {DCB angle} [C.N. 5].
+Thus, {CDB angle} is much greater than {DCB angle} [C.N. 5].
+Again, since {CB line} is equal to {DB line}, the angle {CDB angle} is also equal to angle {DCB angle} [Prop. 1.5]. But it was shown that the former (angle {CDB angle}) is also much greater (than the latter angle {DCB angle}). The very thing is impossible.
+
+Thus, on the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines (which meet) cannot be constructed (meeting) at a dif- ferent point on the same side (of the straight-line), but having the same ends as the given straight-lines. (Which is) the very thing it was required to show.

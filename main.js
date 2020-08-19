@@ -115,6 +115,8 @@ import prop2 from './prose/proposition2';
 import prop3 from './prose/proposition3';
 import prop4 from './prose/proposition4';
 import prop5 from './prose/proposition5';
+import prop6 from './prose/proposition6';
+import prop7 from './prose/proposition7';
 
 let book1 = [
 (function()
@@ -295,6 +297,56 @@ let book1 = [
 
 (function()
 {
+  const A = [256, 50];
+  const B = [106, 280];
+  const C = [406, 280];
+  const ab = vec2sub(B, A);
+  const D = vec2add(A, vec2scale(ab, 0.3));
+  return {
+    title: "Proposition 6",
+    prose: processProse(prop6),
+    points: { A, B, C, D },
+    shapes: [
+      polygon([A, B, C]),
+      line(C, D)
+    ],
+    letters: {
+      A: [0.9, 1.5],
+      B: [2.4, 1],
+      C: [-0.5, 1.2],
+      D: [2.4, 1]
+    }
+  }
+})(),
+
+(function()
+{
+  const A = [106, 280];
+  const B = [406, 280];
+  const C = [226, 50];
+  const bc = vec2rot(vec2sub(C, B), Math.PI/10);
+  const D = vec2add(B, vec2scale(bc, 0.8));
+  return {
+    title: "Proposition 7",
+    prose: processProse(prop7),
+    points: { A, B, C, D },
+    shapes: [
+      polygon([A, B, C]),
+      line(B, D),
+      line(C, D),
+      line(A, D)
+    ],
+    letters: {
+      A: [2.4, 1],
+      B: [-0.5, 1.2],
+      C: [0.9, 1.5],
+      D: [-0.4, 1]
+    }
+  }
+})(),
+
+(function()
+{
   const A = [100, 100]
   return {
     title: "Proposition X",
@@ -379,7 +431,7 @@ function draw(p)
     o = refCount - 1;
     return draw(p);
   }
-  else if (o >= refCount)
+  else if (o >= refCount && refCount > 0)
   {
     o = 0;
     return draw(p);
@@ -427,7 +479,7 @@ function draw(p)
     el.setAttribute('font-family', 'Futura');
     el.setAttribute('font-size', '24px');
     let fillColor = colors.dim;
-    if(highlightName.indexOf(i) > -1)
+    if(highlightName && highlightName.indexOf(i) > -1)
     {
       fillColor = colors.bright;
     }
