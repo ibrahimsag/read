@@ -1,0 +1,18 @@
+For any triangle, the greater angle is subtended by the greater side.
+
+Let {ABC polygon} be a triangle having the angle {ABC angle} greater than {BCA angle}.
+I say that side {AC line} is also greater than side {AB line}.
+
+For if not, {AC line} is certainly either equal to, or less than, {AB line}.
+In fact, {AC line} is not equal to {AB line}.
+For then angle {ABC angle} would also have been equal to {ACB angle} [Prop. 1.5].
+But it is not.
+Thus, {AC line} is not equal to {AB line}.
+Neither, indeed, is {AC line} less than {AB line}.
+For then angle {ABC angle} would also have been less than {ACB angle} [Prop. 1.18].
+But it is not.
+Thus, {AC line} is not less than {AB line}.
+But it was shown that ({AC line}) is also not equal (to {AB line}).
+Thus, {AC line} is greater than {AB line}.
+
+Thus, for any triangle, the greater angle is subtended by the greater side. (Which is) the very thing it was re- quired to show.

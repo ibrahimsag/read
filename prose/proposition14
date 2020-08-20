@@ -1,0 +1,18 @@
+If two straight-lines, not lying on the same side, make adjacent angles (whose sum is) equal to two right-angles at the same point on some straight-line, then the two straight-lines will be straight-on (with respect) to one another.
+
+For let two straight-lines {BC line} and {BD line}, not lying on the same side, make adjacent angles {ABC angle} and {ABD angle} (whose sum is) equal to two right-angles at the same point {B point} on some straight-line {AB line}.
+I say that {BD line} is straight-on with respect to {CB line}.
+
+For if {BD line} is not straight-on to {BC line} then let {BE line} be straight-on to {CB line}.
+
+Therefore, since the straight-line {AB line} stands on the straight-line {CBE line}, the (sum of the) angles {ABC angle} and {ABE angle} is thus equal to two right-angles [Prop. 1.13].
+But (the sum of) {ABC angle} and {ABD angle} is also equal to two right-angles.
+Thus, (the sum of angles) {CBA angle} and {ABE angle} is equal to (the sum of angles) {CBA angle} and {ABD angle} [C.N. 1].
+Let (angle) {CBA angle} have been subtracted from both.
+Thus, the remainder {ABE angle} is equal to the remainder {ABD angle} [C.N. 3], the lesser to the greater.
+The very thing is impossible.
+Thus, {BE line} is not straight-on with respect to {CB line}.
+Similarly, we can show that neither (is) any other (straight-line) than {BD line}.
+Thus, {CB line} is straight-on with respect to {BD line}.
+
+Thus, if two straight-lines, not lying on the same side, make adjacent angles (whose sum is) equal to two right-angles at the same point on some straight-line, then the two straight-lines will be straight-on (with respect) to one another. (Which is) the very thing it was required to show.

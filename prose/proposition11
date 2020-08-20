@@ -1,0 +1,15 @@
+To draw a straight-line at right-angles to a given straight-line from a given point on it.
+
+Let {AB line} be the given straight-line, and {C point} the given point on it.
+So it is required to draw a straight-line from the point {C point} at right-angles to the straight-line {AB line}.
+
+Let the point {D point} be have been taken somewhere on {AC line}, and let {CE line} be made equal to {CD line} [Prop. 1.3], and let the equilateral triangle {FDE polygon} have been constructed on {DE line} [Prop. 1.1], and let {FC line} have been joined.
+I say that the straight-line {FC line} has been drawn at right-angles to the given straight-line {AB line} from the given point {C point} on it.
+
+For since {DC line} is equal to {CE line}, and {CF line} is common, the two (straight-lines) {DC line}, {CF line} are equal to the two (straight-lines), {EC line}, {CF line}, respectively.
+And the base {DF line} is equal to the base {FE line}.
+Thus, the angle {DCF angle} is equal to the angle {ECF angle} [Prop. 1.8], and they are adjacent.
+But when a straight-line stood on a(nother) straight-line makes the adjacent angles equal to one another, each of the equal angles is a right-angle [Def. 1.10].
+Thus, each of the (angles) {DCF angle} and {FCE angle} is a right-angle.
+
+Thus, the straight-line {CF line} has been drawn at right-angles to the given straight-line {AB line} from the given point {C point} on it. (Which is) the very thing it was required to do.

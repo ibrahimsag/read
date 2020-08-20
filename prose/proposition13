@@ -1,0 +1,19 @@
+If a straight-line stood on a(nother) straight-line makes angles, it will certainly either make two right-angles, or (angles whose sum is) equal to two right-angles.
+
+For let some straight-line {AB line} stood on the straight-line {CD line} make the angles {CBA angle} and {ABD angle}.
+I say that the angles {CBA angle} and {ABD angle} are certainly either two right-angles, or (have a sum) equal to two right-angles.
+
+In fact, if {CBA angle} is equal to {ABD angle} then they are two right-angles [Def. 1.10].
+But, if not, let {BE line} have been drawn from the point {B point} at right-angles to [the straight-line] {CD line} [Prop. 1.11].
+Thus, {CBE angle} and {EBD angle} are two right-angles.
+And since {CBE angle} is equal to the two (angles) {CBA angle} and {ABE angle}, let {EBD angle} have been added to both.
+Thus, the (sum of the angles) {CBE angle} and {EBD angle} is equal to the (sum of the) three (angles) {CBA angle}, {ABE angle}, and {EBD angle} [C.N. 2].
+Again, since {DBA angle} is equal to the two (angles) {DBE angle} and {EBA angle}, let {ABC angle} have been added to both.
+Thus, the (sum of the angles) {DBA angle} and {ABC angle} is equal to the (sum of the) three (angles) {DBE angle}, {EBA angle}, and {ABC angle} [C.N. 2].
+But (the sum of) {CBE angle} and {EBD angle} was also shown (to be) equal to the (sum of the) same three (angles).
+And things equal to the same thing are also equal to one another [C.N. 1].
+Therefore, (the sum of) {CBE angle} and {EBD angle} is also equal to (the sum of) {DBA angle} and {ABC angle}.
+But, (the sum of) {CBE angle} and {EBD angle} is two right-angles.
+Thus, (the sum of) {ABD angle} and {ABC angle} is also equal to two right-angles.
+
+Thus, if a straight-line stood on a(nother) straight-line makes angles, it will certainly either make two right-angles, or (angles whose sum is) equal to two right-angles. (Which is) the very thing it was required to show.

@@ -1,0 +1,15 @@
+For any triangle, when one of the sides is produced, the external angle is greater than each of the internal and opposite angles.
+
+Let {ABC polygon} be a triangle, and let one of its sides {BC line} have been produced to {D point}. I say that the external angle {ACD angle} is greater than each of the internal and opposite angles, {CBA angle} and {BAC angle}.
+
+Let the (straight-line) {AC line} have been cut in half at (point) {E point} [Prop. 1.10].
+And {BE line} being joined, let it have been produced in a straight-line to (point) {F point}.
+And let {EF line} be made equal to {BE line} [Prop. 1.3], and let {FC line} have been joined, and let {AC line} have been drawn through to (point) {G point}.
+
+Therefore, since {AE line} is equal to {EC line}, and {BE line} to {EF line}, the two (straight-lines) {AE line}, {EB line} are equal to the two (straight-lines) {CE line}, {EF line}, respectively.
+Also, angle {AEB angle} is equal to angle {FEC angle}, for (they are) vertically opposite [Prop. 1.15].
+Thus, the base {AB line} is equal to the base {FC line}, and the triangle {ABE polygon} is equal to the triangle {FEC polygon}, and the remaining angles subtended by the equal sides are equal to the corresponding remaining angles [Prop. 1.4].
+
+Thus, {BAE angle} is equal to {ECF angle}. But {ECD angle} is greater than {ECF angle}. Thus, {ACD angle} is greater than {BAE angle}. Similarly, by having cut {BC line} in half, it can be shown (that) {BCG angle}—that is to say, {ACD angle}—(is) also greater than {ABC angle}.
+
+Thus, for any triangle, when one of the sides is pro- duced, the external angle is greater than each of the in- ternal and opposite angles. (Which is) the very thing it was required to show.

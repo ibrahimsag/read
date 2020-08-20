@@ -1,0 +1,20 @@
+To construct a triangle from three straight-lines which are equal to three given [straight-lines]. It is necessary for (the sum of) two (of the straight-lines) to be greater than the remaining (one), (the straight-lines) being taken up in any (possible way) [on account of the (fact that) for every triangle (the sum of any) two sides is greater than the remaining (one), (the sides) being taken up in any (possible way) [Prop. 1.20] ].
+
+Let A, B, and C be the three given straight-lines, of which let (the sum of any) two be greater than the remaining (one), (the straight-lines) being taken up in (any possible way).
+(Thus), (the sum of) A and B (is greater) than C, (the sum of) A and C than B, and also (the sum of) B and C than A.
+So it is required to construct a triangle from (straight-lines) equal to A, B, and C.
+
+Let some straight-line DE be set out, terminated at D, and infinite in the direction of E.
+And let DF made equal to A [Prop. 1.3], and FG equal to B [Prop. 1.3], and GH equal to C [Prop. 1.3].
+And let the circle DKL have been drawn with center F and radius FD.
+Again, let the circle KLH have been drawn with center G and radius GH.
+And let KF and KG have been joined.
+I say that the triangle K F G has been constructed from three straight-lines equal to A, B, and C.
+
+For since point F is the center of the circle DKL, FD is equal to FK.
+But, FD is equal to A. Thus, KF is also equal to A.
+Again, since point G is the center of the circle LKH, GH is equal to GK.
+But, GH is equal to C. Thus, KG is also equal to C. And FG is equal to B.
+Thus, the three straight-lines KF, FG, and GK are equal to A, B, and C (respectively).
+
+Thus, the triangle KFG has been constructed from the three straight-lines KF, FG, and GK, which are equal to the three given straight-lines A, B, and C (re- spectively). (Which is) the very thing it was required to do.
