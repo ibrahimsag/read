@@ -1,10 +1,22 @@
 If two triangles have two sides equal to two sides, respectively, but (one) has the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the other), then (the former triangle) will also have a base greater than the base (of the latter).
 
-Let ABC and DEF be two triangles having the two sides AB and AC equal to the two sides DE and DF, respectively. (That is), AB to DE, and AC to DF. Let them also have the angle at A greater than the angle at D. I say that the base BC is greater than the base EF.
+Let {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.
+(That is), {AB line} to {DE line}, and {AC line} to {DF line}.
+Let them also have the angle {BAC angle} greater than the angle {FDE angle}.
+I say that the base {BC line} is greater than the base {EF line}.
 
-For since angle BAC is greater than angle EDF, let (angle) EDG, equal to angle BAC, have been con- structed at point D on the straight-line DE [Prop. 1.23]. And let DG be made equal to either of AC or DF [Prop. 1.3], and let EG and FG have been joined.
+For since angle {BAC angle} is greater than angle {EDF angle}, let (angle) {EDG angle}, equal to angle {BAC angle}, have been constructed at point {D point} on the straight-line {DE line} [Prop. 1.23].
+And let {DG line} be made equal to either of {AC line} or {DF line} [Prop. 1.3], and let {EG line} and {FG line} have been joined.
 
-Therefore, since AB is equal to DE and AC to DG, the two (straight-lines) BA, AC are equal to the two (straight-lines) ED, DG, respectively. Also the angle BAC is equal to the angle EDG. Thus, the base BC is equal to the base EG [Prop. 1.4]. Again, since DF is equal to DG, angle DGF is also equal to angle DFG [Prop. 1.5]. Thus, DFG (is) greater than EGF. Thus, EFG is much greater than EGF. And since triangle EF G has angle EF G greater than EGF , and the greater angle subtends the greater side [Prop. 1.19], side EG (is) thus also greater than EF. But EG (is) equal to BC. Thus, BC (is) also greater than EF.
+Therefore, since {AB line} is equal to {DE line} and {AC line} to {DG line}, the two (straight-lines) {BA line}, {AC line} are equal to the two (straight-lines) {ED line}, {DG line}, respectively.
+Also the angle {BAC angle} is equal to the angle {EDG angle}.
+Thus, the base {BC line} is equal to the base {EG line} [Prop. 1.4].
+Again, since {DF line} is equal to {DG line}, angle {DGF angle} is also equal to angle {DFG angle} [Prop. 1.5].
+Thus, {DFG angle} (is) greater than {EGF angle}.
+Thus, {EFG angle} is much greater than {EGF angle}.
+And since triangle {EFG polygon} has angle {EFG angle} greater than {EGF angle}, and the greater angle subtends the greater side [Prop. 1.19], side {EG line} (is) thus also greater than {EF line}.
+But {EG line} (is) equal to {BC line}.
+Thus, {BC line} (is) also greater than {EF line}.
 
-Thus, if two triangles have two sides equal to two sides, respectively, but (one) has the angle encompassed by the equal straight-lines greater than the (correspond- ing) angle (in the other), then (the former triangle) will also have a base greater than the base (of the latter).
+Thus, if two triangles have two sides equal to two sides, respectively, but (one) has the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the other), then (the former triangle) will also have a base greater than the base (of the latter).
 (Which is) the very thing it was required to show.
