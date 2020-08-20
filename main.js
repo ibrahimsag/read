@@ -31,6 +31,7 @@ import prop18 from './prose/proposition18';
 import prop19 from './prose/proposition19';
 import prop20 from './prose/proposition20';
 import prop21 from './prose/proposition21';
+import prop22 from './prose/proposition22';
 
 let book1 = [
 function()
@@ -690,6 +691,65 @@ function()
       C: [7],
       D: [1.8, 0.8],
       E: [0.2, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 30];
+  const B = [50, 60];
+  const C = [50, 90];
+  const a = 150;
+  const b = 120;
+  const c = 90;
+  const Ae = vec2.add(A, [a, 0]);
+  const Be = vec2.add(B, [b, 0]);
+  const Ce = vec2.add(C, [c, 0]);
+  const D = [60, 280];
+  const E = [450, 280];
+  const de = vec2.sub(E, D)
+  const ude = vec2.scale(de, 1/vec2.len(de));
+  const ugk = vec2.rot(ude, -Math.PI/2);
+  const F = vec2.add(D, vec2.scale(ude, a));
+  const G = vec2.add(F, vec2.scale(ude, b));
+  const H = vec2.add(G, vec2.scale(ude, c));
+  const K = vec2.add(G, vec2.scale(ugk, c));
+  const L = vec2.add(G, vec2.scale(ugk, -c));
+
+  return {
+    title: "Proposition 22",
+    prose: processProse(prop22),
+    points: { A, B, C, D, E, F, G, H, K, L },
+    shapes: [
+      rg.line(A, Ae),
+      rg.line(B, Be),
+      rg.line(C, Ce),
+      rg.line(D, E),
+      rg.circle(F, 5),
+      rg.circle(G, 5),
+      rg.circle(H, 5),
+      rg.circle(F, 2 * a),
+      rg.circle(G, 2 * c),
+      rg.line(K, G),
+      rg.line(K, F)
+    ],
+    letters: {
+      A: [2.5, 0.8],
+      B: [2.5, 1.1],
+      C: [2.5, 0.9],
+      D: [2.5, 0.8],
+      E: [-0.5],
+      F: [5, 0.6],
+      G: [5.5, 0.6],
+      H: [6.5, 1],
+      K: [0.3, 1.2],
+      L: [5.5, 0.6],
+    },
+    given: {
+      A: () => [rg.line(A, Ae)],
+      B: () => [rg.line(B, Be)],
+      C: () => [rg.line(C, Ce)]
     }
   }
 }

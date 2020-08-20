@@ -1,21 +1,21 @@
 To construct a triangle from three straight-lines which are equal to three given [straight-lines]. It is necessary for (the sum of) two (of the straight-lines) to be greater than the remaining (one), (the straight-lines) being taken up in any (possible way) [on account of the (fact that) for every triangle (the sum of any) two sides is greater than the remaining (one), (the sides) being taken up in any (possible way) [Prop. 1.20] ].
 
-Let A, B, and C be the three given straight-lines, of which let (the sum of any) two be greater than the remaining (one), (the straight-lines) being taken up in (any possible way).
-(Thus), (the sum of) A and B (is greater) than C, (the sum of) A and C than B, and also (the sum of) B and C than A.
-So it is required to construct a triangle from (straight-lines) equal to A, B, and C.
+Let {A given}, {B given}, and {C given} be the three given straight-lines, of which let (the sum of any) two be greater than the remaining (one), (the straight-lines) being taken up in (any possible way).
+(Thus), (the sum of) {A given} and {B given} (is greater) than {C given}, (the sum of) {A given} and {C given} than {B given}, and also (the sum of) {B given} and {C given} than {A given}.
+So it is required to construct a triangle from (straight-lines) equal to {A given}, {B given}, and {C given}.
 
-Let some straight-line DE be set out, terminated at D, and infinite in the direction of E.
-And let DF made equal to A [Prop. 1.3], and FG equal to B [Prop. 1.3], and GH equal to C [Prop. 1.3].
-And let the circle DKL have been drawn with center F and radius FD.
-Again, let the circle KLH have been drawn with center G and radius GH.
-And let KF and KG have been joined.
-I say that the triangle K F G has been constructed from three straight-lines equal to A, B, and C.
+Let some straight-line {DE line} be set out, terminated at {D point}, and infinite in the direction of {E point}.
+And let {DF line} made equal to {A given} [Prop. 1.3], and {FG line} equal to {B given} [Prop. 1.3], and {GH line} equal to {C given} [Prop. 1.3].
+And let the circle {DKL circle F} have been drawn with center {F point} and radius {FD line}.
+Again, let the circle {KLH circle G} have been drawn with center {G point} and radius {GH line}.
+And let {KF line} and {KG line} have been joined.
+I say that the triangle {KFG polygon} has been constructed from three straight-lines equal to {A given}, {B given}, and {C given}.
 
-For since point F is the center of the circle DKL, FD is equal to FK.
-But, FD is equal to A. Thus, KF is also equal to A.
-Again, since point G is the center of the circle LKH, GH is equal to GK.
-But, GH is equal to C. Thus, KG is also equal to C. And FG is equal to B.
-Thus, the three straight-lines KF, FG, and GK are equal to A, B, and C (respectively).
+For since point {F point} is the center of the circle {DKL circle F}, {FD line} is equal to {FK line}.
+But, {FD line} is equal to {A given}. Thus, {KF line} is also equal to {A given}.
+Again, since point {G point} is the center of the circle {LKH circle G}, {GH line} is equal to {GK line}.
+But, {GH line} is equal to {C given}. Thus, {KG line} is also equal to {C given}. And {FG line} is equal to {B given}.
+Thus, the three straight-lines {KF line}, {FG line}, and {GK line} are equal to {A given}, {B given}, and {C given} (respectively).
 
-Thus, the triangle KFG has been constructed from the three straight-lines KF, FG, and GK, which are equal to the three given straight-lines A, B, and C (re- spectively).
+Thus, the triangle {KFG polygon} has been constructed from the three straight-lines {KF line}, {FG line}, and {GK line}, which are equal to the three given straight-lines {A given}, {B given}, and {C given} (respectively).
 (Which is) the very thing it was required to do.
