@@ -383,13 +383,15 @@ function()
   const A = [56, 350];
   const B = [426, 350];
   const ab = vec2.sub(B, A);
+  const uab = vec2.scale(ab, 1/vec2.len(ab));
   const ah = vec2.scale(ab, 0.45);
   const ag = vec2.scale(ab, 0.2);
   const H = vec2.add(A, ah);
   const G = vec2.add(A, ag);
   const he = vec2.scale(vec2.sub(G, H), -1);
   const E = vec2.add(H, he);
-  const C = vec2.add(H, [0, -100]);
+  const hc = vec2.scale(vec2.rot(uab, -Math.PI/2), 100);
+  const C = vec2.add(H, hc);
   const ce = vec2.sub(E, C);
   const cd = vec2.rot(ce, Math.PI/8);
   const D = vec2.add(C, cd);
