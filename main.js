@@ -23,6 +23,9 @@ import prop10 from './prose/proposition10';
 import prop11 from './prose/proposition11';
 import prop12 from './prose/proposition12';
 import prop13 from './prose/proposition13';
+import prop14 from './prose/proposition14';
+import prop15 from './prose/proposition15';
+import prop16 from './prose/proposition16';
 
 let book1 = [
 function()
@@ -449,6 +452,100 @@ function()
       C: [5.5, 0.6],
       D: [5.5, 0.6],
       E: [0.8, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const D = [400, 256];
+  const C = [56, 256];
+  const cb = vec2.scale(vec2.sub(D, C), 0.4);
+  const B = vec2.add(C, cb);
+  const be = vec2.rot(cb, -Math.PI/3.5);
+  const E = vec2.add(B, be);
+  const A = vec2.add(B, vec2.rot(be, -Math.PI/3));
+
+  return {
+    title: "Proposition 14",
+    prose: processProse(prop14),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.line(C, D),
+      rg.line(B, E),
+      rg.line(B, A)
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [5.5, 0.6],
+      C: [5.5, 0.6],
+      D: [5.5, 0.6],
+      E: [0.8, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const C = [400, 256];
+  const D = [56, 256];
+  const ce = vec2.scale(vec2.sub(D, C), 0.4);
+  const E = vec2.add(C, ce);
+  const A = vec2.add(E, vec2.scale(vec2.rot(ce, Math.PI/3.5), 1.5));
+  const B = vec2.add(E, vec2.scale(vec2.rot(ce, Math.PI/3.5), -1));
+
+  return {
+    title: "Proposition 15",
+    prose: processProse(prop15),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.line(C, D),
+      rg.line(A, B)
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [5.5, 0.6],
+      C: [5.5, 0.6],
+      D: [5.5, 0.6],
+      E: [0.4, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const A = [150, 50];
+  const B = [50, 250];
+  const C = [250, 250];
+  const bd = vec2.scale(vec2.sub(C, B), 2);
+  const D = vec2.add(B, bd);
+  const ca = vec2.sub(A, C);
+  const ce = vec2.scale(ca, 0.5);
+  const E = vec2.add(C, ce);
+  const bf = vec2.scale(vec2.sub(E, B), 2);
+  const F = vec2.add(B, bf);
+  const cg = vec2.scale(ca, -1);
+  const G = vec2.add(C, cg);
+
+  return {
+    title: "Proposition 16",
+    prose: processProse(prop16),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, G),
+      rg.line(B, D),
+      rg.line(B, F),
+      rg.line(F, C)
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [2.1, 0.8],
+      C: [4.0, 0.6],
+      D: [-0.4, 1.2],
+      E: [2.4, 1.5],
+      F: [0, 1.2],
+      G: [-0.5, 1.2],
     }
   }
 }
