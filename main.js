@@ -35,6 +35,7 @@ import prop22 from './prose/proposition22';
 import prop23 from './prose/proposition23';
 import prop24 from './prose/proposition24';
 import prop25 from './prose/proposition25';
+import prop26 from './prose/proposition26';
 
 let book1 = [
 function()
@@ -864,6 +865,42 @@ function()
       D: [0.7, 1.2],
       E: [2.8],
       F: [-1],
+    }
+  }
+},
+
+function()
+{
+  const A = [100, 120];
+  const B = [70, 250];
+  const C = [260, 250];
+  const D = vec2.add(A, [200, -80]);
+  const E = vec2.add(B, [200, -80]);
+  const F = vec2.add(C, [200, -80]);
+  const bg = vec2.scale(vec2.sub(A, B), 0.7);
+  const bh = vec2.scale(vec2.sub(C, B), 0.7);
+  const G = vec2.add(B, bg);
+  const H = vec2.add(B, bh);
+
+  return {
+    title: "Proposition 26",
+    prose: processProse(prop26),
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.line(G, C),
+      rg.line(H, A),
+    ],
+    letters: {
+      A: [0.7],
+      B: [2.5, 0.6],
+      C: [-0.6],
+      D: [0.7],
+      E: [2.5, 0.6],
+      F: [-0.6],
+      G: [2.0, 0.8],
+      H: [-1.6, 0.9],
     }
   }
 },
