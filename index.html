@@ -20,19 +20,24 @@ body {
   top: 0;
   left: 512px;
 }
+#panel {
+  height: 100%;
+  overflow: auto;
+}
 #prose {
   width: 512px;
   display: block;
   padding: 12px;
   box-sizing: border-box;
-  height: 100%;
-  overflow: auto;
 }
     </style>
   </head>
   <body>
     <div id="container">
-      <div id="prose"> </div>
+      <div id="panel">
+        <img id="propimg" src="" alt="">
+        <div id="prose"> </div>
+      </div>
       <svg width="512" height="512" id="figure"></svg>
     </div>
     <script src="build/bundle.js"></script>

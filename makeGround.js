@@ -8,6 +8,16 @@ function makeGround(ps, rg, svg)
     let nearHighlights = [];
     let highlight = [];
 
+    let imgEl = document.querySelector('#propimg');
+    if(p.img)
+    {
+      imgEl.src = p.img;
+    }
+    else
+    {
+      imgEl.src = "";
+    }
+
     let proseEl = document.querySelector('#prose');
     proseEl.innerHTML = '';
 
