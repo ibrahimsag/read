@@ -1,14 +1,15 @@
 (Straight-lines) parallel to the same straight-line are also parallel to one another.
 
-Let each of the (straight-lines) AB and CD be parallel to EF. I say that AB is also parallel to CD.
+Let each of the (straight-lines) {AB line} and {CD line} be parallel to {EF line}. I say that {AB line} is also parallel to {CD line}.
 
-For let the straight-line GK fall across (AB, CD, and EF).
+For let the straight-line {GK line} fall across ({AB line}, {CD line}, and {EF line}).
 
-And since GK has fallen across the parallel straight-lines AB and EF, (angle) AGK (is) thus equal to GHF [Prop. 1.29].
-Again, since GK has fallen across the parallel straight-lines EF and CD, (angle) GHF is equal to GKD [Prop. 1.29].
-But AGK was also shown (to be) equal to GHF.
-Thus, AGK is also equal to GKD. And they are alternate (angles).
-Thus, AB is parallel to CD [Prop. 1.27].
+And since {GK line} has fallen across the parallel straight-lines {AB line} and {EF line}, (angle) {AGK angle} (is) thus equal to {GHF angle} [Prop. 1.29].
+Again, since {GK line} has fallen across the parallel straight-lines {EF line} and {CD line}, (angle) {GHF angle} is equal to {GKD angle} [Prop. 1.29].
+But {AGK angle} was also shown (to be) equal to {GHF angle}.
+Thus, {AGK angle} is also equal to {GKD angle}.
+And they are alternate (angles).
+Thus, {AB line} is parallel to {CD line} [Prop. 1.27].
 
 [Thus, (straight-lines) parallel to the same straight-line are also parallel to one another.]
 (Which is) the very thing it was required to show.

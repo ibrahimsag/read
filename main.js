@@ -38,6 +38,8 @@ import prop25 from './prose/proposition25';
 import prop26 from './prose/proposition26';
 import prop27 from './prose/proposition27';
 import prop28 from './prose/proposition28';
+import prop29 from './prose/proposition29';
+import prop30 from './prose/proposition30';
 
 let book1 = [
 function()
@@ -974,6 +976,79 @@ function()
       F: [0, 1.2],
       G: [0.3, 1.2],
       H: [0.3, 1.2],
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 100];
+  const B = [400, 100];
+  const C = [50, 250];
+  const D = [400, 250];
+  const G = vec2.add(A, vec2.scale(vec2.sub(B, A), 0.3));
+  const H = vec2.add(C, vec2.scale(vec2.sub(D, C), 0.6));
+  const gh = vec2.sub(H, G);
+  const E = vec2.add(G, vec2.scale(gh, -0.5));
+  const F = vec2.add(H, vec2.scale(gh, 0.5));
+
+  return {
+    title: "Proposition 29",
+    prose: processProse(prop29),
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.line(E, F),
+    ],
+    letters: {
+      A: [0.7],
+      B: [0.7],
+      C: [0.7],
+      D: [0.7],
+      E: [2.5],
+      F: [0, 1.2],
+      G: [0.3, 1.2],
+      H: [0.3, 1.2],
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 100];
+  const B = [400, 100];
+  const C = [50, 250];
+  const D = [400, 250];
+  const E = [50, 170];
+  const F = [400, 170];
+  const G = vec2.add(A, vec2.scale(vec2.sub(B, A), 0.55));
+  const H = vec2.add(E, vec2.scale(vec2.sub(F, E), 0.45));
+  const K = vec2.add(C, vec2.scale(vec2.sub(D, C), 0.35));
+  const gk = vec2.sub(K, G);
+  const Ge = vec2.add(G, vec2.scale(gk, -0.4));
+  const Ke = vec2.add(K, vec2.scale(gk, 0.4));
+
+  return {
+    title: "Proposition 30",
+    prose: processProse(prop30),
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.line(E, F),
+      rg.line(Ge, Ke),
+    ],
+    letters: {
+      A: [0.7],
+      B: [0.7],
+      C: [0.7],
+      D: [0.7],
+      E: [0.7],
+      F: [0.7],
+      G: [1.2, 1.1],
+      H: [1.2, 1.1],
+      K: [1.2, 1.1],
     }
   }
 },
