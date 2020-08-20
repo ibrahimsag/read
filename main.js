@@ -32,6 +32,7 @@ import prop19 from './prose/proposition19';
 import prop20 from './prose/proposition20';
 import prop21 from './prose/proposition21';
 import prop22 from './prose/proposition22';
+import prop23 from './prose/proposition23';
 
 let book1 = [
 function()
@@ -754,7 +755,54 @@ function()
       C: () => [rg.line(C, Ce)]
     }
   }
-}
+},
+
+function()
+{
+  const A = [100, 350];
+  const B = [400, 350];
+  const C = [100, 100];
+  const D = [220, 50];
+  const E = [260, 160];
+  const cd = vec2.sub(D, C);
+  const De = vec2.add(C, vec2.scale(cd, 1.4));
+  const ce = vec2.sub(E, C);
+  const Ee = vec2.add(C, vec2.scale(ce, 1.4));
+
+  const len_cd = vec2.len(cd);
+  const ucd = vec2.scale(cd, 1/len_cd);
+  const len_ce = vec2.len(ce);
+  const uce = vec2.scale(ce, 1/len_ce);
+  const alpha = Math.acos(vec2.dot(ucd, uce));
+
+  const ab = vec2.sub(B, A);
+  const uab = vec2.scale(ab, 1/vec2.len(ab));
+  const F = vec2.add(A, vec2.scale(vec2.rot(uab, -alpha), len_cd));
+  const G = vec2.add(A, vec2.scale(uab, len_ce));
+
+  return {
+    title: "Proposition 23",
+    prose: processProse(prop23),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, De),
+      rg.line(C, Ee),
+      rg.line(D, E),
+      rg.line(F, A),
+      rg.line(F, G)
+    ],
+    letters: {
+      A: [2.5, 0.6],
+      B: [1.5, 1.0],
+      C: [5.5, 0.6],
+      D: [1],
+      E: [5.5, 0.6],
+      F: [0.8],
+      G: [0.5, 1.2]
+    }
+  }
+},
 ]
 
 let ps = book1.map(f => f())

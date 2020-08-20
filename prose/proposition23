@@ -1,10 +1,12 @@
 To construct a rectilinear angle equal to a given recti- linear angle at a (given) point on a given straight-line.
 
-Let AB be the given straight-line, A the (given) point on it, and DCE the given rectilinear angle. So it is re- quired to construct a rectilinear angle equal to the given rectilinear angle DCE at the (given) point A on the given straight-line AB.
+Let {AB line} be the given straight-line, {A point} the (given) point on it, and {DCE angle} the given rectilinear angle.
+So it is required to construct a rectilinear angle equal to the given rectilinear angle {DCE angle} at the (given) point {A point} on the given straight-line {AB line}.
 
-Let the points D and E have been taken somewhere on each of the (straight-lines) C D and C E (respectively), and let DE have been joined. And let the triangle AFG have been constructed from three straight-lines which are equal to CD, DE, and CE, such that CD is equal to AF, CE to AG, and also DE to FG [Prop. 1.22].
+Let the points {D point} and {E point} have been taken somewhere on each of the (straight-lines) {CD line} and {CE line} (respectively), and let {DE line} have been joined.
+And let the triangle {AFG polygon} have been constructed from three straight-lines which are equal to {CD line}, {DE line}, and {CE line}, such that {CD line} is equal to {AF line}, {CE line} to {AG line}, and also {DE line} to {FG line} [Prop. 1.22].
 
-Therefore, since the two (straight-lines) DC, CE are equaltothetwostraight-linesFA,AG,respectively,and the base DE is equal to the base FG, the angle DCE is thus equal to the angle F AG [Prop. 1.8].
+Therefore, since the two (straight-lines) {DC line}, {CE line} are equal to the two straight-lines {FA line}, {AG line}, respectively, and the base {DE line} is equal to the base {FG line}, the angle {DCE angle} is thus equal to the angle {FAG angle} [Prop. 1.8].
 
-Thus, the rectilinear angle FAG, equal to the given rectilinear angle DCE, has been constructed at the (given) point A on the given straight-line AB.
+Thus, the rectilinear angle {FAG angle}, equal to the given rectilinear angle {DCE angle}, has been constructed at the (given) point {A point} on the given straight-line {AB line}.
 (Which is) the very thing it was required to do.
