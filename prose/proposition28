@@ -1,14 +1,17 @@
 If a straight-line falling across two straight-lines makes the external angle equal to the internal and oppo- site angle on the same side, or (makes) the (sum of the) internal (angles) on the same side equal to two right- angles, then the (two) straight-lines will be parallel to one another.
 
-For let EF, falling across the two straight-lines AB and CD, make the external angle EGB equal to the internal and opposite angle GHD, or the (sum of the) internal (angles) on the same side, BGH and GHD, equal to two right-angles.
-I say that AB is parallel to CD.
+For let {EF line}, falling across the two straight-lines {AB line} and {CD line}, make the external angle {EGB angle} equal to the internal and opposite angle {GHD angle}, or the (sum of the) internal (angles) on the same side, {BGH angle} and {GHD angle}, equal to two right-angles.
+I say that {AB line} is parallel to {CD line}.
 
-For since (in the first case) EGB is equal to GHD, but EGB is equal to AGH [Prop. 1.15], AGH is thus also equal to GHD. And they are alternate (angles).
-Thus, AB is parallel to CD [Prop. 1.27].
+For since (in the first case) {EGB angle} is equal to {GHD angle}, but {EGB angle} is equal to {AGH angle} [Prop. 1.15], {AGH angle} is thus also equal to {GHD angle}.
+And they are alternate (angles).
+Thus, {AB line} is parallel to {CD line} [Prop. 1.27].
 
-Again, since (in the second case, the sum of) BGH and GHD is equal to two right-angles, and (the sum of) AGH and BGH is also equal to two right-angles [Prop. 1.13], (the sum of) AGH and BGH is thus equal to (the sum of) BGH and GHD. Let BGH have been subtracted from both.
-Thus, the remainder AGH is equal to the remainder GHD. And they are alternate (angles).
-Thus, AB is parallel to CD [Prop. 1.27].
+Again, since (in the second case, the sum of) {BGH angle} and {GHD angle} is equal to two right-angles, and (the sum of) {AGH angle} and {BGH angle} is also equal to two right-angles [Prop. 1.13], (the sum of) {AGH angle} and {BGH angle} is thus equal to (the sum of) {BGH angle} and {GHD angle}.
+Let {BGH angle} have been subtracted from both.
+Thus, the remainder {AGH angle} is equal to the remainder {GHD angle}.
+And they are alternate (angles).
+Thus, {AB line} is parallel to {CD line} [Prop. 1.27].
 
 Thus, if a straight-line falling across two straight-lines makes the external angle equal to the internal and opposite angle on the same side, or (makes) the (sum of the) internal (angles) on the same side equal to two right-angles, then the (two) straight-lines will be parallel (to one another).
 (Which is) the very thing it was required to show.

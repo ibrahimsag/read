@@ -36,6 +36,8 @@ import prop23 from './prose/proposition23';
 import prop24 from './prose/proposition24';
 import prop25 from './prose/proposition25';
 import prop26 from './prose/proposition26';
+import prop27 from './prose/proposition27';
+import prop28 from './prose/proposition28';
 
 let book1 = [
 function()
@@ -901,6 +903,77 @@ function()
       F: [-0.6],
       G: [2.0, 0.8],
       H: [-1.6, 0.9],
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 80];
+  const B = [300, 80];
+  const C = [50, 200];
+  const D = [350, 200];
+  const E = vec2.add(A, vec2.scale(vec2.sub(B, A), 0.6));
+  const F = vec2.add(C, vec2.scale(vec2.sub(D, C), 0.3));
+  const fe = vec2.sub(E, F);
+  const Fe = vec2.add(F, vec2.scale(fe, -0.5));
+  const Ee = vec2.add(E, vec2.scale(fe, 0.5));
+
+  const G = [450, 140];
+
+  return {
+    title: "Proposition 27",
+    prose: processProse(prop27),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.line(G, D),
+      rg.line(G, B),
+      rg.line(Fe, Ee),
+    ],
+    letters: {
+      A: [0.7],
+      B: [0.7],
+      C: [5.5, 0.6],
+      D: [5.5, 0.6],
+      E: [1.5],
+      F: [6, 0.6],
+      G: [0],
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 100];
+  const B = [400, 100];
+  const C = [50, 250];
+  const D = [400, 250];
+  const G = vec2.add(A, vec2.scale(vec2.sub(B, A), 0.3));
+  const H = vec2.add(C, vec2.scale(vec2.sub(D, C), 0.6));
+  const gh = vec2.sub(H, G);
+  const E = vec2.add(G, vec2.scale(gh, -0.5));
+  const F = vec2.add(H, vec2.scale(gh, 0.5));
+
+  return {
+    title: "Proposition 28",
+    prose: processProse(prop28),
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.line(E, F),
+    ],
+    letters: {
+      A: [0.7],
+      B: [0.7],
+      C: [0.7],
+      D: [0.7],
+      E: [2.5],
+      F: [0, 1.2],
+      G: [0.3, 1.2],
+      H: [0.3, 1.2],
     }
   }
 },
