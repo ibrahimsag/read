@@ -700,9 +700,9 @@ function()
   const A = [50, 30];
   const B = [50, 60];
   const C = [50, 90];
-  const a = 150;
-  const b = 120;
-  const c = 90;
+  const a = 135;
+  const b = 115;
+  const c = 85;
   const Ae = vec2.add(A, [a, 0]);
   const Be = vec2.add(B, [b, 0]);
   const Ce = vec2.add(C, [c, 0]);
@@ -710,12 +710,14 @@ function()
   const E = [450, 280];
   const de = vec2.sub(E, D)
   const ude = vec2.scale(de, 1/vec2.len(de));
-  const ugk = vec2.rot(ude, -Math.PI/2);
   const F = vec2.add(D, vec2.scale(ude, a));
   const G = vec2.add(F, vec2.scale(ude, b));
   const H = vec2.add(G, vec2.scale(ude, c));
-  const K = vec2.add(G, vec2.scale(ugk, c));
-  const L = vec2.add(G, vec2.scale(ugk, -c));
+
+  const alpha = Math.acos((a * a + b * b - c * c) / (2 * a * b))
+  const df = vec2.sub(F, D);
+  const K = vec2.add(F, vec2.rot(df, -alpha));
+  const L = vec2.add(F, vec2.rot(df, alpha));
 
   return {
     title: "Proposition 22",
