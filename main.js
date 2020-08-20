@@ -20,6 +20,7 @@ import prop7 from './prose/proposition7';
 import prop8 from './prose/proposition8';
 import prop9 from './prose/proposition9';
 import prop10 from './prose/proposition10';
+import prop11 from './prose/proposition11';
 
 let book1 = [
 (function()
@@ -336,6 +337,40 @@ let book1 = [
       B: [-0.5],
       C: [0.8, 1.2],
       D: [5.5, .6]
+    }
+  }
+})(),
+
+(function()
+{
+  const A = [56, 250];
+  const B = [426, 250];
+  const ab = vec2.sub(B, A);
+  const ac = vec2.scale(ab, 0.45);
+  const ad = vec2.scale(ab, 0.2);
+  const C = vec2.add(A, ac);
+  const D = vec2.add(A, ad);
+  const ce = vec2.scale(vec2.sub(D, C), -1);
+  const E = vec2.add(C, ce);
+  const df = vec2.rot(vec2.sub(E, D), -Math.PI/3);
+  const F = vec2.add(D, df);
+
+  return {
+    title: "Proposition 11",
+    prose: processProse(prop11),
+    points: { A, B, C, D, E, F},
+    shapes: [
+      rg.line(A, B),
+      rg.line(F, C),
+      rg.polygon([D, E, F])
+    ],
+    letters: {
+      A: [1],
+      B: [0.2, 1.2],
+      C: [5.5, .6],
+      D: [5, .5],
+      E: [5.5, .6],
+      F: [.8, 1.2]
     }
   }
 })()
