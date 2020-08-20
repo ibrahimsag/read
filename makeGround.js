@@ -62,13 +62,17 @@ function makeGround(ps, rg, svg)
 
         let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';
-        if(isFocusSentence || refCount == o)
+        if(isFocusSentence)
         {
           nearHighlights = [...sentenceMarks];
           el.style['color'] = colors.sentence;
         }
 
-        refCount++;
+        if(sentenceWithoutRef && refCount == o)
+        {
+          el.style['color'] = colors.sentence;
+          refCount++;
+        }
         paragraphEl.appendChild(el);
       });
       proseEl.appendChild(paragraphEl);
