@@ -30,6 +30,7 @@ import prop17 from './prose/proposition17';
 import prop18 from './prose/proposition18';
 import prop19 from './prose/proposition19';
 import prop20 from './prose/proposition20';
+import prop21 from './prose/proposition21';
 
 let book1 = [
 function()
@@ -658,6 +659,37 @@ function()
       B: [3, 0.6],
       C: [7],
       D: [0.5, 1.2],
+    }
+  }
+},
+
+function()
+{
+  const A = [150, 100];
+  const B = [80, 300];
+  const C = [400, 300];
+  const ce = vec2.scale(vec2.sub(A, C), 0.8);
+  const E = vec2.add(C, ce);
+  const bd = vec2.scale(vec2.sub(E, B), 0.8);
+  const D = vec2.add(B, bd);
+
+  return {
+    title: "Proposition 21",
+    prose: processProse(prop21),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(B, C),
+      rg.line(B, E),
+      rg.line(D, C),
+    ],
+    letters: {
+      A: [0.8, 1.2],
+      B: [3, 0.6],
+      C: [7],
+      D: [1.8, 0.8],
+      E: [0.2, 1.2]
     }
   }
 }
