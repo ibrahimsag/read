@@ -22,6 +22,7 @@ import prop9 from './prose/proposition9';
 import prop10 from './prose/proposition10';
 import prop11 from './prose/proposition11';
 import prop12 from './prose/proposition12';
+import prop13 from './prose/proposition13';
 
 let book1 = [
 function()
@@ -419,6 +420,35 @@ function()
       F: [.8, 1.2],
       G: [5, .5],
       H: [5, .5],
+    }
+  }
+},
+
+function()
+{
+  const C = [400, 256];
+  const D = [56, 256];
+  const cb = vec2.scale(vec2.sub(D, C), 0.6);
+  const B = vec2.add(C, cb);
+  const be = vec2.rot(cb, Math.PI/2);
+  const E = vec2.add(B, be);
+  const A = vec2.add(B, vec2.rot(be, Math.PI/5));
+
+  return {
+    title: "Proposition 13",
+    prose: processProse(prop13),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.line(C, D),
+      rg.line(B, E),
+      rg.line(B, A)
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [5.5, 0.6],
+      C: [5.5, 0.6],
+      D: [5.5, 0.6],
+      E: [0.8, 1.2]
     }
   }
 }
