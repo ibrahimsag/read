@@ -8,18 +8,15 @@ function makeGround(ps, rg, svg)
     let nearHighlights = [];
     let highlight = [];
 
-    let imgEl = document.querySelector('#propimg');
-    if(p.img)
-    {
-      imgEl.src = p.img;
-    }
-    else
-    {
-      imgEl.src = "";
-    }
 
     let proseEl = document.querySelector('#prose');
     proseEl.innerHTML = '';
+    if(p.img)
+    {
+      let imgEl = document.createElement('img');
+      imgEl.src = p.img;
+      proseEl.appendChild(imgEl);
+    }
 
     let titleEl = document.createElement('h3');
     titleEl.innerHTML = p.title;
@@ -80,7 +77,7 @@ function makeGround(ps, rg, svg)
 
     if(o < 0)
     {
-      return draw(refCount - 1, p);
+      return draw(refCount, p);
     }
     else if (o >= refCount && refCount > 0)
     {
