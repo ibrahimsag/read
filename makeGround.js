@@ -65,9 +65,12 @@ function makeGround(ps, rg, svg)
           el.style['color'] = colors.sentence;
         }
 
-        if(sentenceWithoutRef && refCount == o)
+        if(sentenceWithoutRef)
         {
-          el.style['color'] = colors.sentence;
+          if(refCount == o)
+          {
+            el.style['color'] = colors.sentence;
+          }
           refCount++;
         }
         paragraphEl.appendChild(el);

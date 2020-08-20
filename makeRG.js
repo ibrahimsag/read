@@ -60,13 +60,17 @@ function makeRG (svgEl)
       let [a, o, b] = name.split('').map(l => p.points[l]);
       let [d1, d2] = [a, b].map(x => vec2.sub(x, o));
       let dir = vec2.sub(d2, d1);
-      let d = [0.25, 0.5, 0.75].map(l => vec2.add(d1, vec2.scale(dir, l)));
+      let d = [0.3, 0.5, 0.7].map(l => vec2.add(d1, vec2.scale(dir, l)));
       let ps = [d1, ...d, d2].map(d => vec2.add(o, vec2.scale(d, 20/vec2.len(d))));
       return [curve(ps, {strokeWidth: 10}), line(o, a), line(o, b)];
     }
+    else if(typ == 'given' && p.given && p.given[name])
+    {
+      return p.given[name]();
+    }
     else
     {
-      return p.highlights[typ + ' ' + name];
+      console.error('Unknown highlight: ', typ, name);
     }
   }
   return { curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }

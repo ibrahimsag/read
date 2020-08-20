@@ -24,7 +24,7 @@ import prop11 from './prose/proposition11';
 import prop12 from './prose/proposition12';
 
 let book1 = [
-(function()
+function()
 {
   const distanceAB = 160;
   const A = [170, 200];
@@ -51,9 +51,9 @@ let book1 = [
       E: [2.5]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [200, 270];
   const B = [250, 230];
@@ -94,15 +94,15 @@ let book1 = [
       L: [4],
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [200, 250];
   const B = [450, 250];
   const C = [180, 50];
-  const G = [330, 50];
-  const cg = vec2.sub(G, C);
+  const Ce = [330, 50];
+  const cg = vec2.sub(Ce, C);
   const ae = vec2.rot(cg, -Math.PI * 3/4)
   const r = vec2.len(ae);
   const D = vec2.add(A, ae);
@@ -111,10 +111,10 @@ let book1 = [
   return {
     title: "Proposition 3",
     prose: processProse(prop3),
-    points: {A, B, C, D, E, F, G},
+    points: {A, B, C, D, E, F},
     shapes: [
       rg.line(A, B),
-      rg.line(C, G),
+      rg.line(C, Ce),
       rg.line(A, D),
       rg.circle(A, 2 * r)
     ],
@@ -124,13 +124,15 @@ let book1 = [
       C: [0, 1.3],
       D: [1.7, 1],
       E: [0.1, 1.5],
-      F: [6, 1],
-      G: [0, 1.3],
+      F: [6, 1]
+    },
+    given: {
+      C: () => [rg.line(C, Ce)]
     }
   };
-})(),
+},
 
-(function()
+function()
 {
   const A = [170, 50];
   const B = [50, 200];
@@ -164,9 +166,9 @@ let book1 = [
       F: [-0.5, 1.2]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [256, 50];
   const B = [206, 180];
@@ -198,9 +200,9 @@ let book1 = [
       G: [-0.5, 1.2]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [256, 50];
   const B = [106, 280];
@@ -222,9 +224,9 @@ let book1 = [
       D: [2.4, 1]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [106, 280];
   const B = [406, 280];
@@ -248,9 +250,9 @@ let book1 = [
       D: [-0.4, 1]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [140, 50];
   const B = [70, 200];
@@ -280,9 +282,9 @@ let book1 = [
       G: [0.5, 1.2]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [156, 50];
   const B = [126, 380];
@@ -313,9 +315,9 @@ let book1 = [
       F: [5.5, .5]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [126, 300];
   const B = [356, 300];
@@ -340,9 +342,9 @@ let book1 = [
       D: [5.5, .6]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [56, 250];
   const B = [426, 250];
@@ -374,9 +376,9 @@ let book1 = [
       F: [.8, 1.2]
     }
   }
-})(),
+},
 
-(function()
+function()
 {
   const A = [56, 350];
   const B = [426, 350];
@@ -417,9 +419,10 @@ let book1 = [
       H: [5, .5],
     }
   }
-})()
+}
 ]
 
-let ground = makeGround(book1, rg, svg);
+let ps = book1.map(f => f())
+let ground = makeGround(ps, rg, svg);
 
-ground.draw(0, book1[book1.length - 1]);
+ground.draw(0, ps[ps.length - 1]);
