@@ -21,6 +21,7 @@ import prop8 from './prose/proposition8';
 import prop9 from './prose/proposition9';
 import prop10 from './prose/proposition10';
 import prop11 from './prose/proposition11';
+import prop12 from './prose/proposition12';
 
 let book1 = [
 (function()
@@ -371,6 +372,49 @@ let book1 = [
       D: [5, .5],
       E: [5.5, .6],
       F: [.8, 1.2]
+    }
+  }
+})(),
+
+(function()
+{
+  const A = [56, 350];
+  const B = [426, 350];
+  const ab = vec2.sub(B, A);
+  const ah = vec2.scale(ab, 0.45);
+  const ag = vec2.scale(ab, 0.2);
+  const H = vec2.add(A, ah);
+  const G = vec2.add(A, ag);
+  const he = vec2.scale(vec2.sub(G, H), -1);
+  const E = vec2.add(H, he);
+  const C = vec2.add(H, [0, -100]);
+  const ce = vec2.sub(E, C);
+  const cd = vec2.rot(ce, Math.PI/8);
+  const D = vec2.add(C, cd);
+  const radius = vec2.len(ce);
+  const F = vec2.add(C, [0, -1 * radius]);
+
+  return {
+    title: "Proposition 12",
+    prose: processProse(prop12),
+    points: { A, B, C, D, E, F, G, H},
+    shapes: [
+      rg.line(A, B),
+      rg.line(C, G),
+      rg.line(C, H),
+      rg.line(C, E),
+      rg.circle(C, 2 * radius),
+      rg.circle(D, 5)
+    ],
+    letters: {
+      A: [1],
+      B: [0.2, 1.2],
+      C: [.8, 1.2],
+      D: [-1.5, 1],
+      E: [6, .6],
+      F: [.8, 1.2],
+      G: [5, .5],
+      H: [5, .5],
     }
   }
 })()
