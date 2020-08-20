@@ -26,6 +26,10 @@ import prop13 from './prose/proposition13';
 import prop14 from './prose/proposition14';
 import prop15 from './prose/proposition15';
 import prop16 from './prose/proposition16';
+import prop17 from './prose/proposition17';
+import prop18 from './prose/proposition18';
+import prop19 from './prose/proposition19';
+import prop20 from './prose/proposition20';
 
 let book1 = [
 function()
@@ -546,6 +550,114 @@ function()
       E: [2.4, 1.5],
       F: [0, 1.2],
       G: [-0.5, 1.2],
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 70];
+  const B = [120, 250];
+  const C = [250, 250];
+  const bd = vec2.scale(vec2.sub(C, B), 1.5);
+  const D = vec2.add(B, bd);
+
+  return {
+    title: "Proposition 17",
+    prose: processProse(prop17),
+    points: { A, B, C, D },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [5.5, 0.6],
+      C: [5.5, 0.6],
+      D: [5.5, 0.6]
+    }
+  }
+},
+
+function()
+{
+  const A = [50, 70];
+  const B = [120, 250];
+  const C = [350, 250];
+  const ac = vec2.sub(C, A);
+  const ab = vec2.sub(B, A);
+  const ad = vec2.scale(ac, vec2.len(ab)/vec2.len(ac));
+  const D = vec2.add(A, ad);
+
+  return {
+    title: "Proposition 18",
+    prose: processProse(prop18),
+    points: { A, B, C, D },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(B, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [5.5, 0.6],
+      C: [5.5, 0.6],
+      D: [0.5, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const A = [250, 50];
+  const B = [120, 150];
+  const C = [300, 300];
+
+  return {
+    title: "Proposition 19",
+    prose: processProse(prop19),
+    points: { A, B, C },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(B, C),
+    ],
+    letters: {
+      A: [0.5, 1.2],
+      B: [3.0, 0.6],
+      C: [5.8, 0.6]
+    }
+  }
+},
+
+function()
+{
+  const A = [150, 250];
+  const B = [80, 350];
+  const C = [300, 350];
+  const ca = vec2.sub(A, C);
+  const ba = vec2.sub(A, B);
+  const ad = vec2.scale(ba, vec2.len(ca)/vec2.len(ba));
+  const D = vec2.add(A, ad);
+
+  return {
+    title: "Proposition 20",
+    prose: processProse(prop20),
+    points: { A, B, C, D },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(B, C),
+      rg.line(D, A),
+      rg.line(D, C),
+    ],
+    letters: {
+      A: [2.0, 1.2],
+      B: [3, 0.6],
+      C: [7],
+      D: [0.5, 1.2],
     }
   }
 }
