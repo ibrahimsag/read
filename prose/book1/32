@@ -1,12 +1,19 @@
 For any triangle, (if) one of the sides (is) produced (then) the external angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three internal angles of the triangle is equal to two right-angles.
 
-Let ABC be a triangle, and let one of its sides BC have been produced to D. I say that the external angle ACD is equal to the (sum of the) two internal and oppo- site angles CAB and ABC, and the (sum of the) three internal angles of the triangle—ABC, BCA, and CAB— is equal to two right-angles.
+Let {ABC polygon} be a triangle, and let one of its sides {BC line} have been produced to {D point}.
+I say that the external angle {ACD angle} is equal to the (sum of the) two internal and opposite angles {CAB angle} and {ABC angle}, and the (sum of the) three internal angles of the triangle ---{ABC angle}, {BCA angle}, and {CAB angle}--- is equal to two right-angles.
 
-For let CE have been drawn through point C parallel to the straight-line AB [Prop. 1.31].
+For let {CE line} have been drawn through point {C point} parallel to the straight-line {AB line} [Prop. 1.31].
 
-And since AB is parallel to CE, and AC has fallen across them, the alternate angles BAC and ACE are equal to one another [Prop. 1.29]. Again, since AB is parallel to CE, and the straight-line BD has fallen across them, the external angle ECD is equal to the internal and opposite (angle) ABC [Prop. 1.29]. But ACE was also shown (to be) equal to BAC. Thus, the whole angle ACD is equal to the (sum of the) two internal and opposite (angles) BAC and ABC.
+And since {AB line} is parallel to {CE line}, and {AC line} has fallen across them, the alternate angles {BAC angle} and {ACE angle} are equal to one another [Prop. 1.29].
+Again, since {AB line} is parallel to {CE line}, and the straight-line {BD line} has fallen across them, the external angle {ECD angle} is equal to the internal and opposite (angle) {ABC angle} [Prop. 1.29].
+But {ACE angle} was also shown (to be) equal to {BAC angle}.
+Thus, the whole angle {ACD angle} is equal to the (sum of the) two internal and opposite (angles) {BAC angle} and {ABC angle}.
 
-Let ACB have been added to both. Thus, (the sum of) ACD and ACB is equal to the (sum of the) three (angles) ABC, BCA, and CAB. But, (the sum of) ACD and ACB is equal to two right-angles [Prop. 1.13]. Thus, (the sum of) ACB, CBA, and CAB is also equal to two right-angles.
+Let {ACB angle} have been added to both.
+Thus, (the sum of) {ACD angle} and {ACB angle} is equal to the (sum of the) three (angles) {ABC angle}, {BCA angle}, and {CAB angle}.
+But, (the sum of) {ACD angle} and {ACB angle} is equal to two right-angles [Prop. 1.13].
+Thus, (the sum of) {ACB angle}, {CBA angle}, and {CAB angle} is also equal to two right-angles.
 
-Thus, for any triangle, (if) one of the sides (is) pro- duced (then) the external angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three internal angles of the triangle is equal to two right-angles.
+Thus, for any triangle, (if) one of the sides (is) produced (then) the external angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three internal angles of the triangle is equal to two right-angles.
 (Which is) the very thing it was required to show.
