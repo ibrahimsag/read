@@ -54,6 +54,10 @@ import prop41 from './prose/book1/41';
 import prop42 from './prose/book1/42';
 import prop43 from './prose/book1/43';
 import prop44 from './prose/book1/44';
+import prop45 from './prose/book1/45';
+import prop46 from './prose/book1/46';
+import prop47 from './prose/book1/47';
+import prop48 from './prose/book1/48';
 
 let book1 = [
 function()
@@ -1573,6 +1577,167 @@ function()
     given: {
       C: () => [rg.polygon([Ca, Cb, C])],
       D: () => rg.angle(Da, D, Db)
+    }
+  }
+},
+
+function()
+{
+  const A = [100, 150];
+  const B = [230, 250];
+  const C = [310, 120];
+  const D = [260, 70];
+
+  const K = [70, 450];
+  const F = [100, 320];
+  const H = vec2.add(K, [100, 0])
+  const M = vec2.add(H, [60, 0])
+  const G = vec2.add(F, [100, 0])
+  const L = vec2.add(G, [60, 0])
+
+  const kf = vec2.sub(F, K);
+  const Ea = [340, 180];
+  const E = [290, 230];
+  const Etheta = Math.PI - Math.acos(vec2.dot(vec2.scale(kf, 1/vec2.len(kf)), [1,0]));
+  const Eb = vec2.add(E, vec2.rot(vec2.sub(Ea, E), Etheta));
+
+  return {
+    title: "Proposition 45",
+    prose: processProse(prop45),
+    points: { A, B, C, D, E, F, G, H, K, L, M },
+    shapes: [
+      rg.polygon([A, B, C, D]),
+      rg.line(B, D),
+      rg.line(Ea, E),
+      rg.line(Eb, E),
+      rg.line(K, F),
+      rg.line(G, H),
+      rg.line(L, M),
+      rg.line(F, L),
+      rg.line(K, M),
+    ],
+    letters: {
+      A: [2.4, 0.5],
+      B: [5.4, 0.5],
+      C: [-0.6, 1],
+      D: [0.5],
+      E: [-0.8, 3.5],
+      F: [0.5],
+      G: [0.5],
+      H: [5.4, 0.5],
+      K: [5.4, 0.5],
+      L: [0.5],
+      M: [5.4, 0.5],
+    },
+    given: {
+      E: () => rg.angle(Ea, E, Eb)
+    }
+  }
+},
+
+function()
+{
+  const A = [100, 350];
+  const B = [230, 350];
+  const C = [100, 50];
+  const E = [230, 220];
+  const D = [100, 220];
+
+  return {
+    title: "Proposition 46",
+    prose: processProse(prop46),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.line(A, C),
+      rg.line(A, B),
+      rg.line(E, B),
+      rg.line(E, D),
+    ],
+    letters: {
+      A: [5.4, 0.5],
+      B: [5.4, 0.5],
+      C: [-0.2, 1],
+      D: [0.1, 1.5],
+      E: [0.8, 1],
+    }
+  }
+},
+
+function()
+{
+  const B = [130, 280];
+  const C = [330, 280];
+ 
+  const A = vec2.add([230, 280], vec2.rot([-100, 0], Math.PI/3))
+
+  const bd = vec2.rot(vec2.sub(C, B), Math.PI/2);
+  const D = vec2.add(B, bd);
+  const E = vec2.add(C, bd);
+
+  const ag = vec2.rot(vec2.sub(B, A), Math.PI/2);
+  const G = vec2.add(A, ag);
+  const F = vec2.add(B, ag);
+
+  const ck = vec2.rot(vec2.sub(A, C), Math.PI/2);
+  const K = vec2.add(C, ck);
+  const H = vec2.add(A, ck);
+
+  const bc = vec2.sub(C, B);
+  const ubc = vec2.scale(bc, 1/vec2.len(bc));
+  const dl = vec2.scale(ubc, vec2.dot(vec2.sub(A, B), ubc));
+  const L = vec2.add(D, dl);
+  const M = vec2.add(B, dl);
+
+  return {
+    title: "Proposition 47",
+    prose: processProse(prop47),
+    points: { A, B, C, D, E, F, G, H, K, L, M },
+    shapes: [
+      rg.polygon([A, G, F, B]),
+      rg.polygon([B, D, E, C]),
+      rg.polygon([A, C, K, H]),
+      rg.line(A, L),
+      rg.line(A, D),
+      rg.line(A, E),
+      rg.line(B, K),
+      rg.line(C, F),
+    ],
+    letters: {
+      A: [1.1, 1.5],
+      B: [3.4, 0.7],
+      C: [-1, 1.2],
+      D: [5.4, 0.5],
+      E: [5.4, 0.5],
+      F: [2.5, 0.9],
+      G: [1.4],
+      H: [0.7, 1.1],
+      K: [-0.4],
+      L: [5.4, 0.5],
+      M: [6.6, 0.9],
+    }
+  }
+},
+
+function()
+{
+  const A = [250, 280];
+  const B = [350, 280];
+  const C = [250, 50];
+  const D = [150, 280];
+
+  return {
+    title: "Proposition 48",
+    prose: processProse(prop48),
+    points: { A, B, C, D },
+    shapes: [
+      rg.polygon([C, D, B]),
+      rg.line(A, C),
+    ],
+    letters: {
+      A: [5.4, 0.5],
+      B: [5.9, 0.5],
+      C: [0.9, 1.2],
+      D: [5.4, 0.5],
     }
   }
 },

@@ -1,29 +1,29 @@
 In a right-angled triangle, the square on the side subtending the right-angle is equal to the (sum of the) squares on the sides surrounding the right-angle.
 
-Let ABC be a right-angled triangle having the right- angle BAC.
-I say that the square on BC is equal to the (sum of the) squares on BA and AC.
+Let {ABC polygon} be a right-angled triangle having the right-angle {BAC angle}.
+I say that the square on {BC line} is equal to the (sum of the) squares on {BA line} and {AC line}.
 
-For let the square BDEC have been described on BC, and (the squares) GB and HC on AB and AC (respectively) [Prop. 1.46].
-And let AL have been drawn through point A parallel to either of BD or CE [Prop. 1.31].
-And let AD and F C have been joined.
-And since angles BAC and BAG are each right-angles, then two straight-lines AC and AG, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the same point A on some straight-line BA .
-Thus, CA is straight-on to AG [Prop. 1.14].
-So, for the same (reasons), BA is also straight-on to AH.
-And since angle DBC is equal to FBA, for (they are) both right-angles, let ABC have been added to both.
-Thus, the whole (angle) DBA is equal to the whole (angle) FBC.
-And since DB is equal to BC, and FB to BA, the two (straight-lines) DB, BA are equal to the two (straight-lines) CB, BF,† respectively.
-And angle DBA (is) equal to angle FBC.
-Thus, the base AD [is] equal to the base FC, and the triangle ABD is equal to the triangle FBC [Prop. 1.4].
-And parallelogram BL [is] double (the area) of triangle ABD.
-For they have the same base, BD, and are between the same parallels, BD and AL [Prop. 1.41].
-And parallelogram GB is double (the area) of triangle FBC.
-For again they have the same base, F B, and are between the same parallels, F B and GC [Prop. 1.41].
+For let the square {BDEC polygon} have been described on {BC line}, and (the squares) {GABF polygon} and {HKCA polygon} on {AB line} and {AC line} (respectively) [Prop. 1.46].
+And let {AL line} have been drawn through point {A point} parallel to either of {BD line} or {CE line} [Prop. 1.31].
+And let {AD line} and {FC line} have been joined.
+And since angles {BAC angle} and {BAG angle} are each right-angles, then two straight-lines {AC line} and {AG line}, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the same point {A point} on some straight-line {BA line} .
+Thus, {CA line} is straight-on to {AG line} [Prop. 1.14].
+So, for the same (reasons), {BA line} is also straight-on to {AH line}.
+And since angle {DBC angle} is equal to {FBA angle}, for (they are) both right-angles, let {ABC angle} have been added to both.
+Thus, the whole (angle) {DBA angle} is equal to the whole (angle) {FBC angle}.
+And since {DB line} is equal to {BC line}, and {FB line} to {BA line}, the two (straight-lines) {DB line}, {BA line} are equal to the two (straight-lines) {CB line}, {BF line}, respectively.
+And angle {DBA angle} (is) equal to angle {FBC angle}.
+Thus, the base {AD line} [is] equal to the base {FC line}, and the triangle {ABD polygon} is equal to the triangle {FBC polygon} [Prop. 1.4].
+And parallelogram {BDLM polygon} [is] double (the area) of triangle {ABD polygon}.
+For they have the same base, {BD line}, and are between the same parallels, {BD line} and {AL line} [Prop. 1.41].
+And parallelogram {GABF polygon} is double (the area) of triangle {FBC polygon}.
+For again they have the same base, {FB line}, and are between the same parallels, {FB line} and {GC line} [Prop. 1.41].
 [And the doubles of equal things are equal to one another.]
-Thus, the parallelogram BL is also equal to the square GB.
-So, similarly, AE and BK being joined, the parallelogram CL can be shown (to be) equal to the square HC.
-Thus, the whole square BDEC is equal to the (sum of the) two squares GB and HC.
-And the square BDEC is described on BC, and the (squares) GB and HC on BA and AC (respectively).
-Thus, the square on the side BC is equal to the (sum of the) squares on the sides BA and AC.
+Thus, the parallelogram {BDLM polygon} is also equal to the square {GABF polygon}.
+So, similarly, {AE line} and {BK line} being joined, the parallelogram {CELM polygon} can be shown (to be) equal to the square {HKCA polygon}.
+Thus, the whole square {BDEC polygon} is equal to the (sum of the) two squares {GABF polygon} and {HKCA polygon}.
+And the square {BDEC polygon} is described on {BC line}, and the (squares) {GABF polygon} and {HKCA polygon} on {BA line} and {AC line} (respectively).
+Thus, the square on the side {BC line} is equal to the (sum of the) squares on the sides {BA line} and {AC line}.
 
 Thus, in a right-angled triangle, the square on the side subtending the right-angle is equal to the (sum of the) squares on the sides surrounding the right-[angle].
 (Which is) the very thing it was required to show.

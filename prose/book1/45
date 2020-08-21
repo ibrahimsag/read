@@ -1,28 +1,28 @@
 To construct a parallelogram equal to a given rectilinear figure in a given rectilinear angle.
 
-Let ABCD be the given rectilinear figure,† and E the given rectilinear angle.
-So it is required to construct a parallelogram equal to the rectilinear figure ABCD in the given angle E.
+Let {ABCD polygon} be the given rectilinear figure, and {E given} the given rectilinear angle.
+So it is required to construct a parallelogram equal to the rectilinear figure {ABCD polygon} in the given angle {E given}.
 
-Let DB have been joined, and let the parallelogram FH, equal to the triangle ABD, have been constructed in the angle HKF, which is equal to E [Prop. 1.42].
-And let the parallelogram GM, equal to the triangle DBC, have been applied to the straight-line GH in the angle GHM, which is equal to E [Prop. 1.44].
-And since angle E is equal to each of (angles) HKF and GHM, (angle) HKF is thus also equal to GHM.
-Let KHG have been added to both.
-Thus, (the sum of) FKH and KHG is equal to (the sum of) KHG and GHM.
-But, (the sum of) FKH and KHG is equal to two right-angles [Prop. 1.29].
-Thus, (the sum of) KHG and GHM is also equal to two right-angles.
-So two straight-lines, KH and HM, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the point H on some straight-line GH.
-Thus, KH is straight-on to HM [Prop. 1.14].
-And since the straight-line HG falls across the parallel- lines KM and FG, the alternate angles MHG and HGF are equal to one another [Prop. 1.29].
-Let HGL have been added to both.
-Thus, (the sum of) MHG and HGL is equal to (the sum of) HGF and HGL.
-But,(the sum of) MHG and HGL is equal to two right-angles [Prop. 1.29].
-Thus, (the sum of) H GF and H GL is also equal to two right-angles.
-Thus, FG is straight-on to GL [Prop. 1.14].
-And since FK is equal and parallel to HG [Prop. 1.34], but also HG to ML [Prop. 1.34], KF is thus also equal and parallel to ML [Prop. 1.30].
-And the straight-lines KM and FL join them.
-Thus, KM and FL are equal and parallel as well [Prop. 1.33].
-Thus, KFLM is a parallelogram.
-And since triangle ABD is equal to parallelogram FH, and DBC to GM, the whole rectilinear figure ABCD is thus equal to the whole parallelogram KFLM.
+Let {DB line} have been joined, and let the parallelogram {FKHG polygon}, equal to the triangle {ABD polygon}, have been constructed in the angle {HKF angle}, which is equal to {E given} [Prop. 1.42].
+And let the parallelogram {GHML polygon}, equal to the triangle {DBC polygon}, have been applied to the straight-line {GH line} in the angle {GHM angle}, which is equal to {E given} [Prop. 1.44].
+And since angle {E given} is equal to each of (angles) {HKF angle} and {GHM angle}, (angle) {HKF angle} is thus also equal to {GHM angle}.
+Let {KHG angle} have been added to both.
+Thus, (the sum of) {FKH angle} and {KHG angle} is equal to (the sum of) {KHG angle} and {GHM angle}.
+But, (the sum of) {FKH angle} and {KHG angle} is equal to two right-angles [Prop. 1.29].
+Thus, (the sum of) {KHG angle} and {GHM angle} is also equal to two right-angles.
+So two straight-lines, {KH line} and {HM line}, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the point {H point} on some straight-line {GH line}.
+Thus, {KH line} is straight-on to {HM line} [Prop. 1.14].
+And since the straight-line {HG line} falls across the parallel-lines {KM line} and {FG line}, the alternate angles {MHG angle} and {HGF angle} are equal to one another [Prop. 1.29].
+Let {HGL angle} have been added to both.
+Thus, (the sum of) {MHG angle} and {HGL angle} is equal to (the sum of) {HGF angle} and {HGL angle}.
+But,(the sum of) {MHG angle} and {HGL angle} is equal to two right-angles [Prop. 1.29].
+Thus, (the sum of) {HGF angle} and {HGL angle} is also equal to two right-angles.
+Thus, {FG line} is straight-on to {GL line} [Prop. 1.14].
+And since {FK line} is equal and parallel to {HG line} [Prop. 1.34], but also {HG line} to {ML line} [Prop. 1.34], {KF line} is thus also equal and parallel to {ML line} [Prop. 1.30].
+And the straight-lines {KM line} and {FL line} join them.
+Thus, {KM line} and {FL line} are equal and parallel as well [Prop. 1.33].
+Thus, {KFLM polygon} is a parallelogram.
+And since triangle {ABD polygon} is equal to parallelogram {FKHG polygon}, and {DBC polygon} to {GHML polygon}, the whole rectilinear figure {ABCD polygon} is thus equal to the whole parallelogram {KFLM polygon}.
 
-Thus, the parallelogram KFLM, equal to the given rectilinear figure ABCD, has been constructed in the angle FKM, which is equal to the given (angle) E.
+Thus, the parallelogram {KFLM polygon}, equal to the given rectilinear figure {ABCD polygon}, has been constructed in the angle {FKM angle}, which is equal to the given (angle) {E given}.
 (Which is) the very thing it was required to do.

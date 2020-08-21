@@ -1,22 +1,22 @@
 To describe a square on a given straight-line.
 
-Let AB be the given straight-line. So it is required to describe a square on the straight-line AB.
+Let {AB line} be the given straight-line. So it is required to describe a square on the straight-line {AB line}.
 
-Let AC have been drawn at right-angles to the straight-line AB from the point A on it [Prop. 1.11], and let AD have been made equal to AB [Prop. 1.3].
-And let DE have been drawn through point D parallel to AB [Prop. 1.31], and let BE have been drawn through point B parallel to AD [Prop. 1.31].
-Thus, ADEB is a parallelogram.
-Thus, AB is equal to DE, and AD to BE [Prop. 1.34].
-But, AB is equal to AD.
-Thus, the four (sides) BA, AD, DE, and EB are equal to one another.
-Thus, the parallelogram ADEB is equilateral.
+Let {AC line} have been drawn at right-angles to the straight-line {AB line} from the point {A point} on it [Prop. 1.11], and let {AD line} have been made equal to {AB line} [Prop. 1.3].
+And let {DE line} have been drawn through point {D point} parallel to {AB line} [Prop. 1.31], and let {BE line} have been drawn through point {B point} parallel to {AD line} [Prop. 1.31].
+Thus, {ADEB polygon} is a parallelogram.
+Thus, {AB line} is equal to {DE line}, and {AD line} to {BE line} [Prop. 1.34].
+But, {AB line} is equal to {AD line}.
+Thus, the four (sides) {BA line}, {AD line}, {DE line}, and {EB line} are equal to one another.
+Thus, the parallelogram {ADEB polygon} is equilateral.
 So I say that (it is) also right-angled.
-For since the straight-line AD falls across the parallel-lines AB and DE, the (sum of the) angles BAD and ADE is equal to two right-angles [Prop. 1.29].
-But BAD (is a) right-angle.
-Thus, ADE (is) also a right-angle.
+For since the straight-line {AD line} falls across the parallel-lines {AB line} and {DE line}, the (sum of the) angles {BAD angle} and {ADE angle} is equal to two right-angles [Prop. 1.29].
+But {BAD angle} (is a) right-angle.
+Thus, {ADE angle} (is) also a right-angle.
 And for parallelogrammic figures, the opposite sides and angles are equal to one another [Prop. 1.34].
-Thus, each of the opposite angles ABE and BED (are) also right-angles.
-Thus, ADEB is right-angled.
+Thus, each of the opposite angles {ABE angle} and {BED angle} (are) also right-angles.
+Thus, {ADEB polygon} is right-angled.
 And it was also shown (to be) equilateral.
 
-Thus, (ADEB) is a square [Def. 1.22]. And it is described on the straight-line AB.
+Thus, ({ADEB polygon}) is a square [Def. 1.22]. And it is described on the straight-line {AB line}.
 (Which is) the very thing it was required to do.
