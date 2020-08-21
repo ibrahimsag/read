@@ -50,6 +50,10 @@ import prop37 from './prose/book1/37';
 import prop38 from './prose/book1/38';
 import prop39 from './prose/book1/39';
 import prop40 from './prose/book1/40';
+import prop41 from './prose/book1/41';
+import prop42 from './prose/book1/42';
+import prop43 from './prose/book1/43';
+import prop44 from './prose/book1/44';
 
 let book1 = [
 function()
@@ -1400,6 +1404,175 @@ function()
       D: [0.9, 1.2],
       E: [5.4, 0.5],
       F: [3.2, 1.5],
+    }
+  }
+},
+
+function()
+{
+  const A = [70, 100];
+  const B = [40, 300];
+  const C = [220, 300];
+  const D = [250, 100];
+  const E = vec2.add(D, vec2.sub(D, A));
+
+  return {
+    title: "Proposition 41",
+    prose: processProse(prop41),
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.polygon([A, B, C, E]),
+      rg.line(A, C),
+      rg.line(D, C),
+      rg.line(B, E),
+    ],
+    letters: {
+      A: [0.9, 1.2],
+      B: [5.4, 0.5],
+      C: [5.4, 0.5],
+      D: [0.5, 1.2],
+      E: [0.5, 1.2],
+    }
+  }
+},
+
+function()
+{
+  const A = [130, 100];
+  const B = [100, 300];
+  const C = [360, 300];
+
+  const Da = [20, 20];
+  const D = [60, 90];
+  const Dtheta = Math.PI / 3;
+  const Db = vec2.add(D, vec2.rot(vec2.sub(Da, D), Dtheta));
+
+  const E = vec2.add(B, vec2.scale(vec2.sub(C, B), 0.5));
+  const height = (B[1]-A[1]);
+  const ef = [height / Math.tan(Dtheta), -height];
+  const F = vec2.add(E, ef);
+  const G = vec2.add(C, ef);
+
+  return {
+    title: "Proposition 42",
+    prose: processProse(prop42),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.line(Da, D),
+      rg.line(Db, D),
+      rg.line(A, E),
+      rg.line(A, G),
+      rg.line(C, G),
+      rg.line(E, F),
+    ],
+    letters: {
+      A: [0.9, 1.2],
+      B: [5.4, 0.5],
+      C: [5.4, 0.5],
+      D: [0.85, 2.8],
+      E: [5.4, 0.5],
+      F: [0.6, 1.2],
+      G: [0.6, 1.2],
+    },
+    given: {
+      D: () => rg.angle(Da, D, Db)
+    }
+  }
+},
+
+function()
+{
+  const A = [100, 70];
+  const B = [50, 250];
+  const C = [350, 250];
+  const D = [400, 70];
+  const ah = vec2.scale(vec2.sub(D, A), 0.3);
+  const ae = vec2.scale(vec2.sub(B, A), 0.3);
+  const ak = vec2.scale(vec2.sub(C, A), 0.3);
+  const E = vec2.add(A, ae);
+  const F = vec2.add(D, ae);
+  const G = vec2.add(B, ah);
+  const H = vec2.add(A, ah);
+  const K = vec2.add(A, ak);
+
+  return {
+    title: "Proposition 43",
+    prose: processProse(prop43),
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([A, B, C, D]),
+      rg.line(A, C),
+      rg.line(E, F),
+      rg.line(G, H),
+    ],
+    letters: {
+      A: [0.9, 1.2],
+      B: [5.4, 0.5],
+      C: [5.4, 0.5],
+      D: [0.5, 1.2],
+      E: [2.5],
+      F: [-0.5, 1.2],
+      G: [5.4, 0.5],
+      H: [0.7, 1.2],
+      K: [-0.1, 1.7],
+    }
+  }
+},
+
+function()
+{
+  const A = [160, 440];
+  const B = [170, 370];
+  const Da = [330, 150];
+  const D = [380, 100];
+  const ab = vec2.sub(B, A);
+  const Dtheta = Math.PI - Math.acos(vec2.dot(vec2.scale(ab, 1/vec2.len(ab)), [1,0]));
+  const Db = vec2.add(D, vec2.rot(vec2.sub(Da, D), Dtheta));
+
+  const Cb = [50, 170];
+  const C = [200, 170];
+  const Ca = vec2.add(C, vec2.rot(vec2.sub(Cb, C), Dtheta));
+
+  const E = vec2.add(B, vec2.scale(ab, 2));
+  const bg = vec2.scale(vec2.rot(ab, -Dtheta), 1.3);
+  const F = vec2.add(E, bg);
+  const G = vec2.add(B, bg);
+  const H = vec2.add(A, bg);
+  const bm = vec2.scale(bg, -2);
+  const K = vec2.add(E, bm);
+  const L = vec2.add(A, bm);
+  const M = vec2.add(B, bm);
+
+  return {
+    title: "Proposition 44",
+    prose: processProse(prop44),
+    points: { A, B, C, D, E, F, G, H, K, L, M },
+    shapes: [
+      rg.polygon([Ca, Cb, C]),
+      rg.line(Da, D),
+      rg.line(Db, D),
+      rg.line(A, E),
+      rg.polygon([H, L, K, F]),
+      rg.line(G, M),
+      rg.line(H, K),
+    ],
+    letters: {
+      A: [5.4, 0.5],
+      B: [6.4, 0.9],
+      C: [1.8, 3.3],
+      D: [2.7, 2],
+      E: [0.5, 1.2],
+      F: [0.5, 1.2],
+      G: [2.5, 0.8],
+      H: [5.0, 0.5],
+      K: [0.5, 1.2],
+      L: [5.4, 0.5],
+      M: [-0.7],
+    },
+    given: {
+      C: () => [rg.polygon([Ca, Cb, C])],
+      D: () => rg.angle(Da, D, Db)
     }
   }
 },

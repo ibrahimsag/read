@@ -1,18 +1,19 @@
 To construct a parallelogram equal to a given triangle in a given rectilinear angle.
 
-Let ABC be the given triangle, and D the given rectilinear angle.
-So it is required to construct a parallelogram equal to triangle ABC in the rectilinear angle D.
+Let {ABC polygon} be the given triangle, and {D given} the given rectilinear angle.
+So it is required to construct a parallelogram equal to triangle {ABC polygon} in the rectilinear angle {D given}.
 
-Let BC have been cut in half at E [Prop. 1.10], and let AE have been joined.
-And let (angle) CEF, equal to angle D, have been constructed at the point E on the straight-line EC [Prop. 1.23].
-And let AG have been drawn through A parallel to EC [Prop. 1.31], and let CG have been drawn through C parallel to EF [Prop. 1.31].
-Thus, FECG is a parallelogram.
-And since BE is equal to EC, triangle ABE is also equal to triangle AEC. For they are on the equal bases, BE and EC, and between the same parallels, BC and AG [Prop. 1.38].
-Thus, triangle ABC is double (the area) of triangle AEC.
-And parallelogram FECG is also double (the area) of triangle AEC.
-For it has the same base as (AEC), and is between the same parallels as (AEC) [Prop. 1.41].
-Thus, parallelogram F ECG is equal to triangle ABC.
-(FECG) also has the angle CEF equal to the given (angle) D.
+Let {BC line} have been cut in half at {E point} [Prop. 1.10], and let {AE line} have been joined.
+And let (angle) {CEF angle}, equal to angle {D given}, have been constructed at the point {E point} on the straight-line {EC line} [Prop. 1.23].
+And let {AG line} have been drawn through {A point} parallel to {EC line} [Prop. 1.31], and let {CG line} have been drawn through {C point} parallel to {EF line} [Prop. 1.31].
+Thus, {FECG polygon} is a parallelogram.
+And since {BE line} is equal to {EC line}, triangle {ABE polygon} is also equal to triangle {AEC polygon}.
+For they are on the equal bases, {BE line} and {EC line}, and between the same parallels, {BC line} and {AG line} [Prop. 1.38].
+Thus, triangle {ABC polygon} is double (the area) of triangle {AEC polygon}.
+And parallelogram {FECG polygon} is also double (the area) of triangle {AEC polygon}.
+For it has the same base as ({AEC polygon}), and is between the same parallels as ({AEC polygon}) [Prop. 1.41].
+Thus, parallelogram {FECG polygon} is equal to triangle {ABC polygon}.
+({FECG polygon}) also has the angle {CEF angle} equal to the given (angle) {D given}.
 
-Thus, parallelogram FECG, equal to the given triangle ABC, has been constructed in the angle CEF, which is equal to D.
+Thus, parallelogram {FECG polygon}, equal to the given triangle {ABC polygon}, has been constructed in the angle {CEF angle}, which is equal to {D given}.
 (Which is) the very thing it was required to do.

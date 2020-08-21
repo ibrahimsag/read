@@ -1,14 +1,15 @@
 For any parallelogram, the complements of the parallelograms about the diagonal are equal to one another.
 
-Let ABCD be a parallelogram, and AC its diagonal. And let EH and FG be the parallelograms about AC,and BK and KD the so-called complements (about AC).
-I say that the complement BK is equal to the complement KD.
+Let {ABCD polygon} be a parallelogram, and {AC line} its diagonal.
+And let {EAHK polygon} and {FCGK polygon} be the parallelograms about {AC line},and {BGKE polygon} and {KFDH polygon} the so-called complements (about {AC line}).
+I say that the complement {BGKE polygon} is equal to the complement {KFDH polygon}.
 
-For since ABCD is a parallelogram, and AC its diagonal, triangle ABC is equal to triangle ACD [Prop. 1.34].
-Again, since EH is a parallelogram, and AK is its diagonal, triangle AEK is equal to triangle AHK [Prop. 1.34].
-So, for the same (reasons), triangle KFC is also equal to (triangle) KGC.
-Therefore, since triangle AEK is equal to triangle AHK, and KFC to KGC, triangle AEK plus KGC is equal to triangle AHK plus KFC.
-And the whole triangle ABC is also equal to the whole (triangle) ADC.
-Thus, the remaining complement BK is equal to the remaining complement KD.
+For since {ABCD polygon} is a parallelogram, and {AC line} its diagonal, triangle {ABC polygon} is equal to triangle {ACD polygon} [Prop. 1.34].
+Again, since {EAHK polygon} is a parallelogram, and {AK line} is its diagonal, triangle {AEK polygon} is equal to triangle {AHK polygon} [Prop. 1.34].
+So, for the same (reasons), triangle {KFC polygon} is also equal to (triangle) {KGC polygon}.
+Therefore, since triangle {AEK polygon} is equal to triangle {AHK polygon}, and {KFC polygon} to {KGC polygon}, triangle {AEK polygon} plus {KGC polygon} is equal to triangle {AHK polygon} plus {KFC polygon}.
+And the whole triangle {ABC polygon} is also equal to the whole (triangle) {ADC polygon}.
+Thus, the remaining complement {BGKE polygon} is equal to the remaining complement {KFDH polygon}.
 
 Thus, for any parallelogramic figure, the complements of the parallelograms about the diagonal are equal to one another.
 (Which is) the very thing it was required to show.

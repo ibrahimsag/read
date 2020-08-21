@@ -1,13 +1,14 @@
 If a parallelogram has the same base as a triangle, and is between the same parallels, then the parallelogram is double (the area) of the triangle.
 
-For let parallelogram ABCD have the same base BC as triangle EBC, and let it be between the same parallels, BC and AE.
-I say that parallelogram ABCD is double (the area) of triangle BEC.
+For let parallelogram {ABCD polygon} have the same base {BC line} as triangle {EBC polygon}, and let it be between the same parallels, {BC line} and {AE line}.
+I say that parallelogram {ABCD polygon} is double (the area) of triangle {BEC polygon}.
 
-For let AC have been joined.
-So triangle ABC is equal to triangle EBC. For it is on the same base, BC, as (EBC), and between the same parallels, BC and AE [Prop. 1.37].
-But, parallelogram ABCD is double (the area) of triangle ABC.
-For the diagonal AC cuts the former in half [Prop. 1.34].
-So parallelogram ABCD is also double (the area) of triangle EBC.
+For let {AC line} have been joined.
+So triangle {ABC polygon} is equal to triangle {EBC polygon}.
+For it is on the same base, {BC line}, as ({EBC polygon}), and between the same parallels, {BC line} and {AE line} [Prop. 1.37].
+But, parallelogram {ABCD polygon} is double (the area) of triangle {ABC polygon}.
+For the diagonal {AC line} cuts the former in half [Prop. 1.34].
+So parallelogram {ABCD polygon} is also double (the area) of triangle {EBC polygon}.
 
 Thus, if a parallelogram has the same base as a triangle, and is between the same parallels, then the parallelogram is double (the area) of the triangle.
 (Which is) the very thing it was required to show.

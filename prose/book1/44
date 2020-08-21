@@ -1,23 +1,24 @@
 To apply a parallelogram equal to a given triangle to a given straight-line in a given rectilinear angle.
 
-Let AB be the given straight-line, C the given triangle, and D the given rectilinear angle.
-So it is required to apply a parallelogram equal to the given triangle C to the given straight-line AB in an angle equal to D.
+Let {AB line} be the given straight-line, {C given} the given triangle, and {D given} the given rectilinear angle.
+So it is required to apply a parallelogram equal to the given triangle {C given} to the given straight-line {AB line} in an angle equal to {D given}.
 
-Let the parallelogram BEFG, equal to the triangle C, have been constructed in the angle EBG, which is equal to D [Prop. 1.42]. And let it have been placed so that BE is straight-on to AB.
-And let FG have been drawn through to H, and let AH have been drawn through A parallel to either of BG or EF [Prop. 1.31], and let HB have been joined.
-And since the straight-line HF falls across the parallel-lines AH and EF, the (sum of the) angles AH F and H F E is thus equal to two right-angles [Prop. 1.29].
-Thus, (the sum of) BHG and GFE is less than two right-angles.
+Let the parallelogram {BEFG polygon}, equal to the triangle {C given}, have been constructed in the angle {EBG angle}, which is equal to {D given} [Prop. 1.42].
+And let it have been placed so that {BE line} is straight-on to {AB line}.
+And let {FG line} have been drawn through to {H point}, and let {AH line} have been drawn through {A point} parallel to either of {BG line} or {EF line} [Prop. 1.31], and let {HB line} have been joined.
+And since the straight-line {HF line} falls across the parallel-lines {AH line} and {EF line}, the (sum of the) angles {AHF angle} and {HFE angle} is thus equal to two right-angles [Prop. 1.29].
+Thus, (the sum of) {BHG angle} and {GFE angle} is less than two right-angles.
 And (straight-lines) produced to infinity from (internal angles whose sum is) less than two right-angles meet together [Post. 5].
-Thus, being produced, HB and FE will meet together.
-Let them have been produced, and let them meet together at K.
-And let KL have been drawn through point K parallel to either of EA or FH [Prop. 1.31].
-And let HA and GB have been produced to points L and M (respectively).
-Thus, HLKF is a parallelogram, and HK its diagonal.
-And AG and ME (are) parallelograms, and LB and BF the so-called complements, about HK.
-Thus, LB is equal to BF [Prop. 1.43].
-But, BF is equal to triangle C.
-Thus, LB is also equal to C.
-Also, since angle GBE is equal to ABM [Prop. 1.15], but GBE is equal to D, ABM is thus also equal to angle D.
+Thus, being produced, {HB line} and {FE line} will meet together.
+Let them have been produced, and let them meet together at {K point}.
+And let {KL line} have been drawn through point {K point} parallel to either of {EA line} or {FH line} [Prop. 1.31].
+And let {HA line} and {GB line} have been produced to points {L point} and {M point} (respectively).
+Thus, {HLKF polygon} is a parallelogram, and {HK line} its diagonal.
+And {ABGH polygon} and {MKEB polygon} (are) parallelograms, and {LMBA polygon} and {BEFG polygon} the so-called complements, about {HK line}.
+Thus, {LMBA polygon} is equal to {BEFG polygon} [Prop. 1.43].
+But, {BEFG polygon} is equal to triangle {C given}.
+Thus, {LMBA polygon} is also equal to {C given}.
+Also, since angle {GBE angle} is equal to {ABM angle} [Prop. 1.15], but {GBE angle} is equal to {D given}, {ABM angle} is thus also equal to angle {D given}.
 
-Thus, the parallelogram LB, equal to the given triangle C, has been applied to the given straight-line AB in the angle ABM, which is equal to D.
+Thus, the parallelogram {LMBA polygon}, equal to the given triangle {C given}, has been applied to the given straight-line {AB line} in the angle {ABM angle}, which is equal to {D given}.
 (Which is) the very thing it was required to do.
