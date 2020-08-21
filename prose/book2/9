@@ -1,0 +1,44 @@
+If a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.
+
+For let any straight-line AB have been cut---equally at C, and unequally at D.
+I say that the (sum of the) squares on AD and DB is double the (sum of the squares) on AC and CD.
+
+For let CE have been drawn from (point) C, at right-angles to AB [Prop. 1.11], and let it be made equal to each of AC and CB [Prop. 1.3], and let EA and EB have been joined.
+And let DF have been drawn through (point) D, parallel to EC [Prop. 1.31], and (let) FG (have been drawn) through (point) F, (parallel) to AB [Prop. 1.31].
+And let AF have been joined.
+And since AC is equal to CE, the angle EAC is also equal to the (angle) AEC [Prop. 1.5].
+And since the (angle) at C is a right-angle, the (sum of the) remaining angles (of triangle AEC), EAC and AEC, is thus equal to one right-angle [Prop. 1.32].
+And they are equal.
+Thus, (angles) CEA and CAE are each half a right-angle.
+So, for the same (reasons), (angles) CEB and EBC are also each half a right-angle.
+Thus, the whole (angle) AEB is a right-angle.
+And since GEF is half a right-angle, and EGF (is) a right-angle—for it is equal to the internal and opposite (angle) ECB [Prop. 1.29]—the remaining (angle) EFG is thus half a right-angle [Prop. 1.32].
+Thus, angle GEF [is] equal to EFG.
+So the side EG is also equal to the (side) GF [Prop. 1.6].
+Again, since the angle at B is half a right-angle, and (angle) FDB (is) a right-angle---for again it is equal to the internal and opposite (angle) ECB [Prop. 1.29]--- the remaining (angle) BFD is half a right-angle [Prop. 1.32].
+Thus, the angle at B (is) equal to DFB.
+So the side FD is also equal to the side DB [Prop. 1.6].
+And since AC is equal to CE, the (square) on AC (is) also equal to the (square) on CE.
+Thus, the (sum of the) squares on AC and CE is dou- ble the (square) on AC.
+And the square on EA is equal to the (sum of the) squares on AC and CE.
+For angle ACE (is) a right-angle [Prop. 1.47].
+Thus, the (square) on EA is double the (square) on AC.
+Again, since EG is equal to GF, the (square) on EG (is) also equal to the (square) on GF.
+Thus, the (sum of the squares) on EG and GF is double the square on GF.
+And the square on EF is equal to the (sum of the) squares on EG and GF [Prop. 1.47].
+Thus, the square on EF is double the (square) on GF.
+And GF (is) equal to CD [Prop. 1.34].
+Thus, the (square) on EF is double the (square) on CD.
+And the (square) on EA is also double the (square) on AC.
+Thus, the (sum of the) squares on AE and EF is double the (sum of the) squares on AC and CD.
+And the square on AF is equal to the (sum of the squares) on AE and EF.
+For the angle AEF is a right-angle [Prop. 1.47].
+Thus, the square on AF is double the (sum of the squares) on AC and CD.
+And the (sum of the squares) on AD and DF (is) equal to the (square) on AF.
+For the angle at D is a right-angle [Prop. 1.47].
+Thus, the (sum of the squares) on AD and DF is double the (sum of the) squares on AC and CD.
+And DF (is) equal to DB.
+Thus, the (sum of the) squares on AD and DB is double the (sum of the) squares on AC and CD.
+
+Thus, if a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.
+(Which is) the very thing it was required to show.

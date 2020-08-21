@@ -1,0 +1,22 @@
+If a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.
+
+For let any straight-line AB have been cut in half at point C, and let any straight-line BD have been added to it straight-on.
+I say that the rectangle contained by AD and DB, plus the square on CB, is equal to the square on CD.
+
+For let the square CEFD have been described on CD [Prop. 1.46], and let DE have been joined, and let BG have been drawn through point B, parallel to either of EC or DF [Prop. 1.31], and let KM have been drawn through point H, parallel to either of AB or EF [Prop. 1.31], and finally let AK have been drawn through A, parallel to either of CL or DM [Prop. 1.31].
+
+Therefore, since AC is equal to CB, (rectangle) AL is also equal to (rectangle) CH [Prop. 1.36].
+But, (rectangle) C H is equal to (rectangle) H F [Prop. 1.43].
+Thus, (rectangle) AL is also equal to (rectangle) HF.
+Let (rectangle) CM have been added to both.
+Thus, the whole (rectangle) AM is equal to the gnomon NOP.
+But, AM is the (rectangle contained) by AD and DB.
+For DM is equal to DB.
+Thus, gnomon NOP is also equal to the [rectangle contained] by AD and DB.
+Let LG, which is equal to the square on BC, have been added to both.
+Thus, the rectangle contained by AD and DB, plus the square on CB, is equal to the gnomon NOP and the (square) LG.
+But the gnomon NOP and the (square) LG is (equivalent to) the whole square CEFD, which is on CD.
+Thus, the rectangle contained by AD and DB, plus the square on CB, is equal to the square on CD.
+
+Thus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.
+(Which is) the very thing it was required to show.

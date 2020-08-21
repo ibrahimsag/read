@@ -1,0 +1,16 @@
+If a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight-line), and each of the pieces (of the straight-line), is equal to the square on the whole.
+
+For let the straight-line AB have been cut, at random, at point C.
+I say that the rectangle contained by AB and BC, plus the rectangle contained by BA and AC, is equal to the square on AB.
+
+For let the square ADEB have been described on AB [Prop. 1.46], and let C F have been drawn through C , parallel to either of AD or BE [Prop. 1.31].
+
+So the (square) AE is equal to the (rectangles) AF and CE.
+And AE is the square on AB.
+And AF (is) the rectangle contained by the (straight-lines) BA and AC.
+For it is contained by DA and AC, and AD (is) equal to AB.
+And CE (is) the (rectangle contained) by AB and BC.
+For BE (is) equal to AB. Thus, the (rectangle contained) by BA and AC, plus the (rectangle contained) by AB and BC, is equal to the square on AB.
+
+Thus, if a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight- line), and each of the pieces (of the straight-line), is equal to the square on the whole.
+(Which is) the very thing it was required to show.

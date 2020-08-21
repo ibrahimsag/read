@@ -1,0 +1,22 @@
+If a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).
+
+For let any straight-line AB have been cut—equally at C, and unequally at D.
+I say that the rectangle contained by AD and DB, plus the square on CD, is equal to the square on CB.
+
+For let the square CEF B have been described on CB [Prop. 1.46], and let BE have been joined, and let DG have been drawn through D, parallel to either of CE or BF [Prop. 1.31], and again let KM have been drawn through H, parallel to either of AB or EF [Prop. 1.31], and again let AK have been drawn through A, parallel to either of CL or BM [Prop. 1.31].
+And since the complement CH is equal to the complement HF [Prop. 1.43], let the (square) DM have been added to both.
+Thus, the whole (rectangle) CM is equal to the whole (rectangle) DF.
+But, (rectangle) CM is equal to (rectangle) AL, since AC is also equal to CB [Prop. 1.36].
+Thus, (rectangle) AL is also equal to (rectangle) DF.
+Let (rectangle) CH have been added to both.
+Thus, the whole (rectangle) AH is equal to the gnomon NOP.
+But, AH is the (rectangle contained) by AD and DB.
+For DH (is) equal to DB.
+Thus, the gnomon NOP is also equal to the (rectangle contained) by AD and DB.
+Let LG, which is equal to the (square) on CD, have been added to both.
+Thus, the gnomon NOP and the (square) LG are equal to the rectangle contained by AD and DB, and the square on CD.
+But, the gnomon NOP and the (square) LG is (equivalent to) the whole square CEFB, which is on CB.
+Thus, the rectangle contained by AD and DB, plus the square on CD, is equal to the square on CB.
+
+Thus, if a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).
+(Which is) the very thing it was required to show.

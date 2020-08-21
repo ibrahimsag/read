@@ -1,0 +1,16 @@
+If a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle con- tained by (both of) the pieces, and the square on the aforementioned piece.
+
+For let the straight-line AB have been cut, at random, at (point) C.
+I say that the rectangle contained by AB and BC is equal to the rectangle contained by AC and CB, plus the square on BC.
+
+For let the square CDEB have been described on CB [Prop. 1.46], and let ED have been drawn through to F, and let AF have been drawn through A, parallel to either of CD or BE [Prop. 1.31].
+So the (rectangle) AE is equal to the (rectangle) AD and the (square) CE.
+And AE is the rectangle contained by AB and BC.
+For it is contained by AB and BE, and BE (is) equal to BC.
+And AD (is) the (rectangle contained) by AC and CB.
+For DC (is) equal to CB.
+And DB (is) the square on CB.
+Thus, the rectangle contained by AB and BC is equal to the rectangle contained by AC and CB, plus the square on BC.
+
+Thus, if a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle contained by (both of) the pieces, and the square on the aforementioned piece.
+(Which is) the very thing it was required to show.

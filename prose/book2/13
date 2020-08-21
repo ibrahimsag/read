@@ -1,0 +1,19 @@
+In acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
+
+Let ABC be an acute-angled triangle, having the an- gle at (point) B acute.
+And let AD have been drawn from point A, perpendicular to BC [Prop. 1.12].
+I say that the square on AC is less than the (sum of the) squares on CB and BA, by twice the rectangle contained by CB and BD.
+
+For since the straight-line CB has been cut, at random, at (point) D, the (sum of the) squares on CB and BD is thus equal to twice the rectangle contained by CB and BD, and the square on DC [Prop. 2.7].
+Let the square on DA have been added to both.
+Thus, the (sum of the) squares on CB, BD, and DA is equal to twice the rectangle contained by CB and BD, and the (sum of the) squares on AD and DC.
+But, the (square) on AB (is) equal to the (sum of the squares) on BD and DA.
+For the angle at (point) D is a right-angle [Prop. 1.47].
+And the (square) on AC (is) equal to the (sum of the squares) on AD and DC [Prop. 1.47].
+Thus, the (sum of the squares) on CB and BA is equal to the (square) on AC, and twice the (rectangle contained) by CB and BD.
+So the (square) on AC alone is less than the (sum of the) squares on CB and BA by twice the rectangle contained by CB and BD.
+
+Thus, in acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
+(Which is) the very thing it was required to show.
+
+This proposition is equivalent to the well-known cosine formula: AC^2 = AB^2 + BC^2 − 2 AB BC cos ABC, since cos ABC = BD/AB.

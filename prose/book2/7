@@ -1,0 +1,21 @@
+If a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rectan- gle contained by the whole, and the said piece, and the square on the remaining piece.
+
+For let any straight-line AB have been cut, at random, at point C. I say that the (sum of the) squares on AB and BC is equal to twice the rectangle contained by AB and BC, and the square on CA.
+
+For let the square ADEB have been described on AB [Prop. 1.46], and let the (rest of) the figure have been drawn.
+
+Therefore, since (rectangle) AG is equal to (rectan- gle) GE [Prop. 1.43], let the (square) CF have been added to both.
+Thus, the whole (rectangle) AF is equal to the whole (rectangle) CE.
+Thus, (rectangle) AF plus (rectangle) CE is double (rectangle) AF.
+But, (rectangle) AF plus (rectangle) CE is the gnomon KLM, and the square CF.
+Thus, the gnomon KLM , and the square CF, is double the (rectangle) AF.
+But double the (rectangle) AF is also twice the (rectangle contained) by AB and BC.
+For BF (is) equal to BC.
+Thus, the gnomon KLM, and the square CF, are equal to twice the (rectangle contained) by AB and BC.
+Let DG, which is the square on AC, have been added to both.
+Thus, the gnomon KLM, and the squares BG and GD, are equal to twice the rectangle contained by AB and BC, and the square on AC.
+But, the gnomon KLM and the squares BG and GD is (equivalent to) the whole of ADEB and CF, which are the squares on AB and BC (respectively).
+Thus, the (sum of the) squares on AB and BC is equal to twice the rectangle contained by AB and BC, and the square on AC.
+
+Thus, if a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rect- angle contained by the whole, and the said piece, and the square on the remaining piece.
+(Which is) the very thing it was required to show.
