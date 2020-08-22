@@ -146,7 +146,7 @@ function makeGround(ps, rg, svg)
       {
         let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
         let m = el.getBBox();
-        offset = [dir[0] * m.width + 5, dir[1] * 20 - 4];
+        offset = [dir[0] * m.width + 9, dir[1] * m.height/2-8];
       }
       else
       {
