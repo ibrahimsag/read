@@ -1,11 +1,25 @@
 <html>
   <head>
     <style>
+@font-face {
+  font-family: Geom;
+  src: url('public/medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: Geom;
+  src: url('public/bold.ttf') format('truetype');
+  font-weight: Bold;
+}
+@font-face {
+  font-family: Geom;
+  src: url('public/mediumitalic.ttf') format('truetype');
+  font-style: italic;
+}
 body {
   background: black;
   color: #555;
   margin: 0;
-  font-family: Futura;
+  font-family: Geom;
 }
 #container {
   width: 1024px;
@@ -28,10 +42,19 @@ body {
   height: 100%;
   overflow: auto;
 }
+#logo {
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+  padding: 6px 12px;
+  font-size: 30px;
+  color: #555;
+}
     </style>
   </head>
   <body>
     <div id="container">
+      <div id="logo">euc<span style="color: #bbb">lit</span></div>
       <div id="prose"> </div>
       <svg width="512" height="512" id="figure"></svg>
     </div>
