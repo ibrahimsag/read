@@ -62,7 +62,7 @@ function()
   const distanceAB = 160;
   const A = [170, 200];
   const B = [A[0] + distanceAB, 200];
-  const C = [A[0] + distanceAB/2, A[1] - (distanceAB/2) * Math.sqrt(3)];
+  const C = vec2.add(B, vec2.rot(vec2.sub(A, B), Math.PI/3));
   const D = [A[0] - distanceAB, A[1]];
   const E = [B[0] + distanceAB, B[1]];
   return {
