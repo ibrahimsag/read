@@ -62,7 +62,8 @@ function makeRG (svgEl)
     }
     else if(typ == 'polygon')
     {
-      return [polygon(name.split('').map(l => p.points[l]))];
+      let points = name.split('').map(l => p.points[l]);
+      return [polygon(points)];
     }
     else if(typ == 'angle')
     {
