@@ -1,0 +1,17 @@
+If two circles touch one another internally, and their centers are found, then the straight-line joining their cen- ters, being produced, will fall upon the point of union of the circles.
+
+For let two circles, ABC and ADE, touch one another internally at point A, and let the center F of circle ABC have been found [Prop. 3.1], and (the center) G of (circle) ADE [Prop. 3.1].
+I say that the straight-line joining G to F, being produced, will fall on A.
+
+For (if) not then, if possible, let it fall like FGH (in the figure), and let AF and AG have been joined.
+
+Therefore, since AG and GF is greater than F A, that is to say FH [Prop. 1.20], let FG have been taken from both.
+Thus, the remainder AG is greater than the remainder GH.
+And AG (is) equal to GD.
+Thus, GD is also greater than GH, the lesser than the greater.
+The very thing is impossible.
+Thus, the straight-line joining F to G will not fall outside (one circle but inside the other).
+Thus, it will fall upon the point of union (of the circles) at point A.
+
+Thus, if two circles touch one another internally, [and their centers are found], then the straight-line joining their centers, [being produced], will fall upon the point of union of the circles.
+(Which is) the very thing it was required to show.

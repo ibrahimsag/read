@@ -1,0 +1,33 @@
+For a given segment of a circle, to complete the circle, the very one of which it is a segment.
+
+Let ABC be the given segment of a circle.
+So it is required to complete the circle for segment ABC, the very one of which it is a segment.
+
+For let AC have been cut in half at (point) D [Prop. 1.10], and let DB have been drawn from point D, at right-angles to AC [Prop. 1.11].
+And let AB have been joined.
+Thus, angle ABD is surely either greater than, equal to, or less than (angle) BAD.
+
+First of all, let it be greater.
+And let (angle) BAE, equal to angle ABD, have been constructed on the straight-line BA, at the point A on it [Prop. 1.23].
+And let DB have been drawn through to E, and let EC have been joined.
+Therefore, since angle ABE is equal to BAE, the straight-line EB is thus also equal to EA [Prop. 1.6].
+And since AD is equal to DC, and DE (is) common, the two (straight-lines) AD, DE are equal to the two (straight-lines) CD, DE, respectively.
+And angle ADE is equal to angle CDE.
+For each (is) a right-angle.
+Thus, the base AE is equal to the base CE [Prop. 1.4].
+But, AE was shown (to be) equal to BE.
+Thus, BE is also equal to CE.
+Thus, the three (straight-lines) AE, EB, and EC are equal to one another.
+Thus, if a circle is drawn with center E, and radius one of AE, EB, or EC, it will also go through the remaining points (of the segment), and the (associated circle) will have been completed [Prop. 3.9].
+Thus, a circle has been completed from the given segment of a circle.
+And (it is) clear that the segment ABC is less than a semi-circle, because the center E happens to lie outside it.
+
+[And], similarly, even if angle ABD is equal to BAD, (since) AD becomes equal to each of BD [Prop. 1.6] and DC, the three (straight-lines) DA, DB, and DC will be equal to one another.
+And point D will be the center of the completed circle.
+And ABC will manifestly be a semi-circle.
+
+And if ABD is less than BAD, and we construct (angle BAE), equal to angle ABD, on the straight-line BA, at the point A on it [Prop. 1.23], then the center will fall on DB, inside the segment ABC.
+And segment ABC will manifestly be greater than a semi-circle.
+
+Thus, a circle has been completed from the given segment of a circle.
+(Which is) the very thing it was required to do.

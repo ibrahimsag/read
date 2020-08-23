@@ -1,0 +1,40 @@
+If some point, which is not the center of the circle, is taken on the diameter of a circle, and some straight-lines radiate from the point towards the (circumference of the) circle, then the greatest (straight-line) will be that on which the center (lies), and the least the remainder (of the same diameter).
+And for the others, a (straight-line) nearer† to the (straight-line) through the center is always greater than a (straight-line) further away.
+And only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).
+
+Let ABCD be a circle, and let AD be its diameter, and let some point F, which is not the center of the circle, have been taken on AD.
+Let E be the center of the circle.
+And let some straight-lines, FB, FC, and FG, radiate from F towards (the circumference of) circle ABCD.
+I say that FA is the greatest (straight-line), FD the least, and of the others, FB (is) greater than FC, and FC than FG.
+
+For let BE, CE, and GE have been joined.
+And since for every triangle (any) two sides are greater than the remaining (side) [Prop. 1.20], EB and EF is thus greater than BF.
+And AE (is) equal to BE [thus, BE and EF is equal to AF].
+Thus, AF (is) greater than BF.
+Again, since BE is equal to CE, and FE (is) common, the two (straight-lines) BE, EF are equal to the two (straight-lines) CE, EF (respectively).
+But, angle BEF (is) also  greater than angle CEF.
+Thus, the base BF is greater than the base CF.
+Thus, the base BF is greater than the base CF [Prop. 1.24].
+So, for the same (reasons), CF is also greater than FG.
+
+Again, since GF and FE are greater than EG [Prop. 1.20], and EG (is) equal to ED, GF and FE are thus greater than ED.
+Let EF have been taken from both.
+Thus, the remainder GF is greater than the remainder FD.
+Thus, FA (is) the greatest (straight-line), FD the least, and FB (is) greater than FC, and FC than FG.
+
+I also say that from point F only two equal (straight-lines) will radiate towards (the circumference of) circle ABCD, (one) on each (side) of the least (straight-line) FD.
+For let the (angle) FEH, equal to angle GEF, have been constructed on the straight-line EF, at the point E on it [Prop. 1.23], and let FH have been joined.
+Therefore, since GE is equal to EH, and EF (is) common, the two (straight-lines) GE, EF are equal to the two (straight-lines) HE, EF (respectively).
+And angle GEF (is) equal to angle HEF.
+Thus, the base FG is equal to the base F H [Prop. 1.4].
+So I say that another (straight-line) equal to FG will not radiate towards (the circumference of) the circle from point F.
+For, if possible, let FK (so) radiate.
+And since FK is equal to FG, but FH [is equal] to FG, FK is thus also equal to FH, the nearer to the (straight-line) through the center equal to the further away.
+The very thing (is) impossible.
+Thus, another (straight-line) equal to GF will not radiate from the point F towards (the circumference of) the circle.
+Thus, (there is) only one (such straight-line).
+
+Thus, if some point, which is not the center of the circle, is taken on the diameter of a circle, and some straight-lines radiate from the point towards the (circum- ference of the) circle, then the greatest (straight-line) will be that on which the center (lies), and the least the remainder (of the same diameter).
+And for the others, a (straight-line) nearer to the (straight-line) through the center is always greater than a (straight-line) further away.
+And only two equal (straight-lines) will radiate from the same point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).
+(Which is) the very thing it was required to show.

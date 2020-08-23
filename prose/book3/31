@@ -1,0 +1,33 @@
+In a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser segment (is) greater than a right-angle.
+And, further, the angle of a segment greater (than a semi-circle) is greater than a right-angle, and the angle of a segment less (than a semi-circle) is less than a right-angle.
+
+Let ABCD be a circle, and let BC be its diameter, and E its center.
+And let BA, AC, AD, and DC have been joined.
+I say that the angle BAC in the semi-circle BAC is a right-angle, and the angle ABC in the segment ABC, (which is) greater than a semi-circle, is less than a right-angle, and the angle ADC in the segment ADC, (which is) less than a semi-circle, is greater than a right-angle.
+
+Let AE have been joined, and let BA have been drawn through to F.
+
+And since BE is equal to EA, angle ABE is also equal to BAE [Prop. 1.5].
+Again, since CE is equal to EA, ACE is also equal to CAE [Prop. 1.5].
+Thus, the whole (angle) BAC is equal to the two (angles) ABC and ACB.
+And FAC, (which is) external to triangle ABC, is also equal to the two angles ABC and ACB [Prop. 1.32].
+Thus, angle BAC (is) also equal to FAC.
+Thus, (they are) each right-angles [Def. 1.10].
+Thus, the angle BAC in the semi-circle BAC is a right-angle.
+
+And since the two angles ABC and BAC of triangle ABC are less than two right-angles [Prop. 1.17], and BAC is a right-angle, angle ABC is thus less than a right-angle.
+And it is in segment ABC, (which is) greater than a semi-circle.
+
+And since ABCD is a quadrilateral within a circle, and for quadrilaterals within circles the (sum of the) opposite angles is equal to two right-angles [Prop. 3.22] [angles ABC and ADC are thus equal to two right-angles], and (angle) ABC is less than a right-angle.
+The remaining angle ADC is thus greater than a right-angle.
+And it is in segment ADC, (which is) less than a semi-circle.
+
+I also say that the angle of the greater segment, (namely) that contained by the circumference ABC and the straight-line AC, is greater than a right-angle.
+And the angle of the lesser segment, (namely) that contained by the circumference AD[C] and the straight-line AC, is less than a right-angle.
+And this is immediately apparent.
+For since the (angle contained by) the two straight-lines BA and AC is a right-angle, the (angle) contained by the circumference ABC and the straight-line AC is thus greater than a right-angle.
+Again, since the (angle contained by) the straight-lines AC and AF is a right-angle, the (angle) contained by the circumference AD[C] and the straight-line CA is thus less than a right-angle.
+
+Thus, in a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser [segment] (is) greater than a right-angle.
+And, further, the [angle] of a segment greater (than a semi-circle) [is] greater than a right-angle, and the [angle] of a segment less (than a semi-circle) is less than a right-angle.
+(Which is) the very thing it was required to show.

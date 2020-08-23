@@ -1,0 +1,14 @@
+To cut off a segment, accepting an angle equal to a given rectilinear angle, from a given circle.
+
+Let ABC be the given circle, and D the given rectilinear angle.
+So it is required to cut off a segment, accepting an angle equal to the given rectilinear angle D, from the given circle ABC.
+
+Let EF have been drawn touching ABC at point B.
+And let (angle) FBC, equal to angle D, have been constructed on the straight-line FB, at the point B on it [Prop. 1.23].
+
+Therefore, since some straight-line EF touches the circle ABC, and BC has been drawn across (the circle) from the point of contact B, angle FBC is thus equal to the angle constructed in the alternate segment BAC [Prop. 1.32].
+But, FBC is equal to D.
+Thus, the (angle) in the segment BAC is also equal to [angle] D.
+
+Thus, the segment BAC, accepting an angle equal to the given rectilinear angle D, has been cut off from the given circle ABC.
+(Which is) the very thing it was required to do.

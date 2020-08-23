@@ -1,0 +1,28 @@
+If two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
+
+For let the two straight-lines AC and BD, in the circle ABCD, cut one another at point E.
+I say that the rectangle contained by AE and EC is equal to the rectangle contained by DE and EB.
+
+In fact, if AC and BD are through the center (as in the first diagram from the left), so that E is the center of circle ABCD, then (it is) clear that, AE, EC, DE, and EB being equal, the rectangle contained by AE and EC is also equal to the rectangle contained by DE and EB.
+
+So let AC and DB not be though the center (as in the second diagram from the left), and let the center of ABCD have been found [Prop. 3.1], and let it be (at) F.
+And let FG and FH have been drawn from F, perpendicular to the straight-lines AC and DB (respectively) [Prop. 1.12].
+And let FB, FC, and FE have been joined.
+
+And since some straight-line, GF, through the center, cuts at right-angles some (other) straight-line, AC, not through the center, then it also cuts it in half [Prop. 3.3].
+Thus, AG (is) equal to GC.
+Therefore, since the straight-line AC is cut equally at G, and unequally at E, the rectangle contained by AE and EC plus the square on EG is thus equal to the (square) on GC [Prop. 2.5].
+Let the (square) on GF have been added [to both].
+Thus, the (rectangle contained) by AE and EC plus the (sum of the squares) on GE and GF is equal to the (sum of the squares) on CG and GF.
+But, the (square) on FE is equal to the (sum of the squares) on EG and GF [Prop. 1.47], and the (square) on FC is equal to the (sum of the squares) on CG and GF [Prop. 1.47].
+Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (square) on FC.
+And FC (is) equal to FB.
+Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (square) on FB.
+So, for the same (reasons), the (rectangle contained) by DE and EB plus the (square) on FE is equal to the (square) on FB.
+And the (rectangle contained) by AE and EC plus the (square) on FE was also shown (to be) equal to the (square) on FB.
+Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (rectangle contained) by DE and EB plus the (square) on FE.
+Let the (square) on FE have been taken from both.
+Thus, the remaining rectangle contained by AE and EC is equal to the rectangle contained by DE and EB.
+
+Thus, if two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
+(Which is) the very thing it was required to show.

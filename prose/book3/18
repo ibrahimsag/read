@@ -1,0 +1,19 @@
+If some straight-line touches a circle, and some (other) straight-line is joined from the center (of the cir- cle) to the point of contact, then the (straight-line) so joined will be perpendicular to the tangent.
+
+For let some straight-line DE touch the circle ABC at point C, and let the center F of circle ABC have been found [Prop. 3.1], and let F C have been joined from F to C.
+I say that FC is perpendicular to DE.
+
+For if not, let FG have been drawn from F, perpendicular to DE [Prop. 1.12].
+
+Therefore, since angle F GC is a right-angle, (angle) F C G is thus acute [Prop. 1.17].
+And the greater angle is subtended by the greater side [Prop. 1.19].
+Thus, FC (is) greater than FG.
+And FC (is) equal to FB.
+Thus, FB (is) also greater than FG, the lesser than the greater.
+The very thing is impossible.
+Thus, FG is not perpendicular to DE.
+So, similarly, we can show that neither (is) any other (straight-line) except FC.
+Thus, FC is perpendicular to DE.
+
+Thus, if some straight-line touches a circle, and some (other) straight-line is joined from the center (of the cir- cle) to the point of contact, then the (straight-line) so joined will be perpendicular to the tangent.
+(Which is) the very thing it was required to show.

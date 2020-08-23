@@ -1,0 +1,28 @@
+A circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
+
+For, if possible, let circle ABDC touch circle EBFD---first of all, internally—at more than one point, D and B.
+
+And let the center G of circle ABDC have been found [Prop. 3.1], and (the center) H of EBFD [Prop. 3.1].
+
+Thus, the (straight-line) joining G and H will fall on B and D [Prop. 3.11].
+Let it fall like BGHD (in the figure).
+And since point G is the center of circle ABDC, BG is equal to GD.
+Thus, BG (is) greater than HD.
+Thus, BH (is) much greater than HD.
+Again, since point H is the center of circle EBFD, BH is equal to HD.
+But it was also shown (to be) much greater than it.
+The very thing (is) impossible.
+Thus, a circle does not touch a(nother) circle internally at more than one point.
+
+So, I say that neither (does it touch) externally (at more than one point).
+
+For, if possible, let circle ACK touch circle ABDC externally at more than one point, A and C.
+And let AC have been joined.
+
+Therefore, since two points, A and C, have been taken at random on the circumference of each of the circles ABDC and ACK, the straight-line joining the points will fall inside each (circle) [Prop. 3.2].
+But, it fell inside ABDC, and outside ACK [Def. 3.3].
+The very thing (is) absurd.
+Thus, a circle does not touch a(nother) circle externally at more than one point.
+And it was shown that neither (does it) internally.
+Thus, a circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
+(Which is) the very thing it was required to show.

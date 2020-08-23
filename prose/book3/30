@@ -1,0 +1,19 @@
+To cut a given circumference in half.
+
+Let ADB be the given circumference.
+So it is required to cut circumference ADB in half.
+
+Let AB have been joined, and let it have been cut in half at (point) C [Prop. 1.10].
+And let CD have been drawn from point C, at right-angles to AB [Prop. 1.11].
+And let AD, and DB have been joined.
+
+And since AC is equal to CB, and CD (is) common, the two (straight-lines) AC , C D are equal to the two (straight-lines) BC, CD (respectively).
+And angle ACD (is) equal to angle BCD.
+For (they are) each right-angles.
+Thus, the base AD is equal to the base DB [Prop. 1.4].
+And equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser [Prop. 1.28].
+And the circumferences AD and DB are each less than a semi-circle.
+Thus, circumference AD (is) equal to circumference DB.
+
+Thus, the given circumference has been cut in half at point D.
+(Which is) the very thing it was required to do.

@@ -1,0 +1,29 @@
+To find the center of a given circle.
+
+Let ABC be the given circle. So it is required to find the center of circle ABC.
+
+Let some straight-line AB have been drawn through (ABC), at random, and let (AB) have been cut in half at point D [Prop. 1.9].
+And let DC have been drawn from D, at right-angles to AB [Prop. 1.11].
+And let (CD) have been drawn through to E.
+And let CE have been cut in half at F [Prop. 1.9].
+I say that (point) F is the center of the [circle] ABC.
+
+For (if) not then, if possible, let G (be the center of the circle), and let GA, GD, and GB have been joined.
+And since AD is equal to DB, and DG (is) common, the two (straight-lines) AD, DG are equal to the two (straight-lines) BD, DG, respectively.
+And the base GA is equal to the base GB.
+For (they are both) radii.
+Thus, angle ADG is equal to angle GDB [Prop. 1.8].
+And when a straight-line stood upon (another) straight-line make ad- jacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
+Thus, GDB is a right-angle.
+And FDB is also a right-angle.
+Thus, FDB (is) equal to GDB, the greater to the lesser.
+The very thing is impossible.
+Thus, (point) G is not the center of the circle ABC.
+So, similarly, we can show that neither is any other (point) except F.
+
+Thus, point F is the center of the [circle] ABC.
+
+Corollary
+
+So, from this, (it is) manifest that if any straight-line in a circle cuts any (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line).
+(Which is) the very thing it was required to do.

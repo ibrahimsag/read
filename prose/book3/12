@@ -1,0 +1,19 @@
+If two circles touch one another externally then the (straight-line) joining their centers will go through the point of union.
+
+For let two circles, ABC and ADE, touch one another externally at point A, and let the center F of ABC have been found [Prop. 3.1], and (the center) G of ADE [Prop. 3.1].
+I say that the straight-line joining F to G will go through the point of union at A.
+
+For (if) not then, if possible, let it go like FCDG (in the figure), and let AF and AG have been joined.
+
+Therefore, since point F is the center of circle ABC, FA is equal to FC.
+Again, since point G is the center of circle ADE, GA is equal to GD.
+And FA was also shown (to be) equal to FC.
+Thus, the (straight-lines) FA and AG are equal to the (straight-lines) FC and GD.
+So the whole of FG is greater than FA and AG.
+But, (it is) also less [Prop. 1.20].
+The very thing is impossible.
+Thus, the straight-line joining F to G cannot not go through the point of union at A.
+Thus, (it will go) through it.
+
+Thus, if two circles touch one another externally then the [straight-line] joining their centers will go through the point of union.
+(Which is) the very thing it was required to show.

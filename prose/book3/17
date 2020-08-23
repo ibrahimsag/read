@@ -1,0 +1,24 @@
+To draw a straight-line touching a given circle from a given point.
+
+Let A be the given point, and BCD the given circle.
+So it is required to draw a straight-line touching circle BCD from point A.
+
+For let the center E of the circle have been found [Prop. 3.1], and let AE have been joined.
+And let (the circle) AF G have been drawn with center E and radius EA.
+And let DF have been drawn from from (point) D, at right-angles to EA [Prop. 1.11].
+And let EF and AB have been joined.
+I say that the (straight-line) AB has been drawn from point A touching circle BCD.
+
+For since E is the center of circles BCD and AFG, EA is thus equal to EF, and ED to EB.
+So the two (straight-lines) AE, EB are equal to the two (straight-lines) FE, ED (respectively).
+And they contain a common angle at E.
+Thus, the base DF is equal to the base AB, and triangle DEF is equal to triangle EBA, and the remaining angles (are equal) to the (corresponding) remaining angles [Prop. 1.4].
+Thus, (angle) EDF (is) equal to EBA.
+And EDF (is) a right-angle.
+Thus, EBA (is) also a right-angle.
+And EB is a radius.
+And a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [Prop. 3.16 corr.].
+Thus, AB touches circle BCD.
+
+Thus, the straight-line AB has been drawn touching the given circle BCD from the given point A.
+(Which is) the very thing it was required to do.

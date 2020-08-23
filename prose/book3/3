@@ -1,0 +1,28 @@
+In a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.
+And (conversely) if it cuts it at right-angles then it also cuts it in half.
+
+Let ABC be a circle, and, within it, let some straight-line through the center, CD, cut in half some straight-line not through the center, AB, at the point F.
+I say that (CD) also cuts (AB) at right-angles.
+
+For let the center of the circle ABC have been found [Prop. 3.1], and let it be (at point) E, and let EA and EB have been joined.
+
+And since AF is equal to FB, and FE (is) common, two (sides of triangle AFE) [are] equal to two (sides of triangle BFE).
+And the base EA (is) equal to the base EB.
+Thus, angle AF E is equal to angle BF E [Prop. 1.8].
+And when a straight-line stood upon (another) straight-line makes adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
+Thus, AFE and BFE are each right-angles.
+Thus, the (straight-line) CD, which is through the center and cuts in half the (straight-line) AB, which is not through the center, also cuts (AB) at right-angles.
+
+And so let CD cut AB at right-angles.
+I say that it also cuts (AB) in half.
+That is to say, that AF is equal to FB.
+
+For, with the same construction, since EA is equal to EB, angle EAF is also equal to EBF [Prop. 1.5].
+And the right-angle AFE is also equal to the right-angle BFE.
+Thus, EAF and EF B are two triangles having two angles equal to two angles, and one side equal to one side—(namely), their common (side) EF, subtending one of the equal angles.
+Thus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].
+Thus, AF (is) equal to FB.
+
+Thus, in a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.
+And (conversely) if it cuts it at right-angles then it also cuts it in half.
+(Which is) the very thing it was required to show.

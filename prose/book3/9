@@ -1,0 +1,20 @@
+If some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.
+
+Let ABC be a circle, and D a point inside it, and let more than two equal straight-lines, DA, DB, and DC, radiate from D towards (the circumference of) circle ABC.
+I say that point D is the center of circle ABC.
+
+For let AB and BC have been joined, and (then) have been cut in half at points E and F (respectively) [Prop. 1.10].
+And ED and FD being joined, let them have been drawn through to points G, K, H, and L.
+
+Therefore, since AE is equal to EB, and ED (is) common, the two (straight-lines) AE, ED are equal to the two (straight-lines) BE, ED (respectively).
+And the base DA (is) equal to the base DB.
+Thus, angle AED is equal to angle BED [Prop. 1.8].
+Thus, angles AED and BED (are) each right-angles [Def. 1.10].
+Thus, GK cuts AB in half, and at right-angles.
+And since, if some straight-line in a circle cuts some (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line) [Prop. 3.1 corr.], the center of the circle is thus on GK.
+So, for the same (reasons), the center of circle ABC is also on HL.
+And the straight-lines GK and HL have no common (point) other than point D.
+Thus, point D is the center of circle ABC.
+
+Thus, if some point is taken inside a circle, and more than two equal straight-lines radiate from the point to- wards the (circumference of the) circle, then the point taken is the center of the circle.
+(Which is) the very thing it was required to show.

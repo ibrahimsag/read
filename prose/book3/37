@@ -1,0 +1,25 @@
+If some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.
+
+For let some point D have been taken outside circle ABC, and let two straight-lines, DCA and DB, radiate from D towards circle ABC, and let DCA cut the circle, and let DB meet (the circle).
+And let the (rectangle contained) by AD and DC be equal to the (square) on DB.
+I say that DB touches circle ABC.
+
+For let DE have been drawn touching ABC [Prop. 3.17], and let the center of the circle ABC have been found, and let it be (at) F.
+And let FE, FB, and FD have been joined.
+(Angle) FED is thus a right-angle [Prop. 3.18].
+And since DE touches circle ABC, and DCA cuts (it), the (rectangle contained) by AD and DC is thus equal to the (square) on DE [Prop. 3.36].
+And the (rectangle contained) by AD and DC was also equal to the (square) on DB.
+Thus, the (square) on DE is equal to the (square) on DB.
+Thus, DE (is) equal to DB.
+And F E is also equal to FB.
+So the two (straight-lines) DE, EF are equal to the two (straight-lines) DB, BF (respectively).
+And their base, FD, is common.
+Thus, angle DEF is equal to angle DBF [Prop. 1.8].
+And DEF (is) a right-angle.
+Thus, DBF (is) also a right-angle.
+And FB produced is a diameter, And a (straight-line) drawn at right-angles to a diameter of a circle, at its extremity, touches the circle [Prop. 3.16 corr.].
+Thus, DB touches circle ABC.
+Similarly, (the same thing) can be shown, even if the center happens to be on AC.
+
+Thus, if some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.
+(Which is) the very thing it was required to show.
