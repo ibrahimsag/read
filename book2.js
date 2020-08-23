@@ -1,10 +1,5 @@
 import vec2 from './vec2.js';
 
-function processProse(t)
-{
-  return t.split('\n\n').map(p => p.split('\n'));
-}
-
 import prop1 from './prose/book2/1';
 import prop2 from './prose/book2/2';
 import prop3 from './prose/book2/3';
@@ -42,8 +37,7 @@ function()
   const H = vec2.add(C, bg);
 
   return {
-    title: 'Proposition 1',
-    prose: processProse(prop1),
+    prose: prop1,
     points: { A, B, C, D, E, F, G, H, K, L },
     given: {
       A: () => [rg.line(A, Ae)],
@@ -85,8 +79,7 @@ function()
   const F = vec2.add(C, ad);
 
   return {
-    title: 'Proposition 2',
-    prose: processProse(prop2),
+    prose: prop2,
     points: { A, B, C, D, E, F },
     shapes: [
       rg.polygon([A, D, E, B]),
@@ -117,8 +110,7 @@ function()
   const F = vec2.add(A, cd)
 
   return {
-    title: 'Proposition 3',
-    prose: processProse(prop3),
+    prose: prop3,
     points: { A, B, C, D, E, F },
     shapes: [
       rg.polygon([A, F, E, B]),
@@ -153,8 +145,7 @@ function()
   const K = vec2.add(B, cg)
 
   return {
-    title: 'Proposition 4',
-    prose: processProse(prop4),
+    prose: prop4,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
       rg.polygon([A, D, E, B]),
@@ -201,8 +192,7 @@ function()
   const P = vec2.add(H, vec2.rot(hn, -Math.PI /2));
 
   return {
-    title: 'Proposition 5',
-    prose: processProse(prop5),
+    prose: prop5,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
     shapes: [
       rg.line(A, K),
@@ -264,8 +254,7 @@ function()
   const P = vec2.add(H, vec2.rot(hn, -Math.PI /2));
 
   return {
-    title: 'Proposition 6',
-    prose: processProse(prop6),
+    prose: prop6,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
     shapes: [
       rg.line(A, K),
@@ -324,8 +313,7 @@ function()
   const N = vec2.add(C, ad);
 
   return {
-    title: 'Proposition 7',
-    prose: processProse(prop7),
+    prose: prop7,
     points: { A, B, C, D, E, F, G, H, K, L, M, N },
     shapes: [
       rg.polygon([A, D, E, B]),
@@ -390,8 +378,7 @@ function()
   const U = vec2.add(Q, qu);
 
   return {
-    title: 'Proposition 8',
-    prose: processProse(prop8),
+    prose: prop8,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, R, S, T, U },
     shapes: [
       rg.polygon([A, E, F, D]),
@@ -447,8 +434,7 @@ function()
   const G = vec2.add(C, df);
 
   return {
-    title: 'Proposition 9',
-    prose: processProse(prop9),
+    prose: prop9,
     points: { A, B, C, D, E, F, G },
     shapes: [
       rg.line(A, B),
@@ -488,8 +474,7 @@ function()
   const G = vec2.add(D, dg);
 
   return {
-    title: 'Proposition 10',
-    prose: processProse(prop10),
+    prose: prop10,
     points: { A, B, C, D, E, F, G },
     shapes: [
       rg.line(A, D),
@@ -533,8 +518,7 @@ function()
   const K = vec2.add(H, ac);
 
   return {
-    title: 'Proposition 11',
-    prose: processProse(prop11),
+    prose: prop11,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
       rg.polygon([A, C, D, B]),
@@ -568,8 +552,7 @@ function()
   const B = vec2.add(D, vec2.scale(vec2.rot(ad, Math.PI/2), 2));
 
   return {
-    title: 'Proposition 12',
-    prose: processProse(prop12),
+    prose: prop12,
     points: { A, B, C, D },
     shapes: [
       rg.polygon([D, C, B]),
@@ -595,8 +578,7 @@ function()
   const A = vec2.add(D, vec2.scale(vec2.rot(bc, -Math.PI/2), 0.8));
 
   return {
-    title: 'Proposition 13',
-    prose: processProse(prop13),
+    prose: prop13,
     points: { A, B, C, D },
     shapes: [
       rg.polygon([A, B, C]),
@@ -634,8 +616,7 @@ function()
   const H = vec2.add(G, gh);
 
   return {
-    title: 'Proposition 14',
-    prose: processProse(prop14),
+    prose: prop14,
     points: { A, B, C, D, E, F, G, H },
     shapes: [
       rg.polygon([Aa, Ab, Ac, A]),
