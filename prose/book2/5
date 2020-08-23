@@ -3,7 +3,11 @@ If a straight-line is cut into equal and unequal (pieces) then the rectangle con
 For let any straight-line {AB line} have been cut---equally at {C point}, and unequally at {D point}.
 I say that the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.
 
-For let the square {CEFB polygon} have been described on {CB line} [Prop. 1.46], and let {BE line} have been joined, and let {DG line} have been drawn through {D point}, parallel to either of {CE line} or {BF line} [Prop. 1.31], and again let {KM line} have been drawn through {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31], and again let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {BM line} [Prop. 1.31].
+For let the square {CEFB polygon} have been described on {CB line} [Prop. 1.46],
+and let {BE line} have been joined,
+and let {DG line} have been drawn through {D point}, parallel to either of {CE line} or {BF line} [Prop. 1.31],
+and again let {KM line} have been drawn through {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],
+and again let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {BM line} [Prop. 1.31].
 And since the complement {CLHD polygon} is equal to the complement {HGFM polygon} [Prop. 1.43], let the (square) {DHMB polygon} have been added to both.
 Thus, the whole (rectangle) {CLMB polygon} is equal to the whole (rectangle) {DGFB polygon}.
 But, (rectangle) {CLMB polygon} is equal to (rectangle) {AKLC polygon}, since {AC line} is also equal to {CB line} [Prop. 1.36].
