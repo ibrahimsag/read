@@ -237,6 +237,123 @@ function()
     }
   }
 },
+
+function()
+{
+  const a = 300;
+  const A = [50, 50];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.scale(ab, 0.5);
+  const bd = vec2.scale(ab, 0.3);
+  const C = vec2.add(A, ac)
+  const D = vec2.add(B, bd);
+  const cd = vec2.sub(D, C);
+  const ce = vec2.rot(cd, Math.PI/2);
+  const E = vec2.add(C, ce);
+  const F = vec2.add(D, ce);
+  const G = vec2.add(B, ce);
+  const bh = vec2.rot(bd, Math.PI/2);
+  const H = vec2.add(B, bh);
+  const K = vec2.add(A, bh);
+  const L = vec2.add(C, bh);
+  const M = vec2.add(D, bh);
+  const hn = vec2.scale(vec2.sub(L, H), 0.3);
+  const N = vec2.add(H, hn);
+  const O = vec2.add(H, vec2.rot(hn, Math.PI * (3/4)));
+  const P = vec2.add(H, vec2.rot(hn, -Math.PI /2));
+
+  return {
+    title: 'Proposition 6',
+    prose: processProse(prop6),
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
+    shapes: [
+      rg.line(A, K),
+      rg.line(A, D),
+      rg.line(K, M),
+      rg.line(E, F),
+      rg.line(C, E),
+      rg.line(B, G),
+      rg.line(D, F),
+      rg.line(E, D),
+      rg.gnomon(H, N, P),
+    ],
+    smallletters: "NOP",
+    letters: {
+      A: [1],
+      B: [1],
+      C: [1],
+      D: [1],
+      E: [4.8],
+      F: [5],
+      G: [5],
+      H: [2],
+      K: [5],
+      L: [3.8, 1.5],
+      M: [-1],
+      N: [5],
+      O: [1, 1.5],
+      P: [3]
+    },
+    given: {
+      NOP: () => [rg.gnomon(H, N, P)],
+    }
+  }
+},
+
+function()
+{
+  const a = 300;
+  const A = [50, 50];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.scale(ab, 0.6);
+  const C = vec2.add(A, ac)
+  const ad = vec2.rot(ab, Math.PI/2);
+  const D = vec2.add(A, ad);
+  const E = vec2.add(B, ad);
+  const cb = vec2.sub(B, C);
+  const bf = vec2.rot(cb, Math.PI/2);
+  const F = vec2.add(B, bf);
+  const G = vec2.add(C, bf);
+  const H = vec2.add(A, bf);
+  const gk = vec2.scale(vec2.sub(H, G), 0.3);
+  const K = vec2.add(G, gk);
+  const L = vec2.add(G, vec2.rot(gk, Math.PI * (3/4)));
+  const M = vec2.add(G, vec2.rot(gk, -Math.PI /2));
+  const N = vec2.add(C, ad);
+
+  return {
+    title: 'Proposition 7',
+    prose: processProse(prop7),
+    points: { A, B, C, D, E, F, G, H, K, L, M, N },
+    shapes: [
+      rg.polygon([A, D, E, B]),
+      rg.line(H, F),
+      rg.line(C, N),
+      rg.line(D, B),
+      rg.gnomon(G, K, M),
+    ],
+    smallletters: "KLM",
+    letters: {
+      A: [1],
+      B: [1],
+      C: [1],
+      D: [5],
+      E: [5],
+      F: [-1],
+      G: [-2.2,1.3],
+      H: [3],
+      K: [5],
+      L: [1, 1.5],
+      M: [3, 0.5],
+      N: [5]
+    },
+    given: {
+      KLM: () => [rg.gnomon(G, K, M)],
+    }
+  }
+},
 ]
 }
 
