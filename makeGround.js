@@ -125,10 +125,14 @@ function makeGround(ps, rg, svg)
     for(var i in p.letters)
     {
       let letter = p.letters[i];
+      let shouldBeSmall = p.smallletters && p.smallletters.indexOf(i) > -1;
       let offset;
       var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       el.setAttribute('font-family', 'Futura');
-      el.setAttribute('font-size', '24px');
+      if(shouldBeSmall)
+        el.setAttribute('font-size', '16px');
+      else
+        el.setAttribute('font-size', '24px');
       let fillColor = colors.dim;
       if(highlightName && highlightName.indexOf(i) > -1)
       {
@@ -146,7 +150,11 @@ function makeGround(ps, rg, svg)
       {
         let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
         let m = el.getBBox();
-        offset = [dir[0] * m.width + 9, dir[1] * m.height/2-8];
+        offset = [dir[0] * m.width, dir[1] * m.height/2];
+        if(shouldBeSmall)
+          offset = vec2.add(offset, [5, -5]);
+        else
+          offset = vec2.add(offset, [9, -8]);
       }
       else
       {

@@ -37,6 +37,25 @@ function makeRG (svgEl)
     return [curve(ps, {strokeWidth: 10}), line(o, a), line(o, b)];
   }
 
+  function arc(c, a, b, o)
+  {
+    let ca = vec2.sub(a, c);
+    let cb = vec2.sub(b, c);
+    let d = vec2.len(ca);
+    let uca = vec2.scale(ca, 1/d);
+    let start = (Math.atan2(uca[1], uca[0]) + Math.PI*2) % (Math.PI * 2);
+    let ucb = vec2.scale(cb, 1/d);
+    let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
+    if(start > end)
+      end += Math.PI * 2;
+    return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, Object.assign(Object.assign({}, roughopts), o));
+  }
+
+  function gnomon(c, d, e)
+  {
+    return arc(c, d, e, {strokeLineDash: [5, 4]});
+  }
+
   function makeHighlight(p, name, typ, arg1) {
     if(typ === 'point')
     {
@@ -79,7 +98,7 @@ function makeRG (svgEl)
       console.error('Unknown highlight: ', typ, name);
     }
   }
-  return { angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
+  return { gnomon, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
 export default makeRG;

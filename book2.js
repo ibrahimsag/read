@@ -175,6 +175,68 @@ function()
     }
   }
 },
+
+function()
+{
+  const a = 400;
+  const A = [50, 50];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.scale(ab, 0.5);
+  const bd = vec2.scale(ab, -0.38);
+  const C = vec2.add(A, ac)
+  const D = vec2.add(B, bd);
+  const ce = vec2.rot(ac, Math.PI/2);
+  const E = vec2.add(C, ce);
+  const F = vec2.add(B, ce);
+  const G = vec2.add(D, ce);
+  const dh = vec2.rot(bd, -Math.PI/2);
+  const H = vec2.add(D, dh);
+  const K = vec2.add(A, dh);
+  const L = vec2.add(C, dh);
+  const M = vec2.add(B, dh);
+  const hn = vec2.scale(vec2.sub(L, H), 0.7);
+  const N = vec2.add(H, hn);
+  const O = vec2.add(H, vec2.rot(hn, Math.PI * (3/4)));
+  const P = vec2.add(H, vec2.rot(hn, -Math.PI /2));
+
+  return {
+    title: 'Proposition 5',
+    prose: processProse(prop5),
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
+    shapes: [
+      rg.line(A, K),
+      rg.line(A, B),
+      rg.line(K, M),
+      rg.line(E, F),
+      rg.line(C, E),
+      rg.line(D, G),
+      rg.line(B, F),
+      rg.line(E, B),
+      rg.gnomon(H, N, P),
+    ],
+    smallletters: "NOP",
+    letters: {
+      A: [1],
+      B: [1],
+      C: [1],
+      D: [1],
+      E: [4.8],
+      F: [5],
+      G: [5],
+      H: [2],
+      K: [5],
+      L: [3.8, 1.5],
+      M: [-1],
+      N: [5],
+      O: [1, 1.5],
+      P: [3]
+    },
+    given: {
+      NOP: () => [rg.gnomon(H, N, P)],
+    }
+  }
+},
 ]
 }
 
