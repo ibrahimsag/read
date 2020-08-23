@@ -430,6 +430,238 @@ function()
   }
 },
 
+function()
+{
+  const a = 400;
+  const A = [50, 250];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.scale(ab, 0.5);
+  const C = vec2.add(A, ac);
+  const bd = vec2.scale(ab, -0.3);
+  const D = vec2.add(B, bd);
+  const ce = vec2.rot(ac, -Math.PI/2);
+  const E = vec2.add(C, ce);
+  const df = vec2.rot(bd, Math.PI/2);
+  const F = vec2.add(D, df);
+  const G = vec2.add(C, df);
+
+  return {
+    title: 'Proposition 9',
+    prose: processProse(prop9),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.line(A, B),
+      rg.line(A, E),
+      rg.line(E, B),
+      rg.line(E, C),
+      rg.line(D, F),
+      rg.line(G, F),
+      rg.line(A, F)
+    ],
+    letters: {
+      A: [5],
+      B: [5],
+      C: [5],
+      D: [5],
+      E: [1],
+      F: [0],
+      G: [3, 0.7]
+    }
+  }
+},
+
+function()
+{
+  const a = 300;
+  const A = [50, 250];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.scale(ab, 0.5);
+  const C = vec2.add(A, ac);
+  const bd = vec2.scale(ab, 0.3);
+  const D = vec2.add(B, bd);
+  const ce = vec2.rot(ac, -Math.PI/2);
+  const E = vec2.add(C, ce);
+  const F = vec2.add(D, ce);
+  const dg = vec2.rot(bd, Math.PI/2);
+  const G = vec2.add(D, dg);
+
+  return {
+    title: 'Proposition 10',
+    prose: processProse(prop10),
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.line(A, D),
+      rg.line(A, E),
+      rg.line(E, G),
+      rg.line(E, C),
+      rg.line(E, F),
+      rg.line(G, F),
+      rg.line(G, A),
+    ],
+    letters: {
+      A: [5],
+      B: [4.5],
+      C: [5],
+      D: [-1],
+      E: [1],
+      F: [0],
+      G: [-1.5]
+    }
+  }
+},
+
+function()
+{
+  const a = 250;
+  const A = [50, 200];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const ac = vec2.rot(ab, Math.PI * 0.5);
+  const C = vec2.add(A, ac);
+  const D = vec2.add(B, ac);
+  const ae = vec2.scale(ac, 0.5);
+  const E = vec2.add(A, ae);
+  const eb = vec2.sub(B, E);
+  const ef = vec2.scale(ac, -1 * vec2.len(eb) / vec2.len(ac));
+  const F = vec2.add(E, ef);
+  const af = vec2.sub(F, A);
+  const fg = vec2.rot(af, Math.PI/2);
+  const G = vec2.add(F, fg);
+  const H = vec2.add(A, fg);
+  const K = vec2.add(H, ac);
+
+  return {
+    title: 'Proposition 11',
+    prose: processProse(prop11),
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([A, C, D, B]),
+      rg.line(E, B),
+      rg.line(A, F),
+      rg.line(F, G),
+      rg.line(G, K)
+    ],
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [5],
+      D: [5],
+      E: [3],
+      F: [2],
+      G: [1],
+      H: [0.2],
+      K: [5]
+    }
+  }
+},
+
+function()
+{
+  const a = 250;
+  const A = [150, 200];
+  const ac = [a, 0];
+  const C = vec2.add(A, ac);
+  const ad = vec2.scale(ac, -0.3)
+  const D = vec2.add(A, ad);
+  const B = vec2.add(D, vec2.scale(vec2.rot(ad, Math.PI/2), 2));
+
+  return {
+    title: 'Proposition 12',
+    prose: processProse(prop12),
+    points: { A, B, C, D },
+    shapes: [
+      rg.polygon([D, C, B]),
+      rg.line(B, A)
+    ],
+    letters: {
+      A: [5],
+      B: [1],
+      C: [5],
+      D: [5]
+    }
+  }
+},
+
+function()
+{
+  const b = 250;
+  const B = [150, 250];
+  const bc = [b, 0];
+  const C = vec2.add(B, bc);
+  const bd = vec2.scale(bc, 0.5)
+  const D = vec2.add(B, bd);
+  const A = vec2.add(D, vec2.scale(vec2.rot(bc, -Math.PI/2), 0.8));
+
+  return {
+    title: 'Proposition 13',
+    prose: processProse(prop13),
+    points: { A, B, C, D },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.line(D, A)
+    ],
+    letters: {
+      A: [1],
+      B: [5],
+      C: [5],
+      D: [5]
+    }
+  }
+},
+
+function()
+{
+  const Aa = [60, 10];
+  const Ab = [170, 10];
+  const Ac = [100, 150];
+  const A = [10, 100];
+  const b = 100;
+  const B = [150, 190];
+  const bc = [0, b];
+  const C = vec2.add(B, bc);
+  const cd = [b * 2, 0]
+  const D = vec2.add(C, cd);
+  const E = vec2.add(B, cd);
+  const ef = vec2.rot(bc, -Math.PI/2);
+  const F = vec2.add(E, ef);
+  const bf = vec2.add(cd, ef);
+  const bg = vec2.scale(bf, 0.5);
+  const G = vec2.add(B, bg);
+  const alpha = Math.acos(vec2.dist(G, E)/ vec2.len(bg));
+  const gh = vec2.rot(bg, -alpha);
+  const H = vec2.add(G, gh);
+
+  return {
+    title: 'Proposition 14',
+    prose: processProse(prop14),
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.polygon([Aa, Ab, Ac, A]),
+      rg.polygon([B, C, D, E]),
+      rg.line(G, H),
+      rg.line(E, H),
+      rg.line(E, F),
+      rg.arc(G, B, F)
+    ],
+    given: {
+      A: () => [rg.polygon([Aa, Ab, Ac, A])],
+      BHF: () => [rg.arc(G, B, F)],
+    },
+    letters: {
+      A: [-0.5, 4],
+      B: [3],
+      C: [3],
+      D: [-1],
+      E: [0.2],
+      F: [-1],
+      G: [5],
+      H: [0.5]
+    }
+  }
+},
+
 ]
 }
 

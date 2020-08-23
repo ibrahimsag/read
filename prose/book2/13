@@ -1,19 +1,19 @@
 In acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
 
-Let ABC be an acute-angled triangle, having the an- gle at (point) B acute.
-And let AD have been drawn from point A, perpendicular to BC [Prop. 1.12].
-I say that the square on AC is less than the (sum of the) squares on CB and BA, by twice the rectangle contained by CB and BD.
+Let {ABC polygon} be an acute-angled triangle, having the angle at (point) {B point} acute.
+And let {AD line} have been drawn from point {A point}, perpendicular to {BC line} [Prop. 1.12].
+I say that the square on {AC line} is less than the (sum of the) squares on {CB line} and {BA line}, by twice the rectangle contained by {CB line} and {BD line}.
 
-For since the straight-line CB has been cut, at random, at (point) D, the (sum of the) squares on CB and BD is thus equal to twice the rectangle contained by CB and BD, and the square on DC [Prop. 2.7].
-Let the square on DA have been added to both.
-Thus, the (sum of the) squares on CB, BD, and DA is equal to twice the rectangle contained by CB and BD, and the (sum of the) squares on AD and DC.
-But, the (square) on AB (is) equal to the (sum of the squares) on BD and DA.
-For the angle at (point) D is a right-angle [Prop. 1.47].
-And the (square) on AC (is) equal to the (sum of the squares) on AD and DC [Prop. 1.47].
-Thus, the (sum of the squares) on CB and BA is equal to the (square) on AC, and twice the (rectangle contained) by CB and BD.
-So the (square) on AC alone is less than the (sum of the) squares on CB and BA by twice the rectangle contained by CB and BD.
+For since the straight-line {CB line} has been cut, at random, at (point) {D point}, the (sum of the) squares on {CB line} and {BD line} is thus equal to twice the rectangle contained by {CB line} and {BD line}, and the square on {DC line} [Prop. 2.7].
+Let the square on {DA line} have been added to both.
+Thus, the (sum of the) squares on {CB line}, {BD line}, and {DA line} is equal to twice the rectangle contained by {CB line} and {BD line}, and the (sum of the) squares on {AD line} and {DC line}.
+But, the (square) on {AB line} (is) equal to the (sum of the squares) on {BD line} and {DA line}.
+For the angle at (point) {D point} is a right-angle [Prop. 1.47].
+And the (square) on {AC line} (is) equal to the (sum of the squares) on {AD line} and {DC line} [Prop. 1.47].
+Thus, the (sum of the squares) on {CB line} and {BA line} is equal to the (square) on {AC line}, and twice the (rectangle contained) by {CB line} and {BD line}.
+So the (square) on {AC line} alone is less than the (sum of the) squares on {CB line} and {BA line} by twice the rectangle contained by {CB line} and {BD line}.
 
 Thus, in acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
 (Which is) the very thing it was required to show.
 
-This proposition is equivalent to the well-known cosine formula: AC^2 = AB^2 + BC^2 − 2 AB BC cos ABC, since cos ABC = BD/AB.
+This proposition is equivalent to the well-known cosine formula: AC^2 = AB^2 + BC^2 -2 AB BC cos ABC, since cos ABC = BD/AB.

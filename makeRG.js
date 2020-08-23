@@ -98,7 +98,7 @@ function makeRG (svgEl)
       console.error('Unknown highlight: ', typ, name);
     }
   }
-  return { gnomon, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
+  return { arc, gnomon, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
 export default makeRG;

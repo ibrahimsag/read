@@ -1,19 +1,19 @@
 In obtuse-angled triangles, the square on the side sub- tending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.
 
-Let ABC be an obtuse-angled triangle, having the an- gle BAC obtuse.
-And let BD be drawn from point B, perpendicular to CA produced [Prop. 1.12].
-I say that the square on BC is greater than the (sum of the) squares on BA and AC, by twice the rectangle contained by CA and AD.
+Let {ABC polygon} be an obtuse-angled triangle, having the angle {BAC angle} obtuse.
+And let {BD line} be drawn from point {B point}, perpendicular to {CA line} produced [Prop. 1.12].
+I say that the square on {BC line} is greater than the (sum of the) squares on {BA line} and {AC line}, by twice the rectangle contained by {CA line} and {AD line}.
 
-For since the straight-line CD has been cut, at ran- dom, at point A, the (square) on DC is thus equal to the (sum of the) squares on CA and AD, and twice the rectangle contained by CA and AD [Prop. 2.4].
-Let the (square) on DB have been added to both.
-Thus, the (sum of the squares) on CD and DB is equal to the (sum of the) squares on CA, AD, and DB, and twice the [rectangle contained] by CA and AD.
-But, the (square) on CB is equal to the (sum of the squares) on CD and DB.
-For the angle at D (is) a right-angle [Prop. 1.47].
-And the (square) on AB (is) equal to the (sum of the squares) on AD and DB [Prop. 1.47].
-Thus, the square on CB is equal to the (sum of the) squares on CA and AB, and twice the rectangle contained by CA and AD.
-So the square on CB is greater than the (sum of the) squares on CA and AB by twice the rectangle contained by C A and AD.
+For since the straight-line {CD line} has been cut, at random, at point {A point}, the (square) on {DC line} is thus equal to the (sum of the) squares on {CA line} and {AD line}, and twice the rectangle contained by {CA line} and {AD line} [Prop. 2.4].
+Let the (square) on {DB line} have been added to both.
+Thus, the (sum of the squares) on {CD line} and {DB line} is equal to the (sum of the) squares on {CA line}, {AD line}, and {DB line}, and twice the [rectangle contained] by {CA line} and {AD line}.
+But, the (square) on {CB line} is equal to the (sum of the squares) on {CD line} and {DB line}.
+For the angle at {D point} (is) a right-angle [Prop. 1.47].
+And the (square) on {AB line} (is) equal to the (sum of the squares) on {AD line} and {DB line} [Prop. 1.47].
+Thus, the square on {CB line} is equal to the (sum of the) squares on {CA line} and {AB line}, and twice the rectangle contained by {CA line} and {AD line}.
+So the square on {CB line} is greater than the (sum of the) squares on {CA line} and {AB line} by twice the rectangle contained by {CA line} and {AD line}.
 
 Thus, in obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.
 (Which is) the very thing it was required to show.
 
-This proposition is equivalent to the well-known cosine formula: BC^2 = AB^2 + AC^2 −2*AB*AC * cosBAC, since cos BAC = −AD/AB.
+This proposition is equivalent to the well-known cosine formula: BC^2 = AB^2 + AC^2 - 2*AB*AC * cosBAC, since cos BAC = - AD/AB.

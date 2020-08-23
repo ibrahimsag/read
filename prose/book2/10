@@ -1,49 +1,50 @@
 If a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).
 
-For let any straight-line AB have been cut in half at (point) C, and let any straight-line BD have been added to it straight-on.
-I say that the (sum of the) squares on AD and DB is double the (sum of the) squares on AC and CD.
+For let any straight-line {AB line} have been cut in half at (point) {C point}, and let any straight-line {BD line} have been added to it straight-on.
+I say that the (sum of the) squares on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.
 
-For let CE have been drawn from point C, at right- angles to AB [Prop. 1.11], and let it be made equal to each of AC and CB [Prop. 1.3], and let EA and EB have been joined.
-And let EF have been drawn through E, parallel to AD [Prop. 1.31], and let F D have been drawn through D, parallel to CE [Prop. 1.31].
-And since some straight-line EF falls across the parallel straight-lines EC and FD, the (internal angles) CEF and EFD are thus equal to two right-angles [Prop. 1.29].
-Thus, FEB and EFD are less than two right-angles.
+For let {CE line} have been drawn from point {C point}, at right-angles to {AB line} [Prop. 1.11], and let it be made equal to each of {AC line} and {CB line} [Prop. 1.3], and let {EA line} and {EB line} have been joined.
+And let {EF line} have been drawn through {E point}, parallel to {AD line} [Prop. 1.31], and let {FD line} have been drawn through {D point}, parallel to {CE line} [Prop. 1.31].
+And since some straight-line {EF line} falls across the parallel straight-lines {EC line} and {FD line}, the (internal angles) {CEF angle} and {EFD angle} are thus equal to two right-angles [Prop. 1.29].
+Thus, {FEB angle} and {EFD angle} are less than two right-angles.
 And (straight-lines) produced from (internal angles whose sum is) less than two right-angles meet together [Post. 5].
-Thus, being produced in the direction of B and D, the (straight-lines) EB and FD will meet.
-Let them have been produced, and let them meet together at G, and let AG have been joined.
-And since AC is equal to CE, angle EAC is also equal to (angle) AEC [Prop. 1.5].
-And the (angle) at C (is) a right-angle.
-Thus, EAC and AEC [are] each half a right-angle [Prop. 1.32].
-So, for the same (reasons), CEB and EBC are also each half a right-angle.
-Thus, (angle) AEB is a right-angle.
-And since EBC is half a right-angle, DBG (is) thus also half a right-angle [Prop. 1.15].
-And BDG is also a right-angle.
-For it is equal to DCE.
+Thus, being produced in the direction of {B point} and {D point}, the (straight-lines) {EB line} and {FD line} will meet.
+Let them have been produced, and let them meet together at {G point}, and let {AG line} have been joined.
+And since {AC line} is equal to {CE line}, angle {EAC angle} is also equal to (angle) {AEC angle} [Prop. 1.5].
+And the (angle) at {C point} (is) a right-angle.
+Thus, {EAC angle} and {AEC angle} [are] each half a right-angle [Prop. 1.32].
+So, for the same (reasons), {CEB angle} and {EBC angle} are also each half a right-angle.
+Thus, (angle) {AEB angle} is a right-angle.
+And since {EBC angle} is half a right-angle, {DBG angle} (is) thus also half a right-angle [Prop. 1.15].
+And {BDG angle} is also a right-angle.
+For it is equal to {DCE angle}.
 For (they are) alternate (angles) [Prop. 1.29].
-Thus, the remaining (angle) DGB is half a right-angle.
-Thus, DGB is equal to DBG.
-So side BD is also equal to side GD [Prop. 1.6].
-Again, since EGF is half a right-angle, and the (angle) at F (is) a right-angle, for it is equal to the opposite (angle) at C [Prop. 1.34], the remaining (angle) FEG is thus half a right-angle. Thus, angle EGF (is) equal to FEG.
-So the side GF is also equal to the side EF [Prop. 1.6].
-And since [EC is equal to CA] the square on EC is [also] equal to the square on CA.
-Thus, the (sum of the) squares on EC and C A is double the square on CA.
-And the (square) on EA is equal to the (sum of the squares) on EC and CA [Prop. 1.47].
-Thus, the square on EA is double the square on AC.
-Again, since F G is equal to EF, the (square) on F G is also equal to the (square) on FE.
-Thus, the (sum of the squares) on GF and FE is dou- ble the (square) on EF.
-And the (square) on EG is equal to the (sum of the squares) on GF and F E [Prop. 1.47].
-Thus, the (square) on EG is double the (square) on EF.
-And EF (is) equal to CD [Prop. 1.34].
-Thus, the square on EG is double the (square) on CD.
-But it was also shown that the (square) on EA (is) double the (square) on AC.
-Thus, the (sum of the) squares on AE and EG is double the (sum of the) squares on AC and CD.
-And the square on AG is equal to the (sum of the) squares on AE and EG [Prop. 1.47].
-Thus, the (square) on AG is double the (sum of the squares) on AC and CD.
-And the (sum of the squares) on AD and DG is equal to the (square) on AG [Prop. 1.47].
-Thus, the (sum of the) [squares] on AD and DG is double the (sum of the) [squares] on AC and CD.
-And DG (is) equal to DB.
-Thus, the (sum of the) [squares] on AD and DB is double the (sum of the) squares on AC and CD.
+Thus, the remaining (angle) {DGB angle} is half a right-angle.
+Thus, {DGB angle} is equal to {DBG angle}.
+So side {BD line} is also equal to side {GD line} [Prop. 1.6].
+Again, since {EGF angle} is half a right-angle, and the (angle) at {F point} (is) a right-angle, for it is equal to the opposite (angle) at {C point} [Prop. 1.34], the remaining (angle) {FEG angle} is thus half a right-angle.
+Thus, angle {EGF angle} (is) equal to {FEG angle}.
+So the side {GF line} is also equal to the side {EF line} [Prop. 1.6].
+And since [{EC line} is equal to {CA line}] the square on {EC line} is [also] equal to the square on {CA line}.
+Thus, the (sum of the) squares on {EC line} and {CA line} is double the square on {CA line}.
+And the (square) on {EA line} is equal to the (sum of the squares) on {EC line} and {CA line} [Prop. 1.47].
+Thus, the square on {EA line} is double the square on {AC line}.
+Again, since {FG line} is equal to {EF line}, the (square) on {FG line} is also equal to the (square) on {FE line}.
+Thus, the (sum of the squares) on {GF line} and {FE line} is double the (square) on {EF line}.
+And the (square) on {EG line} is equal to the (sum of the squares) on {GF line} and {FE line} [Prop. 1.47].
+Thus, the (square) on {EG line} is double the (square) on {EF line}.
+And {EF line} (is) equal to {CD line} [Prop. 1.34].
+Thus, the square on {EG line} is double the (square) on {CD line}.
+But it was also shown that the (square) on {EA line} (is) double the (square) on {AC line}.
+Thus, the (sum of the) squares on {AE line} and {EG line} is double the (sum of the) squares on {AC line} and {CD line}.
+And the square on {AG line} is equal to the (sum of the) squares on {AE line} and {EG line} [Prop. 1.47].
+Thus, the (square) on {AG line} is double the (sum of the squares) on {AC line} and {CD line}.
+And the (sum of the squares) on {AD line} and {DG line} is equal to the (square) on {AG line} [Prop. 1.47].
+Thus, the (sum of the) [squares] on {AD line} and {DG line} is double the (sum of the) [squares] on {AC line} and {CD line}.
+And {DG line} (is) equal to {DB line}.
+Thus, the (sum of the) [squares] on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.
 
-Thus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) hav-ing been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).
+Thus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).
 (Which is) the very thing it was required to show.
 
 This proposition is a geometric version of the algebraic identity: (2 a + b)2 + b2 = 2 [a2 + (a + b)2 ].
