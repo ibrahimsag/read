@@ -3,9 +3,9 @@ To construct a square equal to a given rectilinear figure.
 Let {A given} be the given rectilinear figure.
 So it is required to construct a square equal to the rectilinear figure {A given}.
 
-For let the right-angled parallelogram {BD polygon}, equal to the rectilinear figure {A given}, have been constructed [Prop. 1.45].
+For let the right-angled parallelogram {BCDE polygon}, equal to the rectilinear figure {A given}, have been constructed [Prop. 1.45].
 Therefore, if {BE line} is equal to {ED line} then that (which) was prescribed has taken place.
-For the square {BD polygon}, equal to the rectilinear figure {A given}, has been constructed.
+For the square {BCDE polygon}, equal to the rectilinear figure {A given}, has been constructed.
 And if not, then one of the (straight-lines) {BE line} or {ED line} is greater (than the other).
 Let {BE line} be greater, and let it have been produced to {F point}, and let {EF line} be made equal to {ED line} [Prop. 1.3].
 And let {BF line} have been cut in half at (point) {G point} [Prop. 1.10].
@@ -19,10 +19,10 @@ And the (sum of the) squares on {HE line} and {EG line} is equal to the (square)
 Thus, the (rectangle contained) by {BE line} and {EF line}, plus the (square) on {GE line}, is equal to the (sum of the squares) on {HE line} and {EG line}.
 Let the square on {GE line} have been taken from both.
 Thus, the remaining rectangle contained by {BE line} and {EF line} is equal to the square on {EH line}.
-But, {BD polygon} is the (rectangle contained) by {BE line} and {EF line}.
+But, {BCDE polygon} is the (rectangle contained) by {BE line} and {EF line}.
 For {EF line} (is) equal to {ED line}.
-Thus, the parallelogram {BD polygon} is equal to the square on {HE line}.
-And {BD polygon} (is) equal to the rectilinear figure {A given}.
+Thus, the parallelogram {BCDE polygon} is equal to the square on {HE line}.
+And {BCDE polygon} (is) equal to the rectilinear figure {A given}.
 Thus, the rectilinear figure {A given} is also equal to the square (which) can be described on {EH line}.
 
 Thus, a square---(namely), that (which) can be described on {EH line}---has been constructed, equal to the given rectilinear figure {A given}.

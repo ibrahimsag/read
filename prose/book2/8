@@ -9,27 +9,27 @@ and let the (rest of the) figure have been drawn double.
 
 Therefore, since {CB line} is equal to {BD line}, but {CB line} is equal to {GK line} [Prop. 1.34], and {BD line} to {KN line} [Prop. 1.34], {GK line} is thus also equal to {KN line}.
 So, for the same (reasons), {QR line} is equal to {RP line}.
-And since {BC line} is equal to {BD line}, and {GK line} to {KN line}, (square) {CK polygon} is thus also equal to (square) {KD polygon}, and (square) {GR polygon} to (square) {RN polygon} [Prop. 1.36].
-But, (square) {CK polygon} is equal to (square) {RN polygon}.
-For (they are) complements in the parallelogram {CP polygon} [Prop. 1.43].
-Thus, (square) {KD polygon} is also equal to (square) {GR polygon}.
-Thus, the four (squares) {DK polygon}, {CK polygon}, {GR polygon}, and {RN polygon} are equal to one another.
-Thus, the four (taken together) are quadruple (square) {CK polygon}.
+And since {BC line} is equal to {BD line}, and {GK line} to {KN line}, (square) {CGKB polygon} is thus also equal to (square) {KNDB polygon}, and (square) {GQRK polygon} to (square) {RPNK polygon} [Prop. 1.36].
+But, (square) {CGKB polygon} is equal to (square) {RPNK polygon}.
+For (they are) complements in the parallelogram {CQPD polygon} [Prop. 1.43].
+Thus, (square) {KNDB polygon} is also equal to (square) {GQRK polygon}.
+Thus, the four (squares) {DNKB polygon}, {CGKB polygon}, {GQRK polygon}, and {RPNK polygon} are equal to one another.
+Thus, the four (taken together) are quadruple (square) {CGKB polygon}.
 Again, since {CB line} is equal to {BD line}, but {BD line} (is) equal to {BK line}---that is to say, {CG line}--- and {CB line} is equal to {GK line}---that is to say, {GQ line}--- {CG line} is thus also equal to {GQ line}.
-And since {CG line} is equal to {GQ line}, and {QR line} to {RP line}, (rectangle) {AG polygon} is also equal to (rectangle) {MQ polygon}, and (rectangle) {QL polygon} to (rectangle) {RF polygon} [Prop. 1.36].
-But, (rectangle) {MQ polygon} is equal to (rectangle) {QL polygon}.
-For (they are) complements in the parallelogram {ML polygon} [Prop. 1.43].
-Thus, (rectangle) {AG polygon} is also equal to (rectangle) {RF polygon}.
-Thus, the four (rectangles) {AG polygon}, {MQ polygon}, {QL polygon}, and {RF polygon} are equal to one another.
-Thus, the four (taken together) are quadruple (rectangle) {AG polygon}.
-And it was also shown that the four (squares) {CK polygon}, {KD polygon}, {GR polygon}, and {RN polygon} (taken together are) quadruple (square) {CK polygon}.
-Thus, the eight (figures taken together), which comprise the gnomon {STU given}, are quadruple (rectangle) {AK polygon}.
-And since {AK polygon} is the (rectangle contained) by {AB line} and {BD line}, for {BK line} (is) equal to {BD line}, four times the (rectangle contained) by {AB line} and {BD line} is quadruple (rectangle) {AK polygon}.
-But the gnomon {STU given} was also shown (to be equal to) quadruple (rectangle) {AK polygon}.
+And since {CG line} is equal to {GQ line}, and {QR line} to {RP line}, (rectangle) {AMGC polygon} is also equal to (rectangle) {MOQG polygon}, and (rectangle) {QHLR polygon} to (rectangle) {RLFP polygon} [Prop. 1.36].
+But, (rectangle) {MOQG polygon} is equal to (rectangle) {QHLR polygon}.
+For (they are) complements in the parallelogram {MELK polygon} [Prop. 1.43].
+Thus, (rectangle) {AMGC polygon} is also equal to (rectangle) {RLFP polygon}.
+Thus, the four (rectangles) {AMGC polygon}, {MOQG polygon}, {QHLR polygon}, and {RLFP polygon} are equal to one another.
+Thus, the four (taken together) are quadruple (rectangle) {AMGC polygon}.
+And it was also shown that the four (squares) {CGKB polygon}, {KNDB polygon}, {GQRK polygon}, and {RPNK polygon} (taken together are) quadruple (square) {CGKB polygon}.
+Thus, the eight (figures taken together), which comprise the gnomon {STU given}, are quadruple (rectangle) {AMKB polygon}.
+And since {AMKB polygon} is the (rectangle contained) by {AB line} and {BD line}, for {BK line} (is) equal to {BD line}, four times the (rectangle contained) by {AB line} and {BD line} is quadruple (rectangle) {AMKB polygon}.
+But the gnomon {STU given} was also shown (to be equal to) quadruple (rectangle) {AMKB polygon}.
 Thus, four times the (rectangle contained) by {AB line} and {BD line} is equal to the gnomon {STU given}.
-Let {OH polygon}, which is equal to the square on {AC line}, have been added to both.
-Thus, four times the rectangle contained by {AB line} and {BD line}, plus the square on {AC line}, is equal to the gnomon {STU given}, and the (square) {OH polygon}.
-But, the gnomon {STU given} and the (square) {OH polygon} is (equivalent to) the whole square {AEFD polygon}, which is on {AD line}.
+Let {OEHQ polygon}, which is equal to the square on {AC line}, have been added to both.
+Thus, four times the rectangle contained by {AB line} and {BD line}, plus the square on {AC line}, is equal to the gnomon {STU given}, and the (square) {OEHQ polygon}.
+But, the gnomon {STU given} and the (square) {OEHQ polygon} is (equivalent to) the whole square {AEFD polygon}, which is on {AD line}.
 Thus, four times the (rectangle contained) by {AB line} and {BD line}, plus the (square) on {AC line}, is equal to the square on {AD line}.
 And {BD line} (is) equal to {BC line}.
 Thus, four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the (square) on {AD line}, that is to say the square described on {AB line} and {BC line}, as on one (complete straight-line).
