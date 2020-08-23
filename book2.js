@@ -354,6 +354,82 @@ function()
     }
   }
 },
+
+function()
+{
+  const a = 300;
+  const A = [50, 50];
+  const ab = [a, 0];
+  const B = vec2.add(A, ab);
+  const bc = vec2.scale(ab, -0.25);
+  const C = vec2.add(B, bc)
+  const bd = vec2.scale(bc, -1);
+  const D = vec2.add(B, bd);
+  const ad = vec2.sub(D, A);
+  const ae = vec2.rot(ad, Math.PI/2);
+  const E = vec2.add(A, ae);
+  const F = vec2.add(D, ae);
+  const cg = vec2.rot(bd, Math.PI/2);
+  const G = vec2.add(C, cg);
+  const H = vec2.add(C, ae);
+  const K = vec2.add(B, cg);
+  const L = vec2.add(B, ae);
+  const M = vec2.add(A, cg);
+  const N = vec2.add(D, cg);
+  const O = vec2.add(M, cg);
+  const P = vec2.add(N, cg);
+  const Q = vec2.add(G, cg);
+  const R = vec2.add(K, cg);
+  const qk = vec2.sub(K, Q);
+  const qcent = vec2.scale(qk, 0.5)
+  const qu = vec2.rot(qcent, Math.PI * 3/4);
+  const qs = vec2.rot(qu, Math.PI / 2);
+  const cent = vec2.add(Q, qcent);
+  const S = vec2.add(Q, qs);
+  const T = vec2.add(cent, qk);
+  const U = vec2.add(Q, qu);
+
+  return {
+    title: 'Proposition 8',
+    prose: processProse(prop8),
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, R, S, T, U },
+    shapes: [
+      rg.polygon([A, E, F, D]),
+      rg.line(M, N),
+      rg.line(O, P),
+      rg.line(C, H),
+      rg.line(B, L),
+      rg.line(D, E),
+      rg.gnomon(cent, S, U)
+    ],
+    smallletters: "STU",
+    letters: {
+      A: [1],
+      B: [1],
+      C: [1],
+      D: [1],
+      E: [5],
+      F: [5],
+      G: [0],
+      H: [5],
+      K: [-2.2, 1.2],
+      L: [5],
+      M: [3, 0.5],
+      N: [-1],
+      O: [3],
+      P: [-1],
+      Q: [-2.2, 1.2],
+      R: [-2.3, 1.2],
+      S: [5],
+      T: [1, 1.5],
+      U: [3],
+    },
+    given: {
+      STU: () => [rg.gnomon(cent, S, U)],
+    }
+  }
+},
+
 ]
 }
 

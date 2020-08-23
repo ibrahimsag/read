@@ -1,35 +1,40 @@
 If a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).
 
-For let any straight-line AB have been cut, at random, at point C.
-I say that four times the rectangle contained by AB and BC, plus the square on AC, is equal to the square described on AB and BC, as on one (complete straight-line).
+For let any straight-line {AB line} have been cut, at random, at point {C point}.
+I say that four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the square described on {AB line} and {BC line}, as on one (complete straight-line).
 
-For let BD have been produced in a straight-line [with the straight-line AB], and let BD be made equal to CB [Prop. 1.3], and let the square AEFD have been described on AD [Prop. 1.46], and let the (rest of the) figure have been drawn double.
+For let {BD line} have been produced in a straight-line [with the straight-line {AB line}], and let {BD line} be made equal to {CB line} [Prop. 1.3],
+and let the square {AEFD polygon} have been described on {AD line} [Prop. 1.46],
+and let the (rest of the) figure have been drawn double.
 
-Therefore, since CB is equal to BD, but CB is equal to GK [Prop. 1.34], and BD to KN [Prop. 1.34], GK is thus also equal to KN.
-So, for the same (reasons), QR is equal to RP.
-And since BC is equal to BD, and GK to KN, (square) CK is thus also equal to (square) KD, and (square) GR to (square) RN [Prop. 1.36].
-But, (square) CK is equal to (square) RN.
-For (they are) complements in the parallelogram CP [Prop. 1.43].
-Thus, (square) KD is also equal to (square) GR.
-Thus, the four (squares) DK, CK, GR, and RN are equal to one another.
-Thus, the four (taken together) are quadruple (square) CK.
-Again, since CB is equal to BD, but BD (is) equal to BK---that is to say, CG--- and CB is equal to GK---that is to say, GQ--- CG is thus also equal to GQ.
-And since CG is equal to GQ, and QR to RP, (rectangle) AG is also equal to (rectangle) MQ, and (rectangle) QL to (rectangle) RF [Prop. 1.36].
-But, (rectangle) MQ is equal to (rectangle) QL.
-For (they are) complements in the parallelogram ML [Prop. 1.43].
-Thus, (rectangle) AG is also equal to (rectangle) RF.
-Thus, the four (rectangles) AG, MQ, QL, and RF are equal to one another.
-Thus, the four (taken together) are quadruple (rectangle) AG.
-And it was also shown that the four (squares) CK, KD, GR, and RN (taken together are) quadruple (square) CK.
-Thus, the eight (figures taken together), which comprise the gnomon STU, are quadruple (rectangle) AK.
-And since AK is the (rectangle contained) by AB and BD, for BK (is) equal to BD, four times the (rectangle contained) by AB and BD is quadruple (rectangle) AK.
-But the gnomon STU was also shown (to be equal to) quadruple (rectangle) AK.
-Thus, four times the (rectangle contained) by AB and BD is equal to the gnomon STU.
-Let OH, which is equal to the square on AC, have been added to both.
-Thus, four times the rectangle contained by AB and BD, plus the square on AC, is equal to the gnomon STU, and the (square) OH.
-But, the gnomon STU and the (square) OH is (equivalent to) the whole square AEFD, which is on AD.
-Thus, four times the (rectangle contained) by AB and BD, plus the (square) on AC, is equal to the square on AD.
-And BD (is) equal to BC.
-Thus, four times the rectangle contained by AB and BC, plus the square on AC, is equal to the (square) on AD, that is to say the square described on AB and BC, as on one (complete straight-line).
+Therefore, since {CB line} is equal to {BD line}, but {CB line} is equal to {GK line} [Prop. 1.34], and {BD line} to {KN line} [Prop. 1.34], {GK line} is thus also equal to {KN line}.
+So, for the same (reasons), {QR line} is equal to {RP line}.
+And since {BC line} is equal to {BD line}, and {GK line} to {KN line}, (square) {CK polygon} is thus also equal to (square) {KD polygon}, and (square) {GR polygon} to (square) {RN polygon} [Prop. 1.36].
+But, (square) {CK polygon} is equal to (square) {RN polygon}.
+For (they are) complements in the parallelogram {CP polygon} [Prop. 1.43].
+Thus, (square) {KD polygon} is also equal to (square) {GR polygon}.
+Thus, the four (squares) {DK polygon}, {CK polygon}, {GR polygon}, and {RN polygon} are equal to one another.
+Thus, the four (taken together) are quadruple (square) {CK polygon}.
+Again, since {CB line} is equal to {BD line}, but {BD line} (is) equal to {BK line}---that is to say, {CG line}--- and {CB line} is equal to {GK line}---that is to say, {GQ line}--- {CG line} is thus also equal to {GQ line}.
+And since {CG line} is equal to {GQ line}, and {QR line} to {RP line}, (rectangle) {AG polygon} is also equal to (rectangle) {MQ polygon}, and (rectangle) {QL polygon} to (rectangle) {RF polygon} [Prop. 1.36].
+But, (rectangle) {MQ polygon} is equal to (rectangle) {QL polygon}.
+For (they are) complements in the parallelogram {ML polygon} [Prop. 1.43].
+Thus, (rectangle) {AG polygon} is also equal to (rectangle) {RF polygon}.
+Thus, the four (rectangles) {AG polygon}, {MQ polygon}, {QL polygon}, and {RF polygon} are equal to one another.
+Thus, the four (taken together) are quadruple (rectangle) {AG polygon}.
+And it was also shown that the four (squares) {CK polygon}, {KD polygon}, {GR polygon}, and {RN polygon} (taken together are) quadruple (square) {CK polygon}.
+Thus, the eight (figures taken together), which comprise the gnomon {STU given}, are quadruple (rectangle) {AK polygon}.
+And since {AK polygon} is the (rectangle contained) by {AB line} and {BD line}, for {BK line} (is) equal to {BD line}, four times the (rectangle contained) by {AB line} and {BD line} is quadruple (rectangle) {AK polygon}.
+But the gnomon {STU given} was also shown (to be equal to) quadruple (rectangle) {AK polygon}.
+Thus, four times the (rectangle contained) by {AB line} and {BD line} is equal to the gnomon {STU given}.
+Let {OH polygon}, which is equal to the square on {AC line}, have been added to both.
+Thus, four times the rectangle contained by {AB line} and {BD line}, plus the square on {AC line}, is equal to the gnomon {STU given}, and the (square) {OH polygon}.
+But, the gnomon {STU given} and the (square) {OH polygon} is (equivalent to) the whole square {AEFD polygon}, which is on {AD line}.
+Thus, four times the (rectangle contained) by {AB line} and {BD line}, plus the (square) on {AC line}, is equal to the square on {AD line}.
+And {BD line} (is) equal to {BC line}.
+Thus, four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the (square) on {AD line}, that is to say the square described on {AB line} and {BC line}, as on one (complete straight-line).
 
-Thus, if a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line). (Which is) the very thing it was required to show.
+Thus, if a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).
+(Which is) the very thing it was required to show.
+
+This proposition is a geometric version of the algebraic identity: 4 (a + b) a + b^2 = [(a + b) + a]^2.
