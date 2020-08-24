@@ -198,6 +198,43 @@ function()
   }
 },
 
+function()
+{
+  const r1 = 150;
+  const r2 = 110;
+  const d = r1 - r2;
+  const center1 = [250, 200];
+  const alpha = -Math.PI * 2/3;
+  const cc = vec2.rot([1, 0], alpha);
+  const oc = vec2.scale(cc, r1);
+  const C = vec2.add(center1, oc);
+  const A = vec2.add(center1, vec2.rot(oc, alpha));
+  const B = vec2.add(center1, vec2.rot(oc, 2 * alpha));
+  const F = vec2.add(center1, vec2.scale(cc, d));
+  const D = vec2.add(F, vec2.scale(vec2.rot(cc, alpha*1.12), r2));
+  const fb = vec2.sub(B, F);
+  const E = vec2.add(F, vec2.scale(fb, r2/vec2.len(fb)));
+
+  return {
+    prose: prop6,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.circle(center1, 2 * r1),
+      rg.circle(F, 2 * r2),
+      rg.line(F, C),
+      rg.line(F, B),
+    ],
+    letters: {
+      A: [5],
+      B: [-1.2, 0.8],
+      C: [1.5],
+      D: [4.5],
+      E: [-2.6, 1.2],
+      F: [4, 1.2]
+    }
+  }
+},
+
 ]
 }
 
