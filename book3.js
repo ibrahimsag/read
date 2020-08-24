@@ -10,6 +10,16 @@ import prop7 from './prose/book3/7';
 import prop8 from './prose/book3/8';
 import prop9 from './prose/book3/9';
 import prop10 from './prose/book3/10';
+import prop11 from './prose/book3/11';
+import prop12 from './prose/book3/12';
+import prop13 from './prose/book3/13';
+import prop14 from './prose/book3/14';
+import prop15 from './prose/book3/15';
+import prop16 from './prose/book3/16';
+import prop17 from './prose/book3/17';
+import prop18 from './prose/book3/18';
+import prop19 from './prose/book3/19';
+import prop20 from './prose/book3/20';
 
 function book3(rg)
 {
@@ -338,6 +348,188 @@ function()
       L: [1.2],
       M: [6],
       N: [-0.5]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const D = [250, 250];
+  const db = vec2.rot([r, 0], -Math.PI*4/5);
+  const theta1 = -Math.PI/2;
+  const theta2 = Math.PI*3/5;
+  const B = vec2.add(D, db);
+  const A = vec2.add(D, vec2.rot(db, theta1));
+  const C = vec2.add(D, vec2.rot(db, theta2));
+  const dk = vec2.rot(db, theta1/2);
+  const K = vec2.add(D, dk);
+  const G = vec2.sub(D, dk);
+  const dl = vec2.rot(db, theta2/2);
+  const L = vec2.add(D, dl);
+  const H = vec2.sub(D, dl);
+  const E = vec2.scale(vec2.add(A, B), 0.5);
+  const F = vec2.scale(vec2.add(B, C), 0.5);
+
+  return {
+    prose: prop9,
+    points: { A, B, C, D, E, F, G, H, K, L },
+    shapes: [
+      rg.circle(D, 2 * r),
+      rg.line(A, B),
+      rg.line(A, D),
+      rg.line(B, D),
+      rg.line(C, D),
+      rg.line(C, B),
+      rg.line(K, G),
+      rg.line(H, L),
+    ],
+    letters: {
+      A: [4.5],
+      B: [2],
+      C: [0],
+      D: [-2.3,1.2],
+      E: [0.5],
+      F: [0.4],
+      G: [-1],
+      H: [5],
+      K: [3],
+      L: [1],
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const P = [250, 250];
+  const d = 0.25;
+  const [[A, pa], [B, pb], [O, po], [G, pg], [C, pc], [F, pf], [N, pn], [H, ph]] = [0, 1+d, 2, 3-d, 4, 5+d, 6, 7-d].map(s =>
+    {
+      const theta = Math.PI * (s / 4 - 5/9);
+      const pp = vec2.rot([r, 0], theta);
+      return [vec2.add(P, pp), pp];
+    })
+  const K = vec2.scale(vec2.add(H, B), 0.5);
+  const L = vec2.scale(vec2.add(G, B), 0.5);
+  const M = vec2.add(P, vec2.scale(pn, 1.3))
+  const E = vec2.add(P, vec2.scale(po, 1.3))
+  const D = vec2.add(P, vec2.scale(pa, 0.7))
+  const ells = [];
+  for(var i = 0; i < 20; i++)
+  {
+    let theta = Math.PI * (2 * (i-5) / 19);
+    let pp = [Math.cos(theta) * r * 1.3, Math.sin(theta) * r * 0.725];
+    ells.push(vec2.add(P, vec2.rot(pp, -Math.PI * 1/18)));
+  }
+
+  return {
+    prose: prop10,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
+    shapes: [
+      rg.circle(P, 2 * r),
+      rg.curve(ells),
+      rg.line(H, B),
+      rg.line(B, G),
+      rg.line(A, C),
+      rg.line(M, E),
+    ],
+    given: {
+      DEF: () => [rg.curve(ells)],
+    },
+    letters: {
+      A: [1],
+      B: [0.5],
+      C: [5.5],
+      D: [0.4, 1.1],
+      E: [-1],
+      F: [4, 1.2],
+      G: [-2],
+      H: [2],
+      K: [4.5, 1.2],
+      L: [2.3, 1.3],
+      M: [3],
+      N: [0.2],
+      O: [0.3],
+      P: [-2],
+    }
+  }
+},
+
+function()
+{
+  const r1 = 150;
+  const r2 = 100;
+  const d = r1 - r2;
+  const F = [250, 250];
+  const ufa = vec2.rot([1, 0], -Math.PI*3/4);
+  const fa = vec2.scale(ufa, r1);
+  const A = vec2.add(F, fa);
+  const B = vec2.add(F, [r1, 0]);
+  const C = vec2.add(F, vec2.rot(fa, -Math.PI*2/3));
+  const center = vec2.add(F, vec2.scale(ufa, d));
+  const D = vec2.add(center, vec2.scale(vec2.rot(ufa, Math.PI/3), r2));
+  const E = vec2.add(center, vec2.scale(vec2.rot(ufa, -Math.PI*4/5), r2));
+  const fd = vec2.sub(D, F);
+  const G = vec2.add(F, vec2.scale(fd, 0.5));
+  const H = vec2.add(F, vec2.scale(fd, r1/vec2.len(fd)));
+
+  return {
+    prose: prop11,
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.circle(F, 2 * r1),
+      rg.circle(center, 2 * r2),
+      rg.line(F, H),
+      rg.line(F, A),
+      rg.line(G, A),
+    ],
+    letters: {
+      A: [2],
+      B: [-1],
+      C: [4],
+      D: [4],
+      E: [5],
+      F: [-2],
+      G: [-1],
+      H: [1],
+    }
+  }
+},
+
+function()
+{
+  const r1 = 140;
+  const r2 = 70;
+  const center1 = [300, 250];
+  const cc = vec2.rot([1, 0], -Math.PI*4/5);
+  const center2 = vec2.add(center1, vec2.scale(cc, r1 + r2));
+  const A = vec2.add(center1, vec2.scale(cc, r1));
+  const B = vec2.add(center2, vec2.scale(vec2.rot(cc, Math.PI/4), r2));
+  const E = vec2.add(center1, vec2.scale(vec2.rot(cc, -Math.PI*2/4), r1));
+  const C = vec2.add(center2, vec2.scale(vec2.rot(cc, Math.PI/6), -r2));
+  const D = vec2.add(center1, vec2.scale(vec2.rot(cc, -Math.PI/12), r1));
+  const cd = vec2.sub(D, C);
+  const F = vec2.add(C, vec2.scale(cd, -r2/vec2.len(cd)));
+  const G = vec2.add(D, vec2.scale(cd, r1/vec2.len(cd)));
+
+  return {
+    prose: prop12,
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.circle(center1, 2 * r1),
+      rg.circle(center2, 2 * r2),
+      rg.polygon([A, F, G]),
+      rg.line(C, D),
+    ],
+    letters: {
+      A: [1.5],
+      B: [1],
+      C: [3.5],
+      D: [5.2, 1.3],
+      E: [4, 1.3],
+      F: [3],
+      G: [-2]
     }
   }
 },
