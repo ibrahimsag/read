@@ -235,6 +235,113 @@ function()
   }
 },
 
+function()
+{
+  const r = 200;
+  const E = [250, 250];
+  const ea = [-r, 0];
+  const A = vec2.add(E, ea);
+  const B = vec2.add(E, vec2.rot(ea, Math.PI/5));
+  const C = vec2.add(E, vec2.rot(ea, Math.PI*2/5));
+  const D = vec2.sub(E, ea);
+  const F = vec2.sub(E, vec2.scale(ea, 0.4));
+  const G = vec2.add(E, vec2.rot(ea, Math.PI*2/3));
+  const H = vec2.add(E, vec2.rot(ea, -Math.PI*2/3));
+  const K = vec2.add(E, vec2.rot(ea, -Math.PI*3/5));
+
+  return {
+    prose: prop7,
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.line(A, D),
+      rg.line(B, E),
+      rg.line(B, F),
+      rg.line(C, E),
+      rg.line(C, F),
+      rg.line(G, E),
+      rg.line(G, F),
+      rg.line(H, E),
+      rg.line(H, F),
+      rg.line(K, E, {strokeLineDash: [5, 4]}),
+      rg.line(K, F),
+    ],
+    letters: {
+      A: [3],
+      B: [2],
+      C: [1.5],
+      D: [-1],
+      E: [4.2, 1.3],
+      F: [0.2, 1.2],
+      G: [0],
+      H: [5.5],
+      K: [5.5]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const M = [200, 300];
+  const D = [400, 50];
+  const dm = vec2.sub(M, D);
+  const ma = vec2.scale(dm, r/vec2.len(dm));
+  const A = vec2.add(M, ma);
+  const G = vec2.sub(M, ma);
+  let anglebetween = (o, a, b) => {
+    let [d1, d2] = [a, b].map(v => vec2.sub(v, o)).map(d => vec2.scale(d, 1/vec2.len(d)));
+    return Math.acos(vec2.dot(d1, d2));
+  }
+  let [[C, H, a1], [E, K, a2], [F, L, a3]] = [Math.PI/2, Math.PI/6, Math.PI/3].map(theta =>
+  {
+    const r1 = vec2.rot(ma, theta);
+    const P1 = vec2.add(M, r1);
+    const a = theta + Math.PI - 2 * anglebetween(P1, M, D);
+    const r2 = vec2.rot(ma, a);
+    const P2 = vec2.add(M, r2);
+    return [P1, P2, a];
+  });
+  const B = vec2.add(M, vec2.rot(ma, -a2));
+  const N = vec2.add(M, vec2.rot(ma, Math.PI*9/8));
+
+  return {
+    prose: prop8,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N },
+    shapes: [
+      rg.circle(M, 2 * r),
+      rg.line(A, D),
+      rg.line(M, B),
+      rg.line(M, C),
+      rg.line(C, D),
+      rg.line(B, D),
+      rg.line(M, E),
+      rg.line(M, F),
+      rg.line(D, E),
+      rg.line(D, F),
+      rg.line(M, H),
+      rg.line(M, L),
+      rg.line(M, K),
+      rg.line(N, D),
+      rg.line(M, N, {strokeLineDash: [5,4]}),
+    ],
+    letters: {
+      A: [4],
+      B: [0],
+      C: [2.5],
+      D: [-1],
+      E: [3.5],
+      F: [3],
+      G: [0.5],
+      H: [1],
+      K: [0.6],
+      L: [1.2],
+      M: [6],
+      N: [-0.5]
+    }
+  }
+},
+
 ]
 }
 
