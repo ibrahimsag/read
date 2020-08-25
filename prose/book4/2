@@ -1,0 +1,15 @@
+To inscribe a triangle, equiangular with a given triangle, in a given circle.
+
+Let ABC be the given circle, and DEF the given triangle.
+So it is required to inscribe a triangle, equiangular with triangle DEF, in circle ABC.
+
+Let GH have been drawn touching circle ABC at A.
+And let (angle) HAC, equal to angle DEF, have been constructed on the straight-line AH at the point A on it, and (angle) GAB, equal to [angle] DF E, on the straight-line AG at the point A on it [Prop. 1.23].
+And let BC have been joined.
+
+Therefore, since some straight-line AH touches the circle ABC, and the straight-line AC has been drawn across (the circle) from the point of contact A, (angle) HAC is thus equal to the angle ABC in the alternate segment of the circle [Prop. 3.32].
+But, HAC is equal to DEF. Thus, angle ABC is also equal to DEF. So, for the same (reasons), ACB is also equal to DFE.
+Thus, the remaining (angle) BAC is equal to the remaining (angle) EDF [Prop. 1.32].
+
+Thus, a triangle, equiangular with the given triangle, has been inscribed in the given circle.
+(Which is) the very thing it was required to do.

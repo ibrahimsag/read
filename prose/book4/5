@@ -1,0 +1,32 @@
+To circumscribe a circle about a given triangle.
+
+Let ABC be the given triangle.
+So it is required to circumscribe a circle about the given triangle ABC.
+
+Let the straight-lines AB and AC have been cut in half at points D and E (respectively) [Prop. 1.10].
+And let DF and EF have been drawn from points D and E, at right-angles to AB and AC (respectively) [Prop. 1.11].
+So (DF and EF ) will surely either meet inside triangle ABC, on the straight-line BC, or beyond BC.
+
+Let them, first of all, meet inside (triangle ABC) at (point) F, and let FB, FC, and FA have been joined.
+And since AD is equal to DB, and DF is common and at right-angles, the base AF is thus equal to the base FB [Prop. 1.4].
+So, similarly, we can show that CF is also equal to AF.
+So that FB is also equal to FC.
+Thus, the three (straight-lines) FA, FB, and FC are equal to one another.
+Thus, the circle drawn with center F, and radius one of A, B, or C, will also go through the remaining points.
+And the circle will have been circumscribed about triangle ABC.
+Let it have been (so) circumscribed, like ABC (in the first diagram from the left).
+
+And so, let DF and EF meet on the straight-line BC at (point) F, like in the second diagram (from the left).
+And let AF have been joined.
+So, similarly, we can show that point F is the center of the circle circumscribed about triangle ABC.
+
+And so, let DF and EF meet outside triangle ABC, again at (point) F, like in the third diagram (from the left).
+And let AF, BF, and CF have been joined.
+And, again, since AD is equal to DB, and DF is common and at right-angles, the base AF is thus equal to the base BF [Prop. 1.4].
+So, similarly, we can show that CF is also equal to AF.
+So that BF is also equal to FC.
+Thus, [again] the circle drawn with center F, and radius one of FA, FB, and FC, will also go through the remaining points.
+And it will have been circumscribed about triangle ABC.
+
+Thus, a circle has been circumscribed about the given triangle.
+(Which is) the very thing it was required to do.

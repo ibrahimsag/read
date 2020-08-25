@@ -1,0 +1,17 @@
+To inscribe an equilateral and equiangular fifteen-sided figure in a given circle.
+
+Let ABCD be the given circle.
+So it is required to inscribe an equilateral and equiangular fifteen-sided figure in circle ABCD.
+
+Let the side AC of an equilateral triangle inscribed in (the circle) [Prop. 4.2], and (the side) AB of an (inscribed) equilateral pentagon [Prop. 4.11], have been inscribed in circle ABCD.
+Thus, just as the circle ABCD is (made up) of fifteen equal pieces, the circumference ABC, being a third of the circle, will be (made up) of five such (pieces), and the circumference AB, being a fifth of the circle, will be (made up) of three.
+Thus, the remainder BC (will be made up) of two equal (pieces).
+Let (circumference) BC have been cut in half at E [Prop. 3.30].
+Thus, each of the circumferences BE and EC is one fifteenth of the circle ABCDE.
+
+Thus, if, joining BE and EC, we continuously insert straight-lines equal to them into circle ABCD[E] [Prop. 4.1], then an equilateral and equiangular fifteen-sided figure will have been inserted into (the circle).
+(Which is) the very thing it was required to do.
+
+And similarly to the pentagon, if we draw tangents to the circle through the (fifteenfold) divisions of the (circumference of the) circle, we can circumscribe an equilateral and equiangular fifteen-sided figure about the circle.
+And, further, through similar proofs to the pentagon, we can also inscribe and circumscribe a circle in (and about) a given fifteen-sided figure.
+(Which is) the very thing it was required to do.

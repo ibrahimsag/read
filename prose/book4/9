@@ -1,0 +1,21 @@
+To circumscribe a circle about a given square.
+
+Let ABCD be the given square.
+So it is required to circumscribe a circle about square ABCD.
+
+AC and BD being joined, let them cut one another at E.
+
+And since DA is equal to AB, and AC (is) common, the two (straight-lines) DA, AC are thus equal to the two (straight-lines) BA, AC.
+And the base DC (is) equal to the base BC.
+Thus, angle DAC is equal to angle BAC [Prop. 1.8].
+Thus, the angle DAB has been cut in half by AC.
+So, similarly, we can show that ABC, BCD, and CDA have each been cut in half by the straight-lines AC and DB.
+And since angle DAB is equal to ABC, and EAB is half of DAB, and EBA half of ABC, EAB is thus also equal to EBA.
+So that side EA is also equal to EB [Prop. 1.6].
+So, similarly, we can show that each of the [straight-lines] EA and EB are also equal to each of EC and ED.
+Thus, the four (straight-lines) EA, EB, EC, and ED are equal to one another.
+Thus, the circle drawn with center E, and radius one of A, B, C, or D, will also go through the remaining points, and will have been circumscribed about the square ABCD.
+Let it have been (so) circumscribed, like ABCD (in the figure).
+
+Thus, a circle has been circumscribed about the given square.
+(Which is) the very thing it was required to do.

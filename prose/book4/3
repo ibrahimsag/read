@@ -1,0 +1,23 @@
+To circumscribe a triangle, equiangular with a given triangle, about a given circle.
+
+Let ABC be the given circle, and DEF the given triangle.
+So it is required to circumscribe a triangle, equiangular with triangle DEF, about circle ABC.
+
+Let EF have been produced in each direction to points G and H.
+And let the center K of circle ABC have been found [Prop. 3.1].
+And let the straight-line KB have been drawn, at random, across (ABC).
+And let (angle) BKA, equal to angle DEG, have been constructed on the straight-line KB at the point K on it, and (angle) BKC, equal to DFH [Prop. 1.23].
+And let the (straight-lines) LAM, MBN, and NCL have been drawn through the points A, B, and C (respectively), touching the circle ABC.
+
+And since LM, MN, and NL touch circle ABC at points A, B, and C (respectively), and KA, KB, and KC are joined from the center K to points A, B, and C (respectively), the angles at points A, B, and C are thus right-angles [Prop. 3.18].
+And since the (sum of the) four angles of quadrilateral AMBK is equal to four right-angles, inasmuch as AMBK (can) also (be) divided into two triangles [Prop. 1.32], and angles KAM and KBM are (both) right-angles, the (sum of the) remaining (angles), AKB and AMB, is thus equal to two right-angles.
+And DEG and DEF is also equal to two right-angles [Prop. 1.13].
+Thus, AKB and AMB is equal to DEG and DEF, of which AKB is equal to DEG.
+Thus, the remainder AMB is equal to the remainder DEF.
+So, similarly, it can be shown that LNB is also equal to DFE.
+Thus, the remaining (angle) MLN is also equal to the [remaining] (angle) EDF [Prop. 1.32].
+Thus, triangle LMN is equiangular with triangle DEF.
+And it has been drawn around circle ABC.
+
+Thus, a triangle, equiangular with the given triangle, has been circumscribed about the given circle.
+(Which is) the very thing it was required to do.

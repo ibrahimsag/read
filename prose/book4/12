@@ -1,0 +1,45 @@
+To circumscribe an equilateral and equiangular pentagon about a given circle.
+
+Let ABCDE be the given circle.
+So it is required to circumscribe an equilateral and equiangular pentagon about circle ABCDE.
+
+Let A, B, C, D, and E have been conceived as the angular points of a pentagon having been inscribed (in circle ABCDE) [Prop. 3.11], such that the circumferences AB, BC, CD, DE, and EA are equal.
+And let GH, HK, KL, LM, and MG have been drawn through (points) A, B, C, D, and E (respectively), touching the circle.
+And let the center F of the circle ABCDE have been found [Prop. 3.1].
+And let FB, FK, FC, FL, and FD have been joined.
+
+And since the straight-line KL touches (circle) ABCDE at C, and FC has been joined from the center F to the point of contact C, FC is thus perpendicular to KL [Prop. 3.18].
+Thus, each of the angles at C is a right-angle.
+So, for the same (reasons), the angles at B and D are also right-angles.
+And since angle FCK is a right-angle, the (square) on FK is thus equal to the (sum of the squares) on FC and CK [Prop. 1.47].
+So, for the same (reasons), the (square) on FK is also equal to the (sum of the squares) on FB and BK.
+So that the (sum of the squares) on FC and CK is equal to the (sum of the squares) on FB and BK, of which the (square) on FC is equal to the (square) on FB.
+Thus, the remaining (square) on CK is equal to the remaining (square) on BK.
+Thus, BK (is) equal to CK.
+And since FB is equal to FC, and FK (is) common, the two (straight-lines) BF, FK are equal to the two (straight-lines) CF, FK.
+And the base BK [is] equal to the base CK.
+Thus, angle BFK is equal to [angle] KFC [Prop. 1.8].
+And BKF (is equal) to FKC [Prop. 1.8].
+Thus, BFC (is) double KFC, and BKC (is double) FKC.
+So, for the same (reasons), CFD is also double CFL, and DLC (is also double) FLC.
+And since circumference BC is equal to CD, angle BFC is also equal to CFD [Prop. 3.27].
+And BFC is double KFC, and DFC (is double) LFC.
+Thus, KFC is also equal to LFC.
+And angle FCK is also equal to FCL.
+So, FKC and FLC are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) FC.
+Thus, they will also have the remaining sides equal to the (corresponding) remaining sides, and the remaining angle to the remaining angle [Prop. 1.26].
+Thus, the straight-line KC (is) equal to CL, and the angle FKC to FLC.
+And since KC is equal to CL, KL (is) thus double KC.
+So, for the same (reasons), it can be shown that HK (is) also double BK.
+And BK is equal to KC.
+Thus, HK is also equal to KL.
+So, similarly, each of HG, GM, and ML can also be shown (to be) equal to each of HK and KL.
+Thus, pentagon GHKLM is equilateral.
+So I say that (it is) also equiangular.
+For since angle FKC is equal to FLC, and HKL was shown (to be) double FKC, and KLM double FLC, HKL is thus also equal to KLM.
+So, similarly, each of KHG, HGM, and GML can also be shown (to be) equal to each of HKL and KLM.
+Thus, the five angles GHK, HKL, KLM, LMG, and MGH are equal to one another.
+Thus, the pentagon GHKLM is equiangular.
+And it was also shown (to be) equilateral, and has been circumscribed about circle ABCDE.
+
+(Which is) the very thing it was required to do.

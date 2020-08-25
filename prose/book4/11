@@ -1,0 +1,26 @@
+To inscribe an equilateral and equiangular pentagon in a given circle.
+
+Let ABCDE be the given circle.
+So it is required to inscribed an equilateral and equiangular pentagon in circle ABCDE.
+
+Let the the isosceles triangle FGH be set up having each of the angles at G and H double the (angle) at F [Prop. 4.10].
+And let triangle ACD, equiangular to FGH, have been inscribed in circle ABCDE, such that CAD is equal to the angle at F, and the (angles) at G and H (are) equal to ACD and CDA, respectively [Prop. 4.2].
+Thus, ACD and CDA are each double CAD.
+So let ACD and CDA have been cut in half by the straight-lines CE and DB, respectively [Prop. 1.9].
+And let AB, BC, DE and EA have been joined.
+
+Therefore, since angles ACD and CDA are each double CAD, and are cut in half by the straight-lines CE and DB, the five angles DAC, ACE, ECD, CDB, and BDA are thus equal to one another.
+And equal angles stand upon equal circumferences [Prop. 3.26].
+Thus, the five circumferences AB, BC, CD, DE, and EA are equal to one another [Prop. 3.29].
+Thus, the pentagon ABCDE is equilateral.
+So I say that (it is) also equiangular.
+For since the circumference AB is equal to the circumference DE, let BCD have been added to both.
+Thus, the whole circumference ABCD is equal to the whole circumference EDCB.
+And the angle AED stands upon circumference ABCD, and angle BAE upon circumference EDCB.
+Thus, angle BAE is also equal to AED [Prop. 3.27].
+So, for the same (reasons), each of the angles ABC, BCD, and CDE is also equal to each of BAE and AED.
+Thus, pentagon ABCDE is equiangular.
+And it was also shown (to be) equilateral.
+
+Thus, an equilateral and equiangular pentagon has been inscribed in the given circle.
+(Which is) the very thing it was required to do.

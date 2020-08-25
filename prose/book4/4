@@ -1,0 +1,21 @@
+To inscribe a circle in a given triangle.
+
+Let ABC be the given triangle.
+So it is required to inscribe a circle in triangle ABC.
+
+Let the angles ABC and ACB have been cut in half by the straight-lines BD and CD (respectively) [Prop. 1.9], and let them meet one another at point D, and let DE, DF, and DG have been drawn from point D, perpendicular to the straight-lines AB, BC, and CA (respectively) [Prop. 1.12].
+
+And since angle ABD is equal to CBD, and the right-angle BED is also equal to the right-angle BFD, EBD and FBD are thus two triangles having two angles equal to two angles, and one side equal to one side—the (one) subtending one of the equal angles (which is) common to the (triangles)---(namely), BD.
+Thus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].
+Thus, DE (is) equal to DF.
+So, for the same (reasons), DG is also equal to DF.
+Thus, the three straight-lines DE, DF, and DG are equal to one another.
+Thus, the circle drawn with center D, and radius one of E, F, or G, will also go through the remaining points, and will touch the straight-lines AB, BC, and CA, on account of the angles at E, F, and G being right-angles.
+For if it cuts (one of) them then it will be a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, falling inside the circle.
+The very thing was shown (to be) absurd [Prop. 3.16].
+Thus, the circle drawn with center D, and radius one of E, F, or G, does not cut the straight-lines AB, BC, and CA.
+Thus, it will touch them and will be the circle inscribed in triangle ABC.
+Let it have been (so) inscribed, like FGE (in the figure).
+
+Thus, the circle EFG has been inscribed in the given triangle ABC.
+(Which is) the very thing it was required to do.

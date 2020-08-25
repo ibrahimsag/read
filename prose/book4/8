@@ -1,0 +1,22 @@
+To inscribe a circle in a given square.
+
+Let the given square be ABCD.
+So it is required to inscribe a circle in square ABCD.
+
+Let AD and AB each have been cut in half at points E and F (respectively) [Prop. 1.10].
+And let EH have been drawn through E, parallel to either of AB or CD, and let FK have been drawn through F, parallel to either of AD or BC [Prop. 1.31].
+Thus, AK, KB, AH, HD, AG, GC, BG, and GD are each parallelograms, and their opposite sides [are] manifestly equal [Prop. 1.34].
+And since AD is equal to AB, and AE is half of AD, and AF half of AB, AE (is) thus also equal to AF.
+So that the opposite (sides are) also (equal).
+Thus, FG (is) also equal to GE.
+So, similarly, we can also show that each of GH and GK is equal to each of FG and GE.
+Thus, the four (straight-lines) GE, GF, GH, and GK [are] equal to one another.
+Thus, the circle drawn with center G, and radius one of E, F, H, or K, will also go through the remaining points.
+And it will touch the straight-lines AB, BC, CD, and DA, on account of the angles at E, F, H, and K being right-angles.
+For if the circle cuts AB, BC, CD, or DA, then a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, will fall inside the circle.
+The very thing was shown (to be) absurd [Prop. 3.16].
+Thus, the circle drawn with center G, and radius one of E, F, H, or K, does not cut the straight-lines AB, BC, CD, or DA.
+Thus, it will touch them, and will have been inscribed in the square ABCD.
+
+Thus, a circle has been inscribed in the given square.
+(Which is) the very thing it was required to do.

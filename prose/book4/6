@@ -1,0 +1,22 @@
+To inscribe a square in a given circle.
+
+Let ABCD be the given circle.
+So it is required to inscribe a square in circle ABCD.
+
+Let two diameters of circle ABCD, AC and BD, have been drawn at right-angles to one another.
+And let AB, BC, CD, and DA have been joined.
+
+And since BE is equal to ED, for E (is) the center (of the circle), and EA is common and at right-angles, the base AB is thus equal to the base AD [Prop. 1.4].
+So, for the same (reasons), each of BC and CD is equal to each of AB and AD.
+Thus, the quadrilateral ABCD is equilateral.
+So I say that (it is) also right-angled.
+For since the straight-line BD is a diameter of circle ABCD, BAD is thus a semi-circle.
+Thus, angle BAD (is) a right-angle [Prop. 3.31].
+So, for the same (reasons), (angles) ABC, BCD, and CDA are also each right-angles.
+Thus, the quadrilateral ABCD is right-angled.
+And it was also shown (to be) equilateral.
+Thus, it is a square [Def. 1.22].
+And it has been inscribed in circle ABCD.
+
+Thus, the square ABCD has been inscribed in the given circle.
+(Which is) the very thing it was required to do.
