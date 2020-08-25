@@ -671,12 +671,12 @@ function()
   const A = vec2.add(E, ea);
   const D = vec2.sub(E, ea);
   const iea = vec2.rot(ea, -Math.PI/2);
-  const B = vec2.add(E, vec2.rot(ea, Math.PI/4));
-  const C = vec2.add(E, vec2.rot(ea, Math.PI*6/7));
+  const B = vec2.add(E, vec2.rot(ea, Math.PI*0.23));
+  const C = vec2.add(E, vec2.rot(ea, Math.PI*0.87));
   const F = vec2.add(E, vec2.rot(iea, Math.PI/5));
   const G = vec2.add(E, vec2.rot(iea, -Math.PI/5));
-  const M = vec2.add(E, vec2.rot(iea, Math.PI*0.35));
-  const N = vec2.add(E, vec2.rot(iea, -Math.PI*0.35));
+  const M = vec2.add(E, vec2.rot(iea, Math.PI*0.32));
+  const N = vec2.add(E, vec2.rot(iea, -Math.PI*0.32));
   const [H, K, L] = [[B, C], [F, G], [M, N]].map(([a, b]) => vec2.scale(vec2.add(a, b), 0.5));
 
   return {
@@ -780,7 +780,7 @@ function()
       A: [1],
       B: [3.3, 1.2],
       C: [-1, 0.8],
-      D: [4.3, 1.2],
+      D: [0.2],
       E: [-1],
       F: [2.5],
       G: [-1, 0.8]
@@ -826,21 +826,21 @@ function()
 function()
 {
   const r = 150;
-  const T = [206, 206];
+  const O = [206, 206];
   const tc = [0, r];
   const cd = vec2.rot(tc, Math.PI/2);
-  const A = vec2.sub(T, tc);
-  const B = vec2.add(T, vec2.rot(tc, Math.PI/2));
-  const C = vec2.add(T, tc);
+  const A = vec2.sub(O, tc);
+  const B = vec2.add(O, vec2.rot(tc, Math.PI/2));
+  const C = vec2.add(O, tc);
   const D = vec2.add(C, cd);
   const E = vec2.sub(C, cd);
-  const F = vec2.add(T, [30, 10]);
+  const F = vec2.add(O, [30, 10]);
 
   return {
     prose: prop19,
-    points: { A, B, C, D, E, F },
+    points: { A, B, C, D, E, F, O },
     shapes: [
-      rg.circle(T, 2 * r),
+      rg.circle(O, 2 * r),
       rg.line(A, C),
       rg.line(F, C),
       rg.line(D, E),
@@ -876,6 +876,8 @@ function()
       rg.circle(E, 2 * r),
       rg.line(A, B),
       rg.line(A, C),
+      rg.line(E, B),
+      rg.line(E, C),
       rg.line(A, F),
       rg.line(D, B),
       rg.line(D, C),
@@ -1021,6 +1023,9 @@ function()
   return {
     prose: prop24,
     points: { A, B, C, D, E, F, G, K, L },
+    given: {
+      CGD: () => [rg.curve(ps)],
+    },
     shapes: [
       rg.arc(K, A, B),
       rg.arc(L, C, D),

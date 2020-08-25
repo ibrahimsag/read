@@ -1,14 +1,14 @@
 In a circle, angles in the same segment are equal to one another.
 
-Let ABCD be a circle, and let BAD and BED be angles in the same segment BAED.
-I say that angles BAD and BED are equal to one another.
+Let {ABCD circle F} be a circle, and let {BAD angle} and {BED angle} be angles in the same segment {BAED arc F}.
+I say that angles {BAD angle} and {BED angle} are equal to one another.
 
-For let the center of circle ABCD have been found [Prop. 3.1], and let it be (at point) F.
-And let BF and FD have been joined.
+For let the center of circle {ABCD circle F} have been found [Prop. 3.1], and let it be (at point) {F point}.
+And let {BF line} and {FD line} have been joined.
 
-And since angle BFD is at the center, and BAD at the circumference, and they have the same circumference base BCD, angle BF D is thus double BAD [Prop. 3.20].
+And since angle {BFD angle} is at the center, and {BAD angle} at the circumference, and they have the same circumference base {BCD arcc F}, angle {BFD angle} is thus double {BAD angle} [Prop. 3.20].
 
-So, for the same (reasons), BFD is also double BED.
-Thus, BAD (is) equal to BED.
+So, for the same (reasons), {BFD angle} is also double {BED angle}.
+Thus, {BAD angle} (is) equal to {BED angle}.
 Thus, in a circle, angles in the same segment are equal to one another.
 (Which is) the very thing it was required to show.

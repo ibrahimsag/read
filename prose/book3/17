@@ -1,24 +1,24 @@
 To draw a straight-line touching a given circle from a given point.
 
-Let A be the given point, and BCD the given circle.
-So it is required to draw a straight-line touching circle BCD from point A.
+Let {A point} be the given point, and {BCD circle E} the given circle.
+So it is required to draw a straight-line touching circle {BCD circle E} from point {A point}.
 
-For let the center E of the circle have been found [Prop. 3.1], and let AE have been joined.
-And let (the circle) AF G have been drawn with center E and radius EA.
-And let DF have been drawn from from (point) D, at right-angles to EA [Prop. 1.11].
-And let EF and AB have been joined.
-I say that the (straight-line) AB has been drawn from point A touching circle BCD.
+For let the center {E point} of the circle have been found [Prop. 3.1], and let {AE line} have been joined.
+And let (the circle) {AFG circle E} have been drawn with center {E point} and radius {EA line}.
+And let {DF line} have been drawn from from (point) {D point}, at right-angles to {EA line} [Prop. 1.11].
+And let {EF line} and {AB line} have been joined.
+I say that the (straight-line) {AB line} has been drawn from point {A point} touching circle {BCD circle E}.
 
-For since E is the center of circles BCD and AFG, EA is thus equal to EF, and ED to EB.
-So the two (straight-lines) AE, EB are equal to the two (straight-lines) FE, ED (respectively).
-And they contain a common angle at E.
-Thus, the base DF is equal to the base AB, and triangle DEF is equal to triangle EBA, and the remaining angles (are equal) to the (corresponding) remaining angles [Prop. 1.4].
-Thus, (angle) EDF (is) equal to EBA.
-And EDF (is) a right-angle.
-Thus, EBA (is) also a right-angle.
-And EB is a radius.
+For since {E point} is the center of circles {BCD circle E} and {AFG circle E}, {EA line} is thus equal to {EF line}, and {ED line} to {EB line}.
+So the two (straight-lines) {AE line}, {EB line} are equal to the two (straight-lines) {FE line}, {ED line} (respectively).
+And they contain a common angle at {E point}.
+Thus, the base {DF line} is equal to the base {AB line}, and triangle {DEF polygon} is equal to triangle {EBA polygon}, and the remaining angles (are equal) to the (corresponding) remaining angles [Prop. 1.4].
+Thus, (angle) {EDF angle} (is) equal to {EBA angle}.
+And {EDF angle} (is) a right-angle.
+Thus, {EBA angle} (is) also a right-angle.
+And {EB line} is a radius.
 And a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [Prop. 3.16 corr.].
-Thus, AB touches circle BCD.
+Thus, {AB line} touches circle {BCD circle E}.
 
-Thus, the straight-line AB has been drawn touching the given circle BCD from the given point A.
+Thus, the straight-line {AB line} has been drawn touching the given circle {BCD circle E} from the given point {A point}.
 (Which is) the very thing it was required to do.

@@ -1,21 +1,22 @@
 In a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.
 
-Let ABCD be a circle, and let AD be its diameter, and E (its) center.
-And let BC be nearer to the diameter AD,† and F G further away.
-I say that AD is the greatest (straight-line), and BC (is) greater than FG.
+Let {ABCD circle E} be a circle, and let {AD line} be its diameter, and {E point} (its) center.
+And let {BC line} be nearer to the diameter {AD line}, and {FG line} further away.
+I say that {AD line} is the greatest (straight-line), and {BC line} (is) greater than {FG line}.
 
-For let EH and EK have been drawn from the cen- ter E, at right-angles to BC and FG (respectively) [Prop. 1.12].
-And since BC is nearer to the center, and FG further away, EK (is) thus greater than EH [Def. 3.5].
-Let EL be made equal to EH [Prop. 1.3].
-And LM being drawn through L, at right-angles to EK [Prop. 1.11], let it have been drawn through to N.
-And let ME, EN, FE, and EG have been joined.
+For let {EH line} and {EK line} have been drawn from the center {E point}, at right-angles to {BC line} and {FG line} (respectively) [Prop. 1.12].
+And since {BC line} is nearer to the center, and {FG line} further away, {EK line} (is) thus greater than {EH line} [Def. 3.5].
+Let {EL line} be made equal to {EH line} [Prop. 1.3].
+And {LM line} being drawn through {L point}, at right-angles to {EK line} [Prop. 1.11], let it have been drawn through to {N point}.
+And let {ME line}, {EN line}, {FE line}, and {EG line} have been joined.
 
-And since EH is equal to EL, BC is also equal to MN [Prop. 3.14].
-Again, since AE is equal to EM, and ED to EN, AD is thus equal to ME and EN. But, ME and EN is greater than MN [Prop. 1.20] [also AD is greater than MN], and MN (is) equal to BC.
-Thus, AD is greater than BC.
-And since the two (straight-lines) ME, EN are equal to the two (straight-lines) FE, EG (respectively), and angle MEN [is] greater than angle FEG,‡ the base MN is thus greater than the base FG [Prop. 1.24].
-But, MN was shown (to be) equal to BC [(so) BC is also greater than FG].
-Thus, the diameter AD (is) the greatest (straight-line), and BC (is) greater than FG.
+And since {EH line} is equal to {EL line}, {BC line} is also equal to {MN line} [Prop. 3.14].
+Again, since {AE line} is equal to {EM line}, and {ED line} to {EN line}, {AD line} is thus equal to {ME line} and {EN line}.
+But, {ME line} and {EN line} is greater than {MN line} [Prop. 1.20], and {MN line} (is) equal to {BC line}.
+Thus, {AD line} is greater than {BC line}.
+And since the two (straight-lines) {ME line}, {EN line} are equal to the two (straight-lines) {FE line}, {EG line} (respectively), and angle {MEN angle} [is] greater than angle {FEG angle}, the base {MN line} is thus greater than the base {FG line} [Prop. 1.24].
+But, {MN line} was shown (to be) equal to {BC line}.
+Thus, the diameter {AD line} (is) the greatest (straight-line), and {BC line} (is) greater than {FG line}.
 
 Thus, in a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.
 (Which is) the very thing it was required to show.
