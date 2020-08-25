@@ -74,6 +74,19 @@ function makeRG (svgEl)
     {
       return [line(p.points[name[0]], p.points[name[name.length-1]])];
     }
+    else if(typ == 'arcc')
+    {
+      let c = arg1.trim();
+      if(/[A-Z]/.test(c))
+      {
+        let center = p.points[c];
+        return [arc(center, p.points[name[name.length-1]], p.points[name[0]])];
+      }
+      else
+      {
+        return undefined;
+      }
+    }
     else if(typ == 'arc')
     {
       let c = arg1.trim();
