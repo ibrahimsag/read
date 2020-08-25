@@ -20,6 +20,15 @@ import prop17 from './prose/book3/17';
 import prop18 from './prose/book3/18';
 import prop19 from './prose/book3/19';
 import prop20 from './prose/book3/20';
+import prop21 from './prose/book3/21';
+import prop22 from './prose/book3/22';
+import prop23 from './prose/book3/23';
+import prop24 from './prose/book3/24';
+import prop25 from './prose/book3/25';
+import prop26 from './prose/book3/26';
+import prop27 from './prose/book3/27';
+import prop28 from './prose/book3/28';
+import prop29 from './prose/book3/29';
 
 function book3(rg)
 {
@@ -531,6 +540,571 @@ function()
       F: [3],
       G: [-2]
     }
+  }
+},
+
+function()
+{
+  const r1 = 120;
+  const r2 = 90;
+  const d = 160;
+  const center1 = [200, 250];
+  const cc = vec2.rot([1, 0], -Math.PI*1/4);
+  const center2 = vec2.add(center1, vec2.scale(cc, d));
+  const K = vec2.add(center2, vec2.scale(cc, r2));
+  const theta = Math.acos((d*d + r1*r1 - r2*r2)/(2 * d * r1))
+  const A = vec2.add(center1, vec2.scale(vec2.rot(cc, -theta), r1));
+  const C = vec2.add(center1, vec2.scale(vec2.rot(cc, theta), r1));
+  const B = vec2.add(center1, vec2.scale(vec2.rot([1,0], Math.PI*4/5), r1));
+  const D = vec2.add(center1, vec2.scale(vec2.rot([1,0], Math.PI/5), r1));
+  const bd = vec2.sub(D, B)
+  const E = vec2.add(center1, [0, r1/10]);
+  const F = vec2.add(center1, [0, r1]);
+  const G = vec2.add(B, vec2.scale(bd, 0.3));
+  const H = vec2.add(B, vec2.scale(bd, 0.7));
+  const ells = [];
+  for(var i = 0; i <= 30; i++)
+  {
+    let theta = Math.PI * (2 * i / 30);
+    let h = theta < Math.PI ? r1 * 0.45: r1*0.33;
+    let pp = [Math.cos(theta) * r1*0.85, Math.sin(theta) * h];
+    ells.push(vec2.add(center1, vec2.add(pp, [0, r1*0.43])));
+  }
+
+  return {
+    prose: prop13,
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.circle(center1, 2 * r1),
+      rg.circle(center2, 2 * r2),
+      rg.curve(ells),
+      rg.circle(G, 5, {strokeWidth: 2}),
+      rg.circle(H, 5, {strokeWidth: 2}),
+      rg.line(A, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [1.7],
+      B: [4],
+      C: [-2],
+      D: [-2],
+      E: [1],
+      F: [1, 1.6],
+      G: [1],
+      H: [1],
+      K: [0]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const d = 80;
+  const E = [256, 206];
+  const uef = vec2.rot([1,0], Math.PI * 3/4);
+  const ueg = vec2.rot([1,0], -Math.PI * 1/12);
+  const F = vec2.add(E, vec2.scale(uef, d));
+  const G = vec2.add(E, vec2.scale(ueg, d));
+  const ufa = vec2.rot(uef, -Math.PI / 2);
+  const l = r * Math.sin(Math.acos(d/r));
+  const fa = vec2.scale(ufa, l);
+  const A = vec2.add(F, fa);
+  const B = vec2.sub(F, fa);
+  const ugd = vec2.rot(ueg, -Math.PI/2);
+  const gd = vec2.scale(ugd, l);
+  const D = vec2.add(G, gd);
+  const C = vec2.sub(G, gd);
+
+  return {
+    prose: prop14,
+    points: { A, B, C, D, E, F, G},
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.line(F, E),
+      rg.line(G, E),
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.line(A, E),
+      rg.line(C, E),
+    ],
+    letters: {
+      A: [5],
+      B: [2.5],
+      C: [5.5],
+      D: [0.5],
+      E: [2],
+      F: [4],
+      G: [-1],
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const d = 80;
+  const E = [256, 206];
+  const ea = [0, -r];
+  const A = vec2.add(E, ea);
+  const D = vec2.sub(E, ea);
+  const iea = vec2.rot(ea, -Math.PI/2);
+  const B = vec2.add(E, vec2.rot(ea, Math.PI/4));
+  const C = vec2.add(E, vec2.rot(ea, Math.PI*6/7));
+  const F = vec2.add(E, vec2.rot(iea, Math.PI/5));
+  const G = vec2.add(E, vec2.rot(iea, -Math.PI/5));
+  const M = vec2.add(E, vec2.rot(iea, Math.PI*0.35));
+  const N = vec2.add(E, vec2.rot(iea, -Math.PI*0.35));
+  const [H, K, L] = [[B, C], [F, G], [M, N]].map(([a, b]) => vec2.scale(vec2.add(a, b), 0.5));
+
+  return {
+    prose: prop15,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N },
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.line(A, D),
+      rg.line(B, C),
+      rg.polygon([F, E, G]),
+      rg.polygon([M, E, N]),
+      rg.line(E, H),
+      rg.line(E, K)
+    ],
+    letters: {
+      A: [1],
+      B: [1],
+      C: [5],
+      D: [5],
+      E: [0],
+      F: [2],
+      G: [4.5],
+      H: [-0.5],
+      K: [3],
+      L: [2.2,1.4],
+      M: [1],
+      N: [5]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const D = [256, 206];
+  const da = [0, r];
+  const A = vec2.add(D, da);
+  const B = vec2.sub(D, da);
+  const C = vec2.add(D, vec2.rot(da, Math.PI*0.56));
+
+  const dh = vec2.rot(da, Math.PI*0.28);
+  const H = vec2.add(D, dh);
+  const G = vec2.add(D, vec2.scale(dh, 1.3));
+  const ag = vec2.sub(G, A);
+  const F = vec2.add(A, vec2.scale(ag, 1.5));
+  const E = vec2.add(A, vec2.scale(vec2.rot(da, Math.PI/2), 1.5));
+
+  return {
+    prose: prop16,
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.circle(D, 2 * r),
+      rg.line(A, B),
+      rg.line(D, C),
+      rg.line(A, C),
+      rg.line(D, G),
+      rg.line(A, F),
+      rg.line(A, E),
+    ],
+    letters: {
+      A: [5],
+      B: [1],
+      C: [3],
+      D: [-1],
+      E: [3],
+      F: [3],
+      G: [1.3],
+      H: [1, 1.2]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const r2 = 90;
+  const E = [256, 206];
+  const uea = [0, -1];
+  const theta = Math.acos(r2/r);
+  const ueb = vec2.rot(uea, -theta);
+  const uec = vec2.rot(uea, Math.PI/2);
+  const A = vec2.add(E, vec2.scale(uea, r));
+  const B = vec2.add(E, vec2.scale(ueb, r2));
+  const D = vec2.add(E, vec2.scale(uea, r2));
+  const F = vec2.add(E, vec2.scale(ueb, r));
+  const C = vec2.add(E, vec2.scale(uec, r2));
+  const G = vec2.add(E, vec2.scale(uec, r));
+
+  return {
+    prose: prop17,
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.circle(E, 2 * r2),
+      rg.line(E, F),
+      rg.line(E, A),
+      rg.line(A, B),
+      rg.line(F, D)
+    ],
+    letters: {
+      A: [1],
+      B: [3.3, 1.2],
+      C: [-1, 0.8],
+      D: [4.3, 1.2],
+      E: [-1],
+      F: [2.5],
+      G: [-1, 0.8]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const F = [206, 206];
+  const fb = [r, 0];
+  const fc = vec2.rot(fb, Math.PI/4);
+  const cg = vec2.rot(fc, -Math.PI/2);
+  const A = vec2.sub(F, fc);
+  const B = vec2.add(F, fb);
+  const C = vec2.add(F, fc);
+  const G = vec2.add(C, cg);
+  const D = vec2.add(C, vec2.scale(cg, 1.5));
+  const E = vec2.sub(C, cg);
+
+  return {
+    prose: prop18,
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.circle(F, 2 * r),
+      rg.line(E, D),
+      rg.line(F, C),
+      rg.line(F, G)
+    ],
+    letters: {
+      A: [2],
+      B: [2, 1.2],
+      C: [-2],
+      D: [-1.5],
+      E: [-2],
+      F: [3],
+      G: [-1, 0.8]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const T = [206, 206];
+  const tc = [0, r];
+  const cd = vec2.rot(tc, Math.PI/2);
+  const A = vec2.sub(T, tc);
+  const B = vec2.add(T, vec2.rot(tc, Math.PI/2));
+  const C = vec2.add(T, tc);
+  const D = vec2.add(C, cd);
+  const E = vec2.sub(C, cd);
+  const F = vec2.add(T, [30, 10]);
+
+  return {
+    prose: prop19,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.circle(T, 2 * r),
+      rg.line(A, C),
+      rg.line(F, C),
+      rg.line(D, E),
+    ],
+    letters: {
+      A: [1],
+      B: [2, 1.2],
+      C: [5],
+      D: [3],
+      E: [-1],
+      F: [1],
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const E = [206, 206];
+  const ef = vec2.rot([r, 0], Math.PI/4);
+  const ed = vec2.rot(ef, -Math.PI/2);
+  const A = vec2.sub(E, ef);
+  const F = vec2.add(E, ef);
+  const D = vec2.add(E, ed);
+  const G = vec2.sub(E, ed);
+  const C = vec2.add(E, vec2.rot(ef, -Math.PI/5));
+  const B = vec2.add(E, vec2.rot(ef, Math.PI/5));
+
+  return {
+    prose: prop20,
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(A, F),
+      rg.line(D, B),
+      rg.line(D, C),
+      rg.line(D, G),
+    ],
+    letters: {
+      A: [2],
+      B: [5],
+      C: [-1.5],
+      D: [0.5],
+      E: [1.2, 1.2],
+      F: [-2],
+      G: [4]
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const F = [206, 206];
+  const ft = [0, r];
+  const A = vec2.add(F, vec2.rot(ft, Math.PI*0.8));
+  const B = vec2.add(F, vec2.rot(ft, Math.PI*0.35));
+  const C = vec2.add(F, vec2.rot(ft, -Math.PI*0.1));
+  const D = vec2.add(F, vec2.rot(ft, -Math.PI*0.35));
+  const E = vec2.add(F, vec2.rot(ft, -Math.PI*0.55));
+
+  return {
+    prose: prop21,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.circle(F, 2 * r),
+      rg.line(A, B),
+      rg.line(A, D),
+      rg.line(B, D),
+      rg.line(F, B),
+      rg.line(F, D),
+      rg.line(E, B),
+      rg.line(E, D),
+    ],
+    letters: {
+      A: [1.5],
+      B: [4],
+      C: [-2.5],
+      D: [-2],
+      E: [-1],
+      F: [1],
+    }
+  }
+},
+
+function()
+{
+  const r = 150;
+  const E = [206, 206];
+  const ft = [0, r];
+  const A = vec2.add(E, vec2.rot(ft, Math.PI*0.6));
+  const B = vec2.add(E, vec2.rot(ft, -Math.PI*0.9));
+  const C = vec2.add(E, vec2.rot(ft, -Math.PI*0.4));
+  const D = vec2.add(E, vec2.rot(ft, Math.PI*0.2));
+
+  return {
+    prose: prop22,
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.circle(E, 2 * r),
+      rg.line(A, B),
+      rg.line(A, C),
+      rg.line(A, D),
+      rg.line(B, C),
+      rg.line(B, D),
+      rg.line(C, D),
+    ],
+    letters: {
+      A: [2.5],
+      B: [0.5],
+      C: [-1.5],
+      D: [4.5],
+    }
+  }
+},
+
+function()
+{
+  const A = [50,  200];
+  const B = [450, 200];
+  const E = vec2.add(vec2.scale(vec2.add(A, B), 0.5), [0, 200]);
+  const F = vec2.add(vec2.scale(vec2.add(A, B), 0.5), [0, 50]);
+  const fa = vec2.sub(A, F);
+  const ea = vec2.sub(A, E);
+  const alpha = Math.PI * 7/11;
+  const D = vec2.add(F, vec2.rot(fa, alpha));
+  const r1 = vec2.len(ea);
+  const r2 = vec2.len(fa);
+  const d = r1 - r2;
+  const rem = Math.acos(vec2.dot(vec2.scale(ea, 1/r1), vec2.scale(fa, 1/r2)));
+  const theta = Math.PI - 2 * ((Math.PI - alpha)/2 + rem);
+  const C = vec2.add(E, vec2.rot(ea, theta));
+
+  return {
+    prose: prop23,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.arc(F, A, B),
+      rg.arc(E, A, B),
+      rg.polygon([A, D, B]),
+      rg.line(C, B)
+    ],
+    letters: {
+      A: [5],
+      B: [5],
+      C: [1],
+      D: [0],
+    }
+  }
+},
+
+function()
+{
+  const A = [100,  200];
+  const B = [350, 200];
+  const C = [100,  400];
+  const D = [350, 400];
+  const K = vec2.add(vec2.scale(vec2.add(A, B), 0.5), [0, 20]);
+  const P = vec2.scale(vec2.add(C, D), 0.5);
+  const r = vec2.dist(P, C);
+  const L = vec2.add(P, [0, 20]);
+  const ka = vec2.sub(A, K);
+  const lc = vec2.sub(C, L);
+  const E = vec2.add(K, vec2.rot(ka, Math.PI*0.45));
+  const F = vec2.add(L, vec2.rot(lc, Math.PI/3));
+  const G = vec2.add(L, vec2.rot(lc, Math.PI*0.515));
+  const ps = [];
+  for(var i = 0; i < 15; i++)
+  {
+    let theta = -Math.PI * (i/14);
+    let h = Math.sin(theta);
+    let pp = [Math.cos(theta) * r - h * 50, h * r * 0.85];
+    ps.push(vec2.add(P, pp));
+  }
+
+  return {
+    prose: prop24,
+    points: { A, B, C, D, E, F, G, K, L },
+    shapes: [
+      rg.arc(K, A, B),
+      rg.arc(L, C, D),
+      rg.line(A, B),
+      rg.line(C, D),
+      rg.curve(ps),
+    ],
+    letters: {
+      A: [5],
+      B: [5],
+      C: [5],
+      D: [5],
+      E: [1],
+      F: [2],
+      G: [1],
+    }
+  }
+},
+
+function()
+{
+  const makePoints = (r, center, alpha) =>
+  {
+    const tb = [-r, 0];
+    const B = vec2.add(center, tb);
+    const A = vec2.add(center, vec2.rot(tb, alpha));
+    const C = vec2.add(center, vec2.rot(tb, -alpha));
+    const D = vec2.scale(vec2.add(A, C), 0.5);
+    return [A, B, C, D];
+  }
+
+  return {
+    prose: prop25,
+    figures: [
+      (function()
+      {
+        const E = [130, 150];
+        const [A, B, C, D] = makePoints(100, E, Math.PI*0.27);
+
+        return{
+          points: { A, B, C, D, E },
+          shapes: [
+            rg.arc(E, C, A),
+            rg.line(A, C),
+            rg.line(A, B),
+            rg.line(B, E),
+            rg.line(A, E),
+            rg.line(C, E),
+          ],
+          smallletters: 'ABCDE',
+          letters: {
+            A: [1],
+            B: [3],
+            C: [5],
+            D: [0.2],
+            E: [-1],
+          }
+        }
+      })(),
+      (function()
+      {
+        const E = [280, 150];
+        const [A, B, C, D] = makePoints(80, E, Math.PI*0.5);
+
+        return{
+          points: { A, B, C, D, E },
+          shapes: [
+            rg.arc(E, C, A),
+            rg.line(A, C),
+            rg.line(A, B),
+            rg.line(B, E),
+          ],
+          smallletters: 'ABCD',
+          letters: {
+            A: [1],
+            B: [3],
+            C: [5],
+            D: [-1],
+          }
+        }
+      })(),
+      (function()
+      {
+        const E = [430, 150];
+        const [A, B, C, D] = makePoints(80, E, Math.PI*0.6);
+
+        return{
+          points: { A, B, C, D, E },
+          shapes: [
+            rg.arc(E, C, A),
+            rg.line(A, C),
+            rg.line(A, B),
+            rg.line(B, D),
+            rg.line(A, E),
+          ],
+          smallletters: 'ABCDE',
+          letters: {
+            A: [0.5],
+            B: [3],
+            C: [5.5],
+            D: [-1],
+            E: [5]
+          }
+        }
+      })(),
+    ]
   }
 },
 

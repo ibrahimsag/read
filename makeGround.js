@@ -89,80 +89,94 @@ function makeGround(ps, rg, svg)
 
     svg.innerHTML = "";
 
-    let shapes = [...p.shapes];
-
-    nearHighlights.forEach(h =>
+    function drawFigure(figure)
     {
-      rg.makeHighlight(p, ...h).forEach(s =>
+      let shapes = [...figure.shapes];
+
+      nearHighlights.forEach(h =>
       {
-        if(!(h[1] === 'angle' && s.shape === 'curve'))
+        rg.makeHighlight(figure, ...h).forEach(s =>
         {
-          s.options["stroke"] = colors.sentence;
-        }
-        shapes.push(s);
+          if(!(h[1] === 'angle' && s.shape === 'curve'))
+          {
+            s.options["stroke"] = colors.sentence;
+          }
+          shapes.push(s);
+        });
       });
-    });
 
-    if(highlight.length)
-    {
-      rg.makeHighlight(p, ...highlight).forEach(s =>
+      if(highlight.length)
       {
-        s.options["stroke"] = colors.bright;
-        s.options["strokeWidth"] += 1;
-        shapes.push(s);
+        rg.makeHighlight(figure, ...highlight).forEach(s =>
+        {
+          s.options["stroke"] = colors.bright;
+          s.options["strokeWidth"] += 1;
+          shapes.push(s);
+        });
+      }
+
+      for(var i = 0; i < shapes.length; i++)
+      shapes.forEach(s =>
+      {
+        svg.appendChild(rg.draw(s));
       });
-    }
 
-    for(var i = 0; i < shapes.length; i++)
-    shapes.forEach(s =>
-    {
-      svg.appendChild(rg.draw(s));
-    });
+      let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
+      let highlightName = highlight.length && highlight[0];
 
-    let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-    let highlightName = highlight.length && highlight[0];
-
-    for(var i in p.letters)
-    {
-      let letter = p.letters[i];
-      let shouldBeSmall = p.smallletters && p.smallletters.indexOf(i) > -1;
-      let offset;
-      var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      el.setAttribute('font-family', 'Futura');
-      if(shouldBeSmall)
-        el.setAttribute('font-size', '16px');
-      else
-        el.setAttribute('font-size', '24px');
-      let fillColor = colors.dim;
-      if(highlightName && highlightName.indexOf(i) > -1)
+      for(var i in figure.letters)
       {
-        fillColor = colors.bright;
-      }
-      else if(nearHighlightNames.indexOf(i) > -1)
-      {
-        fillColor = colors.sentence;
-      }
-      el.setAttribute('fill', fillColor);
-      el.textContent = i;
-      svg.appendChild(el);
-
-      if(letter[0] < 8)
-      {
-        let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
-        let m = el.getBBox();
-        offset = [dir[0] * m.width, dir[1] * m.height/2];
+        let letter = figure.letters[i];
+        let shouldBeSmall = figure.smallletters && figure.smallletters.indexOf(i) > -1;
+        let offset;
+        var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        el.setAttribute('font-family', 'Futura');
         if(shouldBeSmall)
-          offset = vec2.add(offset, [5, -5]);
+          el.setAttribute('font-size', '16px');
         else
-          offset = vec2.add(offset, [9, -8]);
+          el.setAttribute('font-size', '24px');
+        let fillColor = colors.dim;
+        if(highlightName && highlightName.indexOf(i) > -1)
+        {
+          fillColor = colors.bright;
+        }
+        else if(nearHighlightNames.indexOf(i) > -1)
+        {
+          fillColor = colors.sentence;
+        }
+        el.setAttribute('fill', fillColor);
+        el.textContent = i;
+        svg.appendChild(el);
+
+        if(letter[0] < 8)
+        {
+          let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
+          let m = el.getBBox();
+          offset = [dir[0] * m.width, dir[1] * m.height/2];
+          if(shouldBeSmall)
+            offset = vec2.add(offset, [5, -5]);
+          else
+            offset = vec2.add(offset, [9, -8]);
+        }
+        else
+        {
+          offset = [letter[1], letter[2]];
+        }
+        let pos = vec2.add(figure.points[i], offset);
+        el.setAttribute('x', pos[0]);
+        el.setAttribute('y', pos[1]);
       }
-      else
+    }
+    if(!p.figures)
+    {
+      drawFigure(p)
+    }
+    else
+    {
+      for(var i = 0; i < p.figures.length; i++)
       {
-        offset = [letter[1], letter[2]];
+        drawFigure(p.figures[i]);
       }
-      let pos = vec2.add(p.points[i], offset);
-      el.setAttribute('x', pos[0]);
-      el.setAttribute('y', pos[1]);
     }
 
     document.onkeypress = pressHandler(o, p);
