@@ -1,16 +1,16 @@
 If two circles touch one another then they will not have the same center.
 
-For let the two circles ABC and CDE touch one an- other at point C.
+For let the two circles {ABC circle G} and {CDE circle F} touch one another at point {C point}.
 I say that they will not have the same center.
 
-For, if possible, let F be (the common center), and let F C have been joined, and let FEB have been drawn through (the two circles), at random.
+For, if possible, let {F point} be (the common center), and let {FC line} have been joined, and let {FEB line} have been drawn through (the two circles), at random.
 
-Therefore, since point F is the center of the circle ABC, FC is equal to FB.
-Again, since point F is the center of the circle CDE, FC is equal to FE.
-But FC was shown (to be) equal to F B.
-Thus, FE is also equal to FB, the lesser to the greater.
+Therefore, since point {F point} is the center of the circle {ABC circle G}, {FC line} is equal to {FB line}.
+Again, since point {F point} is the center of the circle {CDE circle F}, {FC line} is equal to {FE line}.
+But {FC line} was shown (to be) equal to {FB line}.
+Thus, {FE line} is also equal to {FB line}, the lesser to the greater.
 The very thing is impossible.
-Thus, point F is not the (common) center of the circles ABC and CDE.
+Thus, point {F point} is not the (common) center of the circles {ABC circle G} and {CDE circle F}.
 
 Thus, if two circles touch one another then they will not have the same center.
 (Which is) the very thing it was required to show.

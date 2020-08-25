@@ -1,16 +1,16 @@
 A circle does not cut a(nother) circle at more than two points.
 
-For, if possible, let the circle ABC cut the circle DEF at more than two points, B, G, F, and H.
-And BH and BG being joined, let them (then) have been cut in half at points K and L (respectively).
-And KC and LM being drawn at right-angles to BH and BG from K and L (respectively) [Prop. 1.11], let them (then) have been drawn through to points A and E (respectively).
+For, if possible, let the circle {ABC circle P} cut the circle {DEF given} at more than two points, {B point}, {G point}, {F point}, and {H point}.
+And {BH line} and {BG line} being joined, let them (then) have been cut in half at points {K point} and {L point} (respectively).
+And {KC line} and {LM line} being drawn at right-angles to {BH line} and {BG line} from {K point} and {L point} (respectively) [Prop. 1.11], let them (then) have been drawn through to points {A point} and {E point} (respectively).
 
-Therefore, since in circle ABC some straight-line AC cuts some (other) straight-line BH in half, and at right-angles, the center of circle ABC is thus on AC [Prop. 3.1 corr.].
-Again, since in the same circle ABC some straight-line N O cuts some (other straight-line) BG in half, and at right-angles, the center of circle ABC is thus on NO [Prop. 3.1 corr.].
-And it was also shown (to be) on AC.
-And the straight-lines AC and NO meet at no other (point) than P.
-Thus, point P is the center of circle ABC.
-So, similarly, we can show that P is also the center of circle DEF.
-Thus, two circles cutting one another, ABC and DEF, have the same center P.
+Therefore, since in circle {ABC circle P} some straight-line {AC line} cuts some (other) straight-line {BH line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {AC line} [Prop. 3.1 corr.].
+Again, since in the same circle {ABC line} some straight-line {NO line} cuts some (other straight-line) {BG line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {NO line} [Prop. 3.1 corr.].
+And it was also shown (to be) on {AC line}.
+And the straight-lines {AC line} and {NO line} meet at no other (point) than {P point}.
+Thus, point {P point} is the center of circle {ABC circle P}.
+So, similarly, we can show that {P point} is also the center of circle {DEF given}.
+Thus, two circles cutting one another, {ABC circle P} and {DEF given}, have the same center {P point}.
 The very thing is impossible [Prop. 3.5].
 
 Thus, a circle does not cut a(nother) circle at more than two points.

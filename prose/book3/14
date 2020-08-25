@@ -1,44 +1,44 @@
 In a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.
 
-Let ABDC be a circle, and let AB and CD be equal straight-lines within it.
-I say that AB and CD are equally far from the center.
+Let {ABDC circle E} be a circle, and let {AB line} and {CD line} be equal straight-lines within it.
+I say that {AB line} and {CD line} are equally far from the center.
 
-For let the center of circle ABDC have been found [Prop. 3.1], and let it be (at) E.
-And let EF and EG have been drawn from (point) E, perpendicular to AB and CD (respectively) [Prop. 1.12].
-And let AE and EC have been joined.
+For let the center of circle {ABDC circle E} have been found [Prop. 3.1], and let it be (at) {E point}.
+And let {EF line} and {EG line} have been drawn from (point) {E point}, perpendicular to {AB line} and {CD line} (respectively) [Prop. 1.12].
+And let {AE line} and {EC line} have been joined.
 
-Therefore, since some straight-line, EF, through the center (of the circle), cuts some (other) straight-line, AB, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].
-Thus, AF (is) equal to FB.
-Thus, AB (is) double AF.
-So, for the same (reasons), C D is also double CG.
-And AB is equal to CD.
-Thus, AF (is) also equal to CG.
-And since AE is equal to EC, the (square) on AE (is) also equal to the (square) on EC.
-But, the (sum of the squares) on AF and EF (is) equal to the (square) on AE.
-For the angle at F (is) a right-angle [Prop. 1.47].
-And the (sum of the squares) on EG and GC (is) equal to the (square) on EC.
-For the angle at G (is) a right-angle [Prop. 1.47].
-Thus, the (sum of the squares) on AF and F E is equal to the (sum of the squares) on CG and GE, of which the (square) on AF is equal to the (square) on CG.
-For AF is equal to CG.
-Thus, the remaining (square) on FE is equal to the (remaining square) on EG.
-Thus, EF (is) equal to EG.
+Therefore, since some straight-line, {EF line}, through the center (of the circle), cuts some (other) straight-line, {AB line}, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].
+Thus, {AF line} (is) equal to {FB line}.
+Thus, {AB line} (is) double {AF line}.
+So, for the same (reasons), {CD line} is also double {CG line}.
+And {AB line} is equal to {CD line}.
+Thus, {AF line} (is) also equal to {CG line}.
+And since {AE line} is equal to {EC line}, the (square) on {AE line} (is) also equal to the (square) on {EC line}.
+But, the (sum of the squares) on {AF line} and {EF line} (is) equal to the (square) on {AE line}.
+For the angle at {F point} (is) a right-angle [Prop. 1.47].
+And the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {EC line}.
+For the angle at {G point} (is) a right-angle [Prop. 1.47].
+Thus, the (sum of the squares) on {AF line} and {FE line} is equal to the (sum of the squares) on {CG line} and {GE line}, of which the (square) on {AF line} is equal to the (square) on {CG line}.
+For {AF line} is equal to {CG line}.
+Thus, the remaining (square) on {FE line} is equal to the (remaining square) on {EG line}.
+Thus, {EF line} (is) equal to {EG line}.
 And straight-lines in a circle are said to be equally far from the center when perpendicular (straight-lines) which are drawn to them from the center are equal [Def. 3.4].
-Thus, AB and CD are equally far from the center.
+Thus, {AB line} and {CD line} are equally far from the center.
 
-So, let the straight-lines AB and CD be equally far from the center.
-That is to say, let EF be equal to EG.
-I say that AB is also equal to CD.
+So, let the straight-lines {AB line} and {CD line} be equally far from the center.
+That is to say, let {EF line} be equal to {EG line}.
+I say that {AB line} is also equal to {CD line}.
 
-For, with the same construction, we can, similarly, show that AB is double AF, and C D (double) CG.
-And since AE is equal to CE, the (square) on AE is equal to the (square) on CE.
-But, the (sum of the squares) on EF and FA is equal to the (square) on AE [Prop. 1.47].
-And the (sum of the squares) on EG and GC (is) equal to the (square) on CE [Prop. 1.47].
-Thus, the (sum of the squares) on EF and FA is equal to the (sum of the squares) on EG and GC, of which the (square) on EF is equal to the (square) on EG.
-For EF (is) equal to EG.
-Thus, the remaining (square) on AF is equal to the (remaining square) on CG.
-Thus, AF (is) equal to CG.
-And AB is double AF, and CD double CG.
-Thus, AB (is) equal to CD.
+For, with the same construction, we can, similarly, show that {AB line} is double {AF line}, and {CD line} (double) {CG line}.
+And since {AE line} is equal to {CE line}, the (square) on {AE line} is equal to the (square) on {CE line}.
+But, the (sum of the squares) on {EF line} and {FA line} is equal to the (square) on {AE line} [Prop. 1.47].
+And the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {CE line} [Prop. 1.47].
+Thus, the (sum of the squares) on {EF line} and {FA line} is equal to the (sum of the squares) on {EG line} and {GC line}, of which the (square) on {EF line} is equal to the (square) on {EG line}.
+For {EF line} (is) equal to {EG line}.
+Thus, the remaining (square) on {AF line} is equal to the (remaining square) on {CG line}.
+Thus, {AF line} (is) equal to {CG line}.
+And {AB line} is double {AF line}, and {CD line} double {CG line}.
+Thus, {AB line} (is) equal to {CD line}.
 
 Thus, in a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.
 (Which is) the very thing it was required to show.

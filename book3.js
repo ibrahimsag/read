@@ -202,24 +202,24 @@ function()
   const r1 = 150;
   const r2 = 120;
   const d = 90;
-  const center1 = [250, 250];
+  const K = [250, 250];
   const cc = vec2.rot([1, 0], -Math.PI * 3/4);
   const cc_i = vec2.rot(cc, -Math.PI /2);
-  const center2 = vec2.add(center1, vec2.scale(cc, d));
-  const A = vec2.add(center2, vec2.scale(cc, r2));
-  const B = vec2.add(center2, vec2.scale(cc_i, r2));
-  const C = vec2.sub(center2, vec2.scale(cc_i, r2));
-  const D = vec2.add(center1, vec2.scale(cc, r1));
-  const E = vec2.add(center1, vec2.scale(cc, d/2));
-  const F = vec2.sub(center2, vec2.scale(cc, r2));
-  const G = vec2.sub(center1, vec2.scale(cc, r1));
+  const L = vec2.add(K, vec2.scale(cc, d));
+  const A = vec2.add(L, vec2.scale(cc, r2));
+  const B = vec2.add(L, vec2.scale(cc_i, r2));
+  const C = vec2.sub(L, vec2.scale(cc_i, r2));
+  const D = vec2.add(K, vec2.scale(cc, r1));
+  const E = vec2.add(K, vec2.scale(cc, d/2));
+  const F = vec2.sub(L, vec2.scale(cc, r2));
+  const G = vec2.sub(K, vec2.scale(cc, r1));
 
   return {
     prose: prop5,
-    points: { A, B, C, D, E, F, G },
+    points: { A, B, C, D, E, F, G, K, L },
     shapes: [
-      rg.circle(center1, 2 * r1),
-      rg.circle(center2, 2 * r2),
+      rg.circle(K, 2 * r1),
+      rg.circle(L, 2 * r2),
       rg.line(E, C),
       rg.line(E, G),
     ],
@@ -240,23 +240,23 @@ function()
   const r1 = 150;
   const r2 = 110;
   const d = r1 - r2;
-  const center1 = [250, 200];
+  const G = [250, 200];
   const alpha = -Math.PI * 2/3;
   const cc = vec2.rot([1, 0], alpha);
   const oc = vec2.scale(cc, r1);
-  const C = vec2.add(center1, oc);
-  const A = vec2.add(center1, vec2.rot(oc, alpha));
-  const B = vec2.add(center1, vec2.rot(oc, 2 * alpha));
-  const F = vec2.add(center1, vec2.scale(cc, d));
+  const C = vec2.add(G, oc);
+  const A = vec2.add(G, vec2.rot(oc, alpha));
+  const B = vec2.add(G, vec2.rot(oc, 2 * alpha));
+  const F = vec2.add(G, vec2.scale(cc, d));
   const D = vec2.add(F, vec2.scale(vec2.rot(cc, alpha*1.12), r2));
   const fb = vec2.sub(B, F);
   const E = vec2.add(F, vec2.scale(fb, r2/vec2.len(fb)));
 
   return {
     prose: prop6,
-    points: { A, B, C, D, E, F },
+    points: { A, B, C, D, E, F, G },
     shapes: [
-      rg.circle(center1, 2 * r1),
+      rg.circle(G, 2 * r1),
       rg.circle(F, 2 * r2),
       rg.line(F, C),
       rg.line(F, B),
@@ -494,19 +494,19 @@ function()
   const A = vec2.add(F, fa);
   const B = vec2.add(F, [r1, 0]);
   const C = vec2.add(F, vec2.rot(fa, -Math.PI*2/3));
-  const center = vec2.add(F, vec2.scale(ufa, d));
-  const D = vec2.add(center, vec2.scale(vec2.rot(ufa, Math.PI/3), r2));
-  const E = vec2.add(center, vec2.scale(vec2.rot(ufa, -Math.PI*4/5), r2));
+  const K = vec2.add(F, vec2.scale(ufa, d));
+  const D = vec2.add(K, vec2.scale(vec2.rot(ufa, Math.PI/3), r2));
+  const E = vec2.add(K, vec2.scale(vec2.rot(ufa, -Math.PI*4/5), r2));
   const fd = vec2.sub(D, F);
   const G = vec2.add(F, vec2.scale(fd, 0.5));
   const H = vec2.add(F, vec2.scale(fd, r1/vec2.len(fd)));
 
   return {
     prose: prop11,
-    points: { A, B, C, D, E, F, G, H },
+    points: { A, B, C, D, E, F, G, H, K },
     shapes: [
       rg.circle(F, 2 * r1),
-      rg.circle(center, 2 * r2),
+      rg.circle(K, 2 * r2),
       rg.line(F, H),
       rg.line(F, A),
       rg.line(G, A),
@@ -528,31 +528,32 @@ function()
 {
   const r1 = 140;
   const r2 = 70;
-  const center1 = [300, 250];
+  const K = [300, 250];
   const cc = vec2.rot([1, 0], -Math.PI*4/5);
-  const center2 = vec2.add(center1, vec2.scale(cc, r1 + r2));
-  const A = vec2.add(center1, vec2.scale(cc, r1));
-  const B = vec2.add(center2, vec2.scale(vec2.rot(cc, Math.PI/4), r2));
-  const E = vec2.add(center1, vec2.scale(vec2.rot(cc, -Math.PI*2/4), r1));
-  const C = vec2.add(center2, vec2.scale(vec2.rot(cc, Math.PI/6), -r2));
-  const D = vec2.add(center1, vec2.scale(vec2.rot(cc, -Math.PI/12), r1));
+  const L = vec2.add(K, vec2.scale(cc, r1 + r2));
+  const A = vec2.add(K, vec2.scale(cc, r1));
+  const B = vec2.add(L, vec2.scale(vec2.rot(cc, Math.PI/4), r2));
+  const E = vec2.add(K, vec2.scale(vec2.rot(cc, -Math.PI*2/4), r1));
+  const C = vec2.add(L, vec2.scale(vec2.rot(cc, Math.PI/6), -r2));
+  const D = vec2.add(K, vec2.scale(vec2.rot(cc, -Math.PI/12), r1));
   const cd = vec2.sub(D, C);
   const F = vec2.add(C, vec2.scale(cd, -r2/vec2.len(cd)));
   const G = vec2.add(D, vec2.scale(cd, r1/vec2.len(cd)));
 
   return {
     prose: prop12,
-    points: { A, B, C, D, E, F, G },
+    points: { A, B, C, D, E, F, G, K, L },
     shapes: [
-      rg.circle(center1, 2 * r1),
-      rg.circle(center2, 2 * r2),
+      rg.circle(K, 2 * r1),
+      rg.circle(L, 2 * r2),
       rg.polygon([A, F, G]),
       rg.line(C, D),
     ],
+    smallletters: 'C',
     letters: {
       A: [1.5],
       B: [1],
-      C: [3.5],
+      C: [1],
       D: [5.2, 1.3],
       E: [4, 1.3],
       F: [3],
@@ -566,18 +567,18 @@ function()
   const r1 = 120;
   const r2 = 90;
   const d = 160;
-  const center1 = [200, 250];
+  const O = [200, 250];
   const cc = vec2.rot([1, 0], -Math.PI*1/4);
-  const center2 = vec2.add(center1, vec2.scale(cc, d));
-  const K = vec2.add(center2, vec2.scale(cc, r2));
+  const P = vec2.add(O, vec2.scale(cc, d));
+  const K = vec2.add(P, vec2.scale(cc, r2));
   const theta = Math.acos((d*d + r1*r1 - r2*r2)/(2 * d * r1))
-  const A = vec2.add(center1, vec2.scale(vec2.rot(cc, -theta), r1));
-  const C = vec2.add(center1, vec2.scale(vec2.rot(cc, theta), r1));
-  const B = vec2.add(center1, vec2.scale(vec2.rot([1,0], Math.PI*4/5), r1));
-  const D = vec2.add(center1, vec2.scale(vec2.rot([1,0], Math.PI/5), r1));
+  const A = vec2.add(O, vec2.scale(vec2.rot(cc, -theta), r1));
+  const C = vec2.add(O, vec2.scale(vec2.rot(cc, theta), r1));
+  const B = vec2.add(O, vec2.scale(vec2.rot([1,0], Math.PI*4/5), r1));
+  const D = vec2.add(O, vec2.scale(vec2.rot([1,0], Math.PI/5), r1));
   const bd = vec2.sub(D, B)
-  const E = vec2.add(center1, [0, r1/10]);
-  const F = vec2.add(center1, [0, r1]);
+  const E = vec2.add(O, [0, r1/10]);
+  const F = vec2.add(O, [0, r1]);
   const G = vec2.add(B, vec2.scale(bd, 0.3));
   const H = vec2.add(B, vec2.scale(bd, 0.7));
   const ells = [];
@@ -586,15 +587,18 @@ function()
     let theta = Math.PI * (2 * i / 30);
     let h = theta < Math.PI ? r1 * 0.45: r1*0.33;
     let pp = [Math.cos(theta) * r1*0.85, Math.sin(theta) * h];
-    ells.push(vec2.add(center1, vec2.add(pp, [0, r1*0.43])));
+    ells.push(vec2.add(O, vec2.add(pp, [0, r1*0.43])));
   }
 
   return {
     prose: prop13,
-    points: { A, B, C, D, E, F, G, H, K },
+    points: { A, B, C, D, E, F, G, H, K, O, P },
+    given: {
+      EBFD: () => [rg.curve(ells)],
+    },
     shapes: [
-      rg.circle(center1, 2 * r1),
-      rg.circle(center2, 2 * r2),
+      rg.circle(O, 2 * r1),
+      rg.circle(P, 2 * r2),
       rg.curve(ells),
       rg.circle(G, 5, {strokeWidth: 2}),
       rg.circle(H, 5, {strokeWidth: 2}),
@@ -1125,6 +1129,8 @@ function()
     ]
   }
 },
+
+/*
 
 function()
 {
@@ -1759,6 +1765,7 @@ function()
     }
   }
 },
+*/
 
 ]
 }

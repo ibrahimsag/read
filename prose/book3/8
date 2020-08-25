@@ -1,47 +1,46 @@
 If some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.
-For the others, a (straight-line) nearer† to the (straight-line) through the center is always greater than one further away.
+For the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.
 For the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.
 For the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.
 And only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).
 
+Let {ABC circle M} be a circle, and let some point {D point} have been taken outside {ABC circle M}, and from it let some straight-lines, {DA line}, {DE line}, {DF line}, and {DC line}, have been drawn through (the circle), and let {DA line} be through the center.
+I say that for the straight-lines radiating towards the concave (part of the) circumference, {AEFC arc M}, the greatest is the one (passing) through the center, (namely) {AD line}, and (that) {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.
+For the straight-lines radiating towards the convex (part of the) circumference, {HLKG arc M}, the least is the one between the point and the diameter {AG line}, (namely) {DG line}, and a (straight-line) nearer to the least (straight-line) {DG line} is always less than one farther away, (so that) {DK line} (is less) than {DL line}, and {DL line} than than {DH line}.
 
-Let ABC be a circle, and let some point D have been taken outside ABC, and from it let some straight-lines, DA, DE, DF, and DC, have been drawn through (the circle), and let DA be through the center.
-I say that for the straight-lines radiating towards the concave (part of the) circumference, AEFC, the greatest is the one (pass- ing) through the center, (namely) AD, and (that) DE (is) greater than DF , and DF than DC.
-For the straight-lines radiating towards the convex (part of the) circumference, HLKG, the least is the one between the point and the diameter AG, (namely) DG, and a (straight-line) nearer to the least (straight-line) DG is always less than one farther away, (so that) DK (is less) than DL, and DL than than DH.
+For let the center of the circle have been found [Prop. 3.1], and let it be (at point) {M point} [Prop. 3.1].
+And let {ME line}, {MF line}, {MC line}, {MK line}, {ML line}, and {MH line} have been joined.
+And since {AM line} is equal to {EM line}, let {MD line} have been added to both.
+Thus, {AD line} is equal to {EM line} and {MD line}.
+But, {EM line} and {MD line} is greater than {ED line} [Prop. 1.20].
+Thus, {AD line} is also greater than {ED line}.
+Again, since {ME line} is equal to {MF line}, and {MD line} (is) common, the (straight-lines) {EM line}, {MD line} are thus equal to {FM line}, {MD line}.
+And angle {EMD angle} is greater than angle {FMD angle}.
+Thus, the base {ED line} is greater than the base {FD line} [Prop. 1.24].
+So, similarly, we can show that {FD line} is also greater than {CD line}.
+Thus, {AD line} (is) the greatest (straight-line), and {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.
 
-For let the center of the circle have been found [Prop. 3.1], and let it be (at point) M [Prop. 3.1].
-And let ME, MF, MC, MK, ML, and MH have been joined.
-And since AM is equal to EM, let MD have been added to both.
-Thus, AD is equal to EM and MD.
-But, EM and MD is greater than ED [Prop. 1.20].
-Thus, AD is also greater than ED.
-Again, since ME is equal to MF, and MD (is) common, the (straight-lines) EM, MD are thus equal to FM, MD.
-And angle EMD is greater than angle FMD.
-Thus, the base ED is greater than the base FD [Prop. 1.24].
-So, similarly, we can show that F D is also greater than CD.
-Thus, AD (is) the greatest (straight-line), and DE (is) greater than DF, and DF than DC.
+And since {MK line} and {KD line} is greater than {MD line} [Prop. 1.20], and {MG line} (is) equal to {MK line}, the remainder {KD line} is thus greater than the remainder {GD line}.
+So {GD line} is less than {KD line}.
+And since in triangle {MLD polygon}, the two internal straight-lines {MK line} and {KD line} were constructed on one of the sides, {MD line}, then {MK line} and {KD line} are thus less than {ML line} and {LD line} [Prop. 1.21].
+And {MK line} (is) equal to {ML line}.
+Thus, the remainder {DK line} is less than the remainder {DL line}.
+So, similarly, we can show that {DL line} is also less than {DH line}.
+Thus, {DG line} (is) the least (straight-line), and {DK line} (is) less than {DL line}, and {DL line} than {DH line}.
 
-And since MK and KD is greater than MD [Prop. 1.20], and M G (is) equal to M K , the remainder K D is thus greater than the remainder GD.
-So GD is less than KD.
-And since in triangle MLD, the two inter- nal straight-lines M K and K D were constructed on one of the sides, MD, then MK and KD are thus less than ML and LD [Prop. 1.21].
-And MK (is) equal to ML.
-Thus, the remainder DK is less than the remainder DL.
-So, similarly, we can show that DL is also less than DH.
-Thus, DG (is) the least (straight-line), and DK (is) less than DL, and DL than DH.
-
-I also say that only two equal (straight-lines) will radiate from point D towards (the circumference of) the cir- cle, (one) on each (side) on the least (straight-line), DG.
-Let the angle DMB, equal to angle KMD, have been constructed on the straight-line MD, at the point M on it [Prop. 1.23], and let DB have been joined.
-And since MK is equal to MB, and MD (is) common, the two (straight-lines) KM, MD are equal to the two (straight-lines) BM, MD, respectively.
-And angle KMD (is) equal to angle BMD.
-Thus, the base DK is equal to the base DB [Prop. 1.4].
-[So] I say that another (straight-line) equal to DK will not radiate towards the (circumference of the) circle from point D.
-For, if possible, let (such a straight-line) radiate, and let it be DN.
-Therefore, since DK is equal to DN, but DK is equal to DB, then DB is thus also equal to DN, (so that) a (straight-line) nearer to the least (straight-line) DG [is] equal to one further away.
+I also say that only two equal (straight-lines) will radiate from point {D point} towards (the circumference of) the circle, (one) on each (side) on the least (straight-line), {DG line}.
+Let the angle {DMB angle}, equal to angle {KMD angle}, have been constructed on the straight-line {MD line}, at the point {M point} on it [Prop. 1.23], and let {DB line} have been joined.
+And since {MK line} is equal to {MB line}, and {MD line} (is) common, the two (straight-lines) {KM line}, {MD line} are equal to the two (straight-lines) {BM line}, {MD line}, respectively.
+And angle {KMD angle} (is) equal to angle {BMD angle}.
+Thus, the base {DK line} is equal to the base {DB line} [Prop. 1.4].
+[So] I say that another (straight-line) equal to {DK line} will not radiate towards the (circumference of the) circle from point {D point}.
+For, if possible, let (such a straight-line) radiate, and let it be {DN line}.
+Therefore, since {DK line} is equal to {DN line}, but {DK line} is equal to {DB line}, then {DB line} is thus also equal to {DN line}, (so that) a (straight-line) nearer to the least (straight-line) {DG line} [is] equal to one further away.
 The very thing was shown (to be) impossible.
-Thus, not more than two equal (straight-lines) will radiate towards (the circumference of) circle ABC from point D, (one) on each side of the least (straight-line) DG.
+Thus, not more than two equal (straight-lines) will radiate towards (the circumference of) circle {ABC circle M} from point {D point}, (one) on each side of the least (straight-line) {DG line}.
 
 Thus, if some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.
-For the others, a (straight-line) nearer to the (straight- line) through the center is always greater than one fur- ther away.
+For the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.
 For the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.
 For the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.
 And only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).

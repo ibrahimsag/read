@@ -1,18 +1,18 @@
 If two circles touch one another externally then the (straight-line) joining their centers will go through the point of union.
 
-For let two circles, ABC and ADE, touch one another externally at point A, and let the center F of ABC have been found [Prop. 3.1], and (the center) G of ADE [Prop. 3.1].
-I say that the straight-line joining F to G will go through the point of union at A.
+For let two circles, {ABC circle L} and {ADE circle K}, touch one another externally at point {A point}, and let the center {F point} of {ABC circle L} have been found [Prop. 3.1], and (the center) {G point} of {ADE circle K} [Prop. 3.1].
+I say that the straight-line joining {F point} to {G point} will go through the point of union at {A point}.
 
-For (if) not then, if possible, let it go like FCDG (in the figure), and let AF and AG have been joined.
+For (if) not then, if possible, let it go like {FCDG line} (in the figure), and let {AF line} and {AG line} have been joined.
 
-Therefore, since point F is the center of circle ABC, FA is equal to FC.
-Again, since point G is the center of circle ADE, GA is equal to GD.
-And FA was also shown (to be) equal to FC.
-Thus, the (straight-lines) FA and AG are equal to the (straight-lines) FC and GD.
-So the whole of FG is greater than FA and AG.
+Therefore, since point {F point} is the center of circle {ABC circle L}, {FA line} is equal to {FC line}.
+Again, since point {G point} is the center of circle {ADE circle K}, {GA line} is equal to {GD line}.
+And {FA line} was also shown (to be) equal to {FC line}.
+Thus, the (straight-lines) {FA line} and {AG line} are equal to the (straight-lines) {FC line} and {GD line}.
+So the whole of {FG line} is greater than {FA line} and {AG line}.
 But, (it is) also less [Prop. 1.20].
 The very thing is impossible.
-Thus, the straight-line joining F to G cannot not go through the point of union at A.
+Thus, the straight-line joining {F point} to {G point} cannot not go through the point of union at {A point}.
 Thus, (it will go) through it.
 
 Thus, if two circles touch one another externally then the [straight-line] joining their centers will go through the point of union.
