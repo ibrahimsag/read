@@ -1135,8 +1135,6 @@ function()
   }
 },
 
-/*
-
 function()
 {
   const r = 100;
@@ -1386,7 +1384,7 @@ function()
 
   return {
     prose: prop32,
-    points: { A, B, C, D, E, F },
+    points: { A, B, C, D, E, F, T },
     shapes: [
       rg.circle(T, 2*r),
       rg.polygon([A, B, C, D]),
@@ -1431,6 +1429,9 @@ function()
 
         return{
           points: { A, B, C, D, E, F, G },
+          given: {
+            C: () => rg.angle(Ca, C, Cb),
+          },
           shapes: [
             rg.circle(G, 2*r),
             rg.line(C, Ca),
@@ -1472,6 +1473,9 @@ function()
 
         return{
           points: { A, B, C, D, E, F },
+          given: {
+            C: () => rg.angle(Ca, C, Cb),
+          },
           shapes: [
             rg.circle(F, 2*r),
             rg.line(C, Ca),
@@ -1514,6 +1518,9 @@ function()
 
         return{
           points: { A, B, C, D, E, F, G, H },
+          given: {
+            C: () => rg.angle(Ca, C, Cb),
+          },
           shapes: [
             rg.circle(G, 2*r),
             rg.line(C, Ca),
@@ -1530,7 +1537,7 @@ function()
           letters: {
             A: [1],
             B: [-1.5],
-            C: [1.5],
+            C: [-1.5],
             D: [3],
             E: [5],
             F: [-0.5],
@@ -1565,6 +1572,9 @@ function()
   return {
     prose: prop34,
     points: { A, B, C, D, E, F, T },
+    given: {
+      D: () => rg.angle(Da, D, Db)
+    },
     shapes: [
       rg.circle(T, 2*r),
       rg.polygon([A, B, C]),
@@ -1642,6 +1652,8 @@ function()
           rg.line(B, D),
           rg.line(F, G),
           rg.line(F, H),
+          rg.line(F, B),
+          rg.line(F, C),
         ],
         letters: {
           A: [2],
@@ -1668,6 +1680,7 @@ function()
     (function()
     {
       const F = [136, 156];
+      const E = F;
       const w = [-r, 0];
       const B = vec2.add(F, w);
       const D = vec2.sub(B, vec2.rot(vec2.scale(w, 2), Math.PI/2));
@@ -1677,7 +1690,7 @@ function()
       const C = vec2.sub(F, fa);
 
       return {
-        points: { A, B, C, D, F },
+        points: { A, B, C, D, E, F },
         shapes: [
           rg.circle(F, 2 * r),
           rg.line(A, D),
@@ -1770,7 +1783,6 @@ function()
     }
   }
 },
-*/
 
 ]
 }

@@ -39,10 +39,6 @@ function makeRG (svgEl)
 
   function angle(a, o, b)
   {
-    let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 20/vec2.len(d)));
-    let dir = vec2.sub(d2, d1);
-    let d = [0.3, 0.5, 0.7].map(l => vec2.add(d1, vec2.scale(dir, l)));
-    let ps = [d1, ...d, d2].map(d => vec2.add(o, vec2.scale(d, 20/vec2.len(d))));
     return [anglecurve(a, o, b), line(o, a), line(o, b)];
   }
 

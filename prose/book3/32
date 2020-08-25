@@ -1,25 +1,25 @@
 If some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.
 
-For let some straight-line EF touch the circle ABCD at the point B, and let some (other) straight-line BD have been drawn from point B into the circle ABCD, cutting it (in two).
-I say that the angles BD makes with the tangent EF will be equal to the angles in the alternate segments of the circle.
-That is to say, that angle F BD is equal to the angle constructed in segment BAD, and angle EBD is equal to the angle constructed in segment DCB.
+For let some straight-line {EF line} touch the circle {ABCD circle T} at the point {B point}, and let some (other) straight-line {BD line} have been drawn from point {B point} into the circle {ABCD circle T}, cutting it (in two).
+I say that the angles {BD line} makes with the tangent {EF line} will be equal to the angles in the alternate segments of the circle.
+That is to say, that angle {FBD angle} is equal to the angle constructed in segment {BAD arc T}, and angle {EBD angle} is equal to the angle constructed in segment {DCB arc T}.
 
-For let BA have been drawn from B, at right-angles to EF [Prop. 1.11].
-And let the point C have been taken at random on the circumference BD.
-And let AD, DC, and C B have been joined.
+For let {BA line} have been drawn from {B point}, at right-angles to {EF line} [Prop. 1.11].
+And let the point {C point} have been taken at random on the circumference {BD arcc T}.
+And let {AD line}, {DC line}, and {CB line} have been joined.
 
-And since some straight-line EF touches the circle ABCD at point B, and BA has been drawn from the point of contact, at right-angles to the tangent, the center of circle ABCD is thus on BA [Prop. 3.19].
-Thus, BA is a diameter of circle ABCD.
-Thus, angle ADB, being in a semi-circle, is a right-angle [Prop. 3.31].
-Thus, the remaining angles (of triangle ADB) BAD and ABD are equal to one right-angle [Prop. 1.32].
-And ABF is also a right-angle.
-Thus, ABF is equal to BAD and ABD.
-Let ABD have been subtracted from both.
-Thus, the remaining angle DBF is equal to the angle BAD in the alternate segment of the circle.
-And since ABCD is a quadrilateral in a circle, (the sum of) its opposite angles is equal to two right-angles [Prop. 3.22].
-And DBF and DBE is also equal to two right-angles [Prop. 1.13].
-Thus, DBF and DBE is equal to BAD and BCD, of which BAD was shown (to be) equal to DBF.
-Thus, the remaining (angle) DBE is equal to the angle DCB in the alternate segment DCB of the circle.
+And since some straight-line {EF line} touches the circle {ABCD circle T} at point {B point}, and {BA line} has been drawn from the point of contact, at right-angles to the tangent, the center of circle {ABCD circle T} is thus on {BA line} [Prop. 3.19].
+Thus, {BA line} is a diameter of circle {ABCD circle T}.
+Thus, angle {ADB angle}, being in a semi-circle, is a right-angle [Prop. 3.31].
+Thus, the remaining angles (of triangle {ADB polygon}) {BAD angle} and {ABD angle} are equal to one right-angle [Prop. 1.32].
+And {ABF angle} is also a right-angle.
+Thus, {ABF angle} is equal to {BAD angle} and {ABD angle}.
+Let {ABD angle} have been subtracted from both.
+Thus, the remaining angle {DBF angle} is equal to the angle {BAD angle} in the alternate segment of the circle.
+And since {ABCD polygon} is a quadrilateral in a circle, (the sum of) its opposite angles is equal to two right-angles [Prop. 3.22].
+And {DBF angle} and {DBE angle} is also equal to two right-angles [Prop. 1.13].
+Thus, {DBF angle} and {DBE angle} is equal to {BAD angle} and {BCD angle}, of which {BAD angle} was shown (to be) equal to {DBF angle}.
+Thus, the remaining (angle) {DBE angle} is equal to the angle {DCB angle} in the alternate segment {DCB arc T} of the circle.
 
 Thus, if some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.
 (Which is) the very thing it was required to show.

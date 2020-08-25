@@ -1,20 +1,20 @@
 In equal circles, equal angles stand upon equal circumferences whether they are standing at the center or at the circumference.
 
-Let ABC and DEF be equal circles, and within them let BGC and EHF be equal angles at the center, and BAC and EDF (equal angles) at the circumference.
-I say that circumference BKC is equal to circumference ELF.
+Let {ABC circle G} and {DEF circle H} be equal circles, and within them let {BGC angle} and {EHF angle} be equal angles at the center, and {BAC angle} and {EDF angle} (equal angles) at the circumference.
+I say that circumference {BKC arcc G} is equal to circumference {ELF arcc H}.
 
-For let BC and EF have been joined.
+For let {BC line} and {EF line} have been joined.
 
-And since circles ABC and DEF are equal, their radii are equal.
-So the two (straight-lines) BG, GC (are) equal to the two (straight-lines) EH, HF (respectively).
-And the angle at G (is) equal to the angle at H.
-Thus, the base BC is equal to the base EF [Prop. 1.4].
-And since the angle at A is equal to the (angle) at D, the segment BAC is thus similar to the segment EDF [Def. 3.11].
-And they are on equal straight-lines [BC and EF].
+And since circles {ABC circle G} and {DEF circle H} are equal, their radii are equal.
+So the two (straight-lines) {BG line}, {GC line} (are) equal to the two (straight-lines) {EH line}, {HF line} (respectively).
+And the angle at {G point} (is) equal to the angle at {H point}.
+Thus, the base {BC line} is equal to the base {EF line} [Prop. 1.4].
+And since the angle at {A point} is equal to the (angle) at {D point}, the segment {BAC arc G} is thus similar to the segment {EDF arc H} [Def. 3.11].
+And they are on equal straight-lines [{BC line} and {EF line}].
 And similar segments of circles on equal straight-lines are equal to one another [Prop. 3.24].
-Thus, segment BAC is equal to (segment) EDF.
-And the whole circle ABC is also equal to the whole circle DEF.
-Thus, the remaining circumference BKC is equal to the (remaining) circumference ELF.
+Thus, segment {BAC arc G} is equal to (segment) {EDF arc H}.
+And the whole circle {ABC circle G} is also equal to the whole circle {DEF circle H}.
+Thus, the remaining circumference {BKC arcc G} is equal to the (remaining) circumference {ELF arcc H}.
 
 Thus, in equal circles, equal angles stand upon equal circumferences, whether they are standing at the center or at the circumference.
 (Which is) the very thing which it was required to show.

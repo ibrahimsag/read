@@ -1,28 +1,28 @@
 If two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
 
-For let the two straight-lines AC and BD, in the circle ABCD, cut one another at point E.
-I say that the rectangle contained by AE and EC is equal to the rectangle contained by DE and EB.
+For let the two straight-lines {AC line} and {BD line}, in the circle {ABCD circle F}, cut one another at point {E point}.
+I say that the rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.
 
-In fact, if AC and BD are through the center (as in the first diagram from the left), so that E is the center of circle ABCD, then (it is) clear that, AE, EC, DE, and EB being equal, the rectangle contained by AE and EC is also equal to the rectangle contained by DE and EB.
+{figure 1}In fact, if {AC line} and {BD line} are through the center (as in the first diagram from the left), so that {E point} is the center of circle {ABCD circle F}, then (it is) clear that, {AE line}, {EC line}, {DE line}, and {EB line} being equal, the rectangle contained by {AE line} and {EC line} is also equal to the rectangle contained by {DE line} and {EB line}.
 
-So let AC and DB not be though the center (as in the second diagram from the left), and let the center of ABCD have been found [Prop. 3.1], and let it be (at) F.
-And let FG and FH have been drawn from F, perpendicular to the straight-lines AC and DB (respectively) [Prop. 1.12].
-And let FB, FC, and FE have been joined.
+{figure 2}So let {AC line} and {DB line} not be though the center (as in the second diagram from the left), and let the center of {ABCD circle F} have been found [Prop. 3.1], and let it be (at) {F point}.
+And let {FG line} and {FH line} have been drawn from {F point}, perpendicular to the straight-lines {AC line} and {DB line} (respectively) [Prop. 1.12].
+And let {FB line}, {FC line}, and {FE line} have been joined.
 
-And since some straight-line, GF, through the center, cuts at right-angles some (other) straight-line, AC, not through the center, then it also cuts it in half [Prop. 3.3].
-Thus, AG (is) equal to GC.
-Therefore, since the straight-line AC is cut equally at G, and unequally at E, the rectangle contained by AE and EC plus the square on EG is thus equal to the (square) on GC [Prop. 2.5].
-Let the (square) on GF have been added [to both].
-Thus, the (rectangle contained) by AE and EC plus the (sum of the squares) on GE and GF is equal to the (sum of the squares) on CG and GF.
-But, the (square) on FE is equal to the (sum of the squares) on EG and GF [Prop. 1.47], and the (square) on FC is equal to the (sum of the squares) on CG and GF [Prop. 1.47].
-Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (square) on FC.
-And FC (is) equal to FB.
-Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (square) on FB.
-So, for the same (reasons), the (rectangle contained) by DE and EB plus the (square) on FE is equal to the (square) on FB.
-And the (rectangle contained) by AE and EC plus the (square) on FE was also shown (to be) equal to the (square) on FB.
-Thus, the (rectangle contained) by AE and EC plus the (square) on FE is equal to the (rectangle contained) by DE and EB plus the (square) on FE.
-Let the (square) on FE have been taken from both.
-Thus, the remaining rectangle contained by AE and EC is equal to the rectangle contained by DE and EB.
+And since some straight-line, {GF line}, through the center, cuts at right-angles some (other) straight-line, {AC line}, not through the center, then it also cuts it in half [Prop. 3.3].
+Thus, {AG line} (is) equal to {GC line}.
+Therefore, since the straight-line {AC line} is cut equally at {G point}, and unequally at {E point}, the rectangle contained by {AE line} and {EC line} plus the square on {EG line} is thus equal to the (square) on {GC line} [Prop. 2.5].
+Let the (square) on {GF line} have been added [to both].
+Thus, the (rectangle contained) by {AE line} and {EC line} plus the (sum of the squares) on {GE line} and {GF line} is equal to the (sum of the squares) on {CG line} and {GF line}.
+But, the (square) on {FE line} is equal to the (sum of the squares) on {EG line} and {GF line} [Prop. 1.47], and the (square) on {FC line} is equal to the (sum of the squares) on {CG line} and {GF line} [Prop. 1.47].
+Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FC line}.
+And {FC line} (is) equal to {FB line}.
+Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FB line}.
+So, for the same (reasons), the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line} is equal to the (square) on {FB line}.
+And the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} was also shown (to be) equal to the (square) on {FB line}.
+Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line}.
+Let the (square) on {FE line} have been taken from both.
+Thus, the remaining rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.
 
 Thus, if two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
 (Which is) the very thing it was required to show.

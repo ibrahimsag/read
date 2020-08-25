@@ -7,7 +7,8 @@ function makeGround(ps, rg, svg)
   {
     let nearHighlights = [];
     let highlight = [];
-
+    let figureIndex = 0;
+    let lastSeenFigureIndex = 0;
 
     let proseEl = document.querySelector('#prose');
     proseEl.innerHTML = '';
@@ -46,6 +47,7 @@ function makeGround(ps, rg, svg)
           {
             isFocusSentence = true;
             refEl.style['color'] = colors.bright;
+            figureIndex = lastSeenFigureIndex;
 
             highlight = [name, typ, arg1];
           }
@@ -55,7 +57,19 @@ function makeGround(ps, rg, svg)
           return refEl.outerHTML;
         }
 
-        let sentenceHTML = sentenceProse.replace(/\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g, highlightReference);
+        function selectFigure(m, ind)
+        {
+          lastSeenFigureIndex = parseInt(ind);
+          if(isNaN(lastSeenFigureIndex))
+          {
+            console.error("figure index: ", ind);
+            lastSeenFigureIndex = 0;
+          }
+          return '';
+        }
+
+        let sp = sentenceProse.replace(/\{figure ([0-9])\}/g, selectFigure);
+        let sentenceHTML = sp.replace(/\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g, highlightReference);
 
         let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';
@@ -89,30 +103,33 @@ function makeGround(ps, rg, svg)
 
     svg.innerHTML = "";
 
-    function drawFigure(figure)
+    function drawFigure(figure, highlightFigure)
     {
       let shapes = [...figure.shapes];
 
-      nearHighlights.forEach(h =>
+      if(highlightFigure)
       {
-        rg.makeHighlight(figure, ...h).forEach(s =>
-        {
-          if(!(h[1] === 'angle' && s.shape === 'curve'))
+        nearHighlights.forEach(h =>
           {
-            s.options["stroke"] = colors.sentence;
-          }
-          shapes.push(s);
-        });
-      });
+            rg.makeHighlight(figure, ...h).forEach(s =>
+              {
+                if(!(h[1] === 'angle' && s.shape === 'curve'))
+                {
+                  s.options["stroke"] = colors.sentence;
+                }
+                shapes.push(s);
+              });
+          });
 
-      if(highlight.length)
-      {
-        rg.makeHighlight(figure, ...highlight).forEach(s =>
+        if(highlight.length)
         {
-          s.options["stroke"] = colors.bright;
-          s.options["strokeWidth"] += 1;
-          shapes.push(s);
-        });
+          rg.makeHighlight(figure, ...highlight).forEach(s =>
+            {
+              s.options["stroke"] = colors.bright;
+              s.options["strokeWidth"] += 1;
+              shapes.push(s);
+            });
+        }
       }
 
       for(var i = 0; i < shapes.length; i++)
@@ -136,11 +153,11 @@ function makeGround(ps, rg, svg)
         else
           el.setAttribute('font-size', '24px');
         let fillColor = colors.dim;
-        if(highlightName && highlightName.indexOf(i) > -1)
+        if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
         {
           fillColor = colors.bright;
         }
-        else if(nearHighlightNames.indexOf(i) > -1)
+        else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
         {
           fillColor = colors.sentence;
         }
@@ -169,13 +186,13 @@ function makeGround(ps, rg, svg)
     }
     if(!p.figures)
     {
-      drawFigure(p)
+      drawFigure(p, true)
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        drawFigure(p.figures[i]);
+        drawFigure(p.figures[i], figureIndex == 0 || figureIndex == i+1);
       }
     }
 

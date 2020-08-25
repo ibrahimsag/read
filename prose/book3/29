@@ -1,15 +1,15 @@
 In equal circles, equal straight-lines subtend equal circumferences.
 
-Let ABC and DEF be equal circles, and within them let the equal circumferences BGC and EHF have been cut off.
-And let the straight-lines BC and EF have been joined. I say that BC is equal to EF.
+Let {ABC circle K} and {DEF circle L} be equal circles, and within them let the equal circumferences {BGC arcc K} and {EHF arcc L} have been cut off.
+And let the straight-lines {BC line} and {EF line} have been joined. I say that {BC line} is equal to {EF line}.
 
-For let the centers of the circles have been found [Prop. 3.1], and let them be (at) K and L. And let BK, KC, EL, and LF have been joined.
+For let the centers of the circles have been found [Prop. 3.1], and let them be (at) {K point} and {L point}. And let {BK line}, {KC line}, {EL line}, and {LF line} have been joined.
 
-And since the circumference BGC is equal to the circumference EHF, the angle BKC is also equal to (angle) ELF [Prop. 3.27].
-And since the circles ABC and DEF are equal, their radii are also equal [Def. 3.1].
-So the two (straight-lines) BK, KC are equal to the two (straight-lines) EL, LF (respectively).
+And since the circumference {BGC arcc K} is equal to the circumference {EHF arcc L}, the angle {BKC angle} is also equal to (angle) {ELF angle} [Prop. 3.27].
+And since the circles {ABC circle K} and {DEF circle L} are equal, their radii are also equal [Def. 3.1].
+So the two (straight-lines) {BK line}, {KC line} are equal to the two (straight-lines) {EL line}, {LF line} (respectively).
 And they contain equal angles.
-Thus, the base BC is equal to the base EF [Prop. 1.4].
+Thus, the base {BC line} is equal to the base {EF line} [Prop. 1.4].
 
 Thus, in equal circles, equal straight-lines subtend equal circumferences.
 (Which is) the very thing it was required to show.
