@@ -28,13 +28,22 @@ function makeRG (svgEl)
     return rsvg.generator.circle(c[0], c[1], d, Object.assign(Object.assign({}, roughopts), o));
   }
 
+  function anglecurve(a, o, b)
+  {
+    let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 20/vec2.len(d)));
+    let dir = vec2.sub(d2, d1);
+    let d = [0.3, 0.5, 0.7].map(l => vec2.add(d1, vec2.scale(dir, l)));
+    let ps = [d1, ...d, d2].map(d => vec2.add(o, vec2.scale(d, 20/vec2.len(d))));
+    return curve(ps, {strokeWidth: 10});
+  }
+
   function angle(a, o, b)
   {
     let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 20/vec2.len(d)));
     let dir = vec2.sub(d2, d1);
     let d = [0.3, 0.5, 0.7].map(l => vec2.add(d1, vec2.scale(dir, l)));
     let ps = [d1, ...d, d2].map(d => vec2.add(o, vec2.scale(d, 20/vec2.len(d))));
-    return [curve(ps, {strokeWidth: 10}), line(o, a), line(o, b)];
+    return [anglecurve(a, o, b), line(o, a), line(o, b)];
   }
 
   function arc(c, a, b, o)
@@ -63,7 +72,7 @@ function makeRG (svgEl)
     }
     else if(typ == 'line')
     {
-      return [line(p.points[name[0]], p.points[name[1]])];
+      return [line(p.points[name[0]], p.points[name[name.length-1]])];
     }
     else if(typ == 'circle')
     {
@@ -98,7 +107,7 @@ function makeRG (svgEl)
       console.error('Unknown highlight: ', typ, name);
     }
   }
-  return { arc, gnomon, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
+  return { arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
 export default makeRG;

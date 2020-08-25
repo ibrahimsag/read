@@ -91,6 +91,12 @@ function()
   const cent = vec2.add(D, vec2.scale(df, 0.3));
   const r2 = vec2.dist(cent, A)
   const E = vec2.add(cent, vec2.scale(df, r2/vec2.len(df)));
+  const ae = vec2.rot(vec2.sub(E, A), Math.PI/8);
+  const te = vec2.add(A, ae);
+  const eb = vec2.rot(vec2.sub(B, E), Math.PI/8);
+  const tb = vec2.add(E, eb);
+  const be = vec2.rot(vec2.sub(E, B), -Math.PI/8);
+  const te2 = vec2.add(B, be);
 
   return {
     prose: prop2,
@@ -104,6 +110,10 @@ function()
     ],
     given: {
       AEB: () => [rg.arc(cent, B, A)],
+      AED: () => [rg.line(A, D), rg.arc(cent, E, A), rg.line(E, D)],
+      DAE: () => [rg.line(A, D), rg.arc(cent, E, A), rg.anglecurve(D, A, te)],
+      DEB: () => [rg.line(E, D), rg.arc(cent, B, E), rg.anglecurve(D, E, tb)],
+      DBE: () => [rg.line(B, D), rg.arc(cent, B, E), rg.anglecurve(D, B, te2)],
     },
     letters: {
       A: [3],

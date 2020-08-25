@@ -1,22 +1,22 @@
 If two points are taken at random on the circumference of a circle then the straight-line joining the points will fall inside the circle.
 
-Let ABC be a circle, and let two points A and B have been taken at random on its circumference.
-I say that the straight-line joining A to B will fall inside the circle.
+Let {ABC circle D} be a circle, and let two points {A point} and {B point} have been taken at random on its circumference.
+I say that the straight-line joining {A point} to {B point} will fall inside the circle.
 
-For (if) not then, if possible, let it fall outside (the circle), like AEB (in the figure).
-And let the center of the circle ABC have been found [Prop. 3.1], and let it be (at point) D.
-And let DA and DB have been joined, and let DF E have been drawn through.
+For (if) not then, if possible, let it fall outside (the circle), like {AEB given} (in the figure).
+And let the center of the circle {ABC circle D} have been found [Prop. 3.1], and let it be (at point) {D point}.
+And let {DA line} and {DB line} have been joined, and let {DFE line} have been drawn through.
 
-Therefore, since DA is equal to DB, the angle DAE (is) thus also equal to DBE [Prop. 1.5].
-And since in triangle DAE the one side, AEB, has been produced, an- gle DEB (is) thus greater than DAE [Prop. 1.16].
-And DAE (is) equal to DBE [Prop. 1.5].
-Thus, DEB (is) greater than DBE.
+Therefore, since {DA line} is equal to {DB line}, the angle {DAE given} (is) thus also equal to {DBE given} [Prop. 1.5].
+And since in triangle {AED given} the one side, {AEB given}, has been produced, angle {DEB given} (is) thus greater than {DAE given} [Prop. 1.16].
+And {DAE given} (is) equal to {DBE given} [Prop. 1.5].
+Thus, {DEB given} (is) greater than {DBE given}.
 And the greater angle is subtended by the greater side [Prop. 1.19].
-Thus, DB (is) greater than DE.
-And DB (is) equal to DF.
-Thus, DF (is) greater than DE, the lesser than the greater.
+Thus, {DB line} (is) greater than {DE line}.
+And {DB line} (is) equal to {DF line}.
+Thus, {DF line} (is) greater than {DE line}, the lesser than the greater.
 The very thing is impossible.
-Thus, the straight-line joining A to B will not fall outside the circle.
+Thus, the straight-line joining {A point} to {B point} will not fall outside the circle.
 So, similarly, we can show that neither (will it fall) on the circumference itself.
 Thus, (it will fall) inside (the circle).
 

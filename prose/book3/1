@@ -1,27 +1,28 @@
 To find the center of a given circle.
 
-Let ABC be the given circle. So it is required to find the center of circle ABC.
+Let {ABC circle F} be the given circle.
+So it is required to find the center of circle {ABC circle F}.
 
-Let some straight-line AB have been drawn through (ABC), at random, and let (AB) have been cut in half at point D [Prop. 1.9].
-And let DC have been drawn from D, at right-angles to AB [Prop. 1.11].
-And let (CD) have been drawn through to E.
-And let CE have been cut in half at F [Prop. 1.9].
-I say that (point) F is the center of the [circle] ABC.
+Let some straight-line {AB line} have been drawn through ({ABC circle F}), at random, and let ({AB line}) have been cut in half at point {D point} [Prop. 1.9].
+And let {DC line} have been drawn from {D point}, at right-angles to {AB line} [Prop. 1.11].
+And let ({CD line}) have been drawn through to {E point}.
+And let {CE line} have been cut in half at {F point} [Prop. 1.9].
+I say that (point) {F point} is the center of the [circle] {ABC circle F}.
 
-For (if) not then, if possible, let G (be the center of the circle), and let GA, GD, and GB have been joined.
-And since AD is equal to DB, and DG (is) common, the two (straight-lines) AD, DG are equal to the two (straight-lines) BD, DG, respectively.
-And the base GA is equal to the base GB.
+For (if) not then, if possible, let {G point} (be the center of the circle), and let {GA line}, {GD line}, and {GB line} have been joined.
+And since {AD line} is equal to {DB line}, and {DG line} (is) common, the two (straight-lines) {AD line}, {DG line} are equal to the two (straight-lines) {BD line}, {DG line}, respectively.
+And the base {GA line} is equal to the base {GB line}.
 For (they are both) radii.
-Thus, angle ADG is equal to angle GDB [Prop. 1.8].
-And when a straight-line stood upon (another) straight-line make ad- jacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
-Thus, GDB is a right-angle.
-And FDB is also a right-angle.
-Thus, FDB (is) equal to GDB, the greater to the lesser.
+Thus, angle {ADG angle} is equal to angle {GDB angle} [Prop. 1.8].
+And when a straight-line stood upon (another) straight-line make adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
+Thus, {GDB angle} is a right-angle.
+And {FDB angle} is also a right-angle.
+Thus, {FDB angle} (is) equal to {GDB angle}, the greater to the lesser.
 The very thing is impossible.
-Thus, (point) G is not the center of the circle ABC.
-So, similarly, we can show that neither is any other (point) except F.
+Thus, (point) {G point} is not the center of the circle {ABC circle F}.
+So, similarly, we can show that neither is any other (point) except {F point}.
 
-Thus, point F is the center of the [circle] ABC.
+Thus, point {F point} is the center of the [circle] {ABC circle F}.
 
 Corollary
 
