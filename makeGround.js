@@ -107,7 +107,7 @@ function makeGround(ps, rg, svg)
 
     svg.innerHTML = "";
 
-    function drawFigure(figure, highlightFigure)
+    function drawFigure(figure, highlightFigure, smallLetters)
     {
       let shapes = [...figure.shapes];
 
@@ -148,7 +148,7 @@ function makeGround(ps, rg, svg)
       for(var i in figure.letters)
       {
         let letter = figure.letters[i];
-        let shouldBeSmall = figure.smallletters && figure.smallletters.indexOf(i) > -1;
+        let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
         let offset;
         var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
         el.setAttribute('font-family', 'Futura');
@@ -190,13 +190,13 @@ function makeGround(ps, rg, svg)
     }
     if(!p.figures)
     {
-      drawFigure(p, true)
+      drawFigure(p, true, false)
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        drawFigure(p.figures[i], figureIndex == 0 || figureIndex == i+1);
+        drawFigure(p.figures[i], figureIndex == 0 || figureIndex == i+1, true);
       }
     }
 

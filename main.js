@@ -5,7 +5,7 @@ import makeGround from './makeGround.js';
 const svg = document.getElementById('figure');
 const rg = makeRG(svg);
 
-import book from './book3.js';
+import book from './book4.js';
 
 function processProse(t)
 {
@@ -17,14 +17,29 @@ let ps = book(rg).map((f, ind) => {
   p.title = 'Proposition ' + (ind+1);
   p.prose = processProse(p.prose);
   p.img = 'img/' + (ind+1) + '.png';
-  if(p.shapes.length == 0)
+  function letterAllPoints(f)
   {
-    for(var i in p.points)
+    for(var i in f.points)
     {
-      let pt = p.points[i];
-      p.letters[i] = [0];
-      p.shapes.push(rg.circle(pt, 5, {strokeWidth: 2}));
+      let pt = f.points[i];
+      f.letters[i] = [0];
+      f.shapes.push(rg.circle(pt, 5, {strokeWidth: 2}));
     }
+  }
+  if(p.figures)
+  {
+    for(var i = 0; i<p.figures.length; i++)
+    {
+      let figure = p.figures[i];
+      if(figure.shapes.length == 0)
+      {
+        letterAllPoints(p.figures[i]);
+      }
+    }
+  }
+  else if(p.shapes.length == 0)
+  {
+    letterAllPoints(p);
   }
   return p;
 } );
