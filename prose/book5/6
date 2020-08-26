@@ -1,0 +1,25 @@
+If two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
+
+For let two magnitudes AB and CD be equal multiples of two magnitudes E and F (respectively).
+And let the (parts) taken away (from the former) AG and CH be equal multiples of E and F (respectively).
+I say that the remainders GB and HD are also either equal to E and F (respectively), or (are) equal multiples of them.
+
+For let GB be, first of all, equal to E.
+I say that HD is also equal to F.
+
+For let CK be made equal to F.
+Since AG and CH are equal multiples of E and F (respectively), and GB (is) equal to E, and KC to F, AB and KH are thus equal multiples of E and F (respectively) [Prop. 5.2].
+And AB and CD are assumed (to be) equal multiples of E and F (respectively).
+Thus, K H and C D are equal multiples of F and F (respectively).
+Therefore, KH and CD are each equal multiples of F.
+Thus, KH is equal to CD.
+Let CH have be taken away from both.
+Thus, the remainder KC is equal to the remainder HD.
+But, F is equal to KC.
+Thus, HD is also equal to F.
+Hence, if GB is equal to E then HD will also be equal to F.
+
+So, similarly, we can show that even if GB is a multiple of E then HD will also be the same multiple of F.
+
+Thus, if two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
+(Which is) the very thing it was required to show.

@@ -1,0 +1,26 @@
+If composed magnitudes are proportional then they will also be proportional (when) separarted.
+
+Let AB, BE, CD, and DF be composed magnitudes (which are) proportional, (so that) as AB (is) to BE, so CD (is) to DF.
+I say that they will also be proportional (when) separated, (so that) as AE (is) to EB, so CF (is) to DF.
+
+For let the equal multiples GH, HK, LM, and MN have been taken of AE, EB, CF, and FD (respectively), and the other random equal multiples KO and NP of EB and FD (respectively).
+
+And since GH and HK are equal multiples of AE and EB (respectively), GH and GK are thus equal multiples of AE and AB (respectively) [Prop. 5.1].
+But GH and LM are equal multiples of AE and CF (respectively).
+Thus, GK and LM are equal multiples of AB and CF (respectively).
+Again, since LM and MN are equal multiples of CF and FD (respectively), LM and LN are thus equal multiples of C F and C D (respectively) [Prop. 5.1].
+And LM and GK were equal multiples of CF and AB (respectively).
+Thus, GK and LN are equal multiples of AB and CD (respectively).
+Thus, GK, LN are equal multiples of AB, CD.
+Again, since HK and MN are equal multiples of EB and FD (respectively), and KO and NP are also equal multiples of EB and FD (respectively), then, added together, HO and MP are also equal multiples of EB and FD (respectively) [Prop. 5.2].
+And since as AB (is) to BE, so CD (is) to DF, and the equal multiples GK, LN have been taken of AB, CD, and the equal multiples HO, MP of EB, FD, thus if GK exceeds HO then LN also exceeds MP, and if (GK is) equal (to HO then LN is also) equal (to MP), and if (GK is) less (than H O then LN is also) less (than MP) [Def. 5.5].
+So let GK exceed H O, and thus, H K being taken away from both, GH exceeds KO.
+But (we saw that) if GK was exceeding HO then LN was also exceeding MP.
+Thus, LN also exceeds MP, and, MN being taken away from both, LM also exceeds NP.
+Hence, if GH exceeds KO then LM also exceeds NP.
+So, similarly, we can show that even if GH is equal to KO then LM will also be equal to NP, and even if (GH is) less (than KO then LM will also be) less (than NP).
+And GH, LM are equal multiples of AE, CF, and KO, NP other random equal multiples of EB, FD.
+Thus, as AE is to EB, so CF (is) to FD [Def. 5.5].
+
+Thus, if composed magnitudes are proportional then they will also be proportional (when) separated.
+(Which is) the very thing it was required to show.
