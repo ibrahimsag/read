@@ -25,6 +25,8 @@ function()
   const r = 150;
   const d = 100;
   const D = [300, 40];
+  const Da = vec2.sub(D, [d/2,0]);
+  const Db = vec2.add(D, [d/2,0]);
   const G = [200, 250];
   const w = [r, 0];
   const B = vec2.sub(G, w);
@@ -38,9 +40,23 @@ function()
   return {
     prose: prop1,
     points: { A, B, C, D, E, F, G },
+    given: {
+      D: () => [rg.line(Da, Db)],
+    },
     shapes: [
+      rg.circle(G, 2*r),
+      rg.circle(C, 2*d),
+      rg.line(A, C),
+      rg.line(B, C),
+      rg.line(Da, Db)
     ],
     letters: {
+      A: [0.8],
+      B: [3],
+      C: [-1],
+      D: [1],
+      E: [2],
+      F: [-3]
     }
   }
 },
@@ -48,8 +64,8 @@ function()
 function()
 {
   const r = 100;
-  const O = [150, 200];
-  const P = vec2.add(O, [r*2.5, -20]);
+  const O = [180, 200];
+  const P = vec2.add(O, [r*2.0, -20]);
   const w = [1, 0];
   const uoa = vec2.rot(w, Math.PI*0.6);
   const uob = vec2.rot(w, -Math.PI*0.7);
@@ -68,8 +84,20 @@ function()
     prose: prop2,
     points: { A, B, C, D, E, F, O, G, H },
     shapes: [
+      rg.circle(O, 2*r),
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.line(G, H)
     ],
     letters: {
+      A: [-3.5],
+      B: [2],
+      C: [-1],
+      D: [3],
+      E: [1],
+      F: [-1],
+      G: [3],
+      H: [-1]
     }
   }
 },
@@ -91,7 +119,7 @@ function()
   const L = vec2.add(K, kl);
   const M = vec2.add(K, km);
   const N = vec2.add(K, kn);
-  const P = vec2.add(K, [150, -80]);
+  const P = vec2.add(K, [150, -60]);
   let u = (v) => vec2.rot(vec2.scale(v, 0.3), Math.PI);
   const D = vec2.add(P, u(kl));
   const E = vec2.add(P, u(km));
@@ -103,8 +131,30 @@ function()
   return {
     prose: prop3,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, P },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(K, 2*r),
+      rg.polygon([L, M, N]),
+      rg.line(G, H),
+      rg.line(D, E),
+      rg.line(D, F),
+      rg.line(K, A),
+      rg.line(K, B),
+      rg.line(K, C),
+    ],
+    letters: {
+      A: [2],
+      B: [0],
+      C: [-3],
+      D: [-1],
+      E: [-1.4],
+      F: [1],
+      G: [-1.5],
+      H: [1],
+      K: [-1.5],
+      L: [-3],
+      M: [1],
+      N: [-3],
+    }
   };
 },
 
@@ -121,22 +171,38 @@ function()
   const G = vec2.add(D, dg);
   const E = vec2.add(D, vec2.rot(w, theta));
   let f = (a, v) => vec2.scale(vec2.rot(v, a), 1/Math.cos(a))
-  const ds = [f(theta/2, w), f(gamma, dg), f(alpha/2, w)];
+  const ds = [f(gamma, dg), f(theta/2, w), f(alpha/2, w)];
   const [A, B, C] = ds.map(v => vec2.add(D, v));
 
   return {
     prose: prop4,
     points: { A, B, C, D, E, F, G },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(D, 2*r),
+      rg.polygon([A, B, C]),
+      rg.line(D, B),
+      rg.line(D, C),
+      rg.line(D, E),
+      rg.line(D, F),
+      rg.line(D, G),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-1],
+      D: [1],
+      E: [2],
+      F: [-3],
+      G: [0]
+    }
   };
 },
 
 function()
 {
-  const r = 60;
-  const dist = 150;
-  const O = [120, 120];
+  const r = 70;
+  const dist = 170;
+  const O = [80, 120];
 
   return {
     prose: prop5,
@@ -153,8 +219,23 @@ function()
 
         return {
           points: { A, B, C, D, E, F },
-          shapes: [],
-          letters: {}
+          shapes: [
+            rg.circle(F, 2*r),
+            rg.polygon([A, B, C]),
+            rg.line(F, A),
+            rg.line(F, B),
+            rg.line(F, C),
+            rg.line(F, D),
+            rg.line(F, E),
+          ],
+          letters: {
+            A: [1],
+            B: [4],
+            C: [-1.5],
+            D: [2],
+            E: [0],
+            F: [-3]
+          }
         };
       })(),
       (function()
@@ -169,8 +250,23 @@ function()
 
         return {
           points: { A, B, C, D, E, F },
-          shapes: [],
-          letters: {}
+          shapes: [
+            rg.circle(F, 2*r),
+            rg.polygon([A, B, C]),
+            rg.line(F, A),
+            rg.line(F, B),
+            rg.line(F, C),
+            rg.line(F, D),
+            rg.line(F, E),
+          ],
+          letters: {
+            A: [1],
+            B: [3],
+            C: [-1.5],
+            D: [2],
+            E: [0],
+            F: [-3]
+          }
         };
       })(),
       (function()
@@ -185,8 +281,23 @@ function()
 
         return {
           points: { A, B, C, D, E, F },
-          shapes: [],
-          letters: {}
+          shapes: [
+            rg.circle(F, 2*r),
+            rg.polygon([A, B, C]),
+            rg.line(F, A),
+            rg.line(F, B),
+            rg.line(F, C),
+            rg.line(F, D),
+            rg.line(F, E),
+          ],
+          letters: {
+            A: [1],
+            B: [2],
+            C: [-1.5],
+            D: [2],
+            E: [0],
+            F: [-3]
+          }
         };
       })(),
     ]
@@ -206,8 +317,19 @@ function()
   return {
     prose: prop6,
     points: { A, B, C, D, E },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(E, 2*r),
+      rg.polygon([A, B, C, D]),
+      rg.line(A, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-3],
+      D: [-1],
+      E: [0],
+    }
   };
 },
 
@@ -228,8 +350,23 @@ function()
   return {
     prose: prop7,
     points: { A, B, C, D, E, F, G, H, K },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(E, 2*r),
+      rg.polygon([F, G, H, K]),
+      rg.line(A, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-3],
+      D: [-1],
+      E: [2, 1.3],
+      F: [1],
+      G: [1],
+      H: [-3],
+      K: [-3]
+    }
   };
 },
 
@@ -250,8 +387,23 @@ function()
   return {
     prose: prop8,
     points: { A, B, C, D, E, F, G, H, K },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(G, 2*r),
+      rg.polygon([A, B, C, D]),
+      rg.line(F, K),
+      rg.line(E, H),
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [1],
+      F: [3],
+      G: [1.7],
+      H: [-3],
+      K: [-1],
+    }
   };
 },
 
@@ -268,8 +420,19 @@ function()
   return {
     prose: prop9,
     points: { A, B, C, D, E },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(E, 2*r),
+      rg.polygon([A, B, C, D]),
+      rg.line(A, C),
+      rg.line(B, D),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-3],
+      D: [-1],
+      E: [0, 1.3],
+    }
   };
 },
 
@@ -290,8 +453,19 @@ function()
   return {
     prose: prop10,
     points: { A, B, C, D, E, O },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(A, 2*r),
+      rg.circle(O, 2*o),
+      rg.polygon([A, B, D]),
+      rg.line(C, D)
+    ],
+    letters: {
+      A: [3],
+      B: [0],
+      C: [1.5],
+      D: [0],
+      E: [-2],
+    }
   };
 },
 
@@ -307,32 +481,68 @@ function()
   return {
     prose: prop11,
     points: { A, B, C, D, E, F, G, H },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(O, 2*r),
+      rg.polygon([A, B, C, D, E]),
+      rg.polygon([F, G, H]),
+      rg.line(B, D),
+      rg.line(C, E),
+      rg.line(A, D),
+      rg.line(A, C)
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [4],
+      D: [-2],
+      E: [-1],
+      F: [1],
+      G: [-3],
+      H: [-3],
+    }
   };
 },
 
 function()
 {
-  const r = 180;
-  const F = [220, 220];
+  const r = 150;
+  const F = [220, 250];
   const w = [0, -1];
   let f = (r) => (a) => vec2.add(F, vec2.rot([0, -r], -Math.PI * a/5));
-  const [A, B, C, D, E] = [1, 3, 5, 7, 9].map(f(r*Math.cos(Math.PI/5)));
-  const [G, H, K, L, M] = [0, 2, 4, 6, 8].map(f(r));
+  const [A, B, C, D, E] = [1, 3, 5, 7, 9].map(f(r));
+  const [G, H, K, L, M] = [0, 2, 4, 6, 8].map(f(r/Math.cos(Math.PI/5)));
 
   return {
     prose: prop12,
     points: { A, B, C, D, E, F, G, H, K, L, M },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(F, 2*r),
+      rg.polygon([G, H, K, L, M]),
+      rg.line(F, B),
+      rg.line(F, C),
+      rg.line(F, D),
+      rg.line(F, K),
+      rg.line(F, L),
+    ],
+    letters: {
+      A: [2],
+      B: [3.5],
+      C: [-3],
+      D: [-1.5],
+      E: [0],
+      F: [1],
+      G: [1],
+      H: [3],
+      K: [-3],
+      L: [-3]
+    }
   };
 },
 
 function()
 {
   const r = 180;
-  const F = [220, 220];
+  const F = [220, 250];
   const w = [0, -1];
   let f = (r) => (a) => vec2.add(F, vec2.rot([0, -r], -Math.PI * a/5));
   const [A, B, C, D, E] = [0, 2, 4, 6, 8].map(f(r));
@@ -341,8 +551,23 @@ function()
   return {
     prose: prop13,
     points: { A, B, C, D, E, F, G, H, K, L, M },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(F, 2*r*Math.cos(Math.PI/5)),
+      rg.polygon([A, B, C, D, E]),
+    ].concat([A, B, C, D, E, F, G, H, K, L, M].map((pt) => rg.line(F, pt))),
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-3],
+      D: [-3],
+      E: [-1],
+      F: [-0.3, 3],
+      G: [2],
+      H: [4],
+      K: [-3],
+      L: [-2],
+      M: [0],
+    }
   };
 },
 
@@ -357,8 +582,18 @@ function()
   return {
     prose: prop14,
     points: { A, B, C, D, E, F },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(F, 2*r),
+      rg.polygon([A, B, C, D, E]),
+    ].concat([A, B, C, D, E].map(pt => rg.line(F, pt))),
+    letters: {
+      A: [1],
+      B: [3],
+      C: [4],
+      D: [-2],
+      E: [-1],
+      F: [0.2, 1.2]
+    }
   };
 },
 
@@ -370,32 +605,57 @@ function()
   let f = (r) => (a) => vec2.add(G, vec2.rot(w, Math.PI * a/6));
   const [A, B, C, D, E, F] = [0, 2, 4, 6, 8, 10].map(f(r));
   const H = vec2.sub(D, w);
+  const pts = [A, B, C, D, E, F];
 
   return {
     prose: prop15,
     points: { A, B, C, D, E, F, G, H },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(G, 2*r),
+      rg.circle(D, 2*r),
+      rg.polygon(pts),
+    ].concat(pts.map(pt => rg.line(G, pt))),
+    letters: {
+      A: [3],
+      B: [2],
+      C: [1],
+      D: [-1],
+      E: [-3.2, 1.2],
+      F: [4, 1.3],
+      G: [2.3, 1.3],
+      H: [-1],
+    }
   };
 },
 
 function()
 {
-  const r = 150;
+  const r = 180;
   const O = [256, 256];
   let f = (a) => vec2.add(O, vec2.rot([0, -r], -Math.PI*2*a/15));
-  const ps = [...Array(15).keys()].map(f);
-  const A = ps[0];
-  const B = ps[3];
-  const E = ps[4];
-  const C = ps[5];
-  const D = ps[10];
+  const pts = [...Array(15).keys()].map(f);
+  const A = pts[0];
+  const B = pts[3];
+  const E = pts[4];
+  const C = pts[5];
+  const D = pts[10];
 
   return {
     prose: prop16,
     points: { A, B, C, D, E, O },
-    shapes: [],
-    letters: {}
+    shapes: [
+      rg.circle(O, 2*r),
+      rg.polygon(pts),
+      rg.polygon([0, 1, 2, 3, 4].map(i => pts[i * 3])),
+      rg.polygon([A, C, D]),
+    ],
+    letters: {
+      A: [1],
+      B: [2.5],
+      C: [3.5],
+      D: [-2],
+      E: [3],
+    }
   };
 },
 

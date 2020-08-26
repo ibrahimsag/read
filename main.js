@@ -17,6 +17,7 @@ let ps = book(rg).map((f, ind) => {
   p.title = 'Proposition ' + (ind+1);
   p.prose = processProse(p.prose);
   p.img = 'img/' + (ind+1) + '.png';
+
   function letterAllPoints(f)
   {
     for(var i in f.points)
