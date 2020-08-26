@@ -3,8 +3,12 @@ import colors from './colors.js';
 
 function makeGround(ps, rg, svg)
 {
-  function draw(o, p)
+  function draw(o, i_p)
   {
+    localStorage.last_i = i_p + 1;
+
+    let p = ps[i_p];
+
     let nearHighlights = [];
     let highlight = [];
     let figureIndex = 0;
@@ -94,11 +98,11 @@ function makeGround(ps, rg, svg)
 
     if(o < 0)
     {
-      return draw(refCount, p);
+      return draw(refCount, i_p);
     }
     else if (o >= refCount && refCount > 0)
     {
-      return draw(0, p);
+      return draw(0, i_p);
     }
 
     svg.innerHTML = "";
@@ -196,41 +200,41 @@ function makeGround(ps, rg, svg)
       }
     }
 
-    document.onkeypress = pressHandler(o, p);
-    proseEl.onclick = clickHandler(p);
+    document.onkeypress = pressHandler(o, i_p);
+    proseEl.onclick = clickHandler(i_p);
   }
 
-  function clickHandler(p)
+  function clickHandler(i_p)
   {
     return function(e)
     {
       let ref = parseInt(e.srcElement.dataset.ref);
       if(ref)
       {
-        draw(ref, p);
+        draw(ref, i_p);
       }
     }
   }
 
-  function pressHandler(o, p)
+  function pressHandler(o, i_p)
   {
     return function(e)
     {
       if(e.key == "n")
       {
-        draw(0, ps[(ps.indexOf(p)-1 + ps.length) % ps.length])
+        draw(0, (i_p-1 + ps.length) % ps.length)
       }
       else if(e.key == "m")
       {
-        draw(0, ps[(ps.indexOf(p)+1) % ps.length])
+        draw(0, (i_p+1) % ps.length)
       }
       if(e.key == "j")
       {
-        draw(o + 1, p);
+        draw(o + 1, i_p);
       }
       else if(e.key == "k")
       {
-        draw(o - 1, p);
+        draw(o - 1, i_p);
       }
     }
   }

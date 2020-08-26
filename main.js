@@ -16,10 +16,18 @@ let ps = book(rg).map((f, ind) => {
   let p = f();
   p.title = 'Proposition ' + (ind+1);
   p.prose = processProse(p.prose);
+  p.img = 'img/' + (ind+1) + '.png';
+  if(p.shapes.length == 0)
+  {
+    for(var i in p.points)
+    {
+      let pt = p.points[i];
+      p.letters[i] = [0];
+      p.shapes.push(rg.circle(pt, 5, {strokeWidth: 2}));
+    }
+  }
   return p;
 } );
 let ground = makeGround(ps, rg, svg);
 
-let last_p = ps[ps.length-1];
-last_p.img = 'img/' + (ps.length) + '.png';
-ground.draw(0, last_p);
+ground.draw(0, (parseInt(localStorage.last_i) || ps.length) - 1);
