@@ -5,7 +5,7 @@ import makeGround from './makeGround.js';
 const svg = document.getElementById('figure');
 const rg = makeRG(svg);
 
-import book from './book4.js';
+import book from './book5.js';
 
 function processProse(t)
 {
@@ -14,9 +14,17 @@ function processProse(t)
 
 let ps = book(rg).map((f, ind) => {
   let p = f();
-  p.title = 'Proposition ' + (ind+1);
   p.prose = processProse(p.prose);
-  p.img = 'img/' + (ind+1) + '.png';
+
+  if(ind === 0)
+  {
+    p.title = 'Definitions';
+  }
+  else
+  {
+    p.title = 'Proposition ' + (ind);
+    p.img = 'img/' + (ind) + '.png';
+  }
 
   function letterAllPoints(f)
   {

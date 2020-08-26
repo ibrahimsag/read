@@ -1,5 +1,6 @@
 import vec2 from './vec2.js';
 
+import prop0 from './prose/book2/0';
 import prop1 from './prose/book2/1';
 import prop2 from './prose/book2/2';
 import prop3 from './prose/book2/3';
@@ -18,6 +19,16 @@ import prop14 from './prose/book2/14';
 function book2(rg)
 {
   return [
+function()
+{
+  return {
+    prose: prop0,
+    points: {},
+    shapes: [],
+    letters: {}
+  };
+},
+
 function()
 {
   const a = 200;

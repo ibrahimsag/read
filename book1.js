@@ -1,5 +1,6 @@
 import vec2 from './vec2.js';
 
+import prop0 from './prose/book1/0';
 import prop1 from './prose/book1/1';
 import prop2 from './prose/book1/2';
 import prop3 from './prose/book1/3';
@@ -52,6 +53,16 @@ import prop48 from './prose/book1/48';
 function book1(rg)
 {
   return [
+function()
+{
+  return {
+    prose: prop0,
+    points: {},
+    shapes: [],
+    letters: {}
+  };
+},
+
 function()
 {
   const distanceAB = 160;
