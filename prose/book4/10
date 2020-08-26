@@ -1,30 +1,30 @@
 To construct an isosceles triangle having each of the angles at the base double the remaining (angle).
 
-Let some straight-line AB be taken, and let it have been cut at point C so that the rectangle contained by AB and BC is equal to the square on CA [Prop. 2.11].
-And let the circle BDE have been drawn with center A, and radius AB.
-And let the straight-line BD, equal to the straight-line AC, being not greater than the diameter of circle BDE, have been inserted into circle BDE [Prop. 4.1].
-And let AD and DC have been joined.
-And let the circle ACD have been circumscribed about triangle ACD [Prop. 4.5].
+Let some straight-line {AB line} be taken, and let it have been cut at point {C point} so that the rectangle contained by {AB line} and {BC line} is equal to the square on {CA line} [Prop. 2.11].
+And let the circle {BDE circle A} have been drawn with center {A point}, and radius {AB line}.
+And let the straight-line {BD line}, equal to the straight-line {AC line}, being not greater than the diameter of circle {BDE circle A}, have been inserted into circle {BDE circle A} [Prop. 4.1].
+And let {AD line} and {DC line} have been joined.
+And let the circle {ACD circle O} have been circumscribed about triangle {ACD polygon} [Prop. 4.5].
 
-And since the (rectangle contained) by AB and BC is equal to the (square) on AC, and AC (is) equal to BD, the (rectangle contained) by AB and BC is thus equal to the (square) on BD.
-And since some point B has been taken outside of circle ACD, and two straight-lines BA and BD have radiated from B towards the circle ACD, and (one) of them cuts (the circle), and (the other) meets (the circle), and the (rectangle contained) by AB and BC is equal to the (square) on BD, BD thus touches circle ACD [Prop. 3.37].
-Therefore, since BD touches (the circle), and DC has been drawn across (the circle) from the point of contact D, the angle BDC is thus equal to the angle DAC in the alternate segment of the circle [Prop. 3.32].
-Therefore, since BDC is equal to DAC, let CDA have been added to both.
-Thus, the whole of BDA is equal to the two (angles) CDA and DAC.
-But, the external (angle) BCD is equal to CDA and DAC [Prop. 1.32].
-Thus, BDA is also equal to BCD.
-But, BDA is equal to CBD, since the side AD is also equal to AB [Prop. 1.5].
-So that DBA is also equal to BCD.
-Thus, the three (angles) BDA, DBA, and BCD are equal to one another.
-And since angle DBC is equal to BCD, side BD is also equal to side DC [Prop. 1.6].
-But, BD was assumed (to be) equal to CA.
-Thus, CA is also equal to CD.
-So that angle CDA is also equal to angle DAC [Prop. 1.5].
-Thus, CDA and DAC is double DAC.
-But BCD (is) equal to CDA and DAC.
-Thus, BCD is also double CAD.
-And BCD (is) equal to to each of BDA and DBA.
-Thus, BDA and DBA are each double DAB.
+And since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line}, and {AC line} (is) equal to {BD line}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {BD line}.
+And since some point {B point} has been taken outside of circle {ACD circle O}, and two straight-lines {BA line} and {BD line} have radiated from {B point} towards the circle {ACD circle O}, and (one) of them cuts (the circle), and (the other) meets (the circle), and the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {BD line}, {BD line} thus touches circle {ACD circle O} [Prop. 3.37].
+Therefore, since {BD line} touches (the circle), and {DC line} has been drawn across (the circle) from the point of contact {D point}, the angle {BDC angle} is thus equal to the angle {DAC angle} in the alternate segment of the circle [Prop. 3.32].
+Therefore, since {BDC angle} is equal to {DAC angle}, let {CDA angle} have been added to both.
+Thus, the whole of {BDA angle} is equal to the two (angles) {CDA angle} and {DAC angle}.
+But, the external (angle) {BCD angle} is equal to {CDA angle} and {DAC angle} [Prop. 1.32].
+Thus, {BDA angle} is also equal to {BCD angle}.
+But, {BDA angle} is equal to {CBD angle}, since the side {AD line} is also equal to {AB line} [Prop. 1.5].
+So that {DBA angle} is also equal to {BCD angle}.
+Thus, the three (angles) {BDA angle}, {DBA angle}, and {BCD angle} are equal to one another.
+And since angle {DBC angle} is equal to {BCD angle}, side {BD line} is also equal to side {DC line} [Prop. 1.6].
+But, {BD line} was assumed (to be) equal to {CA line}.
+Thus, {CA line} is also equal to {CD line}.
+So that angle {CDA angle} is also equal to angle {DAC angle} [Prop. 1.5].
+Thus, {CDA angle} and {DAC angle} is double {DAC angle}.
+But {BCD angle} (is) equal to {CDA angle} and {DAC angle}.
+Thus, {BCD angle} is also double {CAD angle}.
+And {BCD angle} (is) equal to to each of {BDA angle} and {DBA angle}.
+Thus, {BDA angle} and {DBA angle} are each double {DAB angle}.
 
-Thus, the isosceles triangle ABD has been constructed having each of the angles at the base BD double the remaining (angle).
+Thus, the isosceles triangle {ABD polygon} has been constructed having each of the angles at the base {BD line} double the remaining (angle).
 (Which is) the very thing it was required to do.

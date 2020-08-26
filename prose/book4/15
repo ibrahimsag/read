@@ -1,41 +1,41 @@
 To inscribe an equilateral and equiangular hexagon in a given circle.
 
-Let ABCDEF be the given circle.
-So it is required to inscribe an equilateral and equiangular hexagon in circle ABCDEF.
+Let {ABCDEF circle G} be the given circle.
+So it is required to inscribe an equilateral and equiangular hexagon in circle {ABCDEF circle G}.
 
-Let the diameter AD of circle ABCDEF have been drawn,† and let the center G of the circle have been found [Prop. 3.1].
-And let the circle EGCH have been drawn, with center D, and radius DG.
-And EG and CG being joined, let them have been drawn across (the circle) to points B and F (respectively).
-And let AB, BC, CD, DE, EF, and FA have been joined.
-I say that the hexagon ABCDEF is equilateral and equiangular.
+Let the diameter {AD line} of circle {ABCDEF circle G} have been drawn, and let the center {G point} of the circle have been found [Prop. 3.1].
+And let the circle {EGCH circle D} have been drawn, with center {D point}, and radius {DG line}.
+And {EG line} and {CG line} being joined, let them have been drawn across (the circle) to points {B point} and {F point} (respectively).
+And let {AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line} have been joined.
+I say that the hexagon {ABCDEF polygon} is equilateral and equiangular.
 
-For since point G is the center of circle ABCDEF, GE is equal to GD.
-Again, since point D is the center of circle GCH, DE is equal to DG.
-But, GE was shown (to be) equal to GD.
-Thus, GE is also equal to ED.
-Thus, triangle EGD is equilateral.
-Thus, its three angles EGD, GDE, and DEG are also equal to one another, inasmuch as the angles at the base of isosceles triangles are equal to one another [Prop. 1.5].
+For since point {G point} is the center of circle {ABCDEF circle G}, {GE line} is equal to {GD line}.
+Again, since point {D point} is the center of circle {GCH circle D}, {DE line} is equal to {DG line}.
+But, {GE line} was shown (to be) equal to {GD line}.
+Thus, {GE line} is also equal to {ED line}.
+Thus, triangle {EGD polygon} is equilateral.
+Thus, its three angles {EGD angle}, {GDE angle}, and {DEG angle} are also equal to one another, inasmuch as the angles at the base of isosceles triangles are equal to one another [Prop. 1.5].
 And the three angles of the triangle are equal to two right-angles [Prop. 1.32].
-Thus, angle EGD is one third of two right-angles.
-So, similarly, DGC can also be shown (to be) one third of two right-angles.
-And since the straight-line CG, standing on EB, makes adjacent angles EGC and CGB equal to two right-angles [Prop. 1.13], the remaining angle CGB is thus also one third of two right-angles.
-Thus, angles EGD, DGC, and CGB are equal to one another.
-And hence the (angles) opposite to them BGA, AGF , and F GE are also equal [to EGD, DGC, and CGB (respectively)] [Prop. 1.15].
-Thus, the six angles EGD, DGC, CGB, BGA, AGF, and FGE are equal to one another.
+Thus, angle {EGD angle} is one third of two right-angles.
+So, similarly, {DGC angle} can also be shown (to be) one third of two right-angles.
+And since the straight-line {CG line}, standing on {EB line}, makes adjacent angles {EGC angle} and {CGB angle} equal to two right-angles [Prop. 1.13], the remaining angle {CGB angle} is thus also one third of two right-angles.
+Thus, angles {EGD angle}, {DGC angle}, and {CGB angle} are equal to one another.
+And hence the (angles) opposite to them {BGA angle}, {AGF angle}, and {FGE angle} are also equal[Prop. 1.15].
+Thus, the six angles {EGD angle}, {DGC angle}, {CGB angle}, {BGA angle}, {AGF angle}, and {FGE angle} are equal to one another.
 And equal angles stand on equal circumferences [Prop. 3.26].
-Thus, the six circumferences AB, BC, CD, DE, EF, and FA are equal to one another.
+Thus, the six circumferences {AB arc G}, {BC arc G}, {CD arc G}, {DE arc G}, {EF arc G}, and {FA arc G} are equal to one another.
 And equal circumferences are subtended by equal straight-lines [Prop. 3.29].
-Thus, the six straight-lines (AB, BC, CD, DE, EF, and FA) are equal to one another.
-Thus, hexagon ABCDEF is equilateral.
+Thus, the six straight-lines ({AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line}) are equal to one another.
+Thus, hexagon {ABCDEF polygon} is equilateral.
 So, I say that (it is) also equiangular.
-For since circumference F A is equal to circumference ED, let circumference ABCD have been added to both.
-Thus, the whole of FABCD is equal to the whole of EDCBA.
-And angle FED stands on circumference FABCD, and angle AF E on circumference EDCBA.
-Thus, angle AFE is equal to DEF [Prop. 3.27].
-Similarly, it can also be shown that the remaining angles of hexagon ABCDEF are individually equal to each of the angles AFE and FED.
-Thus, hexagon ABCDEF is equiangular.
+For since circumference {FA arc G} is equal to circumference {ED arcc G}, let circumference {ABCD arc G} have been added to both.
+Thus, the whole of {FABCD arc G} is equal to the whole of {EDCBA arcc G}.
+And angle {FED angle} stands on circumference {FABCD arc G}, and angle {AFE angle} on circumference {EDCBA arcc G}.
+Thus, angle {AFE angle} is equal to {DEF angle} [Prop. 3.27].
+Similarly, it can also be shown that the remaining angles of hexagon {ABCDEF polygon} are individually equal to each of the angles {AFE angle} and {FED angle}.
+Thus, hexagon {ABCDEF polygon} is equiangular.
 And it was also shown (to be) equilateral.
-And it has been inscribed in circle ABCDE.
+And it has been inscribed in circle {ABCDE circle G}.
 
 Thus, an equilateral and equiangular hexagon has been inscribed in the given circle.
 (Which is) the very thing it was required to do.

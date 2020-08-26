@@ -1,15 +1,15 @@
 To inscribe an equilateral and equiangular fifteen-sided figure in a given circle.
 
-Let ABCD be the given circle.
-So it is required to inscribe an equilateral and equiangular fifteen-sided figure in circle ABCD.
+Let {ABCD circle O} be the given circle.
+So it is required to inscribe an equilateral and equiangular fifteen-sided figure in circle {ABCD circle O}.
 
-Let the side AC of an equilateral triangle inscribed in (the circle) [Prop. 4.2], and (the side) AB of an (inscribed) equilateral pentagon [Prop. 4.11], have been inscribed in circle ABCD.
-Thus, just as the circle ABCD is (made up) of fifteen equal pieces, the circumference ABC, being a third of the circle, will be (made up) of five such (pieces), and the circumference AB, being a fifth of the circle, will be (made up) of three.
-Thus, the remainder BC (will be made up) of two equal (pieces).
-Let (circumference) BC have been cut in half at E [Prop. 3.30].
-Thus, each of the circumferences BE and EC is one fifteenth of the circle ABCDE.
+Let the side {AC line} of an equilateral triangle inscribed in (the circle) [Prop. 4.2], and (the side) {AB line} of an (inscribed) equilateral pentagon [Prop. 4.11], have been inscribed in circle {ABCD circle O}.
+Thus, just as the circle {ABCD circle O} is (made up) of fifteen equal pieces, the circumference {ABC arcc O}, being a third of the circle, will be (made up) of five such (pieces), and the circumference {AB arcc O}, being a fifth of the circle, will be (made up) of three.
+Thus, the remainder {BC arcc O} (will be made up) of two equal (pieces).
+Let (circumference) {BC arcc O} have been cut in half at {E point} [Prop. 3.30].
+Thus, each of the circumferences {BE arcc O} and {EC arcc O} is one fifteenth of the circle {ABCDE circle O}.
 
-Thus, if, joining BE and EC, we continuously insert straight-lines equal to them into circle ABCD[E] [Prop. 4.1], then an equilateral and equiangular fifteen-sided figure will have been inserted into (the circle).
+Thus, if, joining {BE line} and {EC line}, we continuously insert straight-lines equal to them into circle {ABCD circle O} [Prop. 4.1], then an equilateral and equiangular fifteen-sided figure will have been inserted into (the circle).
 (Which is) the very thing it was required to do.
 
 And similarly to the pentagon, if we draw tangents to the circle through the (fifteenfold) divisions of the (circumference of the) circle, we can circumscribe an equilateral and equiangular fifteen-sided figure about the circle.

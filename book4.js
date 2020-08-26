@@ -119,7 +119,7 @@ function()
   const L = vec2.add(K, kl);
   const M = vec2.add(K, km);
   const N = vec2.add(K, kn);
-  const P = vec2.add(K, [150, -60]);
+  const P = vec2.add(K, [150, -80]);
   let u = (v) => vec2.rot(vec2.scale(v, 0.3), Math.PI);
   const D = vec2.add(P, u(kl));
   const E = vec2.add(P, u(km));
@@ -146,8 +146,8 @@ function()
       B: [0],
       C: [-3],
       D: [-1],
-      E: [-1.4],
-      F: [1],
+      E: [4],
+      F: [3.8, 1.2],
       G: [-1.5],
       H: [1],
       K: [-1.5],
@@ -361,7 +361,7 @@ function()
       B: [3],
       C: [-3],
       D: [-1],
-      E: [2, 1.3],
+      E: [0.2],
       F: [1],
       G: [1],
       H: [-3],
@@ -480,7 +480,7 @@ function()
 
   return {
     prose: prop11,
-    points: { A, B, C, D, E, F, G, H },
+    points: { A, B, C, D, E, F, G, H, O },
     shapes: [
       rg.circle(O, 2*r),
       rg.polygon([A, B, C, D, E]),

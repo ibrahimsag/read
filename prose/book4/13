@@ -1,30 +1,30 @@
 To inscribe a circle in a given pentagon, which is equilateral and equiangular.
 
-Let ABCDE be the given equilateral and equiangular pentagon.
-So it is required to inscribe a circle in pentagon ABCDE.
+Let {ABCDE polygon} be the given equilateral and equiangular pentagon.
+So it is required to inscribe a circle in pentagon {ABCDE polygon}.
 
-For let angles BCD and CDE have each been cut in half by each of the straight-lines CF and DF (respectively) [Prop. 1.9].
-And from the point F, at which the straight-lines CF and DF meet one another, let the straight-lines FB, FA, and FE have been joined.
-And since BC is equal to CD, and CF (is) common, the two (straight-lines) BC, CF are equal to the two (straight-lines) DC, CF.
-And angle BCF [is] equal to angle DCF.
-Thus, the base BF is equal to the base DF, and triangle BCF is equal to triangle DCF, and the remaining angles will be equal to the (corresponding) remaining angles which the equal sides subtend [Prop. 1.4].
-Thus, angle CBF (is) equal to CDF.
-And since CDE is double CDF, and CDE (is) equal to ABC, and CDF to CBF, CBA is thus also double CBF.
-Thus, angle ABF is equal to FBC.
-Thus, angle ABC has been cut in half by the straight-line BF.
-So, similarly, it can be shown that BAE and AED have been cut in half by the straight-lines FA and FE, respectively.
-So let FG, FH, FK, FL, and FM have been drawn from point F, perpendicular to the straight-lines AB, BC, CD, DE, and EA (respectively) [Prop. 1.12].
-And since angle HCF is equal to KCF, and the right-angle FHC is also equal to the [right-angle] FKC, FHC and FKC are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) FC, subtending one of the equal angles.
+For let angles {BCD angle} and {CDE angle} have each been cut in half by each of the straight-lines {CF line} and {DF line} (respectively) [Prop. 1.9].
+And from the point {F point}, at which the straight-lines {CF line} and {DF line} meet one another, let the straight-lines {FB line}, {FA line}, and {FE line} have been joined.
+And since {BC line} is equal to {CD line}, and {CF line} (is) common, the two (straight-lines) {BC line}, {CF line} are equal to the two (straight-lines) {DC line}, {CF line}.
+And angle {BCF angle} [is] equal to angle {DCF angle}.
+Thus, the base {BF line} is equal to the base {DF line}, and triangle {BCF polygon} is equal to triangle {DCF polygon}, and the remaining angles will be equal to the (corresponding) remaining angles which the equal sides subtend [Prop. 1.4].
+Thus, angle {CBF angle} (is) equal to {CDF angle}.
+And since {CDE angle} is double {CDF angle}, and {CDE angle} (is) equal to {ABC angle}, and {CDF angle} to {CBF angle}, {CBA angle} is thus also double {CBF angle}.
+Thus, angle {ABF angle} is equal to {FBC angle}.
+Thus, angle {ABC angle} has been cut in half by the straight-line {BF line}.
+So, similarly, it can be shown that {BAE angle} and {AED angle} have been cut in half by the straight-lines {FA line} and {FE line}, respectively.
+So let {FG line}, {FH line}, {FK line}, {FL line}, and {FM line} have been drawn from point {F point}, perpendicular to the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, and {EA line} (respectively) [Prop. 1.12].
+And since angle {HCF angle} is equal to {KCF angle}, and the right-angle {FHC angle} is also equal to the [right-angle] {FKC angle}, {FHC polygon} and {FKC polygon} are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) {FC line}, subtending one of the equal angles.
 Thus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].
-Thus, the perpendicular FH (is) equal to the perpendicular FK.
-So, similarly, it can be shown that FL, FM, and FG are each equal to each of FH and FK.
-Thus, the five straight-lines FG, FH, FK, FL, and FM are equal to one another.
-Thus, the circle drawn with center F, and radius one of G, H, K, L, or M, will also go through the remaining points, and will touch the straight-lines AB, BC, CD, DE, and EA, on account of the angles at points G, H, K, L, and M being right-angles.
+Thus, the perpendicular {FH line} (is) equal to the perpendicular {FK line}.
+So, similarly, it can be shown that {FL line}, {FM line}, and {FG line} are each equal to each of {FH line} and {FK line}.
+Thus, the five straight-lines {FG line}, {FH line}, {FK line}, {FL line}, and {FM line} are equal to one another.
+Thus, the circle drawn with center {F point}, and radius one of {G point}, {H point}, {K point}, {L point}, or {M point}, will also go through the remaining points, and will touch the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, and {EA line}, on account of the angles at points {G point}, {H point}, {K point}, {L point}, and {M point} being right-angles.
 For if it does not touch them, but cuts them, it follows that a (straight-line) drawn at right-angles to the diameter of the circle, from its extremity, falls inside the circle.
 The very thing was shown (to be) absurd [Prop. 3.16].
-Thus, the circle drawn with center F, and radius one of G, H, K, L, or M, does not cut the straight-lines AB, BC, CD, DE, or EA.
+Thus, the circle drawn with center {F point}, and radius one of {G point}, {H point}, {K point}, {L point}, or {M point}, does not cut the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, or {EA line}.
 Thus, it will touch them.
-Let it have been drawn, like GHKLM (in the figure).
+Let it have been drawn, like {GHKLM circle F} (in the figure).
 
 Thus, a circle has been inscribed in the given pentagon which is equilateral and equiangular.
 (Which is) the very thing it was required to do.

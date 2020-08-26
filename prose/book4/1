@@ -1,17 +1,17 @@
 To insert a straight-line equal to a given straight-line into a circle, (the latter straight-line) not being greater than the diameter of the circle.
 
-Let ABC be the given circle, and D the given straight-line (which is) not greater than the diameter of the circle.
-So it is required to insert a straight-line, equal to the straight-line D, into the circle ABC.
+Let {ABC circle G} be the given circle, and {D given} the given straight-line (which is) not greater than the diameter of the circle.
+So it is required to insert a straight-line, equal to the straight-line {D given}, into the circle {ABC circle G}.
 
-Let a diameter BC of circle ABC have been drawn.
-Therefore, if BC is equal to D then that (which) was prescribed has taken place.
-For the (straight-line) BC, equal to the straight-line D, has been inserted into the circle ABC.
-And if BC is greater than D then let CE be made equal to D [Prop. 1.3], and let the circle EAF have been drawn with center C and radius CE.
-And let CA have been joined.
+Let a diameter {BC line} of circle {ABC circle G} have been drawn.
+Therefore, if {BC line} is equal to {D given} then that (which) was prescribed has taken place.
+For the (straight-line) {BC line}, equal to the straight-line {D given}, has been inserted into the circle {ABC circle G}.
+And if {BC line} is greater than {D given} then let {CE line} be made equal to {D given} [Prop. 1.3], and let the circle {EAF circle C} have been drawn with center {C point} and radius {CE line}.
+And let {CA line} have been joined.
 
-Therefore, since the point C is the center of circle EAF, CA is equal to CE.
-But, CE is equal to D.
-Thus, D is also equal to CA.
+Therefore, since the point {C point} is the center of circle {EAF circle C}, {CA line} is equal to {CE line}.
+But, {CE line} is equal to {D given}.
+Thus, {D given} is also equal to {CA line}.
 
-Thus, CA, equal to the given straight-line D, has been inserted into the given circle ABC.
+Thus, {CA line}, equal to the given straight-line {D given}, has been inserted into the given circle {ABC circle G}.
 (Which is) the very thing it was required to do.

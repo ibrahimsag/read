@@ -1,32 +1,32 @@
 To circumscribe a circle about a given triangle.
 
-Let ABC be the given triangle.
-So it is required to circumscribe a circle about the given triangle ABC.
+Let {ABC polygon} be the given triangle.
+So it is required to circumscribe a circle about the given triangle {ABC polygon}.
 
-Let the straight-lines AB and AC have been cut in half at points D and E (respectively) [Prop. 1.10].
-And let DF and EF have been drawn from points D and E, at right-angles to AB and AC (respectively) [Prop. 1.11].
-So (DF and EF ) will surely either meet inside triangle ABC, on the straight-line BC, or beyond BC.
+Let the straight-lines {AB line} and {AC line} have been cut in half at points {D point} and {E point} (respectively) [Prop. 1.10].
+And let {DF line} and {EF line} have been drawn from points {D point} and {E point}, at right-angles to {AB line} and {AC line} (respectively) [Prop. 1.11].
+So ({DF line} and {EF line} ) will surely either meet inside triangle {ABC polygon}, on the straight-line {BC line}, or beyond {BC line}.
 
-Let them, first of all, meet inside (triangle ABC) at (point) F, and let FB, FC, and FA have been joined.
-And since AD is equal to DB, and DF is common and at right-angles, the base AF is thus equal to the base FB [Prop. 1.4].
-So, similarly, we can show that CF is also equal to AF.
-So that FB is also equal to FC.
-Thus, the three (straight-lines) FA, FB, and FC are equal to one another.
-Thus, the circle drawn with center F, and radius one of A, B, or C, will also go through the remaining points.
-And the circle will have been circumscribed about triangle ABC.
-Let it have been (so) circumscribed, like ABC (in the first diagram from the left).
+{figure 1}Let them, first of all, meet inside (triangle {ABC polygon}) at (point) {F point}, and let {FB line}, {FC line}, and {FA line} have been joined.
+And since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {FB line} [Prop. 1.4].
+So, similarly, we can show that {CF line} is also equal to {AF line}.
+So that {FB line} is also equal to {FC line}.
+Thus, the three (straight-lines) {FA line}, {FB line}, and {FC line} are equal to one another.
+Thus, the circle drawn with center {F point}, and radius one of {A point}, {B point}, or {C point}, will also go through the remaining points.
+And the circle will have been circumscribed about triangle {ABC polygon}.
+Let it have been (so) circumscribed, like {ABC circle F} (in the first diagram from the left).
 
-And so, let DF and EF meet on the straight-line BC at (point) F, like in the second diagram (from the left).
-And let AF have been joined.
-So, similarly, we can show that point F is the center of the circle circumscribed about triangle ABC.
+{figure 2}And so, let {DF line} and {EF line} meet on the straight-line {BC line} at (point) {F point}, like in the second diagram (from the left).
+And let {AF line} have been joined.
+So, similarly, we can show that point {F point} is the center of the circle circumscribed about triangle {ABC polygon}.
 
-And so, let DF and EF meet outside triangle ABC, again at (point) F, like in the third diagram (from the left).
-And let AF, BF, and CF have been joined.
-And, again, since AD is equal to DB, and DF is common and at right-angles, the base AF is thus equal to the base BF [Prop. 1.4].
-So, similarly, we can show that CF is also equal to AF.
-So that BF is also equal to FC.
-Thus, [again] the circle drawn with center F, and radius one of FA, FB, and FC, will also go through the remaining points.
-And it will have been circumscribed about triangle ABC.
+{figure 3}And so, let {DF line} and {EF line} meet outside triangle {ABC polygon}, again at (point) {F point}, like in the third diagram (from the left).
+And let {AF line}, {BF line}, and {CF line} have been joined.
+And, again, since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {BF line} [Prop. 1.4].
+So, similarly, we can show that {CF line} is also equal to {AF line}.
+So that {BF line} is also equal to {FC line}.
+Thus, [again] the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, and {FC line}, will also go through the remaining points.
+And it will have been circumscribed about triangle {ABC polygon}.
 
 Thus, a circle has been circumscribed about the given triangle.
 (Which is) the very thing it was required to do.
