@@ -42,21 +42,41 @@ function()
 
 function()
 {
+  const e = 70;
+  const f = 90;
+
   return {
     prose: prop1,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: e, p: [50, 50] },
+      { l: 'G', m: e },
+      { l: 'B' },
+      { l: 'E', m: e, v: 50 },
+      { l: 'C', m: f, p: [250, 50] },
+      { l: 'H', m: f },
+      { l: 'D' },
+      { l: 'F', m: f, v: 50 },
+    ],
   };
 },
 
 function()
 {
+  const c = 50;
+  const f = 80;
+
   return {
     prose: prop2,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: c, n: 3, p: [50, 50] },
+      { l: 'B', m: c, n: 2 },
+      { l: 'G' },
+      { l: 'C', m: c, v: 50 },
+      { l: 'D', m: f, n: 3, v: 70 },
+      { l: 'E', m: f, n: 2 },
+      { l: 'H' },
+      { l: 'F', m: f, v: 50 },
+    ]
   };
 },
 

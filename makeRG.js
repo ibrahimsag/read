@@ -61,6 +61,13 @@ function makeRG (svgEl)
     return arc(c, d, e, {strokeLineDash: [5, 4]});
   }
 
+  function tick(pt)
+  {
+    let w = [0, 5];
+    let a = vec2.sub(pt, w), b = vec2.add(pt, w);
+    return line(a, b);
+  }
+
   function makeHighlight(p, name, typ, arg1) {
     if(typ === 'point')
     {
@@ -129,7 +136,7 @@ function makeRG (svgEl)
       console.error('Unknown highlight: ', typ, name);
     }
   }
-  return { arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
+  return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
 export default makeRG;
