@@ -5,8 +5,6 @@ import makeGround from './makeGround.js';
 const svg = document.getElementById('figure');
 const rg = makeRG(svg);
 
-import book from './book5.js';
-
 function processProse(t)
 {
   return t.split('\n\n').map(p => p.split('\n'));
@@ -66,7 +64,7 @@ function processMags(p)
   return p;
 }
 
-let ps = book(rg).map((f, ind) => {
+let processProp = (f, ind) => {
   let p = f();
   p.prose = processProse(p.prose);
 
@@ -116,14 +114,42 @@ let ps = book(rg).map((f, ind) => {
     }
   }
   return p;
-} );
-let ground = makeGround(ps, rg, svg);
-
-ground.draw(0, (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1);
-
-function pressHandler(e)
-{
-  ground.proxy.onkeypress(e);
 }
 
-document.onkeypress = pressHandler;
+import book1 from './book1.js';
+import book2 from './book2.js';
+import book3 from './book3.js';
+import book4 from './book4.js';
+import book5 from './book5.js';
+
+let books = [book1, book2, book3, book4, book5];
+
+function openBook(i_book) {
+  localStorage.last_i_book = i_book + 1;
+
+  let ps = books[i_book](rg).map(processProp);
+
+  let ground = makeGround(ps, rg, svg);
+
+  ground.draw(0, (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1);
+
+  function pressHandler(e)
+  {
+    if(e.key == "o")
+    {
+      openBook((i_book - 1 + books.length) % books.length);
+    }
+    else if(e.key == "p")
+    {
+      openBook((i_book + 1) % books.length);
+    }
+    else
+    {
+      ground.proxy.onkeypress(e);
+    }
+  }
+
+  document.onkeypress = pressHandler;
+}
+
+openBook((Math.min(books.length, parseInt(localStorage.last_i_book)) || books.length) - 1);
