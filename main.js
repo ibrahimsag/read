@@ -120,3 +120,10 @@ let ps = book(rg).map((f, ind) => {
 let ground = makeGround(ps, rg, svg);
 
 ground.draw(0, (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1);
+
+function pressHandler(e)
+{
+  ground.proxy.onkeypress(e);
+}
+
+document.onkeypress = pressHandler;

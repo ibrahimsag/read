@@ -3,6 +3,8 @@ import colors from './colors.js';
 
 function makeGround(ps, rg, svg)
 {
+  let proxy = {};
+
   function draw(o, i_p)
   {
     localStorage.last_i = i_p + 1;
@@ -200,7 +202,7 @@ function makeGround(ps, rg, svg)
       }
     }
 
-    document.onkeypress = pressHandler(o, i_p);
+    proxy.onkeypress = pressHandler(o, i_p);
     proseEl.onclick = clickHandler(i_p);
   }
 
@@ -238,7 +240,7 @@ function makeGround(ps, rg, svg)
       }
     }
   }
-  return {draw};
+  return {draw, proxy};
 }
 
 export default makeGround;
