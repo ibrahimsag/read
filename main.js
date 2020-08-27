@@ -28,24 +28,31 @@ function processMags(p)
     {
       pos = mag.p;
       last_pos = pos;
-      p.shapes.push(rg.tick(pos));
-      p.ticks.push(pos);
-      p.letters[mag.l] = [3];
     }
     else if(mag.v)
     {
       pos = vec2.add(last_pos, [0, mag.v]);
       last_pos = pos;
+    }
+
+    if(mag.p || mag.v)
+    {
       p.shapes.push(rg.tick(pos));
+      p.indices[mag.l] = p.ticks.length;
       p.ticks.push(pos);
       p.letters[mag.l] = [3];
+    }
+    else if(mag.m)
+    {
+      p.letters[mag.l] = [1];
+      p.indices[mag.l] = p.ticks.length - 1;
     }
     else
     {
       p.letters[mag.l] = [1];
+      p.indices[mag.l] = p.ticks.length - 1;
     }
     p.points[mag.l] = pos;
-    p.indices[mag.l] = p.ticks.length;
 
     if(mag.m)
     {
@@ -57,6 +64,7 @@ function processMags(p)
         p.shapes.push(rg.tick(pos));
         p.shapes.push(rg.line(prev_pos, pos));
         p.ticks.push(pos);
+        p.indices[mag.l + 'e'] = p.ticks.length - 1;
       }
     }
   }

@@ -127,6 +127,36 @@ function makeRG (svgEl)
       let [a, o, b] = name.split('').map(l => p.points[l]);
       return angle(a, o, b);
     }
+    else if(typ == 'magnitude')
+    {
+      let i_begin, i_end;
+      if(name.length == 1)
+      {
+        i_begin = p.indices[name[0]];
+        i_end = p.indices[name[0] + 'e'];
+      }
+      else if(name.length > 1)
+      {
+        i_begin = p.indices[name[0]];
+        i_end = p.indices[name[name.length-1]];
+      }
+      else
+      {
+        console.error('unknown magnitude');
+      }
+
+      let shapes = [];
+      if(i_end > i_begin)
+      {
+        for(var i = i_begin; i <= i_end; i++)
+        {
+          shapes.push(tick(p.ticks[i]));
+        }
+        shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
+      }
+
+      return shapes;
+    }
     else if(typ == 'given' && p.given && p.given[name])
     {
       return p.given[name]();

@@ -42,7 +42,6 @@ function makeGround(ps, rg, svg)
         let sentenceWithoutRef = true;
         function highlightReference(m, name, typ, arg1)
         {
-          sentenceMarks.push([name, typ, arg1]);
 
           let refEl = document.createElement('span');
           refEl.innerHTML = name;
@@ -56,6 +55,10 @@ function makeGround(ps, rg, svg)
             figureIndex = lastSeenFigureIndex;
 
             highlight = [name, typ, arg1];
+          }
+          else
+          {
+            sentenceMarks.push([name, typ, arg1]);
           }
           refCount++;
 
