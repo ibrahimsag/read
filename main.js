@@ -377,6 +377,7 @@ function makeGround(rg, svg)
         el.setAttribute('y', pos[1]);
       }
     }
+
     if(!p.figures)
     {
       drawFigure(p, true, false)
@@ -389,25 +390,7 @@ function makeGround(rg, svg)
       }
     }
 
-    proxy.onkeypress = pressHandler(o, p);
-    proseEl.onclick = clickHandler(p);
-  }
-
-  function clickHandler(p)
-  {
-    return function(e)
-    {
-      let ref = parseInt(e.srcElement.dataset.ref);
-      if(ref)
-      {
-        draw(ref, p);
-      }
-    }
-  }
-
-  function pressHandler(o, p)
-  {
-    return function(e)
+    proxy.onkeypress = (e) =>
     {
       if(e.key == "j")
       {
@@ -418,7 +401,17 @@ function makeGround(rg, svg)
         draw(o - 1, p);
       }
     }
+
+    proseEl.onclick = (e) =>
+    {
+      let ref = parseInt(e.srcElement.dataset.ref);
+      if(ref)
+      {
+        draw(ref, p);
+      }
+    }
   }
+
   return {draw, proxy};
 }
 
