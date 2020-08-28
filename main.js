@@ -259,21 +259,26 @@ function makeGround(rg, svg)
 
         let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';
-        if(isFocusSentence)
-        {
-          nearHighlights = [...sentenceMarks];
-          el.style['color'] = colors.sentence;
-        }
+        paragraphEl.appendChild(el);
 
         if(sentenceWithoutRef)
         {
           if(refCount == o)
-          {
-            el.style['color'] = colors.sentence;
-          }
+            isFocusSentence = true;
+
           refCount++;
         }
-        paragraphEl.appendChild(el);
+
+        if(isFocusSentence)
+        {
+          nearHighlights = sentenceMarks;
+          el.style['color'] = colors.sentence;
+          setTimeout( () => {
+            el.scrollIntoView({behavior: "smooth", block: "nearest", inline: "nearest"});
+          })
+
+        }
+
       });
       proseEl.appendChild(paragraphEl);
     })
