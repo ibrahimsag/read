@@ -141,7 +141,6 @@ function makeGround(ps, rg, svg)
         }
       }
 
-      for(var i = 0; i < shapes.length; i++)
       shapes.forEach(s =>
       {
         svg.appendChild(rg.draw(s));
