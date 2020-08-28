@@ -117,7 +117,7 @@ function()
       { l: 'D', m: d, v  },
       { l: 'F', m: c, n: 2, v },
       { l: 'H', m: d, n: 3, v },
-      { l: 'L', m: d*2, n: 2, v },
+      { l: 'L', m: c*2, n: 2, v },
       { l: 'N', m: d*3, n: 3, v },
     ]
   };
@@ -177,7 +177,7 @@ function()
 
 function()
 {
-  const ab = 90, c1 = 55, c2 = 35, d = 30, v = 40;
+  const c1 = 60, c2 = 25, d = 35, v = 40;
   return {
     prose: prop8,
     figures: [

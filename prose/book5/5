@@ -1,20 +1,20 @@
 If a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).
 
-For let the magnitude AB be the same multiple of the magnitude CD that the (part) taken away AE (is) of the (part) taken away CF (respectively).
-I say that the remainder EB will also be the same multiple of the remainder F D as that which the whole AB (is) of the whole CD (respectively).
+For let the magnitude {AB magnitude} be the same multiple of the magnitude {CD magnitude} that the (part) taken away {AE magnitude} (is) of the (part) taken away {CF magnitude} (respectively).
+I say that the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).
 
-For as many times as AE is (divisible) by CF, so many times let EB also have been made (divisible) by CG.
+For as many times as {AE magnitude} is (divisible) by {CF magnitude}, so many times let {EB magnitude} also have been made (divisible) by {CG magnitude}.
 
-And since AE and EB are equal multiples of CF and GC (respectively), AE and AB are thus equal multiples of CF and GF (respectively) [Prop. 5.1].
-And AE and AB are assumed (to be) equal multiples of CF and CD (respectively).
-Thus, AB is an equal multiple of each of GF and CD.
-Thus, GF (is) equal to CD.
-Let CF have been subtracted from both.
-Thus, the remainder GC is equal to the remainder FD.
-And since AE and EB are equal multiples of CF and GC (respectively), and GC (is) equal to DF, AE and EB are thus equal multiples of CF and FD (respectively).
-And AE and AB are assumed (to be) equal multiples of CF and CD (respectively).
-Thus, EB and AB are equal multiples of FD and CD (respectively).
-Thus, the remainder EB will also be the same multiple of the remainder FD as that which the whole AB (is) of the whole CD (respectively).
+And since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), {AE magnitude} and {AB magnitude} are thus equal multiples of {CF magnitude} and {GF magnitude} (respectively) [Prop. 5.1].
+And {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).
+Thus, {AB magnitude} is an equal multiple of each of {GF magnitude} and {CD magnitude}.
+Thus, {GF magnitude} (is) equal to {CD magnitude}.
+Let {CF magnitude} have been subtracted from both.
+Thus, the remainder {GC magnitude} is equal to the remainder {FD magnitude}.
+And since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), and {GC magnitude} (is) equal to {DF magnitude}, {AE magnitude} and {EB magnitude} are thus equal multiples of {CF magnitude} and {FD magnitude} (respectively).
+And {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).
+Thus, {EB magnitude} and {AB magnitude} are equal multiples of {FD magnitude} and {CD magnitude} (respectively).
+Thus, the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).
 
 Thus, if a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).
 (Which is) the very thing it was required to show.
