@@ -1,19 +1,19 @@
 If a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the third (magnitude) has a greater ratio to the fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.
 
-For let a first (magnitude) A have the same ratio to a second B that a third C (has) to a fourth D, and let the third (magnitude) C have a greater ratio to the fourth D than a fifth E (has) to a sixth F.
-I say that the first (magnitude) A will also have a greater ratio to the second B than the fifth E (has) to the sixth F.
+For let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}, and let the third (magnitude) {C magnitude} have a greater ratio to the fourth {D magnitude} than a fifth {E magnitude} (has) to a sixth {F magnitude}.
+I say that the first (magnitude) {A magnitude} will also have a greater ratio to the second {B magnitude} than the fifth {E magnitude} (has) to the sixth {F magnitude}.
 
-For since there are some equal multiples of C and E, and other random equal multiples of D and F, (for which) the multiple of C exceeds the (multiple) of D, and the multiple of E does not exceed the multiple of F [Def. 5.7], let them have been taken.
-And let G and H be equal multiples of C and E (respectively), and K and L other random equal multiples of D and F (respectively), such that G exceeds K, but H does not exceed L.
-And as many times as G is (divisible) by C, so many times let M be (divisible) by A.
-And as many times as K (is divisible) by D, so many times let N be (divisible) by B.
+For since there are some equal multiples of {C magnitude} and {E magnitude}, and other random equal multiples of {D magnitude} and {F magnitude}, (for which) the multiple of {C magnitude} exceeds the (multiple) of {D magnitude}, and the multiple of {E magnitude} does not exceed the multiple of {F magnitude} [Def. 5.7], let them have been taken.
+And let {G magnitude} and {H magnitude} be equal multiples of {C magnitude} and {E magnitude} (respectively), and {K magnitude} and {L magnitude} other random equal multiples of {D magnitude} and {F magnitude} (respectively), such that {G magnitude} exceeds {K magnitude}, but {H magnitude} does not exceed {L magnitude}.
+And as many times as {G magnitude} is (divisible) by {C magnitude}, so many times let {M magnitude} be (divisible) by {A magnitude}.
+And as many times as {K magnitude} (is divisible) by {D magnitude}, so many times let {N magnitude} be (divisible) by {B magnitude}.
 
-And since as A is to B, so C (is) to D, and the equal multiples M and G have been taken of A and C (respectively), and the other random equal multiples N and K of B and D (respectively), thus if M exceeds N then G exceeds K, and if (M is) equal (to N then G is also) equal (to K), and if (M is) less (than N then G is also) less (than K) [Def. 5.5].
-And G exceeds K.
-Thus, M also exceeds N.
-And H does not exceeds L.
-And M and H are equal multiples of A and E (respectively), and N and L other random equal multiples of B and F (respectively).
-Thus, A has a greater ratio to B than E (has) to F [Def. 5.7].
+And since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {M magnitude} and {G magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {N magnitude} and {K magnitude} of {B magnitude} and {D magnitude} (respectively), thus if {M magnitude} exceeds {N magnitude} then {G magnitude} exceeds {K magnitude}, and if ({M magnitude} is) equal (to {N magnitude} then {G magnitude} is also) equal (to {K magnitude}), and if ({M magnitude} is) less (than {N magnitude} then {G magnitude} is also) less (than {K magnitude}) [Def. 5.5].
+And {G magnitude} exceeds {K magnitude}.
+Thus, {M magnitude} also exceeds {N magnitude}.
+And {H magnitude} does not exceeds {L magnitude}.
+And {M magnitude} and {H magnitude} are equal multiples of {A magnitude} and {E magnitude} (respectively), and {N magnitude} and {L magnitude} other random equal multiples of {B magnitude} and {F magnitude} (respectively).
+Thus, {A magnitude} has a greater ratio to {B magnitude} than {E magnitude} (has) to {F magnitude} [Def. 5.7].
 
 Thus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and a third (magnitude) has a greater ratio to a fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.
 (Which is) the very thing it was required to show.

@@ -294,131 +294,246 @@ function()
 
 function()
 {
+  const a = 50, b = a/2, c = 60, d = c/2, e = 55, f = e/1.2, v = 40;
   return {
     prose: prop13,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [40, 50] },
+      { l: 'B', m: b, v },
+      { l: 'M', m: a, n: 2, v },
+      { l: 'N', m: b, n: 3, v },
+      { l: 'C', m: c, p: [190, 50] },
+      { l: 'D', m: d, v },
+      { l: 'G', m: c, n: 2, v },
+      { l: 'K', m: d, n: 3, v },
+      { l: 'E', m: e, p: [350, 50] },
+      { l: 'F', m: f, v },
+      { l: 'H', m: e, n: 2, v },
+      { l: 'L', m: f, n: 3, v },
+    ],
   };
 },
 
 function()
 {
+  const a = 120, b = a/1.3, c = 80, d = c/1.3;
   return {
     prose: prop14,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'B', m: b, v: 50 },
+      { l: 'C', m: c, p: [250, 50] },
+      { l: 'D', m: d, v: 50 },
+    ],
   };
 },
 
 function()
 {
+  const c = 60, f = 50;
   return {
     prose: prop15,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: c, p: [50, 50] },
+      { l: 'G', m: c },
+      { l: 'H', m: c },
+      { l: 'B' },
+      { l: 'D', m: f, v: 50 },
+      { l: 'K', m: f },
+      { l: 'L', m: f },
+      { l: 'E' },
+      { l: 'C', m: c, p: [300, 50] },
+      { l: 'F', m: f, v: 50 },
+    ]
   };
 },
 
 function()
 {
+  const a = 60, b = a/1.3, c = 50, d = c/1.3;
   return {
     prose: prop16,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'B', m: b, v: 50 },
+      { l: 'E', m: a, n: 3, v: 50 },
+      { l: 'F', m: b, n: 3, v: 50 },
+      { l: 'C', m: c, p: [300, 50] },
+      { l: 'D', m: d, v: 50 },
+      { l: 'G', m: c, n: 2, v: 50 },
+      { l: 'H', m: d, n: 2, v: 50 },
+    ],
   };
 },
 
 function()
 {
+  const a = 70, b = a / 1.9, c = 60, d = c/1.8;
   return {
     prose: prop17,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'E', m: b },
+      { l: 'B' },
+      { l: 'C', m: c, p: [250, 50] },
+      { l: 'F', m: d },
+      { l: 'D' },
+      { l: 'G', m: a, n: 2, p: [50, 120] },
+      { l: 'H', m: b, n: 2 },
+      { l: 'K', m: b, n: 3 },
+      { l: 'O' },
+      { l: 'L', m: c, n: 2, v: 70 },
+      { l: 'M', m: d, n: 2 },
+      { l: 'N', m: d, n: 3 },
+      { l: 'P' },
+    ]
   };
 },
 
 function()
 {
+  const a = 150, b = a/1.7, c = 190, d = c/1.7, r = 40;
   return {
     prose: prop18,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'E', m: b },
+      { l: 'B' },
+      { l: 'C', m: c, v: 70 },
+      { l: 'F', m: r },
+      { l: 'G', m: d-r },
+      { l: 'D' },
+    ]
   };
 },
 
 function()
 {
+  const a = 100, b = a*1.7, c = 120, d = c*1.7;
   return {
     prose: prop19,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'E', m: b },
+      { l: 'B' },
+      { l: 'C', m: c, v: 70 },
+      { l: 'F', m: d },
+      { l: 'D' },
+    ]
   };
 },
 
 function()
 {
+  const a = 180, b = a/1.8, c = b * 1.4,
+        d = 150, e = d/1.8, f = e * 1.4;
   return {
     prose: prop20,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'B', m: b, v: 70 },
+      { l: 'C', m: c, v: 70 },
+      { l: 'D', m: d, p: [300, 50] },
+      { l: 'E', m: e, v: 70 },
+      { l: 'F', m: f, v: 70 },
+    ]
   };
 },
 
 function()
 {
+  const a = 180, b = a/1.8, c = b * 1.4,
+        d = 150, e = d*1.2, f = e / 1.8;
   return {
     prose: prop21,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'B', m: b, v: 70 },
+      { l: 'C', m: c, v: 70 },
+      { l: 'D', m: d, p: [300, 50] },
+      { l: 'E', m: e, v: 70 },
+      { l: 'F', m: f, v: 70 },
+    ]
   };
 },
 
 function()
 {
+  const a = 55, d = 40, b = a/1.3, c = b*1.6, e = d/1.3, f = e*1.6;
   return {
     prose: prop22,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [30, 50] },
+      { l: 'D', m: d, v: 50 },
+      { l: 'G', m: a, n: 2, v: 50 },
+      { l: 'H', m: d, n: 2, v: 50 },
+      { l: 'B', m: b, p: [180, 50] },
+      { l: 'E', m: e, v: 50 },
+      { l: 'K', m: b, n: 3, v: 50 },
+      { l: 'L', m: e, n: 3, v: 50 },
+      { l: 'C', m: c, p: [360, 50] },
+      { l: 'F', m: f, v: 50 },
+      { l: 'M', m: c, n: 2, v: 50 },
+      { l: 'N', m: f, n: 2, v: 50 },
+    ]
   };
 },
 
 function()
 {
+  const a = 45, d = 30, b = a/1.6, c = b*1.6, e = d*1.6, f = e/1.6;
   return {
     prose: prop23,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [30, 50] },
+      { l: 'D', m: d, v: 50 },
+      { l: 'G', m: a, n: 3, v: 50 },
+      { l: 'K', m: d, n: 3, v: 50 },
+      { l: 'B', m: b, p: [220, 50] },
+      { l: 'E', m: e, v: 50 },
+      { l: 'H', m: b, n: 3, v: 50 },
+      { l: 'M', m: e, n: 2, v: 50 },
+      { l: 'C', m: c, p: [380, 50] },
+      { l: 'F', m: f, v: 50 },
+      { l: 'L', m: c, n: 2, v: 50 },
+      { l: 'N', m: f, n: 2, v: 50 },
+    ]
   };
 },
 
 function()
 {
+  const a = 160, d = 120;
   return {
     prose: prop24,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'B', m: a/2 },
+      { l: 'G' },
+      { l: 'C', m: a/1.2, v: 70 },
+      { l: 'D', m: d, v: 70 },
+      { l: 'E', m: d/2 },
+      { l: 'H' },
+      { l: 'F', m: d/1.2, v: 70 },
+    ]
   };
 },
 
 function()
 {
+  const a = 160, c = 120;
   return {
     prose: prop25,
-    points: {},
-    shapes: [],
-    letters: {}
+    mags: [
+      { l: 'A', m: a, p: [50, 50] },
+      { l: 'G', m: a/2 },
+      { l: 'B' },
+      { l: 'E', m: a, v: 50 },
+      { l: 'C', m: c, v: 70 },
+      { l: 'H', m: c/2 },
+      { l: 'D' },
+      { l: 'F', m: c, v: 50 },
+    ]
   };
 },
 
