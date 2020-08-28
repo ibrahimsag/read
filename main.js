@@ -72,7 +72,7 @@ function processMags(p)
   return p;
 }
 
-let processProp = (f, ind) => {
+let processProp = (i_book) => (f, ind) => {
   let p = f();
   p.prose = processProse(p.prose);
 
@@ -83,7 +83,10 @@ let processProp = (f, ind) => {
   else
   {
     p.title = 'Proposition ' + (ind);
-    p.img = 'img/' + (ind) + '.png';
+    if(i_book == 4)
+    {
+      p.img = 'img/' + (i_book + 1) + '/' + ind + '.png';
+    }
   }
 
   function letterAllPoints(f)
@@ -135,7 +138,7 @@ let books = [book1, book2, book3, book4, book5];
 function openBook(i_book) {
   localStorage.last_i_book = i_book + 1;
 
-  let ps = books[i_book](rg).map(processProp);
+  let ps = books[i_book](rg).map(processProp(i_book));
 
   let ground = makeGround(ps, rg, svg);
 

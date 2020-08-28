@@ -39,6 +39,7 @@ function makeGround(ps, rg, svg)
       {
         let isFocusSentence = false;;
         let sentenceMarks = [];
+        let seenMarks = {};
         let sentenceWithoutRef = true;
         function highlightReference(m, name, typ, arg1)
         {
@@ -58,7 +59,13 @@ function makeGround(ps, rg, svg)
           }
           else
           {
-            sentenceMarks.push([name, typ, arg1]);
+            let mark = [name, typ, arg1];
+            let hash = mark.toString();
+            if(!seenMarks[hash])
+            {
+              sentenceMarks.push(mark);
+              seenMarks[hash] = true;
+            }
           }
           refCount++;
 
@@ -77,8 +84,10 @@ function makeGround(ps, rg, svg)
           return '';
         }
 
-        let sp = sentenceProse.replace(/\{figure ([0-9])\}/g, selectFigure);
-        let sentenceHTML = sp.replace(/\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g, highlightReference);
+        let figureRE = /\{figure ([0-9])\}/g;
+        let sp = sentenceProse.replace(figureRE, selectFigure);
+        let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
+        let sentenceHTML = sp.replace(markRE, highlightReference);
 
         let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';

@@ -145,15 +145,11 @@ function makeRG (svgEl)
         console.error('unknown magnitude');
       }
 
-      let shapes = [];
-      if(i_end > i_begin)
-      {
-        for(var i = i_begin; i <= i_end; i++)
-        {
-          shapes.push(tick(p.ticks[i]));
-        }
-        shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
-      }
+      if(i_begin > i_end)
+        [i_begin, i_end] = [i_end, i_begin]
+
+      let shapes = p.ticks.slice(i_begin, i_end+1).map(tick);
+      shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
 
       return shapes;
     }
