@@ -172,15 +172,12 @@ function makeRG (svgEl)
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
-function makeGround(ps, rg, svg)
+function makeGround(rg, svg)
 {
   let proxy = {};
 
-  function draw(o, i_p)
+  function draw(o, p)
   {
-    localStorage.last_i = i_p + 1;
-
-    let p = ps[i_p];
 
     let nearHighlights = [];
     let highlight = [];
@@ -283,11 +280,11 @@ function makeGround(ps, rg, svg)
 
     if(o < 0)
     {
-      return draw(refCount, i_p);
+      return draw(refCount, p);
     }
     else if (o >= refCount && refCount > 0)
     {
-      return draw(0, i_p);
+      return draw(0, p);
     }
 
     svg.innerHTML = "";
@@ -392,41 +389,33 @@ function makeGround(ps, rg, svg)
       }
     }
 
-    proxy.onkeypress = pressHandler(o, i_p);
-    proseEl.onclick = clickHandler(i_p);
+    proxy.onkeypress = pressHandler(o, p);
+    proseEl.onclick = clickHandler(p);
   }
 
-  function clickHandler(i_p)
+  function clickHandler(p)
   {
     return function(e)
     {
       let ref = parseInt(e.srcElement.dataset.ref);
       if(ref)
       {
-        draw(ref, i_p);
+        draw(ref, p);
       }
     }
   }
 
-  function pressHandler(o, i_p)
+  function pressHandler(o, p)
   {
     return function(e)
     {
-      if(e.key == "n")
-      {
-        draw(0, (i_p-1 + ps.length) % ps.length)
-      }
-      else if(e.key == "m")
-      {
-        draw(0, (i_p+1) % ps.length)
-      }
       if(e.key == "j")
       {
-        draw(o + 1, i_p);
+        draw(o + 1, p);
       }
       else if(e.key == "k")
       {
-        draw(o - 1, i_p);
+        draw(o - 1, p);
       }
     }
   }
@@ -566,14 +555,15 @@ import book5 from './figures/5.js';
 
 let books = [book1, book2, book3, book4, book5];
 
+let ground = makeGround(rg, svg);
+
 function openBook(i_book) {
   localStorage.last_i_book = i_book + 1;
 
   let ps = books[i_book](rg).map(processProp(i_book));
 
-  let ground = makeGround(ps, rg, svg);
-
-  ground.draw(0, (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1);
+  let i_p = (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1;
+  ground.draw(0, ps[i_p]);
 
   function pressHandler(e)
   {
@@ -584,6 +574,18 @@ function openBook(i_book) {
     else if(e.key == "p")
     {
       openBook((i_book + 1) % books.length);
+    }
+    else if(e.key == "n")
+    {
+      i_p = (i_p-1 + ps.length) % ps.length;
+      localStorage.last_i = i_p + 1;
+      ground.draw(0, ps[i_p]);
+    }
+    else if(e.key == "m")
+    {
+      i_p = (i_p+1) % ps.length;
+      localStorage.last_i = i_p + 1;
+      ground.draw(0, ps[i_p]);
     }
     else
     {
