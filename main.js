@@ -402,13 +402,13 @@ function makeGround(rg, svg)
       }
     }
 
-    proxy.onkeypress = (e) =>
+    proxy.onkeydown = (e) =>
     {
-      if(e.key == "j")
+      if(e.key == "j" || e.keyCode == 39)
       {
         draw(o + 1, p);
       }
-      else if(e.key == "k")
+      else if(e.key == "k" || e.keyCode == 37)
       {
         draw(o - 1, p);
       }
@@ -573,7 +573,7 @@ function openBook(i_book) {
   let i_p = (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1;
   ground.draw(0, ps[i_p]);
 
-  function pressHandler(e)
+  function keyHandler(e)
   {
     if(e.key == "o")
     {
@@ -597,11 +597,11 @@ function openBook(i_book) {
     }
     else
     {
-      ground.proxy.onkeypress(e);
+      ground.proxy.onkeydown(e);
     }
   }
 
-  document.onkeypress = pressHandler;
+  document.onkeydown = keyHandler;
 }
 
 openBook((Math.min(books.length, parseInt(localStorage.last_i_book)) || books.length) - 1);
