@@ -438,9 +438,6 @@ function processMags(p)
   let mags = p.mags;
   let last_pos = [0, 0];
   let pos = [0, 0];
-  if(!p.points) p.points = {};
-  if(!p.shapes) p.shapes = [];
-  if(!p.letters) p.letters = {};
   p.ticks = [];
   p.indices = {};
 
@@ -506,7 +503,7 @@ let processProp = (i_book) => (f, ind) => {
   else
   {
     p.title = 'Proposition ' + (ind);
-    if(i_book == 4)
+    if(i_book == 5)
     {
       p.img = 'img/' + (i_book + 1) + '/' + ind + '.png';
     }
@@ -526,6 +523,9 @@ let processProp = (i_book) => (f, ind) => {
     for(var i = 0; i<p.figures.length; i++)
     {
       let figure = p.figures[i];
+      if(!figure.points) figure.points = {};
+      if(!figure.shapes) figure.shapes = [];
+      if(!figure.letters) figure.letters = {};
       if(figure.mags)
       {
         processMags(figure);
@@ -538,6 +538,9 @@ let processProp = (i_book) => (f, ind) => {
   }
   else
   {
+    if(!p.points) p.points = {};
+    if(!p.shapes) p.shapes = [];
+    if(!p.letters) p.letters = {};
     if(p.mags)
     {
       processMags(p);
@@ -555,8 +558,9 @@ import book2 from './figures/2.js';
 import book3 from './figures/3.js';
 import book4 from './figures/4.js';
 import book5 from './figures/5.js';
+import book6 from './figures/6.js';
 
-let books = [book1, book2, book3, book4, book5];
+let books = [book1, book2, book3, book4, book5, book6];
 
 let ground = makeGround(rg, svg);
 
