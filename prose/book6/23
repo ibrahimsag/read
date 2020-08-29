@@ -1,0 +1,10 @@
+Equiangular parallelograms have to one another the ratio compounded out of (the ratios of) their sides.
+
+Let AC and CF be equiangular parallelograms having angle BCD equal to ECG. I say that parallelogram AC has to parallelogram CF the ratio compounded out of (the ratios of) their sides.
+
+For let BC be laid down so as to be straight-on to CG. Thus, DC is also straight-on to CE [Prop. 1.14]. And let the parallelogram DG have been completed. And let some straight-line K have been laid down. And let it be contrived that as BC (is) to CG, so K (is) to L, and as DC (is) to CE, so L (is) to M [Prop. 6.12].
+
+Thus, the ratios of K to L and of L to M are the same as the ratios of the sides, (namely), BC to CG and DC to CE (respectively). But, the ratio of K to M is compounded out of the ratio of K to L and (the ratio) of L to M. Hence, K also has to M the ratio compounded out of (the ratios of) the sides (of the parallelograms). And since as BC is to CG, so parallelogram AC (is) to CH [Prop. 6.1], but as BC (is) to CG, so K (is) to L, thus, also, as K (is) to L, so (parallelogram) AC (is) to CH. Again, since as DC (is) to CE, so parallelogram CH (is) to CF [Prop. 6.1], but as DC (is) to CE, so L (is) to M, thus, also, as L (is) to M, so parallelogram CH (is) to parallelogram CF. Therefore, since it was shown that as K (is) to L, so parallelogram AC (is) to parallelogram CH, and as L (is) to M, so parallelogram CH (is) to parallelogram CF, thus, via equality, as K is to M, so (parallelogram) AC (is) to parallelogram CF [Prop. 5.22]. And K has to M the ratio compounded out of (the ratios of) the sides (of the parallelograms). Thus, (parallelogram) AC also has to (parallelogram) CF the ratio compounded out of (the ratio of) their sides.
+
+Thus, equiangular parallelograms have to one another the ratio compounded out of (the ratio of) their sides.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,13 @@
+If some straight-line is drawn parallel to one of the sides of a triangle then it will cut the (other) sides of the triangle proportionally. And if (two of) the sides of a triangle are cut proportionally then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.
+
+For let DE have been drawn parallel to one of the sides BC of triangle ABC. I say that as BD is to DA, so CE (is) to EA.
+
+For let BE and CD have been joined.
+
+Thus, triangle BDE is equal to triangle CDE. For they are on the same base DE and between the same parallels DE and BC [Prop. 1.38]. And ADE is some other triangle. And equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7]. Thus, as triangle BDE is to [triangle] ADE, so triangle CDE (is) to triangle ADE. But, as triangle BDE (is) to triangle ADE, so (is) BD to DA. For, having the same height—(namely), the (straight-line) drawn from E perpendicular to AB— they are to one another as their bases [Prop. 6.1]. So, for the same (reasons), as triangle CDE (is) to ADE, so CE (is) to EA. And, thus, as BD (is) to DA, so CE (is) to EA [Prop. 5.11].
+
+And so, let the sides AB and AC of triangle ABC have been cut proportionally (such that) as BD (is) to DA, so CE (is) to EA. And let DE have been joined. I say that DE is parallel to BC.
+
+For, by the same construction, since as BD is to DA, so CE (is) to EA, but as BD (is) to DA, so triangle BDE (is) to triangle ADE, and as CE (is) to EA, so triangle CDE (is) to triangle ADE [Prop. 6.1], thus, also, as triangle BDE (is) to triangle ADE, so triangle CDE (is) to triangle ADE [Prop. 5.11]. Thus, triangles BDE and CDE each have the same ratio to ADE. Thus, triangle BDE is equal to triangle CDE [Prop. 5.9]. And they are on the same base DE. And equal triangles, which are also on the same base, are also between the same parallels [Prop. 1.39]. Thus, DE is parallel to BC.
+
+Thus, if some straight-line is drawn parallel to one of the sides of a triangle, then it will cut the (other) sides of the triangle proportionally. And if (two of) the sides of a triangle are cut proportionally, then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle. (Which is) the very thing it was required to show.

@@ -1,0 +1,16 @@
+If, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another.
+
+Let ABC be a right-angled triangle having the angle BAC a right-angle, and let AD have been drawn from A, perpendicular to BC [Prop. 1.12]. I say that triangles ABD and ADC are each similar to the whole (triangle) ABC and, further, to one another.
+
+For since (angle) BAC is equal to ADB—for each (are) right-angles—and the (angle) at B (is) common to the two triangles ABC and ABD, the remaining (angle) ACB is thus equal to the remaining (angle) BAD [Prop. 1.32]. Thus, triangle ABC is equiangular to triangle ABD. Thus, as BC, subtending the right-angle in triangle ABC, is to BA, subtending the right-angle in triangle ABD, so the same AB, subtending the angle at C in triangle ABC, (is) to BD, subtending the equal (angle) BAD in triangle ABD, and, further, (so is) AC to AD, (both) subtending the angle at B common to the two triangles [Prop. 6.4]. Thus, triangle ABC is equiangular to triangle ABD, and has the sides about the equal angles proportional. Thus, triangle ABC [is] similar to triangle ABD [Def. 6.1]. So, similarly, we can show that triangle ABC is also similar to triangle ADC. Thus, [triangles] ABD and ADC are each similar to the whole (triangle) ABC.
+
+So I say that triangles ABD and ADC are also similar to one another.
+
+For since the right-angle BDA is equal to the right-angle ADC, and, indeed, (angle) BAD was also shown (to be) equal to the (angle) at C, thus the remaining (angle) at B is also equal to the remaining (angle) DAC [Prop. 1.32]. Thus, triangle ABD is equiangular to triangle ADC. Thus, as BD, subtending (angle) BAD in triangle ABD, is to DA, subtending the (angle) at C in triangle ADC, (which is) equal to (angle) BAD, so (is) the same AD, subtending the angle at B in triangle ABD, to DC, subtending (angle) DAC in triangle ADC, (which is) equal to the (angle) at B, and, further, (so is) BA to AC, (each) subtending right-angles [Prop. 6.4]. Thus, triangle ABD is similar to triangle ADC [Def. 6.1].
+
+Thus, if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another. [(Which is) the very thing it was required to show.]
+
+Corollary
+
+So (it is) clear, from this, that if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the (straight-line so) drawn is in mean proportion to the pieces of the base.
+(which is) the very thing it was required to show.

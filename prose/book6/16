@@ -1,0 +1,14 @@
+If four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two). And if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.
+
+Let AB, CD, E, and F be four proportional straight-lines, (such that) as AB (is) to CD, so E (is) to F. I say that the rectangle contained by AB and F is equal to the rectangle contained by CD and E.
+
+[For] let AG and CH have been drawn from points A and C at right-angles to the straight-lines AB and CD (respectively) [Prop. 1.11]. And let AG be made equal to F , and C H to E [Prop. 1.3]. And let the parallelograms BG and DH have been completed.
+
+And since as AB is to CD, so E (is) to F, and E (is) equal CH, and F to AG, thus as AB is to CD, so CH (is) to AG. Thus, in the parallelograms BG and DH the sides about the equal angles are reciprocally proportional. And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.14]. Thus, parallelogram BG is equal to parallelogram DH. And BG is the (rectangle contained) by AB and F. For AG (is) equal to F. And DH (is) the (rectangle contained) by CD and E. For E (is) equal to CH. Thus, the rectangle contained by AB and F is equal to the rectangle contained by CD and E.
+
+And so, let the rectangle contained by AB and F be equal to the rectangle contained by CD and E. I say that the four straight-lines will be proportional, (so that) as AB (is) to CD, so E (is) to F.
+
+For, with the same construction, since the (rectangle contained) by AB and F is equal to the (rectangle contained) by CD and E. And BG is the (rectangle contained) by AB and F. For AG is equal to F. And DH (is) the (rectangle contained) by CD and E. For CH (is) equal to E. BG is thus equal to DH. And they are equiangular. And in equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional [Prop. 6.14]. Thus, as AB is to CD, so CH (is) to AG. And CH (is) equal to E, and AG to F. Thus, as AB is to CD, so E (is) to F.
+
+Thus, if four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two). And if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,9 @@
+In right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
+
+Let ABC be a right-angled triangle having the angle BAC a right-angle. I say that the figure (drawn) on BC is equal to the (sum of the) similar, and similarly described, figures on BA and AC.
+
+Let the perpendicular AD have been drawn [Prop. 1.12].
+
+Therefore, since, in the right-angled triangle ABC, the (straight-line) AD has been drawn from the rightangle at A perpendicular to the base BC, the triangles ABD and ADC about the perpendicular are similar to the whole (triangle) ABC, and to one another [Prop. 6.8]. And since ABC is similar to ABD, thus as CB is to BA, so AB (is) to BD [Def. 6.1]. And since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.]. Thus, as CB (is) to BD, so the figure (drawn) on CB (is) to the similar, and similarly described, (figure) on BA. And so, for the same (reasons), as BC (is) to CD, so the figure (drawn) on BC (is) to the (figure) on CA. Hence, also, as BC (is) to BD and DC, so the figure (drawn) on BC (is) to the (sum of the) similar, and similarly described, (figures) on BA and AC [Prop. 5.24]. And BC is equal to BD and DC. Thus, the figure (drawn) on BC (is) also equal to the (sum of the) similar, and similarly described, figures on BA and AC [Prop. 5.9].
+
+Thus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle. (Which is) the very thing it was required to show.

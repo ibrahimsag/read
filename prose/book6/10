@@ -1,0 +1,7 @@
+To cut a given uncut straight-line similarly to a given cut (straight-line).
+
+Let AB be the given uncut straight-line, and AC a (straight-line) cut at points D and E, and let (AC) be laid down so as to encompass a random angle (with AB). And let CB have been joined. And let DF and EG have been drawn through (points) D and E (respectively), parallel to BC, and let DHK have been drawn through (point) D, parallel to AB [Prop. 1.31].
+
+Thus, FH and HB are each parallelograms. Thus, DH (is) equal to FG, and HK to GB [Prop. 1.34]. And since the straight-line HE has been drawn parallel to one of the sides, KC, of triangle DKC, thus, proportionally, as CE is to ED, so KH (is) to HD [Prop. 6.2]. And KH (is) equal to BG, and HD to GF. Thus, as CE is to ED, so BG (is) to GF. Again, since FD has been drawn parallel to one of the sides, GE, of triangle AGE, thus, proportionally, as ED is to DA, so GF (is) to FA [Prop. 6.2]. And it was also shown that as CE (is) to ED,soBG(is)toGF. Thus, as CE is to ED, so BG (is) to GF, and as ED (is) to DA, so GF (is) to FA.
+
+Thus, the given uncut straight-line, AB, has been cut similarly to the given cut straight-line, AC. (Which is) the very thing it was required to do.
