@@ -338,7 +338,7 @@ function makeGround(rg, svg)
       let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
       let highlightName = highlight.length && highlight[0];
 
-      if(!p.letteroffsets) p.letteroffsets = {};
+      if(!figure.letteroffsets) figure.letteroffsets = {};
 
       for(var i in figure.letters)
       {
@@ -364,9 +364,9 @@ function makeGround(rg, svg)
         el.textContent = i;
         svg.appendChild(el);
 
-        if(p.letteroffsets[i])
+        if(figure.letteroffsets[i])
         {
-          offset = p.letteroffsets[i];
+          offset = figure.letteroffsets[i];
         }
         else if(letter[0] < 8)
         {
@@ -377,7 +377,7 @@ function makeGround(rg, svg)
             offset = vec2.add(offset, [5, -5]);
           else
             offset = vec2.add(offset, [9, -8]);
-          p.letteroffsets[i] = offset;
+          figure.letteroffsets[i] = offset;
         }
         else
         {
