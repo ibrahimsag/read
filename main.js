@@ -400,17 +400,8 @@ function makeGround(rg, svg)
       }
     }
 
-    proxy.onkeydown = (e) =>
-    {
-      if(e.key == "j" || e.keyCode == 39)
-      {
-        draw(o + 1, p);
-      }
-      else if(e.key == "k" || e.keyCode == 37)
-      {
-        draw(o - 1, p);
-      }
-    }
+    proxy.moveon = () => { draw(o + 1, p); };
+    proxy.moveback = () => { draw(o - 1, p); };
 
     proseEl.onclick = (e) =>
     {
@@ -577,13 +568,13 @@ function openBook(i_book) {
 
   function keyHandler(e)
   {
-    if(e.key == "o")
+    if(e.key == "j" || e.keyCode == 39)
     {
-      openBook((i_book - 1 + books.length) % books.length);
+      ground.proxy.moveon();
     }
-    else if(e.key == "p")
+    else if(e.key == "k" || e.keyCode == 37)
     {
-      openBook((i_book + 1) % books.length);
+      ground.proxy.moveback();
     }
     else if(e.key == "n")
     {
@@ -597,9 +588,13 @@ function openBook(i_book) {
       localStorage.last_i = i_p + 1;
       ground.draw(0, ps[i_p]);
     }
-    else
+    else if(e.key == "o")
     {
-      ground.proxy.onkeydown(e);
+      openBook((i_book - 1 + books.length) % books.length);
+    }
+    else if(e.key == "p")
+    {
+      openBook((i_book + 1) % books.length);
     }
   }
 
