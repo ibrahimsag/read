@@ -203,6 +203,7 @@ function makeGround(rg, svg)
     {
       let paragraphEl = document.createElement('p');
       let content = '';
+      let isFocusParagraph = false;
       paragraphProse.forEach(sentenceProse =>
       {
         let isFocusSentence = false;;
@@ -273,13 +274,19 @@ function makeGround(rg, svg)
         {
           nearHighlights = sentenceMarks;
           el.style['color'] = colors.sentence;
-          setTimeout( () => {
-            el.scrollIntoView({behavior: "smooth", block: "nearest", inline: "nearest"});
-          })
+
+          isFocusParagraph = true;
 
         }
 
       });
+      if(isFocusParagraph)
+      {
+        setTimeout(() => {
+          let opts = {behavior: "smooth", block: "nearest", inline: "nearest"};
+          paragraphEl.scrollIntoView(opts);
+        })
+      }
       proseEl.appendChild(paragraphEl);
     })
 
