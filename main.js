@@ -276,9 +276,7 @@ function makeGround(rg, svg)
           el.style['color'] = colors.sentence;
 
           isFocusParagraph = true;
-
         }
-
       });
       if(isFocusParagraph)
       {
@@ -292,9 +290,9 @@ function makeGround(rg, svg)
 
     if(o < 0)
     {
-      return draw(refCount, p);
+      return draw(refCount-2, p);
     }
-    else if (o >= refCount && refCount > 0)
+    else if (o >= refCount-1 && refCount > 0)
     {
       return draw(0, p);
     }
