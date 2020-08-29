@@ -555,16 +555,16 @@ let books = [book1, book2, book3, book4, book5, book6];
 
 let ground = makeGround(rg, svg);
 
-function openBook(i_book) {
-  localStorage.last_i_book = i_book + 1;
+function presentProp(i_book, i_prop) {
+  localStorage.is = JSON.stringify({i_book, i_prop});
 
   let el = document.querySelector('#bookNum');
   el.innerText = (i_book + 1);
 
-  let ps = books[i_book](rg).map(processProp(i_book));
+  let ps = books[i_book](rg);
 
-  let i_p = (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1;
-  ground.draw(0, ps[i_p]);
+  let i_p = Math.min(ps.length-1, i_prop);
+  ground.draw(0, processProp(i_book)(ps[i_p], i_p));
 
   function keyHandler(e)
   {
@@ -579,26 +579,36 @@ function openBook(i_book) {
     else if(e.key == "n")
     {
       i_p = (i_p-1 + ps.length) % ps.length;
-      localStorage.last_i = i_p + 1;
-      ground.draw(0, ps[i_p]);
+      presentProp(i_book, i_p);
     }
     else if(e.key == "m")
     {
       i_p = (i_p+1) % ps.length;
-      localStorage.last_i = i_p + 1;
-      ground.draw(0, ps[i_p]);
+      presentProp(i_book, i_p);
     }
     else if(e.key == "o")
     {
-      openBook((i_book - 1 + books.length) % books.length);
+      let i = (i_book - 1 + books.length) % books.length;
+      presentProp(i, i_prop);
     }
     else if(e.key == "p")
     {
-      openBook((i_book + 1) % books.length);
+      let i = (i_book + 1) % books.length;
+      presentProp(i, i_prop);
     }
   }
 
   document.onkeydown = keyHandler;
 }
 
-openBook((Math.min(books.length, parseInt(localStorage.last_i_book)) || books.length) - 1);
+let is;
+if(localStorage.is)
+{
+  is = JSON.parse(localStorage.is);
+}
+else
+{
+  is = { i_book: 0, i_prop: 0 }
+}
+
+presentProp(is.i_book, is.i_prop || 0);
