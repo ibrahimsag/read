@@ -544,6 +544,15 @@ let processProp = (i_book) => (f, ind) => {
   return p;
 }
 
+let descs = [
+  "Fundamentals of Plane Geometry Involving Straight-Lines",
+  "Fundamentals of Geometric Algebra",
+  "Fundamentals of Plane Geometry Involving Circles",
+  "Construction of Rectilinear Figures In and Around Circles",
+  "Proportion",
+  "Similar Figures"
+];
+
 import book1 from './figures/1.js';
 import book2 from './figures/2.js';
 import book3 from './figures/3.js';
@@ -559,7 +568,7 @@ function presentProp(i_book, i_prop) {
   localStorage.is = JSON.stringify({i_book, i_prop});
 
   let el = document.querySelector('#bookNum');
-  el.innerText = (i_book + 1);
+  el.innerText = 'Elements Book ' + (i_book + 1) + ' - ' + descs[i_book];
 
   let ps = books[i_book](rg);
 
