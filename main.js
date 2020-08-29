@@ -565,6 +565,9 @@ let ground = makeGround(rg, svg);
 function openBook(i_book) {
   localStorage.last_i_book = i_book + 1;
 
+  let el = document.querySelector('#bookNum');
+  el.innerText = (i_book + 1);
+
   let ps = books[i_book](rg).map(processProp(i_book));
 
   let i_p = (Math.min(ps.length, parseInt(localStorage.last_i)) || ps.length) - 1;
