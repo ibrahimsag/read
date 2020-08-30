@@ -21,12 +21,22 @@ body {
   margin: 0;
   font-family: Geom;
 }
+#logo {
+  float: left;
+  padding: 4px 12px;
+  font-size: 24px;
+}
+#bookTitle {
+  font-weight: bold;
+  font-size: 14px;
+}
 #container {
   max-width: 1024px;
   min-width: 900px;
   position: fixed;
-  top: 50px;
+  top: 45px;
   bottom: 30px;
+  border-top: 1px solid #222;
 }
 #figure {
   position: absolute;
@@ -50,25 +60,6 @@ body {
   max-height: 400px;
   margin: 0 auto;
   display: block;
-}
-#logo {
-  position:absolute;
-  left: 0px;
-  top: 0px;
-  padding: 5px 10px;
-  font-size: 29px;
-  border-right: 1px solid #222;
-  border-bottom: 1px solid #222;
-}
-#book {
-  position: absolute;
-  left: 106px;
-  top: 12px;
-  padding: 5px 10px;
-}
-#bookTitle {
-  font-weight: bold;
-  margin: 0;
 }
 #proseHeading {
   box-sizing: border-box;
@@ -110,9 +101,8 @@ body {
     </style>
   </head>
   <body>
-    <div id="logo"><span style="color: #474747">euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></div>
-    <div id="book">
-      <div id="bookTitle"></div>
+    <div id="logo"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span>
+      <span id="bookTitle"></span>
     </div>
     <div id="container">
       <div id="prose">
