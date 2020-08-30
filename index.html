@@ -22,18 +22,20 @@ body {
   font-family: Geom;
 }
 #container {
-  width: 1024px;
+  max-width: 1024px;
+  min-width: 900px;
   position: fixed;
   top: 50px;
-  bottom: 0;
+  bottom: 30px;
 }
 #figure {
   position: absolute;
   top: 0;
-  left: 512px;
+  left: 50%;
+  width: 50%;
 }
 #prose {
-  width: 512px;
+  width: 50%;
   display: block;
   padding: 12px;
   box-sizing: border-box;
@@ -44,7 +46,7 @@ body {
   text-align: right;
 }
 #prose img {
-  max-width: 488px;
+  max-width: 90%;
   max-height: 400px;
   margin: 0 auto;
   display: block;
@@ -53,8 +55,8 @@ body {
   position:absolute;
   left: 0px;
   top: 0px;
-  padding: 6px 12px;
-  font-size: 30px;
+  padding: 5px 10px;
+  font-size: 29px;
   border-right: 1px solid #222;
   border-bottom: 1px solid #222;
 }
@@ -62,11 +64,10 @@ body {
   position: absolute;
   left: 106px;
   top: 12px;
-  padding: 6px 12px;
+  padding: 5px 10px;
 }
 #bookTitle {
   font-weight: bold;
-  font-size: 1.1em
   margin: 0;
 }
 #proseHeading {
@@ -92,6 +93,27 @@ body {
   cursor: pointer;
   user-select: none;
 }
+#proseMovement {
+  height: 30px;
+  width: 50%;
+  max-width: 512px;
+  min-width: 450px;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+}
+#move-back {
+  height: 30px;
+  width: 33%;
+  background-color: #474747;
+}
+#move-on {
+  height: 30px;
+  width: 67%;
+  background-color: #777;
+}
     </style>
   </head>
   <body>
@@ -108,7 +130,11 @@ body {
         </div>
         <div id="proseContent"></div>
       </div>
-      <svg width="512" height="512" id="figure"></svg>
+      <svg width="50%" height="100%" id="figure"></svg>
+    </div>
+    <div id="proseMovement">
+      <a id="move-back"></a>
+      <a id="move-on"></a>
     </div>
     <script src="build/bundle.js"></script>
   </body>

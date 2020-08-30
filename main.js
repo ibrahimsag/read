@@ -609,6 +609,16 @@ function presentProp(i_book, i_prop) {
 
   document.onkeydown = keyHandler;
 
+  document.querySelector('#move-on').onclick = (e) =>
+  {
+    ground.proxy.moveon();
+  }
+
+  document.querySelector('#move-back').onclick = (e) =>
+  {
+    ground.proxy.moveback();
+  }
+
   document.querySelector('#prev-prop').onclick = (e) =>
   {
     i_p = (i_p-1+ps.length) % ps.length;
