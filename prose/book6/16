@@ -2,7 +2,7 @@ If four straight-lines are proportional then the rectangle contained by the (two
 
 Let AB, CD, E, and F be four proportional straight-lines, (such that) as AB (is) to CD, so E (is) to F. I say that the rectangle contained by AB and F is equal to the rectangle contained by CD and E.
 
-[For] let AG and CH have been drawn from points A and C at right-angles to the straight-lines AB and CD (respectively) [Prop. 1.11]. And let AG be made equal to F , and C H to E [Prop. 1.3]. And let the parallelograms BG and DH have been completed.
+[For] let AG and CH have been drawn from points A and C at right-angles to the straight-lines AB and CD (respectively) [Prop. 1.11]. And let AG be made equal to F, and CH to E [Prop. 1.3]. And let the parallelograms BG and DH have been completed.
 
 And since as AB is to CD, so E (is) to F, and E (is) equal CH, and F to AG, thus as AB is to CD, so CH (is) to AG. Thus, in the parallelograms BG and DH the sides about the equal angles are reciprocally proportional. And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.14]. Thus, parallelogram BG is equal to parallelogram DH. And BG is the (rectangle contained) by AB and F. For AG (is) equal to F. And DH (is) the (rectangle contained) by CD and E. For E (is) equal to CH. Thus, the rectangle contained by AB and F is equal to the rectangle contained by CD and E.
 

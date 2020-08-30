@@ -186,17 +186,18 @@ function makeGround(rg, svg)
 
     let proseEl = document.querySelector('#prose');
     proseEl.innerHTML = '';
+
+    let titleEl = document.createElement('h3');
+    titleEl.innerHTML = p.title;
+    titleEl.style['color'] = colors.sentence;
+    proseEl.appendChild(titleEl);
+
     if(p.img)
     {
       let imgEl = document.createElement('img');
       imgEl.src = p.img;
       proseEl.appendChild(imgEl);
     }
-
-    let titleEl = document.createElement('h3');
-    titleEl.innerHTML = p.title;
-    titleEl.style['color'] = colors.sentence;
-    proseEl.appendChild(titleEl);
 
     let refCount = 0;
     p.prose.forEach(paragraphProse =>
