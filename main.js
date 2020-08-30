@@ -585,12 +585,12 @@ function presentProp(i_book, i_prop) {
     {
       ground.proxy.moveback();
     }
-    else if(e.key == "n")
+    else if(e.key == "b")
     {
       i_p = (i_p-1 + ps.length) % ps.length;
       presentProp(i_book, i_p);
     }
-    else if(e.key == "m")
+    else if(e.key == "a")
     {
       i_p = (i_p+1) % ps.length;
       presentProp(i_book, i_p);

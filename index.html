@@ -71,9 +71,7 @@ body {
   margin: 0;
 }
 #proseHeading {
-  padding: 12px 0;
   box-sizing: border-box;
-  height: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -84,12 +82,7 @@ body {
 }
 .prop-nav {
   font-weight: bold;
-  width:30px;
-  height:30px;
-  box-sizing: border-box;
-  padding: 3px 5px;
-  text-align:center;
-  vertical-align: middle;
+  padding: 3px 6px;
   cursor: pointer;
   user-select: none;
 }
@@ -124,9 +117,9 @@ body {
     <div id="container">
       <div id="prose">
         <div id="proseHeading">
-          <div class="prop-nav" id="prev-prop">&lt;</div>
+          <div class="prop-nav" id="prev-prop"><span style="text-decoration: underline">b</span>efore</div>
+          <div class="prop-nav" id="next-prop"><span style="text-decoration: underline">a</span>fter</div>
           <div id="proseTitle"></div>
-          <div class="prop-nav" id="next-prop">&gt;</div>
         </div>
         <div id="proseContent"></div>
       </div>
