@@ -23,7 +23,7 @@ body {
 }
 #logo {
   float: left;
-  padding: 4px 12px;
+  padding: 6px 12px;
   font-size: 24px;
 }
 #bookTitle {
@@ -36,7 +36,6 @@ body {
   position: fixed;
   top: 45px;
   bottom: 30px;
-  border-top: 1px solid #222;
 }
 #figure {
   position: absolute;
@@ -67,7 +66,7 @@ body {
   justify-content: space-between;
 }
 #proseTitle {
-  margin: auto;
+  margin-left: auto;
   font-weight: bold;
   font-size: 1.2em
 }
@@ -78,6 +77,7 @@ body {
   user-select: none;
 }
 #proseMovement {
+  color: #e2e2e2;
   height: 30px;
   width: 50%;
   max-width: 512px;
@@ -88,13 +88,17 @@ body {
   cursor: pointer;
   user-select: none;
 }
-#move-back {
+#proseMovement a {
   height: 30px;
+  padding-top: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#move-back {
   width: 33%;
   background-color: #474747;
 }
 #move-on {
-  height: 30px;
   width: 67%;
   background-color: #777;
 }
@@ -116,8 +120,8 @@ body {
       <svg width="50%" height="100%" id="figure"></svg>
     </div>
     <div id="proseMovement">
-      <a id="move-back"></a>
-      <a id="move-on"></a>
+      <a id="move-back">back</a>
+      <a id="move-on">read on</a>
     </div>
     <script src="build/bundle.js"></script>
   </body>
