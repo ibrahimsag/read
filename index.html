@@ -26,7 +26,6 @@ body {
   position: fixed;
   top: 50px;
   bottom: 0;
-  left: 0;
 }
 #figure {
   position: absolute;
@@ -65,18 +64,50 @@ body {
   top: 12px;
   padding: 6px 12px;
 }
-#book h3 {
+#bookTitle {
+  font-weight: bold;
+  font-size: 1.1em
   margin: 0;
+}
+#proseHeading {
+  padding: 12px 0;
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+#proseTitle {
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.2em
+}
+.prop-nav {
+  font-weight: bold;
+  width:30px;
+  height:30px;
+  box-sizing: border-box;
+  padding: 3px 5px;
+  text-align:center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
 }
     </style>
   </head>
   <body>
     <div id="logo"><span style="color: #474747">euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></div>
     <div id="book">
-      <h3 id="bookNum"></h3>
+      <div id="bookTitle"></div>
     </div>
     <div id="container">
-      <div id="prose"> </div>
+      <div id="prose">
+        <div id="proseHeading">
+          <div class="prop-nav" id="prev-prop">&lt;</div>
+          <div id="proseTitle"></div>
+          <div class="prop-nav" id="next-prop">&gt;</div>
+        </div>
+        <div id="proseContent"></div>
+      </div>
       <svg width="512" height="512" id="figure"></svg>
     </div>
     <script src="build/bundle.js"></script>

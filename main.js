@@ -184,13 +184,12 @@ function makeGround(rg, svg)
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
 
-    let proseEl = document.querySelector('#prose');
-    proseEl.innerHTML = '';
-
-    let titleEl = document.createElement('h3');
+    let titleEl = document.querySelector('#proseTitle');
     titleEl.innerHTML = p.title;
     titleEl.style['color'] = colors.sentence;
-    proseEl.appendChild(titleEl);
+
+    let proseEl = document.querySelector('#proseContent');
+    proseEl.innerHTML = '';
 
     if(p.img)
     {
@@ -568,7 +567,7 @@ let ground = makeGround(rg, svg);
 function presentProp(i_book, i_prop) {
   localStorage.is = JSON.stringify({i_book, i_prop});
 
-  let el = document.querySelector('#bookNum');
+  let el = document.querySelector('#bookTitle');
   el.innerText = 'Elements Book ' + (i_book + 1) + ' - ' + descs[i_book];
 
   let ps = books[i_book](rg);
@@ -609,6 +608,18 @@ function presentProp(i_book, i_prop) {
   }
 
   document.onkeydown = keyHandler;
+
+  document.querySelector('#prev-prop').onclick = (e) =>
+  {
+    i_p = (i_p-1+ps.length) % ps.length;
+    presentProp(i_book, i_p);
+  }
+
+  document.querySelector('#next-prop').onclick = (e) =>
+  {
+    i_p = (i_p+1) % ps.length;
+    presentProp(i_book, i_p);
+  }
 }
 
 let is;
