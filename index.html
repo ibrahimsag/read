@@ -64,6 +64,11 @@ body {
 #logo {
   padding: 6px 12px;
   font-size: 24px;
+
+}
+#logo a {
+  cursor: pointer;
+  user-select: none;
 }
 #bookTitle {
   font-weight: bold;
@@ -129,11 +134,16 @@ body {
   text-decoration: underline;
   color: #555;
 }
+#bookList {
+  max-width: 512px;
+}
 #bookList a {
-  margin-right: 20px;
   color: #254f35;
   user-select: none;
   cursor: pointer;
+}
+#bookList p {
+  margin-left: 20px;
 }
 #cover {
   width: 400px;
@@ -145,7 +155,7 @@ body {
   <body>
     <div id="container" style="display: none">
       <div id="header">
-        <div id="logo"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span><span id="bookTitle"></span></div>
+        <div id="logo"><a pref="cover"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></a><a id="bookTitle"></a></div>
       </div>
       <div id="page">
         <div id="prosePanel">
@@ -168,25 +178,49 @@ body {
     <div id="coverPage">
       <div id="bookList">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
-<a>Definitions</a>
-<a>Complements in parallelograms</a>
+<p>
+Start with <a pref="1.0">Definitions</a> or <a pref="1.1">First proposition</a>.
+<br>
+Interesting proofs:
+<a>Complements in parallelograms</a>,
 <a>Pythagorean theorem</a>
+</p>
 <h4>Book 2 - Fundamentals of Geometric Algebra</h4>
-<a>Definitions</a>
+<p>
+Start with <a>Definitions</a> or
+<a>First Proposition</a>.
+<br>
+Interesting construction:
 <a>Golden section</a>
+</p>
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
-<a>Definitions</a>
+<p>
+Start with <a>Definitions</a> or <a>First Proposition</a>.
+<br>
+Interesting proof:
 <a>Lines from outside a circle</a>
+</p>
 <h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
-<a>Definitions</a>
-<a>Regular Pentagon</a>
+<p>
+Start with <a>Definitions</a> or <a>First Proposition</a>.
+<br>
+Interesting construction: <a>Regular Pentagon</a>
+</p>
 <h4>Book 5 - Proportion</h4>
-<a>Definitions</a>
+<p>
+Start with <a>Definitions</a> or <a>First Proposition</a>.
+<br>
+Interesting proof:
 <a>Commutativity of multiplication</a>
+</p>
 <h4>Book 6 - Similar Figures</h4>
-<a>Definitions</a>
-<a>Solution of quadratic equation</a>
+<p>
+Start with <a>Definitions</a> or <a>First Proposition</a>.
+<br>
+Interesting propositions:
+<a>Solution of quadratic equation</a>,
 <a>Multiplicative area proportion</a>
+</p>
       </div>
       <div id="cover">
         <h1>Euclid's Elements</h1>

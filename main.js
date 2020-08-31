@@ -571,15 +571,16 @@ let books = [book1, book2, book3, book4, book5, book6];
 let ground = makeGround(rg, svg);
 
 function presentProp(i_book, i_prop) {
-  localStorage.is = JSON.stringify({i_book, i_prop});
+  document.querySelector('#coverPage').style['display'] = 'none';
+  document.querySelector('#container').style['display'] = 'flex';
 
   let el = document.querySelector('#bookTitle');
-  el.innerText = 'Elements Book ' + (i_book + 1) + ' - ' + descs[i_book];
+  el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
 
-  let ps = books[i_book](rg);
+  let ps = books[i_book-1](rg);
 
   let i_p = Math.min(ps.length-1, i_prop);
-  ground.draw(0, processProp(i_book)(ps[i_p], i_p));
+  ground.draw(0, processProp(i_book-1)(ps[i_p], i_p));
 
   function keyHandler(e)
   {
@@ -594,22 +595,22 @@ function presentProp(i_book, i_prop) {
     else if(e.key == "b")
     {
       i_p = (i_p-1 + ps.length) % ps.length;
-      presentProp(i_book, i_p);
+      openProposition(i_book, i_p);
     }
     else if(e.key == "a")
     {
       i_p = (i_p+1) % ps.length;
-      presentProp(i_book, i_p);
+      openProposition(i_book, i_p);
     }
     else if(e.key == "o")
     {
-      let i = (i_book - 1 + books.length) % books.length;
-      presentProp(i, i_prop);
+      let i = ((i_book - 1 - 1 + books.length) % books.length) + 1;
+      openProposition(i, i_prop);
     }
     else if(e.key == "p")
     {
-      let i = (i_book + 1) % books.length;
-      presentProp(i, i_prop);
+      let i = ((i_book - 1 + 1) % books.length) + 1;
+      openProposition(i, i_prop);
     }
   }
 
@@ -628,24 +629,74 @@ function presentProp(i_book, i_prop) {
   document.querySelector('#prev-prop').onmousedown = (e) =>
   {
     i_p = (i_p-1+ps.length) % ps.length;
-    presentProp(i_book, i_p);
+    openProposition(i_book, i_p);
   }
 
   document.querySelector('#next-prop').onmousedown = (e) =>
   {
     i_p = (i_p+1) % ps.length;
-    presentProp(i_book, i_p);
+    openProposition(i_book, i_p);
   }
 }
 
-let is;
-if(localStorage.is)
+function presentCover() {
+  document.querySelector('#coverPage').style['display'] = 'flex';
+  document.querySelector('#container').style['display'] = 'none';
+  document.onkeydown = undefined;
+}
+
+function openProposition(i_book, i_prop) {
+  history.pushState({page:'prop', i_book, i_prop}, '');
+  presentProp(i_book, i_prop);
+}
+
+function openCover()
 {
-  is = JSON.parse(localStorage.is);
+  history.pushState({page:'cover'}, '');
+  presentCover();
+}
+
+if(history.state && history.state.page === 'prop')
+{
+  let is = history.state;
+  presentProp(is.i_book, is.i_prop);
 }
 else
 {
-  is = { i_book: 0, i_prop: 0 }
+  presentCover();
 }
 
-// presentProp(is.i_book, is.i_prop || 0);
+window.onpopstate = (e) => {
+  if(!e.state || !e.state.page || e.state.page === 'cover')
+  {
+    presentCover();
+  }
+  else if(e.state.page === 'prop')
+  {
+    let is = e.state;
+    presentProp(is.i_book, is.i_prop);
+  }
+}
+
+document.onclick = (e) => {
+  let pref = e.srcElement.attributes.pref || e.srcElement.parentElement.attributes.pref;
+  if(pref)
+  {
+    if(pref.value == 'cover')
+    {
+      openCover();
+    }
+    else
+    {
+      let [i_book, i_prop] = pref.value.split('.').map(Number);
+      if(isNaN(i_book) || isNaN(i_prop))
+      {
+        console.error("unknown pref: ", pref.value);
+      }
+      else
+      {
+        openProposition(i_book, i_prop)
+      }
+    }
+  }
+}
