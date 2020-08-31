@@ -259,10 +259,22 @@ function makeGround(rg, svg)
           return '';
         }
 
+        function placePref(m, pref)
+        {
+          console.log(pref);
+          let el = document.createElement('a');
+          el.setAttribute('pref', pref);
+          el.innerText = m;
+          return el.outerHTML;
+        }
+
         let figureRE = /\{figure ([0-9])\}/g;
         let sp = sentenceProse.replace(figureRE, selectFigure);
+        let propRE = /\[Prop. ([0-9]+.[0-9]+)\]/g;
+        let sp2 = sp.replace(propRE, placePref);
+
         let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
-        let sentenceHTML = sp.replace(markRE, highlightReference);
+        let sentenceHTML = sp2.replace(markRE, highlightReference);
 
         let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';
