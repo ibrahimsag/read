@@ -15,41 +15,64 @@
   src: url('public/mediumitalic.ttf') format('truetype');
   font-style: italic;
 }
+html, body {
+  height: 100%;
+}
 body {
   background: black;
   color: #474747;
   margin: 0;
   font-family: Geom;
 }
+#container {
+  max-width: 1024px;
+  min-width: 900px;
+  height:100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+#header {
+  height: 45px;
+  flex: 0 0 auto;
+}
+#page {
+  flex: 1 1 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+#prosePanel {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+}
+#prose {
+  overflow: auto;
+  flex-grow: 1;
+}
+#proseMovement {
+  flex: 0 0 auto;
+  height: 30px;
+  display: flex;
+  align-items: stretch;
+}
+#figure {
+  width: 50%;
+}
+
 #logo {
-  float: left;
   padding: 6px 12px;
   font-size: 24px;
 }
 #bookTitle {
   font-weight: bold;
   font-size: 14px;
-}
-#container {
-  max-width: 1024px;
-  min-width: 900px;
-  position: fixed;
-  top: 45px;
-  bottom: 30px;
-}
-#figure {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
+  margin-left: 15px;
 }
 #prose {
-  width: 50%;
-  display: block;
   padding: 12px;
   box-sizing: border-box;
-  height: 100%;
-  overflow: auto;
 }
 #prose p {
   text-align: right;
@@ -78,21 +101,8 @@ body {
 }
 #proseMovement {
   color: #e2e2e2;
-  height: 30px;
-  width: 50%;
-  max-width: 512px;
-  min-width: 450px;
-  position: absolute;
-  bottom: 0px;
-  display: flex;
   cursor: pointer;
   user-select: none;
-}
-#proseMovement a {
-  height: 30px;
-  padding-top: 4px;
-  box-sizing: border-box;
-  text-align: center;
 }
 #move-back {
   width: 33%;
@@ -105,23 +115,27 @@ body {
     </style>
   </head>
   <body>
-    <div id="logo"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span>
-      <span id="bookTitle"></span>
-    </div>
     <div id="container">
-      <div id="prose">
-        <div id="proseHeading">
-          <div class="prop-nav" id="prev-prop"><span style="text-decoration: underline">b</span>efore</div>
-          <div class="prop-nav" id="next-prop"><span style="text-decoration: underline">a</span>fter</div>
-          <div id="proseTitle"></div>
-        </div>
-        <div id="proseContent"></div>
+      <div id="header">
+        <div id="logo"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span><span id="bookTitle"></span></div>
       </div>
-      <svg width="50%" height="100%" id="figure"></svg>
-    </div>
-    <div id="proseMovement">
-      <a id="move-back">back</a>
-      <a id="move-on">read on</a>
+      <div id="page">
+        <div id="prosePanel">
+          <div id="prose">
+            <div id="proseHeading">
+              <div class="prop-nav" id="prev-prop"><span style="text-decoration: underline">b</span>efore</div>
+              <div class="prop-nav" id="next-prop"><span style="text-decoration: underline">a</span>fter</div>
+              <div id="proseTitle"></div>
+            </div>
+            <div id="proseContent"></div>
+          </div>
+          <div id="proseMovement">
+            <a id="move-back"></a>
+            <a id="move-on"></a>
+          </div>
+        </div>
+        <svg id="figure"></svg>
+      </div>
     </div>
     <script src="build/bundle.js"></script>
   </body>
