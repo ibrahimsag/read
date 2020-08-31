@@ -145,8 +145,11 @@ body {
   box-sizing: border-box;
   padding-left: 24px;
 }
-
-#bookTitle, #prev-prop, #next-prop, #bookList a, #prose a {
+#prose a {
+  color: #254f35;
+  cursor: pointer;
+}
+#bookTitle, #prev-prop, #next-prop, #bookList a {
   color: #254f35;
   user-select: none;
   cursor: pointer;
@@ -177,47 +180,47 @@ body {
         <svg id="figure"></svg>
       </div>
     </div>
-    <div id="coverPage">
+    <div id="coverPage" style="display: none">
       <div id="bookList">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
 Start with <a pref="1.0">Definitions</a> or <a pref="1.1">First proposition</a>.
 <br>
 Interesting proofs:
-<a>Complements in parallelograms</a>,
-<a>Pythagorean theorem</a>
+<a pref="1.43">Complements in parallelograms</a>,
+<a pref="1.47">Pythagorean theorem</a>
 </p>
 <h4>Book 2 - Fundamentals of Geometric Algebra</h4>
 <p>
-Start with <a>Definitions</a> or
-<a>First Proposition</a>.
+Start with <a pref="2.0">Definitions</a> or <a pref="2.1">First proposition</a>.
 <br>
 Interesting construction:
-<a>Golden section</a>
+<a pref="2.11">Golden section</a>
 </p>
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
 <p>
-Start with <a>Definitions</a> or <a>First Proposition</a>.
+Start with <a pref="3.0">Definitions</a> or <a pref="3.1">First proposition</a>.
 <br>
-Interesting proof:
-<a>Lines from outside a circle</a>
+Interesting propositions:
+<a pref="3.33">To draw a segment accepting an angle</a>,
+<a pref="3.36">Relations of lines from outside a circle</a>,
 </p>
 <h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
 <p>
-Start with <a>Definitions</a> or <a>First Proposition</a>.
+Start with <a pref="4.0">Definitions</a> or <a pref="4.1">First proposition</a>.
 <br>
-Interesting construction: <a>Regular Pentagon</a>
+Interesting construction: <a pref="4.11">Regular Pentagon</a>
 </p>
 <h4>Book 5 - Proportion</h4>
 <p>
-Start with <a>Definitions</a> or <a>First Proposition</a>.
+Start with <a pref="5.0">Definitions</a> or <a pref="5.1">First proposition</a>.
 <br>
 Interesting proof:
-<a>Commutativity of multiplication</a>
+<a pref="5.23">Commutativity of multiplication</a>
 </p>
 <h4>Book 6 - Similar Figures</h4>
 <p>
-Start with <a>Definitions</a> or <a>First Proposition</a>.
+Start with <a pref="6.0">Definitions</a> or <a pref="6.1">First proposition</a>.
 <br>
 Interesting propositions:
 <a>Solution of quadratic equation</a>,
