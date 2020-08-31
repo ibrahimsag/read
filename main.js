@@ -3,11 +3,17 @@ import hsluv from 'hsluv';
 
 import vec2 from './vec2.js';
 
+
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
   sentence: hsluv.hsluvToHex([0, 0, 50]),
-  dim: hsluv.hsluvToHex([0, 0, 30])
+  dim: hsluv.hsluvToHex([0, 0, 30]),
+  link: hsluv.hpluvToHex([140, 100, 30])
 };
+
+document.querySelector('#bookTitle').style.color = colors.link;
+document.querySelector('#prev-prop').style.color = colors.link;
+document.querySelector('#next-prop').style.color = colors.link;
 
 function makeRG (svgEl)
 {
@@ -609,23 +615,23 @@ function presentProp(i_book, i_prop) {
 
   document.onkeydown = keyHandler;
 
-  document.querySelector('#move-on').onclick = (e) =>
+  document.querySelector('#move-on').onmousedown = (e) =>
   {
     ground.proxy.moveon();
   }
 
-  document.querySelector('#move-back').onclick = (e) =>
+  document.querySelector('#move-back').onmousedown = (e) =>
   {
     ground.proxy.moveback();
   }
 
-  document.querySelector('#prev-prop').onclick = (e) =>
+  document.querySelector('#prev-prop').onmousedown = (e) =>
   {
     i_p = (i_p-1+ps.length) % ps.length;
     presentProp(i_book, i_p);
   }
 
-  document.querySelector('#next-prop').onclick = (e) =>
+  document.querySelector('#next-prop').onmousedown = (e) =>
   {
     i_p = (i_p+1) % ps.length;
     presentProp(i_book, i_p);
