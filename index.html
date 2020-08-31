@@ -120,14 +120,20 @@ body {
   padding: 12px;
   display: flex;
   flex-flow: row nowrap;
+  min-width: 900px;
 }
 #coverPage h4 {
   color: #777;
 }
 #coverPage a {
   text-decoration: underline;
-  margin-right: 20px;
   color: #555;
+}
+#bookList a {
+  margin-right: 20px;
+  color: #254f35;
+  user-select: none;
+  cursor: pointer;
 }
 #cover {
   width: 400px;
@@ -190,7 +196,8 @@ body {
         <p>- R. Descartes, A Discourse on the Method</p>
 
         <br>
-        <p>based on <a href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
+        <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
+        <p><a href="mailto: sag.ibrahim@gmail.com">Contact</a> for feedback.</p>
       </div>
     </div>
     <script src="build/bundle.js"></script>
