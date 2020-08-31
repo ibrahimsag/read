@@ -112,10 +112,32 @@ body {
   width: 67%;
   background-color: #777;
 }
+
+#cover {
+  text-align: right;
+}
+#coverPage {
+  padding: 12px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+#coverPage h4 {
+  color: #777;
+}
+#coverPage a {
+  text-decoration: underline;
+  margin-right: 20px;
+  color: #555;
+}
+#cover {
+  width: 400px;
+  box-sizing: border-box;
+  padding-left: 24px;
+}
     </style>
   </head>
   <body>
-    <div id="container">
+    <div id="container" style="display: none">
       <div id="header">
         <div id="logo"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span><span id="bookTitle"></span></div>
       </div>
@@ -135,6 +157,40 @@ body {
           </div>
         </div>
         <svg id="figure"></svg>
+      </div>
+    </div>
+    <div id="coverPage">
+      <div id="bookList">
+<h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
+<a>Definitions</a>
+<a>Complements in parallelograms</a>
+<a>Pythagorean theorem</a>
+<h4>Book 2 - Fundamentals of Geometric Algebra</h4>
+<a>Definitions</a>
+<a>Golden section</a>
+<h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
+<a>Definitions</a>
+<a>Lines from outside a circle</a>
+<h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
+<a>Definitions</a>
+<a>Regular Pentagon</a>
+<h4>Book 5 - Proportion</h4>
+<a>Definitions</a>
+<a>Commutativity of multiplication</a>
+<h4>Book 6 - Similar Figures</h4>
+<a>Definitions</a>
+<a>Solution of quadratic equation</a>
+<a>Multiplicative area proportion</a>
+      </div>
+      <div id="cover">
+        <h1>Euclid's Elements</h1>
+        <h3>with <span style="color: #777;">high</span><span style="color: #e2e2e2;">lights</span></h3>
+        <br>
+        <p>"As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it."</p>
+        <p>- R. Descartes, A Discourse on the Method</p>
+
+        <br>
+        <p>based on <a href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
       </div>
     </div>
     <script src="build/bundle.js"></script>

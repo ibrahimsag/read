@@ -648,4 +648,4 @@ else
   is = { i_book: 0, i_prop: 0 }
 }
 
-presentProp(is.i_book, is.i_prop || 0);
+// presentProp(is.i_book, is.i_prop || 0);
