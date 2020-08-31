@@ -11,10 +11,6 @@ let colors = {
   link: hsluv.hpluvToHex([140, 100, 30])
 };
 
-document.querySelector('#bookTitle').style.color = colors.link;
-document.querySelector('#prev-prop').style.color = colors.link;
-document.querySelector('#next-prop').style.color = colors.link;
-
 function makeRG (svgEl)
 {
   const rsvg = rough.svg(svgEl);
