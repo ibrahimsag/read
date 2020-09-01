@@ -264,6 +264,9 @@ function makeGround(rg, svg)
           return el.outerHTML;
         }
 
+        let el = document.createElement('span');
+        el.dataset.ref = refCount;
+
         let figureRE = /\{figure ([0-9])\}/g;
         let sp = sentenceProse.replace(figureRE, selectFigure);
         let propRE = /\[Prop. ([0-9]+.[0-9]+)\]/g;
@@ -272,7 +275,6 @@ function makeGround(rg, svg)
         let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
         let sentenceHTML = sp2.replace(markRE, highlightReference);
 
-        let el = document.createElement('span');
         el.innerHTML = sentenceHTML + ' ';
         paragraphEl.appendChild(el);
 
@@ -420,7 +422,7 @@ function makeGround(rg, svg)
     proseEl.onclick = (e) =>
     {
       let ref = parseInt(e.srcElement.dataset.ref);
-      if(ref)
+      if(!isNaN(ref))
       {
         draw(ref, p);
       }
