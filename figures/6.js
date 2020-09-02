@@ -368,64 +368,215 @@ function()
 
 function()
 {
+  const C = [50, 200];
+  const cd = [150, 0];
+  const cf = [20, -130];
+  const ce = [170, -160];
+  const [D, F, E] = [cd, cf, ce].map(v => vec2.add(C, v));
+  const A = [300, 200];
+  const [B, G, H] = [cd, cf, ce].map(v => vec2.add(A, vec2.scale(v, 0.6)));
+
   return {
     prose: prop18,
+    points: { A, B, C, D, E, F, G, H }
   };
 },
 
 function()
 {
+  const B = [50, 250];
+  const ba = [100, -200];
+  const bc = [200, 0];
+  const ratio = 0.6;
+  const [A, C] = [ba, bc].map(v => vec2.add(B, v));
+  const G = vec2.add(B, vec2.scale(bc, ratio * ratio));
+  const E = [300, 250];
+  const [D, F] = [ba, bc].map(v => vec2.add(E, vec2.scale(v, ratio)));
+
   return {
     prose: prop19,
+    points: { A, B, C, D, E, F, G }
   };
 },
 
 function()
 {
+  const A = [100, 50];
+  const ds = [[-50, 80], [0, 200], [100, 200], [150, 40], [0, 70]];
+  const [B, C, D, E, M] = ds.map(v => vec2.add(A, v));
+  const F = [350, 100];
+  const [G, H, K, L, N] = ds.map(v => vec2.add(F, vec2.scale(v, 0.6)));
+
   return {
     prose: prop20,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N }
   };
 },
 
 function()
 {
+  const A = [20, 20];
+  const ds = [[80, 150], [150, 150], [150, 50]];
+  const apts = ds.map(v => vec2.add(A, v));
+  const B = [240, 70];
+  const bpts = ds.map(v => vec2.add(B, vec2.scale(v, 0.6)));
+  const C = [150, 200];
+  const cpts = ds.map(v => vec2.add(C, vec2.scale(v, 1.2)));
+
   return {
     prose: prop21,
+    points: { A, B, C },
+    shapes: [
+      rg.polygon([A, ...apts]),
+      rg.polygon([B, ...bpts]),
+      rg.polygon([C, ...cpts]),
+    ],
+    letters: {
+      A: [-2, 9],
+      B: [-2, 6],
+      C: [-2, 10],
+    },
+    given: {
+      A: () => [rg.polygon([A, ...apts])],
+      B: () => [rg.polygon([B, ...bpts])],
+      C: () => [rg.polygon([C, ...cpts])],
+    }
   };
 },
 
 function()
 {
+  const r = 0.8, a = 130, c = a*r, e = 80, g = e*r, o = c * r,  p = g * r;
+  const A = [50, 150];
+  const B = vec2.add(A, [a, 0]);
+  const K = vec2.add(A, vec2.rot([a, 0], -Math.PI*0.35));
+  const C = [250, 150];
+  const D = vec2.add(C, [c, 0]);
+  const L = vec2.add(C, vec2.rot([c, 0], -Math.PI*0.35));
+  const E = [70, 300];
+  const F = vec2.add(E, [e, 0]);
+  const M = vec2.add(E, vec2.rot([e, 0], -Math.PI * 0.4));
+  const U = vec2.add(M, [e, 0]);
+  const G = [270, 300];
+  const H = vec2.add(G, [g, 0]);
+  const N = vec2.add(G, vec2.rot([g, 0], -Math.PI * 0.4));
+  const V = vec2.add(N, [g, 0]);
+  const Q = [270, 420];
+  const R = vec2.add(Q, [g, 0]);
+  const S = vec2.add(Q, vec2.rot([g, 0], -Math.PI * 0.4));
+  const T = vec2.add(S, [g, 0]);
+
   return {
     prose: prop22,
+    points: {A, B, C, D, E, F, G, H, K, L, M, N, Q, R, S, T, U, V },
+    mags: [
+      { l: 'O', m: o, p: [70, 350] },
+      { l: 'P', m: p, p: [200, 350] }
+    ]
   };
 },
 
 function()
 {
+  const k = 130, l = 160, m = 220, j = l * l / m;
+  const u = [1, 0];
+  const v = vec2.rot(u, -Math.PI * 0.43);
+  const C = [280, 150];
+  const D = vec2.add(C, vec2.scale(v, j));
+  const E = vec2.sub(C, vec2.scale(v, l));
+  const [A, B] = [D, C].map(pt => vec2.sub(pt, vec2.scale(u, k)));
+  const [F, G, H] = [E, C, D].map(pt=>vec2.add(pt, vec2.scale(u, l)));
+
   return {
     prose: prop23,
+    points: { A, B, C, D, E, F, G, H },
+    mags: [
+      { l: 'K', m: k*0.7, p: [50, 200] },
+      { l: 'L', m: l*0.7, v: 50 },
+      { l: 'M', m: m*0.7, v: 50 },
+    ]
   };
 },
 
 function()
 {
+  const A = [50, 50];
+  const ab = [300, 0]
+  const ad = [50, 200];
+  const B = vec2.add(A, ab);
+  const C = vec2.add(B, ad);
+  const D = vec2.add(A, ad);
+  const ae = vec2.scale(ab, 0.3);
+  const ag = vec2.scale(ad, 0.3);
+  const E = vec2.add(A, ae);
+  const F = vec2.add(E, ag);
+  const G = vec2.add(A, ag);
+  const H = vec2.add(B, ag);
+  const K = vec2.add(D, ae);
+
   return {
     prose: prop24,
+    points: { A, B, C, D, E, F, G, H, K }
   };
 },
 
 function()
 {
+  const B = [50, 150];
+  const ba = [-20, -100];
+  const bl = [-10, 50];
+  const b = 100, c = 140, g = Math.sqrt(b * c);
+  const A = vec2.add(B, ba);
+  const C = vec2.add(B, [b, 0]);
+  const F = vec2.add(C, [c, 0]);
+  const L = vec2.add(B, bl);
+  const E = vec2.add(C, bl);
+  const M = vec2.add(F, bl);
+  const D = [120, 60];
+  const ds = [[c+10, 0], [c+20, 50], [30, 50]].map(v => vec2.add(D, v));
+  const G = [360, 160];
+  const H = vec2.add(G, [g, 0]);
+  const K = vec2.add(G, vec2.scale(ba, g/b));
+
   return {
     prose: prop25,
+    points: { A, B, C, D, E, F, G, H, K, L, M },
+    shapes: [
+      rg.polygon([G, H, K]),
+      rg.polygon([D, ...ds]),
+      rg.polygon([B, L, M, F]),
+      rg.line(C, E),
+      rg.line(A, B),
+      rg.line(A, C)
+    ],
+    letters: {
+      D: [-1.4, 5]
+    }
   };
 },
 
 function()
 {
+  const A = [100, 50];
+  const u = [1, 0];
+  const v = vec2.rot(u, Math.PI * 0.6);
+  const ab = vec2.scale(v, 200);
+  const ad = vec2.scale(u, 300);
+  const ae = vec2.scale(ab, 0.45);
+  const ak = vec2.scale(ab, 0.7);
+  const ag = vec2.scale(ad, 0.45);
+  const B = vec2.add(A, ab);
+  const D = vec2.add(A, ad);
+  const C = vec2.add(D, ab);
+  const E = vec2.add(A, ae);
+  const K = vec2.add(A, ak);
+  const G = vec2.add(A, ag);
+  const F = vec2.add(G, ae);
+  const H = vec2.add(G, ak);
+
   return {
     prose: prop26,
+    points: { A, B, C, D, E, F, G, H, K }
   };
 },
 
