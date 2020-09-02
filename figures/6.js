@@ -582,15 +582,128 @@ function()
 
 function()
 {
+  const u = [1, 0];
+  const v = vec2.rot(u, Math.PI * 0.4);
+  const w = 300, h = 250;
+  const O = [50, 50];
+  const A = vec2.add(O, vec2.scale(v, h));
+  const B = vec2.add(A, vec2.scale(u, w));
+  const C = vec2.add(A, vec2.scale(u, w * 0.5));
+  const D = vec2.add(O, vec2.scale(u, w * 0.5));
+  const E = vec2.add(O, vec2.scale(u, w));
+  const G = vec2.add(O, vec2.scale(v, h * 0.3));
+  const F = vec2.add(G, vec2.scale(u, w * 0.65));
+  const H = vec2.add(E, vec2.scale(v, h * 0.3));
+  const K = vec2.add(A, vec2.scale(u, w * 0.65));
+  const P = vec2.add(O, vec2.scale(u, w * 0.65));
+  const L = vec2.sub(F, vec2.scale(u, 20));
+  const M = vec2.add(F, vec2.scale(u, 20));
+  const N = vec2.sub(F, vec2.scale(v, 20));
+
   return {
     prose: prop27,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O },
+    shapes: [
+      rg.polygon([O, A, B, E]),
+      rg.line(G, H),
+      rg.line(D, C),
+      rg.line(P, K),
+      rg.line(D, B),
+      rg.gnomon(F, N, L)
+    ],
+    given: {
+      LMN: () => [rg.gnomon(F, N, L)],
+    },
+    smallletters: 'LMNF',
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [1],
+      F: [0],
+      G: [3],
+      H: [-1],
+      O: [1],
+      K: [-3],
+      L: [4],
+      M: [0],
+      N: [0],
+    }
   };
 },
 
 function()
 {
+  const u = [1, 0];
+  const v = vec2.rot(u, Math.PI * 0.4);
+  const w = 250, h = 200;
+  const H = [50, 50];
+  const A = vec2.add(H, vec2.scale(v, h));
+  const B = vec2.add(A, vec2.scale(u, w));
+  const E = vec2.add(A, vec2.scale(u, w * 0.5));
+  const G = vec2.add(H, vec2.scale(u, w * 0.5));
+  const F = vec2.add(H, vec2.scale(u, w));
+  const T = vec2.add(H, vec2.scale(v, h * 0.6));
+  const Q = vec2.add(T, vec2.scale(u, w * 0.8));
+  const R = vec2.add(F, vec2.scale(v, h * 0.6));
+  const S = vec2.add(A, vec2.scale(u, w * 0.8));
+  const P = vec2.add(H, vec2.scale(u, w * 0.8));
+  const V = vec2.sub(Q, vec2.scale(u, 20));
+  const W = vec2.add(Q, vec2.scale(u, 20));
+  const U = vec2.sub(Q, vec2.scale(v, 20));
+  const O = vec2.add(T, vec2.scale(u, w/2));
+
+  const C = [100, 400];
+  const cpts = [[90, -10], [100, -80], [-10, -70]].map(d => vec2.add(C, d));
+  const D = [250, 400];
+  const dpts = [[50, 0], [30, -70], [-20, -70]].map(d => vec2.add(D, d));
+  const L = [330, 330];
+  const M = vec2.add(L, vec2.scale(u, 90));
+  const K = vec2.add(L, vec2.scale(v, 120));
+  const N = vec2.add(K, vec2.scale(u, 90));
+
   return {
     prose: prop28,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, R, S, T, U, V, W },
+    shapes: [
+      rg.polygon([A, B, F, H]),
+      rg.polygon([D, ...dpts]),
+      rg.polygon([C, ...cpts]),
+      rg.polygon([K, L, M, N]),
+      rg.line(T, R),
+      rg.line(G, E),
+      rg.line(P, S),
+      rg.line(G, B),
+      rg.gnomon(Q, U, V)
+    ],
+    given: {
+      VWU: () => [rg.gnomon(Q, U, V)],
+    },
+    smallletters: 'UVWQ',
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [0, 3],
+      D: [0.5, 2],
+      E: [-3],
+      F: [1],
+      G: [1],
+      H: [1],
+      K: [-3],
+      L: [1],
+      M: [1],
+      N: [-3],
+      O: [2],
+      P: [1],
+      Q: [4.5, 0.8],
+      R: [-1],
+      S: [-3],
+      T: [3],
+      U: [0],
+      V: [1.5],
+      W: [0]
+    }
   };
 },
 
