@@ -257,7 +257,6 @@ function makeGround(rg, svg)
 
         function placePref(m, pref)
         {
-          console.log(pref);
           let el = document.createElement('a');
           el.setAttribute('pref', pref);
           el.innerText = m;
@@ -533,13 +532,13 @@ let processProp = (i_book) => (f, ind) => {
       if(!figure.points) figure.points = {};
       if(!figure.shapes) figure.shapes = [];
       if(!figure.letters) figure.letters = {};
-      if(figure.mags)
-      {
-        processMags(figure);
-      }
       if(figure.shapes.length == 0)
       {
         letterAllPoints(p.figures[i]);
+      }
+      if(figure.mags)
+      {
+        processMags(figure);
       }
     }
   }
@@ -548,13 +547,13 @@ let processProp = (i_book) => (f, ind) => {
     if(!p.points) p.points = {};
     if(!p.shapes) p.shapes = [];
     if(!p.letters) p.letters = {};
-    if(p.mags)
-    {
-      processMags(p);
-    }
     if(p.shapes.length == 0)
     {
       letterAllPoints(p);
+    }
+    if(p.mags)
+    {
+      processMags(p);
     }
   }
   return p;
