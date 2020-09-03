@@ -810,7 +810,7 @@ function()
     letters: {
       A: [1],
       B: [-3],
-      C: [-2.5],
+      C: [4, 1.3],
       D: [1],
       E: [-3],
       F: [-3],
@@ -880,6 +880,9 @@ function()
   return {
     prose: prop25,
     points: { A, B, C, D, E, F, G, H, K, L, M },
+    given: {
+      D: () => [rg.polygon([D, ...ds])],
+    },
     shapes: [
       rg.polygon([G, H, K]),
       rg.polygon([D, ...ds]),
@@ -926,6 +929,9 @@ function()
   return {
     prose: prop26,
     points: { A, B, C, D, E, F, G, H, K },
+    given: {
+      AHC: () => [rg.line(A, H), rg.line(H, C)],
+    },
     shapes: [
       rg.polygon([A, B, C, D]),
       rg.line(A, C),
@@ -1031,9 +1037,9 @@ function()
   const D = [250, 400];
   const dpts = [[50, 0], [30, -70], [-20, -70]].map(d => vec2.add(D, d));
   const L = [330, 330];
-  const M = vec2.add(L, vec2.scale(u, 90));
-  const K = vec2.add(L, vec2.scale(v, 120));
-  const N = vec2.add(K, vec2.scale(u, 90));
+  const M = vec2.add(L, vec2.scale(u, w * 0.3));
+  const K = vec2.add(L, vec2.scale(v, h * 0.6));
+  const N = vec2.add(K, vec2.scale(u, w * 0.3));
 
   return {
     prose: prop28,
@@ -1050,6 +1056,8 @@ function()
       rg.gnomon(Q, U, V)
     ],
     given: {
+      C: () => [rg.polygon([C, ...cpts])],
+      D: () => [rg.polygon([D, ...dpts])],
       VWU: () => [rg.gnomon(Q, U, V)],
     },
     smallletters: 'UVWQ',

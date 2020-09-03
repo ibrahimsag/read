@@ -1,20 +1,20 @@
 If from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.
 
-For, from parallelogram ABCD, let (parallelogram) AF have been subtracted (which is) similar, and similarly laid out, to ABCD, having the common angle DAB with it.
-I say that ABCD is about the same diagonal as AF.
+For, from parallelogram {ABCD polygon}, let (parallelogram) {AEFG polygon} have been subtracted (which is) similar, and similarly laid out, to {ABCD polygon}, having the common angle {DAB angle} with it.
+I say that {ABCD polygon} is about the same diagonal as {AEFG polygon}.
 
-For (if) not, then, if possible, let AHC be [ABCD’s] diagonal.
-And producing GF, let it have been drawn through to (point) H.
-And let HK have been drawn through (point) H, parallel to either of AD or BC [Prop. 1.31].
+For (if) not, then, if possible, let {AHC given} be [{ABCD polygon}'s] diagonal.
+And producing {GF line}, let it have been drawn through to (point) {H point}.
+And let {HK line} have been drawn through (point) {H point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].
 
-Therefore, since ABCD is about the same diagonal as KG, thus as DA is to AB, so GA (is) to AK [Prop. 6.24].
-And, on account of the similarity of ABCD and EG, also, as DA (is) to AB, so GA (is) to AE.
-Thus, also, as GA (is) to AK, so GA (is) to AE.
-Thus, GA has the same ratio to each of AK and AE.
-Thus, AE is equal to AK [Prop. 5.9], the lesser to the greater.
+Therefore, since {ABCD polygon} is about the same diagonal as {KHGA polygon}, thus as {DA line} is to {AB line}, so {GA line} (is) to {AK line} [Prop. 6.24].
+And, on account of the similarity of {ABCD polygon} and {EFGA polygon}, also, as {DA line} (is) to {AB line}, so {GA line} (is) to {AE line}.
+Thus, also, as {GA line} (is) to {AK line}, so {GA line} (is) to {AE line}.
+Thus, {GA line} has the same ratio to each of {AK line} and {AE line}.
+Thus, {AE line} is equal to {AK line} [Prop. 5.9], the lesser to the greater.
 The very thing is impossible.
-Thus, ABCD is not not about the same diagonal as AF.
-Thus, parallelogram ABCD is about the same diagonal as parallelogram AF.
+Thus, {ABCD polygon} is not not about the same diagonal as {AEFG polygon}.
+Thus, parallelogram {ABCD polygon} is about the same diagonal as parallelogram {AEFG polygon}.
 
 Thus, if from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.
 (Which is) the very thing it was required to show.
