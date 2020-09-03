@@ -1,14 +1,22 @@
-In equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional. And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal.
+In equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional.
+And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal.
 
-Let AB and BC be equal and equiangular parallelograms having the angles at B equal. And let DB and BE be laid down straight-on (with respect to one another). Thus, FB and BG are also straight-on (with respect to one another) [Prop. 1.14]. I say that the sides of AB and BC about the equal angles are reciprocally proportional, that is to say, that as DB is to BE, so GB (is) to BF.
+Let {FADB polygon} and {EBGC polygon} be equal and equiangular parallelograms having the angles at {B point} equal.
+And let {DB line} and {BE line} be laid down straight-on (with respect to one another).
+Thus, {FB line} and {BG line} are also straight-on (with respect to one another) [Prop. 1.14].
+I say that the sides of {FADB polygon} and {EBGC polygon} about the equal angles are reciprocally proportional, that is to say, that as {DB line} is to {BE line}, so {GB line} (is) to {BF line}.
 
-For let the parallelogram FE have been completed. Therefore, since parallelogram AB is equal to parallelogram BC, and FE (is) some other (parallelogram), thus as (parallelogram) AB is to FE, so (parallelogram) BC (is) to FE [Prop. 5.7]. But, as (parallelogram) AB (is) to FE, so DB (is) to BE, and as (parallelogram) BC (is) to FE, so GB (is) to BF [Prop. 6.1]. Thus, also, as DB (is) to BE, so GB (is) to BF. Thus, in parallelograms AB and BC the sides about the equal angles are reciprocally proportional.
+For let the parallelogram {HFBE polygon} have been completed.
+Therefore, since parallelogram {FADB polygon} is equal to parallelogram {EBGC polygon}, and {HFBE polygon} (is) some other (parallelogram), thus as (parallelogram) {FADB polygon} is to {HFBE polygon}, so (parallelogram) {EBGC polygon} (is) to {HFBE polygon} [Prop. 5.7].
+But, as (parallelogram) {FADB polygon} (is) to {HFBE polygon}, so {DB line} (is) to {BE line}, and as (parallelogram) {EBGC polygon} (is) to {HFBE polygon}, so {GB line} (is) to {BF line} [Prop. 6.1].
+Thus, also, as {DB line} (is) to {BE line}, so {GB line} (is) to {BF line}.
+Thus, in parallelograms {FADB polygon} and {EBGC polygon} the sides about the equal angles are reciprocally proportional.
 
-And so, let DB be to BE, as GB (is) to BF. I say that parallelogram AB is equal to parallelogram BC.
+And so, let {DB line} be to {BE line}, as {GB line} (is) to {BF line}. I say that parallelogram {FADB polygon} is equal to parallelogram {EBGC polygon}.
 
-For since as DB is to BE, so GB (is) to BF, but as DB (is) to BE, so parallelogram AB (is) to parallelogram FE, and as GB (is) to BF, so parallelogram BC (is) to parallelogram FE [Prop. 6.1], thus, also, as (parallelogram) AB (is) to FE, so (parallelogram) BC (is) to FE [Prop. 5.11]. Thus, parallelogram AB is equal to parallelogram BC [Prop. 5.9].
+For since as {DB line} is to {BE line}, so {GB line} (is) to {BF line}, but as {DB line} (is) to {BE line}, so parallelogram {FADB polygon} (is) to parallelogram {HFBE polygon}, and as {GB line} (is) to {BF line}, so parallelogram {EBGC polygon} (is) to parallelogram {HFBE polygon} [Prop. 6.1], thus, also, as (parallelogram) {FADB polygon} (is) to {HFBE polygon}, so (parallelogram) {EBGC polygon} (is) to {HFBE polygon} [Prop. 5.11].
+Thus, parallelogram {FADB polygon} is equal to parallelogram {EBGC polygon} [Prop. 5.9].
 
 Thus, in equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional.
 And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal.
 (Which is) the very thing it was required to show.
-

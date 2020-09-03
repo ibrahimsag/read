@@ -1,10 +1,15 @@
 To find a fourth (straight-line) proportional to three given straight-lines.
 
-Let A, B, and C be the three given straight-lines. So it is required to find a fourth (straight-line) proportional to A, B, and C.
+Let {A magnitude}, {B magnitude}, and {C magnitude} be the three given straight-lines.
+So it is required to find a fourth (straight-line) proportional to {A magnitude}, {B magnitude}, and {C magnitude}.
 
-Let the two straight-lines DE and DF be set out encompassing the [random] angle EDF. And let DG be made equal to A, and GE to B, and, further, DH to C [Prop. 1.3]. And GH being joined, let EF have been drawn through (point) E parallel to it [Prop. 1.31].
+Let the two straight-lines {DE line} and {DF line} be set out encompassing the [random] angle {EDF angle}.
+And let {DG line} be made equal to {A magnitude}, and {GE line} to {B magnitude}, and, further, {DH line} to {C magnitude} [Prop. 1.3].
+And {GH line} being joined, let {EF line} have been drawn through (point) {E point} parallel to it [Prop. 1.31].
 
-Therefore, since GH has been drawn parallel to one of the sides EF of triangle DEF, thus as DG is to GE, so DH (is) to HF [Prop. 6.2]. And DG (is) equal to A, and GE to B, and DH to C. Thus, as A is to B, so C (is) to HF.
+Therefore, since {GH line} has been drawn parallel to one of the sides {EF line} of triangle {DEF polygon}, thus as {DG line} is to {GE line}, so {DH line} (is) to {HF line} [Prop. 6.2].
+And {DG line} (is) equal to {A magnitude}, and {GE line} to {B magnitude}, and {DH line} to {C magnitude}.
+Thus, as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {HF line}.
 
-Thus, a fourth (straight-line), HF, has been found (which is) proportional to the three given straight-lines, A, B, and C.
+Thus, a fourth (straight-line), {HF line}, has been found (which is) proportional to the three given straight-lines, {A magnitude}, {B magnitude}, and {C magnitude}.
 (Which is) the very thing it was required to do.

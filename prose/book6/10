@@ -1,7 +1,17 @@
 To cut a given uncut straight-line similarly to a given cut (straight-line).
 
-Let AB be the given uncut straight-line, and AC a (straight-line) cut at points D and E, and let (AC) be laid down so as to encompass a random angle (with AB). And let CB have been joined. And let DF and EG have been drawn through (points) D and E (respectively), parallel to BC, and let DHK have been drawn through (point) D, parallel to AB [Prop. 1.31].
+Let {AB line} be the given uncut straight-line, and {AC line} a (straight-line) cut at points {D point} and {E point}, and let ({AC line}) be laid down so as to encompass a random angle (with {AB line}).
+And let {CB line} have been joined.
+And let {DF line} and {EG line} have been drawn through (points) {D point} and {E point} (respectively), parallel to {BC line}, and let {DHK line} have been drawn through (point) {D point}, parallel to {AB line} [Prop. 1.31].
 
-Thus, FH and HB are each parallelograms. Thus, DH (is) equal to FG, and HK to GB [Prop. 1.34]. And since the straight-line HE has been drawn parallel to one of the sides, KC, of triangle DKC, thus, proportionally, as CE is to ED, so KH (is) to HD [Prop. 6.2]. And KH (is) equal to BG, and HD to GF. Thus, as CE is to ED, so BG (is) to GF. Again, since FD has been drawn parallel to one of the sides, GE, of triangle AGE, thus, proportionally, as ED is to DA, so GF (is) to FA [Prop. 6.2]. And it was also shown that as CE (is) to ED,soBG(is)toGF. Thus, as CE is to ED, so BG (is) to GF, and as ED (is) to DA, so GF (is) to FA.
+Thus, {DFGH polygon} and {KHGB polygon} are each parallelograms.
+Thus, {DH line} (is) equal to {FG line}, and {HK line} to {GB line} [Prop. 1.34].
+And since the straight-line {HE line} has been drawn parallel to one of the sides, {KC line}, of triangle {DKC polygon}, thus, proportionally, as {CE line} is to {ED line}, so {KH line} (is) to {HD line} [Prop. 6.2].
+And {KH line} (is) equal to {BG line}, and {HD line} to {GF line}.
+Thus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}.
+Again, since {FD line} has been drawn parallel to one of the sides, {GE line}, of triangle {AGE polygon}, thus, proportionally, as {ED line} is to {DA line}, so {GF line} (is) to {FA line} [Prop. 6.2].
+And it was also shown that as {CE line} (is) to {ED line}, so {BG line} (is) to {GF line}.
+Thus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}, and as {ED line} (is) to {DA line}, so {GF line} (is) to {FA line}.
 
-Thus, the given uncut straight-line, AB, has been cut similarly to the given cut straight-line, AC. (Which is) the very thing it was required to do.
+Thus, the given uncut straight-line, {AB line}, has been cut similarly to the given cut straight-line, {AC line}.
+(Which is) the very thing it was required to do.

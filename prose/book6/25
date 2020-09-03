@@ -1,9 +1,22 @@
 To construct a single (rectilinear figure) similar to a given rectilinear figure, and equal to a different given rectilinear figure.
 
-Let ABC be the given rectilinear figure to which it is required to construct a similar (rectilinear figure), and D the (rectilinear figure) to which (the constructed figure) is required (to be) equal. So it is required to construct a single (rectilinear figure) similar to ABC, and equal to D.
+Let ABC be the given rectilinear figure to which it is required to construct a similar (rectilinear figure), and D the (rectilinear figure) to which (the constructed figure) is required (to be) equal.
+So it is required to construct a single (rectilinear figure) similar to ABC, and equal to D.
 
-For let the parallelogram BE, equal to triangle ABC, have been applied to (the straight-line) BC [Prop. 1.44], and the parallelogram CM, equal to D, (have been applied) to (the straight-line) CE, in the angle FCE, which is equal to CBL [Prop. 1.45]. Thus, BC is straight-on to CF, and LE to EM [Prop. 1.14]. And let the mean proportion GH have been taken of BC and CF [Prop. 6.13]. And let KGH, similar, and similarly laid out, to ABC have been described on GH [Prop. 6.18].
+For let the parallelogram BE, equal to triangle ABC, have been applied to (the straight-line) BC [Prop. 1.44], and the parallelogram CM, equal to D, (have been applied) to (the straight-line) CE, in the angle FCE, which is equal to CBL [Prop. 1.45].
+Thus, BC is straight-on to CF, and LE to EM [Prop. 1.14].
+And let the mean proportion GH have been taken of BC and CF [Prop. 6.13].
+And let KGH, similar, and similarly laid out, to ABC have been described on GH [Prop. 6.18].
 
-And since as BC is to GH, so GH (is) to CF, and if three straight-lines are proportional then as the first is to the third, so the figure (described) on the first (is) to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.], thus as BC is to CF, so triangle ABC (is) to triangle KGH. But, also, as BC (is) to CF, so parallelogram BE (is) to parallelogram EF [Prop. 6.1]. And, thus, as triangle ABC (is) to triangle KGH, so parallelogram BE (is) to parallelogram EF. Thus, alternately, as triangle ABC (is) to parallelogram BE, so triangle KGH (is) to parallelogram EF [Prop. 5.16]. And triangle ABC (is) equal to parallelogram BE. Thus, triangle KGH (is) also equal to parallelogram EF. But, parallelogram EF is equal to D. Thus, KGH is also equal to D. And KGH is also similar to ABC.
+And since as BC is to GH, so GH (is) to CF, and if three straight-lines are proportional then as the first is to the third, so the figure (described) on the first (is) to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.], thus as BC is to CF, so triangle ABC (is) to triangle KGH.
+But, also, as BC (is) to CF, so parallelogram BE (is) to parallelogram EF [Prop. 6.1].
+And, thus, as triangle ABC (is) to triangle KGH, so parallelogram BE (is) to parallelogram EF.
+Thus, alternately, as triangle ABC (is) to parallelogram BE, so triangle KGH (is) to parallelogram EF [Prop. 5.16].
+And triangle ABC (is) equal to parallelogram BE.
+Thus, triangle KGH (is) also equal to parallelogram EF.
+But, parallelogram EF is equal to D.
+Thus, KGH is also equal to D.
+And KGH is also similar to ABC.
 
-Thus, a single (rectilinear figure) KGH has been constructed (which is) similar to the given rectilinear figure ABC, and equal to a different given (rectilinear figure) D. (Which is) the very thing it was required to do.
+Thus, a single (rectilinear figure) KGH has been constructed (which is) similar to the given rectilinear figure ABC, and equal to a different given (rectilinear figure) D.
+(Which is) the very thing it was required to do.

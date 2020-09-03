@@ -1,9 +1,14 @@
 To find the (straight-line) in mean proportion to two given straight-lines.
 
-Let AB and BC be the two given straight-lines. So it is required to find the (straight-line) in mean proportion to AB and BC.
+Let {AB line} and {BC line} be the two given straight-lines.
+So it is required to find the (straight-line) in mean proportion to {AB line} and {BC line}.
 
-Let (AB and BC) be laid down straight-on (with respect to one another), and let the semi-circle ADC have been drawn on AC [Prop. 1.10]. And let BD have been drawn from (point) B, at right-angles to AC [Prop. 1.11]. And let AD and DC have been joined.
+Let ({AB line} and {BC line}) be laid down straight-on (with respect to one another), and let the semi-circle {ADC arc O} have been drawn on {AC line} [Prop. 1.10].
+And let {BD line} have been drawn from (point) {B point}, at right-angles to {AC line} [Prop. 1.11].
+And let {AD line} and {DC line} have been joined.
 
-And since ADC is an angle in a semi-circle, it is a right-angle [Prop. 3.31]. And since, in the right-angled triangle ADC, the (straight-line) DB has been drawn from the right-angle perpendicular to the base, DB is thus the mean proportional to the pieces of the base, AB and BC [Prop. 6.8 corr.].
+And since {ADC angle} is an angle in a semi-circle, it is a right-angle [Prop. 3.31].
+And since, in the right-angled triangle {ADC polygon}, the (straight-line) {DB line} has been drawn from the right-angle perpendicular to the base, {DB line} is thus the mean proportional to the pieces of the base, {AB line} and {BC line} [Prop. 6.8 corr.].
 
-Thus, DB has been found (which is) in mean proportion to the two given straight-lines, AB and BC. (Which is) the very thing it was required to do.
+Thus, {DB line} has been found (which is) in mean proportion to the two given straight-lines, {AB line} and {BC line}.
+(Which is) the very thing it was required to do.

@@ -329,7 +329,15 @@ function()
       rg.line(A, Av),
       rg.line(D, F),
       rg.line(C, B)
-    ]
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [2],
+      D: [2],
+      E: [2],
+      F: [-3]
+    }
   };
 },
 
@@ -552,6 +560,16 @@ function()
       rg.polygon([A, B, K, G]),
       rg.polygon([C, D, L, H]),
     ],
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [3],
+      D: [-1],
+      G: [1],
+      H: [1],
+      K: [1],
+      L: [1],
+    }
   };
 },
 
