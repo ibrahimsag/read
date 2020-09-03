@@ -1089,15 +1089,116 @@ function()
 
 function()
 {
+  const A = [30, 250];
+  const u = [1, 0];
+  const v = vec2.rot(u, -Math.PI * 0.44);
+  const w = 200, h = 200;
+  const B = vec2.add(A, vec2.scale(u, w));
+  const C = [50, 20];
+  const cpts = [[80, 0], [100, 50], [20, 100], [-20, 20]].map(d => vec2.add(C, d));
+  const D = [50, 200];
+  const du = vec2.scale(u, 40), dv = vec2.scale(v, 70);
+  const dpts = [du, vec2.add(du, dv), dv].map(d => vec2.add(D, d));
+  const E = vec2.add(A, vec2.scale(u, w/2));
+  const F = vec2.add(E, vec2.scale(v, h));
+  const L = vec2.add(B, vec2.scale(v, h));
+  const G = vec2.add(A, vec2.add(vec2.scale(v, -h*0.4), vec2.scale(u, w * 1.45)));
+  const K = vec2.add(G, vec2.scale(v, h*1.4));
+  const H = vec2.add(K, vec2.scale(u, w*0.7));
+  const U = vec2.add(G, vec2.scale(u, w*0.7));
+  const P = vec2.add(A, vec2.scale(u, w*1.2));
+  const M = vec2.add(P, vec2.scale(v, h));
+  const N = vec2.sub(E, vec2.scale(v, h*0.4));
+  const Q = vec2.sub(B, vec2.scale(v, h*0.4));
+  const O = vec2.sub(P, vec2.scale(v, h*0.4));
+  const S = vec2.sub(A, vec2.scale(v, h*0.4));
+  const X = vec2.sub(B, vec2.scale(u, 20));
+  const V = vec2.add(B, vec2.scale(v, 20));
+  const W = vec2.add(B, vec2.scale(u, 20));
+
+
   return {
     prose: prop29,
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, S, U, V, W, X },
+    given: {
+      C: () => [rg.polygon([C, ...cpts])],
+      D: () => [rg.polygon([D, ...dpts])],
+      VWX: () => [rg.gnomon(B, V, X)]
+    },
+    shapes: [
+      rg.polygon([D, ...dpts]),
+      rg.polygon([C, ...cpts]),
+      rg.polygon([G, U, H, K]),
+      rg.line(A, P),
+      rg.line(A, S),
+      rg.line(F, N),
+      rg.line(L, Q),
+      rg.line(M, O),
+      rg.line(S, O),
+      rg.line(F, M),
+      rg.line(F, O),
+      rg.gnomon(B, V, X),
+    ],
+    smallletters: 'BVWX',
+    letters: {
+      A: [1],
+      B: [0],
+      C: [-2, 3],
+      D: [0, 2],
+      E: [2],
+      F: [1],
+      G: [-3],
+      H: [1],
+      K: [1],
+      L: [1],
+      M: [1],
+      N: [-3],
+      O: [-3],
+      P: [-1],
+      Q: [-3],
+      S: [-3],
+      U: [-3],
+      V: [-0.3],
+      W: [-2.3],
+      X: [1]
+    }
   };
 },
 
 function()
 {
+  const phi = (Math.sqrt(5) - 1) / 2
+  const A = [50, 300];
+  const a = 250;
+  const B = vec2.add(A, [a, 0]);
+  const C = vec2.add(A, [0, -a]);
+  const E = vec2.add(A, [a*phi, 0]);
+  const D = vec2.add(E, [0, a*phi]);
+  const F = vec2.add(E, [0, -a]);
+  const G = vec2.add(A, [0, a*phi]);
+  const H = vec2.add(B, [0, -a]);
+
   return {
     prose: prop30,
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.line(C, G),
+      rg.line(C, H),
+      rg.line(A, B),
+      rg.line(F, D),
+      rg.line(G, D),
+      rg.line(H, B),
+    ],
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [1],
+      D: [-1],
+      E: [-2.5],
+      F: [1],
+      G: [3],
+      H: [1]
+    }
   };
 },
 

@@ -1,9 +1,21 @@
 To cut a given finite straight-line in extreme and mean ratio.
 
-Let AB be the given finite straight-line. So it is required to cut the straight-line AB in extreme and mean ratio.
+Let {AB line} be the given finite straight-line.
+So it is required to cut the straight-line {AB line} in extreme and mean ratio.
 
-Let the square BC have been described on AB [Prop.  1.46], and let the parallelogram CD, equal to BC, have been applied to AC, overshooting by the figure AD (which is) similar to BC [Prop. 6.29].
+Let the square {ABHC polygon} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CGDF polygon}, equal to {ABHC polygon}, have been applied to {AC line}, overshooting by the figure {AGDE polygon} (which is) similar to {ABHC polygon} [Prop. 6.29].
 
-And BC is a square. Thus, AD is also a square. And since BC is equal to CD, let (rectangle) CE have been subtracted from both. Thus, the remaining (rectangle) BF is equal to the remaining (square) AD. And it is also equiangular to it. Thus, the sides of BF and AD about the equal angles are reciprocally proportional [Prop. 6.14]. Thus, as FE is to ED, so AE (is) to EB. And FE (is) equal to AB, and ED to AE. Thus, as BA is to AE, so AE (is) to EB. And AB (is) greater than AE. Thus, AE (is) also greater than EB [Prop. 5.14].
+And {ABHC polygon} is a square.
+Thus, {AGDE polygon} is also a square.
+And since {ABHC polygon} is equal to {CGDF polygon}, let (rectangle) {CAEF polygon} have been subtracted from both.
+Thus, the remaining (rectangle) {BEFH polygon} is equal to the remaining (square) {AGDE polygon}.
+And it is also equiangular to it.
+Thus, the sides of {BEFH polygon} and {AGDE polygon} about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, as {FE line} is to {ED line}, so {AE line} (is) to {EB line}.
+And {FE line} (is) equal to {AB line}, and {ED line} to {AE line}.
+Thus, as {BA line} is to {AE line}, so {AE line} (is) to {EB line}.
+And {AB line} (is) greater than {AE line}.
+Thus, {AE line} (is) also greater than {EB line} [Prop. 5.14].
 
-Thus, the straight-line AB has been cut in extreme and mean ratio at E, and AE is its greater piece. (Which is) the very thing it was required to do.
+Thus, the straight-line {AB line} has been cut in extreme and mean ratio at {E point}, and {AE line} is its greater piece.
+(Which is) the very thing it was required to do.
