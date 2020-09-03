@@ -294,7 +294,17 @@ function()
 
   return {
     prose: prop8,
-    points: { A, B, C, D }
+    points: { A, B, C, D },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.line(A, D)
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+    }
   };
 },
 
@@ -313,15 +323,21 @@ function()
 
   return {
     prose: prop9,
-    points: { A, B, C, D, E, F, At, Av }
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.line(A, At),
+      rg.line(A, Av),
+      rg.line(D, F),
+      rg.line(C, B)
+    ]
   };
 },
 
 function()
 {
-  const A = [50, 300];
-  const C = [400, 50];
-  const B = [330, 300];
+  const A = [50, 350];
+  const C = [450, 50];
+  const B = [330, 350];
   const ac = vec2.sub(C, A);
   const ab = vec2.sub(B, A);
   const D = vec2.add(A, vec2.scale(ac, 0.25));
@@ -334,7 +350,24 @@ function()
 
   return {
     prose: prop10,
-    points: { A, B, C, D, E, F, G, H, K }
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.line(D, K),
+      rg.line(D, F),
+      rg.line(E, G)
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [1],
+      D: [2],
+      E: [2],
+      F: [-3],
+      G: [-3],
+      H: [-0.2, 1.2],
+      K: [-1]
+    }
   };
 },
 
@@ -351,7 +384,18 @@ function()
 
   return {
     prose: prop11,
-    points: { A, B, C, D, E }
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.polygon([A, D, E]),
+      rg.line(B, C)
+    ],
+    letters: {
+      A: [1],
+      B: [2],
+      C: [-1],
+      D: [2],
+      E: [-1]
+    }
   };
 },
 
@@ -363,9 +407,11 @@ function()
   const ude = vec2.rot(udf, -Math.PI * 0.2);
   const dg = vec2.scale(ude, a);
   const de = vec2.scale(ude, a+b);
+  const dt = vec2.scale(ude, a+b+ 50);
   const dh = vec2.scale(udf, c);
   const df = vec2.scale(udf, c*(a+b)/a);
-  const [G, E, H, F] = [dg, de, dh, df].map(v => vec2.add(D, v));
+  const dw = vec2.scale(udf, c*(a+b)/a + 50);
+  const [G, E, H, F, T, W] = [dg, de, dh, df, dt, dw].map(v => vec2.add(D, v));
 
   return {
     prose: prop12,
@@ -375,12 +421,25 @@ function()
       { l: 'B', m: b, v: 40 },
       { l: 'C', m: c, v: 40 },
     ],
+    shapes: [
+      rg.line(D, T),
+      rg.line(D, W),
+      rg.line(G, H),
+      rg.line(E, F)
+    ],
+    letters: {
+      D: [-3],
+      E: [1],
+      F: [-3],
+      G: [1],
+      H: [-3]
+    }
   };
 },
 
 function()
 {
-  const a = 250, b = 120, r= (a + b)/ 2;
+  const a = 280, b = 150, r= (a + b)/ 2;
   const A = [50, 300];
   const O = vec2.add(A, [r, 0]);
   const B = vec2.add(A, [a, 0]);
@@ -389,7 +448,18 @@ function()
 
   return {
     prose: prop13,
-    points: { A, B, C, D, O }
+    points: { A, B, C, D, O },
+    shapes: [
+      rg.polygon([A, C, D]),
+      rg.line(D, B),
+      rg.arc(O, A, C),
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [0.5]
+    }
   };
 },
 
@@ -409,7 +479,25 @@ function()
 
   return {
     prose: prop14,
-    points: { A, B, C, D, E, F, G, H }
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.line(H, C),
+      rg.line(F, G),
+      rg.line(A, D),
+      rg.line(H, A),
+      rg.line(D, E),
+      rg.line(C, G)
+    ],
+    letters: {
+      A: [-3],
+      B: [-2.5],
+      C: [1],
+      D: [-3],
+      E: [1],
+      F: [3],
+      G: [-1],
+      H: [1]
+    }
   };
 },
 
@@ -425,7 +513,19 @@ function()
 
   return {
     prose: prop15,
-    points: { A, B, C, D, E }
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.polygon([B, D, E]),
+      rg.line(B, C),
+      rg.line(C, D),
+    ],
+    letters: {
+      A: [-1],
+      B: [1],
+      C: [1],
+      D: [-3],
+      E: [-3]
+    }
   };
 },
 
@@ -447,7 +547,11 @@ function()
     mags: [
       { l: 'E', m: e, p: [50, 200] },
       { l: 'F', m: f, p: [C[0], 200] },
-    ]
+    ],
+    shapes: [
+      rg.polygon([A, B, K, G]),
+      rg.polygon([C, D, L, H]),
+    ],
   };
 },
 
@@ -461,7 +565,7 @@ function()
       { l: 'B', m: b, v: 50 },
       { l: 'C', m: c, v: 50 },
       { l: 'D', m: b, p: [220, 100] },
-    ]
+    ],
   };
 },
 
@@ -477,7 +581,23 @@ function()
 
   return {
     prose: prop18,
-    points: { A, B, C, D, E, F, G, H }
+    points: { A, B, C, D, E, F, G, H },
+    shapes: [
+      rg.polygon([C, D, E, F]),
+      rg.polygon([A, B, H, G]),
+      rg.line(F, D),
+      rg.line(G, B)
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+      E: [1],
+      F: [1],
+      G: [1],
+      H: [1],
+    }
   };
 },
 
@@ -494,7 +614,21 @@ function()
 
   return {
     prose: prop19,
-    points: { A, B, C, D, E, F, G }
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.line(A, G)
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [-3],
+      F: [-3],
+      G: [-3]
+    }
   };
 },
 
@@ -508,7 +642,33 @@ function()
 
   return {
     prose: prop20,
-    points: { A, B, C, D, E, F, G, H, K, L, M, N }
+    points: { A, B, C, D, E, F, G, H, K, L, M, N },
+    shapes: [
+      rg.polygon([A, B, C, D, E]),
+      rg.polygon([F, G, H, K, L]),
+      rg.line(A, C),
+      rg.line(B, D),
+      rg.line(B, E),
+      rg.line(C, E),
+      rg.line(F, H),
+      rg.line(G, K),
+      rg.line(G, L),
+      rg.line(H, L),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-3],
+      D: [-3],
+      E: [-1],
+      F: [1],
+      G: [3],
+      H: [-3],
+      K: [-3],
+      L: [-1],
+      M: [-2],
+      N: [-2],
+    }
   };
 },
 
@@ -571,7 +731,34 @@ function()
     mags: [
       { l: 'O', m: o, p: [70, 350] },
       { l: 'P', m: p, p: [200, 350] }
-    ]
+    ],
+    shapes: [
+      rg.polygon([K, A, B]),
+      rg.polygon([L, C, D]),
+      rg.polygon([M, E, F, U]),
+      rg.polygon([N, G, H, V]),
+      rg.polygon([S, Q, R, T])
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+      E: [-3],
+      F: [-3],
+      G: [-3],
+      H: [-3],
+      K: [1],
+      L: [1],
+      M: [1],
+      N: [1],
+      Q: [-3],
+      R: [-3],
+      S: [1],
+      T: [1],
+      U: [1],
+      V: [1],
+    }
   };
 },
 
@@ -593,7 +780,25 @@ function()
       { l: 'K', m: k*0.7, p: [50, 200] },
       { l: 'L', m: l*0.7, v: 50 },
       { l: 'M', m: m*0.7, v: 50 },
-    ]
+    ],
+    shapes: [
+      rg.line(A, H),
+      rg.line(B, G),
+      rg.line(E, F),
+      rg.line(A, B),
+      rg.line(D, E),
+      rg.line(H, F)
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-2.5],
+      D: [1],
+      E: [-3],
+      F: [-3],
+      G: [-2],
+      H: [1]
+    }
   };
 },
 
@@ -615,7 +820,24 @@ function()
 
   return {
     prose: prop24,
-    points: { A, B, C, D, E, F, G, H, K }
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([A, B, C, D]),
+      rg.line(G, H),
+      rg.line(E, K),
+      rg.line(A, C)
+    ],
+    letters: {
+      A: [1],
+      B: [1],
+      C: [-3],
+      D: [-3],
+      E: [1],
+      F: [0],
+      G: [3],
+      H: [-1],
+      K: [-3],
+    }
   };
 },
 
@@ -649,7 +871,17 @@ function()
       rg.line(A, C)
     ],
     letters: {
-      D: [-1.4, 5]
+      A: [1],
+      B: [3],
+      C: [0],
+      D: [-1.4, 5],
+      E: [-3],
+      F: [1],
+      G: [-3],
+      H: [-3],
+      K: [1],
+      L: [-3],
+      M: [-3]
     }
   };
 },
@@ -675,7 +907,27 @@ function()
 
   return {
     prose: prop26,
-    points: { A, B, C, D, E, F, G, H, K }
+    points: { A, B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([A, B, C, D]),
+      rg.line(A, C),
+      rg.line(E, F),
+      rg.line(G, H),
+      rg.line(H, K),
+      rg.line(A, H),
+      rg.line(H, C),
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [3],
+      F: [-0.3],
+      G: [1],
+      H: [-3],
+      K: [3],
+    }
   };
 },
 
