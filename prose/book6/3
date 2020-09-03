@@ -1,13 +1,37 @@
-If an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle. And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.
+If an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.
+And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.
 
-Let ABC be a triangle. And let the angle BAC have been cut in half by the straight-line AD. I say that as BD is to CD, so BA (is) to AC.
+Let {ABC polygon} be a triangle.
+And let the angle {BAC angle} have been cut in half by the straight-line {AD line}.
+I say that as {BD line} is to {CD line}, so {BA line} (is) to {AC line}.
 
-For let CE have been drawn through (point) C parallel to DA. And, BA being drawn through, let it meet (CE) at (point) E.
+For let {CE line} have been drawn through (point) {C point} parallel to {DA line}.
+And, {BA line} being drawn through, let it meet ({CE line}) at (point) {E point}.
 
-And since the straight-line AC falls across the parallel (straight-lines) AD and EC, angle ACE is thus equal to CAD [Prop. 1.29]. But, (angle) CAD is assumed (to be) equal to BAD. Thus, (angle) BAD is also equal to ACE. Again, since the straight-line BAE falls across the parallel (straight-lines) AD and EC, the external angle BAD is equal to the internal (angle) AEC [Prop. 1.29]. And (angle) ACE was also shown (to be) equal to BAD. Thus, angle ACE is also equal to AEC. And, hence, side AE is equal to side AC [Prop. 1.6]. And since AD has been drawn parallel to one of the sides EC of triangle BCE, thus, proportionally, as BD is to DC, so BA (is) to AE [Prop. 6.2]. And AE (is) equal to AC. Thus, as BD(is)toDC,soBA(is)toAC.
+And since the straight-line {AC line} falls across the parallel (straight-lines) {AD line} and {EC line}, angle {ACE angle} is thus equal to {CAD angle} [Prop. 1.29].
+But, (angle) {CAD angle} is assumed (to be) equal to {BAD angle}.
+Thus, (angle) {BAD angle} is also equal to {ACE angle}.
+Again, since the straight-line {BAE line} falls across the parallel (straight-lines) {AD line} and {EC line}, the external angle {BAD angle} is equal to the internal (angle) {AEC angle} [Prop. 1.29].
+And (angle) {ACE angle} was also shown (to be) equal to {BAD angle}.
+Thus, angle {ACE angle} is also equal to {AEC angle}.
+And, hence, side {AE line} is equal to side {AC line} [Prop. 1.6].
+And since {AD line} has been drawn parallel to one of the sides {EC line} of triangle {BCE polygon}, thus, proportionally, as {BD line} is to {DC line}, so {BA line} (is) to {AE line} [Prop. 6.2].
+And {AE line} (is) equal to {AC line}.
+Thus, as {BD line} (is) to {DC line}, so {BA line} (is) to {AC line}.
 
-And so, let BD be to DC, as BA (is) to AC. And let AD have been joined. I say that angle BAC has been cut in half by the straight-line AD.
+And so, let {BD line} be to {DC line}, as {BA line} (is) to {AC line}.
+And let {AD line} have been joined.
+I say that angle {BAC angle} has been cut in half by the straight-line {AD line}.
 
-For, by the same construction, since as BD is to DC, so BA (is) to AC, then also as BD (is) to DC, so BA is to AE. For AD has been drawn parallel to one (of the sides) EC of triangle BCE [Prop. 6.2]. Thus, also, as BA (is) to AC, so BA (is) to AE [Prop. 5.11]. Thus, AC (is) equal to AE [Prop. 5.9]. And, hence, angle AEC is equal to ACE [Prop. 1.5]. But, AEC [is] equal to the external (angle) BAD, and ACE is equal to the alternate (angle) CAD [Prop. 1.29]. Thus, (angle) BAD is also equal to CAD. Thus, angle BAC has been cut in half by the straight-line AD.
+For, by the same construction, since as {BD line} is to {DC line}, so {BA line} (is) to {AC line}, then also as {BD line} (is) to {DC line}, so {BA line} is to {AE line}.
+For {AD line} has been drawn parallel to one (of the sides) {EC line} of triangle {BCE polygon} [Prop. 6.2].
+Thus, also, as {BA line} (is) to {AC line}, so {BA line} (is) to {AE line} [Prop. 5.11].
+Thus, {AC line} (is) equal to {AE line} [Prop. 5.9].
+And, hence, angle {AEC angle} is equal to {ACE angle} [Prop. 1.5].
+But, {AEC angle} [is] equal to the external (angle) {BAD angle}, and {ACE angle} is equal to the alternate (angle) {CAD angle} [Prop. 1.29].
+Thus, (angle) {BAD angle} is also equal to {CAD angle}.
+Thus, angle {BAC angle} has been cut in half by the straight-line {AD line}.
 
-Thus, if an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle. And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half. (Which is) the very thing it was required to show.
+Thus, if an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.
+And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.
+(Which is) the very thing it was required to show.

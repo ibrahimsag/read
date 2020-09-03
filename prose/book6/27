@@ -1,9 +1,20 @@
 Of all the parallelograms applied to the same straight-line, and falling short by parallelogrammic figures similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line) which (is) similar to (that parallelogram) by which it falls short.
 
-Let AB be a straight-line, and let it have been cut in half at (point) C [Prop. 1.10]. And let the parallelogram AD have been applied to the straight-line AB, falling short by the parallelogrammic figure DB (which is) applied to half of AB---that is to say, CB. I say that of all the parallelograms applied to AB, and falling short by [parallelogrammic] figures similar, and similarly laid out, to DB, the greatest is AD. For let the parallelogram AF have been applied to the straight-line AB, falling short by the parallelogrammic figure FB (which is) similar, and similarly laid out, to DB. I say that AD is greater than AF.
+Let {AB line} be a straight-line, and let it have been cut in half at (point) {C point} [Prop. 1.10].
+And let the parallelogram {ACDO polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {DCBE polygon} (which is) applied to half of {AB line}---that is to say, {CB line}.
+I say that of all the parallelograms applied to {AB line}, and falling short by [parallelogrammic] figures similar, and similarly laid out, to {DCBE polygon}, the greatest is {ACDO polygon}.
+For let the parallelogram {AKFG polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {FKBH polygon} (which is) similar, and similarly laid out, to {DCBE polygon}.
+I say that {ACDO polygon} is greater than {AKFG polygon}.
 
-For since parallelogram DB is similar to parallelogram FB, they are about the same diagonal [Prop. 6.26]. Let their (common) diagonal DB have been drawn, and let the (rest of the) figure have been described.
+For since parallelogram {DCBE polygon} is similar to parallelogram {FKBH polygon}, they are about the same diagonal [Prop. 6.26].
+Let their (common) diagonal {DB line} have been drawn, and let the (rest of the) figure have been described.
 
-Therefore, since (complement) CF is equal to (complement) FE [Prop. 1.43], and (parallelogram) FB is common, the whole (parallelogram) CH is thus equal to the whole (parallelogram) KE. But, (parallelogram) CH is equal to CG, since AC (is) also (equal) to CB [Prop. 6.1]. Thus, (parallelogram) GC is also equal to EK. Let (parallelogram) CF have been added to both. Thus, the whole (parallelogram) AF is equal to the gnomon LMN. Hence, parallelogram DB---that is to say, AD---is greater than parallelogram AF.
+Therefore, since (complement) {CKFQ polygon} is equal to (complement) {FHEP polygon} [Prop. 1.43], and (parallelogram) {FKBH polygon} is common, the whole (parallelogram) {CBHQ polygon} is thus equal to the whole (parallelogram) {KBEP polygon}.
+But, (parallelogram) {CBHQ polygon} is equal to {CQGA polygon}, since {AC line} (is) also (equal) to {CB line} [Prop. 6.1].
+Thus, (parallelogram) {GACQ polygon} is also equal to {EBKP polygon}.
+Let (parallelogram) {CKFQ polygon} have been added to both.
+Thus, the whole (parallelogram) {AKFG polygon} is equal to the gnomon {LMN given}.
+Hence, parallelogram {DCBE polygon}---that is to say, {ACDO polygon}---is greater than parallelogram {AKFG polygon}.
 
-Thus, for all parallelograms applied to the same straight-line, and falling short by a parallelogrammic figure similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line). (Which is) the very thing it was required to show.
+Thus, for all parallelograms applied to the same straight-line, and falling short by a parallelogrammic figure similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line).
+(Which is) the very thing it was required to show.

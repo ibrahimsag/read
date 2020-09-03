@@ -1,9 +1,27 @@
 If two triangles have proportional sides then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.
 
-Let ABC and DEF be two triangles having proportional sides, (so that) as AB (is) to BC, so DE (is) to EF, and as BC (is) to CA, so EF (is) to FD, and, further, as BA (is) to AC, so ED (is) to DF. I say that triangle ABC is equiangular to triangle DEF, and (that the triangles) will have the angles which corresponding sides subtend equal. (That is), (angle) ABC (equal) to DEF, BCA to EFD, and, further, BAC to EDF.
+Let {ABC polygon} and {DEF polygon} be two triangles having proportional sides, (so that) as {AB line} (is) to {BC line}, so {DE line} (is) to {EF line}, and as {BC line} (is) to {CA line}, so {EF line} (is) to {FD line}, and, further, as {BA line} (is) to {AC line}, so {ED line} (is) to {DF line}.
+I say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and (that the triangles) will have the angles which corresponding sides subtend equal.
+(That is), (angle) {ABC angle} (equal) to {DEF angle}, {BCA angle} to {EFD angle}, and, further, {BAC angle} to {EDF angle}.
 
-For let (angle) FEG, equal to angle ABC, and (angle) EFG, equal to ACB, have been constructed on the straight-line EF at the points E and F on it (respectively) [Prop. 1.23]. Thus, the remaining (angle) at A is equal to the remaining (angle) at G [Prop. 1.32].
+For let (angle) {FEG angle}, equal to angle {ABC angle}, and (angle) {EFG angle}, equal to {ACB angle}, have been constructed on the straight-line {EF line} at the points {E point} and {F point} on it (respectively) [Prop. 1.23].
+Thus, the remaining (angle) at {A point} is equal to the remaining (angle) at {G point} [Prop. 1.32].
 
-Thus, triangle ABC is equiangular to [triangle] EGF. Thus, for triangles ABC and EGF, the sides about the equal angles are proportional, and (those) sides subtending equal angles correspond [Prop. 6.4]. Thus, as AB is to BC, [so] GE (is) to EF. But, as AB (is) to BC, so, it was assumed, (is) DE to EF. Thus, as DE (is) to EF, so GE (is) to EF [Prop. 5.11]. Thus, DE and GE each have the same ratio to EF. Thus, DE is equal to GE [Prop. 5.9]. So, for the same (reasons), DF is also equal to GF. Therefore, since DE is equal to EG, and EF (is) common, the two (sides) DE, EF are equal to the two (sides) GE, EF (respectively). And base DF [is] equal to base FG. Thus, angle DEF is equal to angle GEF [Prop. 1.8], and triangle DEF (is) equal to triangle GEF, and the remaining angles (are) equal to the remaining angles which the equal sides subtend [Prop. 1.4]. Thus, angle DFE is also equal to GFE, and (angle) EDF to EGF. And since (angle) FED is equal to GEF, and (angle) GEF to ABC, angle ABC is thus also equal to DEF. So, for the same (reasons), (angle) ACB is also equal to DFE, and, further, the (angle) at A to the (angle) at D. Thus, triangle ABC is equiangular to triangle DEF.
+Thus, triangle {ABC polygon} is equiangular to [triangle] {EGF polygon}.
+Thus, for triangles {ABC polygon} and {EGF polygon}, the sides about the equal angles are proportional, and (those) sides subtending equal angles correspond [Prop. 6.4].
+Thus, as {AB line} is to {BC line}, [so] {GE line} (is) to {EF line}.
+But, as {AB line} (is) to {BC line}, so, it was assumed, (is) {DE line} to {EF line}.
+Thus, as {DE line} (is) to {EF line}, so {GE line} (is) to {EF line} [Prop. 5.11].
+Thus, {DE line} and {GE line} each have the same ratio to {EF line}.
+Thus, {DE line} is equal to {GE line} [Prop. 5.9].
+So, for the same (reasons), {DF line} is also equal to {GF line}.
+Therefore, since {DE line} is equal to {EG line}, and {EF line} (is) common, the two (sides) {DE line}, {EF line} are equal to the two (sides) {GE line}, {EF line} (respectively).
+And base {DF line} [is] equal to base {FG line}.
+Thus, angle {DEF angle} is equal to angle {GEF angle} [Prop. 1.8], and triangle {DEF angle} (is) equal to triangle {GEF angle}, and the remaining angles (are) equal to the remaining angles which the equal sides subtend [Prop. 1.4].
+Thus, angle {DFE angle} is also equal to {GFE angle}, and (angle) {EDF angle} to {EGF angle}.
+And since (angle) {FED angle} is equal to {GEF angle}, and (angle) {GEF angle} to {ABC angle}, angle {ABC angle} is thus also equal to {DEF angle}.
+So, for the same (reasons), (angle) {ACB angle} is also equal to {DFE angle}, and, further, the (angle) at {A point} to the (angle) at {D point}.
+Thus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.
 
-Thus, if two triangles have proportional sides then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal. (Which is) the very thing it was required to show.
+Thus, if two triangles have proportional sides then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.
+(Which is) the very thing it was required to show.

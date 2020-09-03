@@ -61,7 +61,26 @@ function()
   const L = vec2.add(C, [l2 * 3, 0]);
   return {
     prose: prop1,
-    points: { A, B, C, D, E, F, G, H, K, L }
+    points: { A, B, C, D, E, F, G, H, K, L },
+    shapes: [
+      rg.line(E, F),
+      rg.line(E, B),
+      rg.line(F, D),
+      rg.line(H, L),
+    ].concat([H, G, B, C, D, K, L].map(pt=>rg.line(A, pt))),
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+      E: [1],
+      F: [1],
+      G: [-3],
+      H: [-3],
+      K: [-3],
+      L: [-3],
+    }
+
   };
 },
 
@@ -69,7 +88,7 @@ function()
 {
   const A = [50, 50];
   const B = [150, 300];
-  const C = [300, 300];
+  const C = [350, 300];
   const ab = vec2.sub(B, A);
   const ac = vec2.sub(C, A);
   const D = vec2.add(A, vec2.scale(ab, 0.7));
@@ -77,7 +96,20 @@ function()
 
   return {
     prose: prop2,
-    points: { A, B, C, D, E }
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.line(D, E),
+      rg.line(B, E),
+      rg.line(D, C),
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [3],
+      E: [-1]
+    }
   };
 },
 
@@ -100,7 +132,19 @@ function()
 
   return {
     prose: prop3,
-    points: { A, B, C, D, E }
+    points: { A, B, C, D, E },
+    shapes: [
+      rg.polygon([E, B, C]),
+      rg.line(A, D),
+      rg.line(A, C)
+    ],
+    letters: {
+      A: [2],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+      E: [1],
+    }
   };
 },
 
@@ -117,7 +161,20 @@ function()
 
   return {
     prose: prop4,
-    points: { A, B, C, D, E, F }
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.polygon([B, E, F]),
+      rg.line(A, C),
+      rg.line(C, D)
+    ],
+    letters: {
+      A: [2],
+      B: [-3],
+      C: [-3],
+      D: [-1],
+      E: [-3],
+      F: [1]
+    }
   };
 },
 
@@ -136,7 +193,21 @@ function()
 
   return {
     prose: prop5,
-    points: { A, B, C, D, E, F, G }
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, G, F]),
+      rg.line(E, F)
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [3],
+      F: [-1],
+      G: [-3]
+    }
   };
 },
 
@@ -156,7 +227,21 @@ function()
 
   return {
     prose: prop6,
-    points: { A, B, C, D, E, F, G }
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F, G]),
+      rg.line(D, F)
+    ],
+    letters: {
+      A: [1],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [-3],
+      F: [-3],
+      G: [-1],
+    }
   };
 },
 
@@ -166,7 +251,7 @@ function()
   const B = [50, 150];
   const ab = vec2.sub(B, A);
   const theta = -Math.PI * 0.3;
-  const ac = vec2.scale(vec2.rot(ab, theta), 1.3);
+  const ac = vec2.scale(vec2.rot(ab, theta), 1.5);
   const ag = vec2.scale(ac, 0.8);
   const C = vec2.add(A, ac);
   const G = vec2.add(A, ag);
@@ -179,7 +264,21 @@ function()
 
   return {
     prose: prop7,
-    points: { A, B, C, D, E, F, G }
+    points: { A, B, C, D, E, F, G },
+    shapes: [
+      rg.polygon([A, B, C]),
+      rg.polygon([D, E, F]),
+      rg.line(B, G),
+    ],
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-1],
+      D: [1],
+      E: [3],
+      F: [-1],
+      G: [-1]
+    }
   };
 },
 
@@ -592,6 +691,7 @@ function()
   const D = vec2.add(O, vec2.scale(u, w * 0.5));
   const E = vec2.add(O, vec2.scale(u, w));
   const G = vec2.add(O, vec2.scale(v, h * 0.3));
+  const Q = vec2.add(G, vec2.scale(u, w * 0.5));
   const F = vec2.add(G, vec2.scale(u, w * 0.65));
   const H = vec2.add(E, vec2.scale(v, h * 0.3));
   const K = vec2.add(A, vec2.scale(u, w * 0.65));
@@ -602,7 +702,7 @@ function()
 
   return {
     prose: prop27,
-    points: { A, B, C, D, E, F, G, H, K, L, M, N, O },
+    points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q },
     shapes: [
       rg.polygon([O, A, B, E]),
       rg.line(G, H),
@@ -624,11 +724,13 @@ function()
       F: [0],
       G: [3],
       H: [-1],
-      O: [1],
       K: [-3],
       L: [4],
       M: [0],
       N: [0],
+      O: [1],
+      P: [1],
+      Q: [4.4],
     }
   };
 },
