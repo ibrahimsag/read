@@ -524,9 +524,9 @@ let processProp = (i_book) => (f, ind) => {
   else
   {
     p.title = 'Proposition ' + (ind);
-    if(i_book == 5)
+    if(i_book == 7)
     {
-      p.img = 'img/' + (i_book + 1) + '/' + ind + '.png';
+      p.img = 'img/' + (i_book) + '/' + ind + '.png';
     }
   }
 
@@ -580,17 +580,33 @@ let descs = [
   "Fundamentals of Plane Geometry Involving Circles",
   "Construction of Rectilinear Figures In and Around Circles",
   "Proportion",
-  "Similar Figures"
+  "Similar Figures",
+  "Elementary Number Theory",
+  "Continued Proportion",
+  "Applications of Number Theory"
 ];
 
 import book1 from './figures/1.js';
+/*
 import book2 from './figures/2.js';
 import book3 from './figures/3.js';
 import book4 from './figures/4.js';
 import book5 from './figures/5.js';
+*/
 import book6 from './figures/6.js';
+import book7 from './figures/7.js';
 
-let books = [book1, book2, book3, book4, book5, book6];
+let books = {
+  1: book1,
+  /*
+  2: book2,
+  3: book3,
+  4: book4,
+  5: book5,
+  */
+  6: book6,
+  7: book7,
+};
 
 let ground = makeGround(rg, svg);
 
@@ -601,10 +617,10 @@ function presentProp(i_book, i_prop) {
   let el = document.querySelector('#bookTitle');
   el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
 
-  let ps = books[i_book-1](rg);
+  let ps = books[i_book](rg);
 
   let i_p = Math.min(ps.length-1, i_prop);
-  ground.draw(0, processProp(i_book-1)(ps[i_p], i_p));
+  ground.draw(0, processProp(i_book)(ps[i_p], i_p));
 
   function keyHandler(e)
   {
@@ -625,16 +641,6 @@ function presentProp(i_book, i_prop) {
     {
       i_p = (i_p+1) % ps.length;
       openProposition(i_book, i_p);
-    }
-    else if(e.key == "o")
-    {
-      let i = ((i_book - 1 - 1 + books.length) % books.length) + 1;
-      openProposition(i, i_prop);
-    }
-    else if(e.key == "p")
-    {
-      let i = ((i_book - 1 + 1) % books.length) + 1;
-      openProposition(i, i_prop);
     }
   }
 
