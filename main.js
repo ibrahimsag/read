@@ -39,11 +39,26 @@ function makeRG (svgEl)
 
   function anglecurve(a, o, b)
   {
-    let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 20/vec2.len(d)));
-    let dir = vec2.sub(d2, d1);
-    let d = [0.3, 0.5, 0.7].map(l => vec2.add(d1, vec2.scale(dir, l)));
-    let ps = [d1, ...d, d2].map(d => vec2.add(o, vec2.scale(d, 20/vec2.len(d))));
-    return curve(ps, {strokeWidth: 10});
+    let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 1/vec2.len(d)));
+
+    let det = d1[0]*d2[1] - d1[1]*d2[0];
+    if(det < 0)
+    {
+       [d2, d1] = [d1, d2];
+    }
+
+    let alpha = Math.acos(vec2.dot(d1, d2));
+    if(alpha > Math.PI/3)
+    {
+      let [p1, p2] = [d1, d2].map(v => vec2.add(o, vec2.scale(v, 20)));
+      return arc(o, p1, p2, {strokeWidth: 10})
+    }
+    else
+    {
+      let samples = [0, 0.25, 0.5, 0.75, 1];
+      let ps = samples.map(a => vec2.add(o, vec2.scale(vec2.rot(d1, alpha*a), 20)));
+      return curve(ps, {strokeWidth: 10});
+    }
   }
 
   function angle(a, o, b)
@@ -324,7 +339,7 @@ function makeGround(rg, svg)
           {
             rg.makeHighlight(figure, ...h).forEach(s =>
               {
-                if(!(h[1] === 'angle' && s.shape === 'curve'))
+                if(!(h[1] === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
                 {
                   s.options["stroke"] = colors.sentence;
                 }
