@@ -7,7 +7,7 @@ For if {AGH angle} is unequal to {GHD angle} then one of them is greater.
 Let {AGH angle} be greater.
 Let {BGH angle} have been added to both.
 Thus, (the sum of) {AGH angle} and {BGH angle} is greater than (the sum of) {BGH angle} and {GHD angle}.
-But, (the sum of) {AGH angle} and {BGH angle} is equal to two right-angles [Prop 1.13].
+But, (the sum of) {AGH angle} and {BGH angle} is equal to two right-angles [Prop. 1.13].
 Thus, (the sum of) {BGH angle} and {GHD angle} is [also] less than two right-angles.
 But (straight-lines) being produced to infinity from (internal angles whose sum is) less than two right-angles meet together [Post. 5].
 Thus, {AB line} and {CD line}, being produced to infinity, will meet together. But they do not meet, on account of them (initially) being assumed parallel (to one another) [Def. 1.23].

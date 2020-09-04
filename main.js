@@ -268,7 +268,7 @@ function makeGround(rg, svg)
 
         let figureRE = /\{figure ([0-9])\}/g;
         let sp = sentenceProse.replace(figureRE, selectFigure);
-        let propRE = /\[Prop. ([0-9]+.[0-9]+)\]/g;
+        let propRE = /\[Prop. ([0-9]+.[0-9]+)[^\]]*\]/g;
         let sp2 = sp.replace(propRE, placePref);
 
         let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
