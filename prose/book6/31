@@ -1,9 +1,18 @@
 In right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
 
-Let ABC be a right-angled triangle having the angle BAC a right-angle. I say that the figure (drawn) on BC is equal to the (sum of the) similar, and similarly described, figures on BA and AC.
+Let {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle.
+I say that the figure (drawn) on {BC line} is equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line}.
 
-Let the perpendicular AD have been drawn [Prop. 1.12].
+Let the perpendicular {AD line} have been drawn [Prop. 1.12].
 
-Therefore, since, in the right-angled triangle ABC, the (straight-line) AD has been drawn from the rightangle at A perpendicular to the base BC, the triangles ABD and ADC about the perpendicular are similar to the whole (triangle) ABC, and to one another [Prop. 6.8]. And since ABC is similar to ABD, thus as CB is to BA, so AB (is) to BD [Def. 6.1]. And since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.]. Thus, as CB (is) to BD, so the figure (drawn) on CB (is) to the similar, and similarly described, (figure) on BA. And so, for the same (reasons), as BC (is) to CD, so the figure (drawn) on BC (is) to the (figure) on CA. Hence, also, as BC (is) to BD and DC, so the figure (drawn) on BC (is) to the (sum of the) similar, and similarly described, (figures) on BA and AC [Prop. 5.24]. And BC is equal to BD and DC. Thus, the figure (drawn) on BC (is) also equal to the (sum of the) similar, and similarly described, figures on BA and AC [Prop. 5.9].
+Therefore, since, in the right-angled triangle {ABC polygon}, the (straight-line) {AD line} has been drawn from the rightangle at {A point} perpendicular to the base {BC line}, the triangles {ABD polygon} and {ADC polygon} about the perpendicular are similar to the whole (triangle) {ABC polygon}, and to one another [Prop. 6.8].
+And since {ABC polygon} is similar to {ABD polygon}, thus as {CB line} is to {BA line}, so {AB line} (is) to {BD line} [Def. 6.1].
+And since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.].
+Thus, as {CB line} (is) to {BD line}, so the figure (drawn) on {CB line} (is) to the similar, and similarly described, (figure) on {BA line}.
+And so, for the same (reasons), as {BC line} (is) to {CD line}, so the figure (drawn) on {BC line} (is) to the (figure) on {CA line}.
+Hence, also, as {BC line} (is) to {BD line} and {DC line}, so the figure (drawn) on {BC line} (is) to the (sum of the) similar, and similarly described, (figures) on {BA line} and {AC line} [Prop. 5.24].
+And {BC line} is equal to {BD line} and {DC line}.
+Thus, the figure (drawn) on {BC line} (is) also equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line} [Prop. 5.9].
 
-Thus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle. (Which is) the very thing it was required to show.
+Thus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
+(Which is) the very thing it was required to show.
