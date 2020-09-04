@@ -1,0 +1,44 @@
+To find the greatest common measure of two given numbers (which are) not prime to one another.
+
+Let AB and CD be the two given numbers (which are) not prime to one another.
+So it is required to find the greatest common measure of AB and CD.
+
+In fact, if CD measures AB, CD is thus a common measure of CD and AB, (since CD) also measures itself.
+And (it is) manifest that (it is) also the greatest (common measure).
+For nothing greater than CD can measure CD.
+
+But if CD does not measure AB then some number will remain from AB and CD, the lesser being continually subtracted, in turn, from the greater, which will measure the (number) preceding it.
+For a unit will not be left.
+But if not, AB and CD will be prime to one another [Prop. 7.1].
+The very opposite thing was assumed.
+Thus, some number will remain which will measure the (number) preceding it.
+And let CD measuring BE leave EA less than itself, and let EA measuring DF leave FC less than itself, and let CF measure AE.
+Therefore, since CF measures AE, and AE measures DF, CF will thus also measure DF.
+And it also measures itself.
+Thus, it will also measure the whole of CD.
+And CD measures BE.
+Thus, CF also measures BE.
+And it also measures EA.
+Thus, it will also measure the whole of BA.
+And it also measures CD.
+Thus, CF measures (both) AB and CD.
+Thus, CF is a common measure of AB and CD.
+So I say that (it is) also the greatest (common measure).
+For if CF is not the greatest common measure of AB and CD then some number which is greater than CF will measure the numbers AB and CD.
+Let it (so) measure (AB and CD), and let it be G.
+And since G measures CD, and CD measures BE, G thus also measures BE.
+And it also measures the whole of BA.
+Thus, it will also measure the remainder AE.
+And AE measures DF.
+Thus, G will also measure DF.
+And it also measures the whole of DC.
+Thus, it will also measure the remainder CF, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some number which is greater than CF cannot measure the numbers AB and CD.
+Thus, CF is the greatest common measure of AB and CD.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+So it is manifest, from this, that if a number measures two numbers then it will also measure their greatest common measure.
+(Which is) the very thing it was required to show.

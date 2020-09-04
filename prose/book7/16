@@ -1,0 +1,17 @@
+If two numbers multiplying one another make some (numbers) then the (numbers) generated from them will be equal to one another.
+
+Let A and B be two numbers.
+And let A make C (by) multiplying B, and let B make D (by) multiplying A.
+I say that C is equal to D.
+
+For since A has made C (by) multiplying B, B thus measures C according to the units in A [Def. 7.15].
+And the unit E also measures the number A according to the units in it.
+Thus, the unit E measures the number A as many times as B (measures) C.
+Thus, alternately, the unit E measures the number B as many times as A (measures) C [Prop. 7.15].
+Again, since B has made D (by) multiplying A, A thus measures D according to the units in B [Def. 7.15].
+And the unit E also measures B according to the units in it.
+Thus, the unit E measures the number B as many times as A (measures) D.
+And the unit E was measuring the number B as many times as A (measures) C.
+Thus, A measures each of C and D an equal number of times.
+Thus, C is equal to D.
+(Which is) the very thing it was required to show.

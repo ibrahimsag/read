@@ -1,0 +1,29 @@
+If two numbers are prime to one another then their sum will also be prime to each of them.
+And if the sum (of two numbers) is prime to any one of them then the original numbers will also be prime to one another.
+
+For let the two numbers, AB and BC, (which are) prime to one another, be laid down together.
+I say that their sum AC is also prime to each of AB and BC.
+
+For if CA and AB are not prime to one another then some number will measure CA and AB.
+Let it (so) measure (them), and let it be D.
+Therefore, since D measures CA and AB, it will thus also measure the remainder BC.
+And it also measures BA.
+Thus, D measures AB and BC, which are prime to one another.
+The very thing is impossible.
+Thus, some number cannot measure (both) the numbers CA and AB.
+Thus, CA and AB are prime to one another.
+So, for the same (reasons), AC and CB are also prime to one another.
+Thus, CA is prime to each of AB and BC.
+
+So, again, let CA and AB be prime to one another.
+I say that AB and BC are also prime to one another.
+
+For if AB and BC are not prime to one another then some number will measure AB and BC.
+Let it (so) measure (them), and let it be D.
+And since D measures each of AB and BC, it will thus also measure the whole of CA.
+And it also measures AB.
+Thus, D measures CA and AB, which are prime to one another.
+The very thing is impossible.
+Thus, some number cannot measure (both) the numbers AB and BC.
+Thus, AB and BC are prime to one another.
+(Which is) the very thing it was required to show.

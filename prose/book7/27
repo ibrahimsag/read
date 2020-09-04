@@ -1,0 +1,13 @@
+If two numbers are prime to one another and each makes some (number by) multiplying itself then the numbers created from them will be prime to one another, and if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be prime to one another [and this always happens with the extremes].
+
+Let A and B be two numbers prime to one another, and let A make C (by) multiplying itself, and let it make D (by) multiplying C.
+And let B make E (by) multiplying itself, and let it make F by multiplying E.
+I say that C and E, and D and F, are prime to one another.
+
+For since A and B are prime to one another, and A has made C (by) multiplying itself, C and B are thus prime to one another [Prop. 7.25].
+Therefore, since C and B are prime to one another, and B has made E (by) multiplying itself, C and E are thus prime to one another [Prop. 7.25].
+Again, since A and B are prime to one another, and B has made E (by) multiplying itself, A and E are thus prime to one another [Prop. 7.25].
+Therefore, since the two numbers A and C are both prime to each of the two numbers B and E, the (number) created from (multiplying) A and C is thus prime to the (number created) from (multiplying) B and E [Prop. 7.26].
+And D is the (number created) from (multiplying) A and C, and F the (number created) from (multiplying) B and E.
+Thus, D and F are prime to one another.
+(Which is) the very thing it was required to show.

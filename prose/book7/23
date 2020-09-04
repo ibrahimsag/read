@@ -1,0 +1,14 @@
+If two numbers are prime to one another then a number measuring one of them will be prime to the remaining (one).
+
+Let A and B be two numbers (which are) prime to one another, and let some number C measure A.
+I say that C and B are also prime to one another.
+
+For if C and B are not prime to one another then [some] number will measure C and B.
+Let it (so) measure (them), and let it be D.
+Since D measures C, and C measures A, D thus also measures A.
+And (D) also measures B.
+Thus, D measures A and B, which are prime to one another.
+The very thing is impossible.
+Thus, some number does not measure the numbers C and B.
+Thus, C and B are prime to one another.
+(Which is) the very thing it was required to show.

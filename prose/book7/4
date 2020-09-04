@@ -1,0 +1,21 @@
+Any number is either part or parts of any (other) number, the lesser of the greater.
+
+Let A and BC be two numbers, and let BC be the lesser.
+I say that BC is either part or parts of A.
+
+For A and BC are either prime to one another, or not.
+Let A and BC, first of all, be prime to one another.
+So separating BC into its constituent units, each of the units in BC will be some part of A.
+Hence, BC is parts of A.
+
+So let A and BC be not prime to one another.
+So BC either measures, or does not measure, A.
+Therefore, if BC measures A then BC is part of A.
+And if not, let the greatest common measure, D, of A and BC have been taken [Prop. 7.2], and let BC have been divided into BE, EF, and FC, equal to D.
+And since D measures A, D is a part of A.
+And D is equal to each of BE, EF, and FC.
+Thus, BE, EF, and FC are also each part of A.
+Hence, BC is parts of A.
+
+Thus, any number is either part or parts of any (other) number, the lesser of the greater.
+(Which is) the very thing it was required to show.
