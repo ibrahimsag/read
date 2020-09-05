@@ -15,5 +15,3 @@ So the (square) on {AC line} alone is less than the (sum of the) squares on {CB 
 
 Thus, in acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
 (Which is) the very thing it was required to show.
-
-This proposition is equivalent to the well-known cosine formula: AC^2 = AB^2 + BC^2 -2 AB BC cos ABC, since cos ABC = BD/AB.

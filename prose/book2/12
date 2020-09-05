@@ -15,5 +15,3 @@ So the square on {CB line} is greater than the (sum of the) squares on {CA line}
 
 Thus, in obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.
 (Which is) the very thing it was required to show.
-
-This proposition is equivalent to the well-known cosine formula: BC^2 = AB^2 + AC^2 - 2*AB*AC * cosBAC, since cos BAC = - AD/AB.
