@@ -232,7 +232,7 @@ function makeGround(rg, svg)
 
           let refEl = document.createElement('span');
           refEl.innerHTML = name;
-          refEl.style['font-style'] = 'italic';
+          refEl.style['font-family'] = 'Nale';
           refEl.dataset.ref = refCount;
 
           if(refCount == o)
@@ -374,7 +374,7 @@ function makeGround(rg, svg)
         let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
         let offset;
         var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        el.setAttribute('font-family', 'Futura');
+        el.setAttribute('font-family', 'Nale');
         if(shouldBeSmall)
           el.setAttribute('font-size', '16px');
         else
