@@ -48,15 +48,19 @@ function makeRG (svgEl)
     }
 
     let alpha = Math.acos(vec2.dot(d1, d2));
-    if(alpha > Math.PI/3)
+    if(alpha > Math.PI/2)
     {
       let [p1, p2] = [d1, d2].map(v => vec2.add(o, vec2.scale(v, 20)));
       return arc(o, p1, p2, {strokeWidth: 10})
     }
     else
     {
+      let s = 20;
+      if(alpha < Math.PI/4)
+        s = 30;
+
       let samples = [0, 0.25, 0.5, 0.75, 1];
-      let ps = samples.map(a => vec2.add(o, vec2.scale(vec2.rot(d1, alpha*a), 20)));
+      let ps = samples.map(a => vec2.add(o, vec2.scale(vec2.rot(d1, alpha*a), s)));
       return curve(ps, {strokeWidth: 10});
     }
   }
