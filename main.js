@@ -3,11 +3,15 @@ import hsluv from 'hsluv';
 
 import vec2 from './vec2.js';
 
+var hue = 250;
 
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
   sentence: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
+  ltbright: hsluv.hpluvToHex([hue, 100, 90]),
+  ltsentence: hsluv.hpluvToHex([hue, 100, 50]),
+  ltdim: hsluv.hpluvToHex([hue, 100, 30]),
   link: hsluv.hpluvToHex([140, 100, 30])
 };
 
@@ -237,12 +241,13 @@ function makeGround(rg, svg)
           let refEl = document.createElement('span');
           refEl.innerHTML = name;
           refEl.style['font-family'] = 'Nale';
+          refEl.style['color'] = colors.ltdim;
           refEl.dataset.ref = refCount;
 
           if(refCount == o)
           {
             isFocusSentence = true;
-            refEl.style['color'] = colors.bright;
+            refEl.style['color'] = colors.ltbright;
             figureIndex = lastSeenFigureIndex;
 
             highlight = [name, typ, arg1];
@@ -383,14 +388,14 @@ function makeGround(rg, svg)
           el.setAttribute('font-size', '16px');
         else
           el.setAttribute('font-size', '24px');
-        let fillColor = colors.dim;
+        let fillColor = colors.ltdim;
         if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
         {
-          fillColor = colors.bright;
+          fillColor = colors.ltbright;
         }
         else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
         {
-          fillColor = colors.sentence;
+          fillColor = colors.ltsentence;
         }
         el.setAttribute('fill', fillColor);
         el.textContent = i;
