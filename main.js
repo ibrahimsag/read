@@ -211,7 +211,6 @@ function makeGround(rg, svg)
 
     let titleEl = document.querySelector('#proseTitle');
     titleEl.innerHTML = p.title;
-    titleEl.style['color'] = colors.sentence;
 
     let proseEl = document.querySelector('#proseContent');
     proseEl.innerHTML = '';
@@ -240,14 +239,13 @@ function makeGround(rg, svg)
 
           let refEl = document.createElement('span');
           refEl.innerHTML = name;
-          refEl.style['font-family'] = 'Nale';
-          refEl.style['color'] = colors.ltdim;
+          refEl.className = 'ref';
           refEl.dataset.ref = refCount;
 
           if(refCount == o)
           {
             isFocusSentence = true;
-            refEl.style['color'] = colors.ltbright;
+            refEl.className += ' bright';
             figureIndex = lastSeenFigureIndex;
 
             highlight = [name, typ, arg1];
@@ -288,6 +286,7 @@ function makeGround(rg, svg)
         }
 
         let el = document.createElement('span');
+        el.className = 'sentence';
         el.dataset.ref = refCount;
 
         let figureRE = /\{figure ([0-9])\}/g;
@@ -312,7 +311,7 @@ function makeGround(rg, svg)
         if(isFocusSentence)
         {
           nearHighlights = sentenceMarks;
-          el.style['color'] = colors.sentence;
+          el.className += ' bright';
 
           isFocusParagraph = true;
         }
