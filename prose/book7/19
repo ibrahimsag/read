@@ -1,26 +1,26 @@
 If four number are proportional then the number created from (multiplying) the first and fourth will be equal to the number created from (multiplying) the second and third.
 And if the number created from (multiplying) the first and fourth is equal to the (number created) from (multiplying) the second and third then the four numbers will be proportional.
 
-Let A, B, C, and D be four proportional numbers, (such that) as A (is) to B, so C (is) to D.
-And let A make E (by) multiplying D, and let B make F (by) multiplying C.
-I say that E is equal to F.
+Let {A magnitude}, {B magnitude}, {C magnitude}, and {D magnitude} be four proportional numbers, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
+And let {A magnitude} make {E magnitude} (by) multiplying {D magnitude}, and let {B magnitude} make {F magnitude} (by) multiplying {C magnitude}.
+I say that {E magnitude} is equal to {F magnitude}.
 
-For let A make G (by) multiplying C.
-Therefore, since A has made G (by) multiplying C, and has made E (by) multiplying D, the number A has made G and E by multiplying the two numbers C and D (respectively).
-Thus, as C is to D, so G (is) to E [Prop. 7.17].
-But, as C (is) to D, so A (is) to B.
-Thus, also, as A (is) to B, so G (is) to E.
-Again, since A has made G (by) multiplying C, but, in fact, B has also made F (by) multiplying C, the two numbers A and B have made G and F (respectively, by) multiplying some number C.
-Thus, as A is to B, so G (is) to F [Prop. 7.18].
-But, also, as A (is) to B, so G (is) to E.
-And thus, as G (is) to E, so G (is) to F.
-Thus, G has the same ratio to each of E and F.
-Thus, E is equal to F [Prop. 5.9].
+For let {A magnitude} make {G magnitude} (by) multiplying {C magnitude}.
+Therefore, since {A magnitude} has made {G magnitude} (by) multiplying {C magnitude}, and has made {E magnitude} (by) multiplying {D magnitude}, the number {A magnitude} has made {G magnitude} and {E magnitude} by multiplying the two numbers {C magnitude} and {D magnitude} (respectively).
+Thus, as {C magnitude} is to {D magnitude}, so {G magnitude} (is) to {E magnitude} [Prop. 7.17].
+But, as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {B magnitude}.
+Thus, also, as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {E magnitude}.
+Again, since {A magnitude} has made {G magnitude} (by) multiplying {C magnitude}, but, in fact, {B magnitude} has also made {F magnitude} (by) multiplying {C magnitude}, the two numbers {A magnitude} and {B magnitude} have made {G magnitude} and {F magnitude} (respectively, by) multiplying some number {C magnitude}.
+Thus, as {A magnitude} is to {B magnitude}, so {G magnitude} (is) to {F magnitude} [Prop. 7.18].
+But, also, as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {E magnitude}.
+And thus, as {G magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {F magnitude}.
+Thus, {G magnitude} has the same ratio to each of {E magnitude} and {F magnitude}.
+Thus, {E magnitude} is equal to {F magnitude} [Prop. 5.9].
 
-So, again, let E be equal to F.
-I say that as A is to B, so C (is) to D.
-For, with the same construction, since E is equal to F, thus as G is to E, so G (is) to F [Prop. 5.7].
-But, as G (is) to E, so C (is) to D [Prop. 7.17].
-And as G (is) to F, so A (is) to B [Prop. 7.18].
-And, thus, as A (is) to B, so C (is) to D.
+So, again, let {E magnitude} be equal to {F magnitude}.
+I say that as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
+For, with the same construction, since {E magnitude} is equal to {F magnitude}, thus as {G magnitude} is to {E magnitude}, so {G magnitude} (is) to {F magnitude} [Prop. 5.7].
+But, as {G magnitude} (is) to {E magnitude}, so {C magnitude} (is) to {D magnitude} [Prop. 7.17].
+And as {G magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {B magnitude} [Prop. 7.18].
+And, thus, as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
 (Which is) the very thing it was required to show.

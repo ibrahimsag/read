@@ -1,18 +1,18 @@
 Numbers prime to one another are the least of those (numbers) having the same ratio as them.
 
-Let A and B be numbers prime to one another.
-I say that A and B are the least of those (numbers) having the same ratio as them.
+Let {A magnitude} and {B magnitude} be numbers prime to one another.
+I say that {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them.
 
-For if not then there will be some numbers less than A and B which are in the same ratio as A and B.
-Let them be C and D.
+For if not then there will be some numbers less than {A magnitude} and {B magnitude} which are in the same ratio as {A magnitude} and {B magnitude}.
+Let them be {C magnitude} and {D magnitude}.
 
-Therefore, since the least numbers of those (numbers) having the same ratio measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following---C thus measures A the same number of times that D (measures) B [Prop. 7.20].
-So as many times as C measures A, so many units let there be in E.
-Thus, D also measures B according to the units in E.
-And since C measures A according to the units in E, E thus also measures A according to the units in C [Prop. 7.16].
-So, for the same (reasons), E also measures B according to the units in D [Prop. 7.16].
-Thus, E measures A and B, which are prime to one another.
+Therefore, since the least numbers of those (numbers) having the same ratio measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following---{C magnitude} thus measures {A magnitude} the same number of times that {D magnitude} (measures) {B magnitude} [Prop. 7.20].
+So as many times as {C magnitude} measures {A magnitude}, so many units let there be in {E magnitude}.
+Thus, {D magnitude} also measures {B magnitude} according to the units in {E magnitude}.
+And since {C magnitude} measures {A magnitude} according to the units in {E magnitude}, {E magnitude} thus also measures {A magnitude} according to the units in {C magnitude} [Prop. 7.16].
+So, for the same (reasons), {E magnitude} also measures {B magnitude} according to the units in {D magnitude} [Prop. 7.16].
+Thus, {E magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.
 The very thing is impossible.
-Thus, there cannot be any numbers less than A and B which are in the same ratio as A and B.
-Thus, A and B are the least of those (numbers) having the same ratio as them.
+Thus, there cannot be any numbers less than {A magnitude} and {B magnitude} which are in the same ratio as {A magnitude} and {B magnitude}.
+Thus, {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them.
 (Which is) the very thing it was required to show.

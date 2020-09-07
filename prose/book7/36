@@ -1,43 +1,43 @@
 To find the least number which three given numbers (all) measure.
 
-Let A, B, and C be the three given numbers.
+Let {A magnitude}, {B magnitude}, and {C magnitude} be the three given numbers.
 So it is required to find the least number which they (all) measure.
 
-For let the least (number), D, measured by the two (numbers) A and B have been taken [Prop. 7.34].
-So C either measures, or does not measure, D.
-Let it, first of all, measure (D).
-And A and B also measure D.
-Thus, A, B, and C (all) measure D.
-So I say that (D is) also the least (number measured by A, B, and C).
-For if not, A, B, and C will (all) measure [some] number which is less than D.
-Let them measure E (which is less than D).
-Since A, B, and C (all) measure E then A and B thus also measure E.
-Thus, the least (number) measured by A and B will also measure [E] [Prop.
+For let the least (number), {D magnitude}, measured by the two (numbers) {A magnitude} and {B magnitude} have been taken [Prop. 7.34].
+So {C magnitude} either measures, or does not measure, {D magnitude}.
+Let it, first of all, measure ({D magnitude}).
+And {A magnitude} and {B magnitude} also measure {D magnitude}.
+Thus, {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {D magnitude}.
+So I say that ({D magnitude} is) also the least (number measured by {A magnitude}, {B magnitude}, and {C magnitude}).
+For if not, {A magnitude}, {B magnitude}, and {C magnitude} will (all) measure [some] number which is less than {D magnitude}.
+Let them measure {E magnitude} (which is less than {D magnitude}).
+Since {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {E magnitude} then {A magnitude} and {B magnitude} thus also measure {E magnitude}.
+Thus, the least (number) measured by {A magnitude} and {B magnitude} will also measure [{E magnitude}] [Prop.
 7.35].
-And D is the least (number) measured by A and B.
-Thus, D will measure E, the greater (measuring) the lesser.
+And {D magnitude} is the least (number) measured by {A magnitude} and {B magnitude}.
+Thus, {D magnitude} will measure {E magnitude}, the greater (measuring) the lesser.
 The very thing is impossible.
-Thus, A, B, and C cannot (all) measure some number which is less than D.
-Thus, A, B, and C (all) measure the least (number) D.
+Thus, {A magnitude}, {B magnitude}, and {C magnitude} cannot (all) measure some number which is less than {D magnitude}.
+Thus, {A magnitude}, {B magnitude}, and {C magnitude} (all) measure the least (number) {D magnitude}.
 
-So, again, let C not measure D.
-And let the least number, E, measured by C and D have been taken [Prop. 7.34].
-Since A and B measure D, and D measures E, A and B thus also measure E.
-And C also measures [E].
-Thus, A, B, and C [also] measure E.
-So I say that (E is) also the least (number measured by A, B, and C).
-For if not, A, B, and C will (all) measure some (number) which is less than E.
-Let them measure F (which is less than E).
-Since A, B, and C (all) measure F, A and B thus also measure F.
-Thus, the least (number) measured by A and B will also measure F [Prop. 7.35].
-And D is the least (number) measured by A and B.
-Thus, D measures F.
-And C also measures F.
-Thus, D and C (both) measure F.
-Hence, the least (number) measured by D and C will also measure F [Prop. 7.35].
-And E is the least (number) measured by C and D.
-Thus, E measures F, the greater (measuring) the lesser.
+So, again, let {C magnitude} not measure {D magnitude}.
+And let the least number, {E magnitude}, measured by {C magnitude} and {D magnitude} have been taken [Prop. 7.34].
+Since {A magnitude} and {B magnitude} measure {D magnitude}, and {D magnitude} measures {E magnitude}, {A magnitude} and {B magnitude} thus also measure {E magnitude}.
+And {C magnitude} also measures [{E magnitude}].
+Thus, {A magnitude}, {B magnitude}, and {C magnitude} [also] measure {E magnitude}.
+So I say that ({E magnitude} is) also the least (number measured by {A magnitude}, {B magnitude}, and {C magnitude}).
+For if not, {A magnitude}, {B magnitude}, and {C magnitude} will (all) measure some (number) which is less than {E magnitude}.
+Let them measure {F magnitude} (which is less than {E magnitude}).
+Since {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {F magnitude}, {A magnitude} and {B magnitude} thus also measure {F magnitude}.
+Thus, the least (number) measured by {A magnitude} and {B magnitude} will also measure {F magnitude} [Prop. 7.35].
+And {D magnitude} is the least (number) measured by {A magnitude} and {B magnitude}.
+Thus, {D magnitude} measures {F magnitude}.
+And {C magnitude} also measures {F magnitude}.
+Thus, {D magnitude} and {C magnitude} (both) measure {F magnitude}.
+Hence, the least (number) measured by {D magnitude} and {C magnitude} will also measure {F magnitude} [Prop. 7.35].
+And {E magnitude} is the least (number) measured by {C magnitude} and {D magnitude}.
+Thus, {E magnitude} measures {F magnitude}, the greater (measuring) the lesser.
 The very thing is impossible.
-Thus, A, B, and C cannot measure some number which is less than E.
-Thus, E (is) the least (number) which is measured by A, B, and C.
+Thus, {A magnitude}, {B magnitude}, and {C magnitude} cannot measure some number which is less than {E magnitude}.
+Thus, {E magnitude} (is) the least (number) which is measured by {A magnitude}, {B magnitude}, and {C magnitude}.
 (Which is) the very thing it was required to show.

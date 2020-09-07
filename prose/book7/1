@@ -1,24 +1,24 @@
 Two unequal numbers (being) laid down, and the lesser being continually subtracted, in turn, from the greater, if the remainder never measures the (number) preceding it, until a unit remains, then the original numbers will be prime to one another.
 
-For two [unequal] numbers, AB and CD, the lesser being continually subtracted, in turn, from the greater, let the remainder never measure the (number) preceding it, until a unit remains.
-I say that AB and CD are prime to one another—that is to say, that a unit alone measures (both) AB and CD.
+For two [unequal] numbers, {AB magnitude} and {CD magnitude}, the lesser being continually subtracted, in turn, from the greater, let the remainder never measure the (number) preceding it, until a unit remains.
+I say that {AB magnitude} and {CD magnitude} are prime to one another---that is to say, that a unit alone measures (both) {AB magnitude} and {CD magnitude}.
 
-For if AB and CD are not prime to one another then some number will measure them.
-Let (some number) measure them, and let it be E.
-And let CD measuring BF leave FA less than itself, and let AF measuring DG leave GC less than itself, and let GC measuring FH leave a unit, HA.
+For if {AB magnitude} and {CD magnitude} are not prime to one another then some number will measure them.
+Let (some number) measure them, and let it be {E magnitude}.
+And let {CD magnitude} measuring {BF magnitude} leave {FA magnitude} less than itself, and let {AF magnitude} measuring {DG magnitude} leave {GC magnitude} less than itself, and let {GC magnitude} measuring {FH magnitude} leave a unit, {HA magnitude}.
 
-In fact, since E measures CD, and CD measures BF, E thus also measures BF.
-And (E) also measures the whole of BA.
-Thus, (E) will also measure the remainder AF.
-And AF measures DG.
-Thus, E also measures DG.
-And (E) also measures the whole of DC.
-Thus, (E) will also measure the remainder CG.
-And CG measures FH.
-Thus, E also measures FH.
-And (E) also measures the whole of FA.
-Thus, (E) will also measure the remaining unit AH, (despite) being a number.
+In fact, since {E magnitude} measures {CD magnitude}, and {CD magnitude} measures {BF magnitude}, {E magnitude} thus also measures {BF magnitude}.
+And ({E magnitude}) also measures the whole of {BA magnitude}.
+Thus, ({E magnitude}) will also measure the remainder {AF magnitude}.
+And {AF magnitude} measures {DG magnitude}.
+Thus, {E magnitude} also measures {DG magnitude}.
+And ({E magnitude}) also measures the whole of {DC magnitude}.
+Thus, ({E magnitude}) will also measure the remainder {CG magnitude}.
+And {CG magnitude} measures {FH magnitude}.
+Thus, {E magnitude} also measures {FH magnitude}.
+And ({E magnitude}) also measures the whole of {FA magnitude}.
+Thus, ({E magnitude}) will also measure the remaining unit {AH magnitude}, (despite) being a number.
 The very thing is impossible.
-Thus, some number does not measure (both) the numbers AB and CD.
-Thus, AB and CD are prime to one another.
+Thus, some number does not measure (both) the numbers {AB magnitude} and {CD magnitude}.
+Thus, {AB magnitude} and {CD magnitude} are prime to one another.
 (Which is) the very thing it was required to show.

@@ -299,7 +299,7 @@ function makeGround(rg, svg)
 
         let figureRE = /\{figure ([0-9])\}/g;
         let sp = sentenceProse.replace(figureRE, selectFigure);
-        let propRE = /\[Prop. ([0-9]+.[0-9]+)[^\]]*\]/g;
+        let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
         let sp2 = sp.replace(propRE, placePref);
 
         let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
@@ -533,7 +533,7 @@ function processMags(p)
       p.shapes.push(rg.tick(pos));
       p.indices[mag.l] = p.ticks.length;
       p.ticks.push(pos);
-      p.letters[mag.l] = [2.8];
+      p.letters[mag.l] = [2.9, 2];
     }
     else if(mag.m)
     {
@@ -638,25 +638,25 @@ let descs = [
   "Applications of Number Theory"
 ];
 
-import book1 from './figures/1.js';
 /*
+import book1 from './figures/1.js';
 import book2 from './figures/2.js';
 import book3 from './figures/3.js';
 import book4 from './figures/4.js';
 import book5 from './figures/5.js';
-*/
 import book6 from './figures/6.js';
+*/
 import book7 from './figures/7.js';
 
 let books = {
-  1: book1,
   /*
+  1: book1,
   2: book2,
   3: book3,
   4: book4,
   5: book5,
-  */
   6: book6,
+  */
   7: book7,
 };
 

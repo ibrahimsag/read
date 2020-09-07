@@ -1,21 +1,21 @@
 Any number is either part or parts of any (other) number, the lesser of the greater.
 
-Let A and BC be two numbers, and let BC be the lesser.
-I say that BC is either part or parts of A.
+Let {A magnitude} and {BC magnitude} be two numbers, and let {BC magnitude} be the lesser.
+I say that {BC magnitude} is either part or parts of {A magnitude}.
 
-For A and BC are either prime to one another, or not.
-Let A and BC, first of all, be prime to one another.
-So separating BC into its constituent units, each of the units in BC will be some part of A.
-Hence, BC is parts of A.
+For {A magnitude} and {BC magnitude} are either prime to one another, or not.
+Let {A magnitude} and {BC magnitude}, first of all, be prime to one another.
+So separating {BC magnitude} into its constituent units, each of the units in {BC magnitude} will be some part of {A magnitude}.
+Hence, {BC magnitude} is parts of {A magnitude}.
 
-So let A and BC be not prime to one another.
-So BC either measures, or does not measure, A.
-Therefore, if BC measures A then BC is part of A.
-And if not, let the greatest common measure, D, of A and BC have been taken [Prop. 7.2], and let BC have been divided into BE, EF, and FC, equal to D.
-And since D measures A, D is a part of A.
-And D is equal to each of BE, EF, and FC.
-Thus, BE, EF, and FC are also each part of A.
-Hence, BC is parts of A.
+So let {A magnitude} and {BC magnitude} be not prime to one another.
+So {BC magnitude} either measures, or does not measure, {A magnitude}.
+Therefore, if {BC magnitude} measures {A magnitude} then {BC magnitude} is part of {A magnitude}.
+And if not, let the greatest common measure, {D magnitude}, of {A magnitude} and {BC magnitude} have been taken [Prop. 7.2], and let {BC magnitude} have been divided into {BE magnitude}, {EF magnitude}, and {FC magnitude}, equal to {D magnitude}.
+And since {D magnitude} measures {A magnitude}, {D magnitude} is a part of {A magnitude}.
+And {D magnitude} is equal to each of {BE magnitude}, {EF magnitude}, and {FC magnitude}.
+Thus, {BE magnitude}, {EF magnitude}, and {FC magnitude} are also each part of {A magnitude}.
+Hence, {BC magnitude} is parts of {A magnitude}.
 
 Thus, any number is either part or parts of any (other) number, the lesser of the greater.
 (Which is) the very thing it was required to show.

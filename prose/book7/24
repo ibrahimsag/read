@@ -1,26 +1,26 @@
 If two numbers are prime to some number then the number created from (multiplying) the former (two numbers) will also be prime to the latter (number).
 
-For let A and B be two numbers (which are both) prime to some number C.
-And let A make D (by) multiplying B.
-I say that C and D are prime to one another.
+For let {A magnitude} and {B magnitude} be two numbers (which are both) prime to some number {C magnitude}.
+And let {A magnitude} make {D magnitude} (by) multiplying {B magnitude}.
+I say that {C magnitude} and {D magnitude} are prime to one another.
 
-For if C and D are not prime to one another then [some] number will measure C and D.
-Let it (so) measure them, and let it be E.
-And since C and A are prime to one another, and some number E measures C, A and E are thus prime to one another [Prop. 7.23].
-So as many times as E measures D, so many units let there be in F.
-Thus, F also measures D according to the units in E [Prop. 7.16].
-Thus, E has made D (by) multiplying F [Def. 7.15].
-But, in fact, A has also made D (by) multiplying B.
-Thus, the (number created) from (multiplying) E and F is equal to the (number created) from (multiplying) A and B.
+For if {C magnitude} and {D magnitude} are not prime to one another then [some] number will measure {C magnitude} and {D magnitude}.
+Let it (so) measure them, and let it be {E magnitude}.
+And since {C magnitude} and {A magnitude} are prime to one another, and some number {E magnitude} measures {C magnitude}, {A magnitude} and {E magnitude} are thus prime to one another [Prop. 7.23].
+So as many times as {E magnitude} measures {D magnitude}, so many units let there be in {F magnitude}.
+Thus, {F magnitude} also measures {D magnitude} according to the units in {E magnitude} [Prop. 7.16].
+Thus, {E magnitude} has made {D magnitude} (by) multiplying {F magnitude} [Def. 7.15].
+But, in fact, {A magnitude} has also made {D magnitude} (by) multiplying {B magnitude}.
+Thus, the (number created) from (multiplying) {E magnitude} and {F magnitude} is equal to the (number created) from (multiplying) {A magnitude} and {B magnitude}.
 And if the (rectangle contained) by the (two) outermost is equal to the (rectangle contained) by the middle (two) then the four numbers are proportional [Prop. 6.15].
-Thus, as E is to A, so B (is) to F.
-And A and E (are) prime (to one another).
+Thus, as {E magnitude} is to {A magnitude}, so {B magnitude} (is) to {F magnitude}.
+And {A magnitude} and {E magnitude} (are) prime (to one another).
 And (numbers) prime (to one another) are also the least (of those numbers having the same ratio) [Prop. 7.21].
 And the least numbers of those (numbers) having the same ratio measure those (numbers) having the same ratio as them an equal number of times, the greater (measuring) the greater, and the lesser the lesser—that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, E measures B.
-And it also measures C.
-Thus, E measures B and C, which are prime to one another.
+Thus, {E magnitude} measures {B magnitude}.
+And it also measures {C magnitude}.
+Thus, {E magnitude} measures {B magnitude} and {C magnitude}, which are prime to one another.
 The very thing is impossible.
-Thus, some number cannot measure the numbers C and D.
-Thus, C and D are prime to one another.
+Thus, some number cannot measure the numbers {C magnitude} and {D magnitude}.
+Thus, {C magnitude} and {D magnitude} are prime to one another.
 (Which is) the very thing it was required to show.

@@ -1,15 +1,15 @@
 If two numbers are both prime to each of two numbers then the (numbers) created from (multiplying) them will also be prime to one another.
 
-For let two numbers, A and B, both be prime to each of two numbers, C and D.
-And let A make E (by) multiplying B, and let C make F (by) multiplying D.
-I say that E and F are prime to one another.
+For let two numbers, {A magnitude} and {B magnitude}, both be prime to each of two numbers, {C magnitude} and {D magnitude}.
+And let {A magnitude} make {E magnitude} (by) multiplying {B magnitude}, and let {C magnitude} make {F magnitude} (by) multiplying {D magnitude}.
+I say that {E magnitude} and {F magnitude} are prime to one another.
 
-For since A and B are each prime to C, the (number) created from (multiplying) A and B will thus also be prime to C [Prop. 7.24].
-And E is the (number) created from (multiplying) A and B.
-Thus, E and C are prime to one another.
-So, for the same (reasons), E and D are also prime to one another.
-Thus, C and D are each prime to E.
-Thus, the (number) created from (multiplying) C and D will also be prime to E [Prop. 7.24].
-And F is the (number) created from (multiplying) C and D.
-Thus, E and F are prime to one another.
+For since {A magnitude} and {B magnitude} are each prime to {C magnitude}, the (number) created from (multiplying) {A magnitude} and {B magnitude} will thus also be prime to {C magnitude} [Prop. 7.24].
+And {E magnitude} is the (number) created from (multiplying) {A magnitude} and {B magnitude}.
+Thus, {E magnitude} and {C magnitude} are prime to one another.
+So, for the same (reasons), {E magnitude} and {D magnitude} are also prime to one another.
+Thus, {C magnitude} and {D magnitude} are each prime to {E magnitude}.
+Thus, the (number) created from (multiplying) {C magnitude} and {D magnitude} will also be prime to {E magnitude} [Prop. 7.24].
+And {F magnitude} is the (number) created from (multiplying) {C magnitude} and {D magnitude}.
+Thus, {E magnitude} and {F magnitude} are prime to one another.
 (Which is) the very thing it was required to show.

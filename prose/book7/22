@@ -1,19 +1,19 @@
 The least numbers of those (numbers) having the same ratio as them are prime to one another.
 
-Let A and B be the least numbers of those (numbers) having the same ratio as them.
-I say that A and B are prime to one another.
+Let {A magnitude} and {B magnitude} be the least numbers of those (numbers) having the same ratio as them.
+I say that {A magnitude} and {B magnitude} are prime to one another.
 
 For if they are not prime to one another then some number will measure them.
-Let it (so measure them), and let it be C.
-And as many times as C measures A, so many units let there be in D.
-And as many times as C measures B, so many units let there be in E.
+Let it (so measure them), and let it be {C magnitude}.
+And as many times as {C magnitude} measures {A magnitude}, so many units let there be in {D magnitude}.
+And as many times as {C magnitude} measures {B magnitude}, so many units let there be in {E magnitude}.
 
-Since C measures A according to the units in D, C has thus made A (by) multiplying D [Def. 7.15].
-So, for the same (reasons), C has also made B (by) multiplying E.
-So the number C has made A and B (by) multiplying the two numbers D and E (respectively).
-Thus, as D is to E, so A (is) to B [Prop. 7.17].
-Thus, D and E are in the same ratio as A and B, being less than them.
+Since {C magnitude} measures {A magnitude} according to the units in {D magnitude}, {C magnitude} has thus made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].
+So, for the same (reasons), {C magnitude} has also made {B magnitude} (by) multiplying {E magnitude}.
+So the number {C magnitude} has made {A magnitude} and {B magnitude} (by) multiplying the two numbers {D magnitude} and {E magnitude} (respectively).
+Thus, as {D magnitude} is to {E magnitude}, so {A magnitude} (is) to {B magnitude} [Prop. 7.17].
+Thus, {D magnitude} and {E magnitude} are in the same ratio as {A magnitude} and {B magnitude}, being less than them.
 The very thing is impossible.
-Thus, some number does not measure the numbers A and B.
-Thus, A and B are prime to one another.
+Thus, some number does not measure the numbers {A magnitude} and {B magnitude}.
+Thus, {A magnitude} and {B magnitude} are prime to one another.
 (Which is) the very thing it was required to show.
