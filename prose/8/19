@@ -1,0 +1,39 @@
+Two numbers fall (between) two similar solid numbers in mean proportion.
+And a solid (number) has to a similar solid (number) a cubed† ratio with respect to (that) a corresponding side (has) to a corresponding side.
+
+Let A and B be two similar solid numbers, and let C, D, E be the sides of A, and F, G, H (the sides) of B.
+And since similar solid (numbers) are those having proportional sides [Def. 7.21], thus as C is to D, so F (is) to G, and as D (is) to E, so G (is) to H.
+I say that two numbers fall (between) A and B in mean proportion, and (that) A has to B a cubed ratio with respect to (that) C (has) to F, and D to G, and, further, E to H.
+
+For let C make K (by) multiplying D, and let F make L (by) multiplying G.
+And since C, D are in the same ratio as F, G, and K is the (number created) from (multiplying) C, D, and L the (number created) from (multiplying) F, G, [thus] K and L are similar plane numbers [Def. 7.21].
+Thus, there exits one number in mean proportion to K and L [Prop. 8.18].
+Let it be M.
+Thus, M is the (number created) from (multiplying) D, F, as shown in the theorem before this (one).
+And since D has made K (by) multiplying C, and has made M (by) multiplying F, thus as C is to F, so K (is) to M [Prop. 7.17].
+But, as K (is) to M, (so) M (is) to L.
+Thus, K, M, L are continuously proportional in the ratio of C to F.
+And since as C is to D, so F (is) to G, thus, alternately, as C is to F, so D (is) to G [Prop. 7.13].
+And so, for the same (reasons), as D (is) to G, so E (is) to H.
+Thus, K, M, L are continuously proportional in the ratio of C to F, and of D to G, and, further, of E to H.
+So let E, H make N, O, respectively, (by) multiplying M.
+And since A is solid, and C, D, E are its sides, E has thus made A (by) multiplying the (number created) from (multiplying) C, D.
+And K is the (number created) from (multiplying) C, D.
+Thus, E has made A (by) multiplying K.
+And so, for the same (reasons), H has made B (by) multiplying L.
+And since E has made A (by) multiplying K, but has, in fact, also made N (by) multiplying M, thus as K is to M, so A (is) to N [Prop. 7.17].
+And as K (is) to M, so C (is) to F, and D to G, and, further, E to H.
+And thus as C (is) to F, and D to G, and E to H, so A (is) to N.
+Again, since E, H have made N, O, respectively, (by) multiplying M, thus as E is to H, so N (is) to O [Prop. 7.18].
+But, as E (is) to H, so C (is) to F, and D to G.
+And thus as C (is) to F, and D to G, and E to H, so (is) A to N, and N to O.
+Again, since H has made O (by) multiplying M, but has, in fact, also made B (by) multiplying L, thus as M (is) to L, so O (is) to B [Prop. 7.17].
+But,asM(is) toL,soC(is)toF,andDtoG,andEtoH.
+And thus as C (is) to F, and D to G, and E to H, so not only (is) O to B, but also A to N, and N to O.
+Thus, A, N, O, B are continuously proportional in the aforementioned ratios of the sides.
+
+So I say that A also has to B a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number C (has) to F, or D to G, and, further, E to H.
+For since A, N, O, B are four continuously proportional numbers, A thus has to B a cubed ratio with respect to (that) A (has) to N [Def. 5.10].
+But, as A (is) to N, so it was shown (is) C to F, and D to G, and, further, E to H.
+And thus A has to B a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number C (has) to F, and D to G, and, further, E to H.
+(Which is) the very thing it was required to show.

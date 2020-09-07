@@ -1,0 +1,21 @@
+If a cube number measures a(nother) cube number then the side (of the former) will also measure the side (of the latter).
+And if the side (of a cube number) measures the side (of another cube number) then the (former) cube (number) will also measure the (latter) cube (number).
+
+For let the cube number A measure the cube (number) B, and let C be the side of A, and D (the side) of B.
+I say that C measures D.
+
+For let C make E (by) multiplying itself.
+And let D make G (by) multiplying itself.
+And, further, [let] C [make] F (by) multiplying D, and let C, D make H, K, respectively, (by) multiplying F.
+So it is clear that E, F, G and A, H, K, B are continuously proportional in the ratio of C to D [Prop. 8.12].
+And since A, H, K, B are continuously proportional, and A measures B, (A) thus also measures H [Prop. 8.7].
+And as A is to H, so C (is) to D.
+Thus, C also measures D [Def. 7.20].
+
+And so let C measure D.
+I say that A will also measure B.
+
+For similarly, with the same construction, we can show that A, H, K, B are continuously proportional in the ratio of C to D.
+And since C measures D, and as C is to D, so A (is) to H, A thus also measures H [Def. 7.20].
+Hence, A also measures B.
+(Which is) the very thing it was required to show.

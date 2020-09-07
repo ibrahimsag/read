@@ -1,0 +1,18 @@
+If a square number does not measure a(nother) square number then the side (of the former) will not measure the side (of the latter) either.
+And if the side (of a square number) does not measure the side (of another square number) then the (former) square (number) will not measure the (latter) square (number) either.
+
+Let A and B be square numbers, and let C and D be their sides (respectively).
+And let A not measure B.
+I say that C does not measure D either.
+
+For if C measures D then A will also measure B [Prop. 8.14].
+And A does not measure B.
+Thus, C will not measure D either.
+
+[So], again, let C not measure D.
+I say that A will not measure B either.
+
+For if A measures B then C will also measure D [Prop. 8.14].
+And C does not measure D.
+Thus, A will not measure B either.
+(Which is) the very thing it was required to show.

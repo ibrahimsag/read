@@ -1,0 +1,27 @@
+There exist two numbers in mean proportion to two (given) cube numbers.
+And (one) cube (number) has to the (other) cube (number) a cubed ratio with respect to (that) the side (of the former has) to the side (of the latter).
+
+Let A and B be cube numbers, and let C be the side of A, and D (the side) of B.
+I say that there exist two numbers in mean proportion to A and B, and that A has to B a cubed ratio with respect to (that) C (has) to D.
+
+For let C make E (by) multiplying itself, and let it make F (by) multiplying D.
+And let D make G (by) multiplying itself, and let C, D make H, K, respectively, (by) multiplying F.
+
+And since A is cube, and C (is) its side, and C has made E (by) multiplying itself, C has thus made E (by) multiplying itself, and has made A (by) multiplying E.
+And so, for the same (reasons), D has made G (by) multiplying itself, and has made B (by) multiplying G.
+And since C has made E, F (by) multiplying C, D, respectively, thus as C is to D, so E (is) to F [Prop. 7.17].
+And so, for the same (reasons), as C (is) to D, so F (is) to G [Prop. 7.18].
+Again, since C has made A, H (by) multiplying E, F, respectively, thus as E is to F, so A (is) to H [Prop. 7.17].
+And as E (is) to F, so C (is) to D.
+And thus as C (is) to D, so A (is) to H.
+Again, since C, D have made H, K, respectively, (by) multiplying F, thus as C is to D, so H (is) to K [Prop. 7.18].
+Again, since D has made K, B (by) multiplying F, G, respectively, thus as F is to G, so K (is) to B [Prop. 7.17].
+And as F (is) to G, so C (is) to D.
+And thus as C (is) to D, so A (is) to H, and H to K, and K to B.
+Thus, H and K are two (numbers) in mean proportion to A and B.
+
+So I say that A also has to B a cubed ratio with respect to (that) C (has) to D.
+For since A, H, K, B are four (continuously) proportional numbers, A thus has to B a cubed ratio with respect to (that) A (has) to H [Def. 5.10].
+And as A (is) to H, so C (is) to D.
+And [thus] A has to B a cubed ratio with respect to (that) C (has) to D.
+(Which is) the very thing it was required to show.

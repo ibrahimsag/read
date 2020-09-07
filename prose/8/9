@@ -1,0 +1,29 @@
+If two numbers are prime to one another and there fall in between them (some) numbers in continued proportion then, as many numbers as fall in between them in continued proportion, so many (numbers) will also fall between each of them and a unit in continued proportion.
+
+Let A and B be two numbers (which are) prime to one another, and let the (numbers) C and D fall in between them in continued proportion.
+And let the unit E be set out.
+I say that, as many numbers as have fallen in between A and B in continued proportion, so many (numbers) will also fall between each of A and B and the unit in continued proportion.
+
+For let the least two numbers, F and G, which are in the ratio of A, C, D, B, have been taken [Prop. 7.33].
+And the (least) three (numbers), H, K, L.
+And so on, successively increasing by one, until the multitude of the (least numbers taken) is made equal to the multitude of A, C, D, B [Prop. 8.2].
+Let them have been taken, and let them be M, N, O, P.
+So (it is) clear that F has made H (by) multiplying itself, and has made M (by) multiplying H.
+And G has made L (by) multiplying itself, and has made P (by) multiplying L [Prop. 8.2 corr.].
+And since M, N, O, P are the least of those (numbers) having the same ratio as F, G, and A, C, D, B are also the least of those (numbers) having the same ratio as F, G [Prop. 8.2], and the multitude of M, N, O, P is equal to the multitude of A, C, D, B, thus M, N, O, P are equal to A, C, D, B, respectively.
+Thus, M is equal to A, and P to B.
+And since F has made H (by) multiplying itself, F thus measures H according to the units in F [Def. 7.15].
+And the unit E also measures F according to the units in it.
+Thus, the unit E measures the number F as many times as F (measures) H.
+Thus, as the unit E is to the number F, so F (is) to H [Def. 7.20].
+Again, since F has made M (by) multiplying H, H thus measures M according to the units in F [Def. 7.15].
+And the unit E also measures the number F according to the units in it.
+Thus, the unit E measures the number F as many times as H (measures) M.
+Thus, as the unit E is to the number F, so H (is) to M [Prop. 7.20].
+And it was shown that as the unit E (is) to the number F, so F (is) to H.
+And thus as the unit E (is) to the number F, so F (is) to H, and H (is) to M.
+And M (is) equal to A.
+Thus, as the unit E is to the number F, so F (is) to H, and H to A.
+And so, for the same (reasons), as the unit E (is) to the number G, so G (is) to L, and L to B.
+Thus, as many (numbers) as have fallen in between A and B in continued proportion, so many numbers have also fallen between each of A and B and the unit E in continued proportion.
+(Which is) the very thing it was required to show.

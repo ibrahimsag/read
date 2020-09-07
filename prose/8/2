@@ -1,0 +1,38 @@
+To find the least numbers, as many as may be prescribed, (which are) continuously proportional in a given ratio.
+
+Let the given ratio, (expressed) in the least numbers, be that of A to B.
+So it is required to find the least numbers, as many as may be prescribed, (which are) in the ratio of A to B.
+
+Let four (numbers) have been prescribed.
+And let A make C (by) multiplying itself, and let it make D (by) multiplying B.
+And, further, let B make E (by) multiplying itself.
+And, further, let A make F, G, H (by) multiplying C, D, E.
+And let B make K (by) multiplying E.
+
+And since A has made C (by) multiplying itself, and has made D (by) multiplying B, thus as A is to B, [so] C (is) to D [Prop. 7.17].
+Again, since A has made D (by) multiplying B, and B has made E (by) multiplying itself, A, B have thus made D, E, respectively, (by) multiplying B.
+Thus, as A is to B, so D (is) to E [Prop. 7.18].
+But, as A (is) to B, (so) C (is) to D.
+And thus as C (is) to D, (so) D (is) to E.
+And since A has made F, G (by) multiplying C, D, thus as C is to D, [so] F (is) to G [Prop. 7.17].
+And as C (is) to D, so A was to B.
+AndthusasA(is) toB,(so)F (is)toG.
+Again,sinceAhasmadeG,H (by)multiplyingD,E,thusasDistoE,(so)G(is)to H [Prop. 7.17].
+But, as D (is) to E, (so) A (is) to B.
+And thus as A (is) to B, so G (is) to H.
+And since A, B have made H, K (by) multiplying E, thus as A is to B, so H (is) to K.
+But, as A (is) to B, so F (is) to G, and G to H.
+And thus as F (is) to G, so G (is) to H, and H to K.
+Thus, C, D, E and F, G, H, K are (both continuously) proportional in the ratio of A to B.
+So I say that (they are) also the least (sets of numbers continuously proportional in that ratio).
+For since A and B are the least of those (numbers) having the same ratio as them, and the least of those (numbers) having the same ratio are prime to one another [Prop. 7.22], A and B are thus prime to one another.
+And A, B have made C, E, respectively, (by) multiplying themselves, and have made F, K by multiplying C, E, respectively.
+Thus, C, E and F, K are prime to one another [Prop. 7.27].
+And if there are any multitude whatsoever of continuously proportional numbers, and the outermost of them are prime to one another, then the (numbers) are the least of those (numbers) having the same ratio as them [Prop. 8.1].
+Thus, C, D, E and F, G, H, K are the least of those (continuously proportional sets of numbers) having the same ratio as A and B.
+(Which is) the very thing it was required to show.
+
+
+Corollary
+
+So it is clear, from this, that if three continuously proportional numbers are the least of those (numbers) having the same ratio as them then the outermost of them are square, and, if four (numbers), cube.
