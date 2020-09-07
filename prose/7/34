@@ -4,7 +4,7 @@ Let {A magnitude} and {B magnitude} be the two given numbers.
 So it is required to find the least number which they (both) measure.
 
 For {A magnitude} and {B magnitude} are either prime to one another, or not.
-Let them, first of all, be prime to one another.
+{figure 1} Let them, first of all, be prime to one another.
 And let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.
 Thus, {B magnitude} has also made {C magnitude} (by) multiplying {A magnitude} [Prop. 7.16].
 Thus, {A magnitude} and {B magnitude} (both) measure {C magnitude}.
@@ -25,8 +25,7 @@ The very thing is impossible.
 Thus, {A magnitude} and {B magnitude} do not (both) measure some number which is less than {C magnitude}.
 Thus, {C magnitude} is the least (number) which is measured by (both) {A magnitude} and {B magnitude}.
 
-{figure 2}
-So let {A magnitude} and {B magnitude} be not prime to one another.
+{figure 2} So let {A magnitude} and {B magnitude} be not prime to one another.
 And let the least numbers, {F magnitude} and {E magnitude}, have been taken having the same ratio as {A magnitude} and {B magnitude} (respectively) [Prop. 7.33].
 Thus, the (number created) from (multiplying) {A magnitude} and {E magnitude} is equal to the (number created) from (multiplying) {B magnitude} and {F magnitude} [Prop. 7.19].
 And let {A magnitude} make {C magnitude} (by) multiplying {E magnitude}.
