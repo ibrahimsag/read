@@ -1,22 +1,22 @@
 import vec2 from '../vec2.js';
 
-import prop0 from '../prose/book4/0';
-import prop1 from '../prose/book4/1';
-import prop2 from '../prose/book4/2';
-import prop3 from '../prose/book4/3';
-import prop4 from '../prose/book4/4';
-import prop5 from '../prose/book4/5';
-import prop6 from '../prose/book4/6';
-import prop7 from '../prose/book4/7';
-import prop8 from '../prose/book4/8';
-import prop9 from '../prose/book4/9';
-import prop10 from '../prose/book4/10';
-import prop11 from '../prose/book4/11';
-import prop12 from '../prose/book4/12';
-import prop13 from '../prose/book4/13';
-import prop14 from '../prose/book4/14';
-import prop15 from '../prose/book4/15';
-import prop16 from '../prose/book4/16';
+import prop0 from '../prose/4/0';
+import prop1 from '../prose/4/1';
+import prop2 from '../prose/4/2';
+import prop3 from '../prose/4/3';
+import prop4 from '../prose/4/4';
+import prop5 from '../prose/4/5';
+import prop6 from '../prose/4/6';
+import prop7 from '../prose/4/7';
+import prop8 from '../prose/4/8';
+import prop9 from '../prose/4/9';
+import prop10 from '../prose/4/10';
+import prop11 from '../prose/4/11';
+import prop12 from '../prose/4/12';
+import prop13 from '../prose/4/13';
+import prop14 from '../prose/4/14';
+import prop15 from '../prose/4/15';
+import prop16 from '../prose/4/16';
 
 function book4(rg)
 {
