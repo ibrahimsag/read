@@ -576,7 +576,7 @@ let processProp = (i_book) => (f, ind) => {
   else
   {
     p.title = 'Proposition ' + (ind);
-    if(i_book == 7)
+    if(i_book == 8)
     {
       p.img = 'img/' + (i_book) + '/' + ind + '.png';
     }
@@ -647,6 +647,7 @@ import book5 from './figures/5.js';
 import book6 from './figures/6.js';
 */
 import book7 from './figures/7.js';
+import book8 from './figures/8.js';
 
 let books = {
   /*
@@ -658,6 +659,7 @@ let books = {
   6: book6,
   */
   7: book7,
+  8: book8,
 };
 
 let ground = makeGround(rg, svg);

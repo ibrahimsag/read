@@ -9,12 +9,12 @@ And as many times as C measures G, so many times let D also measure K.
 And E either measures, or does not measure, K.
 Let it, first of all, measure (K).
 And as many times as E measures K, so many times let F also measure L.
-And since A measures H the same number of times that B also (measures) G, thus as A is to B, so H (is) to G [Def. 7.20, Prop. 7.13].
+And since A measures H the same number of times that B also (measures) G, thus as A is to B, so H (is) to G [Prop. 7.13, Def. 7.20].
 And so, for the same (reasons), as C (is) to D, so G (is) to K, and, further, as E (is) to F, so K (is) to L.
 Thus, H, G, K, L are continuously proportional in the ratio of A to B, and of C to D, and, further, of E to F.
 So I say that (they are) also the least (numbers continuously proportional in these ratios).
 For if H, G, K, L are not the least numbers continuously proportional in the ratios of A to B, and of C to D, and of E to F, let N, O, M, P be (the least such numbers).
-And since as A is to B, so N (is) to O, and A and B are the least (numbers which have the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser—that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20], B thus measures O.
+And since as A is to B, so N (is) to O, and A and B are the least (numbers which have the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20], B thus measures O.
 So, for the same (reasons), C also measures O.
 Thus, B and C (both) measure O.
 Thus, the least number measured by (both) B and C will also measure O [Prop. 7.35].
@@ -27,11 +27,11 @@ So let E not measure K.
 And let the least number, M, measured by (both) E and K have been taken [Prop. 7.34].
 And as many times as K measures M, so many times let H, G also measure N, O, respectively.
 And as many times as E measures M, so many times let F also measure P.
-Since H measures N the same number of times as G (measures) O, thus as H is to G, so N(is) to O [Def.7.20, Prop.7.13].
+Since H measures N the same number of times as G (measures) O, thus as H is to G, so N(is) to O [Prop. 7.13, Def. 7.20].
 And as H (is) to G, so A (is) to B.
 And thusas A (is) to B, so N (is) to O.
 And so, for the same (reasons), as C (is) to D, so O (is) to M.
-Again, since E measures M the same number of times as F (measures) P, thus as E is to F, so M (is) to P [Def.7.20, Prop.7.13].
+Again, since E measures M the same number of times as F (measures) P, thus as E is to F, so M (is) to P [Prop. 7.13, Def.7.20].
 Thus, N, O, M, P are continuously proportional in the ratios of A to B, and of C to D, and, further, of E to F.
 So I say that (they are) also the least (numbers) in the ratios of AB, CD, EF.
 For if not, then there will be some numbers less than N, O, M, P (which are) continuously proportional in the ratios of AB, CD, EF.
