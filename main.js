@@ -3,7 +3,7 @@ import hsluv from 'hsluv';
 
 import vec2 from './vec2.js';
 
-var lthue = 330, ltsat = 100;
+var lthue = 330, ltsat = 0;
 
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
