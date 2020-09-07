@@ -448,7 +448,7 @@ function makeGround(rg, svg)
           }
           let inj = (s) => (s+8)%8;
           let s = inj(letter[0]);
-          let l = letter[1] || 1;
+          let l = (letter[1] || 1) + (shouldBeSmall ? 1 : 0);
           let s1 = Math.floor(s), s2 = Math.ceil(s);
           let r = s - s1;
           let p1 = proj(s1, l), p2 = proj(s2, l);
