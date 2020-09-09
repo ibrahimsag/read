@@ -5,13 +5,16 @@ I say that {ABCD polygon} is equal to parallelogram {EBCF polygon}.
 
 For since {ABCD polygon} is a parallelogram, {AD line} is equal to {BC line} [Prop. 1.34].
 So, for the same (reasons), {EF line} is also equal to {BC line}.
-So {AD line} is also equal to {EF line}. And {DE line} is common.
+So {AD line} is also equal to {EF line}.
+And {DE line} is common.
 Thus, the whole (straight-line) {AE line} is equal to the whole (straight-line) {DF line}.
 And {AB line} is also equal to {DC line}.
 So the two (straight-lines) {EA line}, {AB line} are equal to the two (straight-lines) {FD line}, {DC line}, respectively.
 And angle {FDC angle} is equal to angle {EAB angle}, the external to the inter- nal [Prop. 1.29].
-Thus, the base {EB line} is equal to the base {FC line}, and triangle {EAB polygon} will be equal to triangle {DFC polygon} [Prop. 1.4]. Let {DGE polygon} have been taken away from both.
-Thus, the remaining trapezium {ABGD polygon} is equal to the remaining trapezium {EGCF polygon}. Let triangle {GBC polygon} have been added to both.
+Thus, the base {EB line} is equal to the base {FC line}, and triangle {EAB polygon} will be equal to triangle {DFC polygon} [Prop. 1.4].
+Let {DGE polygon} have been taken away from both.
+Thus, the remaining trapezium {ABGD polygon} is equal to the remaining trapezium {EGCF polygon}.
+Let triangle {GBC polygon} have been added to both.
 Thus, the whole parallelogram {ABCD polygon} is equal to the whole parallelogram {EBCF polygon}.
 
 Thus, parallelograms which are on the same base and between the same parallels are equal to one another.

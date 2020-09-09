@@ -3,7 +3,8 @@ Equal triangles which are on equal bases, and on the same side, are also between
 Let {ABC polygon} and {CDE polygon} be equal triangles on the equal bases {BC line} and {CE line} (respectively), and on the same side.
 I say that they are also between the same parallels.
 
-For let {AD line} have been joined. I say that {AD line} is parallel to {BE line}.
+For let {AD line} have been joined.
+I say that {AD line} is parallel to {BE line}.
 
 For if not, let {AF line} have been drawn through {A point} parallel to {BE line} [Prop. 1.31], and let {FE line} have been joined.
 Thus, triangle {ABC polygon} is equal to triangle {FCE polygon}.

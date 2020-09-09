@@ -2,9 +2,13 @@ If two triangles have two angles equal to two angles, respectively, and one side
 
 Let {ABC polygon} and {DEF polygon} be two triangles having the two angles {ABC angle} and {BCA angle} equal to the two (angles) {DEF angle} and {EFD angle}, respectively.
 (That is) {ABC angle} to {DEF angle}, and {BCA angle} to {EFD angle}.
-And let them also have one side equal to one side. First of all, the (side) by the equal angles. (That is) {BC line} (equal) to {EF line}.
-I say that the remaining sides will be equal to the corresponding remaining sides. (That is) {AB line} to {DE line}, and {AC line} to {DF line}.
-And the remaining angle (will be equal) to the remaining angle.  (That is) {BAC angle} to {EDF angle}.
+And let them also have one side equal to one side.
+First of all, the (side) by the equal angles.
+(That is) {BC line} (equal) to {EF line}.
+I say that the remaining sides will be equal to the corresponding remaining sides.
+(That is) {AB line} to {DE line}, and {AC line} to {DF line}.
+And the remaining angle (will be equal) to the remaining angle.
+(That is) {BAC angle} to {EDF angle}.
 
 For if {AB line} is unequal to {DE line} then one of them is greater.
 Let {AB line} be greater, and let {BG line} be made equal to {DE line} [Prop. 1.3], and let {GC line} have been joined.
@@ -35,7 +39,8 @@ And since {BH line} is equal to {EF line}, and {AB line} to {DE line}, the two (
 And the angles they encompass (are also equal).
 Thus, the base {AH line} is equal to the base {DF line}, and the triangle {ABH polygon} is equal to the triangle {DEF polygon}, and the remaining angles subtended by the equal sides will be equal to the (corresponding) remaining angles [Prop. 1.4].
 Thus, angle {BHA angle} is equal to {EFD angle}.
-But, {EFD angle} is equal to {BCA angle}. So, for triangle {AHC polygon}, the external angle {BHA angle} is equal to the internal and opposite angle {BCA angle}.
+But, {EFD angle} is equal to {BCA angle}.
+So, for triangle {AHC polygon}, the external angle {BHA angle} is equal to the internal and opposite angle {BCA angle}.
 The very thing (is) impossible [Prop. 1.16].
 Thus, {BC line} is not unequal to {EF line}.
 Thus, (it is) equal.

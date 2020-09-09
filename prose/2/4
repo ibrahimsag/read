@@ -1,6 +1,7 @@
 If a straight-line is cut at random then the square on the whole (straight-line) is equal to the (sum of the) squares on the pieces (of the straight-line), and twice the rectangle contained by the pieces.
 
-For let the straight-line {AB line} have been cut, at random, at (point) {C point}. I say that the square on {AB line} is equal to the (sum of the) squares on {AC line} and {CB line}, and twice the rectangle contained by {AC line} and {CB line}.
+For let the straight-line {AB line} have been cut, at random, at (point) {C point}.
+I say that the square on {AB line} is equal to the (sum of the) squares on {AC line} and {CB line}, and twice the rectangle contained by {AC line} and {CB line}.
 
 For let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let {BD line} have been joined, and let {CF line} have been drawn through {C point}, parallel to either of {AD line} or {EB line} [Prop. 1.31], and let {HK line} have been drawn through {G point}, parallel to either of {AB line} or {DE line} [Prop. 1.31].
 And since {CF line} is parallel to {AD line}, and {BD line} has fallen across them, the external angle {CGB angle} is equal to the internal and opposite (angle) {ADB angle} [Prop. 1.29].

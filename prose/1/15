@@ -6,7 +6,8 @@ I say that angle {AEC angle} is equal to (angle) {DEB angle}, and (angle) {CEB a
 For since the straight-line {AE line} stands on the straight-line {CD line}, making the angles {CEA angle} and {AED angle}, the (sum of the) angles {CEA angle} and {AED angle} is thus equal to two right-angles [Prop. 1.13].
 Again, since the straight-line {DE line} stands on the straight-line {AB line}, making the angles {AED angle} and {DEB angle}, the (sum of the) angles {AED angle} and {DEB angle} is thus equal to two right-angles [Prop. 1.13].
 But (the sum of) {CEA angle} and {AED angle} was also shown (to be) equal to two right-angles.
-Thus, (the sum of) {CEA angle} and {AED angle} is equal to (the sum of) {AED angle} and {DEB angle} [C.N. 1]. Let {AED angle} have been subtracted from both.
+Thus, (the sum of) {CEA angle} and {AED angle} is equal to (the sum of) {AED angle} and {DEB angle} [C.N. 1].
+Let {AED angle} have been subtracted from both.
 Thus, the remainder {CEA angle} is equal to the remainder {BED angle} [C.N. 3].
 Similarly, it can be shown that {CEB angle} and {DEA angle} are also equal.
 

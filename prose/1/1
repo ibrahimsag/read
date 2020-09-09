@@ -11,7 +11,8 @@ And since the point {A point} is the center of the circle {CDB circle A}, {AC li
 Again, since the point {B point} is the center of the circle {CAE circle B}, {BC line} is equal to {BA line} [Def. 1.15].
 But {CA line} was also shown (to be) equal to {AB line}.
 Thus, {CA line} and {CB line} are each equal to {AB line}.
-But things equal to the same thing are also equal to one another [C.N.  1]. Thus, {CA line} is also equal to {CB line}.
+But things equal to the same thing are also equal to one another [C.N.  1].
+Thus, {CA line} is also equal to {CB line}.
 Thus, the three (straight-lines) {CA line}, {AB line}, and {BC line} are equal to one another.
 
 Thus, the triangle {ABC polygon} is equilateral, and has been constructed on the given finite straight-line {AB line}.

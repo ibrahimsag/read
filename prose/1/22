@@ -1,4 +1,5 @@
-To construct a triangle from three straight-lines which are equal to three given [straight-lines]. It is necessary for (the sum of) two (of the straight-lines) to be greater than the remaining (one), (the straight-lines) being taken up in any (possible way) [on account of the (fact that) for every triangle (the sum of any) two sides is greater than the remaining (one), (the sides) being taken up in any (possible way) [Prop. 1.20] ].
+To construct a triangle from three straight-lines which are equal to three given [straight-lines].
+It is necessary for (the sum of) two (of the straight-lines) to be greater than the remaining (one), (the straight-lines) being taken up in any (possible way) [on account of the (fact that) for every triangle (the sum of any) two sides is greater than the remaining (one), (the sides) being taken up in any (possible way) [Prop. 1.20] ].
 
 Let {A given}, {B given}, and {C given} be the three given straight-lines, of which let (the sum of any) two be greater than the remaining (one), (the straight-lines) being taken up in (any possible way).
 (Thus), (the sum of) {A given} and {B given} (is greater) than {C given}, (the sum of) {A given} and {C given} than {B given}, and also (the sum of) {B given} and {C given} than {A given}.
@@ -12,9 +13,12 @@ And let {KF line} and {KG line} have been joined.
 I say that the triangle {KFG polygon} has been constructed from three straight-lines equal to {A given}, {B given}, and {C given}.
 
 For since point {F point} is the center of the circle {DKL circle F}, {FD line} is equal to {FK line}.
-But, {FD line} is equal to {A given}. Thus, {KF line} is also equal to {A given}.
+But, {FD line} is equal to {A given}.
+Thus, {KF line} is also equal to {A given}.
 Again, since point {G point} is the center of the circle {LKH circle G}, {GH line} is equal to {GK line}.
-But, {GH line} is equal to {C given}. Thus, {KG line} is also equal to {C given}. And {FG line} is equal to {B given}.
+But, {GH line} is equal to {C given}.
+Thus, {KG line} is also equal to {C given}.
+And {FG line} is equal to {B given}.
 Thus, the three straight-lines {KF line}, {FG line}, and {GK line} are equal to {A given}, {B given}, and {C given} (respectively).
 
 Thus, the triangle {KFG polygon} has been constructed from the three straight-lines {KF line}, {FG line}, and {GK line}, which are equal to the three given straight-lines {A given}, {B given}, and {C given} (respectively).

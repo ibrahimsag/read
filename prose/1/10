@@ -1,10 +1,14 @@
 To cut a given finite straight-line in half.
 
-Let {AB line} be the given finite straight-line. So it is required to cut the finite straight-line {AB line} in half.
+Let {AB line} be the given finite straight-line.
+So it is required to cut the finite straight-line {AB line} in half.
 
-Let the equilateral triangle {ABC polygon} have been constructed upon {AB line} [Prop. 1.1], and let the angle {ACB angle} have been cut in half by the straight-line {CD line} [Prop. 1.9]. I say that the straight-line {AB line} has been cut in half at point {D point}.
+Let the equilateral triangle {ABC polygon} have been constructed upon {AB line} [Prop. 1.1], and let the angle {ACB angle} have been cut in half by the straight-line {CD line} [Prop. 1.9].
+I say that the straight-line {AB line} has been cut in half at point {D point}.
 
-For since {AC line} is equal to {CB line}, and {CD line} (is) common, the two (straight-lines) {AC line} , {CD line} are equal to the two (straight-lines) {BC line}, {CD line}, respectively. And the angle {ACD angle} is equal to the angle {BCD angle}. Thus, the base {AD line} is equal to the base {BD line} [Prop. 1.4].
+For since {AC line} is equal to {CB line}, and {CD line} (is) common, the two (straight-lines) {AC line} , {CD line} are equal to the two (straight-lines) {BC line}, {CD line}, respectively.
+And the angle {ACD angle} is equal to the angle {BCD angle}.
+Thus, the base {AD line} is equal to the base {BD line} [Prop. 1.4].
 
 Thus, the given finite straight-line {AB line} has been cut in half at (point) {D point}.
 (Which is) the very thing it was required to do.

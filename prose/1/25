@@ -6,7 +6,8 @@ And let the base {BC line} be greater than the base {EF line}.
 I say that angle {BAC angle} is also greater than {EDF angle}.
 
 For if not, ({BAC angle}) is certainly either equal to, or less than ({EDF angle}).
-In fact, {BAC angle} is not equal to {EDF angle}. For then the base {BC line} would also have been equal to {EF line} [Prop. 1.4].
+In fact, {BAC angle} is not equal to {EDF angle}.
+For then the base {BC line} would also have been equal to {EF line} [Prop. 1.4].
 But it is not.
 Thus, angle {BAC angle} is not equal to {EDF angle}.
 Neither, indeed, is {BAC angle} less than {EDF angle}.
