@@ -209,6 +209,131 @@ function makeGround(rg, svg)
 {
   let proxy = {};
 
+  function drawFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
+  {
+    let shapes = [...figure.shapes];
+
+    if(highlightFigure)
+    {
+      nearHighlights.forEach(h =>
+        {
+          rg.makeHighlight(figure, ...h).forEach(s =>
+            {
+              if(!(h[1] === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
+              {
+                s.options["stroke"] = colors.sentence;
+              }
+              shapes.push(s);
+            });
+        });
+
+      if(highlight.length)
+      {
+        rg.makeHighlight(figure, ...highlight).forEach(s =>
+          {
+            s.options["stroke"] = colors.bright;
+            s.options["strokeWidth"] += 1;
+            shapes.push(s);
+          });
+      }
+    }
+
+    shapes.forEach(s =>
+    {
+      svg.appendChild(rg.draw(s));
+    });
+
+    let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
+    let highlightName = highlight.length && highlight[0];
+
+    if(!figure.letteroffsets) figure.letteroffsets = {};
+
+    for(var i in figure.letters)
+    {
+      let letter = figure.letters[i];
+      let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
+      let offset;
+      var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      el.setAttribute('font-family', 'Nale');
+      if(shouldBeSmall)
+        el.setAttribute('font-size', '16px');
+      else
+        el.setAttribute('font-size', '24px');
+      let fillColor = colors.ltdim;
+      if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
+      {
+        fillColor = colors.ltbright;
+      }
+      else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
+      {
+        fillColor = colors.ltsentence;
+      }
+      el.setAttribute('fill', fillColor);
+      el.textContent = i;
+      svg.appendChild(el);
+
+      if(figure.letteroffsets[i])
+      {
+        offset = figure.letteroffsets[i];
+      }
+      else if(letter[0] < 8)
+      {
+        let proj = (s, l) => {
+          switch(s)
+          {
+            case 0:
+              return [0.1 * l, -0.1 * l];
+              break;
+            case 1:
+              return [-0.5, -0.2 * l];
+              break;
+            case 2:
+              return [-1 - 0.2*l, -0.2 * l];
+              break;
+            case 3:
+              return [-1 - 0.2*l, 0.5];
+              break;
+            case 4:
+              return [-1, 1];
+              break;
+            case 5:
+              return [-0.5, 1 + 0.1*l];
+              break;
+            case 6:
+              return [0.3*l, 0.9 + 0.1*l];
+              break;
+            case 7:
+              return [0.2*l, 0.5];
+              break;
+            default:
+              return [0.1*l, -0.1*l];
+              break;
+          }
+        }
+        let inj = (s) => (s+8)%8;
+        let s = inj(letter[0]);
+        let l = (letter[1] || 1) + (shouldBeSmall ? 1 : 0);
+        let s1 = Math.floor(s), s2 = Math.ceil(s);
+        let r = s - s1;
+        let p1 = proj(s1, l), p2 = proj(s2, l);
+        // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
+        let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
+
+        let m = el.getBBox();
+        offset = [dir[0] * m.width, dir[1] * (m.height - 5)];
+        figure.letteroffsets[i] = offset;
+      }
+      else
+      {
+        offset = [letter[1], letter[2]];
+      }
+
+      let pos = vec2.add(figure.points[i], offset);
+      el.setAttribute('x', pos[0]);
+      el.setAttribute('y', pos[1]);
+    }
+  }
+
   function draw(o, p)
   {
 
@@ -345,140 +470,15 @@ function makeGround(rg, svg)
 
     svg.innerHTML = "";
 
-    function drawFigure(figure, highlightFigure, smallLetters)
-    {
-      let shapes = [...figure.shapes];
-
-      if(highlightFigure)
-      {
-        nearHighlights.forEach(h =>
-          {
-            rg.makeHighlight(figure, ...h).forEach(s =>
-              {
-                if(!(h[1] === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
-                {
-                  s.options["stroke"] = colors.sentence;
-                }
-                shapes.push(s);
-              });
-          });
-
-        if(highlight.length)
-        {
-          rg.makeHighlight(figure, ...highlight).forEach(s =>
-            {
-              s.options["stroke"] = colors.bright;
-              s.options["strokeWidth"] += 1;
-              shapes.push(s);
-            });
-        }
-      }
-
-      shapes.forEach(s =>
-      {
-        svg.appendChild(rg.draw(s));
-      });
-
-      let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-      let highlightName = highlight.length && highlight[0];
-
-      if(!figure.letteroffsets) figure.letteroffsets = {};
-
-      for(var i in figure.letters)
-      {
-        let letter = figure.letters[i];
-        let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
-        let offset;
-        var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        el.setAttribute('font-family', 'Nale');
-        if(shouldBeSmall)
-          el.setAttribute('font-size', '16px');
-        else
-          el.setAttribute('font-size', '24px');
-        let fillColor = colors.ltdim;
-        if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
-        {
-          fillColor = colors.ltbright;
-        }
-        else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
-        {
-          fillColor = colors.ltsentence;
-        }
-        el.setAttribute('fill', fillColor);
-        el.textContent = i;
-        svg.appendChild(el);
-
-        if(figure.letteroffsets[i])
-        {
-          offset = figure.letteroffsets[i];
-        }
-        else if(letter[0] < 8)
-        {
-          let proj = (s, l) => {
-            switch(s)
-            {
-              case 0:
-                return [0.1 * l, -0.1 * l];
-                break;
-              case 1:
-                return [-0.5, -0.2 * l];
-                break;
-              case 2:
-                return [-1 - 0.2*l, -0.2 * l];
-                break;
-              case 3:
-                return [-1 - 0.2*l, 0.5];
-                break;
-              case 4:
-                return [-1, 1];
-                break;
-              case 5:
-                return [-0.5, 1 + 0.1*l];
-                break;
-              case 6:
-                return [0.3*l, 0.9 + 0.1*l];
-                break;
-              case 7:
-                return [0.2*l, 0.5];
-                break;
-              default:
-                return [0.1*l, -0.1*l];
-                break;
-            }
-          }
-          let inj = (s) => (s+8)%8;
-          let s = inj(letter[0]);
-          let l = (letter[1] || 1) + (shouldBeSmall ? 1 : 0);
-          let s1 = Math.floor(s), s2 = Math.ceil(s);
-          let r = s - s1;
-          let p1 = proj(s1, l), p2 = proj(s2, l);
-          // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
-          let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
-
-          let m = el.getBBox();
-          offset = [dir[0] * m.width, dir[1] * (m.height - 5)];
-          figure.letteroffsets[i] = offset;
-        }
-        else
-        {
-          offset = [letter[1], letter[2]];
-        }
-
-        let pos = vec2.add(figure.points[i], offset);
-        el.setAttribute('x', pos[0]);
-        el.setAttribute('y', pos[1]);
-      }
-    }
-
     if(!p.figures)
     {
-      drawFigure(p, true, false)
+      drawFigure(p, highlight, nearHighlights, true, false)
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        drawFigure(p.figures[i], figureIndex == 0 || figureIndex == i+1, true);
+        drawFigure(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
       }
     }
 
