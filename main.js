@@ -3,20 +3,15 @@ import hsluv from 'hsluv';
 
 import vec2 from './vec2.js';
 
-var lthue = 330, ltsat = 0;
-
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
   sentence: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
-  ltbright: hsluv.hpluvToHex([lthue, ltsat, 90]),
-  ltsentence: hsluv.hpluvToHex([lthue, ltsat, 50]),
-  ltdim: hsluv.hpluvToHex([lthue, ltsat, 30]),
   link: hsluv.hpluvToHex([140, 100, 30]),
   make: hsluv.hpluvToHex,
 };
 
-let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.ltdim, "; } #prose .sentence.bright .ref { color:", colors.ltsentence, "; ; } #prose .sentence.bright .ref.bright { color:", colors.ltbright, "; }"].join('');
+let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.dim, "; } #prose .sentence.bright .ref { color:", colors.sentence, "; ; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; }"].join('');
 let styleEl = document.createElement('style');
 styleEl.innerText = styleText;
 window.onload = () => {
@@ -259,14 +254,14 @@ function makeGround(rg, svg)
         el.setAttribute('font-size', '16px');
       else
         el.setAttribute('font-size', '24px');
-      let fillColor = colors.ltdim;
+      let fillColor = colors.dim;
       if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
       {
-        fillColor = colors.ltbright;
+        fillColor = colors.bright;
       }
       else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
       {
-        fillColor = colors.ltsentence;
+        fillColor = colors.sentence;
       }
       el.setAttribute('fill', fillColor);
       el.textContent = i;
