@@ -204,9 +204,9 @@ function makeGround(rg, svg)
 {
   let proxy = {};
 
-  function drawFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
+  function prepareFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
   {
-    let shapes = [...figure.shapes];
+    let shapes = figure.shapes.map(s => rg.draw(s));
 
     if(highlightFigure)
     {
@@ -218,7 +218,7 @@ function makeGround(rg, svg)
               {
                 s.options["stroke"] = colors.sentence;
               }
-              shapes.push(s);
+              shapes.push(rg.draw(s));
             });
         });
 
@@ -228,15 +228,10 @@ function makeGround(rg, svg)
           {
             s.options["stroke"] = colors.bright;
             s.options["strokeWidth"] += 1;
-            shapes.push(s);
+            shapes.push(rg.draw(s));
           });
       }
     }
-
-    shapes.forEach(s =>
-    {
-      svg.appendChild(rg.draw(s));
-    });
 
     let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
     let highlightName = highlight.length && highlight[0];
@@ -265,7 +260,7 @@ function makeGround(rg, svg)
       }
       el.setAttribute('fill', fillColor);
       el.textContent = i;
-      svg.appendChild(el);
+
 
       if(figure.letteroffsets[i])
       {
@@ -328,7 +323,10 @@ function makeGround(rg, svg)
       let pos = vec2.add(figure.points[i], offset);
       el.setAttribute('x', pos[0]);
       el.setAttribute('y', pos[1]);
+      shapes.push(el);
     }
+
+    return shapes;
   }
 
   function draw(o, p)
@@ -469,13 +467,15 @@ function makeGround(rg, svg)
 
     if(!p.figures)
     {
-      drawFigure(p, highlight, nearHighlights, true, false)
+      let els = prepareFigure(p, highlight, nearHighlights, true, false);
+      els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        drawFigure(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        let els = prepareFigure(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        els.map(el => svg.appendChild(el));
       }
     }
 
