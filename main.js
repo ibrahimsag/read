@@ -103,14 +103,15 @@ function makeRG (svgEl)
     return line(a, b);
   }
 
-  function makeHighlight(p, name, typ, arg1) {
+  function makeHighlight(p, layer, name, typ, arg1) {
+    let shapes;
     if(typ === 'point')
     {
-      return [circle(p.points[name], 5, { strokeWidth: 2 })];
+      shapes = [circle(p.points[name], 5, { strokeWidth: 2 })];
     }
     else if(typ == 'line')
     {
-      return [line(p.points[name[0]], p.points[name[name.length-1]])];
+      shapes = [line(p.points[name[0]], p.points[name[name.length-1]])];
     }
     else if(typ == 'arcc')
     {
@@ -118,7 +119,7 @@ function makeRG (svgEl)
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
-        return [arc(center, p.points[name[name.length-1]], p.points[name[0]])];
+        shapes = [arc(center, p.points[name[name.length-1]], p.points[name[0]])];
       }
       else
       {
@@ -131,7 +132,7 @@ function makeRG (svgEl)
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
-        return [arc(center, p.points[name[0]], p.points[name[name.length-1]])];
+        shapes = [arc(center, p.points[name[0]], p.points[name[name.length-1]])];
       }
       else
       {
@@ -145,7 +146,7 @@ function makeRG (svgEl)
       {
         let center = p.points[c];
         let a = p.points[name[0]];
-        return [circle(center, 2 * vec2.dist(center, a))];
+        shapes = [circle(center, 2 * vec2.dist(center, a))];
       }
       else
       {
@@ -155,12 +156,12 @@ function makeRG (svgEl)
     else if(typ == 'polygon')
     {
       let points = name.split('').map(l => p.points[l]);
-      return [polygon(points)];
+      shapes = [polygon(points)];
     }
     else if(typ == 'angle')
     {
       let [a, o, b] = name.split('').map(l => p.points[l]);
-      return angle(a, o, b);
+      shapes = angle(a, o, b);
     }
     else if(typ == 'magnitude')
     {
@@ -183,18 +184,41 @@ function makeRG (svgEl)
       if(i_begin > i_end)
         [i_begin, i_end] = [i_end, i_begin]
 
-      let shapes = p.ticks.slice(i_begin, i_end+1).map(tick);
+      shapes = p.ticks.slice(i_begin, i_end+1).map(tick);
       shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
-
-      return shapes;
     }
     else if(typ == 'given' && p.given && p.given[name])
     {
-      return p.given[name]();
+      shapes = p.given[name]();
     }
     else
     {
       console.error('Unknown highlight: ', typ, name);
+    }
+
+    if(layer === 'sentence')
+    {
+      return shapes.map(s =>
+        {
+          if(!(typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
+          {
+            s.options["stroke"] = colors.sentence;
+          }
+          else
+          {
+            s.options["stroke"] = colors.dim;
+          }
+          return s;
+        });
+    }
+    else if(layer === 'bright')
+    {
+      return shapes.map(s =>
+        {
+          s.options["stroke"] = colors.bright;
+          s.options["strokeWidth"] += 1;
+          return s;
+        });
     }
   }
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
@@ -206,30 +230,18 @@ function makeGround(rg, svg)
 
   function prepareFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
   {
-    let shapes = figure.shapes.map(s => rg.draw(s));
+    let shapes = figure.shapes.map(rg.draw);
 
     if(highlightFigure)
     {
       nearHighlights.forEach(h =>
         {
-          rg.makeHighlight(figure, ...h).forEach(s =>
-            {
-              if(!(h[1] === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
-              {
-                s.options["stroke"] = colors.sentence;
-              }
-              shapes.push(rg.draw(s));
-            });
+          shapes.push(...rg.makeHighlight(figure, 'sentence', ...h).map(rg.draw));
         });
 
       if(highlight.length)
       {
-        rg.makeHighlight(figure, ...highlight).forEach(s =>
-          {
-            s.options["stroke"] = colors.bright;
-            s.options["strokeWidth"] += 1;
-            shapes.push(rg.draw(s));
-          });
+        shapes.push(...rg.makeHighlight(figure, 'bright', ...highlight).map(rg.draw));
       }
     }
 
