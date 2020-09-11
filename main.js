@@ -579,46 +579,23 @@ let processProp = (i_book) => (f, ind) => {
     }
   }
 
-  function letterAllPoints(f)
-  {
-    for(var i in f.points)
+  function processFigure(figure) {
+    if(!figure.points) figure.points = {};
+    if(!figure.shapes) figure.shapes = [];
+    if(!figure.letters) figure.letters = {};
+    if(figure.mags)
     {
-      let pt = f.points[i];
-      f.letters[i] = [0];
-      f.shapes.push(rg.circle(pt, 5, { strokeWidth: 2 }));
+      processMags(figure);
     }
   }
+
   if(p.figures)
   {
-    for(var i = 0; i<p.figures.length; i++)
-    {
-      let figure = p.figures[i];
-      if(!figure.points) figure.points = {};
-      if(!figure.shapes) figure.shapes = [];
-      if(!figure.letters) figure.letters = {};
-      if(figure.shapes.length == 0)
-      {
-        letterAllPoints(p.figures[i]);
-      }
-      if(figure.mags)
-      {
-        processMags(figure);
-      }
-    }
+    p.figures.forEach(processFigure);
   }
   else
   {
-    if(!p.points) p.points = {};
-    if(!p.shapes) p.shapes = [];
-    if(!p.letters) p.letters = {};
-    if(p.shapes.length == 0)
-    {
-      letterAllPoints(p);
-    }
-    if(p.mags)
-    {
-      processMags(p);
-    }
+    processFigure(p);
   }
   return p;
 }
