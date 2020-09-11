@@ -319,8 +319,10 @@ function makeGround(rg, svg)
         // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
         let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
 
-        let m = el.getBBox();
-        offset = [dir[0] * m.width, dir[1] * (m.height - 5)];
+        let m = {width: 14.45, height: 23};
+        if(shouldBeSmall)
+          m = {width: 9.64, height: 14};
+        offset = [dir[0] * m.width, dir[1] * m.height];
         figure.letteroffsets[i] = offset;
       }
       else
