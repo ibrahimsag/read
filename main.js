@@ -235,12 +235,7 @@ function makeGround(rg, svg)
 {
   let proxy = {};
 
-  function processProse(t)
-  {
-    return t.split('\n\n').map(p => p.split('\n'));
-  }
-
-  function processMags(p)
+  function prepareMags(p)
   {
     let mags = p.mags;
     let last_pos = [0, 0];
@@ -299,6 +294,62 @@ function makeGround(rg, svg)
     return p;
   }
 
+  function prepareLetterOffsets(figure, smallLetters)
+  {
+    figure.letterOffsets = {};
+    for(var i in figure.letters)
+    {
+      let letter = figure.letters[i];
+      let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
+
+      let proj = (s, l) => {
+        switch(s)
+        {
+          case 0:
+            return [0.1 * l, -0.1 * l];
+            break;
+          case 1:
+            return [-0.5, -0.2 * l];
+            break;
+          case 2:
+            return [-1 - 0.2*l, -0.2 * l];
+            break;
+          case 3:
+            return [-1 - 0.2*l, 0.5];
+            break;
+          case 4:
+            return [-1, 1];
+            break;
+          case 5:
+            return [-0.5, 1 + 0.1*l];
+            break;
+          case 6:
+            return [0.3*l, 0.9 + 0.1*l];
+            break;
+          case 7:
+            return [0.2*l, 0.5];
+            break;
+          default:
+            return [0.1*l, -0.1*l];
+            break;
+        }
+      }
+      let inj = (s) => (s+8)%8;
+      let s = inj(letter[0]);
+      let l = (letter[1] || 1) + (shouldBeSmall ? 1 : 0);
+      let s1 = Math.floor(s), s2 = Math.ceil(s);
+      let r = s - s1;
+      let p1 = proj(s1, l), p2 = proj(s2, l);
+      // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
+      let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
+
+      let m = {width: 14.45, height: 23};
+      if(shouldBeSmall)
+        m = {width: 9.64, height: 14};
+      figure.letterOffsets[i] = [dir[0] * m.width, dir[1] * m.height];
+    }
+  }
+
   function prepareFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
   {
     if(!figure.points) figure.points = {};
@@ -306,8 +357,13 @@ function makeGround(rg, svg)
     if(!figure.letters) figure.letters = {};
     if(figure.mags && !figure.magsProcessed)
     {
-      processMags(figure);
+      prepareMags(figure);
       figure.magsProcessed = true;
+    }
+
+    if(!figure.letterOffsets)
+    {
+      prepareLetterOffsets(figure, smallLetters);
     }
 
     let shapes = figure.shapes.map(rg.draw);
@@ -328,19 +384,13 @@ function makeGround(rg, svg)
     let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
     let highlightName = highlight.length && highlight[0];
 
-    if(!figure.letteroffsets) figure.letteroffsets = {};
-
     for(var i in figure.letters)
     {
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
-      let offset;
       var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       el.setAttribute('font-family', 'Nale');
-      if(shouldBeSmall)
-        el.setAttribute('font-size', '16px');
-      else
-        el.setAttribute('font-size', '24px');
+      el.setAttribute('font-size', shouldBeSmall ? '16px' : '24px');
       let fillColor = colors.dim;
       if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
       {
@@ -353,66 +403,7 @@ function makeGround(rg, svg)
       el.setAttribute('fill', fillColor);
       el.textContent = i;
 
-
-      if(figure.letteroffsets[i])
-      {
-        offset = figure.letteroffsets[i];
-      }
-      else if(letter[0] < 8)
-      {
-        let proj = (s, l) => {
-          switch(s)
-          {
-            case 0:
-              return [0.1 * l, -0.1 * l];
-              break;
-            case 1:
-              return [-0.5, -0.2 * l];
-              break;
-            case 2:
-              return [-1 - 0.2*l, -0.2 * l];
-              break;
-            case 3:
-              return [-1 - 0.2*l, 0.5];
-              break;
-            case 4:
-              return [-1, 1];
-              break;
-            case 5:
-              return [-0.5, 1 + 0.1*l];
-              break;
-            case 6:
-              return [0.3*l, 0.9 + 0.1*l];
-              break;
-            case 7:
-              return [0.2*l, 0.5];
-              break;
-            default:
-              return [0.1*l, -0.1*l];
-              break;
-          }
-        }
-        let inj = (s) => (s+8)%8;
-        let s = inj(letter[0]);
-        let l = (letter[1] || 1) + (shouldBeSmall ? 1 : 0);
-        let s1 = Math.floor(s), s2 = Math.ceil(s);
-        let r = s - s1;
-        let p1 = proj(s1, l), p2 = proj(s2, l);
-        // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
-        let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
-
-        let m = {width: 14.45, height: 23};
-        if(shouldBeSmall)
-          m = {width: 9.64, height: 14};
-        offset = [dir[0] * m.width, dir[1] * m.height];
-        figure.letteroffsets[i] = offset;
-      }
-      else
-      {
-        offset = [letter[1], letter[2]];
-      }
-
-      let pos = vec2.add(figure.points[i], offset);
+      let pos = vec2.add(figure.points[i], figure.letterOffsets[i]);
       el.setAttribute('x', pos[0]);
       el.setAttribute('y', pos[1]);
       shapes.push(el);
@@ -443,12 +434,12 @@ function makeGround(rg, svg)
     }
 
     let refCount = 0;
-    processProse(p.prose).forEach(paragraphProse =>
+    p.prose.split('\n\n').forEach(paragraphProse =>
     {
       let paragraphEl = document.createElement('p');
       let content = '';
       let isFocusParagraph = false;
-      paragraphProse.forEach(sentenceProse =>
+      paragraphProse.split('\n').forEach(sentenceProse =>
       {
         let isFocusSentence = false;;
         let sentenceMarks = [];
