@@ -11,7 +11,7 @@ export default [{
   ],
   output: {
     file: 'build/main.js',
-    format: 'cjs',
+    format: 'iife',
     sourcemap: true,
   }
 },
@@ -27,7 +27,7 @@ export default [{
   ],
   output: {
     file: 'build/books.js',
-    format: 'cjs',
+    format: 'iife',
     sourcemap: true,
   }
 },

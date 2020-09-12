@@ -22,3 +22,5 @@ let books = {
   descs,
   8: book8(rg).map(f => f()).map(haveClips(8)),
 };
+
+window.books = books;

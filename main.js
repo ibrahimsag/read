@@ -716,7 +716,7 @@ document.onclick = (e) => {
 }
 
 const svg = document.getElementById('figure');
-const rg = makeRG(svg);
+window.rg = makeRG(svg);
 
 let ground = makeGround(rg, svg);
 
