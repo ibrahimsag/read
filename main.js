@@ -639,14 +639,40 @@ function presentProp(i_book, i_prop) {
 
     document.onkeydown = keyHandler;
 
+    document.querySelector('#move-on').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      ground.proxy.moveon();
+    }
+
     document.querySelector('#move-on').onmousedown = (e) =>
     {
       ground.proxy.moveon();
     }
 
+    document.querySelector('#move-back').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      ground.proxy.moveback();
+    }
+
     document.querySelector('#move-back').onmousedown = (e) =>
     {
       ground.proxy.moveback();
+    }
+
+    document.querySelector('#prev-prop').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      i_p = (i_p-1+ps.length) % ps.length;
+      openProposition(i_book, i_p);
+    }
+
+    document.querySelector('#next-prop').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      i_p = (i_p+1) % ps.length;
+      openProposition(i_book, i_p);
     }
 
     document.querySelector('#prev-prop').onmousedown = (e) =>
