@@ -41,7 +41,7 @@ export default [{
     })
   ],
   output: {
-    file: 'build/preapre.js',
+    file: 'build/prepare.js',
     format: 'cjs',
     sourcemap: true,
   }
