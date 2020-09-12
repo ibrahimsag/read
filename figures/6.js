@@ -714,9 +714,9 @@ function()
       C: [-2.2, 20],
     },
     given: {
-      A: () => [rg.polygon([A, ...apts])],
-      B: () => [rg.polygon([B, ...bpts])],
-      C: () => [rg.polygon([C, ...cpts])],
+      A: [rg.polygon([A, ...apts])],
+      B: [rg.polygon([B, ...bpts])],
+      C: [rg.polygon([C, ...cpts])],
     }
   };
 },
@@ -881,7 +881,7 @@ function()
     prose: prop25,
     points: { A, B, C, D, E, F, G, H, K, L, M },
     given: {
-      D: () => [rg.polygon([D, ...ds])],
+      D: [rg.polygon([D, ...ds])],
     },
     shapes: [
       rg.polygon([G, H, K]),
@@ -930,7 +930,7 @@ function()
     prose: prop26,
     points: { A, B, C, D, E, F, G, H, K },
     given: {
-      AHC: () => [rg.line(A, H), rg.line(H, C)],
+      AHC: [rg.line(A, H), rg.line(H, C)],
     },
     shapes: [
       rg.polygon([A, B, C, D]),
@@ -988,7 +988,7 @@ function()
       rg.gnomon(F, N, L)
     ],
     given: {
-      LMN: () => [rg.gnomon(F, N, L)],
+      LMN: [rg.gnomon(F, N, L)],
     },
     smallletters: 'LMNF',
     letters: {
@@ -1056,9 +1056,9 @@ function()
       rg.gnomon(Q, U, V)
     ],
     given: {
-      C: () => [rg.polygon([C, ...cpts])],
-      D: () => [rg.polygon([D, ...dpts])],
-      VWU: () => [rg.gnomon(Q, U, V)],
+      C: [rg.polygon([C, ...cpts])],
+      D: [rg.polygon([D, ...dpts])],
+      VWU: [rg.gnomon(Q, U, V)],
     },
     smallletters: 'UVWQ',
     letters: {
@@ -1121,9 +1121,9 @@ function()
     prose: prop29,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, S, U, V, W, X },
     given: {
-      C: () => [rg.polygon([C, ...cpts])],
-      D: () => [rg.polygon([D, ...dpts])],
-      VWX: () => [rg.gnomon(B, V, X)]
+      C: [rg.polygon([C, ...cpts])],
+      D: [rg.polygon([D, ...dpts])],
+      VWX: [rg.gnomon(B, V, X)]
     },
     shapes: [
       rg.polygon([D, ...dpts]),

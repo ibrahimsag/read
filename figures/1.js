@@ -163,7 +163,7 @@ function()
       F: [6]
     },
     given: {
-      C: () => [rg.line(C, Ce)]
+      C: [rg.line(C, Ce)]
     }
   };
 },
@@ -756,9 +756,9 @@ function()
       L: [-2],
     },
     given: {
-      A: () => [rg.line(A, Ae)],
-      B: () => [rg.line(B, Be)],
-      C: () => [rg.line(C, Ce)]
+      A: [rg.line(A, Ae)],
+      B: [rg.line(B, Be)],
+      C: [rg.line(C, Ce)]
     }
   }
 },
@@ -1402,7 +1402,7 @@ function()
       G: [1],
     },
     given: {
-      D: () => rg.angle(Da, D, Db)
+      D: rg.angle(Da, D, Db)
     }
   }
 },
@@ -1495,8 +1495,8 @@ function()
       M: [-1],
     },
     given: {
-      C: () => [rg.polygon([Ca, Cb, C])],
-      D: () => rg.angle(Da, D, Db)
+      C: [rg.polygon([Ca, Cb, C])],
+      D: rg.angle(Da, D, Db)
     }
   }
 },
@@ -1549,7 +1549,7 @@ function()
       M: [5],
     },
     given: {
-      E: () => rg.angle(Ea, E, Eb)
+      E: rg.angle(Ea, E, Eb)
     }
   }
 },

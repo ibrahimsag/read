@@ -189,7 +189,13 @@ function makeRG (svgEl)
     }
     else if(typ == 'given' && p.given && p.given[name])
     {
-      shapes = p.given[name]();
+      shapes = p.given[name].map(s =>
+        {
+          let r = Object.assign({}, s);
+          r.options = {};
+          Object.assign(r.options, s.options);
+          return r;
+        });
     }
     else
     {

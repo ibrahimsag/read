@@ -51,7 +51,7 @@ function()
     prose: prop1,
     points: { A, B, C, D, E, F, G, H, K, L },
     given: {
-      A: () => [rg.line(A, Ae)],
+      A: [rg.line(A, Ae)],
     },
     shapes: [
       rg.line(A, Ae),
@@ -234,7 +234,7 @@ function()
       P: [3]
     },
     given: {
-      NOP: () => [rg.gnomon(H, N, P)],
+      NOP: [rg.gnomon(H, N, P)],
     }
   }
 },
@@ -296,7 +296,7 @@ function()
       P: [3]
     },
     given: {
-      NOP: () => [rg.gnomon(H, N, P)],
+      NOP: [rg.gnomon(H, N, P)],
     }
   }
 },
@@ -349,7 +349,7 @@ function()
       N: [5]
     },
     given: {
-      KLM: () => [rg.gnomon(G, K, M)],
+      KLM: [rg.gnomon(G, K, M)],
     }
   }
 },
@@ -423,7 +423,7 @@ function()
       U: [3],
     },
     given: {
-      STU: () => [rg.gnomon(cent, S, U)],
+      STU: [rg.gnomon(cent, S, U)],
     }
   }
 },
@@ -638,8 +638,8 @@ function()
       rg.arc(G, B, F)
     ],
     given: {
-      A: () => [rg.polygon([Aa, Ab, Ac, A])],
-      BHF: () => [rg.arc(G, B, F)],
+      A: [rg.polygon([Aa, Ab, Ac, A])],
+      BHF: [rg.arc(G, B, F)],
     },
     letters: {
       A: [-0.5, 10],

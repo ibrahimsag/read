@@ -120,11 +120,11 @@ function()
       rg.arc(cent, B, A),
     ],
     given: {
-      AEB: () => [rg.arc(cent, B, A)],
-      AED: () => [rg.line(A, D), rg.arc(cent, E, A), rg.line(E, D)],
-      DAE: () => [rg.line(A, D), rg.arc(cent, E, A), rg.anglecurve(D, A, te)],
-      DEB: () => [rg.line(E, D), rg.arc(cent, B, E), rg.anglecurve(D, E, tb)],
-      DBE: () => [rg.line(B, D), rg.arc(cent, B, E), rg.anglecurve(D, B, te2)],
+      AEB: [rg.arc(cent, B, A)],
+      AED: [rg.line(A, D), rg.arc(cent, E, A), rg.line(E, D)],
+      DAE: [rg.line(A, D), rg.arc(cent, E, A), rg.anglecurve(D, A, te)],
+      DEB: [rg.line(E, D), rg.arc(cent, B, E), rg.anglecurve(D, E, tb)],
+      DBE: [rg.line(B, D), rg.arc(cent, B, E), rg.anglecurve(D, B, te2)],
     },
     letters: {
       A: [3],
@@ -473,7 +473,7 @@ function()
       rg.line(M, E),
     ],
     given: {
-      DEF: () => [rg.curve(ells)],
+      DEF: [rg.curve(ells)],
     },
     letters: {
       A: [1],
@@ -605,7 +605,7 @@ function()
     prose: prop13,
     points: { A, B, C, D, E, F, G, H, K, O, P },
     given: {
-      EBFD: () => [rg.curve(ells)],
+      EBFD: [rg.curve(ells)],
     },
     shapes: [
       rg.circle(O, 2 * r1),
@@ -1035,7 +1035,7 @@ function()
     prose: prop24,
     points: { A, B, C, D, E, F, G, K, L },
     given: {
-      CGD: () => [rg.curve(ps)],
+      CGD: [rg.curve(ps)],
     },
     shapes: [
       rg.arc(K, A, B),
@@ -1441,7 +1441,7 @@ function()
         return{
           points: { A, B, C, D, E, F, G },
           given: {
-            C: () => rg.angle(Ca, C, Cb),
+            C: rg.angle(Ca, C, Cb),
           },
           shapes: [
             rg.circle(G, 2*r),
@@ -1485,7 +1485,7 @@ function()
         return{
           points: { A, B, C, D, E, F },
           given: {
-            C: () => rg.angle(Ca, C, Cb),
+            C: rg.angle(Ca, C, Cb),
           },
           shapes: [
             rg.circle(F, 2*r),
@@ -1530,7 +1530,7 @@ function()
         return{
           points: { A, B, C, D, E, F, G, H },
           given: {
-            C: () => rg.angle(Ca, C, Cb),
+            C: rg.angle(Ca, C, Cb),
           },
           shapes: [
             rg.circle(G, 2*r),
@@ -1584,7 +1584,7 @@ function()
     prose: prop34,
     points: { A, B, C, D, E, F, T },
     given: {
-      D: () => rg.angle(Da, D, Db)
+      D: rg.angle(Da, D, Db)
     },
     shapes: [
       rg.circle(T, 2*r),

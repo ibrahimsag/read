@@ -52,7 +52,7 @@ function()
     prose: prop1,
     points: { A, B, C, D, E, F, G },
     given: {
-      D: () => [rg.line(Da, Db)],
+      D: [rg.line(Da, Db)],
     },
     shapes: [
       rg.circle(G, 2*r),
