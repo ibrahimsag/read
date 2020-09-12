@@ -720,7 +720,7 @@ window.rg = makeRG(svg);
 
 let ground = makeGround(rg, svg);
 
-let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.dim, "; } #prose .sentence.bright .ref { color:", colors.sentence, "; ; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; }"].join('');
+let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.dim, "; } #prose .sentence.bright .ref { color:", colors.sentence, "; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; } #coverPage #help-title { color:", colors.make([320, 100, 40]), "; } "].join('');
 
 window.onload = () => {
   let styleEl = document.createElement('style');
