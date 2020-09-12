@@ -8,13 +8,25 @@ export default [{
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
+  ],
+  output: {
+    file: 'build/main.js',
+    format: 'cjs',
+    sourcemap: true,
+  }
+},
+{
+  input: 'books.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
     string({
       include: 'prose/**/*'
     }),
     json()
   ],
   output: {
-    file: 'build/bundle.js',
+    file: 'build/books.js',
     format: 'cjs',
     sourcemap: true,
   }

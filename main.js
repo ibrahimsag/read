@@ -11,13 +11,6 @@ let colors = {
   make: hsluv.hpluvToHex,
 };
 
-let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.dim, "; } #prose .sentence.bright .ref { color:", colors.sentence, "; ; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; }"].join('');
-let styleEl = document.createElement('style');
-styleEl.innerText = styleText;
-window.onload = () => {
-  document.querySelector('head').appendChild(styleEl);
-}
-
 function makeRG (svgEl)
 {
   const rsvg = rough.svg(svgEl);
@@ -414,7 +407,6 @@ function makeGround(rg, svg)
 
   function present(o, p)
   {
-
     let nearHighlights = [];
     let highlight = [];
     let figureIndex = 0;
@@ -578,9 +570,6 @@ function makeGround(rg, svg)
   return {present, proxy};
 }
 
-const svg = document.getElementById('figure');
-const rg = makeRG(svg);
-
 function unfoldGraphics(p) {
   let callrg = a => rg[a[0]](...a.slice(1));
   if(p.shapes)
@@ -599,32 +588,6 @@ function unfoldGraphics(p) {
 
   return p;
 }
-
-let haveClips = (i_book) => (p, ind) => {
-  if(ind > 0)
-      p.img = 'img/' + (i_book) + '/' + ind + '.png';
-  return p;
-}
-
-let descs = [
-  "Fundamentals of Plane Geometry Involving Straight-Lines",
-  "Fundamentals of Geometric Algebra",
-  "Fundamentals of Plane Geometry Involving Circles",
-  "Construction of Rectilinear Figures In and Around Circles",
-  "Proportion",
-  "Similar Figures",
-  "Elementary Number Theory",
-  "Continued Proportion",
-  "Applications of Number Theory"
-];
-
-import book8 from './figures/8.js';
-
-let books = {
-  8: book8(rg).map(f => f()).map(haveClips(8)),
-};
-
-let ground = makeGround(rg, svg);
 
 function presentProp(i_book, i_prop) {
   let ps = books[i_book];
@@ -647,7 +610,7 @@ function presentProp(i_book, i_prop) {
     document.querySelector('#container').style['display'] = 'flex';
 
     let el = document.querySelector('#bookTitle');
-    el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
+    el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
     let i_p = Math.min(ps.length-1, i_prop);
     ground.present(0, ps[i_p]);
@@ -717,16 +680,6 @@ function openCover()
   presentCover();
 }
 
-if(history.state && history.state.page === 'prop')
-{
-  let is = history.state;
-  presentProp(is.i_book, is.i_prop);
-}
-else
-{
-  presentCover();
-}
-
 window.onpopstate = (e) => {
   if(!e.state || !e.state.page || e.state.page === 'cover')
   {
@@ -759,5 +712,28 @@ document.onclick = (e) => {
         openProposition(i_book, i_prop)
       }
     }
+  }
+}
+
+const svg = document.getElementById('figure');
+const rg = makeRG(svg);
+
+let ground = makeGround(rg, svg);
+
+let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence .ref { color:", colors.dim, "; } #prose .sentence.bright .ref { color:", colors.sentence, "; ; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; }"].join('');
+
+window.onload = () => {
+  let styleEl = document.createElement('style');
+  styleEl.innerText = styleText;
+  document.querySelector('head').appendChild(styleEl);
+
+  if(history.state && history.state.page === 'prop')
+  {
+    let is = history.state;
+    presentProp(is.i_book, is.i_prop);
+  }
+  else
+  {
+    presentCover();
   }
 }
