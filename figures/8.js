@@ -34,12 +34,14 @@ function book8(rg)
   return [
 function() {
   return {
+    title: 'Definitions',
     prose: prop0,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 1',
     prose: prop1,
     mags: [
       { l: 'A', m: 140, p: [50, 50] },
@@ -56,6 +58,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 2',
     prose: prop2,
     mags: [
       { l: 'A', m: 70, p: [50, 50] },
@@ -73,6 +76,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 3',
     prose: prop3,
     mags: [
       { l: 'A', m: 90, p: [50, 50] },
@@ -94,6 +98,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 4',
     prose: prop4,
     mags: [
       { l: 'A', m: 90, p: [50, 50] },
@@ -116,6 +121,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 5',
     prose: prop5,
     mags: [
       { l: 'A', m: 300, p: [50, 50] },
@@ -134,6 +140,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 6',
     prose: prop6,
     mags: [
       { l: 'A', m: 130, p: [50, 50] },
@@ -150,6 +157,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 7',
     prose: prop7,
     mags: [
       { l: 'A', m: 130, p: [50, 50] },
@@ -162,6 +170,7 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 8',
     prose: prop8,
     mags: [
       { l: 'A', m: 80, p: [50, 50] },
@@ -182,114 +191,133 @@ function() {
 
 function() {
   return {
+    title: 'Proposition 9',
     prose: prop9,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 10',
     prose: prop10,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 11',
     prose: prop11,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 12',
     prose: prop12,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 13',
     prose: prop13,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 14',
     prose: prop14,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 15',
     prose: prop15,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 16',
     prose: prop16,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 17',
     prose: prop17,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 18',
     prose: prop18,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 19',
     prose: prop19,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 20',
     prose: prop20,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 21',
     prose: prop21,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 22',
     prose: prop22,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 23',
     prose: prop23,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 24',
     prose: prop24,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 25',
     prose: prop25,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 26',
     prose: prop26,
   };
 },
 
 function() {
   return {
+    title: 'Proposition 27',
     prose: prop27,
   };
 },

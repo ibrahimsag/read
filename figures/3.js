@@ -45,6 +45,7 @@ function book3(rg)
 function()
 {
   return {
+    title: 'Definitions',
     prose: prop0,
     points: {},
     shapes: [],
@@ -66,6 +67,7 @@ function()
   const G = vec2.add(F, [50, 0]);
 
   return {
+    title: 'Proposition 1',
     prose: prop1,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -110,6 +112,7 @@ function()
   const te2 = vec2.add(B, be);
 
   return {
+    title: 'Proposition 2',
     prose: prop2,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -150,6 +153,7 @@ function()
   const F = vec2.add(E, vec2.scale(ed, Math.cos(theta)));
 
   return {
+    title: 'Proposition 3',
     prose: prop3,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -189,6 +193,7 @@ function()
   }).map(v => vec2.add(F, v));
 
   return {
+    title: 'Proposition 4',
     prose: prop4,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -226,6 +231,7 @@ function()
   const G = vec2.sub(K, vec2.scale(cc, r1));
 
   return {
+    title: 'Proposition 5',
     prose: prop5,
     points: { A, B, C, D, E, F, G, K, L },
     shapes: [
@@ -264,6 +270,7 @@ function()
   const E = vec2.add(F, vec2.scale(fb, r2/vec2.len(fb)));
 
   return {
+    title: 'Proposition 6',
     prose: prop6,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -298,6 +305,7 @@ function()
   const K = vec2.add(E, vec2.rot(ea, -Math.PI*3/5));
 
   return {
+    title: 'Proposition 7',
     prose: prop7,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
@@ -354,6 +362,7 @@ function()
   const N = vec2.add(M, vec2.rot(ma, Math.PI*9/8));
 
   return {
+    title: 'Proposition 8',
     prose: prop8,
     points: { A, B, C, D, E, F, G, H, K, L, M, N },
     shapes: [
@@ -410,6 +419,7 @@ function()
   const F = vec2.scale(vec2.add(B, C), 0.5);
 
   return {
+    title: 'Proposition 9',
     prose: prop9,
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
@@ -462,6 +472,7 @@ function()
   }
 
   return {
+    title: 'Proposition 10',
     prose: prop10,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P },
     shapes: [
@@ -513,6 +524,7 @@ function()
   const H = vec2.add(F, vec2.scale(fd, r1/vec2.len(fd)));
 
   return {
+    title: 'Proposition 11',
     prose: prop11,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
@@ -552,6 +564,7 @@ function()
   const G = vec2.add(D, vec2.scale(cd, r1/vec2.len(cd)));
 
   return {
+    title: 'Proposition 12',
     prose: prop12,
     points: { A, B, C, D, E, F, G, K, L },
     shapes: [
@@ -602,6 +615,7 @@ function()
   }
 
   return {
+    title: 'Proposition 13',
     prose: prop13,
     points: { A, B, C, D, E, F, G, H, K, O, P },
     given: {
@@ -650,6 +664,7 @@ function()
   const C = vec2.sub(G, gd);
 
   return {
+    title: 'Proposition 14',
     prose: prop14,
     points: { A, B, C, D, E, F, G},
     shapes: [
@@ -691,6 +706,7 @@ function()
   const [H, K, L] = [[B, C], [F, G], [M, N]].map(([a, b]) => vec2.scale(vec2.add(a, b), 0.5));
 
   return {
+    title: 'Proposition 15',
     prose: prop15,
     points: { A, B, C, D, E, F, G, H, K, L, M, N },
     shapes: [
@@ -736,6 +752,7 @@ function()
   const E = vec2.add(A, vec2.scale(vec2.rot(da, Math.PI/2), 1.5));
 
   return {
+    title: 'Proposition 16',
     prose: prop16,
     points: { A, B, C, D, E, F, G, H },
     shapes: [
@@ -777,6 +794,7 @@ function()
   const G = vec2.add(E, vec2.scale(uec, r));
 
   return {
+    title: 'Proposition 17',
     prose: prop17,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -814,6 +832,7 @@ function()
   const E = vec2.sub(C, cg);
 
   return {
+    title: 'Proposition 18',
     prose: prop18,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -848,6 +867,7 @@ function()
   const F = vec2.add(O, [30, 10]);
 
   return {
+    title: 'Proposition 19',
     prose: prop19,
     points: { A, B, C, D, E, F, O },
     shapes: [
@@ -881,6 +901,7 @@ function()
   const B = vec2.add(E, vec2.rot(ef, Math.PI/5));
 
   return {
+    title: 'Proposition 20',
     prose: prop20,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -918,6 +939,7 @@ function()
   const E = vec2.add(F, vec2.rot(ft, -Math.PI*0.55));
 
   return {
+    title: 'Proposition 21',
     prose: prop21,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -952,6 +974,7 @@ function()
   const D = vec2.add(E, vec2.rot(ft, Math.PI*0.2));
 
   return {
+    title: 'Proposition 22',
     prose: prop22,
     points: { A, B, C, D, E },
     shapes: [
@@ -990,6 +1013,7 @@ function()
   const C = vec2.add(E, vec2.rot(ea, theta));
 
   return {
+    title: 'Proposition 23',
     prose: prop23,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -1032,6 +1056,7 @@ function()
   }
 
   return {
+    title: 'Proposition 24',
     prose: prop24,
     points: { A, B, C, D, E, F, G, K, L },
     given: {
@@ -1069,6 +1094,7 @@ function()
   }
 
   return {
+    title: 'Proposition 25',
     prose: prop25,
     figures: [
       (function()
@@ -1164,6 +1190,7 @@ function()
   const L = vec2.add(H, w);
 
   return {
+    title: 'Proposition 26',
     prose: prop26,
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
@@ -1208,6 +1235,7 @@ function()
   const F = vec2.add(H, vec2.rot(w, -Math.PI*0.35));
 
   return {
+    title: 'Proposition 27',
     prose: prop27,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
@@ -1255,6 +1283,7 @@ function()
   const H = vec2.add(L, w);
 
   return {
+    title: 'Proposition 28',
     prose: prop28,
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
@@ -1296,6 +1325,7 @@ function()
   const H = vec2.add(L, w);
 
   return {
+    title: 'Proposition 29',
     prose: prop29,
     points: { A, B, C, D, E, F, G, H, K, L },
     shapes: [
@@ -1330,6 +1360,7 @@ function()
   const B = vec2.add(C, vec2.rot(w, Math.PI/2));
 
   return {
+    title: 'Proposition 30',
     prose: prop30,
     points: { A, B, C, D },
     shapes: [
@@ -1359,6 +1390,7 @@ function()
   const F = vec2.add(B, vec2.scale(vec2.sub(A, B), 1.8));
 
   return {
+    title: 'Proposition 31',
     prose: prop31,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -1394,6 +1426,7 @@ function()
   const F = vec2.sub(B, be);
 
   return {
+    title: 'Proposition 32',
     prose: prop32,
     points: { A, B, C, D, E, F, T },
     shapes: [
@@ -1418,6 +1451,7 @@ function()
   const r = 70;
 
   return {
+    title: 'Proposition 33',
     prose: prop33,
     figures: [
       (function()
@@ -1581,6 +1615,7 @@ function()
   const E = vec2.sub(B, bf);
 
   return {
+    title: 'Proposition 34',
     prose: prop34,
     points: { A, B, C, D, E, F, T },
     given: {
@@ -1608,6 +1643,7 @@ function()
 {
   const r = 100;
   return {
+    title: 'Proposition 35',
     prose: prop35,
     figures: [
     (function()
@@ -1686,6 +1722,7 @@ function()
 {
   const r = 100;
   return {
+    title: 'Proposition 36',
     prose: prop36,
     figures: [
     (function()
@@ -1776,6 +1813,7 @@ function()
   const C = vec2.add(D, vec2.scale(uda, t*t/len_da));
 
   return {
+    title: 'Proposition 37',
     prose: prop37,
     points: { A, B, C, D, E, F },
     shapes: [

@@ -582,17 +582,9 @@ function processMags(p)
 }
 
 let processProp = (i_book) => (p, ind) => {
-  if(ind === 0)
+  if(ind !== 0 && i_book == 8)
   {
-    p.title = 'Definitions';
-  }
-  else
-  {
-    p.title = 'Proposition ' + (ind);
-    if(i_book == 8)
-    {
       p.img = 'img/' + (i_book) + '/' + ind + '.png';
-    }
   }
 
   function processFigure(figure) {

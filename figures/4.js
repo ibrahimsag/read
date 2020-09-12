@@ -24,6 +24,7 @@ function book4(rg)
 function()
 {
   return {
+    title: 'Definitions',
     prose: prop0,
     points: {},
     shapes: [],
@@ -49,6 +50,7 @@ function()
   const F = vec2.add(C, vec2.rot(v, -alpha));
 
   return {
+    title: 'Proposition 1',
     prose: prop1,
     points: { A, B, C, D, E, F, G },
     given: {
@@ -92,6 +94,7 @@ function()
   const H = vec2.add(A, vec2.scale(uag, -1.5*r));
 
   return {
+    title: 'Proposition 2',
     prose: prop2,
     points: { A, B, C, D, E, F, O, G, H },
     shapes: [
@@ -140,6 +143,7 @@ function()
   const H = vec2.sub(F, fe);
 
   return {
+    title: 'Proposition 3',
     prose: prop3,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, P },
     shapes: [
@@ -186,6 +190,7 @@ function()
   const [A, B, C] = ds.map(v => vec2.add(D, v));
 
   return {
+    title: 'Proposition 4',
     prose: prop4,
     points: { A, B, C, D, E, F, G },
     shapes: [
@@ -216,6 +221,7 @@ function()
   const O = [80, 120];
 
   return {
+    title: 'Proposition 5',
     prose: prop5,
     figures: [
       (function()
@@ -326,6 +332,7 @@ function()
   const D = vec2.add(E, vec2.rot(w, -Math.PI*1.5));
 
   return {
+    title: 'Proposition 6',
     prose: prop6,
     points: { A, B, C, D, E },
     shapes: [
@@ -359,6 +366,7 @@ function()
   const K = vec2.sub(D, w);
 
   return {
+    title: 'Proposition 7',
     prose: prop7,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
@@ -396,6 +404,7 @@ function()
   const D = vec2.add(K, w);
 
   return {
+    title: 'Proposition 8',
     prose: prop8,
     points: { A, B, C, D, E, F, G, H, K },
     shapes: [
@@ -429,6 +438,7 @@ function()
   const D = vec2.add(E, vec2.rot(w, -Math.PI*1.5));
 
   return {
+    title: 'Proposition 9',
     prose: prop9,
     points: { A, B, C, D, E },
     shapes: [
@@ -462,6 +472,7 @@ function()
   const O = vec2.add(A, vec2.scale(w, o));
 
   return {
+    title: 'Proposition 10',
     prose: prop10,
     points: { A, B, C, D, E, O },
     shapes: [
@@ -490,6 +501,7 @@ function()
   const [F, G, H] = [A, C, D].map(pt => vec2.add(pt, [250, 0]));
 
   return {
+    title: 'Proposition 11',
     prose: prop11,
     points: { A, B, C, D, E, F, G, H, O },
     shapes: [
@@ -524,6 +536,7 @@ function()
   const [G, H, K, L, M] = [0, 2, 4, 6, 8].map(f(r/Math.cos(Math.PI/5)));
 
   return {
+    title: 'Proposition 12',
     prose: prop12,
     points: { A, B, C, D, E, F, G, H, K, L, M },
     shapes: [
@@ -560,6 +573,7 @@ function()
   const [G, H, K, L, M] = [1, 3, 5, 7, 9].map(f(r*Math.cos(Math.PI/5)));
 
   return {
+    title: 'Proposition 13',
     prose: prop13,
     points: { A, B, C, D, E, F, G, H, K, L, M },
     shapes: [
@@ -591,6 +605,7 @@ function()
   const [A, B, C, D, E] = [0, 2, 4, 6, 8].map(f(r));
 
   return {
+    title: 'Proposition 14',
     prose: prop14,
     points: { A, B, C, D, E, F },
     shapes: [
@@ -619,6 +634,7 @@ function()
   const pts = [A, B, C, D, E, F];
 
   return {
+    title: 'Proposition 15',
     prose: prop15,
     points: { A, B, C, D, E, F, G, H },
     shapes: [
@@ -652,6 +668,7 @@ function()
   const D = pts[10];
 
   return {
+    title: 'Proposition 16',
     prose: prop16,
     points: { A, B, C, D, E, O },
     shapes: [
