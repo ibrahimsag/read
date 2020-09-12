@@ -412,7 +412,7 @@ function makeGround(rg, svg)
     return shapes;
   }
 
-  function draw(o, p)
+  function present(o, p)
   {
 
     let nearHighlights = [];
@@ -539,11 +539,11 @@ function makeGround(rg, svg)
 
     if(o < 0)
     {
-      return draw(refCount-2, p);
+      return present(refCount-2, p);
     }
     else if (o >= refCount-1 && refCount > 0)
     {
-      return draw(0, p);
+      return present(0, p);
     }
 
     svg.innerHTML = "";
@@ -562,20 +562,20 @@ function makeGround(rg, svg)
       }
     }
 
-    proxy.moveon = () => { draw(o + 1, p); };
-    proxy.moveback = () => { draw(o - 1, p); };
+    proxy.moveon = () => { present(o + 1, p); };
+    proxy.moveback = () => { present(o - 1, p); };
 
     proseEl.onclick = (e) =>
     {
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
-        draw(ref, p);
+        present(ref, p);
       }
     }
   }
 
-  return {draw, proxy};
+  return {present, proxy};
 }
 
 const svg = document.getElementById('figure');
@@ -650,7 +650,7 @@ function presentProp(i_book, i_prop) {
     el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
 
     let i_p = Math.min(ps.length-1, i_prop);
-    ground.draw(0, ps[i_p]);
+    ground.present(0, ps[i_p]);
 
     function keyHandler(e)
     {
