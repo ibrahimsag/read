@@ -620,13 +620,6 @@ let descs = [
   "Applications of Number Theory"
 ];
 
-import book1 from './build/1.json';
-import book2 from './build/2.json';
-import book3 from './build/3.json';
-import book4 from './build/4.json';
-import book5 from './build/5.json';
-import book6 from './build/6.json';
-import book7 from './build/7.json';
 import book8 from './figures/8.js';
 
 function processGraphics(p) {
@@ -646,75 +639,83 @@ function processGraphics(p) {
 }
 
 let books = {
-  1: book1.map(processGraphics),
-  2: book2.map(processGraphics),
-  3: book3.map(processGraphics),
-  4: book4.map(processGraphics),
-  5: book5.map(processGraphics),
-  6: book6.map(processGraphics),
-  7: book7.map(processGraphics),
   8: book8(rg).map(f => f()),
 };
 
 let ground = makeGround(rg, svg);
 
 function presentProp(i_book, i_prop) {
-  document.querySelector('#coverPage').style['display'] = 'none';
-  document.querySelector('#container').style['display'] = 'flex';
-
-  let el = document.querySelector('#bookTitle');
-  el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
-
   let ps = books[i_book];
-
-  let i_p = Math.min(ps.length-1, i_prop);
-  ground.draw(0, processProp(i_book)(ps[i_p], i_p));
-
-  function keyHandler(e)
+  let bookPromise;
+  if(ps)
   {
-    if(e.key == "j" || e.keyCode == 39)
+    bookPromise = Promise.resolve(ps);
+  }
+  else
+  {
+    bookPromise = fetch('build/'+i_book+'.json')
+      .then(response => response.json())
+      .then(book => book.map(processGraphics))
+      .then(book => { books[i_book] = book; return book; });
+  }
+
+  bookPromise.then(ps =>
+  {
+    document.querySelector('#coverPage').style['display'] = 'none';
+    document.querySelector('#container').style['display'] = 'flex';
+
+    let el = document.querySelector('#bookTitle');
+    el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
+
+    let i_p = Math.min(ps.length-1, i_prop);
+    ground.draw(0, processProp(i_book)(ps[i_p], i_p));
+
+    function keyHandler(e)
+    {
+      if(e.key == "j" || e.keyCode == 39)
+      {
+        ground.proxy.moveon();
+      }
+      else if(e.key == "k" || e.keyCode == 37)
+      {
+        ground.proxy.moveback();
+      }
+      else if(e.key == "b")
+      {
+        i_p = (i_p-1 + ps.length) % ps.length;
+        openProposition(i_book, i_p);
+      }
+      else if(e.key == "a")
+      {
+        i_p = (i_p+1) % ps.length;
+        openProposition(i_book, i_p);
+      }
+    }
+
+    document.onkeydown = keyHandler;
+
+    document.querySelector('#move-on').onmousedown = (e) =>
     {
       ground.proxy.moveon();
     }
-    else if(e.key == "k" || e.keyCode == 37)
+
+    document.querySelector('#move-back').onmousedown = (e) =>
     {
       ground.proxy.moveback();
     }
-    else if(e.key == "b")
+
+    document.querySelector('#prev-prop').onmousedown = (e) =>
     {
-      i_p = (i_p-1 + ps.length) % ps.length;
+      i_p = (i_p-1+ps.length) % ps.length;
       openProposition(i_book, i_p);
     }
-    else if(e.key == "a")
+
+    document.querySelector('#next-prop').onmousedown = (e) =>
     {
       i_p = (i_p+1) % ps.length;
       openProposition(i_book, i_p);
     }
-  }
-
-  document.onkeydown = keyHandler;
-
-  document.querySelector('#move-on').onmousedown = (e) =>
-  {
-    ground.proxy.moveon();
-  }
-
-  document.querySelector('#move-back').onmousedown = (e) =>
-  {
-    ground.proxy.moveback();
-  }
-
-  document.querySelector('#prev-prop').onmousedown = (e) =>
-  {
-    i_p = (i_p-1+ps.length) % ps.length;
-    openProposition(i_book, i_p);
-  }
-
-  document.querySelector('#next-prop').onmousedown = (e) =>
-  {
-    i_p = (i_p+1) % ps.length;
-    openProposition(i_book, i_p);
-  }
+  });
 }
 
 function presentCover() {
