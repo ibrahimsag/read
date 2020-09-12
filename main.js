@@ -621,12 +621,12 @@ let descs = [
 ];
 
 import book1 from './build/1.json';
-import book2 from './figures/2.js';
-import book3 from './figures/3.js';
-import book4 from './figures/4.js';
-import book5 from './figures/5.js';
-import book6 from './figures/6.js';
-import book7 from './figures/7.js';
+import book2 from './build/2.json';
+import book3 from './build/3.json';
+import book4 from './build/4.json';
+import book5 from './build/5.json';
+import book6 from './build/6.json';
+import book7 from './build/7.json';
 import book8 from './figures/8.js';
 
 function processGraphics(p) {
@@ -647,12 +647,12 @@ function processGraphics(p) {
 
 let books = {
   1: book1.map(processGraphics),
-  2: book2(rg).map(f => f()),
-  3: book3(rg).map(f => f()),
-  4: book4(rg).map(f => f()),
-  5: book5(rg).map(f => f()),
-  6: book6(rg).map(f => f()),
-  7: book7(rg).map(f => f()),
+  2: book2.map(processGraphics),
+  3: book3.map(processGraphics),
+  4: book4.map(processGraphics),
+  5: book5.map(processGraphics),
+  6: book6.map(processGraphics),
+  7: book7.map(processGraphics),
   8: book8(rg).map(f => f()),
 };
 
