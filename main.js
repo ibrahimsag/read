@@ -594,6 +594,9 @@ function unfoldGraphics(p) {
       p.given[k] = p.given[k].map(callrg);
     }
   }
+  if(p.figures)
+    p.figures.forEach(unfoldGraphics);
+
   return p;
 }
 
