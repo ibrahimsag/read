@@ -200,32 +200,33 @@ function makeRG (svgEl)
     else
     {
       console.error('Unknown highlight: ', typ, name);
+      return undefined;
     }
 
     if(layer === 'sentence')
     {
-      return shapes.map(s =>
+      shapes.forEach(s =>
         {
-          if(!(typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve')))
-          {
-            s.options["stroke"] = colors.sentence;
-          }
-          else
+          if(typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve'))
           {
             s.options["stroke"] = colors.dim;
           }
-          return s;
+          else
+          {
+            s.options["stroke"] = colors.sentence;
+          }
         });
     }
     else if(layer === 'bright')
     {
-      return shapes.map(s =>
+      shapes.forEach(s =>
         {
           s.options["stroke"] = colors.bright;
           s.options["strokeWidth"] += 1;
-          return s;
         });
     }
+
+    return shapes;
   }
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
@@ -369,7 +370,7 @@ function makeGround(rg, svg)
     }
 
     let refCount = 0;
-    p.prose.forEach(paragraphProse =>
+    processProse(p.prose).forEach(paragraphProse =>
     {
       let paragraphEl = document.createElement('p');
       let content = '';
@@ -580,10 +581,7 @@ function processMags(p)
   return p;
 }
 
-let processProp = (i_book) => (f, ind) => {
-  let p = f();
-  p.prose = processProse(p.prose);
-
+let processProp = (i_book) => (p, ind) => {
   if(ind === 0)
   {
     p.title = 'Definitions';
@@ -630,28 +628,40 @@ let descs = [
   "Applications of Number Theory"
 ];
 
-/*
-import book1 from './figures/1.js';
+import book1 from './build/1.json';
 import book2 from './figures/2.js';
 import book3 from './figures/3.js';
 import book4 from './figures/4.js';
 import book5 from './figures/5.js';
 import book6 from './figures/6.js';
-*/
 import book7 from './figures/7.js';
 import book8 from './figures/8.js';
 
+function processGraphics(p) {
+  let callrg = a => rg[a[0]](...a.slice(1));
+  if(p.shapes)
+  {
+    p.shapes = p.shapes.map(callrg);
+  }
+  if(p.given)
+  {
+    for(let k in p.given)
+    {
+      p.given[k] = p.given[k].map(callrg);
+    }
+  }
+  return p;
+}
+
 let books = {
-  /*
-  1: book1,
-  2: book2,
-  3: book3,
-  4: book4,
-  5: book5,
-  6: book6,
-  */
-  7: book7,
-  8: book8,
+  1: book1.map(processGraphics),
+  2: book2(rg).map(f => f()),
+  3: book3(rg).map(f => f()),
+  4: book4(rg).map(f => f()),
+  5: book5(rg).map(f => f()),
+  6: book6(rg).map(f => f()),
+  7: book7(rg).map(f => f()),
+  8: book8(rg).map(f => f()),
 };
 
 let ground = makeGround(rg, svg);
@@ -663,7 +673,7 @@ function presentProp(i_book, i_prop) {
   let el = document.querySelector('#bookTitle');
   el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
 
-  let ps = books[i_book](rg);
+  let ps = books[i_book];
 
   let i_p = Math.min(ps.length-1, i_prop);
   ground.draw(0, processProp(i_book)(ps[i_p], i_p));
