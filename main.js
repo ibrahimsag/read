@@ -235,8 +235,81 @@ function makeGround(rg, svg)
 {
   let proxy = {};
 
+  function processProse(t)
+  {
+    return t.split('\n\n').map(p => p.split('\n'));
+  }
+
+  function processMags(p)
+  {
+    let mags = p.mags;
+    let last_pos = [0, 0];
+    let pos = [0, 0];
+    p.ticks = [];
+    p.indices = {};
+
+    for(var i = 0; i < mags.length; i++)
+    {
+      let mag = mags[i];
+      if(mag.p)
+      {
+        pos = mag.p;
+        last_pos = pos;
+      }
+      else if(mag.v)
+      {
+        pos = vec2.add(last_pos, [0, mag.v]);
+        last_pos = pos;
+      }
+
+      if(mag.p || mag.v)
+      {
+        p.shapes.push(rg.tick(pos));
+        p.indices[mag.l] = p.ticks.length;
+        p.ticks.push(pos);
+        p.letters[mag.l] = [2.9, 2];
+      }
+      else if(mag.m)
+      {
+        p.letters[mag.l] = [1, 2];
+        p.indices[mag.l] = p.ticks.length - 1;
+      }
+      else
+      {
+        p.letters[mag.l] = [1, 2];
+        p.indices[mag.l] = p.ticks.length - 1;
+      }
+      p.points[mag.l] = pos;
+
+      if(mag.m)
+      {
+        let n = mag.n ? mag.n : 1;
+        for(var k = 0; k < n; k++)
+        {
+          let prev_pos = pos;
+          pos = vec2.add(prev_pos, [mag.m, 0]);
+          p.shapes.push(rg.tick(pos));
+          p.shapes.push(rg.line(prev_pos, pos));
+          p.ticks.push(pos);
+          p.indices[mag.l + 'e'] = p.ticks.length - 1;
+        }
+      }
+    }
+
+    return p;
+  }
+
   function prepareFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
   {
+    if(!figure.points) figure.points = {};
+    if(!figure.shapes) figure.shapes = [];
+    if(!figure.letters) figure.letters = {};
+    if(figure.mags && !figure.magsProcessed)
+    {
+      processMags(figure);
+      figure.magsProcessed = true;
+    }
+
     let shapes = figure.shapes.map(rg.draw);
 
     if(highlightFigure)
@@ -517,94 +590,25 @@ function makeGround(rg, svg)
 const svg = document.getElementById('figure');
 const rg = makeRG(svg);
 
-function processProse(t)
-{
-  return t.split('\n\n').map(p => p.split('\n'));
-}
-
-function processMags(p)
-{
-  let mags = p.mags;
-  let last_pos = [0, 0];
-  let pos = [0, 0];
-  p.ticks = [];
-  p.indices = {};
-
-  for(var i = 0; i < mags.length; i++)
+function unfoldGraphics(p) {
+  let callrg = a => rg[a[0]](...a.slice(1));
+  if(p.shapes)
   {
-    let mag = mags[i];
-    if(mag.p)
+    p.shapes = p.shapes.map(callrg);
+  }
+  if(p.given)
+  {
+    for(let k in p.given)
     {
-      pos = mag.p;
-      last_pos = pos;
-    }
-    else if(mag.v)
-    {
-      pos = vec2.add(last_pos, [0, mag.v]);
-      last_pos = pos;
-    }
-
-    if(mag.p || mag.v)
-    {
-      p.shapes.push(rg.tick(pos));
-      p.indices[mag.l] = p.ticks.length;
-      p.ticks.push(pos);
-      p.letters[mag.l] = [2.9, 2];
-    }
-    else if(mag.m)
-    {
-      p.letters[mag.l] = [1, 2];
-      p.indices[mag.l] = p.ticks.length - 1;
-    }
-    else
-    {
-      p.letters[mag.l] = [1, 2];
-      p.indices[mag.l] = p.ticks.length - 1;
-    }
-    p.points[mag.l] = pos;
-
-    if(mag.m)
-    {
-      let n = mag.n ? mag.n : 1;
-      for(var k = 0; k < n; k++)
-      {
-        let prev_pos = pos;
-        pos = vec2.add(prev_pos, [mag.m, 0]);
-        p.shapes.push(rg.tick(pos));
-        p.shapes.push(rg.line(prev_pos, pos));
-        p.ticks.push(pos);
-        p.indices[mag.l + 'e'] = p.ticks.length - 1;
-      }
+      p.given[k] = p.given[k].map(callrg);
     }
   }
-
   return p;
 }
 
-let processProp = (i_book) => (p, ind) => {
-  if(ind !== 0 && i_book == 8)
-  {
+let haveClips = (i_book) => (p, ind) => {
+  if(ind > 0)
       p.img = 'img/' + (i_book) + '/' + ind + '.png';
-  }
-
-  function processFigure(figure) {
-    if(!figure.points) figure.points = {};
-    if(!figure.shapes) figure.shapes = [];
-    if(!figure.letters) figure.letters = {};
-    if(figure.mags)
-    {
-      processMags(figure);
-    }
-  }
-
-  if(p.figures)
-  {
-    p.figures.forEach(processFigure);
-  }
-  else
-  {
-    processFigure(p);
-  }
   return p;
 }
 
@@ -622,24 +626,8 @@ let descs = [
 
 import book8 from './figures/8.js';
 
-function processGraphics(p) {
-  let callrg = a => rg[a[0]](...a.slice(1));
-  if(p.shapes)
-  {
-    p.shapes = p.shapes.map(callrg);
-  }
-  if(p.given)
-  {
-    for(let k in p.given)
-    {
-      p.given[k] = p.given[k].map(callrg);
-    }
-  }
-  return p;
-}
-
 let books = {
-  8: book8(rg).map(f => f()),
+  8: book8(rg).map(f => f()).map(haveClips(8)),
 };
 
 let ground = makeGround(rg, svg);
@@ -655,7 +643,7 @@ function presentProp(i_book, i_prop) {
   {
     bookPromise = fetch('build/'+i_book+'.json')
       .then(response => response.json())
-      .then(book => book.map(processGraphics))
+      .then(book => book.map(unfoldGraphics))
       .then(book => { books[i_book] = book; return book; });
   }
 
@@ -668,7 +656,7 @@ function presentProp(i_book, i_prop) {
     el.innerText = 'Elements Book ' + (i_book) + ' - ' + descs[i_book-1];
 
     let i_p = Math.min(ps.length-1, i_prop);
-    ground.draw(0, processProp(i_book)(ps[i_p], i_p));
+    ground.draw(0, ps[i_p]);
 
     function keyHandler(e)
     {
