@@ -327,7 +327,6 @@ function makeGround(rg, svg)
       let s1 = Math.floor(s), s2 = Math.ceil(s);
       let r = s - s1;
       let p1 = proj(s1, l), p2 = proj(s2, l);
-      // let dir = vec2.sub(vec2.rot([letter[1] || 1, 0], -Math.PI * ((1 + letter[0]) / 4)), [1,-1]);
       let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
 
       let m = {width: 14.45, height: 23};
@@ -337,7 +336,7 @@ function makeGround(rg, svg)
     }
   }
 
-  function prepareFigure(figure, highlight, nearHighlights, highlightFigure, smallLetters)
+  function prepareFigure(figure, smallLetters)
   {
     if(!figure.points) figure.points = {};
     if(!figure.shapes) figure.shapes = [];
@@ -353,6 +352,11 @@ function makeGround(rg, svg)
       prepareLetterOffsets(figure, smallLetters);
     }
 
+    figure.prepared = true;
+  }
+
+  function prepareShapes(figure, highlight, nearHighlights, highlightFigure, smallLetters)
+  {
     let shapes = figure.shapes.map(rg.draw);
 
     if(highlightFigure)
@@ -378,16 +382,16 @@ function makeGround(rg, svg)
       var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       el.setAttribute('font-family', 'Nale');
       el.setAttribute('font-size', shouldBeSmall ? '16px' : '24px');
-      let fillColor = colors.dim;
+      let fillcolor = colors.dim;
       if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
       {
-        fillColor = colors.bright;
+        fillcolor = colors.bright;
       }
       else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
       {
-        fillColor = colors.sentence;
+        fillcolor = colors.sentence;
       }
-      el.setAttribute('fill', fillColor);
+      el.setAttribute('fill', fillcolor);
       el.textContent = i;
 
       let pos = vec2.add(figure.points[i], figure.letterOffsets[i]);
@@ -458,10 +462,33 @@ function makeGround(rg, svg)
 
   function present(o, p)
   {
-    let nearHighlights = [];
-    let highlight = [];
-    let figureIndex = 0;
-    let lastSeenFigureIndex = 0;
+    if(!p.paragraphs)
+    {
+      prepareProse(p);
+    }
+
+    if(!p.prepared)
+    {
+      if(p.figures)
+      {
+        p.figures.forEach(figure => {
+          prepareFigure(figure, true);
+        });
+      }
+      else
+      {
+        prepareFigure(p, false);
+      }
+    }
+
+    if(o < 0)
+    {
+      return present(p.refcount-2, p);
+    }
+    else if (o >= p.refcount-1 && p.refcount > 0)
+    {
+      return present(0, p);
+    }
 
     let titleEl = document.querySelector('#proseTitle');
     titleEl.innerHTML = p.title;
@@ -476,10 +503,10 @@ function makeGround(rg, svg)
       proseEl.appendChild(imgEl);
     }
 
-    if(!p.paragraphs)
-    {
-      prepareProse(p);
-    }
+    let nearHighlights = [];
+    let highlight = [];
+    let figureIndex = 0;
+    let lastSeenFigureIndex = 0;
 
     let i_ref = 0, i_sentence = 0;
     p.paragraphs.forEach(sentences =>
@@ -508,10 +535,6 @@ function makeGround(rg, svg)
           return el.outerHTML;
         }
 
-        let el = document.createElement('span');
-        el.className = 'sentence';
-        el.dataset.ref = i_ref;
-
         let seenMarks = {};
         function processPart(part)
         {
@@ -535,19 +558,23 @@ function makeGround(rg, svg)
             }
 
             let refEl = document.createElement('span');
+            refEl.dataset.ref = i_ref;
             refEl.innerText = part[0];
             refEl.className = 'ref';
-            refEl.dataset.ref = i_ref;
+
+            let color;
+            if(i_ref == o)
+              color = colors.bright;
+            else if (isFocusSentence)
+              color = colors.sentence;
+            else
+              color = colors.dim;
+            refEl.style['color'] = color;
 
             if(i_ref == o)
             {
-              refEl.style['color'] = colors.bright;
-              figureIndex = lastSeenFigureIndex;
               highlight = part;
-            }
-            else if (isFocusSentence)
-            {
-              refEl.style['color'] = colors.sentence;
+              figureIndex = lastSeenFigureIndex;
             }
             i_ref++;
 
@@ -556,13 +583,12 @@ function makeGround(rg, svg)
           }
         }
 
+        let el = document.createElement('span');
+        el.className = 'sentence';
+        el.dataset.ref = i_ref;
+
         el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
         paragraphEl.appendChild(el);
-
-        if(sentenceWithoutRef)
-        {
-          i_ref++;
-        }
 
         if(isFocusSentence)
         {
@@ -573,32 +599,28 @@ function makeGround(rg, svg)
         {
           el.style['color'] = colors.dim;
         }
+
+        if(sentenceWithoutRef)
+        {
+          i_ref++;
+        }
         i_sentence++;
       });
       proseEl.appendChild(paragraphEl);
     })
 
-    if(o < 0)
-    {
-      return present(p.refcount-2, p);
-    }
-    else if (o >= p.refcount-1 && p.refcount > 0)
-    {
-      return present(0, p);
-    }
-
     svg.innerHTML = "";
 
     if(!p.figures)
     {
-      let els = prepareFigure(p, highlight, nearHighlights, true, false);
+      let els = prepareShapes(p, highlight, nearHighlights, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        let els = prepareFigure(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        let els = prepareShapes(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
         els.map(el => svg.appendChild(el));
       }
     }
