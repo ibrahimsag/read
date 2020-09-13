@@ -430,7 +430,6 @@ function makeGround(rg, svg)
     {
       let paragraphEl = document.createElement('p');
       let content = '';
-      let isFocusParagraph = false;
       paragraphProse.split('\n').forEach(sentenceProse =>
       {
         let isFocusSentence = false;;
@@ -516,16 +515,23 @@ function makeGround(rg, svg)
           nearHighlights = sentenceMarks;
           el.className += ' bright';
 
-          isFocusParagraph = true;
+          setTimeout(() => {
+            function tb (e)
+            {
+              let t = e.offsetTop, b = t + e.offsetHeight;
+              return { t, b };
+            }
+
+            let pel = document.querySelector('#prose');
+            let p = tb(pel), c = tb(el);
+            let s = pel.scrollTop;
+            if(p.t > (c.t - s - 10))
+              pel.scrollTo(0, c.t - p.t - 40);
+            else if(p.b < (c.b - s + 10))
+              pel.scrollTo(0, c.b - p.b + 40);
+          })
         }
       });
-      if(isFocusParagraph)
-      {
-        setTimeout(() => {
-          let opts = {behavior: "smooth", block: "nearest", inline: "nearest"};
-          paragraphEl.scrollIntoView(opts);
-        })
-      }
       proseEl.appendChild(paragraphEl);
     })
 
