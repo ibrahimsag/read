@@ -102,7 +102,7 @@ function makeRG (svgEl)
     }
     else if(typ == 'arcc')
     {
-      let c = arg1.trim();
+      let c = arg1;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
@@ -115,7 +115,7 @@ function makeRG (svgEl)
     }
     else if(typ == 'arc')
     {
-      let c = arg1.trim();
+      let c = arg1;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
@@ -128,7 +128,7 @@ function makeRG (svgEl)
     }
     else if(typ == 'circle')
     {
-      let c = arg1.trim();
+      let c = arg1;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
@@ -399,6 +399,63 @@ function makeGround(rg, svg)
     return shapes;
   }
 
+  function prepareProse(p)
+  {
+    p.refcount = 0;
+    p.refp = [];
+    p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
+      {
+        return paragraphProse.split('\n').map(sentenceProse =>
+          {
+            p.refp.push(p.refcount);
+            let refRE = /(\{[^\}]*\})/g;
+            let sentenceParts = sentenceProse.split(refRE);
+            let seenRef = false;
+            let parts = sentenceParts.map(part =>
+              {
+                let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
+                let m = part.match(markRE);
+                if(m)
+                {
+                  seenRef = true;
+                  p.refcount++;
+                  if(m[3])
+                    return [m[1], m[2], m[3].trim()];
+                  else
+                    return [m[1], m[2]];
+                }
+                else
+                {
+                  return part;
+                }
+              });
+            if(!seenRef)
+              p.refcount++;
+            return parts;
+          });
+      });
+    p.refp.push(p.refcount);
+  }
+
+  function scrollToSentenceIfNecessary(el)
+  {
+    setTimeout(() => {
+      function tb (e)
+      {
+        let t = e.offsetTop, b = t + e.offsetHeight;
+        return { t, b };
+      }
+
+      let pel = document.querySelector('#prose');
+      let p = tb(pel), c = tb(el);
+      let s = pel.scrollTop;
+      if(p.t > (c.t - s - 10))
+        pel.scrollTo(0, c.t - p.t - 40);
+      else if(p.b < (c.b - s + 10))
+        pel.scrollTo(0, c.b - p.b + 40);
+    })
+  }
+
   function present(o, p)
   {
     let nearHighlights = [];
@@ -419,49 +476,19 @@ function makeGround(rg, svg)
       proseEl.appendChild(imgEl);
     }
 
-    let refCount = 0;
-    p.prose.split('\n\n').forEach(paragraphProse =>
+    if(!p.paragraphs)
+    {
+      prepareProse(p);
+    }
+
+    let i_ref = 0, i_sentence = 0;
+    p.paragraphs.forEach(sentences =>
     {
       let paragraphEl = document.createElement('p');
-      let content = '';
-      paragraphProse.split('\n').forEach(sentenceProse =>
+      sentences.forEach(sentenceParts =>
       {
-        let isFocusSentence = false;;
-        let sentenceMarks = [];
-        let seenMarks = {};
+        let isFocusSentence = (p.refp[i_sentence] <= o) && (o < p.refp[i_sentence+1]);
         let sentenceWithoutRef = true;
-        function highlightReference(m, name, typ, arg1)
-        {
-
-          let refEl = document.createElement('span');
-          refEl.innerHTML = name;
-          refEl.className = 'ref';
-          refEl.dataset.ref = refCount;
-
-          if(refCount == o)
-          {
-            isFocusSentence = true;
-            refEl.className += ' bright';
-            figureIndex = lastSeenFigureIndex;
-
-            highlight = [name, typ, arg1];
-          }
-          else
-          {
-            let mark = [name, typ, arg1];
-            let hash = mark.toString();
-            if(!seenMarks[hash])
-            {
-              sentenceMarks.push(mark);
-              seenMarks[hash] = true;
-            }
-          }
-          refCount++;
-
-          sentenceWithoutRef = false;
-          return refEl.outerHTML;
-        }
-
         function selectFigure(m, ind)
         {
           lastSeenFigureIndex = parseInt(ind);
@@ -483,57 +510,79 @@ function makeGround(rg, svg)
 
         let el = document.createElement('span');
         el.className = 'sentence';
-        el.dataset.ref = refCount;
+        el.dataset.ref = i_ref;
 
-        let figureRE = /\{figure ([0-9])\}/g;
-        let sp = sentenceProse.replace(figureRE, selectFigure);
-        let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
-        let sp2 = sp.replace(propRE, placePref);
+        let seenMarks = {};
+        function processPart(part)
+        {
+          if(typeof(part) === 'string')
+          {
+            let figureRE = /\{figure ([0-9])\}/g;
+            let sp = part.replace(figureRE, selectFigure);
+            let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
+            return sp.replace(propRE, placePref);
+          }
+          else if(part.length > 0)
+          {
+            if(isFocusSentence)
+            {
+              let hash = part.toString();
+              if(!seenMarks[hash])
+              {
+                nearHighlights.push(part);
+                seenMarks[hash] = true;
+              }
+            }
 
-        let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/g;
-        let sentenceHTML = sp2.replace(markRE, highlightReference);
+            let refEl = document.createElement('span');
+            refEl.innerText = part[0];
+            refEl.className = 'ref';
+            refEl.dataset.ref = i_ref;
 
-        el.innerHTML = sentenceHTML + ' ';
+            if(i_ref == o)
+            {
+              refEl.style['color'] = colors.bright;
+              figureIndex = lastSeenFigureIndex;
+              highlight = part;
+            }
+            else if (isFocusSentence)
+            {
+              refEl.style['color'] = colors.sentence;
+            }
+            i_ref++;
+
+            sentenceWithoutRef = false;
+            return refEl.outerHTML;
+          }
+        }
+
+        el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
         paragraphEl.appendChild(el);
 
         if(sentenceWithoutRef)
         {
-          if(refCount == o)
-            isFocusSentence = true;
-
-          refCount++;
+          i_ref++;
         }
 
         if(isFocusSentence)
         {
-          nearHighlights = sentenceMarks;
-          el.className += ' bright';
-
-          setTimeout(() => {
-            function tb (e)
-            {
-              let t = e.offsetTop, b = t + e.offsetHeight;
-              return { t, b };
-            }
-
-            let pel = document.querySelector('#prose');
-            let p = tb(pel), c = tb(el);
-            let s = pel.scrollTop;
-            if(p.t > (c.t - s - 10))
-              pel.scrollTo(0, c.t - p.t - 40);
-            else if(p.b < (c.b - s + 10))
-              pel.scrollTo(0, c.b - p.b + 40);
-          })
+          el.style['color'] = colors.sentence;
+          scrollToSentenceIfNecessary(el);
         }
+        else
+        {
+          el.style['color'] = colors.dim;
+        }
+        i_sentence++;
       });
       proseEl.appendChild(paragraphEl);
     })
 
     if(o < 0)
     {
-      return present(refCount-2, p);
+      return present(p.refcount-2, p);
     }
-    else if (o >= refCount-1 && refCount > 0)
+    else if (o >= p.refcount-1 && p.refcount > 0)
     {
       return present(0, p);
     }
@@ -746,7 +795,7 @@ window.rg = makeRG(svg);
 
 let ground = makeGround(rg, svg);
 
-let styleText = ["#prose .sentence { color:", colors.dim, "; } #prose .sentence.bright { color:", colors.sentence, "; } #prose .sentence.bright .ref.bright { color:", colors.bright, "; } #coverPage #help-title { color:", colors.make([320, 100, 40]), "; } "].join('');
+let styleText = ["#coverPage #help-title { color:", colors.make([320, 100, 40]), "; } "].join('');
 
 window.onload = () => {
   let styleEl = document.createElement('style');
