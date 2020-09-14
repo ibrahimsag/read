@@ -1,7 +1,7 @@
 To find the least number that will have given parts.
 
 Let {A magnitude}, {B magnitude}, and {C magnitude} be the given parts.
-So it is required to find the least number which will have the parts {A magnitude}, {B magnitude}, and {C magnitude} (i.e., an Ath part, a Bth part, and a Cth part).
+So it is required to find the least number which will have the parts {A magnitude}, {B magnitude}, and {C magnitude} (i.e., an {A magnitude}th part, a {B magnitude}th part, and a {C magnitude}th part).
 
 For let {D magnitude}, {E magnitude}, and {F magnitude} be numbers having the same names as the parts {A magnitude}, {B magnitude}, and {C magnitude} (respectively).
 And let the least number, {G magnitude}, measured by {D magnitude}, {E magnitude}, and {F magnitude}, have been taken [Prop. 7.36].
