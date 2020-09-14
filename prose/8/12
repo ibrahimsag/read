@@ -1,27 +1,27 @@
 There exist two numbers in mean proportion to two (given) cube numbers.
 And (one) cube (number) has to the (other) cube (number) a cubed ratio with respect to (that) the side (of the former has) to the side (of the latter).
 
-Let A and B be cube numbers, and let C be the side of A, and D (the side) of B.
-I say that there exist two numbers in mean proportion to A and B, and that A has to B a cubed ratio with respect to (that) C (has) to D.
+Let {A magnitude} and {B magnitude} be cube numbers, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.
+I say that there exist two numbers in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.
 
-For let C make E (by) multiplying itself, and let it make F (by) multiplying D.
-And let D make G (by) multiplying itself, and let C, D make H, K, respectively, (by) multiplying F.
+For let {C magnitude} make {E magnitude} (by) multiplying itself, and let it make {F magnitude} (by) multiplying {D magnitude}.
+And let {D magnitude} make {G magnitude} (by) multiplying itself, and let {C magnitude}, {D magnitude} make {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}.
 
-And since A is cube, and C (is) its side, and C has made E (by) multiplying itself, C has thus made E (by) multiplying itself, and has made A (by) multiplying E.
-And so, for the same (reasons), D has made G (by) multiplying itself, and has made B (by) multiplying G.
-And since C has made E, F (by) multiplying C, D, respectively, thus as C is to D, so E (is) to F [Prop. 7.17].
-And so, for the same (reasons), as C (is) to D, so F (is) to G [Prop. 7.18].
-Again, since C has made A, H (by) multiplying E, F, respectively, thus as E is to F, so A (is) to H [Prop. 7.17].
-And as E (is) to F, so C (is) to D.
-And thus as C (is) to D, so A (is) to H.
-Again, since C, D have made H, K, respectively, (by) multiplying F, thus as C is to D, so H (is) to K [Prop. 7.18].
-Again, since D has made K, B (by) multiplying F, G, respectively, thus as F is to G, so K (is) to B [Prop. 7.17].
-And as F (is) to G, so C (is) to D.
-And thus as C (is) to D, so A (is) to H, and H to K, and K to B.
-Thus, H and K are two (numbers) in mean proportion to A and B.
+And since {A magnitude} is cube, and {C magnitude} (is) its side, and {C magnitude} has made {E magnitude} (by) multiplying itself, {C magnitude} has thus made {E magnitude} (by) multiplying itself, and has made {A magnitude} (by) multiplying {E magnitude}.
+And so, for the same (reasons), {D magnitude} has made {G magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {G magnitude}.
+And since {C magnitude} has made {E magnitude}, {F magnitude} (by) multiplying {C magnitude}, {D magnitude}, respectively, thus as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude} [Prop. 7.17].
+And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {F magnitude} (is) to {G magnitude} [Prop. 7.18].
+Again, since {C magnitude} has made {A magnitude}, {H magnitude} (by) multiplying {E magnitude}, {F magnitude}, respectively, thus as {E magnitude} is to {F magnitude}, so {A magnitude} (is) to {H magnitude} [Prop. 7.17].
+And as {E magnitude} (is) to {F magnitude}, so {C magnitude} (is) to {D magnitude}.
+And thus as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {H magnitude}.
+Again, since {C magnitude}, {D magnitude} have made {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}, thus as {C magnitude} is to {D magnitude}, so {H magnitude} (is) to {K magnitude} [Prop. 7.18].
+Again, since {D magnitude} has made {K magnitude}, {B magnitude} (by) multiplying {F magnitude}, {G magnitude}, respectively, thus as {F magnitude} is to {G magnitude}, so {K magnitude} (is) to {B magnitude} [Prop. 7.17].
+And as {F magnitude} (is) to {G magnitude}, so {C magnitude} (is) to {D magnitude}.
+And thus as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {H magnitude}, and {H magnitude} to {K magnitude}, and {K magnitude} to {B magnitude}.
+Thus, {H magnitude} and {K magnitude} are two (numbers) in mean proportion to {A magnitude} and {B magnitude}.
 
-So I say that A also has to B a cubed ratio with respect to (that) C (has) to D.
-For since A, H, K, B are four (continuously) proportional numbers, A thus has to B a cubed ratio with respect to (that) A (has) to H [Def. 5.10].
-And as A (is) to H, so C (is) to D.
-And [thus] A has to B a cubed ratio with respect to (that) C (has) to D.
+So I say that {A magnitude} also has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.
+For since {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are four (continuously) proportional numbers, {A magnitude} thus has to {B magnitude} a cubed ratio with respect to (that) {A magnitude} (has) to {H magnitude} [Def. 5.10].
+And as {A magnitude} (is) to {H magnitude}, so {C magnitude} (is) to {D magnitude}.
+And [thus] {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.
 (Which is) the very thing it was required to show.

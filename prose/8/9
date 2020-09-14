@@ -1,29 +1,29 @@
 If two numbers are prime to one another and there fall in between them (some) numbers in continued proportion then, as many numbers as fall in between them in continued proportion, so many (numbers) will also fall between each of them and a unit in continued proportion.
 
-Let A and B be two numbers (which are) prime to one another, and let the (numbers) C and D fall in between them in continued proportion.
-And let the unit E be set out.
-I say that, as many numbers as have fallen in between A and B in continued proportion, so many (numbers) will also fall between each of A and B and the unit in continued proportion.
+Let {A magnitude} and {B magnitude} be two numbers (which are) prime to one another, and let the (numbers) {C magnitude} and {D magnitude} fall in between them in continued proportion.
+And let the unit {E magnitude} be set out.
+I say that, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many (numbers) will also fall between each of {A magnitude} and {B magnitude} and the unit in continued proportion.
 
-For let the least two numbers, F and G, which are in the ratio of A, C, D, B, have been taken [Prop. 7.33].
-And the (least) three (numbers), H, K, L.
-And so on, successively increasing by one, until the multitude of the (least numbers taken) is made equal to the multitude of A, C, D, B [Prop. 8.2].
-Let them have been taken, and let them be M, N, O, P.
-So (it is) clear that F has made H (by) multiplying itself, and has made M (by) multiplying H.
-And G has made L (by) multiplying itself, and has made P (by) multiplying L [Prop. 8.2 corr.].
-And since M, N, O, P are the least of those (numbers) having the same ratio as F, G, and A, C, D, B are also the least of those (numbers) having the same ratio as F, G [Prop. 8.2], and the multitude of M, N, O, P is equal to the multitude of A, C, D, B, thus M, N, O, P are equal to A, C, D, B, respectively.
-Thus, M is equal to A, and P to B.
-And since F has made H (by) multiplying itself, F thus measures H according to the units in F [Def. 7.15].
-And the unit E also measures F according to the units in it.
-Thus, the unit E measures the number F as many times as F (measures) H.
-Thus, as the unit E is to the number F, so F (is) to H [Def. 7.20].
-Again, since F has made M (by) multiplying H, H thus measures M according to the units in F [Def. 7.15].
-And the unit E also measures the number F according to the units in it.
-Thus, the unit E measures the number F as many times as H (measures) M.
-Thus, as the unit E is to the number F, so H (is) to M [Prop. 7.20].
-And it was shown that as the unit E (is) to the number F, so F (is) to H.
-And thus as the unit E (is) to the number F, so F (is) to H, and H (is) to M.
-And M (is) equal to A.
-Thus, as the unit E is to the number F, so F (is) to H, and H to A.
-And so, for the same (reasons), as the unit E (is) to the number G, so G (is) to L, and L to B.
-Thus, as many (numbers) as have fallen in between A and B in continued proportion, so many numbers have also fallen between each of A and B and the unit E in continued proportion.
+For let the least two numbers, {F magnitude} and {G magnitude}, which are in the ratio of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, have been taken [Prop. 7.33].
+And the (least) three (numbers), {H magnitude}, {K magnitude}, {L magnitude}.
+And so on, successively increasing by one, until the multitude of the (least numbers taken) is made equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} [Prop. 8.2].
+Let them have been taken, and let them be {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude}.
+So (it is) clear that {F magnitude} has made {H magnitude} (by) multiplying itself, and has made {M magnitude} (by) multiplying {H magnitude}.
+And {G magnitude} has made {L magnitude} (by) multiplying itself, and has made {P magnitude} (by) multiplying {L magnitude} [Prop. 8.2 corr.].
+And since {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} are the least of those (numbers) having the same ratio as {F magnitude}, {G magnitude}, and {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are also the least of those (numbers) having the same ratio as {F magnitude}, {G magnitude} [Prop. 8.2], and the multitude of {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} is equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, thus {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} are equal to {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, respectively.
+Thus, {M magnitude} is equal to {A magnitude}, and {P magnitude} to {B magnitude}.
+And since {F magnitude} has made {H magnitude} (by) multiplying itself, {F magnitude} thus measures {H magnitude} according to the units in {F magnitude} [Def. 7.15].
+And the unit {E magnitude} also measures {F magnitude} according to the units in it.
+Thus, the unit {E magnitude} measures the number {F magnitude} as many times as {F magnitude} (measures) {H magnitude}.
+Thus, as the unit {E magnitude} is to the number {F magnitude}, so {F magnitude} (is) to {H magnitude} [Def. 7.20].
+Again, since {F magnitude} has made {M magnitude} (by) multiplying {H magnitude}, {H magnitude} thus measures {M magnitude} according to the units in {F magnitude} [Def. 7.15].
+And the unit {E magnitude} also measures the number {F magnitude} according to the units in it.
+Thus, the unit {E magnitude} measures the number {F magnitude} as many times as {H magnitude} (measures) {M magnitude}.
+Thus, as the unit {E magnitude} is to the number {F magnitude}, so {H magnitude} (is) to {M magnitude} [Prop. 7.20].
+And it was shown that as the unit {E magnitude} (is) to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}.
+And thus as the unit {E magnitude} (is) to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}, and {H magnitude} (is) to {M magnitude}.
+And {M magnitude} (is) equal to {A magnitude}.
+Thus, as the unit {E magnitude} is to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}, and {H magnitude} to {A magnitude}.
+And so, for the same (reasons), as the unit {E magnitude} (is) to the number {G magnitude}, so {G magnitude} (is) to {L magnitude}, and {L magnitude} to {B magnitude}.
+Thus, as many (numbers) as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many numbers have also fallen between each of {A magnitude} and {B magnitude} and the unit {E magnitude} in continued proportion.
 (Which is) the very thing it was required to show.

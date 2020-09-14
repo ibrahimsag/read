@@ -1,33 +1,34 @@
 If (some) numbers fall between each of two numbers and a unit in continued proportion then, as many (numbers) as fall between each of the (two numbers) and the unit in continued proportion, so many (numbers) will also fall in between the (two numbers) themselves in continued proportion.
 
-For let the numbers D, E and F, G fall between the numbers A and B (respectively) and the unit C in continued proportion.
-I say that, as many numbers as have fallen between each of A and B and the unit C in continued proportion, so many will also fall in between A and B in continued proportion.
+For let the numbers {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude} fall between the numbers {A magnitude} and {B magnitude} (respectively) and the unit {C magnitude} in continued proportion.
+I say that, as many numbers as have fallen between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.
 
-For let D make H (by) multiplying F.
-And let D, F make K, L, respectively, by multiplying H.
+For let {D magnitude} make {H magnitude} (by) multiplying {F magnitude}.
+And let {D magnitude}, {F magnitude} make {K magnitude}, {L magnitude}, respectively, by multiplying {H magnitude}.
 
-As since as the unit C is to the number D, so D (is) to E, the unit C thus measures the number D as many times as D (measures) E [Def. 7.20].
-And the unit C measures the number D according to the units in D.
-Thus, the number D also measures E according to the units in D.
-Thus, D has made E (by) multiplying itself.
-Again, since as the [unit] C is to the number D, so E (is) to A, the unit C thus measures the number D as many times as E (measures) A [Def. 7.20].
-And the unit C measures the number D according to the units in D.
-Thus, E also measures A according to the units in D.
-Thus, D has made A (by) multiplying E.
-And so, for the same (reasons), F has made G (by) multiplying itself, and has made B (by) multiplying G.
-And since D has made E (by) multiplying itself, and has made H (by) multiplying F, thus as D is to F, so E (is) to H [Prop. 7.17].
-And so, for the same reasons, as D (is) to F, so H (is) to G [Prop. 7.18].
-And thus as E (is) to H, so H (is) to G.
-Again, since D has made A, K (by) multiplying E, H, respectively, thus as E is to H, so A (is) to K [Prop. 7.17]. But, as E (is) to H, so D (is) to F.
-And thus as D (is) to F, so A (is) to K.
-Again, since D, F have made K, L, respectively, (by) multiplying H, thus as D is to F, so K (is) to L [Prop. 7.18].
-But, as D (is) to F, so A (is) to K.
-And thus as A (is) to K, so K (is) to L.
-Further, since F has made L, B (by) multiplying H, G, respectively, thus as H is to G, so L (is) to B [Prop. 7.17].
-And as H (is) to G, so D (is) to F.
-And thus as D (is) to F, so L (is) to B.
-And it was also shown that as D (is) to F, so A (is) to K, and K to L.
-And thus as A (is) to K, so K (is) to L, and L to B.
-Thus, A, K, L, B are successively in continued proportion.
-Thus, as many numbers as fall between each of A and B and the unit C in continued proportion, so many will also fall in between A and B in continued proportion.
+As since as the unit {C magnitude} is to the number {D magnitude}, so {D magnitude} (is) to {E magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {D magnitude} (measures) {E magnitude} [Def. 7.20].
+And the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.
+Thus, the number {D magnitude} also measures {E magnitude} according to the units in {D magnitude}.
+Thus, {D magnitude} has made {E magnitude} (by) multiplying itself.
+Again, since as the [unit] {C magnitude} is to the number {D magnitude}, so {E magnitude} (is) to {A magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {E magnitude} (measures) {A magnitude} [Def. 7.20].
+And the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.
+Thus, {E magnitude} also measures {A magnitude} according to the units in {D magnitude}.
+Thus, {D magnitude} has made {A magnitude} (by) multiplying {E magnitude}.
+And so, for the same (reasons), {F magnitude} has made {G magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {G magnitude}.
+And since {D magnitude} has made {E magnitude} (by) multiplying itself, and has made {H magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {E magnitude} (is) to {H magnitude} [Prop. 7.17].
+And so, for the same reasons, as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.18].
+And thus as {E magnitude} (is) to {H magnitude}, so {H magnitude} (is) to {G magnitude}.
+Again, since {D magnitude} has made {A magnitude}, {K magnitude} (by) multiplying {E magnitude}, {H magnitude}, respectively, thus as {E magnitude} is to {H magnitude}, so {A magnitude} (is) to {K magnitude} [Prop. 7.17].
+But, as {E magnitude} (is) to {H magnitude}, so {D magnitude} (is) to {F magnitude}.
+And thus as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.
+Again, since {D magnitude}, {F magnitude} have made {K magnitude}, {L magnitude}, respectively, (by) multiplying {H magnitude}, thus as {D magnitude} is to {F magnitude}, so {K magnitude} (is) to {L magnitude} [Prop. 7.18].
+But, as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.
+And thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}.
+Further, since {F magnitude} has made {L magnitude}, {B magnitude} (by) multiplying {H magnitude}, {G magnitude}, respectively, thus as {H magnitude} is to {G magnitude}, so {L magnitude} (is) to {B magnitude} [Prop. 7.17].
+And as {H magnitude} (is) to {G magnitude}, so {D magnitude} (is) to {F magnitude}.
+And thus as {D magnitude} (is) to {F magnitude}, so {L magnitude} (is) to {B magnitude}.
+And it was also shown that as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}, and {K magnitude} to {L magnitude}.
+And thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}, and {L magnitude} to {B magnitude}.
+Thus, {A magnitude}, {K magnitude}, {L magnitude}, {B magnitude} are successively in continued proportion.
+Thus, as many numbers as fall between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.
 (Which is) the very thing it was required to show.

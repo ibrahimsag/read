@@ -452,11 +452,11 @@ function makeGround(rg, svg)
 
       let pel = document.querySelector('#prose');
       let p = tb(pel), c = tb(el);
-      let s = pel.scrollTop;
+      let s = pel.scrollTop, o = (p.b - p.t) * 0.68;
       if(p.t > (c.t - s - 10))
-        pel.scrollTo(0, c.t - p.t - 40);
+        pel.scrollTo(0, c.t - p.t - o);
       else if(p.b < (c.b - s + 10))
-        pel.scrollTo(0, c.b - p.b + 40);
+        pel.scrollTo(0, c.b - p.b + o);
     })
   }
 
