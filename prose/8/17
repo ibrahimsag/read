@@ -1,17 +1,17 @@
 If a cube number does not measure a(nother) cube number then the side (of the former) will not measure the side (of the latter) either.
 And if the side (of a cube number) does not measure the side (of another cube number) then the (former) cube (number) will not measure the (latter) cube (number) either.
 
-For let the cube number A not measure the cube number B.
-And let C be the side of A, and D (the side) of B.
-I say that C will not measure D.
+For let the cube number {A magnitude} not measure the cube number {B magnitude}.
+And let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.
+I say that {C magnitude} will not measure {D magnitude}.
 
-For if C measures D then A will also measure B [Prop. 8.15].
-And A does not measure B.
-Thus, C does not measure D either.
+For if {C magnitude} measures {D magnitude} then {A magnitude} will also measure {B magnitude} [Prop. 8.15].
+And {A magnitude} does not measure {B magnitude}.
+Thus, {C magnitude} does not measure {D magnitude} either.
 
-And so let C not measure D.
-I say that A will not measure B either.
-For if A measures B then C will also measure D [Prop. 8.15].
-And C does not measure D.
-Thus, A will not measure B either.
+And so let {C magnitude} not measure {D magnitude}.
+I say that {A magnitude} will not measure {B magnitude} either.
+For if {A magnitude} measures {B magnitude} then {C magnitude} will also measure {D magnitude} [Prop. 8.15].
+And {C magnitude} does not measure {D magnitude}.
+Thus, {A magnitude} will not measure {B magnitude} either.
 (Which is) the very thing it was required to show.

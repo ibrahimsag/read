@@ -1,23 +1,23 @@
 If a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).
 And if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).
 
-Let A and B be square numbers, and let C and D be their sides (respectively).
-And let A measure B.
-I say that C also measures D.
+Let {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} and {D magnitude} be their sides (respectively).
+And let {A magnitude} measure {B magnitude}.
+I say that {C magnitude} also measures {D magnitude}.
 
-For let C make E (by) multiplying D.
-Thus, A, E, B are continuously proportional in the ratio of C to D [Prop. 8.11].
-And since A, E, B are continuously proportional, and A measures B, A thus also measures E [Prop. 8.7].
-And as A is to E, so C (is) to D.
-Thus,C also measures D [Def. 7.20].
+For let {C magnitude} make {E magnitude} (by) multiplying {D magnitude}.
+Thus, {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude} [Prop. 8.11].
+And since {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional, and {A magnitude} measures {B magnitude}, {A magnitude} thus also measures {E magnitude} [Prop. 8.7].
+And as {A magnitude} is to {E magnitude}, so {C magnitude} (is) to {D magnitude}.
+Thus,{C magnitude} also measures {D magnitude} [Def. 7.20].
 
-So, again, let C measure D.
-I say that A also measures B.
+So, again, let {C magnitude} measure {D magnitude}.
+I say that {A magnitude} also measures {B magnitude}.
 
-For similarly, with the same construction, we can show that A, E, B are continuously proportional in the ratio of C to D.
-And since as C is to D, so A (is) to E, and C measures D, A thus also measures E [Def. 7.20].
-And A, E, B are continuously proportional.
-Thus, A also measures B.
+For similarly, with the same construction, we can show that {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude}.
+And since as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {E magnitude}, and {C magnitude} measures {D magnitude}, {A magnitude} thus also measures {E magnitude} [Def. 7.20].
+And {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional.
+Thus, {A magnitude} also measures {B magnitude}.
 
 Thus, if a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).
 And if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).

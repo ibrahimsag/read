@@ -1,4 +1,4 @@
-If two numbers are prime to one another and each makes some (number by) multiplying itself then the numbers created from them will be prime to one another, and if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be prime to one another [and this always happens with the extremes].
+If two numbers are prime to one another and each makes some (number by) multiplying itself then the numbers created from them will be prime to one another, and if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be prime to one another.
 
 Let {A magnitude} and {B magnitude} be two numbers prime to one another, and let {A magnitude} make {C magnitude} (by) multiplying itself, and let it make {D magnitude} (by) multiplying {C magnitude}.
 And let {B magnitude} make {E magnitude} (by) multiplying itself, and let it make {F magnitude} by multiplying {E magnitude}.
