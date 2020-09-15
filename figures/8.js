@@ -428,6 +428,21 @@ function() {
   return {
     title: 'Proposition 21',
     prose: prop21,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'C', m: 120, v: 40 },
+      { l: 'D', m: 140, v: 40 },
+      { l: 'B', m: 160, v: 40 },
+      { l: 'E', m: 80, v: 50 },
+      { l: 'F', m: 120, v: 40 },
+      { l: 'G', m: 135, v: 40 },
+      { l: 'H', m: 60, p: [300, 50] },
+      { l: 'K', m: 75, v: 40 },
+      { l: 'N', m: 90, v: 40 },
+      { l: 'L', m: 120, v: 90 },
+      { l: 'M', m: 140, v: 40 },
+      { l: 'O', m: 160, v: 40 },
+    ]
   };
 },
 
@@ -435,6 +450,11 @@ function() {
   return {
     title: 'Proposition 22',
     prose: prop22,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 140, v: 40 },
+      { l: 'C', m: 180, v: 40 },
+    ]
   };
 },
 
@@ -442,6 +462,12 @@ function() {
   return {
     title: 'Proposition 23',
     prose: prop23,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 140, v: 40 },
+      { l: 'C', m: 180, v: 40 },
+      { l: 'D', m: 220, v: 40 },
+    ]
   };
 },
 
@@ -449,6 +475,12 @@ function() {
   return {
     title: 'Proposition 24',
     prose: prop24,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 140, v: 40 },
+      { l: 'C', m: 80, p: [240, 50] },
+      { l: 'D', m: 120, v: 40 },
+    ]
   };
 },
 
@@ -456,6 +488,14 @@ function() {
   return {
     title: 'Proposition 25',
     prose: prop25,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'E', m: 110, v: 40 },
+      { l: 'F', m: 120, v: 40 },
+      { l: 'B', m: 130, v: 40 },
+      { l: 'C', m: 160, p: [230, 50] },
+      { l: 'D', m: 200, v: 120 },
+    ]
   };
 },
 
@@ -463,6 +503,14 @@ function() {
   return {
     title: 'Proposition 26',
     prose: prop26,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'C', m: 120, v: 40 },
+      { l: 'B', m: 140, v: 40 },
+      { l: 'D', m: 70, p: [240, 50] },
+      { l: 'E', m: 90, v: 40 },
+      { l: 'F', m: 110, v: 40 },
+    ]
   };
 },
 
@@ -470,6 +518,16 @@ function() {
   return {
     title: 'Proposition 27',
     prose: prop27,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'C', m: 120, v: 40 },
+      { l: 'D', m: 140, v: 40 },
+      { l: 'B', m: 160, v: 40 },
+      { l: 'E', m: 70, p: [260, 50] },
+      { l: 'F', m: 90, v: 40 },
+      { l: 'G', m: 110, v: 40 },
+      { l: 'H', m: 130, v: 40 },
+    ]
   };
 },
 
