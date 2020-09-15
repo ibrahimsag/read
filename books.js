@@ -1,4 +1,4 @@
-import book8 from './figures/8.js';
+import book9 from './figures/9.js';
 
 let haveClips = (i_book) => (p, ind) => {
   if(ind > 0)
@@ -20,7 +20,7 @@ let descs = [
 
 let books = {
   descs,
-  8: book8(rg).map(f => f()).map(haveClips(8)),
+  9: book9(rg).map(f => f()).map(haveClips(9)),
 };
 
 window.books = books;
