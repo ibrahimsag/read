@@ -1,0 +1,43 @@
+If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, then however many prime numbers the last (number) is measured by, the (number) next to the unit will also be measured by the same (prime numbers).
+
+Let any multitude whatsoever of numbers, A, B, C, D, be (continuously) proportional, (starting) from a unit.
+I say that however many prime numbers D is measured by, A will also be measured by the same (prime numbers).
+
+For let D be measured by some prime number E.
+I say that E measures A.
+For (suppose it does) not.
+E is prime, and every prime number is prime to every number which it does not measure [Prop. 7.29].
+Thus, E and A are prime to one another.
+And since E measures D, let it measure it according to F.
+Thus, E has made D (by) multiplying F .
+Again, since A measures D according to the units in C [Prop. 9.11 corr.], A has thus made D (by) multiplying C.
+But, in fact, E has also made D (by) multiplying F.
+Thus, the (number created) from (multiplying) A, C is equal to the (number created) from (multiplying) E, F.
+Thus, as A is to E, (so) F (is) to C [Prop. 7.19].
+And A and E (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, E measures C.
+Let it measure it according to G.
+Thus, E has made C (by) multiplying G.
+But, in fact, via the (proposition) before this, A has also made C (by) multiplying B [Prop. 9.11 corr.].
+Thus, the (number created) from (multiplying) A, B is equal to the (number created) from (multiplying) E, G.
+Thus, as A is to E, (so) G (is) to B [Prop. 7.19].
+And A and E (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, E measures B.
+Let it measure it according to H.
+Thus, E has made B (by) multiplying H.
+But, in fact, A has also made B (by) multiplying itself [Prop. 9.8].
+Thus, the (number created) from (multiplying) E, H is equal to the (square) on A.
+Thus, as E is to A, (so) A (is) to H [Prop. 7.19].
+And A and E are prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, E measures A, as the leading (measuring the) leading.
+But, in fact, (E) also does not measure (A).
+The very thing (is) impossible.
+Thus, E and A are not prime to one another.
+Thus, (they are) composite (to one another).
+And (numbers) composite (to one another) are (both) measured by some [prime] number [Def. 7.14].
+And since E is assumed (to be) prime, and a prime (number) is not measured by another number (other) than itself [Def. 7.11], E thus measures (both) A and E.
+Hence, E measures A.
+And it also measures D.
+Thus, E measures (both) A and D.
+So, similarly, we can show that however many prime numbers D is measured by, A will also be measured by the same (prime numbers).
+(Which is) the very thing it was required to show.

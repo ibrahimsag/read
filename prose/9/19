@@ -1,0 +1,49 @@
+For three given numbers, to investigate when it is possible to find a fourth (number) proportional to them.
+
+Let A, B, C be the three given numbers.
+And let it be required to investigate when it is possible to find a fourth (number) proportional to them.
+
+In fact, (A, B, C) are either not continuously proportional and the outermost of them are prime to one another, or are continuously proportional and the outermost of them are not prime to one another, or are neither continuously proportional nor are the outermost of them prime to one another, or are continuously proportional and the outermost of them are prime to one another.
+
+In fact, if A, B, C are continuously proportional, and the outermost of them, A and C, are prime to one another, (then) it has (already) been shown that it is impossible to find a fourth number proportional to them [Prop. 9.17].
+So let A, B, C not be continuously proportional, (with) the outermost of them again being prime to one another.
+I say that, in this case, it is also impossible to find a fourth (number) proportional to them.
+For, if possible, let it have been found, (and let it be) D.
+Hence, it will be that as A (is) to B, (so) C (is) to D.
+And let it be contrived that as B (is) to C, (so) D (is) to E.
+And since as A is to B, (so) C (is) to D, and as B (is) to C, (so) D (is) to E, thus, via equality, as A (is) to C, (so) C (is) to E [Prop. 7.14].
+And A and C (are) prime (to one another).
+And (numbers) prime (to one another are) also the least (numbers having the same ratio as them) [Prop. 7.21].
+And the least (numbers) measure those numbers having the same ratio as them (the same number of times), the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, A measures C, (as) the leading (measuring) the leading.
+And it also measures itself.
+Thus, A measures A and C, which are prime to one another.
+The very thing is impossible.
+Thus, it is not possible to find a fourth (number) proportional to A, B, C.
+And so let A, B, C again be continuously proportional, and let A and C not be prime to one another.
+I say that it is possible to find a fourth (number) proportional to them.
+For let B make D (by) multiplying C.
+Thus, A either measures or does not measure D.
+Let it, first of all, measure (D) according to E.
+Thus, A has made D (by) multiplying E.
+But, in fact, B has also made D (by) multiplying C.
+Thus, the (number created) from (multiplying) A, E is equal to the (number created) from (multiplying) B, C.
+Thus, proportionally, as A [is] to B, (so) C (is) to E [Prop. 7.19].
+Thus, a fourth (number) proportional to A, B, C has been found, (namely) E.
+
+And so let A not measure D.
+I say that it is impossible to find a fourth number proportional to A, B, C.
+For, if possible, let it have been found, (and let it be) E.
+Thus, the (number created) from (multiplying) A, E is equal to the (number created) from (multiplying) B, C.
+But, the (number created) from (multiplying) B, C is D.
+And thus the (number created) from (multiplying) A, E is equal to D.
+Thus, A has made D (by) multiplying E.
+Thus, A measures D according to E.
+Hence, A measures D.
+But, it also does not measure (D).
+The very thing (is) absurd.
+Thus, it is not possible to find a fourth number proportional to A, B, C when A does not measure D.
+And so (let) A, B, C (be) neither continuously proportional, nor (let) the outermost of them (be) prime to one another.
+And let B make D (by) multiplying C.
+So, similarly, it can be show that if A measures D then it is possible to find a fourth (number) proportional to (A, B, C), and impossible if (A) does not measure (D).
+(Which is) the very thing it was required to show.

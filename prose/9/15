@@ -1,0 +1,31 @@
+If three continuously proportional numbers are the least of those (numbers) having the same ratio as them then two (of them) added together in any way are prime to the remaining (one).
+
+Let A, B, C be three continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them.
+I say that two of A, B, C added together in any way are prime to the remaining (one), (that is) A and B (prime) to C, B and C to A, and, further, A and C to B.
+
+Let the two least numbers, DE and EF, having the same ratio as A, B, C, have been taken [Prop. 8.2].
+So it is clear that DE has made A (by) multiplying itself, and has made B (by) multiplying EF, and, further, EF has made C (by) multiplying itself [Prop. 8.2].
+And since DE, EF are the least (of those numbers having the same ratio as them), they are prime to one another [Prop. 7.22].
+And if two numbers are prime to one another then the sum (of them) is also prime to each [Prop. 7.28].
+Thus, DF is also prime to each of DE, EF.
+But, in fact, DE is also prime to EF.
+Thus, DF, DE are (both) prime to EF.
+And if two numbers are (both) prime to some number then the (number) created from (multiplying) them is also prime to the remaining (number) [Prop. 7.24].
+Hence, the (number created) from (multiplying) FD, DE is prime to EF.
+Hence, the (number created) from (multiplying) FD, DE is also prime to the (square) on EF [Prop. 7.25].
+[For if two numbers are prime to one another then the (number) created from (squaring) one of them is prime to the remaining (number).]
+But the (number created) from (multiplying) FD, DE is the (square) on DE plus the (number created) from (multiplying) DE, EF [Prop. 2.3].
+Thus, the (square) on DE plus the (number created) from (multiplying) DE, EF is prime to the (square) on EF.
+And the (square) on DE is A, and the (number created) from (multiplying) DE, EF (is) B, and the (square) on EF (is) C.
+Thus, A, B summed is prime to C.
+So, similarly, we can show that B, C (summed) is also prime to A.
+So I say that A, C (summed) is also prime to B.
+For since DF is prime to each of DE, EF then the (square) on DF is also prime to the (number created) from (multiplying) DE, EF [Prop. 7.25].
+But, the (sum of the squares) on DE, EF plus twice the (number created) from (multiplying) DE, EF is equal to the (square) on DF [Prop. 2.4].
+And thus the (sum of the squares) on DE, EF plus twice the (rectangle contained) by DE, EF [is] prime to the (rectangle contained) by DE, EF.
+By separation, the (sum of the squares) on DE, EF plus once the (rectangle contained) by DE, EF is prime to the (rectangle contained) by DE, EF.
+Again, by separation, the (sum 
+of the squares) on DE, EF is prime to the (rectangle contained) by DE, EF.
+And the (square) on DE is A, and the (rectangle contained) by DE, EF (is) B, and the (square) on EF (is) C.
+Thus, A, C summed is prime to B.
+(Which is) the very thing it was required to show.
