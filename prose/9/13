@@ -1,63 +1,63 @@
 If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, and the (number) after the unit is prime, then the greatest (number) will be measured by no [other] (numbers) except (numbers) existing among the proportional numbers.
 
-Let any multitude whatsoever of numbers, A, B, C, D, be continuously proportional, (starting) from a unit.
-And let the (number) after the unit, A, be prime.
-I say that the greatest of them, D, will be measured by no other (numbers) except A, B, C.
+Let any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be continuously proportional, (starting) from a unit.
+And let the (number) after the unit, {A magnitude}, be prime.
+I say that the greatest of them, {D magnitude}, will be measured by no other (numbers) except {A magnitude}, {B magnitude}, {C magnitude}.
 
-For, if possible, let it be measured by E, and let E not be the same as one of A, B, C.
-So it is clear that E is not prime.
-For if E is prime, and measures D, then it will also measure A, (despite A) being prime (and) not being the same as it [Prop. 9.12].
+For, if possible, let it be measured by {E magnitude}, and let {E magnitude} not be the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
+So it is clear that {E magnitude} is not prime.
+For if {E magnitude} is prime, and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
 The very thing is impossible.
-Thus, E is not prime.
+Thus, {E magnitude} is not prime.
 Thus, (it is) composite.
 And every composite number is measured by some prime number [Prop. 7.31].
-Thus, E is measured by some prime number.
-So I say that it will be measured by no other prime number than A.
-For if E is measured by another (prime number), and E measures D, then this (prime number) will thus also measure D.
-Hence, it will also measure A, (despite A) being prime (and) not being the same as it [Prop. 9.12].
+Thus, {E magnitude} is measured by some prime number.
+So I say that it will be measured by no other prime number than {A magnitude}.
+For if {E magnitude} is measured by another (prime number), and {E magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.
+Hence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
 The very thing is impossible.
-Thus, A measures E.
-And since E measures D, let it measure it according to F.
-I say that F is not the same as one of A, B, C.
-ForifF is the same as one of A, B, C, and measures D according to E, then one of A, B, C thus also measures D according to E.
-But one of A, B, C (only) measures D according to some (one) of A, B, C [Prop. 9.11].
-And thus E is the same as one of A, B, C.
+Thus, {A magnitude} measures {E magnitude}.
+And since {E magnitude} measures {D magnitude}, let it measure it according to {F magnitude}.
+I say that {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
+For if {F magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}, and measures {D magnitude} according to {E magnitude}, then one of {A magnitude}, {B magnitude}, {C magnitude} thus also measures {D magnitude} according to {E magnitude}.
+But one of {A magnitude}, {B magnitude}, {C magnitude} (only) measures {D magnitude} according to some (one) of {A magnitude}, {B magnitude}, {C magnitude} [Prop. 9.11].
+And thus {E magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
 The very opposite thing was assumed.
-Thus, F is not the same as one of A, B, C.
-Similarly, we can show that F is measured by A, (by) again showing that F is not prime.
-For if (F is prime), and measures D, then it will also measure A, (despite A) being prime (and) not being the same as it [Prop. 9.12].
+Thus, {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
+Similarly, we can show that {F magnitude} is measured by {A magnitude}, (by) again showing that {F magnitude} is not prime.
+For if ({F magnitude} is prime), and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
 The very thing is impossible.
-Thus, F is not prime.
+Thus, {F magnitude} is not prime.
 Thus, (it is) composite.
 And every composite number is measured by some prime number [Prop. 7.31].
-Thus, F is measured by some prime number.
-So I say that it will be measured by no other prime number than A.
-For if some other prime (number) measures F, and F measures D, then this (prime number) will thus also measure D.
-Hence, it will also measure A, (despite A) being prime (and) not being the same as it [Prop. 9.12].
+Thus, {F magnitude} is measured by some prime number.
+So I say that it will be measured by no other prime number than {A magnitude}.
+For if some other prime (number) measures {F magnitude}, and {F magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.
+Hence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
 The very thing is impossible.
-Thus, A measures F .
-And since E measures D according to F, E has thus made D (by) multiplying F.
-But, in fact, A has also made D (by) multiplying C [Prop. 9.11 corr.].
-Thus, the (number created) from (multiplying) A, C is equal to the (number created) from (multiplying) E, F.
-Thus, proportionally, as A is to E, so F (is) to C [Prop. 7.19].
-And A measures E.
-Thus, F also measures C.
-Let it measure it according to G.
-So, similarly, we can show that G is not the same asoneofA,B,andthatitismeasuredbyA.
-And since F measures C according to G, F has thus made C (by) multiplying G.
-But, in fact, A has also made C (by) multiplying B [Prop. 9.11 corr.].
-Thus, the (number created) from (multiplying) A, B is equal to the (number created) from (multiplying) F, G.
-Thus, proportionally, as A (is) to F, so G (is) to B [Prop. 7.19].
-And A measures F.
-Thus, G also measures B.
-Let it measure it according to H.
-So, similarly, we can show that H is not the same as A.
-And since G measures B according to H, G has thus made B (by) multiplying H.
-But, in fact, A has also made B (by) multiplying itself [Prop. 9.8].
-Thus, the (number created) from (multiplying) H, G is equal to the square on A.
-Thus, as H is to A, (so) A (is) to G [Prop. 7.19].
-And A measures G.
-Thus, H also measures A, (despite A) being prime (and) not being the same as it.
+Thus, {A magnitude} measures {F magnitude}.
+And since {E magnitude} measures {D magnitude} according to {F magnitude}, {E magnitude} has thus made {D magnitude} (by) multiplying {F magnitude}.
+But, in fact, {A magnitude} has also made {D magnitude} (by) multiplying {C magnitude} [Prop. 9.11 corr.].
+Thus, the (number created) from (multiplying) {A magnitude}, {C magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {F magnitude}.
+Thus, proportionally, as {A magnitude} is to {E magnitude}, so {F magnitude} (is) to {C magnitude} [Prop. 7.19].
+And {A magnitude} measures {E magnitude}.
+Thus, {F magnitude} also measures {C magnitude}.
+Let it measure it according to {G magnitude}.
+So, similarly, we can show that {G magnitude} is not the same as one of {A magnitude}, {B magnitude}, and that it is measured by {A magnitude}.
+And since {F magnitude} measures {C magnitude} according to {G magnitude}, {F magnitude} has thus made {C magnitude} (by) multiplying {G magnitude}.
+But, in fact, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude} [Prop. 9.11 corr.].
+Thus, the (number created) from (multiplying) {A magnitude}, {B magnitude} is equal to the (number created) from (multiplying) {F magnitude}, {G magnitude}.
+Thus, proportionally, as {A magnitude} (is) to {F magnitude}, so {G magnitude} (is) to {B magnitude} [Prop. 7.19].
+And {A magnitude} measures {F magnitude}.
+Thus, {G magnitude} also measures {B magnitude}.
+Let it measure it according to {H magnitude}.
+So, similarly, we can show that {H magnitude} is not the same as {A magnitude}.
+And since {G magnitude} measures {B magnitude} according to {H magnitude}, {G magnitude} has thus made {B magnitude} (by) multiplying {H magnitude}.
+But, in fact, {A magnitude} has also made {B magnitude} (by) multiplying itself [Prop. 9.8].
+Thus, the (number created) from (multiplying) {H magnitude}, {G magnitude} is equal to the square on {A magnitude}.
+Thus, as {H magnitude} is to {A magnitude}, (so) {A magnitude} (is) to {G magnitude} [Prop. 7.19].
+And {A magnitude} measures {G magnitude}.
+Thus, {H magnitude} also measures {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it.
 The very thing (is) absurd.
-Thus, the greatest (number) D cannot be measured by another (number) except (one of) A, B, C.
+Thus, the greatest (number) {D magnitude} cannot be measured by another (number) except (one of) {A magnitude}, {B magnitude}, {C magnitude}.
 (Which is) the very thing it was required to show.

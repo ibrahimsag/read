@@ -1,19 +1,19 @@
 If a least number is measured by (some) prime numbers then it will not be measured by any other prime number except (one of) the original measuring (numbers).
 
-For let A be the least number measured by the prime numbers B, C, D.
-I say that A will not be measured by any other prime number except (one of) B, C, D.
+For let {A magnitude} be the least number measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.
+I say that {A magnitude} will not be measured by any other prime number except (one of) {B magnitude}, {C magnitude}, {D magnitude}.
 
-For, if possible, let it be measured by the prime (number) E.
-And let E not be the same as one of B, C, D.
-And since E measures A, let it measure it according to F.
-Thus, E has made A (by) multiplying F.
-And A is measured by the prime numbers B, C, D.
+For, if possible, let it be measured by the prime (number) {E magnitude}.
+And let {E magnitude} not be the same as one of {B magnitude}, {C magnitude}, {D magnitude}.
+And since {E magnitude} measures {A magnitude}, let it measure it according to {F magnitude}.
+Thus, {E magnitude} has made {A magnitude} (by) multiplying {F magnitude}.
+And {A magnitude} is measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.
 And if two numbers make some (number by) multiplying one another, and some prime number measures the number created from them, then (the prime number) will also measure one of the original (numbers) [Prop. 7.30].
-Thus, B, C, D will measure one of E, F.
-In fact, they do not measure E.
-For E is prime, and not the same as one of B, C, D.
-Thus, they (all) measure F, which is less than A.
+Thus, {B magnitude}, {C magnitude}, {D magnitude} will measure one of {E magnitude}, {F magnitude}.
+In fact, they do not measure {E magnitude}.
+For {E magnitude} is prime, and not the same as one of {B magnitude}, {C magnitude}, {D magnitude}.
+Thus, they (all) measure {F magnitude}, which is less than {A magnitude}.
 The very thing (is) impossible.
-For A was assumed (to be) the least (number) measured by B, C, D.
-Thus, no prime number can measure A except (one of) B, C, D.
+For {A magnitude} was assumed (to be) the least (number) measured by {B magnitude}, {C magnitude}, {D magnitude}.
+Thus, no prime number can measure {A magnitude} except (one of) {B magnitude}, {C magnitude}, {D magnitude}.
 (Which is) the very thing it was required to show.

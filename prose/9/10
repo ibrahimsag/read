@@ -1,37 +1,37 @@
 If any multitude whatsoever of numbers is [continuously] proportional, (starting) from a unit, and the (number) after the unit is not square, then no other (number) will be square either, apart from the third from the unit, and all those (numbers after that) which leave an interval of one (number).
 And if the (number) after the unit is not cube, then no other (number) will be cube either, apart from the fourth from the unit, and all those (numbers after that) which leave an interval of two (numbers).
 
-Let any multitude whatsoever of numbers, A, B, C, D, E, F, be continuously proportional, (starting) from a unit.
-And let the (number) after the unit, A, not be square.
+Let any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, be continuously proportional, (starting) from a unit.
+And let the (number) after the unit, {A magnitude}, not be square.
 I say that no other (number) will be square either, apart from the third from the unit [and (all) those (numbers after that) which leave an interval of one (number)].
 
-For, if possible, let C be square.
-And B is also square [Prop. 9.8].
-Thus, B and C have to one another (the) ratio which (some) square number (has) to (some other) square number.
-And as B is to C, (so) A (is) to B.
-Thus, A and B have to one another (the) ratio which (some) square number has to (some other) square number.
-Hence, A and B are similar plane (numbers) [Prop. 8.26].
-And B is square.
-Thus, A is also square.
+For, if possible, let {C magnitude} be square.
+And {B magnitude} is also square [Prop. 9.8].
+Thus, {B magnitude} and {C magnitude} have to one another (the) ratio which (some) square number (has) to (some other) square number.
+And as {B magnitude} is to {C magnitude}, (so) {A magnitude} (is) to {B magnitude}.
+Thus, {A magnitude} and {B magnitude} have to one another (the) ratio which (some) square number has to (some other) square number.
+Hence, {A magnitude} and {B magnitude} are similar plane (numbers) [Prop. 8.26].
+And {B magnitude} is square.
+Thus, {A magnitude} is also square.
 The very opposite thing was assumed.
-C is thus not square.
+{C magnitude} is thus not square.
 So, similarly, we can show that no other (number is) square either, apart from the third from the unit, and (all) those (numbers after that) which leave an interval of one (number).
 
-And so let A not be cube.
+And so let {A magnitude} not be cube.
 I say that no other (number) will be cube either, apart from the fourth from the unit, and (all) those (numbers after that) which leave an interval of two (numbers).
 
-For, if possible, let D be cube.
-And C is also cube [Prop. 9.8].
+For, if possible, let {D magnitude} be cube.
+And {C magnitude} is also cube [Prop. 9.8].
 For it is the fourth (number) from the unit.
-And as C is to D, (so) B (is) to C.
-And B thus has to C the ratio which (some) cube (number has) to (some other) cube (number).
-And C is cube.
-Thus, B is also cube [Props. 7.13, 8.25].
-And since as the unit is to A, (so) A (is) to B, and the unit measures A according to the units in it, A thus also measures B according to the units in (A).
-Thus, A has made the cube (number) B (by) multiplying itself.
+And as {C magnitude} is to {D magnitude}, (so) {B magnitude} (is) to {C magnitude}.
+And {B magnitude} thus has to {C magnitude} the ratio which (some) cube (number has) to (some other) cube (number).
+And {C magnitude} is cube.
+Thus, {B magnitude} is also cube [Props. 7.13, 8.25].
+And since as the unit is to {A magnitude}, (so) {A magnitude} (is) to {B magnitude}, and the unit measures {A magnitude} according to the units in it, {A magnitude} thus also measures {B magnitude} according to the units in ({A magnitude}).
+Thus, {A magnitude} has made the cube (number) {B magnitude} (by) multiplying itself.
 And if a number makes a cube (number by) multiplying itself then it itself will be cube [Prop. 9.6].
-Thus, A (is) also cube.
+Thus, {A magnitude} (is) also cube.
 The very opposite thing was assumed.
-Thus, D is not cube.
+Thus, {D magnitude} is not cube.
 So, similarly, we can show that no other (number) is cube either, apart from the fourth from the unit, and (all) those (numbers after that) which leave an interval of two (numbers).
 (Which is) the very thing it was required to show.

@@ -1,12 +1,12 @@
 If an odd (number) is subtracted from an even number then the remainder will be odd.
 
-For let the odd (number) BC have been subtracted from the even number AB.
-I say that the remainder CA is odd.
+For let the odd (number) {BC magnitude} have been subtracted from the even number {AB magnitude}.
+I say that the remainder {CA magnitude} is odd.
 
-For let the unit CD have been subtracted from BC.
-DB is thus even [Def. 7.7].
-And AB is also even.
-And thus the remainder AD is even [Prop. 9.24].
-And CD is a unit.
-Thus, CA is odd [Def. 7.7].
+For let the unit {CD magnitude} have been subtracted from {BC magnitude}.
+{DB magnitude} is thus even [Def. 7.7].
+And {AB magnitude} is also even.
+And thus the remainder {AD magnitude} is even [Prop. 9.24].
+And {CD magnitude} is a unit.
+Thus, {CA magnitude} is odd [Def. 7.7].
 (Which is) the very thing it was required to show.

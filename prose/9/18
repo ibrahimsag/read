@@ -1,30 +1,30 @@
 For two given numbers, to investigate whether it is possible to find a third (number) proportional to them.
 
-Let A and B be the two given numbers.
+Let {A magnitude} and {B magnitude} be the two given numbers.
 And let it be required to investigate whether it is possible to find a third (number) proportional to them.
 
-So A and B are either prime to one another, or not.
+So {A magnitude} and {B magnitude} are either prime to one another, or not.
 And if they are prime to one another then it has (already) been show that it is impossible to find a third (number) proportional to them [Prop. 9.16].
 
-And so let A and B not be prime to one another.
-And let B make C (by) multiplying itself.
-So A either measures, or does not measure, C.
-Let it first of all measure (C) according to D.
-Thus, A has made C (by) multiplying D.
-But, in fact, B has also made C (by) multiplying itself.
-Thus, the (number created) from (multiplying) A, D is equal to the (square) on B.
-Thus, as A is to B, (so) B (is) to D [Prop. 7.19].
-Thus, a third number has been found proportional to A, B, (namely) D.
+And so let {A magnitude} and {B magnitude} not be prime to one another.
+And let {B magnitude} make {C magnitude} (by) multiplying itself.
+So {A magnitude} either measures, or does not measure, {C magnitude}.
+Let it first of all measure ({C magnitude}) according to {D magnitude}.
+Thus, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.
+But, in fact, {B magnitude} has also made {C magnitude} (by) multiplying itself.
+Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude}.
+Thus, as {A magnitude} is to {B magnitude}, (so) {B magnitude} (is) to {D magnitude} [Prop. 7.19].
+Thus, a third number has been found proportional to {A magnitude}, {B magnitude}, (namely) {D magnitude}.
 
-And so let A not measure C.
-I say that it is impossible to find a third number proportional to A, B.
-For, if possible, let it have been found, (and let it be) D.
-Thus, the (number created) from (multiplying) A, D is equal to the (square) on B [Prop. 7.19].
-And the (square) on B is C.
-Thus, the (number created) from (multiplying) A, D is equal to C.
-Hence, A has made C (by) multiplying D.
-Thus, A measures C according to D.
-But (A) was, in fact, also assumed (to be) not measuring (C).
+And so let {A magnitude} not measure {C magnitude}.
+I say that it is impossible to find a third number proportional to {A magnitude}, {B magnitude}.
+For, if possible, let it have been found, (and let it be) {D magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude} [Prop. 7.19].
+And the (square) on {B magnitude} is {C magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to {C magnitude}.
+Hence, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.
+Thus, {A magnitude} measures {C magnitude} according to {D magnitude}.
+But ({A magnitude}) was, in fact, also assumed (to be) not measuring ({C magnitude}).
 The very thing (is) absurd.
-Thus, it is not possible to find a third number proportional to A, B when A does not measure C.
+Thus, it is not possible to find a third number proportional to {A magnitude}, {B magnitude} when {A magnitude} does not measure {C magnitude}.
 (Which is) the very thing it was required to show.
