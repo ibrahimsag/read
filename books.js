@@ -1,4 +1,5 @@
 import book9 from './figures/9.js';
+import book10 from './figures/10.js';
 
 let haveClips = (i_book) => (p, ind) => {
   if(ind > 0)
@@ -15,12 +16,14 @@ let descs = [
   "Similar Figures",
   "Elementary Number Theory",
   "Continued Proportion",
-  "Applications of Number Theory"
+  "Applications of Number Theory",
+  "Incommensurable Magnitudes"
 ];
 
 let books = {
   descs,
   9: book9(rg).map(f => f()).map(haveClips(9)),
+  10: book10(rg).map(f => f()),
 };
 
 window.books = books;
