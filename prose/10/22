@@ -1,0 +1,32 @@
+The square on a medial (straight-line), being applied to a rational (straight-line), produces as breadth a (straight-line which is) rational, and incommensurable in length with the (straight-line) to which it is applied.
+
+Let A be a medial (straight-line), and CB a rational (straight-line), and let the rectangular area BD, equal to the (square) on A, have been applied to BC, producing CD as breadth.
+I say that CD is rational, and incommensurable in length with CB.
+
+For since A is medial, the square on it is equal to a (rectangular) area contained by rational (straight-lines which are) commensurable in square only [Prop. 10.21].
+Let the square on (A) be equal to GF.
+And the square on (A) is also equal to BD.
+Thus, BD is equal to GF.
+And (BD) is also equiangular with (GF).
+And for equal and equiangular parallelograms, the sides about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, proportionally, as BC is to EG, so EF (is) to CD.
+And, also, as the (square) on BC is to the (square) on EG, so the (square) on EF (is) to the (square) on CD [Prop. 6.22].
+And the (square) on CB is commensurable with the (square) on EG.
+For they are each rational.
+Thus, the (square) on EF is also commensurable with the (square) on CD [Prop. 10.11].
+And the (square) on EF is rational.
+Thus, the (square) on CD is also rational [Def. 10.4].
+Thus, CD is rational.
+And since EF is incommensurable in length with EG.
+For they are commensurable in square only.
+And as EF (is) to EG, so the (square) on EF (is) to the (rectangle contained) by FE and EG [see previous lemma].
+The (square) on EF [is] thus incommensurable with the (rectangle contained) by FE and EG [Prop. 10.11].
+But, the (square) on CD is commensurable with the (square) on EF.
+For they are rational in square.
+And the (rectangle contained) by DC and CB is commensurable with the (rectangle contained) by FE and EG.
+For they are (both) equal to the (square) on A.
+Thus, the (square) on CD is also incommensurable with the (rectangle contained) by DC and CB [Prop. 10.13].
+And as the (square) on CD (is) to the (rectangle contained) by DC and CB, so DC is to CB [see previous lemma].
+Thus, DC is incommensurable in length with CB [Prop. 10.11].
+Thus, CD is rational, and incommensurable in length with CB.
+(Which is) the very thing it was required to show.

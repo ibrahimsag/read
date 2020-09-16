@@ -1,0 +1,34 @@
+To find two square numbers such that the sum of them is not square.
+
+For let the (number created) from (multiplying) AB and BC, as we said, be square.
+And (let) CA (be) even.
+And let CA have been cut in half at D.
+So it is clear that the square (number created) from (multiplying) AB and BC, plus the square on CD, is equal to the square on BD [see previous lemma].
+Let the unit DE have been subtracted (from BD).
+Thus, the (number created) from (multiplying) AB and BC, plus the (square) on CE, is less than the square on BD.
+I say, therefore, that the square (number created) from (multiplying) AB and BC, plus the (square) on CE, is not square.
+
+For if it is square, it is either equal to the (square) on BE, or less than the (square) on BE, but cannot any more be greater (than the square on BE), lest the unit be divided.
+First of all, if possible, let the (number created) from (multiplying) AB and BC, plus the (square) on CE, be equal to the (square) on BE.
+And let GA be double the unit DE.
+Therefore, since the whole of AC is double the whole of CD, of which AG is double DE, the remainder GC is thus double the remainder EC.
+Thus, GC has been cut in half at E.
+Thus, the (number created) from (multiplying) GB and BC, plus the (square) on CE, is equal to the square on BE [Prop. 2.6].
+But, the (number created) from (multiplying) AB and BC, plus the (square) on CE, was also assumed (to be) equal to the square on BE.
+Thus, the (number created) from (multiplying) GB and BC, plus the (square) on CE, is equal to the (number created) from (multiplying) AB and BC, plus the (square) on CE.
+And subtracting the (square) on CE from both, AB is inferred (to be) equal to GB.
+The very thing is absurd.
+Thus, the (number created) from (multiplying) AB and BC, plus the (square) on CE, is not equal to the (square) on BE.
+So I say that (it is) not less than the (square) on BE either.
+For, if possible, let it be equal to the (square) on BF.
+And (let) HA (be) double DF.
+And it can again be inferred that HC (is) double CF.
+Hence, CH has also been cut in half at F.
+And, on account of this, the (number created) from (multiplying) HB and BC, plus the (square) on FC, becomes equal to the (square) on BF [Prop. 2.6].
+And the (number created) from (multiplying) AB and BC, plus the (square) on CE, was also assumed (to be) equal to the (square) on BF.
+Hence, the (number created) from (multiplying) HB and BC, plus the (square) on CF, will also be equal to the (number created) from (multiplying) AB and BC, plus the (square) on CE.
+The very thing is absurd.
+Thus, the (number created) from (multiplying) AB and BC, plus the (square) on CE, is not equal to less than the (square) on BE.
+And it was shown that (is it) not equal to the (square) on BE either.
+Thus, the (number created) from (multiplying) AB and BC, plus the square on CE, is not square.
+(Which is) the very thing it was required to show.

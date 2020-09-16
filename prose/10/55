@@ -1,0 +1,40 @@
+If an area is contained by a rational (straight-line) and a second binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called first bimedial.
+
+For let the area ABCD be contained by the rational (straight-line) AB and by the second binomial (straight-line) AD.
+I say that the square-root of area AC is a first bimedial(straight-line).
+
+For since AD is a second binomial (straight-line), let it have been divided into its (component) terms at E, such that AE is the greater term.
+Thus, AE and ED are rational (straight-lines which are) commensurable in square only, and the square on AE is greater than (the square on) ED by the (square) on (some straight-line) commensurable (in length) with (AE), and the lesser term ED is commensurable in length with AB [Def. 10.6].
+Let ED have been cut in half at F.
+And let the (rectangle contained) by AGE, equal to the (square) on EF, have been applied to AE, falling short by a square figure.
+AG (is) thus commensurable in length with GE [Prop. 10.17].
+And let GH, EK, and FL have been drawn through (points) G, E, and F (respectively), parallel to AB and CD.
+And let the square SN, equal to the parallelogram AH, have been constructed, and the square NQ, equal to GK.
+And let MN be laid down so as to be straight-on to NO.
+Thus, RN [is] also straight-on to NP.
+And let the square SQ have been completed.
+So, (it is) clear from what has been previously demonstrated [Prop. 10.53 lem.] that MR is the mean proportional to SN and NQ, and (is) equal to EL, and that MO is the square-root of the area AC.
+So, we must show that MO is a first bimedial (straight-line).
+
+Since AE is incommensurable in length with ED, and ED (is) commensurable (in length) with AB, AE (is) thus incommensurable (in length) with AB [Prop. 10.13].
+And since AG is commensurable (in length) with EG, AE is also commensurable (in length) with each of AG and GE [Prop. 10.15].
+But, AE is incommensurable in length with AB.
+Thus, AG and GE are also (both) incommensurable (in length) with AB [Prop. 10.13].
+Thus, BA, AG, and (BA, and) GE are (pairs of) rational (straight-lines which are) commensurable in square only.
+And, hence, each of AH and GK is a medial (area) [Prop. 10.21].
+Hence, each of SN and NQ is also a medial (area).
+Thus, MN and NO are medial (straight-lines).
+And since AG (is) commensurable in length with GE, AH is also commensurable with GK ---that is to say, SN with NQ---that is to say, the (square) on MN with the (square) on NO [hence, MN and NO are commensurable in square] [Props. 6.1, 10.11].
+And since AE is incommensurable in length with ED, but AE is commensurable (in length) with AG, and ED commensurable (in length) with EF, AG (is) thus incommensurable (in length) with EF [Prop. 10.13].
+Hence, AH is also incommensurable with EL---that is to say, SN with MR---that is to say, PN with NR---that is to say, MN is incommensurable in length with NO [Props. 6.1, 10.11].
+But MN and NO have also been shown to be medial (straight-lines) which are commensurable in square.
+Thus, MN and NO are medial (straight-lines which are) commensurable in square only.
+So, I say that they also contain a rational (area).
+For since DE was assumed (to be) commensurable (in length) with each of AB and EF, EF (is) thus also commensurable with EK [Prop. 10.12].
+And they (are) each rational.
+Thus, EL---that is to say, MR---(is) rational [Prop. 10.19].
+And MR is the (rectangle contained) by MNO.
+And if two medial (straight-lines), commensurable in square only, which contain a rational (area), are added together, then the whole is (that) irrational (straight-line which is) called first bimedial [Prop. 10.37].
+
+Thus, MO is a first bimedial (straight-line).
+(Which is) the very thing it was required to show.

@@ -1,0 +1,43 @@
+The square on a binomial (straight-line) applied to a rational (straight-line) produces as breadth a first binomial (straight-line).
+
+Let AB be a binomial (straight-line), having been divided into its (component) terms at C, such that AC is the greater term.
+And let the rational (straight-line) DE be laid down.
+And let the (rectangle) DEFG, equal to the (square) on AB, have been applied to DE, producing DG as breadth.
+I say that DG is a first binomial (straight-line).
+
+For let DH, equal to the (square) on AC, and KL, equal to the (square) on BC, have been applied to DE.
+Thus, the remaining twice the (rectangle contained) by AC and CB is equal to MF [Prop. 2.4].
+Let MG have been cut in half at N, and let NO have been drawn parallel [to each of ML and GF].
+MO and NF are thus each equal to once the (rectangle contained) by ACB.
+And since AB is a binomial (straight-line), having been divided into its (component) terms at C, AC and CB are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
+Thus, the (squares) on AC and CB are rational, and commensurable with one another.
+And hence the sum of the (squares) on AC and CB (is rational) [Prop. 10.15], and is equal to DL.
+Thus, DL is rational.
+And it is applied to the rational (straight-line) DE.
+DM is thus rational, and commensurable in length with DE [Prop. 10.20].
+Again, since AC and CB are rational (straight-lines which are) commensurable in square only, twice the (rectangle contained) by AC and CB---that is to say, MF---is thus medial [Prop. 10.21].
+And it is applied to the rational (straight-line) ML.
+MG is thus also rational, and incommensurable in length with ML---that is to say, with DE [Prop. 10.22].
+And MD is also rational, and commensurable in length with DE.
+Thus, DM is incommensurable in length with MG [Prop. 10.13].
+And they are rational.
+DM and MG are thus rational (straight-lines which are) commensurable in square only.
+Thus, DG is a binomial (straight-line) [Prop. 10.36].
+So, we must show that (it is) also a first (binomial straight-line).
+
+Since the (rectangle contained) by ACB is the mean proportional to the squares on AC and CB [Prop. 10.53 lem.], MO is thus also the mean proportional to DH and KL.
+Thus, as DH is to MO, so MO (is) to KL---that is to say, as DK (is) to MN, (so) MN (is) to MK [Prop. 6.1].
+Thus, the (rectangle contained) by DK and KM is equal to the (square) on MN [Prop. 6.17].
+And since the (square) on AC is commensurable with the (square) on CB, DH is also commensurable with KL.
+Hence, DK is also commensurable with KM [Props. 6.1, 10.11].
+And since (the sum of) the squares on AC and CB is greater than twice the (rectangle contained) by AC and CB [Prop. 10.59 lem.], DL (is) thus also greater than MF.
+Hence, DM is also greater than MG [Props. 6.1, 5.14].
+And the (rectangle contained) by DK and KM is equal to the (square) on MN---that is to say, to one quarter the (square) on MG.
+And DK (is) commensurable (in length) with KM.
+And if there are two unequal straight-lines, and a (rectangle) equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) commensurable (in length), then the square on the greater is larger than (the square on) the lesser by the (square) on (some straight-line) commensurable (in length) with the greater [Prop. 10.17].
+Thus, the square on DM is greater than (the square on) MG by the (square) on (some straight-line) commensurable (in length) with (DM).
+And DM and MG are rational.
+And DM, which is the greater term, is commensurable in length with the (previously) laid down rational (straight-line) DE.
+
+Thus, DG is a first binomial (straight-line) [Def. 10.5].
+(Which is) the very thing it was required to show.

@@ -1,0 +1,13 @@
+The rectangle contained by rational straight-lines (which are) commensurable in length is rational.
+
+For let the rectangle AC have been enclosed by the rational straight-lines AB and BC (which are) commensurable in length.
+I say that AC is rational.
+
+For let the square AD have been described on AB.
+AD is thus rational [Def. 10.4].
+And since AB is commensurable in length with BC, and AB is equal to BD, BD is thus commensurable in length with BC.
+And as BD is to BC, so DA (is) to AC [Prop. 6.1].
+Thus, DA is commensurable with AC [Prop. 10.11].
+And DA (is) rational.
+Thus, AC is also rational [Def. 10.4].
+Thus, the ... by rational straight-lines ... commensurable, and so on ....

@@ -1,0 +1,39 @@
+The (square) on that (straight-line) which with a medial (area) makes a medial whole, applied to a rational (straight-line), produces a sixth apotome as breadth.
+
+Let AB be that (straight-line) which with a medial (area) makes a medial whole, and CD a rational (straight-line).
+And let CE, equal to the (square) on AB, have been applied to CD, producing CF as breadth.
+I say that CF is a sixth apotome.
+
+For let BG be an attachment to AB.
+Thus, AG and GB are incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by AG and GB medial, and the (sum of the squares) on AG and GB incommensurable with twice the (rectangle contained) by AG and GB [Prop. 10.78].
+Therefore, let CH, equal to the (square) on AG, have been applied to CD, producing CK as breadth, and KL, equal to the (square) on BG.
+Thus, the whole of CL is equal to the (sum of the squares) on AG and GB.
+CL [is] thus also medial.
+And it is applied to the rational (straight-line) CD, producing CM as breadth.
+Thus, CM is rational, and incommensurable in length with CD [Prop. 10.22].
+Therefore, since CL is equal to the (sum of the squares) on AG and GB, of which CE (is) equal to the (square) on AB, the remainder FL is thus equal to twice the (rectangle contained) by AG and GB [Prop. 2.7].
+And twice the (rectangle contained) by AG and GB (is) medial.
+Thus, FL is also medial.
+And it is applied to the rational (straight-line) FE, producing FM as breadth.
+FM is thus rational, and incommensurable in length with CD [Prop. 10.22].
+And since the (sum of the squares) on AG and GB is incommensurable with twice the (rectangle contained) by AG and GB, and CL equal to the (sum of the squares) on AG and GB, and FL equal to twice the (rectangle contained) by AG and GB, CL [is] thus incommensurable with FL.
+And as CL (is)toFL,soCM istoMF [Prop. 6.1].
+Thus,CM is incommensurable in length with MF [Prop. 10.11].
+And they are both rational.
+Thus, CM and MF are rational (straight-lines which are) commensurable in square only.
+CF is thus an apotome [Prop. 10.73].
+So, I say that (it is) also a sixth (apotome).
+
+For since FL is equal to twice the (rectangle contained) by AG and GB, let FM have been cut in half at N, and let NO have been drawn through N, parallel to CD.
+Thus, FO and NL are each equal to the (rectangle contained) by AG and GB.
+And since AG and GB are incommensurable in square, the (square) on AG is thus incommensurable with the (square) on GB.
+But, CH is equal to the (square) on AG, and KL is equal to the (square) on GB.
+Thus, CH is incommensurable withKL.
+And as CH (is) to KL, so CK is to KM [Prop. 6.1].
+Thus, CK is incommensurable (in length) with KM [Prop. 10.11].
+And since the (rectangle contained) by AG and GB is the mean proportional to the (squares) on AG and GB [Prop. 10.21 lem.], and CH is equal to the (square) on AG, and KL equal to the (square) on GB, and NL equal to the (rectangle contained) by AG and GB, NL is thus also the mean proportional to CH and KL.
+Thus, as CH is to NL, so NL (is) to KL.
+And for the same (reasons as the preceding propositions), the square on CM is greater than (the square on) MF by the (square) on (some straight-line) incommensurable (in length) with (CM) [Prop. 10.18].
+And neither of them is commensurable with the (previously) laid down rational (straight-line) CD.
+Thus, CF is a sixth apotome [Def. 10.16].
+(Which is) the very thing it was required to show.

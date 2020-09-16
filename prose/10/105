@@ -1,0 +1,20 @@
+A (straight-line) commensurable (in length) with a minor (straight-line) is a minor (straight-line).
+
+For let AB be a minor (straight-line), and (let) CD (be) commensurable (in length) with AB.
+I say that CD is also a minor (straight-line).
+
+For let the same things have been contrived (as in the former proposition).
+And since AE and EB are (straight-lines which are) incommensurable in square [Prop. 10.76], CF and FD are thus also (straight-lines which are) incommensurable in square [Prop. 10.13].
+Therefore, since as AE is to EB, so CF (is) to FD [Props. 5.12, 5.16], thus also as the (square) on AE is to the (square) on EB, so the (square) on CF (is) to the (square) on FD [Prop. 6.22].
+Thus, via composition, as the (sum of the squares) on AE and EB is to the (square) on EB, so the (sum of the squares) on CF and FD (is) to the (square) on FD [Prop. 5.18], [also alternately].
+And the (square) on BE is commensurable with the (square) on DF [Prop. 10.104].
+The sum of the squares on AE and EB (is) thus also commensurable with the sum of the squares on CF and FD [Prop. 5.16, 10.11].
+And the sum of the (squares) on AE and EB is rational [Prop. 10.76].
+Thus, the sum of the (squares) on CF and FD is also rational [Def. 10.4].
+Again, since as the (square) on AE is to the (rectangle contained) by AE and EB, so the (square) on CF (is) to the (rectangle contained) by CF and FD [Prop. 10.21 lem.], and the square on AE (is) commensurable with the square on CF, the (rectangle contained) by AE and EB is thus also commensurable with the (rectangle contained) by CF and FD.
+And the (rectangle contained) by AE and EB (is) medial [Prop. 10.76].
+Thus, the (rectangle contained) by CF and FD (is) also medial [Prop. 10.23 corr.].
+CF and FD are thus (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
+
+Thus, CD is a minor (straight-line) [Prop. 10.76].
+(Which is) the very thing it was required to show.

@@ -1,0 +1,27 @@
+To find a second binomial (straight-line).
+
+Let the two numbers AC and CB be laid down such that their sum AB has to BC the ratio which (some) square number (has) to (some) square number, and does not have to AC the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
+And let the rational (straight-line) D be laid down.
+And let EF be commensurable in length with D.
+EF is thus a rational (straight-line).
+So, let it also have been contrived that as the number CA (is) to AB, so the (square) on EF (is) to the (square) on FG [Prop. 10.6 corr.].
+Thus, the (square) on EF is commensurable with the (square) on FG [Prop. 10.6].
+Thus, FG is also a rational (straight-line).
+And since the number CA does not have to AB the ratio which (some) square number (has) to (some) square number, the (square) on EF does not have to the (square) on FG the ratio which (some) square number (has) to (some) square number either.
+Thus, EF is incommensurable in length with FG [Prop. 10.9].
+EF and FG are thus rational (straight-lines which are) commensurable in square only.
+Thus, EG is a binomial (straight-line) [Prop. 10.36].
+So, we must show that (it is) also a second (binomial straight-line).
+
+For since, inversely, as the number BA is to AC, so the (square) on GF (is) to the (square) on FE [Prop. 5.7 corr.], and BA (is) greater than AC, the (square) on GF (is) thus [also] greater than the (square) on FE [Prop. 5.14].
+Let (the sum of) the (squares) on EF and H be equal to the (square) on GF.
+Thus, via conversion, as AB is to BC, so the (square) on FG (is) to the (square) on H [Prop. 5.19 corr.].
+But, AB has to BC the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on FG also has to the (square) on H the ratio which (some) square number (has) to (some) square number.
+Thus, FG is commensurable in length with H [Prop. 10.9].
+Hence, the square on FG is greater than (the square on) FE by the (square) on (some straight-line) commensurable in length with (FG).
+And FG and FE are rational (straight-lines which are) commensurable in square only.
+And the lesser term EF is commensurable in length with the rational (straight-line) D (previously) laid down.
+
+Thus, EG is a second binomial (straight-line) [Def. 10.6].
+(Which is) the very thing it was required to show.

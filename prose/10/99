@@ -1,0 +1,48 @@
+The (square) on a second apotome of a medial (straight-line), applied to a rational (straight-line), produces a third apotome as breadth.
+
+Let AB be the second apotome of a medial (straight-line), and CD a rational (straight-line).
+And let CE, equal to the (square) on AB, have been applied to CD, producing CF as breadth.
+I say that CF is a third apotome.
+
+For let BG be an attachment to AB.
+Thus, AG and GB are medial (straight-lines which are) commensurable in square only, containing a medial (area) [Prop. 10.75].
+And let CH, equal to the (square) on AG, have been applied to CD, producing CK as breadth.
+And let KL, equal to the (square) on BG, have been applied to KH, producing KM as breadth.
+Thus, the whole of CL is equal to the (sum of the squares) on AG and GB [and the (sum of the squares) on AG and GB is medial].
+CL (is) thus also medial [Props. 10.15, 10.23 corr.].
+And it has been applied to the rational (straight-line) CD, producing CM as breadth.
+Thus, CM is rational, and incommensurable in length with CD [Prop. 10.22].
+And since the whole of CL is equal to the (sum of the squares) on AG and GB, of which CE is equal to the (square) on AB, the remainder LF is thus equal to twice the (rectangle contained) by AG and GB [Prop. 2.7].
+Therefore, let FM have been cut in half at point N.
+And let NO have been drawn parallel to CD.
+Thus, FO and NL are each equal to the (rectangle contained) by AG and GB.
+And the (rectangle contained) by AG and GB (is) medial.
+Thus, FL is also medial.
+And it is applied to the rational (straight-line) EF, producing FM as breadth.
+FM is thus rational, and incommensurable in length with CD [Prop. 10.22].
+And since AG and GB are commensurable in square only, AG [is] thus incommensurable in length with GB.
+Thus, the (square) on AG is also incommensurable with the (rectangle contained) by AG and GB [Props. 6.1, 10.11].
+But, the (sum of the squares) on AG and GB is commensurable with the (square) on AG, and twice the (rectangle contained) by AG and GB with the (rectangle contained) by AG and GB.
+The (sum of the squares) on AG and GB is thus incommensurable with twice the (rectangle contained) by AG and GB [Prop. 10.13].
+But, CL is equal to the (sum of the squares) on AG and GB, and FL is equal to twice the (rectangle contained) by AG and GB.
+Thus, CL is incommensurable with FL.
+And as CL (is) to FL, so CM is to FM [Prop. 6.1].
+CM is thus incommensurable in length with FM [Prop. 10.11].
+And they are both rational (straight-lines).
+Thus, CM and MF are rational (straight-lines which are) commensurable in square only.
+CF is thus an apotome [Prop. 10.73].
+So, I say that (it is) also a third (apotome).
+
+For since the (square) on AG is commensurable with the (square) on GB, CH (is) thus also commensurable with KL.
+Hence, CK (is) also (commensurable in length) with KM [Props. 6.1, 10.11].
+And since the (rectangle contained) by AG and GB is the mean proportional to the (squares) on AG and GB [Prop. 10.21 lem.], and CH is equal to the (square) on AG, and KL equal to the (square) on GB, and NL equal to the (rectangle contained) by AG and GB, NL is thus also the mean proportional to CH and KL.
+Thus, as CH is to NL, so NL (is) to KL.
+But, as CH (is) to NL, so CK is to NM, and as NL (is) to KL, so NM (is) to KM [Prop. 6.1].
+Thus, as CK (is) to MN, so MN is to KM [Prop. 5.11].
+Thus, the (rectangle contained) by CK and KM is equal to the [(square) on MN---that is to say, to the] fourth part of the (square) on FM [Prop. 6.17].
+Therefore, since CM and MF are two unequal straight-lines, and (some area), equal to the fourth part of the (square) on FM, has been applied to CM, falling short by a square figure, and divides it into commensurable (parts), the square on CM is thus greater than (the square on) MF by the (square) on (some straight-line) commensurable (in length) with (CM) [Prop. 10.17].
+And neither of CM and MF is commensurable in length with the (previously) laid down rational (straight-line) CD.
+CF is thus a third apotome [Def. 10.13].
+
+Thus, the (square) on a second apotome of a medial (straight-line), applied to a rational (straight-line), produces a third apotome as breadth.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,20 @@
+[Only] one rational straight-line, which is commensurable in square only with the whole, can be attached to an apotome.
+
+Let AB be an apotome, with BC (so) attached to it.
+AC and CB are thus rational (straight-lines which are) commensurable in square only [Prop. 10.73].
+I say that another rational (straight-line), which is commensurable in square only with the whole, cannot be attached to AB.
+
+For, if possible, let BD be (so) attached (to AB).
+Thus, AD and DB are also rational (straight-lines which are) commensurable in square only [Prop. 10.73].
+And since by whatever (area) the (sum of the squares) on AD and DB exceeds twice the (rectangle contained) by AD and DB, the (sum of the squares) on AC and CB also exceeds twice the (rectangle contained) by AC and CB by this (same area).
+For both exceed by the same (area)---(namely), the (square) on AB [Prop. 2.7].
+Thus, alternately, by whatever (area) the (sum of the squares) on AD and DB exceeds the (sum of the squares) on AC and CB, twice the (rectangle contained) by AD and DB [also] exceeds twice the (rectangle contained) by AC and CB by this (same area).
+And the (sum of the squares) on AD and DB exceeds the (sum of the squares) on AC and CB by a rational (area).
+For both (are) rational (areas).
+Thus, twice the (rectangle contained) by AD and DB also exceeds twice the (rectangle contained) by AC and CB by a rational (area).
+The very thing is impossible.
+For both are medial (areas) [Prop. 10.21], and a medial (area) cannot exceed a(nother) medial (area) by a rational (area) [Prop. 10.26].
+Thus, another rational (straight-line), which is commensurable in square only with the whole, cannot be attached to AB.
+
+Thus, only one rational (straight-line), which is commensurable in square only with the whole, can be attached to an apotome.
+(Which is) the very thing it was required to show.

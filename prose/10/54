@@ -1,0 +1,51 @@
+If an area is contained by a rational (straight-line) and a first binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called binomial.
+
+For let the area AC be contained by the rational (straight-line) AB and by the first binomial (straight-line) AD.
+I say that square-root of area AC is the irrational (straight-line which is) called binomial.
+
+For since AD is a first binomial (straight-line), let it have been divided into its (component) terms at E, and let AE be the greater term.
+So, (it is) clear that AE and ED are rational (straight-lines which are) commensurable in square only, and that the square on AE is greater than (the square on) ED by the (square) on (some straight-line) commensurable (in length) with (AE), and that AE is commensurable (in length) with the rational (straight-line) AB (first) laid out [Def. 10.5].
+So, let ED have been cut in half at point F.
+And since the square on AE is greater than (the square on) ED by the (square) on (some straight-line) commensurable (in length) with (AE), thus if a (rectangle) equal to the fourth part of the (square) on the lesser (term)---that is to say, the (square) on EF---falling short by a square figure, is applied to the greater (term) AE, then it divides it into (terms which are) commensurable (in length) [Prop 10.17].
+Therefore, let the (rectangle contained) by AG and GE, equal to the (square) on EF, have been applied to AE.
+AG is thus commensurable in length with EG.
+And let GH, EK, and FL have been drawn from (points) G, E, and F (respectively), parallel to either of AB or CD.
+And let the square SN, equal to the parallelogram AH, have been constructed, and (the square) NQ, equal to (the parallelogram) GK [Prop. 2.14].
+And let MN be laid down so as to be straight-on to NO.
+RN is thus also straight-on to NP.
+And let the parallelogram SQ have been completed.
+SQ is thus a square [Prop. 10.53 lem.].
+And since the (rectangle contained) by AG and GE is equal to the (square) on EF, thus as AG is to EF, so FE (is) to EG [Prop. 6.17].
+And thus as AH (is) to EL, (so) EL (is) to KG [Prop. 6.1].
+Thus, EL is the mean proportional to AH and GK.
+But, AH is equal to SN, and GK (is) equal to NQ.
+EL is thus the mean proportional to SN and NQ.
+And MR is also the mean proportional to the same---(namely), SN and NQ [Prop. 10.53 lem.].
+EL is thus equal to MR.
+Hence, it is also equal to PO [Prop. 1.43].
+And AH plus GK is equal to SN plus NQ.
+Thus, the whole of AC is equal to the whole of SQ---that is to say, to the square on MO.
+Thus, MO (is) the square-root of (area) AC.
+I say that MO is a binomial (straight-line).
+
+For since AG is commensurable (in length) with GE, AE is also commensurable (in length) with each of AG and GE [Prop. 10.15].
+And AE was also assumed (to be) commensurable (in length) with AB.
+Thus, AG and GE are also commensurable (in length) with AB [Prop. 10.12].
+And AB is rational.
+AG and GE are thus each also rational.
+Thus, AH and GK are each rational (areas), and AH is commensurable with GK [Prop. 10.19].
+But, AH is equal to SN, and GK to NQ.
+SN and NQ---that is to say, the (squares) on MN and NO (respectively)---are thus also rational and commensurable.
+And since AE is incommensurable in length with ED, but AE is commensurable (in length) with AG, and DE (is) commensurable (in length) with EF, AG (is) thus also incommensurable (in length) with EF [Prop. 10.13].
+Hence, AH is also incommensurable with EL [Props. 6.1, 10.11].
+But, AH is equal to SN, and EL to MR.
+Thus, SN is also incommensurable with MR.
+But, as SN (is) to MR, (so) PN (is) to NR [Prop. 6.1].
+PN is thus incommensurable (in length) with NR [Prop. 10.11].
+And PN (is) equal to MN, and NR to NO.
+Thus, MN is incommensurable (in length) with NO.
+And the (square) on MN is commensurable with the (square) on NO, and each (is) rational.
+MN and NO are thus rational (straight-lines which are) commensurable in square only.
+
+Thus, MO is (both) a binomial (straight-line) [Prop. 10.36], and the square-root of AC.
+(Which is) the very thing it was required to show.

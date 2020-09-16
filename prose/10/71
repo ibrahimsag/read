@@ -1,0 +1,61 @@
+When a rational and a medial (area) are added together, four irrational (straight-lines) arise (as the square-roots of the total area)---either a binomial, or a first bimedial, or a major, or the square-root of a rational plus a medial (area).
+
+Let AB be a rational (area), and CD a medial (area).
+I say that the square-root of area AD is either binomial, or first bimedial, or major, or the square-root of a rational plus a medial (area).
+
+For AB is either greater or less than CD.
+Let it, first of all, be greater.
+And let the rational (straight-line) EF be laid down.
+And let (the rectangle) EG, equal to AB, have been applied to EF, producing EH as breadth.
+And let (the recatangle) HI, equal to DC, have been applied to EF, producing HK as breadth.
+And since AB is rational, and is equal to EG, EG is thus also rational.
+And it has been applied to the [rational] (straight-line) EF, producing EH as breadth.
+EH is thus rational, and commensurable in length with EF [Prop. 10.20].
+Again, since CD is medial, and is equal to HI, HI is thus also medial.
+And it is applied to the rational (straight-line) EF, producing HK as breadth.
+HK is thus rational, and incommensurable in length with EF [Prop. 10.22].
+And since CD is medial, and AB rational, AB is thus incommensurable with CD.
+Hence, EG is also incommensurable with HI.
+And as EG (is) to HI, so EH is to HK [Prop. 6.1].
+Thus, EH is also incommensurable in length with HK [Prop. 10.11].
+And they are both rational.
+Thus, EH and HK are rational (straight-lines which are) commensurable in square only.
+EK is thus a binomial (straight-line), having been divided (into its component terms) at H [Prop. 10.36].
+And since AB is greater than CD, and AB (is) equal to EG, and CD to HI, EG (is) thus also greater than HI.
+Thus, EH is also greater than HK [Prop. 5.14].
+Therefore, the square on EH is greater than (the square on) HK either by the (square) on (some straight-line) commensurable in length with (EH), or by the (square) on (some straight-line) incommensurable (in length with EH).
+Let it, first of all, be greater by the (square) on (some straight-line) commensurable (in length with EH).
+And the greater (of the two components of EK) HE is commensurable (in length) with the (previously) laid down (straight-line) EF.
+EK is thus a first binomial (straight-line) [Def. 10.5].
+And EF (is) rational.
+And if an area is contained by a rational (straight-line) and a first binomial (straight-line) then the square-root of the area is a binomial (straight-line) [Prop. 10.54].
+Thus, the square-root of EI is a binomial (straight-line).
+Hence the square-root of AD is also a binomial (straight-line).
+And, so, let the square on EH be greater than (the square on) HK by the (square) on (some straight-line) incommensurable (in length) with (EH).
+And the greater (of the two components of EK) EH is commensurable in length with the (previously) laid down rational (straight-line) EF.
+Thus, EK is a fourth binomial (straight-line) [Def. 10.8].
+And EF (is) rational.
+And if an area is contained by a rational (straight-line) and a fourth binomial (straight-line) then the square-root of the area is the irrational (straight-line) called major [Prop. 10.57].
+Thus, the square-root of area EI is a major (straight-line). Hence, the square-root of AD is also major.
+
+And so, let AB be less than CD.
+Thus, EG is also less than HI.
+Hence, EH is also less than HK [Props. 6.1, 5.14].
+And the square on HK is greater than (the square on) EH either by the (square) on (some straight-line) commensurable (in length) with (HK), or by the (square) on (some straight-line) incommensurable (in length) with (HK).
+Let it, first of all, be greater by the square on (some straight-line) commensurable in length with (HK).
+And the lesser (of the two components of EK) EH is commensurable in length with the (previously) laid down rational (straight-line) EF.
+Thus, EK is a second binomial (straight-line) [Def. 10.6].
+And EF (is) rational.
+And if an area is contained by a rational (straight-line) and a second binomial (straight-line) then the square-root of the area is a first bimedial (straight-line) [Prop. 10.55].
+Thus, the square-root of area EI is a first bimedial (straight-line).
+Hence, the square-root of AD is also a first bimedial (straight-line).
+And so, let the square on HK be greater than (the square on) HE by the (square) on (some straight-line) incommensurable (in length) with (HK).
+And the lesser (of the two components of EK) EH is commensurable (in length) with the (previously) laid down rational (straight-line) EF.
+Thus, EK is a fifth binomial (straight-line) [Def. 10.9].
+And EF (is) rational.
+And if an area is contained by a rational (straight-line) and a fifth binomial (straight-line) then the square-root of the area is the square-root of a rational plus a medial (area) [Prop. 10.58].
+Thus, the square-root of area EI is the square-root of a rational plus a medial (area).
+Hence, the square-root of area AD is also the square-root of a rational plus a medial (area).
+
+Thus, when a rational and a medial area are added together, four irrational (straight-lines) arise (as the square-roots of the total area)---either a binomial, or a first bimedial, or a major, or the square-root of a rational plus a medial (area).
+(Which is) the very thing it was required to show.

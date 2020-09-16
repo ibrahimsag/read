@@ -1,0 +1,42 @@
+To find the greatest common measure of two given commensurable magnitudes.
+
+Let AB and CD be the two given magnitudes, of which (let) AB (be) the lesser.
+So, it is required to find the greatest common measure of AB and CD.
+
+For the magnitude AB either measures, or (does) not (measure), CD.
+Therefore, if it measures (CD), and (since) it also measures itself, AB is thus a common measure of AB and CD.
+And (it is) clear that (it is) also (the) greatest.
+For a (magnitude) greater than magnitude AB cannot measure AB.
+
+So let AB not measure CD.
+And continually subtracting in turn the lesser (magnitude) from the greater, the remaining (magnitude) will (at) some time measure the (magnitude) before it, on account of AB and CD not being incommensurable [Prop. 10.2].
+And let AB leave EC less than itself (in) measuring ED, and let EC leave AF less than itself (in) measuring FB, and let AF measure CE.
+
+Therefore, since AF measures CE, but CE measures FB, AF will thus also measure FB.
+And it also measures itself.
+Thus, AF will also measure the whole (of) AB.
+But, AB measures DE.
+Thus, AF will also measure ED.
+And it also measures CE.
+Thus, it also measures the whole of CD.
+Thus, AF is a common measure of AB and CD.
+So I say that (it is) also (the) greatest (common measure).
+For, if not, there will be some magnitude, greater than AF, which will measure (both) AB and CD.
+Let it be G.
+Therefore, since G measures AB, but AB measures ED, G will thus also measure ED.
+And it also measures the whole of CD.
+Thus, G will also measure the remainder CE.
+But CE measures FB.
+Thus, G will also measure FB.
+And it also measures the whole (of) AB.
+And (so) it will measure the remainder AF, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some magnitude greater than AF cannot measure (both) AB and CD.
+Thus, AF is the greatest common measure of AB and CD.
+
+Thus, the greatest common measure of two given commensurable magnitudes, AB and CD, has been found.
+(Which is) the very thing it was required to show.
+
+Corollary
+
+So (it is) clear, from this, that if a magnitude measures two magnitudes then it will also measure their greatest common measure.

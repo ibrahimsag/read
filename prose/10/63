@@ -1,0 +1,26 @@
+The square on a major (straight-line) applied to a rational (straight-line) produces as breadth a fourth binomial (straight-line).
+
+Let AB be a major (straight-line) having been divided at C, such that AC is greater than CB, and (let) DE (be) a rational (straight-line).
+And let the parallelogram DF, equal to the (square) on AB, have been applied to DE, producing DG as breadth.
+I say that DG is a fourth binomial (straight-line).
+
+Let the same construction be made as that shown previously.
+And since AB is a major (straight-line), having been divided at C, AC and CB are incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial [Prop. 10.39].
+Therefore, since the sum of the (squares) on AC and CB is rational, DL is thus rational.
+Thus, DM (is) also rational, and commensurable in length with DE [Prop. 10.20].
+Again, since twice the (rectangle contained) by AC and CB---that is to say, MF---is medial, and is (applied to) the rational (straight-line) ML, MG is thus also rational, and incommensurable in length with DE [Prop. 10.22].
+DM is thus also incommensurable in length with MG [Prop. 10.13].
+DM and MG are thus rational (straight-lines which are) commensurable in square only.
+Thus, DG is a binomial (straight-line) [Prop. 10.36].
+[So] we must show that (it is) also a fourth (binomial straight-line).
+
+So, similarly to the previous (propositions), we can show that DM is greater than MG, and that the (rectangle contained) by DKM is equal to the (square) on MN.
+Therefore, since the (square) on AC is incommensurable with the (square) on CB, DH is also incommensurable with KL.
+Hence, DK is also incommensurable with KM [Props. 6.1, 10.11].
+And if there are two unequal straight-lines, and a parallelogram equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) incommensurable (in length), then the square on the greater will be larger than (the square on) the lesser by the (square) on (some straight-line) incommensurable in length with the greater [Prop. 10.18].
+Thus, the square on DM is greater than (the square on) MG by the (square) on (some straight-line) incommensurable (in length) with (DM).
+And DM and MG are rational (straight-lines which are) commensurable in square only.
+And DM is commensurable (in length) with the (previously) laid down rational (straight-line) DE.
+
+Thus, DG is a fourth binomial (straight-line) [Def. 10.8].
+(Which is) the very thing it was required to show.

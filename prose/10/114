@@ -1,0 +1,33 @@
+If an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome then the square-root of the area is a rational (straight-line).
+
+For let an area, the (rectangle contained) by AB and CD, have been contained by the apotome AB, and the binomial CD, of which let the greater term be CE.
+And let the terms of the binomial, CE and ED, be commensurable with the terms of the apotome, AF and FB (respectively), and in the same ratio.
+And let the square-root of the (rectangle contained) by AB and CD be G.
+I say that G is a rational (straight-line).
+
+For let the rational (straight-line) H be laid down.
+And let (some rectangle), equal to the (square) on H, have been applied to CD, producing KL as breadth.
+Thus, KL is an apotome, of which let the terms, KM and ML, be commensurable with the terms of the binomial, CE and ED (respectively), and in the same ratio [Prop. 10.112].
+But, CE and ED are also commensurable with AF and FB (respectively), and in the same ratio.
+Thus, as AF is to FB, so KM (is) to ML.
+Thus, alternately, as AF is to KM, so BF (is) to LM [Prop. 5.16].
+Thus, the remainder AB is also to the remainder KL as AF (is) to KM [Prop. 5.19].
+And AF (is) commensurable with KM [Prop. 10.12].
+AB is thus also commensurable with KL [Prop. 10.11].
+And as AB is to KL, so the (rectangle contained) by CD and AB (is) to the (rectangle contained) by CD and KL [Prop. 6.1].
+Thus, the (rectangle contained) by CD and AB is also commensurable with the (rectangle contained) by CD and KL [Prop. 10.11].
+And the (rectangle contained) by CD and KL (is) equal to the (square) on H.
+Thus, the (rectangle contained) by CD and AB is commensurable with the (square) on H.
+And the (square) on G is equal to the (rectangle contained) by CD and AB.
+The (square) on G is thus commensurable with the (square) on H.
+And the (square) on H (is) rational.
+Thus, the (square) on G is also rational.
+G is thus rational.
+And it is the square-root of the (rectangle contained) by CD and AB.
+
+Thus, if an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome, then the square-root of the area is a rational (straight-line).
+
+Corollary
+
+And it has also been made clear to us, through this, that it is possible for a rational area to be contained by irrational straight-lines.
+(Which is) the very thing it was required to show.

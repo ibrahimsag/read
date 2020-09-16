@@ -1,0 +1,24 @@
+A (straight-line) commensurable with a medial (straight-line) is medial.
+
+Let A be a medial (straight-line), and let B be commensurable with A.
+I say that B is also a medial (staight-line).
+
+Let the rational (straight-line) CD be set out, and let the rectangular area CE, equal to the (square) on A, have been applied to CD, producing ED as width.
+ED is thus rational, and incommensurable in length with CD [Prop. 10.22].
+And let the rectangular area CF, equal to the (square) on B, have been applied to CD, producing DF as width.
+Therefore, since A is commensurable with B, the (square) on A is also commensurable with the (square) on B.
+But, EC is equal to the (square) on A, and CF is equal to the (square) on B.
+Thus, EC is commensurable with CF.
+And as EC is to CF, so ED (is) to DF [Prop. 6.1].
+Thus, ED is commensurable in length with DF [Prop. 10.11].
+And ED is rational, and incommensurable in length with CD.
+DF is thus also rational [Def. 10.3], and incommensurable in length with DC [Prop. 10.13].
+Thus, CD and DF are rational, and commensurable in square only.
+And the square-root of a (rectangle contained) by rational (straight-lines which are) commensurable in square only is medial [Prop. 10.21].
+Thus, the square-root of the (rectangle contained) by CD and DF is medial.
+And the square on B is equal to the (rectangle contained) by CD and DF.
+Thus, B is a medial (straight-line).
+
+Corollary
+
+And (it is) clear, from this, that an (area) commensurable with a medial area is medial.

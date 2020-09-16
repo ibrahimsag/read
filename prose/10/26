@@ -1,0 +1,34 @@
+A medial (area) does not exceed a medial (area) by a rational (area).
+
+For, if possible, let the medial (area) AB exceed the medial (area) AC by the rational (area) DB.
+And let the rational (straight-line) EF be laid down.
+And let the rectangular parallelogram FH, equal to AB, have been applied to to EF, producing EH as breadth.
+And let FG, equal to AC, have been cut off (from FH).
+Thus, the remainder BD is equal to the remainder KH.
+And DB is rational.
+Thus, KH is also rational.
+Therefore, since AB and AC are each medial, and AB is equal to FH, and AC to FG, FH and FG are thus each also medial.
+
+And they are applied to the rational (straight-line) EF.
+Thus, HE and EG are each rational, and incommensurable in length with EF [Prop. 10.22].
+And since DB is rational, and is equal to KH, KH is thus also rational.
+And (KH) is applied to the rational (straight-line) EF.
+GH is thus rational, and commensurable in length with EF [Prop. 10.20].
+But, EG is also rational, and incommensurable in length with EF.
+Thus, EG is incommensurable in length with GH [Prop. 10.13].
+And as EG is to GH, so the (square) on EG (is) to the (rectangle contained) by EG and GH [Prop. 10.13 lem.].
+Thus, the (square) on EG is incommensurable with the (rectangle contained) by EG and GH [Prop. 10.11].
+But, the (sum of the) squares on EG and GH is commensurable with the (square) on EG.
+For (EG and GH are) both rational.
+And twice the (rectangle contained) by EG and GH is commensurable with the (rectangle contained) by EG and GH [Prop. 10.6].
+For (the former) is double the latter.
+Thus, the (sum of the squares) on EG and GH is incommensurable with twice the (rectangle contained) by EG and GH [Prop. 10.13].
+And thus the sum of the (squares) on EG and GH plus twice the (rectangle contained) by EG and GH, that is the (square) on EH [Prop. 2.4], is incommensurable with the (sum of the squares) on EG and GH [Prop. 10.16].
+And the (sum of the squares) on EG and GH (is) rational.
+Thus, the (square) on EH is irrational [Def. 10.4].
+Thus, EH is irrational [Def. 10.4].
+But, (it is) also rational.
+The very thing is impossible.
+
+Thus, a medial (area) does not exceed a medial (area) by a rational (area).
+(Which is) the very thing it was required to show.

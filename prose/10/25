@@ -1,0 +1,38 @@
+The rectangle contained by medial straight-lines (which are) commensurable in square only is either rational or medial.
+
+For let the rectangle AC be contained by the medial straight-lines AB and BC (which are) commensurable in square only.
+I say that AC is either rational or medial.
+
+For let the squares AD and BE have been described on (the straight-lines) AB and BC (respectively).
+AD and BE are thus each medial.
+And let the rational (straight-line) FG be laid out.
+And let the rectangular parallelogram GH, equal to AD, have been applied to FG, producing FH as breadth.
+And let the rectangular parallelogram MK, equal to AC, have been applied to HM, producing HK as breadth.
+And, finally, let NL, equal to BE, have similarly been applied to KN, producing KL as breadth.
+Thus, FH, HK, and KL are in a straight-line.
+Therefore, since AD and BE are each medial, and AD is equal to GH, and BE to NL, GH and NL (are) thus each also medial.
+And they are applied to the rational (straight-line) FG.
+FH and KL are thus each rational, and incommensurable in length with FG [Prop. 10.22].
+And since AD is commensurable with BE, GH is thus also commensurable with NL.
+And as GH is to NL, so FH (is) to KL [Prop. 6.1].
+Thus, FH is commensurable in length with KL [Prop. 10.11].
+Thus, FH and KL are rational (straight-lines which are) commensurable in length.
+Thus, the (rectangle contained) by FH and KL is rational [Prop. 10.19].
+And since DB is equal to BA, and OB to BC, thus as DB is to BC, so AB (is) to BO.
+But, as DB (is) to BC, so DA (is) to AC [Props. 6.1].
+And as AB (is) to BO, so AC (is) to CO [Prop. 6.1].
+Thus, as DA is to AC, so AC (is) to CO.
+And AD is equal to GH, and AC to MK, and CO  to NL.
+Thus, as GH is to MK, so MK (is) to NL.
+Thus, also, as FH is to HK, so HK (is) to KL [Props. 6.1, 5.11].
+Thus, the (rectangle contained) by FH and KL is equal to the (square) on HK [Prop. 6.17].
+And the (rectangle contained) by FH and KL (is) rational.
+Thus, the (square) on HK is also rational.
+Thus, HK is rational.
+And if it is commensurable in length with FG then HN is rational [Prop. 10.19].
+And if it is incommensurable in length with FG then KH and HM are rational (straight-lines which are) commensurable in square only: thus, HN is medial [Prop. 10.21].
+Thus, HN is either rational or medial.
+And HN (is) equal to AC.
+Thus, AC is either rational or medial.
+
+Thus, the ... by medial straight-lines (which are) commensurable in square only, and so on ....

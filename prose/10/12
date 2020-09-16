@@ -1,0 +1,21 @@
+(Magnitudes) commensurable with the same magnitude are also commensurable with one another.
+
+For let A and B each be commensurable with C.
+I say that A is also commensurable with B.
+
+For since A is commensurable with C, A thus has to C the ratio which (some) number (has) to (some) number [Prop. 10.5].
+Let it have (the ratio) which D (has) to E.
+Again, since C is commensurable with B, C thus has to B the ratio which (some) number (has) to (some) number [Prop. 10.5].
+Let it have (the ratio) which F (has) to G.
+And for any multitude whatsoever of given ratios---(namely,) those which D has to E, and F to G---let the numbers H, K, L (which are) continuously (proportional) in the(se) given ratios have been taken [Prop. 8.4].
+Hence, as D is to E, so H (is) to K, and as F (is) to G, so K (is) to L.
+
+Therefore, since as A is to C, so D (is) to E, but as D (is) to E, so H (is) to K, thus also as A is to C, so H (is) to K [Prop. 5.11].
+Again, since as C is to B, so F (is) to G, but as F (is) to G, [so] K (is) to L, thus also as C (is) to B, so K (is) to L [Prop. 5.11].
+And also as A is to C, so H (is) to K.
+Thus, via equality, as A is to B, so H (is) to L [Prop. 5.22].
+Thus, A has to B the ratio which the number H (has) to the number L.
+Thus, A is commensurable with B [Prop. 10.6].
+
+Thus, (magnitudes) commensurable with the same magnitude are also commensurable with one another.
+(Which is) the very thing it was required to show.
