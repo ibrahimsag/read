@@ -511,6 +511,18 @@ function() {
   return {
     title: 'Proposition 35',
     prose: prop35,
+    mags: [
+      { l: 'A', m: 160, p: [50, 50] },
+      { l: 'B', m: 160, v: 50 },
+      { l: 'G', m: 40 },
+      { l: 'C' },
+      { l: 'D', m: 240, v: 50 },
+      { l: 'E', m: 40, v: 50 },
+      { l: 'L', m: 40 },
+      { l: 'K', m: 40 },
+      { l: 'H', m: 160 },
+      { l: 'F' },
+    ]
   };
 },
 
@@ -518,6 +530,24 @@ function() {
   return {
     title: 'Proposition 36',
     prose: prop36,
+    smallletters: 'EHNKLMFOGPQ',
+    mags: [
+      { l: 'A', m: 40, p: [50, 50] },
+      { l: 'B', m: 60, v: 40 },
+      { l: 'C', m: 110, v: 40 },
+      { l: 'D', m: 200, v: 40 },
+      { l: 'E', m: 40, v: 70 },
+      { l: 'H', m: 40, v: 40 },
+      { l: 'N', m: 40 },
+      { l: 'K' },
+      { l: 'L', m: 130, v: 30 },
+      { l: 'M', m: 230, v: 30 },
+      { l: 'F', m: 40, v: 30 },
+      { l: 'O', m: 350 },
+      { l: 'G' },
+      { l: 'P', m: 110, v: 30 },
+      { l: 'Q', m: 150, v: 30 },
+    ]
   };
 },
 
