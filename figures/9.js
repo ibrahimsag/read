@@ -336,6 +336,13 @@ function() {
   return {
     title: 'Proposition 21',
     prose: prop21,
+    mags: [
+      { l: 'A', m: 70, p: [50, 50] },
+      { l: 'B', m: 50 },
+      { l: 'C', m: 100 },
+      { l: 'D', m: 160 },
+      { l: 'E' },
+    ]
   };
 },
 
@@ -343,6 +350,13 @@ function() {
   return {
     title: 'Proposition 22',
     prose: prop22,
+    mags: [
+      { l: 'A', m: 70, p: [50, 50] },
+      { l: 'B', m: 50 },
+      { l: 'C', m: 100 },
+      { l: 'D', m: 160 },
+      { l: 'E' },
+    ]
   };
 },
 
@@ -350,6 +364,13 @@ function() {
   return {
     title: 'Proposition 23',
     prose: prop23,
+    mags: [
+      { l: 'A', m: 90, p: [50, 50] },
+      { l: 'B', m: 50 },
+      { l: 'C', m: 130 },
+      { l: 'E', m: 30 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -357,6 +378,11 @@ function() {
   return {
     title: 'Proposition 24',
     prose: prop24,
+    mags: [
+      { l: 'A', m: 150, p: [50, 50] },
+      { l: 'C', m: 90 },
+      { l: 'B' },
+    ]
   };
 },
 
@@ -364,6 +390,12 @@ function() {
   return {
     title: 'Proposition 25',
     prose: prop25,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'C', m: 50 },
+      { l: 'D', m: 90 },
+      { l: 'B' },
+    ]
   };
 },
 
@@ -371,6 +403,12 @@ function() {
   return {
     title: 'Proposition 26',
     prose: prop26,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'C', m: 90 },
+      { l: 'D', m: 30 },
+      { l: 'B' },
+    ]
   };
 },
 
@@ -378,6 +416,12 @@ function() {
   return {
     title: 'Proposition 27',
     prose: prop27,
+    mags: [
+      { l: 'A', m: 30, p: [50, 50] },
+      { l: 'D', m: 130 },
+      { l: 'C', m: 90 },
+      { l: 'B' },
+    ]
   };
 },
 
@@ -385,6 +429,11 @@ function() {
   return {
     title: 'Proposition 28',
     prose: prop28,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 130, v: 40 },
+      { l: 'C', m: 160, v: 40 },
+    ]
   };
 },
 
@@ -392,6 +441,11 @@ function() {
   return {
     title: 'Proposition 29',
     prose: prop29,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 130, v: 40 },
+      { l: 'C', m: 160, v: 40 },
+    ]
   };
 },
 
@@ -399,6 +453,11 @@ function() {
   return {
     title: 'Proposition 30',
     prose: prop30,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 190, v: 40 },
+      { l: 'C', m: 130, v: 40 },
+    ]
   };
 },
 
@@ -406,6 +465,12 @@ function() {
   return {
     title: 'Proposition 31',
     prose: prop31,
+    mags: [
+      { l: 'A', m: 85, p: [50, 50] },
+      { l: 'B', m: 110, v: 40 },
+      { l: 'C', m: 220, v: 40 },
+      { l: 'D', m: 60, v: 40 },
+    ]
   };
 },
 
@@ -413,6 +478,12 @@ function() {
   return {
     title: 'Proposition 32',
     prose: prop32,
+    mags: [
+      { l: 'A', m: 85, p: [50, 50] },
+      { l: 'B', m: 100, v: 40 },
+      { l: 'C', m: 140, v: 40 },
+      { l: 'D', m: 220, v: 40 },
+    ]
   };
 },
 
@@ -420,6 +491,9 @@ function() {
   return {
     title: 'Proposition 33',
     prose: prop33,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+    ]
   };
 },
 
@@ -427,6 +501,9 @@ function() {
   return {
     title: 'Proposition 34',
     prose: prop34,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+    ]
   };
 },
 
