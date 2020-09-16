@@ -6,10 +6,11 @@ import book5 from './figures/5.js';
 import book6 from './figures/6.js';
 import book7 from './figures/7.js';
 import book8 from './figures/8.js';
+import book9 from './figures/9.js';
 
 var fs = require('fs');
 
-let books = [book1, book2, book3, book4, book5, book6, book7, book8];
+let books = [book1, book2, book3, book4, book5, book6, book7, book8, book9];
 
 function storeProps()
 {
