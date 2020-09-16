@@ -2,7 +2,7 @@ import book9 from './figures/9.js';
 import book10 from './figures/10.js';
 
 let haveClips = (i_book) => (p, ind) => {
-  if(ind > 0)
+  if(!p.title.startsWith('Def'))
       p.img = 'img/' + (i_book) + '/' + ind + '.png';
   return p;
 }
