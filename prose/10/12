@@ -1,21 +1,21 @@
 (Magnitudes) commensurable with the same magnitude are also commensurable with one another.
 
-For let A and B each be commensurable with C.
-I say that A is also commensurable with B.
+For let {A magnitude} and {B magnitude} each be commensurable with {C magnitude}.
+I say that {A magnitude} is also commensurable with {B magnitude}.
 
-For since A is commensurable with C, A thus has to C the ratio which (some) number (has) to (some) number [Prop. 10.5].
-Let it have (the ratio) which D (has) to E.
-Again, since C is commensurable with B, C thus has to B the ratio which (some) number (has) to (some) number [Prop. 10.5].
-Let it have (the ratio) which F (has) to G.
-And for any multitude whatsoever of given ratios---(namely,) those which D has to E, and F to G---let the numbers H, K, L (which are) continuously (proportional) in the(se) given ratios have been taken [Prop. 8.4].
-Hence, as D is to E, so H (is) to K, and as F (is) to G, so K (is) to L.
+For since {A magnitude} is commensurable with {C magnitude}, {A magnitude} thus has to {C magnitude} the ratio which (some) number (has) to (some) number [Prop. 10.5].
+Let it have (the ratio) which {D magnitude} (has) to {E magnitude}.
+Again, since {C magnitude} is commensurable with {B magnitude}, {C magnitude} thus has to {B magnitude} the ratio which (some) number (has) to (some) number [Prop. 10.5].
+Let it have (the ratio) which {F magnitude} (has) to {G magnitude}.
+And for any multitude whatsoever of given ratios---(namely,) those which {D magnitude} has to {E magnitude}, and {F magnitude} to {G magnitude}---let the numbers {H magnitude}, {K magnitude}, {L magnitude} (which are) continuously (proportional) in the(se) given ratios have been taken [Prop. 8.4].
+Hence, as {D magnitude} is to {E magnitude}, so {H magnitude} (is) to {K magnitude}, and as {F magnitude} (is) to {G magnitude}, so {K magnitude} (is) to {L magnitude}.
 
-Therefore, since as A is to C, so D (is) to E, but as D (is) to E, so H (is) to K, thus also as A is to C, so H (is) to K [Prop. 5.11].
-Again, since as C is to B, so F (is) to G, but as F (is) to G, [so] K (is) to L, thus also as C (is) to B, so K (is) to L [Prop. 5.11].
-And also as A is to C, so H (is) to K.
-Thus, via equality, as A is to B, so H (is) to L [Prop. 5.22].
-Thus, A has to B the ratio which the number H (has) to the number L.
-Thus, A is commensurable with B [Prop. 10.6].
+Therefore, since as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {E magnitude}, but as {D magnitude} (is) to {E magnitude}, so {H magnitude} (is) to {K magnitude}, thus also as {A magnitude} is to {C magnitude}, so {H magnitude} (is) to {K magnitude} [Prop. 5.11].
+Again, since as {C magnitude} is to {B magnitude}, so {F magnitude} (is) to {G magnitude}, but as {F magnitude} (is) to {G magnitude}, [so] {K magnitude} (is) to {L magnitude}, thus also as {C magnitude} (is) to {B magnitude}, so {K magnitude} (is) to {L magnitude} [Prop. 5.11].
+And also as {A magnitude} is to {C magnitude}, so {H magnitude} (is) to {K magnitude}.
+Thus, via equality, as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {L magnitude} [Prop. 5.22].
+Thus, {A magnitude} has to {B magnitude} the ratio which the number {H magnitude} (has) to the number {L magnitude}.
+Thus, {A magnitude} is commensurable with {B magnitude} [Prop. 10.6].
 
 Thus, (magnitudes) commensurable with the same magnitude are also commensurable with one another.
 (Which is) the very thing it was required to show.

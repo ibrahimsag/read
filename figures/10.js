@@ -122,6 +122,14 @@ function() {
     title: 'Proposition 6',
     img: 'img/10/6.png',
     prose: prop6,
+    mags: [
+      { l: 'A', m: 40, n: 4, p: [50, 50] },
+      { l: 'D', m: 80, v: 50 },
+      { l: 'C', m: 40, v: 50 },
+      { l: 'B', m: 120, p: [250, 50] },
+      { l: 'E', m: 60, v: 50 },
+      { l: 'F', m: 40, n: 3, v: 50 },
+    ]
   };
 },
 
@@ -130,6 +138,10 @@ function() {
     title: 'Proposition 7',
     img: 'img/10/7.png',
     prose: prop7,
+    mags: [
+      { l: 'A', m: 150, p: [50, 50] },
+      { l: 'B', m: 100, v: 50 },
+    ]
   };
 },
 
@@ -138,6 +150,10 @@ function() {
     title: 'Proposition 8',
     img: 'img/10/8.png',
     prose: prop8,
+    mags: [
+      { l: 'A', m: 150, p: [50, 50] },
+      { l: 'B', m: 100, v: 50 },
+    ]
   };
 },
 
@@ -146,6 +162,12 @@ function() {
     title: 'Proposition 9',
     img: 'img/10/9.png',
     prose: prop9,
+    mags: [
+      { l: 'A', m: 150, p: [50, 50] },
+      { l: 'C', m: 75, v: 50 },
+      { l: 'B', m: 120, p: [250, 50] },
+      { l: 'D', m: 60, v: 50 },
+    ]
   };
 },
 
@@ -154,6 +176,13 @@ function() {
     title: 'Proposition 10',
     img: 'img/10/10.png',
     prose: prop10,
+    mags: [
+      { l: 'A', m: 120, p: [50, 50] },
+      { l: 'E', m: 140, v: 50 },
+      { l: 'D', m: 160, v: 50 },
+      { l: 'B', m: 80, v: 50 },
+      { l: 'C', m: 100, v: 50 },
+    ]
   };
 },
 
@@ -162,6 +191,12 @@ function() {
     title: 'Proposition 11',
     img: 'img/10/11.png',
     prose: prop11,
+    mags: [
+      { l: 'A', m: 150, p: [50, 50] },
+      { l: 'C', m: 100, v: 50 },
+      { l: 'B', m: 120, p: [250, 50] },
+      { l: 'D', m: 90, v: 50 },
+    ]
   };
 },
 
@@ -170,6 +205,18 @@ function() {
     title: 'Proposition 12',
     img: 'img/10/12.png',
     prose: prop12,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'D', m: 50, v: 40 },
+      { l: 'E', m: 60, v: 40 },
+      { l: 'F', m: 70, v: 40 },
+      { l: 'G', m: 80, v: 40 },
+      { l: 'C', m: 100, p: [200, 50] },
+      { l: 'H', m: 40, v: 40 },
+      { l: 'K', m: 50, v: 40 },
+      { l: 'L', m: 60, v: 40 },
+      { l: 'B', m: 150, p: [350, 50] },
+    ]
   };
 },
 
@@ -178,6 +225,11 @@ function() {
     title: 'Proposition 13',
     img: 'img/10/13.png',
     prose: prop13,
+    mags: [
+      { l: 'A', m: 140, p: [50, 50] },
+      { l: 'C', m: 100, v: 50 },
+      { l: 'B', m: 180, v: 50 },
+    ]
   };
 },
 
