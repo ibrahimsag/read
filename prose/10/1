@@ -1,23 +1,23 @@
 If, from the greater of two unequal magnitudes (which are) laid out, (a part) greater than half is subtracted, and (if from) the remainder (a part) greater than half (is subtracted), and (if) this happens continually, then some magnitude will (eventually) be left which will be less than the lesser laid out magnitude.
 
-Let AB and C be two unequal magnitudes, of which (let) AB (be) the greater.
-I say that if (a part) greater than half is subtracted from AB, and (if a part) greater than half (is subtracted) from the remainder, and (if) this happens continually, then some magnitude will (eventually) be left which will be less than the magnitude C.
+Let {AB magnitude} and {C magnitude} be two unequal magnitudes, of which (let) {AB magnitude} (be) the greater.
+I say that if (a part) greater than half is subtracted from {AB magnitude}, and (if a part) greater than half (is subtracted) from the remainder, and (if) this happens continually, then some magnitude will (eventually) be left which will be less than the magnitude {C magnitude}.
 
-For C, when multiplied (by some number), will sometimes be greater than AB [Def. 5.4].
+For {C magnitude}, when multiplied (by some number), will sometimes be greater than {AB magnitude} [Def. 5.4].
 Let it have been (so) multiplied.
-And let DE be (both) a multiple of C, and greater than AB.
-And let DE have been divided into the (divisions) DF, FG, GE, equal to C.
-And let BH, (which is) greater than half, have been subtracted from AB.
-And (let) HK, (which is) greater than half, (have been subtracted) from AH.
-And let this happen continually, until the divisions in AB become equal in number to the divisions in DE.
+And let {DE magnitude} be (both) a multiple of {C magnitude}, and greater than {AB magnitude}.
+And let {DE magnitude} have been divided into the (divisions) {DF magnitude}, {FG magnitude}, {GE magnitude}, equal to {C magnitude}.
+And let {BH magnitude}, (which is) greater than half, have been subtracted from {AB magnitude}.
+And (let) {HK magnitude}, (which is) greater than half, (have been subtracted) from {AH magnitude}.
+And let this happen continually, until the divisions in {AB magnitude} become equal in number to the divisions in {DE magnitude}.
 
-Therefore, let the divisions (in AB) be AK, KH, HB, being equal in number to DF, FG, GE.
-And since DE is greater than AB, and EG, (which is) less than half, has been subtracted from DE, and BH, (which is) greater than half, from AB, the remainder GD is thus greater than the remainder HA.
-And since GD is greater than HA, and the half GF has been subtracted from GD, and HK, (which is) greater than half, from HA, the remainder DF is thus greater than the remainder AK.
-And DF (is) equal to C.
-C is thus also greater than AK.
-Thus, AK (is) less than C.
+Therefore, let the divisions (in {AB magnitude}) be {AK magnitude}, {KH magnitude}, {HB magnitude}, being equal in number to {DF magnitude}, {FG magnitude}, {GE magnitude}.
+And since {DE magnitude} is greater than {AB magnitude}, and {EG magnitude}, (which is) less than half, has been subtracted from {DE magnitude}, and {BH magnitude}, (which is) greater than half, from {AB magnitude}, the remainder {GD magnitude} is thus greater than the remainder {HA magnitude}.
+And since {GD magnitude} is greater than {HA magnitude}, and the half {GF magnitude} has been subtracted from {GD magnitude}, and {HK magnitude}, (which is) greater than half, from {HA magnitude}, the remainder {DF magnitude} is thus greater than the remainder {AK magnitude}.
+And {DF magnitude} (is) equal to {C magnitude}.
+{C magnitude} is thus also greater than {AK magnitude}.
+Thus, {AK magnitude} (is) less than {C magnitude}.
 
-Thus, the magnitude AK, which is less than the lesser laid out magnitude C, is left over from the magnitude AB.
+Thus, the magnitude {AK magnitude}, which is less than the lesser laid out magnitude {C magnitude}, is left over from the magnitude {AB magnitude}.
 (Which is) the very thing it was required to show.
 ---(The theorem) can similarly be proved even if the (parts) subtracted are halves.

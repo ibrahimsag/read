@@ -38,6 +38,17 @@ function() {
     title: 'Proposition 1',
     img: 'img/10/1.png',
     prose: prop1,
+    mags: [
+      { l: 'A', m: 30, p: [50, 50] },
+      { l: 'K', m: 60 },
+      { l: 'H', m: 150 },
+      { l: 'B' },
+      { l: 'C', m: 90, v: 50 },
+      { l: 'D', m: 90, v: 50 },
+      { l: 'F', m: 90 },
+      { l: 'G', m: 90 },
+      { l: 'E' },
+    ]
   };
 },
 
@@ -46,6 +57,15 @@ function() {
     title: 'Proposition 2',
     img: 'img/10/2.png',
     prose: prop2,
+    mags: [
+      { l: 'A', m: 30, p: [50, 50] },
+      { l: 'G', m: 60, n: 2 },
+      { l: 'B' },
+      { l: 'E', m: 50, v: 50 },
+      { l: 'C', m: 65, v: 50 },
+      { l: 'F', m: 150, n: 2 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -54,6 +74,15 @@ function() {
     title: 'Proposition 3',
     img: 'img/10/3.png',
     prose: prop3,
+    mags: [
+      { l: 'A', m: 25, p: [50, 50] },
+      { l: 'F', m: 50, n: 3 },
+      { l: 'B' },
+      { l: 'C', m: 25, n: 2, v: 50 },
+      { l: 'E', m: 175, n: 2 },
+      { l: 'D' },
+      { l: 'G', m: 75, v: 50 },
+    ]
   };
 },
 
@@ -62,6 +91,14 @@ function() {
     title: 'Proposition 4',
     img: 'img/10/4.png',
     prose: prop4,
+    mags: [
+      { l: 'A', m: 280, p: [50, 50] },
+      { l: 'B', m: 250, v: 50 },
+      { l: 'C', m: 240, v: 50 },
+      { l: 'D', m: 60, v: 50 },
+      { l: 'E', m: 30, p: [150, 200] },
+      { l: 'F', m: 45, p: [220, 200] },
+    ]
   };
 },
 
@@ -70,6 +107,13 @@ function() {
     title: 'Proposition 5',
     img: 'img/10/5.png',
     prose: prop5,
+    mags: [
+      { l: 'A', m: 50, n: 3, p: [50, 50] },
+      { l: 'B', m: 50, n: 2, p: [240, 50] },
+      { l: 'C', m: 50, p: [380, 50] },
+      { l: 'D', m: 120, p: [50, 100] },
+      { l: 'E', m: 80, p: [240, 100] },
+    ]
   };
 },
 
