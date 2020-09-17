@@ -234,10 +234,31 @@ function() {
 },
 
 function() {
+
+  const r = 90;
+  const oa = [0, -r];
+  const O = [50, 180];
+  const A = vec2.add(O, oa);
+  const B = vec2.sub(O, oa);
+  const D = vec2.add(O, vec2.rot(oa, Math.PI/3));
+
   return {
     title: 'Lemma',
     img: 'img/10/l1.png',
     prose: propl1,
+    mags: [
+      { l: 'C', m: 90, p: [50, 50] }
+    ],
+    points: { A, B, D, O },
+    shapes: [
+      rg.polygon([A, B, D]),
+      rg.arc(O, A, B)
+    ],
+    letters: {
+      A: [3],
+      B: [3],
+      D: [0]
+    }
   };
 },
 
