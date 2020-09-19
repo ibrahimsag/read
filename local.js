@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.use(express.static('public'));
 app.use('/build', express.static('build'));
+app.use(express.static('public'));
 
 app.get('/euclid/*', (req, res) => {
   res.sendFile(__dirname + '/euclid.html');
