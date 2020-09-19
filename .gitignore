@@ -16,3 +16,6 @@ node_modules/
 
 build
 public/euclid.html
+
+# Local Netlify folder
+.netlify

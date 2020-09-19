@@ -450,13 +450,14 @@ function makeGround(rg, svg)
         return { t, b };
       }
 
-      let pel = document.querySelector('#prose');
-      let p = tb(pel), c = tb(el);
-      let s = pel.scrollTop, o = (p.b - p.t) * 0.68;
-      if(p.t > (c.t - s - 10))
-        pel.scrollTo(0, c.t - p.t - o);
-      else if(p.b < (c.b - s + 10))
-        pel.scrollTo(0, c.b - p.b + o);
+      let pt = window.scrollY, ph = window.innerHeight - 50;
+      let p = { t: pt, b: pt + ph}
+      let c = tb(el);
+      let o = (p.b - p.t) * 0.68;
+      if(p.t > (c.t - 10))
+        window.scrollTo(0, c.t - p.t - o);
+      else if(p.b < (c.b + 10))
+        window.scrollTo(0, c.b - ph + o);
     })
   }
 

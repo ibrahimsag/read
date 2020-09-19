@@ -20,8 +20,8 @@
   src: url('/fonts/mediumitalic.ttf') format('truetype');
   font-style: italic;
 }
-html, body {
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 body {
   background: black;
@@ -31,7 +31,6 @@ body {
 }
 #container {
   width: 1024px;
-  height:100%;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -41,29 +40,28 @@ body {
 }
 #page {
   flex: 1 1 auto;
-  overflow: hidden;
   display: flex;
-  align-items: stretch;
-}
-#prosePanel {
-  width: 50%;
-  display: flex;
-  flex-flow: column nowrap;
   align-items: stretch;
 }
 #prose {
-  overflow: auto;
-  flex-grow: 1;
+  width: 512px;
 }
 #proseMovement {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   flex: 0 0 auto;
   height: 50px;
+  width: 512px;
   display: flex;
   align-items: stretch;
 }
 #figure {
-  width: 50%;
+  width: 512px;
   height: 512px;
+  position: fixed;
+  left: 512px;
+  top: 45px;
 }
 svg {
   user-select: none;
@@ -85,7 +83,7 @@ svg {
 }
 #prose {
   padding: 12px;
-  scroll-behavior: smooth;
+  padding-bottom: 62px;
   box-sizing: border-box;
 }
 #prose p {
@@ -176,21 +174,19 @@ svg {
         <div id="logo"><a pref="cover"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></a><span id="bookTitle"></span></div>
       </div>
       <div id="page">
-        <div id="prosePanel">
-          <div id="prose">
-            <div id="proseHeading">
-              <div class="prop-nav" id="prev-prop"><span style="text-decoration: underline">b</span>efore</div>
-              <div class="prop-nav" id="next-prop"><span style="text-decoration: underline">a</span>fter</div>
-              <div id="proseTitle"></div>
-            </div>
-            <div id="proseContent"></div>
+        <div id="prose">
+          <div id="proseHeading">
+            <div class="prop-nav" id="prev-prop"><span style="text-decoration: underline">b</span>efore</div>
+            <div class="prop-nav" id="next-prop"><span style="text-decoration: underline">a</span>fter</div>
+            <div id="proseTitle"></div>
           </div>
-          <div id="proseMovement">
-            <a id="move-back"></a>
-            <a id="move-on"></a>
-          </div>
+          <div id="proseContent"></div>
         </div>
         <svg id="figure"></svg>
+      </div>
+      <div id="proseMovement">
+        <a id="move-back"></a>
+        <a id="move-on"></a>
       </div>
     </div>
     <div id="coverPage" style="display: none">
