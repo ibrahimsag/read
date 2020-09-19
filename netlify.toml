@@ -1,0 +1,8 @@
+[build]
+  publish = "public/"
+  command = "sh build.sh"
+
+[[redirects]]
+  from = "/euclid/*"
+  to = "/euclid.html"
+  status = 200
