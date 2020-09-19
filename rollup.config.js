@@ -18,13 +18,24 @@ export default [{
 {
   input: 'books.js',
   plugins: [
+    json()
+  ],
+  output: {
+    file: 'build/books.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
+  input: 'latest.js',
+  plugins: [
     string({
       include: 'prose/**/*'
     }),
     json()
   ],
   output: {
-    file: 'build/books.js',
+    file: 'build/latest.js',
     format: 'iife',
     sourcemap: true,
   }

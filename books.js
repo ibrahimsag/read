@@ -7,7 +7,6 @@ import book6 from './build/6.json';
 import book7 from './build/7.json';
 import book8 from './build/8.json';
 import book9 from './build/9.json';
-import book10 from './figures/10.js';
 
 let haveClips = (i_book) => (p, ind) => {
   if(!p.title.startsWith('Def'))
@@ -58,7 +57,6 @@ let books = {
   7: book7.map(unfoldGraphics),
   8: book8.map(unfoldGraphics),
   9: book9.map(unfoldGraphics),
-  10: book10(rg).map(f => f()),
 };
 
 window.books = books;
