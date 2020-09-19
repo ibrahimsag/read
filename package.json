@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "hsluv": "^0.1.0",
+    "rollup-plugin-terser": "^7.0.2",
     "roughjs": "^4.3.1"
   },
   "devDependencies": {
@@ -16,7 +17,7 @@
     "rollup-plugin-string": "^3.0.0"
   },
   "scripts": {
-    "build": "rollup -c rollup.prepare.config.js && node build/prepare.js && rollup -c rollup.config.js && cp build/main.js public/build/ && cp build/books.js public/build/ && cp euclid.html public/",
+    "build": "rollup -c rollup.prepare.config.js && node build/prepare.js && rollup -c rollup.min.config.js && cp build/main.js public/build/ && cp build/books.js public/build/ && cp euclid.html public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
