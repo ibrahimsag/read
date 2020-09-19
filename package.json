@@ -15,6 +15,7 @@
     "rollup-plugin-string": "^3.0.0"
   },
   "scripts": {
+    "build": "rollup -c && node build/prepare.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
