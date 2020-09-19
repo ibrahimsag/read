@@ -17,7 +17,7 @@
     "rollup-plugin-string": "^3.0.0"
   },
   "scripts": {
-    "build": "rollup -c rollup.prepare.config.js && node build/prepare.js && rollup -c rollup.min.config.js && cp build/main.js public/build/ && cp build/books.js public/build/ && sed '/latest.js/d' euclid.html > public/euclid.html",
+    "build": "sh build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
