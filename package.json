@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
+    "express": "^4.17.1",
     "hsluv": "^0.1.0",
     "roughjs": "^4.3.1"
   },
@@ -15,7 +16,7 @@
     "rollup-plugin-string": "^3.0.0"
   },
   "scripts": {
-    "build": "rollup -c && node build/prepare.js",
+    "build": "rollup -c rollup.prepare.config.js && node build/prepare.js && rollup -c rollup.config.js && cp build/main.js public/build/ && cp build/books.js public/build/ && cp euclid.html public/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

@@ -641,123 +641,89 @@ function makeGround(rg, svg)
   return {present, proxy};
 }
 
-function unfoldGraphics(p) {
-  let callrg = a => rg[a[0]](...a.slice(1));
-  if(p.shapes)
-  {
-    p.shapes = p.shapes.map(callrg);
-  }
-  if(p.given)
-  {
-    for(let k in p.given)
-    {
-      p.given[k] = p.given[k].map(callrg);
-    }
-  }
-  if(p.figures)
-    p.figures.forEach(unfoldGraphics);
-
-  return p;
-}
-
 function presentProp(i_book, i_prop) {
   let ps = books[i_book];
-  let bookPromise;
-  if(ps)
+
+  document.querySelector('#coverPage').style['display'] = 'none';
+  document.querySelector('#container').style['display'] = 'flex';
+
+  let el = document.querySelector('#bookTitle');
+  el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
+
+  let i_p = Math.min(ps.length-1, i_prop);
+  ground.present(0, ps[i_p]);
+
+  function keyHandler(e)
   {
-    bookPromise = Promise.resolve(ps);
-  }
-  else
-  {
-    bookPromise = fetch('build/'+i_book+'.json')
-      .then(response => response.json())
-      .then(book => book.map(unfoldGraphics))
-      .then(book => { books[i_book] = book; return book; });
-  }
-
-  bookPromise.then(ps =>
-  {
-    document.querySelector('#coverPage').style['display'] = 'none';
-    document.querySelector('#container').style['display'] = 'flex';
-
-    let el = document.querySelector('#bookTitle');
-    el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
-
-    let i_p = Math.min(ps.length-1, i_prop);
-    ground.present(0, ps[i_p]);
-
-    function keyHandler(e)
-    {
-      if(e.key == "j" || e.keyCode == 39)
-      {
-        ground.proxy.moveon();
-      }
-      else if(e.key == "k" || e.keyCode == 37)
-      {
-        ground.proxy.moveback();
-      }
-      else if(e.key == "b")
-      {
-        i_p = (i_p-1 + ps.length) % ps.length;
-        openProposition(i_book, i_p);
-      }
-      else if(e.key == "a")
-      {
-        i_p = (i_p+1) % ps.length;
-        openProposition(i_book, i_p);
-      }
-    }
-
-    document.onkeydown = keyHandler;
-
-    document.querySelector('#move-on').ontouchend = (e) =>
-    {
-      e.preventDefault();
-      ground.proxy.moveon();
-    }
-
-    document.querySelector('#move-on').onmousedown = (e) =>
+    if(e.key == "j" || e.keyCode == 39)
     {
       ground.proxy.moveon();
     }
-
-    document.querySelector('#move-back').ontouchend = (e) =>
-    {
-      e.preventDefault();
-      ground.proxy.moveback();
-    }
-
-    document.querySelector('#move-back').onmousedown = (e) =>
+    else if(e.key == "k" || e.keyCode == 37)
     {
       ground.proxy.moveback();
     }
-
-    document.querySelector('#prev-prop').ontouchend = (e) =>
+    else if(e.key == "b")
     {
-      e.preventDefault();
-      i_p = (i_p-1+ps.length) % ps.length;
+      i_p = (i_p-1 + ps.length) % ps.length;
       openProposition(i_book, i_p);
     }
-
-    document.querySelector('#next-prop').ontouchend = (e) =>
-    {
-      e.preventDefault();
-      i_p = (i_p+1) % ps.length;
-      openProposition(i_book, i_p);
-    }
-
-    document.querySelector('#prev-prop').onmousedown = (e) =>
-    {
-      i_p = (i_p-1+ps.length) % ps.length;
-      openProposition(i_book, i_p);
-    }
-
-    document.querySelector('#next-prop').onmousedown = (e) =>
+    else if(e.key == "a")
     {
       i_p = (i_p+1) % ps.length;
       openProposition(i_book, i_p);
     }
-  });
+  }
+
+  document.onkeydown = keyHandler;
+
+  document.querySelector('#move-on').ontouchend = (e) =>
+  {
+    e.preventDefault();
+    ground.proxy.moveon();
+  }
+
+  document.querySelector('#move-on').onmousedown = (e) =>
+  {
+    ground.proxy.moveon();
+  }
+
+  document.querySelector('#move-back').ontouchend = (e) =>
+  {
+    e.preventDefault();
+    ground.proxy.moveback();
+  }
+
+  document.querySelector('#move-back').onmousedown = (e) =>
+  {
+    ground.proxy.moveback();
+  }
+
+  document.querySelector('#prev-prop').ontouchend = (e) =>
+  {
+    e.preventDefault();
+    i_p = (i_p-1+ps.length) % ps.length;
+    openProposition(i_book, i_p);
+  }
+
+  document.querySelector('#next-prop').ontouchend = (e) =>
+  {
+    e.preventDefault();
+    i_p = (i_p+1) % ps.length;
+    openProposition(i_book, i_p);
+  }
+
+  document.querySelector('#prev-prop').onmousedown = (e) =>
+  {
+    i_p = (i_p-1+ps.length) % ps.length;
+    openProposition(i_book, i_p);
+  }
+
+  document.querySelector('#next-prop').onmousedown = (e) =>
+  {
+    i_p = (i_p+1) % ps.length;
+    openProposition(i_book, i_p);
+  }
 }
 
 function presentCover() {

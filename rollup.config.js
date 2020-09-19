@@ -31,19 +31,4 @@ export default [{
     sourcemap: true,
   }
 },
-{
-  input: 'prepare.js',
-  plugins: [
-    nodeResolve({ preferBuiltins: false }),
-    commonjs(),
-    string({
-      include: 'prose/**/*'
-    })
-  ],
-  output: {
-    file: 'build/prepare.js',
-    format: 'cjs',
-    sourcemap: true,
-  }
-},
 ];
