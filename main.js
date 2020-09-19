@@ -801,3 +801,13 @@ window.onload = () => {
     presentCover();
   }
 }
+
+window.onresize = () => {
+  let h = Math.min(512, window.innerHeight - 45);
+  if(h < 512)
+  {
+    let el = document.querySelector('#figure');
+    el.style['width'] = h;
+    el.style['height'] = h;
+  }
+}
