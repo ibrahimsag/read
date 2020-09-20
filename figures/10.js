@@ -267,6 +267,14 @@ function() {
     title: 'Proposition 14',
     img: '/img/10/14.png',
     prose: prop14,
+    mags: [
+      { l: 'A', m: 250, p: [50, 50] },
+      { l: 'B', m: 210, v: 50 },
+      { l: 'E', m: 70, v: 50 },
+      { l: 'C', m: 230, v: 50 },
+      { l: 'D', m: 180, v: 50 },
+      { l: 'F', m: 60, v: 50 },
+    ],
   };
 },
 
@@ -275,6 +283,12 @@ function() {
     title: 'Proposition 15',
     img: '/img/10/15.png',
     prose: prop15,
+    mags: [
+      { l: 'A', m: 200, p: [50, 50] },
+      { l: 'B', m: 110 },
+      { l: 'C' },
+      { l: 'D', m: 70, v: 50 },
+    ],
   };
 },
 
@@ -283,22 +297,70 @@ function() {
     title: 'Proposition 16',
     img: '/img/10/16.png',
     prose: prop16,
+    mags: [
+      { l: 'A', m: 200, p: [50, 50] },
+      { l: 'B', m: 110 },
+      { l: 'C' },
+      { l: 'D', m: 70, v: 50 },
+    ],
   };
 },
 
 function() {
+  const E = [50, 50];
+  const u = [150, 0];
+  const v = [0, 150];
+  const w = [220, 0];
+  const A = vec2.add(E, v);
+  const D = vec2.add(E, w);
+  const F = vec2.add(D, u);
+  const C = vec2.add(A, w);
+  const B = vec2.add(C, u);
+
   return {
     title: 'Lemma',
     img: '/img/10/l2.png',
     prose: propl2,
+    points: { A, B, C, D, E ,F },
+    shapes: [
+      rg.polygon([A, B, F, E]),
+      rg.line(D, C)
+    ],
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [1],
+      E: [1],
+      F: [1],
+    }
   };
 },
 
 function() {
+  const A = [50, 50];
+  const B = [50, 100];
+  const D = [340, 100];
+  const G = [340, 150];
+  const H = [50, 150];
+
   return {
     title: 'Proposition 17',
     img: '/img/10/17.png',
     prose: prop17,
+    shapes: [
+      rg.line(B, H),
+      rg.line(G, D, {strokeLineDash: [3, 3]}),
+      rg.line(G, H, {strokeLineDash: [3, 3]}),
+    ],
+    mags: [
+      { l: 'A', m: 100, n: 2, p: A },
+      { l: 'B', m: 50, v: 50 },
+      { l: 'F', m: 120 },
+      { l: 'E', m: 120 },
+      { l: 'D', m: 50 },
+      { l: 'C'  },
+    ]
   };
 },
 
@@ -307,14 +369,45 @@ function() {
     title: 'Proposition 18',
     img: '/img/10/18.png',
     prose: prop18,
+    mags: [
+      { l: 'A', m: 100, p: [50, 50] },
+      { l: 'B', m: 70, v: 50 },
+      { l: 'F', m: 120 },
+      { l: 'E', m: 120 },
+      { l: 'D', m: 70 },
+      { l: 'C'  },
+    ]
   };
 },
 
 function() {
+  const E = [50, 50];
+  const u = [250, 0];
+  const v = [0, 250];
+  const w = [0, 90];
+  const A = vec2.add(E, v);
+  const F = vec2.add(E, w);
+  const D = vec2.add(E, u);
+  const C = vec2.add(D, w);
+  const B = vec2.add(D, v);
+
   return {
     title: 'Proposition 19',
     img: '/img/10/19.png',
     prose: prop19,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.polygon([A, B, D, E]),
+      rg.line(F, C)
+    ],
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [-1],
+      D: [-1],
+      E: [3],
+      F: [3],
+    }
   };
 },
 
