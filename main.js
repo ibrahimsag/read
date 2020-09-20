@@ -8,8 +8,8 @@ let colors = {
   sentence: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   link: hsluv.hpluvToHex([140, 100, 30]),
-  hover: hsluv.hpluvToHex([50, 100, 50]),
-  hover_bright: hsluv.hpluvToHex([50, 100, 80]),
+  hover: hsluv.hpluvToHex([330, 100, 50]),
+  hover_bright: hsluv.hpluvToHex([330, 100, 80]),
   make: hsluv.hpluvToHex,
 };
 

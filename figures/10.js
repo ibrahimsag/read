@@ -36,7 +36,7 @@ function() {
 function() {
   return {
     title: 'Proposition 1',
-    img: 'img/10/1.png',
+    img: '/img/10/1.png',
     prose: prop1,
     mags: [
       { l: 'A', m: 30, p: [50, 50] },
@@ -55,7 +55,7 @@ function() {
 function() {
   return {
     title: 'Proposition 2',
-    img: 'img/10/2.png',
+    img: '/img/10/2.png',
     prose: prop2,
     mags: [
       { l: 'A', m: 30, p: [50, 50] },
@@ -72,7 +72,7 @@ function() {
 function() {
   return {
     title: 'Proposition 3',
-    img: 'img/10/3.png',
+    img: '/img/10/3.png',
     prose: prop3,
     mags: [
       { l: 'A', m: 25, p: [50, 50] },
@@ -89,7 +89,7 @@ function() {
 function() {
   return {
     title: 'Proposition 4',
-    img: 'img/10/4.png',
+    img: '/img/10/4.png',
     prose: prop4,
     mags: [
       { l: 'A', m: 280, p: [50, 50] },
@@ -105,7 +105,7 @@ function() {
 function() {
   return {
     title: 'Proposition 5',
-    img: 'img/10/5.png',
+    img: '/img/10/5.png',
     prose: prop5,
     mags: [
       { l: 'A', m: 50, n: 3, p: [50, 50] },
@@ -120,7 +120,7 @@ function() {
 function() {
   return {
     title: 'Proposition 6',
-    img: 'img/10/6.png',
+    img: '/img/10/6.png',
     prose: prop6,
     mags: [
       { l: 'A', m: 40, n: 4, p: [50, 50] },
@@ -136,7 +136,7 @@ function() {
 function() {
   return {
     title: 'Proposition 7',
-    img: 'img/10/7.png',
+    img: '/img/10/7.png',
     prose: prop7,
     mags: [
       { l: 'A', m: 150, p: [50, 50] },
@@ -148,7 +148,7 @@ function() {
 function() {
   return {
     title: 'Proposition 8',
-    img: 'img/10/8.png',
+    img: '/img/10/8.png',
     prose: prop8,
     mags: [
       { l: 'A', m: 150, p: [50, 50] },
@@ -160,7 +160,7 @@ function() {
 function() {
   return {
     title: 'Proposition 9',
-    img: 'img/10/9.png',
+    img: '/img/10/9.png',
     prose: prop9,
     mags: [
       { l: 'A', m: 150, p: [50, 50] },
@@ -174,7 +174,7 @@ function() {
 function() {
   return {
     title: 'Proposition 10',
-    img: 'img/10/10.png',
+    img: '/img/10/10.png',
     prose: prop10,
     mags: [
       { l: 'A', m: 120, p: [50, 50] },
@@ -189,7 +189,7 @@ function() {
 function() {
   return {
     title: 'Proposition 11',
-    img: 'img/10/11.png',
+    img: '/img/10/11.png',
     prose: prop11,
     mags: [
       { l: 'A', m: 150, p: [50, 50] },
@@ -203,7 +203,7 @@ function() {
 function() {
   return {
     title: 'Proposition 12',
-    img: 'img/10/12.png',
+    img: '/img/10/12.png',
     prose: prop12,
     mags: [
       { l: 'A', m: 100, p: [50, 50] },
@@ -223,7 +223,7 @@ function() {
 function() {
   return {
     title: 'Proposition 13',
-    img: 'img/10/13.png',
+    img: '/img/10/13.png',
     prose: prop13,
     mags: [
       { l: 'A', m: 140, p: [50, 50] },
@@ -244,7 +244,7 @@ function() {
 
   return {
     title: 'Lemma',
-    img: 'img/10/l1.png',
+    img: '/img/10/l1.png',
     prose: propl1,
     mags: [
       { l: 'C', m: 90, p: [50, 50] }
@@ -265,7 +265,7 @@ function() {
 function() {
   return {
     title: 'Proposition 14',
-    img: 'img/10/14.png',
+    img: '/img/10/14.png',
     prose: prop14,
   };
 },
@@ -273,7 +273,7 @@ function() {
 function() {
   return {
     title: 'Proposition 15',
-    img: 'img/10/15.png',
+    img: '/img/10/15.png',
     prose: prop15,
   };
 },
@@ -281,7 +281,7 @@ function() {
 function() {
   return {
     title: 'Proposition 16',
-    img: 'img/10/16.png',
+    img: '/img/10/16.png',
     prose: prop16,
   };
 },
@@ -289,7 +289,7 @@ function() {
 function() {
   return {
     title: 'Lemma',
-    img: 'img/10/l2.png',
+    img: '/img/10/l2.png',
     prose: propl2,
   };
 },
@@ -297,7 +297,7 @@ function() {
 function() {
   return {
     title: 'Proposition 17',
-    img: 'img/10/17.png',
+    img: '/img/10/17.png',
     prose: prop17,
   };
 },
@@ -305,7 +305,7 @@ function() {
 function() {
   return {
     title: 'Proposition 18',
-    img: 'img/10/18.png',
+    img: '/img/10/18.png',
     prose: prop18,
   };
 },
@@ -313,7 +313,7 @@ function() {
 function() {
   return {
     title: 'Proposition 19',
-    img: 'img/10/19.png',
+    img: '/img/10/19.png',
     prose: prop19,
   };
 },
