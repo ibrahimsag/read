@@ -8,6 +8,8 @@ let colors = {
   sentence: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   link: hsluv.hpluvToHex([140, 100, 30]),
+  hover: hsluv.hpluvToHex([50, 100, 50]),
+  hover_bright: hsluv.hpluvToHex([50, 100, 80]),
   make: hsluv.hpluvToHex,
 };
 
@@ -212,6 +214,14 @@ function makeRG (svgEl)
           s.options["strokeWidth"] += 1;
         });
     }
+    else if(layer === 'hover_bright')
+    {
+      shapes.forEach(s =>
+        {
+          s.options["stroke"] = colors.hover_bright;
+          s.options["strokeWidth"] += 1;
+        });
+    }
 
     return shapes;
   }
@@ -355,7 +365,7 @@ function makeGround(rg, svg)
     figure.prepared = true;
   }
 
-  function prepareShapes(figure, highlights, nearHighlights, highlightFigure, smallLetters)
+  function prepareShapes(figure, highlights, nearHighlights, hoverHighlights, highlightFigure, smallLetters)
   {
     let shapes = figure.shapes.map(rg.draw);
 
@@ -371,6 +381,13 @@ function makeGround(rg, svg)
         highlights.forEach(h =>
           {
             shapes.push(...rg.makeHighlight(figure, 'bright', ...h).map(rg.draw));
+          });
+      }
+      if(hoverHighlights.length)
+      {
+        hoverHighlights.forEach(h =>
+          {
+            shapes.push(...rg.makeHighlight(figure, 'hover_bright', ...h).map(rg.draw));
           });
       }
     }
@@ -464,7 +481,7 @@ function makeGround(rg, svg)
     })
   }
 
-  function present(o, p)
+  function present(o, p, hover_o)
   {
     if(!p.paragraphs)
     {
@@ -508,6 +525,7 @@ function makeGround(rg, svg)
     }
 
     let nearHighlights = [];
+    let hoverHighlights = [];
     let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
@@ -518,7 +536,10 @@ function makeGround(rg, svg)
       let paragraphEl = document.createElement('p');
       sentences.forEach(sentenceParts =>
       {
-        let isFocusSentence = (p.refp[i_sentence] <= o) && (o < p.refp[i_sentence+1]);
+        let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
+        let isFocusSentence = check_range(o);
+        let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
+
         let sentenceWithoutRef = true;
         function selectFigure(m, ind)
         {
@@ -569,8 +590,12 @@ function makeGround(rg, svg)
             let color;
             if(i_ref == o)
               color = colors.bright;
+            else if(i_ref == hover_o)
+              color = colors.hover_bright;
             else if (isFocusSentence)
               color = colors.sentence;
+            else if (isHoverSentence)
+              color = colors.hover;
             else
               color = colors.dim;
             refEl.style['color'] = color;
@@ -578,6 +603,11 @@ function makeGround(rg, svg)
             if(i_ref == o)
             {
               highlights.push(part);
+              figureIndex = lastSeenFigureIndex;
+            }
+            else if(i_ref == hover_o)
+            {
+              hoverHighlights.push(part);
               figureIndex = lastSeenFigureIndex;
             }
             i_ref++;
@@ -599,6 +629,10 @@ function makeGround(rg, svg)
           el.style['color'] = colors.sentence;
           scrollToSentenceIfNecessary(el);
         }
+        else if(isHoverSentence)
+        {
+          el.style['color'] = colors.hover;
+        }
         else
         {
           el.style['color'] = colors.dim;
@@ -617,20 +651,37 @@ function makeGround(rg, svg)
 
     if(!p.figures)
     {
-      let els = prepareShapes(p, highlights, nearHighlights, true, false);
+      let els = prepareShapes(p, highlights, nearHighlights, hoverHighlights, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        let els = prepareShapes(p.figures[i], highlights, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        let els = prepareShapes(p.figures[i], highlights, nearHighlights, hoverHighlights, figureIndex == 0 || figureIndex == i+1, true);
         els.map(el => svg.appendChild(el));
       }
     }
 
     proxy.moveon = () => { present(o + 1, p); };
     proxy.moveback = () => { present(o - 1, p); };
+
+    proseEl.onmousemove = (e) =>
+    {
+      let ref = parseInt(e.srcElement.dataset.ref);
+      if(!isNaN(ref))
+      {
+        if(proxy.hoverTimeoutHandle)
+        {
+          clearTimeout(proxy.hoverTimeoutHandle);
+          proxy.hoverTimeoutHandle = undefined;
+        }
+
+        proxy.hoverTimeoutHandle = setTimeout(() => {
+          present(o, p, ref);
+        }, 100);
+      }
+    }
 
     proseEl.onclick = (e) =>
     {
