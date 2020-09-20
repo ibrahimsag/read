@@ -355,7 +355,7 @@ function makeGround(rg, svg)
     figure.prepared = true;
   }
 
-  function prepareShapes(figure, highlight, nearHighlights, highlightFigure, smallLetters)
+  function prepareShapes(figure, highlights, nearHighlights, highlightFigure, smallLetters)
   {
     let shapes = figure.shapes.map(rg.draw);
 
@@ -366,14 +366,17 @@ function makeGround(rg, svg)
           shapes.push(...rg.makeHighlight(figure, 'sentence', ...h).map(rg.draw));
         });
 
-      if(highlight.length)
+      if(highlights.length)
       {
-        shapes.push(...rg.makeHighlight(figure, 'bright', ...highlight).map(rg.draw));
+        highlights.forEach(h =>
+          {
+            shapes.push(...rg.makeHighlight(figure, 'bright', ...h).map(rg.draw));
+          });
       }
     }
 
     let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-    let highlightName = highlight.length && highlight[0];
+    let highlightName = highlights.map(h => h[0]).join('');
 
     for(var i in figure.letters)
     {
@@ -505,7 +508,7 @@ function makeGround(rg, svg)
     }
 
     let nearHighlights = [];
-    let highlight = [];
+    let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
 
@@ -574,7 +577,7 @@ function makeGround(rg, svg)
 
             if(i_ref == o)
             {
-              highlight = part;
+              highlights.push(part);
               figureIndex = lastSeenFigureIndex;
             }
             i_ref++;
@@ -614,14 +617,14 @@ function makeGround(rg, svg)
 
     if(!p.figures)
     {
-      let els = prepareShapes(p, highlight, nearHighlights, true, false);
+      let els = prepareShapes(p, highlights, nearHighlights, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        let els = prepareShapes(p.figures[i], highlight, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        let els = prepareShapes(p.figures[i], highlights, nearHighlights, figureIndex == 0 || figureIndex == i+1, true);
         els.map(el => svg.appendChild(el));
       }
     }
