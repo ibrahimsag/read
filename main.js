@@ -666,17 +666,30 @@ function makeGround(rg, svg)
     proxy.moveon = () => { present(o + 1, p); };
     proxy.moveback = () => { present(o - 1, p); };
 
+    proseEl.onmouseout = (e) =>
+    {
+      if(proxy.hoverTimeoutHandle)
+      {
+        clearTimeout(proxy.hoverTimeoutHandle);
+        proxy.hoverTimeoutHandle = undefined;
+      }
+
+      proxy.hoverTimeoutHandle = setTimeout(() => {
+        present(o, p);
+      }, 100);
+    }
+
     proseEl.onmousemove = (e) =>
     {
+      if(proxy.hoverTimeoutHandle)
+      {
+        clearTimeout(proxy.hoverTimeoutHandle);
+        proxy.hoverTimeoutHandle = undefined;
+      }
+
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
-        if(proxy.hoverTimeoutHandle)
-        {
-          clearTimeout(proxy.hoverTimeoutHandle);
-          proxy.hoverTimeoutHandle = undefined;
-        }
-
         proxy.hoverTimeoutHandle = setTimeout(() => {
           present(o, p, ref);
         }, 100);
