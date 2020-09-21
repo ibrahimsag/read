@@ -1103,7 +1103,7 @@ function()
       L: [1],
       M: [1],
       N: [-3],
-      O: [2],
+      O: [0],
       P: [1],
       Q: [4.5, 0.8],
       R: [-1],
@@ -1112,6 +1112,22 @@ function()
       U: [0],
       V: [1.5],
       W: [0]
+    },
+    polygonl: {
+      AG: 'AEGH',
+      GB: 'GEBF',
+      BG: 'GEBF',
+      HE: 'HAEG',
+      KM: 'KLMN',
+      GQ: 'GOQP',
+      OS: 'OESQ',
+      QB: 'QSBR',
+      PR: 'PQRF',
+      PB: 'PSBF',
+      OB: 'OEBR',
+      TE: 'TAEO',
+      TS: 'TASQ',
+      ST: 'TASQ',
     }
   };
 },
@@ -1186,11 +1202,23 @@ function()
       O: [-3],
       P: [-1],
       Q: [-3],
-      S: [-3],
-      U: [-3],
       V: [-0.3, 2],
       W: [-2.2],
       X: [1]
+    },
+    polygonl: {
+      BF: 'BEFL',
+      GH: 'GKHU',
+      FB: 'FEBL',
+      EL: 'FEBL',
+      MN: 'MONF',
+      AN: 'AENS',
+      NB: 'NEBQ',
+      LP: 'LMPB',
+      EO: 'ENOP',
+      AO: 'ASOP',
+      QP: 'QOPB',
+      PQ: 'QOPB',
     }
   };
 },
@@ -1229,6 +1257,13 @@ function()
       F: [1],
       G: [3],
       H: [1]
+    },
+    polygonl: {
+      BC: 'BACH',
+      CD: 'CGDF',
+      AD: 'AGDE',
+      CE: 'CAEF',
+      BF: 'BEFH',
     }
   };
 },

@@ -3,14 +3,14 @@ To cut a given finite straight-line in extreme and mean ratio.
 Let {AB line} be the given finite straight-line.
 So it is required to cut the straight-line {AB line} in extreme and mean ratio.
 
-Let the square {ABHC polygon} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CGDF polygon}, equal to {ABHC polygon}, have been applied to {AC line}, overshooting by the figure {AGDE polygon} (which is) similar to {ABHC polygon} [Prop. 6.29].
+Let the square {BC polygonl} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CD polygonl}, equal to {BC polygonl}, have been applied to {AC line}, overshooting by the figure {AD polygonl} (which is) similar to {BC polygonl} [Prop. 6.29].
 
-And {ABHC polygon} is a square.
-Thus, {AGDE polygon} is also a square.
-And since {ABHC polygon} is equal to {CGDF polygon}, let (rectangle) {CAEF polygon} have been subtracted from both.
-Thus, the remaining (rectangle) {BEFH polygon} is equal to the remaining (square) {AGDE polygon}.
+And {BC polygonl} is a square.
+Thus, {AD polygonl} is also a square.
+And since {BC polygonl} is equal to {CD polygonl}, let (rectangle) {CE polygonl} have been subtracted from both.
+Thus, the remaining (rectangle) {BF polygonl} is equal to the remaining (square) {AD polygonl}.
 And it is also equiangular to it.
-Thus, the sides of {BEFH polygon} and {AGDE polygon} about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, the sides of {BF polygonl} and {AD polygonl} about the equal angles are reciprocally proportional [Prop. 6.14].
 Thus, as {FE line} is to {ED line}, so {AE line} (is) to {EB line}.
 And {FE line} (is) equal to {AB line}, and {ED line} to {AE line}.
 Thus, as {BA line} is to {AE line}, so {AE line} (is) to {EB line}.
