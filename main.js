@@ -486,7 +486,7 @@ function makeGround(rg, svg)
     })
   }
 
-  function present(o, p, hover_o)
+  function present(o, p, hover_o, no_scroll)
   {
     if(!p.paragraphs)
     {
@@ -632,7 +632,10 @@ function makeGround(rg, svg)
         if(isFocusSentence)
         {
           el.style['color'] = colors.sentence;
-          scrollToSentenceIfNecessary(el);
+          if(!no_scroll)
+          {
+            scrollToSentenceIfNecessary(el);
+          }
         }
         else if(isHoverSentence)
         {
@@ -679,9 +682,12 @@ function makeGround(rg, svg)
         proxy.hoverTimeoutHandle = undefined;
       }
 
-      proxy.hoverTimeoutHandle = setTimeout(() => {
-        present(o, p);
-      }, 100);
+      if(hover_o)
+      {
+        proxy.hoverTimeoutHandle = setTimeout(() => {
+            present(o, p, undefined, true);
+        }, 100);
+      }
     }
 
     proseEl.onmousemove = (e) =>
@@ -696,7 +702,7 @@ function makeGround(rg, svg)
       if(!isNaN(ref))
       {
         proxy.hoverTimeoutHandle = setTimeout(() => {
-          present(o, p, ref);
+          present(o, p, ref, true);
         }, 100);
       }
     }
