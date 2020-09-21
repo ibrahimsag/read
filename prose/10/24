@@ -1,12 +1,12 @@
 A rectangle contained by medial straight-lines (which are) commensurable in length is medial.
 
-For let the rectangle AC be contained by the medial straight-lines AB and BC (which are) commensurable in length.
-I say that AC is medial.
+For let the rectangle {AC polygonl} be contained by the medial straight-lines {AB line} and {BC line} (which are) commensurable in length.
+I say that {AC polygonl} is medial.
 
-For let the square AD have been described on AB.
-AD is thus medial [see previous footnote].
-And since AB is commensurable in length with BC, and AB (is) equal to BD, DB is thus also commensurable in length with BC.
-Hence, DA is also commensurable with AC [Props. 6.1, 10.11].
-And DA (is) medial.
-Thus, AC (is) also medial [Prop. 10.23 corr.].
+For let the square {AD polygonl} have been described on {AB line}.
+{AD polygonl} is thus medial [Prop. 10.23 corr.].
+And since {AB line} is commensurable in length with {BC line}, and {AB line} (is) equal to {BD line}, {DB line} is thus also commensurable in length with {BC line}.
+Hence, {DA polygonl} is also commensurable with {AC polygonl} [Props. 6.1, 10.11].
+And {DA polygonl} (is) medial.
+Thus, {AC polygonl} (is) also medial [Prop. 10.23 corr.].
 (Which is) the very thing it was required to show.

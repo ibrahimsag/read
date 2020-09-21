@@ -147,6 +147,11 @@ function makeRG (svgEl)
       let points = name.split('').map(l => p.points[l]);
       shapes = [polygon(points)];
     }
+    else if(typ == 'polygonl')
+    {
+      let points = p.polygonl[name].split('').map(l => p.points[l]);
+      shapes = [polygon(points)];
+    }
     else if(typ == 'angle')
     {
       let [a, o, b] = name.split('').map(l => p.points[l]);

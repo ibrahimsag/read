@@ -364,8 +364,10 @@ function() {
       B: [-3],
       C: [-3],
       D: [1],
-      E: [1],
-      F: [1],
+    },
+    polygonl: {
+      AD: 'ACDE',
+      DB: 'DCBF'
     }
   };
 },
@@ -438,65 +440,287 @@ function() {
       B: [-1],
       C: [-1],
       D: [-1],
-      E: [3],
-      F: [3],
+    },
+    polygonl: {
+      AC: 'ABCF',
+      AD: 'ABDE',
+      DA: 'ABDE'
     }
   };
 },
 
 function() {
+  const D = [50, 50];
+  const u = [150, 0], v = [0, 150], w = [0, 340];
+  const B = vec2.add(D, v);
+  const E = vec2.add(D, u);
+  const A = vec2.add(E, v);
+  const C = vec2.add(D, w);
+  const F = vec2.add(E, w);
+
   return {
     title: 'Proposition 20',
     img: '/img/10/20.png',
     prose: prop20,
+    points: { A, B, C, D, E, F},
+    shapes: [
+      rg.polygon([D, C, F, E]),
+      rg.line(B, A)
+    ],
+    letters: {
+      A: [-1],
+      B: [3],
+      C: [3],
+      D: [3],
+    },
+    polygonl: {
+      AC: 'AFCB',
+      AD: 'ABDE',
+      DA: 'ABDE',
+    }
   };
 },
 
 function() {
+  const D = [50, 50];
+  const u = [150, 0], v = [0, 150], w = [0, 340];
+  const B = vec2.add(D, v);
+  const E = vec2.add(D, u);
+  const A = vec2.add(E, v);
+  const C = vec2.add(D, w);
+  const F = vec2.add(E, w);
+
   return {
     title: 'Proposition 21',
     img: '/img/10/21.png',
     prose: prop21,
+    points: { A, B, C, D, E, F},
+    shapes: [
+      rg.polygon([D, C, F, E]),
+      rg.line(B, A)
+    ],
+    letters: {
+      A: [-1],
+      B: [3],
+      C: [3],
+      D: [3],
+    },
+    polygonl: {
+      AC: 'AFCB',
+      AD: 'ABDE',
+      DA: 'ABDE',
+    }
   };
 },
 
 function() {
+  const F = [50, 50];
+  const u = [150, 0], v = [0, 150], w = [340, 0];
+  const E = vec2.add(F, u);
+  const A = vec2.add(F, v);
+  const D = vec2.add(A, u);
+  const G = vec2.add(F, w);
+  const B = vec2.add(A, w);
+
   return {
     title: 'Lemma',
     img: '/img/10/l3.png',
     prose: propl3,
+    points: { A, B, D, E, F, G},
+    shapes: [
+      rg.polygon([F, A, B, G]),
+      rg.line(E, D)
+    ],
+    letters: {
+      D: [-3],
+      E: [1],
+      F: [1],
+      G: [1],
+    },
+    polygonl: {
+      GD: 'GBDE',
+      DF: 'DEFA',
+      FD: 'FADE',
+      DG: 'DBGE'
+    }
   };
 },
 
 function() {
+  const A = [50, 50];
+  const C = [50, 100];
+  const D = [50, 150];
+  const E = [50, 200];
+  const F = [50, 270];
+  const a = 150, c = 190, e = 130;
+  const B = vec2.add(C, [c, 0]);
+  const H = vec2.add(D, [c, 0]);
+  const G = vec2.add(E, [e, 0]);
+  const K = vec2.add(F, [e, 0]);
+
   return {
     title: 'Proposition 22',
     img: '/img/10/22.png',
     prose: prop22,
+    points: { B, C, D, E, F, G, H, K },
+    shapes: [
+      rg.polygon([B, C, D, H]),
+      rg.polygon([G, E, F, K]),
+    ],
+    mags: [
+      { l: 'A', m: a, p: A }
+    ],
+    letters: {
+      B: [-1],
+      C: [3],
+      D: [3],
+      E: [3],
+      F: [3],
+      G: [-1],
+    },
+    polygonl: {
+      BD: 'BCDH',
+      GF: 'GEFK'
+    }
   };
 },
 
 function() {
+  const A = [50, 50], B = [260, 50];
+  const G = [50, 120];
+  const u = [130, 0], v = [200, 0], w = [0, 210];
+  const C = vec2.add(G, u);
+  const E = vec2.add(G, w);
+  const D = vec2.add(E, u);
+  const H = vec2.add(G, v);
+  const F = vec2.add(E, v);
+
   return {
     title: 'Proposition 23',
     img: '/img/10/23.png',
     prose: prop23,
+    points: { C, D, E, F, G, H },
+    shapes: [
+      rg.polygon([E, F, H, G]),
+      rg.line(C, D),
+    ],
+    mags: [
+      { l: 'A', m: 150, p: A },
+      { l: 'B', m: 100, p: B },
+    ],
+    letters: {
+      C: [1],
+      D: [-3],
+      E: [-3],
+      F: [-3],
+    },
+    polygonl: {
+      CE: 'CDEG',
+      EC: 'CDEG',
+      CF: 'CDFH'
+    }
   };
 },
 
 function() {
+  const F = [50, 50];
+  const u = [150, 0], v = [0, 150], w = [0, 200];
+  const A = vec2.add(F, w);
+  const C = vec2.add(F, u);
+  const E = vec2.add(A, v);
+  const B = vec2.add(A, u);
+  const D = vec2.add(B, v);
+
   return {
     title: 'Proposition 24',
     img: '/img/10/24.png',
     prose: prop24,
+    points: { A, B, C, D, E, F },
+    shapes: [
+      rg.polygon([C, D, E, F]),
+      rg.line(A, B)
+    ],
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [-1],
+      D: [-1],
+    },
+    polygonl: {
+      AC: 'ABCF',
+      AD: 'AEDB',
+      DA: 'AEDB',
+    }
   };
 },
 
 function() {
+  const Q = [50, 50];
+  let u = [100, 0], ui = [0, 100], v = [70, 0], vi = [0, 70];
+  const A = vec2.add(Q, u);
+  const D = vec2.add(Q, ui);
+  const B = vec2.add(A, ui);
+  const P = vec2.add(A, v);
+  const O = vec2.add(B, vi);
+  const C = vec2.add(B, v);
+  const E = vec2.add(O, v);
+
+  const F = [300, 50];
+  u = [90, 0], v = [0, 100*(100/90)];
+  let w = [0, 70*(100/90)], x = [0, 70*(70/90)];
+  const G = vec2.add(F, u);
+  const H = vec2.add(F, v);
+  const M = vec2.add(G, v);
+  const K = vec2.add(H, w);
+  const N = vec2.add(M, w);
+  const L = vec2.add(K, x);
+  const R = vec2.add(N, x);
+
   return {
     title: 'Proposition 25',
     img: '/img/10/25.png',
     prose: prop25,
+    points: {A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, R},
+    shapes: [
+      rg.line(Q, P),
+      rg.line(Q, D),
+      rg.line(P, E),
+      rg.line(O, E),
+      rg.line(O, A),
+      rg.line(D, C),
+      rg.polygon([F, L, R, G]),
+      rg.line(H, M),
+      rg.line(K, N),
+    ],
+    letters: {
+      A: [1],
+      B: [3.9, 10],
+      C: [-1],
+      D: [-3],
+      E: [-3],
+      F: [3],
+      G: [-1],
+      H: [3],
+      K: [3],
+      L: [3],
+      M: [-1],
+      N: [-1],
+      O: [-3],
+      P: [1],
+      Q: [1],
+      R: [-1],
+    },
+    polygonl: {
+      AC: 'ABCP',
+      AD: 'ABDQ',
+      DA: 'ABDQ',
+      BE: 'BCEO',
+      CO: 'BCEO',
+      GH: 'GFHM',
+      HN: 'KNMH',
+      MK: 'KNMH',
+      NL: 'LKNR'
+    }
   };
 },
 

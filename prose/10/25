@@ -1,38 +1,38 @@
 The rectangle contained by medial straight-lines (which are) commensurable in square only is either rational or medial.
 
-For let the rectangle AC be contained by the medial straight-lines AB and BC (which are) commensurable in square only.
-I say that AC is either rational or medial.
+For let the rectangle {AC polygonl} be contained by the medial straight-lines {AB line} and {BC line} (which are) commensurable in square only.
+I say that {AC polygonl} is either rational or medial.
 
-For let the squares AD and BE have been described on (the straight-lines) AB and BC (respectively).
-AD and BE are thus each medial.
-And let the rational (straight-line) FG be laid out.
-And let the rectangular parallelogram GH, equal to AD, have been applied to FG, producing FH as breadth.
-And let the rectangular parallelogram MK, equal to AC, have been applied to HM, producing HK as breadth.
-And, finally, let NL, equal to BE, have similarly been applied to KN, producing KL as breadth.
-Thus, FH, HK, and KL are in a straight-line.
-Therefore, since AD and BE are each medial, and AD is equal to GH, and BE to NL, GH and NL (are) thus each also medial.
-And they are applied to the rational (straight-line) FG.
-FH and KL are thus each rational, and incommensurable in length with FG [Prop. 10.22].
-And since AD is commensurable with BE, GH is thus also commensurable with NL.
-And as GH is to NL, so FH (is) to KL [Prop. 6.1].
-Thus, FH is commensurable in length with KL [Prop. 10.11].
-Thus, FH and KL are rational (straight-lines which are) commensurable in length.
-Thus, the (rectangle contained) by FH and KL is rational [Prop. 10.19].
-And since DB is equal to BA, and OB to BC, thus as DB is to BC, so AB (is) to BO.
-But, as DB (is) to BC, so DA (is) to AC [Props. 6.1].
-And as AB (is) to BO, so AC (is) to CO [Prop. 6.1].
-Thus, as DA is to AC, so AC (is) to CO.
-And AD is equal to GH, and AC to MK, and CO  to NL.
-Thus, as GH is to MK, so MK (is) to NL.
-Thus, also, as FH is to HK, so HK (is) to KL [Props. 6.1, 5.11].
-Thus, the (rectangle contained) by FH and KL is equal to the (square) on HK [Prop. 6.17].
-And the (rectangle contained) by FH and KL (is) rational.
-Thus, the (square) on HK is also rational.
-Thus, HK is rational.
-And if it is commensurable in length with FG then HN is rational [Prop. 10.19].
-And if it is incommensurable in length with FG then KH and HM are rational (straight-lines which are) commensurable in square only: thus, HN is medial [Prop. 10.21].
-Thus, HN is either rational or medial.
-And HN (is) equal to AC.
-Thus, AC is either rational or medial.
+For let the squares {AD polygonl} and {BE polygonl} have been described on (the straight-lines) {AB line} and {BC line} (respectively).
+{AD polygonl} and {BE polygonl} are thus each medial.
+And let the rational (straight-line) {FG line} be laid out.
+And let the rectangular parallelogram {GH polygonl}, equal to {AD polygonl}, have been applied to {FG line}, producing {FH line} as breadth.
+And let the rectangular parallelogram {MK polygonl}, equal to {AC polygonl}, have been applied to {HM line}, producing {HK line} as breadth.
+And, finally, let {NL polygonl}, equal to {BE polygonl}, have similarly been applied to {KN line}, producing {KL line} as breadth.
+Thus, {FH line}, {HK line}, and {KL line} are in a straight-line.
+Therefore, since {AD polygonl} and {BE polygonl} are each medial, and {AD polygonl} is equal to {GH polygonl}, and {BE polygonl} to {NL polygonl}, {GH polygonl} and {NL polygonl} (are) thus each also medial.
+And they are applied to the rational (straight-line) {FG line}.
+{FH line} and {KL line} are thus each rational, and incommensurable in length with {FG line} [Prop. 10.22].
+And since {AD polygonl} is commensurable with {BE polygonl}, {GH polygonl} is thus also commensurable with {NL polygonl}.
+And as {GH polygonl} is to {NL polygonl}, so {FH line} (is) to {KL line} [Prop. 6.1].
+Thus, {FH line} is commensurable in length with {KL line} [Prop. 10.11].
+Thus, {FH line} and {KL line} are rational (straight-lines which are) commensurable in length.
+Thus, the (rectangle contained) by {FH line} and {KL line} is rational [Prop. 10.19].
+And since {DB line} is equal to {BA line}, and {OB line} to {BC line}, thus as {DB line} is to {BC line}, so {AB line} (is) to {BO line}.
+But, as {DB line} (is) to {BC line}, so {DA polygonl} (is) to {AC polygonl} [Props. 6.1].
+And as {AB line} (is) to {BO line}, so {AC polygonl} (is) to {CO polygonl} [Prop. 6.1].
+Thus, as {DA polygonl} is to {AC polygonl}, so {AC polygonl} (is) to {CO polygonl}.
+And {AD polygonl} is equal to {GH polygonl}, and {AC polygonl} to {MK polygonl}, and {CO polygonl}  to {NL polygonl}.
+Thus, as {GH polygonl} is to {MK polygonl}, so {MK polygonl} (is) to {NL polygonl}.
+Thus, also, as {FH line} is to {HK line}, so {HK line} (is) to {KL line} [Props. 6.1, 5.11].
+Thus, the (rectangle contained) by {FH line} and {KL line} is equal to the (square) on {HK line} [Prop. 6.17].
+And the (rectangle contained) by {FH line} and {KL line} (is) rational.
+Thus, the (square) on {HK line} is also rational.
+Thus, {HK line} is rational.
+And if it is commensurable in length with {FG line} then {HN polygonl} is rational [Prop. 10.19].
+And if it is incommensurable in length with {FG line} then {KH line} and {HM line} are rational (straight-lines which are) commensurable in square only: thus, {HN polygonl} is medial [Prop. 10.21].
+Thus, {HN polygonl} is either rational or medial.
+And {HN polygonl} (is) equal to {AC polygonl}.
+Thus, {AC polygonl} is either rational or medial.
 
 Thus, the ... by medial straight-lines (which are) commensurable in square only, and so on ....
