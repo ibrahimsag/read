@@ -706,9 +706,6 @@ function() {
       M: [-1],
       N: [-1],
       O: [-3],
-      P: [1],
-      Q: [1],
-      R: [-1],
     },
     polygonl: {
       AC: 'ABCP',
