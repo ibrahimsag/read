@@ -265,7 +265,7 @@ function()
       P: [3]
     },
     given: {
-      NOP: [rg.gnomon(H, N, P)],
+      NOP: [rg.gnomon(H, N, P), rg.polygon([L, H, G, F, B, C])],
     },
     polygonl: {
       CH: 'CLHD',
@@ -338,7 +338,7 @@ function()
       P: [3]
     },
     given: {
-      NOP: [rg.gnomon(H, N, P)],
+      NOP: [rg.gnomon(H, N, P), rg.polygon([L, H, G, F, D, C])],
     },
     polygonl: {
       AL: 'AKLC',
@@ -400,7 +400,7 @@ function()
       N: [5]
     },
     given: {
-      KLM: [rg.gnomon(G, K, M)],
+      KLM: [rg.gnomon(G, K, M), rg.polygon([H, G, N, E, B, A])],
     },
     polygonl: {
       AG: 'AHGC',
@@ -486,7 +486,7 @@ function()
       U: [3],
     },
     given: {
-      STU: [rg.gnomon(cent, S, U)],
+      STU: [rg.gnomon(cent, S, U), rg.polygon([O, Q, H, F, D, A])],
     },
     polygonl: {
       CK: 'CGKB',

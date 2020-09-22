@@ -1058,7 +1058,7 @@ function()
       rg.gnomon(F, N, L)
     ],
     given: {
-      LMN: [rg.gnomon(F, N, L)],
+      LMN: [rg.gnomon(F, N, L), rg.polygon([P, F, Q, C, B, E])],
     },
     smallletters: 'LMNF',
     letters: {
@@ -1141,7 +1141,7 @@ function()
     given: {
       C: [rg.polygon([C, ...cpts])],
       D: [rg.polygon([D, ...dpts])],
-      VWU: [rg.gnomon(Q, U, V)],
+      VWU: [rg.gnomon(Q, U, V), rg.polygon([P, Q, O, E, B, F])],
     },
     smallletters: 'UVWQ',
     letters: {
@@ -1223,7 +1223,7 @@ function()
     given: {
       C: [rg.polygon([C, ...cpts])],
       D: [rg.polygon([D, ...dpts])],
-      VWX: [rg.gnomon(B, V, X)]
+      VWX: [rg.gnomon(B, V, X), rg.polygon([L, B, E, N, O, M])]
     },
     shapes: [
       rg.polygon([D, ...dpts]),
