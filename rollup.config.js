@@ -16,6 +16,18 @@ export default [{
   }
 },
 {
+  input: 'project.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+  ],
+  output: {
+    file: 'build/project.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
   input: 'books.js',
   plugins: [
     json()

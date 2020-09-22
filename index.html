@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <title>Can be read.</title>
+    <style>
+@font-face {
+  font-family: Nale;
+  src: url('/fonts/monospace.ttf') format('truetype');
+}
+@font-face {
+  font-family: Geom;
+  src: url('/fonts/medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: Geom;
+  src: url('/fonts/bold.ttf') format('truetype');
+  font-weight: Bold;
+}
+@font-face {
+  font-family: Geom;
+  src: url('/fonts/mediumitalic.ttf') format('truetype');
+  font-style: italic;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: black;
+  color: #474747;
+  margin: 0;
+  font-family: Geom;
+}
+.title {
+  width: 530px;
+}
+#project {
+  padding: 12px;
+  width: 700px;
+  text-align: right;
+}
+
+.item {
+  display: flex;
+}
+
+.item h3 {
+  color: #777777;
+}
+
+.item .prose {
+  width: 300px;
+}
+.item svg {
+  margin-left: 30px;
+}
+
+.item .link {
+  font-size: 1.3em;
+  width: 530px;
+}
+
+.item .author {
+  padding-top: 0.3em;
+  font-size: 1.0em;
+  width: 160px;
+  margin-left: 10px;
+  text-align: left;
+}
+.item .small {
+  font-size: .7em;
+}
+
+.link a {
+  color: #254f35;
+}
+.link.break {
+  margin-bottom: 1em;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="project">
+      <div class="title">
+      <h2>canbe<span style="color: #777777;">rea</span><span style="color: #e2e2e2;">d</span>
+      </h2>
+      <h5> An experiment in presenting geometry</h5>
+      </div>
+
+      <div id="page">
+        <div class="item">
+          <div class="prose">
+            <h3>Visible figure</h3>
+            <p>However long prose may be <br> figure is always present.</p>
+          </div>
+          <svg id="figure1" width="330" height="200"></svg>
+        </div>
+        <div class="item">
+          <div class="prose">
+            <h3>Resonate prose</h3>
+            <p>However complex figure may be <br> prose is always ready.</p>
+          </div>
+          <svg id="figure2" width="330" height="200"></svg>
+        </div>
+        <div class="item">
+          <div class="link break">
+            <a href="/euclid/">Elements of Geometry</a>
+            <br>
+            <span class="small">UNDER CARE</span>
+          </div>
+          <div class="author">Euclid, <span class="small">~300 BC.</span></div>
+
+        </div>
+        <div class="item">
+          <div class="link">
+            <a>On the Sphere and the Cylinder</a> &amp; <a>On Spirals</a>
+          </div>
+          <div class="author">Archimedes, <span class="small">~200 BC.</span></div>
+        </div>
+        <div class="item">
+          <div class="link">
+            <a>Dialogues Concerning Two New Sciences</a>
+          </div>
+          <div class="author">
+            Galileo, <span class="small">1638.</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="link">
+            <a>Geometry</a>
+          </div>
+          <div class="author">
+            Descartes, <span class="small">1637</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="link">
+            <a>Philosophiæ Naturalis Principia Mathematica</a>
+          </div>
+          <div class="author">Newton, <span class="small">1687</span></div>
+        </div>
+      </div>
+    </div>
+    <script src="/build/project.js"></script>
+  </body>
+</html>
