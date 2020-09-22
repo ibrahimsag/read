@@ -60,6 +60,7 @@ function()
   const H = vec2.sub(C, [l1 * 3, 0]);
   const K = vec2.add(C, [l2 * 2, 0]);
   const L = vec2.add(C, [l2 * 3, 0]);
+
   return {
     title: 'Proposition 1',
     prose: prop1,
@@ -81,8 +82,12 @@ function()
       H: [-3],
       K: [-3],
       L: [-3],
+    },
+    polygonl: {
+      EC: 'AEBC',
+      CF: 'ACDF',
+      FC: 'ACDF',
     }
-
   };
 },
 
@@ -386,6 +391,10 @@ function()
       G: [-3],
       H: [2],
       K: [-1]
+    },
+    polygonl: {
+      FH: 'DFGH',
+      HB: 'KHGB',
     }
   };
 },
@@ -519,7 +528,11 @@ function()
       E: [1],
       F: [3],
       G: [-1],
-      H: [1]
+    },
+    polygonl: {
+      AB: 'FADB',
+      BC: 'EBGC',
+      FE: 'HFBE',
     }
   };
 },
@@ -584,8 +597,10 @@ function()
       D: [-1],
       G: [1],
       H: [1],
-      K: [1],
-      L: [1],
+    },
+    polygonl: {
+      BG: 'ABKG',
+      DH: 'CDLH',
     }
   };
 },
@@ -634,6 +649,10 @@ function()
       F: [1],
       G: [1],
       H: [1],
+    },
+    polygonl: {
+      CE: 'FCDE',
+      AH: 'GABH',
     }
   };
 },
@@ -796,9 +815,11 @@ function()
       Q: [-3],
       R: [-3],
       S: [1],
-      T: [1],
-      U: [1],
-      V: [1],
+    },
+    polygonl: {
+      MF: 'MEFU',
+      NH: 'NGHV',
+      SR: 'SQRT',
     }
   };
 },
@@ -840,6 +861,12 @@ function()
       F: [-3],
       G: [-2],
       H: [1]
+    },
+    polygonl: {
+      AC: 'ABCD',
+      CF: 'CEFG',
+      DG: 'DCGH',
+      CH: 'CGHD'
     }
   };
 },
@@ -880,6 +907,11 @@ function()
       G: [3],
       H: [-1],
       K: [-3],
+    },
+    polygonl: {
+      EG: 'EAGF',
+      HK: 'HFKC',
+      KH: 'HFKC',
     }
   };
 },
@@ -929,6 +961,11 @@ function()
       K: [1],
       L: [-3],
       M: [-3]
+    },
+    polygonl: {
+      BE: 'BLEC',
+      CM: 'CEMF',
+      EF: 'CEMF',
     }
   };
 },
@@ -978,6 +1015,11 @@ function()
       G: [1],
       H: [-3],
       K: [2.8],
+    },
+    polygonl: {
+      AF: 'AEFG',
+      KG: 'KHGA',
+      EG: 'EFGA',
     }
   };
 },
@@ -1032,9 +1074,21 @@ function()
       L: [4],
       M: [0],
       N: [0],
-      O: [1],
       P: [1],
       Q: [4.4],
+    },
+    polygonl: {
+      AD: 'ACDO',
+      DB: 'DCBE',
+      AF: 'AKFG',
+      FB: 'FKBH',
+      CF: 'CKFQ',
+      FE: 'FHEP',
+      CH: 'CBHQ',
+      KE: 'KBEP',
+      EK: 'KBEP',
+      CG: 'CQGA',
+      GC: 'CQGA',
     }
   };
 },

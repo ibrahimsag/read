@@ -8,18 +8,18 @@ and let {BE line} have been joined,
 and let {DG line} have been drawn through {D point}, parallel to either of {CE line} or {BF line} [Prop. 1.31],
 and again let {KM line} have been drawn through {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],
 and again let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {BM line} [Prop. 1.31].
-And since the complement {CLHD polygon} is equal to the complement {HGFM polygon} [Prop. 1.43], let the (square) {DHMB polygon} have been added to both.
-Thus, the whole (rectangle) {CLMB polygon} is equal to the whole (rectangle) {DGFB polygon}.
-But, (rectangle) {CLMB polygon} is equal to (rectangle) {AKLC polygon}, since {AC line} is also equal to {CB line} [Prop. 1.36].
-Thus, (rectangle) {AKLC polygon} is also equal to (rectangle) {DGFB polygon}.
-Let (rectangle) {CLHD polygon} have been added to both.
-Thus, the whole (rectangle) {AKHD polygon} is equal to the gnomon {NOP given}.
-But, {AKHD polygon} is the (rectangle contained) by {AD line} and {DB line}.
+And since the complement {CH polygon} is equal to the complement {HF polygon} [Prop. 1.43], let the (square) {DM polygon} have been added to both.
+Thus, the whole (rectangle) {CM polygon} is equal to the whole (rectangle) {DF polygon}.
+But, (rectangle) {CM polygon} is equal to (rectangle) {AL polygon}, since {AC line} is also equal to {CB line} [Prop. 1.36].
+Thus, (rectangle) {AL polygon} is also equal to (rectangle) {DF polygon}.
+Let (rectangle) {CH polygon} have been added to both.
+Thus, the whole (rectangle) {AH polygon} is equal to the gnomon {NOP given}.
+But, {AH polygon} is the (rectangle contained) by {AD line} and {DB line}.
 For {DH line} (is) equal to {DB line}.
 Thus, the gnomon {NOP given} is also equal to the (rectangle contained) by {AD line} and {DB line}.
-Let {LEGH polygon}, which is equal to the (square) on {CD line}, have been added to both.
-Thus, the gnomon {NOP given} and the (square) {LEGH polygon} are equal to the rectangle contained by {AD line} and {DB line}, and the square on {CD line}.
-But, the gnomon {NOP given} and the (square) {LEGH polygon} is (equivalent to) the whole square {CEFB polygon}, which is on {CB line}.
+Let {LG polygon}, which is equal to the (square) on {CD line}, have been added to both.
+Thus, the gnomon {NOP given} and the (square) {LG polygon} are equal to the rectangle contained by {AD line} and {DB line}, and the square on {CD line}.
+But, the gnomon {NOP given} and the (square) {LG polygon} is (equivalent to) the whole square {CEFB polygon}, which is on {CB line}.
 Thus, the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.
 
 Thus, if a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).

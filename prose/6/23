@@ -1,22 +1,22 @@
 Equiangular parallelograms have to one another the ratio compounded out of (the ratios of) their sides.
 
-Let {ABCD polygon} and {CEFG polygon} be equiangular parallelograms having angle {BCD angle} equal to {ECG angle}.
-I say that parallelogram {ABCD polygon} has to parallelogram {CEFG polygon} the ratio compounded out of (the ratios of) their sides.
+Let {AC polygon} and {CF polygon} be equiangular parallelograms having angle {BCD angle} equal to {ECG angle}.
+I say that parallelogram {AC polygon} has to parallelogram {CF polygon} the ratio compounded out of (the ratios of) their sides.
 
 For let {BC line} be laid down so as to be straight-on to {CG line}.
 Thus, {DC line} is also straight-on to {CE line} [Prop. 1.14].
-And let the parallelogram {DCGH polygon} have been completed.
+And let the parallelogram {DG polygon} have been completed.
 And let some straight-line {K magnitude} have been laid down.
 And let it be contrived that as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, and as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude} [Prop. 6.12].
 
 Thus, the ratios of {K magnitude} to {L magnitude} and of {L magnitude} to {M magnitude} are the same as the ratios of the sides, (namely), {BC line} to {CG line} and {DC line} to {CE line} (respectively).
 But, the ratio of {K magnitude} to {M magnitude} is compounded out of the ratio of {K magnitude} to {L magnitude} and (the ratio) of {L magnitude} to {M magnitude}.
 Hence, {K magnitude} also has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).
-And since as {BC line} is to {CG line}, so parallelogram {ABCD polygon} (is) to {CGHD polygon} [Prop. 6.1], but as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, thus, also, as {K magnitude} (is) to {L magnitude}, so (parallelogram) {ABCD polygon} (is) to {CGHD polygon}.
-Again, since as {DC line} (is) to {CE line}, so parallelogram {CGHD polygon} (is) to {CEFG polygon} [Prop. 6.1], but as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude}, thus, also, as {L magnitude} (is) to {M magnitude}, so parallelogram {CGHD polygon} (is) to parallelogram {CEFG polygon}.
-Therefore, since it was shown that as {K magnitude} (is) to {L magnitude}, so parallelogram {ABCD polygon} (is) to parallelogram {CGHD polygon}, and as {L magnitude} (is) to {M magnitude}, so parallelogram {CGHD polygon} (is) to parallelogram {CEFG polygon}, thus, via equality, as {K magnitude} is to {M magnitude}, so (parallelogram) {ABCD polygon} (is) to parallelogram {CEFG polygon} [Prop. 5.22].
+And since as {BC line} is to {CG line}, so parallelogram {AC polygon} (is) to {CH polygon} [Prop. 6.1], but as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, thus, also, as {K magnitude} (is) to {L magnitude}, so (parallelogram) {AC polygon} (is) to {CH polygon}.
+Again, since as {DC line} (is) to {CE line}, so parallelogram {CH polygon} (is) to {CF polygon} [Prop. 6.1], but as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude}, thus, also, as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}.
+Therefore, since it was shown that as {K magnitude} (is) to {L magnitude}, so parallelogram {AC polygon} (is) to parallelogram {CH polygon}, and as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}, thus, via equality, as {K magnitude} is to {M magnitude}, so (parallelogram) {AC polygon} (is) to parallelogram {CF polygon} [Prop. 5.22].
 And {K magnitude} has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).
-Thus, (parallelogram) {ABCD polygon} also has to (parallelogram) {CEFG polygon} the ratio compounded out of (the ratio of) their sides.
+Thus, (parallelogram) {AC polygon} also has to (parallelogram) {CF polygon} the ratio compounded out of (the ratio of) their sides.
 
 Thus, equiangular parallelograms have to one another the ratio compounded out of (the ratio of) their sides.
 (Which is) the very thing it was required to show.

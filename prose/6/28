@@ -5,35 +5,35 @@ Let {AB line} be the given straight-line, and {C given} the given rectilinear fi
 So it is required to apply a parallelogram, equal to the given rectilinear figure {C given}, to the straight-line {AB line}, falling short by a parallelogrammic figure which is similar to {D given}.
 
 Let {AB line} have been cut in half at point {E point} [Prop. 1.10], and let (parallelogram) {EBFG polygon}, (which is) similar, and similarly laid out, to (parallelogram) {D given}, have been described on {EB line} [Prop. 6.18].
-And let parallelogram {AG polygonl} have been completed.
+And let parallelogram {AG polygon} have been completed.
 
-Therefore, if {AG polygonl} is equal to {C given} then the thing prescribed has happened.
-For a parallelogram {AG polygonl}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by a parallelogrammic figure {GB polygonl} which is similar to {D given}.
-And if not, let {HE polygonl} be greater than {C given}.
-And {HE polygonl} (is) equal to {GB polygonl} [Prop. 6.1].
-Thus, {GB polygonl} (is) also greater than {C given}.
-So, let (parallelogram) {KLMN polygon} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the excess by which {GB polygonl} is greater than {C given} [Prop. 6.25].
-But, {GB polygonl} [is] similar to {D given}.
-Thus, {KM polygonl} is also similar to {GB polygonl} [Prop. 6.21].
+Therefore, if {AG polygon} is equal to {C given} then the thing prescribed has happened.
+For a parallelogram {AG polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by a parallelogrammic figure {GB polygon} which is similar to {D given}.
+And if not, let {HE polygon} be greater than {C given}.
+And {HE polygon} (is) equal to {GB polygon} [Prop. 6.1].
+Thus, {GB polygon} (is) also greater than {C given}.
+So, let (parallelogram) {KLMN polygon} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the excess by which {GB polygon} is greater than {C given} [Prop. 6.25].
+But, {GB polygon} [is] similar to {D given}.
+Thus, {KM polygon} is also similar to {GB polygon} [Prop. 6.21].
 Therefore, let {KL line} correspond to {GE line}, and {LM line} to {GF line}.
-And since (parallelogram) {GB polygonl} is equal to (figure) {C given} and (parallelogram) {KM polygonl}, {GB polygonl} is thus greater than {KM polygonl}.
+And since (parallelogram) {GB polygon} is equal to (figure) {C given} and (parallelogram) {KM polygon}, {GB polygon} is thus greater than {KM polygon}.
 Thus, {GE line} is also greater than {KL line}, and {GF line} than {LM line}.
 Let {GO line} be made equal to {KL line}, and {GP line} to {LM line} [Prop. 1.3].
 And let the parallelogram {OGPQ polygon} have been completed.
-Thus, {GQ polygonl} is equal and similar to {KM polygonl}.
-Thus, {GQ polygonl} is also similar to {GB polygonl} [Prop. 6.21].
-Thus, {GQ polygonl} and {GB polygonl} are about the same diagonal [Prop. 6.26].
+Thus, {GQ polygon} is equal and similar to {KM polygon}.
+Thus, {GQ polygon} is also similar to {GB polygon} [Prop. 6.21].
+Thus, {GQ polygon} and {GB polygon} are about the same diagonal [Prop. 6.26].
 Let {GQB line} be their (common) diagonal, and let the (remainder of the) figure have been described.
 
-Therefore, since {BG polygonl} is equal to {C given} and {KM polygonl}, of which {GQ polygonl} is equal to {KM polygonl}, the remaining gnomon {VWU given} is thus equal to the remainder {C given}.
-And since (the complement) {PR polygonl} is equal to (the complement) {OS polygonl} [Prop. 1.43], let (parallelogram) {QB polygonl} have been added to both.
-Thus, the whole (parallelogram) {PB polygonl} is equal to the whole (parallelogram) {OB polygonl}.
-But, {OB polygonl} is equal to {TE polygonl}, since side {AE line} is equal to side {EB line} [Prop. 6.1].
-Thus, {TE polygonl} is also equal to {PB polygonl}.
-Let (parallelogram) {OS polygonl} have been added to both.
-Thus, the whole (parallelogram) {TS polygonl} is equal to the gnomon {VWU given}.
+Therefore, since {BG polygon} is equal to {C given} and {KM polygon}, of which {GQ polygon} is equal to {KM polygon}, the remaining gnomon {VWU given} is thus equal to the remainder {C given}.
+And since (the complement) {PR polygon} is equal to (the complement) {OS polygon} [Prop. 1.43], let (parallelogram) {QB polygon} have been added to both.
+Thus, the whole (parallelogram) {PB polygon} is equal to the whole (parallelogram) {OB polygon}.
+But, {OB polygon} is equal to {TE polygon}, since side {AE line} is equal to side {EB line} [Prop. 6.1].
+Thus, {TE polygon} is also equal to {PB polygon}.
+Let (parallelogram) {OS polygon} have been added to both.
+Thus, the whole (parallelogram) {TS polygon} is equal to the gnomon {VWU given}.
 But, gnomon {VWU given} was shown (to be) equal to {C given}.
-Therefore, (parallelogram) {TS polygonl} is also equal to (figure) {C given}.
+Therefore, (parallelogram) {TS polygon} is also equal to (figure) {C given}.
 
-Thus, the parallelogram {ST polygonl}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by the parallelogrammic figure {QB polygonl}, which is similar to {D given}.
+Thus, the parallelogram {ST polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by the parallelogrammic figure {QB polygon}, which is similar to {D given}.
 (Which is) the very thing it was required to do.

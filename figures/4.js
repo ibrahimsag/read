@@ -385,6 +385,13 @@ function()
       G: [1],
       H: [-3],
       K: [-3]
+    },
+    polygonl: {
+      GK: 'GHKF',
+      GC: 'GHCA',
+      AK: 'ACKF',
+      FB: 'FDBG',
+      BK: 'BHKD',
     }
   };
 },
@@ -423,6 +430,17 @@ function()
       G: [2],
       H: [-3],
       K: [-1],
+    },
+    polygonl: {
+
+      AK: 'DAFK',
+      KB: 'CKFB',
+      AH: 'EABH',
+      HD: 'EHCD',
+      AG: 'EAFG',
+      GC: 'KGHC',
+      BG: 'FBHG',
+      GD: 'EGKD',
     }
   };
 },

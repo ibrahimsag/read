@@ -20,17 +20,17 @@ Thus, {CGKB polygon} is right-angled.
 And it was also shown (to be) equilateral.
 Thus, it is a square.
 And it is on {CB line}.
-So, for the same (reasons), {DFGH polygon} is also a square.
+So, for the same (reasons), {HF polygon} is also a square.
 And it is on {HG line}, that is to say [on] {AC line} [Prop. 1.34].
-Thus, the squares {HDFG polygon} and {KBCG polygon} are on {AC line} and {CB line} (respectively).
-And the (rectangle) {AHGC polygon} is equal to the (rectangle) {GFEK polygon} [Prop. 1.43].
-And {AHGC polygon} is the (rectangle contained) by {AC line} and {CB line}.
+Thus, the squares {HF polygon} and {KC polygon} are on {AC line} and {CB line} (respectively).
+And the (rectangle) {AG polygon} is equal to the (rectangle) {GE polygon} [Prop. 1.43].
+And {AG polygon} is the (rectangle contained) by {AC line} and {CB line}.
 For {GC line} (is) equal to {CB line}.
-Thus, {GFEK polygon} is also equal to the (rectangle contained) by {AC line} and {CB line}.
-Thus, the (rectangles) {AHGC polygon} and {GFEK polygon} are equal to twice the (rectangle contained) by {AC line} and {CB line}.
-And {HDFG polygon} and {CGKB polygon} are the squares on {AC line} and {CB line} (respectively).
-Thus, the four (figures) {HDFG polygon}, {CGKB polygon}, {AHGC polygon}, and {GFEK polygon} are equal to the (sum of the) squares on {AC line} and {BC line}, and twice the rectangle contained by {AC line} and {CB line}.
-But, the (figures) {HDFG polygon}, {CGKB polygon}, {AHGC polygon}, and {GFEK polygon} are (equivalent to) the whole of {ADEB polygon}, which is the square on {AB line}.
+Thus, {GE polygon} is also equal to the (rectangle contained) by {AC line} and {CB line}.
+Thus, the (rectangles) {AG polygon} and {GE polygon} are equal to twice the (rectangle contained) by {AC line} and {CB line}.
+And {HF polygon} and {CK polygon} are the squares on {AC line} and {CB line} (respectively).
+Thus, the four (figures) {HF polygon}, {CK polygon}, {AG polygon}, and {GE polygon} are equal to the (sum of the) squares on {AC line} and {BC line}, and twice the rectangle contained by {AC line} and {CB line}.
+But, the (figures) {HF polygon}, {CK polygon}, {AG polygon}, and {GE polygon} are (equivalent to) the whole of {ADEB polygon}, which is the square on {AB line}.
 Thus, the square on {AB line} is equal to the (sum of the) squares on {AC line} and {CB line}, and twice the rectangle contained by {AC line} and {CB line}.
 
 Thus, if a straight-line is cut at random then the square on the whole (straight-line) is equal to the (sum of the) squares on the pieces (of the straight-line), and twice the rectangle contained by the pieces.

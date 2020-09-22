@@ -6,7 +6,8 @@ I say that triangle {ABC polygon} is equal to triangle {DBC polygon}.
 Let {AD line} have been produced in each direction to {E point} and {F point}, and let the (straight-line) {BE line} have been drawn through {B point} parallel to {CA line} [Prop. 1.31], and let the (straight-line) {CF line} have been drawn through {C point} parallel to {BD line} [Prop. 1.31].
 Thus, {EBCA polygon} and {DBCF polygon} are both parallelograms, and are equal.
 For they are on the same base {BC line}, and between the same parallels {BC line} and {EF line} [Prop. 1.35].
-And the triangle {ABC polygon} is half of the parallelogram {EBCA polygon}. For the diagonal {AB line} cuts the latter in half [Prop. 1.34].
+And the triangle {ABC polygon} is half of the parallelogram {EBCA polygon}.
+For the diagonal {AB line} cuts the latter in half [Prop. 1.34].
 And the triangle {DBC polygon} (is) half of the parallelogram {DBCF polygon}.
 For the diagonal {DC line} cuts the latter in half [Prop. 1.34].
 [And the halves of equal things are equal to one another.]

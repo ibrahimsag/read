@@ -1,7 +1,7 @@
 To describe a rectilinear figure similar, and similarly laid down, to a given rectilinear figure on a given straight-line.
 
-Let {AB line} be the given straight-line, and {FCDE polygon} the given rectilinear figure.
-So it is required to describe a rectilinear figure similar, and similarly laid down, to the rectilinear figure {FCDE polygon} on the straight-line {AB line}.
+Let {AB line} be the given straight-line, and {CE polygon} the given rectilinear figure.
+So it is required to describe a rectilinear figure similar, and similarly laid down, to the rectilinear figure {CE polygon} on the straight-line {AB line}.
 
 Let {DF line} have been joined, and let {GAB angle}, equal to the angle at {C point}, and {ABG angle}, equal to (angle) {CDF angle}, have been constructed on the straight-line {AB line} at the points {A point} and {B point} on it (respectively) [Prop. 1.23].
 Thus, the remaining (angle) {CFD angle} is equal to {AGB angle} [Prop. 1.32].
@@ -16,9 +16,9 @@ Thus, also, as {FC line} (is) to {AG line}, so {CD line} (is) to {AB line}, and 
 And since angle {CFD angle} is equal to {AGB angle}, and {DFE angle} to {BGH angle}, thus the whole (angle) {CFE angle} is equal to the whole (angle) {AGH angle}.
 So, for the same (reasons), (angle) {CDE angle} is also equal to {ABH angle}.
 And the (angle) at {C point} is also equal to the (angle) at {A point}, and the (angle) at {E point} to the (angle) at {H point}.
-Thus, (figure) {GABH polygon} is equiangular to {FCDE polygon}.
+Thus, (figure) {AH polygon} is equiangular to {CE polygon}.
 And (the two figures) have the sides about their equal angles proportional.
-Thus, the rectilinear figure {GABH polygon} is similar to the rectilinear figure {FCDE polygon} [Def. 6.1].
+Thus, the rectilinear figure {AH polygon} is similar to the rectilinear figure {CE polygon} [Def. 6.1].
 
-Thus, the rectilinear figure {GABH polygon}, similar, and similarly laid down, to the given rectilinear figure {FCDE polygon} has been constructed on the given straight-line {AB line}.
+Thus, the rectilinear figure {AH polygon}, similar, and similarly laid down, to the given rectilinear figure {CE polygon} has been constructed on the given straight-line {AB line}.
 (Which is) the very thing it was required to do.

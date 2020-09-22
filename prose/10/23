@@ -3,13 +3,13 @@ A (straight-line) commensurable with a medial (straight-line) is medial.
 Let {A magnitude} be a medial (straight-line), and let {B magnitude} be commensurable with {A magnitude}.
 I say that {B magnitude} is also a medial (staight-line).
 
-Let the rational (straight-line) {CD line} be set out, and let the rectangular area {CE polygonl}, equal to the (square) on {A magnitude}, have been applied to {CD line}, producing {ED line} as width.
+Let the rational (straight-line) {CD line} be set out, and let the rectangular area {CE polygon}, equal to the (square) on {A magnitude}, have been applied to {CD line}, producing {ED line} as width.
 {ED line} is thus rational, and incommensurable in length with {CD line} [Prop. 10.22].
-And let the rectangular area {CF polygonl}, equal to the (square) on {B magnitude}, have been applied to {CD line}, producing {DF line} as width.
+And let the rectangular area {CF polygon}, equal to the (square) on {B magnitude}, have been applied to {CD line}, producing {DF line} as width.
 Therefore, since {A magnitude} is commensurable with {B magnitude}, the (square) on {A magnitude} is also commensurable with the (square) on {B magnitude}.
-But, {EC polygonl} is equal to the (square) on {A magnitude}, and {CF polygonl} is equal to the (square) on {B magnitude}.
-Thus, {EC polygonl} is commensurable with {CF polygonl}.
-And as {EC polygonl} is to {CF polygonl}, so {ED line} (is) to {DF line} [Prop. 6.1].
+But, {EC polygon} is equal to the (square) on {A magnitude}, and {CF polygon} is equal to the (square) on {B magnitude}.
+Thus, {EC polygon} is commensurable with {CF polygon}.
+And as {EC polygon} is to {CF polygon}, so {ED line} (is) to {DF line} [Prop. 6.1].
 Thus, {ED line} is commensurable in length with {DF line} [Prop. 10.11].
 And {ED line} is rational, and incommensurable in length with {CD line}.
 {DF line} is thus also rational [Def. 10.3], and incommensurable in length with {DC line} [Prop. 10.13].

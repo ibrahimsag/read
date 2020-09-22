@@ -144,12 +144,16 @@ function makeRG (svgEl)
     }
     else if(typ == 'polygon')
     {
-      let points = name.split('').map(l => p.points[l]);
-      shapes = [polygon(points)];
-    }
-    else if(typ == 'polygonl')
-    {
-      let points = p.polygonl[name].split('').map(l => p.points[l]);
+      let ns = name;
+      if (name.length == 2)
+      {
+        ns = p.polygonl[name];
+        if(!ns)
+        {
+          console.error('unknown polygon name', name);
+        }
+      }
+      let points = ns.split('').map(l => p.points[l]);
       shapes = [polygon(points)];
     }
     else if(typ == 'angle')

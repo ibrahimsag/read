@@ -3,26 +3,26 @@ To apply a parallelogram, equal to a given rectilinear figure, to a given straig
 Let {AB line} be the given straight-line, and {C given} the given rectilinear figure to which the (parallelogram) applied to {AB line} is required (to be) equal, and {D given} the (parallelogram) to which the excess is required (to be) similar.
 So it is required to apply a parallelogram, equal to the given rectilinear figure {C given}, to the given straight-line {AB line}, overshooting by a parallelogrammic figure similar to {D given}.
 
-Let {AB line} have been cut in half at (point) {E point} [Prop. 1.10], and let the parallelogram {BF polygonl}, (which is) similar, and similarly laid out, to {D given}, have been described on {EB line} [Prop. 6.18].
-And let (parallelogram) {GH polygonl} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the sum of {BF polygonl} and {C given} [Prop. 6.25].
+Let {AB line} have been cut in half at (point) {E point} [Prop. 1.10], and let the parallelogram {BF polygon}, (which is) similar, and similarly laid out, to {D given}, have been described on {EB line} [Prop. 6.18].
+And let (parallelogram) {GH polygon} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the sum of {BF polygon} and {C given} [Prop. 6.25].
 And let {KH line} correspond to {FL line}, and {KG line} to {FE line}.
-And since (parallelogram) {GH polygonl} is greater than (parallelogram) {FB polygonl}, {KH line} is thus also greater than {FL line}, and {KG line} than {FE line}.
+And since (parallelogram) {GH polygon} is greater than (parallelogram) {FB polygon}, {KH line} is thus also greater than {FL line}, and {KG line} than {FE line}.
 Let {FL line} and {FE line} have been produced, and let {FLM line} be (made) equal to {KH line}, and {FEN line} to {KG line} [Prop. 1.3].
-And let (parallelogram) {MN polygonl} have been completed.
-Thus, {MN polygonl} is equal and similar to {GH polygonl}.
-But, {GH polygonl} is similar to {EL polygonl}.
-Thus, {MN polygonl} is also similar to {EL polygonl} [Prop. 6.21].
-{EL polygonl} is thus about the same diagonal as {MN polygonl} [Prop. 6.26].
+And let (parallelogram) {MN polygon} have been completed.
+Thus, {MN polygon} is equal and similar to {GH polygon}.
+But, {GH polygon} is similar to {EL polygon}.
+Thus, {MN polygon} is also similar to {EL polygon} [Prop. 6.21].
+{EL polygon} is thus about the same diagonal as {MN polygon} [Prop. 6.26].
 Let their (common) diagonal {FO line} have been drawn, and let the (remainder of the) figure have been described.
 
-And since (parallelogram) {GH polygonl} is equal to (parallelogram) {EL polygonl} and (figure) {C given}, but {GH polygonl} is equal to (parallelogram) {MN polygonl}, {MN polygonl} is thus also equal to {EL polygonl} and {C given}.
-Let {EL polygonl} have been subtracted from both.
+And since (parallelogram) {GH polygon} is equal to (parallelogram) {EL polygon} and (figure) {C given}, but {GH polygon} is equal to (parallelogram) {MN polygon}, {MN polygon} is thus also equal to {EL polygon} and {C given}.
+Let {EL polygon} have been subtracted from both.
 Thus, the remaining gnomon {VWX given} is equal to (figure) {C given}.
-And since {AE line} is equal to {EB line}, (parallelogram) {AN polygonl} is also equal to (parallelogram) {NB polygonl} [Prop. 6.1], that is to say, (parallelogram) {LP polygonl} [Prop. 1.43].
-Let (parallelogram) {EO polygonl} have been added to both.
-Thus, the whole (parallelogram) {AO polygonl} is equal to the gnomon {VWX given}.
+And since {AE line} is equal to {EB line}, (parallelogram) {AN polygon} is also equal to (parallelogram) {NB polygon} [Prop. 6.1], that is to say, (parallelogram) {LP polygon} [Prop. 1.43].
+Let (parallelogram) {EO polygon} have been added to both.
+Thus, the whole (parallelogram) {AO polygon} is equal to the gnomon {VWX given}.
 But, the gnomon {VWX given} is equal to (figure) {C given}.
-Thus, (parallelogram) {AO polygonl} is also equal to (figure) {C given}.
+Thus, (parallelogram) {AO polygon} is also equal to (figure) {C given}.
 
-Thus, the parallelogram {AO polygonl}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, overshooting by the parallelogrammic figure {QP polygonl} which is similar to {D given}, since {PQ polygonl} is also similar to {EL polygonl} [Prop. 6.24].
+Thus, the parallelogram {AO polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, overshooting by the parallelogrammic figure {QP polygon} which is similar to {D given}, since {PQ polygon} is also similar to {EL polygon} [Prop. 6.24].
 (Which is) the very thing it was required to do.

@@ -1485,6 +1485,12 @@ function()
       G: [5],
       H: [1],
       K: [-0.2, 4],
+    },
+    polygonl: {
+      EH: 'EAHK',
+      FG: 'FCGK',
+      BK: 'BGKE',
+      KD: 'KFDH',
     }
   }
 },
@@ -1542,6 +1548,12 @@ function()
     given: {
       C: [rg.polygon([Ca, Cb, C])],
       D: rg.angle(Da, D, Db)
+    },
+    polygonl: {
+      AG: 'ABGH',
+      ME: 'MKEB',
+      LB: 'LMBA',
+      BF: 'BEFG',
     }
   }
 },
@@ -1596,6 +1608,10 @@ function()
     },
     given: {
       E: rg.angle(Ea, E, Eb)
+    },
+    polygonl: {
+      FH: 'FKHG',
+      GM: 'GHML',
     }
   }
 },
@@ -1677,7 +1693,12 @@ function()
       H: [0],
       K: [0],
       L: [5],
-      M: [-1.7],
+    },
+    polygonl: {
+      GB: 'GABF',
+      HC: 'HKCA',
+      BL: 'BDLM',
+      CL: 'CELM',
     }
   }
 },

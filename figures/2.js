@@ -75,6 +75,12 @@ function()
       H: [5],
       K: [5],
       L: [5],
+    },
+    polygonl: {
+      BH: 'BGHC',
+      BK: 'BGKD',
+      DL: 'DKLE',
+      EH: 'ELHC',
     }
   }
 },
@@ -106,6 +112,11 @@ function()
       D: [5],
       E: [5],
       F: [5],
+    },
+    polygonl: {
+      AE: 'ADEB',
+      AF: 'ADFC',
+      CE: 'CFEB',
     }
   }
 },
@@ -138,6 +149,12 @@ function()
       D: [5],
       E: [5],
       F: [5],
+    },
+    polygonl: {
+      AE: 'AFEB',
+      AD: 'AFDC',
+      CE: 'CDEB',
+      DB: 'CDEB',
     }
   }
 },
@@ -179,6 +196,14 @@ function()
       G: [5.8, 1.2],
       H: [3],
       K: [-1]
+    },
+    polygonl: {
+      HF: 'DFGH',
+      KC: 'KBCG',
+      CK: 'KBCG',
+      AG: 'AHGC',
+      GE: 'GFEK',
+      AG: 'AHGC',
     }
   }
 },
@@ -241,6 +266,16 @@ function()
     },
     given: {
       NOP: [rg.gnomon(H, N, P)],
+    },
+    polygonl: {
+      CH: 'CLHD',
+      HF: 'HGFM',
+      DM: 'DHMB',
+      CM: 'CLMB',
+      DF: 'DGFB',
+      AL: 'AKLC',
+      AH: 'AKHD',
+      LG: 'LEGH',
     }
   }
 },
@@ -304,6 +339,14 @@ function()
     },
     given: {
       NOP: [rg.gnomon(H, N, P)],
+    },
+    polygonl: {
+      AL: 'AKLC',
+      CH: 'CLHB',
+      HF: 'HGFM',
+      CM: 'CLMD',
+      AM: 'AKMD',
+      LG: 'LEGH',
     }
   }
 },
@@ -358,6 +401,17 @@ function()
     },
     given: {
       KLM: [rg.gnomon(G, K, M)],
+    },
+    polygonl: {
+      AG: 'AHGC',
+      GE: 'GNEF',
+      CF: 'CGFB',
+      AF: 'AHFB',
+      CE: 'CNEB',
+      BG: 'BFGC',
+      GD: 'GNDH',
+      DG: 'GNDH',
+      AE: 'ADEB',
     }
   }
 },
@@ -433,6 +487,21 @@ function()
     },
     given: {
       STU: [rg.gnomon(cent, S, U)],
+    },
+    polygonl: {
+      CK: 'CGKB',
+      KD: 'KNDB',
+      DK: 'KNDB',
+      GR: 'GQRK',
+      RN: 'RPNK',
+      CP: 'CQPD',
+      AG: 'AMGC',
+      MQ: 'MOQG',
+      QL: 'QHLR',
+      RF: 'RLFP',
+      ML: 'MELK',
+      AK: 'AMKB',
+      OH: 'OEHQ',
     }
   }
 },
@@ -560,6 +629,13 @@ function()
       G: [1],
       H: [0],
       K: [5]
+    },
+    polygonl: {
+      FH: 'FAHG',
+      FK: 'FCKG',
+      AD: 'ACDB',
+      AK: 'ACKH',
+      HD: 'HKDB',
     }
   }
 },
@@ -665,6 +741,9 @@ function()
       F: [-1],
       G: [5],
       H: [0.5]
+    },
+    polygonl: {
+      BD: 'BCDE',
     }
   }
 },

@@ -1,7 +1,7 @@
 Triangles and parallelograms which are of the same height are to one another as their bases.
 
-Let {ABC polygon} and {ACD angle} be triangles, and {AEBC polygon} and {ACDF polygon} parallelograms, of the same height {AC line}.
-I say that as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and parallelogram {AEBC polygon} to parallelogram {ACDF polygon}.
+Let {ABC polygon} and {ACD angle} be triangles, and {EC polygon} and {CF polygon} parallelograms, of the same height {AC line}.
+I say that as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and parallelogram {EC polygon} to parallelogram {CF polygon}.
 
 For let the (straight-line) {BD line} have been produced in each direction to points {H point} and {L point}, and let [any number] (of straight-lines) {BG line} and {GH line} be made equal to base {BC line}, and any number (of straight-lines) {DK line} and {KL line} equal to base {CD line}. And let {AG line}, {AH line}, {AK line}, and {AL line} have been joined.
 
@@ -14,8 +14,8 @@ And if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (tha
 So, their being four magnitudes, two bases, {BC line} and {CD line}, and two triangles, {ABC polygon} and {ACD polygon}, equal multiples have been taken of base {BC line} and triangle {ABC polygon}---(namely), base {HC line} and triangle {AHC polygon}---and other random equal multiples of base {CD line} and triangle {ADC polygon}---(namely), base {LC line} and triangle {ALC polygon}.
 And it has been shown that if base {HC line} exceeds base {CL line} then triangle {AHC polygon} also exceeds triangle {ALC polygon}, and if ({HC line} is) equal (to {CL line} then {AHC polygon} is also) equal (to {ALC polygon}), and if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (than {ALC polygon}).
 Thus, as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon} [Def. 5.5].
-And since parallelogram {AEBC polygon} is double triangle {ABC polygon}, and parallelogram {DFAC polygon} is double triangle {ACD polygon} [Prop. 1.34], and parts have the same ratio as similar multiples [Prop. 5.15], thus as triangle {ABC polygon} is to triangle {ACD polygon}, so parallelogram {AEBC polygon} (is) to parallelogram {DFAC polygon}.
-In fact, since it was shown that as base {BC line} (is) to {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and as triangle {ABC polygon} (is) to triangle {ACD polygon}, so parallelogram {AEBC polygon} (is) to parallelogram {ACDF polygon}, thus, also, as base {BC line} (is) to base {CD line}, so parallelogram {AEBC polygon} (is) to parallelogram {DFAC polygon} [Prop. 5.11].
+And since parallelogram {EC polygon} is double triangle {ABC polygon}, and parallelogram {FC polygon} is double triangle {ACD polygon} [Prop. 1.34], and parts have the same ratio as similar multiples [Prop. 5.15], thus as triangle {ABC polygon} is to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon}.
+In fact, since it was shown that as base {BC line} (is) to {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and as triangle {ABC polygon} (is) to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {CF polygon}, thus, also, as base {BC line} (is) to base {CD line}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon} [Prop. 5.11].
 
 Thus, triangles and parallelograms which are of the same height are to one another as their bases.
 (Which is) the very thing it was required to show.

@@ -14,11 +14,11 @@ Let them have been produced, and let them meet together at {K point}.
 And let {KL line} have been drawn through point {K point} parallel to either of {EA line} or {FH line} [Prop. 1.31].
 And let {HA line} and {GB line} have been produced to points {L point} and {M point} (respectively).
 Thus, {HLKF polygon} is a parallelogram, and {HK line} its diagonal.
-And {ABGH polygon} and {MKEB polygon} (are) parallelograms, and {LMBA polygon} and {BEFG polygon} the so-called complements, about {HK line}.
-Thus, {LMBA polygon} is equal to {BEFG polygon} [Prop. 1.43].
-But, {BEFG polygon} is equal to triangle {C given}.
-Thus, {LMBA polygon} is also equal to {C given}.
+And {AG polygon} and {ME polygon} (are) parallelograms, and {LB polygon} and {BF polygon} the so-called complements, about {HK line}.
+Thus, {LB polygon} is equal to {BF polygon} [Prop. 1.43].
+But, {BF polygon} is equal to triangle {C given}.
+Thus, {LB polygon} is also equal to {C given}.
 Also, since angle {GBE angle} is equal to {ABM angle} [Prop. 1.15], but {GBE angle} is equal to {D given}, {ABM angle} is thus also equal to angle {D given}.
 
-Thus, the parallelogram {LMBA polygon}, equal to the given triangle {C given}, has been applied to the given straight-line {AB line} in the angle {ABM angle}, which is equal to {D given}.
+Thus, the parallelogram {LB polygon}, equal to the given triangle {C given}, has been applied to the given straight-line {AB line} in the angle {ABM angle}, which is equal to {D given}.
 (Which is) the very thing it was required to do.
