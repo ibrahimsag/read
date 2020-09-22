@@ -1,5 +1,4 @@
 rollup -c rollup.prepare.config.js
-node build/prepare.js
 
 rollup -c rollup.min.config.js
 cp build/main.js public/build/ && echo "copied main.js"

@@ -13,6 +13,7 @@
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
+    "@rollup/plugin-run": "^2.0.2",
     "rollup": "^2.25.0",
     "rollup-plugin-string": "^3.0.0"
   },
