@@ -42,24 +42,30 @@ function angle(a, o, b)
   return [anglecurve(a, o, b), line(o, a), line(o, b)];
 }
 
-function arc(c, a, b, o)
+function anglecurve(a, o, b, opts)
 {
-  let ca = vec2.sub(a, c);
-  let cb = vec2.sub(b, c);
-  let d = vec2.len(ca);
-  let uca = vec2.scale(ca, 1/d);
-  let start = (Math.atan2(uca[1], uca[0]) + Math.PI*2) % (Math.PI * 2);
-  let ucb = vec2.scale(cb, 1/d);
-  let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
-  if(start > end)
-    end += Math.PI * 2;
-  return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, Object.assign(Object.assign({}, roughopts), o));
+  let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 1/vec2.len(d)));
+
+  let det = d1[0]*d2[1] - d1[1]*d2[0];
+  if(det < 0)
+  {
+     [d2, d1] = [d1, d2];
+  }
+
+  let alpha = Math.acos(vec2.dot(d1, d2));
+  let s = 14;
+
+  let samples = [0, 0.25, 0.5, 0.75, 1];
+  if(alpha > Math.PI / 2)
+    samples = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
+  let ps = samples.map(a => vec2.add(o, vec2.scale(vec2.rot(d1, alpha*a), s)));
+  return curve(ps, Object.assign({strokeWidth: 10}, opts));
 }
 
 window.onload = () => {
   let shapes1 = [
-    polygon([[230, 30], [230, 70], [300, 70]], {stroke: colors.sentence}),
-    circle([250, 60], 60, {stroke: colors.sentence}),
+    circle([250, 60], 60, {stroke: colors.dim}),
+    polygon([[230, 30], [250, 80], [300, 80]], {stroke: colors.sentence}),
     line([140, 30], [200, 30], {stroke: colors.dim}),
     line([40, 50], [200, 50], {stroke: colors.dim}),
     line([50, 60], [200, 60], {stroke: colors.dim}),
@@ -76,10 +82,11 @@ window.onload = () => {
     line([180, 140], [180, 180], {stroke: colors.dim, strokeWidth: 2}),
   ];
   let shapes2 = [
-    circle([250, 60], 60, {stroke: colors.trail}),
-    line([230, 30], [230, 70], {stroke: colors.sentence}),
-    line([230, 70], [300, 70], {stroke: colors.sentence}),
-    line([230, 30], [300, 70], {stroke: colors.bright, strokeWidth: 2}),
+    circle([250, 60], 60, {stroke: colors.dim}),
+    line([230, 30], [250, 80], {stroke: colors.bright}),
+    line([250, 80], [300, 80], {stroke: colors.bright}),
+    line([230, 30], [300, 80], {stroke: colors.sentence}),
+    anglecurve([230, 30], [250, 80], [300, 80], {stroke: colors.bright, strokeWidth: 6, roughness: 0.1}),
     line([150, 30], [200, 30], {stroke: colors.dim}),
     line([10, 50], [130, 50], {stroke: colors.dim}),
     line([130, 50], [200, 50], {stroke: colors.sentence}),
