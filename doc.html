@@ -8,14 +8,35 @@ body {
   margin: 0;
   background-color: black;
 }
+#container {
+  position: relative;
+}
 #wrapper svg {
+}
+#textLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  line-height: 1.0;
+}
+#textLayer span {
+  position: absolute;
+  color: #474747;
+  white-space: pre;
+  transform-origin: 0% 0%;
 }
   </style>
 </head>
 <body>
 
-<div id="wrapper">
-</div>
+  <div id="container">
+    <div id="wrapper">
+    </div>
+    <div id="textLayer"></div>
+  </div>
 
 <script src="node_modules/pdfjs-dist/build/pdf.js"></script>
 

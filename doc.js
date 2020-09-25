@@ -34,7 +34,7 @@ function load()
     //
     // Fetch the first page
     //
-    pdf.getPage(499).then(function(page) {
+    pdf.getPage(76).then(function(page) {
       let scale = 1;
       let viewport = page.getViewport({ scale });
       let wrapper = document.querySelector('#wrapper');
@@ -68,8 +68,19 @@ function load()
             }
           });
 
+
+          let textLayerEl = document.querySelector('#textLayer');
+          let textDivs = [], textContentItemsStr = [];
+          page.getTextContent().then(textContent => {
+            pdfjsLib.renderTextLayer({
+              container: textLayerEl,
+              textContent,
+              viewport, textDivs, textContentItemsStr,
+              enhanceTextSelection: true,
+            });
+          });
+
           wrapper.appendChild(svg);
-          getFigure();
         });
       });
     });
@@ -81,6 +92,7 @@ load();
 window.getFigure = () =>
 {
   let svg = document.querySelector('#wrapper svg');
+  rsvg = rough.svg(svg);
 
   let rem = (el) =>
   {
@@ -96,8 +108,6 @@ window.getFigure = () =>
   g.removeChild(g.children[0]);
   g.removeChild(g.children[0]);
 
-  rsvg = rough.svg(svg);
-  
   let g1 = g.children[1];
   g1.removeAttribute('clip-path');
 
@@ -111,8 +121,8 @@ window.getFigure = () =>
   svg.appendChild(rsvg.draw(s));
 
   let vb = [bb.x, bb.y, bb.width, bb.height];
-  svg.setAttribute('width', vb[2]*2);
-  svg.setAttribute('height', vb[3]*2);
+  svg.setAttribute('width', vb[2]);
+  svg.setAttribute('height', vb[3]);
   svg.setAttribute('viewBox', vb.join(' '));
 }
 
