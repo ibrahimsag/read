@@ -146,8 +146,8 @@ function load()
 
     darkMode(svg);
     let bb = onlyFigure(svg);
-    let tl = [bb.x, bb.y];
-    let br = [bb.x+bb.width, bb.y+bb.height];
+    let tl = [bb.left, bb.top];
+    let br = [bb.right, bb.bottom];
 
     let s = rect(tl, br, {stroke: colors.make([-30, 100, 40])});
     markers.push(s);
@@ -162,8 +162,28 @@ function load()
         let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
         markers.push(s);
         svg.appendChild(s);
+        if(crect.left < bb.left)
+        {
+          tl[0] = crect.left;
+        }
+        if(crect.right > bb.right)
+        {
+          br[0] = crect.right;
+        }
+        if(crect.up < bb.up)
+        {
+          tl[1] = crect.up;
+        }
+        if(crect.bottom > bb.bottom)
+        {
+          br[1] = crect.bottom;
+        }
       }
     });
+
+    s = rect(tl, br, {stroke: colors.make([-30, 100, 70])});
+    markers.push(s);
+    svg.appendChild(s);
 
     /*
     let vb = [bb.x, bb.y, bb.width, bb.height];
