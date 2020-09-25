@@ -153,12 +153,14 @@ function load()
     markers.push(s);
     svg.appendChild(s);
 
+    let letterInFigure = {};
     textDivs.forEach((div, i) =>
     {
       let crect = div.getClientRects()[0]
 
       if(intersectRect(crect, bb))
       {
+        letterInFigure[i] = true;
         let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
         markers.push(s);
         svg.appendChild(s);
@@ -185,12 +187,30 @@ function load()
     markers.push(s);
     svg.appendChild(s);
 
-    /*
-    let vb = [bb.x, bb.y, bb.width, bb.height];
+    // Crop text layer
+
+    let figureLetterDivs = [], figureLetterStr = [];
+    textDivs.forEach((div, i) => {
+      if(letterInFigure[i])
+      {
+        let crect = div.getClientRects()[0]
+        div.style.left = crect.left - tl[0] + 'px';
+        div.style.top = crect.top - tl[1] + 'px';
+        figureLetterDivs.push(div);
+        figureLetterStr.push(textContentItemsStr[i]);
+      }
+      else
+      {
+        rem(div);
+      }
+    });
+
+    markers.forEach(rem);
+
+    let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
     svg.setAttribute('width', vb[2]);
     svg.setAttribute('height', vb[3]);
     svg.setAttribute('viewBox', vb.join(' '));
-    */
   });
 }
 
