@@ -21,7 +21,14 @@ function polygon(vs, o)
 
 function rect(p1, p2, o)
 {
-  return polygon([p1, [p2[0], p1[1]], p2, [p1[0], p2[1]]], o)
+  return rsvg.draw(polygon([p1, [p2[0], p1[1]], p2, [p1[0], p2[1]]], o));
+}
+
+function intersectRect(r1, r2) {
+  return !(r2.left > r1.right ||
+           r2.right < r1.left ||
+           r2.top > r1.bottom ||
+           r2.bottom < r1.top);
 }
 
 //
@@ -84,7 +91,7 @@ let onlyFigure = (svg) =>
   ng.appendChild(g);
   svg.appendChild(ng);
 
-  return ng.getBBox();
+  return ng.getClientRects()[0];
 }
 
 function load()
@@ -135,6 +142,7 @@ function load()
 
     wrapper.appendChild(svg);
     rsvg = rough.svg(svg);
+    let markers = [];
 
     darkMode(svg);
     let bb = onlyFigure(svg);
@@ -142,7 +150,20 @@ function load()
     let br = [bb.x+bb.width, bb.y+bb.height];
 
     let s = rect(tl, br, {stroke: colors.make([-30, 100, 40])});
-    svg.appendChild(rsvg.draw(s));
+    markers.push(s);
+    svg.appendChild(s);
+
+    textDivs.forEach((div, i) =>
+    {
+      let crect = div.getClientRects()[0]
+
+      if(intersectRect(crect, bb))
+      {
+        let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
+        markers.push(s);
+        svg.appendChild(s);
+      }
+    });
 
     /*
     let vb = [bb.x, bb.y, bb.width, bb.height];
