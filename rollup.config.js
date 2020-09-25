@@ -16,6 +16,18 @@ export default [{
   }
 },
 {
+  input: 'doc.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+  ],
+  output: {
+    file: 'build/doc.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
   input: 'project.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),

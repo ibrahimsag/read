@@ -5,6 +5,7 @@ const port = 3000
 app.use('/build', express.static('build'));
 app.use('/img', express.static('img'));
 app.use('/fonts/', express.static('public/fonts'));
+app.use('/', express.static('.'));
 
 app.get('/euclid/*', (req, res) => {
   res.sendFile(__dirname + '/euclid.html');
