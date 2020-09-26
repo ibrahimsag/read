@@ -75,6 +75,116 @@ let rem = (el) =>
     rem(p);
 }
 
+function mark(svg, rsvg, markers) {
+  let g = svg.children[1];
+  let region;
+  let els = g.children;
+  let seenonce = false;
+  for(let i = 0; i < els.length; i++)
+  {
+    let el = els[i];
+    if(el.getAttribute('transform') === 'scale(0.1 0.1)')
+    {
+      if(seenonce)
+      {
+        region = el;
+        break;
+      }
+      else
+      {
+        seenonce = true;
+      }
+    }
+  }
+  let bb = region.getClientRects()[0]
+  let tl = [bb.left, bb.top];
+  let br = [bb.right, bb.bottom];
+
+  let s = rect(tl, br, {stroke: colors.make([-30, 100, 40])});
+  markers.push(s);
+  svg.appendChild(s);
+
+  let letterInFigure = {};
+  textDivs.forEach((div, i) =>
+    {
+      let crect = div.getClientRects()[0]
+
+      if(intersectRect(crect, bb))
+      {
+        letterInFigure[i] = true;
+        let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
+        markers.push(s);
+        svg.appendChild(s);
+        if(crect.left < bb.left)
+        {
+          tl[0] = crect.left;
+        }
+        if(crect.right > bb.right)
+        {
+          br[0] = crect.right;
+        }
+        if(crect.up < bb.up)
+        {
+          tl[1] = crect.up;
+        }
+        if(crect.bottom > bb.bottom)
+        {
+          br[1] = crect.bottom;
+        }
+      }
+    });
+
+  s = rect(tl, br, {stroke: colors.make([-30, 100, 70])});
+  markers.push(s);
+  svg.appendChild(s);
+
+  return [letterInFigure, tl, br];
+}
+
+function crop(svg, markers, tl, br, letterInFigure) {
+  markers.forEach(rem);
+
+  svg.querySelectorAll('text').forEach(rem);
+  svg.removeChild(svg.children[0]);
+  let g = svg.children[0];
+  g.removeChild(g.children[0]);
+  g.removeChild(g.children[0]);
+  g.removeChild(g.children[0]);
+
+  g.children[1].removeAttribute('clip-path');
+
+  // Crop text layer
+
+  svg.style['dominant-baseline'] = 'hanging';
+  let letters = {};
+  let figureLetterDivs = [], figureLetterStr = [];
+  textDivs.forEach((div, i) => {
+    if(letterInFigure[i])
+    {
+      let crect = div.getClientRects()[0]
+      let fs = Number(div.style['font-size'].replace(/[^-\d\.]/g, ''));
+      let l = textContentItemsStr[i];
+      let p = [crect.left, crect.top, fs];
+      letters[l] = p;
+      var el = document.createElementNS(SVG_NS, 'text');
+      el.textContent = l;
+      el.setAttribute('font-family', 'sans-serif');
+      el.setAttribute('font-size', fs);
+      el.setAttribute('fill', '#474747');
+      el.setAttribute('x', p[0]);
+      el.setAttribute('y', p[1]);
+      svg.appendChild(el);
+    }
+    rem(div);
+  });
+
+  let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
+  svg.setAttribute('viewBox', vb.join(' '));
+  svg.setAttribute('width', vb[2]);
+  svg.setAttribute('height', vb[3]);
+  return letters;
+}
+
 function load()
 {
   //
@@ -127,118 +237,28 @@ function load()
     let markers = [];
 
     darkMode(svg);
-    let g = svg.children[1];
-    let region;
-    let els = g.children;
-    let seenonce = false;
-    for(let i = 0; i < els.length; i++)
-    {
-      let el = els[i];
-      if(el.getAttribute('transform') === 'scale(0.1 0.1)')
-      {
-        if(seenonce)
-        {
-          region = el;
-          break;
-        }
-        else
-        {
-          seenonce = true;
-        }
+    window.step = () => {
+      window.scrollTo(0, 0)
+      let [letterInFigure, tl, br] = mark(svg, rsvg, markers);
+      window.scrollTo(0, tl[0])
+      window.step = () => {
+        window.scrollTo(0, 0)
+        let letters = crop(svg, markers, tl, br, letterInFigure);
+        delete window.step;
       }
     }
-    let bb = region.getClientRects()[0]
-    let tl = [bb.left, bb.top];
-    let br = [bb.right, bb.bottom];
-
-    let s = rect(tl, br, {stroke: colors.make([-30, 100, 40])});
-    markers.push(s);
-    svg.appendChild(s);
-    debugger;
-
-    let onlyFigure = (svg) =>
-    {
-      svg.querySelectorAll('text').forEach(rem);
-      svg.removeChild(svg.children[0]);
-      let g = svg.children[0];
-      g.removeChild(g.children[0]);
-      g.removeChild(g.children[0]);
-      g.removeChild(g.children[0]);
-
-      let g1 = g.children[1];
-      g1.removeAttribute('clip-path');
-    }
-
-    let letterInFigure = {};
-    textDivs.forEach((div, i) =>
-    {
-      let crect = div.getClientRects()[0]
-
-      if(intersectRect(crect, bb))
-      {
-        letterInFigure[i] = true;
-        let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
-        markers.push(s);
-        svg.appendChild(s);
-        if(crect.left < bb.left)
-        {
-          tl[0] = crect.left;
-        }
-        if(crect.right > bb.right)
-        {
-          br[0] = crect.right;
-        }
-        if(crect.up < bb.up)
-        {
-          tl[1] = crect.up;
-        }
-        if(crect.bottom > bb.bottom)
-        {
-          br[1] = crect.bottom;
-        }
-      }
-    });
-
-    s = rect(tl, br, {stroke: colors.make([-30, 100, 70])});
-    markers.push(s);
-    svg.appendChild(s);
-    debugger;
-
-    markers.forEach(rem);
-    onlyFigure(svg);
-    debugger;
-
-    // Crop text layer
-
-    svg.style['dominant-baseline'] = 'hanging';
-    let letters = {};
-    let figureLetterDivs = [], figureLetterStr = [];
-    textDivs.forEach((div, i) => {
-      if(letterInFigure[i])
-      {
-        let crect = div.getClientRects()[0]
-        let fs = Number(div.style['font-size'].replace(/[^-\d\.]/g, ''));
-        let l = textContentItemsStr[i];
-        let p = [crect.left, crect.top, fs];
-        letters[l] = p;
-        var el = document.createElementNS(SVG_NS, 'text');
-        el.textContent = l;
-        el.setAttribute('font-family', 'sans-serif');
-        el.setAttribute('font-size', fs);
-        el.setAttribute('fill', '#474747');
-        el.setAttribute('x', p[0]);
-        el.setAttribute('y', p[1]);
-        svg.appendChild(el);
-      }
-      rem(div);
-    });
-    debugger;
-
-    let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
-    svg.setAttribute('viewBox', vb.join(' '));
-    svg.setAttribute('width', vb[2]);
-    svg.setAttribute('height', vb[3]);
   });
 }
+
+document.onkeydown = (e => {
+  if(e.key == " ")
+  {
+    if(window.step)
+    {
+      e.preventDefault();
+      window.step();
+    }
+  }
+});
 
 window.onload = load;
