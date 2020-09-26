@@ -111,7 +111,7 @@ function load()
   let svgPromise = pagePromise
     .then(function(page)
     {
-      let scale = 1;
+      let scale = 2;
       viewport = page.getViewport({ scale });
 
       return page.getOperatorList()
@@ -189,28 +189,34 @@ function load()
 
     // Crop text layer
 
+    let letters = {};
     let figureLetterDivs = [], figureLetterStr = [];
     textDivs.forEach((div, i) => {
       if(letterInFigure[i])
       {
         let crect = div.getClientRects()[0]
-        div.style.left = crect.left - tl[0] + 'px';
-        div.style.top = crect.top - tl[1] + 'px';
-        figureLetterDivs.push(div);
-        figureLetterStr.push(textContentItemsStr[i]);
+        let fs = Number(div.style['font-size'].replace(/[^-\d\.]/g, ''));
+        let l = textContentItemsStr[i];
+        let p = [crect.left, crect.top, fs];
+        letters[l] = p;
+        var el = document.createElementNS(SVG_NS, 'text');
+        el.textContent = l;
+        el.setAttribute('font-family', 'sans-serif');
+        el.setAttribute('font-size', fs);
+        el.setAttribute('fill', '#474747');
+        el.setAttribute('x', p[0]);
+        el.setAttribute('y', p[1]);
+        svg.appendChild(el);
       }
-      else
-      {
-        rem(div);
-      }
+      rem(div);
     });
 
     markers.forEach(rem);
 
     let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
+    svg.setAttribute('viewBox', vb.join(' '));
     svg.setAttribute('width', vb[2]);
     svg.setAttribute('height', vb[3]);
-    svg.setAttribute('viewBox', vb.join(' '));
   });
 }
 
