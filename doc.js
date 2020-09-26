@@ -75,25 +75,6 @@ let rem = (el) =>
     rem(p);
 }
 
-let onlyFigure = (svg) =>
-{
-  svg.querySelectorAll('text').forEach(rem);
-  svg.removeChild(svg.children[0]);
-  let g = svg.children[0];
-  g.removeChild(g.children[0]);
-  g.removeChild(g.children[0]);
-  g.removeChild(g.children[0]);
-
-  let g1 = g.children[1];
-  g1.removeAttribute('clip-path');
-
-  let ng = document.createElementNS(SVG_NS, 'g');
-  ng.appendChild(g);
-  svg.appendChild(ng);
-
-  return ng.getClientRects()[0];
-}
-
 function load()
 {
   //
@@ -105,23 +86,24 @@ function load()
   let pagePromise = loadingTask.promise
     .then(function(pdf)
     {
-      return pdf.getPage(76);
+      return pdf.getPage(307);
     });
 
-  let svgPromise = pagePromise
-    .then(function(page)
-    {
-      let scale = 2;
-      viewport = page.getViewport({ scale });
+  function makeSVG(page)
+  {
+    let scale = 2;
+    viewport = page.getViewport({ scale });
 
-      return page.getOperatorList()
-        .then(opList =>
-        {
-          const svgGfx = new pdfjsLib.SVGGraphics(page.commonObjs, page.objs);
+    return page.getOperatorList()
+      .then(opList =>
+      {
+        const svgGfx = new pdfjsLib.SVGGraphics(page.commonObjs, page.objs);
 
-          return svgGfx.getSVG(opList, viewport);
-        });
-    });
+        return svgGfx.getSVG(opList, viewport);
+      });
+  }
+
+  let svgPromise = pagePromise.then(makeSVG);
 
   let textLayerPromise = pagePromise
     .then(page =>
@@ -145,13 +127,47 @@ function load()
     let markers = [];
 
     darkMode(svg);
-    let bb = onlyFigure(svg);
+    let g = svg.children[1];
+    let region;
+    let els = g.children;
+    let seenonce = false;
+    for(let i = 0; i < els.length; i++)
+    {
+      let el = els[i];
+      if(el.getAttribute('transform') === 'scale(0.1 0.1)')
+      {
+        if(seenonce)
+        {
+          region = el;
+          break;
+        }
+        else
+        {
+          seenonce = true;
+        }
+      }
+    }
+    let bb = region.getClientRects()[0]
     let tl = [bb.left, bb.top];
     let br = [bb.right, bb.bottom];
 
     let s = rect(tl, br, {stroke: colors.make([-30, 100, 40])});
     markers.push(s);
     svg.appendChild(s);
+    debugger;
+
+    let onlyFigure = (svg) =>
+    {
+      svg.querySelectorAll('text').forEach(rem);
+      svg.removeChild(svg.children[0]);
+      let g = svg.children[0];
+      g.removeChild(g.children[0]);
+      g.removeChild(g.children[0]);
+      g.removeChild(g.children[0]);
+
+      let g1 = g.children[1];
+      g1.removeAttribute('clip-path');
+    }
 
     let letterInFigure = {};
     textDivs.forEach((div, i) =>
@@ -186,9 +202,15 @@ function load()
     s = rect(tl, br, {stroke: colors.make([-30, 100, 70])});
     markers.push(s);
     svg.appendChild(s);
+    debugger;
+
+    markers.forEach(rem);
+    onlyFigure(svg);
+    debugger;
 
     // Crop text layer
 
+    svg.style['dominant-baseline'] = 'hanging';
     let letters = {};
     let figureLetterDivs = [], figureLetterStr = [];
     textDivs.forEach((div, i) => {
@@ -210,8 +232,7 @@ function load()
       }
       rem(div);
     });
-
-    markers.forEach(rem);
+    debugger;
 
     let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
     svg.setAttribute('viewBox', vb.join(' '));
