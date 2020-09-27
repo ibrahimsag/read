@@ -37,7 +37,6 @@ function intersectRect(r1, r2) {
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   'node_modules/pdfjs-dist/build/pdf.worker.js';
 
-let textLayerEl = document.querySelector('#textLayer');
 let textDivs = [], textContentItemsStr = [];
 
 let darkMode = svg => {
@@ -75,24 +74,26 @@ let rem = (el) =>
     rem(p);
 }
 
+window.figureN = 1;
+
 function mark(svg, rsvg, markers) {
   let g = svg.children[1];
   let region;
   let els = g.children;
-  let seenonce = false;
+  let seenTimes = 0;
   for(let i = 0; i < els.length; i++)
   {
     let el = els[i];
     if(el.getAttribute('transform') === 'scale(0.1 0.1)')
     {
-      if(seenonce)
+      if(seenTimes == figureN)
       {
         region = el;
         break;
       }
       else
       {
-        seenonce = true;
+        seenTimes++;
       }
     }
   }
@@ -141,17 +142,36 @@ function mark(svg, rsvg, markers) {
   return [letterInFigure, tl, br];
 }
 
-function crop(svg, markers, tl, br, letterInFigure) {
-  markers.forEach(rem);
-
+function crop(svg, tl, br, letterInFigure) {
   svg.querySelectorAll('text').forEach(rem);
   svg.removeChild(svg.children[0]);
   let g = svg.children[0];
-  g.removeChild(g.children[0]);
-  g.removeChild(g.children[0]);
-  g.removeChild(g.children[0]);
-
-  g.children[1].removeAttribute('clip-path');
+  let figureI = -1;
+  let els = g.children;
+  let seenTimes = 0;
+  for(let i = 0; i < els.length; i++)
+  {
+    let el = els[i];
+    if(el.getAttribute('transform') === 'scale(0.1 0.1)')
+    {
+      if(seenTimes == figureN)
+      {
+        figureI = i+1;
+        break;
+      }
+      else
+      {
+        seenTimes++;
+      }
+    }
+  }
+  let node = g.removeChild(g.children[figureI]);
+  while(g.firstChild)
+  {
+    g.removeChild(g.firstChild);
+  }
+  g.appendChild(node);
+  node.removeAttribute('clip-path');
 
   // Crop text layer
 
@@ -170,7 +190,7 @@ function crop(svg, markers, tl, br, letterInFigure) {
       el.textContent = l;
       el.setAttribute('font-family', 'sans-serif');
       el.setAttribute('font-size', fs);
-      el.setAttribute('fill', '#474747');
+      el.setAttribute('fill', '#777777');
       el.setAttribute('x', p[0]);
       el.setAttribute('y', p[1]);
       svg.appendChild(el);
@@ -185,35 +205,37 @@ function crop(svg, markers, tl, br, letterInFigure) {
   return letters;
 }
 
-function load()
+function loadPage(pdfDoc, pn)
 {
-  //
-  // Asynchronous download PDF
-  //
-  var loadingTask = pdfjsLib.getDocument('Elements.pdf');
-  let wrapper = document.querySelector('#wrapper');
-  let viewport, page;
-  let pagePromise = loadingTask.promise
-    .then(function(pdf)
+  let container = document.querySelector('#container');
+  container.innerHTML = '';
+  let wrapper = document.createElement('div');
+  wrapper.id = 'wrapper';
+  let textLayerEl = document.createElement('div');
+  textLayerEl.id = 'textLayer';
+  container.appendChild(wrapper);
+  container.appendChild(textLayerEl);
+  textDivs = [];
+  textContentItemsStr = [];
+  delete window.step;
+
+  let viewport;
+  let pagePromise = pdfDoc.getPage(pn);
+
+  let svgPromise = pagePromise
+    .then((page) =>
     {
-      return pdf.getPage(307);
+      let scale = 2;
+      viewport = page.getViewport({ scale });
+
+      return page.getOperatorList()
+        .then(opList =>
+        {
+          const svgGfx = new pdfjsLib.SVGGraphics(page.commonObjs, page.objs);
+
+          return svgGfx.getSVG(opList, viewport);
+        });
     });
-
-  function makeSVG(page)
-  {
-    let scale = 2;
-    viewport = page.getViewport({ scale });
-
-    return page.getOperatorList()
-      .then(opList =>
-      {
-        const svgGfx = new pdfjsLib.SVGGraphics(page.commonObjs, page.objs);
-
-        return svgGfx.getSVG(opList, viewport);
-      });
-  }
-
-  let svgPromise = pagePromise.then(makeSVG);
 
   let textLayerPromise = pagePromise
     .then(page =>
@@ -230,7 +252,7 @@ function load()
         });
     });
 
-  Promise.all([svgPromise, textLayerPromise]).then(([svg, textLayer]) => {
+  return Promise.all([svgPromise, textLayerPromise]).then(([svg, textLayer]) => {
 
     wrapper.appendChild(svg);
     rsvg = rough.svg(svg);
@@ -240,25 +262,107 @@ function load()
     window.step = () => {
       window.scrollTo(0, 0)
       let [letterInFigure, tl, br] = mark(svg, rsvg, markers);
-      window.scrollTo(0, tl[0])
+      setTimeout(() => {
+        window.scrollTo(tl[0] - 50, tl[1] - 50)
+      });
       window.step = () => {
         window.scrollTo(0, 0)
-        let letters = crop(svg, markers, tl, br, letterInFigure);
+        markers.forEach(rem);
+        let letters = crop(svg, tl, br, letterInFigure);
         delete window.step;
       }
     }
+    return true;
   });
 }
 
-document.onkeydown = (e => {
-  if(e.key == " ")
-  {
-    if(window.step)
+function load()
+{
+  //
+  // Asynchronous download PDF
+  //
+  var loadingTask = pdfjsLib.getDocument('Elements.pdf');
+
+  loadingTask.promise
+    .then(function(pdfDoc)
     {
-      e.preventDefault();
-      window.step();
-    }
-  }
-});
+      let pageNum = Number(localStorage.pn) || 307,
+          pageRendering = false,
+          pageNumPending = null;
+
+      function renderPage(num) {
+        pageRendering = true;
+        localStorage.pn = num;
+        loadPage(pdfDoc, num)
+          .then(() =>
+          {
+            pageRendering = false;
+            if(pageNumPending !== null)
+            {
+              renderPage(pageNumPending);
+              pageNumPending = null;
+            }
+          });;
+      }
+
+      /**
+       * If another page rendering in progress, waits until the rendering is
+       * finised. Otherwise, executes rendering immediately.
+       */
+      function queueRenderPage(num) {
+        if (pageRendering) {
+          pageNumPending = num;
+        } else {
+          renderPage(num);
+        }
+      }
+
+      function onPrevPage() {
+        if (pageNum <= 1) {
+          return;
+        }
+        pageNum--;
+        queueRenderPage(pageNum);
+      }
+
+      function onNextPage() {
+        if (pageNum >= pdfDoc.numPages) {
+          return;
+        }
+        pageNum++;
+        queueRenderPage(pageNum);
+      }
+
+      document.onkeyup = (e => {
+        e.preventDefault();
+
+      });
+
+      document.onkeydown = (e => {
+        if(e.key == " ")
+        {
+          if(window.step)
+          {
+            e.preventDefault();
+            window.step();
+          }
+        }
+        else if(e.key == "k")
+        {
+          onPrevPage();
+        }
+        else if(e.key == "j")
+        {
+          onNextPage();
+        }
+        else if(e.key == "r")
+        {
+          queueRenderPage(pageNum);
+        }
+      });
+
+      renderPage(pageNum);
+    });
+}
 
 window.onload = load;
