@@ -446,21 +446,28 @@ function makeGround(rg, svg)
             let seenRef = false;
             let parts = sentenceParts.map(part =>
               {
-                let markRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
+                let markRE = /\{([A-Z]+)\}/;
                 let m = part.match(markRE);
+                let overlayRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
+                let om = part.match(overlayRE);
+                let r = part;
                 if(m)
                 {
                   seenRef = true;
                   p.refcount++;
-                  if(m[3])
-                    return [m[1], m[2], m[3].trim()];
-                  else
-                    return [m[1], m[2]];
+                  r = [m[1]];
                 }
-                else
+                else if(om)
                 {
-                  return part;
+                  seenRef = true;
+                  p.refcount++;
+                  if(om[3])
+                    r = [om[1], om[2], om[3].trim()];
+                  else
+                    r = [om[1], om[2]];
                 }
+
+                return r;
               });
             if(!seenRef)
               p.refcount++;
@@ -526,28 +533,13 @@ function makeGround(rg, svg)
     let proseEl = document.querySelector('#proseContent');
     proseEl.innerHTML = '';
 
+    let imgData;
     if(p.img && localStorage[p.img])
     {
       let placeholder = document.createElementNS(SVG_NS, 'svg');
       proseEl.appendChild(placeholder);
-      let i = JSON.parse(localStorage[p.img]);
-      placeholder.outerHTML = i.svgStr;
-      let svg = proseEl.querySelector('svg');
-
-      setTimeout(() =>
-        {
-          for(var l in i.letters) {
-            let d = i.letters[l];
-            var el = document.createElementNS(SVG_NS, 'text');
-            el.textContent = l;
-            el.setAttribute('font-family', 'sans-serif');
-            el.setAttribute('font-size', d.s);
-            el.setAttribute('fill', '#474747');
-            el.setAttribute('x', d.x);
-            el.setAttribute('y', d.y);
-            svg.appendChild(el);
-          }
-        });
+      imgData = JSON.parse(localStorage[p.img]);
+      placeholder.outerHTML = imgData.svgStr;
     }
 
     let nearHighlights = [];
@@ -678,17 +670,46 @@ function makeGround(rg, svg)
 
     svg.innerHTML = "";
 
+    let hs = highlights.filter(h=>h.length>1);
+    let nhs = nearHighlights.filter(h=>h.length>1);
+    let hhs = hoverHighlights.filter(h=>h.length>1);
     if(!p.figures)
     {
-      let els = prepareShapes(p, highlights, nearHighlights, hoverHighlights, true, false);
+      let els = prepareShapes(p, hs, nhs, hhs, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        let els = prepareShapes(p.figures[i], highlights, nearHighlights, hoverHighlights, figureIndex == 0 || figureIndex == i+1, true);
+        let els = prepareShapes(p.figures[i], hs, nhs, hhs, figureIndex == 0 || figureIndex == i+1, true);
         els.map(el => svg.appendChild(el));
+      }
+    }
+
+    if(imgData)
+    {
+      let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
+      let highlightName = highlights.map(h => h[0]).join('');
+
+      let imgEl = proseEl.querySelector('svg');
+      for(var l in imgData.letters) {
+        let d = imgData.letters[l];
+        var el = document.createElementNS(SVG_NS, 'text');
+        el.textContent = l;
+        el.setAttribute('font-family', 'sans-serif');
+        el.setAttribute('font-size', d.s);
+        if(highlightName.indexOf(l) > -1)
+        {
+          el.setAttribute('fill', '#e2e2e2');
+        }
+        else
+        {
+          el.setAttribute('fill', '#474747');
+        }
+        el.setAttribute('x', d.x);
+        el.setAttribute('y', d.y);
+        imgEl.appendChild(el);
       }
     }
 
