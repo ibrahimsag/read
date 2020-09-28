@@ -697,7 +697,7 @@ function makeGround(rg, svg)
         let d = imgData.letters[l];
         var el = document.createElementNS(SVG_NS, 'text');
         el.textContent = l;
-        el.setAttribute('font-family', 'sans-serif');
+        el.setAttribute('font-family', 'serif');
         el.setAttribute('font-size', d.s);
         if(highlightName.indexOf(l) > -1)
         {
