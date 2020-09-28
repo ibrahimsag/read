@@ -176,6 +176,7 @@ function crop(svg, tl, br, letterInFigure) {
   // Crop text layer
 
   svg.style['dominant-baseline'] = 'hanging';
+  let svgStr = svg.outerHTML;
   let letters = {};
   let figureLetterDivs = [], figureLetterStr = [];
   textDivs.forEach((div, i) => {
@@ -184,15 +185,15 @@ function crop(svg, tl, br, letterInFigure) {
       let crect = div.getClientRects()[0]
       let fs = Number(div.style['font-size'].replace(/[^-\d\.]/g, ''));
       let l = textContentItemsStr[i];
-      let p = [crect.left, crect.top, fs];
+      let p = { x: crect.left, y: crect.top, s: fs };
       letters[l] = p;
       var el = document.createElementNS(SVG_NS, 'text');
       el.textContent = l;
       el.setAttribute('font-family', 'sans-serif');
       el.setAttribute('font-size', fs);
       el.setAttribute('fill', '#777777');
-      el.setAttribute('x', p[0]);
-      el.setAttribute('y', p[1]);
+      el.setAttribute('x', p.x);
+      el.setAttribute('y', p.y);
       svg.appendChild(el);
     }
     rem(div);
@@ -202,7 +203,7 @@ function crop(svg, tl, br, letterInFigure) {
   svg.setAttribute('viewBox', vb.join(' '));
   svg.setAttribute('width', vb[2]);
   svg.setAttribute('height', vb[3]);
-  return letters;
+  return { svgStr, letters };
 }
 
 function loadPage(pdfDoc, pn)
@@ -268,8 +269,11 @@ function loadPage(pdfDoc, pn)
       window.step = () => {
         window.scrollTo(0, 0)
         markers.forEach(rem);
-        let letters = crop(svg, tl, br, letterInFigure);
-        delete window.step;
+        let { svgStr, letters } = crop(svg, tl, br, letterInFigure);
+        window.step = () => {
+          let k = prompt("storage key:", "defaultkey") || "unnamed";
+          localStorage[`10_${k}`] = JSON.stringify({ svgStr, letters });
+        };
       }
     }
     return true;
@@ -290,21 +294,6 @@ function load()
           pageRendering = false,
           pageNumPending = null;
 
-      function renderPage(num) {
-        pageRendering = true;
-        localStorage.pn = num;
-        loadPage(pdfDoc, num)
-          .then(() =>
-          {
-            pageRendering = false;
-            if(pageNumPending !== null)
-            {
-              renderPage(pageNumPending);
-              pageNumPending = null;
-            }
-          });;
-      }
-
       /**
        * If another page rendering in progress, waits until the rendering is
        * finised. Otherwise, executes rendering immediately.
@@ -313,7 +302,18 @@ function load()
         if (pageRendering) {
           pageNumPending = num;
         } else {
-          renderPage(num);
+          pageRendering = true;
+          localStorage.pn = num;
+          loadPage(pdfDoc, num)
+            .then(() =>
+              {
+                pageRendering = false;
+                if(pageNumPending !== null)
+                {
+                  queueRenderPage(pageNumPending);
+                  pageNumPending = null;
+                }
+              });;
         }
       }
 
@@ -333,11 +333,6 @@ function load()
         queueRenderPage(pageNum);
       }
 
-      document.onkeyup = (e => {
-        e.preventDefault();
-
-      });
-
       document.onkeydown = (e => {
         if(e.key == " ")
         {
@@ -355,13 +350,18 @@ function load()
         {
           onNextPage();
         }
+        else if(e.key == "n")
+        {
+          figureN = (figureN === 3 ? 1 : 3);
+          console.log("FigureN: ", figureN);
+        }
         else if(e.key == "r")
         {
           queueRenderPage(pageNum);
         }
       });
 
-      renderPage(pageNum);
+      queueRenderPage(pageNum);
     });
 }
 
