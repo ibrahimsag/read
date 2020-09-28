@@ -548,6 +548,7 @@ function makeGround(rg, svg)
     let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
+    let nextLabel;
 
     let i_ref = 0, i_sentence = 0;
     p.paragraphs.forEach(sentences =>
@@ -558,6 +559,13 @@ function makeGround(rg, svg)
         let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
         let isFocusSentence = check_range(o);
         let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
+        if(isFocusSentence)
+        {
+          if (o+1 < p.refp[i_sentence+1])
+            nextLabel = "next link";
+          else
+            nextLabel = "next sentence";
+        }
 
         let sentenceWithoutRef = true;
         function selectFigure(m, ind)
@@ -668,6 +676,7 @@ function makeGround(rg, svg)
       });
       proseEl.appendChild(paragraphEl);
     })
+    document.querySelector('#move-on').innerText = nextLabel;
 
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
