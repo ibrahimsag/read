@@ -28,13 +28,13 @@ export default [{
   }
 },
 {
-  input: 'project.js',
+  input: 'experiment.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
   ],
   output: {
-    file: 'build/project.js',
+    file: 'build/experiment.js',
     format: 'iife',
     sourcemap: true,
   }

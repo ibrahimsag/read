@@ -17,14 +17,14 @@ export default [{
     sourcemap: false,
   }
 },{
-  input: 'project.js',
+  input: 'experiment.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
     terser(),
   ],
   output: {
-    file: 'build/project.js',
+    file: 'build/experiment.js',
     format: 'iife',
     sourcemap: false,
   }
