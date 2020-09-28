@@ -798,6 +798,14 @@ function presentProp(i_book, i_prop) {
       i_p = (i_p+1) % ps.length;
       openProposition(i_book, i_p);
     }
+    else if(e.key == "h")
+    {
+      let s = document.querySelector('#prose svg');
+      if(s && s.style.display != "none")
+        s.style.display = "none";
+      else
+        s.style.display = null;
+    }
   }
 
   document.onkeydown = keyHandler;
