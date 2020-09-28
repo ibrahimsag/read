@@ -608,7 +608,7 @@ function makeGround(rg, svg)
             let color;
             if(i_ref == o)
               color = colors.bright;
-            else if(i_ref == hover_o)
+            else if(isHoverSentence && i_ref == hover_o)
               color = colors.hover_bright;
             else if (isFocusSentence)
               color = colors.sentence;
@@ -623,7 +623,7 @@ function makeGround(rg, svg)
               highlights.push(part);
               figureIndex = lastSeenFigureIndex;
             }
-            else if(i_ref == hover_o)
+            else if(isHoverSentence && i_ref == hover_o)
             {
               hoverHighlights.push(part);
               figureIndex = lastSeenFigureIndex;
