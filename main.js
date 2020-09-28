@@ -410,7 +410,7 @@ function makeGround(rg, svg)
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
       var el = document.createElementNS(SVG_NS, 'text');
       el.setAttribute('font-family', 'Nale');
-      el.setAttribute('font-size', shouldBeSmall ? '16px' : '24px');
+      el.setAttribute('font-size', shouldBeSmall ? 16 : 24);
       let fillcolor = colors.dim;
       if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
       {
@@ -711,6 +711,10 @@ function makeGround(rg, svg)
         el.setAttribute('y', d.y);
         imgEl.appendChild(el);
       }
+
+      let b = imgEl.viewBox.baseVal;
+      let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+      imgEl.appendChild(s);
     }
 
     proxy.moveon = () => { present(o + 1, p); };
