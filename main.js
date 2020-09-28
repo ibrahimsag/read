@@ -744,7 +744,7 @@ function makeGround(rg, svg)
       if(proxy.hoverTimeoutHandle)
       {
         clearTimeout(proxy.hoverTimeoutHandle);
-        proxy.hoverTimeoutHandle = undefined;
+        proxy.hoverTimeoutHandle = null;
       }
 
       if(hover_o)
@@ -760,7 +760,7 @@ function makeGround(rg, svg)
       if(proxy.hoverTimeoutHandle)
       {
         clearTimeout(proxy.hoverTimeoutHandle);
-        proxy.hoverTimeoutHandle = undefined;
+        proxy.hoverTimeoutHandle = null;
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
@@ -774,6 +774,12 @@ function makeGround(rg, svg)
 
     proseEl.onclick = (e) =>
     {
+      if(proxy.hoverTimeoutHandle)
+      {
+        clearTimeout(proxy.hoverTimeoutHandle);
+        proxy.hoverTimeoutHandle = null;
+      }
+
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
