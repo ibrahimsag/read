@@ -176,7 +176,13 @@ function crop(svg, tl, br, letterInFigure) {
   // Crop text layer
 
   svg.style['dominant-baseline'] = 'hanging';
+
+  let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
+  svg.setAttribute('viewBox', vb.join(' '));
+  svg.setAttribute('width', vb[2]);
+  svg.setAttribute('height', vb[3]);
   let svgStr = svg.outerHTML;
+
   let letters = {};
   let figureLetterDivs = [], figureLetterStr = [];
   textDivs.forEach((div, i) => {
@@ -199,10 +205,6 @@ function crop(svg, tl, br, letterInFigure) {
     rem(div);
   });
 
-  let vb = [tl[0], tl[1], br[0]-tl[0], br[1]-tl[1]];
-  svg.setAttribute('viewBox', vb.join(' '));
-  svg.setAttribute('width', vb[2]);
-  svg.setAttribute('height', vb[3]);
   return { svgStr, letters };
 }
 
@@ -271,8 +273,11 @@ function loadPage(pdfDoc, pn)
         markers.forEach(rem);
         let { svgStr, letters } = crop(svg, tl, br, letterInFigure);
         window.step = () => {
-          let k = prompt("storage key:", "defaultkey") || "unnamed";
-          localStorage[`10_${k}`] = JSON.stringify({ svgStr, letters });
+          let k = prompt("storage key:", "defaultkey");
+          if(k)
+          {
+            localStorage[`10_${k}`] = JSON.stringify({ svgStr, letters });
+          }
         };
       }
     }

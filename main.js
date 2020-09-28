@@ -12,7 +12,7 @@ let colors = {
   hover_bright: hsluv.hpluvToHex([330, 100, 80]),
   make: hsluv.hpluvToHex,
 };
-
+const SVG_NS = 'http://www.w3.org/2000/svg';
 function makeRG (svgEl)
 {
   const rsvg = rough.svg(svgEl);
@@ -408,7 +408,7 @@ function makeGround(rg, svg)
     {
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
-      var el = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      var el = document.createElementNS(SVG_NS, 'text');
       el.setAttribute('font-family', 'Nale');
       el.setAttribute('font-size', shouldBeSmall ? '16px' : '24px');
       let fillcolor = colors.dim;
@@ -526,11 +526,28 @@ function makeGround(rg, svg)
     let proseEl = document.querySelector('#proseContent');
     proseEl.innerHTML = '';
 
-    if(p.img)
+    if(p.img && localStorage[p.img])
     {
-      let imgEl = document.createElement('img');
-      imgEl.src = p.img;
-      proseEl.appendChild(imgEl);
+      let placeholder = document.createElementNS(SVG_NS, 'svg');
+      proseEl.appendChild(placeholder);
+      let i = JSON.parse(localStorage[p.img]);
+      placeholder.outerHTML = i.svgStr;
+      let svg = proseEl.querySelector('svg');
+
+      setTimeout(() =>
+        {
+          for(var l in i.letters) {
+            let d = i.letters[l];
+            var el = document.createElementNS(SVG_NS, 'text');
+            el.textContent = l;
+            el.setAttribute('font-family', 'sans-serif');
+            el.setAttribute('font-size', d.s);
+            el.setAttribute('fill', '#474747');
+            el.setAttribute('x', d.x);
+            el.setAttribute('y', d.y);
+            svg.appendChild(el);
+          }
+        });
     }
 
     let nearHighlights = [];
