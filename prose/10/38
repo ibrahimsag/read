@@ -1,28 +1,28 @@
 If two medial (straight-lines), commensurable in square only, which contain a medial (area), are added together then the whole (straight-line) is irrational---let it be called a second bimedial (straight-line).
 
-For let the two medial (straight-lines), AB and BC, commensurable in square only, (and) containing a medial (area), be laid down together [Prop. 10.28].
-I say that AC is irrational.
+For let the two medial (straight-lines), {AB} and {BC}, commensurable in square only, (and) containing a medial (area), be laid down together [Prop. 10.28].
+I say that {AC} is irrational.
 
-For let the rational (straight-line) DE be laid down, and let (the rectangle) DF, equal to the (square) on AC, have been applied to DE, making DG as breadth [Prop. 1.44].
-And since the (square) on AC is equal to (the sum of) the (squares) on AB and BC, plus twice the (rectangle contained) by AB and BC [Prop. 2.4], so let (the rectangle) EH, equal to (the sum of) the squares on AB and BC, have been applied to DE.
-The remainder HF is thus equal to twice the (rectangle contained) by AB and BC.
-And since AB and BC are each medial, (the sum of) the squares on AB and BC is thus also medial.
-And twice the (rectangle contained) by AB and BC was also assumed (to be) medial.
-And EH is equal to (the sum of) the squares on AB and BC, and FH (is) equal to twice the (rectangle contained) by AB and BC.
-Thus, EH and HF (are) each medial.
-And they were applied to the rational (straight-line) DE.
-Thus, DH and HG are each rational, and incommensurable in length with DE [Prop. 10.22].
-Therefore, since AB is incommensurable in length with BC, and as AB is to BC, so the (square) on AB (is) to the (rectangle contained) by AB and BC [Prop. 10.21 lem.], the (square) on AB is thus incommensurable with the (rectangle contained) by AB and BC [Prop. 10.11].
-But, the sum of the squares on AB and BC is commensurable with the (square) on AB [Prop. 10.15], and twice the (rectangle contained) by AB and BC is commensurable with the (rectangle contained) by AB and BC [Prop. 10.6].
-Thus, the sum of the (squares) on AB and BC is incommensurable with twice the (rectangle contained) by AB and BC [Prop. 10.13].
-But, EH is equal to (the sum of) the squares on AB and BC, and HF is equal to twice the (rectangle) contained by AB and BC.
-Thus, EH is incommensurable with HF.
-Hence, DH is also incommensurable in length with HG [Props. 6.1, 10.11].
-Thus, DH and HG are rational (straight-lines which are) commensurable in square only.
-Hence, DG is irrational [Prop. 10.36].
-And DE (is) rational.
+For let the rational (straight-line) {DE} be laid down, and let (the rectangle) {DF}, equal to the (square) on {AC}, have been applied to {DE}, making {DG} as breadth [Prop. 1.44].
+And since the (square) on {AC} is equal to (the sum of) the (squares) on {AB} and {BC}, plus twice the (rectangle contained) by {AB} and {BC} [Prop. 2.4], so let (the rectangle) {EH}, equal to (the sum of) the squares on {AB} and {BC}, have been applied to {DE}.
+The remainder {HF} is thus equal to twice the (rectangle contained) by {AB} and {BC}.
+And since {AB} and {BC} are each medial, (the sum of) the squares on {AB} and {BC} is thus also medial.
+And twice the (rectangle contained) by {AB} and {BC} was also assumed (to be) medial.
+And {EH} is equal to (the sum of) the squares on {AB} and {BC}, and {FH} (is) equal to twice the (rectangle contained) by {AB} and {BC}.
+Thus, {EH} and {HF} (are) each medial.
+And they were applied to the rational (straight-line) {DE}.
+Thus, {DH} and {HG} are each rational, and incommensurable in length with {DE} [Prop. 10.22].
+Therefore, since {AB} is incommensurable in length with {BC}, and as {AB} is to {BC}, so the (square) on {AB} (is) to the (rectangle contained) by {AB} and {BC} [Prop. 10.21 lem.], the (square) on {AB} is thus incommensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.11].
+But, the sum of the squares on {AB} and {BC} is commensurable with the (square) on {AB} [Prop. 10.15], and twice the (rectangle contained) by {AB} and {BC} is commensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.6].
+Thus, the sum of the (squares) on {AB} and {BC} is incommensurable with twice the (rectangle contained) by {AB} and {BC} [Prop. 10.13].
+But, {EH} is equal to (the sum of) the squares on {AB} and {BC}, and {HF} is equal to twice the (rectangle) contained by {AB} and {BC}.
+Thus, {EH} is incommensurable with {HF}.
+Hence, {DH} is also incommensurable in length with {HG} [Props. 6.1, 10.11].
+Thus, {DH} and {HG} are rational (straight-lines which are) commensurable in square only.
+Hence, {DG} is irrational [Prop. 10.36].
+And {DE} (is) rational.
 And the rectangle contained by irrational and rational (straight-lines) is irrational [Prop. 10.20].
-The area DF is thus irrational, and (so) the square-root [of it] is irrational [Def. 10.4].
-And AC is the square-root of DF.
-AC is thus irrational---let it be called a second bimedial(straight-line).
+The area {DF} is thus irrational, and (so) the square-root [of it] is irrational [Def. 10.4].
+And {AC} is the square-root of {DF}.
+{AC} is thus irrational---let it be called a second bimedial(straight-line).
 (Which is) the very thing it was required to show.

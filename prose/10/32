@@ -1,21 +1,21 @@
 To find two medial (straight-lines), commensurable in square only, (and) containing a medial (area), such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) commensurable (in length) with the greater.
 
-Let three rational (straight-lines), A, B and C, commensurable in square only, be laid out such that the square on A is greater than (the square on C) by the (square) on (some straight-line) commensurable (in length) with (A) [Prop. 10.29].
-And let the (square) on D be equal to the (rectangle contained) by A and B.
-Thus, the (square) on D (is) medial.
-Thus, D is also medial [Prop. 10.21].
-And let the (rectangle contained) by D and E be equal to the (rectangle contained) by B and C.
-And since as the (rectangle contained) by A and B is to the (rectangle contained) by B and C, so A (is) to C [Prop. 10.21 lem.], but the (square) on D is equal to the (rectangle contained) by A and B, and the (rectangle contained) by D and E to the (rectangle contained) by B and C, thus as A is to C, so the (square) on D (is) to the (rectangle contained) by D and E.
-And as the (square) on D (is) to the (rectangle contained) by D and E, so D (is) to E [Prop. 10.21 lem.].
-And thus as A (is) to C, so D (is) to E.
-And A (is) commensurable in square [only] with C.
-Thus, D (is) also commensurable in square only with E [Prop. 10.11].
-And D (is) medial.
-Thus, E (is) also medial [Prop. 10.23].
-And since as A is to C, (so) D (is) to E, and the square on A is greater than (the square on) C by the (square) on (some straight-line) commensurable (in length) with (A), the square on D will thus also be greater than (the square on) E by the (square) on (some straight-line) commensurable (in length) with (D) [Prop. 10.14].
-So, I also say that the (rectangle contained) by D and E is medial.
-For since the (rectangle contained) by B and C is equal to the (rectangle contained) by D and E, and the (rectangle contained) by B and C (is) medial [for B and C are rational (straight-lines which are) commensurable in square only] [Prop. 10.21], the (rectangle contained) by D and E (is) thus also medial.
+Let three rational (straight-lines), {A}, {B} and {C}, commensurable in square only, be laid out such that the square on {A} is greater than (the square on {C}) by the (square) on (some straight-line) commensurable (in length) with ({A}) [Prop. 10.29].
+And let the (square) on {D} be equal to the (rectangle contained) by {A} and {B}.
+Thus, the (square) on {D} (is) medial.
+Thus, {D} is also medial [Prop. 10.21].
+And let the (rectangle contained) by {D} and {E} be equal to the (rectangle contained) by {B} and {C}.
+And since as the (rectangle contained) by {A} and {B} is to the (rectangle contained) by {B} and {C}, so {A} (is) to {C} [Prop. 10.21 lem.], but the (square) on {D} is equal to the (rectangle contained) by {A} and {B}, and the (rectangle contained) by {D} and {E} to the (rectangle contained) by {B} and {C}, thus as {A} is to {C}, so the (square) on {D} (is) to the (rectangle contained) by {D} and {E}.
+And as the (square) on {D} (is) to the (rectangle contained) by {D} and {E}, so {D} (is) to {E} [Prop. 10.21 lem.].
+And thus as {A} (is) to {C}, so {D} (is) to {E}.
+And {A} (is) commensurable in square [only] with {C}.
+Thus, {D} (is) also commensurable in square only with {E} [Prop. 10.11].
+And {D} (is) medial.
+Thus, {E} (is) also medial [Prop. 10.23].
+And since as {A} is to {C}, (so) {D} (is) to {E}, and the square on {A} is greater than (the square on) {C} by the (square) on (some straight-line) commensurable (in length) with ({A}), the square on {D} will thus also be greater than (the square on) {E} by the (square) on (some straight-line) commensurable (in length) with ({D}) [Prop. 10.14].
+So, I also say that the (rectangle contained) by {D} and {E} is medial.
+For since the (rectangle contained) by {B} and {C} is equal to the (rectangle contained) by {D} and {E}, and the (rectangle contained) by {B} and {C} (is) medial [for {B} and {C} are rational (straight-lines which are) commensurable in square only] [Prop. 10.21], the (rectangle contained) by {D} and {E} (is) thus also medial.
 
-Thus, two medial (straight-lines), D and E, commensurable in square only, (and) containing a medial (area), have been found such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) commensurable (in length) with the greater.
+Thus, two medial (straight-lines), {D} and {E}, commensurable in square only, (and) containing a medial (area), have been found such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) commensurable (in length) with the greater.
 
-So, similarly, (the proposition) can again also be demonstrated for (some straight-line) incommensurable (in length with the greater), provided that the square on A is greater than (the square on) C by the (square) on (some straight-line) incommensurable (in length) with (A) [Prop. 10.30].
+So, similarly, (the proposition) can again also be demonstrated for (some straight-line) incommensurable (in length with the greater), provided that the square on {A} is greater than (the square on) {C} by the (square) on (some straight-line) incommensurable (in length) with ({A}) [Prop. 10.30].

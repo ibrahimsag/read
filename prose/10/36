@@ -1,14 +1,14 @@
 If two rational (straight-lines which are) commensurable in square only are added together then the whole (straight-line) is irrational---let it be called a binomial (straight-line).
 
 
-For let the two rational (straight-lines), AB and BC, (which are) commensurable in square only, be laid down together.
-I say that the whole (straight-line), AC, is irrational.
-For since AB is incommensurable in length with BC---for they are commensurable in square only---and as AB (is) to BC, so the (rectangle contained) by ABC (is) to the (square) on BC, the (rectangle contained) by AB and BC is thus incommensurable with the (square) on BC [Prop. 10.11].
-But, twice the (rectangle contained) by AB and BC is commensurable with the (rectangle contained) by AB and BC [Prop. 10.6].
-And (the sum of) the (squares) on AB and BC is commensurable with the (square) on BC---for the rational (straight-lines) AB and BC are commensurable in square only [Prop. 10.15].
-Thus, twice the (rectangle contained) by AB and BC is incommensurable with (the sum of) the (squares) on AB and BC [Prop. 10.13].
-And, via composition, twice the (rectangle contained) by AB and BC, plus (the sum of) the (squares) on AB and BC---that is to say, the (square) on AC [Prop. 2.4]---is incommensurable with the sum of the (squares) on AB and BC [Prop. 10.16].
-And the sum of the (squares) on AB and BC (is) rational.
-Thus, the (square) on AC [is] irrational [Def. 10.4].
-Hence, AC is also irrational [Def. 10.4]---let it be called a binomial (straight-line).
+For let the two rational (straight-lines), {AB} and {BC}, (which are) commensurable in square only, be laid down together.
+I say that the whole (straight-line), {AC}, is irrational.
+For since {AB} is incommensurable in length with {BC}---for they are commensurable in square only---and as {AB} (is) to {BC}, so the (rectangle contained) by {ABC} (is) to the (square) on {BC}, the (rectangle contained) by {AB} and {BC} is thus incommensurable with the (square) on {BC} [Prop. 10.11].
+But, twice the (rectangle contained) by {AB} and {BC} is commensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.6].
+And (the sum of) the (squares) on {AB} and {BC} is commensurable with the (square) on {BC}---for the rational (straight-lines) {AB} and {BC} are commensurable in square only [Prop. 10.15].
+Thus, twice the (rectangle contained) by {AB} and {BC} is incommensurable with (the sum of) the (squares) on {AB} and {BC} [Prop. 10.13].
+And, via composition, twice the (rectangle contained) by {AB} and {BC}, plus (the sum of) the (squares) on {AB} and {BC}---that is to say, the (square) on {AC} [Prop. 2.4]---is incommensurable with the sum of the (squares) on {AB} and {BC} [Prop. 10.16].
+And the sum of the (squares) on {AB} and {BC} (is) rational.
+Thus, the (square) on {AC} [is] irrational [Def. 10.4].
+Hence, {AC} is also irrational [Def. 10.4]---let it be called a binomial (straight-line).
 (Which is) the very thing it was required to show.

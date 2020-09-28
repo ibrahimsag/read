@@ -528,10 +528,11 @@ function makeGround(rg, svg)
     }
 
     let titleEl = document.querySelector('#proseTitle');
-    titleEl.innerHTML = p.title;
+    titleEl.innerText = p.title;
 
     let proseEl = document.querySelector('#proseContent');
-    proseEl.innerHTML = '';
+    while(proseEl.firstChild)
+      proseEl.removeChild(proseEl.firstChild);
 
     let imgData;
     if(p.img && localStorage[p.img])
@@ -668,7 +669,8 @@ function makeGround(rg, svg)
       proseEl.appendChild(paragraphEl);
     })
 
-    svg.innerHTML = "";
+    while(svg.firstChild)
+      svg.removeChild(svg.firstChild);
 
     let hs = highlights.filter(h=>h.length>1);
     let nhs = nearHighlights.filter(h=>h.length>1);

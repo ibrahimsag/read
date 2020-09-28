@@ -1,22 +1,22 @@
 To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
 
-Let the two medial (straight-lines) AB and BC, (which are) commensurable in square only, be laid out having the (rectangle contained) by them rational, (and) such that the square on AB is greater than (the square on) BC by the (square) on (some straight-line) incommensurable (in length) with (AB) [Prop. 10.31].
-And let the semi-circle ADB have been drawn on AB.
-And let BC have been cut in half at E.
-And let a (rectangular) parallelogram equal to the (square) on BE, (and) falling short by a square figure, have been applied to AB, (and let it be) the (rectangle contained by) AFB [Prop. 6.28].
-Thus, AF [is] incommensurable in length with FB [Prop. 10.18].
-And let FD have been drawn from F at right-angles to AB.
-And let AD and DB have been joined.
+Let the two medial (straight-lines) {AB} and {BC}, (which are) commensurable in square only, be laid out having the (rectangle contained) by them rational, (and) such that the square on {AB} is greater than (the square on) {BC} by the (square) on (some straight-line) incommensurable (in length) with ({AB}) [Prop. 10.31].
+And let the semi-circle {ADB} have been drawn on {AB}.
+And let {BC} have been cut in half at {E}.
+And let a (rectangular) parallelogram equal to the (square) on {BE}, (and) falling short by a square figure, have been applied to {AB}, (and let it be) the (rectangle contained by) {AFB} [Prop. 6.28].
+Thus, {AF} [is] incommensurable in length with {FB} [Prop. 10.18].
+And let {FD} have been drawn from {F} at right-angles to {AB}.
+And let {AD} and {DB} have been joined.
 
-Since AF is incommensurable (in length) with FB, the (rectangle contained) by BA and AF is thus also incommensurable with the (rectangle contained) by AB and BF [Prop. 10.11].
-And the (rectangle contained) by BA and AF (is) equal to the (square) on AD, and the (rectangle contained) by AB and BF to the (square) on DB [Prop. 10.32 lem.].
-Thus, the (square) on AD is also incommensurable with the (square) on DB.
-And since the (square) on AB is medial, the sum of the (squares) on AD and DB (is) thus also medial [Props. 3.31, 1.47].
-And since BC is double DF [see previous proposition], the (rectangle contained) by AB and BC (is) thus also double the (rectangle contained) by AB and FD.
-And the (rectangle contained) by AB and BC (is) rational.
-Thus, the (rectangle contained) by AB and FD (is) also rational [Prop. 10.6, Def. 10.4].
-And the (rectangle contained) by AB and FD (is) equal to the (rectangle contained) by AD and DB [Prop. 10.32 lem.].
-And hence the (rectangle contained) by AD and DB is rational.
+Since {AF} is incommensurable (in length) with {FB}, the (rectangle contained) by {BA} and {AF} is thus also incommensurable with the (rectangle contained) by {AB} and {BF} [Prop. 10.11].
+And the (rectangle contained) by {BA} and {AF} (is) equal to the (square) on {AD}, and the (rectangle contained) by {AB} and {BF} to the (square) on {DB} [Prop. 10.32 lem.].
+Thus, the (square) on {AD} is also incommensurable with the (square) on {DB}.
+And since the (square) on {AB} is medial, the sum of the (squares) on {AD} and {DB} (is) thus also medial [Props. 3.31, 1.47].
+And since {BC} is double {DF} [see previous proposition], the (rectangle contained) by {AB} and {BC} (is) thus also double the (rectangle contained) by {AB} and {FD}.
+And the (rectangle contained) by {AB} and {BC} (is) rational.
+Thus, the (rectangle contained) by {AB} and {FD} (is) also rational [Prop. 10.6, Def. 10.4].
+And the (rectangle contained) by {AB} and {FD} (is) equal to the (rectangle contained) by {AD} and {DB} [Prop. 10.32 lem.].
+And hence the (rectangle contained) by {AD} and {DB} is rational.
 
-Thus, two straight-lines, AD and DB, (which are) incommensurable in square, have been found, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
+Thus, two straight-lines, {AD} and {DB}, (which are) incommensurable in square, have been found, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
 (Which is) the verything it was required to show.
