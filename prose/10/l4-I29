@@ -1,14 +1,14 @@
 To find two square numbers such that the sum of them is also square.
 
-Let the two numbers AB and BC be laid down.
+Let the two numbers {AB} and {BC} be laid down.
 And let them be either (both) even or (both) odd.
-And since, if an even (number) is subtracted from an even (number), or if an odd (number is subtracted) from an odd (number), then the remainder is even [Props. 9.24, 9.26], the remainder AC is thus even.
-Let AC have been cut in half at D.
-And let AB and BC also be either similar plane (numbers), or square (numbers)---which are themselves also similar plane (numbers).
-Thus, the (number created) from (multiplying) AB and BC, plus the square on CD, is equal to the square on BD [Prop. 2.6].
-And the (number created) from (multiplying) AB and BC is square---inasmuch as it was shown that if two similar plane (numbers) make some (number) by multiplying one another then the (number so) created is square [Prop. 9.1].
-Thus, two square numbers have been found---(namely,) the (number created) from (multiplying) AB and BC, and the (square) on CD---which, (when) added (together), make the square on BD.
+And since, if an even (number) is subtracted from an even (number), or if an odd (number is subtracted) from an odd (number), then the remainder is even [Props. 9.24, 9.26], the remainder {AC} is thus even.
+Let {AC} have been cut in half at {D}.
+And let {AB} and {BC} also be either similar plane (numbers), or square (numbers)---which are themselves also similar plane (numbers).
+Thus, the (number created) from (multiplying) {AB} and {BC}, plus the square on {CD}, is equal to the square on {BD} [Prop. 2.6].
+And the (number created) from (multiplying) {AB} and {BC} is square---inasmuch as it was shown that if two similar plane (numbers) make some (number) by multiplying one another then the (number so) created is square [Prop. 9.1].
+Thus, two square numbers have been found---(namely,) the (number created) from (multiplying) {AB} and {BC}, and the (square) on {CD}---which, (when) added (together), make the square on {BD}.
 
-And (it is) clear that two square (numbers) have again been found---(namely,) the (square) on BD, and the (square) on CD---such that their difference---(namely,) the (rectangle) contained by AB and BC---is square whenever AB and BC are similar plane (numbers).
-But, when they are not similar plane numbers, two square (numbers) have been found---(namely,) the (square) on BD, and the (square) on DC---between which the difference---(namely,) the (rectangle) contained by AB and BC---is not square.
+And (it is) clear that two square (numbers) have again been found---(namely,) the (square) on {BD}, and the (square) on {CD}---such that their difference---(namely,) the (rectangle) contained by {AB} and {BC}---is square whenever {AB} and {BC} are similar plane (numbers).
+But, when they are not similar plane numbers, two square (numbers) have been found---(namely,) the (square) on {BD}, and the (square) on {DC}---between which the difference---(namely,) the (rectangle) contained by {AB} and {BC}---is not square.
 (Which is) the very thing it was required to show.

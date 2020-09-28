@@ -693,6 +693,21 @@ function makeGround(rg, svg)
       let highlightName = highlights.map(h => h[0]).join('');
 
       let imgEl = proseEl.querySelector('svg');
+      for(var l in imgData.letters)
+      {
+        if(l.length> 1)
+        {
+          let d = imgData.letters[l]
+          delete imgData.letters[l];
+          l.split(/\s*/).forEach(l =>
+            {
+              let o = Object.assign({}, d);
+              imgData.letters[l] = o;
+              d.x += 30;
+            });
+        }
+      }
+
       for(var l in imgData.letters) {
         let d = imgData.letters[l];
         var el = document.createElementNS(SVG_NS, 'text');
@@ -702,6 +717,10 @@ function makeGround(rg, svg)
         if(highlightName.indexOf(l) > -1)
         {
           el.setAttribute('fill', '#e2e2e2');
+        }
+        else if(nearHighlightNames.indexOf(l) > -1)
+        {
+          el.setAttribute('fill', '#777777');
         }
         else
         {
