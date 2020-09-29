@@ -366,8 +366,8 @@ function() {
     prose: prop17,
     shapes: [
       rg.line(B, H),
-      rg.line(G, D, {strokeLineDash: [3, 3]}),
-      rg.line(G, H, {strokeLineDash: [3, 3]}),
+      rg.line(G, D, {strokeLineDash: [10, 10]}),
+      rg.line(G, H, {strokeLineDash: [10, 10]}),
     ],
     mags: [
       { l: 'A', m: 100, n: 2, p: A },

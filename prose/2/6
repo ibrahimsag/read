@@ -3,7 +3,7 @@ If a straight-line is cut in half, and any straight-line added to it straight-on
 For let any straight-line {AB line} have been cut in half at point {C point}, and let any straight-line {BD line} have been added to it straight-on.
 I say that the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the square on {CD line}.
 
-For let the square {CEFD line} have been described on {CD line} [Prop. 1.46],
+For let the square {CEFD polygon} have been described on {CD line} [Prop. 1.46],
 and let {DE line} have been joined,
 and let {BG line} have been drawn through point {B point}, parallel to either of {EC line} or {DF line} [Prop. 1.31],
 and let {KM line} have been drawn through point {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],
