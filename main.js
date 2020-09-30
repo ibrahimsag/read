@@ -643,9 +643,10 @@ function makeGround(rg, svg)
 
         let el = document.createElement('span');
         el.className = 'sentence';
+        el.dataset.ref = p.refp[i_sentence+1] - 1
 
         el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
-        el.dataset.ref = i_ref - 1;
+
         paragraphEl.appendChild(el);
 
         if(isFocusSentence)
