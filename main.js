@@ -548,7 +548,7 @@ function makeGround(rg, svg)
     let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
-    let endOfSentence;
+    let i_sentence_focus;
 
     let i_ref = 0, i_sentence = 0;
     p.paragraphs.forEach(sentences =>
@@ -556,12 +556,17 @@ function makeGround(rg, svg)
       let paragraphEl = document.createElement('p');
       sentences.forEach(sentenceParts =>
       {
+
+        let el = document.createElement('span');
+        el.className = 'sentence';
+        el.dataset.ref = p.refp[i_sentence+1] - 1
+
         let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
         let isFocusSentence = check_range(o);
         let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
         if(isFocusSentence)
         {
-          endOfSentence = p.refp[i_sentence+1] - 1;
+          i_sentence_focus = i_sentence;
         }
 
         let sentenceWithoutRef = true;
@@ -578,10 +583,10 @@ function makeGround(rg, svg)
 
         function placePref(m, pref)
         {
-          let el = document.createElement('a');
-          el.setAttribute('pref', pref);
-          el.innerText = m;
-          return el.outerHTML;
+          let aEl = document.createElement('a');
+          aEl.setAttribute('pref', pref);
+          aEl.innerText = m;
+          return aEl.outerHTML;
         }
 
         let seenMarks = {};
@@ -641,13 +646,7 @@ function makeGround(rg, svg)
           }
         }
 
-        let el = document.createElement('span');
-        el.className = 'sentence';
-        el.dataset.ref = p.refp[i_sentence+1] - 1
-
         el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
-
-        paragraphEl.appendChild(el);
 
         if(isFocusSentence)
         {
@@ -671,13 +670,15 @@ function makeGround(rg, svg)
           i_ref++;
         }
         i_sentence++;
+
+        paragraphEl.appendChild(el);
       });
       proseEl.appendChild(paragraphEl);
     })
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
-    if (o === endOfSentence)
+    if (o === p.refp[i_sentence_focus+1] - 1)
     {
       h_o = 30;
       h_b = 35
@@ -689,7 +690,6 @@ function makeGround(rg, svg)
     }
     m_o.style['background-color'] = hsluv.hpluvToHex([0, 0, h_o]);
     m_b.style['background-color'] = hsluv.hpluvToHex([0, 0, h_b]);
-    p.endOfSentence = endOfSentence;
 
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
@@ -775,7 +775,7 @@ function makeGround(rg, svg)
       {
         proxy.hoverTimeoutHandle = setTimeout(() => {
             present(o, p, undefined, true);
-        }, 100);
+        }, 16);
       }
     }
 
@@ -792,7 +792,7 @@ function makeGround(rg, svg)
       {
         proxy.hoverTimeoutHandle = setTimeout(() => {
           present(o, p, ref, true);
-        }, 100);
+        }, 16);
       }
     }
 
