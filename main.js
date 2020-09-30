@@ -548,7 +548,7 @@ function makeGround(rg, svg)
     let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
-    let nextLabel;
+    let endOfSentence;
 
     let i_ref = 0, i_sentence = 0;
     p.paragraphs.forEach(sentences =>
@@ -562,9 +562,9 @@ function makeGround(rg, svg)
         if(isFocusSentence)
         {
           if (o+1 < p.refp[i_sentence+1])
-            nextLabel = "next link";
+            endOfSentence = false;
           else
-            nextLabel = "next sentence";
+            endOfSentence = true;
         }
 
         let sentenceWithoutRef = true;
@@ -676,7 +676,21 @@ function makeGround(rg, svg)
       });
       proseEl.appendChild(paragraphEl);
     })
-    document.querySelector('#move-on').innerText = nextLabel;
+    let m_o = document.querySelector('#move-on');
+    let m_b = document.querySelector('#move-back');
+    let h_o = 35, h_b = 30;
+    if(endOfSentence)
+    {
+      h_o = 30;
+      h_b = 35
+      m_o.innerText = "next sentence";
+    }
+    else
+    {
+      m_o.innerText = "next name";
+    }
+    m_o.style['background-color'] = hsluv.hpluvToHex([0, 0, h_o]);
+    m_b.style['background-color'] = hsluv.hpluvToHex([0, 0, h_b]);
 
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
