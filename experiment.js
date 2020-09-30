@@ -64,7 +64,7 @@ function anglecurve(a, o, b, opts)
 
 window.onload = () => {
   let shapes1 = [
-    circle([250, 60], 60, {stroke: colors.dim}),
+    circle([250, 60], 60, {stroke: colors.sentence}),
     polygon([[230, 30], [250, 80], [300, 80]], {stroke: colors.sentence}),
     line([140, 30], [200, 30], {stroke: colors.dim}),
     line([40, 50], [200, 50], {stroke: colors.dim}),
@@ -83,8 +83,11 @@ window.onload = () => {
   ];
   let shapes2 = [
     circle([250, 60], 60, {stroke: colors.dim}),
+    line([230, 18], [230, 22], {stroke: colors.bright}),
     line([230, 30], [250, 80], {stroke: colors.bright}),
+    line([240, 75], [240, 80], {stroke: colors.bright}),
     line([250, 80], [300, 80], {stroke: colors.bright}),
+    line([305, 78], [305, 82], {stroke: colors.bright}),
     line([230, 30], [300, 80], {stroke: colors.sentence}),
     anglecurve([230, 30], [250, 80], [300, 80], {stroke: colors.bright, strokeWidth: 6, roughness: 0.1}),
     line([150, 30], [200, 30], {stroke: colors.dim}),
