@@ -561,10 +561,7 @@ function makeGround(rg, svg)
         let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
         if(isFocusSentence)
         {
-          if (o+1 < p.refp[i_sentence+1])
-            endOfSentence = false;
-          else
-            endOfSentence = true;
+          endOfSentence = p.refp[i_sentence+1] - 1;
         }
 
         let sentenceWithoutRef = true;
@@ -646,9 +643,9 @@ function makeGround(rg, svg)
 
         let el = document.createElement('span');
         el.className = 'sentence';
-        el.dataset.ref = i_ref;
 
         el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
+        el.dataset.ref = i_ref - 1;
         paragraphEl.appendChild(el);
 
         if(isFocusSentence)
@@ -679,7 +676,7 @@ function makeGround(rg, svg)
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
-    if(endOfSentence)
+    if (o === endOfSentence)
     {
       h_o = 30;
       h_b = 35
@@ -691,6 +688,7 @@ function makeGround(rg, svg)
     }
     m_o.style['background-color'] = hsluv.hpluvToHex([0, 0, h_o]);
     m_b.style['background-color'] = hsluv.hpluvToHex([0, 0, h_b]);
+    p.endOfSentence = endOfSentence;
 
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
