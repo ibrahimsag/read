@@ -560,9 +560,16 @@ function makeGround(rg, svg)
     let highlights = [];
     let figureIndex = 0;
     let lastSeenFigureIndex = 0;
-    let i_sentence_focus;
 
-    let k_ref = 0, i_sentence = 0;
+    function findMaxLT(ps, i)
+    {
+      let k = 0;
+      while(ps[k+1] < i)
+        k++;
+      return k;
+    }
+
+    let k_ref = 0;
     p.paragraphs.forEach(sentences =>
     {
       let paragraphEl = document.createElement('p');
@@ -607,20 +614,36 @@ function makeGround(rg, svg)
         }
         let sp2 = sentenceParts.map(prepPart);
         sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
-        sentenceEl.dataset.ref = p.refp[i_sentence+1] - 1
+        let k_sentence = findMaxLT(p.refp, k_ref);
+        sentenceEl.dataset.ref = p.refp[k_sentence+1] - 1
 
         if(sentenceWithoutRef)
         {
           k_ref++;
         }
 
-        let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
+        let check_range = i => (p.refp[k_sentence] <= i) && (i < p.refp[k_sentence+1]);
         let isFocusSentence = check_range(o);
         let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
+
         if(isFocusSentence)
         {
-          i_sentence_focus = i_sentence;
+          sentenceEl.style['color'] = colors.sentence;
+          if(!no_scroll)
+          {
+            scrollToSentenceIfNecessary(sentenceEl);
+          }
         }
+        else if(isHoverSentence)
+        {
+          sentenceEl.style['color'] = colors.hover;
+        }
+        else
+        {
+          sentenceEl.style['color'] = colors.dim;
+        }
+
+        paragraphEl.append(sentenceEl, ' ');
 
         let seenMarks = {};
         function processPart(a)
@@ -668,32 +691,14 @@ function makeGround(rg, svg)
           }
         }
         sp2.forEach(processPart)
-
-        if(isFocusSentence)
-        {
-          sentenceEl.style['color'] = colors.sentence;
-          if(!no_scroll)
-          {
-            scrollToSentenceIfNecessary(sentenceEl);
-          }
-        }
-        else if(isHoverSentence)
-        {
-          sentenceEl.style['color'] = colors.hover;
-        }
-        else
-        {
-          sentenceEl.style['color'] = colors.dim;
-        }
-        i_sentence++;
-
-        paragraphEl.append(sentenceEl, ' ');
       });
       proseEl.appendChild(paragraphEl);
     })
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
+
+    let i_sentence_focus = findMaxLT(p.refp, o);
     if (o === p.refp[i_sentence_focus+1] - 1)
     {
       h_o = 30;
