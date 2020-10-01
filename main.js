@@ -424,6 +424,7 @@ function makeGround(rg, svg)
   function prepareProse(p)
   {
     let lastSeenFigureIndex = 0;
+    if(!p.id) p.id = Math.floor(Math.random() * 1024);
     p.refcount = 0;
     p.refp = [];
     p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
@@ -518,6 +519,10 @@ function makeGround(rg, svg)
     })
   }
 
+  let us = [];
+  let vs = [];
+  let last_p_id = -1;
+
   function present(o, p, hover_o, no_scroll)
   {
     if(!p.paragraphs)
@@ -552,75 +557,83 @@ function makeGround(rg, svg)
     titleEl.innerText = p.title;
 
     let proseEl = document.querySelector('#proseContent');
-    while(proseEl.firstChild)
-      proseEl.removeChild(proseEl.firstChild);
-
-    let imgData;
-    if(p.img && localStorage[p.img])
+    if(last_p_id != p.id)
     {
-      let placeholder = document.createElementNS(SVG_NS, 'svg');
-      proseEl.appendChild(placeholder);
-      imgData = JSON.parse(localStorage[p.img]);
-      placeholder.outerHTML = imgData.svgStr;
-    }
+      last_p_id = p.id;
+      us = [];
+      vs = [];
+      while(proseEl.firstChild)
+        proseEl.removeChild(proseEl.firstChild);
 
-    let us = [];
-    let vs = [];
+      p.paragraphs.forEach(sentences =>
+        {
+          let paragraphEl = document.createElement('p');
+          sentences.forEach(a =>
+            {
+              let {parts, k, seenRef} = a;
 
-    p.paragraphs.forEach(sentences =>
-    {
-      let paragraphEl = document.createElement('p');
-      sentences.forEach(a =>
+              let sentenceEl = document.createElement('span');
+              sentenceEl.className = 'sentence';
+
+              function prepPart(a)
+              {
+                let p_, r, { part, i, k, lastSeenFigureIndex } = a;
+                if(part.text)
+                {
+                  p_ = part.text;
+                  r = {part, el: p_};
+                }
+                else if(part.figureInd)
+                {
+                  r = {part}
+                }
+                else if(part.pref)
+                {
+                  p_ = document.createElement('a');
+                  p_.setAttribute('pref', part.pref);
+                  p_.innerText = part.prefName;
+                  r = {part, el: p_};
+                }
+                else if(part.name)
+                {
+                  p_ = document.createElement('span');
+                  p_.innerText = part.name;
+                  p_.className = 'ref';
+                  p_.dataset.ref = i;
+                  r = {part, i, k, lastSeenFigureIndex, el: p_};
+                  us.push(r);
+                }
+                return r;
+              }
+              let sp2 = parts.map(prepPart);
+
+              sentenceEl.dataset.ref = p.refp[k+1] - 1
+              sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
+              if(!seenRef)
+              {
+                us.push(null);
+              }
+
+              vs.push({sentenceEl, k});
+              paragraphEl.append(sentenceEl, ' ');
+            });
+          proseEl.appendChild(paragraphEl);
+        })
+
+      if(p.img && localStorage[p.img])
       {
-        let {parts, k, seenRef} = a;
+        let placeholder = document.createElementNS(SVG_NS, 'svg');
+        proseEl.appendChild(placeholder);
+        let imgData = JSON.parse(localStorage[p.img]);
+        placeholder.outerHTML = imgData.svgStr;
 
-        let sentenceEl = document.createElement('span');
-        sentenceEl.className = 'sentence';
+        let imgEl = proseEl.querySelector('svg');
 
-        function prepPart(a)
-        {
-          let p_, r, { part, i, k, lastSeenFigureIndex } = a;
-          if(part.text)
-          {
-            p_ = part.text;
-            r = {part, el: p_};
-          }
-          else if(part.figureInd)
-          {
-            r = {part}
-          }
-          else if(part.pref)
-          {
-            p_ = document.createElement('a');
-            p_.setAttribute('pref', part.pref);
-            p_.innerText = part.prefName;
-            r = {part, el: p_};
-          }
-          else if(part.name)
-          {
-            p_ = document.createElement('span');
-            p_.innerText = part.name;
-            p_.className = 'ref';
-            p_.dataset.ref = i;
-            r = {part, i, k, lastSeenFigureIndex, el: p_};
-            us.push(r);
-          }
-          return r;
-        }
-        let sp2 = parts.map(prepPart);
-
-        sentenceEl.dataset.ref = p.refp[k+1] - 1
-        sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
-        if(!seenRef)
-        {
-          us.push(null);
-        }
-
-        vs.push({sentenceEl, k});
-        paragraphEl.append(sentenceEl, ' ');
-      });
-      proseEl.appendChild(paragraphEl);
-    })
+        let b = imgEl.viewBox.baseVal;
+        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+        imgEl.appendChild(s);
+      }
+    }
 
     function findMaxLTE(ps, i)
     {
@@ -667,7 +680,6 @@ function makeGround(rg, svg)
       {
         sentenceEl.style['color'] = colors.dim;
       }
-
     }
     vs.forEach(processSentence);
 
@@ -760,12 +772,16 @@ function makeGround(rg, svg)
       }
     }
 
-    if(imgData)
+    if(p.img && localStorage[p.img])
     {
+      let imgData = JSON.parse(localStorage[p.img]);
       let nearHighlightNames = nearHighlights.map(h => h.name).join('');
       let highlightName = highlights.map(h => h.name).join('');
 
       let imgEl = proseEl.querySelector('svg');
+
+      imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
+
       for(var l in imgData.letters)
       {
         if(l.length> 1)
@@ -803,10 +819,6 @@ function makeGround(rg, svg)
         el.setAttribute('y', d.y);
         imgEl.appendChild(el);
       }
-
-      let b = imgEl.viewBox.baseVal;
-      let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-      imgEl.appendChild(s);
     }
 
     proxy.moveon = () => { present(o + 1, p); };
