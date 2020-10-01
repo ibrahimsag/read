@@ -439,7 +439,18 @@ function makeGround(rg, svg)
                 let m = part.match(markRE);
                 let overlayRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
                 let om = part.match(overlayRE);
+                let figureRE = /\{figure ([0-9])\}/g;
+                let fm = part.match(figureRE);
                 let r = part;
+                if(fm)
+                {
+                  let figureInd = parseInt(fm[1]);
+                  if(isNaN(figureInd))
+                  {
+                    console.error("figure index: ", figureInd);
+                  }
+                  r = { figureInd };
+                }
                 if(m)
                 {
                   seenRef = true;
@@ -559,18 +570,6 @@ function makeGround(rg, svg)
           i_sentence_focus = i_sentence;
         }
 
-        let sentenceWithoutRef = true;
-        function selectFigure(m, ind)
-        {
-          lastSeenFigureIndex = parseInt(ind);
-          if(isNaN(lastSeenFigureIndex))
-          {
-            console.error("figure index: ", ind);
-            lastSeenFigureIndex = 0;
-          }
-          return '';
-        }
-
         function placePref(m, pref)
         {
           let aEl = document.createElement('a');
@@ -579,15 +578,19 @@ function makeGround(rg, svg)
           return aEl.outerHTML;
         }
 
+        let sentenceWithoutRef = true;
         let seenMarks = {};
         function processPart(part)
         {
           if(typeof(part) === 'string')
           {
-            let figureRE = /\{figure ([0-9])\}/g;
-            let sp = part.replace(figureRE, selectFigure);
             let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
-            return sp.replace(propRE, placePref);
+            return part.replace(propRE, placePref);
+          }
+          else if(part.figureInd)
+          {
+            lastSeenFigureIndex = part.figureInd;
+            return '';
           }
           else if(part.name)
           {
