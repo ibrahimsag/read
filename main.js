@@ -622,24 +622,22 @@ function makeGround(rg, svg)
       proseEl.appendChild(paragraphEl);
     })
 
-    function findMaxLT(ps, i)
+    function findMaxLTE(ps, i)
     {
       let k = 0;
       while(ps[k+1] <= i)
-      {
         k++;
-      }
       return k;
     }
 
-    let i_sentence_focus = findMaxLT(p.refp, o);
-    let i_sentence_hover = hover_o ? findMaxLT(p.refp, hover_o): null;;
+    let k_focus = findMaxLTE(p.refp, o);
+    let k_hover = hover_o ? findMaxLTE(p.refp, hover_o): null;;
 
     function processSentence(a)
     {
       let {sentenceEl, k} = a;
-      let isFocusSentence = i_sentence_focus == k;
-      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover == k;
+      let isFocusSentence = k_focus == k;
+      let isHoverSentence = !isFocusSentence && k_hover && k_hover == k;
 
       if(isFocusSentence)
       {
@@ -674,8 +672,8 @@ function makeGround(rg, svg)
       }
       let {part, i, k, lastSeenFigureIndex, el} = a;
 
-      let isFocusSentence = k === i_sentence_focus;
-      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover === k;
+      let isFocusSentence = k === k_focus;
+      let isHoverSentence = !isFocusSentence && k_hover && k_hover === k;
 
       let color;
       if(i == o)
@@ -717,7 +715,7 @@ function makeGround(rg, svg)
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
 
-    if (o === p.refp[i_sentence_focus+1] - 1)
+    if (o === p.refp[k_focus+1] - 1)
     {
       h_o = 30;
       h_b = 35
