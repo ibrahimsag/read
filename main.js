@@ -555,21 +555,11 @@ function makeGround(rg, svg)
       placeholder.outerHTML = imgData.svgStr;
     }
 
-    let nearHighlights = [];
-    let hoverHighlights = [];
-    let highlights = [];
-    let figureIndex = 0;
     let lastSeenFigureIndex = 0;
+    let us = [];
+    let vs = [];
 
-    function findMaxLT(ps, i)
-    {
-      let k = 0;
-      while(ps[k+1] < i)
-        k++;
-      return k;
-    }
-
-    let k_ref = 0;
+    let k_ref = 0, k_sentence = 0;
     p.paragraphs.forEach(sentences =>
     {
       let paragraphEl = document.createElement('p');
@@ -591,6 +581,7 @@ function makeGround(rg, svg)
           else if(part.figureInd)
           {
             r = {part}
+            lastSeenFigureIndex = part.figureInd;
           }
           else if(part.pref)
           {
@@ -608,97 +599,120 @@ function makeGround(rg, svg)
             p_.dataset.ref = k;
             k_ref++;
             sentenceWithoutRef = false;
-            r = {part, k, el: p_};
+            r = {part, k, k_sentence, lastSeenFigureIndex, el: p_};
+            us.push(r);
           }
           return r;
         }
         let sp2 = sentenceParts.map(prepPart);
-        sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
-        let k_sentence = findMaxLT(p.refp, k_ref);
+
         sentenceEl.dataset.ref = p.refp[k_sentence+1] - 1
+        sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
 
         if(sentenceWithoutRef)
         {
           k_ref++;
         }
 
-        let check_range = i => (p.refp[k_sentence] <= i) && (i < p.refp[k_sentence+1]);
-        let isFocusSentence = check_range(o);
-        let isHoverSentence = !isFocusSentence && hover_o && check_range(hover_o);
-
-        if(isFocusSentence)
-        {
-          sentenceEl.style['color'] = colors.sentence;
-          if(!no_scroll)
-          {
-            scrollToSentenceIfNecessary(sentenceEl);
-          }
-        }
-        else if(isHoverSentence)
-        {
-          sentenceEl.style['color'] = colors.hover;
-        }
-        else
-        {
-          sentenceEl.style['color'] = colors.dim;
-        }
-
+        vs.push({sentenceEl});
+        k_sentence++;
         paragraphEl.append(sentenceEl, ' ');
-
-        let seenMarks = {};
-        function processPart(a)
-        {
-          let {part, k, el} = a;
-          if(part.figureInd)
-          {
-            lastSeenFigureIndex = part.figureInd;
-          }
-          else if(part.name)
-          {
-            let color;
-            if(k == o)
-              color = colors.bright;
-            else if(isHoverSentence && k == hover_o)
-              color = colors.hover_bright;
-            else if (isFocusSentence)
-              color = colors.sentence;
-            else if (isHoverSentence)
-              color = colors.hover;
-            else
-              color = colors.dim;
-            el.style['color'] = color;
-
-            if(k == o)
-            {
-              highlights.push(part);
-              figureIndex = lastSeenFigureIndex;
-            }
-            else if(isHoverSentence && k == hover_o)
-            {
-              hoverHighlights.push(part);
-              figureIndex = lastSeenFigureIndex;
-            }
-
-            if(isFocusSentence)
-            {
-              let hash = JSON.stringify(part);
-              if(!seenMarks[hash])
-              {
-                nearHighlights.push(part);
-                seenMarks[hash] = true;
-              }
-            }
-          }
-        }
-        sp2.forEach(processPart)
       });
       proseEl.appendChild(paragraphEl);
     })
+
+    function findMaxLT(ps, i)
+    {
+      let k = 0;
+      while(ps[k+1] <= i)
+      {
+        k++;
+      }
+      return k;
+    }
+
+    let i_sentence_focus = findMaxLT(p.refp, o);
+    let i_sentence_hover = hover_o ? findMaxLT(p.refp, hover_o): null;;
+
+    function processSentence(a, k_sentence)
+    {
+      let {sentenceEl} = a;
+      let isFocusSentence = i_sentence_focus == k_sentence;
+      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover == k_sentence;
+
+      if(isFocusSentence)
+      {
+        sentenceEl.style['color'] = colors.sentence;
+        if(!no_scroll)
+        {
+          scrollToSentenceIfNecessary(sentenceEl);
+        }
+      }
+      else if(isHoverSentence)
+      {
+        sentenceEl.style['color'] = colors.hover;
+      }
+      else
+      {
+        sentenceEl.style['color'] = colors.dim;
+      }
+
+    }
+    vs.forEach(processSentence);
+
+    let nearHighlights = [];
+    let hoverHighlights = [];
+    let highlights = [];
+    let figureIndex = 0;
+
+    let seenMarks = {};
+    function processPart(a)
+    {
+      let {part, k, k_sentence, lastSeenFigureIndex, el} = a;
+
+      let isFocusSentence = k_sentence === i_sentence_focus;
+      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover === k_sentence;
+
+      let color;
+      if(k == o)
+        color = colors.bright;
+      else if(isHoverSentence && k == hover_o)
+        color = colors.hover_bright;
+      else if (isFocusSentence)
+        color = colors.sentence;
+      else if (isHoverSentence)
+        color = colors.hover;
+      else
+        color = colors.dim;
+      el.style['color'] = color;
+
+      if(k == o)
+      {
+        highlights.push(part);
+        figureIndex = lastSeenFigureIndex;
+      }
+      else if(isHoverSentence && k == hover_o)
+      {
+        hoverHighlights.push(part);
+        figureIndex = lastSeenFigureIndex;
+      }
+
+      if(isFocusSentence)
+      {
+        let hash = JSON.stringify(part);
+        if(!seenMarks[hash])
+        {
+          nearHighlights.push(part);
+          seenMarks[hash] = true;
+        }
+      }
+    }
+    us.forEach(processPart)
+
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
 
-    let i_sentence_focus = findMaxLT(p.refp, o);
     if (o === p.refp[i_sentence_focus+1] - 1)
     {
       h_o = 30;
