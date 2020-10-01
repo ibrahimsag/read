@@ -423,12 +423,14 @@ function makeGround(rg, svg)
 
   function prepareProse(p)
   {
+    let lastSeenFigureIndex = 0;
     p.refcount = 0;
     p.refp = [];
     p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
       {
         return paragraphProse.split('\n').map(sentenceProse =>
           {
+            let k = p.refp.length;
             p.refp.push(p.refcount);
             let refRE = /(\{[^\}]*\}|\[[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(refRE);
@@ -448,7 +450,7 @@ function makeGround(rg, svg)
 
                 if(pm)
                 {
-                  r = { prefName: pm[0], pref: pm[1] };
+                  r = { part: { prefName: pm[0], pref: pm[1] } };
                 }
                 else if(fm)
                 {
@@ -457,33 +459,40 @@ function makeGround(rg, svg)
                   {
                     console.error("figure index: ", figureInd);
                   }
-                  r = { figureInd };
+                  r = { part: { figureInd } };
+
+                  lastSeenFigureIndex = figureInd;
                 }
                 else if(m)
                 {
                   seenRef = true;
-                  p.refcount++;
                   let name = m[1];
-                  r = { name };
+                  r = { part: { name } };
                 }
                 else if(om)
                 {
                   seenRef = true;
-                  p.refcount++;
-
-                  r = { name: om[1], typ: om[2] };
+                  r = { part: { name: om[1], typ: om[2] }};
                   if(om[3])
-                    r.arg = om[3].trim();
+                    r.part.arg = om[3].trim();
                 }
                 else {
-                  r = { text: part };
+                  r = { part: { text: part } };
+                }
+
+                if(m || om)
+                {
+                  r.i = p.refcount;
+                  r.k = k;
+                  r.lastSeenFigureIndex = lastSeenFigureIndex;
+                  p.refcount++;
                 }
 
                 return r;
               });
             if(!seenRef)
               p.refcount++;
-            return parts;
+            return {parts, k, seenRef};
           });
       });
     p.refp.push(p.refcount);
@@ -555,24 +564,22 @@ function makeGround(rg, svg)
       placeholder.outerHTML = imgData.svgStr;
     }
 
-    let lastSeenFigureIndex = 0;
     let us = [];
     let vs = [];
 
-    let k_ref = 0, k_sentence = 0;
     p.paragraphs.forEach(sentences =>
     {
       let paragraphEl = document.createElement('p');
-      sentences.forEach(sentenceParts =>
+      sentences.forEach(a =>
       {
+        let {parts, k, seenRef} = a;
 
         let sentenceEl = document.createElement('span');
         sentenceEl.className = 'sentence';
 
-        let sentenceWithoutRef = true;
-        function prepPart(part)
+        function prepPart(a)
         {
-          let p_, k, r;
+          let p_, r, { part, i, k, lastSeenFigureIndex } = a;
           if(part.text)
           {
             p_ = part.text;
@@ -581,7 +588,6 @@ function makeGround(rg, svg)
           else if(part.figureInd)
           {
             r = {part}
-            lastSeenFigureIndex = part.figureInd;
           }
           else if(part.pref)
           {
@@ -595,27 +601,22 @@ function makeGround(rg, svg)
             p_ = document.createElement('span');
             p_.innerText = part.name;
             p_.className = 'ref';
-            k = k_ref;
-            p_.dataset.ref = k;
-            k_ref++;
-            sentenceWithoutRef = false;
-            r = {part, k, k_sentence, lastSeenFigureIndex, el: p_};
+            p_.dataset.ref = i;
+            r = {part, i, k, lastSeenFigureIndex, el: p_};
             us.push(r);
           }
           return r;
         }
-        let sp2 = sentenceParts.map(prepPart);
+        let sp2 = parts.map(prepPart);
 
-        sentenceEl.dataset.ref = p.refp[k_sentence+1] - 1
+        sentenceEl.dataset.ref = p.refp[k+1] - 1
         sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
-
-        if(sentenceWithoutRef)
+        if(!seenRef)
         {
-          k_ref++;
+          us.push(null);
         }
 
-        vs.push({sentenceEl});
-        k_sentence++;
+        vs.push({sentenceEl, k});
         paragraphEl.append(sentenceEl, ' ');
       });
       proseEl.appendChild(paragraphEl);
@@ -634,11 +635,11 @@ function makeGround(rg, svg)
     let i_sentence_focus = findMaxLT(p.refp, o);
     let i_sentence_hover = hover_o ? findMaxLT(p.refp, hover_o): null;;
 
-    function processSentence(a, k_sentence)
+    function processSentence(a)
     {
-      let {sentenceEl} = a;
-      let isFocusSentence = i_sentence_focus == k_sentence;
-      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover == k_sentence;
+      let {sentenceEl, k} = a;
+      let isFocusSentence = i_sentence_focus == k;
+      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover == k;
 
       if(isFocusSentence)
       {
@@ -668,15 +669,18 @@ function makeGround(rg, svg)
     let seenMarks = {};
     function processPart(a)
     {
-      let {part, k, k_sentence, lastSeenFigureIndex, el} = a;
+      if(!a) {
+        return;
+      }
+      let {part, i, k, lastSeenFigureIndex, el} = a;
 
-      let isFocusSentence = k_sentence === i_sentence_focus;
-      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover === k_sentence;
+      let isFocusSentence = k === i_sentence_focus;
+      let isHoverSentence = !isFocusSentence && i_sentence_hover && i_sentence_hover === k;
 
       let color;
-      if(k == o)
+      if(i == o)
         color = colors.bright;
-      else if(isHoverSentence && k == hover_o)
+      else if(isHoverSentence && i == hover_o)
         color = colors.hover_bright;
       else if (isFocusSentence)
         color = colors.sentence;
@@ -686,12 +690,12 @@ function makeGround(rg, svg)
         color = colors.dim;
       el.style['color'] = color;
 
-      if(k == o)
+      if(i == o)
       {
         highlights.push(part);
         figureIndex = lastSeenFigureIndex;
       }
-      else if(isHoverSentence && k == hover_o)
+      else if(isHoverSentence && i == hover_o)
       {
         hoverHighlights.push(part);
         figureIndex = lastSeenFigureIndex;
