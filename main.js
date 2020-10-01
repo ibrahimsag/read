@@ -433,7 +433,7 @@ function makeGround(rg, svg)
             let refRE = /(\{[^\}]*\}|\[[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(refRE);
             let seenRef = false;
-            let parts = sentenceParts.map(part =>
+            let parts = sentenceParts.filter(x=>x).map(part =>
               {
 
                 let markRE = /\{([A-Z]+)\}/;
@@ -571,7 +571,48 @@ function makeGround(rg, svg)
 
         let sentenceEl = document.createElement('span');
         sentenceEl.className = 'sentence';
+
+        let sentenceWithoutRef = true;
+        function prepPart(part)
+        {
+          let p_, k, r;
+          if(part.text)
+          {
+            p_ = part.text;
+            r = {part, el: p_};
+          }
+          else if(part.figureInd)
+          {
+            r = {part}
+          }
+          else if(part.pref)
+          {
+            p_ = document.createElement('a');
+            p_.setAttribute('pref', part.pref);
+            p_.innerText = part.prefName;
+            r = {part, el: p_};
+          }
+          else if(part.name)
+          {
+            p_ = document.createElement('span');
+            p_.innerText = part.name;
+            p_.className = 'ref';
+            k = k_ref;
+            p_.dataset.ref = k;
+            k_ref++;
+            sentenceWithoutRef = false;
+            r = {part, k, el: p_};
+          }
+          return r;
+        }
+        let sp2 = sentenceParts.map(prepPart);
+        sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
         sentenceEl.dataset.ref = p.refp[i_sentence+1] - 1
+
+        if(sentenceWithoutRef)
+        {
+          k_ref++;
+        }
 
         let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
         let isFocusSentence = check_range(o);
@@ -581,30 +622,6 @@ function makeGround(rg, svg)
           i_sentence_focus = i_sentence;
         }
 
-        function makeElements(part)
-        {
-          let p_, k;
-          if(part.text)
-          {
-            p_ = part.text;
-          }
-          if(part.pref)
-          {
-            p_ = document.createElement('a');
-            p_.setAttribute('pref', part.pref);
-            p_.innerText = part.prefName;
-          }
-          else if(part.name)
-          {
-            p_ = document.createElement('span');
-            p_.innerText = part.name;
-            p_.className = 'ref';
-            k = k_ref;
-            k_ref++;
-          }
-          return {part, k, el: p_};
-        }
-        let sentenceWithoutRef = true;
         let seenMarks = {};
         function processPart(a)
         {
@@ -648,15 +665,9 @@ function makeGround(rg, svg)
                 seenMarks[hash] = true;
               }
             }
-
-            sentenceWithoutRef = false;
-            el.dataset.ref = k;
           }
-          return el;
         }
-
-        sentenceEl.append(...sentenceParts.map(makeElements).map(processPart).filter(x=>x));
-        sentenceEl.append(' ');
+        sp2.forEach(processPart)
 
         if(isFocusSentence)
         {
@@ -674,14 +685,9 @@ function makeGround(rg, svg)
         {
           sentenceEl.style['color'] = colors.dim;
         }
-
-        if(sentenceWithoutRef)
-        {
-          k_ref++;
-        }
         i_sentence++;
 
-        paragraphEl.appendChild(sentenceEl);
+        paragraphEl.append(sentenceEl, ' ');
       });
       proseEl.appendChild(paragraphEl);
     })
