@@ -837,49 +837,59 @@ function makeGround(rg, svg)
 
     proseEl.onmouseout = (e) =>
     {
-      if(proxy.hoverTimeoutHandle)
+      if(proxy.forClick)
+        return;
+
+      if(proxy.forCancel)
       {
-        clearTimeout(proxy.hoverTimeoutHandle);
-        proxy.hoverTimeoutHandle = null;
+        window.cancelAnimationFrame(proxy.forCancel);
+        proxy.forCancel = null;
       }
 
       if(hover_o)
       {
-        proxy.hoverTimeoutHandle = setTimeout(() => {
-            present(o, p, undefined, true);
-        }, 16);
+        proxy.forCancel = window.requestAnimationFrame(() => {
+          present(o, p, undefined, true);
+        });
       }
     }
 
     proseEl.onmousemove = (e) =>
     {
-      if(proxy.hoverTimeoutHandle)
+      if(proxy.forClick)
+        return;
+
+      if(proxy.forCancel)
       {
-        clearTimeout(proxy.hoverTimeoutHandle);
-        proxy.hoverTimeoutHandle = null;
+        window.cancelAnimationFrame(proxy.forCancel);
+        proxy.forCancel = null;
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
-        proxy.hoverTimeoutHandle = setTimeout(() => {
+        proxy.forCancel = window.requestAnimationFrame(() => {
           present(o, p, ref, true);
-        }, 16);
+        });
       }
     }
 
     proseEl.onclick = (e) =>
     {
-      if(proxy.hoverTimeoutHandle)
+      proxy.forClick = true;
+      if(proxy.forCancel)
       {
-        clearTimeout(proxy.hoverTimeoutHandle);
-        proxy.hoverTimeoutHandle = null;
+        window.cancelAnimationFrame(proxy.forCancel);
+        proxy.forCancel = null;
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
-        present(ref, p);
+        window.requestAnimationFrame( () => {
+          proxy.forClick = false;
+          present(ref, p);
+        });
       }
     }
   }
