@@ -521,13 +521,17 @@ function makeGround(rg, svg)
 
   let us = [];
   let vs = [];
+  let us_ = [];
+  let vs_ = [];
   let last_p_id = -1;
 
   function prepareDOM(proseEl, p)
   {
     last_p_id = p.id;
     us = [];
+    us_ = [];
     vs = [];
+    vs_ = [];
     while(proseEl.firstChild)
       proseEl.removeChild(proseEl.firstChild);
 
@@ -663,30 +667,26 @@ function makeGround(rg, svg)
     let k_focus = findMaxLTE(p.refp, o);
     let k_hover = hover_o ? findMaxLTE(p.refp, hover_o): null;;
 
-    function processSentence(a)
+    while(vs_.length > 0)
     {
-      let {sentenceEl, k} = a;
-      let isFocusSentence = k_focus == k;
-      let isHoverSentence = !isFocusSentence && k_hover && k_hover == k;
-
-      if(isFocusSentence)
-      {
-        sentenceEl.style['color'] = colors.sentence;
-        if(!no_scroll)
-        {
-          scrollToSentenceIfNecessary(sentenceEl);
-        }
-      }
-      else if(isHoverSentence)
-      {
-        sentenceEl.style['color'] = colors.hover;
-      }
-      else
-      {
-        sentenceEl.style['color'] = colors.dim;
-      }
+      let v = vs_.pop();
+      v.sentenceEl.style['color'] = colors.dim;
     }
-    vs.forEach(processSentence);
+
+    if (k_hover)
+    {
+      let hover = vs[k_hover];
+      hover.sentenceEl.style['color'] = colors.hover;
+      vs_.push(hover);
+    }
+
+    let focus = vs[k_focus];
+    focus.sentenceEl.style['color'] = colors.sentence;
+    vs_.push(focus);
+    if(!no_scroll)
+    {
+      scrollToSentenceIfNecessary(focus.sentenceEl);
+    }
 
     let nearHighlights = [];
     let hoverHighlights = [];
@@ -694,51 +694,57 @@ function makeGround(rg, svg)
     let figureIndex = 0;
 
     let seenMarks = {};
-    function processPart(a)
+    function clearName(a)
     {
       if(!a) {
         return;
       }
-      let {part, i, k, lastSeenFigureIndex, el} = a;
-
-      let isFocusSentence = k === k_focus;
-      let isHoverSentence = !isFocusSentence && k_hover && k_hover === k;
-
-      let color;
-      if(i == o)
-        color = colors.bright;
-      else if(isHoverSentence && i == hover_o)
-        color = colors.hover_bright;
-      else if (isFocusSentence)
-        color = colors.sentence;
-      else if (isHoverSentence)
-        color = colors.hover;
-      else
-        color = colors.dim;
-      el.style['color'] = color;
-
-      if(i == o)
-      {
-        highlights.push(part);
-        figureIndex = lastSeenFigureIndex;
-      }
-      else if(isHoverSentence && i == hover_o)
-      {
-        hoverHighlights.push(part);
-        figureIndex = lastSeenFigureIndex;
-      }
-
-      if(isFocusSentence)
-      {
-        let hash = JSON.stringify(part);
-        if(!seenMarks[hash])
-        {
-          nearHighlights.push(part);
-          seenMarks[hash] = true;
-        }
-      }
+      a.el.style['color'] = colors.dim;
     }
-    us.forEach(processPart)
+    while(us_.length > 0)
+    {
+      let a = us_.pop();
+      if(!a) continue;
+      a.el.style['color'] = colors.dim;
+    }
+
+    us.slice(p.refp[k_hover], p.refp[k_hover+1]).forEach(u =>
+    {
+      if(!u) return;
+      u.el.style['color'] = colors.hover;
+      us_.push(u);
+    });
+
+    us.slice(p.refp[k_focus], p.refp[k_focus+1]).forEach(u =>
+    {
+      if(!u) return;
+      u.el.style['color'] = colors.sentence;
+      let part = u.part, hash = JSON.stringify(part);
+      if(!seenMarks[hash])
+      {
+        nearHighlights.push(part);
+        seenMarks[hash] = true;
+      }
+      us_.push(u);
+    });
+
+    if(hover_o && hover_o != o && us[hover_o])
+    {
+      let hover = us[hover_o];
+      hoverHighlights.push(hover.part);
+      figureIndex = hover.lastSeenFigureIndex;
+      hover.el.style['color'] = colors.hover_bright;
+      us_.push(hover);
+    }
+
+    if(us[o])
+    {
+      let focus = us[o];
+      highlights.push(focus.part);
+      figureIndex = focus.lastSeenFigureIndex;
+      focus.el.style['color'] = colors.bright;
+      us_.push(focus);
+    }
 
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
