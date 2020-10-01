@@ -604,7 +604,7 @@ function makeGround(rg, svg)
           {
             if(isFocusSentence)
             {
-              let hash = part.toString();
+              let hash = JSON.stringify(part);
               if(!seenMarks[hash])
               {
                 nearHighlights.push(part);
@@ -644,9 +644,10 @@ function makeGround(rg, svg)
 
             sentenceWithoutRef = false;
           }
-          el.append(p_);
+          return p_;
         }
-        sentenceParts.map(processPart);
+
+        el.append(...sentenceParts.map(processPart).filter(x=>x));
         el.append(' ');
 
         if(isFocusSentence)
