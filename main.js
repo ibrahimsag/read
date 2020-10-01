@@ -624,10 +624,22 @@ function makeGround(rg, svg)
 
     function findMaxLTE(ps, i)
     {
-      let k = 0;
-      while(ps[k+1] <= i)
-        k++;
-      return k;
+      let lo = 0, hi = ps.length -1;
+      let found = false;
+      while(!found && lo + 1 < hi)
+      {
+        let k = Math.floor((lo+hi)/2);
+        if(ps[k] == i)
+        {
+          found = true;
+          lo = k;
+        }
+        else if(ps[k] < i)
+          lo = k;
+        else
+          hi = k;
+      }
+      return lo;
     }
 
     let k_focus = findMaxLTE(p.refp, o);
