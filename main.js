@@ -92,49 +92,50 @@ function makeRG (svgEl)
     return line(a, b);
   }
 
-  function makeHighlight(p, layer, name, typ, arg1) {
+  function makeHighlight(p, layer, h) {
     let shapes;
-    if(typ === 'point')
+    if(h.typ === 'point')
     {
-      shapes = [circle(p.points[name], 5, { strokeWidth: 2 })];
+      shapes = [circle(p.points[h.name], 5, { strokeWidth: 2 })];
     }
-    else if(typ == 'line')
+    else if(h.typ == 'line')
     {
-      shapes = [line(p.points[name[0]], p.points[name[name.length-1]])];
+      let f = 0, l = h.name.length-1;
+      shapes = [line(p.points[h.name[f]], p.points[h.name[l]])];
     }
-    else if(typ == 'arcc')
+    else if(h.typ == 'arcc')
     {
-      let c = arg1;
+      let c = h.arg;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
-        shapes = [arc(center, p.points[name[name.length-1]], p.points[name[0]])];
+        shapes = [arc(center, p.points[h.name[h.name.length-1]], p.points[h.name[0]])];
       }
       else
       {
         return undefined;
       }
     }
-    else if(typ == 'arc')
+    else if(h.typ == 'arc')
     {
-      let c = arg1;
+      let c = h.arg;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
-        shapes = [arc(center, p.points[name[0]], p.points[name[name.length-1]])];
+        shapes = [arc(center, p.points[h.name[0]], p.points[h.name[h.name.length-1]])];
       }
       else
       {
         return undefined;
       }
     }
-    else if(typ == 'circle')
+    else if(h.typ == 'circle')
     {
-      let c = arg1;
+      let c = h.arg;
       if(/[A-Z]/.test(c))
       {
         let center = p.points[c];
-        let a = p.points[name[0]];
+        let a = p.points[h.name[0]];
         shapes = [circle(center, 2 * vec2.dist(center, a))];
       }
       else
@@ -142,37 +143,37 @@ function makeRG (svgEl)
         return undefined;
       }
     }
-    else if(typ == 'polygon')
+    else if(h.typ == 'polygon')
     {
-      let ns = name;
-      if (name.length == 2)
+      let ns = h.name;
+      if (h.name.length == 2)
       {
-        ns = p.polygonl[name];
+        ns = p.polygonl[h.name];
         if(!ns)
         {
-          console.error('unknown polygon name', name);
+          console.error('unknown polygon name', h.name);
         }
       }
       let points = ns.split('').map(l => p.points[l]);
       shapes = [polygon(points)];
     }
-    else if(typ == 'angle')
+    else if(h.typ == 'angle')
     {
-      let [a, o, b] = name.split('').map(l => p.points[l]);
+      let [a, o, b] = h.name.split('').map(l => p.points[l]);
       shapes = angle(a, o, b);
     }
-    else if(typ == 'magnitude')
+    else if(h.typ == 'magnitude')
     {
       let i_begin, i_end;
-      if(name.length == 1)
+      if(h.name.length == 1)
       {
-        i_begin = p.indices[name[0]];
-        i_end = p.indices[name[0] + 'e'];
+        i_begin = p.indices[h.name[0]];
+        i_end = p.indices[h.name[0] + 'e'];
       }
-      else if(name.length > 1)
+      else if(h.name.length > 1)
       {
-        i_begin = p.indices[name[0]];
-        i_end = p.indices[name[name.length-1]];
+        i_begin = p.indices[h.name[0]];
+        i_end = p.indices[h.name[h.name.length-1]];
       }
       else
       {
@@ -185,9 +186,9 @@ function makeRG (svgEl)
       shapes = p.ticks.slice(i_begin, i_end+1).map(tick);
       shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
     }
-    else if(typ == 'given' && p.given && p.given[name])
+    else if(h.typ == 'given' && p.given && p.given[h.name])
     {
-      shapes = p.given[name].map(s =>
+      shapes = p.given[h.name].map(s =>
         {
           let r = Object.assign({}, s);
           r.options = {};
@@ -197,7 +198,7 @@ function makeRG (svgEl)
     }
     else
     {
-      console.error('Unknown highlight: ', typ, name);
+      console.error('Unknown highlight: ', h.typ, h.name);
       return undefined;
     }
 
@@ -205,7 +206,7 @@ function makeRG (svgEl)
     {
       shapes.forEach(s =>
         {
-          if(typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve'))
+          if(h.typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve'))
           {
             s.options["stroke"] = colors.dim;
           }
@@ -380,29 +381,17 @@ function makeGround(rg, svg)
 
     if(highlightFigure)
     {
-      nearHighlights.forEach(h =>
-        {
-          shapes.push(...rg.makeHighlight(figure, 'sentence', ...h).map(rg.draw));
-        });
-
-      if(highlights.length)
-      {
-        highlights.forEach(h =>
-          {
-            shapes.push(...rg.makeHighlight(figure, 'bright', ...h).map(rg.draw));
-          });
-      }
-      if(hoverHighlights.length)
-      {
-        hoverHighlights.forEach(h =>
-          {
-            shapes.push(...rg.makeHighlight(figure, 'hover_bright', ...h).map(rg.draw));
-          });
-      }
+      let f = l => h => shapes.push(...rg.makeHighlight(figure,l, h).map(rg.draw));
+      nearHighlights
+        .forEach( f('sentence') );
+      highlights
+        .forEach( f('bright') );
+      hoverHighlights
+        .forEach( f('hover_bright') );
     }
 
-    let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-    let highlightName = highlights.map(h => h[0]).join('');
+    let nearHighlightNames = nearHighlights.map(h => h.name).join('');
+    let highlightName = highlights.map(h => h.name).join('');
 
     for(var i in figure.letters)
     {
@@ -455,16 +444,17 @@ function makeGround(rg, svg)
                 {
                   seenRef = true;
                   p.refcount++;
-                  r = [m[1]];
+                  let name = m[1];
+                  r = { name };
                 }
                 else if(om)
                 {
                   seenRef = true;
                   p.refcount++;
+
+                  r = { name: om[1], typ: om[2] };
                   if(om[3])
-                    r = [om[1], om[2], om[3].trim()];
-                  else
-                    r = [om[1], om[2]];
+                    r.arg = om[3].trim();
                 }
 
                 return r;
@@ -599,7 +589,7 @@ function makeGround(rg, svg)
             let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
             return sp.replace(propRE, placePref);
           }
-          else if(part.length > 0)
+          else if(part.name)
           {
             if(isFocusSentence)
             {
@@ -613,7 +603,7 @@ function makeGround(rg, svg)
 
             let refEl = document.createElement('span');
             refEl.dataset.ref = i_ref;
-            refEl.innerText = part[0];
+            refEl.innerText = part.name;
             refEl.className = 'ref';
 
             let color;
@@ -694,9 +684,9 @@ function makeGround(rg, svg)
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
 
-    let hs = highlights.filter(h=>h.length>1);
-    let nhs = nearHighlights.filter(h=>h.length>1);
-    let hhs = hoverHighlights.filter(h=>h.length>1);
+    let hs = highlights.filter(h=>h.typ);
+    let nhs = nearHighlights.filter(h=>h.typ);
+    let hhs = hoverHighlights.filter(h=>h.typ);
     if(!p.figures)
     {
       let els = prepareShapes(p, hs, nhs, hhs, true, false);
@@ -713,8 +703,8 @@ function makeGround(rg, svg)
 
     if(imgData)
     {
-      let nearHighlightNames = nearHighlights.map(m => m[0]).join('');
-      let highlightName = highlights.map(h => h[0]).join('');
+      let nearHighlightNames = nearHighlights.map(h => h.name).join('');
+      let highlightName = highlights.map(h => h.name).join('');
 
       let imgEl = proseEl.querySelector('svg');
       for(var l in imgData.letters)
