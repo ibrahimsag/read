@@ -448,7 +448,7 @@ function makeGround(rg, svg)
 
                 if(pm)
                 {
-                  r = { name: pm[0], pref: pm[1] };
+                  r = { prefName: pm[0], pref: pm[1] };
                 }
                 else if(fm)
                 {
@@ -562,16 +562,16 @@ function makeGround(rg, svg)
     let lastSeenFigureIndex = 0;
     let i_sentence_focus;
 
-    let i_ref = 0, i_sentence = 0;
+    let k_ref = 0, i_sentence = 0;
     p.paragraphs.forEach(sentences =>
     {
       let paragraphEl = document.createElement('p');
       sentences.forEach(sentenceParts =>
       {
 
-        let el = document.createElement('span');
-        el.className = 'sentence';
-        el.dataset.ref = p.refp[i_sentence+1] - 1
+        let sentenceEl = document.createElement('span');
+        sentenceEl.className = 'sentence';
+        sentenceEl.dataset.ref = p.refp[i_sentence+1] - 1
 
         let check_range = i => (p.refp[i_sentence] <= i) && (i < p.refp[i_sentence+1]);
         let isFocusSentence = check_range(o);
@@ -581,11 +581,9 @@ function makeGround(rg, svg)
           i_sentence_focus = i_sentence;
         }
 
-        let sentenceWithoutRef = true;
-        let seenMarks = {};
-        function processPart(part)
+        function makeElements(part)
         {
-          let p_;
+          let p_, k;
           if(part.text)
           {
             p_ = part.text;
@@ -594,14 +592,53 @@ function makeGround(rg, svg)
           {
             p_ = document.createElement('a');
             p_.setAttribute('pref', part.pref);
-            p_.innerText = part.name;
+            p_.innerText = part.prefName;
           }
-          else if(part.figureInd)
+          else if(part.name)
+          {
+            p_ = document.createElement('span');
+            p_.innerText = part.name;
+            p_.className = 'ref';
+            k = k_ref;
+            k_ref++;
+          }
+          return {part, k, el: p_};
+        }
+        let sentenceWithoutRef = true;
+        let seenMarks = {};
+        function processPart(a)
+        {
+          let {part, k, el} = a;
+          if(part.figureInd)
           {
             lastSeenFigureIndex = part.figureInd;
           }
           else if(part.name)
           {
+            let color;
+            if(k == o)
+              color = colors.bright;
+            else if(isHoverSentence && k == hover_o)
+              color = colors.hover_bright;
+            else if (isFocusSentence)
+              color = colors.sentence;
+            else if (isHoverSentence)
+              color = colors.hover;
+            else
+              color = colors.dim;
+            el.style['color'] = color;
+
+            if(k == o)
+            {
+              highlights.push(part);
+              figureIndex = lastSeenFigureIndex;
+            }
+            else if(isHoverSentence && k == hover_o)
+            {
+              hoverHighlights.push(part);
+              figureIndex = lastSeenFigureIndex;
+            }
+
             if(isFocusSentence)
             {
               let hash = JSON.stringify(part);
@@ -612,68 +649,39 @@ function makeGround(rg, svg)
               }
             }
 
-            p_ = document.createElement('span');
-            p_.dataset.ref = i_ref;
-            p_.innerText = part.name;
-            p_.className = 'ref';
-
-            let color;
-            if(i_ref == o)
-              color = colors.bright;
-            else if(isHoverSentence && i_ref == hover_o)
-              color = colors.hover_bright;
-            else if (isFocusSentence)
-              color = colors.sentence;
-            else if (isHoverSentence)
-              color = colors.hover;
-            else
-              color = colors.dim;
-            p_.style['color'] = color;
-
-            if(i_ref == o)
-            {
-              highlights.push(part);
-              figureIndex = lastSeenFigureIndex;
-            }
-            else if(isHoverSentence && i_ref == hover_o)
-            {
-              hoverHighlights.push(part);
-              figureIndex = lastSeenFigureIndex;
-            }
-            i_ref++;
-
             sentenceWithoutRef = false;
+            el.dataset.ref = k;
           }
-          return p_;
+          return el;
         }
 
-        el.append(...sentenceParts.map(processPart).filter(x=>x));
-        el.append(' ');
+        sentenceEl.append(...sentenceParts.map(makeElements).map(processPart).filter(x=>x));
+        sentenceEl.append(' ');
 
         if(isFocusSentence)
         {
-          el.style['color'] = colors.sentence;
+          sentenceEl.style['color'] = colors.sentence;
           if(!no_scroll)
           {
-            scrollToSentenceIfNecessary(el);
+            scrollToSentenceIfNecessary(sentenceEl);
           }
         }
         else if(isHoverSentence)
         {
-          el.style['color'] = colors.hover;
+          sentenceEl.style['color'] = colors.hover;
         }
         else
         {
-          el.style['color'] = colors.dim;
+          sentenceEl.style['color'] = colors.dim;
         }
 
         if(sentenceWithoutRef)
         {
-          i_ref++;
+          k_ref++;
         }
         i_sentence++;
 
-        paragraphEl.appendChild(el);
+        paragraphEl.appendChild(sentenceEl);
       });
       proseEl.appendChild(paragraphEl);
     })
