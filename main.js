@@ -523,6 +523,84 @@ function makeGround(rg, svg)
   let vs = [];
   let last_p_id = -1;
 
+  function prepareDOM(proseEl, p)
+  {
+    last_p_id = p.id;
+    us = [];
+    vs = [];
+    while(proseEl.firstChild)
+      proseEl.removeChild(proseEl.firstChild);
+
+    p.paragraphs.forEach(sentences =>
+    {
+      let paragraphEl = document.createElement('p');
+      sentences.forEach(a =>
+      {
+        let {parts, k, seenRef} = a;
+
+        let sentenceEl = document.createElement('span');
+        sentenceEl.className = 'sentence';
+
+        function prepPart(a)
+        {
+          let p_, r, { part, i, k, lastSeenFigureIndex } = a;
+          if(part.text)
+          {
+            p_ = part.text;
+            r = {part, el: p_};
+          }
+          else if(part.figureInd)
+          {
+            r = {part}
+          }
+          else if(part.pref)
+          {
+            p_ = document.createElement('a');
+            p_.setAttribute('pref', part.pref);
+            p_.innerText = part.prefName;
+            r = {part, el: p_};
+          }
+          else if(part.name)
+          {
+            p_ = document.createElement('span');
+            p_.innerText = part.name;
+            p_.className = 'ref';
+            p_.dataset.ref = i;
+            r = {part, i, k, lastSeenFigureIndex, el: p_};
+            us.push(r);
+          }
+          return p_;
+        }
+        let sp2 = parts.map(prepPart).filter(x=>x);
+
+        sentenceEl.dataset.ref = p.refp[k+1] - 1
+        sentenceEl.append(...sp2);
+        if(!seenRef)
+        {
+          us.push(null);
+        }
+
+        vs.push({sentenceEl, k});
+        paragraphEl.append(sentenceEl, ' ');
+      });
+      proseEl.appendChild(paragraphEl);
+    })
+
+    if(p.img && localStorage[p.img])
+    {
+      let placeholder = document.createElementNS(SVG_NS, 'svg');
+      proseEl.appendChild(placeholder);
+      let imgData = JSON.parse(localStorage[p.img]);
+      placeholder.outerHTML = imgData.svgStr;
+
+      let imgEl = proseEl.querySelector('svg');
+
+      let b = imgEl.viewBox.baseVal;
+      let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+      imgEl.appendChild(s);
+    }
+  }
+
   function present(o, p, hover_o, no_scroll)
   {
     if(!p.paragraphs)
@@ -559,80 +637,7 @@ function makeGround(rg, svg)
     let proseEl = document.querySelector('#proseContent');
     if(last_p_id != p.id)
     {
-      last_p_id = p.id;
-      us = [];
-      vs = [];
-      while(proseEl.firstChild)
-        proseEl.removeChild(proseEl.firstChild);
-
-      p.paragraphs.forEach(sentences =>
-        {
-          let paragraphEl = document.createElement('p');
-          sentences.forEach(a =>
-            {
-              let {parts, k, seenRef} = a;
-
-              let sentenceEl = document.createElement('span');
-              sentenceEl.className = 'sentence';
-
-              function prepPart(a)
-              {
-                let p_, r, { part, i, k, lastSeenFigureIndex } = a;
-                if(part.text)
-                {
-                  p_ = part.text;
-                  r = {part, el: p_};
-                }
-                else if(part.figureInd)
-                {
-                  r = {part}
-                }
-                else if(part.pref)
-                {
-                  p_ = document.createElement('a');
-                  p_.setAttribute('pref', part.pref);
-                  p_.innerText = part.prefName;
-                  r = {part, el: p_};
-                }
-                else if(part.name)
-                {
-                  p_ = document.createElement('span');
-                  p_.innerText = part.name;
-                  p_.className = 'ref';
-                  p_.dataset.ref = i;
-                  r = {part, i, k, lastSeenFigureIndex, el: p_};
-                  us.push(r);
-                }
-                return r;
-              }
-              let sp2 = parts.map(prepPart);
-
-              sentenceEl.dataset.ref = p.refp[k+1] - 1
-              sentenceEl.append(...sp2.map(x=>x.el).filter(x=>x));
-              if(!seenRef)
-              {
-                us.push(null);
-              }
-
-              vs.push({sentenceEl, k});
-              paragraphEl.append(sentenceEl, ' ');
-            });
-          proseEl.appendChild(paragraphEl);
-        })
-
-      if(p.img && localStorage[p.img])
-      {
-        let placeholder = document.createElementNS(SVG_NS, 'svg');
-        proseEl.appendChild(placeholder);
-        let imgData = JSON.parse(localStorage[p.img]);
-        placeholder.outerHTML = imgData.svgStr;
-
-        let imgEl = proseEl.querySelector('svg');
-
-        let b = imgEl.viewBox.baseVal;
-        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-        imgEl.appendChild(s);
-      }
+      prepareDOM(proseEl, p);
     }
 
     function findMaxLTE(ps, i)
