@@ -585,21 +585,20 @@ function makeGround(rg, svg)
         let seenMarks = {};
         function processPart(part)
         {
+          let p_;
           if(part.text)
           {
-            return part.text;
+            p_ = part.text;
           }
           if(part.pref)
           {
-            let aEl = document.createElement('a');
-            aEl.setAttribute('pref', part.pref);
-            aEl.innerText = part.name;
-            return aEl.outerHTML;
+            p_ = document.createElement('a');
+            p_.setAttribute('pref', part.pref);
+            p_.innerText = part.name;
           }
           else if(part.figureInd)
           {
             lastSeenFigureIndex = part.figureInd;
-            return '';
           }
           else if(part.name)
           {
@@ -613,10 +612,10 @@ function makeGround(rg, svg)
               }
             }
 
-            let refEl = document.createElement('span');
-            refEl.dataset.ref = i_ref;
-            refEl.innerText = part.name;
-            refEl.className = 'ref';
+            p_ = document.createElement('span');
+            p_.dataset.ref = i_ref;
+            p_.innerText = part.name;
+            p_.className = 'ref';
 
             let color;
             if(i_ref == o)
@@ -629,7 +628,7 @@ function makeGround(rg, svg)
               color = colors.hover;
             else
               color = colors.dim;
-            refEl.style['color'] = color;
+            p_.style['color'] = color;
 
             if(i_ref == o)
             {
@@ -644,11 +643,11 @@ function makeGround(rg, svg)
             i_ref++;
 
             sentenceWithoutRef = false;
-            return refEl.outerHTML;
           }
+          el.append(p_);
         }
-
-        el.innerHTML = sentenceParts.map(processPart).join('') + ' ';
+        sentenceParts.map(processPart);
+        el.append(' ');
 
         if(isFocusSentence)
         {
