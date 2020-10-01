@@ -430,19 +430,27 @@ function makeGround(rg, svg)
         return paragraphProse.split('\n').map(sentenceProse =>
           {
             p.refp.push(p.refcount);
-            let refRE = /(\{[^\}]*\})/g;
+            let refRE = /(\{[^\}]*\}|\[[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(refRE);
             let seenRef = false;
             let parts = sentenceParts.map(part =>
               {
+
                 let markRE = /\{([A-Z]+)\}/;
                 let m = part.match(markRE);
                 let overlayRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
                 let om = part.match(overlayRE);
-                let figureRE = /\{figure ([0-9])\}/g;
+                let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
-                let r = part;
-                if(fm)
+                let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/;
+                let pm = part.match(propRE);
+                let r;
+
+                if(pm)
+                {
+                  r = { name: pm[0], pref: pm[1] };
+                }
+                else if(fm)
                 {
                   let figureInd = parseInt(fm[1]);
                   if(isNaN(figureInd))
@@ -451,7 +459,7 @@ function makeGround(rg, svg)
                   }
                   r = { figureInd };
                 }
-                if(m)
+                else if(m)
                 {
                   seenRef = true;
                   p.refcount++;
@@ -466,6 +474,9 @@ function makeGround(rg, svg)
                   r = { name: om[1], typ: om[2] };
                   if(om[3])
                     r.arg = om[3].trim();
+                }
+                else {
+                  r = { text: part };
                 }
 
                 return r;
@@ -570,22 +581,20 @@ function makeGround(rg, svg)
           i_sentence_focus = i_sentence;
         }
 
-        function placePref(m, pref)
-        {
-          let aEl = document.createElement('a');
-          aEl.setAttribute('pref', pref);
-          aEl.innerText = m;
-          return aEl.outerHTML;
-        }
-
         let sentenceWithoutRef = true;
         let seenMarks = {};
         function processPart(part)
         {
-          if(typeof(part) === 'string')
+          if(part.text)
           {
-            let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/g;
-            return part.replace(propRE, placePref);
+            return part.text;
+          }
+          if(part.pref)
+          {
+            let aEl = document.createElement('a');
+            aEl.setAttribute('pref', part.pref);
+            aEl.innerText = part.name;
+            return aEl.outerHTML;
           }
           else if(part.figureInd)
           {
