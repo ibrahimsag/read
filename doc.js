@@ -276,7 +276,13 @@ function loadPage(pdfDoc, pn)
           let k = prompt("storage key:", "defaultkey");
           if(k)
           {
-            localStorage[`10_${k}`] = JSON.stringify({ svgStr, letters });
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "/store/", true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify({
+              key: `img/10/${k}`,
+              contents: { svgStr, letters }
+            }));
           }
         };
       }
