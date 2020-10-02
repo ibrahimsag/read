@@ -753,25 +753,17 @@ function makeGround(rg, svg)
     if(!p.figures)
     {
       let figure = p;
-      let highlightFigure = true;
-      let hoverHighlightFigure = true;
       let shapes = figure.shapes.map(rg.draw);
       let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
 
-      if(highlightFigure)
-      {
-        nearHighlights
-          .forEach( f('sentence') );
-        highlights
-          .forEach( f('bright') );
-      }
-      if(hoverHighlightFigure)
-      {
-        hoverHighlights.forEach( f('hover_bright') );
-      }
+      nearHighlights
+        .forEach( f('sentence') );
+      highlights
+        .forEach( f('bright') );
+      hoverHighlights.forEach( f('hover_bright') );
       shapes.forEach(el => svg.appendChild(el));
 
-      let els = prepareLetterOverlay(p, hs, nhs, highlightFigure, false);
+      let els = prepareLetterOverlay(p, hs, nhs, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
