@@ -375,24 +375,12 @@ function makeGround(rg, svg)
     figure.prepared = true;
   }
 
-  function prepareShapes(figure, highlights, nearHighlights, hoverHighlights, highlightFigure, smallLetters)
+  function prepareLetterOverlay(figure, highlights, nearHighlights, highlightFigure, smallLetters)
   {
-    let shapes = figure.shapes.map(rg.draw);
-
-    if(highlightFigure)
-    {
-      let f = l => h => shapes.push(...rg.makeHighlight(figure,l, h).map(rg.draw));
-      nearHighlights
-        .forEach( f('sentence') );
-      highlights
-        .forEach( f('bright') );
-      hoverHighlights
-        .forEach( f('hover_bright') );
-    }
-
     let nearHighlightNames = nearHighlights.map(h => h.name).join('');
     let highlightName = highlights.map(h => h.name).join('');
 
+    let shapes = [];
     for(var i in figure.letters)
     {
       let letter = figure.letters[i];
@@ -417,7 +405,6 @@ function makeGround(rg, svg)
       el.setAttribute('y', pos[1]);
       shapes.push(el);
     }
-
     return shapes;
   }
 
@@ -671,6 +658,7 @@ function makeGround(rg, svg)
     let hoverHighlights = [];
     let highlights = [];
     let figureIndex = 0;
+    let hoverFigureIndex = 0;
 
     while(vs_.length > 0)
     {
@@ -725,7 +713,7 @@ function makeGround(rg, svg)
     {
       let hover = us[hover_o];
       hoverHighlights.push(hover.part);
-      figureIndex = hover.lastSeenFigureIndex;
+      hoverFigureIndex = hover.lastSeenFigureIndex;
       hover.el.style['color'] = colors.hover_bright;
       us_.push(hover);
     }
@@ -764,15 +752,54 @@ function makeGround(rg, svg)
     let hhs = hoverHighlights.filter(h=>h.typ);
     if(!p.figures)
     {
-      let els = prepareShapes(p, hs, nhs, hhs, true, false);
+      let figure = p;
+      let highlightFigure = true;
+      let hoverHighlightFigure = true;
+      let shapes = figure.shapes.map(rg.draw);
+      let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
+
+      if(highlightFigure)
+      {
+        nearHighlights
+          .forEach( f('sentence') );
+        highlights
+          .forEach( f('bright') );
+      }
+      if(hoverHighlightFigure)
+      {
+        hoverHighlights.forEach( f('hover_bright') );
+      }
+      shapes.forEach(el => svg.appendChild(el));
+
+      let els = prepareLetterOverlay(p, hs, nhs, highlightFigure, false);
       els.map(el => svg.appendChild(el));
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
-        let els = prepareShapes(p.figures[i], hs, nhs, hhs, figureIndex == 0 || figureIndex == i+1, true);
-        els.map(el => svg.appendChild(el));
+        let figure = p.figures[i];
+        let highlightFigure = figureIndex == 0 || figureIndex == i+1;
+        let hoverHighlightFigure = hoverFigureIndex == 0 || hoverFigureIndex == i+1;
+
+        let shapes = figure.shapes.map(rg.draw);
+        let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
+        if(highlightFigure)
+        {
+          nearHighlights
+            .forEach( f('sentence') );
+          highlights
+            .forEach( f('bright') );
+        }
+        if(hoverHighlightFigure)
+        {
+          hoverHighlights
+            .forEach( f('hover_bright') );
+        }
+        shapes.forEach(el => svg.appendChild(el));
+
+        let els = prepareLetterOverlay(figure, hs, nhs, highlightFigure, true);
+        els.forEach(el => svg.appendChild(el));
       }
     }
 
