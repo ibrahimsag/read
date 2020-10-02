@@ -665,7 +665,12 @@ function makeGround(rg, svg)
     }
 
     let k_focus = findMaxLTE(p.refp, o);
-    let k_hover = hover_o ? findMaxLTE(p.refp, hover_o): null;;
+    let k_hover = !isNaN(hover_o) ? findMaxLTE(p.refp, hover_o): null;;
+
+    let nearHighlights = [];
+    let hoverHighlights = [];
+    let highlights = [];
+    let figureIndex = 0;
 
     while(vs_.length > 0)
     {
@@ -673,11 +678,25 @@ function makeGround(rg, svg)
       v.sentenceEl.style['color'] = colors.dim;
     }
 
-    if (k_hover)
+    while(us_.length > 0)
+    {
+      let a = us_.pop();
+      if(!a) continue;
+      a.el.style['color'] = colors.dim;
+    }
+
+    if (k_hover!=null)
     {
       let hover = vs[k_hover];
       hover.sentenceEl.style['color'] = colors.hover;
       vs_.push(hover);
+
+      us.slice(p.refp[k_hover], p.refp[k_hover+1]).forEach(u =>
+      {
+        if(!u) return;
+        u.el.style['color'] = colors.hover;
+        us_.push(u);
+      });
     }
 
     let focus = vs[k_focus];
@@ -688,33 +707,7 @@ function makeGround(rg, svg)
       scrollToSentenceIfNecessary(focus.sentenceEl);
     }
 
-    let nearHighlights = [];
-    let hoverHighlights = [];
-    let highlights = [];
-    let figureIndex = 0;
-
     let seenMarks = {};
-    function clearName(a)
-    {
-      if(!a) {
-        return;
-      }
-      a.el.style['color'] = colors.dim;
-    }
-    while(us_.length > 0)
-    {
-      let a = us_.pop();
-      if(!a) continue;
-      a.el.style['color'] = colors.dim;
-    }
-
-    us.slice(p.refp[k_hover], p.refp[k_hover+1]).forEach(u =>
-    {
-      if(!u) return;
-      u.el.style['color'] = colors.hover;
-      us_.push(u);
-    });
-
     us.slice(p.refp[k_focus], p.refp[k_focus+1]).forEach(u =>
     {
       if(!u) return;
@@ -728,7 +721,7 @@ function makeGround(rg, svg)
       us_.push(u);
     });
 
-    if(hover_o && hover_o != o && us[hover_o])
+    if(!isNaN(hover_o) && hover_o != o && us[hover_o])
     {
       let hover = us[hover_o];
       hoverHighlights.push(hover.part);
@@ -846,7 +839,7 @@ function makeGround(rg, svg)
         proxy.forCancel = null;
       }
 
-      if(hover_o)
+      if(!isNaN(hover_o))
       {
         proxy.forCancel = window.requestAnimationFrame(() => {
           present(o, p, undefined, true);
