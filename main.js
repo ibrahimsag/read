@@ -622,12 +622,12 @@ function makeGround(rg, svg)
       return present(0, p);
     }
 
-    let titleEl = document.querySelector('#proseTitle');
-    titleEl.innerText = p.title;
-
     let proseEl = document.querySelector('#proseContent');
     if(last_p_id != p.id)
     {
+      let titleEl = document.querySelector('#proseTitle');
+      titleEl.innerText = p.title;
+
       prepareDOM(proseEl, p);
     }
 
@@ -847,20 +847,21 @@ function makeGround(rg, svg)
     proxy.moveon = () => { present(o + 1, p); };
     proxy.moveback = () => { present(o - 1, p); };
 
+    let forClick = false, forCancel = null;
     proseEl.onmouseout = (e) =>
     {
-      if(proxy.forClick)
+      if(forClick)
         return;
 
-      if(proxy.forCancel)
+      if(forCancel)
       {
-        window.cancelAnimationFrame(proxy.forCancel);
-        proxy.forCancel = null;
+        window.cancelAnimationFrame(forCancel);
+        forCancel = null;
       }
 
       if(!isNaN(hover_o))
       {
-        proxy.forCancel = window.requestAnimationFrame(() => {
+        forCancel = window.requestAnimationFrame(() => {
           present(o, p, undefined, true);
         });
       }
@@ -868,19 +869,19 @@ function makeGround(rg, svg)
 
     proseEl.onmousemove = (e) =>
     {
-      if(proxy.forClick)
+      if(forClick)
         return;
 
-      if(proxy.forCancel)
+      if(forCancel)
       {
-        window.cancelAnimationFrame(proxy.forCancel);
-        proxy.forCancel = null;
+        window.cancelAnimationFrame(forCancel);
+        forCancel = null;
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
-        proxy.forCancel = window.requestAnimationFrame(() => {
+        forCancel = window.requestAnimationFrame(() => {
           present(o, p, ref, true);
         });
       }
@@ -888,18 +889,18 @@ function makeGround(rg, svg)
 
     proseEl.onclick = (e) =>
     {
-      proxy.forClick = true;
-      if(proxy.forCancel)
+      forClick = true;
+      if(forCancel)
       {
-        window.cancelAnimationFrame(proxy.forCancel);
-        proxy.forCancel = null;
+        window.cancelAnimationFrame(forCancel);
+        forCancel = null;
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
       if(!isNaN(ref))
       {
         window.requestAnimationFrame( () => {
-          proxy.forClick = false;
+          forClick = false;
           present(ref, p);
         });
       }
