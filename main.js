@@ -953,14 +953,31 @@ function makeGround(rg, svg)
 
 let zimbirti = {};
 
-function presentPage(i_book, id) {
+function canPresentPage(i_book, id) {
   let ps = books[i_book];
+  if(!ps) return false;
+
   if(!zimbirti[i_book])
   {
     let n = {}
     ps.forEach((p, i) => n[p.id] = i);
     zimbirti[i_book] = n;
   }
+
+  let i_page = zimbirti[i_book][id];
+  if(typeof i_page === 'undefined')
+  {
+    return false;
+  }
+  else
+  {
+    return true;
+  }
+}
+
+function presentPage(i_book, id) {
+  let ps = books[i_book];
+
   let i_page = zimbirti[i_book][id];
 
   document.querySelector('#coverPage').style['display'] = 'none';
@@ -1060,26 +1077,21 @@ function presentCover() {
 }
 
 function openPage(i_book, id) {
-  history.pushState({page:'page', i_book, id}, '', id);
-  presentPage(i_book, id);
+  if(canPresentPage(i_book, id))
+  {
+    history.pushState(null, '', id);
+    presentPage(i_book, id);
+  }
+  else
+  {
+    presentCover();
+  }
 }
 
 function openCover()
 {
-  history.pushState({page:'cover'}, '', '/euclid/');
+  history.pushState(null, '', '/euclid/');
   presentCover();
-}
-
-window.onpopstate = (e) => {
-  if(!e.state || !e.state.page || e.state.page === 'cover')
-  {
-    presentCover();
-  }
-  else if(e.state.page === 'page')
-  {
-    let is = e.state;
-    presentPage(is.i_book, is.id);
-  }
 }
 
 document.onclick = (e) => {
@@ -1122,20 +1134,27 @@ window.onload = () => {
   styleEl.innerText = styleText;
   document.querySelector('head').appendChild(styleEl);
 
+  presentForLocation();
+}
+
+window.onpopstate = (e) => {
+  presentForLocation();
+}
+
+let presentForLocation = () => {
   let m, re = /euclid\/([^\/]+)/;
   if(m = location.pathname.match(re))
   {
     let id = m[1];
     let [i_book, _] = id.split('.');
-    if(!isNaN(Number(i_book)))
+    if(!isNaN(Number(i_book)) && canPresentPage(i_book, id))
     {
       presentPage(i_book, id);
     }
-  }
-  else if(history.state && history.state.page === 'page')
-  {
-    let is = history.state;
-    presentPage(is.i_book, is.id);
+    else
+    {
+      presentCover();
+    }
   }
   else
   {
