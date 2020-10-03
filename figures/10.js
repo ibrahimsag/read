@@ -704,7 +704,7 @@ function() {
 function() {
   return {
     title: 'Proposition 27',
-    img: '10_27',
+    img: '/img/10/27',
     prose: prop27,
   };
 },
@@ -712,7 +712,7 @@ function() {
 function() {
   return {
     title: 'Proposition 28',
-    img: '10_28',
+    img: '/img/10/28',
     prose: prop28,
   };
 },
@@ -720,7 +720,7 @@ function() {
 function() {
   return {
     title: 'Lemma I',
-    img: '10_l4',
+    img: '/img/10/l4',
     prose: propl4,
   };
 },
@@ -728,7 +728,7 @@ function() {
 function() {
   return {
     title: 'Lemma II',
-    img: '10_l5',
+    img: '/img/10/l5',
     prose: propl5,
   };
 },
@@ -736,7 +736,7 @@ function() {
 function() {
   return {
     title: 'Proposition 29',
-    img: '10_29',
+    img: '/img/10/29',
     prose: prop29,
   };
 },
@@ -744,7 +744,7 @@ function() {
 function() {
   return {
     title: 'Proposition 30',
-    img: '10_30',
+    img: '/img/10/30',
     prose: prop30,
   };
 },
@@ -752,7 +752,7 @@ function() {
 function() {
   return {
     title: 'Proposition 31',
-    img: '10_31',
+    img: '/img/10/31',
     prose: prop31,
   };
 },
@@ -760,7 +760,7 @@ function() {
 function() {
   return {
     title: 'Proposition 32',
-    img: '10_32',
+    img: '/img/10/32',
     prose: prop32,
   };
 },
@@ -768,7 +768,7 @@ function() {
 function() {
   return {
     title: 'Lemma',
-    img: '10_l6',
+    img: '/img/10/l6',
     prose: propl6,
   };
 },
@@ -776,7 +776,7 @@ function() {
 function() {
   return {
     title: 'Proposition 33',
-    img: '10_33',
+    img: '/img/10/33',
     prose: prop33,
   };
 },
@@ -784,7 +784,7 @@ function() {
 function() {
   return {
     title: 'Proposition 34',
-    img: '10_34',
+    img: '/img/10/34',
     prose: prop34,
   };
 },
@@ -792,7 +792,7 @@ function() {
 function() {
   return {
     title: 'Proposition 35',
-    img: '10_35',
+    img: '/img/10/35',
     prose: prop35,
   };
 },
@@ -800,7 +800,7 @@ function() {
 function() {
   return {
     title: 'Proposition 36',
-    img: '10_36',
+    img: '/img/10/36',
     prose: prop36,
   };
 },
@@ -808,7 +808,7 @@ function() {
 function() {
   return {
     title: 'Proposition 37',
-    img: '10_37',
+    img: '/img/10/37',
     prose: prop37,
   };
 },
@@ -816,7 +816,7 @@ function() {
 function() {
   return {
     title: 'Proposition 38',
-    img: '10_38',
+    img: '/img/10/38',
     prose: prop38,
   };
 },
@@ -824,7 +824,7 @@ function() {
 function() {
   return {
     title: 'Proposition 39',
-    img: '10_39',
+    img: '/img/10/39',
     prose: prop39,
   };
 },
@@ -832,7 +832,7 @@ function() {
 function() {
   return {
     title: 'Proposition 40',
-    img: '10_40',
+    img: '/img/10/40',
     prose: prop40,
   };
 },
@@ -840,7 +840,7 @@ function() {
 function() {
   return {
     title: 'Proposition 41',
-    img: '10_41',
+    img: '/img/10/41',
     prose: prop41,
   };
 },
@@ -848,7 +848,7 @@ function() {
 function() {
   return {
     title: 'Lemma',
-    img: '10_l7',
+    img: '/img/10/l7',
     prose: propl7,
   };
 },
@@ -856,7 +856,7 @@ function() {
 function() {
   return {
     title: 'Proposition 42',
-    img: '10_42',
+    img: '/img/10/42',
     prose: prop42,
   };
 },
@@ -864,7 +864,7 @@ function() {
 function() {
   return {
     title: 'Proposition 43',
-    img: '10_43',
+    img: '/img/10/43',
     prose: prop43,
   };
 },
@@ -872,7 +872,7 @@ function() {
 function() {
   return {
     title: 'Proposition 44',
-    img: '10_44',
+    img: '/img/10/44',
     prose: prop44,
   };
 },
@@ -880,7 +880,7 @@ function() {
 function() {
   return {
     title: 'Proposition 45',
-    img: '10_45',
+    img: '/img/10/45',
     prose: prop45,
   };
 },
@@ -888,7 +888,7 @@ function() {
 function() {
   return {
     title: 'Proposition 46',
-    img: '10_46',
+    img: '/img/10/46',
     prose: prop46,
   };
 },
@@ -896,7 +896,7 @@ function() {
 function() {
   return {
     title: 'Proposition 47',
-    img: '10_47',
+    img: '/img/10/47',
     prose: prop47,
   };
 },

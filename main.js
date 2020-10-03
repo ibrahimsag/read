@@ -644,17 +644,20 @@ function makeGround(rg, svg)
       {
         fetch(p.img).then(resp => resp.json()).then(d =>
         {
+          if(last_p_id != p.id)
+            return;
+
           for(var l in d.letters)
           {
             if(l.length> 1)
             {
-              let d = d.letters[l]
+              let t = d.letters[l]
               delete d.letters[l];
               l.split(/\s*/).forEach(l =>
                 {
-                  let o = Object.assign({}, d);
+                  let o = Object.assign({}, t);
                   d.letters[l] = o;
-                  d.x += 30;
+                  t.x += 30;
                 });
             }
           }
