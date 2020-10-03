@@ -527,7 +527,7 @@ function makeGround(rg, svg)
       let p = { t: pt, b: pt + ph}
       let c = tb(el);
       if(p.t > (c.t - 10) || p.b < (c.b + 10))
-        window.scrollTo(0, Math.max(c.t - ph * 0.38, 45));
+        window.scrollTo(0, Math.max(c.t - ph * 0.38, 96));
     })
   }
 
@@ -1169,14 +1169,14 @@ function alignFigure(scroll_pos) {
   let t, d;
   if(window.scrollY > 0)
   {
-    d = Math.min(45, window.scrollY)/45;
-    t = 45 - (Math.sin(d*Math.PI/2)*45);
+    d = Math.min(96, window.scrollY);
+    t = 96 - d;
   }
   else
   {
-    t = 45 - window.scrollY;
+    t = 96 - window.scrollY;
   }
-  let h = Math.min(512, window.innerHeight - Math.min(45, t));
+  let h = Math.min(512, window.innerHeight - Math.min(96, t));
   let el = document.querySelector('#figure');
   el.style['top'] = t;
   el.style['width'] = h;
