@@ -1169,8 +1169,17 @@ let presentForLocation = () => {
 }
 
 function alignFigure(scroll_pos) {
-  let t = 45 - Math.min(45, window.scrollY);
-  let h = Math.min(512, window.innerHeight - t);
+  let t, d;
+  if(window.scrollY > 0)
+  {
+    d = Math.min(45, window.scrollY)/45;
+    t = 45 - (d*d*d*45);
+  }
+  else
+  {
+    t = 45 - window.scrollY;
+  }
+  let h = Math.min(512, window.innerHeight - Math.min(45, t));
   let el = document.querySelector('#figure');
   el.style['top'] = t;
   el.style['width'] = h;
