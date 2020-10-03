@@ -624,6 +624,12 @@ function makeGround(rg, svg)
 
   function present(o, p, hover_o, no_scroll)
   {
+    if(o == null)
+    {
+      o = p.i || 0;
+    }
+    p.i = o;
+
     if(!p.paragraphs)
     {
       prepareProse(p);
@@ -987,7 +993,7 @@ function presentPage(i_book, id) {
   el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
   let i_p = Math.min(ps.length-1, i_page);
-  ground.present(0, ps[i_p]);
+  ground.present(null, ps[i_p]);
 
   function keyHandler(e)
   {
