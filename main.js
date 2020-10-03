@@ -526,11 +526,8 @@ function makeGround(rg, svg)
       let pt = window.scrollY, ph = window.innerHeight - 50;
       let p = { t: pt, b: pt + ph}
       let c = tb(el);
-      let o = (p.b - p.t) * 0.68;
-      if(p.t > (c.t - 10))
-        window.scrollTo(0, c.t - p.t - o);
-      else if(p.b < (c.b + 10))
-        window.scrollTo(0, c.b - ph + o);
+      if(p.t > (c.t - 10) || p.b < (c.b + 10))
+        window.scrollTo(0, Math.max(c.t - ph * 0.38, 45));
     })
   }
 
