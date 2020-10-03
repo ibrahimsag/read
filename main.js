@@ -912,8 +912,17 @@ function makeGround(rg, svg)
   return {present, proxy};
 }
 
-function presentProp(i_book, i_prop) {
+let zimbirti = {};
+
+function presentPage(i_book, id) {
   let ps = books[i_book];
+  if(!zimbirti[i_book])
+  {
+    let n = {}
+    ps.forEach((p, i) => n[p.id] = i);
+    zimbirti[i_book] = n;
+  }
+  let i_page = zimbirti[i_book][id];
 
   document.querySelector('#coverPage').style['display'] = 'none';
   document.querySelector('#container').style['display'] = 'flex';
@@ -921,7 +930,7 @@ function presentProp(i_book, i_prop) {
   let el = document.querySelector('#bookTitle');
   el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
-  let i_p = Math.min(ps.length-1, i_prop);
+  let i_p = Math.min(ps.length-1, i_page);
   ground.present(0, ps[i_p]);
 
   function keyHandler(e)
@@ -937,12 +946,12 @@ function presentProp(i_book, i_prop) {
     else if(e.key == "z")
     {
       i_p = (i_p-1 + ps.length) % ps.length;
-      openProposition(i_book, i_p);
+      openPage(i_book, ps[i_p].id);
     }
     else if(e.key == "x")
     {
       i_p = (i_p+1) % ps.length;
-      openProposition(i_book, i_p);
+      openPage(i_book, ps[i_p].id);
     }
     else if(e.key == "h")
     {
@@ -978,30 +987,30 @@ function presentProp(i_book, i_prop) {
     ground.proxy.moveback();
   }
 
-  document.querySelector('#prev-prop').ontouchend = (e) =>
+  document.querySelector('#prev-page').ontouchend = (e) =>
   {
     e.preventDefault();
     i_p = (i_p-1+ps.length) % ps.length;
-    openProposition(i_book, i_p);
+    openPage(i_book, ps[i_p].id);
   }
 
-  document.querySelector('#next-prop').ontouchend = (e) =>
+  document.querySelector('#next-page').ontouchend = (e) =>
   {
     e.preventDefault();
     i_p = (i_p+1) % ps.length;
-    openProposition(i_book, i_p);
+    openPage(i_book, ps[i_p].id);
   }
 
-  document.querySelector('#prev-prop').onmousedown = (e) =>
+  document.querySelector('#prev-page').onmousedown = (e) =>
   {
     i_p = (i_p-1+ps.length) % ps.length;
-    openProposition(i_book, i_p);
+    openPage(i_book, ps[i_p].id);
   }
 
-  document.querySelector('#next-prop').onmousedown = (e) =>
+  document.querySelector('#next-page').onmousedown = (e) =>
   {
     i_p = (i_p+1) % ps.length;
-    openProposition(i_book, i_p);
+    openPage(i_book, ps[i_p].id);
   }
 }
 
@@ -1011,9 +1020,9 @@ function presentCover() {
   document.onkeydown = undefined;
 }
 
-function openProposition(i_book, i_prop) {
-  history.pushState({page:'prop', i_book, i_prop}, '');
-  presentProp(i_book, i_prop);
+function openPage(i_book, id) {
+  history.pushState({page:'page', i_book, id}, '');
+  presentPage(i_book, id);
 }
 
 function openCover()
@@ -1027,10 +1036,10 @@ window.onpopstate = (e) => {
   {
     presentCover();
   }
-  else if(e.state.page === 'prop')
+  else if(e.state.page === 'page')
   {
     let is = e.state;
-    presentProp(is.i_book, is.i_prop);
+    presentPage(is.i_book, is.id);
   }
 }
 
@@ -1049,14 +1058,14 @@ document.onclick = (e) => {
     }
     else
     {
-      let [i_book, i_prop] = pref.value.split('.').map(Number);
-      if(isNaN(i_book) || isNaN(i_prop))
+      let [i_book, id] = pref.value.split('.');
+      if(isNaN(i_book) || isNaN(id))
       {
         console.error("unknown pref: ", pref.value);
       }
       else
       {
-        openProposition(i_book, i_prop)
+        openPage(i_book, pref.value)
       }
     }
   }
@@ -1074,10 +1083,10 @@ window.onload = () => {
   styleEl.innerText = styleText;
   document.querySelector('head').appendChild(styleEl);
 
-  if(history.state && history.state.page === 'prop')
+  if(history.state && history.state.page === 'page')
   {
     let is = history.state;
-    presentProp(is.i_book, is.i_prop);
+    presentPage(is.i_book, is.id);
   }
   else
   {
