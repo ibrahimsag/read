@@ -426,7 +426,9 @@ function makeGround(rg, svg)
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
-                let propRE = /\[Props?. ([0-9]+.[0-9]+)([^\]]*)\]/;
+                let propsRE = /\[Props. [^\]]*\]/;
+                let psm = part.match(propsRE);
+                let propRE = /\[Prop. ([0-9]+.[0-9]+)([^\]]*)\]/;
                 let pm = part.match(propRE);
                 let r;
 
@@ -440,6 +442,31 @@ function makeGround(rg, svg)
                   else if(rest[0] == ' lem.')
                     pref += '-lem'
                   r = { part: { prefs: [{ prefName: pm[0], pref }]} };
+                }
+                else if(psm)
+                {
+                  let n = 0;
+                  let ls = psm[0].split(', ').map(s => {
+                    let re = /([0-9]+.[0-9]+)/;
+                    let m = s.match(re);
+                    let pref = m[1];
+                    if(s.match(/lem. II/))
+                      pref += '-lemII';
+                    else if(s.match(/lem. I/))
+                      pref += '-lemI';
+                    else if(s.match(/lem./))
+                      pref += '-lem'
+                    n++;
+                    if(m)
+                    {
+                      return {prefName: (n > 1 ? ', ' : '') + s, pref};
+                    }
+                    else
+                    {
+                      return {prefName: s + ' !!!!', pref: null};
+                    }
+                  });;
+                  r = { part: { prefs: ls } };
                 }
                 else if(fm)
                 {
@@ -467,12 +494,6 @@ function makeGround(rg, svg)
                 }
                 else {
                   r = { part: { text: part } };
-                }
-
-                if(pm)
-                {
-                  r.i = p.refcount - 1;
-                  r.k = k;
                 }
 
                 if(m || om)
@@ -541,15 +562,10 @@ function makeGround(rg, svg)
 
         function prepPart(a)
         {
-          let p_, r, { part, i, k, lastSeenFigureIndex } = a;
+          let r, { part, i, k, lastSeenFigureIndex } = a;
           if(part.text)
           {
-            p_ = part.text;
-            r = {part, el: p_};
-          }
-          else if(part.figureInd)
-          {
-            r = {part}
+            sentenceEl.append(part.text);
           }
           else if(part.prefs)
           {
@@ -561,31 +577,22 @@ function makeGround(rg, svg)
               return a;
             }
 
-            if(part.prefs.length > 1)
-            {
-              p_ = document.createElement('span')
-              p_.append(...part.prefs.map(f))
-            }
-            else {
-              p_ = f(part.prefs[0])
-            }
-            r = {part, el: p_};
+            sentenceEl.append(...part.prefs.map(f))
           }
           else if(part.name)
           {
-            p_ = document.createElement('span');
-            p_.innerText = part.name;
-            p_.className = 'ref';
-            p_.dataset.ref = i;
-            r = {part, i, k, lastSeenFigureIndex, el: p_};
+            let el = document.createElement('span');
+            el.innerText = part.name;
+            el.className = 'ref';
+            el.dataset.ref = i;
+            sentenceEl.append(el);
+            r = {part, i, k, lastSeenFigureIndex, el};
             us.push(r);
           }
-          return p_;
         }
-        let sp2 = parts.map(prepPart).filter(x=>x);
+        parts.forEach(prepPart);
 
         sentenceEl.dataset.ref = p.refp[k+1] - 1
-        sentenceEl.append(...sp2);
         if(!seenRef)
         {
           us.push(null);
@@ -909,6 +916,10 @@ function makeGround(rg, svg)
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
+      if(isNaN(ref) && e.srcElement.attributes.pref)
+      {
+        ref = parseInt(e.srcElement.parentElement.dataset.ref);
+      }
       if(!isNaN(ref))
       {
         forCancel = window.requestAnimationFrame(() => {
@@ -1086,7 +1097,7 @@ document.onclick = (e) => {
     }
     else
     {
-      let [i_book, id] = pref.value.split('.');
+      let [i_book, _] = pref.value.split('.');
       if(isNaN(i_book))
       {
         console.error("unknown pref: ", pref.value);
