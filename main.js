@@ -627,6 +627,18 @@ function makeGround(rg, svg)
       prepareDOM(proseEl, p);
 
       proseEl.querySelectorAll('svg').forEach(el => proseEl.removeChild(el));
+      let installSVG = () => {
+        let placeholder = document.createElementNS(SVG_NS, 'svg');
+        proseEl.appendChild(placeholder);
+        placeholder.outerHTML = p.imgData.svgStr;
+        let imgEl = proseEl.querySelector('svg');
+
+        let b = imgEl.viewBox.baseVal;
+        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+        imgEl.appendChild(s);
+
+        refreshImgLetters(imgEl, p.imgData.letters, {});
+      }
 
       if(p.img && !p.imgData)
       {
@@ -648,30 +660,12 @@ function makeGround(rg, svg)
           }
           p.imgData = d;
 
-          let placeholder = document.createElementNS(SVG_NS, 'svg');
-          proseEl.appendChild(placeholder);
-          placeholder.outerHTML = p.imgData.svgStr;
-          let imgEl = proseEl.querySelector('svg');
-
-          let b = imgEl.viewBox.baseVal;
-          let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-          imgEl.appendChild(s);
-
-          refreshImgLetters(imgEl, p.imgData.letters, {});
+          installSVG()
         })
       }
       else if(p.imgData)
       {
-        let placeholder = document.createElementNS(SVG_NS, 'svg');
-        proseEl.appendChild(placeholder);
-        placeholder.outerHTML = p.imgData.svgStr;
-        let imgEl = proseEl.querySelector('svg');
-
-        let b = imgEl.viewBox.baseVal;
-        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-        imgEl.appendChild(s);
-
-        refreshImgLetters(imgEl, p.imgData.letters, {});
+        installSVG();
       }
     }
 
