@@ -8,10 +8,12 @@ let colors = {
   sentence: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   link: hsluv.hpluvToHex([140, 100, 30]),
+  link_hover: hsluv.hpluvToHex([140, 100, 40]),
   hover: hsluv.hpluvToHex([330, 100, 50]),
   hover_bright: hsluv.hpluvToHex([330, 100, 80]),
   make: hsluv.hpluvToHex,
 };
+
 const SVG_NS = 'http://www.w3.org/2000/svg';
 function makeRG (svgEl)
 {
@@ -424,13 +426,20 @@ function makeGround(rg, svg)
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
-                let propRE = /\[Props?. ([0-9]+.[0-9]+)[^\]]*\]/;
+                let propRE = /\[Props?. ([0-9]+.[0-9]+)([^\]]*)\]/;
                 let pm = part.match(propRE);
                 let r;
 
                 if(pm)
                 {
-                  r = { part: { prefName: pm[0], pref: pm[1] } };
+                  let pref = pm[1], rest = pm[2].split(', ');
+                  if(rest[0] == ' lem. II')
+                    pref += '-lemII'
+                  else if(rest[0] == ' lem. I')
+                    pref += '-lemI'
+                  else if(rest[0] == ' lem.')
+                    pref += '-lem'
+                  r = { part: { prefs: [{ prefName: pm[0], pref }]} };
                 }
                 else if(fm)
                 {
@@ -536,11 +545,23 @@ function makeGround(rg, svg)
           {
             r = {part}
           }
-          else if(part.pref)
+          else if(part.prefs)
           {
-            p_ = document.createElement('a');
-            p_.setAttribute('pref', part.pref);
-            p_.innerText = part.prefName;
+            let f = l => {
+              let a = document.createElement('a');
+              a.setAttribute('pref', l.pref);
+              a.innerText = l.prefName;
+              return a;
+            }
+
+            if(part.prefs.length > 1)
+            {
+              p_ = document.createElement('span')
+              p_.append(...part.prefs.map(f))
+            }
+            else {
+              p_ = f(part.prefs[0])
+            }
             r = {part, el: p_};
           }
           else if(part.name)
@@ -881,6 +902,11 @@ function makeGround(rg, svg)
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
+      if(isNaN(ref) && e.srcElement.attributes.pref && e.srcElement.parentElement)
+      {
+        ref = parseInt(e.srcElement.parentElement.dataset.ref);
+      }
+
       if(!isNaN(ref))
       {
         forCancel = window.requestAnimationFrame(() => {
@@ -1059,7 +1085,7 @@ document.onclick = (e) => {
     else
     {
       let [i_book, id] = pref.value.split('.');
-      if(isNaN(i_book) || isNaN(id))
+      if(isNaN(i_book))
       {
         console.error("unknown pref: ", pref.value);
       }
