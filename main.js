@@ -517,17 +517,15 @@ function makeGround(rg, svg)
   function scrollToSentenceIfNecessary(el)
   {
     setTimeout(() => {
-      function tb (e)
-      {
-        let t = e.offsetTop, b = t + e.offsetHeight;
-        return { t, b };
-      }
 
       let pt = window.scrollY, ph = window.innerHeight - 50;
       let p = { t: pt, b: pt + ph}
-      let c = tb(el);
-      if(p.t > (c.t - 10) || p.b < (c.b + 10))
-        window.scrollTo(0, Math.max(c.t - ph * 0.38, 96));
+      let c = { t: el.offsetTop, b: el.offsetTop + el.offsetHeight };
+      if((p.t > (c.t - 10)) || (p.b < (c.b + 10)))
+      {
+        let t = Math.max(c.t - ph * 0.38, 96);
+        window.scrollTo(0, t);
+      }
     })
   }
 
@@ -1169,8 +1167,8 @@ function alignFigure(scroll_pos) {
   let t, d;
   if(window.scrollY > 0)
   {
-    d = Math.min(96, window.scrollY);
-    t = 96 - d;
+    d = Math.min(48, window.scrollY)/48;
+    t = (1 - Math.pow(d, 5))*96;
   }
   else
   {
