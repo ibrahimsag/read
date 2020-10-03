@@ -576,20 +576,6 @@ function makeGround(rg, svg)
       });
       proseEl.appendChild(paragraphEl);
     })
-
-    if(p.img && localStorage[p.img])
-    {
-      let placeholder = document.createElementNS(SVG_NS, 'svg');
-      proseEl.appendChild(placeholder);
-      let imgData = JSON.parse(localStorage[p.img]);
-      placeholder.outerHTML = imgData.svgStr;
-
-      let imgEl = proseEl.querySelector('svg');
-
-      let b = imgEl.viewBox.baseVal;
-      let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-      imgEl.appendChild(s);
-    }
   }
 
   function present(o, p, hover_o, no_scroll)
@@ -629,6 +615,36 @@ function makeGround(rg, svg)
       titleEl.innerText = p.title;
 
       prepareDOM(proseEl, p);
+
+      if(p.img)
+      {
+        let dPromise;
+        if(p.imgData)
+        {
+          dPromise = Promise.resolve(true);
+        }
+        else
+        {
+          dPromise = fetch(p.img).then(resp => resp.json())
+            .then(d => {
+              p.imgData = d;
+              return true;
+            })
+        }
+        dPromise.then(d =>
+        {
+          let placeholder = document.createElementNS(SVG_NS, 'svg');
+          proseEl.appendChild(placeholder);
+
+          placeholder.outerHTML = p.imgData.svgStr;
+
+          let imgEl = proseEl.querySelector('svg');
+
+          let b = imgEl.viewBox.baseVal;
+          let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+          imgEl.appendChild(s);
+      });
+      }
     }
 
     function findMaxLTE(ps, i)
@@ -756,11 +772,10 @@ function makeGround(rg, svg)
       let shapes = figure.shapes.map(rg.draw);
       let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
 
-      nearHighlights
-        .forEach( f('sentence') );
-      highlights
-        .forEach( f('bright') );
-      hoverHighlights.forEach( f('hover_bright') );
+      nhs.forEach( f('sentence') );
+      hs.forEach( f('bright') );
+
+      hhs.forEach( f('hover_bright') );
       shapes.forEach(el => svg.appendChild(el));
 
       let els = prepareLetterOverlay(p, hs, nhs, true, false);
@@ -778,15 +793,12 @@ function makeGround(rg, svg)
         let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
         if(highlightFigure)
         {
-          nearHighlights
-            .forEach( f('sentence') );
-          highlights
-            .forEach( f('bright') );
+          nhs.forEach( f('sentence') );
+          hs.forEach( f('bright') );
         }
         if(hoverHighlightFigure)
         {
-          hoverHighlights
-            .forEach( f('hover_bright') );
+          hhs.forEach( f('hover_bright') );
         }
         shapes.forEach(el => svg.appendChild(el));
 
@@ -795,9 +807,8 @@ function makeGround(rg, svg)
       }
     }
 
-    if(p.img && localStorage[p.img])
+    if(p.img && p.imgData)
     {
-      let imgData = JSON.parse(localStorage[p.img]);
       let nearHighlightNames = nearHighlights.map(h => h.name).join('');
       let highlightName = highlights.map(h => h.name).join('');
 
@@ -805,23 +816,23 @@ function makeGround(rg, svg)
 
       imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
 
-      for(var l in imgData.letters)
+      for(var l in p.imgData.letters)
       {
         if(l.length> 1)
         {
-          let d = imgData.letters[l]
-          delete imgData.letters[l];
+          let d = p.imgData.letters[l]
+          delete p.imgData.letters[l];
           l.split(/\s*/).forEach(l =>
             {
               let o = Object.assign({}, d);
-              imgData.letters[l] = o;
+              p.imgData.letters[l] = o;
               d.x += 30;
             });
         }
       }
 
-      for(var l in imgData.letters) {
-        let d = imgData.letters[l];
+      for(var l in p.imgData.letters) {
+        let d = p.imgData.letters[l];
         var el = document.createElementNS(SVG_NS, 'text');
         el.textContent = l;
         el.setAttribute('font-family', 'serif');

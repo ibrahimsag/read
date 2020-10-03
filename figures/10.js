@@ -696,7 +696,7 @@ function() {
 function() {
   return {
     title: 'Proposition 26',
-    img: '10_26',
+    img: '/img/10/26',
     prose: prop26,
   };
 },
