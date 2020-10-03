@@ -626,43 +626,31 @@ function makeGround(rg, svg)
 
       prepareDOM(proseEl, p);
 
-      if(p.img)
+      proseEl.querySelectorAll('svg').forEach(el => proseEl.removeChild(el));
+
+      if(p.img && !p.imgData)
       {
-        let dPromise;
-        if(p.imgData)
+        fetch(p.img).then(resp => resp.json()).then(d =>
         {
-          dPromise = Promise.resolve(true);
-        }
-        else
-        {
-          dPromise = fetch(p.img).then(resp => resp.json())
-            .then(d => {
-              p.imgData = d;
-              return true;
-            })
-        }
-        dPromise.then(d =>
-        {
-          for(var l in p.imgData.letters)
+          for(var l in d.letters)
           {
             if(l.length> 1)
             {
-              let d = p.imgData.letters[l]
-              delete p.imgData.letters[l];
+              let d = d.letters[l]
+              delete d.letters[l];
               l.split(/\s*/).forEach(l =>
                 {
                   let o = Object.assign({}, d);
-                  p.imgData.letters[l] = o;
+                  d.letters[l] = o;
                   d.x += 30;
                 });
             }
           }
+          p.imgData = d;
 
           let placeholder = document.createElementNS(SVG_NS, 'svg');
           proseEl.appendChild(placeholder);
-
           placeholder.outerHTML = p.imgData.svgStr;
-
           let imgEl = proseEl.querySelector('svg');
 
           let b = imgEl.viewBox.baseVal;
@@ -670,7 +658,20 @@ function makeGround(rg, svg)
           imgEl.appendChild(s);
 
           refreshImgLetters(imgEl, p.imgData.letters, {});
-        });
+        })
+      }
+      else if(p.imgData)
+      {
+        let placeholder = document.createElementNS(SVG_NS, 'svg');
+        proseEl.appendChild(placeholder);
+        placeholder.outerHTML = p.imgData.svgStr;
+        let imgEl = proseEl.querySelector('svg');
+
+        let b = imgEl.viewBox.baseVal;
+        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
+        imgEl.appendChild(s);
+
+        refreshImgLetters(imgEl, p.imgData.letters, {});
       }
     }
 
