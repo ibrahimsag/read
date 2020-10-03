@@ -1060,13 +1060,13 @@ function presentCover() {
 }
 
 function openPage(i_book, id) {
-  history.pushState({page:'page', i_book, id}, '');
+  history.pushState({page:'page', i_book, id}, '', id);
   presentPage(i_book, id);
 }
 
 function openCover()
 {
-  history.pushState({page:'cover'}, '');
+  history.pushState({page:'cover'}, '', '/euclid/');
   presentCover();
 }
 
@@ -1122,7 +1122,17 @@ window.onload = () => {
   styleEl.innerText = styleText;
   document.querySelector('head').appendChild(styleEl);
 
-  if(history.state && history.state.page === 'page')
+  let m, re = /euclid\/([^\/]+)/;
+  if(m = location.pathname.match(re))
+  {
+    let id = m[1];
+    let [i_book, _] = id.split('.');
+    if(!isNaN(Number(i_book)))
+    {
+      presentPage(i_book, id);
+    }
+  }
+  else if(history.state && history.state.page === 'page')
   {
     let is = history.state;
     presentPage(is.i_book, is.id);
