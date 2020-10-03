@@ -54,7 +54,7 @@ export default [{
   input: 'latest.js',
   plugins: [
     string({
-      include: 'prose/**/*'
+      include: 'elements/*/*'
     }),
     json()
   ],

@@ -34,7 +34,7 @@ export default [{
   plugins: [
     commonjs(),
     string({
-      include: 'prose/**/*'
+      include: 'elements/*/*'
     }),
     json(),
     terser()

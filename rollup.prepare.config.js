@@ -10,7 +10,7 @@ export default [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
     string({
-      include: 'prose/**/*'
+      include: 'elements/*/*'
     }),
     run()
   ],

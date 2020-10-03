@@ -1,12 +1,12 @@
-import book1 from './figures/1.js';
-import book2 from './figures/2.js';
-import book3 from './figures/3.js';
-import book4 from './figures/4.js';
-import book5 from './figures/5.js';
-import book6 from './figures/6.js';
-import book7 from './figures/7.js';
-import book8 from './figures/8.js';
-import book9 from './figures/9.js';
+import book1 from './elements/1.js';
+import book2 from './elements/2.js';
+import book3 from './elements/3.js';
+import book4 from './elements/4.js';
+import book5 from './elements/5.js';
+import book6 from './elements/6.js';
+import book7 from './elements/7.js';
+import book8 from './elements/8.js';
+import book9 from './elements/9.js';
 
 var fs = require('fs');
 
