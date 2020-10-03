@@ -1173,7 +1173,7 @@ function alignFigure(scroll_pos) {
   if(window.scrollY > 0)
   {
     d = Math.min(45, window.scrollY)/45;
-    t = 45 - (d*d*d*45);
+    t = 45 - (Math.sin(d*Math.PI/2)*45);
   }
   else
   {
