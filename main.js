@@ -375,11 +375,8 @@ function makeGround(rg, svg)
     figure.prepared = true;
   }
 
-  function prepareLetterOverlay(figure, highlights, nearHighlights, highlightFigure, smallLetters)
+  function prepareLetterOverlay(figure, letterColor, highlightFigure, smallLetters)
   {
-    let nearHighlightNames = nearHighlights.map(h => h.name).join('');
-    let highlightName = highlights.map(h => h.name).join('');
-
     let shapes = [];
     for(var i in figure.letters)
     {
@@ -389,13 +386,9 @@ function makeGround(rg, svg)
       el.setAttribute('font-family', 'Nale');
       el.setAttribute('font-size', shouldBeSmall ? 16 : 24);
       let fillcolor = colors.dim;
-      if(highlightFigure && highlightName && highlightName.indexOf(i) > -1)
+      if(highlightFigure && letterColor[i])
       {
-        fillcolor = colors.bright;
-      }
-      else if(highlightFigure && nearHighlightNames.indexOf(i) > -1)
-      {
-        fillcolor = colors.sentence;
+        fillcolor = letterColor[i];
       }
       el.setAttribute('fill', fillcolor);
       el.textContent = i;
@@ -820,7 +813,7 @@ function makeGround(rg, svg)
       hhs.forEach( f('hover_bright') );
       shapes.forEach(el => svg.appendChild(el));
 
-      let els = prepareLetterOverlay(p, hs, nhs, true, false);
+      let els = prepareLetterOverlay(p, letterColor, true, false);
       els.map(el => svg.appendChild(el));
     }
     else
@@ -844,7 +837,7 @@ function makeGround(rg, svg)
         }
         shapes.forEach(el => svg.appendChild(el));
 
-        let els = prepareLetterOverlay(figure, hs, nhs, highlightFigure, true);
+        let els = prepareLetterOverlay(figure, letterColor, highlightFigure, true);
         els.forEach(el => svg.appendChild(el));
       }
     }
