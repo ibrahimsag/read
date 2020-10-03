@@ -469,6 +469,12 @@ function makeGround(rg, svg)
                   r = { part: { text: part } };
                 }
 
+                if(pm)
+                {
+                  r.i = p.refcount - 1;
+                  r.k = k;
+                }
+
                 if(m || om)
                 {
                   r.i = p.refcount;
@@ -550,6 +556,7 @@ function makeGround(rg, svg)
             let f = l => {
               let a = document.createElement('a');
               a.setAttribute('pref', l.pref);
+              a.dataset.ref = i;
               a.innerText = l.prefName;
               return a;
             }
@@ -902,11 +909,6 @@ function makeGround(rg, svg)
       }
 
       let ref = parseInt(e.srcElement.dataset.ref);
-      if(isNaN(ref) && e.srcElement.attributes.pref && e.srcElement.parentElement)
-      {
-        ref = parseInt(e.srcElement.parentElement.dataset.ref);
-      }
-
       if(!isNaN(ref))
       {
         forCancel = window.requestAnimationFrame(() => {
