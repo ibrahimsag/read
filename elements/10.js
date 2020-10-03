@@ -14,17 +14,17 @@ import prop10 from './10/10';
 import prop11 from './10/11';
 import prop12 from './10/12';
 import prop13 from './10/13';
-import propl1 from './10/l1-14';
+import propl1 from './10/l1-13';
 import prop14 from './10/14';
 import prop15 from './10/15';
 import prop16 from './10/16';
-import propl2 from './10/l2-17';
+import propl2 from './10/l2-16';
 import prop17 from './10/17';
 import prop18 from './10/18';
 import prop19 from './10/19';
 import prop20 from './10/20';
 import prop21 from './10/21';
-import propl3 from './10/l3-22';
+import propl3 from './10/l3-21';
 import prop22 from './10/22';
 import prop23 from './10/23';
 import prop24 from './10/24';
@@ -32,13 +32,13 @@ import prop25 from './10/25';
 import prop26 from './10/26';
 import prop27 from './10/27';
 import prop28 from './10/28';
-import propl4 from './10/l4-I29';
-import propl5 from './10/l5-II29';
+import propl4 from './10/l4-I28';
+import propl5 from './10/l5-II28';
 import prop29 from './10/29';
 import prop30 from './10/30';
 import prop31 from './10/31';
 import prop32 from './10/32';
-import propl6 from './10/l6-33';
+import propl6 from './10/l6-32';
 import prop33 from './10/33';
 import prop34 from './10/34';
 import prop35 from './10/35';
@@ -48,7 +48,7 @@ import prop38 from './10/38';
 import prop39 from './10/39';
 import prop40 from './10/40';
 import prop41 from './10/41';
-import propl7 from './10/l7-42';
+import propl7 from './10/l7-41';
 import prop42 from './10/42';
 import prop43 from './10/43';
 import prop44 from './10/44';
@@ -278,7 +278,7 @@ function() {
 
   return {
     title: 'Lemma',
-    id: '10.14-lem',
+    id: '10.13-lem',
     prose: propl1,
     mags: [
       { l: 'C', m: 90, p: [50, 50] }
@@ -353,7 +353,7 @@ function() {
 
   return {
     title: 'Lemma',
-    id: '10.17-lem',
+    id: '10.16-lem',
     prose: propl2,
     points: { A, B, C, D, E ,F },
     shapes: [
@@ -525,7 +525,7 @@ function() {
 
   return {
     title: 'Lemma',
-    id: '10.22-lem',
+    id: '10.21-lem',
     prose: propl3,
     points: { A, B, D, E, F, G},
     shapes: [
@@ -752,7 +752,7 @@ function() {
 function() {
   return {
     title: 'Lemma I',
-    id: '10.29-lemI',
+    id: '10.28-lemI',
     img: '/img/10/l4',
     prose: propl4,
   };
@@ -761,7 +761,7 @@ function() {
 function() {
   return {
     title: 'Lemma II',
-    id: '10.29-lemII',
+    id: '10.28-lemII',
     img: '/img/10/l5',
     prose: propl5,
   };
@@ -806,7 +806,7 @@ function() {
 function() {
   return {
     title: 'Lemma',
-    id: '10.33-lem',
+    id: '10.32-lem',
     img: '/img/10/l6',
     prose: propl6,
   };
@@ -896,7 +896,7 @@ function() {
 function() {
   return {
     title: 'Lemma',
-    id: '10.42-lem',
+    id: '10.41-lem',
     img: '/img/10/l7',
     prose: propl7,
   };
