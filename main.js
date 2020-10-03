@@ -1168,9 +1168,30 @@ let presentForLocation = () => {
   }
 }
 
-window.onresize = () => {
-  let h = Math.min(512, window.innerHeight - 45);
+function alignFigure(scroll_pos) {
+  let t = 45 - Math.min(45, window.scrollY);
+  let h = Math.min(512, window.innerHeight - t);
   let el = document.querySelector('#figure');
+  el.style['top'] = t;
   el.style['width'] = h;
   el.style['height'] = h;
 }
+
+let last_known_scroll_position = 0;
+let ticking = false;
+
+function queueAlign() {
+  last_known_scroll_position = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      alignFigure(last_known_scroll_position);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+}
+window.addEventListener('scroll', queueAlign);
+
+window.onresize = queueAlign;
