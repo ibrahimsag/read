@@ -670,6 +670,7 @@ function makeGround(rg, svg)
     let k_focus = findMaxLTE(p.refp, o);
     let k_hover = !isNaN(hover_o) ? findMaxLTE(p.refp, hover_o): null;;
 
+    let letterColor = {};
     let nearHighlights = [];
     let hoverHighlights = [];
     let highlights = [];
@@ -763,6 +764,13 @@ function makeGround(rg, svg)
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
 
+    let f = l => h => {
+      h.name.split('').forEach(c => letterColor[c] = l);
+    }
+    nearHighlights.forEach(f('sentence'));
+    highlights.forEach(f('bright'));
+    hoverHighlights.forEach(f('hover_bright'));
+
     let hs = highlights.filter(h=>h.typ);
     let nhs = nearHighlights.filter(h=>h.typ);
     let hhs = hoverHighlights.filter(h=>h.typ);
@@ -809,9 +817,6 @@ function makeGround(rg, svg)
 
     if(p.img && p.imgData)
     {
-      let nearHighlightNames = nearHighlights.map(h => h.name).join('');
-      let highlightName = highlights.map(h => h.name).join('');
-
       let imgEl = proseEl.querySelector('svg');
 
       imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
@@ -837,17 +842,21 @@ function makeGround(rg, svg)
         el.textContent = l;
         el.setAttribute('font-family', 'serif');
         el.setAttribute('font-size', d.s);
-        if(highlightName.indexOf(l) > -1)
+        if(letterColor[l] === 'bright')
         {
-          el.setAttribute('fill', '#e2e2e2');
+          el.setAttribute('fill', colors.bright);
         }
-        else if(nearHighlightNames.indexOf(l) > -1)
+        else if(letterColor[l] === 'sentence')
         {
-          el.setAttribute('fill', '#777777');
+          el.setAttribute('fill', colors.sentence);
+        }
+        else if(letterColor[l] === 'hover_bright')
+        {
+          el.setAttribute('fill', colors.hover_bright);
         }
         else
         {
-          el.setAttribute('fill', '#474747');
+          el.setAttribute('fill', colors.dim);
         }
         el.setAttribute('x', d.x);
         el.setAttribute('y', d.y);
