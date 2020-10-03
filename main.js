@@ -404,7 +404,6 @@ function makeGround(rg, svg)
   function prepareProse(p)
   {
     let lastSeenFigureIndex = 0;
-    if(!p.id) p.id = Math.floor(Math.random() * 1024);
     p.refcount = 0;
     p.refp = [];
     p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
@@ -1036,7 +1035,12 @@ window.onpopstate = (e) => {
 }
 
 document.onclick = (e) => {
-  let pref = e.srcElement.attributes.pref || e.srcElement.parentElement.attributes.pref;
+  let pref = e.srcElement.attributes.pref;
+  if(!pref && e.srcElement.parentElement)
+  {
+    pref = e.srcElement.parentElement.attributes.pref;
+  }
+
   if(pref)
   {
     if(pref.value == 'cover')
