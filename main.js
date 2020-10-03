@@ -578,6 +578,23 @@ function makeGround(rg, svg)
     })
   }
 
+  function refreshImgLetters(imgEl, letters, letterColor)
+  {
+    imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
+
+    for(var l in letters) {
+      let d = letters[l];
+      var el = document.createElementNS(SVG_NS, 'text');
+      el.textContent = l;
+      el.setAttribute('font-family', 'serif');
+      el.setAttribute('font-size', d.s);
+      el.setAttribute('fill', letterColor[l] || colors.dim);
+      el.setAttribute('x', d.x);
+      el.setAttribute('y', d.y);
+      imgEl.appendChild(el);
+    }
+  }
+
   function present(o, p, hover_o, no_scroll)
   {
     if(!p.paragraphs)
@@ -633,6 +650,21 @@ function makeGround(rg, svg)
         }
         dPromise.then(d =>
         {
+          for(var l in p.imgData.letters)
+          {
+            if(l.length> 1)
+            {
+              let d = p.imgData.letters[l]
+              delete p.imgData.letters[l];
+              l.split(/\s*/).forEach(l =>
+                {
+                  let o = Object.assign({}, d);
+                  p.imgData.letters[l] = o;
+                  d.x += 30;
+                });
+            }
+          }
+
           let placeholder = document.createElementNS(SVG_NS, 'svg');
           proseEl.appendChild(placeholder);
 
@@ -643,7 +675,9 @@ function makeGround(rg, svg)
           let b = imgEl.viewBox.baseVal;
           let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
           imgEl.appendChild(s);
-      });
+
+          refreshImgLetters(imgEl, p.imgData.letters, {});
+        });
       }
     }
 
@@ -764,12 +798,12 @@ function makeGround(rg, svg)
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
 
-    let f = l => h => {
-      h.name.split('').forEach(c => letterColor[c] = l);
+    let f = c => h => {
+      h.name.split('').forEach(l => letterColor[l] = c);
     }
-    nearHighlights.forEach(f('sentence'));
-    highlights.forEach(f('bright'));
-    hoverHighlights.forEach(f('hover_bright'));
+    nearHighlights.forEach(f(colors.sentence));
+    highlights.forEach(f(colors.bright));
+    hoverHighlights.forEach(f(colors.hover_bright));
 
     let hs = highlights.filter(h=>h.typ);
     let nhs = nearHighlights.filter(h=>h.typ);
@@ -819,49 +853,7 @@ function makeGround(rg, svg)
     {
       let imgEl = proseEl.querySelector('svg');
 
-      imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
-
-      for(var l in p.imgData.letters)
-      {
-        if(l.length> 1)
-        {
-          let d = p.imgData.letters[l]
-          delete p.imgData.letters[l];
-          l.split(/\s*/).forEach(l =>
-            {
-              let o = Object.assign({}, d);
-              p.imgData.letters[l] = o;
-              d.x += 30;
-            });
-        }
-      }
-
-      for(var l in p.imgData.letters) {
-        let d = p.imgData.letters[l];
-        var el = document.createElementNS(SVG_NS, 'text');
-        el.textContent = l;
-        el.setAttribute('font-family', 'serif');
-        el.setAttribute('font-size', d.s);
-        if(letterColor[l] === 'bright')
-        {
-          el.setAttribute('fill', colors.bright);
-        }
-        else if(letterColor[l] === 'sentence')
-        {
-          el.setAttribute('fill', colors.sentence);
-        }
-        else if(letterColor[l] === 'hover_bright')
-        {
-          el.setAttribute('fill', colors.hover_bright);
-        }
-        else
-        {
-          el.setAttribute('fill', colors.dim);
-        }
-        el.setAttribute('x', d.x);
-        el.setAttribute('y', d.y);
-        imgEl.appendChild(el);
-      }
+      refreshImgLetters(imgEl, p.imgData.letters, letterColor);
     }
 
     proxy.moveon = () => { present(o + 1, p); };
