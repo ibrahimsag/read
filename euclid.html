@@ -32,6 +32,7 @@ body {
   font-size: 1.2em;
 }
 #container {
+  margin-left: auto;
   width: 1024px;
   display: flex;
   flex-flow: column nowrap;
@@ -44,6 +45,7 @@ body {
   flex: 1 1 auto;
   display: flex;
   align-items: stretch;
+  flex-direction: row-reverse;
 }
 #prose {
   width: 512px;
@@ -51,7 +53,7 @@ body {
 #proseMovement {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   flex: 0 0 auto;
   height: 50px;
   width: 512px;
@@ -62,7 +64,7 @@ body {
   width: 512px;
   height: 512px;
   position: fixed;
-  left: 512px;
+  right: 512px;
   top: 96px;
 }
 svg {
@@ -72,7 +74,7 @@ svg {
 #logo {
   padding: 15px 24px;
   font-size: 40px;
-
+  text-align: right;
 }
 #logo a {
   cursor: pointer;
@@ -81,7 +83,7 @@ svg {
 #bookTitle {
   font-weight: bold;
   font-size: 20px;
-  margin-left: 25px;
+  margin-right: 25px;
 }
 #prose {
   padding: 12px;
@@ -89,14 +91,13 @@ svg {
   box-sizing: border-box;
 }
 #prose p {
-  text-align: right;
   line-height: 2em;
   margin-bottom: 2em;
 }
 #prose svg {
   position: fixed;
-  left: 512px;
-  top: 96px;
+  left: 562px;
+  top: 146px;
 }
 #proseHeading {
   box-sizing: border-box;
@@ -105,7 +106,7 @@ svg {
   margin-bottom: 3em;
 }
 #proseTitle {
-  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
   font-size: 1.2em;
   color: #777777;
@@ -140,6 +141,8 @@ svg {
   text-align: right;
 }
 #coverPage {
+  margin-left: auto;
+  width: 1024px;
   padding: 12px;
   display: flex;
   flex-flow: row nowrap;
@@ -158,7 +161,7 @@ svg {
   margin-left: 20px;
 }
 #cover {
-  width: 400px;
+  width: 512px;
   box-sizing: border-box;
   padding-left: 24px;
 }
@@ -185,18 +188,18 @@ svg {
   <body>
     <div id="container" style="display: none">
       <div id="header">
-        <div id="logo"><a pref="cover"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></a><span id="bookTitle"></span></div>
+        <div id="logo"><span id="bookTitle"></span><a pref="cover"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></a></div>
       </div>
       <div id="page">
+        <svg id="figure" viewbox="0 0 512 512"></svg>
         <div id="prose">
           <div id="proseHeading">
-            <div class="page-nav" id="prev-page"><span style="text-decoration: underline">b</span>efore</div>
-            <div class="page-nav" id="next-page"><span style="text-decoration: underline">a</span>fter</div>
             <div id="proseTitle"></div>
+            <div class="page-nav" id="prev-page">before</div>
+            <div class="page-nav" id="next-page">after</div>
           </div>
           <div id="proseContent"></div>
         </div>
-        <svg id="figure" viewbox="0 0 512 512"></svg>
       </div>
       <div id="proseMovement">
         <a id="move-back"></a>

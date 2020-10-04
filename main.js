@@ -1163,16 +1163,18 @@ let presentForLocation = () => {
   }
 }
 
-function alignFigure(scroll_pos) {
+function alignFigure(scroll_position) {
   let t, d;
-  if(window.scrollY > 0)
+  if(scroll_position > 0)
   {
-    d = Math.min(48, window.scrollY)/48;
-    t = (1 - Math.pow(d, 5))*96;
+    if(scroll_position > 95)
+      t = 0;
+    else
+      t = 96;
   }
   else
   {
-    t = 96 - window.scrollY;
+    t = 96 - scroll_position;
   }
   let h = Math.min(512, window.innerHeight - Math.min(96, t));
   let el = document.querySelector('#figure');
