@@ -9,7 +9,7 @@ let colors = {
   dim: hsluv.hsluvToHex([0, 0, 30]),
   link: hsluv.hpluvToHex([140, 100, 30]),
   link_hover: hsluv.hpluvToHex([140, 100, 40]),
-  hover: hsluv.hpluvToHex([330, 100, 50]),
+  hover: hsluv.hpluvToHex([330, 100, 60]),
   hover_bright: hsluv.hpluvToHex([330, 100, 80]),
   make: hsluv.hpluvToHex,
 };
