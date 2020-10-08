@@ -15,7 +15,7 @@ node_modules/
 .npm
 
 build
-public/euclid.html
+public/elements.html
 public/index.html
 
 # Local Netlify folder

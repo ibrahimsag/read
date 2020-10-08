@@ -1091,7 +1091,7 @@ function openPage(i_book, id) {
 
 function openCover()
 {
-  history.pushState(null, '', '/euclid/');
+  history.pushState(null, '', '/elements/');
   presentCover();
 }
 
@@ -1143,7 +1143,7 @@ window.onpopstate = (e) => {
 }
 
 let presentForLocation = () => {
-  let m, re = /euclid\/([^\/]+)/;
+  let m, re = /elements\/([^\/]+)/;
   if(m = location.pathname.match(re))
   {
     let id = m[1];

@@ -3,8 +3,8 @@
   command = "sh build.sh"
 
 [[redirects]]
-  from = "/euclid/*"
-  to = "/euclid.html"
+  from = "/elements/*"
+  to = "/elements.html"
   status = 200
 
 [[redirects]]

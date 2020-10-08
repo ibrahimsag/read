@@ -30,8 +30,8 @@ app.post('/store', (req, res) => {
   });
 });
 
-app.get('/euclid/*', (req, res) => {
-  res.sendFile(__dirname + '/euclid.html');
+app.get('/elements/*', (req, res) => {
+  res.sendFile(__dirname + '/elements.html');
 })
 
 app.get('/*', (req, res) => {
