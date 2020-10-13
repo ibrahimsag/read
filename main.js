@@ -982,7 +982,7 @@ function presentPage(i_book, id) {
 
   let i_page = zimbirti[i_book][id];
 
-  document.querySelector('#coverPage').style['display'] = 'none';
+  document.querySelector('#cover').style['display'] = 'none';
   document.querySelector('#container').style['display'] = 'flex';
 
   let el = document.querySelector('#bookTitle');
@@ -1073,7 +1073,7 @@ function presentPage(i_book, id) {
 }
 
 function presentCover() {
-  document.querySelector('#coverPage').style['display'] = 'flex';
+  document.querySelector('#cover').style['display'] = 'flex';
   document.querySelector('#container').style['display'] = 'none';
   document.onkeydown = undefined;
 }
@@ -1146,20 +1146,9 @@ window.onload = () => {
         color: colors.dim,
       },
     },
-    helpTitle: {
-      color: colors.make([320, 100, 40])
-    },
     cover: {
-      textAlign: 'right',
-      width: 512,
-      boxSizing: 'border-box',
-      paddingLeft: 24,
-      '& p': { fontSize: '0.9em' }
-    },
-    coverPage: {
       marginLeft: 'auto',
       width: 1024,
-      boxSizing: 'border-box',
       padding: 12,
       display: 'flex',
       'flex-flow': 'row nowrap',
@@ -1171,13 +1160,26 @@ window.onload = () => {
         color: colors.make([0, 0, 40]),
       }
     },
-    bookList: {
+    front: {
+      textAlign: 'right',
       width: 512,
-      '& a': style_link,
+      paddingLeft: 24,
+      '& p': { fontSize: '0.9em' }
+    },
+    contents: {
+      width: 512,
+      '& a': {
+        ...style_link,
+        display: 'inline-block',
+      },
       '& p': {
         marginLeft: 20
       },
     },
+    helpTitle: {
+      color: colors.make([320, 100, 40])
+    },
+
     container: {
       marginLeft: 'auto',
       width: 1024,
@@ -1187,12 +1189,6 @@ window.onload = () => {
     header: {
       height: 96,
       flex: [[0, 0, 'auto']],
-    },
-    page: {
-      flex: [[1, 1, 'auto']],
-      display: 'flex',
-      alignItems: 'stretch',
-      flexDirection: 'row-reverse',
     },
 
     logo: {
@@ -1211,7 +1207,6 @@ window.onload = () => {
     },
 
     proseHeading: {
-      boxSizing: 'border-box',
       display: 'flex',
       justifyContent: 'space-between',
       marginBottom: '3em',
@@ -1230,7 +1225,7 @@ window.onload = () => {
     },
 
     prose: {
-      boxSizing: 'border-box',
+      marginLeft: 512,
       width: 512,
       padding: [[12, 12, 62, 12]],
       '& a': {
@@ -1248,7 +1243,15 @@ window.onload = () => {
       }
     },
 
-    proseMovement: {
+    name: {
+      fontFamily: 'Nale',
+      transition: 'color 0.2s ease',
+    },
+    sentence: {
+      transition: 'color 0.2s ease',
+    },
+
+    movement: {
       position: 'fixed',
       bottom: 0,
       right: 0,
@@ -1285,14 +1288,6 @@ window.onload = () => {
       transition: 'all 1s ease',
     },
 
-    name: {
-      fontFamily: 'Nale',
-      transition: 'color 0.2s ease',
-    },
-    sentence: {
-      transition: 'color 0.2s ease',
-    }
-
   };
   const sheet = jss.createStyleSheet(style);
   sheet.attach();
@@ -1303,26 +1298,24 @@ window.onload = () => {
   <div class="${cs.header}">
     <div class="${cs.logo}"><span class="${cs.bookTitle}" id="bookTitle"></span><a pref="cover"><span style="color: ${colors.dim}">Euc</span><span style="color: ${colors.sentence}">li</span><span style="color: ${colors.bright}">d</span></a></div>
   </div>
-  <div class="${cs.page}">
-    <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
-    <div class="${cs.prose}">
-      <div class="${cs.proseHeading}">
-        <div id="proseTitle" class="${cs.proseTitle}"></div>
-        <div class="${cs.pageNav} ${cs.link}" id="prev-page">before</div>
-        <div class="${cs.pageNav} ${cs.link}" id="next-page">after</div>
-      </div>
-      <div id="proseContent"></div>
+  <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
+  <div class="${cs.prose}">
+    <div class="${cs.proseHeading}">
+      <div id="proseTitle" class="${cs.proseTitle}"></div>
+      <div class="${cs.pageNav} ${cs.link}" id="prev-page">before</div>
+      <div class="${cs.pageNav} ${cs.link}" id="next-page">after</div>
     </div>
+    <div id="proseContent"></div>
   </div>
-  <div class="${cs.proseMovement}">
+  <div class="${cs.movement}">
     <a id="move-back" class="${cs.moveBack}"></a>
     <a id="move-on" class="${cs.moveOn}"></a>
   </div>
 </div>`;
 
   let html_cover = `
-<div id="coverPage" class="${cs.coverPage}" style="display: none">
-  <div class="${cs.bookList}">
+<div id="cover" class="${cs.cover}" style="display: none">
+  <div class="${cs.contents}">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
 Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
@@ -1400,10 +1393,10 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
 <p><span style="display:inline-block;background:#474747;width:30px;height:.8em;margin-bottom:-0.2em;"></span><span style="display:inline-block;background:#777;width:60px;height:.8em;margin-bottom:-0.2em;"></span> moves highlight.</p>
 <p>Alternatively, one can use right/left or j/k on keyboard.</p>
   </div>
-  <div class="${cs.cover}">
+  <div class="${cs.front}">
     <h1>Euclid's Elements</h1>
-    <h3>with <span style="color: #777777;">high</span><span style="color: #e2e2e2;">lights</span></h3>
-    <h4 style="background-color:#1b1b1b;color:#000;margin-top:-1.5em">Ibrahim S.</h4>
+    <h3>with <span style="color: ${colors.sentence};">high</span><span style="color: ${colors.bright};">lights</span></h3>
+    <h4 style="background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
     <svg style="margin-top:-50px;" width="400px" height="400px">${smpl}</svg>
     <br>
     <p>"As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it."</p>
