@@ -1014,7 +1014,7 @@ function presentPage(i_book, id) {
     }
     else if(e.key == "h")
     {
-      let s = document.querySelector('#prose svg');
+      let s = document.querySelector('#proseContent svg');
       if(s && s.style.display != "none")
         s.style.display = "none";
       else
@@ -1131,39 +1131,191 @@ window.onload = () => {
 
   const jss = create().setup(preset());
 
+  const style_link = {
+      color: colors.link,
+      userSelect: 'none',
+      cursor: 'pointer',
+      '&:hover': {
+        color: colors.link_hover
+      }
+    };
+
   const style = {
+    link: style_link,
+    '@global': {
+      body: {
+        color: colors.dim,
+      },
+    },
     helpTitle: {
       color: colors.make([320, 100, 40])
-    }
+    },
+    cover: {
+      textAlign: 'right',
+      width: 512,
+      boxSizing: 'border-box',
+      paddingLeft: 24,
+      '& p': { fontSize: '0.9em' }
+    },
+    coverPage: {
+      marginLeft: 'auto',
+      width: 1024,
+      boxSizing: 'border-box',
+      padding: 12,
+      display: 'flex',
+      'flex-flow': 'row nowrap',
+      '& h4': {
+        color: colors.sentence,
+      },
+      '& a': {
+        'text-decoration': 'underline',
+        color: colors.make([0, 0, 40]),
+      }
+    },
+    bookList: {
+      width: 512,
+      '& a': style_link,
+      '& p': {
+        marginLeft: 20
+      },
+    },
+    container: {
+      marginLeft: 'auto',
+      width: 1024,
+      display: 'flex',
+      flexFlow: [['column', 'nowrap']],
+    },
+    header: {
+      height: 96,
+      flex: [[0, 0, 'auto']],
+    },
+    page: {
+      flex: [[1, 1, 'auto']],
+      display: 'flex',
+      alignItems: 'stretch',
+      flexDirection: 'row-reverse',
+    },
+
+    logo: {
+      padding: [[15, 25]],
+      fontSize: 40,
+      textAlign: 'right',
+      '& a': {
+        cursor: 'pointer',
+        userSelect: 'none',
+      }
+    },
+    bookTitle: {
+      fontWeight: 'bold',
+      fontSize: 20,
+      marginRight: 25,
+    },
+
+    proseHeading: {
+      boxSizing: 'border-box',
+      display: 'flex',
+      justifyContent: 'space-between',
+      marginBottom: '3em',
+    },
+    pageNav: {
+      padding: [[3, 6]],
+      cursor: 'pointer',
+      userSelect: 'none',
+      fontWeight: 'bold',
+    },
+    proseTitle: {
+      marginRight: 'auto',
+      fontWeight: 'bold',
+      fontSize: '1.2em',
+      color: colors.sentence,
+    },
+
+    prose: {
+      boxSizing: 'border-box',
+      width: 512,
+      padding: [[12, 12, 62, 12]],
+      '& a': {
+        ...style_link,
+        display: 'inline-block'
+      },
+      '& p': {
+        lineHeight: '2em',
+        marginBottom: '2em',
+      },
+      '& svg': {
+        position: 'fixed',
+        right: 562,
+        top: 146,
+      }
+    },
+
+    proseMovement: {
+      position: 'fixed',
+      bottom: 0,
+      right: 0,
+      flex: '0 0 auto',
+      height: 50,
+      width: 512,
+      display: 'flex',
+      alignItems: 'stretch',
+      color: 'black',
+      cursor: 'pointer',
+      userSelect: 'none',
+    },
+    moveBack: {
+      width: '33%',
+      transition: 'color 0.3s ease',
+    },
+    moveOn: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      textAlign: 'right',
+      height: 50,
+      width: '67%',
+      transition: 'color 0.3s ease',
+    },
+
+    figure: {
+      width: 512,
+      height: 512,
+      position: 'fixed',
+      right: 512,
+      top: 96,
+      transition: 'all 1s ease',
+    },
+
   };
   const sheet = jss.createStyleSheet(style);
   sheet.attach();
 
+  let cs = sheet.classes;
   let html_container = `
-<div id="container" style="display: none">
-  <div id="header">
-    <div id="logo"><span id="bookTitle"></span><a pref="cover"><span style="color: #474747">Euc</span><span style="color: #777">li</span><span style="color: #e2e2e2">d</span></a></div>
+<div id="container" class="${cs.container}" style="display: none">
+  <div class="${cs.header}">
+    <div class="${cs.logo}"><span class="${cs.bookTitle}" id="bookTitle"></span><a pref="cover"><span style="color: ${colors.dim}">Euc</span><span style="color: ${colors.sentence}">li</span><span style="color: ${colors.bright}">d</span></a></div>
   </div>
-  <div id="page">
-    <svg id="figure" viewbox="0 0 512 512"></svg>
-    <div id="prose">
-      <div id="proseHeading">
-        <div id="proseTitle"></div>
-        <div class="page-nav" id="prev-page">before</div>
-        <div class="page-nav" id="next-page">after</div>
+  <div class="${cs.page}">
+    <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
+    <div class="${cs.prose}">
+      <div class="${cs.proseHeading}">
+        <div id="proseTitle" class="${cs.proseTitle}"></div>
+        <div class="${cs.pageNav} ${cs.link}" id="prev-page">before</div>
+        <div class="${cs.pageNav} ${cs.link}" id="next-page">after</div>
       </div>
       <div id="proseContent"></div>
     </div>
   </div>
-  <div id="proseMovement">
-    <a id="move-back"></a>
-    <a id="move-on" style="margin-right: -25px;"></a>
+  <div class="${cs.proseMovement}">
+    <a id="move-back" class="${cs.moveBack}"></a>
+    <a id="move-on" class="${cs.moveOn}"></a>
   </div>
 </div>`;
 
   let html_cover = `
-<div id="coverPage" style="display: none">
-  <div id="bookList">
+<div id="coverPage" class="${cs.coverPage}" style="display: none">
+  <div class="${cs.bookList}">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
 Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
@@ -1236,12 +1388,12 @@ Start with <a pref="10.d1">Definitions I</a>.
 Interesting proof: <a pref="10.1">Method of exhaustion</a>
 </p>
 <br>
-<h3 class="${sheet.classes.helpTitle}">On the next page:</h3>
+<h3 class="${cs.helpTitle}">On the next page:</h3>
 <p>Read on a wide screen.</p>
 <p><span style="display:inline-block;background:#474747;width:30px;height:.8em;margin-bottom:-0.2em;"></span><span style="display:inline-block;background:#777;width:60px;height:.8em;margin-bottom:-0.2em;"></span> moves highlight.</p>
 <p>Alternatively, one can use right/left or j/k on keyboard.</p>
   </div>
-  <div id="cover">
+  <div class="${cs.cover}">
     <h1>Euclid's Elements</h1>
     <h3>with <span style="color: #777777;">high</span><span style="color: #e2e2e2;">lights</span></h3>
     <h4 style="background-color:#1b1b1b;color:#000;margin-top:-1.5em">Ibrahim S.</h4>
@@ -1253,8 +1405,7 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
     <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
     <p><a href="https://ibrahim129.typeform.com/to/u0jOG4VD">Contact</a> for feedback.</p>
   </div>
-</div>
-`;
+</div>`;
 
   document.body.innerHTML = html_container + html_cover + document.body.innerHTML;
 

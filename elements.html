@@ -26,158 +26,12 @@ html {
 }
 body {
   background: black;
-  color: #474747;
   margin: 0;
   font-family: Geom;
   font-size: 1.2em;
 }
-#container {
-  margin-left: auto;
-  width: 1024px;
-  display: flex;
-  flex-flow: column nowrap;
-}
-#header {
-  height: 96px;
-  flex: 0 0 auto;
-}
-#page {
-  flex: 1 1 auto;
-  display: flex;
-  align-items: stretch;
-  flex-direction: row-reverse;
-}
-#prose {
-  width: 512px;
-}
-#proseMovement {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  flex: 0 0 auto;
-  height: 50px;
-  width: 512px;
-  display: flex;
-  align-items: stretch;
-}
-#figure {
-  width: 512px;
-  height: 512px;
-  position: fixed;
-  right: 512px;
-  top: 96px;
-}
 svg {
   user-select: none;
-}
-
-#logo {
-  padding: 15px 24px;
-  font-size: 40px;
-  text-align: right;
-}
-#logo a {
-  cursor: pointer;
-  user-select: none;
-}
-#bookTitle {
-  font-weight: bold;
-  font-size: 20px;
-  margin-right: 25px;
-}
-#prose {
-  padding: 12px;
-  padding-bottom: 62px;
-  box-sizing: border-box;
-}
-#prose p {
-  line-height: 2em;
-  margin-bottom: 2em;
-}
-#prose svg {
-  position: fixed;
-  right: 562px;
-  top: 146px;
-}
-#proseHeading {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3em;
-}
-#proseTitle {
-  margin-right: auto;
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #777777;
-}
-.page-nav {
-  font-weight: bold;
-  padding: 3px 6px;
-  cursor: pointer;
-  user-select: none;
-}
-#proseMovement {
-  color: black;
-  cursor: pointer;
-  user-select: none;
-}
-#move-back {
-  width: 33%;
-  background-color: #474747;
-}
-#move-on {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: right;
-  height: 50px;
-  width: 67%;
-  background-color: #777;
-}
-
-#cover {
-  text-align: right;
-}
-#coverPage {
-  margin-left: auto;
-  width: 1024px;
-  box-sizing: border-box;
-  padding: 12px;
-  display: flex;
-  flex-flow: row nowrap;
-}
-#coverPage h4 {
-  color: #777;
-}
-#coverPage a {
-  text-decoration: underline;
-  color: #555;
-}
-#bookList {
-  max-width: 512px;
-}
-#bookList p {
-  margin-left: 20px;
-}
-#cover {
-  width: 512px;
-  box-sizing: border-box;
-  padding-left: 24px;
-}
-#prose a {
-  color: #254f35;
-  cursor: pointer;
-  display: inline-block;
-}
-#prev-page, #next-page, #bookList a {
-  color: #254f35;
-  user-select: none;
-  cursor: pointer;
-}
-#prev-page:hover, #next-page:hover, #bookList a:hover,#prose a:hover {
-  color: #336947;
 }
 
 #prose .ref {
@@ -190,13 +44,6 @@ svg {
 
 #prose .ref {
   transition: color 0.2s ease;
-}
-#move-on, #move-back {
-  transition: color 0.3s ease;
-}
-
-#figure {
-  transition: all 1s ease;
 }
 
     </style>
