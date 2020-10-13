@@ -2,12 +2,16 @@ import commonjs from '@rollup/plugin-commonjs';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { string } from "rollup-plugin-string";
 import json from '@rollup/plugin-json';
+import replace from '@rollup/plugin-replace';
 
 export default [{
   input: 'main.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
   ],
   output: {
     file: 'build/main.js',

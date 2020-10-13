@@ -46,17 +46,19 @@ function unfoldGraphics(p) {
   return p;
 }
 
-let books = {
-  descs,
-  1: book1.map(unfoldGraphics),
-  2: book2.map(unfoldGraphics),
-  3: book3.map(unfoldGraphics),
-  4: book4.map(unfoldGraphics),
-  5: book5.map(unfoldGraphics),
-  6: book6.map(unfoldGraphics),
-  7: book7.map(unfoldGraphics),
-  8: book8.map(unfoldGraphics),
-  9: book9.map(unfoldGraphics),
-};
+window.unfoldBooks = () => {
+  let books = {
+    descs,
+    1: book1.map(unfoldGraphics),
+    2: book2.map(unfoldGraphics),
+    3: book3.map(unfoldGraphics),
+    4: book4.map(unfoldGraphics),
+    5: book5.map(unfoldGraphics),
+    6: book6.map(unfoldGraphics),
+    7: book7.map(unfoldGraphics),
+    8: book8.map(unfoldGraphics),
+    9: book9.map(unfoldGraphics),
+  };
 
-window.books = books;
+  window.books = books;
+};
