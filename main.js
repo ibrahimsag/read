@@ -1073,6 +1073,54 @@ function presentCover() {
   document.onkeydown = undefined;
 }
 
+let presentForLocation = () => {
+  let m, re = /elements\/([^\/]+)/;
+  if(m = location.pathname.match(re))
+  {
+    let id = m[1];
+    let [i_book, _] = id.split('.');
+    if(!isNaN(Number(i_book)) && canPresentPage(i_book, id))
+    {
+      presentPage(i_book, id);
+    }
+    else
+    {
+      presentCover();
+    }
+  }
+  else
+  {
+    presentCover();
+  }
+}
+
+window.rg = makeRG();
+
+const jss = create().setup(preset());
+
+const sheet = jss.createStyleSheet(style(colors));
+sheet.attach();
+
+const cs = sheet.classes;
+const made = html(colors, cs);
+
+let ground;
+window.onload = () => {
+
+  const el = document.querySelector('#container');
+  el.className = cs.container;
+  el.innerHTML = made.cover + made.page;
+
+  const svg = document.getElementById('figure');
+  ground = makeGround(rg, svg, cs);
+
+  presentForLocation();
+}
+
+window.onpopstate = (e) => {
+  presentForLocation();
+}
+
 function openPage(i_book, id) {
   if(canPresentPage(i_book, id))
   {
@@ -1116,56 +1164,6 @@ document.onclick = (e) => {
         openPage(i_book, pref.value)
       }
     }
-  }
-}
-
-const jss = create().setup(preset());
-
-const sheet = jss.createStyleSheet(style(colors));
-sheet.attach();
-
-let cs = sheet.classes;
-let made = html(colors, cs);
-
-let ground;
-window.onload = () => {
-
-  let el = document.querySelector('#container');
-  el.className = cs.container;
-  el.innerHTML = made.cover + made.page;
-
-  window.rg = makeRG();
-  window.unfoldBooks();
-  window.includeLatest();
-
-  const svg = document.getElementById('figure');
-  ground = makeGround(rg, svg, cs);
-
-  presentForLocation();
-}
-
-window.onpopstate = (e) => {
-  presentForLocation();
-}
-
-let presentForLocation = () => {
-  let m, re = /elements\/([^\/]+)/;
-  if(m = location.pathname.match(re))
-  {
-    let id = m[1];
-    let [i_book, _] = id.split('.');
-    if(!isNaN(Number(i_book)) && canPresentPage(i_book, id))
-    {
-      presentPage(i_book, id);
-    }
-    else
-    {
-      presentCover();
-    }
-  }
-  else
-  {
-    presentCover();
   }
 }
 
