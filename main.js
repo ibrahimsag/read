@@ -242,7 +242,7 @@ function makeRG (svgEl)
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
-function makeGround(rg, svg)
+function makeGround(rg, svg, cs)
 {
   let proxy = {};
 
@@ -408,16 +408,16 @@ function makeGround(rg, svg)
   function prepareProse(p)
   {
     let lastSeenFigureIndex = 0;
-    p.refcount = 0;
-    p.refp = [];
+    p.i_count = 0;
+    p.i_p = [];
     p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
       {
         return paragraphProse.split('\n').map(sentenceProse =>
           {
-            let k = p.refp.length;
-            p.refp.push(p.refcount);
-            let refRE = /(\{[^\}]*\}|\[[^\]]*\])/g;
-            let sentenceParts = sentenceProse.split(refRE);
+            let k = p.i_p.length;
+            p.i_p.push(p.i_count);
+            let i_RE = /(\{[^\}]*\}|\[[^\]]*\])/g;
+            let sentenceParts = sentenceProse.split(i_RE);
             let seenRef = false;
             let parts = sentenceParts.filter(x=>x).map(part =>
               {
@@ -500,20 +500,20 @@ function makeGround(rg, svg)
 
                 if(m || om)
                 {
-                  r.i = p.refcount;
+                  r.i = p.i_count;
                   r.k = k;
                   r.lastSeenFigureIndex = lastSeenFigureIndex;
-                  p.refcount++;
+                  p.i_count++;
                 }
 
                 return r;
               });
             if(!seenRef)
-              p.refcount++;
+              p.i_count++;
             return {parts, k, seenRef};
           });
       });
-    p.refp.push(p.refcount);
+    p.i_p.push(p.i_count);
   }
 
   function scrollToSentenceIfNecessary(el)
@@ -555,7 +555,7 @@ function makeGround(rg, svg)
         let {parts, k, seenRef} = a;
 
         let sentenceEl = document.createElement('span');
-        sentenceEl.className = 'sentence';
+        sentenceEl.className = cs.sentence;
 
         function prepPart(a)
         {
@@ -569,7 +569,6 @@ function makeGround(rg, svg)
             let f = l => {
               let a = document.createElement('a');
               a.setAttribute('pref', l.pref);
-              a.dataset.ref = i;
               a.innerText = l.prefName;
               return a;
             }
@@ -580,8 +579,8 @@ function makeGround(rg, svg)
           {
             let el = document.createElement('span');
             el.innerText = part.name;
-            el.className = 'ref';
-            el.dataset.ref = i;
+            el.className = cs.name;
+            el.dataset.i = i;
             sentenceEl.append(el);
             r = {part, i, k, lastSeenFigureIndex, el};
             us.push(r);
@@ -589,7 +588,7 @@ function makeGround(rg, svg)
         }
         parts.forEach(prepPart);
 
-        sentenceEl.dataset.ref = p.refp[k+1] - 1
+        sentenceEl.dataset.i = p.i_p[k+1] - 1
         if(!seenRef)
         {
           us.push(null);
@@ -648,9 +647,9 @@ function makeGround(rg, svg)
 
     if(o < 0)
     {
-      return present(p.refcount-2, p);
+      return present(p.i_count-2, p);
     }
-    else if (o >= p.refcount-1 && p.refcount > 0)
+    else if (o >= p.i_count-1 && p.i_count > 0)
     {
       return present(0, p);
     }
@@ -729,8 +728,8 @@ function makeGround(rg, svg)
       return lo;
     }
 
-    let k_focus = findMaxLTE(p.refp, o);
-    let k_hover = !isNaN(hover_o) ? findMaxLTE(p.refp, hover_o): null;;
+    let k_focus = findMaxLTE(p.i_p, o);
+    let k_hover = !isNaN(hover_o) ? findMaxLTE(p.i_p, hover_o): null;;
 
     let letterColor = {};
     let nearHighlights = [];
@@ -758,7 +757,7 @@ function makeGround(rg, svg)
       hover.sentenceEl.style['color'] = colors.hover;
       vs_.push(hover);
 
-      us.slice(p.refp[k_hover], p.refp[k_hover+1]).forEach(u =>
+      us.slice(p.i_p[k_hover], p.i_p[k_hover+1]).forEach(u =>
       {
         if(!u) return;
         u.el.style['color'] = colors.hover;
@@ -775,7 +774,7 @@ function makeGround(rg, svg)
     }
 
     let seenMarks = {};
-    us.slice(p.refp[k_focus], p.refp[k_focus+1]).forEach(u =>
+    us.slice(p.i_p[k_focus], p.i_p[k_focus+1]).forEach(u =>
     {
       if(!u) return;
       u.el.style['color'] = colors.sentence;
@@ -810,7 +809,7 @@ function makeGround(rg, svg)
     let m_b = document.querySelector('#move-back');
     let h_o = 35, h_b = 30;
 
-    if (o === p.refp[k_focus+1] - 1)
+    if (o === p.i_p[k_focus+1] - 1)
     {
       h_o = 30;
       h_b = 35
@@ -918,15 +917,15 @@ function makeGround(rg, svg)
         forCancel = null;
       }
 
-      let ref = parseInt(e.srcElement.dataset.ref);
-      if(isNaN(ref) && e.srcElement.attributes.pref)
+      let i = parseInt(e.srcElement.dataset.i);
+      if(isNaN(i) && e.srcElement.attributes.pref)
       {
-        ref = parseInt(e.srcElement.parentElement.dataset.ref);
+        i = parseInt(e.srcElement.parentElement.dataset.i);
       }
-      if(!isNaN(ref))
+      if(!isNaN(i))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(o, p, ref, true);
+          present(o, p, i, true);
         });
       }
     }
@@ -940,12 +939,12 @@ function makeGround(rg, svg)
         forCancel = null;
       }
 
-      let ref = parseInt(e.srcElement.dataset.ref);
-      if(!isNaN(ref))
+      let i = parseInt(e.srcElement.dataset.i);
+      if(!isNaN(i))
       {
         window.requestAnimationFrame( () => {
           forClick = false;
-          present(ref, p);
+          present(i, p);
         });
       }
     }
@@ -1286,6 +1285,14 @@ window.onload = () => {
       transition: 'all 1s ease',
     },
 
+    name: {
+      fontFamily: 'Nale',
+      transition: 'color 0.2s ease',
+    },
+    sentence: {
+      transition: 'color 0.2s ease',
+    }
+
   };
   const sheet = jss.createStyleSheet(style);
   sheet.attach();
@@ -1415,7 +1422,7 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
   window.unfoldBooks();
   window.includeLatest();
 
-  ground = makeGround(rg, svg);
+  ground = makeGround(rg, svg, cs);
 
   presentForLocation();
 }
