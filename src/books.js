@@ -1,12 +1,12 @@
-import book1 from './build/1.json';
-import book2 from './build/2.json';
-import book3 from './build/3.json';
-import book4 from './build/4.json';
-import book5 from './build/5.json';
-import book6 from './build/6.json';
-import book7 from './build/7.json';
-import book8 from './build/8.json';
-import book9 from './build/9.json';
+import book1 from '../build/1.json';
+import book2 from '../build/2.json';
+import book3 from '../build/3.json';
+import book4 from '../build/4.json';
+import book5 from '../build/5.json';
+import book6 from '../build/6.json';
+import book7 from '../build/7.json';
+import book8 from '../build/8.json';
+import book9 from '../build/9.json';
 
 let haveClips = (i_book) => (p, ind) => {
   if(!p.title.startsWith('Def'))

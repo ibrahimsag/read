@@ -5,7 +5,7 @@ import json from '@rollup/plugin-json';
 import {terser} from 'rollup-plugin-terser';
 
 export default [{
-  input: 'main.js',
+  input: 'src/main.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -17,7 +17,7 @@ export default [{
     sourcemap: false,
   }
 },{
-  input: 'experiment.js',
+  input: 'src/experiment.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -30,7 +30,7 @@ export default [{
   }
 },
 {
-  input: 'books.js',
+  input: 'src/books.js',
   plugins: [
     commonjs(),
     string({

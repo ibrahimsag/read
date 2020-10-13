@@ -5,7 +5,7 @@ import json from '@rollup/plugin-json';
 import replace from '@rollup/plugin-replace';
 
 export default [{
-  input: 'main.js',
+  input: 'src/main.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -20,7 +20,7 @@ export default [{
   }
 },
 {
-  input: 'doc.js',
+  input: 'src/doc.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -32,7 +32,7 @@ export default [{
   }
 },
 {
-  input: 'experiment.js',
+  input: 'src/experiment.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -44,7 +44,7 @@ export default [{
   }
 },
 {
-  input: 'books.js',
+  input: 'src/books.js',
   plugins: [
     json()
   ],
@@ -55,10 +55,10 @@ export default [{
   }
 },
 {
-  input: 'latest.js',
+  input: 'src/latest.js',
   plugins: [
     string({
-      include: 'elements/*/*'
+      include: 'src/elements/*/*'
     }),
     json()
   ],
