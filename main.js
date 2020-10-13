@@ -807,12 +807,12 @@ function makeGround(rg, svg, cs)
 
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
-    let h_o = 35, h_b = 30;
+    let h_o = 40, h_b = 30;
 
     if (o === p.i_p[k_focus+1] - 1)
     {
       h_o = 30;
-      h_b = 35
+      h_b = 40;
       m_o.innerText = "next sentence";
     }
     else
@@ -982,8 +982,7 @@ function presentPage(i_book, id) {
 
   let i_page = zimbirti[i_book][id];
 
-  document.querySelector('#cover').style['display'] = 'none';
-  document.querySelector('#container').style['display'] = 'flex';
+  document.querySelector('#container').className = 'page';
 
   let el = document.querySelector('#bookTitle');
   el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
@@ -1073,8 +1072,7 @@ function presentPage(i_book, id) {
 }
 
 function presentCover() {
-  document.querySelector('#cover').style['display'] = 'flex';
-  document.querySelector('#container').style['display'] = 'none';
+  document.querySelector('#container').className = 'cover';
   document.onkeydown = undefined;
 }
 
@@ -1124,179 +1122,194 @@ document.onclick = (e) => {
   }
 }
 
-let ground;
+const style_link = {
+    color: colors.link,
+    userSelect: 'none',
+    cursor: 'pointer',
+    '&:hover': {
+      color: colors.link_hover
+    }
+  };
 
-window.onload = () => {
-
-  const jss = create().setup(preset());
-
-  const style_link = {
-      color: colors.link,
-      userSelect: 'none',
-      cursor: 'pointer',
-      '&:hover': {
-        color: colors.link_hover
-      }
-    };
-
-  const style = {
-    link: style_link,
-    '@global': {
-      body: {
-        color: colors.dim,
-      },
+const style = {
+  link: style_link,
+  '@global': {
+    body: {
+      color: colors.dim,
     },
-    cover: {
-      marginLeft: 'auto',
-      width: 1024,
-      padding: 12,
-      display: 'flex',
-      'flex-flow': 'row nowrap',
-      '& h4': {
-        color: colors.sentence,
+    '#container': {
+      '&.cover': {
+        '& #page': {
+          display: 'none',
+        },
       },
-      '& a': {
-        'text-decoration': 'underline',
-        color: colors.make([0, 0, 40]),
+      '&.page': {
+        '& #cover': {
+          display: 'none',
+        },
       }
     },
-    front: {
-      textAlign: 'right',
-      width: 512,
-      paddingLeft: 24,
-      '& p': { fontSize: '0.9em' }
-    },
-    contents: {
-      width: 512,
-      '& a': {
-        ...style_link,
-        display: 'inline-block',
-      },
-      '& p': {
-        marginLeft: 20
-      },
-    },
-    helpTitle: {
-      color: colors.make([320, 100, 40])
-    },
-
-    container: {
-      marginLeft: 'auto',
-      width: 1024,
-      display: 'flex',
-      flexFlow: [['column', 'nowrap']],
-    },
-    header: {
-      height: 96,
-      flex: [[0, 0, 'auto']],
-    },
-
-    logo: {
-      padding: [[15, 25]],
-      fontSize: 40,
-      textAlign: 'right',
-      '& a': {
-        cursor: 'pointer',
-        userSelect: 'none',
-      }
-    },
-    bookTitle: {
-      fontWeight: 'bold',
-      fontSize: 20,
-      marginRight: 25,
-    },
-
-    proseHeading: {
-      display: 'flex',
-      justifyContent: 'space-between',
-      marginBottom: '3em',
-    },
-    pageNav: {
-      padding: [[3, 6]],
-      cursor: 'pointer',
-      userSelect: 'none',
-      fontWeight: 'bold',
-    },
-    proseTitle: {
-      marginRight: 'auto',
-      fontWeight: 'bold',
-      fontSize: '1.2em',
+  },
+  cover: {
+    marginLeft: 'auto',
+    width: 1024,
+    padding: 12,
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    '& h4': {
       color: colors.sentence,
     },
-
-    prose: {
-      marginLeft: 512,
-      width: 512,
-      padding: [[12, 12, 62, 12]],
-      '& a': {
-        ...style_link,
-        display: 'inline-block'
-      },
-      '& p': {
-        lineHeight: '2em',
-        marginBottom: '2em',
-      },
-      '& svg': {
-        position: 'fixed',
-        right: 562,
-        top: 146,
-      }
+    '& a': {
+      'text-decoration': 'underline',
+      color: colors.make([0, 0, 40]),
+    }
+  },
+  front: {
+    textAlign: 'right',
+    width: 512,
+    paddingLeft: 24,
+    '& p': { fontSize: '0.9em' }
+  },
+  contents: {
+    width: 512,
+    '& a': {
+      ...style_link,
+      display: 'inline-block',
     },
-
-    name: {
-      fontFamily: 'Nale',
-      transition: 'color 0.2s ease',
+    '& p': {
+      marginLeft: 20
     },
-    sentence: {
-      transition: 'color 0.2s ease',
-    },
+  },
+  helpTitle: {
+    color: colors.make([320, 100, 40])
+  },
 
-    movement: {
-      position: 'fixed',
-      bottom: 0,
-      right: 0,
-      flex: '0 0 auto',
-      height: 50,
-      width: 512,
-      display: 'flex',
-      alignItems: 'stretch',
-      color: 'black',
+  page: {
+    marginLeft: 'auto',
+    width: 1024,
+    display: 'flex',
+    flexFlow: [['column', 'nowrap']],
+  },
+  header: {
+    height: 96,
+    flex: [[0, 0, 'auto']],
+  },
+
+  logo: {
+    padding: [[15, 25]],
+    fontSize: 40,
+    textAlign: 'right',
+    '& a': {
       cursor: 'pointer',
       userSelect: 'none',
-    },
-    moveBack: {
-      width: '33%',
-      transition: 'color 0.3s ease',
-    },
-    moveOn: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      flexDirection: 'column',
-      textAlign: 'right',
-      height: 50,
-      width: '67%',
-      transition: 'color 0.3s ease',
-    },
+    }
+  },
+  bookTitle: {
+    fontWeight: 'bold',
+    fontSize: 20,
+    marginRight: 25,
+  },
 
-    figure: {
-      width: 512,
-      height: 512,
+  proseHeading: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    marginBottom: '3em',
+  },
+  pageNav: {
+    padding: [[3, 6]],
+    cursor: 'pointer',
+    userSelect: 'none',
+    fontWeight: 'bold',
+  },
+  proseTitle: {
+    marginRight: 'auto',
+    fontWeight: 'bold',
+    fontSize: '1.2em',
+    color: colors.sentence,
+  },
+
+  prose: {
+    marginLeft: 512,
+    width: 512,
+    padding: [[12, 12, 62, 12]],
+    '& a': {
+      ...style_link,
+      display: 'inline-block'
+    },
+    '& p': {
+      lineHeight: '2em',
+      marginBottom: '2em',
+    },
+    '& svg': {
       position: 'fixed',
-      right: 512,
-      top: 96,
-      transition: 'all 1s ease',
-    },
+      right: 562,
+      top: 146,
+    }
+  },
 
-  };
+  name: {
+    fontFamily: 'Nale',
+    transition: 'color 0.2s ease',
+  },
+  sentence: {
+    transition: 'color 0.2s ease',
+  },
+
+  movement: {
+    position: 'fixed',
+    bottom: 0,
+    right: 0,
+    flex: '0 0 auto',
+    height: 50,
+    width: 512,
+    display: 'flex',
+    alignItems: 'stretch',
+    color: 'black',
+    cursor: 'pointer',
+    userSelect: 'none',
+  },
+  moveBack: {
+    width: '33%',
+    transition: 'background-color 0.3s ease',
+  },
+  moveOn: {
+    width: '67%',
+    transition: 'background-color 0.3s ease',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  figure: {
+    width: 512,
+    height: 512,
+    position: 'fixed',
+    right: 512,
+    top: 96,
+    transition: 'all 0.7s ease',
+  },
+
+  c_dim: { color: colors.dim },
+  c_sentence: { color: colors.sentence },
+  c_bright: { color: colors.bright },
+};
+
+let ground;
+window.onload = () => {
+  const jss = create().setup(preset());
+
   const sheet = jss.createStyleSheet(style);
   sheet.attach();
 
   let cs = sheet.classes;
-  let html_container = `
-<div id="container" class="${cs.container}" style="display: none">
+  let html_page = `
+<div id="page" class="${cs.page}">
   <div class="${cs.header}">
-    <div class="${cs.logo}"><span class="${cs.bookTitle}" id="bookTitle"></span><a pref="cover"><span style="color: ${colors.dim}">Euc</span><span style="color: ${colors.sentence}">li</span><span style="color: ${colors.bright}">d</span></a></div>
+    <div class="${cs.logo}">
+      <span class="${cs.bookTitle}" id="bookTitle"></span>
+      <a pref="cover"><span class="${cs.c_dim}">Euc</span><span class="${cs.c_sentence}">li</span><span class="${cs.c_bright}">d</span></a>
+    </div>
   </div>
   <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
   <div class="${cs.prose}">
@@ -1314,7 +1327,7 @@ window.onload = () => {
 </div>`;
 
   let html_cover = `
-<div id="cover" class="${cs.cover}" style="display: none">
+<div id="cover" class="${cs.cover}">
   <div class="${cs.contents}">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
@@ -1395,7 +1408,7 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
   </div>
   <div class="${cs.front}">
     <h1>Euclid's Elements</h1>
-    <h3>with <span style="color: ${colors.sentence};">high</span><span style="color: ${colors.bright};">lights</span></h3>
+    <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
     <h4 style="background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
     <svg style="margin-top:-50px;" width="400px" height="400px">${smpl}</svg>
     <br>
@@ -1407,14 +1420,15 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
   </div>
 </div>`;
 
-  document.body.innerHTML = html_container + html_cover + document.body.innerHTML;
+  let el = document.querySelector('#container');
+  el.className = cs.container;
+  el.innerHTML = html_cover + html_page;
 
-  const svg = document.getElementById('figure');
-  window.rg = makeRG(svg);
-
+  window.rg = makeRG(document.createElementNS(SVG_NS, 'svg'));
   window.unfoldBooks();
   window.includeLatest();
 
+  const svg = document.getElementById('figure');
   ground = makeGround(rg, svg, cs);
 
   presentForLocation();
