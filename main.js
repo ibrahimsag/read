@@ -20,30 +20,30 @@ let colors = {
 };
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
-function makeRG (svgEl)
+function makeRG()
 {
-  const rsvg = rough.svg(svgEl);
+  const rsvg = rough.svg(document.createElementNS(SVG_NS, 'svg'));
 
   const roughopts = { roughness: 0.1, stroke: colors.dim, strokeWidth: 1 };
 
   function curve(vs, o)
   {
-    return rsvg.generator.curve(vs, Object.assign(Object.assign({}, roughopts), o));
+    return rsvg.generator.curve(vs, {...roughopts, ...o});
   }
 
   function polygon(vs, o)
   {
-    return rsvg.generator.polygon(vs, Object.assign(Object.assign({}, roughopts), o));
+    return rsvg.generator.polygon(vs, {...roughopts, ...o});
   }
 
   function line(a, b, o)
   {
-    return rsvg.generator.line(a[0], a[1], b[0], b[1], Object.assign(Object.assign({}, roughopts), o));
+    return rsvg.generator.line(a[0], a[1], b[0], b[1], {...roughopts, ...o});
   }
 
   function circle(c, d, o)
   {
-    return rsvg.generator.circle(c[0], c[1], d, Object.assign(Object.assign({}, roughopts), o));
+    return rsvg.generator.circle(c[0], c[1], d, {...roughopts, ...o});
   }
 
   function anglecurve(a, o, b)
@@ -84,7 +84,7 @@ function makeRG (svgEl)
     let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
     if(start > end)
       end += Math.PI * 2;
-    return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, Object.assign(Object.assign({}, roughopts), o));
+    return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, {...roughopts, ...o});
   }
 
   function gnomon(c, d, e)
@@ -195,13 +195,7 @@ function makeRG (svgEl)
     }
     else if(h.typ == 'given' && p.given && p.given[h.name])
     {
-      shapes = p.given[h.name].map(s =>
-        {
-          let r = Object.assign({}, s);
-          r.options = {};
-          Object.assign(r.options, s.options);
-          return r;
-        });
+      shapes = p.given[h.name].map(s => ({ ...s, options: {...s.options} }));
     }
     else
     {
@@ -421,7 +415,7 @@ function makeGround(rg, svg, cs)
             p.i_p.push(p.i_count);
             let i_RE = /(\{[^\}]*\}|\[[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(i_RE);
-            let seenRef = false;
+            let seen = false;
             let parts = sentenceParts.filter(x=>x).map(part =>
               {
 
@@ -486,13 +480,13 @@ function makeGround(rg, svg, cs)
                 }
                 else if(m)
                 {
-                  seenRef = true;
+                  seen = true;
                   let name = m[1];
                   r = { part: { name } };
                 }
                 else if(om)
                 {
-                  seenRef = true;
+                  seen = true;
                   r = { part: { name: om[1], typ: om[2] }};
                   if(om[3])
                     r.part.arg = om[3].trim();
@@ -511,9 +505,9 @@ function makeGround(rg, svg, cs)
 
                 return r;
               });
-            if(!seenRef)
+            if(!seen)
               p.i_count++;
-            return {parts, k, seenRef};
+            return {parts, k, seen};
           });
       });
     p.i_p.push(p.i_count);
@@ -555,7 +549,7 @@ function makeGround(rg, svg, cs)
       let paragraphEl = document.createElement('p');
       sentences.forEach(a =>
       {
-        let {parts, k, seenRef} = a;
+        let {parts, k, seen} = a;
 
         let sentenceEl = document.createElement('span');
         sentenceEl.className = cs.sentence;
@@ -592,7 +586,7 @@ function makeGround(rg, svg, cs)
         parts.forEach(prepPart);
 
         sentenceEl.dataset.i = p.i_p[k+1] - 1
-        if(!seenRef)
+        if(!seen)
         {
           us.push(null);
         }
@@ -694,7 +688,7 @@ function makeGround(rg, svg, cs)
               delete d.letters[l];
               l.split(/\s*/).forEach(l =>
                 {
-                  let o = Object.assign({}, t);
+                  let o = {...t};
                   d.letters[l] = o;
                   t.x += 30;
                 });
@@ -1140,7 +1134,7 @@ window.onload = () => {
   el.className = cs.container;
   el.innerHTML = made.cover + made.page;
 
-  window.rg = makeRG(document.createElementNS(SVG_NS, 'svg'));
+  window.rg = makeRG();
   window.unfoldBooks();
   window.includeLatest();
 
