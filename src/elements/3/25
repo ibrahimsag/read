@@ -9,7 +9,7 @@ Thus, angle {ABD angle} is surely either greater than, equal to, or less than (a
 
 {figure 1}First of all, let it be greater.
 And let (angle) {BAE angle}, equal to angle {ABD angle}, have been constructed on the straight-line {BA line}, at the point {A point} on it [Prop. 1.23].
-And let {DB line} have been drawn through to {E point}, and let {EC line} have been joined.
+And let {DB line} have been drawn through to {E point} (as {BE line}), and let {EC line} have been joined.
 Therefore, since angle {ABE angle} is equal to {BAE angle}, the straight-line {EB line} is thus also equal to {EA line} [Prop. 1.6].
 And since {AD line} is equal to {DC line}, and {DE line} (is) common, the two (straight-lines) {AD line}, {DE line} are equal to the two (straight-lines) {CD line}, {DE line}, respectively.
 And angle {ADE angle} is equal to angle {CDE angle}.

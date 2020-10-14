@@ -3,7 +3,7 @@ If two internal straight-lines are constructed on one of the sides of a triangle
 For let the two internal straight-lines {BD line} and {DC line} have been constructed on one of the sides {BC line} of the triangle {ABC polygon}, from its ends {B point} and {C point} (respectively).
 I say that {BD line} and {DC line} are less than the (sum of the) two remaining sides of the triangle {BA line} and {AC line}, but encompass an angle {BDC angle} greater than {BAC angle}.
 
-For let {BD line} have been drawn through to {E point}.
+For let {BD line} have been drawn through to {E point} (as {BE line}).
 And since for every triangle (the sum of any) two sides is greater than the remaining (side) [Prop. 1.20], for triangle {ABE polygon} the (sum of the) two sides {AB line} and {AE line} is thus greater than {BE line}.
 Let {EC line} have been added to both.
 Thus, (the sum of) {BA line} and {AC line} is greater than (the sum of) {BE line} and {EC line}.

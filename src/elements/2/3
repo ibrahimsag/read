@@ -3,7 +3,7 @@ If a straight-line is cut at random then the rectangle contained by the whole (s
 For let the straight-line {AB line} have been cut, at random, at (point) {C point}.
 I say that the rectangle contained by {AB line} and {BC line} is equal to the rectangle contained by {AC line} and {CB line}, plus the square on {BC line}.
 
-For let the square {CDEB polygon} have been described on {CB line} [Prop. 1.46], and let {ED line} have been drawn through to {F point}, and let {AF line} have been drawn through {A point}, parallel to either of {CD line} or {BE line} [Prop. 1.31].
+For let the square {CDEB polygon} have been described on {CB line} [Prop. 1.46], and let {ED line} have been drawn through to {F point} (as {EF line}), and let {AF line} have been drawn through {A point}, parallel to either of {CD line} or {BE line} [Prop. 1.31].
 So the (rectangle) {AE polygon} is equal to the (rectangle) {AD polygon} and the (square) {CE polygon}.
 And {AE polygon} is the rectangle contained by {AB line} and {BC line}.
 For it is contained by {AB line} and {BE line}, and {BE line} (is) equal to {BC line}.

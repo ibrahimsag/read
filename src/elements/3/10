@@ -2,7 +2,7 @@ A circle does not cut a(nother) circle at more than two points.
 
 For, if possible, let the circle {ABC circle P} cut the circle {DEF given} at more than two points, {B point}, {G point}, {F point}, and {H point}.
 And {BH line} and {BG line} being joined, let them (then) have been cut in half at points {K point} and {L point} (respectively).
-And {KC line} and {LM line} being drawn at right-angles to {BH line} and {BG line} from {K point} and {L point} (respectively) [Prop. 1.11], let them (then) have been drawn through to points {A point} and {E point} (respectively).
+And {KC line} and {LM line} being drawn at right-angles to {BH line} and {BG line} from {K point} and {L point} (respectively) [Prop. 1.11], let them (then) have been drawn through to points {A point} and {E point} (as {CA line} and {ME line}, respectively).
 
 Therefore, since in circle {ABC circle P} some straight-line {AC line} cuts some (other) straight-line {BH line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {AC line} [Prop. 3.1 corr.].
 Again, since in the same circle {ABC line} some straight-line {NO line} cuts some (other straight-line) {BG line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {NO line} [Prop. 3.1 corr.].

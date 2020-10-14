@@ -5,7 +5,7 @@ So it is required to apply a parallelogram equal to the given triangle {C given}
 
 Let the parallelogram {BEFG polygon}, equal to the triangle {C given}, have been constructed in the angle {EBG angle}, which is equal to {D given} [Prop. 1.42].
 And let it have been placed so that {BE line} is straight-on to {AB line}.
-And let {FG line} have been drawn through to {H point}, and let {AH line} have been drawn through {A point} parallel to either of {BG line} or {EF line} [Prop. 1.31], and let {HB line} have been joined.
+And let {FG line} have been drawn through to {H point} (as {FH line}), and let {AH line} have been drawn through {A point} parallel to either of {BG line} or {EF line} [Prop. 1.31], and let {HB line} have been joined.
 And since the straight-line {HF line} falls across the parallel-lines {AH line} and {EF line}, the (sum of the) angles {AHF angle} and {HFE angle} is thus equal to two right-angles [Prop. 1.29].
 Thus, (the sum of) {BHG angle} and {GFE angle} is less than two right-angles.
 And (straight-lines) produced to infinity from (internal angles whose sum is) less than two right-angles meet together [Post. 5].
