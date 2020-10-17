@@ -698,7 +698,7 @@ function makeGround(rg, svg, cs)
       proseEl.querySelectorAll('svg').forEach(el => proseEl.removeChild(el));
       let installSVG = () => {
         let placeholder = se('svg');
-        proseEl.appendChild(placeholder);
+        proseEl.insertBefore(placeholder, proseEl.firstChild);
         placeholder.outerHTML = p.imgData.svgStr;
         let imgEl = proseEl.querySelector('svg');
 
