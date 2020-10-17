@@ -3,6 +3,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve';
 import { string } from "rollup-plugin-string";
 import json from '@rollup/plugin-json';
 import {terser} from 'rollup-plugin-terser';
+import replace from '@rollup/plugin-replace';
 
 export default [{
   input: 'src/main.js',
@@ -10,6 +11,9 @@ export default [{
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
     terser(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
   ],
   output: {
     file: 'build/main.js',
