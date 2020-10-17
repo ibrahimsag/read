@@ -98,16 +98,17 @@ function make(colors, cs)
 <div id="page" class="${cs.page}">
   <div class="${cs.header}">
     <div class="${cs.logo}">
-      <span class="${cs.bookTitle}" id="bookTitle"></span>
-      <a pref="cover"><span class="${cs.c_dim}">Euc</span><span class="${cs.c_sentence}">li</span><span class="${cs.c_bright}">d</span></a>
+      <span class="${cs.bookTitle}" id="bookTitle"></span><a pref="cover"><span class="${cs.c_bright}">c</span><span class="${cs.c_sentence}">b</span><span class="${cs.c_dim}">r</span></a>
     </div>
   </div>
-  <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
   <div class="${cs.prose}">
     <div class="${cs.proseHeading}">
       <div id="proseTitle" class="${cs.proseTitle}"></div>
       <div class="${cs.pageNav} ${cs.link}" id="prev-page">before</div>
       <div class="${cs.pageNav} ${cs.link}" id="next-page">after</div>
+    </div>
+    <div id="figureWrap" class="${cs.figureWrap}">
+      <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
     </div>
     <div id="proseContent"></div>
   </div>

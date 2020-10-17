@@ -64,18 +64,20 @@ function make(colors)
 
     page: {
       marginLeft: 'auto',
-      width: 1024,
+      width: '100%',
+      maxWidth: 1024,
       display: 'flex',
       flexFlow: [['column', 'nowrap']],
+      alignItems: 'flex-end',
     },
     header: {
-      height: 96,
+      height: 76,
       flex: [[0, 0, 'auto']],
     },
 
     logo: {
       padding: [[15, 25]],
-      fontSize: 40,
+      fontSize: 35,
       textAlign: 'right',
       '& a': {
         cursor: 'pointer',
@@ -84,14 +86,16 @@ function make(colors)
     },
     bookTitle: {
       fontWeight: 'bold',
-      fontSize: 20,
-      marginRight: 25,
+      fontSize: 16,
+      marginRight: 20,
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis'
     },
 
     proseHeading: {
       display: 'flex',
       justifyContent: 'space-between',
-      marginBottom: '3em',
     },
     pageNav: {
       padding: [[3, 6]],
@@ -100,15 +104,15 @@ function make(colors)
       fontWeight: 'bold',
     },
     proseTitle: {
-      marginRight: 'auto',
+      marginRight: '20px',
+      marginLeft: 'auto',
       fontWeight: 'bold',
       fontSize: '1.2em',
       color: colors.sentence,
     },
 
     prose: {
-      marginLeft: 512,
-      width: 512,
+      width: '100%',
       padding: [[12, 12, 62, 12]],
       '& a': {
         ...style_link,
@@ -117,12 +121,8 @@ function make(colors)
       '& p': {
         lineHeight: '2em',
         marginBottom: '2em',
+        textAlign: 'right',
       },
-      '& svg': {
-        position: 'fixed',
-        right: 562,
-        top: 146,
-      }
     },
 
     name: {
@@ -139,7 +139,8 @@ function make(colors)
       right: 0,
       flex: '0 0 auto',
       height: 50,
-      width: 512,
+      maxWidth: 1024,
+      width: '100%',
       display: 'flex',
       alignItems: 'stretch',
       color: 'black',
@@ -159,13 +160,14 @@ function make(colors)
       alignItems: 'center',
     },
 
-    figure: {
-      width: 512,
-      height: 512,
-      position: 'fixed',
-      right: 512,
-      top: 96,
+    figureWrap: {
+      display: 'flex',
+      width: '100%',
+      marginLeft: -12,
       transition: 'all 0.7s ease',
+    },
+    figure: {
+      margin: [0, 'auto'],
     },
 
     c_dim: { color: colors.dim },

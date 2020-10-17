@@ -20,9 +20,46 @@ let colors = {
 };
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
+
+/**
+ * Create DOM node, set attributes.
+ *
+ * @param {String} name
+ * @param {Object} [attrs]
+ * @return Element
+ */
+function de(name, attrs)
+{
+  const element = document.createElement(name)
+
+  if(attrs)
+  {
+    for (const attr in attrs)
+    {
+      element.setAttribute(attr, attrs[attr])
+    }
+  }
+
+  return element
+}
+function se(name, attrs)
+{
+  const element = document.createElementNS(SVG_NS, name)
+
+  if(attrs)
+  {
+    for (const attr in attrs)
+    {
+      element.setAttribute(attr, attrs[attr])
+    }
+  }
+
+  return element
+}
+
 function makeRG()
 {
-  const rsvg = rough.svg(document.createElementNS(SVG_NS, 'svg'));
+  const rsvg = rough.svg(de('svg'));
 
   const roughopts = { roughness: 0.1, stroke: colors.dim, strokeWidth: 1 };
 
@@ -383,7 +420,7 @@ function makeGround(rg, svg, cs)
     {
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
-      var el = document.createElementNS(SVG_NS, 'text');
+      var el = se('text');
       el.setAttribute('font-family', 'Nale');
       el.setAttribute('font-size', shouldBeSmall ? 16 : 24);
       let fillcolor = colors.dim;
@@ -522,7 +559,7 @@ function makeGround(rg, svg, cs)
       let c = { t: el.offsetTop, b: el.offsetTop + el.offsetHeight };
       if((p.t > (c.t - 10)) || (p.b < (c.b + 10)))
       {
-        let t = Math.max(c.t - ph * 0.38, 96);
+        let t = Math.max(c.t - ph * 0.38, 76);
         window.scrollTo(0, t);
       }
     })
@@ -536,7 +573,6 @@ function makeGround(rg, svg, cs)
 
   function prepareDOM(proseEl, p)
   {
-    last_p_id = p.id;
     us = [];
     us_ = [];
     vs = [];
@@ -546,12 +582,12 @@ function makeGround(rg, svg, cs)
 
     p.paragraphs.forEach(sentences =>
     {
-      let paragraphEl = document.createElement('p');
+      let paragraphEl = de('p');
       sentences.forEach(a =>
       {
         let {parts, k, seen} = a;
 
-        let sentenceEl = document.createElement('span');
+        let sentenceEl = de('span');
         sentenceEl.className = cs.sentence;
 
         function prepPart(a)
@@ -564,7 +600,7 @@ function makeGround(rg, svg, cs)
           else if(part.prefs)
           {
             let f = l => {
-              let a = document.createElement('a');
+              let a = de('a');
               a.setAttribute('pref', l.pref);
               a.innerText = l.prefName;
               return a;
@@ -574,7 +610,7 @@ function makeGround(rg, svg, cs)
           }
           else if(part.name)
           {
-            let el = document.createElement('span');
+            let el = de('span');
             el.innerText = part.name;
             el.className = cs.name;
             el.dataset.i = i;
@@ -604,7 +640,7 @@ function makeGround(rg, svg, cs)
 
     for(var l in letters) {
       let d = letters[l];
-      var el = document.createElementNS(SVG_NS, 'text');
+      var el = se('text');
       el.textContent = l;
       el.setAttribute('font-family', 'Nale');
       el.setAttribute('font-size', d.s);
@@ -661,7 +697,7 @@ function makeGround(rg, svg, cs)
 
       proseEl.querySelectorAll('svg').forEach(el => proseEl.removeChild(el));
       let installSVG = () => {
-        let placeholder = document.createElementNS(SVG_NS, 'svg');
+        let placeholder = se('svg');
         proseEl.appendChild(placeholder);
         placeholder.outerHTML = p.imgData.svgStr;
         let imgEl = proseEl.querySelector('svg');
@@ -832,31 +868,33 @@ function makeGround(rg, svg, cs)
     let hs = highlights.filter(h=>h.typ);
     let nhs = nearHighlights.filter(h=>h.typ);
     let hhs = hoverHighlights.filter(h=>h.typ);
+    let g = se('g');
+    svg.append(g);
     if(!p.figures)
     {
       let figure = p;
-      let shapes = figure.shapes.map(rg.draw);
-      let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
+      g.append(...figure.shapes.map(rg.draw));
 
+      let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
       nhs.forEach( f('sentence') );
       hs.forEach( f('bright') );
 
       hhs.forEach( f('hover_bright') );
-      shapes.forEach(el => svg.appendChild(el));
 
       let els = prepareLetterOverlay(p, letterColor, true, false);
-      els.map(el => svg.appendChild(el));
+      svg.append(...els);
     }
     else
     {
       for(var i = 0; i < p.figures.length; i++)
       {
         let figure = p.figures[i];
+        g.append(...figure.shapes.map(rg.draw));
+
         let highlightFigure = figureIndex == 0 || figureIndex == i+1;
         let hoverHighlightFigure = hoverFigureIndex == 0 || hoverFigureIndex == i+1;
 
-        let shapes = figure.shapes.map(rg.draw);
-        let f = l => h => shapes.push(...rg.makeHighlight(figure, l, h).map(rg.draw));
+        let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
         if(highlightFigure)
         {
           nhs.forEach( f('sentence') );
@@ -866,12 +904,22 @@ function makeGround(rg, svg, cs)
         {
           hhs.forEach( f('hover_bright') );
         }
-        shapes.forEach(el => svg.appendChild(el));
 
         let els = prepareLetterOverlay(figure, letterColor, highlightFigure, true);
-        els.forEach(el => svg.appendChild(el));
+        svg.append(...els);
       }
     }
+
+    if(last_p_id != p.id)
+    {
+      let r = g.getBBox();
+      console.log(r.width, r.height);
+      svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
+      svg.setAttribute('width', r.width + 100);
+      svg.setAttribute('height', r.height + 100);
+    }
+
+    last_p_id = p.id;
 
     if(p.img && p.imgData)
     {
@@ -1166,42 +1214,3 @@ document.onclick = (e) => {
     }
   }
 }
-
-function alignFigure(scroll_position) {
-  let t, d;
-  if(scroll_position > 0)
-  {
-    if(scroll_position > 95)
-      t = 0;
-    else
-      t = 96;
-  }
-  else
-  {
-    t = 96 - scroll_position;
-  }
-  let h = Math.min(512, window.innerHeight - Math.min(96, t));
-  let el = document.querySelector('#figure');
-  el.style['top'] = t;
-  el.style['width'] = h;
-  el.style['height'] = h;
-}
-
-let last_known_scroll_position = 0;
-let ticking = false;
-
-function queueAlign() {
-  last_known_scroll_position = window.scrollY;
-
-  if (!ticking) {
-    window.requestAnimationFrame(function() {
-      alignFigure(last_known_scroll_position);
-      ticking = false;
-    });
-
-    ticking = true;
-  }
-}
-window.addEventListener('scroll', queueAlign);
-
-window.onresize = queueAlign;
