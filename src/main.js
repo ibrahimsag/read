@@ -456,33 +456,33 @@ function makeGround(rg, svg, cs)
             let parts = sentenceParts.filter(x=>x).map(part =>
               {
 
-                let markRE = /\{([A-Z]+)\}/;
-                let m = part.match(markRE);
+                let nameRE = /\{([A-Z]+)\}/;
+                let nm = part.match(nameRE);
                 let overlayRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
                 let propsRE = /\[Props. [^\]]*\]/;
-                let psm = part.match(propsRE);
+                let rsm = part.match(propsRE);
                 let propRE = /\[Prop. ([0-9]+.[0-9]+)([^\]]*)\]/;
-                let pm = part.match(propRE);
+                let rm = part.match(propRE);
                 let r;
 
-                if(pm)
+                if(rm)
                 {
-                  let pref = pm[1], rest = pm[2].split(', ');
+                  let pref = rm[1], rest = rm[2].split(', ');
                   if(rest[0] == ' lem. II')
                     pref += '-lemII'
                   else if(rest[0] == ' lem. I')
                     pref += '-lemI'
                   else if(rest[0] == ' lem.')
                     pref += '-lem'
-                  r = { part: { prefs: [{ prefName: pm[0], pref }]} };
+                  r = { part: { prefs: [{ prefName: rm[0], pref }]} };
                 }
-                else if(psm)
+                else if(rsm)
                 {
                   let n = 0;
-                  let ls = psm[0].split(', ').map(s => {
+                  let ls = rsm[0].split(', ').map(s => {
                     let re = /([0-9]+.[0-9]+)/;
                     let m = s.match(re);
                     let pref = m[1];
@@ -515,7 +515,7 @@ function makeGround(rg, svg, cs)
 
                   lastSeenFigureIndex = figureInd;
                 }
-                else if(m)
+                else if(nm)
                 {
                   seen = true;
                   let name = m[1];
