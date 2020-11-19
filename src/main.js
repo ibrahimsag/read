@@ -532,7 +532,7 @@ function makeGround(rg, svg, cs)
                   r = { part: { text: part } };
                 }
 
-                if(m || om)
+                if(nm || om)
                 {
                   r.i = p.i_count;
                   r.k = k;
