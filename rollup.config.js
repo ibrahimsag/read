@@ -20,6 +20,19 @@ export default [{
   }
 },
 {
+  input: 'src/thex.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+  ],
+  output: {
+    name: 'thex',
+    file: 'build/thex.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
   input: 'src/doc.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),

@@ -6,6 +6,7 @@ const port = 3000
 app.use('/build', express.static('build'));
 app.use('/img', express.static('img'));
 app.use('/fonts/', express.static('public/fonts'));
+app.use('/js/', express.static('public/js'));
 app.use('/', express.static('.'));
 
 app.use(express.json());
@@ -29,6 +30,10 @@ app.post('/store', (req, res) => {
     }
   });
 });
+
+app.get('/thex', (req, res) => {
+  res.sendFile(__dirname + '/thex.html');
+})
 
 app.get('/elements/*', (req, res) => {
   res.sendFile(__dirname + '/elements.html');
