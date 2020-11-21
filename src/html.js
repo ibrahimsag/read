@@ -98,7 +98,7 @@ function make(colors, cs)
 <div id="page" class="${cs.page}">
   <div class="${cs.header}">
     <div class="${cs.logo}">
-      <span class="${cs.bookTitle}" id="bookTitle"></span><a pref="cover"><span class="${cs.c_bright}">c</span><span class="${cs.c_sentence}">b</span><span class="${cs.c_dim}">r</span></a>
+      <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
     </div>
   </div>
   <div class="${cs.prose}">

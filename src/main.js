@@ -1030,7 +1030,7 @@ function presentPage(i_book, id) {
   document.querySelector('#container').className = 'page';
 
   let el = document.querySelector('#bookTitle');
-  el.innerText = 'Elements Book ' + (i_book) + ' - ' + books.descs[i_book-1];
+  el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
   let i_p = Math.min(ps.length-1, i_page);
   ground.present(null, ps[i_p]);

@@ -77,17 +77,15 @@ function make(colors)
 
     logo: {
       padding: [[15, 25]],
-      fontSize: 35,
       textAlign: 'right',
       '& a': {
+        fontSize: '1.2em',
+        ...style_link,
         cursor: 'pointer',
         userSelect: 'none',
       }
     },
     bookTitle: {
-      fontWeight: 'bold',
-      fontSize: 16,
-      marginRight: 20,
       whiteSpace: 'nowrap',
       overflow: 'hidden',
       textOverflow: 'ellipsis'
