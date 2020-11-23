@@ -94,6 +94,7 @@ function make(colors)
     proseHeading: {
       display: 'flex',
       justifyContent: 'space-between',
+      marginBottom: '3em',
     },
     pageNav: {
       padding: [[3, 6]],
@@ -102,15 +103,15 @@ function make(colors)
       fontWeight: 'bold',
     },
     proseTitle: {
-      marginRight: '20px',
-      marginLeft: 'auto',
+      marginRight: 'auto',
       fontWeight: 'bold',
       fontSize: '1.2em',
       color: colors.sentence,
     },
 
     prose: {
-      width: '100%',
+      marginLeft: 512,
+      width: 512,
       padding: [[12, 12, 62, 12]],
       '& a': {
         ...style_link,
@@ -137,8 +138,7 @@ function make(colors)
       right: 0,
       flex: '0 0 auto',
       height: 50,
-      maxWidth: 1024,
-      width: '100%',
+      width: 512,
       display: 'flex',
       alignItems: 'stretch',
       color: 'black',
@@ -160,12 +160,17 @@ function make(colors)
 
     figureWrap: {
       display: 'flex',
-      width: '100%',
+      width: 512,
+      height: 512,
+      position: 'fixed',
+      right: 512,
+      top: 76,
+
       marginLeft: -12,
       transition: 'all 0.7s ease',
     },
     figure: {
-      margin: [0, 'auto'],
+      marginLeft: 'auto',
     },
 
     c_dim: { color: colors.dim },

@@ -1214,3 +1214,42 @@ document.onclick = (e) => {
     }
   }
 }
+
+function alignFigure(scroll_position) {
+  let t, d;
+  if(scroll_position > 0)
+  {
+    if(scroll_position > 75)
+      t = 0;
+    else
+      t = 76;
+  }
+  else
+  {
+    t = 76 - scroll_position;
+  }
+  let h = Math.min(512, window.innerHeight - Math.min(76, t));
+  let el = document.querySelector('#figureWrap');
+  el.style['top'] = t + 'px';
+  el.style['width'] = h;
+  el.style['height'] = h;
+}
+
+let last_known_scroll_position = 0;
+let ticking = false;
+
+function queueAlign() {
+  last_known_scroll_position = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      alignFigure(last_known_scroll_position);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+}
+window.addEventListener('scroll', queueAlign);
+
+window.onresize = queueAlign;
