@@ -518,7 +518,7 @@ function makeGround(rg, svg, cs)
                 else if(nm)
                 {
                   seen = true;
-                  let name = m[1];
+                  let name = nm[1];
                   r = { part: { name } };
                 }
                 else if(om)
@@ -913,7 +913,6 @@ function makeGround(rg, svg, cs)
     if(last_p_id != p.id)
     {
       let r = g.getBBox();
-      console.log(r.width, r.height);
       svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
       svg.setAttribute('width', r.width + 100);
       svg.setAttribute('height', r.height + 100);
@@ -1146,7 +1145,7 @@ window.rg = makeRG();
 
 const jss = create().setup(preset());
 
-const sheet = jss.createStyleSheet(style(colors));
+const sheet = jss.createStyleSheet(style(colors), {link: true});
 sheet.attach();
 
 const cs = sheet.classes;
@@ -1159,7 +1158,7 @@ window.onload = () => {
   el.className = cs.container;
   el.innerHTML = made.cover + made.page;
 
-  const svg = document.getElementById('figure');
+  const svg = document.querySelector('#figure');
   ground = makeGround(rg, svg, cs);
 
   presentForLocation();
@@ -1229,10 +1228,11 @@ function alignFigure(scroll_position) {
     t = 76 - scroll_position;
   }
   let h = Math.min(512, window.innerHeight - Math.min(76, t));
-  let el = document.querySelector('#figureWrap');
-  el.style['top'] = t + 'px';
-  el.style['width'] = h;
-  el.style['height'] = h;
+
+  let rule = sheet.getRule('auxColumn');
+  rule.prop('top', t);
+  rule.prop('width', h);
+  rule.prop('height', h);
 }
 
 let last_known_scroll_position = 0;

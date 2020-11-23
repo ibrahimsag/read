@@ -107,10 +107,10 @@ function make(colors, cs)
       <div class="${cs.pageNav} ${cs.link}" id="prev-page">before</div>
       <div class="${cs.pageNav} ${cs.link}" id="next-page">after</div>
     </div>
-    <div id="figureWrap" class="${cs.figureWrap}">
-      <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
-    </div>
     <div id="proseContent"></div>
+  </div>
+  <div class="${cs.auxColumn}">
+    <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
   </div>
   <div class="${cs.movement}">
     <a id="move-back" class="${cs.moveBack}"></a>

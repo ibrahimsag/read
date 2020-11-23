@@ -158,7 +158,7 @@ function make(colors)
       alignItems: 'center',
     },
 
-    figureWrap: {
+    auxColumn: {
       display: 'flex',
       width: 512,
       height: 512,
