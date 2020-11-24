@@ -160,6 +160,8 @@ function make(colors)
 
     auxColumn: {
       display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-end',
       width: 512,
       height: 512,
       position: 'fixed',
@@ -168,9 +170,6 @@ function make(colors)
 
       marginLeft: -12,
       transition: 'all 0.7s ease',
-    },
-    figure: {
-      marginLeft: 'auto',
     },
 
     c_dim: { color: colors.dim },

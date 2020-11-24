@@ -109,8 +109,8 @@ function make(colors, cs)
     </div>
     <div id="proseContent"></div>
   </div>
-  <div class="${cs.auxColumn}">
-    <svg id="figure" class="${cs.figure}" viewbox="0 0 512 512"></svg>
+  <div id="auxColumn" class="${cs.auxColumn}">
+    <svg id="figure" viewbox="0 0 512 512"></svg>
   </div>
   <div class="${cs.movement}">
     <a id="move-back" class="${cs.moveBack}"></a>

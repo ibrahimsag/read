@@ -688,6 +688,7 @@ function makeGround(rg, svg, cs)
     }
 
     let proseEl = document.querySelector('#proseContent');
+    let auxColumnEl = document.querySelector('#auxColumn');
     if(last_p_id != p.id)
     {
       let titleEl = document.querySelector('#proseTitle');
@@ -695,16 +696,14 @@ function makeGround(rg, svg, cs)
 
       prepareDOM(proseEl, p);
 
-      proseEl.querySelectorAll('svg').forEach(el => proseEl.removeChild(el));
-      let installSVG = () => {
-        let placeholder = se('svg');
-        proseEl.insertBefore(placeholder, proseEl.firstChild);
-        placeholder.outerHTML = p.imgData.svgStr;
-        let imgEl = proseEl.querySelector('svg');
+      auxColumnEl.querySelectorAll('.given').forEach(el => auxColumnEl.removeChild(el));
 
-        let b = imgEl.viewBox.baseVal;
-        let s = rg.draw(rg.line([b.x+100, b.y+1], [b.x+200,b.y+1], { stroke: hsluv.hpluvToHex([-30, 100, 50]) }));
-        imgEl.appendChild(s);
+      let installSVG = () => {
+        let mark = de('div');
+        mark.className = 'given';
+        mark.innerHTML = p.imgData.svgStr;
+        auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
+        let imgEl = mark.querySelector('svg');
 
         refreshImgLetters(imgEl, p.imgData.letters, {});
       }
@@ -922,7 +921,7 @@ function makeGround(rg, svg, cs)
 
     if(p.img && p.imgData)
     {
-      let imgEl = proseEl.querySelector('svg');
+      let imgEl = auxColumnEl.querySelector('.given svg');
 
       refreshImgLetters(imgEl, p.imgData.letters, letterColor);
     }
@@ -1056,10 +1055,10 @@ function presentPage(i_book, id) {
     }
     else if(e.key == "h")
     {
-      let s = document.querySelector('#proseContent svg');
+      let s = document.querySelector('#auxColumn .given');
       if(s && s.style.display != "none")
         s.style.display = "none";
-      else
+      else if(s)
         s.style.display = null;
     }
   }
