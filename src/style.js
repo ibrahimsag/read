@@ -125,33 +125,41 @@ function make(colors)
     },
 
     name: {
-      fontFamily: 'Nale',
       transition: 'color 0.2s ease',
+
+      fontFamily: 'Nale',
     },
     sentence: {
       transition: 'color 0.2s ease',
     },
 
     movement: {
+      width: 512,
+      height: 50,
+
       position: 'fixed',
       bottom: 0,
       right: 0,
+
       flex: '0 0 auto',
-      height: 50,
-      width: 512,
       display: 'flex',
       alignItems: 'stretch',
+
       color: 'black',
+
       cursor: 'pointer',
       userSelect: 'none',
     },
     moveBack: {
-      width: '33%',
       transition: 'background-color 0.3s ease',
+
+      width: '33%',
     },
     moveOn: {
-      width: '67%',
       transition: 'background-color 0.3s ease',
+
+      width: '67%',
+
       display: 'flex',
       flexDirection: 'column',
       justifyContent: 'center',
@@ -159,17 +167,18 @@ function make(colors)
     },
 
     auxColumn: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'flex-end',
+      transition: 'all 0.7s ease',
+
       width: 512,
       height: 512,
+
       position: 'fixed',
       right: 512,
       top: 76,
 
-      marginLeft: -12,
-      transition: 'all 0.7s ease',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-end',
     },
 
     c_dim: { color: colors.dim },

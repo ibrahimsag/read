@@ -701,6 +701,7 @@ function makeGround(rg, svg, cs)
       let installSVG = () => {
         let mark = de('div');
         mark.className = 'given';
+        mark.style.margin = "10px";
         mark.innerHTML = p.imgData.svgStr;
         auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
         let imgEl = mark.querySelector('svg');
@@ -1056,10 +1057,13 @@ function presentPage(i_book, id) {
     else if(e.key == "h")
     {
       let s = document.querySelector('#auxColumn .given');
-      if(s && s.style.display != "none")
-        s.style.display = "none";
-      else if(s)
-        s.style.display = null;
+      if(s)
+      {
+        if(s.style.display != "none")
+          s.style.display = "none";
+        else
+          s.style.display = null;
+      }
     }
   }
 
