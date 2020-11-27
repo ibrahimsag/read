@@ -90,7 +90,6 @@ function make(colors, cs)
     <p>- R. Descartes, A Discourse on the Method, 1637</p>
     <br>
     <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
-    <p><a href="https://ibrahim129.typeform.com/to/u0jOG4VD">Contact</a> for feedback.</p>
   </div>
 </div>`;
 
