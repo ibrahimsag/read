@@ -55,6 +55,78 @@ import prop44 from './10/44';
 import prop45 from './10/45';
 import prop46 from './10/46';
 import prop47 from './10/47';
+import propdef2 from './10/def2';
+import prop48 from './10/48';
+import prop49 from './10/49';
+import prop50 from './10/50';
+import prop51 from './10/51';
+import prop52 from './10/52';
+import prop53 from './10/53';
+import propl8 from './10/l8-53';
+import prop54 from './10/54';
+import prop55 from './10/55';
+import prop56 from './10/56';
+import prop57 from './10/57';
+import prop58 from './10/58';
+import prop59 from './10/59';
+import propl9 from './10/l9-59';
+import prop60 from './10/60';
+import prop61 from './10/61';
+import prop62 from './10/62';
+import prop63 from './10/63';
+import prop64 from './10/64';
+import prop65 from './10/65';
+import prop66 from './10/66';
+import prop67 from './10/67';
+import prop68 from './10/68';
+import prop69 from './10/69';
+import prop70 from './10/70';
+import prop71 from './10/71';
+import prop72 from './10/72';
+import prop73 from './10/73';
+import prop74 from './10/74';
+import prop75 from './10/75';
+import prop76 from './10/76';
+import prop77 from './10/77';
+import prop78 from './10/78';
+import prop79 from './10/79';
+import prop80 from './10/80';
+import prop81 from './10/81';
+import prop82 from './10/82';
+import prop83 from './10/83';
+import prop84 from './10/84';
+import propdef3 from './10/def3';
+import prop85 from './10/85';
+import prop86 from './10/86';
+import prop87 from './10/87';
+import prop88 from './10/88';
+import prop89 from './10/89';
+import prop90 from './10/90';
+import prop91 from './10/91';
+import prop92 from './10/92';
+import prop93 from './10/93';
+import prop94 from './10/94';
+import prop95 from './10/95';
+import prop96 from './10/96';
+import prop97 from './10/97';
+import prop98 from './10/98';
+import prop99 from './10/99';
+import prop100 from './10/100';
+import prop101 from './10/101';
+import prop102 from './10/102';
+import prop103 from './10/103';
+import prop104 from './10/104';
+import prop105 from './10/105';
+import prop106 from './10/106';
+import prop107 from './10/107';
+import prop108 from './10/108';
+import prop109 from './10/109';
+import prop110 from './10/110';
+import prop111 from './10/111';
+import prop112 from './10/112';
+import prop113 from './10/113';
+import prop114 from './10/114';
+import prop115 from './10/115';
 
 function book(rg)
 {
@@ -953,6 +1025,652 @@ function() {
     id: '10.47',
     img: '/img/10/47',
     prose: prop47,
+  };
+},
+
+function() {
+  return {
+    title: 'Definitions II',
+    id: '10.d2',
+    prose: propdef2,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 48',
+    id: '10.48',
+    img: '/img/10/48',
+    prose: prop48,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 49',
+    id: '10.49',
+    img: '/img/10/49',
+    prose: prop49,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 50',
+    id: '10.50',
+    img: '/img/10/50',
+    prose: prop50,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 51',
+    id: '10.51',
+    img: '/img/10/51',
+    prose: prop51,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 52',
+    id: '10.52',
+    img: '/img/10/52',
+    prose: prop52,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 53',
+    id: '10.53',
+    img: '/img/10/53',
+    prose: prop53,
+  };
+},
+
+function() {
+  return {
+    title: 'Lemma',
+    id: '10.53-lem',
+    img: '/img/10/l8',
+    prose: propl8,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 54',
+    id: '10.54',
+    img: '/img/10/54',
+    prose: prop54,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 55',
+    id: '10.55',
+    img: '/img/10/55',
+    prose: prop55,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 56',
+    id: '10.56',
+    img: '/img/10/56',
+    prose: prop56,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 57',
+    id: '10.57',
+    img: '/img/10/57',
+    prose: prop57,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 58',
+    id: '10.58',
+    img: '/img/10/58',
+    prose: prop58,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 59',
+    id: '10.59',
+    img: '/img/10/59',
+    prose: prop59,
+  };
+},
+
+function() {
+  return {
+    title: 'Lemma',
+    id: '10.59-lem',
+    img: '/img/10/l9',
+    prose: propl9,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 60',
+    id: '10.60',
+    img: '/img/10/60',
+    prose: prop60,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 61',
+    id: '10.61',
+    img: '/img/10/61',
+    prose: prop61,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 62',
+    id: '10.62',
+    img: '/img/10/62',
+    prose: prop62,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 63',
+    id: '10.63',
+    img: '/img/10/63',
+    prose: prop63,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 64',
+    id: '10.64',
+    img: '/img/10/64',
+    prose: prop64,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 65',
+    id: '10.65',
+    img: '/img/10/65',
+    prose: prop65,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 66',
+    id: '10.66',
+    img: '/img/10/66',
+    prose: prop66,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 67',
+    id: '10.67',
+    img: '/img/10/67',
+    prose: prop67,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 68',
+    id: '10.68',
+    img: '/img/10/68',
+    prose: prop68,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 69',
+    id: '10.69',
+    img: '/img/10/69',
+    prose: prop69,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 70',
+    id: '10.70',
+    img: '/img/10/70',
+    prose: prop70,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 71',
+    id: '10.71',
+    img: '/img/10/71',
+    prose: prop71,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 72',
+    id: '10.72',
+    img: '/img/10/72',
+    prose: prop72,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 73',
+    id: '10.73',
+    img: '/img/10/73',
+    prose: prop73,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 74',
+    id: '10.74',
+    img: '/img/10/74',
+    prose: prop74,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 75',
+    id: '10.75',
+    img: '/img/10/75',
+    prose: prop75,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 76',
+    id: '10.76',
+    img: '/img/10/76',
+    prose: prop76,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 77',
+    id: '10.77',
+    img: '/img/10/77',
+    prose: prop77,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 78',
+    id: '10.78',
+    img: '/img/10/78',
+    prose: prop78,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 79',
+    id: '10.79',
+    img: '/img/10/79',
+    prose: prop79,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 80',
+    id: '10.60',
+    img: '/img/10/80',
+    prose: prop80,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 81',
+    id: '10.81',
+    img: '/img/10/81',
+    prose: prop81,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 82',
+    id: '10.82',
+    img: '/img/10/82',
+    prose: prop82,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 83',
+    id: '10.83',
+    img: '/img/10/83',
+    prose: prop83,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 84',
+    id: '10.84',
+    img: '/img/10/84',
+    prose: prop84,
+  };
+},
+
+function() {
+  return {
+    title: 'Definitions III',
+    id: '10.d3',
+    prose: propdef3,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 85',
+    id: '10.85',
+    img: '/img/10/85',
+    prose: prop85,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 86',
+    id: '10.86',
+    img: '/img/10/86',
+    prose: prop86,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 87',
+    id: '10.87',
+    img: '/img/10/87',
+    prose: prop87,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 88',
+    id: '10.88',
+    img: '/img/10/88',
+    prose: prop88,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 89',
+    id: '10.89',
+    img: '/img/10/89',
+    prose: prop89,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 90',
+    id: '10.90',
+    img: '/img/10/90',
+    prose: prop90,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 91',
+    id: '10.91',
+    img: '/img/10/91',
+    prose: prop91,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 92',
+    id: '10.92',
+    img: '/img/10/92',
+    prose: prop92,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 93',
+    id: '10.93',
+    img: '/img/10/93',
+    prose: prop93,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 94',
+    id: '10.94',
+    img: '/img/10/94',
+    prose: prop94,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 95',
+    id: '10.95',
+    img: '/img/10/95',
+    prose: prop95,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 96',
+    id: '10.96',
+    img: '/img/10/96',
+    prose: prop96,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 97',
+    id: '10.97',
+    img: '/img/10/97',
+    prose: prop97,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 98',
+    id: '10.98',
+    img: '/img/10/98',
+    prose: prop98,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 99',
+    id: '10.99',
+    img: '/img/10/99',
+    prose: prop99,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 100',
+    id: '10.100',
+    img: '/img/10/100',
+    prose: prop100,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 101',
+    id: '10.101',
+    img: '/img/10/101',
+    prose: prop101,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 102',
+    id: '10.102',
+    img: '/img/10/102',
+    prose: prop102,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 103',
+    id: '10.103',
+    img: '/img/10/103',
+    prose: prop103,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 104',
+    id: '10.104',
+    img: '/img/10/104',
+    prose: prop104,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 105',
+    id: '10.105',
+    img: '/img/10/105',
+    prose: prop105,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 106',
+    id: '10.106',
+    img: '/img/10/106',
+    prose: prop106,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 107',
+    id: '10.107',
+    img: '/img/10/107',
+    prose: prop107,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 108',
+    id: '10.108',
+    img: '/img/10/108',
+    prose: prop108,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 109',
+    id: '10.109',
+    img: '/img/10/109',
+    prose: prop109,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 110',
+    id: '10.110',
+    img: '/img/10/110',
+    prose: prop110,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 111',
+    id: '10.111',
+    img: '/img/10/111',
+    prose: prop111,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 112',
+    id: '10.112',
+    img: '/img/10/112',
+    prose: prop112,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 113',
+    id: '10.113',
+    img: '/img/10/113',
+    prose: prop113,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 114',
+    id: '10.114',
+    img: '/img/10/114',
+    prose: prop114,
+  };
+},
+
+function() {
+  return {
+    title: 'Proposition 115',
+    id: '10.115',
+    img: '/img/10/115',
+    prose: prop115,
   };
 },
 
