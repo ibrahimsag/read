@@ -8,11 +8,11 @@ This is a clip from a geometry book. Particularly a translation of the 2300 year
 
 ![](readme/colored.png)
 
-This is from Oliver Byrne’s work(a digital version can be found at [c82.net/euclid]()). About 180 years ago he made use of colored print and made a phenomenal contribution. That brings a question: Now that we have digital displays that gets refreshed 60 times every second, what more can be done?
+This is from Oliver Byrne’s work(a digital version can be found at [c82.net/euclid](https://c82.net/euclid)). About 180 years ago he made use of colored print and made a phenomenal contribution. That brings a question: Now that we have digital displays that gets refreshed 60 times every second, what more can be done?
 
 The usual answer is to record a video. Which dictates a rhytym, isolates fragments, strains potential participation and mostly turns ridiculous under production costs. Surely films are awesome but their teaching of technical material is not the strong aspect.
 
-Now follow this: [canberead.com/elements/1.43](). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for references. You can also click on sentences.
+Now follow this: [canberead.com/elements/1.43](https://canberead.com/elements/1.43). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for references. You can also click on sentences.
 
 ![](readme/highlighted.png)
 
