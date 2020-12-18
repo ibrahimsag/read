@@ -11,9 +11,24 @@ function make(colors)
 
   const style = {
     link: style_link,
+    '@media (min-width: 1024px)': {
+      auxColumn: {
+        right: 608
+      },
+      movement: {
+        right: 96
+      }
+
+    },
     '@global': {
       body: {
         color: colors.dim,
+      },
+
+      '@media (min-width: 1024px)': {
+        '#container': {
+          marginRight: 96,
+        },
       },
       '#container': {
         '&.cover': {
