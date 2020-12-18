@@ -26,6 +26,8 @@ Also, i tried to keep the figure visible in a separate column as the prose gets 
 >
 > &mdash; *R. Descartes, A Discourse on the Method, 1637*
 
+This is mathematics at the beginning of modernity summarized by the inventor of Analytic Geometry; as he introduces it as 'my method' later in the same book.
+
 Screens are part of the computers for about fifty years now. But couple thousand years of imaginative work on paper determined that screens be an imitation of paper, for the most part. Basic container of data was inherited as files and folders. Much of the private computer was put together in a company that makes photocopy machines. Within which the preview of a print had monumental benefit along with a pointer device and a virtual catalog. Word processors, spreadsheets and slides came to be the most used software and suggested a future as typical products. And we come to look at web pages that were conceived to be accessible versions of physical documents.
 
 Imitation is mostly effective but it can also be frustrating. But frustrations are a bit difficult to demonstrate. First, It is not obvious how information technology should leave the office and become relevant to life besides facilitation of bureacracies or consumption of packaged entertainment. Second, criticism of digitized paperwork(i.e. finance) seem to fall on deaf ears. And i will not try to point out that relevance at a time anarchy and chaos are taken to be synonyms. Nor will i be an impotent reactionary and define a principal in negation to concentration of power. Instead i hoped to experiment around prevailing institutional dependence and brute specialization that beats their imagination out of people.
