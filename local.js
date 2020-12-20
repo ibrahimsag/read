@@ -6,10 +6,15 @@ const port = 3000
 app.use('/build', express.static('build'));
 app.use('/img', express.static('img'));
 app.use('/fonts/', express.static('public/fonts'));
+app.use('/fonts/', express.static('public/fonts'));
 app.use('/js/', express.static('public/js'));
 app.use('/', express.static('.'));
 
 app.use(express.json());
+
+app.get('/favicon.svg', (req, res) => {
+  res.sendFile(__dirname + '/public/favicon.svg');
+})
 
 app.post('/store', (req, res) => {
   let d = req.body;
