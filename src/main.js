@@ -1140,6 +1140,7 @@ let presentForLocation = () => {
   }
   else
   {
+    history.replaceState(null, '', '/elements/');
     presentCover();
   }
 }
