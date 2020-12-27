@@ -850,7 +850,7 @@ function makeGround(rg, svg, cs)
     }
     else
     {
-      m_o.innerText = "next name";
+      m_o.innerText = "next symbol";
     }
     m_o.style['background-color'] = hsluv.hpluvToHex([0, 0, h_o]);
     m_b.style['background-color'] = hsluv.hpluvToHex([0, 0, h_b]);
