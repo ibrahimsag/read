@@ -1,0 +1,26 @@
+To draw a perpendicular straight-line from a given raised point to a given plane.
+
+Let A be the given raised point, and the given plane the reference (plane).
+So, it is required to draw a perpendicular straight-line from point A to the reference plane.
+
+Let some random straight-line BC have been drawn across in the reference plane, and let the (straight-line) AD have been drawn from point A perpendicular to BC [Prop. 1.12].
+If, therefore, AD is also perpendicular to the reference plane then that which was prescribed will have occurred.
+And, if not, let DE have been drawn in the reference plane from point D at right-angles to BC [Prop. 1.11], and let the (straight-line) AF have been drawn from A perpendicular to DE [Prop. 1.12], and let GH have been drawn through point F, parallel to BC [Prop. 1.31].
+
+And since BC is at right-angles to each of DA and DE, BC is thus also at right-angles to the plane through EDA [Prop. 11.4].
+And GH is parallel to it.
+And if two straight-lines are parallel, and one of them is at right-angles to some plane, then the remaining (straight-line) will also be at right-angles to the same plane [Prop. 11.8].
+Thus, GH is also at right-angles to the plane through ED and DA.
+And GH is thus at right-angles to all of the straight-lines joined to it which are also in the plane through ED and AD [Def. 11.3].
+And AF, which is in the plane through ED and DA, is joined to it.
+Thus, GH is at right-angles to FA.
+Hence, FA is also at right-angles to HG.
+And AF is also at right-angles to DE.
+Thus, AF is at right-angles to each of GH and DE.
+And if a straight-line is set up at right-angles to two straight-lines cutting one another, at the point of section, then it will also be at right-angles to the plane through them [Prop. 11.4].
+Thus, FA is at right-angles to the plane through ED and GH.
+And the plane through ED and GH is the refer-ence (plane).
+Thus, AF is at right-angles to the reference plane.
+
+Thus, the straight-line AF has been drawn from the given raised point A perpendicular to the reference plane.
+(Which is) the very thing it was required to do.

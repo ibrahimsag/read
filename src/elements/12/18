@@ -1,0 +1,32 @@
+Spheres are to one another in the cubed ratio of their respective diameters.
+
+Let the spheres ABC and DEF have been conceived, and (let) their diameters (be) BC and EF (respectively).
+I say that sphere ABC has to sphere DEF the cubed ratio that BC (has) to EF.
+
+For if sphere ABC does not have to sphere DEF the cubed ratio that BC (has) to EF then sphere ABC will have to some (sphere) either less than, or greater than, sphere DEF the cubed ratio that BC (has) to EF.
+Let it, first of all, have (such a ratio) to a lesser (sphere), GHK.
+And let DEF have been conceived about the same center as GHK.
+And let a polyhedral solid have been inscribed in the greater sphere DEF, not touching the lesser sphere GHK on its surface [Prop. 12.17].
+And let a polyhedral solid, similar to the polyhedral solid in sphere DEF, have also been inscribed in sphere ABC.
+Thus, the polyhedral solid in sphere ABC has to the polyhedral solid in sphere DEF the cubed ratio that BC (has) to EF [Prop. 12.17 corr.].
+And sphere ABC also has to sphere GHK the cubed ratio that BC (has) to EF .
+Thus, as sphere ABC is to sphere GHK, so the polyhedral solid in sphere ABC (is) to the polyhedral solid is sphere DEF.
+[Thus], alternately, as sphere ABC (is) to the polygon within it, so sphere GHK (is) to the polyhedral solid within sphere DEF [Prop. 5.16].
+And sphere ABC (is) greater than the polyhedron within it.
+Thus, sphere GHK (is) also greater than the polyhedron within sphere DEF [Prop. 5.14].
+But, (it is) also less.
+For it is encompassed by it.
+Thus, sphere ABC does not have to (a sphere) less than sphere DEF the cubed ratio that diameter BC (has) to EF.
+So, similarly, we can show that sphere DEF does not have to (a sphere) less than sphere ABC the cubed ratio that EF (has) to BC either.
+
+So, I say that sphere ABC does not have to some (sphere) greater than sphere DEF the cubed ratio that BC (has) to EF either.
+
+For, if possible, let it have (the cubed ratio) to a greater (sphere), LMN.
+Thus, inversely, sphere LM N (has) to sphere ABC the cubed ratio that diameter EF (has) to diameter BC [Prop. 5.7 corr.].
+And as sphere LMN (is) to sphere ABC, so sphere DEF (is) to some (sphere) less than sphere ABC, inasmuch as LMN is greater than DEF, as was shown before [Prop. 12.2 lem.].
+And, thus, sphere DEF has to some (sphere) less than sphere ABC the cubed ratio that EF (has) to BC.
+The very thing was shown (to be) impossible.
+Thus, sphere ABC does not have to some (sphere) greater than sphere DEF the cubed ratio that BC (has) to EF.
+And it was shown that neither (does it have such a ratio) to a lesser (sphere).
+Thus, sphere ABC has to sphere DEF the cubed ratio that BC (has) to EF.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,30 @@
+If two straight-lines are at right-angles to the same plane then the straight-lines will be parallel.
+
+For let the two straight-lines AB and CD be at right-angles to a reference plane. I say that AB is parallel to CD.
+
+For let them meet the reference plane at points B and D (respectively). And let the straight-line BD have been joined. And let DE have been drawn at right-angles to BD in the reference plane. And let DE be made equal to AB. And let BE, AE, and AD have been joined.
+
+And since AB is at right-angles to the reference plane, it will [thus] also make right-angles with all straight-lines joined to it which are in the reference plane [Def. 11.3].
+
+And BD and BE, which are in the reference plane, are each joined to AB.
+Thus, each of the angles ABD and ABE are right-angles.
+So, for the same (reasons), each of the angles CDB and CDE are also right-angles.
+And since AB is equal to DE, and BD (is) common, the two (straight-lines) AB and BD are equal to the two (straight-lines) ED and DB (respectively).
+And they contain right-angles.
+Thus, the base AD is equal to the base BE [Prop. 1.4].
+And since AB is equal to DE, and AD (is) also (equal) to BE, the two (straight-lines) AB and BE are thus equal to the two (straight-lines) ED and DA (respectively).
+And their base AE (is) common.
+Thus, angle ABE is equal to angle EDA [Prop. 1.8].
+And ABE (is) a right-angle.
+Thus, EDA (is) also a right-angle.
+ED is thus at right-angles to DA.
+And it is also at right-angles to each of BD and DC.
+Thus, ED is standing at right-angles to the three straight-lines BD, DA, and DC at the (common) point of section.
+Thus, the three straight-lines BD, DA, and DC are in one plane [Prop. 11.5].
+And in which(ever) plane DB and DA (are found), in that (plane) AB (will) also (be found).
+For every triangle is in one plane [Prop. 11.2].
+And each of the angles ABD and BDC is a right-angle.
+Thus, AB is parallel to CD [Prop. 1.28].
+
+Thus, if two straight-lines are at right-angles to the same plane then the straight-lines will be parallel.
+(Which is) the very thing it was required to show.

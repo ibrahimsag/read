@@ -1,0 +1,19 @@
+Parallelepiped solids which are on the same base, and (have) the same height, and in which the (ends of the straight-lines) standing up are on the same straight-lines, are equal to one another.
+
+For let the parallelepiped solids CM and CN be on the same base AB, and (have) the same height, and let the (ends of the straight-lines) standing up in them, AG, AF, LM, LN, CD, CE, BH, and BK, be on the same straight-lines, FN and DK.
+I say that solid CM is equal to solid CN.
+
+For since CH and CK are each parallelograms, CB is equal to each of DH and EK [Prop. 1.34].
+Hence, DH is also equal to EK.
+Let EH have been subtracted from both.
+Thus, the remainder DE is equal to the remainder HK.
+Hence, triangle DCE is also equal to triangle HBK [Props. 1.4, 1.8], and parallelogram DG to parallelogram HN [Prop. 1.36].
+So, for the same (reasons), traingle AFG is also equal to triangle MLN.
+And parallelogram CF is also equal to parallelogram BM, and CG to BN [Prop. 11.24].
+For they are opposite.
+Thus, the prism contained by the two triangles AF G and DCE, and the three parallelograms AD, DG, and CG, is equal to the prism contained by the two triangles MLN and HBK, and the three parallelograms BM, HN, and BN.
+Let the solid whose base (is) parallelogram AB, and (whose) opposite (face is) GEHM, have been added to both (prisms).
+Thus, the whole parallelepiped solid CM is equal to the whole parallelepiped solid CN.
+
+Thus, parallelepiped solids which are on the same base, and (have) the same height, and in which the (ends of the straight-lines) standing up (are) on the same straight-lines, are equal to one another.
+(Which is) the very thing it was required to show.

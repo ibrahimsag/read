@@ -1,0 +1,21 @@
+If there are three plane angles, of which (the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way), and if equal straight-lines contain them, then it is possible to construct a triangle from (the straight-lines created by) joining the (ends of the) equal straight-lines.
+
+Let ABC, DEF, and GHK be three plane angles, of which the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way)—(that is), ABC and DEF (greater) than GHK, DEF and GHK (greater) than ABC, and, further, GHK and ABC (greater) than DEF.
+And let AB, BC, DE, EF, GH, and HK be equal straight-lines.
+And let AC, DF , and GK have been joined.
+I say that that it is possible to construct a triangle out of (straight-lines) equal to AC, DF, and GK—that is to say, that (the sum of) any two of AC, DF, and GK is greater than the remaining (one).
+
+Now, if the angles ABC, DEF, and GHK are equal to one another then (it is) clear that, (with) AC, DF, and GK also becoming equal, it is possible to construct a triangle from (straight-lines) equal to AC, DF, and GK.
+And if not, let them be unequal, and let KHL, equal to angle ABC, have been constructed on the straight-line HK, at the point H on it.
+And let HL be made equal to one of AB, BC, DE, EF, GH, and HK.
+And let KL and GL have been joined.
+And since the two (straight-lines) AB and BC are equal to the two (straight-lines) K H and H L (respectively), and the angle at B (is) equal to KHL, the base AC is thus equal to the base KL [Prop. 1.4].
+And since (the sum of) ABC and GHK is greater than DEF, and ABC equal to KHL, GHL is thus greater than DEF.
+And since the two (straight-lines) GH and HL are equal to the two (straight-lines) DE and EF (respectively), and angle GHL (is) greater than DEF , the base GL is thus greater than the base DF [Prop. 1.24].
+But, (the sum of) GK and KL is greater than GL [Prop. 1.20].
+Thus, (the sum of) GK and KL is much greater than DF.
+And KL (is) equal to AC.
+Thus, (the sum of) AC and GK is greater than the remaining (straight-line) DF.
+So, similarly, we can show that (the sum of) AC and DF is greater than GK, and, further, that (the sum of) DF and GK is greater than AC.
+Thus, it is possible to construct a triangle from (straight-lines) equal to AC, DF, and GK.
+(Which is) the very thing it was required to show.

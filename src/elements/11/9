@@ -1,0 +1,17 @@
+(Straight-lines) parallel to the same straight-line, and which are not in the same plane as it, are also parallel to one another.
+
+For let AB and CD each be parallel to EF, not being in the same plane as it.
+I say that AB is parallel to CD.
+
+For let some point G have been taken at random on EF.
+And from it let GH have been drawn at right-angles to EF in the plane through EF and AB.
+And let GK have been drawn, again at right-angles to EF, in the plane through F E and CD.
+
+And since EF is at right-angles to each of GH and GK, EF is thus also at right-angles to the plane through GH and GK [Prop. 11.4].
+And EF is parallel to AB.
+Thus, AB is also at right-angles to the plane through HGK [Prop. 11.8].
+So, for the same (reasons), CD is also at right-angles to the plane through HGK.
+Thus, AB and CD are each at right-angles to the plane through HGK.
+And if two straight-lines are at right–angles to the same plane then the straight-lines are parallel [Prop. 11.6].
+Thus, AB is parallel to CD.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,115 @@
+To set out the sides of the five (aforementioned) figures, and to compare (them) with one another.
+
+Let the diameter, AB, of the given sphere be laid out.
+And let it have been cut at C, such that AC is equal to CB, and at D, such that AD is double DB.
+And let the semi-circle AEB have been drawn on AB.
+And let CE and DF have been drawn from C and D (respectively), at right-angles to AB.
+And let AF, FB, and EB have been joined.
+And since AD is double DB, AB is thus triple BD.
+Thus, via conversion, BA is one and a half times AD.
+And as BA (is) to AD, so the (square) on BA (is) to the (square) on AF [Def. 5.9].
+For triangle AF B is equiangular to triangle AF D [Prop. 6.8].
+Thus, the (square) on BA is one and a half times the (square) on AF .
+And the square on the diameter of the sphere is also one and a half times the (square) on the side of the pyramid [Prop. 13.13].
+And AB is the diameter of the sphere.
+Thus, AF is equal to the side of the pyramid.
+
+Again, since AD is double DB, AB is thus triple BD.
+And as AB (is) to BD, so the (square) on AB (is) to the (square) on BF [Prop. 6.8, Def. 5.9].
+Thus, the (square) on AB is three times the (square) on BF .
+And the square on the diameter of the sphere is also three times the (square) on the side of the cube [Prop. 13.15].
+And AB is the diameter of the sphere.
+Thus, BF is the side of the cube.
+
+And since AC is equal to CB, AB is thus double BC.
+And as AB (is) to BC, so the (square) on AB (is) to the (square) on BE [Prop. 6.8, Def. 5.9].
+Thus, the (square) on AB is double the (square) on BE.
+And the square on the diameter of the sphere is also double the (square) on the side of the octagon [Prop. 13.14].
+And AB is the diameter of the given sphere.
+Thus, BE is the side of the octagon.
+
+So let AG have been drawn from point A at right-angles to the straight-line AB.
+And let AG be made equal to AB.
+And let GC have been joined.
+And let HK have been drawn from H, perpendicular to AB.
+And since GA is double AC.
+For GA (is) equal to AB.
+And as GA (is) to AC, so HK (is) to KC [Prop. 6.4].
+HK (is) thus also double K C .
+Thus, the (square) on H K is four times the (square) on K C .
+Thus, the (sum of the squares) on H K and K C , which is the (square) on H C [Prop. 1.47], is five times the (square) on KC.
+And HC (is) equal to CB.
+Thus, the (square) on BC (is) five times the (square) on CK.
+And since AB is double CB, of which AD is double DB, the remainder BD is thus double the remainder DC.
+BC (is) thus triple CD.
+The (square) on BC (is) thus nine times the (square) on CD.
+And the (square) on BC (is) five times the (square) on C K .
+Thus, the (square) on CK (is) greater than the (square) on CD.
+CK is thus greater than CD.
+Let CL be made equal to CK.
+And let LM have been drawn from L at right-angles to AB.
+And let M B have been joined.
+And since the (square) on BC is five times the (square) on CK, and AB is double BC, and KL double CK, the (square) on AB is thus five times the (square) on KL.
+And the square on the diameter of the sphere is also five times the (square) on the radius of the circle from which the icosahedron has been described [Prop. 13.16 corr.].
+And AB is the diameter of the sphere.
+Thus, KL is the radius of the circle from which the icosahedron has been described.
+Thus, KL is (the side) of the hexagon (inscribed) in the aforementioned circle [Prop. 4.15 corr.].
+And since the diameter of the sphere is composed of (the side) of the hexagon, and two of (the sides) of the decagon, inscribed in the aforementioned circle, and AB is the diameter of the sphere, and KL the side of the hexagon, and AK (is) equal to LB, thus AK and LB are each sides of the decagon inscribed in the circle from which the icosahedron has been described.
+And since LB is (the side) of the decagon.
+And M L (is the side) of the hexagon—for (it is) equal to K L, since (it is) also (equal) to H K , for they are equally far from the center.
+And H K and K L are each double K C .
+M B is thus (the side) of the pentagon (inscribed in the circle) [Props. 13.10, 1.47].
+And (the side) of the pentagon is (the side) of the icosahedron [Prop. 13.16].
+Thus, M B is (the side) of the icosahedron.
+
+And since F B is the side of the cube, let it have been cut in extreme and mean ratio at N, and let NB be the greater piece.
+Thus, NB is the side of the dodecahedron [Prop. 13.17 corr.].
+
+And since the (square) on the diameter of the sphere was shown (to be) one and a half times the square on the side, AF, of the pyramid, and twice the square on (the side), BE, of the octagon, and three times the square on (the side), FB, of the cube, thus, of whatever (parts) the (square) on the diameter of the sphere (makes) six, of such (parts) the (square) on (the side) of the pyramid (makes) four, and (the square) on (the side) of the octagon three, and (the square) on (the side) of the cube two.
+Thus, the (square) on the side of the pyramid is one and a third times the square on the side of the octagon, and double the square on (the side) of the cube.
+And the (square) on (the side) of the octahedron is one and a half times the square on (the side) of the cube.
+Therefore, the aforementioned sides of the three figures—I mean, of the pyramid, and of the octahedron, and of the cube— are in rational ratios to one another.
+And (the sides of) the remaining two (figures)—I mean, of the icosahedron, and of the dodecahedron—are neither in rational ratios to one another, nor to the (sides) of the aforementioned (three figures).
+For they are irrational (straight lines): (namely), a minor [Prop. 13.16], and an apotome [Prop. 13.17].
+
+(And), we can show that the side, MB, of the icosahedron is greater that the (side), NB, or the dodecahedron, as follows.
+
+For, since triangle FDB is equiangular to triangle F AB [Prop. 6.8], proportionally, as DB is to BF , so BF (is) to BA [Prop. 6.4].
+And since three straight-lines are (continually) proportional, as the first (is) to the third, so the (square) on the first (is) to the (square) on the second [Def. 5.9, Prop. 6.20 corr.].
+Thus, as DB is to BA, so the (square) on DB (is) to the (square) on BF.
+Thus, inversely, as AB (is) to BD, so the (square) on FB (is) to the (square) on BD.
+And AB (is) triple BD.
+Thus, the (square) on FB (is) three times the (square) on BD.
+And the (square) on AD is also four times the (square) on DB.
+For AD (is) double DB.
+Thus, the (square) on AD (is) greater than the (square) on FB.
+Thus, AD (is) greater than F B.
+Thus, AL is much greater than FB.
+And KL is the greater piece of AL, which is cut in extreme and mean ratio—inasmuch as LK is (the side) of the hexagon, and KA (the side) of the decagon [Prop. 13.9].
+And NB is the greater piece of FB, which is cut in extreme and mean ratio.
+Thus, KL (is) greater than NB.
+And KL (is) equal to LM.
+Thus, LM (is) greater than NB [and MB is greater than LM].
+Thus, MB, which is (the side) of the icosahedron, is much greater than NB, which is (the side) of the dodecahedron.
+(Which is) the very thing it was required to show.
+
+So, I say that, beside the five aforementioned figures, no other (solid) figure can be constructed (which is) contained by equilateral and equiangular (planes), equal to one another.
+
+For a solid angle cannot be constructed from two triangles, or indeed (two) planes (of any sort) [Def. 11.11].
+And (the solid angle) of the pyramid (is constructed) from three (equiangular) triangles, and (that) of the octahedron from four (triangles), and (that) of the icosahedron from (five) triangles.
+And a solid angle cannot be (made) from six equilateral and equiangular triangles set up together at one point.
+For, since the angles of a equilateral triangle are (each) two-thirds of a right-angle, the (sum of the) six (plane) angles (containing the solid angle) will be four right-angles.
+The very thing (is) impossible.
+For every solid angle is contained by (plane angles whose sum is) less than four right-angles [Prop. 11.21].
+So, for the same (reasons), a solid angle cannot be constructed from more than six plane angles (equal to two-thirds of a right-angle) either.
+And the (solid) angle of a cube is contained by three squares.
+And (a solid angle contained) by four (squares is) impossible.
+For, again, the (sum of the plane angles containing the solid angle) will be four right-angles.
+And (the solid angle) of a dodecahedron (is contained) by three equilateral and equiangular pentagons.
+And (a solid angle contained) by four (equiangular pentagons is) impossible.
+For, the angle of an equilateral pentagon being one and one-fifth of right-angle, four (such) angles will be greater (in sum) than four right-angles.
+The very thing (is) impossible.
+And, on account of the same absurdity, a solid angle cannot be constructed from any other (equiangular) polygonal figures either.
+
+Thus, beside the five aforementioned figures, no other solid figure can be constructed (which is) contained by equilateral and equiangular (planes).
+(Which is) the very thing it was required to show.

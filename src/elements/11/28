@@ -1,0 +1,9 @@
+If a parallelepiped solid is cut by a plane (passing) through the diagonals of (a pair of) opposite planes then the solid will be cut in half by the plane.
+
+For let the parallelepiped solid AB have been cut by the plane CDEF (passing) through the diagonals of the opposite planes CF and DE.
+I say that the solid AB will be cut in half by the plane CDEF.
+
+For since triangle CGF is equal to triangle CFB, and ADE (is equal) to DEH [Prop. 1.34], and parallelogram CA is also equal to EB---for (they are) opposite [Prop. 11.24]---and GE (equal) to CH, thus the prism contained by the two triangles CGF and ADE, and the three parallelograms GE, AC, and CE, is also equal to the prism contained by the two triangles CFB and DEH, and the three parallelograms CH, BE, and CE.
+For they are contained by planes (which are) equal in number and in magnitude [Def. 11.10].
+Thus, the whole of solid AB is cut in half by the plane CDEF.
+(Which is) the very thing it was required to show.

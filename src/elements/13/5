@@ -1,0 +1,24 @@
+If a straight-line is cut in extreme and mean ratio, and a (straight-line) equal to the greater piece is added to it, then the whole straight-line has been cut in extreme and mean ratio, and the original straight-line is the greater piece.
+
+For let the straight-line AB have been cut in extreme and mean ratio at point C.
+And let AC be the greater piece.
+And let AD be [made] equal to AC.
+I say that the straight-line DB has been cut in extreme and mean ratio at A, and that the original straight-line AB is the greater piece.
+
+For let the square AE have been described on AB, and let the (remainder of the) figure have been drawn.
+And since AB has been cut in extreme and mean ratio at C, the (rectangle contained) by ABC is thus equal to the (square) on AC [Def. 6.3, Prop. 6.17].
+And CE is the (rectangle contained) by ABC, and CH the (square) on AC.
+But, HE is equal to CE [Prop. 1.43], and DH equal to HC.
+Thus, DH is also equal to HE.
+[Let HB have been added to both.]
+Thus, the whole of DK is equal to the whole of AE.
+And DK is the (rectangle contained) by BD and DA.
+For AD (is) equal to DL.
+And AE (is) the (square) on AB.
+Thus, the (rectangle contained) by BDA is equal to the (square) on AB.
+Thus, as DB (is) to BA, so BA (is) to AD [Prop. 6.17].
+And DB (is) greater than BA.
+Thus, BA (is) also greater than AD [Prop. 5.14].
+
+Thus, DB has been cut in extreme and mean ratio at A, and the greater piece is AB.
+(Which is) the very thing it was required to show.

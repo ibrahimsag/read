@@ -1,0 +1,43 @@
+To construct an octahedron, and to enclose (it) in a (given) sphere, like in the preceding (proposition), and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
+
+Let the diameter AB of the given sphere be laid out, and let it have been cut in half at C.
+And let the semi-circle ADB have been drawn on AB.
+And let CD be drawn from C at right-angles to AB.
+And let DB have been joined.
+And let the square EFGH, having each of its sides equal to DB, be laid out.
+And let HF and EG have been joined.
+And let the straight-line KL have been set up, at point K, at right-angles to the plane of square EF GH [Prop. 11.12].
+And let it have been drawn across on the other side of the plane, like KM.
+And let KL and KM, equal to one of EK, FK, GK, and HK, have been cut off from KL and KM, respectively.
+And let LE, LF, LG, LH, ME, MF, MG, and MH have been joined.
+
+And since KE is equal to KH, and angle EKH is a right-angle, the (square) on the HE is thus double the (square) on EK [Prop. 1.47].
+Again, since LK is equal to KE, and angle LKE is a right-angle, the (square) on EL is thus double the (square) on EK [Prop. 1.47].
+And the (square) on HE was also shown (to be) double the (square) on EK.
+Thus, the (square) on LE is equal to the (square) on EH.
+Thus, LE is equal to EH.
+So, for the same (reasons), LH is also equal to HE.
+Triangle LEH is thus equilateral.
+So, similarly, we can show that each of the remaining triangles, whose bases are the sides of the square EFGH, and apexes the points L and M, are equilateral.
+Thus, an octahedron contained by eight equilateral triangles has been constructed.
+
+So, it is also necessary to enclose it by the given sphere, and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
+
+For since the three (straight-lines) LK, KM, and KE are equal to one another, the semi-circle drawn on LM will thus also pass through E.
+And, for the same (reasons), if LM remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then it will also pass through points F , G, and H , and the octahedron will have been enclosed by a sphere.
+So, I say that (it is) also (enclosed) by the given (sphere).
+For since LK is equal to K M , and K E (is) common, and they contain right-angles, the base LE is thus equal to the base EM [Prop. 1.4].
+And since angle LEM is a right-angle—for (it is) in a semi-circle [Prop. 3.31]—the (square) on LM is thus double the (square) on LE [Prop. 1.47].
+Again, since AC is equal to CB, AB is double BC.
+And as AB (is) to BC, so the (square) on AB (is) to the (square) on BD [Prop. 6.8, Def. 5.9].
+Thus, the (square) on AB is double the (square) on BD.
+And the (square) on LM was also shown (to be) double the (square) on LE.
+And the (square) on DB is equal to the (square) on LE.
+For EH was made equal to DB.
+Thus, the (square) on AB (is) also equal to the (square) on LM.
+Thus, AB (is) equal to LM.
+And AB is the diameter of the given sphere.
+Thus, LM is equal to the diameter of the given sphere.
+
+Thus, the octahedron has been enclosed by the given sphere, and it has been simultaneously proved that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
+(Which is) the very thing it was required to show.

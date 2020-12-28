@@ -1,0 +1,12 @@
+To set up a straight-line at right-angles to a given plane from a given point in it.
+
+Let the given plane be the reference (plane), and A a point in it.
+So, it is required to set up a straight-line at right-angles to the reference plane at point A.
+
+Let some raised point B have been assumed, and let the perpendicular (straight-line) BC have been drawn from B to the reference plane [Prop. 11.11].
+And let AD have been drawn from point A parallel to BC [Prop. 1.31].
+
+Therefore, since AD and CB are two parallel straight-lines, and one of them, BC, is at right-angles to the reference plane, the remaining (one) AD is thus also at right-angles to the reference plane [Prop. 11.8].
+
+Thus, AD has been set up at right-angles to the given plane, from the point in it, A.
+(Which is) the very thing it was required to do.

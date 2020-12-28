@@ -1,0 +1,19 @@
+Pyramids which are of the same height, and have polygonal bases, are to one another as their bases.
+
+Let there be pyramids of the same height whose bases (are) the polygons ABCDE and FGHKL, and apexes the points M and N (respectively).
+I say that as base ABCDE is to base FGHKL, so pyramid ABCDEM (is) to pyramid FGHKLN.
+
+For let AC, AD, FH, and FK have been joined.
+Therefore, since ABCM and ACDM are two pyramids having triangular bases and equal height, they are to one another as their bases [Prop. 12.5].
+Thus, as base ABC is to base ACD, so pyramid ABCM (is) to pyramid ACDM.
+And, via composition, as base ABCD (is) to base ACD, so pyramid ABCDM (is) to pyramid ACDM [Prop. 5.18].
+But, as base ACD (is) to base ADE, so pyramid ACDM (is) also to pyramid ADEM [Prop. 12.5].
+Thus, via equality, as base ABCD (is) to base ADE, so pyramid ABCDM (is) to pyramid ADEM [Prop. 5.22].
+And, again, via composition, as base ABCDE (is) to base ADE, so pyramid ABCDEM (is) to pyramid ADEM [Prop. 5.18].
+So, similarly, it can also be shown that as base FGHKL (is) to base FGH, so pyramid FGHKLN (is) also to pyramid FGHN.
+And since ADEM and FGHN are two pyramids having triangular bases and equal height, thus as base ADE (is) to base FGH, so pyramid ADEM (is) to pyramid FGHN [Prop. 12.5].
+But, as base ADE (is) to base ABCDE, so pyramid ADEM (was) to pyramid ABCDEM.
+Thus, via equality, as base ABCDE (is) to base FGH, so pyramid ABCDEM (is) also to pyramid FGHN [Prop. 5.22].
+But, furthermore, as base FGH (is) to base FGH KL, so pyramid FGHN was also to pyramid FGHKLN.
+Thus, via equality, as base ABCDE (is) to base F GHKL, so pyramid ABCDEM (is) also to pyramid FGHKLN [Prop. 5.22].
+(Which is) the very thing it was required to show.

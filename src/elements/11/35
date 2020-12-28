@@ -1,0 +1,59 @@
+If there are two equal plane angles, and raised straight-lines are stood on the apexes of them, containing equal angles respectively with the original straight-lines (forming the angles), and random points are taken on the raised (straight-lines), and perpendiculars are drawn from them to the planes in which the original angles are, and straight-lines are joined from the points created in the planes to the (vertices of the) original angles, then they will enclose equal angles with the raised (straight-lines).
+
+Let BAC and EDF be two equal rectilinear angles.
+And let the raised straight-lines AG and DM have been stood on points A and D, containing equal angles respectively with the original straight-lines.
+(That is) MDE (equal) to GAB, and MDF (to) GAC.
+And let the random points G and M have been taken on AG and DM (respectively).
+And let the GL and MN have been drawn from points G and M perpendicular to the planes through BAC and EDF (respectively).
+And let them have joined the planes at points L and N (respectively).
+And let LA and ND have been joined.
+I say that angle GAL is equal to angle MDN.
+
+Let AH be made equal to DM.
+And let HK have been drawn through point H parallel to GL.
+And GL is perpendicular to the plane through BAC.
+Thus, HK is also perpendicular to the plane through BAC [Prop. 11.8].
+And let KC, NF, KB, and NE have been drawn from points K and N perpendicular to the straight-lines AC, DF, AB, and DE.
+And let HC, CB, MF, and FE have been joined.
+Since the (square) on HA is equal to the (sum of the squares) on H K and K A [Prop. 1.47], and the (sum of the squares) on KC and CA is equal to the (square) on K A [Prop. 1.47], thus the (square) on H A is equal to the (sum of the squares) on HK, KC, and CA.
+And the (square) on HC is equal to the (sum of the squares) on HK and KC [Prop. 1.47].
+Thus, the (square) on HA is equal to the (sum of the squares) on HC and CA.
+Thus, angle HCA is a right-angle [Prop. 1.48].
+So, for the same (reasons), angle DFM is also a right-angle.
+Thus, angle ACH is equal to (angle) DFM.
+And HAC is also equal to MDF.
+So, MDF and HAC are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), that subtending one of the equal angles ---(that is), HA (equal) to MD.
+Thus, they will also have the remaining sides equal to the remaining sides, respectively [Prop. 1.26].
+Thus, AC is equal to DF.
+So, similarly, we can show that AB is also equal to DE.
+Therefore, since AC is equal to DF, and AB to DE, so the two (straight-lines) CA and AB are equal to the two (straight-lines) F D and DE (respectively).
+But, angle CAB is also equal to angle FDE.
+Thus, base BC is equal to base EF, and triangle (ACB) to triangle (DFE), and the remaining angles to the remaining angles (respectively) [Prop. 1.4].
+Thus, angle ACB (is) equal to DFE.
+And the right-angle ACK is also equal to the right-angle DFN.
+Thus, the remainder BCK is equal to the remainder EFN.
+So, for the same (reasons), CBK is also equal to FEN.
+So, BCK and EFN are two triangles having two angles equal to two angles, respectively, and one side equal to one side—(namely), that by the equal angles—(that is), BC (equal) to EF.
+Thus, they will also have the remaining sides equal to the remaining sides (respectively) [Prop. 1.26].
+Thus, CK is equal to FN.
+And AC (is) also equal to DF.
+So, the two (straight-lines) AC and CK are equal to the two (straight-lines) DF and FN (respectively).
+And they enclose right-angles.
+Thus, base AK is equal to base DN [Prop. 1.4].
+And since AH is equal to DM, the (square) on AH is also equal to the (square) on DM.
+But, the the (sum of the squares) on AK and KH is equal to the (square) on AH.
+For angle AKH (is) a right-angle [Prop. 1.47].
+And the (sum of the squares) on DN and NM (is) equal to the square on DM.
+For angle DNM (is) a right-angle [Prop. 1.47].
+Thus, the (sum of the squares) on AK and KH is equal to the (sum of the squares) on DN and NM, of which the (square) on AK is equal to the (square) on DN.
+Thus, the remaining (square) on KH is equal to the (square) on NM.
+Thus, HK (is) equal to MN.
+And since the two (straight-lines) HA and AK are equal to the two (straight-lines) MD and DN, respectively, and base HK was shown (to be) equal to base MN, angle HAK is thus equal to angle MDN [Prop. 1.8].
+
+Thus, if there are two equal plane angles, and so on of the proposition.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+So, it is clear, from this, that if there are two equal plane angles, and equal raised straight-lines are stood on them (at their apexes), containing equal angles respectively with the original straight-lines (forming the angles), then the perpendiculars drawn from (the raised ends of) them to the planes in which the original angles lie are equal to one another.
+(Which is) the very thing it was required to show.

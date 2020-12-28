@@ -1,0 +1,22 @@
+If an equilateral triangle is inscribed in a circle then the square on the side of the triangle is three times the (square) on the radius of the circle.
+
+Let there be a circle ABC, and let the equilateral triangle ABC have been inscribed in it [Prop. 4.2].
+I say that the square on one side of triangle ABC is three times the (square) on the radius of circle ABC.
+
+For let the center, D, of circle ABC have been found [Prop. 3.1].
+And AD (being) joined, let it have been drawn across to E.
+And let BE have been joined.
+
+And since triangle ABC is equilateral, circumference BEC is thus the third part of the circumference of circle ABC.
+Thus, circumference BE is the sixth part of the circumference of the circle.
+Thus, straight-line BE is (the side) of a hexagon.
+Thus, it is equal to the radius DE [Prop. 4.15 corr.].
+And since AE is double DE, the (square) on AE is four times the (square) on ED—that is to say, of the (square) on BE.
+And the (square) on AE(is)equaltothe(sumofthesquares)onABandBE [Props. 3.31, 1.47].
+Thus, the (sum of the squares) on AB and BE is four times the (square) on BE.
+Thus, via separation, the (square) on AB is three times the (square) on BE.
+And BE (is) equal to DE.
+Thus, the (square) on AB is three times the (square) on DE.
+
+Thus, the square on the side of the triangle is three times the (square) on the radius [of the circle].
+(Which is) the very thing it was required to show.

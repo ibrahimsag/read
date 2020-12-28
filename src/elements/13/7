@@ -1,0 +1,34 @@
+If three angles, either consecutive or not consecutive, of an equilateral pentagon are equal then the pentagon will be equiangular.
+
+For let three angles of the equilateral pentagon ABCDE—first of all, the consecutive (angles) at A, B, and C—-be equal to one another.
+I say that pentagon ABCDE is equiangular.
+
+For let AC, BE, and FD have been joined.
+And since the two (straight-lines) CB and BA are equal to the two (straight-lines) BA and AE, respectively, and angle CBA is equal to angle BAE, base AC is thus equal to base BE, and triangle ABC equal to triangle ABE, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4], (that is), BCA (equal) to BEA, and ABE to CAB.
+And hence side AF is also equal to side BF [Prop. 1.6].
+And the whole of AC was also shown (to be) equal to the whole of BE.
+Thus, the remainder F C is also equal to the remainder F E.
+And CD is also equal to DE.
+So, the two (straight-lines) F C and C D are equal to the two (straight-lines) F E and ED (respectively).
+And FD is their common base.
+Thus, angle F CD is equal to angle F ED [Prop. 1.8].
+And BCA was also shown (to be) equal to AEB.
+And thus the whole of BCD (is) equal to the whole of AED.
+But, (angle) BCD was assumed (to be) equal to the angles at A and B.
+Thus, (angle) AED is also equal to the angles at A and B.
+So, similarly, we can show that angle CDE is also equal to the angles at A, B, C.
+Thus, pentagon ABCDE is equiangular.
+
+And so let consecutive angles not be equal, but let the (angles) at points A, C, and D be equal.
+I say that pentagon ABCDE is also equiangular in this case.
+
+For let BD have been joined.
+And since the two (straight-lines) BA and AE are equal to the (straight-lines) BC and CD, and they contain equal angles, base BE is thus equal to base BD, and triangle ABE is equal to triangle BCD, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4].
+Thus, angle AEB is equal to (angle) CDB.
+And angle BED is also equal to (angle) BDE, since side BE is also equal to side BD [Prop. 1.5].
+Thus, the whole angle AED is also equal to the whole (angle) CDE.
+But, (angle) CDE was assumed (to be) equal to the angles at A and C.
+Thus, angle AED is also equal to the (angles) at A and C.
+So, for the same (reasons), (angle) ABC is also equal to the angles at A, C, and D.
+Thus, pentagon ABCDE is equiangular.
+(Which is) the very thing it was required to show.

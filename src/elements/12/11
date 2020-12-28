@@ -1,0 +1,54 @@
+Cones and cylinders having the same height are to one another as their bases.
+
+Let there be cones and cylinders of the same height whose bases [are] the circles ABCD and EFGH, axes KL and MN, and diameters of the bases AC and EG (respectively).
+I say that as circle ABCD is to circle EFGH, so cone AL (is) to cone EN.
+
+For if not, then as circle ABCD (is) to circle EFGH, so cone AL will be to some solid either less than, or greater than, cone EN.
+Let it, first of all, be (in this ratio) to (some) lesser (solid), O.
+And let solid X be equal to that (magnitude) by which solid O is less than cone EN.
+Thus, cone EN is equal to (the sum of) solids O and X.
+Let the square EFGH have been inscribed in circle EFGH [Prop. 4.6].
+Thus, the square is greater than half of the circle [Prop. 12.2].
+Let a pyramid of the same height as the cone have been set up on square EFGH.
+Thus, the pyramid set up is greater than half of the cone, inasmuch as, if we circumscribe a square about the circle [Prop. 4.7], and set up on it a pyramid of the same height as the cone, then the inscribed pyramid is half of the circumscribed pyramid.
+For they are to one another as their bases [Prop. 12.6].
+And the cone (is) less than the circumscribed pyramid.
+Let the circumferences EF, FG, GH, and HE have been cut in half at points P, Q, R, and S.
+And let HP, PE, EQ, QF, FR, RG, GS , and S H have been joined.
+Thus, each of the triangles HPE, EQF, FRG, and GSH is greater than half of the segment of the circle about it [Prop. 12.2].
+Let pyramids of the same height as the cone have been set up on each of the triangles HPE, EQF, FRG, and GSH.
+And, thus, each of the pyramids set up is greater than half of the segment of the cone about it [Prop. 12.10].
+So, (if) the remaining circumferences are cut in half, and straight-lines are joined, and pyramids of equal height to the cone are set up on each of the triangles, and this is done continually, then we will (eventually) leave some segments of the cone (the sum of) which is less than solid X [Prop. 10.1].
+Let them have been left, and let them be the (segments) on HPE, EQF, FRG, and GSH.
+Thus, the remaining pyramid whose base is polygon HP EQF RGS, and height the same as the cone, is greater than solid O [Prop. 6.18].
+And let the polygon DTAUBV CW, similar, and similarly laid out, to polygon HP EQF RGS, have been inscribed in circle ABCD.
+And on it let a pyramid of the same height as cone AL have been set up.
+Therefore, since as the (square) on AC is to the (square) on EG, so polygon DTAUBV CW (is) to polygon HP EQF RGS [Prop. 12.1], and as the (square) on AC (is) to the (square) on EG, so circle ABCD (is) to circle EFGH [Prop. 12.2], thus as circle ABCD (is) to circle EFGH, so polygon DTAUBVCW also (is) to polygon HP EQF RGS.
+And as circle ABCD (is) to circle EFGH, so cone AL (is) to solid O.
+And as polygon DTAUBV CW (is) to polygon HPEQFRGS, so the pyramid whose base is polygon DTAUBV CW, and apex the point L, (is) to the pyramid whose base is polygon HP EQF RGS, and apex the point N [Prop. 12.6].
+And, thus, as cone AL (is) to solid O, so the pyramid whose base is DTAUBVCW, and apex the point L, (is) to the pyramid whose base is polygon HP EQF RGS, and apex the point N [Prop. 5.11].
+Thus, alternately, as cone AL is to the pyramid within it, so solid O (is) to the pyramid within cone EN [Prop. 5.16].
+But, cone AL (is) greater than the pyramid within it.
+Thus, solid O (is) also greater than the pyramid within cone EN [Prop. 5.14].
+But, (it is) also less.
+The very thing (is) absurd.
+Thus, circle ABCD is not to circle EFGH, as cone AL (is) to some solid less than cone EN.
+So, similarly, we can show that neither is circle EFGH to circle ABCD, as cone EN (is) to some solid less than cone AL.
+
+So, I say that neither is circle ABCD to circle EFGH, as cone AL (is) to some solid greater than cone EN.
+
+For, if possible, let it be (in this ratio) to (some) greater (solid), O.
+Thus, inversely, as circle EFGH is to circle ABCD, so solid O (is) to cone AL [Prop. 5.7 corr.].
+But, as solid O (is) to cone AL, so cone EN (is) to some solid less than cone AL [Prop. 12.2 lem.].
+And, thus, as circle EFGH (is) to circle ABCD, so cone EN (is) to some solid less than cone AL.
+The very thing was shown (to be) impossible.
+Thus, circle ABCD is not to circle EFGH, as cone AL (is) to some solid greater than cone EN.
+And, it was shown that neither (is it in this ratio) to (some) lesser (solid).
+Thus, as circle ABCD is to circle EFGH, so cone AL (is) to cone EN.
+
+But, as the cone (is) to the cone, (so) the cylinder (is) to the cylinder.
+For each (is) three times each [Prop. 12.10].
+Thus, circle ABCD (is) also to circle EFGH, as (the ratio of the cylinders) on them (having) the same height.
+
+Thus, cones and cylinders having the same height are to one another as their bases.
+(Which is) the very thing it was required to show.
