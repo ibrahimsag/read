@@ -716,20 +716,6 @@ function makeGround(rg, svg, cs)
           if(last_p_id != p.id)
             return;
 
-          for(var l in d.letters)
-          {
-            if(l.length> 1)
-            {
-              let t = d.letters[l]
-              delete d.letters[l];
-              l.split(/\s*/).forEach(l =>
-                {
-                  let o = {...t};
-                  d.letters[l] = o;
-                  t.x += 30;
-                });
-            }
-          }
           p.imgData = d;
 
           installSVG()

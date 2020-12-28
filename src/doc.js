@@ -110,7 +110,7 @@ function mark(svg, rsvg, markers) {
     {
       let crect = div.getClientRects()[0]
 
-      if(intersectRect(crect, bb))
+      if(crect && intersectRect(crect, bb))
       {
         letterInFigure[i] = true;
         let s = rect([crect.left, crect.top], [crect.right, crect.bottom], {stroke: colors.make([140, 100, 40])});
@@ -192,17 +192,37 @@ function crop(svg, tl, br, letterInFigure) {
       let fs = Number(div.style['font-size'].replace(/[^-\d\.]/g, ''));
       let l = textContentItemsStr[i];
       let p = { x: crect.left, y: crect.top, s: fs };
-      letters[l] = p;
-      var el = document.createElementNS(SVG_NS, 'text');
-      el.textContent = l;
-      el.setAttribute('font-family', 'sans-serif');
-      el.setAttribute('font-size', fs);
-      el.setAttribute('fill', '#777777');
-      el.setAttribute('x', p.x);
-      el.setAttribute('y', p.y);
-      svg.appendChild(el);
+
+      let addl = (l, p) => {
+        var el = document.createElementNS(SVG_NS, 'text');
+        el.textContent = l;
+        el.setAttribute('font-family', 'sans-serif');
+        el.setAttribute('font-size', fs);
+        el.setAttribute('fill', '#777777');
+        el.setAttribute('x', p.x);
+        el.setAttribute('y', p.y);
+        svg.appendChild(el);
+      };
+
+      if(l.length> 1)
+      {
+        let t = p;
+        l.split(/\s*/).forEach(l =>
+          {
+            let o = {...t};
+            letters[l] = o;
+            addl(l, o);
+            t.x += 40;
+          });
+      }
+      else
+      {
+        letters[l] = p;
+        addl(l, p);
+      }
     }
-    rem(div);
+    if(div.parentElement)
+      rem(div);
   });
 
   return { svgStr, letters };
