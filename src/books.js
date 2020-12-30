@@ -24,7 +24,10 @@ let descs = [
   "Elementary Number Theory",
   "Continued Proportion",
   "Applications of Number Theory",
-  "Incommensurable Magnitudes"
+  "Incommensurable Magnitudes",
+  "Elementary Stereometry",
+  "Proportional Stereometry",
+  "The Platonic Solids"
 ];
 
 function unfoldGraphics(p) {

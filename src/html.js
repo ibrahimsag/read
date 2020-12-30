@@ -74,6 +74,27 @@ function make(colors, cs)
     <br>
     Interesting proof: <a pref="10.1">Method of exhaustion</a>
     </p>
+    <h4>Book 11 - Elementary Stereometry</h4>
+    <p>
+    In progress...
+    </p>
+    <p>
+    Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
+    </p>
+    <h4>Book 12 - Proportional Stereometry</h4>
+    <p>
+    In progress...
+    </p>
+    <p>
+    Start with <a pref="12.1">First proposition</a>.
+    </p>
+    <h4>Book 13 - The Platonic Solids</h4>
+    <p>
+    In progress...
+    </p>
+    <p>
+    Start with <a pref="13.1">First proposition</a>.
+    </p>
     <br>
     <h3 class="${cs.helpTitle}">On the next page:</h3>
     <p>Read on a wide screen.</p>
