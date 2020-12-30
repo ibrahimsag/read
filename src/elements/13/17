@@ -1,105 +1,105 @@
 To construct a dodecahedron, and to enclose (it) in a sphere, like the aforementioned figures, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.
 
-Let two planes of the aforementioned cube [Prop. 13.15], ABCD and CBEF, (which are) at right-angles to one another, be laid out.
-And let the sides AB, BC, CD, DA, EF, EB, and FC have each been cut in half at points G, H, K, L, M, N, and O (respectively).
-And let GK, HL, MH, and NO have been joined.
-And let NP, P O, and H Q have each been cut in extreme and mean ratio at points R, S, and T (respectively).
-And let their greater pieces be RP , P S, and T Q (respectively).
-And let RU, SV, and TW have been set up on the exterior side of the cube, at points R, S, and T (respectively), at right-angles to the planes of the cube.
-And let them be made equal to RP, PS, and TQ.
-And let UB, BW, WC, CV , and V U have been joined.
+Let two planes of the aforementioned cube [Prop. 13.15], {ABCD} and {CBEF}, (which are) at right-angles to one another, be laid out.
+And let the sides {AB}, {BC}, {CD}, {DA}, {EF}, {EB}, and {FC} have each been cut in half at points {G}, {H}, {K}, {L}, {M}, {N}, and {O} (respectively).
+And let {GK}, {HL}, {MH}, and {NO} have been joined.
+And let {NP}, {PO}, and {HQ} have each been cut in extreme and mean ratio at points {R}, {S}, and {T} (respectively).
+And let their greater pieces be {RP}, {PS}, and {TQ} (respectively).
+And let {RU}, {SV}, and {TW} have been set up on the exterior side of the cube, at points {R}, {S}, and {T} (respectively), at right-angles to the planes of the cube.
+And let them be made equal to {RP}, {PS}, and {TQ}.
+And let {UB}, {BW}, {WC}, {CV}, and {VU} have been joined.
 
-I say that the pentagon UBWCV is equilateral, and in one plane, and, further, equiangular.
-For let RB, SB, and V B have been joined.
-And since the straight-line N P has been cut in extreme and mean ratio at R, and RP is the greater piece, the (sum of the squares) on PN and NR is thus three times the (square) on RP [Prop. 13.4].
-And PN (is) equal to NB, and PR to RU.
-Thus, the (sum of the squares) on BN and NR is three times the (square) on RU.
-And the (square) on BR is equal to the (sum of the squares) on BN and NR [Prop. 1.47].
-Thus, the (square) on BR is three times the (square) on RU.
-Hence, the (sum of the squares) on BR and RU is four times the (square) on RU.
-And the (square) on BU is equal to the (sum of the squares) on BR and RU [Prop. 1.47].
-Thus, the (square) on BU is four times the (square) on UR.
-Thus, BU is double RU.
-And V U is also double UR, inasmuch as SR is also double PR—that is to say, RU .
-Thus, BU (is) equal to U V .
-So, similarly, it can be shown that each of BW, WC, CV is equal to each of BU and UV .
-Thus, pentagon BUV CW is equilateral.
-So,Isaythatitisalsoinoneplane.
-ForletPXhave been drawn from P , parallel to each of RU and SV , on the exterior side of the cube.
-And let XH and HW have been joined.
-I say that X H W is a straight-line.
-For since HQ has been cut in extreme and mean ratio at T, and QT is its greater piece, thus as HQ is to QT, so QT (is) to TH.
-And HQ (is) equal to HP, and QT to each of TW and PX.
-Thus, as HP is to PX, so WT (is) to TH.
-And HP is parallel to TW.
-For of each of them is at right-angles to the plane BD [Prop. 11.6].
-And TH (is parallel) to P X .
-For each of them is at right-angles to the plane BF [Prop. 11.6].
-And if two triangles, like X P H and H T W , having two sides proportional to two sides, are placed together at a single angle such that their corresponding sides are also parallel then the remaining sides will be straight-on (to one another) [Prop. 6.32].
-Thus, X H is straight-on to H W .
+I say that the pentagon {UBWCV} is equilateral, and in one plane, and, further, equiangular.
+For let {RB}, {SB}, and {VB} have been joined.
+And since the straight-line {NP} has been cut in extreme and mean ratio at {R}, and {RP} is the greater piece, the (sum of the squares) on {PN} and {NR} is thus three times the (square) on {RP} [Prop. 13.4].
+And {PN} (is) equal to {NB}, and {PR} to {RU}.
+Thus, the (sum of the squares) on {BN} and {NR} is three times the (square) on {RU}.
+And the (square) on {BR} is equal to the (sum of the squares) on {BN} and {NR} [Prop. 1.47].
+Thus, the (square) on {BR} is three times the (square) on {RU}.
+Hence, the (sum of the squares) on {BR} and {RU} is four times the (square) on {RU}.
+And the (square) on {BU} is equal to the (sum of the squares) on {BR} and {RU} [Prop. 1.47].
+Thus, the (square) on {BU} is four times the (square) on {UR}.
+Thus, {BU} is double {RU}.
+And {VU} is also double {UR}, inasmuch as {SR} is also double {PR}—that is to say, {RU}.
+Thus, {BU} (is) equal to {UV}.
+So, similarly, it can be shown that each of {BW}, {WC}, {CV} is equal to each of {BU} and {UV}.
+Thus, pentagon {BUVCW} is equilateral.
+So, I say that it is also in one plane.
+For let {PX} have been drawn from {P}, parallel to each of {RU} and {SV}, on the exterior side of the cube.
+And let {XH} and {HW} have been joined.
+I say that {XHW} is a straight-line.
+For since {HQ} has been cut in extreme and mean ratio at {T}, and {QT} is its greater piece, thus as {HQ} is to {QT}, so {QT} (is) to {TH}.
+And {HQ} (is) equal to {HP}, and {QT} to each of {TW} and {PX}.
+Thus, as {HP} is to {PX}, so {WT} (is) to {TH}.
+And {HP} is parallel to {TW}.
+For of each of them is at right-angles to the plane {BD} [Prop. 11.6].
+And {TH} (is parallel) to {PX}.
+For each of them is at right-angles to the plane {BF} [Prop. 11.6].
+And if two triangles, like {XPH} and {HTW}, having two sides proportional to two sides, are placed together at a single angle such that their corresponding sides are also parallel then the remaining sides will be straight-on (to one another) [Prop. 6.32].
+Thus, {XH} is straight-on to {HW}.
 And every straight-line is in one plane [Prop. 11.1].
-Thus, pentagon UBWCV is inoneplane.
+Thus, pentagon {UBWCV} is inoneplane.
 
 So, I say that it is also equiangular.
 
-For since the straight-line N P has been cut in extreme and mean ratio at R, and P R is the greater piece [thus as thesumofNPandPRistoPN,soNP(is)toPR],and PR(is)equaltoPS[thusasSNistoNP,soNP(is)to PS], NS has thus also been cut in extreme and mean ratio at P , and N P is the greater piece [Prop. 13.5].
-Thus, the (sum of the squares) on NS and SP is three times the (square) on NP [Prop. 13.4].
-And NP (is) equal to NB, and PS to SV.
-Thus, the (sum of the) squares on NS and SV is three times the (square) on NB.
-Hence, the (sum of the squares) on V S, SN, and N B is four times the (square) on N B.
-And the (square) on SB is equal to the (sum of the squares) on SN and NB [Prop. 1.47].
-Thus, the (sum of the squares) on BS and SV —that is to say, the (square) on BV [for angle V SB (is) a right-angle]—is four times the (square) on NB [Def. 11.3, Prop. 1.47].
-Thus, V B is double BN.
-And BC (is) also double BN.
-Thus, BV is equal to BC.
-And since the two (straight-lines) BU and UV are equal to the two (straight-lines) BW and WC (respectively), and the base BV (is) equal to the base BC, angle BUV is thus equal to angle BW C [Prop. 1.8].
-So, similarly, we can show that angle UV C is equal to angle BWC.
-Thus, the three angles BWC, BUV , and UV C are equal to one another.
+For since the straight-line {NP} has been cut in extreme and mean ratio at {R}, and {PR} is the greater piece [thus as the sum of {NP} and {PR} is to {PN}, so {NP} (is) to {{PR}}],and {PR} (is) equal to {PS} [thus as {SN} is to {NP}, so {NP} (is) to {PS}], {NS} has thus also been cut in extreme and mean ratio at {P}, and {NP} is the greater piece [Prop. 13.5].
+Thus, the (sum of the squares) on {NS} and {SP} is three times the (square) on {NP} [Prop. 13.4].
+And {NP} (is) equal to {NB}, and {PS} to {SV}.
+Thus, the (sum of the) squares on {NS} and {SV} is three times the (square) on {NB}.
+Hence, the (sum of the squares) on {VS}, {SN}, and {NB} is four times the (square) on {NB}.
+And the (square) on {SB} is equal to the (sum of the squares) on {SN} and {NB} [Prop. 1.47].
+Thus, the (sum of the squares) on {BS} and {SV} —that is to say, the (square) on {BV} [for angle {VSB} (is) a right-angle]—is four times the (square) on {NB} [Def. 11.3, Prop. 1.47].
+Thus, {VB} is double {BN}.
+And {BC} (is) also double {BN}.
+Thus, {BV} is equal to {BC}.
+And since the two (straight-lines) {BU} and {UV} are equal to the two (straight-lines) {BW} and {WC} (respectively), and the base {BV} (is) equal to the base {BC}, angle {BUV} is thus equal to angle {BWC} [Prop. 1.8].
+So, similarly, we can show that angle {UVC} is equal to angle {BWC}.
+Thus, the three angles {BWC}, {BUV}, and {UVC} are equal to one another.
 And if three angles of an equilateral pentagon are equal to one another then the pentagon is equiangular [Prop. 13.7].
-Thus, pentagon BUV CW is equiangular.
+Thus, pentagon {BUVCW} is equiangular.
 And it was also shown (to be) equilateral.
-Thus, pentagon BUV CW is equilateral and equiangular, and it is on one of the sides, BC, of the cube.
+Thus, pentagon {BUVCW} is equilateral and equiangular, and it is on one of the sides, {BC}, of the cube.
 Thus, if we make the same construction on each of the twelve sides of the cube then some solid figure contained by twelve equilateral and equiangular pentagons will have been constructed, which is called a dodecahedron.
 
 So, it is necessary to enclose it in the given sphere, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.
 
-For let X P have been produced, and let (the produced straight-line)beXZ.
+For let {XP} have been produced, and let (the produced straight-line)beXZ.
 Thus,PZmeetsthediameterofthe cube, and they cut one another in half.
 For, this has been proved in the penultimate theorem of the eleventh book [Prop. 11.38].
-Let them cut (one another) at Z.
-Thus, Z is the center of the sphere enclosing the cube, and ZP (is) half the side of the cube.
-So, let U Z have been joined.
-And since the straight-line NS has been cut in extreme and mean ratio at P, and its greater piece is NP, the (sum of the squares) on NS and SP is thus three times the (square) on N P [Prop. 13.4].
-And N S (is) equal to XZ, inasmuch as NP is also equal to PZ, and XP to PS.
-But, indeed, PS (is) also (equal) to XU, since (it is) also (equal) to RP.
-Thus, the (sum of the squares) on ZX and XU is three times the (square) on NP.
-And the (square) on UZ is equal to the (sum of the squares) on Z X and X U [Prop. 1.47].
-Thus, the (square) on U Z is three times the (square) on N P .
+Let them cut (one another) at {Z}.
+Thus, {Z} is the center of the sphere enclosing the cube, and {ZP} (is) half the side of the cube.
+So, let {UZ} have been joined.
+And since the straight-line {NS} has been cut in extreme and mean ratio at {P}, and its greater piece is {NP}, the (sum of the squares) on {NS} and {SP} is thus three times the (square) on {NP} [Prop. 13.4].
+And {NS} (is) equal to {XZ}, inasmuch as {NP} is also equal to {PZ}, and {XP} to {PS}.
+But, indeed, {PS} (is) also (equal) to {XU}, since (it is) also (equal) to {RP}.
+Thus, the (sum of the squares) on {ZX} and {XU} is three times the (square) on {NP}.
+And the (square) on {UZ} is equal to the (sum of the squares) on {ZX} and {XU} [Prop. 1.47].
+Thus, the (square) on {UZ} is three times the (square) on {NP}.
 And the square on the radius of the sphere enclosing the cube is also three times the (square) on half the side of the cube.
 For it has previously been demonstrated (how to) construct the cube, and to enclose (it) in a sphere, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube [Prop. 13.15].
 And if the (square on the) whole (is three times) the (square on the) whole, then the (square on the) half (is) also (three times) the (square on the) half.
-And NP is half of the side of the cube.
-Thus, UZ is equal to the radius of the sphere enclosing the cube.
-And Z is the center of the sphere enclosing the cube.
-Thus, point U is on the surface of the sphere.
+And {NP} is half of the side of the cube.
+Thus, {UZ} is equal to the radius of the sphere enclosing the cube.
+And {Z} is the center of the sphere enclosing the cube.
+Thus, point {U} is on the surface of the sphere.
 So, similarly, we can show that each of the remaining angles of the dodecahedron is also on the surface of the sphere.
 Thus, the dodecahedron has been enclosed by the given sphere.
 
 So, I say that the side of the dodecahedron is that irrational straight-line called an apotome.
 
-For since RP is the greater piece of NP, which has been cut in extreme and mean ratio, and PS is the greater piece of P O, which has been cut in extreme and mean ratio, RS is thus the greater piece of the whole of NO, which has been cut in extreme and mean ratio.
-[Thus, since as NP is to PR, (so) PR (is) to RN, and (the same is also true) of the doubles.
+For since {RP} is the greater piece of {NP}, which has been cut in extreme and mean ratio, and {PS} is the greater piece of {PO}, which has been cut in extreme and mean ratio, {RS} is thus the greater piece of the whole of {NO}, which has been cut in extreme and mean ratio.
+[Thus, since as {NP} is to {PR}, (so) {PR} (is) to {RN}, and (the same is also true) of the doubles.
 For parts have the same ratio as similar multiples (taken in corresponding order) [Prop. 5.15].
-Thus, as NO (is) to RS, so RS (is) to the sum of NR and SO.
-And NO (is) greater than RS.
-Thus, RS (is) also greater than the sum of NR and SO [Prop. 5.14].
-Thus, NO has been cut in extreme and mean ratio, and RS is its greater piece.]
-And RS (is) equal to UV .
-Thus, UV is the greater piece of NO, which has been cut in extreme and mean ratio.
-And since the diameter of the sphere is rational, and the square on it is three times the (square) on the side of the cube, NO, which is the side of the cube, is thus rational.
+Thus, as {NO} (is) to {RS}, so {RS} (is) to the sum of {NR} and {SO}.
+And {NO} (is) greater than {RS}.
+Thus, {RS} (is) also greater than the sum of {NR} and {SO} [Prop. 5.14].
+Thus, {NO} has been cut in extreme and mean ratio, and {RS} is its greater piece.]
+And {RS} (is) equal to {UV}.
+Thus, {UV} is the greater piece of {NO}, which has been cut in extreme and mean ratio.
+And since the diameter of the sphere is rational, and the square on it is three times the (square) on the side of the cube, {NO}, which is the side of the cube, is thus rational.
 And if a rational (straight)-line is cut in extreme and mean ratio then each of the pieces is the irrational (straight-line called) an apotome.
 
-Thus, UV, which is the side of the dodecahedron, is the irrational (straight-line called) an apotome [Prop. 13.6].
+Thus, {UV}, which is the side of the dodecahedron, is the irrational (straight-line called) an apotome [Prop. 13.6].
 
 Corollary
 

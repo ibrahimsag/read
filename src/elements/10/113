@@ -1,54 +1,54 @@
 The (square) on a rational (straight-line), applied to an apotome, produces as breadth a binomial whose terms are commensurable with the terms of the apotome, and in the same ratio.
 Moreover, the created binomial has the same order as the apotome.
 
-Let A be a rational (straight-line), and BD an apotome.
-And let the (rectangle contained) by BD and KH be equal to the (square) on A, such that the square on the rational (straight-line) A, applied to the apotome BD, produces KH as breadth.
-I say that KH is a binomial whose terms are commensurable with the terms of BD, and in the same ratio, and, moreover, that KH has the same order as BD.
+Let {A} be a rational (straight-line), and {BD} an apotome.
+And let the (rectangle contained) by {BD} and {KH} be equal to the (square) on {A}, such that the square on the rational (straight-line) {A}, applied to the apotome {BD}, produces {KH} as breadth.
+I say that {KH} is a binomial whose terms are commensurable with the terms of {BD}, and in the same ratio, and, moreover, that {KH} has the same order as {BD}.
 
-For let DC be an attachment to BD.
-Thus, BC and CD are rational (straight-lines which are) commensurable in square only [Prop. 10.73].
-And let the (rectangle contained) by BC and G also be equal to the (square) on A.
-And the (square) on A (is) rational.
-The (rectangle contained) by BC and G (is) thus also rational.
-And it has been applied to the rational (straight-line) BC.
-Thus, G is rational, and commensurable in length with BC [Prop. 10.20].
-Therefore, since the (rectangle contained) by BC and G is equal to the (rectangle contained) by BD and KH, thus, proportionally, as CB is to BD, so KH (is) to G [Prop. 6.16].
-And BC (is) greater than BD.
-Thus, KH (is) also greater than G [Prop. 5.16, 5.14].
-Let KE be made equal to G.
-KE is thus commensurable in length with BC.
-And since as CB is to BD, so HK (is) to KE, thus, via conversion, as BC (is) to CD, so KH (is) to HE [Prop. 5.19 corr.].
-Let it have been contrived that as KH (is) to HE, so HF (is) to FE.
-And thus the remainder KF is to FH, as KH (is) to HE---that is to say, [as] BC (is) to CD [Prop. 5.19].
-And BC and CD [are] commensurable in square only.
+For let {DC} be an attachment to {BD}.
+Thus, {BC} and {CD} are rational (straight-lines which are) commensurable in square only [Prop. 10.73].
+And let the (rectangle contained) by {BC} and {G} also be equal to the (square) on {A}.
+And the (square) on {A} (is) rational.
+The (rectangle contained) by {BC} and {G} (is) thus also rational.
+And it has been applied to the rational (straight-line) {BC}.
+Thus, {G} is rational, and commensurable in length with {BC} [Prop. 10.20].
+Therefore, since the (rectangle contained) by {BC} and {G} is equal to the (rectangle contained) by {BD} and {KH}, thus, proportionally, as {CB} is to {BD}, so {KH} (is) to {G} [Prop. 6.16].
+And {BC} (is) greater than {BD}.
+Thus, {KH} (is) also greater than {G} [Prop. 5.16, 5.14].
+Let {KE} be made equal to {G}.
+{KE} is thus commensurable in length with {BC}.
+And since as {CB} is to {BD}, so {HK} (is) to {KE}, thus, via conversion, as {BC} (is) to {CD}, so {KH} (is) to {HE} [Prop. 5.19 corr.].
+Let it have been contrived that as {KH} (is) to {HE}, so {HF} (is) to {FE}.
+And thus the remainder {KF} is to {FH}, as {KH} (is) to {HE}---that is to say, [as] {BC} (is) to {CD} [Prop. 5.19].
+And {BC} and {CD} [are] commensurable in square only.
 
-KF and FH are thus also commensurable in square only [Prop. 10.11].
-And since as KH is to HE, (so) KF (is) to FH, but as KH (is) to HE, (so) HF (is) to FE, thus, also as KF (is) to FH, (so) HF (is) to FE [Prop. 5.11].
+{KF} and {FH} are thus also commensurable in square only [Prop. 10.11].
+And since as {KH} is to {HE}, (so) {KF} (is) to {FH}, but as {KH} (is) to {HE}, (so) {HF} (is) to {FE}, thus, also as {KF} (is) to {FH}, (so) {HF} (is) to {FE} [Prop. 5.11].
 And hence as the first (is) to the third, so the (square) on the first (is) to the (square) on the second [Def. 5.9].
-And thus as KF (is) to FE, so the (square) on KF (is) to the (square) on FH.
-And the (square) on KF is commensurable with the (square) on FH.
-For KF and FH are commensurable in square.
-Thus, KF is also commensurable in length with FE [Prop. 10.11].
-Hence, KF [is] also commensurable in length with KE [Prop. 10.15].
-And KE is rational, and commensurable in length with BC.
-Thus, KF (is) also rational, and commensurable in length with BC [Prop. 10.12].
-And since as BC is to CD, (so) KF (is) to FH, alternately, as BC (is) to KF, so DC (is) to FH [Prop. 5.16].
-And BC (is) commensurable (in length) with KF.
-Thus, FH (is) also commensurable in length with CD [Prop. 10.11].
-And BC and CD are rational (straight-lines which are) commensurable in square only.
-KF and FH are thus also rational (straight-lines which are) commensurable in square only [Def. 10.3, Prop. 10.13].
-Thus, KH is a binomial [Prop. 10.36].
+And thus as {KF} (is) to {FE}, so the (square) on {KF} (is) to the (square) on {FH}.
+And the (square) on {KF} is commensurable with the (square) on {FH}.
+For {KF} and {FH} are commensurable in square.
+Thus, {KF} is also commensurable in length with {FE} [Prop. 10.11].
+Hence, {KF} [is] also commensurable in length with {KE} [Prop. 10.15].
+And {KE} is rational, and commensurable in length with {BC}.
+Thus, {KF} (is) also rational, and commensurable in length with {BC} [Prop. 10.12].
+And since as {BC} is to {CD}, (so) {KF} (is) to {FH}, alternately, as {BC} (is) to {KF}, so {DC} (is) to {FH} [Prop. 5.16].
+And {BC} (is) commensurable (in length) with {KF}.
+Thus, {FH} (is) also commensurable in length with {CD} [Prop. 10.11].
+And {BC} and {CD} are rational (straight-lines which are) commensurable in square only.
+{KF} and {FH} are thus also rational (straight-lines which are) commensurable in square only [Def. 10.3, Prop. 10.13].
+Thus, {KH} is a binomial [Prop. 10.36].
 
-Therefore, if the square on BC is greater than (the square on) CD by the (square) on (some straight-line) commensurable (in length) with (BC), then the square on KF will also be greater than (the square on) FH by the (square) on (some straight-line) commensurable (in length) with (KF) [Prop. 10.14].
-And if BC is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) KF [Prop. 10.12].
-And if CD is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) FH [Prop. 10.12].
-And if neither of BC or CD (are commensurable), neither also (are) either of KF or FH [Prop. 10.13].
+Therefore, if the square on {BC} is greater than (the square on) {CD} by the (square) on (some straight-line) commensurable (in length) with ({BC}), then the square on {KF} will also be greater than (the square on) {FH} by the (square) on (some straight-line) commensurable (in length) with ({KF}) [Prop. 10.14].
+And if {BC} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {KF} [Prop. 10.12].
+And if {CD} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FH} [Prop. 10.12].
+And if neither of {BC} or {CD} (are commensurable), neither also (are) either of {KF} or {FH} [Prop. 10.13].
 
-And if the square on BC is greater than (the square on) CD by the (square) on (some straight-line) incommensurable (in length) with (BC) then the square on KF will also be greater than (the square on) FH by the (square) on (some straight-line) incommensurable (in length) with (KF) [Prop. 10.14].
-And if BC is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) KF [Prop. 10.12].
-And if CD is commensurable, (so) also (is) FH [Prop. 10.12].
-And if neither of BC or CD (are commensurable), neither also (are) either of KF or FH [Prop. 10.13].
+And if the square on {BC} is greater than (the square on) {CD} by the (square) on (some straight-line) incommensurable (in length) with ({BC}) then the square on {KF} will also be greater than (the square on) {FH} by the (square) on (some straight-line) incommensurable (in length) with ({KF}) [Prop. 10.14].
+And if {BC} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {KF} [Prop. 10.12].
+And if {CD} is commensurable, (so) also (is) {FH} [Prop. 10.12].
+And if neither of {BC} or {CD} (are commensurable), neither also (are) either of {KF} or {FH} [Prop. 10.13].
 
-KH is thus a binomial whose terms, KF and FH, [are] commensurable (in length) with the terms, BC and CD, of the apotome, and in the same ratio.
-Moreover, KH will have the same order as BC [Defs. 10.5-10.10].
+{KH} is thus a binomial whose terms, {KF} and {FH}, [are] commensurable (in length) with the terms, {BC} and {CD}, of the apotome, and in the same ratio.
+Moreover, {KH} will have the same order as {BC} [Defs. 10.5-10.10].
 (Which is) the very thing it was required to show.

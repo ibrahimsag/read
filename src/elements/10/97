@@ -1,43 +1,43 @@
 The (square) on an apotome, applied to a rational (straight-line), produces a first apotome as breadth.
 
-Let AB be an apotome, and CD a rational (straight-line).
-And let CE, equal to the (square) on AB, have been applied to CD, producing CF as breadth.
-I say that CF is a first apotome.
+Let {AB} be an apotome, and {CD} a rational (straight-line).
+And let {CE}, equal to the (square) on {AB}, have been applied to {CD}, producing {CF} as breadth.
+I say that {CF} is a first apotome.
 
-For let BG be an attachment to AB.
-Thus, AG and GB are rational (straight-lines which are) commensurable in square only [Prop. 10.73].
-And let CH, equal to the (square) on AG, and KL, (equal) to the (square) on BG, have been applied to CD.
-Thus, the whole of CL is equal to the (sum of the squares) on AG and GB, of which CE is equal to the (square) on AB.
-The remainder FL is thus equal to twice the (rectangle contained) by AG and GB [Prop. 2.7].
-Let FM have been cut in half at point N.
-And let NO have been drawn through N, parallel to CD.
-Thus, FO and LN are each equal to the (rectangle contained) by AG and GB.
-And since the (sum of the squares) on AG and GB is rational, and DM is equal to the (sum of the squares) on AG and GB, DM is thus rational.
-And it has been applied to the rational (straight-line) CD, producing CM as breadth.
-Thus, CM is rational, and commensurable in length with CD [Prop. 10.20].
-Again, since twice the (rectangle contained) by AG and GB is medial, and FL (is) equal to twice the (rectangle contained) by AG and GB, FL (is) thus a medial (area).
-And it is applied to the rational (straight-line) CD, producing FM as breadth.
-FM is thus rational, and incommensurable in length with CD [Prop. 10.22].
-And since the (sum of the squares) on AG and GB is rational, and twice the (rectangle contained) by AG and GB medial, the (sum of the squares) on AG and GB is thus incommensurable with twice the (rectangle contained) by AG and GB.
-And CL is equal to the (sum of the squares) on AG and GB, and FL to twice the (rectangle contained) by AG and GB.
-DM is thus incommensurable with FL.
-And as DM (is) to FL, so CM is to FM [Prop. 6.1].
-CM is thus incommensurable in length with FM [Prop. 10.11].
+For let {BG} be an attachment to {AB}.
+Thus, {AG} and {GB} are rational (straight-lines which are) commensurable in square only [Prop. 10.73].
+And let {CH}, equal to the (square) on {AG}, and {KL}, (equal) to the (square) on {BG}, have been applied to {CD}.
+Thus, the whole of {CL} is equal to the (sum of the squares) on {AG} and {GB}, of which {CE} is equal to the (square) on {AB}.
+The remainder {FL} is thus equal to twice the (rectangle contained) by {AG} and {GB} [Prop. 2.7].
+Let {FM} have been cut in half at point {N}.
+And let {NO} have been drawn through {N}, parallel to {CD}.
+Thus, {FO} and {LN} are each equal to the (rectangle contained) by {AG} and {GB}.
+And since the (sum of the squares) on {AG} and {GB} is rational, and {DM} is equal to the (sum of the squares) on {AG} and {GB}, {DM} is thus rational.
+And it has been applied to the rational (straight-line) {CD}, producing {CM} as breadth.
+Thus, {CM} is rational, and commensurable in length with {CD} [Prop. 10.20].
+Again, since twice the (rectangle contained) by {AG} and {GB} is medial, and {FL} (is) equal to twice the (rectangle contained) by {AG} and {GB}, {FL} (is) thus a medial (area).
+And it is applied to the rational (straight-line) {CD}, producing {FM} as breadth.
+{FM} is thus rational, and incommensurable in length with {CD} [Prop. 10.22].
+And since the (sum of the squares) on {AG} and {GB} is rational, and twice the (rectangle contained) by {AG} and {GB} medial, the (sum of the squares) on {AG} and {GB} is thus incommensurable with twice the (rectangle contained) by {AG} and {GB}.
+And {CL} is equal to the (sum of the squares) on {AG} and {GB}, and {FL} to twice the (rectangle contained) by {AG} and {GB}.
+{DM} is thus incommensurable with {FL}.
+And as {DM} (is) to {FL}, so {CM} is to {FM} [Prop. 6.1].
+{CM} is thus incommensurable in length with {FM} [Prop. 10.11].
 And both are rational (straight-lines).
-Thus, CM and MF are rational (straight-lines which are) commensurable in square only.
-CF is thus an apotome [Prop. 10.73].
+Thus, {CM} and {MF} are rational (straight-lines which are) commensurable in square only.
+{CF} is thus an apotome [Prop. 10.73].
 So, I say that (it is) also a first (apotome).
 
-For since the (rectangle contained) by AG and GB is the mean proportional to the (squares) on AG and GB [Prop. 10.21 lem.], and CH is equal to the (square) on AG, and KL equal to the (square) on BG, and NL to the (rectangle contained) by AG and GB, NL is thus also the mean proportional to CH and KL.
-Thus, as CH is to NL, so NL (is) to KL.
-But, as CH (is) to NL, so CK is to NM, and as NL (is) to KL, so NM is to KM [Prop. 6.1].
-Thus, the (rectangle contained) by CK and KM is equal to the (square) on NM---that is to say, to the fourth part of the (square) on FM [Prop. 6.17].
-And since the (square) on AG is commensurable with the (square) on GB, CH [is] also commensurable with KL.
-And as CH (is) to KL, so CK (is) to KM [Prop. 6.1].
-CK is thus commensurable (in length) with KM [Prop. 10.11].
-Therefore, since CM and MF are two unequal straight-lines, and the (rectangle contained) by CK and KM, equal to the fourth part of the (square) on FM, has been applied to CM, falling short by a square figure, and CK is commensurable (in length) with KM, the square on CM is thus greater than (the square on) MF by the (square) on (some straight-line) commensurable in length with (CM) [Prop. 10.17].
-And CM is commensurable in length with the (previously) laid down rational (straight-line) CD.
-Thus, CF is a first apotome [Def. 10.15].
+For since the (rectangle contained) by {AG} and {GB} is the mean proportional to the (squares) on {AG} and {GB} [Prop. 10.21 lem.], and {CH} is equal to the (square) on {AG}, and {KL} equal to the (square) on {BG}, and {NL} to the (rectangle contained) by {AG} and {GB}, {NL} is thus also the mean proportional to {CH} and {KL}.
+Thus, as {CH} is to {NL}, so {NL} (is) to {KL}.
+But, as {CH} (is) to {NL}, so {CK} is to {NM}, and as {NL} (is) to {KL}, so {NM} is to {KM} [Prop. 6.1].
+Thus, the (rectangle contained) by {CK} and {KM} is equal to the (square) on {NM}---that is to say, to the fourth part of the (square) on {FM} [Prop. 6.17].
+And since the (square) on {AG} is commensurable with the (square) on {GB}, {CH} [is] also commensurable with {KL}.
+And as {CH} (is) to {KL}, so {CK} (is) to {KM} [Prop. 6.1].
+{CK} is thus commensurable (in length) with {KM} [Prop. 10.11].
+Therefore, since {CM} and {MF} are two unequal straight-lines, and the (rectangle contained) by {CK} and {KM}, equal to the fourth part of the (square) on {FM}, has been applied to {CM}, falling short by a square figure, and {CK} is commensurable (in length) with {KM}, the square on {CM} is thus greater than (the square on) {MF} by the (square) on (some straight-line) commensurable in length with ({CM}) [Prop. 10.17].
+And {CM} is commensurable in length with the (previously) laid down rational (straight-line) {CD}.
+Thus, {CF} is a first apotome [Def. 10.15].
 
 Thus, the (square) on an apotome, applied to a rational (straight-line), produces a first apotome as breadth.
 (Which is) the very thing it was required to show.

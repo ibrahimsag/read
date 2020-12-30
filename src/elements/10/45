@@ -1,13 +1,13 @@
 A major (straight-line) can only be divided (into its component terms) at the same point.
 
-Let AB be a major (straight-line) which has been divided at C, so that AC and CB are incommensurable in square, making the sum of the squares on AC and CB rational, and the (rectangle contained) by AC and CD medial [Prop. 10.39].
-I say that AB cannot be (so) divided at another point.
+Let {AB} be a major (straight-line) which has been divided at {C}, so that {AC} and {CB} are incommensurable in square, making the sum of the squares on {AC} and {CB} rational, and the (rectangle contained) by {AC} and {CD} medial [Prop. 10.39].
+I say that {AB} cannot be (so) divided at another point.
 
-For, if possible, let it also have been divided at D, such that AD and DB are also incommensurable in square, making the sum of the (squares) on AD and DB rational, and the (rectangle contained) by them medial.
-And since, by whatever (amount the sum of) the (squares) on AC and CB differs from (the sum of) the (squares) on AD and DB, twice the (rectangle contained) by AD and DB also differs from twice the (rectangle contained) by AC and CB by this (same amount).
-But, (the sum of) the (squares) on AC and CB exceeds (the sum of) the (squares) on AD and DB by a rational (area).
+For, if possible, let it also have been divided at {D}, such that {AD} and {DB} are also incommensurable in square, making the sum of the (squares) on {AD} and {DB} rational, and the (rectangle contained) by them medial.
+And since, by whatever (amount the sum of) the (squares) on {AC} and {CB} differs from (the sum of) the (squares) on {AD} and {DB}, twice the (rectangle contained) by {AD} and {DB} also differs from twice the (rectangle contained) by {AC} and {CB} by this (same amount).
+But, (the sum of) the (squares) on {AC} and {CB} exceeds (the sum of) the (squares) on {AD} and {DB} by a rational (area).
 For (they are) both rational (areas).
-Thus, twice the (rectangle contained) by AD and DB also exceeds twice the (rectangle contained) by AC and CB by a rational (area), (despite both) being medial (areas).
+Thus, twice the (rectangle contained) by {AD} and {DB} also exceeds twice the (rectangle contained) by {AC} and {CB} by a rational (area), (despite both) being medial (areas).
 The very thing is impossible [Prop. 10.26].
 Thus, a major (straight-line) cannot be divided (into its component terms) at different points.
 Thus, it can only be (so) divided at the same (point).

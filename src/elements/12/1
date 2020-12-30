@@ -1,21 +1,21 @@
 Similar polygons (inscribed) in circles are to one another as the squares on the diameters (of the circles).
 
-Let ABC and FGH be circles, and let ABCDE and F GH K L be similar polygons (inscribed) in them (respectively), and let BM and GN be the diameters of the circles (respectively).
-I say that as the square on BM is to the square on GN, so polygon ABCDE (is) to polygon FGHKL.
+Let {ABC} and {FGH} be circles, and let {ABCDE} and {FGHKL} be similar polygons (inscribed) in them (respectively), and let {BM} and {GN} be the diameters of the circles (respectively).
+I say that as the square on {BM} is to the square on {GN}, so polygon {ABCDE} (is) to polygon {FGHKL}.
 
-For let BE, AM, GL, and FN have been joined.
-And since polygon ABCDE (is) similar to polygon FGHKL, angle BAE is also equal to (angle) GFL, and as BA is to AE, so GF (is) to FL [Def. 6.1].
-So, BAE and GFL are two triangles having one angle equal to one angle, (namely), BAE (equal) to GFL, and the sides around the equal angles proportional.
-Triangle ABE is thus equiangular with triangle FGL [Prop. 6.6].
-Thus, angle AEB is equal to (angle) FLG.
-But, AEB is equal to AMB, and FLG to FNG, for they stand on the same circumference [Prop. 3.27].
-Thus, AMB is also equal to FNG.
-And the right-angle BAM is also equal to the right-angle GF N [Prop. 3.31].
+For let {BE}, {AM}, {GL}, and {FN} have been joined.
+And since polygon {ABCDE} (is) similar to polygon {FGHKL}, angle {BAE} is also equal to (angle) {GFL}, and as {BA} is to {AE}, so {GF} (is) to {FL} [Def. 6.1].
+So, {BAE} and {GFL} are two triangles having one angle equal to one angle, (namely), {BAE} (equal) to {GFL}, and the sides around the equal angles proportional.
+Triangle {ABE} is thus equiangular with triangle {FGL} [Prop. 6.6].
+Thus, angle {AEB} is equal to (angle) {FLG}.
+But, {AEB} is equal to {AMB}, and {FLG} to {FNG}, for they stand on the same circumference [Prop. 3.27].
+Thus, {AMB} is also equal to {FNG}.
+And the right-angle {BAM} is also equal to the right-angle {GFN} [Prop. 3.31].
 Thus, the remaining (angle) is also equal to the remaining (angle) [Prop. 1.32].
-Thus, triangle ABM is equiangular with triangle FGN.
-Thus, proportionally, as BM is to GN, so BA (is) to GF [Prop. 6.4].
-But, the (ratio) of the square on BM to the square on GN is the square of the ratio of BM to GN, and the (ratio) of polygon ABCDE to polygon FGHKL is the square of the (ratio) of BA to GF [Prop. 6.20].
-And, thus, as the square on BM (is) to the square on GN, so polygon ABCDE (is) to polygon FGHKL.
+Thus, triangle {ABM} is equiangular with triangle {FGN}.
+Thus, proportionally, as {BM} is to {GN}, so {BA} (is) to {GF} [Prop. 6.4].
+But, the (ratio) of the square on {BM} to the square on {GN} is the square of the ratio of {BM} to {GN}, and the (ratio) of polygon {ABCDE} to polygon {FGHKL} is the square of the (ratio) of {BA} to {GF} [Prop. 6.20].
+And, thus, as the square on {BM} (is) to the square on {GN}, so polygon {ABCDE} (is) to polygon {FGHKL}.
 
 Thus, similar polygons (inscribed) in circles are to one another as the squares on the diameters (of the circles).
 (Which is) the very thing it was required to show.

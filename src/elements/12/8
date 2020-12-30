@@ -1,21 +1,21 @@
 Similar pyramids which also have triangular bases are in the cubed ratio of their corresponding sides.
 
-Let there be similar, and similarly laid out, pyramids whose bases are triangles ABC and DEF, and apexes the points G and H (respectively).
-I say that pyramid ABCG has to pyramid DEFH the cubed ratio of that BC (has) to EF.
+Let there be similar, and similarly laid out, pyramids whose bases are triangles {ABC} and {DEF}, and apexes the points {G} and {H} (respectively).
+I say that pyramid {ABCG} has to pyramid {DEFH} the cubed ratio of that {BC} (has) to {EF}.
 
-For let the parallelepiped solids BGML and EHQP have been completed.
-And since pyramid ABCG is similar to pyramid DEFH, angle ABC is thus equal to angle DEF, and GBC to HEF, and ABG to DEH.
-And as AB is to DE, so BC (is) to EF, and BG to EH [Def.11.9].
-And since as AB is to DE, so BC (is) to EF, and (so) the sides around equal angles are proportional, parallelogram BM is thus similar to paralleleogram EQ.
-So, for the same (reasons), BN is also similar to ER, and BK to EO.
-Thus, the three (parallelograms) MB, BK, and BN are similar to the three (parallelograms) EQ, EO, ER (respectively).
-But, the three (parallelograms) MB, BK, and BN are (both) equal and similar to the three opposite (parallelograms), and the three (parallelograms) EQ, EO, and ER are (both) equal and similar to the three opposite (parallelograms) [Prop. 11.24].
-Thus, the solids BGML and EHQP are contained by equal numbers of similar (and similarly laid out) planes.
-Thus, solid BGML is similar to solid EHQP [Def. 11.9].
+For let the parallelepiped solids {BGML} and {EHQP} have been completed.
+And since pyramid {ABCG} is similar to pyramid {DEFH}, angle {ABC} is thus equal to angle {DEF}, and {GBC} to {HEF}, and {ABG} to {DEH}.
+And as {AB} is to {DE}, so {BC} (is) to {EF}, and {BG} to {EH} [Def.11.9].
+And since as {AB} is to {DE}, so {BC} (is) to {EF}, and (so) the sides around equal angles are proportional, parallelogram {BM} is thus similar to paralleleogram {EQ}.
+So, for the same (reasons), {BN} is also similar to {ER}, and {BK} to {EO}.
+Thus, the three (parallelograms) {MB}, {BK}, and {BN} are similar to the three (parallelograms) {EQ}, {EO}, {ER} (respectively).
+But, the three (parallelograms) {MB}, {BK}, and {BN} are (both) equal and similar to the three opposite (parallelograms), and the three (parallelograms) {EQ}, {EO}, and {ER} are (both) equal and similar to the three opposite (parallelograms) [Prop. 11.24].
+Thus, the solids {BGML} and {EHQP} are contained by equal numbers of similar (and similarly laid out) planes.
+Thus, solid {BGML} is similar to solid {EHQP} [Def. 11.9].
 And similar parallelepiped solids are in the cubed ratio of corresponding sides [Prop. 11.33].
-Thus, solid BGML has to solid EHQP the cubed ratio that the corresponding side BC (has) to the corresponding side EF.
-And as solid BGML (is) to solid EHQP, so pyramid ABCG (is) to pyramid DEFH, inasmuch as the pyramid is the sixth part of the solid, on account of the prism, being half of the parallelepiped solid [Prop. 11.28], also being three times the pyramid [Prop. 12.7].
-Thus, pyramid ABCG also has to pyramid DEF H the cubed ratio that BC (has) to EF.
+Thus, solid {BGML} has to solid {EHQP} the cubed ratio that the corresponding side {BC} (has) to the corresponding side {EF}.
+And as solid {BGML} (is) to solid {EHQP}, so pyramid {ABCG} (is) to pyramid {DEFH}, inasmuch as the pyramid is the sixth part of the solid, on account of the prism, being half of the parallelepiped solid [Prop. 11.28], also being three times the pyramid [Prop. 12.7].
+Thus, pyramid {ABCG} also has to pyramid {DEFH} the cubed ratio that {BC} (has) to {EF}.
 (Which is) the very thing it was required to show.
 
 Corollary

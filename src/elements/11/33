@@ -1,30 +1,30 @@
 Similar parallelepiped solids are to one another as the cubed ratio of their corresponding sides.
 
-Let AB and CD be similar parallelepiped solids, and let AE correspond to CF.
-I say that solid AB has to solid CD the cubed ratio that AE (has) to CF.
+Let {AB} and {CD} be similar parallelepiped solids, and let {AE} correspond to {CF}.
+I say that solid {AB} has to solid {CD} the cubed ratio that {AE} (has) to {CF}.
 
-For let EK, EL, and EM have been produced in a straight-line with AE, GE, and HE (respectively).
-And let EK be made equal to CF, and EL equal to FN, and, further, EM equal to FR.
-And let the parallelogram KL have been completed, and the solid KP.
+For let {EK}, {EL}, and {EM} have been produced in a straight-line with {AE}, {GE}, and {HE} (respectively).
+And let {EK} be made equal to {CF}, and {EL} equal to {FN}, and, further, {EM} equal to {FR}.
+And let the parallelogram {KL} have been completed, and the solid {KP}.
 
-And since the two (straight-lines) KE and EL are equal to the two (straight-lines) C F and F N , but angle KEL is also equal to angle CFN, inasmuch as AEG is also equal to CFN, on account of the similarity of the solids AB and CD, parallelogram KL is thus equal [and similar] to parallelogram CN.
-So, for the same (reasons), parallelogram KM is also equal and similar to [parallelogram] CR, and, further, EP to DF.
-Thus, three parallelograms of solid KP are equal and similar to three parallelograms of solid CD.
+And since the two (straight-lines) {KE} and {EL} are equal to the two (straight-lines) CF and {FN}, but angle {KEL} is also equal to angle {CFN}, inasmuch as {AEG} is also equal to {CFN}, on account of the similarity of the solids {AB} and {CD}, parallelogram {KL} is thus equal [and similar] to parallelogram {CN}.
+So, for the same (reasons), parallelogram {KM} is also equal and similar to [parallelogram] {CR}, and, further, {EP} to {DF}.
+Thus, three parallelograms of solid {KP} are equal and similar to three parallelograms of solid {CD}.
 But the three (former parallelograms) are equal and similar to the three opposite (parallelograms), and the three (latter parallelograms) are equal and similar to the three opposite (parallelograms) [Prop. 11.24].
-Thus, the whole of solid KP is equal and similar to the whole of solid CD [Def. 11.10].
-Let parallelogram GK have been completed.
-And let the the solids EO and LQ, with bases the parallelograms GK and KL (respectively), and with the same height as AB, have been completed.
-And since, on account of the similarity of solids AB and CD, as AE is to CF, so EG (is) to FN, and EH to FR [Defs. 6.1, 11.9], and CF (is) equal to EK, and FN to EL, and FR to EM, thus as AE is to EK, so GE (is) to EL, and HE to EM.
-But, as AE (is) to EK, so [parallelogram] AG (is) to parallelogram GK, and as GE (is) to EL, so GK (is) to KL, and as HE (is) to EM, so QE (is) to KM [Prop. 6.1].
-And thus as parallelogram AG (is) to GK, so GK (is) to KL, and QE (is) to KM.
-But, as AG (is) to GK, so solid AB (is) to solid EO, and as GK (is) to KL, so solid OE (is) to solid QL, and as QE (is) to KM, so solid QL (is) to solid KP [Prop. 11.32].
-And, thus, as solid AB is to EO, so EO (is) to QL, and QL to KP.
+Thus, the whole of solid {KP} is equal and similar to the whole of solid {CD} [Def. 11.10].
+Let parallelogram {GK} have been completed.
+And let the the solids {EO} and {LQ}, with bases the parallelograms {GK} and {KL} (respectively), and with the same height as {AB}, have been completed.
+And since, on account of the similarity of solids {AB} and {CD}, as {AE} is to {CF}, so {EG} (is) to {FN}, and {EH} to {FR} [Defs. 6.1, 11.9], and {CF} (is) equal to {EK}, and {FN} to {EL}, and {FR} to {EM}, thus as {AE} is to {EK}, so {GE} (is) to {EL}, and {HE} to {EM}.
+But, as {AE} (is) to {EK}, so [parallelogram] {AG} (is) to parallelogram {GK}, and as {GE} (is) to {EL}, so {GK} (is) to {KL}, and as {HE} (is) to {EM}, so {QE} (is) to {KM} [Prop. 6.1].
+And thus as parallelogram {AG} (is) to {GK}, so {GK} (is) to {KL}, and {QE} (is) to {KM}.
+But, as {AG} (is) to {GK}, so solid {AB} (is) to solid {EO}, and as {GK} (is) to {KL}, so solid {OE} (is) to solid {QL}, and as {QE} (is) to {KM}, so solid {QL} (is) to solid {KP} [Prop. 11.32].
+And, thus, as solid {AB} is to {EO}, so {EO} (is) to {QL}, and {QL} to {KP}.
 And if four magnitudes are continuously proportional then the first has to the fourth the cubed ratio that (it has) to the second [Def. 5.10].
-Thus, solid AB has to KP the cubed ratio which AB (has) to EO.
-But, as AB (is) to EO, so parallelogram AG (is) to GK, and the straight-line AE to EK [Prop. 6.1].
-Hence, solid AB also has to KP the cubed ratio that AE (has) to EK.
-And solid KP (is) equal to solid CD, and straight-line EK to CF.
-Thus, solid AB also has to solid CD the cubed ratio which its corresponding side AE (has) to the corresponding side CF.
+Thus, solid {AB} has to {KP} the cubed ratio which {AB} (has) to {EO}.
+But, as {AB} (is) to {EO}, so parallelogram {AG} (is) to {GK}, and the straight-line {AE} to {EK} [Prop. 6.1].
+Hence, solid {AB} also has to {KP} the cubed ratio that {AE} (has) to {EK}.
+And solid {KP} (is) equal to solid {CD}, and straight-line {EK} to {CF}.
+Thus, solid {AB} also has to solid {CD} the cubed ratio which its corresponding side {AE} (has) to the corresponding side {CF}.
 
 Thus, similar parallelepiped solids are to one another as the cubed ratio of their corresponding sides.
 (Which is) the very thing it was required to show.

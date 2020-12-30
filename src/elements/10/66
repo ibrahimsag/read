@@ -1,36 +1,36 @@
 A (straight-line) commensurable in length with a binomial (straight-line) is itself also binomial, and the same in order.
 
-Let AB be a binomial (straight-line), and let CD be commensurable in length with AB.
-I say that CD is a binomial (straight-line), and (is) the same in order as AB.
+Let {AB} be a binomial (straight-line), and let {CD} be commensurable in length with {AB}.
+{I} say that {CD} is a binomial (straight-line), and (is) the same in order as {AB}.
 
-For since AB is a binomial (straight-line), let it have been divided into its (component) terms at E, and let AE be the greater term.
-AE and EB are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
-Let it have been contrived that as AB (is) to CD, so AE (is) to CF [Prop. 6.12].
-Thus, the remainder EB is also to the remainder FD, as AB (is) to CD [Props. 6.16, 5.19 corr.].
-And AB (is) commensurable in length with CD.
-Thus, AE is also commensurable (in length) with CF, and EB with FD [Prop. 10.11].
-And AE and EB are rational.
-Thus, CF and FD are also rational.
-And as AE is to CF, (so) EB (is) to FD [Prop. 5.11].
-Thus, alternately, as AE is to EB, (so) CF (is) to FD [Prop. 5.16].
-And AE and EB [are] commensurable in square only.
-Thus, CF and FD are also commensurable in square only [Prop.
+For since {AB} is a binomial (straight-line), let it have been divided into its (component) terms at {E}, and let {AE} be the greater term.
+{AE} and {EB} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
+Let it have been contrived that as {AB} (is) to {CD}, so {AE} (is) to {CF} [Prop. 6.12].
+Thus, the remainder {EB} is also to the remainder {FD}, as {AB} (is) to {CD} [Props. 6.16, 5.19 corr.].
+And {AB} (is) commensurable in length with {CD}.
+Thus, {AE} is also commensurable (in length) with {CF}, and {EB} with {FD} [Prop. 10.11].
+And {AE} and {EB} are rational.
+Thus, {CF} and {FD} are also rational.
+And as {AE} is to {CF}, (so) {EB} (is) to {FD} [Prop. 5.11].
+Thus, alternately, as {AE} is to {EB}, (so) {CF} (is) to {FD} [Prop. 5.16].
+And {AE} and {EB} [are] commensurable in square only.
+Thus, {CF} and {FD} are also commensurable in square only [Prop.
 10.11].
 And they are rational.
-CD is thus a binomial (straight-line) [Prop. 10.36].
-So, I say that it is the same in order as AB.
+{CD} is thus a binomial (straight-line) [Prop. 10.36].
+So, I say that it is the same in order as {AB}.
 
-For the square on AE is greater than (the square on) EB by the (square) on (some straight-line) either commensurable or incommensurable (in length) with (AE).
-Therefore, if the square on AE is greater than (the square on) EB by the (square) on (some straight-line) commensurable (in length) with (AE) then the square on CF will also be greater than (the square on) FD by the (square) on (some straight-line) commensurable (in length) with (CF) [Prop. 10.14].
-And if AE is commensurable (in length) with (some previously) laid down rational (straight-line) then CF will also be commensurable (in length) with it [Prop. 10.12].
-And, on account of this, AB and CD are each first binomial (straight-lines) [Def. 10.5]---that is to say, the same in order.
-And if EB is commensurable (in length) with the (previously) laid down rational (straight-line) then FD is also commensurable (in length) with it [Prop. 10.12], and, again, on account of this, (CD) will be the same in order as AB.
+For the square on {AE} is greater than (the square on) {EB} by the (square) on (some straight-line) either commensurable or incommensurable (in length) with ({AE}).
+Therefore, if the square on {AE} is greater than (the square on) {EB} by the (square) on (some straight-line) commensurable (in length) with ({AE}) then the square on {CF} will also be greater than (the square on) {FD} by the (square) on (some straight-line) commensurable (in length) with ({CF}) [Prop. 10.14].
+And if {AE} is commensurable (in length) with (some previously) laid down rational (straight-line) then {CF} will also be commensurable (in length) with it [Prop. 10.12].
+And, on account of this, {AB} and {CD} are each first binomial (straight-lines) [Def. 10.5]---that is to say, the same in order.
+And if {EB} is commensurable (in length) with the (previously) laid down rational (straight-line) then {FD} is also commensurable (in length) with it [Prop. 10.12], and, again, on account of this, ({CD}) will be the same in order as {AB}.
 For each of them will be second binomial (straight-lines) [Def. 10.6].
-And if neither of AE and EB is commensurable (in length) with the (previously) laid down rational (straight-line) then neither of CF and FD will be commensurable (in length) with it [Prop. 10.13], and each (of AB and CD) is a third (binomial straight-line) [Def. 10.7].
-And if the square on AE is greater than (the square on) EB by the (square) on (some straight-line) incommensurable (in length) with (AE) then the square on CF is also greater than (the square on) FD by the (square) on (some straight-line) incommensurable (in length) with (CF) [Prop. 10.14].
-And if AE is commensurable (in length) with the (previously) laid down rational (straight-line) then CF is also commensurable (in length) with it [Prop. 10.12], and each (of AB and CD) is a fourth (binomial straight-line) [Def. 10.8].
-And if EB (is commensurable in length with the previously laid down rational straight-line) then FD (is) also (commensurable in length with it), and each (of AB and CD) will be a fifth (binomial straight-line) [Def. 10.9].
-And if neither of AE and EB (is commensurable in length with the previously laid down rational straight-line) then also neither of CF and FD is commensurable (in length) with the laid down rational (straight-line), and each (of AB and CD) will be a sixth (binomial straight-line) [Def.
+And if neither of {AE} and {EB} is commensurable (in length) with the (previously) laid down rational (straight-line) then neither of {CF} and {FD} will be commensurable (in length) with it [Prop. 10.13], and each (of {AB} and {CD}) is a third (binomial straight-line) [Def. 10.7].
+And if the square on {AE} is greater than (the square on) {EB} by the (square) on (some straight-line) incommensurable (in length) with ({AE}) then the square on {CF} is also greater than (the square on) {FD} by the (square) on (some straight-line) incommensurable (in length) with ({CF}) [Prop. 10.14].
+And if {AE} is commensurable (in length) with the (previously) laid down rational (straight-line) then {CF} is also commensurable (in length) with it [Prop. 10.12], and each (of {AB} and {CD}) is a fourth (binomial straight-line) [Def. 10.8].
+And if {EB} (is commensurable in length with the previously laid down rational straight-line) then {FD} (is) also (commensurable in length with it), and each (of {AB} and {CD}) will be a fifth (binomial straight-line) [Def. 10.9].
+And if neither of {AE} and {EB} (is commensurable in length with the previously laid down rational straight-line) then also neither of {CF} and {FD} is commensurable (in length) with the laid down rational (straight-line), and each (of {AB} and {CD}) will be a sixth (binomial straight-line) [Def.
 10.10].
 
 Hence, a (straight-line) commensurable in length with a binomial (straight-line) is a binomial (straight-line), and the same in order.

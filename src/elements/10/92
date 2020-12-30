@@ -1,52 +1,52 @@
 If an area is contained by a rational (straight-line) and a second apotome then the square-root of the area is a first apotome of a medial (straight-line).
 
-For let the area AB have been contained by the rational (straight-line) AC and the second apotome AD.
-I say that the square-root of area AB is the first apotome of a medial(straight-line).
+For let the area {AB} have been contained by the rational (straight-line) {AC} and the second apotome {AD}.
+I say that the square-root of area {AB} is the first apotome of a medial(straight-line).
 
-For let DG be an attachment to AD.
-Thus, AG and GD are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and the attachment DG is commensurable (in length) with the (previously) laid down rational (straight-line) AC, and the square on the whole, AG, is greater than (the square on) the attachment, GD, by the (square) on (some straight-line) commensurable in length with (AG) [Def. 10.12].
-Therefore, since the square on AG is greater than (the square on) GD by the (square) on (some straight-line) commensurable (in length) with (AG), thus if (an area) equal to the fourth part of the (square) on GD is applied to AG, falling short by a square figure, then it divides (AG) into (parts which are) commensurable (in length) [Prop. 10.17].
-Therefore, let DG have been cut in half at E.
-And let (an area) equal to the (square) on EG have been applied to AG, falling short by a square figure.
-And let it be the (rectangle contained) by AF and FG.
-Thus, AF is commensurable in length with FG.
-AG is thus also commensurable in length with each of AF and FG [Prop. 10.15].
-And AG (is) a rational (straight-line), and incommensurable in length with AC.
-AF and FG are thus also each rational (straight-lines), and incommensurable in length with AC [Prop. 10.13].
-Thus, AI and FK are each medial (areas) [Prop. 10.21].
-Again, since DE is commensurable (in length) with EG, thus DG is also commensurable (in length) with each of DE and EG [Prop. 10.15].
-But, DG is commensurable in length with AC [thus, DE and EG are also each rational, and commensurable in length with AC].
-Thus, DH and EK are each rational (areas) [Prop. 10.19].
+For let {DG} be an attachment to {AD}.
+Thus, {AG} and {GD} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and the attachment {DG} is commensurable (in length) with the (previously) laid down rational (straight-line) {AC}, and the square on the whole, {AG}, is greater than (the square on) the attachment, {GD}, by the (square) on (some straight-line) commensurable in length with ({AG}) [Def. 10.12].
+Therefore, since the square on {AG} is greater than (the square on) {GD} by the (square) on (some straight-line) commensurable (in length) with ({AG}), thus if (an area) equal to the fourth part of the (square) on {GD} is applied to {AG}, falling short by a square figure, then it divides ({AG}) into (parts which are) commensurable (in length) [Prop. 10.17].
+Therefore, let {DG} have been cut in half at {E}.
+And let (an area) equal to the (square) on {EG} have been applied to {AG}, falling short by a square figure.
+And let it be the (rectangle contained) by {AF} and {FG}.
+Thus, {AF} is commensurable in length with {FG}.
+{AG} is thus also commensurable in length with each of {AF} and {FG} [Prop. 10.15].
+And {AG} (is) a rational (straight-line), and incommensurable in length with {AC}.
+{AF} and {FG} are thus also each rational (straight-lines), and incommensurable in length with {AC} [Prop. 10.13].
+Thus, {AI} and {FK} are each medial (areas) [Prop. 10.21].
+Again, since {DE} is commensurable (in length) with {EG}, thus {DG} is also commensurable (in length) with each of {DE} and {EG} [Prop. 10.15].
+But, {DG} is commensurable in length with {AC} [thus, {DE} and {EG} are also each rational, and commensurable in length with {AC}].
+Thus, {DH} and {EK} are each rational (areas) [Prop. 10.19].
 
-Therefore, let the square LM, equal to AI, have been constructed.
-And let NO, equal to FK, which is about the same angle LPM as LM, have been subtracted (from LM).
-Thus, the squares LM and NO are about the same diagonal [Prop. 6.26].
-Let PR be their (common) diagonal, and let the (rest of the) figure have been drawn.
-Therefore, since AI and FK are medial (areas), and are equal to the (squares) on LP and PN (respectively), [thus] the (squares) on LP and PN are also medial.
-Thus, LP and PN are also medial (straight-lines which are) commensurable in square only.
-And since the (rectangle contained) by AF and FG is equal to the (square) on EG, thus as AF is to EG, so EG (is) to FG [Prop. 10.17].
-But, as AF (is) to EG, so AI (is) to EK.
-Andas EG (is) to FG, so EK [is] to FK [Prop. 6.1].
-Thus, EK is the mean proportional to AI and FK [Prop. 5.11].
-And MN is also the mean proportional to the squares LM and NO [Prop. 10.53 lem.].
-And AI is equal to LM, and FK to NO.
-Thus, MN is also equal to EK.
-But, DH [is] equal to EK, and LO equal to MN [Prop. 1.43].
-Thus, the whole (of) DK is equal to the gnomon UVW and NO.
-Therefore, since the whole (of) AK is equal to LM and NO, of which DK is equal to the gnomon UVW and NO, the remainder AB is thus equal to TS.
-And TS is the (square) on LN.
-Thus, the (square) on LN is equal to the area AB.
-LN is thus the square-root of area AB.
-[So], I say that LN is the first apotome of a medial (straight-line).
+Therefore, let the square {LM}, equal to {AI}, have been constructed.
+And let {NO}, equal to {FK}, which is about the same angle {LPM} as {LM}, have been subtracted (from {LM}).
+Thus, the squares {LM} and {NO} are about the same diagonal [Prop. 6.26].
+Let {PR} be their (common) diagonal, and let the (rest of the) figure have been drawn.
+Therefore, since {AI} and {FK} are medial (areas), and are equal to the (squares) on {LP} and {PN} (respectively), [thus] the (squares) on {LP} and {PN} are also medial.
+Thus, {LP} and {PN} are also medial (straight-lines which are) commensurable in square only.
+And since the (rectangle contained) by {AF} and {FG} is equal to the (square) on {EG}, thus as {AF} is to {EG}, so {EG} (is) to {FG} [Prop. 10.17].
+But, as {AF} (is) to {EG}, so {AI} (is) to {EK}.
+Andas {EG} (is) to {FG}, so {EK} [is] to {FK} [Prop. 6.1].
+Thus, {EK} is the mean proportional to {AI} and {FK} [Prop. 5.11].
+And {MN} is also the mean proportional to the squares {LM} and {NO} [Prop. 10.53 lem.].
+And {AI} is equal to {LM}, and {FK} to {NO}.
+Thus, {MN} is also equal to {EK}.
+But, {DH} [is] equal to {EK}, and {LO} equal to {MN} [Prop. 1.43].
+Thus, the whole (of) {DK} is equal to the gnomon {UVW} and {NO}.
+Therefore, since the whole (of) {AK} is equal to {LM} and {NO}, of which {DK} is equal to the gnomon {UVW} and {NO}, the remainder {AB} is thus equal to {TS}.
+And {TS} is the (square) on {LN}.
+Thus, the (square) on {LN} is equal to the area {AB}.
+{LN} is thus the square-root of area {AB}.
+[So], I say that {LN} is the first apotome of a medial (straight-line).
 
-For since EK is a rational (area), and is equal to LO, LO---that is to say, the (rectangle contained) by LP and PN---is thus a rational (area).
-And NO was shown (to be) a medial (area).
-Thus, LO is incommensurable with NO.
-And as LO (is) to NO, so LP is to PN [Prop. 6.1].
-Thus, LP and PN are incommensurable in length [Prop. 10.11].
-LP and PN are thus medial (straight-lines which are) commensurable in square only, and which contain a rational (area).
-Thus, LN is the first apotome of a medial (straight-line) [Prop. 10.74].
-And it is the square-root of area AB.
+For since {EK} is a rational (area), and is equal to {LO}, {LO}---that is to say, the (rectangle contained) by {LP} and {PN}---is thus a rational (area).
+And {NO} was shown (to be) a medial (area).
+Thus, {LO} is incommensurable with {NO}.
+And as {LO} (is) to {NO}, so {LP} is to {PN} [Prop. 6.1].
+Thus, {LP} and {PN} are incommensurable in length [Prop. 10.11].
+{LP} and {PN} are thus medial (straight-lines which are) commensurable in square only, and which contain a rational (area).
+Thus, {LN} is the first apotome of a medial (straight-line) [Prop. 10.74].
+And it is the square-root of area {AB}.
 
-Thus, the square root of area AB is the first apotome of a medial (straight-line).
+Thus, the square root of area {AB} is the first apotome of a medial (straight-line).
 (Which is) the very thing it was required to show.

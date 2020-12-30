@@ -1,29 +1,29 @@
 If the side of a hexagon and of a decagon inscribed in the same circle are added together then the whole straight-line has been cut in extreme and mean ratio (at the junction point), and its greater piece is the side of the hexagon.
 
-Let ABC be a circle.
-And of the figures inscribed in circle ABC, let BC be the side of a decagon, and CD (the side) of a hexagon.
+Let {ABC} be a circle.
+And of the figures inscribed in circle {ABC}, let {BC} be the side of a decagon, and {CD} (the side) of a hexagon.
 And let them be (laid down) straight-on (to one another).
-I say that the whole straight-line BD has been cut in extreme and mean ratio (at C), and that C D is its greater piece.
+I say that the whole straight-line {BD} has been cut in extreme and mean ratio (at {C}), and that {CD} is its greater piece.
 
-For let the center of the circle, point E, have been found [Prop. 3.1], and let EB, EC, and ED have been joined, and let BE have been drawn across to A.
-Since BC is a side on an equilateral decagon, circumference ACB (is) thus five times circumference BC.
-Thus, circumference AC (is) four times CB.
-And as circumference AC (is) to CB, so angle AEC (is) to CEB [Prop. 6.33].
-Thus, (angle) AEC (is) four times CEB.
-And since angle EBC (is) equal to ECB [Prop. 1.5], angle AEC is thus double ECB [Prop. 1.32].
-And since straight-line EC is equal to CD—for each of them is equal to the side of the hexagon [inscribed] in circle ABC [Prop. 4.15 corr.]— angle CED is also equal to angle CDE [Prop. 1.5].
-Thus, angle ECB (is) double EDC [Prop. 1.32].
-But, AEC was shown (to be) double ECB.
-Thus, AEC (is) four times EDC.
-And AEC was also shown (to be) four times BEC.
-Thus, EDC (is) equal to BEC.
-And angle EBD (is) common to the two triangles BEC and BED.
-Thus, the remaining (angle) BED is equal to the (remaining angle) ECB [Prop. 1.32].
-Thus, triangle EBD is equiangular to triangle EBC.
-Thus, proportionally, as DB is to BE, so EB (is) to BC [Prop. 6.4].
-And EB (is) equal toCD.
-Thus, as BD is to DC, so DC (is) to CB.
-And BD (is) greater than DC.
-Thus, DC (is) also greater than CB [Prop. 5.14].
-Thus, the straight-line BD has been cut in extreme and mean ratio [at C], and DC is its greater piece.
+For let the center of the circle, point {E}, have been found [Prop. 3.1], and let {EB}, {EC}, and {ED} have been joined, and let {BE} have been drawn across to {A}.
+Since {BC} is a side on an equilateral decagon, circumference {ACB} (is) thus five times circumference {BC}.
+Thus, circumference {AC} (is) four times {CB}.
+And as circumference {AC} (is) to {CB}, so angle {AEC} (is) to {CEB} [Prop. 6.33].
+Thus, (angle) {AEC} (is) four times {CEB}.
+And since angle {EBC} (is) equal to {ECB} [Prop. 1.5], angle {AEC} is thus double {ECB} [Prop. 1.32].
+And since straight-line {EC} is equal to {CD}—for each of them is equal to the side of the hexagon [inscribed] in circle {ABC} [Prop. 4.15 corr.]— angle {CED} is also equal to angle {CDE} [Prop. 1.5].
+Thus, angle {ECB} (is) double {EDC} [Prop. 1.32].
+But, {AEC} was shown (to be) double {ECB}.
+Thus, {AEC} (is) four times {EDC}.
+And {AEC} was also shown (to be) four times {BEC}.
+Thus, {EDC} (is) equal to {BEC}.
+And angle {EBD} (is) common to the two triangles {BEC} and {BED}.
+Thus, the remaining (angle) {BED} is equal to the (remaining angle) {ECB} [Prop. 1.32].
+Thus, triangle {EBD} is equiangular to triangle {EBC}.
+Thus, proportionally, as {DB} is to {BE}, so {EB} (is) to {BC} [Prop. 6.4].
+And {EB} (is) equal toCD.
+Thus, as {BD} is to {DC}, so {DC} (is) to {CB}.
+And {BD} (is) greater than {DC}.
+Thus, {DC} (is) also greater than {CB} [Prop. 5.14].
+Thus, the straight-line {BD} has been cut in extreme and mean ratio [at {C}], and {DC} is its greater piece.
 (Which is), the very thing it was required to show.

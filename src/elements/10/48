@@ -1,30 +1,30 @@
 To find a first binomial (straight-line).
 
-Let two numbers AC and CB be laid down such that their sum AB has to BC the ratio which (some) square number (has) to (some) square number, and does not have to CA the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
-And let some rational (straight-line) D be laid down.
-And let EF be commensurable in length with D.
-EF is thus also rational [Def. 10.3].
-And let it have been contrived that as the number BA (is) to AC, so the (square) on EF (is) to the (square) on FG [Prop. 10.6 corr.].
-And AB has to AC the ratio which (some) number (has) to (some) number.
-Thus, the (square) on EF also has to the (square) on FG the ratio which (some) number (has) to (some) number.
-Hence, the (square) on EF is commensurable with the (square) on FG [Prop. 10.6].
-And EF is rational.
-Thus, FG (is) also rational.
-And since BA does not have to AC the ratio which (some) square number (has) to (some) square number, thus the (square) on EF does not have to the (square) on FG the ratio which (some) square number (has) to (some) square number either.
-Thus, EF is incommensurable in length with FG [Prop 10.9].
-EF and FG are thus rational (straight-lines which are) commensurable in square only.
-Thus, EG is a binomial (straight-line) [Prop. 10.36].
+Let two numbers {AC} and {CB} be laid down such that their sum {AB} has to {BC} the ratio which (some) square number (has) to (some) square number, and does not have to {CA} the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
+And let some rational (straight-line) {D} be laid down.
+And let {EF} be commensurable in length with {D}.
+{EF} is thus also rational [Def. 10.3].
+And let it have been contrived that as the number {BA} (is) to {AC}, so the (square) on {EF} (is) to the (square) on {FG} [Prop. 10.6 corr.].
+And {AB} has to {AC} the ratio which (some) number (has) to (some) number.
+Thus, the (square) on {EF} also has to the (square) on {FG} the ratio which (some) number (has) to (some) number.
+Hence, the (square) on {EF} is commensurable with the (square) on {FG} [Prop. 10.6].
+And {EF} is rational.
+Thus, {FG} (is) also rational.
+And since {BA} does not have to {AC} the ratio which (some) square number (has) to (some) square number, thus the (square) on {EF} does not have to the (square) on {FG} the ratio which (some) square number (has) to (some) square number either.
+Thus, {EF} is incommensurable in length with {FG} [Prop 10.9].
+{EF} and {FG} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {EG} is a binomial (straight-line) [Prop. 10.36].
 I say that (it is) also a first (binomial straight-line).
 
-For since as the number BA is to AC, so the (square) on EF (is) to the (square) on FG, and BA (is) greater than AC, the (square) on EF (is) thus also greater than the (square) on FG [Prop. 5.14].
-Therefore, let (the sum of) the (squares) on FG and H be equal to the (square) on EF.
-And since as BA is to AC, so the (square) on EF (is) to the (square) on FG, thus, via conversion, as AB is to BC, so the (square) on EF (is) to the (square) on H [Prop. 5.19 corr.].
-And AB has to BC the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on EF also has to the (square) on H the ratio which (some) square number (has) to (some) square number.
-Thus, EF is commensurable in length with H [Prop. 10.9].
-Thus, the square on EF is greater than (the square on) FG by the (square) on (some straight-line) commensurable (in length) with (EF).
-And EF and FG are rational (straight-lines).
-And EF (is) commensurable in length with D.
+For since as the number {BA} is to {AC}, so the (square) on {EF} (is) to the (square) on {FG}, and {BA} (is) greater than {AC}, the (square) on {EF} (is) thus also greater than the (square) on {FG} [Prop. 5.14].
+Therefore, let (the sum of) the (squares) on {FG} and {H} be equal to the (square) on {EF}.
+And since as {BA} is to {AC}, so the (square) on {EF} (is) to the (square) on {FG}, thus, via conversion, as {AB} is to {BC}, so the (square) on {EF} (is) to the (square) on {H} [Prop. 5.19 corr.].
+And {AB} has to {BC} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {EF} also has to the (square) on {H} the ratio which (some) square number (has) to (some) square number.
+Thus, {EF} is commensurable in length with {H} [Prop. 10.9].
+Thus, the square on {EF} is greater than (the square on) {FG} by the (square) on (some straight-line) commensurable (in length) with ({EF}).
+And {EF} and {FG} are rational (straight-lines).
+And {EF} (is) commensurable in length with {D}.
 
-Thus, EG is a first binomial (straight-line) [Def. 10.5].
+Thus, {EG} is a first binomial (straight-line) [Def. 10.5].
 (Which is) the very thing it was required to show.

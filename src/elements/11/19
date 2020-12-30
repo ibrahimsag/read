@@ -1,15 +1,15 @@
 If two planes cutting one another are at right-angles to some plane then their common section will also be at right-angles to the same plane.
 
-For let the two planes AB and BC be at right-angles to a reference plane, and let their common section be BD.
-I say that BD is at right-angles to the reference plane.
+For let the two planes {AB} and {BC} be at right-angles to a reference plane, and let their common section be {BD}.
+I say that {BD} is at right-angles to the reference plane.
 
-For (if) not, let DE also have been drawn from point D, in the plane AB, at right-angles to the straight-line AD, and DF, in the plane BC, at right-angles to CD.
+For (if) not, let {DE} also have been drawn from point {D}, in the plane {AB}, at right-angles to the straight-line {AD}, and {DF}, in the plane {BC}, at right-angles to {CD}.
 
-And since the plane AB is at right-angles to the reference (plane), and DE has been drawn at right-angles to their common section AD, in the plane AB, DE is thus at right-angles to the reference plane [Def. 11.4].
-So, similarly, we can show that DF is also at right-angles to the reference plane.
-Thus, two (different) straight-lines are set up, at the same point D, at right-angles to the reference plane, on the same side.
+And since the plane {AB} is at right-angles to the reference (plane), and {DE} has been drawn at right-angles to their common section {AD}, in the plane {AB}, {DE} is thus at right-angles to the reference plane [Def. 11.4].
+So, similarly, we can show that {DF} is also at right-angles to the reference plane.
+Thus, two (different) straight-lines are set up, at the same point {D}, at right-angles to the reference plane, on the same side.
 The very thing is impossible [Prop. 11.13].
-Thus, no (other straight-line) except the common section DB of the planes AB and BC can be set up at point D, at right-angles to the reference plane.
+Thus, no (other straight-line) except the common section {DB} of the planes {AB} and {BC} can be set up at point {D}, at right-angles to the reference plane.
 
 Thus, if two planes cutting one another are at right-angles to some plane then their common section will also be at right-angles to the same plane.
 (Which is) the very thing it was required to show.

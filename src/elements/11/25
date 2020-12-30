@@ -1,25 +1,25 @@
 If a parallelipiped solid is cut by a plane which is parallel to the opposite planes (of the parallelipiped) then as the base (is) to the base, so the solid will be to the solid.
 
-For let the parallelipiped solid ABCD have been cut by the plane F G which is parallel to the opposite planes RA and DH.
-I say that as the base AEFV (is) to the base EHCF, so the solid ABF U (is) to the solid EGCD.
+For let the parallelipiped solid {ABCD} have been cut by the plane {FG} which is parallel to the opposite planes {RA} and {DH}.
+I say that as the base {AEFV} (is) to the base {EHCF}, so the solid {ABFU} (is) to the solid {EGCD}.
 
-For let AH have been produced in each direction.
-And let any number whatsoever (of lengths), AK and KL, be made equal to AE, and any number whatsoever (of lengths), HM and MN, equal to EH.
-And let the parallelograms LP, KV, HW, and MS have been completed, and the solids LQ, KR, DM, and MT.
+For let {AH} have been produced in each direction.
+And let any number whatsoever (of lengths), {AK} and {KL}, be made equal to {AE}, and any number whatsoever (of lengths), {HM} and {MN}, equal to {EH}.
+And let the parallelograms {LP}, {KV}, {HW}, and {MS} have been completed, and the solids {LQ}, {KR}, {DM}, and {MT}.
 
-And since the straight-lines LK, KA, and AE are equal to one another, the parallelograms LP , K V , and AF are also equal to one another, and KO, KB, and AG (are equal) to one another, and, further, LX , K Q, and AR (are equal) to one another.
+And since the straight-lines {LK}, {KA}, and {AE} are equal to one another, the parallelograms {LP}, {KV}, and {AF} are also equal to one another, and {KO}, {KB}, and {AG} (are equal) to one another, and, further, {LX}, {KQ}, and {AR} (are equal) to one another.
 For (they are) opposite [Prop. 11.24].
-So, for the same (reasons), the parallelograms EC, HW, and MS are also equal to one another, and HG, HI, and IN are equal to one another, and, further, DH , M Y , and N T (are equal to one another).
-Thus, three planes of (one of) the solids LQ, KR, and AU are equal to the (corresponding) three planes (of the others).
+So, for the same (reasons), the parallelograms {EC}, {HW}, and {MS} are also equal to one another, and {HG}, {HI}, and {IN} are equal to one another, and, further, {DH}, {MY}, and {NT} (are equal to one another).
+Thus, three planes of (one of) the solids {LQ}, {KR}, and {AU} are equal to the (corresponding) three planes (of the others).
 But, the three planes (in one of the soilds) are equal to the three opposite planes [Prop. 11.24].
-Thus, the three solids LQ, KR, and AU are equal to one another [Def. 11.10].
-So, for the same (reasons), the three solids ED, DM , and M T are also equal to one another.
-Thus, as many multiples as the base LF is of the base AF, so many multiples is the solid LU also of the the solid AU.
-So, for the same (reasons), as many multiples as the base NF is of the base FH, so many multiples is the solid NU also of the solid HU.
-And if the base LF is equal to the base NF then the solid LU is also equal to the solid NU.
-And if the base LF exceeds the base NF then the solid LU also exceeds the solid NU.
-And if (LF) is less than (NF) then (LU) is (also) less than (NU).
-So, there are four magnitudes, the two bases AF and F H , and the two solids AU and U H , and equal multiples have been taken of the base AF and the solid AU---(namely), the base LF and the solid LU---and of the base HF and the solid HU---(namely), the base NF and the solid NU.
-And it has been shown that if the base LF exceeds the base F N then the solid LU also exceeds the [solid] NU, and if (LF is) equal (to FN) then (LU is) equal (to NU), and if (LF is) less than (FN) then (LU is) less than (NU).
-Thus, as the base AF is to the base FH, so the solid AU (is) to the solid U H [Def. 5.5].
+Thus, the three solids {LQ}, {KR}, and {AU} are equal to one another [Def. 11.10].
+So, for the same (reasons), the three solids {ED}, {DM}, and {MT} are also equal to one another.
+Thus, as many multiples as the base {LF} is of the base {AF}, so many multiples is the solid {LU} also of the the solid {AU}.
+So, for the same (reasons), as many multiples as the base {NF} is of the base {FH}, so many multiples is the solid {NU} also of the solid {HU}.
+And if the base {LF} is equal to the base {NF} then the solid {LU} is also equal to the solid {NU}.
+And if the base {LF} exceeds the base {NF} then the solid {LU} also exceeds the solid {NU}.
+And if ({LF}) is less than ({NF}) then ({LU}) is (also) less than ({NU}).
+So, there are four magnitudes, the two bases {AF} and {FH}, and the two solids {AU} and {UH}, and equal multiples have been taken of the base {AF} and the solid {AU}---(namely), the base {LF} and the solid {LU}---and of the base {HF} and the solid {HU}---(namely), the base {NF} and the solid {NU}.
+And it has been shown that if the base {LF} exceeds the base {FN} then the solid {LU} also exceeds the [solid] {NU}, and if ({LF} is) equal (to {FN}) then ({LU} is) equal (to {NU}), and if ({LF} is) less than ({FN}) then ({LU} is) less than ({NU}).
+Thus, as the base {AF} is to the base {FH}, so the solid {AU} (is) to the solid {UH} [Def. 5.5].
 (Which is) the very thing it was required to show.

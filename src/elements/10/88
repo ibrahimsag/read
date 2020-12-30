@@ -1,29 +1,29 @@
 To find a fourth apotome.
 
-Let the rational (straight-line) A, and BG (which is) commensurable in length with A, be laid down.
-Thus, BG is also a rational (straight-line).
-And let the two numbers DF and FE be laid down such that the whole, DE, does not have to each of DF and EF the ratio which (some) square number (has) to (some) square number.
-And let it have been contrived that as DE (is) to EF, so the square on BG (is) to the (square) on GC [Prop. 10.6 corr.].
-The (square) on BG is thus commensurable with the (square) on GC [Prop. 10.6].
-And the (square) on BG (is) rational.
-Thus, the (square) on GC (is) also rational.
-Thus, GC (is) a rational (straight-line).
-And since DE does not have to EF the ratio which (some) square number (has) to (some) square number, the (square) on BG thus does not have to the (square) on GC the ratio which (some) square number (has) to (some) square number either.
-Thus, BG is incommensurable in length with GC [Prop. 10.9].
+Let the rational (straight-line) {A}, and {BG} (which is) commensurable in length with {A}, be laid down.
+Thus, {BG} is also a rational (straight-line).
+And let the two numbers {DF} and {FE} be laid down such that the whole, {DE}, does not have to each of {DF} and {EF} the ratio which (some) square number (has) to (some) square number.
+And let it have been contrived that as {DE} (is) to {EF}, so the square on {BG} (is) to the (square) on {GC} [Prop. 10.6 corr.].
+The (square) on {BG} is thus commensurable with the (square) on {GC} [Prop. 10.6].
+And the (square) on {BG} (is) rational.
+Thus, the (square) on {GC} (is) also rational.
+Thus, {GC} (is) a rational (straight-line).
+And since {DE} does not have to {EF} the ratio which (some) square number (has) to (some) square number, the (square) on {BG} thus does not have to the (square) on {GC} the ratio which (some) square number (has) to (some) square number either.
+Thus, {BG} is incommensurable in length with {GC} [Prop. 10.9].
 And they are both rational (straight-lines).
-Thus, BG and GC are rational (straight-lines which are) commensurable in square only.
-Thus, BC is an apotome [Prop. 10.73].
+Thus, {BG} and {GC} are rational (straight-lines which are) commensurable in square only.
+Thus, {BC} is an apotome [Prop. 10.73].
 [So, I say that (it is) also a fourth (apotome).]
 
-Now, let the (square) on H be that (area) by which the (square) on BG is greater than the (square) on GC [Prop. 10.13 lem.].
-Therefore, since as DE is to EF, so the (square) on BG (is) to the (square) on GC, thus, also, via conversion, as ED is to DF, so the (square) on GB (is) to the (square) on H [Prop. 5.19 corr.].
-And ED does not have to DF the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on GB does not have to the (square) on H the ratio which (some) square number (has) to (some) square number either.
-Thus, BG is incommensurable in length with H [Prop. 10.9].
-And the square on BG is greater than (the square on) GC by the (square) on H.
-Thus, the square on BG is greater than (the square) on GC by the (square) on (some straight-line) incommensurable (in length) with (BG).
-And the whole, BG, is commensurable in length with the the (previously) laid down rational (straight-line) A.
-Thus, BC is a fourth apotome [Def. 10.14].
+Now, let the (square) on {H} be that (area) by which the (square) on {BG} is greater than the (square) on {GC} [Prop. 10.13 lem.].
+Therefore, since as {DE} is to {EF}, so the (square) on {BG} (is) to the (square) on {GC}, thus, also, via conversion, as {ED} is to {DF}, so the (square) on {GB} (is) to the (square) on {H} [Prop. 5.19 corr.].
+And {ED} does not have to {DF} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {GB} does not have to the (square) on {H} the ratio which (some) square number (has) to (some) square number either.
+Thus, {BG} is incommensurable in length with {H} [Prop. 10.9].
+And the square on {BG} is greater than (the square on) {GC} by the (square) on {H}.
+Thus, the square on {BG} is greater than (the square) on {GC} by the (square) on (some straight-line) incommensurable (in length) with ({BG}).
+And the whole, {BG}, is commensurable in length with the the (previously) laid down rational (straight-line) {A}.
+Thus, {BC} is a fourth apotome [Def. 10.14].
 
 Thus, a fourth apotome has been found.
 (Which is) the very thing it was required to show.

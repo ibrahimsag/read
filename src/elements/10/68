@@ -1,28 +1,28 @@
 A (straight-line) commensurable (in length) with a major (straight-line) is itself also major.
 
-Let AB be a major (straight-line), and let CD be commensurable (in length) with AB.
-I say that CD is a major (straight-line).
+Let {AB} be a major (straight-line), and let {CD} be commensurable (in length) with {AB}.
+I say that {CD} is a major (straight-line).
 
-Let AB have been divided (into its component terms) at E.
-AE and EB are thus incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial [Prop. 10.39].
+Let {AB} have been divided (into its component terms) at {E}.
+{AE} and {EB} are thus incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial [Prop. 10.39].
 And let (the) same (things) have been contrived as in the previous (propositions).
-And since as AB is to CD, so AE (is) to CF and EB to FD, thus also as AE (is) to CF, so EB (is) to FD [Prop. 5.11].
-And AB (is) commensurable (in length) with CD.
-Thus, AE and EB (are) also commensurable (in length) with CF and FD, respectively [Prop. 10.11].
-And since as AE is to CF, so EB (is) to FD, also, alternately, as AE (is) to EB, so CF (is) to FD [Prop. 5.16], and thus, via composition, as AB is to BE, so CD (is) to DF [Prop. 5.18].
-And thus as the (square) on AB (is) to the (square) on BE, so the (square) on CD (is) to the (square) on DF [Prop. 6.20].
-So, similarly, we can also show that as the (square) on AB (is) to the (square) on AE, so the (square) on CD (is) to the (square) on CF.
-And thus as the (square) on AB (is) to (the sum of) the (squares) on AE and EB, so the (square) on CD (is) to (the sum of) the (squares) on CF and FD.
-And thus, alternately, as the (square) on AB is to the (square) on CD, so (the sum of) the (squares) on AE and EB (is) to (the sum of) the (squares) on CF and FD [Prop. 5.16].
-And the (square) on AB (is) commensurable with the (square) on CD.
-Thus, (the sum of) the (squares) on AE and EB (is) also commensurable with (the sum of) the (squares) on CF and FD [Prop. 10.11].
-And the (squares) on AE and EB (added) together are rational.
-The (squares) on CF and FD (added) together (are) thus also rational.
-So, similarly, twice the (rectangle contained) by AE and EB is also commensurable with twice the (rectangle contained) by CF and FD.
-And twice the (rectangle contained) by AE and EB is medial.
-Therefore, twice the (rectangle contained) by CF and FD (is) also medial [Prop. 10.23 corr.].
-CF and FD are thus (straight-lines which are) incommensurable in square [Prop 10.13], simultaneously making the sum of the squares on them rational, and twice the (rectangle contained) by them medial.
-The whole, CD, is thus that irrational (straight-line) called major [Prop. 10.39].
+And since as {AB} is to {CD}, so {AE} (is) to {CF} and {EB} to {FD}, thus also as {AE} (is) to {CF}, so {EB} (is) to {FD} [Prop. 5.11].
+And {AB} (is) commensurable (in length) with {CD}.
+Thus, {AE} and {EB} (are) also commensurable (in length) with {CF} and {FD}, respectively [Prop. 10.11].
+And since as {AE} is to {CF}, so {EB} (is) to {FD}, also, alternately, as {AE} (is) to {EB}, so {CF} (is) to {FD} [Prop. 5.16], and thus, via composition, as {AB} is to {BE}, so {CD} (is) to {DF} [Prop. 5.18].
+And thus as the (square) on {AB} (is) to the (square) on {BE}, so the (square) on {CD} (is) to the (square) on {DF} [Prop. 6.20].
+So, similarly, we can also show that as the (square) on {AB} (is) to the (square) on {AE}, so the (square) on {CD} (is) to the (square) on {CF}.
+And thus as the (square) on {AB} (is) to (the sum of) the (squares) on {AE} and {EB}, so the (square) on {CD} (is) to (the sum of) the (squares) on {CF} and {FD}.
+And thus, alternately, as the (square) on {AB} is to the (square) on {CD}, so (the sum of) the (squares) on {AE} and {EB} (is) to (the sum of) the (squares) on {CF} and {FD} [Prop. 5.16].
+And the (square) on {AB} (is) commensurable with the (square) on {CD}.
+Thus, (the sum of) the (squares) on {AE} and {EB} (is) also commensurable with (the sum of) the (squares) on {CF} and {FD} [Prop. 10.11].
+And the (squares) on {AE} and {EB} (added) together are rational.
+The (squares) on {CF} and {FD} (added) together (are) thus also rational.
+So, similarly, twice the (rectangle contained) by {AE} and {EB} is also commensurable with twice the (rectangle contained) by {CF} and {FD}.
+And twice the (rectangle contained) by {AE} and {EB} is medial.
+Therefore, twice the (rectangle contained) by {CF} and {FD} (is) also medial [Prop. 10.23 corr.].
+{CF} and {FD} are thus (straight-lines which are) incommensurable in square [Prop 10.13], simultaneously making the sum of the squares on them rational, and twice the (rectangle contained) by them medial.
+The whole, {CD}, is thus that irrational (straight-line) called major [Prop. 10.39].
 
 Thus, a (straight-line) commensurable (in length) with a major (straight-line) is major.
 (Which is) the very thing it was required to show.

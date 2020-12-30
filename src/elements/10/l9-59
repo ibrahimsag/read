@@ -1,12 +1,12 @@
 If a straight-line is cut unequally then (the sum of) the squares on the unequal (parts) is greater than twice the rectangle contained by the unequal (parts).
 
-Let AB be a straight-line, and let it have been cut unequally at C, and let AC be greater (than CB).
-I say that (the sum of) the (squares) on AC and CB is greater than twice the (rectangle contained) by AC and CB.
+Let {AB} be a straight-line, and let it have been cut unequally at {C}, and let {AC} be greater (than {CB}).
+I say that (the sum of) the (squares) on {AC} and {CB} is greater than twice the (rectangle contained) by {AC} and {CB}.
 
-For let AB have been cut in half at D.
-Therefore, since a straight-line has been cut into equal (parts) at D, and into unequal (parts) at C, the (rectangle contained) by AC and CB, plus the (square) on CD, is thus equal to the (square) on AD [Prop. 2.5].
-Hence, the (rectangle contained) by AC and CB is less than the (square) on AD.
-Thus, twice the (rectangle contained) by AC and CB is less than double the (square) on AD.
-But, (the sum of) the (squares) on AC and CB [is] double (the sum of) the (squares) on AD and DC [Prop. 2.9].
-Thus, (the sum of) the (squares) on AC and CB is greater than twice the (rectangle contained) by AC and CB.
+For let {AB} have been cut in half at {D}.
+Therefore, since a straight-line has been cut into equal (parts) at {D}, and into unequal (parts) at {C}, the (rectangle contained) by {AC} and {CB}, plus the (square) on {CD}, is thus equal to the (square) on {AD} [Prop. 2.5].
+Hence, the (rectangle contained) by {AC} and {CB} is less than the (square) on {AD}.
+Thus, twice the (rectangle contained) by {AC} and {CB} is less than double the (square) on {AD}.
+But, (the sum of) the (squares) on {AC} and {CB} [is] double (the sum of) the (squares) on {AD} and {DC} [Prop. 2.9].
+Thus, (the sum of) the (squares) on {AC} and {CB} is greater than twice the (rectangle contained) by {AC} and {CB}.
 (Which is) the very thing it was required to show.

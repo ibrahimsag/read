@@ -1,26 +1,26 @@
 A (straight-line) commensurable in length with a bimedial (straight-line) is itself also bimedial, and the same in order.
 
-Let AB be a bimedial (straight-line), and let CD be commensurable in length with AB.
-I say that CD is bimedial, and the same in order as AB.
+Let {AB} be a bimedial (straight-line), and let {CD} be commensurable in length with {AB}.
+I say that {CD} is bimedial, and the same in order as {AB}.
 
-For since AB is a bimedial (straight-line), let it have been divided into its (component) medial (straight-lines) at E.
-Thus, AE and EB are medial (straight-lines which are) commensurable in square only [Props. 10.37, 10.38].
-And let it have been contrived that as AB (is) to CD, (so) AE (is) to CF [Prop. 6.12].
-And thus as the remainder EB is to the remainder FD, so AB (is) to CD [Props. 5.19 corr., 6.16].
-And AB (is) commensurable in length with CD.
-Thus, AE and EB are also commensurable (in length) with CF and FD, respectively [Prop. 10.11].
-And AE and EB (are) medial.
-Thus, CF and FD (are) also medial [Prop. 10.23].
-And since as AE is to EB, (so) CF (is) to FD, and AE and EB are commensurable in square only, CF and FD are [thus] also commensurable in square only [Prop. 10.11].
+For since {AB} is a bimedial (straight-line), let it have been divided into its (component) medial (straight-lines) at {E}.
+Thus, {AE} and {EB} are medial (straight-lines which are) commensurable in square only [Props. 10.37, 10.38].
+And let it have been contrived that as {AB} (is) to {CD}, (so) {AE} (is) to {CF} [Prop. 6.12].
+And thus as the remainder {EB} is to the remainder {FD}, so {AB} (is) to {CD} [Props. 5.19 corr., 6.16].
+And {AB} (is) commensurable in length with {CD}.
+Thus, {AE} and {EB} are also commensurable (in length) with {CF} and {FD}, respectively [Prop. 10.11].
+And {AE} and {EB} (are) medial.
+Thus, {CF} and {FD} (are) also medial [Prop. 10.23].
+And since as {AE} is to {EB}, (so) {CF} (is) to {FD}, and {AE} and {EB} are commensurable in square only, {CF} and {FD} are [thus] also commensurable in square only [Prop. 10.11].
 And they were also shown (to be) medial.
-Thus, CD is a bimedial (straight-line).
-So, I say that it is also the same in order as AB.
+Thus, {CD} is a bimedial (straight-line).
+So, I say that it is also the same in order as {AB}.
 
-For since as AE is to EB, (so) CF (is) to FD, thus also as the (square) on AE (is) to the (rectangle contained) by AEB, so the (square) on CF (is) to the (rectangle contained) by CFD [Prop. 10.21 lem.].
-Alternately, as the (square) on AE (is) to the (square) on CF, so the (rectangle contained) by AEB (is) to the (rectangle contained) by CFD [Prop. 5.16].
-And the (square) on AE (is) commensurable with the (square) on CF.
-Thus, the (rectangle contained) by AEB (is) also commensurable with the (rectangle contained) by CFD [Prop. 10.11].
-Therefore, either the (rectangle contained) by AEB is rational, and the (rectangle contained) by CFD is rational [and, on account of this, (AE and CD) are first bimedial (straight-lines)], or (the rectangle contained by AEB is) medial, and (the rectangle contained by CFD is) medial, and (AB and CD) are each second (bimedial straight-lines) [Props. 10.23, 10.37, 10.38].
+For since as {AE} is to {EB}, (so) {CF} (is) to {FD}, thus also as the (square) on {AE} (is) to the (rectangle contained) by {AEB}, so the (square) on {CF} (is) to the (rectangle contained) by {CFD} [Prop. 10.21 lem.].
+Alternately, as the (square) on {AE} (is) to the (square) on {CF}, so the (rectangle contained) by {AEB} (is) to the (rectangle contained) by {CFD} [Prop. 5.16].
+And the (square) on {AE} (is) commensurable with the (square) on {CF}.
+Thus, the (rectangle contained) by {AEB} (is) also commensurable with the (rectangle contained) by {CFD} [Prop. 10.11].
+Therefore, either the (rectangle contained) by {AEB} is rational, and the (rectangle contained) by {CFD} is rational [and, on account of this, ({AE} and {CD}) are first bimedial (straight-lines)], or (the rectangle contained by {AEB} is) medial, and (the rectangle contained by {CFD} is) medial, and ({AB} and {CD}) are each second (bimedial straight-lines) [Props. 10.23, 10.37, 10.38].
 
-And, on account of this, CD will be the same in order as AB.
+And, on account of this, {CD} will be the same in order as {AB}.
 (Which is) the very thing it was required to show.

@@ -1,24 +1,46 @@
 If the square on a straight-line is five times the (square) on a piece of it, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line.
 
-For let the square on the straight-line AB be five times the (square) on the piece of it, AC. And let CD be double AC. I say that if CD is cut in extreme and mean ratio then the greater piece is CB.
+For let the square on the straight-line {AB} be five times the (square) on the piece of it, {AC}.
+And let {CD} be double {AC}.
+{I} say that if {CD} is cut in extreme and mean ratio then the greater piece is {CB}.
 
-For let the squares AF and CG have been described on each of AB and CD (respectively). And let the figure in AF have been drawn. And let BE have been drawn across. And since the (square) on BA is five times the (square) on AC, AF is five times AH. Thus, gnomon MNO (is) four times AH. And since DC is double CA, the (square) on DC is thus four times the (square) on CA—that is to say, CG (is four times) AH. And the gnomon M N O was also shown (to be) four times AH . Thus, gnomon MNO (is) equal to CG. And since DC is double CA, and DC (is) equal to CK, and AC to CH, [K C (is) thus also double C H ], (and) K B (is) also double BH [Prop. 6.1]. And LH plus HB is also double HB [Prop. 1.43]. Thus, KB (is) equal to LH plus HB. And the whole gnomon M N O was also shown (to be) equal to the whole of CG. Thus, the remainder HF is also equal to (the remainder) BG. And BG is the (rectangle contained) by CDB. For CD (is) equal to DG. And HF (is) the square on CB. Thus, the (rectangle contained) by CDB is equal to the (square) on CB. Thus, as DC is to CB, so CB (is) to BD [Prop. 6.17]. And DC (is) greater than C B (see lemma). Thus, C B (is) also greater than BD [Prop. 5.14]. Thus, if the straight-line CD is cut in extreme and mean ratio then the greater piece is CB.
+For let the squares {AF} and {CG} have been described on each of {AB} and {CD} (respectively).
+And let the figure in {AF} have been drawn.
+And let {BE} have been drawn across.
+And since the (square) on {BA} is five times the (square) on {AC}, {AF} is five times {AH}.
+Thus, gnomon {MNO} (is) four times {AH}.
+And since {DC} is double {CA}, the (square) on {DC} is thus four times the (square) on {CA}—that is to say, {CG} (is four times) {AH}.
+And the gnomon {MNO} was also shown (to be) four times {AH}.
+Thus, gnomon {MNO} (is) equal to {CG}.
+And since {DC} is double {CA}, and {DC} (is) equal to {CK}, and {AC} to {CH}, [{KC} (is) thus also double {CH}], (and) {KB} (is) also double {BH} [Prop. 6.1].
+And {LH} plus {HB} is also double {HB} [Prop. 1.43].
+Thus, {KB} (is) equal to {LH} plus {HB}.
+And the whole gnomon {MNO} was also shown (to be) equal to the whole of {CG}.
+Thus, the remainder {HF} is also equal to (the remainder) {BG}.
+And {BG} is the (rectangle contained) by {CDB}.
+For {CD} (is) equal to {DG}.
+And {HF} (is) the square on {CB}.
+Thus, the (rectangle contained) by {CDB} is equal to the (square) on {CB}.
+Thus, as {DC} is to {CB}, so {CB} (is) to {BD} [Prop. 6.17].
+And {DC} (is) greater than {CB} (see lemma).
+Thus, {CB} (is) also greater than {BD} [Prop. 5.14].
+Thus, if the straight-line {CD} is cut in extreme and mean ratio then the greater piece is {CB}.
 
 Thus, if the square on a straight-line is five times the (square) on a piece of itself, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line. (Which is) the very thing it was required to show.
 
 Lemma
 
-And it can be shown that double AC (i.e., DC) is greater than BC, as follows.
+And it can be shown that double {AC} (i.e., {DC}) is greater than {BC}, as follows.
 
-For if (double AC is) not (greater than BC), if possible, let BC be double CA.
-Thus, the (square) on BC (is) four times the (square) on CA.
-Thus, the (sum of) the (squares) on BC and CA (is) five times the (square) on CA.
-And the (square) on BA was assumed (to be) five times the (square) on CA.
-Thus, the (square) on BA is equal to the (sum of) the (squares) on BC and CA.
+For if (double {AC} is) not (greater than {BC}), if possible, let {BC} be double {CA}.
+Thus, the (square) on {BC} (is) four times the (square) on {CA}.
+Thus, the (sum of) the (squares) on {BC} and {CA} (is) five times the (square) on {CA}.
+And the (square) on {BA} was assumed (to be) five times the (square) on {CA}.
+Thus, the (square) on {BA} is equal to the (sum of) the (squares) on {BC} and {CA}.
 The very thing (is) impossible [Prop. 2.4].
-Thus, CB is not double AC.
-So, similarly, we can show that a (straight-line) less than CB is not double AC either.
+Thus, {CB} is not double {AC}.
+So, similarly, we can show that a (straight-line) less than {CB} is not double {AC} either.
 For (in this case) the absurdity is much [greater].
 
-Thus, double AC is greater than CB.
+Thus, double {AC} is greater than {CB}.
 (Which is) the very thing it was required to show.

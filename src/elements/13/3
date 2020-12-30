@@ -1,28 +1,28 @@
 If a straight-line is cut in extreme and mean ratio then the square on the lesser piece added to half of the greater piece is five times the square on half of the greater piece.
 
-For let some straight-line AB have been cut in extreme and mean ratio at point C.
-And let AC be the greater piece.
-And let AC have been cut in half at D.
-I say that the (square) on BD is five times the (square) on DC.
+For let some straight-line {AB} have been cut in extreme and mean ratio at point {C}.
+And let {AC} be the greater piece.
+And let {AC} have been cut in half at {D}.
+I say that the (square) on {BD} is five times the (square) on {DC}.
 
-For let the square AE have been described on AB.
+For let the square {AE} have been described on {AB}.
 And let the figure have been drawn double.
-Since AC is double DC, the (square) on AC (is) thus four times the (square) on DC—that is to say, RS (is four times) FG.
-And since the (rectangle contained) by ABC is equal to the (square) on AC [Def. 6.3, Prop. 6.17], and CE is the (rectangle contained) by ABC, CE is thus equal to RS.
-And RS (is) four times FG.
-Thus, CE (is) also four times FG.
-Again, since AD is equal to DC, HK is also equal to KF.
-Hence, square GF is also equal to square HL.
-Thus, GK(is)equaltoKL—thatistosay,MNtoNE.
-Hence, MF is also equal to FE.
-But, MF is equal to CG.
-Thus, CG is also equal to FE.
-Let CN have been added to both.
-Thus, gnomon OPQ is equal to CE.
-But, CE was shown (to be) equal to four times GF.
-Thus, gnomon OP Q is also four times square FG.
-Thus, gnomon OP Q plus square F G is five times FG.
-But, gnomon OP Q plus square F G is (square) DN.
-And DN is the (square) on DB, and GF the (square) on DC.
-Thus, the (square) on DB is five times the (square) on DC.
+Since {AC} is double {DC}, the (square) on {AC} (is) thus four times the (square) on {DC}—that is to say, {RS} (is four times) {FG}.
+And since the (rectangle contained) by {ABC} is equal to the (square) on {AC} [Def. 6.3, Prop. 6.17], and {CE} is the (rectangle contained) by {ABC}, {CE} is thus equal to {RS}.
+And {RS} (is) four times {FG}.
+Thus, {CE} (is) also four times {FG}.
+Again, since {AD} is equal to {DC}, {HK} is also equal to {KF}.
+Hence, square {GF} is also equal to square {HL}.
+Thus, {GK}(is)equaltoKL—thatistosay,MNtoNE.
+Hence, {MF} is also equal to {FE}.
+But, {MF} is equal to {CG}.
+Thus, {CG} is also equal to {FE}.
+Let {CN} have been added to both.
+Thus, gnomon {OPQ} is equal to {CE}.
+But, {CE} was shown (to be) equal to four times {GF}.
+Thus, gnomon {OPQ} is also four times square {FG}.
+Thus, gnomon {OPQ} plus square {FG} is five times {FG}.
+But, gnomon {OPQ} plus square {FG} is (square) {DN}.
+And {DN} is the (square) on {DB}, and {GF} the (square) on {DC}.
+Thus, the (square) on {DB} is five times the (square) on {DC}.
 (Which is) the very thing it was required to show.

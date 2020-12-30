@@ -1,24 +1,24 @@
 If a solid (figure) is contained by (six) parallel planes then its opposite planes are both equal and parallelogrammic.
 
-For let the solid (figure) CDHG have been contained by the parallel planes AC, GF, and AH, DF, and BF, AE.
+For let the solid (figure) {CDHG} have been contained by the parallel planes {AC}, {GF}, and {AH}, {DF}, and {BF}, {AE}.
 I say that its opposite planes are both equal and parallelogrammic.
 
-For since the two parallel planes BG and CE are cut by the plane AC, their common sections are parallel [Prop. 11.16].
-Thus, AB is parallel to DC.
-Again, since the two parallel planes BF and AE are cut by the plane AC, their common sections are parallel [Prop. 11.16].
-Thus, BC is parallel to AD.
-And AB was also shown (to be) parallel to DC.
-Thus, AC is a parallelogram.
-So, similarly, we can also show that DF, FG, GB, BF, and AE are each parallelograms.
+For since the two parallel planes {BG} and {CE} are cut by the plane {AC}, their common sections are parallel [Prop. 11.16].
+Thus, {AB} is parallel to {DC}.
+Again, since the two parallel planes {BF} and {AE} are cut by the plane {AC}, their common sections are parallel [Prop. 11.16].
+Thus, {BC} is parallel to {AD}.
+And {AB} was also shown (to be) parallel to {DC}.
+Thus, {AC} is a parallelogram.
+So, similarly, we can also show that {DF}, {FG}, {GB}, {BF}, and {AE} are each parallelograms.
 
-Let AH and DF have been joined.
-And since AB is parallel to DC, and BH to CF, so the two (straight-lines) joining one another, AB and BH, are parallel to the two straight-lines joining one another, DC and CF (respectively), not (being) in the same plane.
+Let {AH} and {DF} have been joined.
+And since {AB} is parallel to {DC}, and {BH} to {CF}, so the two (straight-lines) joining one another, {AB} and {BH}, are parallel to the two straight-lines joining one another, {DC} and {CF} (respectively), not (being) in the same plane.
 Thus, they will contain equal angles [Prop. 11.10].
-Thus, angle ABH (is) equal to (angle) DCF.
-And since the two (straight-lines) AB and BH are equal to the two (straight-lines) DC and CF (respectively) [Prop. 1.34], and angle ABH is equal to angle DCF, the base AH is thus equal to the base DF, and triangle ABH is equal to triangle DCF [Prop. 1.4].
-And parallelogram BG is double (triangle) ABH, and parallelogram CE double (triangle) DCF [Prop. 1.34].
-Thus, parallelogram BG (is) equal to parallelogram CE.
-So, similarly, we can show that AC is also equal to GF, and AE to BF.
+Thus, angle {ABH} (is) equal to (angle) {DCF}.
+And since the two (straight-lines) {AB} and {BH} are equal to the two (straight-lines) {DC} and {CF} (respectively) [Prop. 1.34], and angle {ABH} is equal to angle {DCF}, the base {AH} is thus equal to the base {DF}, and triangle {ABH} is equal to triangle {DCF} [Prop. 1.4].
+And parallelogram {BG} is double (triangle) {ABH}, and parallelogram {CE} double (triangle) {DCF} [Prop. 1.34].
+Thus, parallelogram {BG} (is) equal to parallelogram {CE}.
+So, similarly, we can show that {AC} is also equal to {GF}, and {AE} to {BF}.
 
 Thus, if a solid (figure) is contained by (six) parallel planes then its opposite planes are both equal and parallelogrammic.
 (Which is) the very thing it was required to show.

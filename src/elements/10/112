@@ -1,48 +1,48 @@
 The (square) on a rational (straight-line), applied to a binomial (straight-line), produces as breadth an apotome whose terms are commensurable (in length) with the terms of the binomial, and, furthermore, in the same ratio.
 Moreover, the created apotome will have the same order as the binomial.
 
-Let A be a rational (straight-line), and BC a binomial (straight-line), of which let DC be the greater term.
-And let the (rectangle contained) by BC and EF be equal to the (square) on A.
-I say that EF is an apotome whose terms are commensurable (in length) with CD and DB, and in the same ratio, and, moreover, that EF will have the same order as BC.
+Let {A} be a rational (straight-line), and {BC} a binomial (straight-line), of which let {DC} be the greater term.
+And let the (rectangle contained) by {BC} and {EF} be equal to the (square) on {A}.
+I say that {EF} is an apotome whose terms are commensurable (in length) with {CD} and {DB}, and in the same ratio, and, moreover, that {EF} will have the same order as {BC}.
 
-For, again, let the (rectangle contained) by BD and G be equal to the (square) on A.
-Therefore, since the (rectangle contained) by BC and EF is equal to the (rectangle contained) by BD and G, thus as CB is to BD, so G (is) to EF [Prop. 6.16].
-And CB (is) greater than BD.
-Thus, G is also greater than EF [Props. 5.16, 5.14].
-Let EH be equal to G.
-Thus, as CB is to BD, so HE (is) to EF.
-Thus, via separation, as CD is to BD, so HF (is) to FE [Prop. 5.17].
-Let it have been contrived that as HF (is) to FE, so FK (is) to KE.
-And, thus, the whole HK is to the whole KF, as FK (is) to KE.
+For, again, let the (rectangle contained) by {BD} and {G} be equal to the (square) on {A}.
+Therefore, since the (rectangle contained) by {BC} and {EF} is equal to the (rectangle contained) by {BD} and {G}, thus as {CB} is to {BD}, so {G} (is) to {EF} [Prop. 6.16].
+And {CB} (is) greater than {BD}.
+Thus, {G} is also greater than {EF} [Props. 5.16, 5.14].
+Let {EH} be equal to {G}.
+Thus, as {CB} is to {BD}, so {HE} (is) to {EF}.
+Thus, via separation, as {CD} is to {BD}, so {HF} (is) to {FE} [Prop. 5.17].
+Let it have been contrived that as {HF} (is) to {FE}, so {FK} (is) to {KE}.
+And, thus, the whole {HK} is to the whole {KF}, as {FK} (is) to {KE}.
 For as one of the leading (proportional magnitudes is) to one of the following, so all of the leading (magnitudes) are to all of the following [Prop. 5.12].
-And as FK (is) to KE, so CD is to DB [Prop. 5.11].
-And, thus, as HK (is) to KF, so CD is to DB [Prop. 5.11].
-And the (square) on CD (is) commensurable with the (square) on DB [Prop. 10.36].
-The (square) on HK is thus also commensurable with the (square) on KF [Props. 6.22, 10.11].
-And as the (square) on HK is to the (square) on KF, so HK (is) to KE, since the three (straight-lines) HK, KF, and KE are proportional [Def. 5.9].
-HK is thus commensurable in length with KE [Prop. 10.11].
-Hence, HE is also commensurable in length with EK [Prop. 10.15].
-And since the (square) on A is equal to the (rectangle contained) by EH and BD, and the (square) on A is rational, the (rectangle contained) by EH and BD is thus also rational.
-And it is applied to the rational (straight-line) BD.
-Thus, EH is rational, and commensurable in length with BD [Prop. 10.20].
-And, hence, the (straight-line) commensurable (in length) with it, EK, is also rational [Def. 10.3], and commensurable in length with BD [Prop. 10.12].
-Therefore, since as CD is to DB, so FK (is) to KE, and CD and DB are (straight-lines which are) commensurable in square only, FK and KE are also commensurable in square only [Prop. 10.11].
-And KE is rational.
-Thus, FK is also rational.
-FK and KE are thus rational (straight-lines which are) commensurable in square only.
-Thus, EF is an apotome [Prop. 10.73].
+And as {FK} (is) to {KE}, so {CD} is to {DB} [Prop. 5.11].
+And, thus, as {HK} (is) to {KF}, so {CD} is to {DB} [Prop. 5.11].
+And the (square) on {CD} (is) commensurable with the (square) on {DB} [Prop. 10.36].
+The (square) on {HK} is thus also commensurable with the (square) on {KF} [Props. 6.22, 10.11].
+And as the (square) on {HK} is to the (square) on {KF}, so {HK} (is) to {KE}, since the three (straight-lines) {HK}, {KF}, and {KE} are proportional [Def. 5.9].
+{HK} is thus commensurable in length with {KE} [Prop. 10.11].
+Hence, {HE} is also commensurable in length with {EK} [Prop. 10.15].
+And since the (square) on {A} is equal to the (rectangle contained) by {EH} and {BD}, and the (square) on {A} is rational, the (rectangle contained) by {EH} and {BD} is thus also rational.
+And it is applied to the rational (straight-line) {BD}.
+Thus, {EH} is rational, and commensurable in length with {BD} [Prop. 10.20].
+And, hence, the (straight-line) commensurable (in length) with it, {EK}, is also rational [Def. 10.3], and commensurable in length with {BD} [Prop. 10.12].
+Therefore, since as {CD} is to {DB}, so {FK} (is) to {KE}, and {CD} and {DB} are (straight-lines which are) commensurable in square only, {FK} and {KE} are also commensurable in square only [Prop. 10.11].
+And {KE} is rational.
+Thus, {FK} is also rational.
+{FK} and {KE} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {EF} is an apotome [Prop. 10.73].
 
-And the square on CD is greater than (the square on) DB either by the (square) on (some straight-line) commensurable, or by the (square) on (some straight-line) incommensurable, (in length) with (CD).
+And the square on {CD} is greater than (the square on) {DB} either by the (square) on (some straight-line) commensurable, or by the (square) on (some straight-line) incommensurable, (in length) with ({CD}).
 
-Therefore, if the square on CD is greater than (the square on) DB by the (square) on (some straight-line) commensurable (in length) with [CD] then the square on FK will also be greater than (the square on) KE by the (square) on (some straight-line) commensurable (in length) with (FK) [Prop. 10.14].
-And if CD is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) FK [Props. 10.11, 10.12].
-And if BD (is commensurable), (so) also (is) KE [Prop. 10.12].
-And if neither of CD or DB (is commensurable), neither also (are) either of FK or KE.
+Therefore, if the square on {CD} is greater than (the square on) {DB} by the (square) on (some straight-line) commensurable (in length) with [{CD}] then the square on {FK} will also be greater than (the square on) {KE} by the (square) on (some straight-line) commensurable (in length) with ({FK}) [Prop. 10.14].
+And if {CD} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FK} [Props. 10.11, 10.12].
+And if {BD} (is commensurable), (so) also (is) {KE} [Prop. 10.12].
+And if neither of {CD} or {DB} (is commensurable), neither also (are) either of {FK} or {KE}.
 
-And if the square on CD is greater than (the square on) DB by the (square) on (some straight-line) incommensurable (in length) with (CD) then the square on FK will also be greater than (the square on) KE by the (square) on (some straight-line) incommensurable (in length) with (FK) [Prop. 10.14].
-And if CD is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) FK [Props. 10.11, 10.12].
-And if BD (is commensurable), (so) also (is) KE [Prop. 10.12].
-And if neither of CD or DB (is commensurable), neither also (are) either of FK or KE.
-Hence, FE is an apotome whose terms, FK and KE, are commensurable (in length) with the terms, CD and DB, of the binomial, and in the same ratio.
-And (FE) has the same order as BC [Defs. 10.5-10.10].
+And if the square on {CD} is greater than (the square on) {DB} by the (square) on (some straight-line) incommensurable (in length) with ({CD}) then the square on {FK} will also be greater than (the square on) {KE} by the (square) on (some straight-line) incommensurable (in length) with ({FK}) [Prop. 10.14].
+And if {CD} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FK} [Props. 10.11, 10.12].
+And if {BD} (is commensurable), (so) also (is) {KE} [Prop. 10.12].
+And if neither of {CD} or {DB} (is commensurable), neither also (are) either of {FK} or {KE}.
+Hence, {FE} is an apotome whose terms, {FK} and {KE}, are commensurable (in length) with the terms, {CD} and {DB}, of the binomial, and in the same ratio.
+And ({FE}) has the same order as {BC} [Defs. 10.5-10.10].
 (Which is) the very thing it was required to show.

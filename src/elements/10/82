@@ -1,15 +1,15 @@
 Only one straight-line, which is incommensurable in square with the whole, and (together) with the whole makes the (sum of the) squares on them rational, and twice the (rectangle contained) by them medial, can be attached to a minor (straight-line).
 
-Let AB be a minor (straight-line), and let BC be (so) attached to AB.
-Thus, AC and CB are (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and twice the (rectangle contained) by them medial [Prop. 10.76].
-I say that another another straight-line fulfilling the same (conditions) cannot be attached to AB.
+Let {AB} be a minor (straight-line), and let {BC} be (so) attached to {AB}.
+Thus, {AC} and {CB} are (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and twice the (rectangle contained) by them medial [Prop. 10.76].
+I say that another another straight-line fulfilling the same (conditions) cannot be attached to {AB}.
 
-For, if possible, let BD be (so) attached (to AB).
-Thus, AD and DB are also (straight-lines which are) incommensurable in square, fulfilling the (other) aforementioned (conditions) [Prop. 10.76].
-And since by whatever (area) the (sum of the squares) on AD and DB exceeds the (sum of the squares) on AC and CB, twice the (rectangle contained) by AD and DB also exceeds twice the (rectangle contained) by AC and CB by this (same area) [Prop. 2.7].
-And the (sum of the) squares on AD and DB exceeds the (sum of the) squares on AC and CB by a rational (area).
+For, if possible, let {BD} be (so) attached (to {AB}).
+Thus, {AD} and {DB} are also (straight-lines which are) incommensurable in square, fulfilling the (other) aforementioned (conditions) [Prop. 10.76].
+And since by whatever (area) the (sum of the squares) on {AD} and {DB} exceeds the (sum of the squares) on {AC} and {CB}, twice the (rectangle contained) by {AD} and {DB} also exceeds twice the (rectangle contained) by {AC} and {CB} by this (same area) [Prop. 2.7].
+And the (sum of the) squares on {AD} and {DB} exceeds the (sum of the) squares on {AC} and {CB} by a rational (area).
 For both are rational (areas).
-Thus, twice the (rectangle contained) by AD and DB also exceeds twice the (rectangle contained) by AC and CB by a rational (area).
+Thus, twice the (rectangle contained) by {AD} and {DB} also exceeds twice the (rectangle contained) by {AC} and {CB} by a rational (area).
 The very thing is impossible.
 For both are medial (areas) [Prop. 10.26].
 

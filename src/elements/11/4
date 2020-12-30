@@ -1,37 +1,37 @@
 If a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
 
-For let some straight-line EF have (been) set up at right-angles to two straight-lines, AB and CD, cutting one another at point E, at E.
-I say that EF is also at right-angles to the plane (passing) through AB and CD.
+For let some straight-line {EF} have (been) set up at right-angles to two straight-lines, {AB} and {CD}, cutting one another at point {E}, at {E}.
+I say that {EF} is also at right-angles to the plane (passing) through {AB} and {CD}.
 
-For let AE, EB, CE and ED have been cut off from (the two straight-lines so as to be) equal to one another.
-And let GEH have been drawn, at random, through E (in the plane passing through AB and CD).
-And let AD and CB have been joined.
-And, furthermore, let FA, FG, FD, FC, FH, and FB have been joined from the random (point) F (on EF).
+For let {AE}, {EB}, {CE} and {ED} have been cut off from (the two straight-lines so as to be) equal to one another.
+And let {GEH} have been drawn, at random, through {E} (in the plane passing through {AB} and {CD}).
+And let {AD} and {CB} have been joined.
+And, furthermore, let {FA}, {FG}, {FD}, {FC}, {FH}, and {FB} have been joined from the random (point) {F} (on {EF}).
 
-For since the two (straight-lines) AE and ED are equal to the two (straight-lines) CE and EB, and they enclose equal angles [Prop. 1.15], the base AD is thus equal to the base CB, and triangle AED will be equal to triangle CEB [Prop. 1.4].
-Hence, the angle DAE [is] equal to the angle EBC.
-And the angle AEG (is) also equal to the angle BEH [Prop. 1.15].
-So AGE and BEH are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), those by the equal angles, AE and EB.
+For since the two (straight-lines) {AE} and {ED} are equal to the two (straight-lines) {CE} and {EB}, and they enclose equal angles [Prop. 1.15], the base {AD} is thus equal to the base {CB}, and triangle {AED} will be equal to triangle {CEB} [Prop. 1.4].
+Hence, the angle {DAE} [is] equal to the angle {EBC}.
+And the angle {AEG} (is) also equal to the angle {BEH} [Prop. 1.15].
+So {AGE} and {BEH} are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), those by the equal angles, {AE} and {EB}.
 Thus, they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
-Thus, GE (is) equal to EH, and AG to BH.
-And since AE is equal to EB, and FE is common and at right-angles, the base F A is thus equal to the base F B [Prop. 1.4].
-So, for the same (reasons), FC is also equal to FD.
-And since AD is equal to CB, and F A is also equal to F B, the two (straight-lines) F A and AD are equal to the two (straight-lines) F B and BC, respectively.
-And the base F D was shown (to be) equal to the base FC.
-Thus, the angle FAD is also equal to the angle FBC [Prop. 1.8].
-And, again, since AG was shown (to be) equal to BH, but FA (is) also equal to FB, the two (straight-lines) F A and AG are equal to the two (straight-lines) FB and BH (respectively).
-And the angle F AG was shown (to be) equal to the angle F BH.
-Thus, the base F G is equal to the base F H [Prop. 1.4].
-And, again, since GE was shown (to be) equal to EH, and EF (is) common, the two (straight-lines) GE and EF are equal to the two (straight-lines) HE and EF (respectively).
-And the base FG (is) equal to the base FH.
-Thus, the angle GEF is equal to the angle HEF [Prop. 1.8].
-Each of the angles GEF and HEF (are) thus right-angles [Def. 1.10].
-Thus, F E is at right-angles to GH, which was drawn at random through E (in the reference plane passing though AB and AC).
-So, similarly, we can show that FE will make right-angles with all straight-lines joined to it which are in the reference plane.
+Thus, {GE} (is) equal to {EH}, and {AG} to {BH}
+And since {AE} is equal to {EB}, and {FE} is common and at right-angles, the base {FA} is thus equal to the base {FB} [Prop. 1.4].
+So, for the same (reasons), {FC} is also equal to {FD}.
+And since {AD} is equal to {CB}, and {FA} is also equal to {FB}, the two (straight-lines) {FA} and {AD} are equal to the two (straight-lines) {FB} and {BC}, respectively.
+And the base {FD} was shown (to be) equal to the base {FC}.
+Thus, the angle {FAD} is also equal to the angle {FBC} [Prop. 1.8].
+And, again, since {AG} was shown (to be) equal to {BH}, but {FA} (is) also equal to {FB}, the two (straight-lines) {FA} and {AG} are equal to the two (straight-lines) {FB} and {BH} (respectively).
+And the angle {FAG} was shown (to be) equal to the angle {FBH}.
+Thus, the base {FG} is equal to the base {FH} [Prop. 1.4].
+And, again, since {GE} was shown (to be) equal to {EH}, and {EF} (is) common, the two (straight-lines) {GE} and {EF} are equal to the two (straight-lines) {HE} and {EF} (respectively).
+And the base {FG} (is) equal to the base {FH}.
+Thus, the angle {GEF} is equal to the angle {HEF} [Prop. 1.8].
+Each of the angles {GEF} and {HEF} (are) thus right-angles [Def. 1.10].
+Thus, {FE} is at right-angles to {GH}, which was drawn at random through {E} (in the reference plane passing though {AB} and {AC}).
+So, similarly, we can show that {FE} will make right-angles with all straight-lines joined to it which are in the reference plane.
 And a straight-line is at right-angles to a plane when it makes right-angles with all straight-lines joined to it which are in the plane [Def. 11.3].
-Thus, F E is at right-angles to the reference plane.
-And the reference plane is that (passing) through the straight-lines AB and CD.
-Thus, FE is at right-angles to the plane (passing) through AB and CD.
+Thus, {FE} is at right-angles to the reference plane.
+And the reference plane is that (passing) through the straight-lines {AB} and {CD}.
+Thus, {FE} is at right-angles to the plane (passing) through {AB} and {CD}.
 
 Thus, if a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
 (Which is) the very thing it was required to show.

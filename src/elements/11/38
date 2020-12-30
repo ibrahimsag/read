@@ -1,26 +1,26 @@
 If the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
 
-For let the opposite planes CF and AH of the cube AF have been cut in half at the points K, L, M, N, O, Q, P, and R.
-And let the planes KN and OR have been produced through the pieces.
-And let U S be the common section of the planes, and DG the diameter of cube AF.
-I say that UT is equal to TS, and DT to TG.
+For let the opposite planes {CF} and {AH} of the cube {AF} have been cut in half at the points {K}, {L}, {M}, {N}, {O}, {Q}, {P}, and {R}.
+And let the planes {KN} and {OR} have been produced through the pieces.
+And let {US} be the common section of the planes, and {DG} the diameter of cube {AF}.
+I say that {UT} is equal to {TS}, and {DT} to {TG}.
 
-For let DU, UE, BS, and SG have been joined.
-And since DO is parallel to PE, the alternate angles DOU and UPE are equal to one another [Prop. 1.29].
-And since DO is equal to PE, and OU to UP, and they contain equal angles, base DU is thus equal to base UE, and triangle DOU is equal to triangle PUE, and the remaining angles (are) equal to the remaining angles [Prop. 1.4].
-Thus, angle OUD (is) equal to angle PUE.
-So, for this (reason), DUE is a straight-line [Prop. 1.14].
-So, for the same (reason), BSG is also a straight-line, and BS equal to SG.
-And since CA is equal and parallel to DB, but CA is also equal and parallel to EG, DB is thus also equal and parallel to EG [Prop. 11.9].
-And the straight-lines DE and BG join them.
-DE is thus parallel to BG [Prop. 1.33].
-Thus, angle EDT (is) equal to BGT.
+For let {DU}, {UE}, {BS}, and {SG} have been joined.
+And since {DO} is parallel to {PE}, the alternate angles {DOU} and {UPE} are equal to one another [Prop. 1.29].
+And since {DO} is equal to {PE}, and {OU} to {UP}, and they contain equal angles, base {DU} is thus equal to base {UE}, and triangle {DOU} is equal to triangle {PUE}, and the remaining angles (are) equal to the remaining angles [Prop. 1.4].
+Thus, angle {OUD} (is) equal to angle {PUE}.
+So, for this (reason), {DUE} is a straight-line [Prop. 1.14].
+So, for the same (reason), {BSG} is also a straight-line, and {BS} equal to {SG}.
+And since {CA} is equal and parallel to {DB}, but {CA} is also equal and parallel to {EG}, {DB} is thus also equal and parallel to {EG} [Prop. 11.9].
+And the straight-lines {DE} and {BG} join them.
+{DE} is thus parallel to {BG} [Prop. 1.33].
+Thus, angle {EDT} (is) equal to {BGT}.
 For (they are) alternate [Prop. 1.29].
-And (angle) DTU (is equal) to GT S [Prop. 1.15].
-So, DTU and GTS are two triangles having two angles equal to two angles, and one side equal to one side—(namely), that subtended by one of the equal angles—(that is), DU (equal) to GS.
-For they are halves of DE and BG (respectively).
+And (angle) {DTU} (is equal) to {GTS} [Prop. 1.15].
+So, {DTU} and {GTS} are two triangles having two angles equal to two angles, and one side equal to one side—(namely), that subtended by one of the equal angles—(that is), {DU} (equal) to {GS}.
+For they are halves of {DE} and {BG} (respectively).
 (Thus), they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
-Thus, DT (is) equal to T G, and UT to TS.
+Thus, {DT} (is) equal to {TG}, and {UT} to {TS}.
 
 Thus, if the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
 (Which is) the very thing it was required to show.

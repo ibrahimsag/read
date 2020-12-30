@@ -1,21 +1,21 @@
 A (straight-line) commensurable (in length) with an apotome of a medial (straight-line) is an apotome of a medial (straight-line), and (is) the same in order.
 
-Let AB be an apotome of a medial (straight-line), and let CD be commensurable in length with AB.
-I say that CD is also an apotome of a medial (straight-line), and (is) the same in order as AB.
+Let {AB} be an apotome of a medial (straight-line), and let {CD} be commensurable in length with {AB}.
+I say that {CD} is also an apotome of a medial (straight-line), and (is) the same in order as {AB}.
 
-For since AB is an apotome of a medial (straight-line), let EB be an attachment to it.
-Thus, AE and EB are medial (straight-lines which are) commensurable in square only [Props. 10.74, 10.75].
-And let it have been contrived that as AB is to CD, so BE (is) to DF [Prop. 6.12].
-Thus, AE [is] also commensurable (in length) with CF, and BE with DF [Props. 5.12, 10.11].
-And AE and EB are medial (straight-lines which are) commensurable in square only.
-CF and FD are thus also medial (straight-lines which are) commensurable in square only [Props. 10.23, 10.13].
-Thus, CD is an apotome of a medial (straight-line) [Props. 10.74, 10.75].
-So, I say that it is also the same in order as AB.
+For since {AB} is an apotome of a medial (straight-line), let {EB} be an attachment to it.
+Thus, {AE} and {EB} are medial (straight-lines which are) commensurable in square only [Props. 10.74, 10.75].
+And let it have been contrived that as {AB} is to {CD}, so {BE} (is) to {DF} [Prop. 6.12].
+Thus, {AE} [is] also commensurable (in length) with {CF}, and {BE} with {DF} [Props. 5.12, 10.11].
+And {AE} and {EB} are medial (straight-lines which are) commensurable in square only.
+{CF} and {FD} are thus also medial (straight-lines which are) commensurable in square only [Props. 10.23, 10.13].
+Thus, {CD} is an apotome of a medial (straight-line) [Props. 10.74, 10.75].
+So, {I} say that it is also the same in order as {AB}.
 
-[For] since as AE is to EB, so CF (is) to FD [Props. 5.12, 5.16] [but as AE (is) to EB, so the (square) on AE (is) to the (rectangle contained) by AE and EB, and as CF (is) to FD, so the (square) on CF (is) to the (rectangle contained) by CF and FD], thus as the (square) on AE is to the (rectangle contained) by AE and EB, so the (square) on CF also (is) to the (rectangle contained) by CF and FD [Prop. 10.21 lem.] [and, alternately, as the (square) on AE (is) to the (square) on CF, so the (rectangle contained) by AE and EB (is) to the (rectangle contained) by CF and FD].
-And the (square) on AE (is) commensurable with the (square) on CF.
-Thus, the (rectangle contained) by AE and EB is also commensurable with the (rectangle contained) by CF and FD [Props. 5.16, 10.11].
-Therefore, either the (rectangle contained) by AE and EB is rational, and the (rectangle contained) by CF and FD will also be rational [Def. 10.4], or the (rectangle contained) by AE and EB [is] medial, and the (rectangle contained) by CF and FD [is] also medial [Prop. 10.23 corr.].
+[For] since as {AE} is to {EB}, so {CF} (is) to {FD} [Props. 5.12, 5.16] [but as {AE} (is) to {EB}, so the (square) on {AE} (is) to the (rectangle contained) by {AE} and {EB}, and as {CF} (is) to {FD}, so the (square) on {CF} (is) to the (rectangle contained) by {CF} and {FD}], thus as the (square) on {AE} is to the (rectangle contained) by {AE} and {EB}, so the (square) on {CF} also (is) to the (rectangle contained) by {CF} and {FD} [Prop. 10.21 lem.] [and, alternately, as the (square) on {AE} (is) to the (square) on {CF}, so the (rectangle contained) by {AE} and {EB} (is) to the (rectangle contained) by {CF} and {FD}].
+And the (square) on {AE} (is) commensurable with the (square) on {CF}.
+Thus, the (rectangle contained) by {AE} and {EB} is also commensurable with the (rectangle contained) by {CF} and {FD} [Props. 5.16, 10.11].
+Therefore, either the (rectangle contained) by {AE} and {EB} is rational, and the (rectangle contained) by {CF} and {FD} will also be rational [Def. 10.4], or the (rectangle contained) by {AE} and {EB} [is] medial, and the (rectangle contained) by {CF} and {FD} [is] also medial [Prop. 10.23 corr.].
 
-Therefore, CD is the apotome of a medial (straight-line), and is the same in order as AB [Props. 10.74, 10.75].
+Therefore, {CD} is the apotome of a medial (straight-line), and is the same in order as {AB} [Props. 10.74, 10.75].
 (Which is) the very thing it was required to show.

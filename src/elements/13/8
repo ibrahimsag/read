@@ -1,26 +1,26 @@
 If straight-lines subtend two consecutive angles of an equilateral and equiangular pentagon then they cut one another in extreme and mean ratio, and their greater pieces are equal to the sides of the pentagon.
 
-For let the two straight-lines, AC and BE, cutting one another at point H, have subtended two consecutive angles, at A and B (respectively), of the equilateral and equiangular pentagon ABCDE.
-I say that each of them has been cut in extreme and mean ratio at point H, and that their greater pieces are equal to the sides of the pentagon.
+For let the two straight-lines, {AC} and {BE}, cutting one another at point {H}, have subtended two consecutive angles, at {A} and {B} (respectively), of the equilateral and equiangular pentagon {ABCDE}.
+I say that each of them has been cut in extreme and mean ratio at point {H}, and that their greater pieces are equal to the sides of the pentagon.
 
-For let the circle ABCDE have been circumscribed about pentagon ABCDE [Prop. 4.14].
-And since the two straight-lines EA and AB are equal to the two (straight-lines) AB and BC (respectively), and they contain equal angles, the base BE is thus equal to the base AC, and triangle ABE is equal to triangle ABC, and the remaining angles will be equal to the remaining angles, respectively, which the equal sides subtend [Prop. 1.4].
-Thus, angle BAC is equal to (angle) ABE.
-Thus, (angle) AHE (is) double (angle) BAH [Prop. 1.32].
-And EAC is also double BAC, inasmuch as circumference EDC is also double circumference CB [Props. 3.28, 6.33].
-Thus, angle HAE (is) equal to (angle) AHE.
-Hence, straight-line HE is also equal to (straight-line) EA—that is to say, to (straight-line) AB [Prop. 1.6].
-And since straight-line BA is equal to AE, angle ABE is also equal to AEB [Prop. 1.5].
-But, ABE was shown (to be) equal to BAH.
-Thus, BEA is also equal to BAH.
-And (angle) ABE is common to the two triangles ABE and ABH.
-Thus, the remaining angle BAE is equal to the remaining (angle) AHB [Prop. 1.32].
-Thus, triangle ABE is equiangular to triangle ABH.
-Thus, proportionally, as EB is to BA, so AB (is) to BH [Prop. 6.4].
-And BA (is) equal to EH.
-Thus, as BE (is) to EH, so EH (is) to HB.
-And BE (is) greater than EH.
-EH (is) thus also greater than HB [Prop. 5.14].
-Thus, BE has been cut in extreme and mean ratio at H, and the greater piece HE is equal to the side of the pentagon.
-So, similarly, we can show that AC has also been cut in extreme and mean ratio at H, and that its greater piece CH is equal to the side of the pentagon.
+For let the circle {ABCDE} have been circumscribed about pentagon {ABCDE} [Prop. 4.14].
+And since the two straight-lines {EA} and {AB} are equal to the two (straight-lines) {AB} and {BC} (respectively), and they contain equal angles, the base {BE} is thus equal to the base {AC}, and triangle {ABE} is equal to triangle {ABC}, and the remaining angles will be equal to the remaining angles, respectively, which the equal sides subtend [Prop. 1.4].
+Thus, angle {BAC} is equal to (angle) {ABE}.
+Thus, (angle) {AHE} (is) double (angle) {BAH} [Prop. 1.32].
+And {EAC} is also double {BAC}, inasmuch as circumference {EDC} is also double circumference {CB} [Props. 3.28, 6.33].
+Thus, angle {HAE} (is) equal to (angle) {AHE}.
+Hence, straight-line {HE} is also equal to (straight-line) {EA}—that is to say, to (straight-line) {AB} [Prop. 1.6].
+And since straight-line {BA} is equal to {AE}, angle {ABE} is also equal to {AEB} [Prop. 1.5].
+But, {ABE} was shown (to be) equal to {BAH}.
+Thus, {BEA} is also equal to {BAH}.
+And (angle) {ABE} is common to the two triangles {ABE} and {ABH}.
+Thus, the remaining angle {BAE} is equal to the remaining (angle) {AHB} [Prop. 1.32].
+Thus, triangle {ABE} is equiangular to triangle {ABH}.
+Thus, proportionally, as {EB} is to {BA}, so {AB} (is) to {BH} [Prop. 6.4].
+And {BA} (is) equal to {EH}.
+Thus, as {BE} (is) to {EH}, so {EH} (is) to {HB}.
+And {BE} (is) greater than {EH}.
+{EH} (is) thus also greater than {HB} [Prop. 5.14].
+Thus, {BE} has been cut in extreme and mean ratio at {H}, and the greater piece {HE} is equal to the side of the pentagon.
+So, similarly, we can show that {AC} has also been cut in extreme and mean ratio at {H}, and that its greater piece {CH} is equal to the side of the pentagon.
 (Which is) the very thing it was required to show.

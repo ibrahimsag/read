@@ -1,41 +1,41 @@
 If there are two pyramids with the same height, having trianglular bases, and each of them is divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms then as the base of one pyramid (is) to the base of the other pyramid, so (the sum of) all the prisms in one pyramid will be to (the sum of all) the equal number of prisms in the other pyramid.
-Let there be two pyramids with the same height, having the triangular bases ABC and DEF, (with) apexes the points G and H (respectively).
+Let there be two pyramids with the same height, having the triangular bases {ABC} and {DEF}, (with) apexes the points {G} and {H} (respectively).
 And let each of them have been divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms [Prop. 12.3].
-I say that as base ABC is to base DEF , so (the sum of) all the prisms in pyramid ABCG (is) to (the sum of) all the equal number of prisms in pyramid DEFH.
+I say that as base {ABC} is to base {DEF}, so (the sum of) all the prisms in pyramid {ABCG} (is) to (the sum of) all the equal number of prisms in pyramid {DEFH}.
 
-For since BO is equal to OC, and AL to LC, LO is thus parallel to AB, and triangle ABC similar to triangle LOC [Prop. 12.3].
-So, for the same (reasons), triangle DEF is also similar to triangle RVF.
-And since BC is double CO, and EF (double) F V , thus as BC (is) to CO, so EF (is) to FV.
-And the similar, and similarly laid out, rectilinear (figures) ABC and LOC have been described on BC and CO (respectively), and the similar, and similarly laid out, [rectilinear] (figures) DEF and RVF on EF and FV (respectively).
-Thus, as triangle ABC is to triangle LOC, so triangle DEF (is) to triangle RV F [Prop. 6.22].
-Thus, alternately, as triangle ABC is to [triangle] DEF, so [triangle] LOC (is) to triangle RV F [Prop. 5.16].
-But, as triangle LOC (is) to triangle RV F , so the prism whose base [is] triangle LOC, and opposite (plane) PMN, (is) to the prism whosebase(is)triangleRVF,andopposite(plane)STU (see lemma).
-And, thus, as triangle ABC (is) to triangle DEF, so the prism whose base (is) triangle LOC, and opposite (plane) P M N , (is) to the prism whose base (is) triangle RV F, and opposite (plane) STU.
-And as the aforementioned prisms (are) to one another, so the prism whose base (is) parallelogram KBOL, and opposite (side) straight-line P M , (is) to the prism whose base (is) parallelogram QEV R, and opposite (side) straight-line ST [Props. 11.39, 12.3].
-Thus, also, (is) the (sum of the) two prisms—that whose base (is) parallelogram KBOL, and opposite (side) PM, and that whose base (is) LOC, and opposite (plane) PMN—to (the sum of) the (two) prisms—that whose base (is) QEV R, and opposite (side) straight-line ST, and that whose base (is) triangle RVF, and opposite (plane) STU [Prop. 5.12].
-And, thus, as base ABC (is) to base DEF, so the (sum of the first) aforementioned two prisms (is) to the (sum of the second) aforementioned two prisms.
+For since {BO} is equal to {OC}, and {AL} to {LC}, {LO} is thus parallel to {AB}, and triangle {ABC} similar to triangle {LOC} [Prop. 12.3].
+So, for the same (reasons), triangle {DEF} is also similar to triangle {RVF}.
+And since {BC} is double {CO}, and {EF} (double) {FV}, thus as {BC} (is) to {CO}, so {EF} (is) to {FV}.
+And the similar, and similarly laid out, rectilinear (figures) {ABC} and {LOC} have been described on {BC} and {CO} (respectively), and the similar, and similarly laid out, [rectilinear] (figures) {DEF} and {RVF} on {EF} and {FV} (respectively).
+Thus, as triangle {ABC} is to triangle {LOC}, so triangle {DEF} (is) to triangle {RVF} [Prop. 6.22].
+Thus, alternately, as triangle {ABC} is to [triangle] {DEF}, so [triangle] {LOC} (is) to triangle {RVF} [Prop. 5.16].
+But, as triangle {LOC} (is) to triangle {RVF}, so the prism whose base [is] triangle {LOC}, and opposite (plane) {PMN}, (is) to the prism whose base (is) triangle RVF, and opposite (plane) {STU} (see lemma).
+And, thus, as triangle {ABC} (is) to triangle {DEF}, so the prism whose base (is) triangle {LOC}, and opposite (plane) {PMN}, (is) to the prism whose base (is) triangle {RVF}, and opposite (plane) {STU}.
+And as the aforementioned prisms (are) to one another, so the prism whose base (is) parallelogram {KBOL}, and opposite (side) straight-line {PM}, (is) to the prism whose base (is) parallelogram {QEVR}, and opposite (side) straight-line {ST} [Props. 11.39, 12.3].
+Thus, also, (is) the (sum of the) two prisms—that whose base (is) parallelogram {KBOL}, and opposite (side) {PM}, and that whose base (is) {LOC}, and opposite (plane) {PMN}—to (the sum of) the (two) prisms—that whose base (is) {QEVR}, and opposite (side) straight-line {ST}, and that whose base (is) triangle {RVF}, and opposite (plane) {STU} [Prop. 5.12].
+And, thus, as base {ABC} (is) to base {DEF}, so the (sum of the first) aforementioned two prisms (is) to the (sum of the second) aforementioned two prisms.
 
-And, similarly, if pyramids PMNG and STUH are divided into two prisms, and two pyramids, as base P M N (is) to base STU, so (the sum of) the two prisms in pyramid PMNG will be to (the sum of) the two prisms in pyramid STUH.
-But, as base PMN (is) to base STU, so base ABC (is) to base DEF.
-For the triangles PMN and ST U (are) equal to LOC and RVF, respectively.
-And, thus, as base ABC (is) to base DEF, so (the sum of) the four prisms (is) to (the sum of) the four prisms [Prop. 5.12].
-So, similarly, even if we divide the pyramids left behind into two pyramids and into two prisms, as base ABC (is) to base DEF, so (the sum of) all the prisms in pyramid ABCG will be to (the sum of) all the equal number of prisms in pyramid DEFH.
+And, similarly, if pyramids {PMNG} and {STUH} are divided into two prisms, and two pyramids, as base {PMN} (is) to base {STU}, so (the sum of) the two prisms in pyramid {PMNG} will be to (the sum of) the two prisms in pyramid {STUH}.
+But, as base {PMN} (is) to base {STU}, so base {ABC} (is) to base {DEF}.
+For the triangles {PMN} and {STU} (are) equal to {LOC} and {RVF}, respectively.
+And, thus, as base {ABC} (is) to base {DEF}, so (the sum of) the four prisms (is) to (the sum of) the four prisms [Prop. 5.12].
+So, similarly, even if we divide the pyramids left behind into two pyramids and into two prisms, as base {ABC} (is) to base {DEF}, so (the sum of) all the prisms in pyramid {ABCG} will be to (the sum of) all the equal number of prisms in pyramid {DEFH}.
 (Which is) the very thing it was required to show.
 
 Lemma
 
-And one may show, as follows, that as triangle LOC is to triangle RV F , so the prism whose base (is) triangle LOC, and opposite (plane) PMN, (is) to the prism whose base (is) [triangle] RV F , and opposite (plane) STU.
+And one may show, as follows, that as triangle {LOC} is to triangle {RVF}, so the prism whose base (is) triangle {LOC}, and opposite (plane) {PMN}, (is) to the prism whose base (is) [triangle] {RVF}, and opposite (plane) {STU}.
 
-For, in the same figure, let perpendiculars have been conceived (drawn) from (points) G and H to the planes ABC and DEF (respectively).
+For, in the same figure, let perpendiculars have been conceived (drawn) from (points) {G} and {H} to the planes {ABC} and {DEF} (respectively).
 These clearly turn out to be equal, on account of the pyramids being assumed (to be) of equal height.
-And since two straight-lines, GC and the perpendicular from G, are cut by the parallel planes ABC and PMN they will be cut in the same ratios [Prop. 11.17].
-And GC was cut in half by the plane PMN at N.
-Thus, the perpendicular from G to the plane ABC will also be cut in half by the plane PMN.
-So, for the same (reasons), the perpendicular from H to the plane DEF will also be cut in half by the plane STU.
-And the perpendiculars from G and H to the planes ABC and DEF (respectively) are equal.
-Thus, the perpendiculars from the triangles PMN and STU to ABC and DEF (respectively, are) also equal.
-Thus, the prisms whose bases are triangles LOC and RVF, and opposite (sides) PMN and STU (respectively), [are] of equal height.
+And since two straight-lines, {GC} and the perpendicular from {G}, are cut by the parallel planes {ABC} and {PMN} they will be cut in the same ratios [Prop. 11.17].
+And {GC} was cut in half by the plane {PMN} at {N}.
+Thus, the perpendicular from {G} to the plane {ABC} will also be cut in half by the plane {PMN}.
+So, for the same (reasons), the perpendicular from {H} to the plane {DEF} will also be cut in half by the plane {STU}.
+And the perpendiculars from {G} and {H} to the planes {ABC} and {DEF} (respectively) are equal.
+Thus, the perpendiculars from the triangles {PMN} and {STU} to {ABC} and {DEF} (respectively, are) also equal.
+Thus, the prisms whose bases are triangles {LOC} and {RVF}, and opposite (sides) {PMN} and {STU} (respectively), [are] of equal height.
 And, hence, the parallelepiped solids described on the aforementioned prisms [are] of equal height and (are) to one another as their bases [Prop. 11.32].
 Likewise, the halves (of the solids) [Prop. 11.28].
-Thus, as base LOC is to base RVF, so the aforementioned prisms (are) to one another.
+Thus, as base {LOC} is to base {RVF}, so the aforementioned prisms (are) to one another.
 (Which is) the very thing it was required to show.

@@ -1,13 +1,13 @@
 If a rational (straight-line), which is commensurable in square only with the whole, is subtracted from a(nother) rational (straight-line) then the remainder is an irrational (straight-line).
 Let it be called an apotome.
 
-For let the rational (straight-line) BC, which commensurable in square only with the whole, have been subtracted from the rational (straight-line) AB.
-I say that the remainder AC is that irrational (straight-line) called an apotome.
+For let the rational (straight-line) {BC}, which commensurable in square only with the whole, have been subtracted from the rational (straight-line) {AB}.
+I say that the remainder {AC} is that irrational (straight-line) called an apotome.
 
-For since AB is incommensurable in length with BC, and as AB is to BC, so the (square) on AB (is) to the (rectangle contained) by AB and BC [Prop. 10.21 lem.], the (square) on AB is thus incommensurable with the (rectangle contained) by AB and BC [Prop. 10.11].
-But, the (sum of the) squares on AB and BC is commensurable with the (square) on AB [Prop. 10.15], and twice the (rectangle contained) by AB and BC is commensurable with the (rectangle contained) by AB and BC [Prop. 10.6].
-And, inasmuch as the (sum of the squares) on AB and BC is equal to twice the (rectangle contained) by AB and BC plus the (square) on CA [Prop. 2.7], the (sum of the squares) on AB and BC is thus also incommensurable with the remaining (square) on AC [Props. 10.13, 10.16].
-And the (sum of the squares) on AB and BC is rational.
-AC is thus an irrational (straight-line) [Def. 10.4].
+For since {AB} is incommensurable in length with {BC}, and as {AB} is to {BC}, so the (square) on {AB} (is) to the (rectangle contained) by {AB} and {BC} [Prop. 10.21 lem.], the (square) on {AB} is thus incommensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.11].
+But, the (sum of the) squares on {AB} and {BC} is commensurable with the (square) on {AB} [Prop. 10.15], and twice the (rectangle contained) by {AB} and {BC} is commensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.6].
+And, inasmuch as the (sum of the squares) on {AB} and {BC} is equal to twice the (rectangle contained) by {AB} and {BC} plus the (square) on {CA} [Prop. 2.7], the (sum of the squares) on {AB} and {BC} is thus also incommensurable with the remaining (square) on {AC} [Props. 10.13, 10.16].
+And the (sum of the squares) on {AB} and {BC} is rational.
+{AC} is thus an irrational (straight-line) [Def. 10.4].
 And let it be called an apotome.
 (Which is) the very thing it was required to show.

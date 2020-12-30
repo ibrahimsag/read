@@ -1,17 +1,17 @@
 Any solid angle is contained by plane angles (whose sum is) less [than] four right-angles.
 
-Let the solid angle A be contained by the plane angles BAC, CAD, and DAB.
-I say that (the sum of) BAC, CAD, and DAB is less than four right-angles.
+Let the solid angle {A} be contained by the plane angles {BAC}, {CAD}, and {DAB}.
+I say that (the sum of) {BAC}, {CAD}, and {DAB} is less than four right-angles.
 
-For let the random points B, C, and D have been taken on each of (the straight-lines) AB, AC, and AD (respectively).
-And let BC, CD, and DB have been joined.
-And since the solid angle at B is contained by the three plane angles CBA, ABD, and CBD, (the sum of) any two is greater than the remaining (one) [Prop. 11.20].
-Thus, (the sum of) CBA and ABD is greater than CBD.
-So, for the same (reasons), (the sum of) BCA and ACD is also greater than BCD, and (the sum of) CDA and ADB is greater than CDB.
-Thus, the (sum of the) six angles CBA, ABD, BCA, ACD, CDA, and ADB is greater than the (sum of the) three (angles) CBD, BCD, and CDB.
-But, the (sum of the) three (angles) CBD, BDC, and BCD is equal to two right-angles [Prop. 1.32].
-Thus, the (sum of the) six angles CBA, ABD, BCA, ACD, CDA, and ADB is greater than two right-angles.
-And since the (sum of the) three angles of each of the triangles ABC, ACD, and ADB is equal to two right-angles, the (sum of the) nine angles CBA, ACB, BAC, ACD, CDA, CAD, ADB, DBA, and BAD of the three triangles is equal to six right-angles, of which the (sum of the) six angles ABC, BCA, ACD, CDA, ADB, and DBA is greater than two right-angles.
-Thus, the (sum of the) remaining three [angles] BAC, CAD, and DAB, containing the solid angle, is less than four right-angles.
+For let the random points {B}, {C}, and {D} have been taken on each of (the straight-lines) {AB}, {AC}, and {AD} (respectively).
+And let {BC}, {CD}, and {DB} have been joined.
+And since the solid angle at {B} is contained by the three plane angles {CBA}, {ABD}, and {CBD}, (the sum of) any two is greater than the remaining (one) [Prop. 11.20].
+Thus, (the sum of) {CBA} and {ABD} is greater than {CBD}.
+So, for the same (reasons), (the sum of) {BCA} and {ACD} is also greater than {BCD}, and (the sum of) {CDA} and {ADB} is greater than {CDB}.
+Thus, the (sum of the) six angles {CBA}, {ABD}, {BCA}, {ACD}, {CDA}, and {ADB} is greater than the (sum of the) three (angles) {CBD}, {BCD}, and {CDB}.
+But, the (sum of the) three (angles) {CBD}, {BDC}, and {BCD} is equal to two right-angles [Prop. 1.32].
+Thus, the (sum of the) six angles {CBA}, {ABD}, {BCA}, {ACD}, {CDA}, and {ADB} is greater than two right-angles.
+And since the (sum of the) three angles of each of the triangles {ABC}, {ACD}, and {ADB} is equal to two right-angles, the (sum of the) nine angles {CBA}, {ACB}, {BAC}, {ACD}, {CDA}, {CAD}, {ADB}, {DBA}, and {BAD} of the three triangles is equal to six right-angles, of which the (sum of the) six angles {ABC}, {BCA}, {ACD}, {CDA}, {ADB}, and {DBA} is greater than two right-angles.
+Thus, the (sum of the) remaining three [angles] {BAC}, {CAD}, and {DAB}, containing the solid angle, is less than four right-angles.
 
 Thus, any solid angle is contained by plane angles (whose sum is) less [than] four right-angles. (Which is) the very thing it was required to show.

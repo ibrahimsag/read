@@ -1,31 +1,31 @@
 If a straight-line, which is incommensurable in square with the whole, and with the whole makes the sum of the squares on them medial, and twice the (rectangle contained) by them medial, and, moreover, the (sum of the) squares on them incommensurable with twice the (rectangle contained) by them, is subtracted from a(nother) straight-line then the remainder is an irrational (straight-line).
 Let it be called that which makes with a medial (area) a medial whole.
 
-For let the straight-line BC, which is incommensurable in square AB, and fulfils the (other) prescribed (conditions), have been subtracted from the (straight-line) AB [Prop. 10.35].
-I say that the remainder AC is the irrational (straight-line) called that which makes with a medial (area) a medial whole.
+For let the straight-line {BC}, which is incommensurable in square {AB}, and fulfils the (other) prescribed (conditions), have been subtracted from the (straight-line) {AB} [Prop. 10.35].
+I say that the remainder {AC} is the irrational (straight-line) called that which makes with a medial (area) a medial whole.
 
-For let the rational (straight-line) DI be laid down.
-And let DE, equal to the (sum of the squares) on AB and BC, have been applied to DI, producing DG as breadth.
-And let DH, equal to twice the (rectangle contained) by AB and BC, have been subtracted (from DE) [producing DF as breadth].
-Thus, the remainder FE is equal to the (square) on AC [Prop. 2.7].
-Hence, AC is the square-root of FE.
+For let the rational (straight-line) {DI} be laid down.
+And let {DE}, equal to the (sum of the squares) on {AB} and {BC}, have been applied to {DI}, producing {DG} as breadth.
+And let {DH}, equal to twice the (rectangle contained) by {AB} and {BC}, have been subtracted (from {DE}) [producing {DF} as breadth].
+Thus, the remainder {FE} is equal to the (square) on {AC} [Prop. 2.7].
+Hence, {AC} is the square-root of {FE}.
 And since the sum of the squares on
 
-AB and BC is medial, and is equal to DE, DE [is] thus medial.
-And it is applied to the rational (straight-line) DI, producing DG as breadth.
-Thus, DG is rational, and incommensurable in length with DI [Prop 10.22].
-Again, since twice the (rectangle contained) by AB and BC is medial, and is equal to DH, DH is thus medial.
-And it is applied to the rational (straight-line) DI, producing DF as breadth.
-Thus, DF is also rational, and incommensurable in length with DI [Prop. 10.22].
-And since the (sum of the squares) on AB and BC is incommensurable with twice the (rectangle contained) by AB and BC, DE (is) also incommensurable with DH.
-And as DE (is) to DH, so DG also is to DF [Prop. 6.1].
-Thus, DG (is) incommensurable (in length) with DF [Prop. 10.11].
+{AB} and {BC} is medial, and is equal to {DE}, {DE} [is] thus medial.
+And it is applied to the rational (straight-line) {DI}, producing {DG} as breadth.
+Thus, {DG} is rational, and incommensurable in length with {DI} [Prop 10.22].
+Again, since twice the (rectangle contained) by {AB} and {BC} is medial, and is equal to {DH}, {DH} is thus medial.
+And it is applied to the rational (straight-line) {DI}, producing {DF} as breadth.
+Thus, {DF} is also rational, and incommensurable in length with {DI} [Prop. 10.22].
+And since the (sum of the squares) on {AB} and {BC} is incommensurable with twice the (rectangle contained) by {AB} and {BC}, {DE} (is) also incommensurable with {DH}.
+And as {DE} (is) to {DH}, so {DG} also is to {DF} [Prop. 6.1].
+Thus, {DG} (is) incommensurable (in length) with {DF} [Prop. 10.11].
 And they are both rational.
-Thus, GD and DF are rational (straight-lines which are) commensurable in square only.
-Thus, FG is an apotome [Prop. 10.73].
-And FH (is) rational.
+Thus, {GD} and {DF} are rational (straight-lines which are) commensurable in square only.
+Thus, {FG} is an apotome [Prop. 10.73].
+And {FH} (is) rational.
 And the [rectangle] contained by a rational (straight-line) and an apotome is irrational [Prop. 10.20], and its square-root is irrational.
-And AC is the square-root of FE.
-Thus, AC is irrational.
+And {AC} is the square-root of {FE}.
+Thus, {AC} is irrational.
 Let it be called that which makes with a medial (area) a medial whole.
 (Which is) the very thing it was required to show.

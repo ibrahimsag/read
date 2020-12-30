@@ -1,18 +1,18 @@
 We will now demonstrate that the aforementioned irrational (straight-lines) are uniquely divided into the straight-lines of which they are the sum, and which produce the prescribed types, (after) setting forth the following lemma.
 
-Let the straight-line AB be laid out, and let the whole (straight-line) have been cut into unequal parts at each of the (points) C and D.
-And let AC be assumed (to be) greater than DB.
-I say that (the sum of) the (squares) on AC and CB is greater than (the sum of) the (squares) on AD and DB.
+Let the straight-line {AB} be laid out, and let the whole (straight-line) have been cut into unequal parts at each of the (points) {C} and {D}.
+And let {AC} be assumed (to be) greater than {DB}.
+I say that (the sum of) the (squares) on {AC} and {CB} is greater than (the sum of) the (squares) on {AD} and {DB}.
 
-For let AB have been cut in half at E.
-And since AC is greater than DB, let DC have been subtracted from both.
-Thus, the remainder AD is greater than the remainder CB.
-And AE (is) equal to EB.
-Thus, DE (is) less than EC.
-Thus, points C and D are not equally far from the point of bisection.
-And since the (rectangle contained) by AC and CB, plus the (square) on EC, is equal to the (square) on EB [Prop. 2.5], but, moreover, the (rectangle contained) by AD and DB, plus the (square) on DE, is also equal to the (square) on EB [Prop. 2.5], the (rectangle contained) by AC and CB, plus the (square) on EC, is thus equal to the (rectangle contained) by AD and DB, plus the (square) on DE.
-And, of these, the (square) on DE is less than the (square) on EC.
-And, thus, the remaining (rectangle contained) by AC and CB is less than the (rectangle contained) by AD and DB.
-And, hence, twice the (rectangle contained) by AC and CB is less than twice the (rectangle contained) by AD and DB.
-And thus the remaining sum of the (squares) on AC and CB is greater than the sum of the (squares) on AD and DB.
+For let {AB} have been cut in half at {E}.
+And since {AC} is greater than {DB}, let {DC} have been subtracted from both.
+Thus, the remainder {AD} is greater than the remainder {CB}.
+And {AE} (is) equal to {EB}.
+Thus, {DE} (is) less than {EC}.
+Thus, points {C} and {D} are not equally far from the point of bisection.
+And since the (rectangle contained) by {AC} and {CB}, plus the (square) on {EC}, is equal to the (square) on {EB} [Prop. 2.5], but, moreover, the (rectangle contained) by {AD} and {DB}, plus the (square) on {DE}, is also equal to the (square) on {EB} [Prop. 2.5], the (rectangle contained) by {AC} and {CB}, plus the (square) on {EC}, is thus equal to the (rectangle contained) by {AD} and {DB}, plus the (square) on {DE}.
+And, of these, the (square) on {DE} is less than the (square) on {EC}.
+And, thus, the remaining (rectangle contained) by {AC} and {CB} is less than the (rectangle contained) by {AD} and {DB}.
+And, hence, twice the (rectangle contained) by {AC} and {CB} is less than twice the (rectangle contained) by {AD} and {DB}.
+And thus the remaining sum of the (squares) on {AC} and {CB} is greater than the sum of the (squares) on {AD} and {DB}.
 (Which is) the very thing it was required to show.

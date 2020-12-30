@@ -1,33 +1,33 @@
 The square on a first bimedial (straight-line) applied to a rational (straight-line) produces as breadth a second binomial (straight-line).
 
-Let AB be a first bimedial (straight-line) having been divided into its (component) medial (straight-lines) at C, of which AC (is) the greater.
-And let the rational (straight-line) DE be laid down.
-And let the parallelogram DF, equal to the (square) on AB, have been applied to DE, producing DG as breadth.
-I say that DG is a second binomial (straight-line).
+Let {AB} be a first bimedial (straight-line) having been divided into its (component) medial (straight-lines) at {C}, of which {AC} (is) the greater.
+And let the rational (straight-line) {DE} be laid down.
+And let the parallelogram {DF}, equal to the (square) on {AB}, have been applied to {DE}, producing {DG} as breadth.
+I say that {DG} is a second binomial (straight-line).
 
 For let the same construction have been made as in the (proposition) before this.
-And since AB is a first bimedial (straight-line), having been divided at C, AC and CB are thus medial (straight-lines) commensurable in square only, and containing a rational (area) [Prop. 10.37].
-Hence, the (squares) on AC and CB are also medial [Prop. 10.21].
-Thus, DL is medial [Props. 10.15, 10.23 corr.].
-And it has been applied to the rational (straight-line) DE.
-MD is thus rational, and incommensurable in length with DE [Prop. 10.22].
-Again, since twice the (rectangle contained) by AC and CB is rational, MF is also rational.
-And it is applied to the rational (straight-line) ML.
-Thus, MG [is] also rational, and commensurable in length with ML---that is to say, with DE [Prop. 10.20].
-DM is thus incommensurable in length with MG [Prop. 10.13].
+And since {AB} is a first bimedial (straight-line), having been divided at {C}, {AC} and {CB} are thus medial (straight-lines) commensurable in square only, and containing a rational (area) [Prop. 10.37].
+Hence, the (squares) on {AC} and {CB} are also medial [Prop. 10.21].
+Thus, {DL} is medial [Props. 10.15, 10.23 corr.].
+And it has been applied to the rational (straight-line) {DE}.
+{MD} is thus rational, and incommensurable in length with {DE} [Prop. 10.22].
+Again, since twice the (rectangle contained) by {AC} and {CB} is rational, {MF} is also rational.
+And it is applied to the rational (straight-line) {ML}.
+Thus, {MG} [is] also rational, and commensurable in length with {ML}---that is to say, with {DE} [Prop. 10.20].
+{DM} is thus incommensurable in length with {MG} [Prop. 10.13].
 And they are rational.
-DM and MG are thus rational, and commensurable in square only.
-DG is thus a binomial (straight-line) [Prop. 10.36].
+{DM} and {MG} are thus rational, and commensurable in square only.
+{DG} is thus a binomial (straight-line) [Prop. 10.36].
 So, we must show that (it is) also a second (binomial straight-line).
 
-For since (the sum of) the squares on AC and CB is greater than twice the (rectangle contained) by AC and CB [Prop. 10.59], DL (is) thus also greater than MF.
-Hence, DM (is) also (greater) than MG [Prop. 6.1].
-And since the (square) on AC is commensurable with the (square) on CB, DH is also commensurable with KL.
-Hence, DK is also commensurable (in length) with KM [Props.
+For since (the sum of) the squares on {AC} and {CB} is greater than twice the (rectangle contained) by {AC} and {CB} [Prop. 10.59], {DL} (is) thus also greater than {MF}.
+Hence, {DM} (is) also (greater) than {MG} [Prop. 6.1].
+And since the (square) on {AC} is commensurable with the (square) on {CB}, {DH} is also commensurable with {KL}.
+Hence, {DK} is also commensurable (in length) with {KM} [Props.
 6.1, 10.11].
-And the (rectangle contained) by DKM is equal to the (square) on MN.
-Thus, the square on DM is greater than (the square on) MG by the (square) on (some straight-line) commensurable (in length) with (DM) [Prop.
+And the (rectangle contained) by {DKM} is equal to the (square) on {MN}.
+Thus, the square on {DM} is greater than (the square on) {MG} by the (square) on (some straight-line) commensurable (in length) with ({DM}) [Prop.
 10.17].
-And MG is commensurable in length with DE.
+And {MG} is commensurable in length with {DE}.
 
-Thus, DG is a second binomial (straight-line) [Def. 10.6].
+Thus, {DG} is a second binomial (straight-line) [Def. 10.6].

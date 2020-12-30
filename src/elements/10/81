@@ -1,43 +1,43 @@
 Only one medial straight-line, which is commensurable in square only with the whole, and contains a medial (area) with the whole, can be attached to a second apotome of a medial (straight-line).
 
-Let AB be a second apotome of a medial (straight-line), with BC (so) attached to AB.
-Thus, AC and CB are medial (straight-lines which are) commensurable in square only, containing a medial (area)---(namely, that contained) by AC and CB [Prop. 10.75].
-I say that a(nother) medial straight-line, which is commensurable in square only with the whole, and contains a medial (area) with the whole, cannot be attached to AB.
+Let {AB} be a second apotome of a medial (straight-line), with {BC} (so) attached to {AB}.
+Thus, {AC} and {CB} are medial (straight-lines which are) commensurable in square only, containing a medial (area)---(namely, that contained) by {AC} and {CB} [Prop. 10.75].
+I say that a(nother) medial straight-line, which is commensurable in square only with the whole, and contains a medial (area) with the whole, cannot be attached to {AB}.
 
-For, if possible, let BD be (so) attached.
-Thus, AD and DB are also medial (straight-lines which are) commensurable in square only, containing a medial (area)---(namely, that contained) by AD and DB [Prop. 10.75].
-And let the rational (straight-line) EF be laid down.
-And let EG, equal to the (sum of the squares) on AC and CB, have been applied to EF, producing EM as breadth.
-And let HG, equal to twice the (rectangle contained) by AC and CB, have been subtracted (from EG), producing HM as breadth.
-The remainder EL is thus equal to the (square) on AB [Prop. 2.7].
-Hence, AB is the square-root of EL.
-So, again, let EI, equal to the (sum of the squares) on AD and DB have been applied to EF, producing EN as breadth.
-And EL is also equal to the square on AB.
-Thus, the remainder HI is equal to twice the (rectangle contained) by AD and DB [Prop. 2.7].
-And since AC and CB are (both) medial (straight-lines), the (sum of the squares) on AC and CB is also medial.
-And it is equal to EG.
-Thus, EG is also medial [Props. 10.15, 10.23 corr.].
-And it is applied to the rational (straight-line) EF, producing EM as breadth.
-Thus, EM is rational, and incommensurable in length with EF [Prop. 10.22].
-Again, since the (rectangle contained) by AC and CB is medial, twice the (rectangle contained) by AC and CB is also medial [Prop. 10.23 corr.].
-And it is equal to HG.
-Thus, HG is also medial.
-And it is applied to the rational (straight-line) EF, producing HM as breadth.
-Thus, HM is also rational, and incommensurable in length with EF [Prop. 10.22].
-And since AC and CB are commensurable in square only, AC is thus incommensurable in length with CB.
-And as AC (is) to CB, so the (square) on AC is to the (rectangle contained) by AC and CB [Prop. 10.21 corr.].
-Thus, the (square) on AC is incommensurable with the (rectangle contained) by AC and CB [Prop. 10.11].
-But, the (sum of the squares) on AC and CB is commensurable with the (square) on AC, and twice the (rectangle contained) by AC and CB is commensurable with the (rectangle contained) by AC and CB [Prop. 10.6].
-Thus, the (sum of the squares) on AC and CB is incommensurable with twice the (rectangle contained) by AC and CB [Prop. 10.13].
-And EG is equal to the (sum of the squares) on AC and CB.
-And GH is equal to twice the (rectangle contained) by AC and CB.
-Thus, EG is incommensurable with HG.
-And as EG (is) to HG, so EM is to HM [Prop. 6.1].
-Thus, EM is incommensurable in length with MH [Prop. 10.11].
+For, if possible, let {BD} be (so) attached.
+Thus, {AD} and {DB} are also medial (straight-lines which are) commensurable in square only, containing a medial (area)---(namely, that contained) by {AD} and {DB} [Prop. 10.75].
+And let the rational (straight-line) {EF} be laid down.
+And let {EG}, equal to the (sum of the squares) on {AC} and {CB}, have been applied to {EF}, producing {EM} as breadth.
+And let {HG}, equal to twice the (rectangle contained) by {AC} and {CB}, have been subtracted (from {EG}), producing {HM} as breadth.
+The remainder {EL} is thus equal to the (square) on {AB} [Prop. 2.7].
+Hence, {AB} is the square-root of {EL}.
+So, again, let {EI}, equal to the (sum of the squares) on {AD} and {DB} have been applied to {EF}, producing {EN} as breadth.
+And {EL} is also equal to the square on {AB}.
+Thus, the remainder {HI} is equal to twice the (rectangle contained) by {AD} and {DB} [Prop. 2.7].
+And since {AC} and {CB} are (both) medial (straight-lines), the (sum of the squares) on {AC} and {CB} is also medial.
+And it is equal to {EG}.
+Thus, {EG} is also medial [Props. 10.15, 10.23 corr.].
+And it is applied to the rational (straight-line) {EF}, producing {EM} as breadth.
+Thus, {EM} is rational, and incommensurable in length with {EF} [Prop. 10.22].
+Again, since the (rectangle contained) by {AC} and {CB} is medial, twice the (rectangle contained) by {AC} and {CB} is also medial [Prop. 10.23 corr.].
+And it is equal to {HG}.
+Thus, {HG} is also medial.
+And it is applied to the rational (straight-line) {EF}, producing {HM} as breadth.
+Thus, {HM} is also rational, and incommensurable in length with {EF} [Prop. 10.22].
+And since {AC} and {CB} are commensurable in square only, {AC} is thus incommensurable in length with {CB}.
+And as {AC} (is) to {CB}, so the (square) on {AC} is to the (rectangle contained) by {AC} and {CB} [Prop. 10.21 corr.].
+Thus, the (square) on {AC} is incommensurable with the (rectangle contained) by {AC} and {CB} [Prop. 10.11].
+But, the (sum of the squares) on {AC} and {CB} is commensurable with the (square) on {AC}, and twice the (rectangle contained) by {AC} and {CB} is commensurable with the (rectangle contained) by {AC} and {CB} [Prop. 10.6].
+Thus, the (sum of the squares) on {AC} and {CB} is incommensurable with twice the (rectangle contained) by {AC} and {CB} [Prop. 10.13].
+And {EG} is equal to the (sum of the squares) on {AC} and {CB}.
+And {GH} is equal to twice the (rectangle contained) by {AC} and {CB}.
+Thus, {EG} is incommensurable with {HG}.
+And as {EG} (is) to {HG}, so {EM} is to {HM} [Prop. 6.1].
+Thus, {EM} is incommensurable in length with {MH} [Prop. 10.11].
 And they are both rational (straight-lines).
-Thus, EM and MH are rational (straight-lines which are) commensurable in square only.
-Thus, EH is an apotome [Prop. 10.73], and HM (is) attached to it.
-So, similarly, we can show that HN (is) also (commensurable in square only with EN and is) attached to (EH).
+Thus, {EM} and {MH} are rational (straight-lines which are) commensurable in square only.
+Thus, {EH} is an apotome [Prop. 10.73], and {HM} (is) attached to it.
+So, similarly, we can show that {HN} (is) also (commensurable in square only with {EN} and is) attached to ({EH}).
 Thus, different straight-lines, which are commensurable in square only with the whole, are attached to an apotome.
 The very thing is impossible [Prop. 10.79].
 

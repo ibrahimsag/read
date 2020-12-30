@@ -1,16 +1,16 @@
 If two straight-lines are cut by parallel planes then they will be cut in the same ratios.
 
-For let the two straight-lines AB and CD be cut by the parallel planes GH, KL, and MN at the points A, E, B, and C, F, D (respectively).
-I say that as the straight-line AE is to EB, so CF (is) to FD.
+For let the two straight-lines {AB} and {CD} be cut by the parallel planes {GH}, {KL}, and {MN} at the points {A}, {E}, {B}, and {C}, {F}, {D} (respectively).
+I say that as the straight-line {AE} is to {EB}, so {CF} (is) to {FD}.
 
-For let AC, BD, and AD have been joined, and let AD meet the plane KL at point O, and let EO and OF have been joined.
+For let {AC}, {BD}, and {AD} have been joined, and let {AD} meet the plane {KL} at point {O}, and let {EO} and {OF} have been joined.
 
-And since two parallel planes KL and MN are cut by the plane EBDO, their common sections EO and BD are parallel [Prop. 11.16].
-So, for the same (reasons), since two parallel planes GH and KL are cut by the plane AOFC, their common sections AC and OF are parallel [Prop. 11.16].
-And since the straight-line EO has been drawn parallel to one of the sides BD of triangle ABD, thus, proportionally, as AE is to EB, so AO (is) to OD [Prop. 6.2].
-Again, since the straight-line OF has been drawn parallel to one of the sides AC of triangle ADC, proportionally, as AO is to OD, so CF (is) to FD [Prop. 6.2].
-And it was also shown that as AO (is) to OD, so AE (is) to EB.
-And thus as AE (is) to EB, so CF (is) to FD [Prop. 5.11].
+And since two parallel planes {KL} and {MN} are cut by the plane {EBDO}, their common sections {EO} and {BD} are parallel [Prop. 11.16].
+So, for the same (reasons), since two parallel planes {GH} and {KL} are cut by the plane {AOFC}, their common sections {AC} and {OF} are parallel [Prop. 11.16].
+And since the straight-line {EO} has been drawn parallel to one of the sides {BD} of triangle {ABD}, thus, proportionally, as {AE} is to {EB}, so {AO} (is) to {OD} [Prop. 6.2].
+Again, since the straight-line {OF} has been drawn parallel to one of the sides {AC} of triangle {ADC}, proportionally, as {AO} is to {OD}, so {CF} (is) to {FD} [Prop. 6.2].
+And it was also shown that as {AO} (is) to {OD}, so {AE} (is) to {EB}.
+And thus as {AE} (is) to {EB}, so {CF} (is) to {FD} [Prop. 5.11].
 
 Thus, if two straight-lines are cut by parallel planes then they will be cut in the same ratios.
 (Which is) the very thing it was required to show.
