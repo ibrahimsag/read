@@ -66,19 +66,5 @@ export default [{
     format: 'iife',
     sourcemap: true,
   }
-},
-{
-  input: 'src/latest.js',
-  plugins: [
-    string({
-      include: 'src/elements/*/*'
-    }),
-    json()
-  ],
-  output: {
-    file: 'build/latest.js',
-    format: 'iife',
-    sourcemap: true,
-  }
-},
+}
 ];

@@ -300,7 +300,7 @@ function loadPage(pdfDoc, pn)
             xhr.open("POST", "/store/", true);
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.send(JSON.stringify({
-              key: `img/10/${k}`,
+              key: `img/13/${k}`,
               contents: { svgStr, letters }
             }));
           }

@@ -7,12 +7,10 @@ import book6 from '../build/6.json';
 import book7 from '../build/7.json';
 import book8 from '../build/8.json';
 import book9 from '../build/9.json';
-
-let haveClips = (i_book) => (p, ind) => {
-  if(!p.title.startsWith('Def'))
-      p.img = 'img/' + (i_book) + '/' + ind + '.png';
-  return p;
-}
+import book10 from '../build/10.json';
+import book11 from '../build/11.json';
+import book12 from '../build/12.json';
+import book13 from '../build/13.json';
 
 let descs = [
   "Fundamentals of Plane Geometry Involving Straight-Lines",
@@ -60,6 +58,10 @@ let books = {
   7: book7.map(unfoldGraphics),
   8: book8.map(unfoldGraphics),
   9: book9.map(unfoldGraphics),
+  10: book10.map(unfoldGraphics),
+  11: book11.map(unfoldGraphics),
+  12: book12.map(unfoldGraphics),
+  13: book13.map(unfoldGraphics),
 };
 
 window.books = books;

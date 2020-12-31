@@ -7,10 +7,14 @@ import book6 from './elements/6.js';
 import book7 from './elements/7.js';
 import book8 from './elements/8.js';
 import book9 from './elements/9.js';
+import book10 from './elements/10.js';
+import book11 from './elements/11.js';
+import book12 from './elements/12.js';
+import book13 from './elements/13.js';
 
 var fs = require('fs');
 
-let books = [book1, book2, book3, book4, book5, book6, book7, book8, book9];
+let books = [book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13];
 
 function storeProps()
 {
@@ -31,6 +35,9 @@ function storeProps()
       else if(m = p.title.match(/Proposition (\d+)/))
       {
         p.id = `${i+1}.${m[1]}`;
+      }
+      else if(i >= 9)
+      {
       }
       else
       {
