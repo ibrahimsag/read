@@ -12,7 +12,7 @@ This is from Oliver Byrne’s work(a digital version can be found at [c82.net/eu
 
 The usual answer is to record a video. Which dictates a rhytym, isolates fragments, strains potential participation and mostly turns ridiculous under production costs. Surely films are awesome but their teaching of technical material is not the strong aspect.
 
-Now follow this: [canberead.com/elements/1.43](https://canberead.com/elements/1.43). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for references. You can also click on sentences.
+Now follow this: [canberead.com/elements/1.43](https://canberead.com/elements/1.43). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.
 
 ![](readme/highlighted.png)
 
@@ -26,7 +26,7 @@ Also, i tried to keep the figure visible in a separate column as the prose gets 
 >
 > &mdash; *R. Descartes, A Discourse on the Method, 1637*
 
-This is mathematics at the beginning of modernity summarized by the inventor of Analytic Geometry; as he introduces it as 'my method' later in the same book.
+This is mathematics at the beginning of modernity summarized by the inventor of Analytic Geometry; Introduced as 'my method' later in the same book.
 
 Screens are part of the computers for about fifty years now. But couple thousand years of imaginative work on paper determined that screens be an imitation of paper, for the most part. Basic container of data was inherited as files and folders. Much of the private computer was put together in a company that makes photocopy machines. Within which the preview of a print had monumental benefit along with a pointer device and a virtual catalog. Word processors, spreadsheets and slides came to be the most used software and suggested a future as typical products. And we come to look at web pages that were conceived to be accessible versions of physical documents.
 

@@ -24,18 +24,21 @@
 html {
   scroll-behavior: smooth;
 }
+* {
+  box-sizing: border-box;
+}
 body {
   background: black;
-  color: #474747;
+  color: #777777;
   margin: 0;
   font-family: Geom;
 }
 .title {
-  width: 520px;
+  width: 700px;
 }
 #experiment {
-  padding: 12px;
-  width: 700px;
+  margin: 12px 30px;;
+  width: 880px;
   text-align: right;
 }
 
@@ -43,12 +46,12 @@ body {
   display: flex;
 }
 
-.item h4 {
-  color: #777777;
-}
-
 .item .prose {
   width: 300px;
+  margin-left: 180px;
+}
+h3 {
+  color: #c6c6c6;
 }
 .item svg {
   margin-left: 20px;
@@ -63,34 +66,52 @@ body {
 }
 
 .item .link {
-  font-size: 1.1em;
-  width: 520px;
-}
-
-.item .link h4 {
-  font-size: 1.3em;
+  width: 700px;
 }
 
 .item .author {
+  color: #555555;
   font-size: 1.0em;
-  width: 170px;
-  margin-left: 10px;
+  font-style: italic;
+  width: 180px;
+  padding-left: 10px;
   text-align: left;
 }
 .item .small {
   font-size: .7em;
 }
 
-.link a {
+a {
   color: #254f35;
   text-decoration: none;
 }
+
+.section {
+  margin-right: 100px;
+}
+.section h3, .section > p {
+  margin-right: 80px;
+}
+
+.section img {
+  width: 780px;
+  margin: 10px 0;
+}
+
+.section blockquote {
+  font-style: italic;
+  margin-right: 80px;
+  border-right: 2px solid #474747;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
     </style>
   </head>
   <body>
     <div id="experiment">
       <div class="title">
-      <h2>can be <span style="color: #777777;">rea</span><span style="color: #e2e2e2;">d</span></h2>
+      <h2>can be re<span style="color: #b9b9b9;">a</span><span style="color: #ffffff;">d</span></h2>
       <h5> An experiment in presenting geometry</h5>
       </div>
 
@@ -111,7 +132,7 @@ body {
         </div>
         <div class="item">
           <div class="link">
-            <h4>under care</h4>
+            <h3>under care</h3>
           </div>
         </div>
         <div class="item break book">
@@ -121,7 +142,7 @@ body {
           <div class="author">Euclid, <span class="small">~300 BC.</span></div>
         </div>
         <div class="item">
-          <div class="link"><h4>downriver</h4></div>
+          <div class="link"><h3>downriver</h3></div>
         </div>
         <div class="item book">
           <div class="link">
@@ -150,6 +171,37 @@ body {
             Philosophiæ Naturalis Principia Mathematica
           </div>
           <div class="author">Newton, <span class="small">1687</span></div>
+        </div>
+        <div class="section">
+<h3>How?</h3>
+<p>This is a clip from a geometry book. Particularly a translation of the 2300 years old Elements. Reading it requires going back and forth between the figure and the prose multiple times in most of the sentences. Which gets rather tedious and outright tortouros when you need to read again. Coloring it would help greatly.</p>
+<img src="/img/bare.png" alt="">
+
+<p>This is from Oliver Byrne’s work(a digital version can be found at <a href="https://c82.net/euclid">c82.net/euclid</a>). About 180 years ago he made use of colored print and made a phenomenal contribution. That brings a question: Now that we have digital displays that gets refreshed 60 times every second, what more can be done?</p>
+<img src="/img/colored.png" alt="">
+
+<p>The usual answer is to record a video. Which dictates a rhytym, isolates fragments, strains potential participation and mostly turns ridiculous under production costs. Surely films are awesome but their teaching of technical material is not the strong aspect.</p>
+
+<p>Now follow this: <a href="https://canberead.com/elements/1.43">canberead.com/elements/1.43</a>. And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.</p>
+<img src="/img/highlighted.png" alt="">
+
+<p>The human eye can't distinguish between more than a handful of colors and picking colors for all the lines is somewhat difficult. But with differential brightness for resonate highlights the complexity of the figure is not an issue as long as it is a reasonable figure. Color can be reserved for further development like the presentation of symbolic expressions.</p>
+
+<p>Also, i tried to keep the figure visible in a separate column as the prose gets scrolled, which seems like a more fundamental issue for digital books. But it is impossible to argue for when the software is taken to be generic money making machine of vanishing marginal costs or simulation of absolute laws. Proper utilization of screen space will have to wait for a new generation.</p>
+        </div>
+        <div class="section">
+<h3>Why?</h3>
+<blockquote>
+<p>As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it.</p>
+<p>— <em>R. Descartes, A Discourse on the Method, 1637</em></p>
+</blockquote>
+<p>This is mathematics at the beginning of modernity summarized by the inventor of Analytic Geometry; Introduced it as 'my method' later in the same book.</p>
+<p>Screens are part of the computers for about fifty years now. But couple thousand years of imaginative work on paper determined that screens be an imitation of paper, for the most part. Basic container of data was inherited as files and folders. Much of the private computer was put together in a company that makes photocopy machines. Within which the preview of a print had monumental benefit along with a pointer device and a virtual catalog. Word processors, spreadsheets and slides came to be the most used software and suggested a future as typical products. And we come to look at web pages that were conceived to be accessible versions of physical documents.</p>
+<p>Imitation is mostly effective but it can also be frustrating. But frustrations are a bit difficult to demonstrate. First, It is not obvious how information technology should leave the office and become relevant to life besides facilitation of bureaucracies or consumption of packaged entertainment. Second, criticism of digitized paperwork(i.e. finance) seem to fall on deaf ears. And i will not try to point out that relevance at a time anarchy and chaos are synonymous. Nor will i be an impotent reactionary and define a principal in negation to concentration of power. Instead, the new medium is taken as ground to experiment around prevailing institutional dependence and brute specialization that beats their imagination out of people.</p>
+<p>Of course, this alone can't leave a dent in the curricular consumption called education but one question had to be made explicit: What can be done better than on paper? So that we come to be aware of the cultural momentum and possibly see a course correction.</p>
+        </div>
+        <div class="section">
+          <p>— ibrahim sagiroglu</p>
         </div>
       </div>
     </div>
