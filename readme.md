@@ -4,7 +4,7 @@ An experiment in presenting geometry.
 
 ![](readme/bare.png)
 
-This is a clip from a geometry book. Particularly a translation of the 2300 year old Elements. Reading it requires going back and forth between the figure and the prose multiple times in most of the sentences. Which gets rather tedious and outright tortouros when you need to read again. Coloring it would help greatly.
+This is a clip from a geometry book. Particularly a translation of the 2300 year old Elements. Reading it requires going back and forth between the figure and the prose multiple times in most of the sentences. Which gets rather tedious and borderline torturous when you need to read again. Coloring it would help greatly.
 
 ![](readme/colored.png)
 
