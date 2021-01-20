@@ -6,9 +6,9 @@ import vec2 from './vec2.js';
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
   sentence: hsluv.hsluvToHex([0, 0, 50]),
-  dim: hsluv.hsluvToHex([0, 0, 20]),
-  trail: hsluv.hsluvToHex([0, 0, 20]),
-  link: hsluv.hpluvToHex([140, 100, 30]),
+  dim: hsluv.hsluvToHex([0, 0, 30]),
+  trail: hsluv.hsluvToHex([0, 0, 30]),
+  link: hsluv.hpluvToHex([140, 100, 50]),
   make: hsluv.hpluvToHex,
 };
 
