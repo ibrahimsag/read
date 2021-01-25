@@ -992,7 +992,7 @@ function elements() {
 
   const made = html(colors, cs);
 
-  let zimbirti = {};
+  let section_indices = {};
   let section;
 
   const rg = makeRG();
@@ -1011,17 +1011,17 @@ function elements() {
   }
 
   function canPresentSection(i_book, id) {
-    let ps = books[i_book];
-    if(!ps) return false;
+    let sections = books[i_book];
+    if(!sections) return false;
 
-    if(!zimbirti[i_book])
+    if(!section_indices[i_book])
     {
       let n = {}
-      ps.forEach((p, i) => n[p.id] = i);
-      zimbirti[i_book] = n;
+      sections.forEach((s, i) => n[s.id] = i);
+      section_indices[i_book] = n;
     }
 
-    let i_section = zimbirti[i_book][id];
+    let i_section = section_indices[i_book][id];
     if(typeof i_section === 'undefined')
     {
       return false;
@@ -1033,17 +1033,17 @@ function elements() {
   }
 
   function presentSection(i_book, id) {
-    let ps = books[i_book];
+    let sections = books[i_book];
 
-    let i_section = zimbirti[i_book][id];
+    let i_section = section_indices[i_book][id];
 
     document.querySelector('#container').className = 'section';
 
     let el = document.querySelector('#bookTitle');
     el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
-    let i_p = Math.min(ps.length-1, i_section);
-    section.present(null, ps[i_p]);
+    i_section = Math.min(sections.length-1, i_section);
+    section.present(null, sections[i_section]);
 
     function keyHandler(e)
     {
@@ -1057,13 +1057,13 @@ function elements() {
       }
       else if(e.key == "z")
       {
-        i_p = (i_p-1 + ps.length) % ps.length;
-        openSection(i_book, ps[i_p].id);
+        i_section = (i_section-1 + sections.length) % sections.length;
+        openSection(i_book, sections[i_section].id);
       }
       else if(e.key == "x")
       {
-        i_p = (i_p+1) % ps.length;
-        openSection(i_book, ps[i_p].id);
+        i_section = (i_section+1) % sections.length;
+        openSection(i_book, sections[i_section].id);
       }
       else if(e.key == "h")
       {
@@ -1105,27 +1105,27 @@ function elements() {
     document.querySelector('#prev-section').ontouchend = (e) =>
     {
       e.preventDefault();
-      i_p = (i_p-1+ps.length) % ps.length;
-      openSection(i_book, ps[i_p].id);
+      i_section = (i_section-1+sections.length) % sections.length;
+      openSection(i_book, sections[i_section].id);
     }
 
     document.querySelector('#next-section').ontouchend = (e) =>
     {
       e.preventDefault();
-      i_p = (i_p+1) % ps.length;
-      openSection(i_book, ps[i_p].id);
+      i_section = (i_section+1) % sections.length;
+      openSection(i_book, sections[i_section].id);
     }
 
     document.querySelector('#prev-section').onmousedown = (e) =>
     {
-      i_p = (i_p-1+ps.length) % ps.length;
-      openSection(i_book, ps[i_p].id);
+      i_section = (i_section-1+sections.length) % sections.length;
+      openSection(i_book, sections[i_section].id);
     }
 
     document.querySelector('#next-section').onmousedown = (e) =>
     {
-      i_p = (i_p+1) % ps.length;
-      openSection(i_book, ps[i_p].id);
+      i_section = (i_section+1) % sections.length;
+      openSection(i_book, sections[i_section].id);
     }
   }
 
