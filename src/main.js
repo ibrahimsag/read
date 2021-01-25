@@ -276,7 +276,7 @@ function makeRG()
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
-function makeGround(rg, svg, cs)
+function makeSection(rg, svg, cs)
 {
   let proxy = {};
 
@@ -983,263 +983,268 @@ function makeGround(rg, svg, cs)
   return {present, proxy};
 }
 
-let zimbirti = {};
+function elements() {
+  const jss = create().setup(preset());
+  const sheet = jss.createStyleSheet(style(colors), {link: true});
+  sheet.attach();
 
-function canPresentPage(i_book, id) {
-  let ps = books[i_book];
-  if(!ps) return false;
+  const cs = sheet.classes;
 
-  if(!zimbirti[i_book])
-  {
-    let n = {}
-    ps.forEach((p, i) => n[p.id] = i);
-    zimbirti[i_book] = n;
+  const made = html(colors, cs);
+
+  let zimbirti = {};
+  let section;
+
+  const rg = makeRG();
+  window.books = window.books_(rg);
+
+  window.onload = () => {
+
+    const el = document.querySelector('#container');
+    el.className = cs.container;
+    el.innerHTML = made.cover + made.section;
+
+    const svg = document.querySelector('#figure');
+    section = makeSection(rg, svg, cs);
+
+    presentForLocation();
   }
 
-  let i_page = zimbirti[i_book][id];
-  if(typeof i_page === 'undefined')
-  {
-    return false;
+  function canPresentSection(i_book, id) {
+    let ps = books[i_book];
+    if(!ps) return false;
+
+    if(!zimbirti[i_book])
+    {
+      let n = {}
+      ps.forEach((p, i) => n[p.id] = i);
+      zimbirti[i_book] = n;
+    }
+
+    let i_section = zimbirti[i_book][id];
+    if(typeof i_section === 'undefined')
+    {
+      return false;
+    }
+    else
+    {
+      return true;
+    }
   }
-  else
-  {
-    return true;
-  }
-}
 
-function presentPage(i_book, id) {
-  let ps = books[i_book];
+  function presentSection(i_book, id) {
+    let ps = books[i_book];
 
-  let i_page = zimbirti[i_book][id];
+    let i_section = zimbirti[i_book][id];
 
-  document.querySelector('#container').className = 'page';
+    document.querySelector('#container').className = 'section';
 
-  let el = document.querySelector('#bookTitle');
-  el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
+    let el = document.querySelector('#bookTitle');
+    el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
-  let i_p = Math.min(ps.length-1, i_page);
-  ground.present(null, ps[i_p]);
+    let i_p = Math.min(ps.length-1, i_section);
+    section.present(null, ps[i_p]);
 
-  function keyHandler(e)
-  {
-    if(e.key == "j" || e.keyCode == 39)
+    function keyHandler(e)
     {
-      ground.proxy.moveon();
-    }
-    else if(e.key == "k" || e.keyCode == 37)
-    {
-      ground.proxy.moveback();
-    }
-    else if(e.key == "z")
-    {
-      i_p = (i_p-1 + ps.length) % ps.length;
-      openPage(i_book, ps[i_p].id);
-    }
-    else if(e.key == "x")
-    {
-      i_p = (i_p+1) % ps.length;
-      openPage(i_book, ps[i_p].id);
-    }
-    else if(e.key == "h")
-    {
-      let s = document.querySelector('#auxColumn .given');
-      if(s)
+      if(e.key == "j" || e.keyCode == 39)
       {
-        if(s.style.display != "none")
-          s.style.display = "none";
-        else
-          s.style.display = null;
+        section.proxy.moveon();
+      }
+      else if(e.key == "k" || e.keyCode == 37)
+      {
+        section.proxy.moveback();
+      }
+      else if(e.key == "z")
+      {
+        i_p = (i_p-1 + ps.length) % ps.length;
+        openSection(i_book, ps[i_p].id);
+      }
+      else if(e.key == "x")
+      {
+        i_p = (i_p+1) % ps.length;
+        openSection(i_book, ps[i_p].id);
+      }
+      else if(e.key == "h")
+      {
+        let s = document.querySelector('#auxColumn .given');
+        if(s)
+        {
+          if(s.style.display != "none")
+            s.style.display = "none";
+          else
+            s.style.display = null;
+        }
       }
     }
-  }
 
-  document.onkeydown = keyHandler;
+    document.onkeydown = keyHandler;
 
-  document.querySelector('#move-on').ontouchend = (e) =>
-  {
-    e.preventDefault();
-    ground.proxy.moveon();
-  }
-
-  document.querySelector('#move-on').onmousedown = (e) =>
-  {
-    ground.proxy.moveon();
-  }
-
-  document.querySelector('#move-back').ontouchend = (e) =>
-  {
-    e.preventDefault();
-    ground.proxy.moveback();
-  }
-
-  document.querySelector('#move-back').onmousedown = (e) =>
-  {
-    ground.proxy.moveback();
-  }
-
-  document.querySelector('#prev-page').ontouchend = (e) =>
-  {
-    e.preventDefault();
-    i_p = (i_p-1+ps.length) % ps.length;
-    openPage(i_book, ps[i_p].id);
-  }
-
-  document.querySelector('#next-page').ontouchend = (e) =>
-  {
-    e.preventDefault();
-    i_p = (i_p+1) % ps.length;
-    openPage(i_book, ps[i_p].id);
-  }
-
-  document.querySelector('#prev-page').onmousedown = (e) =>
-  {
-    i_p = (i_p-1+ps.length) % ps.length;
-    openPage(i_book, ps[i_p].id);
-  }
-
-  document.querySelector('#next-page').onmousedown = (e) =>
-  {
-    i_p = (i_p+1) % ps.length;
-    openPage(i_book, ps[i_p].id);
-  }
-}
-
-function presentCover() {
-  document.querySelector('#container').className = 'cover';
-  document.onkeydown = undefined;
-}
-
-let presentForLocation = () => {
-  let m, re = /elements\/([^\/]+)/;
-  if(m = location.pathname.match(re))
-  {
-    let id = m[1];
-    let [i_book, _] = id.split('.');
-    if(!isNaN(Number(i_book)) && canPresentPage(i_book, id))
+    document.querySelector('#move-on').ontouchend = (e) =>
     {
-      presentPage(i_book, id);
+      e.preventDefault();
+      section.proxy.moveon();
+    }
+
+    document.querySelector('#move-on').onmousedown = (e) =>
+    {
+      section.proxy.moveon();
+    }
+
+    document.querySelector('#move-back').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      section.proxy.moveback();
+    }
+
+    document.querySelector('#move-back').onmousedown = (e) =>
+    {
+      section.proxy.moveback();
+    }
+
+    document.querySelector('#prev-section').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      i_p = (i_p-1+ps.length) % ps.length;
+      openSection(i_book, ps[i_p].id);
+    }
+
+    document.querySelector('#next-section').ontouchend = (e) =>
+    {
+      e.preventDefault();
+      i_p = (i_p+1) % ps.length;
+      openSection(i_book, ps[i_p].id);
+    }
+
+    document.querySelector('#prev-section').onmousedown = (e) =>
+    {
+      i_p = (i_p-1+ps.length) % ps.length;
+      openSection(i_book, ps[i_p].id);
+    }
+
+    document.querySelector('#next-section').onmousedown = (e) =>
+    {
+      i_p = (i_p+1) % ps.length;
+      openSection(i_book, ps[i_p].id);
+    }
+  }
+
+  function presentCover() {
+    document.querySelector('#container').className = 'cover';
+    document.onkeydown = undefined;
+  }
+
+  let presentForLocation = () => {
+    let m, re = /elements\/([^\/]+)/;
+    if(m = location.pathname.match(re))
+    {
+      let id = m[1];
+      let [i_book, _] = id.split('.');
+      if(!isNaN(Number(i_book)) && canPresentSection(i_book, id))
+      {
+        presentSection(i_book, id);
+      }
+      else
+      {
+        presentCover();
+      }
+    }
+    else
+    {
+      history.replaceState(null, '', '/elements/');
+      presentCover();
+    }
+  }
+
+  window.onpopstate = (e) => {
+    presentForLocation();
+  }
+
+  function openSection(i_book, id) {
+    if(canPresentSection(i_book, id))
+    {
+      history.pushState(null, '', id);
+      presentSection(i_book, id);
     }
     else
     {
       presentCover();
     }
   }
-  else
+
+  function openCover()
   {
-    history.replaceState(null, '', '/elements/');
+    history.pushState(null, '', '/elements/');
     presentCover();
   }
-}
 
-window.rg = makeRG();
-
-const jss = create().setup(preset());
-
-const sheet = jss.createStyleSheet(style(colors), {link: true});
-sheet.attach();
-
-const cs = sheet.classes;
-const made = html(colors, cs);
-
-let ground;
-window.onload = () => {
-
-  const el = document.querySelector('#container');
-  el.className = cs.container;
-  el.innerHTML = made.cover + made.page;
-
-  const svg = document.querySelector('#figure');
-  ground = makeGround(rg, svg, cs);
-
-  presentForLocation();
-}
-
-window.onpopstate = (e) => {
-  presentForLocation();
-}
-
-function openPage(i_book, id) {
-  if(canPresentPage(i_book, id))
-  {
-    history.pushState(null, '', id);
-    presentPage(i_book, id);
-  }
-  else
-  {
-    presentCover();
-  }
-}
-
-function openCover()
-{
-  history.pushState(null, '', '/elements/');
-  presentCover();
-}
-
-document.onclick = (e) => {
-  let pref = e.srcElement.attributes.pref;
-  if(!pref && e.srcElement.parentElement)
-  {
-    pref = e.srcElement.parentElement.attributes.pref;
-  }
-
-  if(pref)
-  {
-    if(pref.value == 'cover')
+  document.onclick = (e) => {
+    let pref = e.srcElement.attributes.pref;
+    if(!pref && e.srcElement.parentElement)
     {
-      openCover();
+      pref = e.srcElement.parentElement.attributes.pref;
     }
-    else
+
+    if(pref)
     {
-      let [i_book, _] = pref.value.split('.');
-      if(isNaN(i_book))
+      if(pref.value == 'cover')
       {
-        console.error("unknown pref: ", pref.value);
+        openCover();
       }
       else
       {
-        openPage(i_book, pref.value)
+        let [i_book, _] = pref.value.split('.');
+        if(isNaN(i_book))
+        {
+          console.error("unknown pref: ", pref.value);
+        }
+        else
+        {
+          openSection(i_book, pref.value)
+        }
       }
     }
   }
-}
 
-function alignFigure(scroll_position) {
-  let t, d;
-  if(scroll_position > 0)
-  {
-    if(scroll_position > 75)
-      t = 0;
+  function alignFigure(scroll_position) {
+    let t, d;
+    if(scroll_position > 0)
+    {
+      if(scroll_position > 75)
+        t = 0;
+      else
+        t = 76;
+    }
     else
-      t = 76;
+    {
+      t = 76 - scroll_position;
+    }
+    let h = Math.min(512, window.innerHeight - Math.min(76, t));
+
+    let rule = sheet.getRule('auxColumn');
+    rule.prop('top', t);
+    rule.prop('width', h);
+    rule.prop('height', h);
   }
-  else
-  {
-    t = 76 - scroll_position;
+
+  let last_known_scroll_position = 0;
+  let ticking = false;
+
+  function queueAlign() {
+    last_known_scroll_position = window.scrollY;
+
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        alignFigure(last_known_scroll_position);
+        ticking = false;
+      });
+
+      ticking = true;
+    }
   }
-  let h = Math.min(512, window.innerHeight - Math.min(76, t));
+  window.addEventListener('scroll', queueAlign);
 
-  let rule = sheet.getRule('auxColumn');
-  rule.prop('top', t);
-  rule.prop('width', h);
-  rule.prop('height', h);
-}
+  window.onresize = queueAlign;
+};
 
-let last_known_scroll_position = 0;
-let ticking = false;
-
-function queueAlign() {
-  last_known_scroll_position = window.scrollY;
-
-  if (!ticking) {
-    window.requestAnimationFrame(function() {
-      alignFigure(last_known_scroll_position);
-      ticking = false;
-    });
-
-    ticking = true;
-  }
-}
-window.addEventListener('scroll', queueAlign);
-
-window.onresize = queueAlign;
+elements();

@@ -28,40 +28,41 @@ let descs = [
   "The Platonic Solids"
 ];
 
-function unfoldGraphics(p) {
-  let callrg = a => rg[a[0]](...a.slice(1));
-  if(p.shapes)
-  {
-    p.shapes = p.shapes.map(callrg);
-  }
-  if(p.given)
-  {
-    for(let k in p.given)
+
+window.books_ = (rg) => {
+  function unfoldGraphics(p) {
+    let callrg = a => rg[a[0]](...a.slice(1));
+    if(p.shapes)
     {
-      p.given[k] = p.given[k].map(callrg);
+      p.shapes = p.shapes.map(callrg);
     }
+    if(p.given)
+    {
+      for(let k in p.given)
+      {
+        p.given[k] = p.given[k].map(callrg);
+      }
+    }
+    if(p.figures)
+      p.figures.forEach(unfoldGraphics);
+
+    return p;
   }
-  if(p.figures)
-    p.figures.forEach(unfoldGraphics);
 
-  return p;
+  return {
+    descs,
+    1: book1.map(unfoldGraphics),
+    2: book2.map(unfoldGraphics),
+    3: book3.map(unfoldGraphics),
+    4: book4.map(unfoldGraphics),
+    5: book5.map(unfoldGraphics),
+    6: book6.map(unfoldGraphics),
+    7: book7.map(unfoldGraphics),
+    8: book8.map(unfoldGraphics),
+    9: book9.map(unfoldGraphics),
+    10: book10.map(unfoldGraphics),
+    11: book11.map(unfoldGraphics),
+    12: book12.map(unfoldGraphics),
+    13: book13.map(unfoldGraphics),
+  };
 }
-
-let books = {
-  descs,
-  1: book1.map(unfoldGraphics),
-  2: book2.map(unfoldGraphics),
-  3: book3.map(unfoldGraphics),
-  4: book4.map(unfoldGraphics),
-  5: book5.map(unfoldGraphics),
-  6: book6.map(unfoldGraphics),
-  7: book7.map(unfoldGraphics),
-  8: book8.map(unfoldGraphics),
-  9: book9.map(unfoldGraphics),
-  10: book10.map(unfoldGraphics),
-  11: book11.map(unfoldGraphics),
-  12: book12.map(unfoldGraphics),
-  13: book13.map(unfoldGraphics),
-};
-
-window.books = books;

@@ -32,11 +32,11 @@ function make(colors)
       },
       '#container': {
         '&.cover': {
-          '& #page': {
+          '& #section': {
             display: 'none',
           },
         },
-        '&.page': {
+        '&.section': {
           '& #cover': {
             display: 'none',
           },
@@ -77,7 +77,7 @@ function make(colors)
       color: colors.make([320, 100, 40])
     },
 
-    page: {
+    section: {
       marginLeft: 'auto',
       width: '100%',
       maxWidth: 1024,
@@ -111,7 +111,7 @@ function make(colors)
       justifyContent: 'space-between',
       marginBottom: '3em',
     },
-    pageNav: {
+    sectionNav: {
       padding: [[3, 6]],
       cursor: 'pointer',
       userSelect: 'none',
