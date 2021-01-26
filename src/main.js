@@ -276,7 +276,7 @@ function makeRG()
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
-function makeSection(rg, svg, cs)
+function makePR(rg, svg, cs)
 {
   let proxy = {};
 
@@ -993,7 +993,7 @@ function elements() {
   const made = html(colors, cs);
 
   let section_indices = {};
-  let section;
+  let pr;
 
   const rg = makeRG();
   window.books = window.books_(rg);
@@ -1005,7 +1005,7 @@ function elements() {
     el.innerHTML = made.cover + made.section;
 
     const svg = document.querySelector('#figure');
-    section = makeSection(rg, svg, cs);
+    pr = makePR(rg, svg, cs);
 
     presentForLocation();
   }
@@ -1043,17 +1043,17 @@ function elements() {
     el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
 
     i_section = Math.min(sections.length-1, i_section);
-    section.present(null, sections[i_section]);
+    pr.present(null, sections[i_section]);
 
     function keyHandler(e)
     {
       if(e.key == "j" || e.keyCode == 39)
       {
-        section.proxy.moveon();
+        pr.proxy.moveon();
       }
       else if(e.key == "k" || e.keyCode == 37)
       {
-        section.proxy.moveback();
+        pr.proxy.moveback();
       }
       else if(e.key == "z")
       {
@@ -1083,23 +1083,23 @@ function elements() {
     document.querySelector('#move-on').ontouchend = (e) =>
     {
       e.preventDefault();
-      section.proxy.moveon();
+      pr.proxy.moveon();
     }
 
     document.querySelector('#move-on').onmousedown = (e) =>
     {
-      section.proxy.moveon();
+      pr.proxy.moveon();
     }
 
     document.querySelector('#move-back').ontouchend = (e) =>
     {
       e.preventDefault();
-      section.proxy.moveback();
+      pr.proxy.moveback();
     }
 
     document.querySelector('#move-back').onmousedown = (e) =>
     {
-      section.proxy.moveback();
+      pr.proxy.moveback();
     }
 
     document.querySelector('#prev-section').ontouchend = (e) =>

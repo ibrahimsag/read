@@ -11,7 +11,7 @@ function make(colors)
 
   const style = {
     link: style_link,
-    '@media (min-width: 1024px)': {
+    '@media (min-width: 1120px)': {
       auxColumn: {
         right: 608
       },
@@ -25,7 +25,7 @@ function make(colors)
         color: colors.dim,
       },
 
-      '@media (min-width: 1024px)': {
+      '@media (min-width: 1120px)': {
         '#container': {
           marginRight: 96,
         },
