@@ -136,24 +136,24 @@ function makeRG()
     return line(a, b);
   }
 
-  function makeHighlight(p, layer, h) {
+  function makeHighlight(figure, layer, h) {
     let shapes;
     if(h.typ === 'point')
     {
-      shapes = [circle(p.points[h.name], 5, { strokeWidth: 2 })];
+      shapes = [circle(figure.points[h.name], 5, { strokeWidth: 2 })];
     }
     else if(h.typ == 'line')
     {
       let f = 0, l = h.name.length-1;
-      shapes = [line(p.points[h.name[f]], p.points[h.name[l]])];
+      shapes = [line(figure.points[h.name[f]], figure.points[h.name[l]])];
     }
     else if(h.typ == 'arcc')
     {
       let c = h.arg;
       if(/[A-Z]/.test(c))
       {
-        let center = p.points[c];
-        shapes = [arc(center, p.points[h.name[h.name.length-1]], p.points[h.name[0]])];
+        let center = figure.points[c];
+        shapes = [arc(center, figure.points[h.name[h.name.length-1]], figure.points[h.name[0]])];
       }
       else
       {
@@ -165,8 +165,8 @@ function makeRG()
       let c = h.arg;
       if(/[A-Z]/.test(c))
       {
-        let center = p.points[c];
-        shapes = [arc(center, p.points[h.name[0]], p.points[h.name[h.name.length-1]])];
+        let center = figure.points[c];
+        shapes = [arc(center, figure.points[h.name[0]], figure.points[h.name[h.name.length-1]])];
       }
       else
       {
@@ -178,8 +178,8 @@ function makeRG()
       let c = h.arg;
       if(/[A-Z]/.test(c))
       {
-        let center = p.points[c];
-        let a = p.points[h.name[0]];
+        let center = figure.points[c];
+        let a = figure.points[h.name[0]];
         shapes = [circle(center, 2 * vec2.dist(center, a))];
       }
       else
@@ -192,18 +192,18 @@ function makeRG()
       let ns = h.name;
       if (h.name.length == 2)
       {
-        ns = p.polygonl[h.name];
+        ns = figure.polygonl[h.name];
         if(!ns)
         {
           console.error('unknown polygon name', h.name);
         }
       }
-      let points = ns.split('').map(l => p.points[l]);
+      let points = ns.split('').map(l => figure.points[l]);
       shapes = [polygon(points)];
     }
     else if(h.typ == 'angle')
     {
-      let [a, o, b] = h.name.split('').map(l => p.points[l]);
+      let [a, o, b] = h.name.split('').map(l => figure.points[l]);
       shapes = angle(a, o, b);
     }
     else if(h.typ == 'magnitude')
@@ -211,13 +211,13 @@ function makeRG()
       let i_begin, i_end;
       if(h.name.length == 1)
       {
-        i_begin = p.indices[h.name[0]];
-        i_end = p.indices[h.name[0] + 'e'];
+        i_begin = figure.indices[h.name[0]];
+        i_end = figure.indices[h.name[0] + 'e'];
       }
       else if(h.name.length > 1)
       {
-        i_begin = p.indices[h.name[0]];
-        i_end = p.indices[h.name[h.name.length-1]];
+        i_begin = figure.indices[h.name[0]];
+        i_end = figure.indices[h.name[h.name.length-1]];
       }
       else
       {
@@ -227,12 +227,12 @@ function makeRG()
       if(i_begin > i_end)
         [i_begin, i_end] = [i_end, i_begin]
 
-      shapes = p.ticks.slice(i_begin, i_end+1).map(tick);
-      shapes.push(line(p.ticks[i_begin], p.ticks[i_end]));
+      shapes = figure.ticks.slice(i_begin, i_end+1).map(tick);
+      shapes.push(line(figure.ticks[i_begin], figure.ticks[i_end]));
     }
-    else if(h.typ == 'given' && p.given && p.given[h.name])
+    else if(h.typ == 'given' && figure.given && figure.given[h.name])
     {
-      shapes = p.given[h.name].map(s => ({ ...s, options: {...s.options} }));
+      shapes = figure.given[h.name].map(s => ({ ...s, options: {...s.options} }));
     }
     else
     {
@@ -280,13 +280,13 @@ function makePR(rg, svg, cs)
 {
   let proxy = {};
 
-  function prepareMags(p)
+  function prepareMags(section)
   {
-    let mags = p.mags;
+    let mags = section.mags;
     let last_pos = [0, 0];
     let pos = [0, 0];
-    p.ticks = [];
-    p.indices = {};
+    section.ticks = [];
+    section.indices = {};
 
     for(var i = 0; i < mags.length; i++)
     {
@@ -304,22 +304,22 @@ function makePR(rg, svg, cs)
 
       if(mag.p || mag.v)
       {
-        p.shapes.push(rg.tick(pos));
-        p.indices[mag.l] = p.ticks.length;
-        p.ticks.push(pos);
-        p.letters[mag.l] = [2.9, 2];
+        section.shapes.push(rg.tick(pos));
+        section.indices[mag.l] = section.ticks.length;
+        section.ticks.push(pos);
+        section.letters[mag.l] = [2.9, 2];
       }
       else if(mag.m)
       {
-        p.letters[mag.l] = [1, 2];
-        p.indices[mag.l] = p.ticks.length - 1;
+        section.letters[mag.l] = [1, 2];
+        section.indices[mag.l] = section.ticks.length - 1;
       }
       else
       {
-        p.letters[mag.l] = [1, 2];
-        p.indices[mag.l] = p.ticks.length - 1;
+        section.letters[mag.l] = [1, 2];
+        section.indices[mag.l] = section.ticks.length - 1;
       }
-      p.points[mag.l] = pos;
+      section.points[mag.l] = pos;
 
       if(mag.m)
       {
@@ -328,15 +328,15 @@ function makePR(rg, svg, cs)
         {
           let prev_pos = pos;
           pos = vec2.add(prev_pos, [mag.m, 0]);
-          p.shapes.push(rg.tick(pos));
-          p.shapes.push(rg.line(prev_pos, pos));
-          p.ticks.push(pos);
-          p.indices[mag.l + 'e'] = p.ticks.length - 1;
+          section.shapes.push(rg.tick(pos));
+          section.shapes.push(rg.line(prev_pos, pos));
+          section.ticks.push(pos);
+          section.indices[mag.l + 'e'] = section.ticks.length - 1;
         }
       }
     }
 
-    return p;
+    return section;
   }
 
   function prepareLetterOffsets(figure, smallLetters)
@@ -439,17 +439,17 @@ function makePR(rg, svg, cs)
     return shapes;
   }
 
-  function prepareProse(p)
+  function prepareProse(section)
   {
     let lastSeenFigureIndex = 0;
-    p.i_count = 0;
-    p.i_p = [];
-    p.paragraphs = p.prose.split('\n\n').map(paragraphProse =>
+    section.i_count = 0;
+    section.i_p = [];
+    section.paragraphs = section.prose.split('\n\n').map(paragraphProse =>
       {
         return paragraphProse.split('\n').map(sentenceProse =>
           {
-            let k = p.i_p.length;
-            p.i_p.push(p.i_count);
+            let k = section.i_p.length;
+            section.i_p.push(section.i_count);
             let i_RE = /(\{[^\}]*\}|\[[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(i_RE);
             let seen = false;
@@ -534,20 +534,20 @@ function makePR(rg, svg, cs)
 
                 if(nm || om)
                 {
-                  r.i = p.i_count;
+                  r.i = section.i_count;
                   r.k = k;
                   r.lastSeenFigureIndex = lastSeenFigureIndex;
-                  p.i_count++;
+                  section.i_count++;
                 }
 
                 return r;
               });
             if(!seen)
-              p.i_count++;
+              section.i_count++;
             return {parts, k, seen};
           });
       });
-    p.i_p.push(p.i_count);
+    section.i_p.push(section.i_count);
   }
 
   function scrollToSentenceIfNecessary(el)
@@ -571,7 +571,7 @@ function makePR(rg, svg, cs)
   let vs_ = [];
   let last_p_id = -1;
 
-  function prepareDOM(proseEl, p)
+  function prepareDOM(proseEl, section)
   {
     us = [];
     us_ = [];
@@ -580,7 +580,7 @@ function makePR(rg, svg, cs)
     while(proseEl.firstChild)
       proseEl.removeChild(proseEl.firstChild);
 
-    p.paragraphs.forEach(sentences =>
+    section.paragraphs.forEach(sentences =>
     {
       let paragraphEl = de('p');
       sentences.forEach(a =>
@@ -621,7 +621,7 @@ function makePR(rg, svg, cs)
         }
         parts.forEach(prepPart);
 
-        sentenceEl.dataset.i = p.i_p[k+1] - 1
+        sentenceEl.dataset.i = section.i_p[k+1] - 1
         if(!seen)
         {
           us.push(null);
@@ -651,50 +651,50 @@ function makePR(rg, svg, cs)
     }
   }
 
-  function present(o, p, hover_o, no_scroll)
+  function present(o, section, hover_o, no_scroll)
   {
     if(o == null)
     {
-      o = p.i || 0;
+      o = section.i || 0;
     }
-    p.i = o;
+    section.i = o;
 
-    if(!p.paragraphs)
+    if(!section.paragraphs)
     {
-      prepareProse(p);
+      prepareProse(section);
     }
 
-    if(!p.prepared)
+    if(!section.prepared)
     {
-      if(p.figures)
+      if(section.figures)
       {
-        p.figures.forEach(figure => {
+        section.figures.forEach(figure => {
           prepareFigure(figure, true);
         });
       }
       else
       {
-        prepareFigure(p, false);
+        prepareFigure(section, false);
       }
     }
 
     if(o < 0)
     {
-      return present(p.i_count-2, p);
+      return present(section.i_count-2, section);
     }
-    else if (o >= p.i_count-1 && p.i_count > 0)
+    else if (o >= section.i_count-1 && section.i_count > 0)
     {
-      return present(0, p);
+      return present(0, section);
     }
 
     let proseEl = document.querySelector('#proseContent');
     let auxColumnEl = document.querySelector('#auxColumn');
-    if(last_p_id != p.id)
+    if(last_p_id != section.id)
     {
       let titleEl = document.querySelector('#proseTitle');
-      titleEl.innerText = p.title;
+      titleEl.innerText = section.title;
 
-      prepareDOM(proseEl, p);
+      prepareDOM(proseEl, section);
 
       auxColumnEl.querySelectorAll('.given').forEach(el => auxColumnEl.removeChild(el));
 
@@ -702,26 +702,26 @@ function makePR(rg, svg, cs)
         let mark = de('div');
         mark.className = 'given';
         mark.style.margin = "10px";
-        mark.innerHTML = p.imgData.svgStr;
+        mark.innerHTML = section.imgData.svgStr;
         auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
         let imgEl = mark.querySelector('svg');
 
-        refreshImgLetters(imgEl, p.imgData.letters, {});
+        refreshImgLetters(imgEl, section.imgData.letters, {});
       }
 
-      if(p.img && !p.imgData)
+      if(section.img && !section.imgData)
       {
-        fetch(p.img).then(resp => resp.json()).then(d =>
+        fetch(section.img).then(resp => resp.json()).then(d =>
         {
-          if(last_p_id != p.id)
+          if(last_p_id != section.id)
             return;
 
-          p.imgData = d;
+          section.imgData = d;
 
           installSVG()
         })
       }
-      else if(p.imgData)
+      else if(section.imgData)
       {
         installSVG();
       }
@@ -747,8 +747,8 @@ function makePR(rg, svg, cs)
       return lo;
     }
 
-    let k_focus = findMaxLTE(p.i_p, o);
-    let k_hover = !isNaN(hover_o) ? findMaxLTE(p.i_p, hover_o): null;;
+    let k_focus = findMaxLTE(section.i_p, o);
+    let k_hover = !isNaN(hover_o) ? findMaxLTE(section.i_p, hover_o): null;;
 
     let letterColor = {};
     let nearHighlights = [];
@@ -776,7 +776,7 @@ function makePR(rg, svg, cs)
       hover.sentenceEl.style['color'] = colors.hover;
       vs_.push(hover);
 
-      us.slice(p.i_p[k_hover], p.i_p[k_hover+1]).forEach(u =>
+      us.slice(section.i_p[k_hover], section.i_p[k_hover+1]).forEach(u =>
       {
         if(!u) return;
         u.el.style['color'] = colors.hover;
@@ -793,7 +793,7 @@ function makePR(rg, svg, cs)
     }
 
     let seenMarks = {};
-    us.slice(p.i_p[k_focus], p.i_p[k_focus+1]).forEach(u =>
+    us.slice(section.i_p[k_focus], section.i_p[k_focus+1]).forEach(u =>
     {
       if(!u) return;
       u.el.style['color'] = colors.sentence;
@@ -828,7 +828,7 @@ function makePR(rg, svg, cs)
     let m_b = document.querySelector('#move-back');
     let h_o = 40, h_b = 30;
 
-    if (o === p.i_p[k_focus+1] - 1)
+    if (o === section.i_p[k_focus+1] - 1)
     {
       h_o = 30;
       h_b = 40;
@@ -856,9 +856,9 @@ function makePR(rg, svg, cs)
     let hhs = hoverHighlights.filter(h=>h.typ);
     let g = se('g');
     svg.append(g);
-    if(!p.figures)
+    if(!section.figures)
     {
-      let figure = p;
+      let figure = section;
       g.append(...figure.shapes.map(rg.draw));
 
       let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
@@ -867,14 +867,14 @@ function makePR(rg, svg, cs)
 
       hhs.forEach( f('hover_bright') );
 
-      let els = prepareLetterOverlay(p, letterColor, true, false);
+      let els = prepareLetterOverlay(figure, letterColor, true, false);
       svg.append(...els);
     }
     else
     {
-      for(var i = 0; i < p.figures.length; i++)
+      for(var i = 0; i < section.figures.length; i++)
       {
-        let figure = p.figures[i];
+        let figure = section.figures[i];
         g.append(...figure.shapes.map(rg.draw));
 
         let highlightFigure = figureIndex == 0 || figureIndex == i+1;
@@ -896,7 +896,7 @@ function makePR(rg, svg, cs)
       }
     }
 
-    if(last_p_id != p.id)
+    if(last_p_id != section.id)
     {
       let r = g.getBBox();
       svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
@@ -904,17 +904,17 @@ function makePR(rg, svg, cs)
       svg.setAttribute('height', r.height + 100);
     }
 
-    last_p_id = p.id;
+    last_p_id = section.id;
 
-    if(p.img && p.imgData)
+    if(section.img && section.imgData)
     {
       let imgEl = auxColumnEl.querySelector('.given svg');
 
-      refreshImgLetters(imgEl, p.imgData.letters, letterColor);
+      refreshImgLetters(imgEl, section.imgData.letters, letterColor);
     }
 
-    proxy.moveon = () => { present(o + 1, p); };
-    proxy.moveback = () => { present(o - 1, p); };
+    proxy.moveon = () => { present(o + 1, section); };
+    proxy.moveback = () => { present(o - 1, section); };
 
     let forClick = false, forCancel = null;
     proseEl.onmouseout = (e) =>
@@ -931,7 +931,7 @@ function makePR(rg, svg, cs)
       if(!isNaN(hover_o))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(o, p, undefined, true);
+          present(o, section, undefined, true);
         });
       }
     }
@@ -955,7 +955,7 @@ function makePR(rg, svg, cs)
       if(!isNaN(i))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(o, p, i, true);
+          present(o, section, i, true);
         });
       }
     }
@@ -974,7 +974,7 @@ function makePR(rg, svg, cs)
       {
         window.requestAnimationFrame( () => {
           forClick = false;
-          present(i, p);
+          present(i, section);
         });
       }
     }
