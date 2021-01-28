@@ -589,6 +589,7 @@ function()
   return {
     title: 'Proposition 34',
     prose: prop34,
+    singlecanvas: true,
     figures: [
       {
         mags: [

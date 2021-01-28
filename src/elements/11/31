@@ -3,6 +3,7 @@ Parallelepiped solids which are on equal bases, and (have) the same height, are 
 Let the parallelepiped solids {AE} and {CF} be on the equal bases {AB} and {CD} (respectively), and (have) the same height.
 I say that solid {AE} is equal to solid {CF}.
 
+{figure 1}
 So, let the (straight-lines) standing up, {HK}, {BE}, {AG}, {LM}, {PQ}, {DF}, {CO}, and {RS}, first of all, be at right-angles to the bases {AB} and {CD}.
 And let {RT} have been produced in a straight-line with {CR}.
 And let (angle) {TRU}, equal to angle {ALB}, have been constructed on the straight-line {RT}, at the point {R} on it [Prop. 1.23].
@@ -38,6 +39,7 @@ Thus, solid {CF} is equal to solid {YX} [Prop. 5.9].
 But, {YX} was show (to be) equal to {AE}.
 Thus, {AE} is also equal to {CF}.
 
+{figure 2}
 And so let the (straight-lines) standing up, {AG}, {HK}, {BE}, {LM}, {CO}, {PQ}, {DF}, and {RS}, not be at right-angles to the bases {AB} and {CD}.
 Again, I say that solid {AE} (is) equal to solid {CF}.
 For let {KN}, {ET}, {GU}, {MV}, {QW}, {FX}, {OY}, and {SI} have been drawn from points {K}, {E}, {G}, {M}, {Q}, {F}, {O}, and {S} (respectively) perpendicular to the reference plane (i.e., the plane of the bases {AB} and {CD}), and let them have met the plane at points {N}, {T}, {U}, {V}, {W}, {X}, {Y}, and {I} (respectively).

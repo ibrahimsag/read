@@ -702,11 +702,26 @@ function makePR(rg, svg, cs)
         let mark = de('div');
         mark.className = 'given';
         mark.style.margin = "10px";
-        mark.innerHTML = section.imgData.svgStr;
-        auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
-        let imgEl = mark.querySelector('svg');
+        if(section.imgData)
+        {
+          mark.innerHTML = section.imgData.svgStr;
+          let imgEl = mark.querySelector('svg');
+          refreshImgLetters(imgEl, section.imgData.letters, {});
+        }
+        else if(section.imgsData)
+        {
+          mark.innerHTML = section.imgsData.map(d => d.svgStr).join('');
+          let imgEls = mark.querySelectorAll('svg');
+          
+          for(let i = 0; i< section.imgsData.length; i++)
+          {
+            let imgEl = imgEls[i];
+            let letters = section.imgsData[i].letters;
+            refreshImgLetters(imgEl, letters, {});
+          }
+        }
 
-        refreshImgLetters(imgEl, section.imgData.letters, {});
+        auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
       }
 
       if(section.img && !section.imgData)
@@ -721,7 +736,20 @@ function makePR(rg, svg, cs)
           installSVG()
         })
       }
-      else if(section.imgData)
+      else if(section.imgs && !section.imgsData)
+      {
+        let ps = section.imgs.map(img => fetch(img).then(resp => resp.json()));
+        Promise.all(ps).then(ds =>
+        {
+          if(last_p_id != section.id)
+            return;
+
+          section.imgsData = ds;
+
+          installSVG()
+        })
+      }
+      else if(section.imgData || section.imgsData)
       {
         installSVG();
       }
@@ -750,7 +778,6 @@ function makePR(rg, svg, cs)
     let k_focus = findMaxLTE(section.i_p, o);
     let k_hover = !isNaN(hover_o) ? findMaxLTE(section.i_p, hover_o): null;;
 
-    let letterColor = {};
     let nearHighlights = [];
     let hoverHighlights = [];
     let highlights = [];
@@ -844,13 +871,6 @@ function makePR(rg, svg, cs)
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
 
-    let f = c => h => {
-      h.name.split('').forEach(l => letterColor[l] = c);
-    }
-    nearHighlights.forEach(f(colors.sentence));
-    highlights.forEach(f(colors.bright));
-    hoverHighlights.forEach(f(colors.hover_bright));
-
     let hs = highlights.filter(h=>h.typ);
     let nhs = nearHighlights.filter(h=>h.typ);
     let hhs = hoverHighlights.filter(h=>h.typ);
@@ -866,6 +886,15 @@ function makePR(rg, svg, cs)
       hs.forEach( f('bright') );
 
       hhs.forEach( f('hover_bright') );
+
+      let letterColor = {};
+      f = c => h => {
+        h.name.split('').forEach(l => letterColor[l] = c);
+      }
+      nearHighlights.forEach(f(colors.sentence));
+      highlights.forEach(f(colors.bright));
+      hoverHighlights.forEach(f(colors.hover_bright));
+
 
       let els = prepareLetterOverlay(figure, letterColor, true, false);
       svg.append(...els);
@@ -891,6 +920,20 @@ function makePR(rg, svg, cs)
           hhs.forEach( f('hover_bright') );
         }
 
+        let letterColor = {};
+        f = c => h => {
+          h.name.split('').forEach(l => letterColor[l] = c);
+        }
+        if(figureIndex == 0 || figureIndex == i+1)
+        {
+          nearHighlights.forEach(f(colors.sentence));
+          highlights.forEach(f(colors.bright));
+        }
+        if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
+        {
+          hoverHighlights.forEach(f(colors.hover_bright));
+        }
+
         let els = prepareLetterOverlay(figure, letterColor, highlightFigure, true);
         svg.append(...els);
       }
@@ -909,8 +952,45 @@ function makePR(rg, svg, cs)
     if(section.img && section.imgData)
     {
       let imgEl = auxColumnEl.querySelector('.given svg');
+      let letterColor = {};
+      let f = c => h => {
+        h.name.split('').forEach(l => letterColor[l] = c);
+      }
+      if(figureIndex == 0 || figureIndex == i+1)
+      {
+        nearHighlights.forEach(f(colors.sentence));
+        highlights.forEach(f(colors.bright));
+      }
+      if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
+      {
+        hoverHighlights.forEach(f(colors.hover_bright));
+      }
 
       refreshImgLetters(imgEl, section.imgData.letters, letterColor);
+    }
+    else if(section.imgs && section.imgsData)
+    {
+      let imgEls = auxColumnEl.querySelectorAll('.given svg');
+      for(let i = 0; i < section.imgsData.length; i++)
+      {
+        let imgEl = imgEls[i];
+        let letters = section.imgsData[i].letters;
+        let letterColor = {};
+        let f = c => h => {
+          h.name.split('').forEach(l => letterColor[l] = c);
+        }
+        if(figureIndex == 0 || figureIndex == i+1)
+        {
+          nearHighlights.forEach(f(colors.sentence));
+          highlights.forEach(f(colors.bright));
+        }
+        if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
+        {
+          hoverHighlights.forEach(f(colors.hover_bright));
+        }
+
+        refreshImgLetters(imgEl, letters, letterColor);
+      }
     }
 
     proxy.moveon = () => { present(o + 1, section); };

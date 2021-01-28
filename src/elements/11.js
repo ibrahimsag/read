@@ -336,7 +336,7 @@ function() {
   return {
     title: 'Proposition 31',
     id: '11.31',
-    img: '/img/11/31',
+    imgs: ['/img/11/31', '/img/11/31b'],
     prose: prop31,
   };
 },
@@ -363,7 +363,7 @@ function() {
   return {
     title: 'Proposition 34',
     id: '11.34',
-    img: '/img/11/34',
+    imgs: ['/img/11/34', '/img/11/34b'],
     prose: prop34,
   };
 },

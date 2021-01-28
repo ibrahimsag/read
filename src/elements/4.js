@@ -223,6 +223,7 @@ function()
   return {
     title: 'Proposition 5',
     prose: prop5,
+    singlecanvas: true,
     figures: [
       (function()
       {

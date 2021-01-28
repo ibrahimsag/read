@@ -189,6 +189,7 @@ function()
   return {
     title: 'Proposition 8',
     prose: prop8,
+    singlecanvas: true,
     figures: [
       {
         mags: [

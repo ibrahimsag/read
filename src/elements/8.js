@@ -100,6 +100,7 @@ function() {
   return {
     title: 'Proposition 4',
     prose: prop4,
+    singlecanvas: true,
     figures: [
       {
         mags: [

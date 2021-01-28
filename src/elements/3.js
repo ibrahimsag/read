@@ -1096,6 +1096,7 @@ function()
   return {
     title: 'Proposition 25',
     prose: prop25,
+    singlecanvas: true,
     figures: [
       (function()
       {
@@ -1453,6 +1454,7 @@ function()
   return {
     title: 'Proposition 33',
     prose: prop33,
+    singlecanvas: true,
     figures: [
       (function()
       {
@@ -1645,6 +1647,7 @@ function()
   return {
     title: 'Proposition 35',
     prose: prop35,
+    singlecanvas: true,
     figures: [
     (function()
     {
@@ -1724,6 +1727,7 @@ function()
   return {
     title: 'Proposition 36',
     prose: prop36,
+    singlecanvas: true,
     figures: [
     (function()
     {
