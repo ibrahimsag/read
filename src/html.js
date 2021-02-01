@@ -98,13 +98,13 @@ function make(colors, cs)
     <br>
     <h3 class="${cs.helpTitle}">On the next page:</h3>
     <p>Read on a wide screen.</p>
-    <p><span style="display:inline-block;background:#474747;width:30px;height:.8em;margin-bottom:-0.2em;"></span><span style="display:inline-block;background:#777;width:60px;height:.8em;margin-bottom:-0.2em;"></span> moves highlight.</p>
+    <p><span style="display:inline-block;background:${colors.dim};width:30px;height:.8em;margin-bottom:-0.2em;"></span><span style="display:inline-block;background:${colors.sentence};width:60px;height:.8em;margin-bottom:-0.2em;"></span> moves highlight.</p>
     <p>Alternatively, one can use right/left or j/k on keyboard.</p>
   </div>
   <div class="${cs.front}">
     <h1>Euclid's Elements</h1>
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 style="background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
+    <h4 style="background-color:${colors.make([0, 0, 20])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
     <svg style="margin-top:-50px;" width="400px" height="400px">${smpl}</svg>
     <br>
     <p>"As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it."</p>

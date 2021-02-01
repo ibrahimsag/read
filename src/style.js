@@ -54,7 +54,7 @@ function make(colors)
       },
       '& a': {
         'text-decoration': 'underline',
-        color: colors.make([0, 0, 40]),
+        ...style_link
       }
     },
     front: {
@@ -74,7 +74,7 @@ function make(colors)
       },
     },
     helpTitle: {
-      color: colors.make([320, 100, 40])
+      color: colors.make([320, 100, 75])
     },
 
     section: {

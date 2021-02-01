@@ -9,13 +9,13 @@ import style from './style.js';
 import html from './html.js';
 
 let colors = {
-  bright: hsluv.hsluvToHex([0, 0, 90]),
-  sentence: hsluv.hsluvToHex([0, 0, 50]),
-  dim: hsluv.hsluvToHex([0, 0, 30]),
-  link: hsluv.hpluvToHex([140, 100, 30]),
-  link_hover: hsluv.hpluvToHex([140, 100, 40]),
+  bright: hsluv.hsluvToHex([0, 0, 100]),
+  sentence: hsluv.hsluvToHex([0, 0, 75]),
+  dim: hsluv.hsluvToHex([0, 0, 50]),
+  link: hsluv.hpluvToHex([140, 100, 50]),
+  link_hover: hsluv.hpluvToHex([140, 100, 60]),
   hover: hsluv.hpluvToHex([330, 100, 60]),
-  hover_bright: hsluv.hpluvToHex([330, 100, 80]),
+  hover_bright: hsluv.hpluvToHex([330, 100, 100]),
   make: hsluv.hpluvToHex,
 };
 
@@ -853,20 +853,20 @@ function makePR(rg, svg, cs)
 
     let m_o = document.querySelector('#move-on');
     let m_b = document.querySelector('#move-back');
-    let h_o = 40, h_b = 30;
+    let h_o = colors.sentence, h_b = colors.dim;
 
     if (o === section.i_p[k_focus+1] - 1)
     {
-      h_o = 30;
-      h_b = 40;
+      h_o = colors.dim;
+      h_b = colors.sentence;
       m_o.innerText = "next sentence";
     }
     else
     {
       m_o.innerText = "next symbol";
     }
-    m_o.style['background-color'] = hsluv.hpluvToHex([0, 0, h_o]);
-    m_b.style['background-color'] = hsluv.hpluvToHex([0, 0, h_b]);
+    m_o.style['background-color'] = h_o;
+    m_b.style['background-color'] = h_b;
 
     while(svg.firstChild)
       svg.removeChild(svg.firstChild);
