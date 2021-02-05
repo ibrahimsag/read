@@ -15,7 +15,7 @@ let colors = {
   link: hsluv.hpluvToHex([140, 100, 50]),
   link_hover: hsluv.hpluvToHex([140, 100, 60]),
   hover: hsluv.hpluvToHex([330, 100, 60]),
-  hover_bright: hsluv.hpluvToHex([330, 100, 100]),
+  hover_bright: hsluv.hpluvToHex([330, 100, 80]),
   make: hsluv.hpluvToHex,
 };
 
