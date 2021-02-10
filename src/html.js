@@ -106,12 +106,9 @@ function make(colors, cs)
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
     <h4 style="background-color:${colors.make([0, 0, 20])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
     <svg style="margin-top:-50px;" width="400px" height="400px">${smpl}</svg>
-    <br>
-    <p>"As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it."</p>
-    <p>- R. Descartes, A Discourse on the Method, 1637</p>
-    <br>
-    <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation.</a></p>
-    <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code.</a></p>
+    <div style="height: 200px;"></div>
+    <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
+    <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
   </div>
 </div>`;
 
