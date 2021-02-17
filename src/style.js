@@ -11,25 +11,11 @@ function make(colors)
 
   const style = {
     link: style_link,
-    '@media (min-width: 1120px)': {
-      auxColumn: {
-        right: 608
-      },
-      movement: {
-        right: 96
-      }
-
-    },
     '@global': {
       body: {
         color: colors.dim,
       },
 
-      '@media (min-width: 1120px)': {
-        '#container': {
-          marginRight: 96,
-        },
-      },
       '#container': {
         '&.cover': {
           '& #section': {
@@ -44,7 +30,7 @@ function make(colors)
       },
     },
     cover: {
-      marginLeft: 'auto',
+      marginRight: 'auto',
       width: 1024,
       padding: 12,
       display: 'flex',
@@ -78,12 +64,12 @@ function make(colors)
     },
 
     section: {
-      marginLeft: 'auto',
+      marginRight: 'auto',
       width: '100%',
       maxWidth: 1024,
       display: 'flex',
       flexFlow: [['column', 'nowrap']],
-      alignItems: 'flex-end',
+      alignItems: 'flex-start',
     },
     header: {
       height: 76,
@@ -118,14 +104,14 @@ function make(colors)
       fontWeight: 'bold',
     },
     proseTitle: {
-      marginRight: 'auto',
+      marginLeft: 'auto',
       fontWeight: 'bold',
       fontSize: '1.2em',
       color: colors.sentence,
     },
 
     prose: {
-      marginLeft: 512,
+      marginRight: 512,
       width: 512,
       padding: [[12, 12, 62, 12]],
       '& a': {
@@ -154,7 +140,7 @@ function make(colors)
 
       position: 'fixed',
       bottom: 0,
-      right: 0,
+      left: 0,
 
       flex: '0 0 auto',
       display: 'flex',
@@ -185,15 +171,14 @@ function make(colors)
       transition: 'all 0.7s ease',
 
       width: 512,
-      height: 512,
 
       position: 'fixed',
-      right: 512,
+      left: 512,
       top: 76,
 
       display: 'flex',
       flexDirection: 'column',
-      alignItems: 'flex-end',
+      alignItems: 'flex-start',
     },
 
     c_dim: { color: colors.dim },

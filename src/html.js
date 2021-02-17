@@ -121,9 +121,9 @@ function make(colors, cs)
   </div>
   <div class="${cs.prose}">
     <div class="${cs.proseHeading}">
-      <div id="proseTitle" class="${cs.proseTitle}"></div>
       <div class="${cs.sectionNav} ${cs.link}" id="prev-section">before</div>
       <div class="${cs.sectionNav} ${cs.link}" id="next-section">after</div>
+      <div id="proseTitle" class="${cs.proseTitle}"></div>
     </div>
     <div id="proseContent"></div>
   </div>
