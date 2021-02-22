@@ -12,9 +12,9 @@ let colors = {
   make: hsluv.hpluvToHex,
 };
 
-const svgEl1 = document.getElementById('figure1');
-const svgEl2 = document.getElementById('figure2');
-const rsvg = rough.svg(svgEl1);
+const svgEl_h = document.getElementById('figureH');
+const svgEl_a = document.getElementById('figureA');
+const rsvg = rough.svg(svgEl_h);
 const roughopts = { roughness: 0.6, stroke: colors.dim, strokeWidth: 1 };
 
 function curve(vs, o)
@@ -63,7 +63,7 @@ function anglecurve(a, o, b, opts)
 }
 
 window.onload = () => {
-  let shapes1 = [
+  let shapes_a = [
     circle([250, 60], 60, {stroke: colors.sentence}),
     polygon([[230, 30], [250, 80], [300, 80]], {stroke: colors.sentence}),
     line([140, 30], [200, 30], {stroke: colors.dim}),
@@ -81,7 +81,7 @@ window.onload = () => {
     line([150, 140], [150, 170], {stroke: colors.dim, strokeWidth: 2}),
     line([180, 140], [180, 180], {stroke: colors.dim, strokeWidth: 2}),
   ];
-  let shapes2 = [
+  let shapes_h = [
     circle([250, 60], 60, {stroke: colors.dim}),
     line([230, 18], [230, 22], {stroke: colors.bright}),
     line([230, 30], [250, 80], {stroke: colors.bright}),
@@ -103,12 +103,12 @@ window.onload = () => {
     line([20, 120], [200, 120], {stroke: colors.dim}),
     line([140, 130], [200, 130], {stroke: colors.dim}),
   ];
-  shapes1.forEach(s =>
+  shapes_h.forEach(s =>
   {
-    svgEl1.appendChild(rsvg.draw(s));
+    svgEl_h.appendChild(rsvg.draw(s));
   });
-  shapes2.forEach(s =>
+  shapes_a.forEach(s =>
   {
-    svgEl2.appendChild(rsvg.draw(s));
+    svgEl_a.appendChild(rsvg.draw(s));
   });
 }
