@@ -456,9 +456,9 @@ function makePR(rg, svg, cs)
             let parts = sentenceParts.filter(x=>x).map(part =>
               {
 
-                let nameRE = /\{([A-Z]+)\}/;
+                let nameRE = /\{([a-zA-Z]+)\}/;
                 let nm = part.match(nameRE);
-                let overlayRE = /\{([A-Z]+) ([a-z]+)( [A-Z])?\}/;
+                let overlayRE = /\{([a-zA-Z]+) ([a-z]+)( [A-Z])?\}/;
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
@@ -712,7 +712,7 @@ function makePR(rg, svg, cs)
         {
           mark.innerHTML = section.imgsData.map(d => d.svgStr).join('');
           let imgEls = mark.querySelectorAll('svg');
-          
+
           for(let i = 0; i< section.imgsData.length; i++)
           {
             let imgEl = imgEls[i];

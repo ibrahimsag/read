@@ -33,7 +33,7 @@ Let the center, point {V}, of circle {EFGHK} have been found [Prop. 3.1].
 And let {VZ} have been set up, at (point) {V}, at right-angles to the plane of the circle.
 And let it have been produced on the other side (of the circle), like {VX}.
 And let {VW} have been cut off (from {XZ} so as to be equal to the side) of a hexagon, and each of {VX} and {WZ} (so as to be equal to the side) of a decagon.
-And let {QZ},{QW},{UZ},{EV},{LV},{LX},andXM havebeen joined.
+And let {QZ}, {QW}, {UZ}, {EV}, {LV}, {LX}, and {XM} havebeen joined.
 
 And since {VW} and {QE} are each at right-angles to the plane of the circle, {VW} is thus parallel to {QE} [Prop. 11.6].
 And they are also equal.
@@ -53,7 +53,7 @@ Again, since {VL} (is the side) of a hexagon, and {VX} (the side) of a decagon, 
 So, for the same (reasons), if we join {MV} , which is (the side) of a hexagon, {MX} is also inferred (to be the side) of a pentagon.
 And {LM} is also (the side) of a pentagon.
 Thus, triangle {LMX} is equilateral.
-So, similarly, it can be shown that each of the remaining triangles, whose bases are the (straight-lines) {MN} , {NO}, {OP} , and {PL}, and apexes the point {X}, are also equilateral.
+So, similarly, it can be shown that each of the remaining triangles, whose bases are the (straight-lines) {MN} , {NO}, {OP}, and {PL}, and apexes the point {X}, are also equilateral.
 Thus, an icosahedron contained by twenty equilateral triangles has been constructed.
 
 So, it is also necessary to enclose it in the given sphere, and to show that the side of the icosahedron is that irrational (straight-line) called minor.
@@ -64,7 +64,7 @@ And {VW} (is) equal to {VE}, and {WZ} to {VX}.
 Thus, as {ZV} is to {VE}, so {EV} (is) to {VX}.
 And angles {ZVE} and {EVX} are right-angles.
 Thus, if we join straight-line {EZ} then angle {XEZ} will be a right-angle, on account of the similarity of triangles {XEZ} and {VEZ} [Prop. 6.8].
-So, for the same (reasons), since as {ZV} is to {VW}, so {VW} (is)toWZ,andZV(is)equaltoXW,andVWtoWQ, thus as {XW} is to {WQ}, so {QW} (is) to {WZ}.
+So, for the same (reasons), since as {ZV} is to {VW}, so {VW} (is) to {WZ}, and {ZV} (is) equal to {XW}, and {VW} to {WQ}, thus as {XW} is to {WQ}, so {QW} (is) to {WZ}.
 And, again, on account of this, if we join {QX} then the angle at {Q} will be a right-angle [Prop. 6.8].
 Thus, the semi-circle drawn on {XZ} will also pass through {Q} [Prop. 3.31].
 And if {XZ} remains fixed, and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then it will also pass through (point) {Q}, and (through) the remaining (angular) points of the icosahedron.
