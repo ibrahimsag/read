@@ -10,7 +10,7 @@ app.use('/fonts/', express.static('public/fonts'));
 app.use('/js/', express.static('public/js'));
 app.use('/', express.static('.'));
 
-app.use(express.json());
+app.use(express.json({limit: '50mb'}));
 
 app.get('/favicon.svg', (req, res) => {
   res.sendFile(__dirname + '/public/favicon.svg');

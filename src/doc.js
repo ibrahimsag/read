@@ -300,7 +300,7 @@ function loadPage(pdfDoc, pn)
             xhr.open("POST", "/store/", true);
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.send(JSON.stringify({
-              key: `img/13/${k}`,
+              key: `img/11/${k}`,
               contents: { svgStr, letters }
             }));
           }
@@ -348,24 +348,24 @@ function load()
         }
       }
 
-      function onPrevPage() {
-        if (pageNum <= 1) {
+      function onPrevPage(jump) {
+        if (pageNum-jump < 1) {
           return;
         }
-        pageNum--;
+        pageNum-=jump;
         queueRenderPage(pageNum);
       }
 
-      function onNextPage() {
-        if (pageNum >= pdfDoc.numPages) {
+      function onNextPage(jump) {
+        if (pageNum+jump > pdfDoc.numPages) {
           return;
         }
-        pageNum++;
+        pageNum+=jump;
         queueRenderPage(pageNum);
       }
 
       document.onkeydown = (e => {
-        if(e.key == " ")
+        if(e.key == "x")
         {
           if(window.step)
           {
@@ -375,11 +375,11 @@ function load()
         }
         else if(e.key == "k")
         {
-          onPrevPage();
+          onPrevPage(e.ctrlKey?10:1);
         }
         else if(e.key == "j")
         {
-          onNextPage();
+          onNextPage(e.ctrlKey?10:1);
         }
         else if(e.key == "n")
         {
