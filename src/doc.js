@@ -266,6 +266,20 @@ function loadPage(pdfDoc, pn)
       return page.getTextContent()
         .then(textContent =>
         {
+
+          for(let i = 0; i < textContent.items.length; i++)
+          {
+            let it = textContent.items[i];
+
+            it.str = it.str
+              .replace("", "Λ")
+              .replace("", "Δ")
+              .replace("", "Θ")
+              .replace("", "Γ");
+
+            if(/^[0-9]+$/.test(it.str))
+              it.str = ' ';
+          }
           return pdfjsLib.renderTextLayer({
             container: textLayerEl,
             textContent,
