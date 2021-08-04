@@ -9,13 +9,13 @@ import style from './style.js';
 import html from './html.js';
 
 let colors = {
-  bright: hsluv.hsluvToHex([0, 0, 100]),
-  sentence: hsluv.hsluvToHex([0, 0, 75]),
-  dim: hsluv.hsluvToHex([0, 0, 50]),
-  link: hsluv.hpluvToHex([140, 100, 50]),
+  bright: hsluv.hsluvToHex([0, 0, 90]),
+  sentence: hsluv.hsluvToHex([0, 0, 60]),
+  dim: hsluv.hsluvToHex([0, 0, 40]),
+  link: hsluv.hpluvToHex([140, 100, 40]),
   link_hover: hsluv.hpluvToHex([140, 100, 60]),
-  hover: hsluv.hpluvToHex([330, 100, 60]),
-  hover_bright: hsluv.hpluvToHex([330, 100, 80]),
+  hover: hsluv.hpluvToHex([320, 100, 50]),
+  hover_bright: hsluv.hpluvToHex([320, 100, 80]),
   make: hsluv.hpluvToHex,
 };
 
