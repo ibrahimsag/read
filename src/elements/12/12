@@ -24,16 +24,16 @@ And let {NFP} be one of the triangles containing the pyramid whose base is trian
 And let {KT} and {MP} have been joined.
 And since cone {ABCDL} is similar to cone {EFGHN}, thus as {BD} is to {FH}, so axis {KL} (is) to axis {MN} [Def. 11.24].
 And as {BD} (is) to {FH}, so {BK} (is) to {FM}.
-And, thus, as {BK}(is)toFM,soKL(is)toMN.
-And,alternately,as {BK} (is) to {KL}, so {FM} (is) to {MN} [Prop. 5.16].
+And, thus, as {BK} (is) to {FM}, so {KL} (is) to {MN}.
+And, alternately,as {BK} (is) to {KL}, so {FM} (is) to {MN} [Prop. 5.16].
 And the sides around the equal angles {BKL} and {FMN} are proportional.
 Thus, triangle {BKL} is similar to triangle {FMN} [Prop. 6.6].
 Again, since as {BK} (is) to {KT}, so {FM} (is) to {MP}, and (they are) about the equal angles {BKT} and {FMP}, inasmuch as whatever part angle {BKT} is of the four right-angles at the center {K}, angle {FMP} is also the same part of the four right-angles at the center {M}.
 Therefore, since the sides about equal angles are proportional, triangle {BKT} is thus similar to traingle {FMP} [Prop. 6.6].
-Again, since it was shown that asBK(is)toKL,soFM(is)toMN,andBK(is) equal to {KT}, and {FM} to {PM}, thus as {TK} (is) to {KL}, so {PM} (is) to {MN}.
+Again, since it was shown that as {BK} (is) to {KL}, so {FM} (is) to {MN}, and {BK} (is) equal to {KT}, and {FM} to {PM}, thus as {TK} (is) to {KL}, so {PM} (is) to {MN}.
 And the sides about the equal angles {TKL} and {PMN} ---for (they are both) right-angles---are proportional.
 Thus, triangle {LKT} (is) similar to triangle {NMP} [Prop. 6.6].
-And since, on account of the similarity of triangles {LKB} and {NMF}, as {LB} (is) to {BK}, so {NF} (is) to {FM}, and, on account of the similarity of triangles BKTandFMP,asKB(is)toBT,soMF(is)toFP [Def. 6.1], thus, via equality, as {LB} (is) to {BT}, so {NF} (is) to {FP} [Prop. 5.22].
+And since, on account of the similarity of triangles {LKB} and {NMF}, as {LB} (is) to {BK}, so {NF} (is) to {FM}, and, on account of the similarity of triangles {BKT} and {FMP}, as {KB} (is) to {BT}, so {MF} (is) to {FP} [Def. 6.1], thus, via equality, as {LB} (is) to {BT}, so {NF} (is) to {FP} [Prop. 5.22].
 Again, since, on account of the similarity of triangles {LTK} and {NPM}, as {LT} (is) to {TK}, so {NP} (is) to {PM}, and, on account of the similarity of triangles {TKB} and {PMF}, as {KT} (is) to {TB}, so {MP} (is) to {PF}, thus, via equality, as {LT} (is) to {TB}, so {NP} (is) to {PF} [Prop. 5.22].
 And it was shown that as {TB} (is) to {BL}, so {PF} (is) to {FN}.
 Thus, via equality, as {TL} (is) to {LB}, so {PN} (is) to {NF} [Prop. 5.22].
@@ -59,7 +59,7 @@ The very thing is impossible.
 Thus, the cone whose base (is) circle {ABCD}, and apex the [point] {L}, does not have to some solid less than the cone whose base (is) circle {EFGH}, and apex the point {N}, the cubed ratio that {BD} (has) to {EH}.
 So, similarly, we can show that neither does cone {EFGHN} have to some solid less than cone {ABCDL} the cubed ratio that {FH} (has) to {BD}.
 
-So, I say that neither does cone {ABCDL} have to some solid greater than cone {EFGHN} the cubed ratio that {BD} (has)toFH.
+So, I say that neither does cone {ABCDL} have to some solid greater than cone {EFGHN} the cubed ratio that {BD} (has) to {FH}.
 
 For, if possible, let it have (such a ratio) to a greater (solid), {O}.
 Thus, inversely, solid {O} has to cone {ABCDL} the cubed ratio that {FH} (has) to {BD} [Prop. 5.7 corr.].

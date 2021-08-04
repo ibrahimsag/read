@@ -7,13 +7,13 @@ And let {DA} have been joined.
 And let the circle {EFG} be laid down having a radius equal to {DC}, and let the equilateral triangle {EFG} have been inscribed in circle {EFG} [Prop. 4.2].
 And let the center of the circle, point {H}, have been found [Prop. 3.1].
 And let {EH}, {HF}, and {HG} have been joined.
-{And} let {{HK}} have been set up, at point {H}, at right-angles to the plane of circle {EFG} [Prop. 11.12].
+And let {HK} have been set up, at point {H}, at right-angles to the plane of circle {EFG} [Prop. 11.12].
 And let {HK}, equal to the straight-line {AC}, have been cut off from {HK}.
 And let {KE}, {KF}, and {KG} have been joined.
 And since {KH} is at right-angles to the plane of circle {EFG}, it will thus also make right-angles with all of the straight-lines joining it (which are) also in the plane of circle {EFG} [Def. 11.3].
 And {HE}, {HF}, and {HG} each join it.
 Thus, {HK} is at right-angles to each of {HE}, {HF}, and {HG}.
-{And} since {{AC}} is equal to {HK}, and {CD} to {HE}, and they contain right-angles, the base {DA} is thus equal to the base {KE} [Prop. 1.4].
+And since {AC} is equal to {HK}, and {CD} to {HE}, and they contain right-angles, the base {DA} is thus equal to the base {KE} [Prop. 1.4].
 So, for the same (reasons), {KF} and {KG} is each equal to {DA}.
 Thus, the three (straight-lines) {KE}, {KF}, and {KG} are equal to one another.
 And since {AC} is double {CB}, {AB} (is) thus triple {BC}.
@@ -29,7 +29,7 @@ Thus, a pyramid, whose base is triangle {EFG}, and apex the point {K}, has been 
 So, it is also necessary to enclose it in the given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
 
 For let the straight-line {HL} have been produced in a straight-line with {KH}, and let {HL} be made equal to {CB}.
-And since as {AC} (is) to {CD}, so {CD} (is) to {CB} [Prop. 6.8 corr.], and {AC} (is) equal to {KH}, and {CD} to {HE},andCBtoHL,thusasKHistoHE,soEH(is) to {HL}.
+And since as {AC} (is) to {CD}, so {CD} (is) to {CB} [Prop. 6.8 corr.], and {AC} (is) equal to {KH}, and {CD} to {HE}, and {CB} to {HL}, thus as {KH} is to {HE}, so {EH} (is) to {HL}.
 Thus, the (rectangle contained) by {KH} and {HL} is equal to the (square) on {EH} [Prop. 6.17].
 And each of the angles {KHE} and {EHL} is a right-angle.
 Thus, the semi-circle drawn on {KL} will also pass through {E} [inasmuch as if we join {EL} then the angle {LEK} becomes a right-angle, on account of triangle {ELK} becoming equiangular to each of the triangles {ELH} and {EHK} [Props. 6.8, 3.31] ].

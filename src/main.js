@@ -450,7 +450,7 @@ function makePR(rg, svg, cs)
           {
             let k = section.i_p.length;
             section.i_p.push(section.i_count);
-            let i_RE = /(\{[^\}]*\}|\[[^\]]*\])/g;
+            let i_RE = /(\{[^\}]*\}|\[Prop[^\]]*\])/g;
             let sentenceParts = sentenceProse.split(i_RE);
             let seen = false;
             let parts = sentenceParts.filter(x=>x).map(part =>

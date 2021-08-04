@@ -38,11 +38,11 @@ For each of them is at right-angles to the plane {BF} [Prop. 11.6].
 And if two triangles, like {XPH} and {HTW}, having two sides proportional to two sides, are placed together at a single angle such that their corresponding sides are also parallel then the remaining sides will be straight-on (to one another) [Prop. 6.32].
 Thus, {XH} is straight-on to {HW}.
 And every straight-line is in one plane [Prop. 11.1].
-Thus, pentagon {UBWCV} is inoneplane.
+Thus, pentagon {UBWCV} is in one plane.
 
 So, I say that it is also equiangular.
 
-For since the straight-line {NP} has been cut in extreme and mean ratio at {R}, and {PR} is the greater piece [thus as the sum of {NP} and {PR} is to {PN}, so {NP} (is) to {{PR}}],and {PR} (is) equal to {PS} [thus as {SN} is to {NP}, so {NP} (is) to {PS}], {NS} has thus also been cut in extreme and mean ratio at {P}, and {NP} is the greater piece [Prop. 13.5].
+For since the straight-line {NP} has been cut in extreme and mean ratio at {R}, and {PR} is the greater piece [thus as the sum of {NP} and {PR} is to {PN}, so {NP} (is) to {PR}], and {PR} (is) equal to {PS} [thus as {SN} is to {NP}, so {NP} (is) to {PS}], {NS} has thus also been cut in extreme and mean ratio at {P}, and {NP} is the greater piece [Prop. 13.5].
 Thus, the (sum of the squares) on {NS} and {SP} is three times the (square) on {NP} [Prop. 13.4].
 And {NP} (is) equal to {NB}, and {PS} to {SV}.
 Thus, the (sum of the) squares on {NS} and {SV} is three times the (square) on {NB}.
@@ -63,8 +63,8 @@ Thus, if we make the same construction on each of the twelve sides of the cube t
 
 So, it is necessary to enclose it in the given sphere, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.
 
-For let {XP} have been produced, and let (the produced straight-line)beXZ.
-Thus,PZmeetsthediameterofthe cube, and they cut one another in half.
+For let {XP} have been produced, and let (the produced straight-line) be {XZ}.
+Thus, {PZ} meets the diameter of the cube, and they cut one another in half.
 For, this has been proved in the penultimate theorem of the eleventh book [Prop. 11.38].
 Let them cut (one another) at {Z}.
 Thus, {Z} is the center of the sphere enclosing the cube, and {ZP} (is) half the side of the cube.

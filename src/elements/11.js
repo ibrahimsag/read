@@ -255,7 +255,7 @@ function() {
   return {
     title: 'Proposition 23',
     id: '11.23',
-    img: '/img/11/23',
+    imgs: ['/img/11/23', '/img/11/23b'],
     prose: prop23,
   };
 },
@@ -264,7 +264,7 @@ function() {
   return {
     title: 'Lemma',
     id: '11.23-lem',
-    img: '/img/11/l1',
+    imgs: ['/img/11/23b', '/img/11/l1'],
     prose: propl1,
   };
 },

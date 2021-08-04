@@ -3,8 +3,7 @@ Parallelepiped solids which are on equal bases, and (have) the same height, are 
 Let the parallelepiped solids {AE} and {CF} be on the equal bases {AB} and {CD} (respectively), and (have) the same height.
 I say that solid {AE} is equal to solid {CF}.
 
-{figure 1}
-So, let the (straight-lines) standing up, {HK}, {BE}, {AG}, {LM}, {PQ}, {DF}, {CO}, and {RS}, first of all, be at right-angles to the bases {AB} and {CD}.
+{figure 1}So, let the (straight-lines) standing up, {HK}, {BE}, {AG}, {LM}, {PQ}, {DF}, {CO}, and {RS}, first of all, be at right-angles to the bases {AB} and {CD}.
 And let {RT} have been produced in a straight-line with {CR}.
 And let (angle) {TRU}, equal to angle {ALB}, have been constructed on the straight-line {RT}, at the point {R} on it [Prop. 1.23].
 And let {RT} be made equal to {AL}, and {RU} to {LB}.
@@ -17,14 +16,14 @@ Thus, three parallelograms of solid {AE} are equal and similar to three parallel
 But, the three (faces of the former solid) are equal and similar to the three opposite (faces), and the three (faces of the latter solid) to the three opposite (faces) [Prop. 11.24].
 Thus, the whole parallelepiped solid {AE} is equal to the whole parallelepiped solid {XU} [Def. 11.10].
 Let {DR} and {WU} have been drawn across, and let them have met one another at {Y}.
-And let aTb have been drawn through {T} parallel to {DY}.
-And let {PD} have been produced to a.
+And let {aTb} have been drawn through {T} parallel to {DY}.
+And let {PD} have been produced to {a}.
 And let the solids {YX} and {RI} have been completed.
 So, solid {XY}, whose base is parallelogram {RX}, and opposite (face) {Yc}, is equal to solid {XU}, whose base (is) parallelogram {RX}, and opposite (face) {UV}.
 For they are on the same base {RX}, and (have) the same height, and the (ends of the straight-lines) standing up in them, {RY}, {RU}, {Tb}, {TW}, {Se}, {Sd}, {Xc} and {XV}, are on the same straight-lines, {YW} and {eV} [Prop. 11.29].
 But, solid {XU} is equal to {AE}.
 Thus, solid {XY} is also equal to solid {AE}.
-And since parallelogram {RUWT} is equal to parallelogram YT.
+And since parallelogram {RUWT} is equal to parallelogram {YT}.
 For they are on the same base {RT}, and between the same parallels {RT} and {YW} [Prop. 1.35].
 But, {RUWT} is equal to {CD}, since (it is) also (equal) to {AB}.
 Parallelogram {YT} is thus also equal to {CD}.
@@ -39,8 +38,7 @@ Thus, solid {CF} is equal to solid {YX} [Prop. 5.9].
 But, {YX} was show (to be) equal to {AE}.
 Thus, {AE} is also equal to {CF}.
 
-{figure 2}
-And so let the (straight-lines) standing up, {AG}, {HK}, {BE}, {LM}, {CO}, {PQ}, {DF}, and {RS}, not be at right-angles to the bases {AB} and {CD}.
+{figure 2}And so let the (straight-lines) standing up, {AG}, {HK}, {BE}, {LM}, {CO}, {PQ}, {DF}, and {RS}, not be at right-angles to the bases {AB} and {CD}.
 Again, I say that solid {AE} (is) equal to solid {CF}.
 For let {KN}, {ET}, {GU}, {MV}, {QW}, {FX}, {OY}, and {SI} have been drawn from points {K}, {E}, {G}, {M}, {Q}, {F}, {O}, and {S} (respectively) perpendicular to the reference plane (i.e., the plane of the bases {AB} and {CD}), and let them have met the plane at points {N}, {T}, {U}, {V}, {W}, {X}, {Y}, and {I} (respectively).
 And let {NT}, {NU}, {UV}, {TV}, {WX}, {WY}, {YI}, and {IX} have been joined.

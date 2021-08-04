@@ -6,7 +6,6 @@ I say that the planes through {AB}, {BC} and {DE}, {EF} will not meet one anothe
 For let {BG} have been drawn from point {B} perpendicular to the plane through {DE} and {EF} [Prop. 11.11], and let it meet the plane at point {G}.
 And let {GH} have been drawn through {G} parallel to {ED}, and {GK} (parallel) to {EF} [Prop. 1.31].
 
-
 And since {BG} is at right-angles to the plane through {DE} and {EF}, it will thus also make right-angles with all of the straight-lines joined to it, which are also in the plane through {DE} and {EF} [Def. 11.3].
 And each of {GH} and {GK}, which are in the plane through {DE} and {EF}, are joined to it.
 Thus, each of the angles {BGH} and {BGK} are right-angles.
