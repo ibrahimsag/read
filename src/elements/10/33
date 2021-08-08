@@ -1,29 +1,29 @@
 To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
 
-Let the two rational (straight-lines) {AB} and {BC}, (which are) commensurable in square only, be laid out such that the square on the greater, {AB}, is larger than (the square on) the lesser, {BC}, by the (square) on (some straight-line which is) incommensurable (in length) with ({AB}) [Prop. 10.30].
-And let {BC} have been cut in half at {D}.
-And let a parallelogram equal to the (square) on either of {BD} or {DC}, (and) falling short by a square figure, have been applied to {AB} [Prop. 6.28], and let it be the (rectangle contained) by {AEB}.
-And let the semi-circle {AFB} have been drawn on {AB}.
-And let {EF} have been drawn at right-angles to {AB}.
-And let {AF} and {FB} have been joined.
+Let the two rational (straight-lines) {AB line} and {BC line}, (which are) commensurable in square only, be laid out such that the square on the greater, {AB line}, is larger than (the square on) the lesser, {BC line}, by the (square) on (some straight-line which is) incommensurable (in length) with ({AB line}) [Prop. 10.30].
+And let {BC line} have been cut in half at {D point}.
+And let a parallelogram equal to the (square) on either of {BD line} or {DC line}, (and) falling short by a square figure, have been applied to {AB line} [Prop. 6.28], and let it be the (rectangle contained) by {AE line} and {EB line}.
+And let the semi-circle {AFB arc O} have been drawn on {AB line}.
+And let {EF line} have been drawn at right-angles to {AB line}.
+And let {AF line} and {FB line} have been joined.
 
-And since {AB} and {BC} are [two] unequal straightlines, and the square on {AB} is greater than (the square on) {BC} by the (square) on (some straight-line which is) incommensurable (in length) with ({AB}).
-And a parallelogram, equal to one quarter of the (square) on {BC}---that is to say, (equal) to the (square) on half of it---(and) falling short by a square figure, has been applied to {AB}, and makes the (rectangle contained) by {AEB}.
-{AE} is thus incommensurable (in length) with {EB} [Prop. 10.18].
-And as {AE} is to {EB}, so the (rectangle contained) by {BA} and {AE} (is) to the (rectangle contained) by {AB} and {BE}.
-And the (rectangle contained) by {BA} and {AE} (is) equal to the (square) on {AF}, and the (rectangle contained) by {AB} and {BE} to the (square) on {BF} [Prop. 10.32 lem.].
-The (square) on {AF} is thus incommensurable with the (square) on {FB} [Prop. 10.11].
-Thus, {AF} and {FB} are incommensurable in square.
-And since {AB} is rational, the (square) on {AB} is also rational.
-Hence, the sum of the (squares) on {AF} and {FB} is also rational [Prop. 1.47].
-And, again, since the (rectangle contained) by {AE} and {EB} is equal to the (square) on {EF}, and the (rectangle contained) by {AE} and {EB} was assumed (to be) equal to the (square) on {BD}, {FE} is thus equal to {BD}.
-Thus, {BC} is double {FE}.
-And hence the (rectangle contained) by {AB} and {BC} is commensurable with the (rectangle contained) by {AB} and {EF} [Prop. 10.6].
-And the (rectangle contained) by {AB} and {BC} (is) medial [Prop. 10.21].
-Thus, the (rectangle contained) by {AB} and {EF} (is) also medial [Prop. 10.23 corr.].
-And the (rectangle contained) by {AB} and {EF} (is) equal to the (rectangle contained) by {AF} and {FB} [Prop. 10.32 lem.].
-Thus, the (rectangle contained) by {AF} and {FB} (is) also medial.
+And since {AB line} and {BC line} are [two] unequal straightlines, and the square on {AB line} is greater than (the square on) {BC line} by the (square) on (some straight-line which is) incommensurable (in length) with ({AB line}).
+And a parallelogram, equal to one quarter of the (square) on {BC line}---that is to say, (equal) to the (square) on half of it---(and) falling short by a square figure, has been applied to {AB line}, and makes the (rectangle contained) by {AE line} and {EB line}.
+{AE line} is thus incommensurable (in length) with {EB line} [Prop. 10.18].
+And as {AE line} is to {EB line}, so the (rectangle contained) by {BA line} and {AE line} (is) to the (rectangle contained) by {AB line} and {BE line}.
+And the (rectangle contained) by {BA line} and {AE line} (is) equal to the (square) on {AF line}, and the (rectangle contained) by {AB line} and {BE line} to the (square) on {BF line} [Prop. 10.32 lem.].
+The (square) on {AF line} is thus incommensurable with the (square) on {FB line} [Prop. 10.11].
+Thus, {AF line} and {FB line} are incommensurable in square.
+And since {AB line} is rational, the (square) on {AB line} is also rational.
+Hence, the sum of the (squares) on {AF line} and {FB line} is also rational [Prop. 1.47].
+And, again, since the (rectangle contained) by {AE line} and {EB line} is equal to the (square) on {EF line}, and the (rectangle contained) by {AE line} and {EB line} was assumed (to be) equal to the (square) on {BD line}, {FE line} is thus equal to {BD line}.
+Thus, {BC line} is double {FE line}.
+And hence the (rectangle contained) by {AB line} and {BC line} is commensurable with the (rectangle contained) by {AB line} and {EF line} [Prop. 10.6].
+And the (rectangle contained) by {AB line} and {BC line} (is) medial [Prop. 10.21].
+Thus, the (rectangle contained) by {AB line} and {EF line} (is) also medial [Prop. 10.23 corr.].
+And the (rectangle contained) by {AB line} and {EF line} (is) equal to the (rectangle contained) by {AF line} and {FB line} [Prop. 10.32 lem.].
+Thus, the (rectangle contained) by {AF line} and {FB line} (is) also medial.
 And the sum of the squares on them was also shown (to be) rational.
 
-Thus, the two straight-lines, {AF} and {FB}, (which are) incommensurable in square, have been found, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
+Thus, the two straight-lines, {AF line} and {FB line}, (which are) incommensurable in square, have been found, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
 (Which is) the very thing it was required to show.

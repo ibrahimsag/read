@@ -1,19 +1,19 @@
-Let {ABC} be a right-angled triangle having the (angle) {A} a right-angle.
-And let the perpendicular {AD} have been drawn.
-I say that the (rectangle contained) by {CBD} is equal to the (square) on {BA}, and the (rectangle contained) by {BCD} (is) equal to the (square) on {CA}, and the (rectangle contained) by {BD} and {DC} (is) equal to the (square) on {AD}, and, further, the (rectangle contained) by {BC} and {AD} [is] equal to the (rectangle contained) by {BA} and {AC}.
+Let {ABC polygon} be a right-angled triangle having the (angle) {A point} a right-angle.
+And let the perpendicular {AD line} have been drawn.
+I say that the (rectangle contained) by {CB line} and {BD line} is equal to the (square) on {BA line}, and the (rectangle contained) by {BC line} and {CD line} (is) equal to the (square) on {CA line}, and the (rectangle contained) by {BD line} and {DC line} (is) equal to the (square) on {AD line}, and, further, the (rectangle contained) by {BC line} and {AD line} [is] equal to the (rectangle contained) by {BA line} and {AC line}.
 
-And, first of all, (let us prove) that the (rectangle contained) by {CBD} [is] equal to the (square) on {BA}.
+And, first of all, (let us prove) that the (rectangle contained) by {CB line} and {BD line} [is] equal to the (square) on {BA line}.
 
-For since {AD} has been drawn from the right-angle in a right-angled triangle, perpendicular to the base, {ABD} and ADC are thus triangles (which are) similar to the whole, {ABC}, and to one another [Prop. 6.8].
-And since triangle {ABC} is similar to triangle {ABD}, thus as {CB} is to {BA}, so {BA} (is) to {BD} [Prop. 6.4].
-Thus, the (rectangle contained) by {CBD} is equal to the (square) on {AB} [Prop. 6.17].
+For since {AD line} has been drawn from the right-angle in a right-angled triangle, perpendicular to the base, {ABD polygon} and {ADC polygon} are thus triangles (which are) similar to the whole, {ABC polygon}, and to one another [Prop. 6.8].
+And since triangle {ABC polygon} is similar to triangle {ABD polygon}, thus as {CB line} is to {BA line}, so {BA line} (is) to {BD line} [Prop. 6.4].
+Thus, the (rectangle contained) by {CB line} and {BD line} is equal to the (square) on {AB line} [Prop. 6.17].
 
-So, for the same (reasons), the (rectangle contained) by {BCD} is also equal to the (square) on {AC}.
+So, for the same (reasons), the (rectangle contained) by {BC line} and {CD line} is also equal to the (square) on {AC line}.
 
-And since if a (straight-line) is drawn from the rightangle in a right-angled triangle, perpendicular to the base, the (straight-line so) drawn is the mean proportional to the pieces of the base [Prop. 6.8 corr.], thus as {BD} is to {DA}, so {AD} (is) to {DC}.
-Thus, the (rectangle contained) by {BD} and {DC} is equal to the (square) on {DA} [Prop. 6.17].
+And since if a (straight-line) is drawn from the rightangle in a right-angled triangle, perpendicular to the base, the (straight-line so) drawn is the mean proportional to the pieces of the base [Prop. 6.8 corr.], thus as {BD line} is to {DA line}, so {AD line} (is) to {DC line}.
+Thus, the (rectangle contained) by {BD line} and {DC line} is equal to the (square) on {DA line} [Prop. 6.17].
 
-I also say that the (rectangle contained) by {BC} and {AD} is equal to the (rectangle contained) by {BA} and {AC}.
-For since, as we said, {ABC} is similar to {ABD}, thus as {BC} is to {CA}, so {BA} (is) to {AD} [Prop. 6.4].
-Thus, the (rectangle contained) by {BC} and {AD} is equal to the (rectangle contained) by {BA} and {AC} [Prop. 6.16].
+I also say that the (rectangle contained) by {BC line} and {AD line} is equal to the (rectangle contained) by {BA line} and {AC line}.
+For since, as we said, {ABC polygon} is similar to {ABD polygon}, thus as {BC line} is to {CA line}, so {BA line} (is) to {AD line} [Prop. 6.4].
+Thus, the (rectangle contained) by {BC line} and {AD line} is equal to the (rectangle contained) by {BA line} and {AC line} [Prop. 6.16].
 (Which is) the very thing it was required to show.

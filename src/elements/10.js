@@ -1,4 +1,4 @@
-import vec2 from '../vec2.js';
+import v2 from '../vec2.js';
 
 import propdef1 from './10/def1';
 import prop1 from './10/1';
@@ -344,9 +344,9 @@ function() {
   const r = 90;
   const oa = [0, -r];
   const O = [50, 180];
-  const A = vec2.add(O, oa);
-  const B = vec2.sub(O, oa);
-  const D = vec2.add(O, vec2.rot(oa, Math.PI/3));
+  const A = v2.add(O, oa);
+  const B = v2.sub(O, oa);
+  const D = v2.add(O, v2.rot(oa, Math.PI/3));
 
   return {
     title: 'Lemma',
@@ -417,11 +417,11 @@ function() {
   const u = [150, 0];
   const v = [0, 150];
   const w = [220, 0];
-  const A = vec2.add(E, v);
-  const D = vec2.add(E, w);
-  const F = vec2.add(D, u);
-  const C = vec2.add(A, w);
-  const B = vec2.add(C, u);
+  const A = v2.add(E, v);
+  const D = v2.add(E, w);
+  const F = v2.add(D, u);
+  const C = v2.add(A, w);
+  const B = v2.add(C, u);
 
   return {
     title: 'Lemma',
@@ -493,11 +493,11 @@ function() {
   const u = [250, 0];
   const v = [0, 250];
   const w = [0, 90];
-  const A = vec2.add(E, v);
-  const F = vec2.add(E, w);
-  const D = vec2.add(E, u);
-  const C = vec2.add(D, w);
-  const B = vec2.add(D, v);
+  const A = v2.add(E, v);
+  const F = v2.add(E, w);
+  const D = v2.add(E, u);
+  const C = v2.add(D, w);
+  const B = v2.add(D, v);
 
   return {
     title: 'Proposition 19',
@@ -525,11 +525,11 @@ function() {
 function() {
   const D = [50, 50];
   const u = [150, 0], v = [0, 150], w = [0, 340];
-  const B = vec2.add(D, v);
-  const E = vec2.add(D, u);
-  const A = vec2.add(E, v);
-  const C = vec2.add(D, w);
-  const F = vec2.add(E, w);
+  const B = v2.add(D, v);
+  const E = v2.add(D, u);
+  const A = v2.add(E, v);
+  const C = v2.add(D, w);
+  const F = v2.add(E, w);
 
   return {
     title: 'Proposition 20',
@@ -557,11 +557,11 @@ function() {
 function() {
   const D = [50, 50];
   const u = [150, 0], v = [0, 150], w = [0, 340];
-  const B = vec2.add(D, v);
-  const E = vec2.add(D, u);
-  const A = vec2.add(E, v);
-  const C = vec2.add(D, w);
-  const F = vec2.add(E, w);
+  const B = v2.add(D, v);
+  const E = v2.add(D, u);
+  const A = v2.add(E, v);
+  const C = v2.add(D, w);
+  const F = v2.add(E, w);
 
   return {
     title: 'Proposition 21',
@@ -589,11 +589,11 @@ function() {
 function() {
   const F = [50, 50];
   const u = [150, 0], v = [0, 150], w = [340, 0];
-  const E = vec2.add(F, u);
-  const A = vec2.add(F, v);
-  const D = vec2.add(A, u);
-  const G = vec2.add(F, w);
-  const B = vec2.add(A, w);
+  const E = v2.add(F, u);
+  const A = v2.add(F, v);
+  const D = v2.add(A, u);
+  const G = v2.add(F, w);
+  const B = v2.add(A, w);
 
   return {
     title: 'Lemma',
@@ -626,10 +626,10 @@ function() {
   const E = [50, 200];
   const F = [50, 270];
   const a = 150, c = 190, e = 130;
-  const B = vec2.add(C, [c, 0]);
-  const H = vec2.add(D, [c, 0]);
-  const G = vec2.add(E, [e, 0]);
-  const K = vec2.add(F, [e, 0]);
+  const B = v2.add(C, [c, 0]);
+  const H = v2.add(D, [c, 0]);
+  const G = v2.add(E, [e, 0]);
+  const K = v2.add(F, [e, 0]);
 
   return {
     title: 'Proposition 22',
@@ -662,11 +662,11 @@ function() {
   const A = [50, 50], B = [260, 50];
   const G = [50, 120];
   const u = [130, 0], v = [200, 0], w = [0, 210];
-  const C = vec2.add(G, u);
-  const E = vec2.add(G, w);
-  const D = vec2.add(E, u);
-  const H = vec2.add(G, v);
-  const F = vec2.add(E, v);
+  const C = v2.add(G, u);
+  const E = v2.add(G, w);
+  const D = v2.add(E, u);
+  const H = v2.add(G, v);
+  const F = v2.add(E, v);
 
   return {
     title: 'Proposition 23',
@@ -698,11 +698,11 @@ function() {
 function() {
   const F = [50, 50];
   const u = [150, 0], v = [0, 150], w = [0, 200];
-  const A = vec2.add(F, w);
-  const C = vec2.add(F, u);
-  const E = vec2.add(A, v);
-  const B = vec2.add(A, u);
-  const D = vec2.add(B, v);
+  const A = v2.add(F, w);
+  const C = v2.add(F, u);
+  const E = v2.add(A, v);
+  const B = v2.add(A, u);
+  const D = v2.add(B, v);
 
   return {
     title: 'Proposition 24',
@@ -730,24 +730,24 @@ function() {
 function() {
   const Q = [50, 50];
   let u = [100, 0], ui = [0, 100], v = [70, 0], vi = [0, 70];
-  const A = vec2.add(Q, u);
-  const D = vec2.add(Q, ui);
-  const B = vec2.add(A, ui);
-  const P = vec2.add(A, v);
-  const O = vec2.add(B, vi);
-  const C = vec2.add(B, v);
-  const E = vec2.add(O, v);
+  const A = v2.add(Q, u);
+  const D = v2.add(Q, ui);
+  const B = v2.add(A, ui);
+  const P = v2.add(A, v);
+  const O = v2.add(B, vi);
+  const C = v2.add(B, v);
+  const E = v2.add(O, v);
 
   const F = [300, 50];
   u = [90, 0], v = [0, 100*(100/90)];
   let w = [0, 70*(100/90)], x = [0, 70*(70/90)];
-  const G = vec2.add(F, u);
-  const H = vec2.add(F, v);
-  const M = vec2.add(G, v);
-  const K = vec2.add(H, w);
-  const N = vec2.add(M, w);
-  const L = vec2.add(K, x);
-  const R = vec2.add(N, x);
+  const G = v2.add(F, u);
+  const H = v2.add(F, v);
+  const M = v2.add(G, v);
+  const K = v2.add(H, w);
+  const N = v2.add(M, w);
+  const L = v2.add(K, x);
+  const R = v2.add(N, x);
 
   return {
     title: 'Proposition 25',
@@ -795,11 +795,54 @@ function() {
 },
 
 function() {
+  let z = {};
+  let w1 = 200, w2 = 120;
+  let h1 = 150, h2 = 90;
+  z.A = [50, 50];
+  z.A2 = v2.add(z.A, [w1, 0]);
+  z.B = v2.add(z.A, [w1, h1]);
+  z.B2 = v2.add(z.A, [0, h1]);
+  z.C = v2.add(z.A, [w1, h2]);
+  z.D = v2.add(z.A, [0, h2]);
+  z.F = v2.add(z.A, [w1+90, 0]);
+  z.E = v2.add(z.F, [w2, 0]);
+  z.G = v2.add(z.E, [0, w1*h2/w2]);
+  z.H = v2.add(z.E, [0, w1*h1/w2]);
+  z.K = v2.add(z.F, [0, w1*h2/w2]);
+  z.H2 = v2.add(z.F, [0, w1*h1/w2]);
+  let ps = {
+    AC: [z.A, z.A2, z.C, z.D],
+    AB: [z.A, z.A2, z.B, z.B2],
+    BD: [z.D, z.C, z.B, z.B2],
+    FG: [z.F, z.E, z.G, z.K],
+    FH: [z.F, z.E, z.H, z.H2],
+    KH: [z.K, z.G, z.H, z.H2],
+  };
+  ps['DB'] = ps['BD'];
+
   return {
     title: 'Proposition 26',
     id: '10.26',
-    img: '/img/10/26',
     prose: prop26,
+    points: z,
+    letters: {
+      A: [3],
+      B: [-1],
+      C: [-1],
+      D: [3],
+      F: [3],
+      E: [-1],
+      G: [-1],
+      H: [-1],
+      K: [3],
+    },
+    shapes: [
+      rg.polygon(ps['AB']),
+      rg.line(z.D, z.C),
+      rg.polygon(ps['FH']),
+      rg.line(z.K, z.G),
+    ],
+    polygonl: ps,
   };
 },
 
@@ -807,8 +850,13 @@ function() {
   return {
     title: 'Proposition 27',
     id: '10.27',
-    img: '/img/10/27',
     prose: prop27,
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 100, v: 50 },
+      { l: 'C', m: 120, v: 50 },
+      { l: 'D', m: 90, v: 50}
+    ],
   };
 },
 
@@ -816,8 +864,14 @@ function() {
   return {
     title: 'Proposition 28',
     id: '10.28',
-    img: '/img/10/28',
     prose: prop28,
+    mags: [
+      { l: 'A', m: 100, p: [0, 0] },
+      { l: 'B', m: 120, v: 50 },
+      { l: 'C', m: 150, v: 50 },
+      { l: 'D', m: 120, p: [200, 0] },
+      { l: 'E', m: 140, v: 50, }
+    ],
   };
 },
 
@@ -827,6 +881,12 @@ function() {
     id: '10.28-lemI',
     img: '/img/10/l4',
     prose: propl4,
+    mags: [
+      { l: 'A', m: 100, p: [0, 0] },
+      { l: 'D', m: 100 },
+      { l: 'C', m: 50 },
+      { l: 'B' },
+    ],
   };
 },
 
@@ -834,26 +894,78 @@ function() {
   return {
     title: 'Lemma II',
     id: '10.28-lemII',
-    img: '/img/10/l5',
     prose: propl5,
+    mags: [
+      { l: 'A', m: 30, p: [0, 0] },
+      { l: 'G', m: 30 },
+      { l: 'H', m: 60 },
+      { l: 'D', m: 20 },
+      { l: 'E', m: 20 },
+      { l: 'F', m: 80 },
+      { l: 'C', m: 70 },
+      { l: 'B' },
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let r = 150;
+  z.A = [0, r];
+  z.B = v2.add(z.A, [r*2, 0]);
+  z.O = v2.add(z.A, [r, 0]);
+  z.F = v2.add(z.O, v2.rot([r, 0],  -Math.PI*2/5));
+
   return {
     title: 'Proposition 29',
     id: '10.29',
-    img: '/img/10/29',
     prose: prop29,
+    points: z,
+    letters: {
+      A: [-3],
+      B: [-3],
+      F: [-0]
+    },
+    shapes: [
+      rg.arc(z.O, z.A, z.B),
+      rg.polygon([z.A, z.B, z.F])
+    ],
+    mags: [
+      { l: 'C', m: 120, p: [0, r+70] },
+      { l: 'E', m: 200 },
+      { l: 'D' }
+    ],
+
   };
 },
 
 function() {
+  let z = {};
+  let r = 150;
+  z.A = [0, r];
+  z.B = v2.add(z.A, [r*2, 0]);
+  z.O = v2.add(z.A, [r, 0]);
+  z.F = v2.add(z.O, v2.rot([r, 0],  -Math.PI*3/5));
+
   return {
     title: 'Proposition 30',
     id: '10.30',
-    img: '/img/10/30',
     prose: prop30,
+    points: z,
+    letters: {
+      A: [-3],
+      B: [-3],
+      F: [0.9]
+    },
+    shapes: [
+      rg.arc(z.O, z.A, z.B),
+      rg.polygon([z.A, z.B, z.F])
+    ],
+    mags: [
+      { l: 'C', m: 120, p: [0, r+70] },
+      { l: 'E', m: 200 },
+      { l: 'D' }
+    ],
   };
 },
 
@@ -861,8 +973,13 @@ function() {
   return {
     title: 'Proposition 31',
     id: '10.31',
-    img: '/img/10/31',
     prose: prop31,
+    mags: [
+      { l: 'A', m: 180, p: [0, 0] },
+      { l: 'B', m: 120, v: 50 },
+      { l: 'C', m: 150, v: 50 },
+      { l: 'D', m: 100, v: 50 },
+    ],
   };
 },
 
@@ -870,44 +987,155 @@ function() {
   return {
     title: 'Proposition 32',
     id: '10.32',
-    img: '/img/10/32',
     prose: prop32,
+    mags: [
+      { l: 'A', m: 200, p: [0, 0] },
+      { l: 'B', m: 150, v: 50 },
+      { l: 'C', m: 80, v: 50 },
+      { l: 'D', m: 160, p: [250, 0] },
+      { l: 'E', m: 60, v: 50 },
+    ],
   };
 },
 
 function() {
+  let z = {};
+  z.A = [80, 0];
+  z.B = [0, 150];
+  z.C = [350, 150];
+  z.D = [80, 150];
+  let ba = v2.sub(z.A, z.B);
+  z.B2 = [0, 0];
+  z.C2 = v2.add(z.C, v2.sub(z.B2, z.B));
+  z.C3 = v2.sub(z.C, ba);
+
   return {
     title: 'Lemma',
     id: '10.32-lem',
-    img: '/img/10/l6',
     prose: propl6,
+    points: z,
+    letters: {
+      A: [1],
+      B: [3],
+      C: [-1],
+      D: [5]
+    },
+    shapes: [
+      rg.polygon([z.A, z.B, z.C]),
+      rg.line(z.A, z.D),
+      rg.polygon([z.B, z.B2, z.C2, z.C, z.C3], {strokeLineDash: [10, 10]}),
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let r = 120;
+  z.A = [0, r];
+  z.B = v2.add(z.A, [r*2, 0]);
+  z.O = v2.add(z.A, [r, 0]);
+  z.F = v2.add(z.O, v2.rot([r, 0],  -Math.PI*2/5));
+  z.E = v2.add(z.A, [v2.dot(v2.sub(z.F, z.A), [1, 0]), 0]);
+  z.D = v2.add(z.B, [80, 0]);
+  z.C = v2.add(z.D, [80, 0]);
+
   return {
     title: 'Proposition 33',
     id: '10.33',
-    img: '/img/10/33',
     prose: prop33,
+    points: z,
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      D: [-3],
+      E: [-3],
+      F: [0]
+    },
+    shapes: [
+      rg.arc(z.O, z.A, z.B),
+      rg.line(z.E, z.F),
+      rg.line(z.A, z.F),
+      rg.line(z.B, z.F),
+      rg.line(z.A, z.C),
+      rg.tick(z.D),
+      rg.tick(z.C),
+
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let r = 120;
+  z.A = [0, r];
+  z.B = v2.add(z.A, [r*2, 0]);
+  z.O = v2.add(z.A, [r, 0]);
+  z.D = v2.add(z.O, v2.rot([r, 0],  -Math.PI*2/5));
+  z.F = v2.add(z.A, [v2.dot(v2.sub(z.D, z.A), [1, 0]), 0]);
+  z.E = v2.add(z.B, [80, 0]);
+  z.C = v2.add(z.E, [80, 0]);
+
   return {
     title: 'Proposition 34',
     id: '10.34',
-    img: '/img/10/34',
     prose: prop34,
+    points: z,
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      E: [-3],
+      F: [-3],
+      D: [0]
+    },
+    shapes: [
+      rg.arc(z.O, z.A, z.B),
+      rg.line(z.F, z.D),
+      rg.line(z.A, z.D),
+      rg.line(z.B, z.D),
+      rg.line(z.A, z.C),
+      rg.tick(z.E),
+      rg.tick(z.C),
+
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let r = 120;
+  z.A = [0, r];
+  z.B = v2.add(z.A, [r*2, 0]);
+  z.O = v2.add(z.A, [r, 0]);
+  z.D = v2.add(z.O, v2.rot([r, 0],  -Math.PI*2/5));
+  z.F = v2.add(z.A, [v2.dot(v2.sub(z.D, z.A), [1, 0]), 0]);
+  z.E = v2.add(z.B, [80, 0]);
+  z.C = v2.add(z.E, [80, 0]);
+
   return {
     title: 'Proposition 35',
     id: '10.35',
-    img: '/img/10/35',
     prose: prop35,
+    points: z,
+    letters: {
+      A: [-3],
+      B: [-3],
+      C: [-3],
+      E: [-3],
+      F: [-3],
+      D: [0]
+    },
+    shapes: [
+      rg.arc(z.O, z.A, z.B),
+      rg.line(z.F, z.D),
+      rg.line(z.A, z.D),
+      rg.line(z.B, z.D),
+      rg.line(z.A, z.C),
+      rg.tick(z.E),
+      rg.tick(z.C),
+
+    ],
   };
 },
 
@@ -915,8 +1143,12 @@ function() {
   return {
     title: 'Proposition 36',
     id: '10.36',
-    img: '/img/10/36',
     prose: prop36,
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 90 },
+      { l: 'C' }
+    ],
   };
 },
 
@@ -924,17 +1156,52 @@ function() {
   return {
     title: 'Proposition 37',
     id: '10.37',
-    img: '/img/10/37',
     prose: prop37,
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 90 },
+      { l: 'C' }
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let w = 210, a = 150;
+  z.D = [0, 100];
+  z.E = v2.add(z.D, [0, a]);
+  z.H = v2.add(z.D, [w, 0]);
+  z.H2 = v2.add(z.H, [0, a]);
+  z.G = v2.add(z.H, [a, 0]);
+  z.F = v2.add(z.G, [0, a]);
+
   return {
     title: 'Proposition 38',
     id: '10.38',
-    img: '/img/10/38',
     prose: prop38,
+    points: z,
+    shapes: [
+      rg.polygon([z.D, z.G, z.F, z.E]),
+      rg.line(z.H, z.H2)
+    ],
+    letters: {
+      D: [1],
+      E: [5],
+      F: [5],
+      G: [1],
+      H: [1]
+    },
+    polygonl: {
+      'DF': 'DEFG',
+      'EH': [z.D, z.E, z.H2, z.H],
+      'HF': [z.G, z.F, z.H2, z.H],
+      'FH': [z.G, z.F, z.H2, z.H],
+    },
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 90 },
+      { l: 'C' }
+    ],
   };
 },
 
@@ -942,8 +1209,12 @@ function() {
   return {
     title: 'Proposition 39',
     id: '10.39',
-    img: '/img/10/39',
     prose: prop39,
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 90 },
+      { l: 'C' }
+    ],
   };
 },
 
@@ -951,17 +1222,53 @@ function() {
   return {
     title: 'Proposition 40',
     id: '10.40',
-    img: '/img/10/40',
     prose: prop40,
+    mags: [
+      { l: 'A', m: 150, p: [0, 0] },
+      { l: 'B', m: 90 },
+      { l: 'C' }
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let w = 170, a = 90, b = 140;
+  z.D = [0, 100];
+  z.E = v2.add(z.D, [0, b]);
+  z.G = v2.add(z.D, [w, 0]);
+  z.F = v2.add(z.G, [0, b]);
+  z.K = v2.add(z.G, [a, 0]);
+  z.H = v2.add(z.K, [0, b]);
+
   return {
     title: 'Proposition 41',
     id: '10.41',
-    img: '/img/10/41',
     prose: prop41,
+    points: z,
+    shapes: [
+      rg.polygon([z.D, z.E, z.H, z.K]),
+      rg.line(z.G, z.F)
+    ],
+    letters: {
+      D: [1],
+      E: [5],
+      F: [5],
+      G: [1],
+      H: [5],
+      K: [1]
+    },
+    polygonl: {
+      DF: 'DEFG',
+      GH: 'GFHK',
+      DH: 'DEHK',
+      HD: 'DEHK',
+    },
+    mags: [
+      { l: 'C', m: 150, p: [0, 0] },
+      { l: 'B', m: 60 },
+      { l: 'A' }
+    ],
   };
 },
 
@@ -969,8 +1276,14 @@ function() {
   return {
     title: 'Lemma',
     id: '10.41-lem',
-    img: '/img/10/l7',
     prose: propl7,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 60 },
+      { l: 'E', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
@@ -1345,7 +1658,7 @@ function() {
 function() {
   return {
     title: 'Proposition 80',
-    id: '10.60',
+    id: '10.80',
     img: '/img/10/80',
     prose: prop80,
   };

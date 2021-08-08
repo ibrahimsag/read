@@ -1,23 +1,23 @@
 To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them.
 
-Let the two medial (straight-lines) {AB} and {BC}, (which are) commensurable in square only, be laid out containing a medial (area), such that the square on {AB} is greater than (the square on) {BC} by the (square) on (some straight-line) incommensurable (in length) with ({AB}) [Prop. 10.32].
-And let the semi-circle {ADB} have been drawn on {AB}.
+Let the two medial (straight-lines) {AB line} and {BC line}, (which are) commensurable in square only, be laid out containing a medial (area), such that the square on {AB line} is greater than (the square on) {BC line} by the (square) on (some straight-line) incommensurable (in length) with ({AB line}) [Prop. 10.32].
+And let the semi-circle {ADB arc O} have been drawn on {AB line}.
 And let the remainder (of the figure) be generated similarly to the above (proposition).
 
-And since {AF} is incommensurable in length with {FB} [Prop. 10.18], {AD} is also incommensurable in square with {DB} [Prop. 10.11].
-And since the (square) on {AB} is medial, the sum of the (squares) on {AD} and {DB} (is) thus also medial [Props. 3.31, 1.47].
-And since the (rectangle contained) by {AF} and {FB} is equal to the (square) on each of {BE} and {DF}, {BE} is thus equal to {DF}.
-Thus, {BC} (is) double {FD}.
-And hence the (rectangle contained) by {AB} and {BC} is double the (rectangle) contained by {AB} and {FD}.
-And the (rectangle contained) by {AB} and {BC} (is) medial.
-Thus, the (rectangle contained) by {AB} and {FD} (is) also medial.
-And it is equal to the (rectangle contained) by {AD} and {DB} [Prop. 10.32 lem.].
-Thus, the (rectangle contained) by {AD} and {DB} (is) also medial.
-And since {AB} is incommensurable in length with {BC}, and {CB} (is) commensurable (in length) with {BE}, {AB} (is) thus also incommensurable in length with {BE} [Prop. 10.13].
-And hence the (square) on {AB} is also incommensurable with the (rectangle contained) by {AB} and {BE} [Prop. 10.11].
-But the (sum of the squares) on {AD} and {DB} is equal to the (square) on {AB} [Prop. 1.47].
-And the (rectangle contained) by {AB} and {FD}---that is to say, the (rectangle contained) by {AD} and {DB}---is equal to the (rectangle contained) by {AB} and {BE}.
-Thus, the sum of the (squares) on {AD} and {DB} is incommensurable with the (rectangle contained) by {AD} and {DB}.
+And since {AF line} is incommensurable in length with {FB line} [Prop. 10.18], {AD line} is also incommensurable in square with {DB line} [Prop. 10.11].
+And since the (square) on {AB line} is medial, the sum of the (squares) on {AD line} and {DB line} (is) thus also medial [Props. 3.31, 1.47].
+And since the (rectangle contained) by {AF line} and {FB line} is equal to the (square) on each of {BE line} and {DF line}, {BE line} is thus equal to {DF line}.
+Thus, {BC line} (is) double {FD line}.
+And hence the (rectangle contained) by {AB line} and {BC line} is double the (rectangle) contained by {AB line} and {FD line}.
+And the (rectangle contained) by {AB line} and {BC line} (is) medial.
+Thus, the (rectangle contained) by {AB line} and {FD line} (is) also medial.
+And it is equal to the (rectangle contained) by {AD line} and {DB line} [Prop. 10.32 lem.].
+Thus, the (rectangle contained) by {AD line} and {DB line} (is) also medial.
+And since {AB line} is incommensurable in length with {BC line}, and {CB line} (is) commensurable (in length) with {BE line}, {AB line} (is) thus also incommensurable in length with {BE line} [Prop. 10.13].
+And hence the (square) on {AB line} is also incommensurable with the (rectangle contained) by {AB line} and {BE line} [Prop. 10.11].
+But the (sum of the squares) on {AD line} and {DB line} is equal to the (square) on {AB line} [Prop. 1.47].
+And the (rectangle contained) by {AB line} and {FD line}---that is to say, the (rectangle contained) by {AD line} and {DB line}---is equal to the (rectangle contained) by {AB line} and {BE line}.
+Thus, the sum of the (squares) on {AD line} and {DB line} is incommensurable with the (rectangle contained) by {AD line} and {DB line}.
 
-Thus, two straight-lines, {AD} and {DB}, (which are) incommensurable in square, have been found, making the sum of the (squares) on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them.
+Thus, two straight-lines, {AD line} and {DB line}, (which are) incommensurable in square, have been found, making the sum of the (squares) on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them.
 (Which is) the very thing it was required to show.

@@ -190,15 +190,21 @@ function makeRG()
     else if(h.typ == 'polygon')
     {
       let ns = h.name;
+      let points;
       if (h.name.length == 2)
       {
         ns = figure.polygonl[h.name];
-        if(!ns)
-        {
+        if(typeof ns === "string")
+          points = ns.split('').map(l => figure.points[l]);
+        else if(ns && ns.join)
+          points = ns;
+        else
           console.error('unknown polygon name', h.name);
-        }
       }
-      let points = ns.split('').map(l => figure.points[l]);
+      else
+      {
+        points = ns.split('').map(l => figure.points[l]);
+      }
       shapes = [polygon(points)];
     }
     else if(h.typ == 'angle')

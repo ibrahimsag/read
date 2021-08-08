@@ -1,21 +1,21 @@
 If two straight-lines (which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them, are added together then the whole straight-line is irrational---let it be called the square-root of (the sum of) two medial (areas).
 
-For let the two straight-lines, AB and BC, incommensurable in square, (and) fulfilling the prescribed (conditions), be laid down together [Prop. 10.35].
-I say that AC is irrational.
+For let the two straight-lines, {AB magnitude} and {BC magnitude}, incommensurable in square, (and) fulfilling the prescribed (conditions), be laid down together [Prop. 10.35].
+I say that {AC magnitude} is irrational.
 
-Let the rational (straight-line) DE be laid out, and let (the rectangle) DF, equal to (the sum of) the (squares) on AB and BC, and (the rectangle) GH, equal to twice the (rectangle contained) by AB and BC, have been applied to DE.
-Thus, the whole of DH is equal to the square on AC [Prop. 2.4].
-And since the sum of the (squares) on AB and BC is medial, and is equal to DF, DF is thus also medial.
-And it is applied to the rational (straight-line) DE.
-Thus, DG is rational, and incommensurable in length with DE [Prop. 10.22].
-So, for the same (reasons), GK is also rational, and incommensurable in length with GF---that is to say, DE.
-And since (the sum of) the (squares) on AB and BC is incommensurable with twice the (rectangle contained) by AB and BC, DF is incommensurable with GH.
-Hence, DG is also incommensurable (in length) with GK [Props. 6.1, 10.11].
+Let the rational (straight-line) {DE line} be laid out, and let (the rectangle) {DF polygon}, equal to (the sum of) the (squares) on {AB magnitude} and {BC magnitude}, and (the rectangle) {GH polygon}, equal to twice the (rectangle contained) by {AB magnitude} and {BC magnitude}, have been applied to {DE line}.
+Thus, the whole of {DH polygon} is equal to the square on {AC magnitude} [Prop. 2.4].
+And since the sum of the (squares) on {AB magnitude} and {BC magnitude} is medial, and is equal to {DF polygon}, {DF polygon} is thus also medial.
+And it is applied to the rational (straight-line) {DE line}.
+Thus, {DG line} is rational, and incommensurable in length with {DE line} [Prop. 10.22].
+So, for the same (reasons), {GK line} is also rational, and incommensurable in length with {GF line}---that is to say, {DE line}.
+And since (the sum of) the (squares) on {AB magnitude} and {BC magnitude} is incommensurable with twice the (rectangle contained) by {AB magnitude} and {BC magnitude}, {DF polygon} is incommensurable with {GH polygon}.
+Hence, {DG line} is also incommensurable (in length) with {GK line} [Props. 6.1, 10.11].
 And they are rational.
-Thus, DG and GK are rational (straight-lines which are) commensurable in square only.
-Thus, DK is irrational, and that (straight-line which is) called binomial [Prop. 10.36].
-And DE (is) rational.
-Thus, DH is irrational, and its square-root is irrational [Def. 10.4].
-And AC (is) the square-root of HD.
-Thus, AC is irrational---let it be called the square-root of (the sum of) two medial (areas).
+Thus, {DG line} and {GK line} are rational (straight-lines which are) commensurable in square only.
+Thus, {DK line} is irrational, and that (straight-line which is) called binomial [Prop. 10.36].
+And {DE line} (is) rational.
+Thus, {DH polygon} is irrational, and its square-root is irrational [Def. 10.4].
+And {AC magnitude} (is) the square-root of {HD polygon}.
+Thus, {AC magnitude} is irrational---let it be called the square-root of (the sum of) two medial (areas).
 (Which is) the very thing it was required to show.
