@@ -1291,8 +1291,13 @@ function() {
   return {
     title: 'Proposition 42',
     id: '10.42',
-    img: '/img/10/42',
     prose: prop42,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
@@ -1300,8 +1305,13 @@ function() {
   return {
     title: 'Proposition 43',
     id: '10.43',
-    img: '/img/10/43',
     prose: prop43,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
@@ -1311,6 +1321,12 @@ function() {
     id: '10.44',
     img: '/img/10/44',
     prose: prop44,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 

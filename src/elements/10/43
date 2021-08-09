@@ -1,13 +1,13 @@
 A first bimedial (straight-line) can be divided (into its component terms) at one point only
 
-Let {AB} be a first bimedial (straight-line) which has been divided at {C}, such that {AC} and {CB} are medial (straight-lines), commensurable in square only, (and) containing a rational (area) [Prop. 10.37].
-I say that {AB} cannot be (so) divided at another point.
+Let {AB magnitude} be a first bimedial (straight-line) which has been divided at {C point}, such that {AC magnitude} and {CB magnitude} are medial (straight-lines), commensurable in square only, (and) containing a rational (area) [Prop. 10.37].
+I say that {AB magnitude} cannot be (so) divided at another point.
 
-For, if possible, let it also have been divided at {D}, such that {AD} and {DB} are also medial (straight-lines), commensurable in square only, (and) containing a rational (area).
-Since, therefore, by whatever (amount) twice the (rectangle contained) by {AD} and {DB} differs from twice the (rectangle contained) by {AC} and {CB}, (the sum of) the (squares) on {AC} and {CB} differs from (the sum of) the (squares) on {AD} and {DB} by this (same amount) [Prop. 10.41 lem.].
-And twice the (rectangle contained) by {AD} and {DB} differs from twice the (rectangle contained) by {AC} and {CB} by a rational (area).
+For, if possible, let it also have been divided at {D point}, such that {AD magnitude} and {DB magnitude} are also medial (straight-lines), commensurable in square only, (and) containing a rational (area).
+Since, therefore, by whatever (amount) twice the (rectangle contained) by {AD magnitude} and {DB magnitude} differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by this (same amount) [Prop. 10.41 lem.].
+And twice the (rectangle contained) by {AD magnitude} and {DB magnitude} differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area).
 For (they are) both rational (areas).
-(The sum of) the (squares) on {AC} and {CB} thus differs from (the sum of) the (squares) on {AD} and {DB} by a rational (area, despite both) being medial (areas).
+(The sum of) the (squares) on {AC magnitude} and {CB magnitude} thus differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by a rational (area, despite both) being medial (areas).
 The very thing is absurd [Prop. 10.26].
 
 Thus, a first bimedial (straight-line) cannot be divided into its (component) terms at different points.

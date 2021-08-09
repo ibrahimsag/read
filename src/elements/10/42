@@ -1,22 +1,22 @@
 A binomial (straight-line) can be divided into its (component) terms at one point only.
 
-Let {AB} be a binomial (straight-line) which has been divided into its (component) terms at {C}.
-{AC} and {CB} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
-I say that {AB} cannot be divided at another point into two rational (straight-lines which are) commensurable in square only.
+Let {AB magnitude} be a binomial (straight-line) which has been divided into its (component) terms at {C point}.
+{AC magnitude} and {CB magnitude} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
+I say that {AB magnitude} cannot be divided at another point into two rational (straight-lines which are) commensurable in square only.
 
-For, if possible, let it also have been divided at {D}, such that {AD} and {DB} are also rational (straight-lines which are) commensurable in square only.
-So, (it is) clear that {AC} is not the same as {DB}.
+For, if possible, let it also have been divided at {D point}, such that {AD magnitude} and {DB magnitude} are also rational (straight-lines which are) commensurable in square only.
+So, (it is) clear that {AC magnitude} is not the same as {DB magnitude}.
 For, if possible, let it be (the same).
-So, {AD} will also be the same as {CB}.
-And as {AC} will be to {CB}, so {BD} (will be) to {DA}.
-And {AB} will (thus) also be divided at {D} in the same (manner) as the division at {C}.
+So, {AD magnitude} will also be the same as {CB magnitude}.
+And as {AC magnitude} will be to {CB magnitude}, so {BD magnitude} (will be) to {DA magnitude}.
+And {AB magnitude} will (thus) also be divided at {D point} in the same (manner) as the division at {C point}.
 The very opposite was assumed.
-Thus, {AC} is not the same as {DB}.
-So, on account of this, points {C} and {D} are not equally far from the point of bisection.
-Thus, by whatever (amount the sum of) the (squares) on {AC} and {CB} differs from (the sum of) the (squares) on {AD} and {DB}, twice the (rectangle contained) by {AD} and {DB} also differs from twice the (rectangle contained) by {AC} and {CB} by this (same amount)---on account of both (the sum of) the (squares) on {AC} and {CB}, plus twice the (rectangle contained) by {AC} and {CB}, and (the sum of) the (squares) on {AD} and {DB}, plus twice the (rectangle contained) by {AD} and {DB}, being equal to the (square) on {AB} [Prop. 2.4].
-But, (the sum of) the (squares) on {AC} and {CB} differs from (the sum of) the (squares) on {AD} and {DB} by a rational (area).
+Thus, {AC magnitude} is not the same as {DB magnitude}.
+So, on account of this, points {C point} and {D point} are not equally far from the point of bisection.
+Thus, by whatever (amount the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by this (same amount)---on account of both (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, plus twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, and (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, plus twice the (rectangle contained) by {AD magnitude} and {DB magnitude}, being equal to the (square) on {AB magnitude} [Prop. 2.4].
+But, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by a rational (area).
 For (they are) both rational (areas).
-Thus, twice the (rectangle contained) by {AD} and {DB} also differs from twice the (rectangle contained) by {AC} and {CB} by a rational (area, despite both) being medial (areas) [Prop. 10.21].
+Thus, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area, despite both) being medial (areas) [Prop. 10.21].
 The very thing is absurd.
 For a medial (area) cannot exceed a medial (area) by a rational (area) [Prop. 10.26].
 
