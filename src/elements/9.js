@@ -1,6 +1,5 @@
 import vec2 from '../vec2.js';
 
-import prop0 from './9/0';
 import prop1 from './9/1';
 import prop2 from './9/2';
 import prop3 from './9/3';
@@ -42,13 +41,6 @@ import prop36 from './9/36';
 function book(rg)
 {
   return [
-function() {
-  return {
-    title: 'Definitions',
-    prose: prop0,
-  };
-},
-
 function() {
   return {
     title: 'Proposition 1',
