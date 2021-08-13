@@ -3,7 +3,7 @@ import hsluv from 'hsluv';
 import {create} from 'jss';
 import preset from 'jss-preset-default';
 
-import vec2 from './vec2.js';
+import v2 from './vec2.js';
 
 import style from './style.js';
 import html from './html.js';
@@ -57,6 +57,47 @@ function se(name, attrs)
   return element
 }
 
+function hsl(...args)
+{
+  if(args.length === 1)
+  {
+    return hsluv.hsluvToHex([0, 0, args[0]]);
+  }
+  else if(args.length === 2)
+  {
+    return hsluv.hsluvToHex([args[0], 100, args[1]]);
+  }
+  else if(args.length === 3)
+  {
+    return hsluv.hsluvToHex(args);
+  }
+  else
+  {
+    console.error("# arguments for hsluv", args);
+  }
+}
+
+function hpl(...args)
+{
+  if(args.length === 1)
+  {
+    return hsluv.hpluvToHex([0, 0, args[0]]);
+  }
+  else if(args.length === 2)
+  {
+    return hsluv.hpluvToHex([args[0], 100, args[1]]);
+  }
+  else if(args.length === 3)
+  {
+    return hsluv.hpluvToHex(args);
+  }
+  else
+  {
+    console.error("# arguments for hpl", args);
+  }
+}
+
+
 function makeRG()
 {
   const rsvg = rough.svg(de('svg'));
@@ -85,7 +126,7 @@ function makeRG()
 
   function anglecurve(a, o, b)
   {
-    let [d1, d2] = [a, b].map(x => vec2.sub(x, o)).map(d => vec2.scale(d, 1/vec2.len(d)));
+    let [d1, d2] = [a, b].map(x => v2.sub(x, o)).map(d => v2.scale(d, 1/v2.len(d)));
 
     let det = d1[0]*d2[1] - d1[1]*d2[0];
     if(det < 0)
@@ -93,7 +134,7 @@ function makeRG()
        [d2, d1] = [d1, d2];
     }
 
-    let alpha = Math.acos(vec2.dot(d1, d2));
+    let alpha = Math.acos(v2.dot(d1, d2));
     let s = 20;
     if(alpha < Math.PI/4)
       s = 30;
@@ -101,7 +142,7 @@ function makeRG()
     let samples = [0, 0.25, 0.5, 0.75, 1];
     if(alpha > Math.PI / 2)
       samples = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
-    let ps = samples.map(a => vec2.add(o, vec2.scale(vec2.rot(d1, alpha*a), s)));
+    let ps = samples.map(a => v2.add(o, v2.scale(v2.rot(d1, alpha*a), s)));
     return curve(ps, {strokeWidth: 10});
   }
 
@@ -112,12 +153,12 @@ function makeRG()
 
   function arc(c, a, b, o)
   {
-    let ca = vec2.sub(a, c);
-    let cb = vec2.sub(b, c);
-    let d = vec2.len(ca);
-    let uca = vec2.scale(ca, 1/d);
+    let ca = v2.sub(a, c);
+    let cb = v2.sub(b, c);
+    let d = v2.len(ca);
+    let uca = v2.scale(ca, 1/d);
     let start = (Math.atan2(uca[1], uca[0]) + Math.PI*2) % (Math.PI * 2);
-    let ucb = vec2.scale(cb, 1/d);
+    let ucb = v2.scale(cb, 1/d);
     let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
     if(start > end)
       end += Math.PI * 2;
@@ -132,7 +173,7 @@ function makeRG()
   function tick(pt)
   {
     let w = [0, 5];
-    let a = vec2.sub(pt, w), b = vec2.add(pt, w);
+    let a = v2.sub(pt, w), b = v2.add(pt, w);
     return line(a, b);
   }
 
@@ -180,7 +221,7 @@ function makeRG()
       {
         let center = figure.points[c];
         let a = figure.points[h.name[0]];
-        shapes = [circle(center, 2 * vec2.dist(center, a))];
+        shapes = [circle(center, 2 * v2.dist(center, a))];
       }
       else
       {
@@ -193,13 +234,13 @@ function makeRG()
       let points;
       if (h.name.length == 2)
       {
-        ns = figure.polygonl[h.name];
+        let ms = figure.polygonl[h.name];
         if(typeof ns === "string")
-          points = ns.split('').map(l => figure.points[l]);
+          points = ms.split('').map(l => figure.points[l]);
         else if(ns && ns.join)
-          points = ns;
+          points = ms;
         else
-          console.error('unknown polygon name', h.name);
+          points = ns.split('').map(l => figure.points[l]);
       }
       else
       {
@@ -304,7 +345,7 @@ function makePR(rg, svg, cs)
       }
       else if(mag.v)
       {
-        pos = vec2.add(last_pos, [0, mag.v]);
+        pos = v2.add(last_pos, [0, mag.v]);
         last_pos = pos;
       }
 
@@ -333,7 +374,7 @@ function makePR(rg, svg, cs)
         for(var k = 0; k < n; k++)
         {
           let prev_pos = pos;
-          pos = vec2.add(prev_pos, [mag.m, 0]);
+          pos = v2.add(prev_pos, [mag.m, 0]);
           section.shapes.push(rg.tick(pos));
           section.shapes.push(rg.line(prev_pos, pos));
           section.ticks.push(pos);
@@ -391,7 +432,7 @@ function makePR(rg, svg, cs)
       let s1 = Math.floor(s), s2 = Math.ceil(s);
       let r = s - s1;
       let p1 = proj(s1, l), p2 = proj(s2, l);
-      let dir = vec2.add(p1, vec2.scale(vec2.sub(p2, p1), r));
+      let dir = v2.add(p1, v2.scale(v2.sub(p2, p1), r));
 
       let m = {width: 14.45, height: 23};
       if(shouldBeSmall)
@@ -437,7 +478,7 @@ function makePR(rg, svg, cs)
       el.setAttribute('fill', fillcolor);
       el.textContent = i;
 
-      let pos = vec2.add(figure.points[i], figure.letterOffsets[i]);
+      let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
       el.setAttribute('x', pos[0]);
       el.setAttribute('y', pos[1]);
       shapes.push(el);
@@ -1331,6 +1372,228 @@ function elements() {
   window.addEventListener('scroll', queueAlign);
 
   window.onresize = queueAlign;
+
 };
+
+function eh(a, b)
+{
+  let r = a > b ? [b, a] : [a, b];
+  return JSON.stringify(r);
+}
+
+function inset(rose, h)
+{
+  let t = 4;
+  let ps = [];
+  let o = h.lefthand ? -1 : 1;
+  let [p0, p1, p2] = h.is.map(i => rose.ps[i]);
+  let es = [v2.sub(p1, p0), v2.sub(p2, p1), v2.sub(p0, p2)];
+  let [e0, e1, e2] = es.map(e => v2.normalize(e));
+  let [n0, n1, n2] = [e0, e1, e2].map(e => v2.rot(e, o*Math.PI/2));
+
+  ps[1] = v2.add(p1, v2.add(v2.scale(e0, t/v2.dot(e0, n1)), v2.scale(e1, t/v2.dot(e1, n0))));
+  ps[2] = v2.add(p2, v2.scale(e2, t/v2.dot(e2, n1)));
+  ps[0] = v2.add(p0, v2.scale(e2, t/v2.dot(e2, n0)));
+  if(h.alone)
+  {
+    ps[2] = v2.add(ps[2], v2.scale(e1, t/v2.dot(e1, n2)));
+    ps[0] = v2.add(ps[0], v2.scale(e0, t/v2.dot(e0, n2)));
+  }
+  return ps;
+}
+
+function penrose(kites)
+{
+  function ec(rose, a, b, p)
+  {
+    let m = eh(a, b);
+    let i;
+    if((i = rose.es[m]) === undefined)
+    {
+      i = rose.ps.length;
+      rose.ps.push(p)
+      rose.es[m] = i;
+    }
+    return i;
+  }
+
+  function subdivide(rose, h)
+  {
+    let o = h.lefthand ? -1 : 1;
+    let ps = h.is.map(i => rose.ps[i]);
+    if(h.typ === 'kite')
+    {
+      let e1 = v2.sub(ps[2], ps[1]);
+      let p0 = v2.add(ps[1], v2.rot(e1, o*Math.PI/5));
+      let i0 = ec(rose, h.is[0], h.is[2], p0);
+
+      let p1 = v2.add(ps[1], v2.rot(e1, o*Math.PI*2/5));
+      let i1 = ec(rose, h.is[0], h.is[1], p1)
+
+      let ts = [{typ:'dart', lefthand: h.lefthand, is: [i1, i0, h.is[0]]},
+                {typ:'kite', lefthand: h.lefthand, is: [h.is[1], h.is[2], i0]},
+                {typ:'kite', lefthand: !h.lefthand, is: [h.is[1], i1, i0]}];
+      return ts;
+    }
+    else if(h.typ === 'dart')
+    {
+      let e1 = v2.sub(ps[0], ps[2]);
+      let p0 = v2.add(ps[2], v2.rot(e1, o*Math.PI/5));
+      let i0 = ec(rose, h.is[1], h.is[2], p0);
+
+      let ts = [{typ:'dart', lefthand: h.lefthand, is: [i0, h.is[0], h.is[1]]},
+                {typ:'kite', lefthand: !h.lefthand, is: [h.is[2], i0, h.is[0]]}];
+      return ts;
+    }
+  }
+
+  function rhombs(rose, h)
+  {
+    let o = h.lefthand ? -1 : 1;
+    if(h.typ === 'kite')
+    {
+      let ps = h.is.map(i => rose.ps[i]);
+      let e1 = v2.sub(ps[2], ps[1]);
+      let p0 = v2.add(ps[1], v2.rot(e1, o*Math.PI/5));
+      let i0 = ec(rose, h.is[0], h.is[2], p0);
+
+      let ts = [{typ:'thin', lefthand: h.lefthand, is: [i0, h.is[1], h.is[2]]},
+                {typ:'thick', lefthand: h.lefthand, is: [h.is[1], i0, h.is[0]]}];
+      return ts;
+    }
+    else if(h.typ === 'dart')
+    {
+      let ts = [{typ:'thick', lefthand: h.lefthand, is: [h.is[2], h.is[0], h.is[1]]}];
+      return ts;
+    }
+  }
+
+  function makeArc(radius, sub)
+  {
+    let ps = [];
+    ps[0] = [0, 0];
+    ps[2] = v2.rot([radius, 0], Math.PI/10);
+    ps[1] = v2.rot(v2.sub(ps[2], ps[0]), -Math.PI/5);
+
+    let rose = {ps};
+    let sun = [{typ:'kite', is:[0, 1, 2]}];
+    for(let i = 0; i < 2; i++)
+    {
+      let l = sun[i];
+      let lefthand = !l.lefthand;
+      let is;
+      let ps = l.is.map(i => rose.ps[i]);
+      if(lefthand)
+      {
+        let i0;
+        if(i === 8)
+        {
+          i0 = 1;
+        }
+        else
+        {
+          i0 = rose.ps.length;
+          let p = v2.add(ps[0], v2.rot(v2.sub(ps[2], ps[0]), Math.PI/5));
+          rose.ps.push(p);
+        }
+        is = [l.is[0], i0, l.is[2]];
+      }
+      else
+      {
+        let i0 = rose.ps.length;
+        let p = v2.add(ps[0], v2.rot(v2.sub(ps[1], ps[0]), Math.PI/5));
+        rose.ps.push(p)
+        is = [l.is[0], l.is[1], i0];
+      }
+
+      sun.push({typ:'kite', lefthand, is});
+    }
+
+      rose.es = {};
+    let hs = sun;
+    for(let i = 0; i < sub; i++)
+    {
+      rose.es = {};
+      hs = hs.map(h => subdivide(rose, h)).flat()
+    }
+
+    if(!kites)
+      hs = hs.map(h => rhombs(rose, h)).flat();
+
+    rose.es = {};
+    for(let i = 0; i < hs.length; i++)
+    {
+      let is = hs[i].is;
+      let m = eh(is[0], is[2]);
+      if(rose.es[m] === undefined)
+        rose.es[m] = i;
+      else
+        delete rose.es[m];
+    }
+
+    for(let k in rose.es)
+    {
+      let hi = rose.es[k];
+      hs[hi].alone = true;
+    }
+    return {rose, hs};
+  }
+  return {makeArc};
+}
+
+function main5()
+{
+
+  let w = {}, u = {}, v = {};
+  w.e = se('svg');
+  w.w = Math.max(window.innerWidth, window.innerHeight)*1.5;
+  w.h = w.w;
+  w.e.setAttribute('width', `${w.w}`);
+  w.e.setAttribute('height', `${w.h}`);
+  w.e.setAttribute('viewBox', `0 0 ${w.w} ${w.h}`);
+  w.e.style.dominantBaseline = 'hanging';
+
+  w.e.style.position = 'fixed';
+  w.e.style.zIndex = '-1';
+  w.e.style.top = 0;
+  w.e.style.left = 0;
+
+  document.body.append(w.e);
+
+  let pattern = penrose();
+
+  let pp = p => `${p[0]} ${p[1]}`;
+
+  function draw(rose, h)
+  {
+    let es = [];
+    let ps = inset(rose, h);
+
+    {
+      let d = `M ${pp(ps[0])} L ${pp(ps[1])} L ${ pp(ps[2]) }`;
+      if(h.alone)
+        d+= ` L ${pp(ps[0])}`;
+      let c = hsl(320, 50, 10);
+      let e = se('path', {fill: 'none', stroke: c, 'stroke-width': '1', d:d})
+
+      es.push(e);
+    }
+    return es;
+  }
+
+  let piece = 50;
+  let phi = (1+Math.sqrt(5))/2;
+  let sub = Math.round(Math.log(w.w*1.5/piece)/Math.log(phi));
+  let radius = piece*Math.pow(phi, sub);
+
+  let {rose, hs} = pattern.makeArc(radius, sub);
+
+  let es = hs.map(h => draw(rose, h)).flat();
+
+  while(w.e.firstChild)
+    w.e.removeChild(w.e.firstChild);
+  w.e.append(...es);
+}
+main5();
 
 elements();
