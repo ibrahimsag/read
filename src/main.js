@@ -1383,7 +1383,7 @@ function eh(a, b)
 
 function inset(rose, h)
 {
-  let t = 4;
+  let t = 5;
   let ps = [];
   let o = h.lefthand ? -1 : 1;
   let [p0, p1, p2] = h.is.map(i => rose.ps[i]);

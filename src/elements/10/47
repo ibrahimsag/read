@@ -1,25 +1,25 @@
 The square-root of (the sum of) two medial (areas) can be divided (into its component terms) at one point only.
 
-Let {AB} be [the square-root of (the sum of) two medial (areas)] which has been divided at {C}, such that {AC} and {CB} are incommensurable in square, making the sum of the (squares) on {AC} and {CB} medial, and the (rectangle contained) by {AC} and {CB} medial, and, moreover, incommensurable with the sum of the (squares) on ({AC} and {CB}) [Prop. 10.41].
-I say that {AB} cannot be divided at another point fulfilling the prescribed (conditions).
+Let {AB magnitude} be [the square-root of (the sum of) two medial (areas)] which has been divided at {C magnitude}, such that {AC magnitude} and {CB magnitude} are incommensurable in square, making the sum of the (squares) on {AC magnitude} and {CB magnitude} medial, and the (rectangle contained) by {AC magnitude} and {CB magnitude} medial, and, moreover, incommensurable with the sum of the (squares) on ({AC magnitude} and {CB magnitude}) [Prop. 10.41].
+I say that {AB magnitude} cannot be divided at another point fulfilling the prescribed (conditions).
 
-For, if possible, let it have been divided at {D}, such that {AC} is again manifestly not the same as {DB}, but {AC} (is), by hypothesis, greater.
-And let the rational (straight-line) {EF} be laid down.
-And let {EG}, equal to (the sum of) the (squares) on {AC} and {CB}, and {HK}, equal to twice the (rectangle contained) by {AC} and {CB}, have been applied to {EF}.
-Thus, the whole of {EK} is equal to the square on {AB} [Prop. 2.4].
-So, again, let {EL}, equal to (the sum of) the (squares) on {AD} and {DB}, have been applied to {EF}.
-Thus, the remainder---twice the (rectangle contained) by {AD} and {DB}---is equal to the remainder, {MK}.
-And since the sum of the (squares) on {AC} and {CB} was assumed (to be) medial, {EG} is also medial.
-And it is applied to the rational (straight-line) {EF}.
-{HE} is thus rational, and incommensurable in length with {EF} [Prop. 10.22].
-So, for the same (reasons), {HN} is also rational, and incommensurable in length with {EF}.
-And since the sum of the (squares) on {AC} and {CB} is incommensurable with twice the (rectangle contained) by {AC} and {CB}, {EG} is thus also incommensurable with {GN}.
-Hence, {EH} is also incommensurable with {HN} [Props. 6.1, 10.11].
+For, if possible, let it have been divided at {D point}, such that {AC magnitude} is again manifestly not the same as {DB magnitude}, but {AC magnitude} (is), by hypothesis, greater.
+And let the rational (straight-line) {EF line} be laid down.
+And let {EG polygon}, equal to (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, and {HK polygon}, equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, have been applied to {EF line}.
+Thus, the whole of {EK polygon} is equal to the square on {AB magnitude} [Prop. 2.4].
+So, again, let {EL polygon}, equal to (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, have been applied to {EF line}.
+Thus, the remainder---twice the (rectangle contained) by {AD magnitude} and {DB magnitude}---is equal to the remainder, {MK polygon}.
+And since the sum of the (squares) on {AC magnitude} and {CB magnitude} was assumed (to be) medial, {EG polygon} is also medial.
+And it is applied to the rational (straight-line) {EF line}.
+{HE line} is thus rational, and incommensurable in length with {EF line} [Prop. 10.22].
+So, for the same (reasons), {HN line} is also rational, and incommensurable in length with {EF line}.
+And since the sum of the (squares) on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, {EG polygon} is thus also incommensurable with {GN polygon}.
+Hence, {EH line} is also incommensurable with {HN line} [Props. 6.1, 10.11].
 And they are (both) rational (straight-lines).
-Thus, {EH} and {HN} are rational (straight-lines which are) commensurable in square only.
-Thus, {EN} is a binomial (straightline) which has been divided (into its component terms) at {H} [Prop. 10.36].
-So, similarly, we can show that it has also been (so) divided at {M}.
-And {EH} is not the same as {MN}.
+Thus, {EH line} and {HN line} are rational (straight-lines which are) commensurable in square only.
+Thus, {EN line} is a binomial (straightline) which has been divided (into its component terms) at {H point} [Prop. 10.36].
+So, similarly, we can show that it has also been (so) divided at {M point}.
+And {EH line} is not the same as {MN line}.
 Thus, a binomial (straight-line) has been divided (into its component terms) at different points.
 The very thing is absurd [Prop. 10.42].
 Thus, the square-root of (the sum of) two medial (areas) cannot be divided (into its component terms) at different points.

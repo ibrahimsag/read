@@ -1316,11 +1316,39 @@ function() {
 },
 
 function() {
+  let z = {};
+  let a = 160, b = 90, c = 100;
+  z.E = [0, 100];
+  [z.M, z.H, z.N] = [a, a+b, a+b+c].map(x => v2.add(z.E, [x, 0]));
+  [z.F, z.L, z.G, z.K] = [z.E, z.M, z.H, z.N].map(x => v2.add(x, [0, c]));
+
   return {
     title: 'Proposition 44',
     id: '10.44',
-    img: '/img/10/44',
     prose: prop44,
+    points: z,
+    letters: {
+      E: [1],
+      M: [1],
+      H: [1],
+      N: [1],
+      F: [5],
+      L: [5],
+      G: [5],
+      K: [5],
+    },
+    polygonl: {
+      EK: 'EFKN',
+      EG: 'EFGH',
+      HK: 'HGKN',
+      EL: 'EFLM',
+      MK: 'MLKN',
+    },
+    shapes: [
+      rg.polygon([z.E, z.F, z.K, z.N]),
+      rg.line(z.M, z.L),
+      rg.line(z.H, z.G),
+    ],
     mags: [
       { l: 'A', m: 110, p: [0, 0] },
       { l: 'D', m: 80 },
@@ -1334,8 +1362,13 @@ function() {
   return {
     title: 'Proposition 45',
     id: '10.45',
-    img: '/img/10/45',
     prose: prop45,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
@@ -1343,17 +1376,60 @@ function() {
   return {
     title: 'Proposition 46',
     id: '10.46',
-    img: '/img/10/46',
     prose: prop46,
+    mags: [
+      { l: 'A', m: 110, p: [0, 0] },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let w = v2.s(v2.x, 280), h1 = v2.s(v2.y, 70), h2 = v2.s(v2.y, 40);
+  z.E = v2.s(v2.y, 50);
+  z.F = v2.add(z.E, w);
+  z.M = v2.add(z.E, h1);
+  z.H = v2.add(z.M, h2);
+  z.N = v2.add(z.H, h1);
+  [z.L, z.G, z.K] = [z.M, z.H, z.N].map(x => v2.add(x, w));
+
   return {
     title: 'Proposition 47',
     id: '10.47',
-    img: '/img/10/47',
     prose: prop47,
+    letters: {
+      E: [3],
+      M: [3],
+      H: [3],
+      N: [3],
+      F: [7],
+      L: [7],
+      G: [7],
+      K: [7],
+    },
+    points: z,
+    shapes: [
+      rg.polygon([z.E, z.N, z.K, z.F]),
+      rg.line(z.M, z.L),
+      rg.line(z.H, z.G),
+    ],
+    polygonl: {
+      EG: 'EFGH',
+      HK: 'HGKN',
+      EK: 'EFKN',
+      EL: 'EFLM',
+      MK: 'MLKN',
+      GN: 'HGKN',
+    },
+    mags: [
+      { l: 'A', m: 110, p: v2.o },
+      { l: 'D', m: 80 },
+      { l: 'C', m: 90 },
+      { l: 'B' }
+    ]
   };
 },
 

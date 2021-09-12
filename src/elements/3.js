@@ -889,7 +889,7 @@ function()
 
 function()
 {
-  const r = 150;
+  const r = 200;
   const E = [206, 206];
   const ef = vec2.rot([r, 0], Math.PI/4);
   const ed = vec2.rot(ef, -Math.PI/2);

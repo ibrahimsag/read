@@ -1,41 +1,41 @@
 A second bimedial (straight-line) can be divided (into its component terms) at one point only.
 
-Let {AB} be a second bimedial (straight-line) which has been divided at {C}, so that {AC} and {BC} are medial (straight-lines), commensurable in square only, (and) containing a medial (area) [Prop. 10.38].
-So, (it is) clear that {C} is not (located) at the point of bisection, since ({AC} and {BC}) are not commensurable in length.
-I say that {AB} cannot be (so) divided at another point.
+Let {AB magnitude} be a second bimedial (straight-line) which has been divided at {C point}, so that {AC magnitude} and {BC magnitude} are medial (straight-lines), commensurable in square only, (and) containing a medial (area) [Prop. 10.38].
+So, (it is) clear that {C point} is not (located) at the point of bisection, since ({AC magnitude} and {BC magnitude}) are not commensurable in length.
+I say that {AB magnitude} cannot be (so) divided at another point.
 
-For, if possible, let it also have been (so) divided at {D}, so that {AC} is not the same as {DB}, but {AC} (is), by hypothesis, greater.
-So, (it is) clear that (the sum of) the (squares) on {AD} and {DB} is also less than (the sum of) the (squares) on {AC} and {CB}, as we showed above [Prop. 10.41 lem.].
-And {AD} and {DB} are medial (straight-lines), commensurable in square only, (and) containing a medial (area).
-And let the rational (straight-line) {EF} be laid down.
-And let the rectangular parallelogram {EK}, equal to the (square) on {AB}, have been applied to {EF}.
-And let {EG}, equal to (the sum of) the (squares) on {AC} and {CB}, have been cut off (from {EK}).
-Thus, the remainder, {HK}, is equal to twice the (rectangle contained) by {AC} and {CB} [Prop. 2.4].
-So, again, let {EL}, equal to (the sum of) the (squares) on {AD} and {DB}---which was shown (to be) less than (the sum of) the (squares) on {AC} and {CB}---have been cut off (from {EK}).
-And, thus, the remainder, {MK}, (is) equal to twice the (rectangle contained) by {AD} and {DB}.
-And since (the sum of) the (squares) on {AC} and {CB} is medial, {EG} (is) thus [also] medial.
-And it is applied to the rational (straight-line) {EF}.
-Thus, {EH} is rational, and incommensurable in length with {EF} [Prop. 10.22].
-So, for the same (reasons), {HN} is also rational, and incommensurable in length with {EF}.
-And since {AC} and {CB} are medial (straight-lines which are) commensurable in square only, {AC} is thus incommensurable in length with {CB}.
-And as {AC} (is) to {CB}, so the (square) on {AC} (is) to the (rectangle contained) by {AC} and {CB} [Prop. 10.21 lem.].
-Thus, the (square) on {AC} is incommensurable with the (rectangle contained) by {AC} and {CB} [Prop. 10.11].
-But, (the sum of) the (squares) on {AC} and {CB} is commensurable with the (square) on {AC}.
-For, {AC} and {CB} are commensurable in square [Prop. 10.15].
-And twice the (rectangle contained) by {AC} and {CB} is commensurable with the (rectangle contained) by {AC} and {CB} [Prop. 10.6].
-And thus (the sum of) the squares on {AC} and {CB} is incommensurable with twice the (rectangle contained) by {AC} and {CB} [Prop. 10.13].
-But, {EG} is equal to (the sum of) the (squares) on {AC} and {CB}, and {HK} equal to twice the (rectangle contained) by {AC} and {CB}.
-Thus, {EG} is incommensurable with {HK}.
-Hence, {EH} is also incommensurable in length with {HN} [Props. 6.1, 10.11].
+For, if possible, let it also have been (so) divided at {D point}, so that {AC magnitude} is not the same as {DB magnitude}, but {AC magnitude} (is), by hypothesis, greater.
+So, (it is) clear that (the sum of) the (squares) on {AD magnitude} and {DB magnitude} is also less than (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, as we showed above [Prop. 10.41 lem.].
+And {AD magnitude} and {DB magnitude} are medial (straight-lines), commensurable in square only, (and) containing a medial (area).
+And let the rational (straight-line) {EF line} be laid down.
+And let the rectangular parallelogram {EK polygon}, equal to the (square) on {AB magnitude}, have been applied to {EF line}.
+And let {EG polygon}, equal to (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, have been cut off (from {EK polygon}).
+Thus, the remainder, {HK polygon}, is equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 2.4].
+So, again, let {EL polygon}, equal to (the sum of) the (squares) on {AD magnitude} and {DB magnitude}---which was shown (to be) less than (the sum of) the (squares) on {AC magnitude} and {CB magnitude}---have been cut off (from {EK polygon}).
+And, thus, the remainder, {MK polygon}, (is) equal to twice the (rectangle contained) by {AD magnitude} and {DB magnitude}.
+And since (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is medial, {EG polygon} (is) thus [also] medial.
+And it is applied to the rational (straight-line) {EF line}.
+Thus, {EH line} is rational, and incommensurable in length with {EF line} [Prop. 10.22].
+So, for the same (reasons), {HN line} is also rational, and incommensurable in length with {EF line}.
+And since {AC magnitude} and {CB magnitude} are medial (straight-lines which are) commensurable in square only, {AC magnitude} is thus incommensurable in length with {CB magnitude}.
+And as {AC magnitude} (is) to {CB magnitude}, so the (square) on {AC magnitude} (is) to the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.21 lem.].
+Thus, the (square) on {AC magnitude} is incommensurable with the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.11].
+But, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is commensurable with the (square) on {AC magnitude}.
+For, {AC magnitude} and {CB magnitude} are commensurable in square [Prop. 10.15].
+And twice the (rectangle contained) by {AC magnitude} and {CB magnitude} is commensurable with the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.6].
+And thus (the sum of) the squares on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.13].
+But, {EG polygon} is equal to (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, and {HK polygon} equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude}.
+Thus, {EG polygon} is polygon incommensurable with {HK polygon}.
+Hence, {EH line} is also incommensurable in length with {HN line} [Props. 6.1, 10.11].
 And (they are) rational (straight-lines).
-Thus, {EH} and {HN} are rational (straight-lines which are) commensurable in square only.
+Thus, {EH line} and {HN line} are rational (straight-lines which are) commensurable in square only.
 And if two rational (straight-lines which are) commensurable in square only are added together then the whole (straight-line) is that irrational called binomial [Prop. 10.36].
-Thus, {EN} is a binomial (straightline) which has been divided (into its component terms) at {H}.
-So, according to the same (reasoning), {EM} and {MN} can be shown (to be) rational (straight-lines which are) commensurable in square only.
-And {EN} will (thus) be a binomial (straight-line) which has been divided (into its component terms) at the different (points) {H} and {M} (which is absurd [Prop. 10.42]).
-And {EH} is not the same as {MN}, since (the sum of) the (squares) on {AC} and {CB} is greater than (the sum of) the (squares) on {AD} and {DB}.
-But, (the sum of) the (squares) on {AD} and {DB} is greater than twice the (rectangle contained) by {AD} and {DB} [Prop. 10.59 lem.].
-Thus, (the sum of) the (squares) on {AC} and {CB}---that is to say, {EG}---is also much greater than twice the (rectangle contained) by {AD} and {DB}---that is to say, {MK}.
-Hence, {EH} is also greater than {MN} [Prop. 6.1].
-Thus, {EH} is not the same as {MN}.
+Thus, {EN line} is a binomial (straightline) which has been divided (into its component terms) at {H point}.
+So, according to the same (reasoning), {EM line} and {MN line} can be shown (to be) rational (straight-lines which are) commensurable in square only.
+And {EN line} will (thus) be a binomial (straight-line) which has been divided (into its component terms) at the different (points) {H point} and {M point} (which is absurd [Prop. 10.42]).
+And {EH line} is not the same as {MN line}, since (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is greater than (the sum of) the (squares) on {AD magnitude} and {DB magnitude}.
+But, (the sum of) the (squares) on {AD magnitude} and {DB magnitude} is greater than twice the (rectangle contained) by {AD magnitude} and {DB magnitude} [Prop. 10.59 lem.].
+Thus, (the sum of) the (squares) on {AC magnitude} and {CB magnitude}---that is to say, {EG polygon}---is also much greater than twice the (rectangle contained) by {AD magnitude} and {DB magnitude}---that is to say, {MK polygon}.
+Hence, {EH line} is also greater than {MN line} [Prop. 6.1].
+Thus, {EH line} is not the same as {MN line}.
 (Which is) the very thing it was required to show.
