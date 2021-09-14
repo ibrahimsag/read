@@ -23,7 +23,7 @@ app.post('/store', (req, res) => {
     res.send({ message: 'missing parameters' });
     return;
   }
-  fs.writeFile(d.key, JSON.stringify(d.contents)).then(err => {
+  fs.writeFile(d.key, d.contents).then(err => {
     if(err)
     {
       console.error(err);

@@ -374,7 +374,7 @@ function makePR(rg, svg, cs)
         for(var k = 0; k < n; k++)
         {
           let prev_pos = pos;
-          pos = v2.add(prev_pos, [mag.m, 0]);
+          pos = v2.add(prev_pos, v2.s(v2.x, mag.m));
           section.shapes.push(rg.tick(pos));
           section.shapes.push(rg.line(prev_pos, pos));
           section.ticks.push(pos);
@@ -616,7 +616,8 @@ function makePR(rg, svg, cs)
   let vs = [];
   let us_ = [];
   let vs_ = [];
-  let last_p_id = -1;
+  let last_section_id = -1;
+  let last_section;
 
   function prepareDOM(proseEl, section)
   {
@@ -700,6 +701,7 @@ function makePR(rg, svg, cs)
 
   function present(o, section, hover_o, no_scroll)
   {
+    last_section = section;
     if(o == null)
     {
       o = section.i || 0;
@@ -736,7 +738,7 @@ function makePR(rg, svg, cs)
 
     let proseEl = document.querySelector('#proseContent');
     let auxColumnEl = document.querySelector('#auxColumn');
-    if(last_p_id != section.id)
+    if(last_section_id != section.id)
     {
       let titleEl = document.querySelector('#proseTitle');
       titleEl.innerText = section.title;
@@ -775,7 +777,7 @@ function makePR(rg, svg, cs)
       {
         fetch(section.img).then(resp => resp.json()).then(d =>
         {
-          if(last_p_id != section.id)
+          if(last_section_id != section.id)
             return;
 
           section.imgData = d;
@@ -788,7 +790,7 @@ function makePR(rg, svg, cs)
         let ps = section.imgs.map(img => fetch(img).then(resp => resp.json()));
         Promise.all(ps).then(ds =>
         {
-          if(last_p_id != section.id)
+          if(last_section_id != section.id)
             return;
 
           section.imgsData = ds;
@@ -986,7 +988,7 @@ function makePR(rg, svg, cs)
       }
     }
 
-    if(last_p_id != section.id)
+    if(last_section_id != section.id)
     {
       let r = g.getBBox();
       svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
@@ -994,7 +996,7 @@ function makePR(rg, svg, cs)
       svg.setAttribute('height', r.height + 100);
     }
 
-    last_p_id = section.id;
+    last_section_id = section.id;
 
     if(section.img && section.imgData)
     {
@@ -1107,6 +1109,82 @@ function makePR(rg, svg, cs)
     }
   }
 
+  let marks = {};
+  proxy.mark = (kind) =>
+  {
+    marks[last_section.i] = kind;
+  };
+
+  function store(key, contents)
+  {
+    let k = prompt("storage key:", key);
+    if(k)
+    {
+      var xhr = new XMLHttpRequest();
+      xhr.open("POST", "/store/", true);
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({
+        key: `src/elements/${k}`,
+        contents: contents
+      }));
+    }
+  }
+
+
+  proxy.collect = (i_book, i_section) =>
+  {
+    let paragraphs = last_section.prose.split('\n\n');
+    let new_paragraphs = []
+    let o = 0;
+    for(let paragraph_i = 0; paragraph_i < paragraphs.length; paragraph_i++)
+    {
+      let paragraph = paragraphs[paragraph_i];
+      let sentences = paragraph.split('\n');
+      let new_sentences = [];
+      for(let sentence_i = 0; sentence_i < sentences.length; sentence_i++)
+      {
+        let sentence = sentences[sentence_i];
+        let new_sentence = '';
+        let i_RE = /(\{[^\}]*\})/g;
+        let parts = sentence.split(i_RE).filter(x=>x);
+        let seen = false;
+        for(let part_i = 0; part_i < parts.length; part_i++)
+        {
+          let part = parts[part_i];
+
+          let mRE = /\{([a-zA-Z]+)[^\}]*\}/;
+          let m = part.match(mRE);
+          let new_part;
+          if(m)
+          {
+            if(marks[o])
+            {
+              new_part = ['{', m[1], ' ', marks[o], '}'].join('');
+            }
+            else
+              new_part = part;
+            o++;
+            seen = true;
+          }
+          else
+          {
+            new_part = part;
+          }
+
+          new_sentence += new_part;
+        }
+        if(!seen)
+        {
+          o++;
+        }
+        new_sentences.push(new_sentence);
+      }
+      new_paragraphs.push(new_sentences.join('\n'));
+    }
+    let new_prose = new_paragraphs.join('\n\n');
+    store(i_book+'/'+i_section, new_prose);
+  }
+
   return {present, proxy};
 }
 
@@ -1174,6 +1252,14 @@ function elements() {
 
     function keyHandler(e)
     {
+      if(e.key == "a")
+      {
+        pr.proxy.collect(i_book, id.split('.')[1]);
+      }
+      if(e.key == "m")
+      {
+        pr.proxy.mark("magnitude");
+      }
       if(e.key == "j" || e.keyCode == 39)
       {
         pr.proxy.moveon();
@@ -1541,7 +1627,7 @@ function penrose(kites)
   return {makeArc};
 }
 
-function main5()
+function bgtiles()
 {
 
   let w = {}, u = {}, v = {};
@@ -1594,6 +1680,6 @@ function main5()
     w.e.removeChild(w.e.firstChild);
   w.e.append(...es);
 }
-main5();
+bgtiles();
 
 elements();

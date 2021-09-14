@@ -1445,8 +1445,18 @@ function() {
   return {
     title: 'Proposition 48',
     id: '10.48',
-    img: '/img/10/48',
     prose: prop48,
+    mags: [
+      { l: 'H', m: 80, p: v2.s(v2.x, 190) },
+      { l: 'D', m: 120, p: v2.o },
+      { l: 'E', m: 170, v: 50 },
+      { l: 'F', m: 120 },
+      { l: 'G' },
+      { l: 'A', m: 120, v: 50 },
+      { l: 'C', m: 90 },
+      { l: 'B' }
+
+    ]
   };
 },
 
@@ -1454,8 +1464,17 @@ function() {
   return {
     title: 'Proposition 49',
     id: '10.49',
-    img: '/img/10/49',
     prose: prop49,
+    mags: [
+      { l: 'D', m: 200, p: v2.s(v2.x, 150) },
+      { l: 'H', m: 100, p: v2.o },
+      { l: 'E', m: 80, v: 50 },
+      { l: 'F', m: 200 },
+      { l: 'G' },
+      { l: 'A', m: 60, v: 50 },
+      { l: 'C', m: 150 },
+      { l: 'B' }
+    ]
   };
 },
 
