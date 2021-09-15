@@ -345,7 +345,7 @@ function makePR(rg, svg, cs)
       }
       else if(mag.v)
       {
-        pos = v2.add(last_pos, [0, mag.v]);
+        pos = v2.add(last_pos, v2.s(v2.y, mag.v));
         last_pos = pos;
       }
 
@@ -618,6 +618,7 @@ function makePR(rg, svg, cs)
   let vs_ = [];
   let last_section_id = -1;
   let last_section;
+  let marks = {};
 
   function prepareDOM(proseEl, section)
   {
@@ -740,6 +741,7 @@ function makePR(rg, svg, cs)
     let auxColumnEl = document.querySelector('#auxColumn');
     if(last_section_id != section.id)
     {
+      marks = {}
       let titleEl = document.querySelector('#proseTitle');
       titleEl.innerText = section.title;
 
@@ -1109,7 +1111,6 @@ function makePR(rg, svg, cs)
     }
   }
 
-  let marks = {};
   proxy.mark = (kind) =>
   {
     marks[last_section.i] = kind;

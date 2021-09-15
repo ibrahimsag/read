@@ -1,35 +1,35 @@
 To find a third binomial (straight-line).
 
-Let the two numbers {AC} and {CB} be laid down such that their sum {AB} has to {BC} the ratio which (some) square number (has) to (some) square number, and does not have to {AC} the ratio which (some) square number (has) to (some) square number.
-And let some other non-square number {D} also be laid down, and let it not have to each of {BA} and {AC} the ratio which (some) square number (has) to (some) square number.
-And let some rational straight-line {E} be laid down, and let it have been contrived that as {D} (is) to {AB}, so the (square) on {E} (is) to the (square) on {FG} [Prop. 10.6 corr.].
-Thus, the (square) on {E} is commensurable with the (square) on {FG} [Prop. 10.6].
-And {E} is a rational (straight-line).
-Thus, {FG} is also a rational (straight-line).
-And since {D} does not have to {AB} the ratio which (some) square number has to (some) square number, the (square) on {E} does not have to the (square) on {FG} the ratio which (some) square number (has) to (some) square number either.
-{E} is thus incommensurable in length with {FG} [Prop. 10.9].
-So, again, let it have been contrived that as the number {BA} (is) to {AC}, so the (square) on {FG} (is) to the (square) on {GH} [Prop. 10.6 corr.].
-Thus, the (square) on {FG} is commensurable with the (square) on {GH} [Prop. 10.6].
-And {FG} (is) a rational (straight-line).
-Thus, {GH} (is) also a rational (straight-line).
-And since {BA} does not have to {AC} the ratio which (some) square number (has) to (some) square number, the (square) on {FG} does not have to the (square) on {HG} the ratio which (some) square number (has) to (some) square number either.
-Thus, {FG} is incommensurable in length with {GH} [Prop. 10.9].
-{FG} and {GH} are thus rational (straight-lines which are) commensurable in square only.
-Thus, {FH} is a binomial (straight-line) [Prop. 10.36].
+Let the two numbers {AC magnitude} and {CB magnitude} be laid down such that their sum {AB magnitude} has to {BC magnitude} the ratio which (some) square number (has) to (some) square number, and does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number.
+And let some other non-square number {D magnitude} also be laid down, and let it not have to each of {BA magnitude} and {AC magnitude} the ratio which (some) square number (has) to (some) square number.
+And let some rational straight-line {E magnitude} be laid down, and let it have been contrived that as {D magnitude} (is) to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
+Thus, the (square) on {E magnitude} is commensurable with the (square) on {FG magnitude} [Prop. 10.6].
+And {E magnitude} is a rational (straight-line).
+Thus, {FG magnitude} is also a rational (straight-line).
+And since {D magnitude} does not have to {AB magnitude} the ratio which (some) square number has to (some) square number, the (square) on {E magnitude} does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
+{E magnitude} is thus incommensurable in length with {FG magnitude} [Prop. 10.9].
+So, again, let it have been contrived that as the number {BA magnitude} (is) to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude} [Prop. 10.6 corr.].
+Thus, the (square) on {FG magnitude} is commensurable with the (square) on {GH magnitude} [Prop. 10.6].
+And {FG magnitude} (is) a rational (straight-line).
+Thus, {GH magnitude} (is) also a rational (straight-line).
+And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {FG magnitude} does not have to the (square) on {HG magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {FG magnitude} is incommensurable in length with {GH magnitude} [Prop. 10.9].
+{FG magnitude} and {GH magnitude} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {FH magnitude} is a binomial (straight-line) [Prop. 10.36].
 So, I say that (it is) also a third (binomial straight-line).
 
-For since as {D} is to {AB}, so the (square) on {E} (is) to the (square) on {FG}, and as {BA} (is) to {AC}, so the (square) on {FG} (is) to the (square) on {GH}, thus, via equality, as {D} (is) to {AC}, so the (square) on {E} (is) to the (square) on {GH} [Prop. 5.22].
-And {D} does not have to {AC} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {E} does not have to the (square) on {GH} the ratio which (some) square number (has) to (some) square number either.
-Thus, {E} is incommensurable in length with {GH} [Prop. 10.9].
-And since as {BA} is to {AC}, so the (square) on {FG} (is) to the (square) on {GH}, the (square) on {FG} (is) thus greater than the (square) on {GH} [Prop. 5.14].
-Therefore, let (the sum of) the (squares) on {GH} and {K} be equal to the (square) on {FG}.
-Thus, via conversion, as {AB} [is] to {BC}, so the (square) on {FG} (is) to the (square) on {K} [Prop. 5.19 corr.].
-And {AB} has to {BC} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {FG} also has to the (square) on {K} the ratio which (some) square number (has) to (some) square number.
-Thus, {FG} [is] commensurable in length with {K} [Prop. 10.9].
-Thus, the square on {FG} is greater than (the square on) {GH} by the (square) on (some straight-line) commensurable (in length) with ({FG}).
-And {FG} and {GH} are rational (straight-lines which are) commensurable in square only, and neither of them is commensurable in length with {E}.
+For since as {D magnitude} is to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude}, and as {BA magnitude} (is) to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, thus, via equality, as {D magnitude} (is) to {AC magnitude}, so the (square) on {E magnitude} (is) to the (square) on {GH magnitude} [Prop. 5.22].
+And {D magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {E magnitude} does not have to the (square) on {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {E magnitude} is incommensurable in length with {GH magnitude} [Prop. 10.9].
+And since as {BA magnitude} is to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, the (square) on {FG magnitude} (is) thus greater than the (square) on {GH magnitude} [Prop. 5.14].
+Therefore, let (the sum of) the (squares) on {GH magnitude} and {K magnitude} be equal to the (square) on {FG magnitude}.
+Thus, via conversion, as {AB magnitude} [is] to {BC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {K magnitude} [Prop. 5.19 corr.].
+And {AB magnitude} has to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {FG magnitude} also has to the (square) on {K magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, {FG magnitude} [is] commensurable in length with {K magnitude} [Prop. 10.9].
+Thus, the square on {FG magnitude} is greater than (the square on) {GH magnitude} by the (square) on (some straight-line) commensurable (in length) with ({FG magnitude}).
+And {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only, and neither of them is commensurable in length with {E magnitude}.
 
-Thus, {FH} is a third binomial (straight-line) [Def. 10.7].
+Thus, {FH magnitude} is a third binomial (straight-line) [Def. 10.7].
 (Which is) the very thing it was required to show.

@@ -1,27 +1,27 @@
 To find a fourth binomial (straight-line).
 
-Let the two numbers {AC} and {CB} be laid down such that {AB} does not have to {BC}, or to {AC} either, the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
-And let the rational (straight-line) {D} be laid down.
-And let {EF} be commensurable in length with {D}.
-Thus, {EF} is also a rational (straight-line).
-And let it have been contrived that as the number {BA} (is) to {AC}, so the (square) on {EF} (is) to the (square) on {FG} [Prop. 10.6 corr.].
-Thus, the (square) on {EF} is commensurable with the (square) on {FG} [Prop. 10.6].
-Thus, {FG} is also a rational (straight-line).
-And since {BA} does not have to {AC} the ratio which (some) square number (has) to (some) square number, the (square) on {EF} does not have to the (square) on {FG} the ratio which (some) square number (has) to (some) square number either.
-Thus, {EF} is incommensurable in length with {FG} [Prop. 10.9].
-Thus, {EF} and {FG} are rational (straight-lines which are) commensurable in square only.
-Hence, {EG} is a binomial (straight-line) [Prop. 10.36].
+Let the two numbers {AC magnitude} and {CB magnitude} be laid down such that {AB magnitude} does not have to {BC magnitude}, or to {AC magnitude} either, the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
+And let the rational (straight-line) {D magnitude} be laid down.
+And let {EF magnitude} be commensurable in length with {D magnitude}.
+Thus, {EF magnitude} is also a rational (straight-line).
+And let it have been contrived that as the number {BA magnitude} (is) to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
+Thus, the (square) on {EF magnitude} is commensurable with the (square) on {FG magnitude} [Prop. 10.6].
+Thus, {FG magnitude} is also a rational (straight-line).
+And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {EF magnitude} does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {EF magnitude} is incommensurable in length with {FG magnitude} [Prop. 10.9].
+Thus, {EF magnitude} and {FG magnitude} are rational (straight-lines which are) commensurable in square only.
+Hence, {EG magnitude} is a binomial (straight-line) [Prop. 10.36].
 So, I say that (it is) also a fourth (binomial straight-line).
 
-For since as {BA} is to {AC}, so the (square) on {EF} (is) to the (square) on {FG} [and {BA} (is) greater than {AC}], the (square) on {EF} (is) thus greater than the (square) on {FG} [Prop. 5.14].
-Therefore, let (the sum of) the squares on {FG} and {H} be equal to the (square) on {EF}.
-Thus, via conversion, as the number {AB} (is) to {BC}, so the (square) on {EF} (is) to the (square) on {H} [Prop. 5.19 corr.].
-And {AB} does not have to {BC} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {EF} does not have to the (square) on {H} the ratio which (some) square number (has) to (some) square number either.
-Thus, {EF} is incommensurable in length with {H} [Prop. 10.9].
-Thus, the square on {EF} is greater than (the square on) {GF} by the (square) on (some straight-line) incommensurable (in length) with ({EF}).
-And {EF} and {FG} are rational (straight-lines which are) commensurable in square only.
-And {EF} is commensurable in length with {D}.
+For since as {BA magnitude} is to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude} [and {BA magnitude} (is) greater than {AC magnitude}], the (square) on {EF magnitude} (is) thus greater than the (square) on {FG magnitude} [Prop. 5.14].
+Therefore, let (the sum of) the squares on {FG magnitude} and {H magnitude} be equal to the (square) on {EF magnitude}.
+Thus, via conversion, as the number {AB magnitude} (is) to {BC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
+And {AB magnitude} does not have to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {EF magnitude} does not have to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {EF magnitude} is incommensurable in length with {H magnitude} [Prop. 10.9].
+Thus, the square on {EF magnitude} is greater than (the square on) {GF magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({EF magnitude}).
+And {EF magnitude} and {FG magnitude} are rational (straight-lines which are) commensurable in square only.
+And {EF magnitude} is commensurable in length with {D magnitude}.
 
-Thus, {EG} is a fourth binomial (straight-line) [Def. 10.8].
+Thus, {EG magnitude} is a fourth binomial (straight-line) [Def. 10.8].
 (Which is) the very thing it was required to show.
