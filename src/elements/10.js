@@ -1554,10 +1554,46 @@ function() {
 },
 
 function() {
+  let z = {}, s = 250, t = 60;
+  z.K = v2.o;
+  z.A = v2.add(z.K, v2.s(v2.y, s));
+  z.C = v2.add(z.K, v2.s(v2.x, s));
+  z.H = v2.add(z.A, v2.s(v2.x, s));
+  z.G = v2.sub(z.C, v2.s(v2.x, t));
+  z.D = v2.add(z.K, v2.s(v2.y, t));
+  z.B = v2.add(z.G, v2.s(v2.y, t));
+  z.E = v2.add(z.C, v2.s(v2.y, t));
+  z.F = v2.sub(z.H, v2.s(v2.x, t));
+
   return {
     title: 'Lemma',
     id: '10.53-lem',
-    img: '/img/10/l8',
+    points: z,
+    letters: {
+      K: [1],
+      G: [1],
+      C: [1],
+      D: [3],
+      B: [4],
+      A: [5],
+      F: [5],
+      H: [5],
+      E: [7],
+    },
+    polygonl: {
+      AB: 'AFBD',
+      BC: 'BECG',
+      CB: 'BECG',
+      AC: 'AHCK',
+      DG: 'DBGK',
+      DC: 'DECK',
+      CD: 'DECK',
+    },
+    shapes: [
+      rg.polygon([z.K, z.A, z.H, z.C]),
+      rg.line(z.D, z.E),
+      rg.line(z.G, z.F)
+    ],
     prose: propl8,
   };
 },

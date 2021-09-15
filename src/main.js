@@ -235,12 +235,20 @@ function makeRG()
       if (h.name.length == 2)
       {
         let ms = figure.polygonl[h.name];
+        if(!ms)
+        {
+          console.log(ns, 'needs polygonl');
+          return [];
+        }
+
         if(typeof ns === "string")
           points = ms.split('').map(l => figure.points[l]);
         else if(ns && ns.join)
           points = ms;
         else
-          points = ns.split('').map(l => figure.points[l]);
+        {
+          console.error('wtf');
+        }
       }
       else
       {
@@ -1160,6 +1168,13 @@ function makePR(rg, svg, cs)
           {
             if(marks[o])
             {
+              if(marks[o] === "polygon" && m[1].length === 2)
+              {
+                if(!last_section.polygonl || !last_section.polygonl[m[1]])
+                {
+                  console.log(m[1], 'needs polygonl')
+                }
+              }
               new_part = ['{', m[1], ' ', marks[o], '}'].join('');
             }
             else
@@ -1256,6 +1271,14 @@ function elements() {
       if(e.key == "a")
       {
         pr.proxy.collect(i_book, id.split('.')[1]);
+      }
+      if(e.key == "l")
+      {
+        pr.proxy.mark("line");
+      }
+      if(e.key == "p")
+      {
+        pr.proxy.mark("polygon");
       }
       if(e.key == "m")
       {
