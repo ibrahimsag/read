@@ -1,23 +1,23 @@
 If an area is contained by a rational (straight-line) and a fifth binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called the square-root of a rational plus a medial (area).
 
-For let the area {AC} be contained by the rational (straight-line) {AB} and the fifth binomial (straight-line) {AD}, which has been divided into its (component) terms at {E}, such that {AE} is the greater term.
-[So] I say that the square-root of area {AC} is the irrational (straight-line which is) called the square-root of a rational plus a medial (area).
+For let the area {AC polygon} be contained by the rational (straight-line) {AB line} and the fifth binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, such that {AE line} is the greater term.
+[So] I say that the square-root of area {AC polygon} is the irrational (straight-line which is) called the square-root of a rational plus a medial (area).
 
 For let the same construction be made as that shown previously.
-So, (it is) clear that {MO} is the square-root of area {AC}.
-So, we must show that {MO} is the square-root of a rational plus a medial (area).
+So, (it is) clear that {MO line} is the square-root of area {AC polygon}.
+So, we must show that {MO line} is the square-root of a rational plus a medial (area).
 
-For since {AG} is incommensurable (in length) with {GE} [Prop. 10.18], {AH} is thus also incommensurable with {HE}---that is to say, the (square) on {MN} with the (square) on {NO} [Props. 6.1, 10.11].
-Thus, {MN} and {NO} are incommensurable in square.
-And since {AD} is a fifth binomial (straight-line), and {ED} [is] its lesser segment, {ED} (is) thus commensurable in length with {AB} [Def. 10.9].
-But, {AE} is incommensurable (in length) with {ED}.
-Thus, {AB} is also incommensurable in length with {AE} [{BA} and {AE} are rational (straight-lines which are) commensurable in square only] [Prop. 10.13].
-Thus, {AK} ---that is to say, the sum of the (squares) on {MN} and {NO}---is medial [Prop. 10.21].
-And since {DE} is commensurable in length with {AB}---that is to say, with {EK}---but, {DE} is commensurable (in length) with {EF}, {EF} is thus also commensurable (in length) with {EK} [Prop. 10.12].
-And {EK} (is) rational.
-Thus, {EL}---that is to say, {MR}---that is to say, the (rectangle contained) by {MNO}---(is) also rational [Prop. 10.19].
-{MN} and {NO} are thus (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
+For since {AG line} is incommensurable (in length) with {GE line} [Prop. 10.18], {AH polygon} is thus also incommensurable with {HE polygon}---that is to say, the (square) on {MN line} with the (square) on {NO line} [Props. 6.1, 10.11].
+Thus, {MN line} and {NO line} are incommensurable in square.
+And since {AD line} is a fifth binomial (straight-line), and {ED line} [is] its lesser segment, {ED line} (is) thus commensurable in length with {AB line} [Def. 10.9].
+But, {AE line} is incommensurable (in length) with {ED line}.
+Thus, {AB line} is also incommensurable in length with {AE line} [{BA line} and {AE line} are rational (straight-lines which are) commensurable in square only] [Prop. 10.13].
+Thus, {AK polygon} ---that is to say, the sum of the (squares) on {MN line} and {NO line}---is medial [Prop. 10.21].
+And since {DE line} is commensurable in length with {AB line}---that is to say, with {EK line}---but, {DE line} is commensurable (in length) with {EF line}, {EF line} is thus also commensurable (in length) with {EK line} [Prop. 10.12].
+And {EK line} (is) rational.
+Thus, {EL polygon}---that is to say, {MR polygon}---that is to say, the (rectangle contained) by {MN line} and {NO line}---(is) also rational [Prop. 10.19].
+{MN line} and {NO line} are thus (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
 
-Thus, {MO} is the square-root of a rational plus a medial (area) [Prop. 10.40].
-And (it is) the square-root of area {AC}.
+Thus, {MO line} is the square-root of a rational plus a medial (area) [Prop. 10.40].
+And (it is) the square-root of area {AC polygon}.
 (Which is) the very thing it was required to show.

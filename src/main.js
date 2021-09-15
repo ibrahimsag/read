@@ -241,13 +241,13 @@ function makeRG()
           return [];
         }
 
-        if(typeof ns === "string")
+        if(typeof ms === "string")
           points = ms.split('').map(l => figure.points[l]);
-        else if(ns && ns.join)
+        else if(ms && ms.join)
           points = ms;
         else
         {
-          console.error('wtf');
+          console.error('wtf', ns, ms);
         }
       }
       else
@@ -1271,6 +1271,10 @@ function elements() {
       if(e.key == "a")
       {
         pr.proxy.collect(i_book, id.split('.')[1]);
+      }
+      if(e.key == "o")
+      {
+        pr.proxy.mark("point");
       }
       if(e.key == "l")
       {

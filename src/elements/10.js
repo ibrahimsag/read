@@ -128,8 +128,71 @@ import prop113 from './10/113';
 import prop114 from './10/114';
 import prop115 from './10/115';
 
+
 function book(rg)
 {
+let fig54 = (function() {
+  let z = {};
+  z.A = v2.o;
+  z.G = v2.add(z.A, v2.s(v2.x, 100));
+  z.E = v2.add(z.G, v2.s(v2.x, 30));
+  z.F = v2.add(z.E, v2.s(v2.x, 50));
+  z.D = v2.add(z.F, v2.s(v2.x, 50));
+  [z.B, z.H, z.K, z.L, z.C] = [z.A, z.G, z.E, z.F, z.D].map(x => v2.add(x, v2.s(v2.y, 80)));
+  z.S2 = v2.s(v2.y, 150);
+  z.R = v2.add(z.S2, v2.s(v2.x, 110));
+  z.Q = v2.add(z.S2, v2.s(v2.x, 160));
+  [z.M, z.N, z.O] = [z.S2, z.R, z.Q].map(x=> v2.add(x, v2.s(v2.y, 50)));
+  [z.S, z.P, z.Q2] = [z.S2, z.R, z.Q].map(x=> v2.add(x, v2.s(v2.y, 160)));
+
+  return {
+    letters: {
+      A: [1],
+      G: [1],
+      E: [1],
+      F: [1],
+      D: [1],
+      B: [5],
+      H: [5],
+      K: [5],
+      L: [5],
+      C: [5],
+      S: [4],
+      M: [3],
+      R: [1],
+      Q: [0],
+      N: [6],
+      O: [7],
+      P: [5]
+    },
+    points: z,
+    shapes: [
+      rg.polygon([z.A, z.B, z.C, z.D]),
+      rg.line(z.G, z.H),
+      rg.line(z.E, z.K),
+      rg.line(z.F, z.L),
+      rg.polygon([z.S2, z.S, z.Q2, z.Q]),
+      rg.line(z.M, z.O),
+      rg.line(z.R, z.P),
+    ],
+    polygonl: {
+      AC: 'ABCD',
+      SN: 'SPNM',
+      AH: 'ABHG',
+      HE: 'HKEG',
+      AK: 'ABKE',
+      NQ: 'NOQR',
+      GK: 'GHKE',
+      SQ: [z.S, z.Q2, z.Q, z.S2],
+      EL: 'EKLF',
+      LE: 'EKLF',
+      KG: 'GHKE',
+      MR: [z.M, z.N, z.R, z.S2],
+      PO: [z.P, z.Q2, z.O, z.N],
+    },
+  };
+})();
+
   return [
 function() {
   return {
@@ -1599,11 +1662,12 @@ function() {
 },
 
 function() {
+
   return {
     title: 'Proposition 54',
     id: '10.54',
-    img: '/img/10/54',
     prose: prop54,
+    ...fig54
   };
 },
 
@@ -1611,8 +1675,8 @@ function() {
   return {
     title: 'Proposition 55',
     id: '10.55',
-    img: '/img/10/55',
     prose: prop55,
+    ...fig54
   };
 },
 
@@ -1620,8 +1684,8 @@ function() {
   return {
     title: 'Proposition 56',
     id: '10.56',
-    img: '/img/10/56',
     prose: prop56,
+    ...fig54
   };
 },
 
@@ -1629,8 +1693,8 @@ function() {
   return {
     title: 'Proposition 57',
     id: '10.57',
-    img: '/img/10/57',
     prose: prop57,
+    ...fig54
   };
 },
 
@@ -1638,8 +1702,8 @@ function() {
   return {
     title: 'Proposition 58',
     id: '10.58',
-    img: '/img/10/58',
     prose: prop58,
+    ...fig54
   };
 },
 
@@ -1647,8 +1711,8 @@ function() {
   return {
     title: 'Proposition 59',
     id: '10.59',
-    img: '/img/10/59',
     prose: prop59,
+    ...fig54
   };
 },
 

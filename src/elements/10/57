@@ -1,28 +1,28 @@
 If an area is contained by a rational (straight-line) and a fourth binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called major.
 
-For let the area {AC} be contained by the rational (straight-line) {AB} and the fourth binomial (straight-line) {AD}, which has been divided into its (component) terms at {E}, of which let {AE} be the greater.
-I say that the square-root of {AC} is the irrational (straight-line which is) called major.
+For let the area {AC polygon} be contained by the rational (straight-line) {AB line} and the fourth binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, of which let {AE line} be the greater.
+I say that the square-root of {AC polygon} is the irrational (straight-line which is) called major.
 
-For since {AD} is a fourth binomial (straight-line), {AE} and {ED} are thus rational (straight-lines which are) commensurable in square only, and the square on {AE} is greater than (the square on) {ED} by the (square) on (some straight-line) incommensurable (in length) with ({AE}), and {AE} [is] commensurable in length with {AB} [Def. 10.8].
-Let {DE} have been cut in half at {F}, and let the parallelogram (contained by) {AG} and {GE}, equal to the (square) on {EF}, (and falling short by a square figure) have been applied to {AE}.
-{AG} is thus incommensurable in length with {GE} [Prop. 10.18].
-Let {GH}, {EK}, and {FL} have been drawn parallel to {AB}, and let the rest (of the construction) have been made the same as the (proposition) before this.
-So, it is clear that {MO} is the square-root of area {AC}.
-So, we must show that {MO} is the irrational (straight-line which is) called major.
+For since {AD line} is a fourth binomial (straight-line), {AE line} and {ED line} are thus rational (straight-lines which are) commensurable in square only, and the square on {AE line} is greater than (the square on) {ED line} by the (square) on (some straight-line) incommensurable (in length) with ({AE line}), and {AE line} [is] commensurable in length with {AB line} [Def. 10.8].
+Let {DE line} have been cut in half at {F point}, and let the parallelogram (contained by) {AG line} and {GE line}, equal to the (square) on {EF line}, (and falling short by a square figure) have been applied to {AE line}.
+{AG line} is thus incommensurable in length with {GE line} [Prop. 10.18].
+Let {GH line}, {EK line}, and {FL line} have been drawn parallel to {AB line}, and let the rest (of the construction) have been made the same as the (proposition) before this.
+So, it is clear that {MO line} is the square-root of area {AC polygon}.
+So, we must show that {MO line} is the irrational (straight-line which is) called major.
 
-Since {AG} is incommensurable in length with {EG}, {AH} is also incommensurable with {GK}---that is to say, {SN} with {NQ} [Props. 6.1, 10.11].
-Thus, {MN} and {NO} are incommensurable in square.
-And since {AE} is commensurable in length with {AB}, {AK} is rational [Prop. 10.19].
-And it is equal to the (sum of the squares) on {MN} and {NO}.
-Thus, the sum of the (squares) on {MN} and {NO} [is] also rational.
-And since {DE} [is] incommensurable in length with {AB} [Prop. 10.13]---that is to say, with {EK}---but {DE} is commensurable (in length) with {EF}, {EF} (is) thus incommensurable in length with {EK} [Prop. 10.13].
-Thus, {EK} and {EF} are rational (straight-lines which are) commensurable in square only.
-{LE}---that is to say, {MR}---(is) thus medial [Prop. 10.21].
-And it is contained by {MN} and {NO}.
-The (rectangle contained) by {MN} and {NO} is thus medial.
-And the [sum] of the (squares) on {MN} and {NO} (is) rational, and {MN} and {NO} are incommensurable in square.
+Since {AG line} is incommensurable in length with {EG line}, {AH polygon} is also incommensurable with {GK polygon}---that is to say, {SN polygon} with {NQ polygon} [Props. 6.1, 10.11].
+Thus, {MN line} and {NO line} are incommensurable in square.
+And since {AE line} is commensurable in length with {AB line}, {AK polygon} is rational [Prop. 10.19].
+And it is equal to the (sum of the squares) on {MN line} and {NO line}.
+Thus, the sum of the (squares) on {MN line} and {NO line} [is] also rational.
+And since {DE line} [is] incommensurable in length with {AB line} [Prop. 10.13]---that is to say, with {EK line}---but {DE line} is commensurable (in length) with {EF line}, {EF line} (is) thus incommensurable in length with {EK line} [Prop. 10.13].
+Thus, {EK line} and {EF line} are rational (straight-lines which are) commensurable in square only.
+{LE polygon}---that is to say, {MR polygon}---(is) thus medial [Prop. 10.21].
+And it is contained by {MN line} and {NO line}.
+The (rectangle contained) by {MN line} and {NO line} is thus medial.
+And the [sum] of the (squares) on {MN line} and {NO line} (is) rational, and {MN line} and {NO line} are incommensurable in square.
 And if two straight-lines (which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial, are added together, then the whole is the irrational (straight-line which is) called major [Prop. 10.39].
 
-Thus, {MO} is the irrational (straight-line which is) called major.
-And (it is) the square-root of area {AC}.
+Thus, {MO line} is the irrational (straight-line which is) called major.
+And (it is) the square-root of area {AC polygon}.
 (Which is) the very thing it was required to show.
