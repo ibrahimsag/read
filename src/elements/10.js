@@ -193,6 +193,63 @@ let fig54 = (function() {
   };
 })();
 
+let fig60 = (function() {
+  let z = {};
+  z.D = v2.s(v2.y, 50);
+  let f = (a) => { var b = 0; return a.map(x => { b+=x; return b}); };
+  [z.K, z.M, z.N, z.G] = f([150, 50, 90, 90])
+    .map(p => v2.add(v2.s(v2.x, p), z.D));
+  [z.E, z.H, z.L, z.O, z.F] = [z.D, z.K, z.M, z.N, z.G].map(p => v2.add(p, v2.s(v2.y, 150)));
+  return {
+    mags: [
+      { l: 'A', m: 150, p: v2.o },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ],
+    points: z,
+    letters: {
+      D: [1],
+      K: [1],
+      M: [1],
+      N: [1],
+      G: [1],
+      E: [5],
+      H: [5],
+      L: [5],
+      O: [5],
+      F: [5],
+    },
+    shapes: [
+      rg.polygon([z.D, z.E, z.F, z.G]),
+      rg.line(z.K, z.H),
+      rg.line(z.M, z.L),
+      rg.line(z.N, z.O),
+    ],
+    polygonl: {
+      DH: 'DEHK',
+      KL: 'KHLM',
+      MF: 'MLFG',
+      MO: 'MLON',
+      NF: 'NOFG',
+      DL: 'DELM',
+      DF: 'DEFG'
+    }
+  };
+})();
+
+let fig66 = (function() {
+  return {
+    mags: [
+      { l: 'A', m: 150, p: v2.o },
+      { l: 'E', m: 70 },
+      { l: 'B' },
+      { l: 'C', m: 190, v: 50 },
+      { l: 'F', m: 100 },
+      { l: 'D' }
+    ],
+  };
+})();
+
   return [
 function() {
   return {
@@ -1720,8 +1777,13 @@ function() {
   return {
     title: 'Lemma',
     id: '10.59-lem',
-    img: '/img/10/l9',
     prose: propl9,
+    mags: [
+      { l: 'A', m: 150, p: v2.o },
+      { l: 'D', m: 50 },
+      { l: 'C', m: 100 },
+      { l: 'B' }
+    ]
   };
 },
 
@@ -1729,8 +1791,8 @@ function() {
   return {
     title: 'Proposition 60',
     id: '10.60',
-    img: '/img/10/60',
     prose: prop60,
+    ...fig60
   };
 },
 
@@ -1738,8 +1800,8 @@ function() {
   return {
     title: 'Proposition 61',
     id: '10.61',
-    img: '/img/10/61',
     prose: prop61,
+    ...fig60
   };
 },
 
@@ -1747,8 +1809,8 @@ function() {
   return {
     title: 'Proposition 62',
     id: '10.62',
-    img: '/img/10/62',
     prose: prop62,
+    ...fig60
   };
 },
 
@@ -1756,8 +1818,8 @@ function() {
   return {
     title: 'Proposition 63',
     id: '10.63',
-    img: '/img/10/63',
     prose: prop63,
+    ...fig60
   };
 },
 
@@ -1765,8 +1827,8 @@ function() {
   return {
     title: 'Proposition 64',
     id: '10.64',
-    img: '/img/10/64',
     prose: prop64,
+    ...fig60
   };
 },
 
@@ -1774,8 +1836,8 @@ function() {
   return {
     title: 'Proposition 65',
     id: '10.65',
-    img: '/img/10/65',
     prose: prop65,
+    ...fig60
   };
 },
 
@@ -1783,8 +1845,8 @@ function() {
   return {
     title: 'Proposition 66',
     id: '10.66',
-    img: '/img/10/66',
     prose: prop66,
+    ...fig66
   };
 },
 
@@ -1792,8 +1854,8 @@ function() {
   return {
     title: 'Proposition 67',
     id: '10.67',
-    img: '/img/10/67',
     prose: prop67,
+    ...fig66
   };
 },
 
@@ -1801,8 +1863,8 @@ function() {
   return {
     title: 'Proposition 68',
     id: '10.68',
-    img: '/img/10/68',
     prose: prop68,
+    ...fig66
   };
 },
 
@@ -1810,8 +1872,8 @@ function() {
   return {
     title: 'Proposition 69',
     id: '10.69',
-    img: '/img/10/69',
     prose: prop69,
+    ...fig66
   };
 },
 
@@ -1819,8 +1881,8 @@ function() {
   return {
     title: 'Proposition 70',
     id: '10.70',
-    img: '/img/10/70',
     prose: prop70,
+    ...fig66
   };
 },
 
