@@ -111,7 +111,7 @@ function make(colors)
     },
 
     prose: {
-      marginRight: 512,
+      marginLeft: 600,
       width: 512,
       padding: [[12, 12, 62, 12]],
       '& a': {
@@ -121,7 +121,7 @@ function make(colors)
       '& p': {
         lineHeight: '2em',
         marginBottom: '2em',
-        textAlign: 'right',
+        textAlign: 'left',
       },
     },
 
@@ -140,7 +140,7 @@ function make(colors)
 
       position: 'fixed',
       bottom: 0,
-      left: 0,
+      left: 500,
 
       flex: '0 0 auto',
       display: 'flex',
@@ -167,18 +167,17 @@ function make(colors)
       alignItems: 'center',
     },
 
-    auxColumn: {
+    figColumn: {
       transition: 'all 0.7s ease',
 
-      width: 512,
+      width: 600,
 
       position: 'fixed',
-      left: 512,
       top: 76,
 
       display: 'flex',
       flexDirection: 'column',
-      alignItems: 'flex-start',
+      alignItems: 'flex-end',
     },
 
     c_dim: { color: colors.dim },

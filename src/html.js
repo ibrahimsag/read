@@ -119,6 +119,9 @@ function make(colors, cs)
       <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
     </div>
   </div>
+  <div id="figColumn" class="${cs.figColumn}">
+    <svg id="figure" viewbox="0 0 512 512"></svg>
+  </div>
   <div class="${cs.prose}">
     <div class="${cs.proseHeading}">
       <div class="${cs.sectionNav} ${cs.link}" id="prev-section">before</div>
@@ -126,9 +129,6 @@ function make(colors, cs)
       <div id="proseTitle" class="${cs.proseTitle}"></div>
     </div>
     <div id="proseContent"></div>
-  </div>
-  <div id="auxColumn" class="${cs.auxColumn}">
-    <svg id="figure" viewbox="0 0 512 512"></svg>
   </div>
   <div class="${cs.movement}">
     <a id="move-back" class="${cs.moveBack}"></a>

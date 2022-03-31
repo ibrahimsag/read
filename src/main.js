@@ -746,7 +746,7 @@ function makePR(rg, svg, cs)
     }
 
     let proseEl = document.querySelector('#proseContent');
-    let auxColumnEl = document.querySelector('#auxColumn');
+    let figColumnEl = document.querySelector('#figColumn');
     if(last_section_id != section.id)
     {
       marks = {}
@@ -755,7 +755,7 @@ function makePR(rg, svg, cs)
 
       prepareDOM(proseEl, section);
 
-      auxColumnEl.querySelectorAll('.given').forEach(el => auxColumnEl.removeChild(el));
+      figColumnEl.querySelectorAll('.given').forEach(el => figColumnEl.removeChild(el));
 
       let installSVG = () => {
         let mark = de('div');
@@ -780,7 +780,7 @@ function makePR(rg, svg, cs)
           }
         }
 
-        auxColumnEl.insertBefore(mark, auxColumnEl.firstChild);
+        figColumnEl.insertBefore(mark, figColumnEl.firstChild);
       }
 
       if(section.img && !section.imgData)
@@ -1010,7 +1010,7 @@ function makePR(rg, svg, cs)
 
     if(section.img && section.imgData)
     {
-      let imgEl = auxColumnEl.querySelector('.given svg');
+      let imgEl = figColumnEl.querySelector('.given svg');
       let letterColor = {};
       let f = c => h => {
         h.name.split('').forEach(l => letterColor[l] = c);
@@ -1029,7 +1029,7 @@ function makePR(rg, svg, cs)
     }
     else if(section.imgs && section.imgsData)
     {
-      let imgEls = auxColumnEl.querySelectorAll('.given svg');
+      let imgEls = figColumnEl.querySelectorAll('.given svg');
       for(let i = 0; i < section.imgsData.length; i++)
       {
         let imgEl = imgEls[i];
@@ -1308,7 +1308,7 @@ function elements() {
       }
       else if(e.key == "h")
       {
-        let s = document.querySelector('#auxColumn .given');
+        let s = document.querySelector('#figColumn .given');
         if(s)
         {
           if(s.style.display != "none")
@@ -1462,9 +1462,8 @@ function elements() {
     }
     let h = Math.min(512, window.innerHeight - Math.min(76, t));
 
-    let rule = sheet.getRule('auxColumn');
+    let rule = sheet.getRule('figColumn');
     rule.prop('top', t);
-    rule.prop('width', h);
     rule.prop('height', h);
   }
 
