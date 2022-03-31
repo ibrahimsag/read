@@ -250,6 +250,81 @@ let fig66 = (function() {
   };
 })();
 
+let fig71 = (function() {
+  let z = {};
+  [z.A, z.C, z.A1,
+    z.D1, z.B, z.D] = [0, 250].map(y => [0, 70, 120].map(x=>[x,y])).flat();
+  [z.E, z.H, z.K,
+    z.F, z.G, z.I] = [0, 170].map(y => [170, 270, 340].map(x=>[x,y])).flat();
+  return {
+    points: z,
+    letters: { 
+      A: [1],
+      C: [1],
+      E: [1],
+      H: [1],
+      K: [1],
+      B: [5],
+      D: [5],
+      F: [5],
+      G: [5],
+      I: [5],
+    },
+    shapes: [
+      rg.polygon([z.A, z.D1, z.D, z.A1]),
+      rg.polygon([z.E, z.F, z.I, z.K]),
+      rg.line(z.C, z.B),
+      rg.line(z.H, z.G)
+    ],
+    polygonl: {
+      AB: [z.A, z.D1, z.B, z.C],
+      AD: [z.A, z.D1, z.D, z.A1],
+      CD: [z.C, z.B, z.D, z.A1],
+      DC: [z.C, z.B, z.D, z.A1],
+      EG: 'EFGH',
+      EI: 'EFIK',
+      HI: 'HGIK',
+    }
+  };
+})();
+
+let fig73 = (function() {
+  return {
+    mags: [
+      { l: 'A', m: 90, p: v2.o },
+      { l: 'C', m: 180 },
+      { l: 'B' },
+    ]
+  };
+})();
+
+let fig75 = (function() {
+  let z = {};
+  [z.D, z.F, z.G,
+    z.I, z.H, z.E] = [50, 220].map(y => [0, 150, 270].map(x=>[x,y])).flat()
+  return {
+    ...fig73,
+    points: z,
+    letters: {
+      D: [1],
+      F: [1],
+      G: [1],
+      I: [5],
+      H: [5],
+      E: [5],
+    },
+    shapes: [
+      rg.polygon([z.D, z.I, z.E, z.G]),
+      rg.line(z.F, z.H)
+    ],
+    polygonl: {
+      DH: 'DIHF',
+      DE: 'DIEG',
+      FE: 'FHEG',
+    }
+  };
+})();
+
   return [
 function() {
   return {
@@ -1890,8 +1965,8 @@ function() {
   return {
     title: 'Proposition 71',
     id: '10.71',
-    img: '/img/10/71',
     prose: prop71,
+    ...fig71
   };
 },
 
@@ -1899,8 +1974,8 @@ function() {
   return {
     title: 'Proposition 72',
     id: '10.72',
-    img: '/img/10/72',
     prose: prop72,
+    ...fig71
   };
 },
 
@@ -1908,8 +1983,8 @@ function() {
   return {
     title: 'Proposition 73',
     id: '10.73',
-    img: '/img/10/73',
     prose: prop73,
+    ...fig73
   };
 },
 
@@ -1917,8 +1992,8 @@ function() {
   return {
     title: 'Proposition 74',
     id: '10.74',
-    img: '/img/10/74',
     prose: prop74,
+    ...fig73
   };
 },
 
@@ -1926,8 +2001,8 @@ function() {
   return {
     title: 'Proposition 75',
     id: '10.75',
-    img: '/img/10/75',
     prose: prop75,
+    ...fig75
   };
 },
 
@@ -1935,8 +2010,8 @@ function() {
   return {
     title: 'Proposition 76',
     id: '10.76',
-    img: '/img/10/76',
     prose: prop76,
+    ...fig73,
   };
 },
 
@@ -1944,8 +2019,8 @@ function() {
   return {
     title: 'Proposition 77',
     id: '10.77',
-    img: '/img/10/77',
     prose: prop77,
+    ...fig73,
   };
 },
 

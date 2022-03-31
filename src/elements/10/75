@@ -1,38 +1,37 @@
 If a medial (straight-line), which is commensurable in square only with the whole, and which contains a medial (area) with the whole, is subtracted from a(nother) medial (straight-line) then the remainder is an irrational (straight-line).
 Let it be called a second apotome of a medial (straight-line).
 
-For let the medial (straight-line) {CB}, which is commensurable in square only with the whole, {AB}, and which contains with the whole, {AB}, the medial (rectangle contained) by {AB} and {BC}, have been subtracted from the medial (straight-line) {AB} [Prop. 10.28].
-I say that the remainder {AC} is an irrational (straight-line).
+For let the medial (straight-line) {CB magnitude}, which is commensurable in square only with the whole, {AB magnitude}, and which contains with the whole, {AB magnitude}, the medial (rectangle contained) by {AB magnitude} and {BC magnitude}, have been subtracted from the medial (straight-line) {AB magnitude} [Prop. 10.28].
+I say that the remainder {AC magnitude} is an irrational (straight-line).
 Let it be called a second apotome of a medial (straight-line).
 
-For let the rational (straight-line) {DI} be laid down.
-And let {DE}, equal to the (sum of the squares) on {AB} and {BC}, have been applied to {DI}, producing {DG} as breadth.
-And let {DH}, equal to twice the (rectangle contained) by {AB} and {BC}, have been applied to {DI}, producing {DF} as breadth.
-The remainder {FE} is thus equal to the (square) on {AC} [Prop. 2.7].
-And since the (squares) on {AB} and {BC} are medial and commensurable (with one another), {DE} (is) thus also medial [Props. 10.15, 10.23 corr.].
-And it is applied to the rational (straight-line) {DI}, producing {DG} as breadth.
-Thus, {DG} is rational, and incommensurable in length with {DI} [Prop. 10.22].
-Again, since the (rectangle contained) by {AB} and {BC} is medial, twice the (rectangle contained) by {AB} and {BC} is thus also medial [Prop. 10.23 corr.].
-And it is equal to {DH}.
-Thus, {DH} is also medial.
-And it has been applied to the rational (straight-line) {DI}, producing {DF} as breadth.
-{DF} is thus rational, and incommensurable in length with {DI} [Prop. 10.22].
-And since {AB} and {BC} are commensurable in square only, {AB} is thus incommensurable in length with {BC}.
-Thus, the square on {AB} (is) also incommensurable with the (rectangle contained) by {AB} and {BC} [Props. 10.21 lem., 10.11].
-But, the (sum of the squares) on {AB} and {BC} is commensurable with the (square) on {AB} [Prop. 10.15], and twice the (rectangle contained) by {AB} and {BC} is commensurable with the (rectangle contained) by {AB} and {BC} [Prop. 10.6].
-Thus, twice the (rectangle contained) by {AB} and {BC} is incommensurable with the (sum of the squares) on {AB} and {BC} [Prop. 10.13].
-And {DE} is equal to the (sum of the squares) on {AB} and {BC}, and {DH} to twice the (rectangle contained) by {AB} and {BC}.
-Thus, {DE} [is] incommensurable with {DH}.
-And as {DE} (is) to {DH}, so {GD} (is) to {DF} [Prop. 6.1].
-Thus, {GD} is incommensurable with {DF} [Prop. 10.11].
+For let the rational (straight-line) {DI line} be laid down.
+And let {DE polygon}, equal to the (sum of the squares) on {AB line} and {BC line}, have been applied to {DI line}, producing {DG line} as breadth.
+And let {DH polygon}, equal to twice the (rectangle contained) by {AB magnitude} and {BC magnitude}, have been applied to {DI line}, producing {DF line} as breadth.
+The remainder {FE polygon} is thus equal to the (square) on {AC magnitude} [Prop. 2.7].
+And since the (squares) on {AB magnitude} and {BC magnitude} are medial and commensurable (with one another), {DE polygon} (is) thus also medial [Props. 10.15, 10.23 corr.].
+And it is applied to the rational (straight-line) {DI line}, producing {DG line} as breadth.
+Thus, {DG line} is rational, and incommensurable in length with {DI line} [Prop. 10.22].
+Again, since the (rectangle contained) by {AB magnitude} and {BC magnitude} is medial, twice the (rectangle contained) by {AB magnitude} and {BC magnitude} is thus also medial [Prop. 10.23 corr.].
+And it is equal to {DH polygon}.
+Thus, {DH polygon} is also medial.
+And it has been applied to the rational (straight-line) {DI line}, producing {DF line} as breadth.
+{DF line} is thus rational, and incommensurable in length with {DI line} [Prop. 10.22].
+And since {AB magnitude} and {BC magnitude} are commensurable in square only, {AB magnitude} is thus incommensurable in length with {BC magnitude}.
+Thus, the square on {AB magnitude} (is) also incommensurable with the (rectangle contained) by {AB magnitude} and {BC magnitude} [Props. 10.21 lem., 10.11].
+But, the (sum of the squares) on {AB magnitude} and {BC magnitude} is commensurable with the (square) on {AB magnitude} [Prop. 10.15], and twice the (rectangle contained) by {AB magnitude} and {BC magnitude} is commensurable with the (rectangle contained) by {AB magnitude} and {BC magnitude} [Prop. 10.6].
+Thus, twice the (rectangle contained) by {AB magnitude} and {BC magnitude} is incommensurable with the (sum of the squares) on {AB magnitude} and {BC magnitude} [Prop. 10.13].
+And {DE polygon} is equal to the (sum of the squares) on {AB magnitude} and {BC magnitude}, and {DH polygon} to twice the (rectangle contained) by {AB magnitude} and {BC magnitude}.
+Thus, {DE polygon} [is] incommensurable with {DH polygon}.
+And as {DE polygon} (is) to {DH polygon}, so {GD line} (is) to {DF line} [Prop. 6.1].
+Thus, {GD line} is incommensurable with {DF line} [Prop. 10.11].
 And they are both rational (straight-lines).
-Thus, {GD} and {DF} are rational (straight-lines which are) commensurable in square only.
-Thus, {FG} is an apotome [Prop. 10.73].
-And {DI} (is) rational.
+Thus, {GD line} and {DF line} are rational (straight-lines which are) commensurable in square only.
+Thus, {FG line} is an apotome [Prop. 10.73].
+And {DI line} (is) rational.
 And the (area) contained by a rational and an irrational (straight-line) is irrational [Prop. 10.20], and its square-root is irrational.
 
-
-And {AC} is the square-root of {FE}.
-Thus, {AC} is an irrational (straight-line) [Def. 10.4].
+And {AC magnitude} is the square-root of {FE polygon}.
+Thus, {AC magnitude} is an irrational (straight-line) [Def. 10.4].
 And let it be called the second apotome of a medial (straight-line).
 (Which is) the very thing it was required to show.
