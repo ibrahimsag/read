@@ -325,6 +325,50 @@ let fig75 = (function() {
   };
 })();
 
+let fig79 = (function() {
+  return {
+    mags: [
+      { l: 'A', m: 100, p: v2.o },
+      { l: 'B', m: 170 },
+      { l: 'C', m: 50 },
+      { l: 'D' }
+    ]
+  };
+})();
+
+let fig81 = (function() {
+  let z = {};
+  [z.E, z.H, z.M, z.N,
+    z.F, z.L, z.G, z.I] = [50, 170].map(y => [0, 120, 310, 350].map(x => [x, y])).flat();
+  return {
+    ...fig79,
+    points: z,
+    letters: {
+      E: [1],
+      H: [1],
+      M: [1],
+      N: [1],
+      F: [5],
+      L: [5],
+      G: [5],
+      I: [5],
+    },
+    shapes: [
+      rg.polygon([z.E, z.F, z.I, z.N]),
+      rg.line(z.H, z.L),
+      rg.line(z.M, z.G)
+    ],
+    polygonl: {
+      EG: 'EFGM',
+      HG: 'HLGM',
+      GH: 'HLGM',
+      EL: 'EFLH',
+      EI: 'EFIN',
+      HI: 'HLIN',
+    }
+  };
+})();
+
   return [
 function() {
   return {
@@ -2025,11 +2069,37 @@ function() {
 },
 
 function() {
+  let z = {};
+  [z.D, z.F, z.G,
+    z.I, z.H, z.E] = [50, 170].map(y => [0, 170, 270].map(x => [x, y])).flat();
   return {
     title: 'Proposition 78',
     id: '10.78',
-    img: '/img/10/78',
     prose: prop78,
+    mags: [
+      { l: 'A', m: 80, p: v2.o },
+      { l: 'C', m: 170 },
+      { l: 'B' },
+    ],
+    points: z,
+    letters: {
+      D: [1],
+      F: [1],
+      G: [1],
+      I: [5],
+      H: [5],
+      E: [5],
+    },
+    shapes: [
+      rg.polygon([z.D, z.I, z.E, z.G]),
+      rg.line(z.F, z.H)
+    ],
+    polygonl: {
+      DH: 'DIHF',
+      DE: 'DIEG',
+      FE: 'FHEG',
+    }
+
   };
 },
 
@@ -2037,8 +2107,8 @@ function() {
   return {
     title: 'Proposition 79',
     id: '10.79',
-    img: '/img/10/79',
     prose: prop79,
+    ...fig79
   };
 },
 
@@ -2046,8 +2116,8 @@ function() {
   return {
     title: 'Proposition 80',
     id: '10.80',
-    img: '/img/10/80',
     prose: prop80,
+    ...fig79
   };
 },
 
@@ -2055,8 +2125,8 @@ function() {
   return {
     title: 'Proposition 81',
     id: '10.81',
-    img: '/img/10/81',
     prose: prop81,
+    ...fig81
   };
 },
 
@@ -2064,8 +2134,8 @@ function() {
   return {
     title: 'Proposition 82',
     id: '10.82',
-    img: '/img/10/82',
     prose: prop82,
+    ...fig79,
   };
 },
 
@@ -2073,8 +2143,8 @@ function() {
   return {
     title: 'Proposition 83',
     id: '10.83',
-    img: '/img/10/83',
     prose: prop83,
+    ...fig79,
   };
 },
 
@@ -2082,8 +2152,8 @@ function() {
   return {
     title: 'Proposition 84',
     id: '10.84',
-    img: '/img/10/84',
     prose: prop84,
+    ...fig81
   };
 },
 

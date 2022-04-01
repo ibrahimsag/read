@@ -1144,6 +1144,7 @@ function makePR(rg, svg, cs)
   {
     let paragraphs = last_section.prose.split('\n\n');
     let new_paragraphs = []
+    let polygonls = [];
     let o = 0;
     for(let paragraph_i = 0; paragraph_i < paragraphs.length; paragraph_i++)
     {
@@ -1172,7 +1173,7 @@ function makePR(rg, svg, cs)
               {
                 if(!last_section.polygonl || !last_section.polygonl[m[1]])
                 {
-                  console.log(m[1], 'needs polygonl')
+                  polygonls.push(m[1]);
                 }
               }
               new_part = ['{', m[1], ' ', marks[o], '}'].join('');
@@ -1197,6 +1198,8 @@ function makePR(rg, svg, cs)
       }
       new_paragraphs.push(new_sentences.join('\n'));
     }
+    if(polygonls.length > 0)
+      console.log(polygonls, 'needs polygonl');
     let new_prose = new_paragraphs.join('\n\n');
     store(i_book+'/'+i_section, new_prose);
   }
