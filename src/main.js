@@ -950,7 +950,7 @@ function makePR(rg, svg, cs)
       f = c => h => {
         h.name.split('').forEach(l => letterColor[l] = c);
       }
-      nearHighlights.forEach(f(colors.sentence));
+      // nearHighlights.forEach(f(colors.sentence));
       highlights.forEach(f(colors.bright));
       hoverHighlights.forEach(f(colors.hover_bright));
 
@@ -1199,7 +1199,12 @@ function makePR(rg, svg, cs)
       new_paragraphs.push(new_sentences.join('\n'));
     }
     if(polygonls.length > 0)
-      console.log(polygonls, 'needs polygonl');
+    {
+      let pls = {};
+      for(let i = 0; i < polygonls.length; i++)
+        pls[polygonls[i]] = polygonls[i];
+      console.log(JSON.stringify(pls, null, '  '));
+    }
     let new_prose = new_paragraphs.join('\n\n');
     store(i_book+'/'+i_section, new_prose);
   }
@@ -1290,6 +1295,14 @@ function elements() {
       if(e.key == "m")
       {
         pr.proxy.mark("magnitude");
+      }
+      if(e.key == "v")
+      {
+        pr.proxy.mark("angle");
+      }
+      if(e.key == "g")
+      {
+        pr.proxy.mark("given");
       }
       if(e.key == "j" || e.keyCode == 39)
       {

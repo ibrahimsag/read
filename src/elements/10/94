@@ -1,38 +1,38 @@
 If an area is contained by a rational (straight-line) and a fourth apotome then the square-root of the area is a minor (straight-line).
 
-For let the area {AB} have been contained by the rational (straight-line) {AC} and the fourth apotome {AD}.
-I say that the square-root of area {AB} is a minor (straight-line).
-For let {DG} be an attachment to {AD}.
-Thus, {AG} and {DG} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and {AG} is commensurable in length with the (previously) laid down rational (straight-line) {AC}, and the square on the whole, {AG}, is greater than (the square on) the attachment, {DG}, by the square on (some straight-line) incommensurable in length with ({AG}) [Def. 10.14].
-Therefore, since the square on {AG} is greater than (the square on) {GD} by the (square) on (some straight-line) incommensurable in length with ({AG}), thus if (some area), equal to the fourth part of the (square) on {DG}, is applied to {AG}, falling short by a square figure, then it divides ({AG}) into (parts which are) incommensurable (in length) [Prop. 10.18].
-Therefore, let {DG} have been cut in half at {E}, and let (some area), equal to the (square) on {EG}, have been applied to {AG}, falling short by a square figure, and let it be the (rectangle contained) by {AF} and {FG}.
-Thus, {AF} is incommensurable in length with {FG}.
-Therefore, let {EH}, {FI}, and {GK} have been drawn through {E}, {F}, and {G} (respectively), parallel to {AC} and {BD}.
-Therefore, since {AG} is rational, and commensurable in length with {AC}, the whole (area) {AK} is thus rational [Prop. 10.19].
-Again, since {DG} is incommensurable in length with {AC}, and both are rational (straight-lines), {DK} is thus a medial (area) [Prop. 10.21].
-Again, since {AF} is incommensurable in length with {FG}, {AI} (is) thus also incommensurable with {FK} [Props. 6.1, 10.11].
+For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the fourth apotome {AD line}.
+I say that the square-root of area {AB polygon} is a minor (straight-line).
+For let {DG line} be an attachment to {AD line}.
+Thus, {AG line} and {DG line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and {AG line} is commensurable in length with the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {DG line}, by the square on (some straight-line) incommensurable in length with ({AG line}) [Def. 10.14].
+Therefore, since the square on {AG line} is greater than (the square on) {GD line} by the (square) on (some straight-line) incommensurable in length with ({AG line}), thus if (some area), equal to the fourth part of the (square) on {DG line}, is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) incommensurable (in length) [Prop. 10.18].
+Therefore, let {DG line} have been cut in half at {E point}, and let (some area), equal to the (square) on {EG line}, have been applied to {AG line}, falling short by a square figure, and let it be the (rectangle contained) by {AF line} and {FG line}.
+Thus, {AF line} is incommensurable in length with {FG line}.
+Therefore, let {EH line}, {FI line}, and {GK line} have been drawn through {E point}, {F point}, and {G point} (respectively), parallel to {AC line} and {BD line}.
+Therefore, since {AG line} is rational, and commensurable in length with {AC line}, the whole (area) {AK polygon} is thus rational [Prop. 10.19].
+Again, since {DG line} is incommensurable in length with {AC line}, and both are rational (straight-lines), {DK polygon} is thus a medial (area) [Prop. 10.21].
+Again, since {AF line} is incommensurable in length with {FG line}, {AI polygon} (is) thus also incommensurable with {FK polygon} [Props. 6.1, 10.11].
 
-Therefore, let the square {LM}, equal to {AI}, have been constructed.
-And let {NO}, equal to {FK}, (and) about the same angle, {LPM}, have been subtracted (from {LM}).
-Thus, the squares {LM} and {NO} are about the same diagonal [Prop. 6.26].
-Let {PR} be their (common) diagonal, and let the (rest of the) figure have been drawn.
-Therefore, since the (rectangle contained) by {AF} and {FG} is equal to the (square) on {EG}, thus, proportionally, as {AF} is to {EG}, so {EG} (is) to {FG} [Prop. 6.17].
-But, as {AF} (is) to {EG}, so {AI} is to {EK}, and as {EG} (is) to {FG}, so {EK} is to {FK} [Prop. 6.1].
-Thus, {EK} is the mean proportional to {AI} and {FK} [Prop. 5.11].
-And {MN} is also the mean proportional to the squares {LM} and {NO} [Prop. 10.13 lem.], and {AI} is equal to {LM}, and {FK} to {NO}.
-{EK} is thus also equal to {MN}.
-But, {DH} is equal to {EK}, and {LO} is equal to {MN} [Prop. 1.43].
-Thus, the whole of {DK} is equal to the gnomon {UVW} and {NO}.
-Therefore, since the whole of {AK} is equal to the (sum of the) squares {LM} and {NO}, of which {DK} is equal to the gnomon {UVW} and the square {NO}, the remainder {AB} is thus equal to {ST}---that is to say, to the square on {LN}.
-Thus, {LN} is the square-root of area {AB}.
-I say that {LN} is the irrational (straight-line which is) called minor.
+Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
+And let {NO polygon}, equal to {FK polygon}, (and) about the same angle, {LPM angle}, have been subtracted (from {LM polygon}).
+Thus, the squares {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
+Let {PR line} be their (common) diagonal, and let the (rest of the) figure have been drawn.
+Therefore, since the (rectangle contained) by {AF line} and {FG line} is equal to the (square) on {EG line}, thus, proportionally, as {AF line} is to {EG line}, so {EG line} (is) to {FG line} [Prop. 6.17].
+But, as {AF line} (is) to {EG line}, so {AI polygon} is to {EK polygon}, and as {EG line} (is) to {FG line}, so {EK polygon} is to {FK polygon} [Prop. 6.1].
+Thus, {EK polygon} is the mean proportional to {AI polygon} and {FK polygon} [Prop. 5.11].
+And {MN polygon} is also the mean proportional to the squares {LM polygon} and {NO polygon} [Prop. 10.13 lem.], and {AI polygon} is equal to {LM polygon}, and {FK polygon} to {NO polygon}.
+{EK polygon} is thus also equal to {MN polygon}.
+But, {DH polygon} is equal to {EK polygon}, and {LO polygon} is equal to {MN polygon} [Prop. 1.43].
+Thus, the whole of {DK polygon} is equal to the gnomon {UVW given} and {NO polygon}.
+Therefore, since the whole of {AK polygon} is equal to the (sum of the) squares {LM polygon} and {NO polygon}, of which {DK polygon} is equal to the gnomon {UVW given} and the square {NO polygon}, the remainder {AB polygon} is thus equal to {ST polygon}---that is to say, to the square on {LN line}.
+Thus, {LN line} is the square-root of area {AB polygon}.
+I say that {LN line} is the irrational (straight-line which is) called minor.
 
-For since {AK} is rational, and is equal to the (sum of the) squares {LP} and {PN}, the sum of the (squares) on {LP} and {PN} is thus rational.
-Again, since {DK} is medial, and {DK} is equal to twice the (rectangle contained) by {LP} and {PN}, thus twice the (rectangle contained) by {LP} and {PN} is medial.
-And since {AI} was shown (to be) incommensurable with {FK}, the square on {LP} (is) thus also incommensurable with the square on {PN}.
-Thus, {LP} and {PN} are (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and twice the (rectangle contained) by them medial.
-{LN} is thus the irrational (straight-line) called minor [Prop. 10.76].
-And it is the square-root of area {AB}.
+For since {AK polygon} is rational, and is equal to the (sum of the) squares {LP line} and {PN line}, the sum of the (squares) on {LP line} and {PN line} is thus rational.
+Again, since {DK polygon} is medial, and {DK polygon} is equal to twice the (rectangle contained) by {LP line} and {PN line}, thus twice the (rectangle contained) by {LP line} and {PN line} is medial.
+And since {AI polygon} was shown (to be) incommensurable with {FK polygon}, the square on {LP line} (is) thus also incommensurable with the square on {PN line}.
+Thus, {LP line} and {PN line} are (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and twice the (rectangle contained) by them medial.
+{LN line} is thus the irrational (straight-line) called minor [Prop. 10.76].
+And it is the square-root of area {AB polygon}.
 
-Thus, the square-root of area {AB} is a minor (straight-line).
+Thus, the square-root of area {AB polygon} is a minor (straight-line).
 (Which is) the very thing it was required to show.

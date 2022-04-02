@@ -1,29 +1,29 @@
 To find a fifth apotome.
 
-Let the rational (straight-line) {A} be laid down, and let {CG} be commensurable in length with {A}.
-Thus, {CG} [is] a rational (straight-line).
-And let the two numbers {DF} and {FE} be laid down such that {DE} again does not have to each of {DF} and {FE} the ratio which (some) square number (has) to (some) square number.
-And let it have been contrived that as {FE} (is) to {ED}, so the (square) on {CG} (is) to the (square) on {GB}.
-Thus, the (square) on {GB} (is) also rational [Prop. 10.6].
-Thus, {BG} is also rational.
-And since as {DE} is to {EF}, so the (square) on {BG} (is) to the (square) on {GC}.
-And {DE} does not have to {EF} the ratio which (some) square number (has) to (some) square number.
-The (square) on {BG} thus does not have to the (square) on {GC} the ratio which (some) square number (has) to (some) square number either.
-Thus, {BG} is incommensurable in length with {GC} [Prop. 10.9].
+Let the rational (straight-line) {A magnitude} be laid down, and let {CG magnitude} be commensurable in length with {A magnitude}.
+Thus, {CG magnitude} [is] a rational (straight-line).
+And let the two numbers {DF magnitude} and {FE magnitude} be laid down such that {DE magnitude} again does not have to each of {DF magnitude} and {FE magnitude} the ratio which (some) square number (has) to (some) square number.
+And let it have been contrived that as {FE magnitude} (is) to {ED magnitude}, so the (square) on {CG magnitude} (is) to the (square) on {GB magnitude}.
+Thus, the (square) on {GB magnitude} (is) also rational [Prop. 10.6].
+Thus, {BG magnitude} is also rational.
+And since as {DE magnitude} is to {EF magnitude}, so the (square) on {BG magnitude} (is) to the (square) on {GC magnitude}.
+And {DE magnitude} does not have to {EF magnitude} the ratio which (some) square number (has) to (some) square number.
+The (square) on {BG magnitude} thus does not have to the (square) on {GC magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {BG magnitude} is incommensurable in length with {GC magnitude} [Prop. 10.9].
 And they are both rational (straight-lines).
-{BG} and {GC} are thus rational (straight-lines which are) commensurable in square only.
-Thus, {BC} is an apotome [Prop. 10.73].
+{BG magnitude} and {GC magnitude} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {BC magnitude} is an apotome [Prop. 10.73].
 So, I say that (it is) also a fifth (apotome).
 
-For, let the (square) on {H} be that (area) by which the (square) on {BG} is greater than the (square) on {GC} [Prop. 10.13 lem.].
-Therefore, since as the (square) on {BG} (is) to the (square) on {GC}, so {DE} (is) to {EF}, thus, via conversion, as {ED} is to {DF}, so the (square) on {BG} (is) to the (square) on {H} [Prop. 5.19 corr.].
-And {ED} does not have to {DF} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {BG} does not have to the (square) on {H} the ratio which (some) square number (has) to (some) square number either.
-Thus, {BG} is incommensurable in length with {H} [Prop. 10.9].
-And the square on {BG} is greater than (the square on) {GC} by the (square) on {H}.
-Thus, the square on {GB} is greater than (the square on) {GC} by the (square) on (some straight-line) incommensurable in length with ({GB}).
-And the attachment {CG} is commensurable in length with the (previously) laid down rational (straight-line) {A}.
-Thus, {BC} is a fifth apotome [Def. 10.15].
+For, let the (square) on {H magnitude} be that (area) by which the (square) on {BG magnitude} is greater than the (square) on {GC magnitude} [Prop. 10.13 lem.].
+Therefore, since as the (square) on {BG magnitude} (is) to the (square) on {GC magnitude}, so {DE magnitude} (is) to {EF magnitude}, thus, via conversion, as {ED magnitude} is to {DF magnitude}, so the (square) on {BG magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
+And {ED magnitude} does not have to {DF magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {BG magnitude} does not have to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {BG magnitude} is incommensurable in length with {H magnitude} [Prop. 10.9].
+And the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on {H magnitude}.
+Thus, the square on {GB magnitude} is greater than (the square on) {GC magnitude} by the (square) on (some straight-line) incommensurable in length with ({GB magnitude}).
+And the attachment {CG magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {A magnitude}.
+Thus, {BC magnitude} is a fifth apotome [Def. 10.15].
 
-Thus, the fifth apotome {BC} has been found.
+Thus, the fifth apotome {BC magnitude} has been found.
 (Which is) the very thing it was required to show.

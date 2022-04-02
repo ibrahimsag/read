@@ -258,7 +258,7 @@ let fig71 = (function() {
     z.F, z.G, z.I] = [0, 170].map(y => [170, 270, 340].map(x=>[x,y])).flat();
   return {
     points: z,
-    letters: { 
+    letters: {
       A: [1],
       C: [1],
       E: [1],
@@ -365,6 +365,75 @@ let fig81 = (function() {
       EL: 'EFLH',
       EI: 'EFIN',
       HI: 'HLIN',
+    }
+  };
+})();
+
+let fig91 = (function() {
+  let z = {};
+  [z.A, z.D, z.E, z.F, z.G,
+    z.C, z.B, z.H, z.I, z.K] = [0, 100].map(y => [0, 80, 150, 200, 240].map(x => [x, y])).flat();
+  [z.L, z.N, z.P,
+    z.S, z.Q, z.O,
+    z.R, z.T, z.M] = [0, 70, 170].map(y => [310, 410, 480].map(x => [x, y])).flat();
+  z.U = v2.add(z.Q, v2.s(v2.u(v2.sub(z.S, z.Q)), 30));
+  z.V = v2.add(z.Q, v2.s(v2.u(v2.sub(z.P, z.Q)), 30));
+  z.W = v2.add(z.Q, v2.s(v2.u(v2.sub(z.T, z.Q)), 30));
+
+  return {
+    points: z,
+    letters: {
+      A: [1],
+      D: [1],
+      E: [1],
+      F: [1],
+      G: [1],
+      C: [5],
+      B: [5],
+      H: [5],
+      I: [5],
+      K: [5],
+      L: [3],
+      S: [3],
+      R: [3],
+      P: [7],
+      O: [7],
+      M: [7],
+      N: [1],
+      T: [5],
+      U: [5],
+      W: [3],
+      V: [1],
+    },
+    shapes: [
+      rg.polygon([z.A, z.C, z.K, z.G]),
+      rg.line(z.B, z.D),
+      rg.line(z.E, z.H),
+      rg.line(z.F, z.I),
+      rg.polygon([z.L, z.R, z.M, z.P]),
+      rg.line(z.S, z.O),
+      rg.line(z.N, z.T),
+      rg.line(z.R, z.P),
+      rg.gnomon(z.Q, z.U, z.W)
+    ],
+    given: {
+      UVW: [rg.gnomon(z.Q, z.U, z.W), rg.polygon([z.L, z.S, z.Q, z.T, z.M, z.P])],
+    },
+    polygonl: {
+      'AB': 'ACBD',
+      'AI': 'ACIF',
+      'FK': 'FIKG',
+      'DH': 'DBHE',
+      'EK': 'EHKG',
+      'LM': 'LRMP',
+      'NO': 'NQOP',
+      "AK": "ACKG",
+      "DK": "DBKG",
+      "KF": "KGFI",
+      "LO": "LSOP",
+      "MN": "NTMP",
+      "ST": "SRTQ",
+      "TS": "SRTQ"
     }
   };
 })();
@@ -2169,8 +2238,17 @@ function() {
   return {
     title: 'Proposition 85',
     id: '10.85',
-    img: '/img/10/85',
     prose: prop85,
+    mags: [
+      { l: 'A', m:100, p: v2.o },
+      { l: 'H', m:120, v: 50 },
+      { l: 'B', m:50, p: v2.s(v2.x, 180) },
+      { l: 'C', m:120 },
+      { l: 'G' },
+      { l: 'E', m:50, v: 50 },
+      { l: 'F', m:100 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -2178,8 +2256,17 @@ function() {
   return {
     title: 'Proposition 86',
     id: '10.86',
-    img: '/img/10/86',
     prose: prop86,
+    mags: [
+      { l: 'A', m:100, p: v2.o },
+      { l: 'H', m:120, v: 50 },
+      { l: 'B', m:50, p: v2.s(v2.x, 180) },
+      { l: 'C', m:120 },
+      { l: 'G' },
+      { l: 'E', m:50, v: 50 },
+      { l: 'F', m:100 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -2187,8 +2274,18 @@ function() {
   return {
     title: 'Proposition 87',
     id: '10.87',
-    img: '/img/10/87',
     prose: prop87,
+    mags: [
+      { l: 'A', m:120, p: v2.o },
+      { l: 'E', m:100, v: 50 },
+      { l: 'K', m:150, v: 50 },
+      { l: 'B', m:50, p: v2.s(v2.x, 210) },
+      { l: 'D', m:100 },
+      { l: 'C' },
+      { l: 'F', m:50, v: 50 },
+      { l: 'H', m:120 },
+      { l: 'G' },
+    ]
   };
 },
 
@@ -2196,8 +2293,17 @@ function() {
   return {
     title: 'Proposition 88',
     id: '10.88',
-    img: '/img/10/88',
     prose: prop88,
+    mags: [
+      { l: 'A', m:120, p: v2.o },
+      { l: 'H', m:100, v: 50 },
+      { l: 'B', m:100, p: v2.s(v2.x, 180) },
+      { l: 'C', m:70 },
+      { l: 'G' },
+      { l: 'E', m:100, v: 50 },
+      { l: 'F', m:50 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -2205,8 +2311,17 @@ function() {
   return {
     title: 'Proposition 89',
     id: '10.89',
-    img: '/img/10/89',
     prose: prop89,
+    mags: [
+      { l: 'A', m:170, p: v2.o },
+      { l: 'H', m:70, v: 50 },
+      { l: 'B', m:80, p: v2.s(v2.x, 230) },
+      { l: 'C', m:50 },
+      { l: 'G' },
+      { l: 'E', m:100, v: 50 },
+      { l: 'F', m:50 },
+      { l: 'D' },
+    ]
   };
 },
 
@@ -2214,8 +2329,18 @@ function() {
   return {
     title: 'Proposition 90',
     id: '10.90',
-    img: '/img/10/90',
     prose: prop90,
+    mags: [
+      { l: 'A', m:120, p: v2.o },
+      { l: 'E', m:100, v: 50 },
+      { l: 'K', m:150, v: 50 },
+      { l: 'B', m:80, p: v2.s(v2.x, 210) },
+      { l: 'D', m:70 },
+      { l: 'C' },
+      { l: 'F', m:50, v: 50 },
+      { l: 'H', m:120 },
+      { l: 'G' },
+    ]
   };
 },
 
@@ -2223,8 +2348,8 @@ function() {
   return {
     title: 'Proposition 91',
     id: '10.91',
-    img: '/img/10/91',
     prose: prop91,
+    ...fig91
   };
 },
 
@@ -2232,8 +2357,8 @@ function() {
   return {
     title: 'Proposition 92',
     id: '10.92',
-    img: '/img/10/92',
     prose: prop92,
+    ...fig91
   };
 },
 
@@ -2241,8 +2366,8 @@ function() {
   return {
     title: 'Proposition 93',
     id: '10.93',
-    img: '/img/10/93',
     prose: prop93,
+    ...fig91
   };
 },
 
@@ -2250,8 +2375,8 @@ function() {
   return {
     title: 'Proposition 94',
     id: '10.94',
-    img: '/img/10/94',
     prose: prop94,
+    ...fig91
   };
 },
 
@@ -2259,8 +2384,8 @@ function() {
   return {
     title: 'Proposition 95',
     id: '10.95',
-    img: '/img/10/95',
     prose: prop95,
+    ...fig91
   };
 },
 
@@ -2268,8 +2393,8 @@ function() {
   return {
     title: 'Proposition 96',
     id: '10.96',
-    img: '/img/10/96',
     prose: prop96,
+    ...fig91
   };
 },
 

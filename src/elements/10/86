@@ -1,28 +1,28 @@
 To find a second apotome.
 
-Let the rational (straight-line) {A}, and {GC} (which is) commensurable in length with {A}, be laid down.
-Thus, {GC} is a rational (straight-line).
-And let the two square numbers {DE} and {EF} be laid down, and let their difference {DF} be not square [Prop. 10.28 lem. I].
-And let it have been contrived that as {FD} (is) to {DE}, so the square on {CG} (is) to the square on {GB} [Prop. 10.6 corr.].
-Thus, the square on {CG} is commensurable with the square on {GB} [Prop. 10.6].
-And the (square) on {CG} (is) rational.
-Thus, the (square) on {GB} [is] also rational.
-Thus, {BG} is a rational (straight-line).
-And since the square on {GC} does not have to the (square) on {GB} the ratio which (some) square number (has) to (some) square number, {CG} is incommensurable in length with {GB} [Prop. 10.9].
+Let the rational (straight-line) {A magnitude}, and {GC magnitude} (which is) commensurable in length with {A magnitude}, be laid down.
+Thus, {GC magnitude} is a rational (straight-line).
+And let the two square numbers {DE magnitude} and {EF magnitude} be laid down, and let their difference {DF magnitude} be not square [Prop. 10.28 lem. I].
+And let it have been contrived that as {FD magnitude} (is) to {DE magnitude}, so the square on {CG magnitude} (is) to the square on {GB magnitude} [Prop. 10.6 corr.].
+Thus, the square on {CG magnitude} is commensurable with the square on {GB magnitude} [Prop. 10.6].
+And the (square) on {CG magnitude} (is) rational.
+Thus, the (square) on {GB magnitude} [is] also rational.
+Thus, {BG magnitude} is a rational (straight-line).
+And since the square on {GC magnitude} does not have to the (square) on {GB magnitude} the ratio which (some) square number (has) to (some) square number, {CG magnitude} is incommensurable in length with {GB magnitude} [Prop. 10.9].
 And they are both rational (straight-lines).
-Thus, {CG} and {GB} are rational (straight-lines which are) commensurable in square only.
-Thus, {BC} is an apotome [Prop. 10.73].
+Thus, {CG magnitude} and {GB magnitude} are rational (straight-lines which are) commensurable in square only.
+Thus, {BC magnitude} is an apotome [Prop. 10.73].
 So, I say that it is also a second (apotome).
 
-For let the (square) on {H} be that (area) by which the (square) on {BG} is greater than the (square) on {GC} [Prop. 10.13 lem.].
-Therefore, since as the (square) on {BG} is to the (square) on {GC}, so the number {ED} (is) to the number {DF}, thus, also, via conversion, as the (square) on {BG} is to the (square) on {H}, so {DE} (is) to {EF} [Prop. 5.19 corr.].
-And {DE} and {EF} are each square (numbers).
-Thus, the (square) on {BG} has to the (square) on {H} the ratio which (some) square number (has) to (some) square number.
-Thus, {BG} is commensurable in length with {H} [Prop. 10.9].
-And the square on {BG} is greater than (the square on) {GC} by the (square) on {H}.
-Thus, the square on {BG} is greater than (the square on) {GC} by the (square) on (some straight-line) commensurable in length with ({BG}).
-And the attachment {CG} is commensurable (in length) with the (prevously) laid down rational (straight-line) {A}.
-Thus, {BC} is a second apotome [Def. 10.12].
+For let the (square) on {H magnitude} be that (area) by which the (square) on {BG magnitude} is greater than the (square) on {GC magnitude} [Prop. 10.13 lem.].
+Therefore, since as the (square) on {BG magnitude} is to the (square) on {GC magnitude}, so the number {ED magnitude} (is) to the number {DF magnitude}, thus, also, via conversion, as the (square) on {BG magnitude} is to the (square) on {H magnitude}, so {DE magnitude} (is) to {EF magnitude} [Prop. 5.19 corr.].
+And {DE magnitude} and {EF magnitude} are each square (numbers).
+Thus, the (square) on {BG magnitude} has to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, {BG magnitude} is commensurable in length with {H magnitude} [Prop. 10.9].
+And the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on {H magnitude}.
+Thus, the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on (some straight-line) commensurable in length with ({BG magnitude}).
+And the attachment {CG magnitude} is commensurable (in length) with the (prevously) laid down rational (straight-line) {A magnitude}.
+Thus, {BC magnitude} is a second apotome [Def. 10.12].
 
-Thus, the second apotome {BC} has been found.
+Thus, the second apotome {BC magnitude} has been found.
 (Which is) the very thing it was required to show.
