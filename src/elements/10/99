@@ -1,48 +1,48 @@
 The (square) on a second apotome of a medial (straight-line), applied to a rational (straight-line), produces a third apotome as breadth.
 
-Let {AB} be the second apotome of a medial (straight-line), and {CD} a rational (straight-line).
-And let {CE}, equal to the (square) on {AB}, have been applied to {CD}, producing {CF} as breadth.
-I say that {CF} is a third apotome.
+Let {AB magnitude} be the second apotome of a medial (straight-line), and {CD line} a rational (straight-line).
+And let {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {CF line} as breadth.
+I say that {CF line} is a third apotome.
 
-For let {BG} be an attachment to {AB}.
-Thus, {AG} and {GB} are medial (straight-lines which are) commensurable in square only, containing a medial (area) [Prop. 10.75].
-And let {CH}, equal to the (square) on {AG}, have been applied to {CD}, producing {CK} as breadth.
-And let {KL}, equal to the (square) on {BG}, have been applied to {KH}, producing {KM} as breadth.
-Thus, the whole of {CL} is equal to the (sum of the squares) on {AG} and {GB} [and the (sum of the squares) on {AG} and {GB} is medial].
-{CL} (is) thus also medial [Props. 10.15, 10.23 corr.].
-And it has been applied to the rational (straight-line) {CD}, producing {CM} as breadth.
-Thus, {CM} is rational, and incommensurable in length with {CD} [Prop. 10.22].
-And since the whole of {CL} is equal to the (sum of the squares) on {AG} and {GB}, of which {CE} is equal to the (square) on {AB}, the remainder {LF} is thus equal to twice the (rectangle contained) by {AG} and {GB} [Prop. 2.7].
-Therefore, let {FM} have been cut in half at point {N}.
-And let {NO} have been drawn parallel to {CD}.
-Thus, {FO} and {NL} are each equal to the (rectangle contained) by {AG} and {GB}.
-And the (rectangle contained) by {AG} and {GB} (is) medial.
-Thus, {FL} is also medial.
-And it is applied to the rational (straight-line) {EF}, producing {FM} as breadth.
-{FM} is thus rational, and incommensurable in length with {CD} [Prop. 10.22].
-And since {AG} and {GB} are commensurable in square only, {AG} [is] thus incommensurable in length with {GB}.
-Thus, the (square) on {AG} is also incommensurable with the (rectangle contained) by {AG} and {GB} [Props. 6.1, 10.11].
-But, the (sum of the squares) on {AG} and {GB} is commensurable with the (square) on {AG}, and twice the (rectangle contained) by {AG} and {GB} with the (rectangle contained) by {AG} and {GB}.
-The (sum of the squares) on {AG} and {GB} is thus incommensurable with twice the (rectangle contained) by {AG} and {GB} [Prop. 10.13].
-But, {CL} is equal to the (sum of the squares) on {AG} and {GB}, and {FL} is equal to twice the (rectangle contained) by {AG} and {GB}.
-Thus, {CL} is incommensurable with {FL}.
-And as {CL} (is) to {FL}, so {CM} is to {FM} [Prop. 6.1].
-{CM} is thus incommensurable in length with {FM} [Prop. 10.11].
+For let {BG magnitude} be an attachment to {AB magnitude}.
+Thus, {AG magnitude} and {GB magnitude} are medial (straight-lines which are) commensurable in square only, containing a medial (area) [Prop. 10.75].
+And let {CH polygon}, equal to the (square) on {AG magnitude}, have been applied to {CD line}, producing {CK line} as breadth.
+And let {KL polygon}, equal to the (square) on {BG magnitude}, have been applied to {KH line}, producing {KM line} as breadth.
+Thus, the whole of {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude} [and the (sum of the squares) on {AG magnitude} and {GB magnitude} is medial].
+{CL polygon} (is) thus also medial [Props. 10.15, 10.23 corr.].
+And it has been applied to the rational (straight-line) {CD line}, producing {CM line} as breadth.
+Thus, {CM line} is rational, and incommensurable in length with {CD line} [Prop. 10.22].
+And since the whole of {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, of which {CE polygon} is equal to the (square) on {AB magnitude}, the remainder {LF polygon} is thus equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [Prop. 2.7].
+Therefore, let {FM line} have been cut in half at point {N point}.
+And let {NO line} have been drawn parallel to {CD line}.
+Thus, {FO polygon} and {NL polygon} are each equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}.
+And the (rectangle contained) by {AG magnitude} and {GB magnitude} (is) medial.
+Thus, {FL polygon} is also medial.
+And it is applied to the rational (straight-line) {EF line}, producing {FM line} as breadth.
+{FM line} is thus rational, and incommensurable in length with {CD line} [Prop. 10.22].
+And since {AG magnitude} and {GB magnitude} are commensurable in square only, {AG magnitude} [is] thus incommensurable in length with {GB magnitude}.
+Thus, the (square) on {AG magnitude} is also incommensurable with the (rectangle contained) by {AG magnitude} and {GB magnitude} [Props. 6.1, 10.11].
+But, the (sum of the squares) on {AG magnitude} and {GB magnitude} is commensurable with the (square) on {AG magnitude}, and twice the (rectangle contained) by {AG magnitude} and {GB magnitude} with the (rectangle contained) by {AG magnitude} and {GB magnitude}.
+The (sum of the squares) on {AG magnitude} and {GB magnitude} is thus incommensurable with twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [Prop. 10.13].
+But, {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, and {FL polygon} is equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude}.
+Thus, {CL polygon} is incommensurable with {FL polygon}.
+And as {CL polygon} (is) to {FL polygon}, so {CM line} is to {FM line} [Prop. 6.1].
+{CM line} is thus incommensurable in length with {FM line} [Prop. 10.11].
 And they are both rational (straight-lines).
-Thus, {CM} and {MF} are rational (straight-lines which are) commensurable in square only.
-{CF} is thus an apotome [Prop. 10.73].
+Thus, {CM line} and {MF line} are rational (straight-lines which are) commensurable in square only.
+{CF line} is thus an apotome [Prop. 10.73].
 So, I say that (it is) also a third (apotome).
 
-For since the (square) on {AG} is commensurable with the (square) on {GB}, {CH} (is) thus also commensurable with {KL}.
-Hence, {CK} (is) also (commensurable in length) with {KM} [Props. 6.1, 10.11].
-And since the (rectangle contained) by {AG} and {GB} is the mean proportional to the (squares) on {AG} and {GB} [Prop. 10.21 lem.], and {CH} is equal to the (square) on {AG}, and {KL} equal to the (square) on {GB}, and {NL} equal to the (rectangle contained) by {AG} and {GB}, {NL} is thus also the mean proportional to {CH} and {KL}.
-Thus, as {CH} is to {NL}, so {NL} (is) to {KL}.
-But, as {CH} (is) to {NL}, so {CK} is to {NM}, and as {NL} (is) to {KL}, so {NM} (is) to {KM} [Prop. 6.1].
-Thus, as {CK} (is) to {MN}, so {MN} is to {KM} [Prop. 5.11].
-Thus, the (rectangle contained) by {CK} and {KM} is equal to the [(square) on {MN}---that is to say, to the] fourth part of the (square) on {FM} [Prop. 6.17].
-Therefore, since {CM} and {MF} are two unequal straight-lines, and (some area), equal to the fourth part of the (square) on {FM}, has been applied to {CM}, falling short by a square figure, and divides it into commensurable (parts), the square on {CM} is thus greater than (the square on) {MF} by the (square) on (some straight-line) commensurable (in length) with ({CM}) [Prop. 10.17].
-And neither of {CM} and {MF} is commensurable in length with the (previously) laid down rational (straight-line) {CD}.
-{CF} is thus a third apotome [Def. 10.13].
+For since the (square) on {AG magnitude} is commensurable with the (square) on {GB magnitude}, {CH polygon} (is) thus also commensurable with {KL polygon}.
+Hence, {CK line} (is) also (commensurable in length) with {KM line} [Props. 6.1, 10.11].
+And since the (rectangle contained) by {AG magnitude} and {GB magnitude} is the mean proportional to the (squares) on {AG magnitude} and {GB magnitude} [Prop. 10.21 lem.], and {CH polygon} is equal to the (square) on {AG magnitude}, and {KL polygon} equal to the (square) on {GB magnitude}, and {NL polygon} equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}, {NL polygon} is thus also the mean proportional to {CH polygon} and {KL polygon}.
+Thus, as {CH polygon} is to {NL polygon}, so {NL polygon} (is) to {KL polygon}.
+But, as {CH polygon} (is) to {NL polygon}, so {CK line} is to {NM line}, and as {NL polygon} (is) to {KL polygon}, so {NM line} (is) to {KM line} [Prop. 6.1].
+Thus, as {CK line} (is) to {MN line}, so {MN line} is to {KM line} [Prop. 5.11].
+Thus, the (rectangle contained) by {CK line} and {KM line} is equal to the [(square) on {MN line}---that is to say, to the] fourth part of the (square) on {FM line} [Prop. 6.17].
+Therefore, since {CM line} and {MF line} are two unequal straight-lines, and (some area), equal to the fourth part of the (square) on {FM line}, has been applied to {CM line}, falling short by a square figure, and divides it into commensurable (parts), the square on {CM line} is thus greater than (the square on) {MF line} by the (square) on (some straight-line) commensurable (in length) with ({CM line}) [Prop. 10.17].
+And neither of {CM line} and {MF line} is commensurable in length with the (previously) laid down rational (straight-line) {CD line}.
+{CF line} is thus a third apotome [Def. 10.13].
 
 Thus, the (square) on a second apotome of a medial (straight-line), applied to a rational (straight-line), produces a third apotome as breadth.
 (Which is) the very thing it was required to show.

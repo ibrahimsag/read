@@ -438,6 +438,50 @@ let fig91 = (function() {
   };
 })();
 
+let fig97 = (function() {
+  let z = {};
+  [z.C, z.F, z.N, z.K, z.M,
+    z.D, z.E, z.O, z.H, z.L] = [50, 170].map(y => [0, 120, 210, 240, 300].map(x => [x, y])).flat();
+  return {
+    mags: [
+      { l: 'A', m: 120, p: [30, 0] },
+      { l: 'B', m: 80 },
+      { l: 'G' }
+    ],
+    points: z,
+    letters: {
+      C: [1],
+      F: [1],
+      N: [1],
+      K: [1],
+      M: [1],
+      D: [5],
+      E: [5],
+      O: [5],
+      H: [5],
+      L: [5],
+    },
+    shapes: [
+      rg.polygon([z.C, z.D, z.L, z.M]),
+      rg.line(z.F, z.E),
+      rg.line(z.N, z.O),
+      rg.line(z.K, z.H)
+    ],
+    polygonl: {
+      CE: 'CDEF',
+      CH: 'CDHK',
+      CL: 'CDLM',
+      KL: 'KHLM',
+      FL: 'FELM',
+      LF: 'FELM',
+      FO: 'FEON',
+      LN: 'LMNO',
+      DM: "DLMC",
+      NL: "NOLM"
+    }
+  };
+})();
+
   return [
 function() {
   return {
@@ -2402,8 +2446,8 @@ function() {
   return {
     title: 'Proposition 97',
     id: '10.97',
-    img: '/img/10/97',
     prose: prop97,
+    ...fig97,
   };
 },
 
@@ -2411,8 +2455,8 @@ function() {
   return {
     title: 'Proposition 98',
     id: '10.98',
-    img: '/img/10/98',
     prose: prop98,
+    ...fig97
   };
 },
 
@@ -2420,8 +2464,8 @@ function() {
   return {
     title: 'Proposition 99',
     id: '10.99',
-    img: '/img/10/99',
     prose: prop99,
+    ...fig97
   };
 },
 
@@ -2429,8 +2473,8 @@ function() {
   return {
     title: 'Proposition 100',
     id: '10.100',
-    img: '/img/10/100',
     prose: prop100,
+    ...fig97
   };
 },
 
@@ -2438,8 +2482,8 @@ function() {
   return {
     title: 'Proposition 101',
     id: '10.101',
-    img: '/img/10/101',
     prose: prop101,
+    ...fig97
   };
 },
 
@@ -2447,8 +2491,8 @@ function() {
   return {
     title: 'Proposition 102',
     id: '10.102',
-    img: '/img/10/102',
     prose: prop102,
+    ...fig97
   };
 },
 
