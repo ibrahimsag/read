@@ -2651,11 +2651,29 @@ function() {
 },
 
 function() {
+  let [D, E, C, K] = [50, 300].map(y => [0, 150].map(x => [x, y])).flat()
   return {
     title: 'Proposition 111',
     id: '10.111',
-    img: '/img/10/111',
     prose: prop111,
+    mags: [
+      { l: 'A', m: 250, p: v2.o },
+      { l: 'B' },
+      { l: 'D', m: 100, v: 50 },
+      { l: 'G', m: 50 },
+      { l: 'E', m: 120 },
+      { l: 'F' },
+    ],
+    points: {C, K},
+    letters: {
+      C: [5],
+    },
+    shapes: [
+      rg.polygon([D, C, K, E]),
+    ],
+    polygonl: {
+      CE: 'CKED',
+    }
   };
 },
 
@@ -2663,8 +2681,18 @@ function() {
   return {
     title: 'Proposition 112',
     id: '10.112',
-    img: '/img/10/112',
     prose: prop112,
+    mags: [
+      { l: 'A', m: 80, p: v2.o },
+      { l: 'B', m: 50, v: 50 },
+      { l: 'D', m: 100 },
+      { l: 'C' },
+      { l: 'K', m: 120, v: 50 },
+      { l: 'E', m: 80 },
+      { l: 'F', m: 120 },
+      { l: 'H' },
+      { l: 'G', m: 170, p: [200, 50] },
+    ]
   };
 },
 
@@ -2672,8 +2700,18 @@ function() {
   return {
     title: 'Proposition 113',
     id: '10.113',
-    img: '/img/10/113',
     prose: prop113,
+    mags: [
+      { l: 'A', m: 80, p: v2.o },
+      { l: 'B', m: 50, v: 50 },
+      { l: 'D', m: 100 },
+      { l: 'C' },
+      { l: 'K', m: 160, v: 50 },
+      { l: 'E', m: 40 },
+      { l: 'F', m: 120 },
+      { l: 'H' },
+      { l: 'G', m: 170, p: [200, 50] },
+    ]
   };
 },
 
@@ -2681,8 +2719,20 @@ function() {
   return {
     title: 'Proposition 114',
     id: '10.114',
-    img: '/img/10/114',
     prose: prop114,
+    mags: [
+      { l: 'A', m: 150, p: v2.o },
+      { l: 'B', m: 60 },
+      { l: 'F' },
+      { l: 'C', m: 140, v: 50 },
+      { l: 'E', m: 90 },
+      { l: 'D' },
+      { l: 'G', m: 190, v: 50 },
+      { l: 'H', m: 210, v: 50 },
+      { l: 'K', m: 150, v: 50 },
+      { l: 'L', m: 80 },
+      { l: 'M' },
+    ]
   };
 },
 
@@ -2690,8 +2740,13 @@ function() {
   return {
     title: 'Proposition 115',
     id: '10.115',
-    img: '/img/10/115',
     prose: prop115,
+    mags: [
+      { l: 'A', m: 100, p: v2.o },
+      { l: 'B', m: 250, v: 50 },
+      { l: 'C', m: 150, v: 50 },
+      { l: 'D', m: 170, v: 50 },
+    ]
   };
 },
 

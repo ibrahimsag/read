@@ -1,24 +1,24 @@
 An apotome is not the same as a binomial.
 
-Let {AB} be an apotome.
-I say that {AB} is not the same as a binomial.
+Let {AB magnitude} be an apotome.
+I say that {AB magnitude} is not the same as a binomial.
 
 For, if possible, let it be (the same).
-And let a rational (straight-line) {DC} be laid down.
-And let the rectangle {CE}, equal to the (square) on {AB}, have been applied to {CD}, producing {DE} as breadth.
-Therefore, since {AB} is an apotome, {DE} is a first apotome [Prop. 10.97].
-Let {EF} be an attachment to it.
-Thus, {DF} and {FE} are rational (straight-lines which are) commensurable in square only, and the square on {DF} is greater than (the square on) {FE} by the (square) on (some straight-line) commensurable (in length) with ({DF}), and {DF} is commensurable in length with the (previously) laid down rational (straight-line) {DC} [Def. 10.10].
-Again, since {AB} is a binomial, {DE} is thus a first binomial [Prop. 10.60].
-Let ({DE}) have been divided into its (component) terms at {G}, and let {DG} be the greater term.
-Thus, {DG} and {GE} are rational (straight-lines which are) commensurable in square only, and the square on {DG} is greater than (the square on) {GE} by the (square) on (some straight-line) commensurable (in length) with ({DG}), and the greater (term) {DG} is commensurable in length with the (previously) laid down rational (straight-line) {DC} [Def. 10.5].
-Thus, {DF} is also commensurable in length with {DG} [Prop. 10.12].
-The remainder {GF} is thus commensurable in length with {DF} [Prop. 10.15].
-[Therefore, since {DF} is commensurable with {GF}, and {DF} is rational, {GF} is thus also rational.
-Therefore, since {DF} is commensurable in length with {GF},] {DF} (is) incommensurable in length with {EF}.
-Thus, {FG} is also incommensurable in length with {EF} [Prop. 10.13].
-{GF} and {FE} [are] thus rational (straight-lines which are) commensurable in square only.
-Thus, {EG} is an apotome [Prop. 10.73].
+And let a rational (straight-line) {DC line} be laid down.
+And let the rectangle {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {DE magnitude} as breadth.
+Therefore, since {AB magnitude} is an apotome, {DE magnitude} is a first apotome [Prop. 10.97].
+Let {EF magnitude} be an attachment to it.
+Thus, {DF magnitude} and {FE magnitude} are rational (straight-lines which are) commensurable in square only, and the square on {DF magnitude} is greater than (the square on) {FE magnitude} by the (square) on (some straight-line) commensurable (in length) with ({DF magnitude}), and {DF magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {DC line} [Def. 10.10].
+Again, since {AB magnitude} is a binomial, {DE magnitude} is thus a first binomial [Prop. 10.60].
+Let ({DE magnitude}) have been divided into its (component) terms at {G point}, and let {DG magnitude} be the greater term.
+Thus, {DG magnitude} and {GE magnitude} are rational (straight-lines which are) commensurable in square only, and the square on {DG magnitude} is greater than (the square on) {GE magnitude} by the (square) on (some straight-line) commensurable (in length) with ({DG magnitude}), and the greater (term) {DG magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {DC line} [Def. 10.5].
+Thus, {DF magnitude} is also commensurable in length with {DG magnitude} [Prop. 10.12].
+The remainder {GF magnitude} is thus commensurable in length with {DF magnitude} [Prop. 10.15].
+[Therefore, since {DF magnitude} is commensurable with {GF magnitude}, and {DF magnitude} is rational, {GF magnitude} is thus also rational.
+Therefore, since {DF magnitude} is commensurable in length with {GF magnitude},] {DF magnitude} (is) incommensurable in length with {EF magnitude}.
+Thus, {FG magnitude} is also incommensurable in length with {EF magnitude} [Prop. 10.13].
+{GF magnitude} and {FE magnitude} [are] thus rational (straight-lines which are) commensurable in square only.
+Thus, {EG magnitude} is an apotome [Prop. 10.73].
 But, (it is) also rational.
 The very thing is impossible.
 

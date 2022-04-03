@@ -67,9 +67,6 @@ function make(colors, cs)
     </p>
     <h4>Book 10 - Incommensurable Magnitudes</h4>
     <p>
-    In progress...
-    </p>
-    <p>
     Start with <a pref="10.d1">Definitions I</a>.
     <br>
     Interesting proof: <a pref="10.1">Method of exhaustion</a>

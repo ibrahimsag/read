@@ -1476,7 +1476,7 @@ function elements() {
     {
       t = 76 - scroll_position;
     }
-    let h = Math.min(512, window.innerHeight - Math.min(76, t));
+    let h = Math.max(512, window.innerHeight - Math.min(76, t));
 
     let rule = sheet.getRule('figColumn');
     rule.prop('top', t);
