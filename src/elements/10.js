@@ -482,6 +482,56 @@ let fig97 = (function() {
   };
 })();
 
+let fig103 = (function() {
+  return {
+    mags: [
+      { l: 'A', m: 150, p: v2.o },
+      { l: 'B', m: 90 },
+      { l: 'E' },
+      { l: 'C', m: 120, p: [20, 50] },
+      { l: 'D', m: 50 },
+      { l: 'F' }
+    ]
+  };
+})();
+
+let fig109 = ( function() {
+  let z = {};
+  [z.B, z.E, z.M,
+    z.A, z.D, z.C] = [0, 200].map(y => [0, 90, 140].map(x=> [x, y])).flat();
+  [z.F, z.K, z.H,
+    z.G, z.L, z.N] = [0, 250].map(y => [190, 280, 320].map(x=> [x, y])).flat();
+  return {
+    points: z,
+    letters: {
+      B: [1],
+      E: [1],
+      F: [1],
+      K: [1],
+      H: [1],
+      A: [5],
+      D: [5],
+      C: [5],
+      G: [5],
+      L: [5],
+    },
+    shapes: [
+      rg.polygon([z.B, z.A, z.C, z.M]),
+      rg.line(z.E ,z.D),
+      rg.polygon([z.F, z.G, z.N, z.H]),
+      rg.line(z.K, z.L)
+    ],
+    polygonl: {
+      BC: 'BACM',
+      EC: 'EDCM',
+      BD: 'BADE',
+      LH: 'LNHK',
+      GH: 'GNHF',
+      GK: 'GLKF'
+    }
+  };
+})();
+
   return [
 function() {
   return {
@@ -2500,8 +2550,8 @@ function() {
   return {
     title: 'Proposition 103',
     id: '10.103',
-    img: '/img/10/103',
     prose: prop103,
+    ...fig103
   };
 },
 
@@ -2509,8 +2559,8 @@ function() {
   return {
     title: 'Proposition 104',
     id: '10.104',
-    img: '/img/10/104',
     prose: prop104,
+    ...fig103
   };
 },
 
@@ -2518,8 +2568,8 @@ function() {
   return {
     title: 'Proposition 105',
     id: '10.105',
-    img: '/img/10/105',
     prose: prop105,
+    ...fig103
   };
 },
 
@@ -2527,8 +2577,8 @@ function() {
   return {
     title: 'Proposition 106',
     id: '10.106',
-    img: '/img/10/106',
     prose: prop106,
+    ...fig103
   };
 },
 
@@ -2536,17 +2586,49 @@ function() {
   return {
     title: 'Proposition 107',
     id: '10.107',
-    img: '/img/10/107',
     prose: prop107,
+    ...fig103
   };
 },
 
 function() {
+  let z = {};
+  [z.A, z.E, z.B,
+    z.C, z.D, z.M] = [0, 200].map(y => [0, 90, 140].map(x => [x, y])).flat();
+  [z.N, z.L, z.G,
+    z.H, z.K, z.F] = [70, 130].map(y => [180, 350, 480].map(x => [x, y])).flat();
   return {
     title: 'Proposition 108',
     id: '10.108',
-    img: '/img/10/108',
     prose: prop108,
+    points: z,
+    letters: {
+      A: [1],
+      E: [1],
+      B: [1],
+      C: [5],
+      D: [5],
+      L: [1],
+      G: [1],
+      H: [5],
+      K: [5],
+      F: [5],
+    },
+    shapes: [
+      rg.polygon([z.A, z.C, z.M, z.B]),
+      rg.line(z.E, z.D),
+      rg.polygon([z.N, z.H, z.F, z.G]),
+      rg.line(z.L, z.K)
+    ],
+    polygonl: {
+      BD: "BEDM",
+      BC: "BACM",
+      EC: "EACD",
+      GH: "GNHF",
+      GK: "GLKF",
+      DB: "DEBM",
+      LH: "LNHK"
+    }
   };
 },
 
@@ -2554,8 +2636,8 @@ function() {
   return {
     title: 'Proposition 109',
     id: '10.109',
-    img: '/img/10/109',
     prose: prop109,
+    ...fig109
   };
 },
 
@@ -2563,8 +2645,8 @@ function() {
   return {
     title: 'Proposition 110',
     id: '10.110',
-    img: '/img/10/110',
     prose: prop110,
+    ...fig109
   };
 },
 
