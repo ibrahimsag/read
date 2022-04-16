@@ -36,7 +36,10 @@ function de(name, attrs)
   {
     for (const attr in attrs)
     {
-      element.setAttribute(attr, attrs[attr])
+      if(attr == 'textContent')
+        element.textContent = attrs[attr];
+      else
+        element.setAttribute(attr, attrs[attr])
     }
   }
 
@@ -50,7 +53,10 @@ function se(name, attrs)
   {
     for (const attr in attrs)
     {
-      element.setAttribute(attr, attrs[attr])
+      if(attr == 'textContent')
+        element.textContent = attrs[attr];
+      else
+        element.setAttribute(attr, attrs[attr])
     }
   }
 
@@ -475,21 +481,25 @@ function makePR(rg, svg, cs)
     {
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
-      var el = se('text');
-      el.setAttribute('font-family', 'Nale');
-      el.setAttribute('font-size', shouldBeSmall ? 16 : 24);
+
       let fillcolor = colors.dim;
       if(highlightFigure && letterColor[i])
       {
         fillcolor = letterColor[i];
       }
-      el.setAttribute('fill', fillcolor);
-      el.textContent = i;
-
       let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
-      el.setAttribute('x', pos[0]);
-      el.setAttribute('y', pos[1]);
-      shapes.push(el);
+      let attrs = {
+        'font-family': 'Nale',
+        'font-size': shouldBeSmall ? 16 : 24,
+        'fill': fillcolor,
+        'textContent': i,
+        'x': pos[0],
+        'y': pos[1],
+      };
+      var el = se('text', attrs);
+      var el_ = se('text', {...attrs, stroke: hsl(0), 'stroke-width':5});
+
+      shapes.push(el_, el);
     }
     return shapes;
   }
@@ -1017,7 +1027,7 @@ function makePR(rg, svg, cs)
       }
       if(figureIndex == 0 || figureIndex == i+1)
       {
-        nearHighlights.forEach(f(colors.sentence));
+        //nearHighlights.forEach(f(colors.sentence));
         highlights.forEach(f(colors.bright));
       }
       if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
@@ -1723,6 +1733,6 @@ function bgtiles()
     w.e.removeChild(w.e.firstChild);
   w.e.append(...es);
 }
-bgtiles();
+// bgtiles();
 
 elements();
