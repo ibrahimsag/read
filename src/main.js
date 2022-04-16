@@ -487,6 +487,8 @@ function makePR(rg, svg, cs)
       {
         fillcolor = letterColor[i];
       }
+      if(!figure.points[i])
+        console.error(i, 'need point for letter');
       let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
       let attrs = {
         'font-family': 'Nale',

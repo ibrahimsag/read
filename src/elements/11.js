@@ -675,43 +675,184 @@ function() {
 },
 
 function() {
+  let y = {};
+  [y.A, y.p1, y.p2, y.B] = [-1, 1].map(z => [-1, 1].map(x => [x, 0, z])).flat();
+  y.q = v3.s(v3.y, 1.5);
+  y.E = v3.s(v3.x, -1);
+  y.F = v3.x;
+  [y.C, y.q1, y.q2, y.D, y.G, y.H] = [y.A, y.p1, y.p2, y.B, y.E, y.F].map(p => v3.add(y.q, p));
+  y.K = v3.add(v3.s(v3.x, 3), v3.s(y.q, 0.5));
+  y.o = v3.o;
+  y.x = v3.x;
+  y.y = v3.y;
+  y.z = v3.z;
+
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d,y[i])), 100);
   return {
     title: 'Proposition 16',
     id: '11.16',
-    img: '/img/11/16',
     prose: prop16,
+    points: z,
+    letters: {
+      A: [5],
+      B: [1],
+      C: [5],
+      D: [1],
+      E: [2.7, 2],
+      F: [7.5, 5],
+      G: [2.7, 2],
+      H: [6],
+      K: [7]
+    },
     shapes: [
-      // rg.line(z.o, z.x, {stroke: hsl(150, 70), 'stroke-width': 3}),
-      // rg.line(z.o, z.y, {stroke: hsl(250, 70), 'stroke-width': 3}),
-      // rg.line(z.o, z.z, {stroke: hsl(350, 70), 'stroke-width': 3}),
+      rg.polygon([z.A, z.p1, z.B, z.p2]),
+      rg.polygon([z.C, z.q1, z.D, z.q2]),
+      rg.polygon([z.E, z.G, z.H, z.F]),
+      rg.line(z.F, z.K),
+      rg.line(z.H, z.K),
     ]
   };
 },
 
 function() {
+  let y = {};
+  [y.p1, y.p2, y.p4, y.p3] = [-1, 1].map(z => [-1.2, 1.2].map(x => [x, 0, z])).flat();;
+  y.A = v3.r(v3.add(v3.s(v3.x, 0.3), v3.s(v3.z, 0.3)), v3.y, -0.2);
+  y.C = v3.s(y.A, -1);
+  y.q = v3.add(v3.s(v3.y, 1.5), v3.s(v3.x, 0.5));
+  y.r = v3.s(y.q, 2);
+  y.rB = v3.s(v3.r(y.A, v3.y, 0.5), 1.8);
+  y.B = v3.add(y.r, y.rB);
+  y.D = v3.add(y.r, v3.s(y.rB, -1));
+  y.E = v3.add(y.A, v3.s(v3.sub(y.B, y.A), 0.5));
+  y.F = v3.add(y.C, v3.s(v3.sub(y.D, y.C), 0.5));
+  y.O = v3.add(y.A, v3.s(v3.sub(y.D, y.A), 0.5));
+  [y.q1, y.q2, y.q3, y.q4] = [y.p1, y.p2, y.p3, y.p4].map(p => v3.add(p, y.q));
+  [y.r1, y.r2, y.r3, y.r4] = [y.p1, y.p2, y.p3, y.p4].map(p => v3.add(p, y.r));
+  [y.G, y.H, y.K, y.L, y.M, y.N] = [y.p1, y.p3, y.q1, y.q3, y.r1, y.r3];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
   return {
     title: 'Proposition 17',
     id: '11.17',
-    img: '/img/11/17',
     prose: prop17,
+    points: z,
+    letters: {
+      A: [1],
+      B: [7],
+      C: [3],
+      D: [3],
+      E: [7.8,2],
+      F: [3.5, 2],
+      G: [5],
+      H: [1],
+      K: [5],
+      L: [1],
+      M: [5],
+      N: [1],
+      O: [8.2, 2],
+    },
+    shapes: [
+      rg.polygon([z.p1, z.p2, z.p3, z.p4]),
+      rg.polygon([z.q1, z.q2, z.q3, z.q4]),
+      rg.polygon([z.r1, z.r2, z.r3, z.r4]),
+      rg.line(z.A, z.B),
+      rg.line(z.C, z.D),
+      rg.line(z.A, z.C),
+      rg.line(z.B, z.D),
+      rg.line(z.A, z.D),
+      rg.line(z.F, z.O),
+      rg.line(z.O, z.E),
+    ],
   };
 },
 
 function() {
+  let y = {};
+  [y.p1, y.p2, y.p4, y.p3] = [-1, 1].map(z => [-1.2, 0.6].map(x => [x, 0, z])).flat();
+  [y.D, y.G, y.A, y. H,
+    y.C, y.F, y.B, y.E] = [-1, 0].map(y => [-1.2, -0.6, 0, 0.6].map(x=>[x, y, 0])).flat();
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   return {
     title: 'Proposition 18',
     id: '11.18',
-    img: '/img/11/18',
     prose: prop18,
+    points: z,
+    letters: {
+      A: [1],
+      G: [1],
+      D: [1],
+      C: [2.7,2],
+      F: [5],
+      B: [5],
+      E: [7, 2],
+    },
+    shapes: [
+      rg.polygon([z.p1, z.p2, z.p3, z.p4]),
+      rg.polygon([z.D, z.C, z.E, z.H]),
+      rg.line(z.G, z.F),
+      rg.line(z.A, z.B),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  [y.p1, y.p2, y.p4, y.p3] = [-1, 1].map(z => [-1, 1].map(x => [x, 0, z])).flat();
+  [y.a1, y.a2, y.a4, y.a3] = [0, -1].map(y => [-1, 1].map(z => [z*0.5, y, z])).flat();
+  [y.c1, y.c2, y.c4, y.c3] = [0, -1].map(y => [-1, 1].map(z => [-z*0.8, y, z])).flat();
+  y.A = y.a1;
+  y.C = y.c1;
+  y.B = v3.s(v3.y, -1);
+  y.D = v3.o;
+  y.E = v3.add(v3.s(y.a1, 0.3), v3.s(y.B, 0.7));
+  y.F = v3.add(v3.s(y.c1, 0.3), v3.s(y.B, 0.7));
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.4));
+  f = f.map(d => v3.r(d, f[1], -0.2));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   return {
     title: 'Proposition 19',
     id: '11.19',
     img: '/img/11/19',
     prose: prop19,
+    points: z,
+    letters: {
+      A: [5],
+      B: [1, 2],
+      C: [5],
+      D: [5],
+      E: [1],
+      F: [1],
+    },
+    shapes: [
+      rg.polygon([z.p1, z.p2, z.p3, z.p4]),
+      rg.polygon([z.a1, z.a2, z.a3, z.a4]),
+      rg.polygon([z.c1, z.c2, z.c3, z.c4]),
+      rg.line(z.B, z.D),
+      rg.line(z.E, z.D),
+      rg.line(z.F, z.D),
+      // rg.line(z.o, z.x, {stroke: hsl(150, 70), 'stroke-width': 3}),
+      // rg.line(z.o, z.y, {stroke: hsl(250, 70), 'stroke-width': 3}),
+      // rg.line(z.o, z.z, {stroke: hsl(350, 70), 'stroke-width': 3}),
+    ]
   };
 },
 
