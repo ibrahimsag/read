@@ -1011,9 +1011,6 @@ function() {
       ...[z.O, z.L, z.M, z.N].map(p => rg.line(p, z.R)),
       ...[z.L, z.M, z.N].map(p => rg.line(p, z.O)),
       rg.curve(zc),
-      // rg.line(z.o, z.x, {stroke: hsl(150, 70), 'stroke-width': 3}),
-      // rg.line(z.o, z.y, {stroke: hsl(250, 70), 'stroke-width': 3}),
-      // rg.line(z.o, z.z, {stroke: hsl(350, 70), 'stroke-width': 3}),
     ]
   };
 },
@@ -1074,47 +1071,264 @@ function() {
 },
 
 function() {
+  let y = {};
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  [y.C, y.D, y.B, y.A] = [1, -1].map(y => [1, -1].map(z => [0, y, z])).flat();
+  [y.F, y.E, y.H, y.G] = [y.C, y.D, y.B, y.A].map(p => v3.add(v3.s(v3.x, 3), p));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.7));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
+  let s = [z.A, z.D, z.C, z.B];
+  let t = [z.G, z.E, z.F, z.H];
   return {
     title: 'Proposition 24',
     id: '11.24',
-    img: '/img/11/24',
     prose: prop24,
+    points: z,
+    letters: {
+      A: [3],
+      B: [2],
+      C: [3],
+      D: [5],
+      E: [5],
+      F: [7],
+      G: [7],
+      H: [8],
+    },
+    shapes: [
+      rg.line(z.A, z.H),
+      rg.line(z.D, z.F),
+      rg.polygon(s),
+      rg.polygon(t),
+      ...s.map((p, i) => rg.line(p, t[i])),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  y.a = [1, -1].map(y => [1, -1].map(z => [0, y, z])).flat();
+  y.a.splice(2, 0, y.a.pop());
+  y.e = y.a.map(p => v3.add(p, v3.s(v3.x, 0.9)));
+  y.h = y.e.map(p => v3.add(p, v3.s(v3.x, 0.6)));
+  y.m = y.h.map(p => v3.add(p, v3.s(v3.x, 0.6)));
+  y.n = y.m.map(p => v3.add(p, v3.s(v3.x, 0.6)));
+  y.k = y.a.map(p => v3.add(p, v3.s(v3.x, -0.9)));
+  y.l = y.k.map(p => v3.add(p, v3.s(v3.x, -0.9)));
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.3));
+  f = f.map(d => v3.r(d, f[1], -0.2));
+  let p = (v) => v3.s(f.map(d => v3.dot(d, v)), 85);
+  for(let i in y)
+  {
+    if(y[i].length && y[i][0].length)
+      z[i] = y[i].map(p);
+    else
+      z[i] = p(y[i]);
+  }
+  z.P = z.k[0];
+  z.V = z.a[0];
+  z.F = z.e[0];
+  z.C = z.h[0];
+  z.W = z.m[0];
+  z.S = z.n[0];
+  z.L = z.l[1];
+  z.K = z.k[1];
+  z.A = z.a[1];
+  z.E = z.e[1];
+  z.H = z.h[1];
+  z.M = z.m[1];
+  z.N = z.n[1];
+  z.O = z.l[2];
+  z.B = z.a[2];
+  z.G = z.e[2];
+  z.I = z.m[2];
+  z.X = z.l[3];
+  z.Q = z.k[3];
+  z.R = z.a[3];
+  z.U = z.e[3];
+  z.D = z.h[3];
+  z.Y = z.m[3];
+  z.T = z.n[3];
   return {
     title: 'Proposition 25',
     id: '11.25',
-    img: '/img/11/25',
     prose: prop25,
+    points: z,
+    letters: {
+      X: [1],
+      Q: [1],
+      R: [1],
+      U: [1],
+      D: [1],
+      Y: [1],
+      T: [1],
+      A: [5],
+      L: [5],
+      K: [5],
+      M: [5],
+      N: [5],
+      E: [5],
+      H: [5],
+      P: [2.2, 2],
+      V: [2.2, 2],
+      F: [2.2, 2],
+      C: [2.2, 2],
+      W: [2.2, 2],
+      S: [2.2, 2],
+      O: [2],
+      B: [2],
+      G: [2],
+      I: [1.5],
+    },
+    shapes: [
+      rg.polygon(z.a),
+      rg.polygon(z.e),
+      rg.polygon(z.h),
+      rg.polygon(z.l),
+      rg.polygon(z.k),
+      rg.polygon(z.m),
+      rg.polygon(z.n),
+      ...z.l.map((p, i) => rg.line(p, z.n[i])),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  [y.P, y.Q, y.S, y.R] = [-1.2, 1.2].map(z => [-1, 3].map(x => [x, 0, z])).flat();
+  [y.o, y.x, y.y, y.z] = [v3.o, v3.x, v3.y, v3.z];
+  y.D = v3.s(v3.x, -0.7);
+  y.G = v3.add(y.D, v3.s(v3.x, 1.5));
+  y.C = v3.add(y.D, v3.s(v3.r(v3.x, v3.y, -0.8), 1));
+  y.E = v3.add(y.D, v3.s(v3.r(v3.x, v3.y, 0.5), 1.3));
+  y.F = v3.add(y.G, v3.s(v3.y, -2));
+  [y.L, y.A, y.B, y.H, y.K] = [y.C, y.D, y.E, y.F, y.G]
+    .map(p => v3.add(v3.r(p, v3.y, -1.2), v3.s(v3.x, 2)));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.6));
+  f = f.map(d => v3.r(d, f[1], -0.2));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
   return {
     title: 'Proposition 26',
     id: '11.26',
-    img: '/img/11/26',
     prose: prop26,
+    points: z,
+    letters: {
+      C: [5],
+      D: [3],
+      E: [6],
+      F: [1],
+      G: [7],
+      L: [3],
+      A: [4],
+      B: [7],
+      H: [1],
+      K: [8],
+    },
+    shapes: [
+      rg.polygon([z.P, z.Q, z.R, z.S]),
+      rg.line(z.D, z.G),
+      rg.polygon([z.D, z.C, z.G, z.E]),
+      ...[z.D, z.C, z.G, z.E].map(p => rg.line(p, z.F)),
+      rg.line(z.A, z.K),
+      rg.polygon([z.L, z.A, z.B, z.K]),
+      ...[z.L, z.A, z.B, z.K].map(p => rg.line(p, z.H)),
+    ]
   };
 },
 
 function() {
+  let y = {}, c, e, a, b;
+  [y.c1, y.c2, y.c4, y.c3] = c = [-1, 1].map(z => [1, -1].map(y => [-1+y/4, y, z])).flat();
+  [y.e1, y.e2, y.e4, y.e3] = e = c.map(p => v3.add(p, v3.s(v3.x, 2)));
+  [y.a1, y.a2, y.a4, y.a3] = c.map(p => v3.add(v3.s(p, 0.6), v3.s(v3.x, 3)));
+  [y.b1, y.b2, y.b4, y.b3] = e.map(p => v3.add(v3.s(p, 0.6), v3.s(v3.x, 3)));
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 80);
+  z.C = z.c1;
+  z.G = z.c4;
+  z.F = z.c2;
+  z.D = z.e3;
+  z.E = z.e1;
+  z.A = z.a1;
+  z.H = z.a2;
+  z.K = z.a4;
+  z.B = z.b1;
+  z.L = z.b3;
+  z.M = z.b2;
   return {
     title: 'Proposition 27',
     id: '11.27',
-    img: '/img/11/27',
     prose: prop27,
+    points: z,
+    letters: {
+      A: [5],
+      B: [5],
+      C: [5],
+      D: [1],
+      E: [5],
+      F: [3],
+      G: [8.3],
+      H: [3],
+      K: [8.1, 2],
+      L: [1],
+      M: [2],
+    },
+    shapes: [
+      rg.polygon([z.c1, z.c2, z.c3, z.c4]),
+      rg.polygon([z.e1, z.e2, z.e3, z.e4]),
+      ...[z.c1, z.c2, z.c3, z.c4].map((p, i) => rg.line(p, z['e'+(i+1)])),
+      rg.polygon([z.a1, z.a2, z.a3, z.a4]),
+      rg.polygon([z.b1, z.b2, z.b3, z.b4]),
+      ...[z.a1, z.a2, z.a3, z.a4].map((p, i) => rg.line(p, z['b'+(i+1)])),
+    ]
   };
 },
 
 function() {
+  let y = {}, d, a;
+  [y.D, y.H, y.C, y.B] = d = [-1, 1].map(z => [1, -1].map(y => [-1+y/4, y, z])).flat();
+  [y.A, y.E, y.G, y.F] = d.map(p => v3.add(p, v3.s(v3.x, 2)));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.1));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
   return {
     title: 'Proposition 28',
     id: '11.28',
-    img: '/img/11/28',
     prose: prop28,
+    points: z,
+    letters: {
+      A: [5],
+      B: [1],
+      C: [3],
+      D: [5],
+      E: [7],
+      F: [1],
+      G: [7],
+      H: [3]
+    },
+    shapes: [
+      rg.polygon([z.D, z.C, z.B, z.H]),
+      rg.polygon([z.A, z.G, z.F, z.E]),
+      rg.polygon([z.D, z.E, z.F, z.C]),
+      ...[z.D,z.C,z.B,z.H].map((p, i) => rg.line(p, [z.A,z.G,z.F,z.E][i]))
+    ]
   };
 },
 
