@@ -479,6 +479,12 @@ function makePR(rg, svg, cs)
     let shapes = [];
     for(var i in figure.letters)
     {
+      if(!figure.points[i])
+      {
+        console.error(i, 'need point for letter');
+        continue;
+      }
+
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
 
@@ -487,8 +493,6 @@ function makePR(rg, svg, cs)
       {
         fillcolor = letterColor[i];
       }
-      if(!figure.points[i])
-        console.error(i, 'need point for letter');
       let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
       let attrs = {
         'font-family': 'Nale',
