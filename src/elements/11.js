@@ -200,8 +200,7 @@ function() {
   f = f.map(d => v3.rot(d, f[0], -0.7));
   f = f.map(d => v3.rot(d, f[1], -0.1));
   for(let i in y) {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0]*150, s[1]*150];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   }
   return {
     title: 'Proposition 4',
@@ -245,8 +244,7 @@ function() {
   f = f.map(d => v3.r(d, f[0], -0.7));
   f = f.map(d => v3.r(d, f[1], -0.3));
   for(let i in y) {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0]*150, s[1]*150];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   }
   return {
     title: 'Proposition 5',
@@ -286,8 +284,7 @@ function() {
   f = f.map(d => v3.rot(d, f[1], -0.3));
   for(let i in y)
   {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0] * 150, s[1]*150];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   }
   return {
     title: 'Proposition 6',
@@ -362,8 +359,7 @@ function() {
   f = f.map(d => v3.rot(d, f[1], -0.3));
   for(let i in y)
   {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0]*200, s[1]*200];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 200);
   }
   return {
     title: 'Proposition 8',
@@ -438,8 +434,7 @@ function() {
   f = f.map(d => v3.r(d, f[1], -0.3));
   for(let i in y)
   {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0] * 150, s[1] * 150];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   }
   return {
     title: 'Proposition 10',
@@ -483,8 +478,7 @@ function() {
   f = f.map(d => v3.r(d, f[1], -0.3));
   for(let i in y)
   {
-    let s = f.map(d => v3.dot(d, y[i]));
-    z[i] = [s[0]*150, s[1]*150];
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   }
   return {
     title: 'Proposition 11',
@@ -831,7 +825,6 @@ function() {
   return {
     title: 'Proposition 19',
     id: '11.19',
-    img: '/img/11/19',
     prose: prop19,
     points: z,
     letters: {
