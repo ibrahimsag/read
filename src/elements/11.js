@@ -1564,9 +1564,6 @@ function() {
             rg.polygon([...'QOSF'].map(l => z[l])),
             ...[...'PCRD'].map((l, i) => rg.line(z[l], z['QOSF'[i]])),
             ...[...'WYIX'].map((l, i) => rg.line(z[l], z['QOSF'[i]])),
-            // rg.line(z.o, z.x, {stroke: hsl(150, 70), strokeWidth: 2}),
-            // rg.line(z.o, z.y, {stroke: hsl(250, 70), strokeWidth: 2}),
-            // rg.line(z.o, z.z, {stroke: hsl(350, 70), strokeWidth: 2}),
           ]
         }
       })()
@@ -1575,20 +1572,150 @@ function() {
 },
 
 function() {
+  let y = {};
+  function s(ls, ps) {
+    for(let i = 0; i < ls.length; i++)
+      y[ls[i]] = ps[i];
+  }
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  s('AMON', [1, -1].map(y => [-1, 1].map(z => [y/2, y, z])).flat());
+  s('PEQB', [...'AMON'].map(l => v3.add(v3.s(v3.x, 3), y[l])));
+  s('CLSR', [1, -1].map(y => [-1, 1].map(z => [5.5-y/2-z/4, y, z])).flat());
+  s('GFTD', [...'CLSR'].map(l => v3.add(v3.s(v3.x, 3), y[l])));
+  s('HUVK', [...'CLSR'].map(l => v3.add(v3.s(v3.x, 5), y[l])));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.1));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 40);
   return {
     title: 'Proposition 32',
     id: '11.32',
-    img: '/img/11/32',
     prose: prop32,
+    points: z,
+    letters: {
+      A: [5],
+      B: [1],
+      E: [7],
+      L: [3],
+      C: [5],
+      G: [5],
+      H: [5],
+      F: [2],
+      D: [1],
+      K: [1],
+      /*
+      M: [6],
+      N: [1],
+      O: [3],
+      P: [5],
+      Q: [2],
+      R: [1],
+      S: [8],
+      T: [8],
+      U: [2],
+      V: [8],
+      */
+    },
+    shapes: [
+      rg.polygon([...'AMNO'].map(l => z[l])),
+      rg.polygon([...'PEBQ'].map(l => z[l])),
+      ...[...'AMNO'].map((l, i) => rg.line(z[l], z['PEBQ'[i]])),
+      rg.polygon([...'CLRS'].map(l => z[l])),
+      rg.polygon([...'GFDT'].map(l => z[l])),
+      rg.polygon([...'HUKV'].map(l => z[l])),
+      ...[...'CLRS'].map((l, i) => rg.line(z[l], z['HUKV'[i]])),
+      ...[...'OBP'].map(l => rg.line(z[l], z.Q, {stroke: hsl(0), strokeWidth: 7})),
+      ...[...'OBP'].map(l => rg.line(z[l], z.Q)),
+      ...[...'CRV'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 7})),
+      ...[...'CRV'].map(l => rg.line(z[l], z.S)),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  function s(ls, ps) {
+    for(let i = 0; i < ls.length; i++)
+      y[ls[i]] = ps[i];
+  }
+  // .map(p => v3.r(p, v3.y, Math.PI/4))
+  s('CSFN', [-1, 1].map(x => [1.5, -1.5].map(z => [x-2, 0, z])).flat());
+  s('TURD', [...'CSFN'].map(l => v3.add(v3.s(v3.y, 2.5), y[l])));
+  s('BHOQ', [-1, 1].map(x => [1, -1].map(z => [x, 5, z])).flat());
+  s('GEVK', [...'BHOQ'].map(l => v3.add(v3.s(v3.y, 2), y[l])));
+  s('LWXY', [...'EKQH'].map(l => v3.add(v3.s(v3.z, -2), y[l])));
+  s('Aabc', [...'EHBG'].map(l => v3.add(v3.s(v3.x, -4), y[l])));
+  s('MPZd', [...'ELWK'].map(l => v3.add(v3.s(v3.y, 2), y[l])));
+
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[1], 0.4));
+  f = f.map(d => v3.r(d, f[0], -0.3));
+  // f = f.map(d => v3.r(d, f[2], 0.1));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 50);
+  // [...'CSFNTURD'].forEach(l => { z[l] = v3.add(v3.s(v3.x, -100), z[l]); });
   return {
     title: 'Proposition 33',
     id: '11.33',
-    img: '/img/11/33',
+    // img: '/img/11/33',
     prose: prop33,
+    points: z,
+    letters: {
+      C: [1],
+      F: [1],
+      N: [8],
+      R: [2],
+      D: [5],
+
+      A: [5],
+      E: [3.9,4],
+      M: [3],
+      P: [5],
+      G: [2],
+      B: [1],
+      O: [1],
+      Q: [8],
+      H: [8],
+      K: [7.5],
+      L : [8],
+      S: [8],
+      T: [2],
+      U: [4],
+      /*
+      a: [6],
+      b: [1],
+      c: [4],
+      Z: [5],
+      d: [2],
+      W: [7],
+      X: [8],
+      Y: [3.5, 2],
+      V: [7.5],
+      */
+    },
+    shapes: [
+      rg.polygon([...'CSNF'].map(l => z[l])),
+      rg.polygon([...'TUDR'].map(l => z[l])),
+      ...[...'TUDR'].map((l, i) => rg.line(z[l], z['CSNF'[i]])),
+      rg.polygon([...'BHQO'].map(l => z[l])),
+      rg.polygon([...'GEKV'].map(l => z[l])),
+      ...[...'BHQO'].map((l, i) => rg.line(z[l], z['GEKV'[i]])),
+      rg.polygon([...'Aabc'].map(l => z[l])),
+      rg.polygon([...'MPZd'].map(l => z[l])),
+      rg.polygon([...'LWXY'].map(l => z[l])),
+      ...[...'LWXY'].map((l, i) => rg.line(z[l], z['EKQH'[i]])),
+      ...[...'Aabc'].map((l, i) => rg.line(z[l], z['EHBG'[i]])),
+      ...[...'MPZd'].map((l, i) => rg.line(z[l], z['ELWK'[i]])),
+      ...[...'NCU'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 10})),
+      ...[...'NCU'].map(l => rg.line(z[l], z.S)),
+      // rg.line(z.o, z.x, {stroke: hsl(150, 70), strokeWidth: 2}),
+      // rg.line(z.o, z.y, {stroke: hsl(250, 70), strokeWidth: 2}),
+      // rg.line(z.o, z.z, {stroke: hsl(350, 70), strokeWidth: 2}),
+    ]
   };
 },
 
