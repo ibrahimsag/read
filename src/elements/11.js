@@ -1333,20 +1333,100 @@ function() {
 },
 
 function() {
+  let y = {}, a;
+  [y.G, y.N, y.E, y.K] = a = [-1, 1].map(z => [-1.0, 1.0].map(x=> [x, 0, z])).flat();
+  [y.F, y.M, y.D, y.H] = a.map(p => v3.add(p, v3.s(v3.x, -0.6)));
+  [y.A, y.L, y.C, y.B] = a.map(p => v3.add(p, v3.add(v3.y, v3.s(v3.x, 0.1))));
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.25));
+  f = f.map(d => v3.r(d, f[1], 0.10));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 160);
   return {
     title: 'Proposition 29',
     id: '11.29',
-    img: '/img/11/29',
     prose: prop29,
+    points: z,
+    letters: {
+      A: [5],
+      B: [8],
+      C: [8],
+      D: [1],
+      E: [1],
+      F: [4],
+      G: [8],
+      H: [1],
+      K: [1],
+      L: [5],
+      M: [4],
+      N: [7],
+    },
+    shapes: [
+      rg.polygon([z.F, z.N, z.K, z.D]),
+      rg.polygon([z.A, z.L, z.B, z.C]),
+      rg.line(z.E, z.G),
+      rg.line(z.H, z.M),
+      ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.G, z.N, z.K, z.E][i])),
+      ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.F, z.M, z.H, z.D][i])),
+      rg.line(z.F, z.N, {strokeWidth: 2}),
+    ]
   };
 },
 
 function() {
+  let y = {}, ya, yo;
+  [y.A, y.C, y.L, y.B] = ya = [-1, 1].map(z => [-1, 1].map(x => [x, 0, z])).flat();
+  [y.O, y.Q, y.P, y.R] = yo = ya.map(p => v3.add(p, v3.s(v3.y, -2)));
+  [y.G, y.E, y.N, y.K] = yo.map(p => v3.add(p, v3.s(v3.x, -0.7)));
+  [y.F, y.D, y.M, y.H] = yo.map(p => v3.add(p, v3.s(v3.z, -0.9)));
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.3));
+  f = f.map(d => v3.r(d, f[1], 0.2));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
+  let za = [z.A, z.C, z.B, z.L]
+  let zo = [z.O, z.Q, z.R, z.P]
+  let zg = [z.G, z.E, z.K, z.N]
+  let zf = [z.F, z.D, z.H, z.M]
   return {
     title: 'Proposition 30',
     id: '11.30',
-    img: '/img/11/30',
     prose: prop30,
+    points: z,
+    letters: {
+      N: [1],
+      P: [1],
+      K: [1],
+      R: [1],
+      G: [8.2],
+      M: [8.2],
+      O: [8.2],
+      E: [8.2],
+      H: [8],
+      Q: [8],
+      D: [6],
+      F: [6],
+      L: [4],
+      B: [4],
+      A: [5],
+      C: [5]
+    },
+    shapes: [
+      rg.polygon(za),
+      rg.polygon(zo),
+      rg.polygon(zg),
+      rg.polygon(zf),
+      ...za.map((p, i) => rg.line(p, zo[i])),
+      ...za.map((p, i) => rg.line(p, zg[i])),
+      ...za.map((p, i) => rg.line(p, zf[i])),
+      // rg.line(z.o, z.x, {stroke: hsl(150, 70), strokeWidth: 3}),
+      // rg.line(z.o, z.y, {stroke: hsl(250, 70), strokeWidth: 3}),
+      // rg.line(z.o, z.z, {stroke: hsl(350, 70), strokeWidth: 3}),
+    ]
   };
 },
 
