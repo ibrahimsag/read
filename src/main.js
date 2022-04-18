@@ -987,7 +987,7 @@ function makePR(rg, svg, cs)
         let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
         if(highlightFigure)
         {
-          nhs.forEach( f('sentence') );
+          // nhs.forEach( f('sentence') );
           hs.forEach( f('bright') );
         }
         if(hoverHighlightFigure)
@@ -1001,7 +1001,7 @@ function makePR(rg, svg, cs)
         }
         if(figureIndex == 0 || figureIndex == i+1)
         {
-          nearHighlights.forEach(f(colors.sentence));
+          // nearHighlights.forEach(f(colors.sentence));
           highlights.forEach(f(colors.bright));
         }
         if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
@@ -1056,7 +1056,7 @@ function makePR(rg, svg, cs)
         }
         if(figureIndex == 0 || figureIndex == i+1)
         {
-          nearHighlights.forEach(f(colors.sentence));
+          // nearHighlights.forEach(f(colors.sentence));
           highlights.forEach(f(colors.bright));
         }
         if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
