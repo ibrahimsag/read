@@ -1712,9 +1712,6 @@ function() {
       ...[...'MPZd'].map((l, i) => rg.line(z[l], z['ELWK'[i]])),
       ...[...'NCU'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 10})),
       ...[...'NCU'].map(l => rg.line(z[l], z.S)),
-      // rg.line(z.o, z.x, {stroke: hsl(150, 70), strokeWidth: 2}),
-      // rg.line(z.o, z.y, {stroke: hsl(250, 70), strokeWidth: 2}),
-      // rg.line(z.o, z.z, {stroke: hsl(350, 70), strokeWidth: 2}),
     ]
   };
 },
@@ -1723,17 +1720,178 @@ function() {
   return {
     title: 'Proposition 34',
     id: '11.34',
-    imgs: ['/img/11/34', '/img/11/34b'],
+    // imgs: [/*'/img/11/34',*/ '/img/11/34b'],
     prose: prop34,
+    figures: [
+      (function() {
+        let y = {};
+        function s(ls, ps) {
+          for(let i = 0; i < ls.length; i++)
+            y[ls[i]] = ps[i];
+        }
+        s('AHEL', [-1.5, 0].map(x => [0, 1].map(z => [x+z/4, 0, z])).flat());
+        s('GKFB', [...'AHEL'].map(l => v3.add(y[l], v3.s(v3.y, -1))));
+        s('CQNP', [1.2, 2.2].map(x => [0, 1].map(z => [x-z/4, 0, z])).flat());
+        s('TXWV', [...'CQNP'].map(l => v3.add(y[l], v3.s(v3.y, -1))));
+        s('MROD', [...'CQNP'].map(l => v3.add(y[l], v3.s(v3.y, -1.5))));
+
+        let z = {};
+        let f = v3.i;
+        f = f.map(d => v3.r(d, f[0], -0.3));
+        for(let i in y)
+          z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
+        return {
+          points: z,
+          letters: {
+            A: [5],
+            E: [5],
+            H: [6],
+            L: [6],
+            G: [2],
+            K: [1],
+            B: [1],
+            F: [2],
+            Q: [3],
+            C: [5],
+            N: [5],
+            P: [4],
+            T: [6],
+            V: [4],
+            R: [1],
+            D: [1],
+            M: [8],
+            O: [8]
+          },
+          shapes: [
+            rg.polygon([...'AELH'].map(l => z[l])),
+            rg.polygon([...'GFBK'].map(l => z[l])),
+            ...[...'AELH'].map((l, i) => rg.line(z[l], z['GFBK'[i]])),
+            rg.polygon([...'CNPQ'].map(l => z[l])),
+            rg.polygon([...'TWVX'].map(l => z[l])),
+            rg.polygon([...'MODR'].map(l => z[l])),
+            ...[...'MODR'].map((l, i) => rg.line(z[l], z['CNPQ'[i]])),
+          ]
+        };
+      })(),
+      (function() {
+        let y = {};
+        function s(ls, ps) {
+          for(let i = 0; i < ls.length; i++)
+            y[ls[i]] = ps[i];
+        }
+
+        s('GKFB', [-1, 1].map(x => [-1, 1].map(z => [x+1, 1, z])).flat());
+        s('TVSU', [...'GKFB'].map(l => v3.add(y[l], v3.s(v3.y, 1.4))));
+        s('AHEL', [...'TVSU'].map(l => v3.add(y[l], v3.sub(v3.s(v3.z, 0.8), v3.s(v3.x, 0.6)))));
+        s('ODMR', [...'GKTV'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, 3), v3.s(v3.x, -0.6)))));
+        s('NPCQ', [...'ODMR'].map(l => v3.add(y[l], v3.s(v3.x, 3))));
+        s('WaXY', [...'NPCQ'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, -0.6), v3.s(v3.z, -0.6)))));
+
+        let z = {};
+        let f = v3.i;
+        f = f.map(d => v3.r(d, f[0], -0.3));
+        f = f.map(d => v3.r(d, f[1], 0.3));
+        for(let i in y)
+          z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 80);
+        return {
+          points: z,
+          letters: {
+            T: [4],
+            S: [7],
+            A: [4],
+            E: [6],
+            V: [3],
+            U: [2],
+            H: [3],
+            L: [2],
+            G: [8],
+            F: [8],
+            K: [1],
+            B: [1],
+
+            D: [2],
+            R: [3],
+            O: [4],
+            M: [5],
+            a: [1],
+            W: [7],
+            P: [1],
+            N: [8],
+            Y: [8],
+            Q: [8],
+            X: [7],
+            C: [5],
+
+          },
+          shapes: [
+            rg.polygon([...'GFBK'].map(l => z[l])),
+            rg.polygon([...'TSUV'].map(l => z[l])),
+            ...[...'TSUV'].map((l, i) => rg.line(z[l], z['GFBK'[i]])),
+            rg.polygon([...'AELH'].map(l => z[l])),
+            ...[...'AELH'].map((l, i) => rg.line(z[l], z['GFBK'[i]])),
+            rg.polygon([...'ODRM'].map(l => z[l])),
+            rg.polygon([...'NPQC'].map(l => z[l])),
+            ...[...'ODRM'].map((l, i) => rg.line(z[l], z['NPQC'[i]])),
+            rg.polygon([...'WaYX'].map(l => z[l])),
+            ...[...'WaYX'].map((l, i) => rg.line(z[l], z['ODRM'[i]])),
+          ]
+        };
+      })(),
+    ]
+
   };
 },
 
 function() {
+  let y = {};
+  y.D = v3.o;
+  y.N = v3.x;
+  y.M = v3.add(y.N, v3.s(v3.y, -1));
+  y.F = v3.r(y.N, v3.y, 0.9);
+  y.E = v3.r(y.N, v3.y, -0.6);
+  [y.A, y.B, y.C, y.K, y.H] = [y.D, y.E, y.F, y.N, y.M]
+    .map(p => v3.add(v3.r(p, v3.y, -0.15), v3.add(v3.s(v3.x, -1.5), v3.s(v3.z, 1))));
+  [y.R, y.S, y.P, y.Q] = [y.H, y.K, y.B, y.C].map(p => v3.add(y.A, v3.s(v3.sub(p, y.A), 1.5)));
+  [y.G, y.L] = [y.R, y.S].map(p => v3.add(y.A, v3.s(v3.sub(p, y.A), 0.9)));
+  [y.p1, y.p2, y.p4, y.p3] = [-1.5, 2.5].map(z => [-1.8, 1.4].map(x => [x, 0, z])).flat();
+  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], 0.1));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 120);
   return {
     title: 'Proposition 35',
     id: '11.35',
-    img: '/img/11/35',
     prose: prop35,
+    points: z,
+    letters: {
+      M: [1],
+      D: [3],
+      E: [2],
+      N: [7],
+      F: [5],
+      H: [2],
+      H: [2],
+      A: [3],
+      C: [4],
+      B: [2],
+      K: [6],
+      L: [5],
+      G: [2],
+    },
+    shapes: [
+      rg.polygon([z.p1, z.p2, z.p3 ,z.p4]),
+      ...[z.D, z.E, z.N, z.F].map(p => rg.line(p, z.M)),
+      ...[z.E, z.N, z.F].map(p => rg.line(p, z.D)),
+      ...[z.E, z.N].map(p => rg.line(p, z.F)),
+      rg.line(z.E, z.N),
+      ...[z.B, z.C, z.K].map(p => rg.line(p, z.H)),
+      ...[z.P, z.Q, z.R, z.S].map(p => rg.line(p, z.A)),
+      rg.line(z.G, z.L),
+      rg.polygon([z.B, z.C, z.K]),
+    ]
   };
 },
 
