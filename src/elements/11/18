@@ -1,24 +1,24 @@
 If a straight-line is at right-angles to some plane then all of the planes (passing) through it will also be at right-angles to the same plane.
 
-For let some straight-line {AB} be at right-angles to a reference plane.
-I say that all of the planes (passing) through {AB} are also at right-angles to the reference plane.
+For let some straight-line {AB line} be at right-angles to a reference plane.
+I say that all of the planes (passing) through {AB line} are also at right-angles to the reference plane.
 
-For let the plane {DE} have been produced through {AB}.
-And let {CE} be the common section of the plane {DE} and the reference (plane).
-And let some random point {F} have been taken on {CE}.
-And let {FG} have been drawn from {F}, at right-angles to {CE}, in the plane {DE} [Prop. 1.11].
+For let the plane {DE polygon} have been produced through {AB line}.
+And let {CE line} be the common section of the plane {DE polygon} and the reference (plane).
+And let some random point {F point} have been taken on {CE line}.
+And let {FG line} have been drawn from {F point}, at right-angles to {CE line}, in the plane {DE polygon} [Prop. 1.11].
 
-And since {AB} is at right-angles to the reference plane, {AB} is thus also at right-angles to all of the straight-lines joined to it which are also in the reference plane [Def. 11.3].
-Hence, it is also at right-angles to {CE}.
-Thus, angle {ABF} is a right-angle.
-And {GFB} is also a right-angle.
-Thus, {AB} is parallel to {FG} [Prop. 1.28].
-And {AB} is at right-angles to the reference plane.
-Thus, {FG} is also at right-angles to the reference plane [Prop. 11.8].
+And since {AB line} is at right-angles to the reference plane, {AB line} is thus also at right-angles to all of the straight-lines joined to it which are also in the reference plane [Def. 11.3].
+Hence, it is also at right-angles to {CE line}.
+Thus, angle {ABF angle} is a right-angle.
+And {GFB angle} is also a right-angle.
+Thus, {AB line} is parallel to {FG line} [Prop. 1.28].
+And {AB line} is at right-angles to the reference plane.
+Thus, {FG line} is also at right-angles to the reference plane [Prop. 11.8].
 And a plane is at right-angles to a(nother) plane when the straight-lines drawn at right-angles to the common section of the planes, (and lying) in one of the planes, are at right-angles to the remaining plane [Def. 11.4].
-And {FG}, (which was) drawn at right-angles to the common section of the planes, {CE}, in one of the planes, {DE}, was shown to be at right-angles to the reference plane.
-Thus, plane {DE} is at right-angles to the reference (plane).
-So, similarly, it can be shown that all of the planes (passing) at random through {AB} (are) at right-angles to the reference plane.
+And {FG line}, (which was) drawn at right-angles to the common section of the planes, {CE line}, in one of the planes, {DE polygon}, was shown to be at right-angles to the reference plane.
+Thus, plane {DE polygon} is at right-angles to the reference (plane).
+So, similarly, it can be shown that all of the planes (passing) at random through {AB line} (are) at right-angles to the reference plane.
 
 Thus, if a straight-line is at right-angles to some plane then all of the planes (passing) through it will also be at right-angles to the same plane.
 (Which is) the very thing it was required to show.

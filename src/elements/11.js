@@ -738,7 +738,14 @@ function() {
       rg.polygon([z.E, z.G, z.H, z.F]),
       rg.line(z.F, z.K),
       rg.line(z.H, z.K),
-    ]
+    ],
+    polygonl: {
+      AB: [z.A, z.p1, z.B, z.p2],
+      CD: [z.C, z.q1, z.D, z.q2],
+    },
+    given: {
+      EFK: [rg.line(z.E, z.F), rg.line(z.F, z.K)],
+    }
   };
 },
 
@@ -796,6 +803,11 @@ function() {
       rg.line(z.F, z.O),
       rg.line(z.O, z.E),
     ],
+    polygonl: {
+      "GH": [z.p1, z.p2, z.p3, z.p4],
+      "KL": [z.q1, z.q2, z.q3, z.q4],
+      "MN": [z.r1, z.r2, z.r3, z.r4],
+    }
   };
 },
 
@@ -829,7 +841,10 @@ function() {
       rg.polygon([z.D, z.C, z.E, z.H]),
       rg.line(z.G, z.F),
       rg.line(z.A, z.B),
-    ]
+    ],
+    polygonl: {
+      DE: [z.D, z.C, z.E, z.H],
+    }
   };
 },
 
@@ -871,7 +886,11 @@ function() {
       rg.line(z.B, z.D),
       rg.line(z.E, z.D),
       rg.line(z.F, z.D),
-    ]
+    ],
+    polygonl: {
+      "AB": [z.a1, z.a2, z.a3, z.a4],
+      "BC": [z.c1, z.c2, z.c3, z.c4],
+    }
   };
 },
 
@@ -902,6 +921,9 @@ function() {
       rg.polygon([z.B, z.C, z.D]),
       ...[z.B, z.C, z.D, z.E].map(p => rg.line(z.A, p))
     ],
+    given: {
+      A: [z.B, z.C, z.D].map(p => rg.line(z.A, p))
+    }
   };
 },
 
@@ -929,7 +951,10 @@ function() {
     shapes: [
       rg.polygon([z.B, z.D, z.C]),
       ...[z.B, z.C, z.D].map(p => rg.line(p, z.A)),
-    ]
+    ],
+    given: {
+      A: [z.B, z.C, z.D].map(p => rg.line(z.A, p))
+    }
   };
 },
 
@@ -977,9 +1002,9 @@ function() {
 function() {
   let y = {};
   y.O = v3.o;
-  y.L = v3.r(v3.x, v3.y, 2.7);
-  y.M = v3.r(y.L, v3.y, 2);
-  y.N = v3.r(y.M, v3.y, 2);
+  y.L = v3.r(v3.x, v3.y, 2.5);
+  y.M = v3.r(y.L, v3.y, 2.2);
+  y.N = v3.r(y.M, v3.y, 2.1);
   y.P = v3.s(y.L, 0.6);
   y.Q = v3.s(y.M, 0.6);
   y.R = v3.s(v3.y, -1.5);
@@ -1027,7 +1052,7 @@ function() {
       M: [1],
       N: [7],
       O: [5],
-      P: [5],
+      P: [6.2],
       Q: [7],
       R: [1],
     },
@@ -1040,7 +1065,11 @@ function() {
       ...[z.O, z.L, z.M, z.N].map(p => rg.line(p, z.R)),
       ...[z.L, z.M, z.N].map(p => rg.line(p, z.O)),
       rg.curve(zc),
-    ]
+    ],
+    given: {
+      LMN: [rg.curve(zc)],
+      R: [z.L, z.M, z.N].map(p => rg.line(z.R, p)),
+    }
   };
 },
 
@@ -1120,7 +1149,7 @@ function() {
     letters: {
       A: [3],
       B: [2],
-      C: [3],
+      C: [2.7, 2],
       D: [5],
       E: [5],
       F: [7],
@@ -1133,7 +1162,22 @@ function() {
       rg.polygon(s),
       rg.polygon(t),
       ...s.map((p, i) => rg.line(p, t[i])),
-    ]
+    ],
+    given: {
+      CDHG: piped(z, 'DCBAEFHG'),
+    },
+    polygonl: {
+      "AC": "ADCB",
+      "GF": "GEFH",
+      "AH": "AGHB",
+      "DF": "DEFC",
+      "BF": "BCFH",
+      "AE": "ADEG",
+      "BG": "AGHB",
+      "GB": "AGHB",
+      "CE": "DEFC",
+      "FG": "GEFH",
+    }
   };
 },
 

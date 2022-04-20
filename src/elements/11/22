@@ -1,21 +1,21 @@
 If there are three plane angles, of which (the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way), and if equal straight-lines contain them, then it is possible to construct a triangle from (the straight-lines created by) joining the (ends of the) equal straight-lines.
 
-Let {ABC}, {DEF}, and {GHK} be three plane angles, of which the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way)—(that is), {ABC} and {DEF} (greater) than {GHK}, {DEF} and {GHK} (greater) than {ABC}, and, further, {GHK} and {ABC} (greater) than {DEF}.
-And let {AB}, {BC}, {DE}, {EF}, {GH}, and {HK} be equal straight-lines.
-And let {AC}, {DF}, and {GK} have been joined.
-I say that that it is possible to construct a triangle out of (straight-lines) equal to {AC}, {DF}, and {GK}—that is to say, that (the sum of) any two of {AC}, {DF}, and {GK} is greater than the remaining (one).
+Let {ABC angle}, {DEF angle}, and {GHK angle} be three plane angles, of which the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way)—(that is), {ABC angle} and {DEF angle} (greater) than {GHK angle}, {DEF angle} and {GHK angle} (greater) than {ABC angle}, and, further, {GHK angle} and {ABC angle} (greater) than {DEF angle}.
+And let {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line} be equal straight-lines.
+And let {AC line}, {DF line}, and {GK line} have been joined.
+I say that that it is possible to construct a triangle out of (straight-lines) equal to {AC line}, {DF line}, and {GK line}—that is to say, that (the sum of) any two of {AC line}, {DF line}, and {GK line} is greater than the remaining (one).
 
-Now, if the angles {ABC}, {DEF}, and {GHK} are equal to one another then (it is) clear that, (with) {AC}, {DF}, and {GK} also becoming equal, it is possible to construct a triangle from (straight-lines) equal to {AC}, {DF}, and {GK}.
-And if not, let them be unequal, and let {KHL}, equal to angle {ABC}, have been constructed on the straight-line {HK}, at the point {H} on it.
-And let {HL} be made equal to one of {AB}, {BC}, {DE}, {EF}, {GH}, and {HK}.
-And let {KL} and {GL} have been joined.
-And since the two (straight-lines) {AB} and {BC} are equal to the two (straight-lines) {KH} and {HL} (respectively), and the angle at {B} (is) equal to {KHL}, the base {AC} is thus equal to the base {KL} [Prop. 1.4].
-And since (the sum of) {ABC} and {GHK} is greater than {DEF}, and {ABC} equal to {KHL}, {GHL} is thus greater than {DEF}.
-And since the two (straight-lines) {GH} and {HL} are equal to the two (straight-lines) {DE} and {EF} (respectively), and angle {GHL} (is) greater than {DEF}, the base {GL} is thus greater than the base {DF} [Prop. 1.24].
-But, (the sum of) {GK} and {KL} is greater than {GL} [Prop. 1.20].
-Thus, (the sum of) {GK} and {KL} is much greater than {DF}.
-And {KL} (is) equal to {AC}.
-Thus, (the sum of) {AC} and {GK} is greater than the remaining (straight-line) {DF}.
-So, similarly, we can show that (the sum of) {AC} and {DF} is greater than {GK}, and, further, that (the sum of) {DF} and {GK} is greater than {AC}.
-Thus, it is possible to construct a triangle from (straight-lines) equal to {AC}, {DF}, and {GK}.
+Now, if the angles {ABC angle}, {DEF angle}, and {GHK angle} are equal to one another then (it is) clear that, (with) {AC line}, {DF line}, and {GK line} also becoming equal, it is possible to construct a triangle from (straight-lines) equal to {AC line}, {DF line}, and {GK line}.
+And if not, let them be unequal, and let {KHL angle}, equal to angle {ABC angle}, have been constructed on the straight-line {HK line}, at the point {H point} on it.
+And let {HL line} be made equal to one of {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line}.
+And let {KL line} and {GL line} have been joined.
+And since the two (straight-lines) {AB line} and {BC line} are equal to the two (straight-lines) {KH line} and {HL line} (respectively), and the angle at {B point} (is) equal to {KHL angle}, the base {AC line} is thus equal to the base {KL line} [Prop. 1.4].
+And since (the sum of) {ABC angle} and {GHK angle} is greater than {DEF angle}, and {ABC angle} equal to {KHL angle}, {GHL angle} is thus greater than {DEF angle}.
+And since the two (straight-lines) {GH line} and {HL line} are equal to the two (straight-lines) {DE line} and {EF line} (respectively), and angle {GHL angle} (is) greater than {DEF angle}, the base {GL line} is thus greater than the base {DF line} [Prop. 1.24].
+But, (the sum of) {GK line} and {KL line} is greater than {GL line} [Prop. 1.20].
+Thus, (the sum of) {GK line} and {KL line} is much greater than {DF line}.
+And {KL line} (is) equal to {AC line}.
+Thus, (the sum of) {AC line} and {GK line} is greater than the remaining (straight-line) {DF line}.
+So, similarly, we can show that (the sum of) {AC line} and {DF line} is greater than {GK line}, and, further, that (the sum of) {DF line} and {GK line} is greater than {AC line}.
+Thus, it is possible to construct a triangle from (straight-lines) equal to {AC line}, {DF line}, and {GK line}.
 (Which is) the very thing it was required to show.

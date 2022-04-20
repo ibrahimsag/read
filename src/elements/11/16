@@ -1,21 +1,21 @@
 If two parallel planes are cut by some plane then their common sections are parallel.
 
-For let the two parallel planes {AB} and {CD} have been cut by the plane {EFGH}.
-And let {EF} and {GH} be their common sections.
-I say that {EF} is parallel to {GH}.
+For let the two parallel planes {AB polygon} and {CD polygon} have been cut by the plane {EFHG polygon}.
+And let {EF line} and {GH line} be their common sections.
+I say that {EF line} is parallel to {GH line}.
 
-For, if not, being produced, {EF} and {GH} will meet either in the direction of {F}, {H}, or of {E}, {G}.
-Let them be produced, as in the direction of {F}, {H}, and let them, first of all, have met at {K}.
-And since {EFK} is in the plane {AB}, all of the points on {EFK} are thus also in the plane {AB} [Prop. 11.1].
-And {K} is one of the points on {EFK}.
-Thus, {K} is in the plane {AB}.
-So, for the same (reasons), {K} is also in the plane {CD}.
-Thus, the planes {AB} and {CD}, being produced, will meet.
+For, if not, being produced, {EF line} and {GH line} will meet either in the direction of {F point}, {H point}, or of {E point}, {G point}.
+Let them be produced, as in the direction of {F point}, {H point}, and let them, first of all, have met at {K point}.
+And since {EFK given} is in the plane {AB polygon}, all of the points on {EFK given} are thus also in the plane {AB polygon} [Prop. 11.1].
+And {K point} is one of the points on {EFK given}.
+Thus, {K point} is in the plane {AB polygon}.
+So, for the same (reasons), {K point} is also in the plane {CD polygon}.
+Thus, the planes {AB polygon} and {CD polygon}, being produced, will meet.
 But they do not meet, on account of being (initially) assumed (to be mutually) parallel.
-Thus, the straight-lines {EF} and {GH}, being produced in the direction of {F}, {H}, will not meet.
-So, similarly, we can show that the straight-lines {EF} and {GH}, being produced in the direction of {E}, {G}, will not meet either.
+Thus, the straight-lines {EF line} and {GH line}, being produced in the direction of {F point}, {H point}, will not meet.
+So, similarly, we can show that the straight-lines {EF line} and {GH line}, being produced in the direction of {E point}, {G point}, will not meet either.
 And (straight-lines in one plane which), being produced, do not meet in either direction are parallel [Def. 1.23].
-{EF} is thus parallel to {GH}.
+{EF line} is thus parallel to {GH line}.
 
 Thus, if two parallel planes are cut by some plane then their common sections are parallel.
 (Which is) the very thing it was required to show.
