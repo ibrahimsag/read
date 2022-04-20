@@ -1182,7 +1182,7 @@ function makePR(rg, svg, cs)
           let mRE = /\{([a-zA-Z]+)[^\}]*\}/;
           let m = part.match(mRE);
           let new_part;
-          if(m)
+          if(m && !m[1].startsWith('figure'))
           {
             if(marks[o])
             {

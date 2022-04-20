@@ -1483,7 +1483,23 @@ function() {
       ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.G, z.N, z.K, z.E][i])),
       ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.F, z.M, z.H, z.D][i])),
       rg.line(z.F, z.N, {strokeWidth: 2}),
-    ]
+    ],
+    given: {
+      CM: piped(z, 'CDFABHML'),
+      CN: piped(z, 'CAGEBLNK'),
+    },
+    polygonl: {
+      AB: 'ALBC',
+      CH: "CBHD",
+      CK: "CBKE",
+      DG: "DFGE",
+      HN: "HMNK",
+      CF: "CDFA",
+      BM: "BHML",
+      CG: "CAGE",
+      BN: "BLNK",
+      AD: "ACDF"
+    }
   };
 },
 
@@ -1535,7 +1551,16 @@ function() {
       ...za.map((p, i) => rg.line(p, zo[i])),
       ...za.map((p, i) => rg.line(p, zg[i])),
       ...za.map((p, i) => rg.line(p, zf[i])),
-    ]
+    ],
+    given: {
+      CM: piped(z, 'CBLADHMF'),
+      CN: piped(z, 'CBLAEKNG'),
+      CP: piped(z, 'CBLAQRPO'),
+    },
+    polygonl: {
+      AB: 'ACBL'
+    }
+
   };
 },
 
@@ -1616,7 +1641,36 @@ function() {
             ...[...'DaIF'].map((l, i) => rg.line(z[l], z['RTXS'[i]])),
             rg.polygon([...'COQP'].map(l=>z[l])),
             ...[...'COQP'].map((l, i) => rg.line(z[l], z['RSFD'[i]])),
-          ]
+          ],
+          given: {
+            AE: piped(z, 'ALBHGMEK'),
+            CF: piped(z, 'CRDPOSFQ'),
+            XU: piped(z, 'RUWTSdVX'),
+            YX: piped(z, 'YbTRecXS'),
+            XY: piped(z, 'YbTRecXS'),
+            RI: piped(z, 'RTaDSXIF'),
+            CI: piped(z, 'CTaPOXIQ'),
+            YI: piped(z, 'YbaDecIF'),
+          },
+          polygonl: {
+            AB: "ALBH",
+            CD: "CRDP",
+            RW: "RUWT",
+            RW: "RUWT",
+            HL: "HALB",
+            RX: "RTXS",
+            AM: "ALMG",
+            LE: "LMEB",
+            SU: "SRUd",
+            Yc: "Ybce",
+            UV: "UWVd",
+            YT: "YbTR",
+            CD: "CRDP",
+            AB: "ALBH",
+            DT: "DRTa",
+            RF: "RSFD",
+            TD: "TaDR"
+          }
         }
       })(),
       (function() {
@@ -1676,7 +1730,19 @@ function() {
             rg.polygon([...'QOSF'].map(l => z[l])),
             ...[...'PCRD'].map((l, i) => rg.line(z[l], z['QOSF'[i]])),
             ...[...'WYIX'].map((l, i) => rg.line(z[l], z['QOSF'[i]])),
-          ]
+          ],
+          given: {
+            AE: piped(z, 'ALBHGMEK'),
+            CF: piped(z, 'CRDPOSFQ'),
+            KV: piped(z, 'KGMENUVT'),
+            QI: piped(z, 'QOSFWYIX'),
+          },
+          polygonl: {
+            AB: "ALBH",
+            CD: "CRDP",
+            KM: "KGME",
+            QS: "QOSF"
+          }
         }
       })()
     ]
