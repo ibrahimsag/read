@@ -1756,14 +1756,14 @@ function() {
       y[ls[i]] = ps[i];
   }
   [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
-  s('AMON', [1, -1].map(y => [-1, 1].map(z => [y/2, y, z])).flat());
+  s('AMON', [1, -1].map(y => [-1, 1.5].map(z => [y/2, y, z])).flat());
   s('PEQB', [...'AMON'].map(l => v3.add(v3.s(v3.x, 3), y[l])));
-  s('CLSR', [1, -1].map(y => [-1, 1].map(z => [5.5-y/2-z/4, y, z])).flat());
+  s('CLSR', [1, -1].map(y => [-1, 2].map(z => [5.5-y/2-z/4, y, z])).flat());
   s('GFTD', [...'CLSR'].map(l => v3.add(v3.s(v3.x, 3), y[l])));
   s('HUVK', [...'CLSR'].map(l => v3.add(v3.s(v3.x, 5), y[l])));
   let z = {};
   let f = v3.i;
-  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[0], -0.3));
   f = f.map(d => v3.r(d, f[1], -0.1));
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 40);
@@ -1783,6 +1783,7 @@ function() {
       F: [2],
       D: [1],
       K: [1],
+
       /*
       M: [6],
       N: [1],
@@ -1808,7 +1809,20 @@ function() {
       ...[...'OBP'].map(l => rg.line(z[l], z.Q)),
       ...[...'CRV'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 7})),
       ...[...'CRV'].map(l => rg.line(z[l], z.S)),
-    ]
+    ],
+    given: {
+      AB: piped(z, 'APEMOQBN'),
+      CD: piped(z, 'CGFLSTDR'),
+      GK: piped(z, 'GHUFTVKD'),
+      DH: piped(z, 'GHUFTVKD'),
+      CK: piped(z, 'CHULSVKR'),
+    },
+    polygonl: {
+      AE: "APEM",
+      CF: "CGFL",
+      FH: "FGHU",
+      DG: "DFGT"
+    }
   };
 },
 
@@ -1822,20 +1836,19 @@ function() {
   s('CSFN', [-1, 1].map(x => [1.5, -1.5].map(z => [x-2, 0, z])).flat());
   s('TURD', [...'CSFN'].map(l => v3.add(v3.s(v3.y, 2.5), y[l])));
   s('BHOQ', [-1, 1].map(x => [1, -1].map(z => [x, 5, z])).flat());
-  s('GEVK', [...'BHOQ'].map(l => v3.add(v3.s(v3.y, 2), y[l])));
-  s('LWXY', [...'EKQH'].map(l => v3.add(v3.s(v3.z, -2), y[l])));
-  s('Aabc', [...'EHBG'].map(l => v3.add(v3.s(v3.x, -4), y[l])));
-  s('MPZd', [...'ELWK'].map(l => v3.add(v3.s(v3.y, 2), y[l])));
+  s('GEVK', [...'BHOQ'].map(l => v3.add(v3.s(v3.y, 1.5), y[l])));
+  s('LWXY', [...'EKQH'].map(l => v3.add(v3.s(v3.z, -3), y[l])));
+  s('Aabc', [...'EHBG'].map(l => v3.add(v3.s(v3.x, -1.5), y[l])));
+  s('MPZd', [...'ELWK'].map(l => v3.add(v3.s(v3.y, 2.5), y[l])));
 
   [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
   let z = {};
   let f = v3.i;
-  f = f.map(d => v3.r(d, f[1], 0.4));
+  f = f.map(d => v3.r(d, f[1], 0.3));
   f = f.map(d => v3.r(d, f[0], -0.3));
   // f = f.map(d => v3.r(d, f[2], 0.1));
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 50);
-  // [...'CSFNTURD'].forEach(l => { z[l] = v3.add(v3.s(v3.x, -100), z[l]); });
   return {
     title: 'Proposition 33',
     id: '11.33',
@@ -1859,10 +1872,11 @@ function() {
       Q: [8],
       H: [8],
       K: [7.5],
-      L : [8],
+      L: [8],
       S: [8],
       T: [2],
       U: [4],
+
       /*
       a: [6],
       b: [1],
@@ -1890,7 +1904,28 @@ function() {
       ...[...'MPZd'].map((l, i) => rg.line(z[l], z['ELWK'[i]])),
       ...[...'NCU'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 10})),
       ...[...'NCU'].map(l => rg.line(z[l], z.S)),
-    ]
+    ],
+    given: {
+      AB: piped(z, 'AEGcaHBb'),
+      CD: piped(z, 'CSNFTUDR'),
+      KP: piped(z, 'KELWdMPZ'),
+      EO: piped(z, 'EKVGHQOB'),
+      OE: piped(z, 'EKVGHQOB'),
+      LQ: piped(z, 'LWKEYXQH'),
+      QL: piped(z, 'LWKEYXQH'),
+      x: piped(z, ''),
+    },
+    polygonl: {
+      KL: "KELW",
+      CN: "CSNF",
+      KM: "KEMd",
+      CR: "CTRF",
+      EP: "EMPL",
+      DF: "DNFR",
+      GK: "GEKV",
+      AG: "AEGc",
+      QE: "QHEK"
+    }
   };
 },
 
@@ -1948,7 +1983,20 @@ function() {
             rg.polygon([...'TWVX'].map(l => z[l])),
             rg.polygon([...'MODR'].map(l => z[l])),
             ...[...'MODR'].map((l, i) => rg.line(z[l], z['CNPQ'[i]])),
-          ]
+          ],
+          polygonl: {
+            EH: "ELHA",
+            NQ: "NPQC",
+            MQ: "MRQC",
+            TQ: "TXQC",
+            QT: "QCTX"
+          },
+          given: {
+            AB: piped(z, 'AELHGFBK'),
+            CD: piped(z, 'CNPQMODR'),
+            CV: piped(z, 'CNPQTWVX'),
+            VC: piped(z, 'CNPQTWVX'),
+          }
         };
       })(),
       (function() {
@@ -1958,17 +2006,17 @@ function() {
             y[ls[i]] = ps[i];
         }
 
-        s('GKFB', [-1, 1].map(x => [-1, 1].map(z => [x+1, 1, z])).flat());
+        s('GKFB', [-1, 1].map(x => [-1, 1].map(z => [x+1, 2, z])).flat());
         s('TVSU', [...'GKFB'].map(l => v3.add(y[l], v3.s(v3.y, 1.4))));
         s('AHEL', [...'TVSU'].map(l => v3.add(y[l], v3.sub(v3.s(v3.z, 0.8), v3.s(v3.x, 0.6)))));
-        s('ODMR', [...'GKTV'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, 3), v3.s(v3.x, -0.6)))));
-        s('NPCQ', [...'ODMR'].map(l => v3.add(y[l], v3.s(v3.x, 3))));
-        s('WaXY', [...'NPCQ'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, -0.6), v3.s(v3.z, -0.6)))));
+        s('ODMR', [...'GKTV'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, 2.5), v3.s(v3.x, -0.6)))));
+        s('WaXY', [...'ODMR'].map(l => v3.add(y[l], v3.s(v3.x, 3))));
+        s('NPCQ', [...'WaXY'].map(l => v3.add(y[l], v3.add(v3.s(v3.y, 0.6), v3.s(v3.z, 0.6)))));
 
         let z = {};
         let f = v3.i;
-        f = f.map(d => v3.r(d, f[0], -0.3));
         f = f.map(d => v3.r(d, f[1], 0.3));
+        f = f.map(d => v3.r(d, f[0], -0.3));
         for(let i in y)
           z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 80);
         return {
@@ -2012,7 +2060,24 @@ function() {
             ...[...'ODRM'].map((l, i) => rg.line(z[l], z['NPQC'[i]])),
             rg.polygon([...'WaYX'].map(l => z[l])),
             ...[...'WaYX'].map((l, i) => rg.line(z[l], z['ODRM'[i]])),
-          ]
+          ],
+          polygonl: {
+            EH: "ELHA",
+            NQ: "NPQC",
+            FK: "FBKG",
+            RO: "RMOD",
+            OR: "ODRM"
+          },
+          given: {
+            AB: piped(z, 'AELHGFBK'),
+            BA: piped(z, 'AELHGFBK'),
+            CD: piped(z, 'CNPQMODR'),
+            DC: piped(z, 'CNPQMODR'),
+            FV: piped(z, 'FBKGSUVT'),
+            BT: piped(z, 'FBKGSUVT'),
+            OY: piped(z, 'ODRMWaYX'),
+            DX: piped(z, 'ODRMWaYX'),
+          }
         };
       })(),
     ]

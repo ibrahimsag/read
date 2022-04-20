@@ -1,16 +1,16 @@
 Parallelepiped solids which (have) the same height are to one another as their bases.
 
-Let {AB} and {CD} be parallelepiped solids (having) the same height.
-I say that the parallelepiped solids {AB} and {CD} are to one another as their bases.
-That is to say, as base {AE} is to base {CF}, so solid {AB} (is) to solid {CD}.
+Let {AB given} and {CD given} be parallelepiped solids (having) the same height.
+I say that the parallelepiped solids {AB given} and {CD given} are to one another as their bases.
+That is to say, as base {AE polygon} is to base {CF polygon}, so solid {AB given} (is) to solid {CD given}.
 
-For let {FH}, equal to {AE}, have been applied to {FG} (in the angle {FGH} equal to angle {LCG}) [Prop. 1.45].
-And let the parallelepiped solid {GK}, (having) the same height as {CD}, have been completed on the base {FH}.
-So solid {AB} is equal to solid {GK}.
-For they are on the equal bases {AE} and {FH}, and (have) the same height [Prop. 11.31].
-And since the parallelepiped solid {CK} has been cut by the plane {DG}, which is parallel to the opposite planes (of {CK}), thus as the base {CF} is to the base {FH}, so the solid {CD} (is) to the solid {DH} [Prop. 11.25].
-And base {FH} (is) equal to base {AE}, and solid {GK} to solid {AB}.
-And thus as base {AE} is to base {CF}, so solid {AB} (is) to solid {CD}.
+For let {FH polygon}, equal to {AE polygon}, have been applied to {FG line} (in the angle {FGH angle} equal to angle {LCG angle}) [Prop. 1.45].
+And let the parallelepiped solid {GK given}, (having) the same height as {CD given}, have been completed on the base {FH polygon}.
+So solid {AB given} is equal to solid {GK given}.
+For they are on the equal bases {AE polygon} and {FH polygon}, and (have) the same height [Prop. 11.31].
+And since the parallelepiped solid {CK given} has been cut by the plane {DG polygon}, which is parallel to the opposite planes (of {CK given}), thus as the base {CF polygon} is to the base {FH polygon}, so the solid {CD given} (is) to the solid {DH given} [Prop. 11.25].
+And base {FH polygon} (is) equal to base {AE polygon}, and solid {GK given} to solid {AB given}.
+And thus as base {AE polygon} is to base {CF polygon}, so solid {AB given} (is) to solid {CD given}.
 
 Thus, parallelepiped solids which (have) the same height are to one another as their bases.
 (Which is) the very thing it was required to show.

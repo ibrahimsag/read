@@ -1,76 +1,76 @@
 The bases of equal parallelepiped solids are reciprocally proportional to their heights.
 And those parallelepiped solids whose bases are reciprocally proportional to their heights are equal.
 
-Let {AB} and {CD} be equal parallelepiped solids.
-I say that the bases of the parallelepiped solids {AB} and {CD} are reciprocally proportional to their heights, and (so) as base {EH} is to base {NQ}, so the height of solid {CD} (is) to the height of solid {AB}.
+Let {AB given} and {CD given} be equal parallelepiped solids.
+I say that the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights, and (so) as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
 
-{figure 1}For, first of all, let the (straight-lines) standing up, {AG}, {EF}, {LB}, {HK}, {CM}, {NO}, {PD}, and {QR}, be at right-angles to their bases.
-I say that as base {EH} is to base {NQ}, so {CM} (is) to {AG}.
+{figure 1}For, first of all, let the (straight-lines) standing up, {AG line}, {EF line}, {LB line}, {HK line}, {CM line}, {NO line}, {PD line}, and {QR line}, be at right-angles to their bases.
+I say that as base {EH polygon} is to base {NQ polygon}, so {CM line} (is) to {AG line}.
 
-Therefore, if base {EH} is equal to base {NQ}, and solid {AB} is also equal to solid {CD}, {CM} will also be equal to {AG}.
+Therefore, if base {EH polygon} is equal to base {NQ polygon}, and solid {AB given} is also equal to solid {CD given}, {CM line} will also be equal to {AG line}.
 For parallelepiped solids of the same height are to one another as their bases [Prop. 11.32].
-And as base {EH} (is) to {NQ}, so {CM} will be to {AG}.
-And (so it is) clear that the bases of the parallelepiped solids {AB} and {CD} are reciprocally proportional to their heights.
+And as base {EH polygon} (is) to {NQ polygon}, so {CM line} will be to {AG line}.
+And (so it is) clear that the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
 
-So let base {EH} not be equal to base {NQ}, but let {EH} be greater.
-And solid {AB} is also equal to solid {CD}.
-Thus, {CM} is also greater than {AG}.
-Therefore, let {CT} be made equal to {AG}.
-And let the parallelepiped solid {VC} have been completed on the base {NQ}, with height {CT}.
-And since solid {AB} is equal to solid {CD}, and {CV} (is) extrinsic (to them), and equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7], thus as solid {AB} is to solid {CV}, so solid {CD} (is) to solid {CV}.
-But, as solid {AB} (is) to solid {CV}, so base {EH} (is) to base {NQ}.
-For the solids {AB} and {CV} (are) of equal height [Prop. 11.32].
-And as solid {CD} (is) to solid {CV}, so base {MQ} (is) to base {TQ} [Prop. 11.25], and {CM} to {CT} [Prop. 6.1].
-And, thus, as base {EH} is to base {NQ}, so {MC} (is) to {AG}.
-And {CT} (is) equal to {AG}.
-And thus as base {EH} (is) to base {NQ}, so {MC} (is) to {AG}.
-Thus, the bases of the parallelepiped solids {AB} and {CD} are reciprocally proportional to their heights.
+So let base {EH polygon} not be equal to base {NQ polygon}, but let {EH polygon} be greater.
+And solid {AB given} is also equal to solid {CD given}.
+Thus, {CM line} is also greater than {AG line}.
+Therefore, let {CT line} be made equal to {AG line}.
+And let the parallelepiped solid {VC given} have been completed on the base {NQ polygon}, with height {CT line}.
+And since solid {AB given} is equal to solid {CD given}, and {CV given} (is) extrinsic (to them), and equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7], thus as solid {AB given} is to solid {CV given}, so solid {CD given} (is) to solid {CV given}.
+But, as solid {AB given} (is) to solid {CV given}, so base {EH polygon} (is) to base {NQ polygon}.
+For the solids {AB given} and {CV given} (are) of equal height [Prop. 11.32].
+And as solid {CD given} (is) to solid {CV given}, so base {MQ polygon} (is) to base {TQ polygon} [Prop. 11.25], and {CM line} to {CT line} [Prop. 6.1].
+And, thus, as base {EH polygon} is to base {NQ polygon}, so {MC line} (is) to {AG line}.
+And {CT line} (is) equal to {AG line}.
+And thus as base {EH polygon} (is) to base {NQ polygon}, so {MC line} (is) to {AG line}.
+Thus, the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
 
-So, again, let the bases of the parallelepipid solids {AB} and {CD} be reciprocally proportional to their heights, and let base {EH} be to base {NQ}, as the height of solid {CD} (is) to the height of solid {AB}.
-I say that solid {AB} is equal to solid {CD}.
+So, again, let the bases of the parallelepipid solids {AB given} and {CD given} be reciprocally proportional to their heights, and let base {EH polygon} be to base {NQ polygon}, as the height of solid {CD given} (is) to the height of solid {AB given}.
+I say that solid {AB given} is equal to solid {CD given}.
 [For] let the (straight-lines) standing up again be at right-angles to the bases.
-And if base {EH} is equal to base {NQ}, and as base {EH} is to base {NQ}, so the height of solid {CD} (is) to the height of solid {AB}, the height of solid {CD} is thus also equal to the height of solid {AB}.
+And if base {EH polygon} is equal to base {NQ polygon}, and as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}, the height of solid {CD given} is thus also equal to the height of solid {AB given}.
 And parallelepiped solids on equal bases, and also with the same height, are equal to one another [Prop. 11.31].
-Thus, solid {AB} is equal to solid {CD}.
+Thus, solid {AB given} is equal to solid {CD given}.
 
-So, let base {EH} not be equal to [base] {NQ}, but let {EH} be greater.
-Thus, the height of solid {CD} is also greater than the height of solid {AB}, that is to say {CM} (greater) than {AG}.
-Let {CT} again be made equal to {AG}, and let the solid {CV} have been similarly completed.
-Since as base {EH} is to base {NQ}, so {MC} (is) to {AG}, and {AG} (is) equal to {CT}, thus as base {EH} (is) to base {NQ}, so {CM} (is) to {CT}.
-But, as [base] {EH} (is) to base {NQ}, so solid {AB} (is) to solid {CV}.
-For solids {AB} and {CV} are of equal heights [Prop. 11.32].
-And as {CM} (is) to {CT}, so (is) base {MQ} to base {QT} [Prop. 6.1], and solid {CD} to solid {CV} [Prop. 11.25].
-And thus as solid {AB} (is) to solid {CV}, so solid {CD} (is) to solid {CV}.
-Thus, {AB} and {CD} each have the same ratio to {CV}.
-Thus, solid {AB} is equal to solid {CD} [Prop. 5.9].
+So, let base {EH polygon} not be equal to [base] {NQ polygon}, but let {EH polygon} be greater.
+Thus, the height of solid {CD given} is also greater than the height of solid {AB given}, that is to say {CM line} (greater) than {AG line}.
+Let {CT line} again be made equal to {AG line}, and let the solid {CV given} have been similarly completed.
+Since as base {EH polygon} is to base {NQ polygon}, so {MC line} (is) to {AG line}, and {AG line} (is) equal to {CT line}, thus as base {EH polygon} (is) to base {NQ polygon}, so {CM line} (is) to {CT line}.
+But, as [base] {EH polygon} (is) to base {NQ polygon}, so solid {AB given} (is) to solid {CV given}.
+For solids {AB given} and {CV given} are of equal heights [Prop. 11.32].
+And as {CM line} (is) to {CT line}, so (is) base {MQ polygon} to base {QT polygon} [Prop. 6.1], and solid {CD given} to solid {CV given} [Prop. 11.25].
+And thus as solid {AB given} (is) to solid {CV given}, so solid {CD given} (is) to solid {CV given}.
+Thus, {AB given} and {CD given} each have the same ratio to {CV given}.
+Thus, solid {AB given} is equal to solid {CD given} [Prop. 5.9].
 
-{figure 2}So, let the (straight-lines) standing up, {FE}, {BL}, {GA}, {KH}, {ON}, {DP}, {MC}, and {RQ}, not be at right-angles to their bases.
-And let perpendiculars have been drawn to the planes through {EH} and {NQ} from points {F}, {G}, {B}, {K}, {O}, {M}, {R}, and {D}, and let them have joined the planes at (points) {S}, {T}, {U}, {V}, {W}, {X}, {Y}, and a(respectively).
-And let the solids {FV} and {OY} have been completed.
-In this case, also, I say that the solids {AB} and {CD} being equal, their bases are reciprocally proportional to their heights, and (so) as base {EH} is to base {NQ}, so the height of solid {CD} (is) to the height of solid {AB}.
+{figure 2}So, let the (straight-lines) standing up, {FE line}, {BL line}, {GA line}, {KH line}, {ON line}, {DP line}, {MC line}, and {RQ line}, not be at right-angles to their bases.
+And let perpendiculars have been drawn to the planes through {EH polygon} and {NQ polygon} from points {F point}, {G point}, {B point}, {K point}, {O point}, {M point}, {R point}, and {D point}, and let them have joined the planes at (points) {S point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point}, and a(respectively).
+And let the solids {FV given} and {OY given} have been completed.
+In this case, also, I say that the solids {AB given} and {CD given} being equal, their bases are reciprocally proportional to their heights, and (so) as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
 
-Since solid {AB} is equal to solid {CD}, but {AB} is equal to {BT}.
-For they are on the same base {FK}, and (have) the same height [Props. 11.29, 11.30].
-And solid {CD} is equal is equal to {DX}.
-For, again, they are on the same base {RO}, and (have) the same height [Props. 11.29, 11.30].
-Solid {BT} is thus also equal to solid {DX}.
-Thus, as base {FK} (is) to base {OR}, so the height of solid {DX} (is) to the height of solid {BT} (see first part of proposition).
-And base {FK} (is) equal to base {EH}, and base {OR} to {NQ}.
-Thus, as base {EH} is to base {NQ}, so the height of solid {DX} (is) to the height of solid {BT}.
-And solids {DX}, {BT} are the same height as (solids) {DC}, {BA} (respectively).
-Thus, as base {EH} is to base {NQ}, so the height of solid {DC} (is) to the height of solid {AB}.
-Thus, the bases of the parallelepiped solids {AB} and {CD} are reciprocally proportional to their heights.
+Since solid {AB given} is equal to solid {CD given}, but {AB given} is equal to {BT given}.
+For they are on the same base {FK polygon}, and (have) the same height [Props. 11.29, 11.30].
+And solid {CD given} is equal is equal to {DX given}.
+For, again, they are on the same base {RO polygon}, and (have) the same height [Props. 11.29, 11.30].
+Solid {BT given} is thus also equal to solid {DX given}.
+Thus, as base {FK polygon} (is) to base {OR polygon}, so the height of solid {DX given} (is) to the height of solid {BT given} (see first part of proposition).
+And base {FK polygon} (is) equal to base {EH polygon}, and base {OR polygon} to {NQ polygon}.
+Thus, as base {EH polygon} is to base {NQ polygon}, so the height of solid {DX given} (is) to the height of solid {BT given}.
+And solids {DX given}, {BT given} are the same height as (solids) {DC given}, {BA given} (respectively).
+Thus, as base {EH polygon} is to base {NQ polygon}, so the height of solid {DC given} (is) to the height of solid {AB given}.
+Thus, the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
 
-So, again, let the bases of the parallelepiped solids {AB} and {CD} be reciprocally proportional to their heights, and (so) let base {EH} be to base {NQ}, as the height of solid {CD} (is) to the height of solid {AB}.
-I say that solid {AB} is equal to solid {CD}.
+So, again, let the bases of the parallelepiped solids {AB given} and {CD given} be reciprocally proportional to their heights, and (so) let base {EH polygon} be to base {NQ polygon}, as the height of solid {CD given} (is) to the height of solid {AB given}.
+I say that solid {AB given} is equal to solid {CD given}.
 
-For, with the same construction (as before), since as base {EH} is to base {NQ}, so the height of solid {CD} (is) to the height of solid {AB}, and base {EH} (is) equal to base {FK}, and {NQ} to {OR}, thus as base {FK} is to base {OR}, so the height of solid {CD} (is) to the height of solid {AB}.
-And solids {AB}, {CD} are the same height as (solids) {BT}, {DX} (respectively).
-Thus, as base {FK} is to base {OR}, so the height of solid {DX} (is) to the height of solid {BT}.
-Thus, the bases of the parallelepiped solids {BT} and {DX} are reciprocally proportional to their heights.
-Thus, solid {BT} is equal to solid {DX} (see first part of proposition).
-But, {BT} is equal to {BA}.
-For [they are] on the same base {FK}, and (have) the same height [Props. 11.29, 11.30].
-And solid {DX} is equal to solid {DC} [Props. 11.29, 11.30].
-Thus, solid {AB} is also equal to solid {CD}.
+For, with the same construction (as before), since as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}, and base {EH polygon} (is) equal to base {FK polygon}, and {NQ polygon} to {OR polygon}, thus as base {FK polygon} is to base {OR polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
+And solids {AB given}, {CD given} are the same height as (solids) {BT given}, {DX given} (respectively).
+Thus, as base {FK polygon} is to base {OR polygon}, so the height of solid {DX given} (is) to the height of solid {BT given}.
+Thus, the bases of the parallelepiped solids {BT given} and {DX given} are reciprocally proportional to their heights.
+Thus, solid {BT given} is equal to solid {DX given} (see first part of proposition).
+But, {BT given} is equal to {BA given}.
+For [they are] on the same base {FK polygon}, and (have) the same height [Props. 11.29, 11.30].
+And solid {DX given} is equal to solid {DC given} [Props. 11.29, 11.30].
+Thus, solid {AB given} is also equal to solid {CD given}.
 (Which is) the very thing it was required to show.
