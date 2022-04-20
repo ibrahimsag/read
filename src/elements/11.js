@@ -1182,16 +1182,19 @@ function() {
 },
 
 function() {
-  let y = {};
-  y.a = [1, -1].map(y => [1, -1].map(z => [0, y, z])).flat();
-  y.a.splice(2, 0, y.a.pop());
-  y.e = y.a.map(p => v3.add(p, v3.s(v3.x, 0.9)));
-  y.h = y.e.map(p => v3.add(p, v3.s(v3.x, 0.6)));
-  y.m = y.h.map(p => v3.add(p, v3.s(v3.x, 0.6)));
-  y.n = y.m.map(p => v3.add(p, v3.s(v3.x, 0.6)));
-  y.k = y.a.map(p => v3.add(p, v3.s(v3.x, -0.9)));
-  y.l = y.k.map(p => v3.add(p, v3.s(v3.x, -0.9)));
-  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  let y = {}, a;
+  function s(ls, ps) {
+    for(let i = 0; i < ls.length; i++)
+      y[ls[i]] = ps[i];
+  }
+  a = [1, -1].map(y => [1, -1].map(z => [0, y, z])).flat();
+  s('FEUG', a);
+  s('VARB', a.map(p => v3.add(p, v3.s(v3.x, -0.9))));
+  s('PKQa', a.map(p => v3.add(p, v3.s(v3.x, -0.9*2))));
+  s('bLXO', a.map(p => v3.add(p, v3.s(v3.x, -0.9*3))));
+  s('CHDc', a.map(p => v3.add(p, v3.s(v3.x, 0.6))));
+  s('WMYI', a.map(p => v3.add(p, v3.s(v3.x, 0.6*2))));
+  s('SNTd', a.map(p => v3.add(p, v3.s(v3.x, 0.6*3))));
   let z = {};
   let f = v3.i;
   f = f.map(d => v3.r(d, f[0], -0.3));
@@ -1204,30 +1207,6 @@ function() {
     else
       z[i] = p(y[i]);
   }
-  z.P = z.k[0];
-  z.V = z.a[0];
-  z.F = z.e[0];
-  z.C = z.h[0];
-  z.W = z.m[0];
-  z.S = z.n[0];
-  z.L = z.l[1];
-  z.K = z.k[1];
-  z.A = z.a[1];
-  z.E = z.e[1];
-  z.H = z.h[1];
-  z.M = z.m[1];
-  z.N = z.n[1];
-  z.O = z.l[2];
-  z.B = z.a[2];
-  z.G = z.e[2];
-  z.I = z.m[2];
-  z.X = z.l[3];
-  z.Q = z.k[3];
-  z.R = z.a[3];
-  z.U = z.e[3];
-  z.D = z.h[3];
-  z.Y = z.m[3];
-  z.T = z.n[3];
   return {
     title: 'Proposition 25',
     id: '11.25',
@@ -1260,15 +1239,58 @@ function() {
       I: [1.5],
     },
     shapes: [
-      rg.polygon(z.a),
-      rg.polygon(z.e),
-      rg.polygon(z.h),
-      rg.polygon(z.l),
-      rg.polygon(z.k),
-      rg.polygon(z.m),
-      rg.polygon(z.n),
-      ...z.l.map((p, i) => rg.line(p, z.n[i])),
-    ]
+      rg.polygon([...'VRBA'].map(l => z[l])),
+      rg.polygon([...'PQaK'].map(l => z[l])),
+      rg.polygon([...'bXOL'].map(l => z[l])),
+      rg.polygon([...'FUGE'].map(l => z[l])),
+      rg.polygon([...'CDcH'].map(l => z[l])),
+      rg.polygon([...'WYIM'].map(l => z[l])),
+      rg.polygon([...'STdN'].map(l => z[l])),
+      ...[...'bLXO'].map((l, i) => rg.line(z[l], z['SNTd'[i]])),
+    ],
+    polygonl: {
+      GF: 'FUGE',
+      FG: "FUGE",
+      RA: "RBAV",
+      DH: "DcHC",
+      LP: "LKPb",
+      KV: "KAVP",
+      HW: "HMWC",
+      MS: "MNSW",
+      AF: "AEFV",
+      KO: "KaOL",
+      KB: "KABa",
+      AG: "AEGB",
+      LX: "LbXO",
+      KQ: "KPQa",
+      AR: "AVRB",
+      EC: "EHCF",
+      HG: "HcGE",
+      HI: "HMIc",
+      IN: "IMNd",
+      MY: "MWYI",
+      NT: "NSTd",
+      LF: "LEFb",
+      NF: "NSFE",
+      FH: "FEHC",
+      HF: "HCFE",
+      FN: "FENS"
+    },
+    given: {
+      ABCD: piped(z, 'AVRBHCDc'),
+      ABFU: piped(z, 'AVRBEFUG'),
+      EGCD: piped(z, 'EFUGHCDc'),
+      LQ: piped(z, 'LbXOKPQa'),
+      KR: piped(z, 'KPQaAVRB'),
+      DM: piped(z, 'DcHCYIMW'),
+      MT: piped(z, 'MWYINSTd'),
+      AU: piped(z, 'AVRBEFUG'),
+      ED: piped(z, 'EFUGHCDc'),
+      LU: piped(z, 'LbXOEFUG'),
+      HU: piped(z, 'HCDcEFUG'),
+      UH: piped(z, 'HCDcEFUG'),
+      NU: piped(z, 'NSTdEFUG'),
+    }
   };
 },
 

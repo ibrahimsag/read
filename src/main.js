@@ -298,7 +298,7 @@ function makeRG()
     else
     {
       console.error('Unknown highlight: ', h.typ, h.name);
-      return undefined;
+      return [];
     }
 
     if(layer === 'sentence')
