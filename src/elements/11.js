@@ -190,7 +190,15 @@ function() {
       rg.line(z.B, z.D),
       rg.curve([z.B,z.E,z.D]),
       rg.curve([z.B,z.F,z.D]),
-    ]
+    ],
+    polygonl: {
+      AB: [z.A, z.P, z.Q, z.R],
+      BC: [z.C, z.K, z.L, z.M],
+    },
+    given: {
+      DEB: [rg.curve([z.B,z.E,z.D])],
+      DFB: [rg.curve([z.B,z.F,z.D])],
+    }
   };
 },
 
@@ -349,7 +357,10 @@ function() {
       rg.line(z.C, z.D),
       rg.line(z.E, z.F),
       rg.curve([z.E, z.G, z.F]),
-    ]
+    ],
+    given: {
+      EGF: [rg.curve([z.E, z.G, z.F])]
+    }
   };
 },
 
@@ -423,7 +434,10 @@ function() {
       rg.line(z.D, z.C),
       rg.line(z.H, z.G),
       rg.line(z.G, z.K)
-    ]
+    ],
+    given: {
+      HGK: [rg.line(z.H, z.G), rg.line(z.G, z.K)]
+    }
   };
 },
 
@@ -630,7 +644,11 @@ function() {
       rg.line(z.A, z.K),
       rg.line(z.B, z.K),
       rg.line(z.G, z.H),
-    ]
+    ],
+    polygonl: {
+      CD: [z.p1, z.p2, z.p3, z.p4],
+      EF: [z.q1, z.q2, z.q3, z.q4]
+    }
   };
 },
 

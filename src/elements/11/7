@@ -1,16 +1,16 @@
 If there are two parallel straight-lines, and random points are taken on each of them, then the straight-line joining the two points is in the same plane as the parallel (straight-lines).
 
-Let {AB} and {CD} be two parallel straight-lines, and let the random points {E} and {F} have been taken on each of them (respectively).
-I say that the straight-line joining points {E} and {F} is in the same (reference) plane as the parallel (straight-lines).
+Let {AB line} and {CD line} be two parallel straight-lines, and let the random points {E point} and {F point} have been taken on each of them (respectively).
+I say that the straight-line joining points {E point} and {F point} is in the same (reference) plane as the parallel (straight-lines).
 
-For (if) not, and if possible, let it be in a more elevated (plane), such as {EGF}.
-And let a plane have been drawn through {EGF}.
+For (if) not, and if possible, let it be in a more elevated (plane), such as {EGF given}.
+And let a plane have been drawn through {EGF given}.
 So it will make a straight cutting in the reference plane [Prop. 11.3].
-Let it make {EF}.
-Thus, two straight-lines (with the same end-points), {EGF} and {EF}, will enclose an area.
+Let it make {EF line}.
+Thus, two straight-lines (with the same end-points), {EGF given} and {EF line}, will enclose an area.
 The very thing is impossible.
-Thus, the straight-line joining {E} to {F} is not in a more elevated plane.
-The straight-line joining {E} to {F} is thus in the plane through the parallel (straight-lines) {AB} and {CD}.
+Thus, the straight-line joining {E point} to {F point} is not in a more elevated plane.
+The straight-line joining {E point} to {F point} is thus in the plane through the parallel (straight-lines) {AB line} and {CD line}.
 
 Thus, if there are two parallel straight-lines, and random points are taken on each of them, then the straight-line joining the two points is in the same plane as the parallel (straight-lines).
 (Which is) the very thing it was required to show.
