@@ -66,6 +66,17 @@ import prop39 from './11/39';
 
 function book(rg)
 {
+  function prism(z, ls)
+  {
+    let ps1 = ls.slice(0, ls.length/2);
+    let ps2 = ls.slice(ls.length/2, ls.length);
+    return [
+      rg.polygon([...ps1].map(l => z[l])),
+      rg.polygon([...ps2].map(l => z[l])),
+      ...[...ps1].map((l, i) => rg.line(z[l], z[ps2[i]])),
+    ]
+  }
+
   function piped(z, ls)
   {
     let ps1 = ls.slice(0, 4);
@@ -2144,14 +2155,14 @@ function() {
     for(let i = 0; i < ls.length; i++)
       y[ls[i]] = ps[i];
   }
-  s('MPQH', [-0.66, 0.66].map(z => [1, -1].map(y => [0, y, z])).flat());
-  s('LNOR', [-0.66, 0.66].map(z => [1, -1].map(y => [3, y, z])).flat());
+  s('MPQH', [-1, 1].map(z => [0.66, -0.66].map(y => [0, y, z])).flat());
+  s('LNOR', [-1, 1].map(z => [0.66, -0.66].map(y => [3, y, z])).flat());
   s('FSTK', [-1, 1].map(z => [1, -1].map(y => [5, y, z])).flat());
   s('EDGU', [-1, 1].map(z => [1, -1].map(y => [7, y, z])).flat());
 
   let z = {};
   let f = v3.i;
-  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[0], -0.3));
   f = f.map(d => v3.r(d, f[1], 0.5));
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 50);
@@ -2168,7 +2179,7 @@ function() {
       O: [2],
       K: [1],
       D: [7],
-      G: [7.3, 3],
+      G: [7.5, 3],
       F: [5],
       E: [5],
 
@@ -2194,6 +2205,16 @@ function() {
       { l: 'B', m: 100, v: 40 },
       { l: 'C', m: 66, v: 40 }
     ],
+    polygonl: {
+      MN: 'MLNP',
+      DF: 'DSFE',
+    },
+    given: {
+      HL: piped(z, 'MPHQLNRO'),
+      LH: piped(z, 'MPHQLNRO'),
+      KE: piped(z, 'FSKTEDUG'),
+      EK: piped(z, 'FSKTEDUG'),
+    }
   };
 },
 
@@ -2239,7 +2260,13 @@ function() {
       ...piped(z, 'CTUVDWLX'),
       ...piped(z, 'EYZaFbMc'),
       ...piped(z, 'GdefHgNh'),
-    ]
+    ],
+    given: {
+      KA: piped(z, 'AOPQBRKS'),
+      LC: piped(z, 'CTUVDWLX'),
+      ME: piped(z, 'EYZaFbMc'),
+      NG: piped(z, 'GdefHgNh'),
+    }
   };
 },
 
@@ -2293,7 +2320,16 @@ function() {
       rg.line(z.F, z.H),
       rg.line(z.D, z.G),
       rg.line(z.U, z.S),
-    ]
+    ],
+    polygonl: {
+      CF: "CEFD",
+      AH: "AGHB",
+      KN: "KMNL",
+      OR: "OQRP"
+    },
+    given: {
+      AF: piped(z, 'AGHBCEFD'),
+    }
   };
 },
 
@@ -2339,7 +2375,17 @@ function() {
       ...piped(z, 'HMLGRPNK'),
       rg.line(z.H, z.K),
       rg.line(z.M, z.N),
-    ]
+    ],
+    given: {
+      ABCDEF: prism(z, 'ABECDF'),
+      GHKLMN: prism(z, 'GHKLMN'),
+      AO: piped(z, 'ABQECDOF'),
+      GP: piped(z, 'HMLGRPNK'),
+    },
+    polygonl: {
+      AF: 'AEFC',
+      HK: 'HGKR'
+    }
   };
 },
 
