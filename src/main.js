@@ -10,6 +10,7 @@ import html from './html.js';
 
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
+  near: hsluv.hsluvToHex([0, 0, 50]),
   sentence: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 40]),
   link: hsluv.hpluvToHex([140, 100, 40]),
@@ -311,7 +312,7 @@ function makeRG()
           }
           else
           {
-            s.options["stroke"] = colors.sentence;
+            s.options["stroke"] = colors.near;
           }
         });
     }

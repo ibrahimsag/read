@@ -1336,34 +1336,30 @@ function() {
       rg.line(z.A, z.K),
       rg.polygon([z.L, z.A, z.B, z.K]),
       ...[z.L, z.A, z.B, z.K].map(p => rg.line(p, z.H)),
-    ]
+    ],
+    given: {
+      D: [z.C, z.E, z.F].map(p => rg.line(z.D, p)),
+    }
   };
 },
 
 function() {
   let y = {}, c, e, a, b;
-  [y.c1, y.c2, y.c4, y.c3] = c = [-1, 1].map(z => [1, -1].map(y => [-1+y/4, y, z])).flat();
-  [y.e1, y.e2, y.e4, y.e3] = e = c.map(p => v3.add(p, v3.s(v3.x, 2)));
-  [y.a1, y.a2, y.a4, y.a3] = c.map(p => v3.add(v3.s(p, 0.6), v3.s(v3.x, 3)));
-  [y.b1, y.b2, y.b4, y.b3] = e.map(p => v3.add(v3.s(p, 0.6), v3.s(v3.x, 3)));
-  [y.o, y.x, y.y, y.z] = [v3.o, ...v3.i];
+  function s(ls, ps) {
+    for(let i = 0; i < ls.length; i++)
+      y[ls[i]] = ps[i];
+  }
+  c = [-1, 1].map(z => [1, -1].map(y => [-1+y/4, y, z])).flat();
+  s('CFGa', c);
+  s('EbcD', c.map(p => v3.add(p, v3.s(v3.x, 2))));
+  s('AHKd', c.map(p => v3.add(v3.s(p, 0.6), v3.s(v3.x, 3))));
+  s('BMeL', [...'EbcD'].map(l => v3.add(v3.s(y[l], 0.6), v3.s(v3.x, 3))));
   let z = {};
   let f = v3.i;
   f = f.map(d => v3.r(d, f[0], -0.5));
   f = f.map(d => v3.r(d, f[1], -0.3));
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 80);
-  z.C = z.c1;
-  z.G = z.c4;
-  z.F = z.c2;
-  z.D = z.e3;
-  z.E = z.e1;
-  z.A = z.a1;
-  z.H = z.a2;
-  z.K = z.a4;
-  z.B = z.b1;
-  z.L = z.b3;
-  z.M = z.b2;
   return {
     title: 'Proposition 27',
     id: '11.27',
@@ -1383,13 +1379,22 @@ function() {
       M: [2],
     },
     shapes: [
-      rg.polygon([z.c1, z.c2, z.c3, z.c4]),
-      rg.polygon([z.e1, z.e2, z.e3, z.e4]),
-      ...[z.c1, z.c2, z.c3, z.c4].map((p, i) => rg.line(p, z['e'+(i+1)])),
-      rg.polygon([z.a1, z.a2, z.a3, z.a4]),
-      rg.polygon([z.b1, z.b2, z.b3, z.b4]),
-      ...[z.a1, z.a2, z.a3, z.a4].map((p, i) => rg.line(p, z['b'+(i+1)])),
-    ]
+      ...piped(z, 'CGaFEcDb'),
+      ...piped(z, 'AHdKBMLe'),
+    ],
+    given: {
+      CD: piped(z, 'CGaFEcDb'),
+      AL: piped(z, 'AHdKBMLe'),
+      C: [z.F, z.E, z.G].map(p => rg.line(p, z.C)),
+    },
+    polygonl: {
+      HB: 'HABM',
+      GE: "GCEc",
+      KB: "KABe",
+      KH: "KdHA",
+      GF: "GaFC",
+      FE: "FCEb"
+    }
   };
 },
 
@@ -1423,7 +1428,19 @@ function() {
       rg.polygon([z.A, z.G, z.F, z.E]),
       rg.polygon([z.D, z.E, z.F, z.C]),
       ...[z.D,z.C,z.B,z.H].map((p, i) => rg.line(p, [z.A,z.G,z.F,z.E][i]))
-    ]
+    ],
+    given: {
+      AB: piped(z, 'AGCDEFBH'),
+    },
+    polygonl: {
+      CA: "CDAG",
+      EB: "EFBH",
+      GE: "GFEA",
+      CH: "CBHD",
+      AC: "AGCD",
+      CE: "CDEF",
+      BE: "BHEF"
+    }
   };
 },
 

@@ -1,9 +1,9 @@
 If a parallelepiped solid is cut by a plane (passing) through the diagonals of (a pair of) opposite planes then the solid will be cut in half by the plane.
 
-For let the parallelepiped solid {AB} have been cut by the plane {CDEF} (passing) through the diagonals of the opposite planes {CF} and {DE}.
-I say that the solid {AB} will be cut in half by the plane {CDEF}.
+For let the parallelepiped solid {AB given} have been cut by the plane {CDEF polygon} (passing) through the diagonals of the opposite planes {CF line} and {DE line}.
+I say that the solid {AB given} will be cut in half by the plane {CDEF polygon}.
 
-For since triangle {CGF} is equal to triangle {CFB}, and {ADE} (is equal) to {DEH} [Prop. 1.34], and parallelogram {CA} is also equal to {EB}---for (they are) opposite [Prop. 11.24]---and {GE} (equal) to {CH}, thus the prism contained by the two triangles {CGF} and {ADE}, and the three parallelograms {GE}, {AC}, and {CE}, is also equal to the prism contained by the two triangles {CFB} and {DEH}, and the three parallelograms {CH}, {BE}, and {CE}.
+For since triangle {CGF polygon} is equal to triangle {CFB polygon}, and {ADE polygon} (is equal) to {DEH polygon} [Prop. 1.34], and parallelogram {CA polygon} is also equal to {EB polygon}---for (they are) opposite [Prop. 11.24]---and {GE polygon} (equal) to {CH polygon}, thus the prism contained by the two triangles {CGF polygon} and {ADE polygon}, and the three parallelograms {GE polygon}, {AC polygon}, and {CE polygon}, is also equal to the prism contained by the two triangles {CFB polygon} and {DEH polygon}, and the three parallelograms {CH polygon}, {BE polygon}, and {CE polygon}.
 For they are contained by planes (which are) equal in number and in magnitude [Def. 11.10].
-Thus, the whole of solid {AB} is cut in half by the plane {CDEF}.
+Thus, the whole of solid {AB given} is cut in half by the plane {CDEF polygon}.
 (Which is) the very thing it was required to show.
