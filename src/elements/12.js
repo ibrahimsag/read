@@ -37,6 +37,15 @@ function book(rg)
       ...[...ps1].map((l, i) => rg.line(z[l], z[ps2[i]])),
     ]
   }
+  function pyr(z, ls)
+  {
+    let p1 = ls[0];
+    let ps = ls.slice(1, ls.length);
+    return [
+      rg.polygon([...ps].map(l => z[l])),
+      ...[...ps].map((l, i) => rg.line(z[l], z[p1])),
+    ]
+  }
 
   return [
 
@@ -314,20 +323,79 @@ function() {
 },
 
 function() {
+  let y = {};
+  y.X = v3.o;
+  y.M = v3.s(v3.y, -2);
+  let a = v3.r(v3.x, v3.y, 1);
+  s(y, 'ABCDE', [0, 1, 2, 3, 4].map(i => v3.r(a, v3.y, (-i/5)*Math.PI*2)));
+  y.Y = v3.s(v3.x, 2.5);
+  s(y, 'FGHKLN', [...'ABCDEM'].map(l => v3.add(y.Y, v3.r(y[l], v3.y, 0.8))));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 100);
   return {
     title: 'Proposition 6',
     id: '12.6',
-    img: '/img/12/6',
     prose: prop6,
+    points: z,
+    letters: {
+      M: [1],
+      A: [6],
+      B: [7],
+      C: [2.2],
+      D: [3],
+      E: [5],
+      N: [1],
+      F: [5],
+      G: [7],
+      L: [3],
+      H: [8],
+      K: [2],
+    },
+    shapes: [
+      ...pyr(z, 'MABCDE'),
+      rg.line(z.A, z.D),
+      rg.line(z.A, z.C),
+      ...pyr(z, 'NFGHKL'),
+      rg.line(z.F, z.K),
+      rg.line(z.F, z.H),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  y.C = v3.o;
+  y.A = v3.x;
+  y.B = v3.z;
+  s(y, 'DEF', [...'ABC'].map(l => v3.add(v3.s(v3.y, -2), y[l])));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[1], 1.1));
+  f = f.map(d => v3.r(d, f[0], 0.6));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 150);
   return {
     title: 'Proposition 7',
     id: '12.7',
-    img: '/img/12/7',
     prose: prop7,
+    points: z,
+    letters: {
+      F: [1],
+      A: [5],
+      E: [3],
+      D: [7],
+      B: [5],
+      C: [4.5]
+    },
+    shapes: [
+      ...prism(z, 'ABCDEF'),
+      rg.line(z.C, z.D),
+      rg.line(z.B, z.D),
+      rg.line(z.C, z.E),
+    ]
   };
 },
 
