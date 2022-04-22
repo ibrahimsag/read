@@ -400,38 +400,184 @@ function() {
 },
 
 function() {
+  let y = {};
+  s(y, 'AMBCKLGN', [-1, 1]
+    .map(z => [-1, 1].map(y => [-1, 1].map(x => [x, y, z]))).flat(2));
+  s(y, 'DQEFOPHR', [-1, 1]
+    .map(z => [-1, 1].map(y => [-1, 1].map(x => [x*1.2+3.8, y*1.2, z*1.2]))).flat(2));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.2));
+  f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 70);
   return {
     title: 'Proposition 8',
     id: '12.8',
-    img: '/img/12/8',
     prose: prop8,
+    points: z,
+    letters: {
+      E: [5],
+      F: [5],
+      H: [8, 2],
+      R: [7],
+      D: [3],
+      Q: [6.5],
+      O: [1],
+      P: [1],
+      B: [5],
+      C: [5],
+      G: [8, 2],
+      N: [7],
+      A: [3],
+      M: [6.5],
+      K: [1],
+      L: [1],
+    },
+    shapes: [
+      ...prism(z, 'AMCBKLNG'),
+      ...prism(z, 'DQFEOPRH'),
+      rg.polygon([...'AGC'].map(l => z[l])),
+      rg.polygon([...'DHF'].map(l => z[l])),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  s(y, 'RPFQHOED', [-1, 1]
+    .map(z => [-1, 1].map(y => [-1, 1].map(x => [(x-z/2)*0.7, y*2, z]))).flat(2));
+  s(y, 'GaBCbLAM', [-1, 1]
+    .map(z => [-1, 1].map(y => [-1, 1].map(x => [x+2.8+z/4, y, z]))).flat(2));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 70);
   return {
     title: 'Proposition 9',
     id: '12.9',
-    img: '/img/12/9',
     prose: prop9,
+    points: z,
+    letters: {
+      H: [3],
+      O: [1],
+      R: [3.5,3],
+      P: [7],
+      E: [3],
+      D: [8],
+      F: [5],
+      Q: [5],
+      G: [3],
+      L: [1],
+      A: [5],
+      M: [7],
+      B: [5],
+      C: [5]
+    },
+    shapes: [
+      ...prism(z, 'RPQFHODE'),
+      ...prism(z, 'GaCBbLMA'),
+      rg.polygon([...'HDF'].map(l => z[l])),
+      rg.polygon([...'GAC'].map(l => z[l])),
+    ]
   };
 },
 
 function() {
+  let z = {}, r = 150;
+  z.O = v2.o;
+  s(z, 'DHAEBFCG', [...Array(8).keys()].map(i => v2.r(v2.x, (-i/8)*Math.PI*2)));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
   return {
     title: 'Proposition 10',
     id: '12.10',
-    img: '/img/12/10',
     prose: prop10,
+    points: z,
+    letters: {
+      A: [1],
+      E: [2],
+      B: [3],
+      F: [4],
+      C: [5],
+      G: [6],
+      D: [7],
+      H: [8]
+    },
+    shapes: [
+      rg.circle(z.O, r*2),
+      rg.polygon([...'AEBFCGDH'].map(l => z[l])),
+      rg.polygon([...'ABCD'].map(l => z[l])),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  y.O = v3.add(v3.s(v3.x, 0.6), v3.s(v3.y, -0.2));
+  y.X = v3.add(v3.s(v3.x, 0.5), v3.s(v3.y, -1.2));
+  s(y, 'abdcefhg', [0, 1].map(z => [0, 1].map(y => [0, 1].map(x => [x, y*0.4, z]))).flat(2))
+  s(y, 'klnmoprq', [0, 1].map(z => [0, 1].map(y => [0, 1].map(x => [x*0.8, y*0.3-1, z*0.8]))).flat(2))
+
+  let z = {}, r = 90;
+  z.K = v2.s(v2.x, -3.5);
+  z.M = v2.s(v2.x, -1.2);
+  s(z, 'CWDTAUBV', [...Array(8).keys()].map(i => v2.add(z.K, v2.r(v2.x, (-i/8)*Math.PI*2))));
+  s(z, 'GSHPEQFR', [...Array(8).keys()].map(i => v2.add(z.M, v2.r(v2.s(v2.x, 0.8), (-i/8)*Math.PI*2))));
+  z.L = v2.add(z.K, v2.s(v2.r(v2.x, -1), 1.8));
+  z.N = v2.add(z.M, v2.s(v2.r(v2.x, -1), 1.4));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[1], -0.15));
+  f = f.map(d => v3.r(d, f[0], -0.15));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 70);
   return {
     title: 'Proposition 11',
     id: '12.11',
-    img: '/img/12/11',
     prose: prop11,
+    points: z,
+    letters: {
+      D: [1],
+      T: [2],
+      A: [3],
+      U: [4],
+      B: [5],
+      V: [6],
+      C: [7],
+      W: [8],
+      K: [5],
+      H: [1],
+      P: [2],
+      E: [3],
+      Q: [4],
+      F: [5],
+      R: [6],
+      G: [7],
+      S: [8],
+      M: [5],
+      O: [1],
+      X: [1],
+      L: [8],
+      N: [8]
+    },
+    shapes: [
+      rg.circle(z.K, r*2),
+      rg.polygon([...'CWDTAUBV'].map(l => z[l])),
+      rg.polygon([...'ABCD'].map(l => z[l])),
+      rg.line(z.A, z.C),
+      rg.circle(z.M, r*0.8*2),
+      rg.polygon([...'GSHPEQFR'].map(l => z[l])),
+      rg.polygon([...'GHEF'].map(l => z[l])),
+      rg.line(z.E, z.G),
+      rg.line(z.K, z.L),
+      rg.line(z.M, z.N),
+      ...prism(z, 'abcdefgh'),
+      ...prism(z, 'klmnopqr'),
+    ]
+
   };
 },
 
