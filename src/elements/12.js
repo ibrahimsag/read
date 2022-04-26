@@ -582,38 +582,239 @@ function() {
 },
 
 function() {
+  let y = {};
+  y.O = v3.add(v3.s(v3.x, 0.6), v3.s(v3.y, -0.2));
+  s(y, 'abdcefhg', [0, 1].map(z => [0, 1].map(y => [0, 1].map(x => [x*1.2, y*0.4, z]))).flat(2))
+
+  let z = {}, r = 70;
+  z.K = v2.s(v2.x, -3.8);
+  z.M = v2.s(v2.x, -1.4);
+  s(z, 'DWATBUCV', [...Array(8).keys()].map(i => v2.add(z.K, v2.r(v2.s(v2.x, 0.8), (-i/8)*Math.PI*2))));
+  s(z, 'FPESHRGQ', [...Array(8).keys()].map(i => v2.add(z.M, v2.r(v2.x, (-i/8)*Math.PI*2))));
+  z.L = v2.add(z.K, v2.s(v2.r(v2.x, -2), 1.7));
+  z.N = v2.add(z.M, v2.s(v2.r(v2.x, -1.1), 1.8));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[1], -0.15));
+  f = f.map(d => v3.r(d, f[0], -0.15));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 70);
   return {
     title: 'Proposition 12',
     id: '12.12',
-    img: '/img/12/12',
     prose: prop12,
+    points: z,
+    smallletters: 'TP',
+    letters: {
+      E: [1],
+      S: [2],
+      H: [3],
+      R: [4],
+      G: [5],
+      Q: [6],
+      F: [7],
+      P: [7.5, 3],
+      N: [1],
+      M: [5],
+      A: [1],
+      T: [2.7],
+      B: [3],
+      U: [4],
+      C: [5],
+      V: [6],
+      D: [7],
+      W: [8],
+      L: [1],
+      K: [5],
+      O: [1],
+    },
+    shapes: [
+      rg.circle(z.K, r*0.8*2),
+      rg.polygon([...'DWATBUCV'].map(l => z[l])),
+      rg.polygon([...'ABCD'].map(l => z[l])),
+      rg.line(z.B, z.D),
+      rg.circle(z.M, r*2),
+      rg.polygon([...'FPESHRGQ'].map(l => z[l])),
+      rg.polygon([...'GFEH'].map(l => z[l])),
+      rg.line(z.H, z.F),
+      rg.line(z.K, z.L),
+      rg.line(z.M, z.N),
+      rg.line(z.B, z.L),
+      rg.line(z.T, z.L),
+      rg.line(z.T, z.K),
+      rg.line(z.N, z.F),
+      rg.line(z.N, z.P),
+      rg.line(z.M, z.P),
+      ...prism(z, 'abcdefgh'),
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let c = {};
+  let r = 50;
+  c.p = Array(21).fill()
+    .map((_, i) => v2.rot(v2.s(v2.x, r), 2*Math.PI*i/20))
+    .map(([x, y]) => [x*0.4, y]);
+  z.L = v2.o;
+  s(z, 'NEKFOM', Array(6).fill()
+    .map((_, i) => v2.s(v2.x, (i+1)*(r+10))));
+  s(c, 'ragctv', [...'NEKFOM']
+    .map(l => c.p.map(v => v2.add(v, z[l]))));
+  s(z, 'QSBHDUW', [...'LNEKFOM'].map(l => v2.add(z[l], v2.s(v2.y, r))));
+  s(z, 'PRAGCTV', [...'LNEKFOM'].map(l => v2.add(z[l], v2.s(v2.y, -r))));
   return {
     title: 'Proposition 13',
     id: '12.13',
-    img: '/img/12/13',
     prose: prop13,
+    points: z,
+    letters: {
+      P: [1],
+      R: [1],
+      A: [1],
+      G: [1],
+      C: [1],
+      T: [1],
+      V: [1],
+      L: [1],
+      N: [1],
+      E: [1],
+      K: [1],
+      F: [1],
+      O: [1],
+      M: [1],
+      Q: [5],
+      S: [5],
+      B: [5],
+      H: [5],
+      D: [5],
+      U: [5],
+      W: [5],
+    },
+    shapes: [
+      ...[...'pragctv'].map(l => rg.curve(c[l])),
+      rg.line(z.L, z.M),
+      rg.line(z.P, z.V),
+      rg.line(z.Q, z.W),
+      ...[...'LNEKFOM'].map(l => rg.line(v2.add(z[l], v2.s(v2.y, -5)), v2.add(z[l], v2.s(v2.y, 5)))),
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let c = {};
+  z.G = v2.o;
+  z.H = v2.s(v2.y, 1.9);
+  z.K = v2.add(v2.s(v2.x, 2.7,), v2.s(v2.y, -0.5));
+  z.L = v2.add(z.K, v2.s(v2.y, 1.3));
+  z.N = v2.add(z.L, v2.s(v2.y, 1.9));
+  s(z, 'EAFCO', [...'GHKLN'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.x, -1))));
+  s(z, 'PBQDM', [...'GHKLN'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.x, 1))));
+  c.g = Array(21).fill().map((_, i) => v2.rot(v2.x, 2*Math.PI*(i/20))).map(([x, y])=>[x, y*0.37]);
+  s(c, 'hkln', [...'HKLN'].map(l => z[l]).map(p => c.g.map(v => v2.add(v, p))));
+  for(let i in z)
+    z[i] = v2.s(z[i], 70);
+  for(let i in c)
+    c[i] = c[i].map(v=>v2.s(v, 70));
+
   return {
     title: 'Proposition 14',
     id: '12.14',
-    img: '/img/12/14',
     prose: prop14,
+    points: z,
+    letters: {
+      E: [3],
+      A: [3],
+      B: [3],
+      F: [3],
+      C: [3],
+      G: [1],
+      K: [1],
+      H: [7],
+      L: [7],
+      N: [7],
+      B: [7],
+      D: [7],
+      M: [7],
+    },
+    shapes: [
+      rg.line(z.E, z.A),
+      rg.line(z.P, z.B),
+      rg.line(z.O, z.F),
+      rg.line(z.G, z.H),
+      rg.line(z.K, z.N),
+      rg.line(z.Q, z.M),
+      rg.line(z.K, z.C),
+      rg.line(z.K, z.D),
+      rg.line(z.G, z.A),
+      rg.line(z.G, z.B),
+      ...[...'ghkln'].map(l => rg.curve(c[l])),
+      ...[...'HLN'].map(l => z[l]).map(p => rg.line(v2.add(p, v2.s(v2.x, -5)), v2.add(p, v2.s(v2.x, 5))))
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let c = {};
+  let vs = [];
+  z.K = v2.o;
+  z.L = v2.s(v2.y, -2);
+  z.M = v2.add(v2.s(v2.y, -0.5), v2.s(v2.x, 3));
+  z.Q = v2.add(z.M, v2.s(v2.x, 1.7));
+  z.N = v2.add(z.Q, v2.s(v2.x, 2.8));
+  s(z, 'Aa', [...'KL'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.x, -1))));
+  s(z, 'CO', [...'KL'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.x, 1))));
+  s(z, 'PSG', [...'MQN'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.y, -1))));
+  s(z, 'RUE', [...'MQN'].map(l => z[l]).map(p => v2.add(p, v2.s(v2.y, 1))));
+  vs = Array(21).fill().map((_, i) => v2.rot(v2.x, 2*Math.PI*i/20));
+  s(c, 'kl', [...'KL'].map(l=>z[l]).map(p => vs.map(([x, y]) => v2.add([x, y*0.35], p))));
+  s(c, 'mqn', [...'MQN'].map(l=>z[l]).map(p => vs.map(([x, y]) => v2.add([x*0.35, y], p))));
+  let r = 50;
+  z.T = c.q[17];
+  z.B = c.k[4];
+  z.D = c.k[15];
+  z.H = c.n[10];
+  z.F = c.n[18];
+
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
+  for(let i in c)
+    c[i] = c[i].map(v => v2.s(v, r));
   return {
     title: 'Proposition 15',
     id: '12.15',
-    img: '/img/12/15',
     prose: prop15,
+    points: z,
+    letters: {
+      A: [3],
+      O: [7],
+      C: [7],
+      P: [1],
+      S: [1],
+      G: [1],
+      R: [5],
+      U: [5],
+      E: [5],
+      M: [3],
+      Q: [2],
+      N: [7],
+      L: [1],
+      K: [5],
+      T: [7],
+      D: [2],
+      B: [6],
+      F: [7],
+      H: [4]
+    },
+    shapes: [
+      ...['Aa', 'LK', 'OC', 'LA', 'LC', 'AC', 'PG', 'RE', 'MN', 'SU', 'GE', 'MS', 'MU', 'MG', 'ME', 'QG', 'QE']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      ...[...'klmnq'].map(l => rg.curve(c[l]))
+    ]
   };
 },
 
