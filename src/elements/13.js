@@ -1,4 +1,5 @@
 import v2 from '../vec2.js';
+import v3 from '../vec3.js';
 
 import prop1 from './13/1';
 import prop2 from './13/2';
@@ -430,38 +431,195 @@ function() {
 },
 
 function() {
+  let y = {};
+  let sq2 = Math.sqrt(2);
+  y.H = v3.o;
+  y.E = v3.s(v3.z, sq2);
+  y.F = v3.r(y.E, v3.y, -Math.PI*2/3);
+  y.G = v3.r(y.F, v3.y, -Math.PI*2/3);
+  y.K = v3.s(v3.y, -2);
+  y.L = v3.s(v3.y, 1);
+  let c = Array(21).fill().map((_, i) => v3.rot(y.E, v3.y, Math.PI*i/10));
+  let z = {};
+  let r = 100;
+  let f = v3.i;
+  f = f.map(d => v3.rot(d, f[0], -0.5));
+  f = f.map(d => v3.rot(d, f[1], -0.5));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
+  c = c.map(v => v3.s(f.map(d => v3.dot(d, v)), r));
+  let x = {};
+  x.O = v2.s(v2.y, -2.5);
+  x.B = v2.add(x.O, v2.s(v2.x, 1.5));
+  x.A = v2.add(x.O, v2.s(v2.x, -1.5));
+  x.D = v2.add(x.O, v2.rot(v2.s(v2.x, 1.5), -Math.acos(1/3)));
+  x.C = v2.add(x.O, v2.s(v2.x, 0.5));
+  for(let i in x)
+    z[i] = v2.s(x[i], r);
   return {
     title: 'Proposition 13',
     id: '13.13',
-    img: '/img/13/13',
     prose: prop13,
+    points: z,
+    letters: {
+      K: [1],
+      E: [8],
+      F: [4],
+      H: [4],
+      L: [5],
+      G: [6],
+      A: [5],
+      C: [5],
+      B: [5],
+      D: [1],
+    },
+    shapes: [
+      ...['EF','FG','GE', 'KE', 'KF', 'KG', 'KL', 'HE', 'HF', 'HG', 'AB', 'AD', 'DC']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.curve(c),
+      rg.arc(z.O, z.A, z.B),
+
+    ]
   };
 },
 
 function() {
+  let z = {};
+  let r = 100;
+  z.O = v2.o;
+  z.B = v2.add(z.O, v2.s(v2.x, 1.5));
+  z.A = v2.add(z.O, v2.s(v2.x, -1.5));
+  z.C = v2.add(z.O, v2.s(v2.x, 0.5));
+  z.D = v2.r(z.B, -Math.acos(1/3));
+  s(z, 'EFG', [...'ACB'].map(l => v2.add(z[l], v2.s(v2.y, 2))));
+  let c = Array(11).fill().map((_, i) => v2.rot(z.B, -Math.PI*i/10));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
+  c = c.map(v => v2.s(v, r));
   return {
     title: 'Lemma',
     id: '13.13-lem',
     img: '/img/13/l1',
     prose: propl1,
+    points: z,
+    letters: {
+      A: [3],
+      E: [5],
+      F: [5],
+      B: [7],
+      C: [8],
+      D: [1],
+    },
+    shapes: [
+      ...['AD', 'DB', 'AB', 'AE', 'EG', 'GB', 'DF'].map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.curve(c),
+    ],
   };
 },
 
 function() {
+  let y = {};
+  y.K = v3.o;
+  y.H = v3.x;
+  y.G = v3.z;
+  y.E = v3.s(y.G, -1);
+  y.F = v3.s(y.H, -1);
+  y.L = v3.s(v3.y, -1);
+  y.M = v3.s(v3.y, 1);
+  let z = {};
+  let r = 150;
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], 0.7));
+  f = f.map(d => v3.r(d, f[1], -0.7));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
+  let x = {};
+  x.C = v2.s(v2.y, -1.5);
+  x.B = v2.add(x.C, v2.x);
+  x.A = v2.add(x.C, v2.s(v2.x, -1));
+  x.D = v2.add(x.C, v2.s(v2.y, -1));
+  let c = Array(11).fill().map((_, i) => v2.add(x.C, v2.r(v2.x, -Math.PI*i/10)));
+  for(let i in x)
+    z[i] = v2.s(x[i], r);
+  c = c.map(v => v2.s(v, r));
   return {
     title: 'Proposition 14',
     id: '13.14',
-    img: '/img/13/14',
     prose: prop14,
+    points: z,
+    letters: {
+      L: [1],
+      M: [5],
+      E: [3],
+      F: [3],
+      H: [7],
+      G: [7],
+      K: [1],
+      D: [1],
+      A: [5],
+      C: [5],
+      B: [5],
+    },
+    shapes: [
+      rg.curve(c),
+      ...['AB', 'BD', 'DC',
+          'EF', 'FG', 'GH', 'HE',
+          'LE', 'LF', 'LG', 'LH',
+          'ME', 'MF', 'MG', 'MH',
+          'ML', 'EG', 'HF']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      ...['ME', 'MH', 'EH']
+        .map(s => rg.line(z[s[0]], z[s[1]], {strokeWidth: 3})),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  s(y, 'EHFGKNLM', [-1, 1].map(z => [-1, 1].map(y => [-1, 1].map(x => [x, y, z]))).flat(2));
+  let z = {};
+  let r = 100;
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  f = f.map(d => v3.r(d, f[1], -0.5));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
+  let x = {};
+  x.O = v2.s(v2.y, 3.5);
+  x.B = v2.add(x.O, v2.s(v2.x, 1.5));
+  x.A = v2.add(x.O, v2.s(v2.x, -1.5));
+  x.C = v2.add(x.O, v2.s(v2.x, 0.5));
+  x.D = v2.add(x.O, v2.r(v2.s(v2.x, 1.5), -Math.acos(1/3)));
+  for(let i in x)
+    z[i] = v2.s(x[i], r);
   return {
     title: 'Proposition 15',
     id: '13.15',
-    img: '/img/13/15',
     prose: prop15,
+    points: z,
+    letters: {
+      E: [2],
+      F: [5],
+      G: [5],
+      N: [1],
+      K: [1],
+      L: [8.2,2],
+      M: [7],
+      D: [8.5,2],
+      A: [5],
+      C: [5],
+      B: [5],
+    },
+    shapes: [
+      ...['EF', 'FG', 'GH', 'HE',
+          'KL', 'LM', 'MN', 'NK',
+          'KE', 'LF', 'MG', 'NH',
+          'KG', 'EG', 'AB', 'BD', 'DC']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      ...['EH', 'GH', 'NH']
+        .map(s => rg.line(z[s[0]], z[s[1]], {strokeWidth: 3})),
+      rg.arc(z.O, z.A, z.B)
+    ],
   };
 },
 
