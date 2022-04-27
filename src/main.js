@@ -504,7 +504,9 @@ function makePR(rg, svg, cs)
         'y': pos[1],
       };
       var el = se('text', attrs);
-      var el_ = se('text', {...attrs, stroke: hsl(0), 'stroke-width':5});
+      var el_ = se('text', {...attrs, stroke: hsl(0),
+        'stroke-width':5, 'stroke-linecap': 'round',
+        'stroke-linejoin': 'round'});
 
       shapes.push(el_, el);
     }

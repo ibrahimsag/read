@@ -1,5 +1,27 @@
 import v2 from '../vec2.js';
 import v3 from '../vec3.js';
+import hsluv from 'hsluv';
+
+function hsl(...args)
+{
+  if(args.length === 1)
+  {
+    return hsluv.hsluvToHex([0, 0, args[0]]);
+  }
+  else if(args.length === 2)
+  {
+    return hsluv.hsluvToHex([args[0], 100, args[1]]);
+  }
+  else if(args.length === 3)
+  {
+    return hsluv.hsluvToHex(args);
+  }
+  else
+  {
+    console.error("# arguments for hsluv", args);
+  }
+}
+
 
 import prop1 from './13/1';
 import prop2 from './13/2';
@@ -156,7 +178,6 @@ function() {
   return {
     title: 'Proposition 4',
     id: '13.4',
-    img: '/img/13/4',
     prose: prop4,
     points: z,
     smallletters: 'LMN',
@@ -190,7 +211,6 @@ function() {
   return {
     title: 'Proposition 5',
     id: '13.5',
-    img: '/img/13/5',
     prose: prop5,
     points: z,
     letters: {
@@ -263,7 +283,6 @@ function() {
   return {
     title: 'Proposition 8',
     id: '13.8',
-    img: '/img/13/8',
     prose: prop8,
     points: z,
     letters: {
@@ -499,7 +518,6 @@ function() {
   return {
     title: 'Lemma',
     id: '13.13-lem',
-    img: '/img/13/l1',
     prose: propl1,
     points: z,
     letters: {
@@ -624,38 +642,201 @@ function() {
 },
 
 function() {
+  let y = {};
+  y.V = v3.o;
+  let sq5 = Math.sqrt(5)/2.5;
+  let dec = Math.sin(Math.PI/5)*2*sq5;
+  s(y, 'HNGMFLEPKO', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    .map(i => v3.r(v3.s(v3.y, sq5), v3.z, Math.PI*2*i/10)));
+  s(y, 'QRSTU', [...'EFGHK']
+    .map(l => v3.add(y[l], v3.s(v3.z, -sq5))));
+  y.X = v3.s(v3.z, dec);
+  y.W = v3.s(v3.z, -sq5);
+  y.Z = v3.add(y.W, v3.s(v3.z, -dec));
+  y.a = v3.s(v3.z, -sq5/2);
+  let r = 250;
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[2], 1.1));
+  f = f.map(d => v3.r(d, f[0], -0.5));
+  //f = f.map(d => v3.r(d, f[1], -0.3));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
+  let a = v2.r(v2.u(v2.sub(z.V, z.W)), Math.PI/2);
+  let c = Array(21).fill().map((_, i) => v3.r(y.H, v3.z, Math.PI*i/10))
+  c = c.map(v => v3.s(f.map(d => v3.dot(d, v)), r));
   return {
     title: 'Proposition 16',
     id: '13.16',
-    img: '/img/13/16',
     prose: prop16,
+    points: z,
+    letters: {
+      H: [6],
+      Q: [5],
+      R: [5],
+      S: [5],
+      T: [5],
+      U: [5],
+      L: [2],
+      F: [2],
+      M: [4],
+      G: [1],
+      N: [5],
+      O: [7],
+      K: [8],
+      P: [1],
+      E: [1],
+      X: [1],
+      Z: [3.5],
+      V: [7],
+      W: [6],
+      a: [7, 2],
+    },
+    shapes: [
+      rg.line(v2.add(z.a, v2.s(a, -5)), v2.add(z.a, v2.s(a, 5)), {stroke: hsl(25)}),
+      rg.polygon([...'HGFEK'].map(l => z[l]), {stroke: hsl(20)}),
+      rg.polygon([...'HNGMFLEPKO'].map(l => z[l]), {stroke: hsl(20)}),
+      ...['XZ', 'QE', 'RF', 'SG', 'TH', 'UK', 'QZ', 'QW', 'UW', 'UZ', 'LV',
+          'QR', 'TU', 'UQ', 'PQ', 'QL', 'OU', 'UP', 'MV', ]
+        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
+      rg.curve(c, {stroke: hsl(20)}),
+      rg.polygon([...'NMLPO'].map(l => z[l])),
+      ...['RS', 'ST', 'LR', 'RM', 'MS', 'SN', 'NT', 'TO', 
+          'XM', 'XL']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+    ],
   };
 },
 
 function() {
+  let y = {};
+  let phi = 2/(1+Math.sqrt(5));
+  s(y, 'BHCGQKALD', [0, 1, 2].map(y => [-1, 0, 1].map(x => [x, y, 0])).flat());
+  s(y, 'EMFNPO', [2, 1].map(z => [-1, 0, 1].map(x => [x, 0, z])).flat());
+  s(y, 'RST', ['PN', 'PO', 'QH'].map(s => v3.add(y[s[0]], v3.s(v3.sub(y[s[1]], y[s[0]]), phi))));
+  y.W = v3.add(y.T, v3.s(v3.z, -phi));
+  s(y, 'UXV', [...'RPS'].map(l => v3.add(y[l], v3.s(v3.y, -phi))));
+  y.Z = v3.add(v3.z, v3.y);
+  let z = {};
+  let r = 120;
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[0], -0.8));
+  f = f.map(d => v3.r(d, f[1], -0.35));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
   return {
     title: 'Proposition 17',
     id: '13.17',
-    img: '/img/13/17',
     prose: prop17,
+    points: z,
+    letters: {
+      B: [3],
+      D: [7],
+      N: [2],
+      E: [1],
+      M: [1],
+      F: [1],
+      U: [1],
+      X: [1],
+      V: [1],
+      O: [7],
+      C: [7],
+      K: [7],
+      Q: [6],
+      G: [3],
+      A: [3],
+      L: [5],
+      W: [5],
+      R: [6],
+      T: [7],
+      Z: [5],
+      H: [2],
+      P: [6],
+      S: [8.2, 2],
+    },
+    shapes: [
+      ...['BC', 'GK', 'AD', 'BA', 'HL', 'CD',
+          'EF', 'NO', 'EB', 'MH', 'FC',
+          'TW', 'UR', 'SV', 'XW',
+          'BR', 'BS', 'BV', 'ZU', 'ZX']
+        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
+      ...['BW', 'WC', 'CV', 'UV', 'BU']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let phi = 2/(1+Math.sqrt(5));
+  z.C = v2.o;
+  z.B = v2.x;
+  z.A = v2.s(v2.x, -1);
+  z.G = v2.add(z.A, v2.s(v2.y, -2));
+  let k = -1/Math.sqrt(5);
+  let d = 1/3;
+  let l = 3/5;
+  s(z, 'KDL', [k, d, l].map(c => v2.s(v2.x, c)));
+  s(z, 'EHFM', [0, k, d, l].map(c => v2.r(v2.x, -Math.acos(c))));
+  z.N = v2.add(z.B, v2.s(v2.sub(z.F, z.B), phi));
+  let n = v2.r(v2.u(v2.sub(z.F, z.B)), Math.PI/2);
+  for(let i in z)
+    z[i] = v2.s(z[i], 180);
   return {
     title: 'Proposition 18',
     id: '13.18',
-    img: '/img/13/18',
     prose: prop18,
+    points: z,
+    smallletters: 'N',
+    letters: {
+      H: [8.5, 3],
+      E: [1],
+      F: [1],
+      M: [8],
+      A: [5],
+      K: [5],
+      C: [5],
+      D: [5],
+      L: [5],
+      B: [5],
+      G: [1],
+      N: [3, 3],
+    },
+    shapes: [
+      ...['AB', 'HK', 'AG', 'GC', 'EC', 'FD', 'ML',
+          'AE', 'EB', 'AF', 'FB', 'AM', 'MB']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.line(v2.add(z.N, v2.s(n, 5)), v2.add(z.N, v2.s(n, -5))),
+      rg.arc(z.C, z.A, z.B),
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let r = 150;
+  z.F = v2.o;
+  s(z, 'ABCDE', [0, 1, 2, 3, 4].map(i => v2.r(v2.y, Math.PI*(1+i*2/5))));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
   return {
     title: 'Lemma',
     id: '13.18-lem',
-    img: '/img/13/l2',
     prose: propl2,
+    points: z,
+    letters: {
+      A: [1],
+      E: [2.5],
+      D: [4],
+      C: [6],
+      B: [7.5],
+      F: [2, 2],
+    },
+    shapes: [
+      rg.circle(z.F, r*2),
+      rg.polygon([...'ABCDE'].map(l => z[l])),
+      ...[...'ABCDE'].map(l => rg.line(z.F, z[l]))
+    ]
   };
 },
 
