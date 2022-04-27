@@ -819,29 +819,162 @@ function() {
 },
 
 function() {
+  let z = {};
+  let r = 150;
+  let g = 0.7;
+  let m = g + 0.15
+  z.K = v2.o;
+  z.D = v2.x;
+  z.B = v2.s(v2.x, -1);
+  z.A = v2.r(z.D, -Math.acos(g));
+  z.C = v2.r(z.D, Math.acos(g));
+  z.L = v2.r(z.D, -Math.acos(m));
+  z.N = v2.r(z.D, Math.acos(m));
+  z.G = v2.s(v2.x, g);
+  z.M = v2.s(v2.x, m);
+  s(z, 'HEF', [1, 2, 3].map(i => v2.r(z.G, -2*Math.PI*i/4)));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
   return {
     title: 'Proposition 16',
     id: '12.16',
-    img: '/img/12/16',
     prose: prop16,
+    points: z,
+    letters: {
+      A: [8],
+      L: [8],
+      H: [1],
+      B: [3],
+      F: [5],
+      G: [2],
+      M: [2],
+      D: [7],
+      N: [6],
+      C: [6],
+      K: [1],
+      E: [8, 2.5],
+
+    },
+    shapes: [
+      ...['BD', 'AC', 'LN', 'LD', 'DN'].map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.circle(z.K, r*2),
+      rg.circle(z.K, r*g*2),
+    ]
   };
 },
 
 function() {
+  let y = {};
+  let c = {};
+  y.A = v3.o;
+  y.D = v3.x;
+  y.B = v3.s(v3.x, -1);
+  y.O = v3.s(v3.y, -1);
+  s(y, 'KLME', [1.5, 2.4, 3.3, 4].map(i => v3.r(y.B, v3.y, Math.PI*i/8)))
+  y.C = v3.s(y.E, -1);
+  y.N = v3.s(y.K, -1);
+  y.k = v3.r(y.K, v3.y, Math.PI/2);
+  s(y, 'PQR', [1.8, 2.8, 3.5].map(i => v3.r(y.B, y.E, Math.PI*i/8)))
+  s(y, 'STU', [1.8, 2.8, 3.5].map(i => v3.r(y.K, y.k, Math.PI*i/8)))
+  s(y, 'FGH', [0, 2, 3].map(i => v3.r(v3.s(y.D, 0.3), v3.y, -2*Math.PI*i/4)))
+  y.V = v3.s(y.B, v3.dot(y.B, y.P));
+  y.W = v3.s(y.K, v3.dot(y.K, y.S));
+  y.X = v3.s([...'KBPS'].map(l => y[l]).reduce(v3.add), 0.25)
+  y.Y = v3.s(y.B, v3.dot(y.B, y.K));
+  c.o = Array(21).fill().map((_, i) => v3.rot(y.D, v3.y, 2*Math.PI*i/20));
+  c.k = Array(11).fill().map((_, i) => v3.rot(y.K, y.k, 2*Math.PI*i/20));
+  c.b = Array(11).fill().map((_, i) => v3.rot(y.B, y.E, 2*Math.PI*i/20));
+  c.g = Array(21).fill().map((_, i) => v3.rot(y.F, y.O, 2*Math.PI*i/20));
+  let z = {};
+  let f = v3.i;
+  f = f.map(d => v3.r(d, f[1], 1.35));
+  f = f.map(d => v3.r(d, f[0], -0.6));
+  for(let i in y)
+    z[i] = v3.s(f.map(d => v3.dot(d, y[i])), 240);
+  for(let i in c)
+    c[i] = c[i].map(v => v3.s(f.map(d => v3.dot(d, v)), 240));
   return {
     title: 'Proposition 17',
     id: '12.17',
-    img: '/img/12/17',
     prose: prop17,
+    points: z,
+    smallletters: 'XY',
+    letters: {
+      X: [1],
+      B: [5],
+      K: [4],
+      L: [4],
+      M: [3],
+      E: [2.5],
+      S: [2],
+      T: [2],
+      U: [2.4],
+      P: [7],
+      Q: [6],
+      R: [6],
+      O: [2],
+      W: [5],
+      Y: [6],
+      V: [7, 3],
+      G: [6],
+      F: [1.5],
+      H: [8, 3],
+      N: [8, 3],
+      D: [8],
+      C: [7],
+
+    },
+    shapes: [
+      ...['AO', 'BD', 'EC', 'BK', 'KL', 'LM', 'ME', 'BP', 'PQ', 'QR', 'RO', 'KS', 'ST', 'TU', 'UO',
+          'KN', 'PS', 'TQ', 'UR', 'SW', 'PV', 'VW', 'AX', 'KX', 'XB', 'KD', 'KY']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.curve(c.o),
+      rg.curve(c.k),
+      rg.curve(c.b),
+      rg.curve(c.g),
+    ],
   };
 },
 
 function() {
+  let z = {};
+  let r = 130;
+  z.m = v2.x;
+  z.e = v2.r(v2.s(v2.x, 1.1), 2.1);
+  z.b = v2.r(v2.s(v2.x, 0.8), 3.9);
+  s(z, 'CAB', [0, 1, 2].map(i => v2.add(z.b, v2.r(v2.s(v2.x, 0.5), -Math.PI*i/2))));
+  s(z, 'FDE', [0, 0.6, 2].map(i => v2.add(z.e, v2.r(v2.s(v2.x, 0.7), -Math.PI*i/2))));
+  s(z, 'KGH', [0, 1, 2].map(i => v2.add(z.e, v2.r(v2.s(v2.x, 0.5), -Math.PI*i/2))));
+  s(z, 'NLM', [0, 1, 2].map(i => v2.add(z.m, v2.r(v2.s(v2.x, 0.8), -Math.PI*i/2))));
+  for(let i in z)
+    z[i] = v2.s(z[i], r);
   return {
     title: 'Proposition 18',
     id: '12.18',
-    img: '/img/12/18',
     prose: prop18,
+    points: z,
+    letters: {
+      A: [1],
+      B: [3],
+      C: [7],
+      E: [3],
+      D: [8],
+      F: [7],
+      G: [5],
+      H: [7.7, 4],
+      K: [2.4, 3],
+      L: [1],
+      M: [3],
+      N: [7]
+    },
+    shapes: [
+      rg.circle(z.e, r*0.7*2),
+      rg.circle(z.e, r*0.5*2),
+      rg.circle(z.b, r*0.5*2),
+      rg.circle(z.m, r*0.8*2),
+      rg.line(z.E, z.F),
+      rg.line(z.B, z.C)
+    ]
   };
 },
 

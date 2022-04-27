@@ -13,7 +13,7 @@ let v3 = {
   cross: (a, b) => [a[1]*b[2] - a[2]*b[1],a[2]*b[0] - a[0]*b[2], a[0]*b[1] - a[1]*b[0]],
   rot: (v, n, a) => {
     let r = v, q=v, s = 1, i = 1;
-    while(i < 15)
+    while(i < 20)
     {
       s = s * a / i;
       q = v3.cross(n, q);
