@@ -63,7 +63,6 @@ function() {
   return {
     title: 'Proposition 1',
     id: '12.1',
-    img: '/img/12/1',
     prose: prop1,
     points: z,
     letters: {
