@@ -1,54 +1,54 @@
 Circles are to one another as the squares on (their) diameters.
 
-Let {ABCD} and {EFGH} be circles, and [let] {BD} and {FH} [be] their diameters.
-I say that as circle {ABCD} is to circle {EFGH}, so the square on {BD} (is) to the square on {FH}.
+Let {ABCD circle X} and {EFGH circle Y} be circles, and [let] {BD line} and {FH line} [be] their diameters.
+I say that as circle {ABCD circle X} is to circle {EFGH circle Y}, so the square on {BD line} (is) to the square on {FH line}.
 
-For if the circle {ABCD} is not to the (circle) {EFGH}, as the square on {BD} (is) to the (square) on {FH}, then as the (square) on {BD} (is) to the (square) on {FH}, so circle {ABCD} will be to some area either less than, or greater than, circle {EFGH}.
-Let it, first of all, be (in that ratio) to (some) lesser (area), {S}.
-And let the square {EFGH} have been inscribed in circle {EFGH} [Prop. 4.6].
-So the inscribed square is greater than half of circle {EFGH}, inasmuch as if we draw tangents to the circle through the points {E}, {F}, {G}, and {H}, then square {EFGH} is half of the square circumscribed about the circle [Prop. 1.47], and the circle is less than the circumscribed square.
-Hence, the inscribed square {EFGH} is greater than half of circle {EFGH}.
-Let the circumferences {EF}, {FG}, {GH}, and {HE} have been cut in half at points {K}, {L}, {M}, and {N} (respectively), and let {EK}, {KF}, {FL}, {LG}, {GM}, {MH}, {HN}, and {NE} have been joined.
-And, thus, each of the triangles {EKF}, {FLG}, {GMH}, and {HNE} is greater than half of the segment of the circle about it, inasmuch as if we draw tangents to the circle through points {K}, {L}, {M}, and {N}, and complete the parallelograms on the straight-lines {EF}, {FG}, {GH}, and {HE}, then each of the triangles {EKF}, {FLG}, {GMH}, and {HNE} will be half of the parallelogram about it, but the segment about it is less than the parallelogram.
-Hence, each of the triangles {EKF}, {FLG}, {GMH}, and {HNE} is greater than half of the segment of the circle about it.
-So, by cutting the circumferences remaining behind in half, and joining straight-lines, and doing this continually, we will (eventually) leave behind some segments of the circle whose (sum) will be less than the excess by which circle {EFGH} exceeds the area {S}.
+For if the circle {ABCD circle X} is not to the (circle) {EFGH circle Y}, as the square on {BD line} (is) to the (square) on {FH line}, then as the (square) on {BD line} (is) to the (square) on {FH line}, so circle {ABCD circle X} will be to some area either less than, or greater than, circle {EFGH circle Y}.
+Let it, first of all, be (in that ratio) to (some) lesser (area), {S given}.
+And let the square {EFGH polygon} have been inscribed in circle {EFGH circle Y} [Prop. 4.6].
+So the inscribed square is greater than half of circle {EFGH circle Y}, inasmuch as if we draw tangents to the circle through the points {E point}, {F point}, {G point}, and {H point}, then square {EFGH polygon} is half of the square circumscribed about the circle [Prop. 1.47], and the circle is less than the circumscribed square.
+Hence, the inscribed square {EFGH polygon} is greater than half of circle {EFGH circle Y}.
+Let the circumferences {EF arcc Y}, {FG arcc Y}, {GH arcc Y}, and {HE arcc Y} have been cut in half at points {K point}, {L point}, {M point}, and {N point} (respectively), and let {EK line}, {KF line}, {FL line}, {LG line}, {GM line}, {MH line}, {HN line}, and {NE line} have been joined.
+And, thus, each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} is greater than half of the segment of the circle about it, inasmuch as if we draw tangents to the circle through points {K point}, {L point}, {M point}, and {N point}, and complete the parallelograms on the straight-lines {EF line}, {FG line}, {GH line}, and {HE line}, then each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} will be half of the parallelogram about it, but the segment about it is less than the parallelogram.
+Hence, each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} is greater than half of the segment of the circle about it.
+So, by cutting the circumferences remaining behind in half, and joining straight-lines, and doing this continually, we will (eventually) leave behind some segments of the circle whose (sum) will be less than the excess by which circle {EFGH circle Y} exceeds the area {S given}.
 For we showed in the first theorem of the tenth book that if two unequal magnitudes are laid out, and if (a part) greater than a half is subtracted from the greater, and (if from) the remainder (a part) greater than a half (is subtracted), and this happens continually, then some magnitude will (eventually) be left which will be less than the lesser laid out magnitude [Prop. 10.1].
-Therefore, let the (segments) have been left, and let the (sum of the) segments of the circle {EFGH} on {EK}, {KF}, {FL}, {LG}, {GM}, {MH}, {HN}, and {NE} be less than the excess by which circle {EFGH} exceeds area {S}.
-Thus, the remaining polygon {EKFLGMHN} is greater than area {S}.
-And let the polygon {AOBPCQDR}, similar to the polygon {EKFLGMHN}, have been inscribed in circle {ABCD}.
-Thus, as the square on {BD} is to the square on {FH}, so polygon {AOBPCQDR} (is) to polygon {EKFLGMHN} [Prop. 12.1].
-But, also, as the square on {BD} (is) to the square on {FH}, so circle {ABCD} (is) to area {S}.
-And, thus, as circle {ABCD} (is) to area {S}, so polygon {AOBPGQDR} (is) to polygon {EKFLGMHN} [Prop. 5.11].
-Thus, alternately, as circle {ABCD} (is) to the polygon (inscribed) within it, so area {S} (is) to polygon {EKFLGMHN} [Prop. 5.16].
-And circle {ABCD} (is) greater than the polygon (inscribed) within it.
-Thus, area {S} is also greater than polygon {EKFLGMHN}.
+Therefore, let the (segments) have been left, and let the (sum of the) segments of the circle {EFGH circle Y} on {EK arcc Y}, {KF arcc Y}, {FL arcc Y}, {LG arcc Y}, {GM arcc Y}, {MH arcc Y}, {HN arcc Y}, and {NE arcc Y} be less than the excess by which circle {EFGH circle Y} exceeds area {S given}.
+Thus, the remaining polygon {EKFLGMHN polygon} is greater than area {S given}.
+And let the polygon {AOBPCQDR polygon}, similar to the polygon {EKFLGMHN polygon}, have been inscribed in circle {ABCD circle X}.
+Thus, as the square on {BD line} is to the square on {FH line}, so polygon {AOBPCQDR polygon} (is) to polygon {EKFLGMHN polygon} [Prop. 12.1].
+But, also, as the square on {BD line} (is) to the square on {FH line}, so circle {ABCD circle X} (is) to area {S given}.
+And, thus, as circle {ABCD circle X} (is) to area {S given}, so polygon {AOBPCQDR polygon} (is) to polygon {EKFLGMHN polygon} [Prop. 5.11].
+Thus, alternately, as circle {ABCD circle X} (is) to the polygon (inscribed) within it, so area {S given} (is) to polygon {EKFLGMHN polygon} [Prop. 5.16].
+And circle {ABCD circle X} (is) greater than the polygon (inscribed) within it.
+Thus, area {S given} is also greater than polygon {EKFLGMHN polygon}.
 But, (it is) also less.
 The very thing is impossible.
-Thus, the square on {BD} is not to the (square) on {FH}, as circle {ABCD} (is) to some area less than circle {EFGH}.
-So,similarly,wecan show that the (square) on {FH} (is) not to the (square) on {BD} as circle {EFGH} (is) to some area less than circle {ABCD} either.
+Thus, the square on {BD line} is not to the (square) on {FH line}, as circle {ABCD circle X} (is) to some area less than circle {EFGH circle Y}.
+So,similarly,wecan show that the (square) on {FH line} (is) not to the (square) on {BD line} as circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} either.
 
-So, I say that neither (is) the (square) on {BD} to the (square) on {FH}, as circle {ABCD} (is) to some area greater than circle {EFGH}.
+So, I say that neither (is) the (square) on {BD line} to the (square) on {FH line}, as circle {ABCD circle X} (is) to some area greater than circle {EFGH circle Y}.
 
-For, if possible, let it be (in that ratio) to (some) greater (area), {S}.
-Thus, inversely, as the square on {FH} [is] to the (square) on {DB}, so area {S} (is) to circle {ABCD} [Prop. 5.7 corr.].
-But, as area {S} (is) to circle {ABCD}, so circle {EFGH} (is) to some area less than circle {ABCD} (see lemma).
-And, thus, as the (square) on {FH} (is) to the (square) on {BD}, so circle {EFGH} (is) to some area less than circle {ABCD} [Prop. 5.11].
+For, if possible, let it be (in that ratio) to (some) greater (area), {S given}.
+Thus, inversely, as the square on {FH line} [is] to the (square) on {DB line}, so area {S given} (is) to circle {ABCD circle X} [Prop. 5.7 corr.].
+But, as area {S given} (is) to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} (see lemma).
+And, thus, as the (square) on {FH line} (is) to the (square) on {BD line}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} [Prop. 5.11].
 The very thing was shown (to be) impossible.
-Thus, as the square on {BD} is to the (square) on {FH}, so circle {ABCD} (is) not to some area greater than circle {EFGH}.
+Thus, as the square on {BD line} is to the (square) on {FH line}, so circle {ABCD circle X} (is) not to some area greater than circle {EFGH circle Y}.
 And it was shown that neither (is it in that ratio) to (some) lesser (area).
-Thus, as the square on {BD} is to the (square) on {FH}, so circle {ABCD} (is) to circle {EFGH}.
+Thus, as the square on {BD line} is to the (square) on {FH line}, so circle {ABCD circle X} (is) to circle {EFGH circle Y}.
 
 Thus, circles are to one another as the squares on (their) diameters.
 (Which is) the very thing it was required to show.
 
 Lemma
 
-So, I say that, area {S} being greater than circle {EFGH}, as area {S} is to circle {ABCD}, so circle {EFGH} (is) to some area less than circle {ABCD}.
+So, I say that, area {S given} being greater than circle {EFGH circle Y}, as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X}.
 
-For let it have been contrived that as area {S} (is) to circle {ABCD}, so circle {EFGH} (is) to area {T}.
-I say that area {T} is less than circle {ABCD}.
-For since as area {S} is to circle {ABCD}, so circle {EFGH} (is) to area {T}, alternately, as area {S} is to circle {EFGH}, so circle {ABCD} (is) to area {T} [Prop. 5.16].
-And area {S} (is) greater than circle {EFGH}.
-Thus, circle {ABCD} (is) also greater than area {T} [Prop. 5.14].
-Hence, as area {S} is to circle {ABCD}, so circle {EFGH} (is) to some area less than circle {ABCD}.
+For let it have been contrived that as area {S given} (is) to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to area {T given}.
+I say that area {T given} is less than circle {ABCD circle X}.
+For since as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to area {T given}, alternately, as area {S given} is to circle {EFGH circle Y}, so circle {ABCD circle X} (is) to area {T given} [Prop. 5.16].
+And area {S given} (is) greater than circle {EFGH circle Y}.
+Thus, circle {ABCD circle X} (is) also greater than area {T given} [Prop. 5.14].
+Hence, as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X}.
 (Which is) the very thing it was required to show.

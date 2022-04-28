@@ -191,7 +191,12 @@ function() {
       ...[z.A,z.B, z.D].map(p => rg.line(p, z.C, {strokeWidth: 3})),
       ...['HE', 'EG', 'GH', 'HK', 'KL', 'LH', 'KF', 'FG', 'EF', 'EK']
           .map(s=>rg.line(z[s[0]], z[s[1]])),
-    ]
+    ],
+    given: {
+      ABCD: pyr(z, 'ABCD'),
+      AEGH: pyr(z, 'AEGH'),
+      HKLD: pyr(z, 'HKLD'),
+    }
   };
 },
 

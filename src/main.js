@@ -646,6 +646,7 @@ function makePR(rg, svg, cs)
   let last_section_id = -1;
   let last_section;
   let marks = {};
+  let centers = {};
 
   function prepareDOM(proseEl, section)
   {
@@ -769,6 +770,7 @@ function makePR(rg, svg, cs)
     if(last_section_id != section.id)
     {
       marks = {}
+      centers = {};
       let titleEl = document.querySelector('#proseTitle');
       titleEl.innerText = section.title;
 
@@ -1138,8 +1140,32 @@ function makePR(rg, svg, cs)
     }
   }
 
-  proxy.mark = (kind) =>
+  proxy.centers = () =>
   {
+    for(let i = 0; i < us.length; i++)
+    {
+      let u = us[i];
+      if(u && u.i === last_section.i)
+      {
+        return centers[u.part.name[0]];
+      }
+    }
+  }
+
+  proxy.mark = (kind, c) =>
+  {
+    if(kind === 'arc' || kind  === 'arcc' || kind === 'circle')
+    {
+      kind = kind + ' ' + c;
+      for(let i = 0; i < us.length; i++)
+      {
+        let u = us[i];
+        if(u && u.i === last_section.i)
+        {
+          [...u.part.name].forEach(l => centers[l] = c);
+        }
+      }
+    }
     marks[last_section.i] = kind;
   };
 
@@ -1295,9 +1321,33 @@ function elements() {
 
     function keyHandler(e)
     {
-      if(e.key == "a")
+      if(e.key == "q")
       {
         pr.proxy.collect(i_book, id.split('.')[1]);
+      }
+      if(e.key == "A")
+      {
+        let c = prompt("arcc center:", pr.proxy.centers());
+        if(c)
+        {
+          pr.proxy.mark("arcc", c);
+        }
+      }
+      if(e.key == "a")
+      {
+        let c = prompt("arc center:", pr.proxy.centers());
+        if(c)
+        {
+          pr.proxy.mark("arc", c);
+        }
+      }
+      if(e.key == "c")
+      {
+        let c = prompt("circle center:", pr.proxy.centers());
+        if(c)
+        {
+          pr.proxy.mark("circle", c);
+        }
       }
       if(e.key == "o")
       {
