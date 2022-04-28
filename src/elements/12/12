@@ -1,78 +1,78 @@
 Similar cones and cylinders are to one another in the cubed ratio of the diameters of their bases.
 
-Let there be similar cones and cylinders of which the bases (are) the circles {ABCD} and {EFGH}, the diameters of the bases (are) {BD} and {FH}, and the axes of the cones and cylinders (are) {KL} and {MN} (respectively).
-I say that the cone whose base [is] circle {ABCD}, and apex the point {L}, has to the cone whose base [is] circle {EFGH}, and apex the point {N}, the cubed ratio that {BD} (has) to {FH}.
+Let there be similar cones and cylinders of which the bases (are) the circles {ABCD circle K} and {EFGH circle M}, the diameters of the bases (are) {BD line} and {FH line}, and the axes of the cones and cylinders (are) {KL line} and {MN line} (respectively).
+I say that the cone whose base [is] circle {ABCD circle K}, and apex the point {L point}, has to the cone whose base [is] circle {EFGH circle M}, and apex the point {N point}, the cubed ratio that {BD line} (has) to {FH line}.
 
-For if cone {ABCDL} does not have to cone {EFGHN} the cubed ratio that {BD} (has) to {FH} then cone {ABCDL} will have the cubed ratio to some solid either less than, or greater than, cone {EFGHN}.
-Let it, first of all, have (such a ratio) to (some) lesser (solid), {O}.
-And let the square {EFGH} have been inscribed in circle {EFGH} [Prop. 4.6].
-Thus, square {EFGH} is greater than half of circle {EFGH} [Prop. 12.2].
-And let a pyramid having the same apex as the cone have been set up on square {EFGH}.
+For if cone {ABCDL given} does not have to cone {EFGHN given} the cubed ratio that {BD line} (has) to {FH line} then cone {ABCDL given} will have the cubed ratio to some solid either less than, or greater than, cone {EFGHN given}.
+Let it, first of all, have (such a ratio) to (some) lesser (solid), {O given}.
+And let the square {EFGH polygon} have been inscribed in circle {EFGH circle M} [Prop. 4.6].
+Thus, square {EFGH polygon} is greater than half of circle {EFGH circle M} [Prop. 12.2].
+And let a pyramid having the same apex as the cone have been set up on square {EFGH polygon}.
 Thus, the pyramid set up is greater than the half part of the cone [Prop. 12.10].
-So, let the circumferences {EF}, {FG}, {GH}, and {HE} have been cut in half at points {P}, {Q}, {R}, and {S} (respectively).
-And let {EP}, {PF}, {FQ}, {QG}, {GR}, {RH}, {HS}, and {SE} have been joined.
-And, thus, each of the triangles {EPF}, {FQG}, {GRH}, and {HSE} is greater than the half part of the segment of circle {EFGH} about it [Prop. 12.2].
-And let a pyramid having the same apex as the cone have been set up on each of the triangles {EPF}, {FQG}, {GRH}, and {HSE}.
+So, let the circumferences {EF arc M}, {FG arc M}, {GH arc M}, and {HE arc M} have been cut in half at points {P point}, {Q point}, {R point}, and {S point} (respectively).
+And let {EP line}, {PF line}, {FQ line}, {QG line}, {GR line}, {RH line}, {HS line}, and {SE line} have been joined.
+And, thus, each of the triangles {EPF polygon}, {FQG polygon}, {GRH polygon}, and {HSE polygon} is greater than the half part of the segment of circle {EFGH circle M} about it [Prop. 12.2].
+And let a pyramid having the same apex as the cone have been set up on each of the triangles {EPF polygon}, {FQG polygon}, {GRH polygon}, and {HSE polygon}.
 And thus each of the pyramids set up is greater than the half part of the segment of the cone about it [Prop. 12.10].
-So, (if) the the remaining circumferences are cut in half, and straight-lines are joined, and pyramids having the same apex as the cone are set up on each of the triangles, and this is done continually, then we will (eventually) leave some segments of the cone whose (sum) is less than the excess by which cone {EFGHN} exceeds solid {O} [Prop. 10.1].
-Let them have been left, and let them be the (segments) on {EP}, {PF}, {FQ}, {QG}, {GR}, {RH}, {HS}, and {SE}.
-Thus, the remaining pyramid whose base is polygon {EPFQGRHS}, and apex the point {N}, is greater than solid {O}.
-And let the polygon {ATBUCVDW}, similar, and similarly laid out, to polygon {EPFQGRHS}, have been inscribed in circle {ABCD} [Prop. 6.18].
-And let a pyramid having the same apex as the cone have been set up on polygon {ATBUCVDW}.
-And let {LBT} be one of the triangles containing the pyramid whose base is polygon {ATBUCVDW}, and apex the point {L}.
-And let {NFP} be one of the triangles containing the pyramid whose base is triangle {EPFQGRHS}, and apex the point {N}.
-And let {KT} and {MP} have been joined.
-And since cone {ABCDL} is similar to cone {EFGHN}, thus as {BD} is to {FH}, so axis {KL} (is) to axis {MN} [Def. 11.24].
-And as {BD} (is) to {FH}, so {BK} (is) to {FM}.
-And, thus, as {BK} (is) to {FM}, so {KL} (is) to {MN}.
-And, alternately,as {BK} (is) to {KL}, so {FM} (is) to {MN} [Prop. 5.16].
-And the sides around the equal angles {BKL} and {FMN} are proportional.
-Thus, triangle {BKL} is similar to triangle {FMN} [Prop. 6.6].
-Again, since as {BK} (is) to {KT}, so {FM} (is) to {MP}, and (they are) about the equal angles {BKT} and {FMP}, inasmuch as whatever part angle {BKT} is of the four right-angles at the center {K}, angle {FMP} is also the same part of the four right-angles at the center {M}.
-Therefore, since the sides about equal angles are proportional, triangle {BKT} is thus similar to traingle {FMP} [Prop. 6.6].
-Again, since it was shown that as {BK} (is) to {KL}, so {FM} (is) to {MN}, and {BK} (is) equal to {KT}, and {FM} to {PM}, thus as {TK} (is) to {KL}, so {PM} (is) to {MN}.
-And the sides about the equal angles {TKL} and {PMN} ---for (they are both) right-angles---are proportional.
-Thus, triangle {LKT} (is) similar to triangle {NMP} [Prop. 6.6].
-And since, on account of the similarity of triangles {LKB} and {NMF}, as {LB} (is) to {BK}, so {NF} (is) to {FM}, and, on account of the similarity of triangles {BKT} and {FMP}, as {KB} (is) to {BT}, so {MF} (is) to {FP} [Def. 6.1], thus, via equality, as {LB} (is) to {BT}, so {NF} (is) to {FP} [Prop. 5.22].
-Again, since, on account of the similarity of triangles {LTK} and {NPM}, as {LT} (is) to {TK}, so {NP} (is) to {PM}, and, on account of the similarity of triangles {TKB} and {PMF}, as {KT} (is) to {TB}, so {MP} (is) to {PF}, thus, via equality, as {LT} (is) to {TB}, so {NP} (is) to {PF} [Prop. 5.22].
-And it was shown that as {TB} (is) to {BL}, so {PF} (is) to {FN}.
-Thus, via equality, as {TL} (is) to {LB}, so {PN} (is) to {NF} [Prop. 5.22].
-Thus, the sides of triangles {LTB} and {NPF} are proportional.
-Thus, triangles {LTB} and {NPF} are equiangular [Prop. 6.5].
+So, (if) the the remaining circumferences are cut in half, and straight-lines are joined, and pyramids having the same apex as the cone are set up on each of the triangles, and this is done continually, then we will (eventually) leave some segments of the cone whose (sum) is less than the excess by which cone {EFGHN given} exceeds solid {O given} [Prop. 10.1].
+Let them have been left, and let them be the (segments) on {EP arc M}, {PF arc M}, {FQ arc M}, {QG arc M}, {GR arc M}, {RH arc M}, {HS arc M}, and {SE arc M}.
+Thus, the remaining pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point}, is greater than solid {O given}.
+And let the polygon {ATBUCVDW polygon}, similar, and similarly laid out, to polygon {EPFQGRHS polygon}, have been inscribed in circle {ABCD circle K} [Prop. 6.18].
+And let a pyramid having the same apex as the cone have been set up on polygon {ATBUCVDW polygon}.
+And let {LBT polygon} be one of the triangles containing the pyramid whose base is polygon {ATBUCVDW polygon}, and apex the point {L point}.
+And let {NFP polygon} be one of the triangles containing the pyramid whose base is triangle {EPFQGRHS polygon}, and apex the point {N point}.
+And let {KT line} and {MP line} have been joined.
+And since cone {ABCDL given} is similar to cone {EFGHN given}, thus as {BD line} is to {FH line}, so axis {KL line} (is) to axis {MN line} [Def. 11.24].
+And as {BD line} (is) to {FH line}, so {BK line} (is) to {FM line}.
+And, thus, as {BK line} (is) to {FM line}, so {KL line} (is) to {MN line}.
+And, alternately,as {BK line} (is) to {KL line}, so {FM line} (is) to {MN line} [Prop. 5.16].
+And the sides around the equal angles {BKL angle} and {FMN angle} are proportional.
+Thus, triangle {BKL polygon} is similar to triangle {FMN polygon} [Prop. 6.6].
+Again, since as {BK line} (is) to {KT line}, so {FM line} (is) to {MP line}, and (they are) about the equal angles {BKT angle} and {FMP angle}, inasmuch as whatever part angle {BKT angle} is of the four right-angles at the center {K point}, angle {FMP angle} is also the same part of the four right-angles at the center {M point}.
+Therefore, since the sides about equal angles are proportional, triangle {BKT polygon} is thus similar to traingle {FMP polygon} [Prop. 6.6].
+Again, since it was shown that as {BK line} (is) to {KL line}, so {FM line} (is) to {MN line}, and {BK line} (is) equal to {KT line}, and {FM line} to {PM line}, thus as {TK line} (is) to {KL line}, so {PM line} (is) to {MN line}.
+And the sides about the equal angles {TKL angle} and {PMN angle} ---for (they are both) right-angles---are proportional.
+Thus, triangle {LKT angle} (is) similar to triangle {NMP angle} [Prop. 6.6].
+And since, on account of the similarity of triangles {LKB polygon} and {NMF polygon}, as {LB line} (is) to {BK line}, so {NF line} (is) to {FM line}, and, on account of the similarity of triangles {BKT polygon} and {FMP polygon}, as {KB line} (is) to {BT line}, so {MF line} (is) to {FP line} [Def. 6.1], thus, via equality, as {LB line} (is) to {BT line}, so {NF line} (is) to {FP line} [Prop. 5.22].
+Again, since, on account of the similarity of triangles {LTK polygon} and {NPM polygon}, as {LT line} (is) to {TK line}, so {NP line} (is) to {PM line}, and, on account of the similarity of triangles {TKB polygon} and {PMF polygon}, as {KT line} (is) to {TB line}, so {MP line} (is) to {PF line}, thus, via equality, as {LT line} (is) to {TB line}, so {NP line} (is) to {PF line} [Prop. 5.22].
+And it was shown that as {TB line} (is) to {BL line}, so {PF line} (is) to {FN line}.
+Thus, via equality, as {TL line} (is) to {LB line}, so {PN line} (is) to {NF line} [Prop. 5.22].
+Thus, the sides of triangles {LTB polygon} and {NPF polygon} are proportional.
+Thus, triangles {LTB polygon} and {NPF polygon} are equiangular [Prop. 6.5].
 And, hence, (they are) similar [Def. 6.1].
-And, thus, the pyramid whose base is triangle {BKT}, and apex the point {L}, is similar to the pyramid whose base is triangle {FMP}, and apex the point {N}.
+And, thus, the pyramid whose base is triangle {BKT polygon}, and apex the point {L point}, is similar to the pyramid whose base is triangle {FMP polygon}, and apex the point {N point}.
 For they are contained by equal numbers of similar planes [Def. 11.9].
 And similar pyramids which also have triangular bases are in the cubed ratio of corresponding sides [Prop. 12.8].
-Thus, pyramid {BKTL} has to pyramid {FMPN} the cubed ratio that {BK} (has) to {FM}.
-So, similarly, joining straight-lines from (points) {A}, {W}, {D}, {V}, {C}, and {U} to (center) {K}, and from (points) {E}, {S}, {H}, {R}, {G}, and {Q} to (center) {M}, and setting up pyramids having the same apexes as the cones on each of the triangles (so formed), we can also show that each of the pyramids (on base {ABCD} taken) in order will have to each of the pyramids (on base {EFGH} taken) in order the cubed ratio that the corresponding side {BK} (has) to the corresponding side {FM} —that is to say, that {BD} (has) to {FH}.
+Thus, pyramid {BKTL given} has to pyramid {FMPN given} the cubed ratio that {BK line} (has) to {FM line}.
+So, similarly, joining straight-lines from (points) {A point}, {W point}, {D point}, {V point}, {C point}, and {U point} to (center) {K point}, and from (points) {E point}, {S point}, {H point}, {R point}, {G point}, and {Q point} to (center) {M point}, and setting up pyramids having the same apexes as the cones on each of the triangles (so formed), we can also show that each of the pyramids (on base {ABCD polygon} taken) in order will have to each of the pyramids (on base {EFGH polygon} taken) in order the cubed ratio that the corresponding side {BK line} (has) to the corresponding side {FM line} —that is to say, that {BD line} (has) to {FH line}.
 And (for two sets of proportional magnitudes) as one of the leading (magnitudes is) to one of the following, so (the sum of) all of the leading (magnitudes is) to (the sum of) all of the following (magnitudes) [Prop. 5.12].
-And, thus, as pyramid {BKTL} (is) to pyramid {FMPN}, so the whole pyramid whose base is polygon {ATBUCVDW}, and apex the point {L}, (is) to the whole pyramid whose base is polygon {EPFQGRHS}, and apex the point {N}.
-And, hence, the pyramid whose base is polygon {ATBUCVDW}, and apex the point {L}, has to the pyramid whose base is polygon {EPFQGRHS}, and apex the point {N}, the cubed ratio that {BD} (has) to {FH}.
-And it was also assumed that the cone whose base is circle {ABCD}, and apex the point {L}, has to solid {O} the cubed ratio that {BD} (has) to {FH}.
-Thus, as the cone whose base is circle {ABCD}, and apex the point {L}, is to solid {O}, so the pyramid whose base (is) [polygon] {ATBUCVDW}, and apex the point {L}, (is) to the pyramid whose base is polygon {EPFQGRHS}, and apex the point {N}.
-Thus, alternately, as the cone whose base (is) circle {ABCD}, and apex the point {L}, (is) to the pyramid within it whose base (is) the polygon {ATBUCVDW}, and apex the point {L}, so the [solid] {O} (is) to the pyramid whose base is polygon {EPFQGRHS}, and apex the point {N} [Prop. 5.16].
+And, thus, as pyramid {BKTL given} (is) to pyramid {FMPN given}, so the whole pyramid whose base is polygon {ATBUCVDW polygon}, and apex the point {L point}, (is) to the whole pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point}.
+And, hence, the pyramid whose base is polygon {ATBUCVDW polygon}, and apex the point {L point}, has to the pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point}, the cubed ratio that {BD line} (has) to {FH line}.
+And it was also assumed that the cone whose base is circle {ABCD circle K}, and apex the point {L point}, has to solid {O given} the cubed ratio that {BD line} (has) to {FH line}.
+Thus, as the cone whose base is circle {ABCD circle K}, and apex the point {L point}, is to solid {O given}, so the pyramid whose base (is) [polygon] {ATBUCVDW polygon}, and apex the point {L point}, (is) to the pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point}.
+Thus, alternately, as the cone whose base (is) circle {ABCD circle K}, and apex the point {L point}, (is) to the pyramid within it whose base (is) the polygon {ATBUCVDW polygon}, and apex the point {L point}, so the [solid] {O given} (is) to the pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point} [Prop. 5.16].
 And the aforementioned cone (is) greater than the pyramid within it.
 For it encompasses it.
-Thus, solid {O} (is) also greater than the pyramid whose base is polygon {EPFQGRHS}, and apex the point {N}.
+Thus, solid {O given} (is) also greater than the pyramid whose base is polygon {EPFQGRHS polygon}, and apex the point {N point}.
 But, (it is) also less.
 The very thing is impossible.
-Thus, the cone whose base (is) circle {ABCD}, and apex the [point] {L}, does not have to some solid less than the cone whose base (is) circle {EFGH}, and apex the point {N}, the cubed ratio that {BD} (has) to {EH}.
-So, similarly, we can show that neither does cone {EFGHN} have to some solid less than cone {ABCDL} the cubed ratio that {FH} (has) to {BD}.
+Thus, the cone whose base (is) circle {ABCD circle K}, and apex the [point] {L point}, does not have to some solid less than the cone whose base (is) circle {EFGH circle M}, and apex the point {N point}, the cubed ratio that {BD line} (has) to {FH line}.
+So, similarly, we can show that neither does cone {EFGHN given} have to some solid less than cone {ABCDL given} the cubed ratio that {FH line} (has) to {BD line}.
 
-So, I say that neither does cone {ABCDL} have to some solid greater than cone {EFGHN} the cubed ratio that {BD} (has) to {FH}.
+So, I say that neither does cone {ABCDL given} have to some solid greater than cone {EFGHN given} the cubed ratio that {BD line} (has) to {FH line}.
 
-For, if possible, let it have (such a ratio) to a greater (solid), {O}.
-Thus, inversely, solid {O} has to cone {ABCDL} the cubed ratio that {FH} (has) to {BD} [Prop. 5.7 corr.].
-And as solid {O} (is) to cone {ABCDL}, so cone {EFGHN} (is) to some solid less than cone {ABCDL} [12.2 lem.].
-Thus, cone {EFGHN} also has to some solid less than cone {ABCDL} the cubed ratio that {FH} (has) to {BD}.
+For, if possible, let it have (such a ratio) to a greater (solid), {O given}.
+Thus, inversely, solid {O given} has to cone {ABCDL given} the cubed ratio that {FH line} (has) to {BD line} [Prop. 5.7 corr.].
+And as solid {O given} (is) to cone {ABCDL given}, so cone {EFGHN given} (is) to some solid less than cone {ABCDL given} [12.2 lem.].
+Thus, cone {EFGHN given} also has to some solid less than cone {ABCDL given} the cubed ratio that {FH line} (has) to {BD line}.
 The very thing was shown (to be) impossible.
-Thus, cone {ABCDL} does not have to some solid greater than cone {EFGHN} the cubed ratio than {BD} (has) to {FH}.
+Thus, cone {ABCDL given} does not have to some solid greater than cone {EFGHN given} the cubed ratio than {BD line} (has) to {FH line}.
 And it was shown that neither (does it have such a ratio) to a lesser (solid).
-Thus, cone {ABCDL} has to cone {EFGHN} the cubed ratio that {BD} (has) to {FG}.
+Thus, cone {ABCDL given} has to cone {EFGHN given} the cubed ratio that {BD line} (has) to {FH line}.
 
 And as the cone (is) to the cone, so the cylinder (is) to the cylinder.
 For a cylinder is three times a cone on the same base as the cone, and of the same height as it [Prop. 12.10].
-Thus, the cylinder also has to the cylinder the cubed ratio that {BD} (has) to {FH}.
+Thus, the cylinder also has to the cylinder the cubed ratio that {BD line} (has) to {FH line}.
 
 Thus, similar cones and cylinders are in the cubed ratio of the diameters of their bases.
 (Which is) the very thing it was required to show.

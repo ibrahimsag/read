@@ -256,7 +256,13 @@ function() {
       rg.polygon([...'SRVT'].map(l => z[l])),
       rg.line(z.G, z.B, {strokeWidth: 3}),
       rg.line(z.H, z.E, {strokeWidth: 3}),
-    ]
+    ],
+    given: {
+      ABCG: pyr(z, 'ABCG'),
+      DEFH: pyr(z, 'DEFH'),
+      PMNG: pyr(z, 'PMNG'),
+      STUH: pyr(z, 'STUH'),
+    }
   };
 },
 
@@ -321,7 +327,11 @@ function() {
       ...prism(z, 'abcdefgh'),
     ],
     given: {
-      W: prism(z, 'abcdefgh')
+      W: prism(z, 'abcdefgh'),
+      ABCG: pyr(z, 'ABCG'),
+      DEFH: pyr(z, 'DEFH'),
+      DQRS: pyr(z, 'DQRS'),
+      STUH: pyr(z, 'STUH'),
     }
   };
 },
@@ -365,7 +375,16 @@ function() {
       ...pyr(z, 'NFGHKL'),
       rg.line(z.F, z.K),
       rg.line(z.F, z.H),
-    ]
+    ],
+    given: {
+      ABCDEM: pyr(z, 'MABCDE'),
+      FGHKLN: pyr(z, 'NFGHKL'),
+      ABCM: pyr(z, 'MABC'),
+      ACDM: pyr(z, 'MACD'),
+      ADEM: pyr(z, 'MADE'),
+      ABCDM: pyr(z, 'MABCD'),
+      FGHN: pyr(z, 'NFGH'),
+    }
   };
 },
 
@@ -399,7 +418,10 @@ function() {
       rg.line(z.C, z.D),
       rg.line(z.B, z.D),
       rg.line(z.C, z.E),
-    ]
+    ],
+    given: {
+      ABCDEF: prism(z, 'ABCDEF'),
+    }
   };
 },
 
@@ -443,7 +465,22 @@ function() {
       ...prism(z, 'DQFEOPRH'),
       rg.polygon([...'AGC'].map(l => z[l])),
       rg.polygon([...'DHF'].map(l => z[l])),
-    ]
+    ],
+    polygonl: {
+      BM: 'ABCM',
+      MB: 'ABCM',
+      EQ: 'EFQD',
+      BN: 'BCNG',
+      ER: 'EFRH',
+      BK: 'BGKA',
+      EO: 'EHOD',
+    },
+    given: {
+      ABCG: pyr(z, 'GABC'),
+      DEFH: pyr(z, 'HDEF'),
+      BGML: prism(z, 'AMCBKLNG'),
+      EHQP: prism(z, 'DQFEOPRH'),
+    }
   };
 },
 
@@ -484,7 +521,17 @@ function() {
       ...prism(z, 'GaCBbLMA'),
       rg.polygon([...'HDF'].map(l => z[l])),
       rg.polygon([...'GAC'].map(l => z[l])),
-    ]
+    ],
+    polygonl: {
+      BM: 'BCMA',
+      EQ: 'EFQD',
+    },
+    given: {
+      ABCG: pyr(z, 'GABC'),
+      DEFH: pyr(z, 'HDEF'),
+      BGML: prism(z, 'GaCBbLMA'),
+      EHQP: prism(z, 'RPQFHODE'),
+    }
   };
 },
 
@@ -580,7 +627,13 @@ function() {
       rg.line(z.M, z.N),
       ...prism(z, 'abcdefgh'),
       ...prism(z, 'klmnopqr'),
-    ]
+    ],
+    given: {
+      AL: [ rg.circle(z.K, r*2), rg.line(z.K, z.L) ],
+      EN: [ rg.circle(z.M, r*0.8*2), rg.line(z.M, z.N) ],
+      O: prism(z, 'abcdefgh'),
+      X: prism(z, 'klmnopqr'),
+    }
 
   };
 },
@@ -651,7 +704,14 @@ function() {
       rg.line(z.N, z.P),
       rg.line(z.M, z.P),
       ...prism(z, 'abcdefgh'),
-    ]
+    ],
+    given: {
+      ABCDL: [ rg.circle(z.K, r*0.8*2), rg.line(z.K, z.L) ],
+      EFGHN: [ rg.circle(z.M, r*2), rg.line(z.M, z.N) ],
+      BKTL: pyr(z, 'LBKT'),
+      FMPN: pyr(z, 'NFMP'),
+      O: prism(z, 'abcdefgh'),
+    }
   };
 },
 
