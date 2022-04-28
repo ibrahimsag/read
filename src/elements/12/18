@@ -1,32 +1,32 @@
 Spheres are to one another in the cubed ratio of their respective diameters.
 
-Let the spheres {ABC} and {DEF} have been conceived, and (let) their diameters (be) {BC} and {EF} (respectively).
-I say that sphere {ABC} has to sphere {DEF} the cubed ratio that {BC} (has) to {EF}.
+Let the spheres {ABC circle b} and {DEF circle e} have been conceived, and (let) their diameters (be) {BC line} and {EF line} (respectively).
+I say that sphere {ABC circle b} has to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
 
-For if sphere {ABC} does not have to sphere {DEF} the cubed ratio that {BC} (has) to {EF} then sphere {ABC} will have to some (sphere) either less than, or greater than, sphere {DEF} the cubed ratio that {BC} (has) to {EF}.
-Let it, first of all, have (such a ratio) to a lesser (sphere), {GHK}.
-And let {DEF} have been conceived about the same center as {GHK}.
-And let a polyhedral solid have been inscribed in the greater sphere {DEF}, not touching the lesser sphere {GHK} on its surface [Prop. 12.17].
-And let a polyhedral solid, similar to the polyhedral solid in sphere {DEF}, have also been inscribed in sphere {ABC}.
-Thus, the polyhedral solid in sphere {ABC} has to the polyhedral solid in sphere {DEF} the cubed ratio that {BC} (has) to {EF} [Prop. 12.17 corr.].
-And sphere {ABC} also has to sphere {GHK} the cubed ratio that {BC} (has) to {EF}.
-Thus, as sphere {ABC} is to sphere {GHK}, so the polyhedral solid in sphere {ABC} (is) to the polyhedral solid in sphere {DEF}.
-[Thus], alternately, as sphere {ABC} (is) to the polygon within it, so sphere {GHK} (is) to the polyhedral solid within sphere {DEF} [Prop. 5.16].
-And sphere {ABC} (is) greater than the polyhedron within it.
-Thus, sphere {GHK} (is) also greater than the polyhedron within sphere {DEF} [Prop. 5.14].
+For if sphere {ABC circle b} does not have to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} then sphere {ABC circle b} will have to some (sphere) either less than, or greater than, sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
+Let it, first of all, have (such a ratio) to a lesser (sphere), {GHK circle e}.
+And let {DEF circle e} have been conceived about the same center as {GHK circle e}.
+And let a polyhedral solid have been inscribed in the greater sphere {DEF circle e}, not touching the lesser sphere {GHK circle e} on its surface [Prop. 12.17].
+And let a polyhedral solid, similar to the polyhedral solid in sphere {DEF circle e}, have also been inscribed in sphere {ABC circle b}.
+Thus, the polyhedral solid in sphere {ABC circle b} has to the polyhedral solid in sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} [Prop. 12.17 corr.].
+And sphere {ABC circle b} also has to sphere {GHK circle e} the cubed ratio that {BC line} (has) to {EF line}.
+Thus, as sphere {ABC circle b} is to sphere {GHK circle e}, so the polyhedral solid in sphere {ABC circle b} (is) to the polyhedral solid in sphere {DEF circle e}.
+[Thus], alternately, as sphere {ABC circle b} (is) to the polyhedral solid within it, so sphere {GHK circle e} (is) to the polyhedral solid within sphere {DEF circle e} [Prop. 5.16].
+And sphere {ABC circle b} (is) greater than the polyhedron within it.
+Thus, sphere {GHK circle e} (is) also greater than the polyhedron within sphere {DEF circle e} [Prop. 5.14].
 But, (it is) also less.
 For it is encompassed by it.
-Thus, sphere {ABC} does not have to (a sphere) less than sphere {DEF} the cubed ratio that diameter {BC} (has) to {EF}.
-So, similarly, we can show that sphere {DEF} does not have to (a sphere) less than sphere {ABC} the cubed ratio that {EF} (has) to {BC} either.
+Thus, sphere {ABC circle b} does not have to (a sphere) less than sphere {DEF circle e} the cubed ratio that diameter {BC line} (has) to {EF line}.
+So, similarly, we can show that sphere {DEF circle e} does not have to (a sphere) less than sphere {ABC circle b} the cubed ratio that {EF line} (has) to {BC line} either.
 
-So, I say that sphere {ABC} does not have to some (sphere) greater than sphere {DEF} the cubed ratio that {BC} (has) to {EF} either.
+So, I say that sphere {ABC circle b} does not have to some (sphere) greater than sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} either.
 
-For, if possible, let it have (the cubed ratio) to a greater (sphere), {LMN}.
-Thus, inversely, sphere {LMN} (has) to sphere {ABC} the cubed ratio that diameter {EF} (has) to diameter {BC} [Prop. 5.7 corr.].
-And as sphere {LMN} (is) to sphere {ABC}, so sphere {DEF} (is) to some (sphere) less than sphere {ABC}, inasmuch as {LMN} is greater than {DEF}, as was shown before [Prop. 12.2 lem.].
-And, thus, sphere {DEF} has to some (sphere) less than sphere {ABC} the cubed ratio that {EF} (has) to {BC}.
+For, if possible, let it have (the cubed ratio) to a greater (sphere), {LMN circle m}.
+Thus, inversely, sphere {LMN circle m} (has) to sphere {ABC circle b} the cubed ratio that diameter {EF line} (has) to diameter {BC line} [Prop. 5.7 corr.].
+And as sphere {LMN circle m} (is) to sphere {ABC circle b}, so sphere {DEF circle e} (is) to some (sphere) less than sphere {ABC circle b}, inasmuch as {LMN circle m} is greater than {DEF circle e}, as was shown before [Prop. 12.2 lem.].
+And, thus, sphere {DEF circle e} has to some (sphere) less than sphere {ABC circle b} the cubed ratio that {EF line} (has) to {BC line}.
 The very thing was shown (to be) impossible.
-Thus, sphere {ABC} does not have to some (sphere) greater than sphere {DEF} the cubed ratio that {BC} (has) to {EF}.
+Thus, sphere {ABC circle b} does not have to some (sphere) greater than sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
 And it was shown that neither (does it have such a ratio) to a lesser (sphere).
-Thus, sphere {ABC} has to sphere {DEF} the cubed ratio that {BC} (has) to {EF}.
+Thus, sphere {ABC circle b} has to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
 (Which is) the very thing it was required to show.

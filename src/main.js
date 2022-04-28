@@ -224,7 +224,7 @@ function makeRG()
     else if(h.typ == 'circle')
     {
       let c = h.arg;
-      if(/[A-Z]/.test(c))
+      if(/[a-zA-Z]/.test(c))
       {
         let center = figure.points[c];
         let a = figure.points[h.name[0]];
@@ -532,7 +532,7 @@ function makePR(rg, svg, cs)
 
                 let nameRE = /\{([a-zA-Z]+)\}/;
                 let nm = part.match(nameRE);
-                let overlayRE = /\{([a-zA-Z]+) ([a-z]+)( [A-Z])?\}/;
+                let overlayRE = /\{([a-zA-Z]+) ([a-z]+)( [a-zA-Z])?\}/;
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);

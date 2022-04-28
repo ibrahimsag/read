@@ -27,6 +27,19 @@ function s(o, ls, ps) {
 
 function book(rg)
 {
+
+  function cone(z, c, ls)
+  {
+    return [ rg.curve(c[ls[0]]),
+      rg.line(z[ls[1]], z[ls[2]]), rg.line(z[ls[1]], z[ls[3]])]
+  }
+
+  function cyl(z, c, ls)
+  {
+    return [ rg.curve(c[ls[0]]), rg.curve(c[ls[1]]),
+      rg.line(z[ls[2]], z[ls[3]]), rg.line(z[ls[4]], z[ls[5]])]
+  }
+
   function prism(z, ls)
   {
     let ps1 = ls.slice(0, ls.length/2);
@@ -729,6 +742,7 @@ function() {
     .map(l => c.p.map(v => v2.add(v, z[l]))));
   s(z, 'QSBHDUW', [...'LNEKFOM'].map(l => v2.add(z[l], v2.s(v2.y, r))));
   s(z, 'PRAGCTV', [...'LNEKFOM'].map(l => v2.add(z[l], v2.s(v2.y, -r))));
+
   return {
     title: 'Proposition 13',
     id: '12.13',
@@ -763,7 +777,26 @@ function() {
       rg.line(z.P, z.V),
       rg.line(z.Q, z.W),
       ...[...'LNEKFOM'].map(l => rg.line(v2.add(z[l], v2.s(v2.y, -5)), v2.add(z[l], v2.s(v2.y, 5)))),
-    ]
+    ],
+    given: {
+      AD: cyl(z, c, 'acACBD'),
+      GH: [rg.curve(c.g)],
+      AB: [rg.curve(c.a)],
+      CD: [rg.curve(c.c)],
+      BG: cyl(z, c, 'agAGBH'),
+      GD: cyl(z, c, 'cgGCHD'),
+      PW: cyl(z, c, 'pvPVQW'),
+      PQ: [rg.curve(c.p)],
+      VW: [rg.curve(c.v)],
+      RS: [rg.curve(c.r)],
+      TU: [rg.curve(c.t)],
+      QR: cyl(z, c, 'prPRQS'),
+      RB: cyl(z, c, 'raRASB'),
+      GB: cyl(z, c, 'agAGBH'),
+      QG: cyl(z, c, 'pgPGQH'),
+      WG: cyl(z, c, 'vgVGWH'),
+      GW: cyl(z, c, 'vgVGWH'),
+    },
   };
 },
 
@@ -817,7 +850,17 @@ function() {
       rg.line(z.G, z.B),
       ...[...'ghkln'].map(l => rg.curve(c[l])),
       ...[...'HLN'].map(l => z[l]).map(p => rg.line(v2.add(p, v2.s(v2.x, -5)), v2.add(p, v2.s(v2.x, 5))))
-    ]
+    ],
+    given: {
+      EB: cyl(z, c, 'ghEAPB'),
+      FD: cyl(z, c, 'klFCQD'),
+      CM: cyl(z, c, 'lnCODM'),
+      FM: cyl(z, c, 'knFOQM'),
+      AB: [rg.curve(c.h)],
+      CD: [rg.curve(c.l)],
+      ABG: cone(z, c, 'hGAB'),
+      CDK: cone(z, c, 'lKCD'),
+    }
   };
 },
 
@@ -878,7 +921,17 @@ function() {
       ...['Aa', 'LK', 'OC', 'LA', 'LC', 'AC', 'PG', 'RE', 'MN', 'SU', 'GE', 'MS', 'MU', 'MG', 'ME', 'QG', 'QE']
         .map(s => rg.line(z[s[0]], z[s[1]])),
       ...[...'klmnq'].map(l => rg.curve(c[l]))
-    ]
+    ],
+    given: {
+      ABCD: [rg.curve(c.k)],
+      EFGH: [rg.curve(c.n)],
+      AO: cyl(z, c, 'klAaCO'),
+      EP: cyl(z, c, 'mnPGRE'),
+      ES: cyl(z, c, 'qnSGUE'),
+      TUS: [rg.curve(c.q)],
+      RP: [rg.curve(c.m)],
+      CDK: cone(z, c, 'lKCD'),
+    }
   };
 },
 
@@ -945,9 +998,11 @@ function() {
   y.W = v3.s(y.K, v3.dot(y.K, y.S));
   y.X = v3.s([...'KBPS'].map(l => y[l]).reduce(v3.add), 0.25)
   y.Y = v3.s(y.B, v3.dot(y.B, y.K));
-  c.o = Array(21).fill().map((_, i) => v3.rot(y.D, v3.y, 2*Math.PI*i/20));
+  c.o = Array(21).fill().map((_, i) => v3.rot(y.B, v3.y, 2*Math.PI*i/20));
   c.k = Array(11).fill().map((_, i) => v3.rot(y.K, y.k, 2*Math.PI*i/20));
   c.b = Array(11).fill().map((_, i) => v3.rot(y.B, y.E, 2*Math.PI*i/20));
+  c.s = Array(5).fill().map((_, i) => v3.rot(y.K, y.k, 0.28*Math.PI*i/5));
+  c.p = Array(5).fill().map((_, i) => v3.rot(y.B, y.E, 0.28*Math.PI*i/5));
   c.g = Array(21).fill().map((_, i) => v3.rot(y.F, y.O, 2*Math.PI*i/20));
   let z = {};
   let f = v3.i;
@@ -986,6 +1041,7 @@ function() {
       N: [8, 3],
       D: [8],
       C: [7],
+      A: [6],
 
     },
     shapes: [
@@ -997,6 +1053,18 @@ function() {
       rg.curve(c.b),
       rg.curve(c.g),
     ],
+    given: {
+      BCDE: [rg.curve(c.o)],
+      FGH: [rg.curve(c.g)],
+      BE: [rg.curve(c.o.slice(0, 6))],
+      BOD: [rg.curve(c.b)],
+      KON: [rg.curve(c.k)],
+      BED: [rg.curve(c.o.slice(0, 11))],
+      BO: [rg.curve(c.b.slice(0, 6))],
+      KO: [rg.curve(c.k.slice(0, 6))],
+      BP: [rg.curve(c.p)],
+      KS: [rg.curve(c.s)],
+    }
   };
 },
 
