@@ -44,6 +44,21 @@ export default [{
   }
 },
 {
+  input: 'src/latest.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+    string({
+      include: 'src/elements/*/*'
+    }),
+  ],
+  output: {
+    file: 'build/latest.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
   input: 'src/books.js',
   plugins: [
     json()
