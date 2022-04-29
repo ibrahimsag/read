@@ -5,7 +5,7 @@ import run from '@rollup/plugin-run';
 
 export default [
 {
-  input: 'src/prepare.js',
+  input: 'src/elements/prepare.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -15,7 +15,7 @@ export default [
     run()
   ],
   output: {
-    file: 'build/prepare.js',
+    file: 'build/elements-prepare.js',
     format: 'cjs',
     sourcemap: true,
   }

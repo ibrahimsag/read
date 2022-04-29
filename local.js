@@ -36,12 +36,8 @@ app.post('/store', (req, res) => {
   });
 });
 
-app.get('/thex', (req, res) => {
-  res.sendFile(__dirname + '/thex.html');
-})
-
 app.get('/elements/*', (req, res) => {
-  res.sendFile(__dirname + '/elements.html');
+  res.sendFile(__dirname + '/src/elements/index.html');
 })
 
 app.get('/*', (req, res) => {

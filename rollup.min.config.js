@@ -6,21 +6,6 @@ import {terser} from 'rollup-plugin-terser';
 import replace from '@rollup/plugin-replace';
 
 export default [{
-  input: 'src/main.js',
-  plugins: [
-    nodeResolve({ preferBuiltins: false }),
-    commonjs(),
-    terser(),
-    replace({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ],
-  output: {
-    file: 'build/main.js',
-    format: 'iife',
-    sourcemap: false,
-  }
-},{
   input: 'src/experiment.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
@@ -34,7 +19,23 @@ export default [{
   }
 },
 {
-  input: 'src/books.js',
+  input: 'src/elements/main.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+    terser(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ],
+  output: {
+    file: 'build/elements.js',
+    format: 'iife',
+    sourcemap: false,
+  }
+},
+{
+  input: 'src/elements/content.js',
   plugins: [
     commonjs(),
     string({
@@ -44,7 +45,7 @@ export default [{
     terser()
   ],
   output: {
-    file: 'build/books.js',
+    file: 'build/elements-content.js',
     format: 'iife',
     sourcemap: false,
   }

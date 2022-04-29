@@ -4,21 +4,7 @@ import { string } from "rollup-plugin-string";
 import json from '@rollup/plugin-json';
 import replace from '@rollup/plugin-replace';
 
-export default [{
-  input: 'src/main.js',
-  plugins: [
-    nodeResolve({ preferBuiltins: false }),
-    commonjs(),
-    replace({
-      'process.env.NODE_ENV': JSON.stringify('production')
-    })
-  ],
-  output: {
-    file: 'build/main.js',
-    format: 'iife',
-    sourcemap: true,
-  }
-},
+export default [
 {
   input: 'src/doc.js',
   plugins: [
@@ -44,7 +30,7 @@ export default [{
   }
 },
 {
-  input: 'src/latest.js',
+  input: 'src/elements/latest.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -59,12 +45,27 @@ export default [{
   }
 },
 {
-  input: 'src/books.js',
+  input: 'src/elements/main.js',
+  plugins: [
+    nodeResolve({ preferBuiltins: false }),
+    commonjs(),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify('production')
+    })
+  ],
+  output: {
+    file: 'build/elements.js',
+    format: 'iife',
+    sourcemap: true,
+  }
+},
+{
+  input: 'src/elements/content.js',
   plugins: [
     json()
   ],
   output: {
-    file: 'build/books.js',
+    file: 'build/elements-content.js',
     format: 'iife',
     sourcemap: true,
   }
