@@ -1,55 +1,55 @@
 If an equilateral pentagon is inscribed in a circle then the square on the side of the pentagon is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.
 
-Let {ABCDE} be a circle.
-And let the equilateral pentagon {ABCDE} have been inscribed in circle {ABCDE}.
-I say that the square on the side of pentagon {ABCDE} is the (sum of the squares) on the sides of the hexagon and of the decagon inscribed in circle {ABCDE}.
+Let {ABCDE circle F} be a circle.
+And let the equilateral pentagon {ABCDE polygon} have been inscribed in circle {ABCDE circle F}.
+I say that the square on the side of pentagon {ABCDE polygon} is the (sum of the squares) on the sides of the hexagon and of the decagon inscribed in circle {ABCDE circle F}.
 
-For let the center of the circle, point {F}, have been found [Prop. 3.1].
-And, {AF} being joined, let it have been drawn across to point {G}.
-And let {FB} have been joined.
-And let {FH} have been drawn from {F} perpendicular to {AB}.
-And let it have been drawn across to {K}.
-And let {AK} and {KB} have been joined.
-And, again, let {FL} have been drawn from {F} perpendicular to {AK}.
-And let it have been drawn across to {M}.
-And let {KN} have been joined.
+For let the center of the circle, point {F point}, have been found [Prop. 3.1].
+And, {AF line} being joined, let it have been drawn across to point {G point}.
+And let {FB line} have been joined.
+And let {FH line} have been drawn from {F point} perpendicular to {AB line}.
+And let it have been drawn across to {K point}.
+And let {AK line} and {KB line} have been joined.
+And, again, let {FL line} have been drawn from {F point} perpendicular to {AK line}.
+And let it have been drawn across to {M point}.
+And let {KN line} have been joined.
 
-Since circumference {ABCG} is equal to circumference {AEDG}, of which {ABC} is equal to {AED}, the remaining circumference {CG} is thus equal to the remaining (circumference) {GD}.
-And {CD} (is the side) of the pentagon.
-{CG} (is) thus (the side) of the decagon.
-And since {FA} is equal to {FB}, and {FH} is perpendicular (to {AB}), angle {AFK} (is) thus also equal to {KFB} [Props. 1.5, 1.26].
-Hence, circumference {AK} is also equal to {KB} [Prop. 3.26].
-Thus, circumference {AB} (is) double circumference {BK}.
-Thus, straight-line {AK} is the side of the decagon.
-So, for the same (reasons, circumference) {AK} is also double {KM}.
-And since circumference {AB} is double circumference {BK}, and circumference {CD} (is) equal to circumference {AB}, circumference {CD} (is) thus also double circumference {BK}.
-And circumference {CD} is also double {CG}.
-Thus, circumference {CG} (is) equal to circumference {BK}.
-But, {BK} is double {KM}, since {KA} (is) also (double {KM}).
-Thus, (circumference) {CG} is also double {KM}.
-But, indeed, circumference {CB} is also double circumference {BK}.
-For circumference {CB} (is) equal to {BA}.
-Thus, the whole circumference {GB} is also double {BM}.
-Hence, angle {GFB} [is] also double angle {BFM} [Prop. 6.33].
-And {GFB} (is) also double {FAB}.
-For {FAB} (is) equal to {ABF}.
-Thus, {BFN} is also equal to {FAB}.
-And angle {ABF} (is) common to the two triangles {ABF} and {BFN}.
-Thus, the remaining (angle) {AFB} is equal to the remaining (angle) {BNF} [Prop. 1.32].
-Thus, triangle {ABF} is equiangular to triangle {BFN}.
-Thus, proportionally, as straight-line {AB} (is) to {BF}, so {FB} (is) to {BN} [Prop. 6.4].
-Thus, the (rectangle contained) by {ABN} is equal to the (square) on {BF} [Prop. 6.17].
-Again, since {AL} is equal to {LK}, and {LN} is common and at right-angles (to {KA}), base {KN} is thus equal to base {AN} [Prop. 1.4].
-And, thus, angle {LKN} is equal to angle {LAN}.
-But, {LAN} is equal to {KBN} [Props. 3.29, 1.5].
-Thus, {LKN} is also equal to {KBN}.
-And the (angle) at {A} (is) common to the two triangles {AKB} and {AKN}.
-Thus, the remaining (angle) {AKB} is equal to the remaining (angle) {KNA} [Prop. 1.32].
-Thus, triangle {KBA} is equiangular to triangle {KNA}.
-Thus, proportionally, as straight-line {BA} is to {AK}, so {KA} (is) to {AN} [Prop. 6.4].
-Thus, the (rectangle contained) by {BAN} is equal to the (square) on {AK} [Prop. 6.17].
-And the (rectangle contained) by {ABN} was also shown (to be) equal to the (square) on {BF}.
-Thus, the (rectangle contained) by {ABN} plus the (rectangle contained) by {BAN}, which is the (square) on {BA} [Prop. 2.2], is equal to the (square) on {BF} plus the (square) on {AK}.
-And {BA} is the side of the pentagon, and {BF} (the side) of the hexagon [Prop. 4.15 corr.], and {AK} (the side) of the decagon.
+Since circumference {ABCG arcc F} is equal to circumference {AEDG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remaining circumference {CG arcc F} is thus equal to the remaining (circumference) {GD arcc F}.
+And {CD line} (is the side) of the pentagon.
+{CG line} (is) thus (the side) of the decagon.
+And since {FA line} is equal to {FB line}, and {FH line} is perpendicular (to {AB line}), angle {AFK angle} (is) thus also equal to {KFB angle} [Props. 1.5, 1.26].
+Hence, circumference {AK arcc F} is also equal to {KB arcc F} [Prop. 3.26].
+Thus, circumference {AB arcc F} (is) double circumference {BK arc F}.
+Thus, straight-line {AK line} is the side of the decagon.
+So, for the same (reasons, circumference) {AK arcc F} is also double {KM arc F}.
+And since circumference {AB arcc F} is double circumference {BK arc F}, and circumference {CD arcc F} (is) equal to circumference {AB arcc F}, circumference {CD arcc F} (is) thus also double circumference {BK arc F}.
+And circumference {CD arcc F} is also double {CG arcc F}.
+Thus, circumference {CG arcc F} (is) equal to circumference {BK arc F}.
+But, {BK arc F} is double {KM arc F}, since {KA arc F} (is) also (double {KM arc F}).
+Thus, (circumference) {CG arcc F} is also double {KM arc F}.
+But, indeed, circumference {CB arc F} is also double circumference {BK arc F}.
+For circumference {CB arc F} (is) equal to {BA arc F}.
+Thus, the whole circumference {GB arc F} is also double {BM arc F}.
+Hence, angle {GFB angle} [is] also double angle {BFM angle} [Prop. 6.33].
+And {GFB angle} (is) also double {FAB angle}.
+For {FAB angle} (is) equal to {ABF angle}.
+Thus, {BFN angle} is also equal to {FAB angle}.
+And angle {ABF angle} (is) common to the two triangles {ABF polygon} and {BFN polygon}.
+Thus, the remaining (angle) {AFB angle} is equal to the remaining (angle) {BNF angle} [Prop. 1.32].
+Thus, triangle {ABF polygon} is equiangular to triangle {BFN polygon}.
+Thus, proportionally, as straight-line {AB line} (is) to {BF line}, so {FB line} (is) to {BN line} [Prop. 6.4].
+Thus, the (rectangle contained) by {AB line} and {BN line} is equal to the (square) on {BF line} [Prop. 6.17].
+Again, since {AL line} is equal to {LK line}, and {LN line} is common and at right-angles (to {KA line}), base {KN line} is thus equal to base {AN line} [Prop. 1.4].
+And, thus, angle {LKN angle} is equal to angle {LAN angle}.
+But, {LAN angle} is equal to {KBN angle} [Props. 3.29, 1.5].
+Thus, {LKN angle} is also equal to {KBN angle}.
+And the (angle) at {A point} (is) common to the two triangles {AKB polygon} and {AKN polygon}.
+Thus, the remaining (angle) {AKB angle} is equal to the remaining (angle) {KNA angle} [Prop. 1.32].
+Thus, triangle {KBA polygon} is equiangular to triangle {KNA polygon}.
+Thus, proportionally, as straight-line {BA line} is to {AK line}, so {KA line} (is) to {AN line} [Prop. 6.4].
+Thus, the (rectangle contained) by {BA line} and {AN line} is equal to the (square) on {AK line} [Prop. 6.17].
+And the (rectangle contained) by {AB line} and {BN line} was also shown (to be) equal to the (square) on {BF line}.
+Thus, the (rectangle contained) by {AB line} and {BN line} plus the (rectangle contained) by {BA line} and {AN line}, which is the (square) on {BA line} [Prop. 2.2], is equal to the (square) on {BF line} plus the (square) on {AK line}.
+And {BA line} is the side of the pentagon, and {BF line} (the side) of the hexagon [Prop. 4.15 corr.], and {AK line} (the side) of the decagon.
 
 Thus, the square on the side of the pentagon (inscribed in a circle) is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.

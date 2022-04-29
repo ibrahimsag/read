@@ -1,28 +1,28 @@
 If a straight-line is cut in extreme and mean ratio then the square on the lesser piece added to half of the greater piece is five times the square on half of the greater piece.
 
-For let some straight-line {AB} have been cut in extreme and mean ratio at point {C}.
-And let {AC} be the greater piece.
-And let {AC} have been cut in half at {D}.
-I say that the (square) on {BD} is five times the (square) on {DC}.
+For let some straight-line {AB line} have been cut in extreme and mean ratio at point {C point}.
+And let {AC line} be the greater piece.
+And let {AC line} have been cut in half at {D point}.
+I say that the (square) on {BD line} is five times the (square) on {DC line}.
 
-For let the square {AE} have been described on {AB}.
+For let the square {AE polygon} have been described on {AB line}.
 And let the figure have been drawn double.
-Since {AC} is double {DC}, the (square) on {AC} (is) thus four times the (square) on {DC}—that is to say, {RS} (is four times) {FG}.
-And since the (rectangle contained) by {ABC} is equal to the (square) on {AC} [Def. 6.3, Prop. 6.17], and {CE} is the (rectangle contained) by {ABC}, {CE} is thus equal to {RS}.
-And {RS} (is) four times {FG}.
-Thus, {CE} (is) also four times {FG}.
-Again, since {AD} is equal to {DC}, {HK} is also equal to {KF}.
-Hence, square {GF} is also equal to square {HL}.
-Thus, {GK} (is) equal to {KL} ---that is to say, {MN} to {NE}.
-Hence, {MF} is also equal to {FE}.
-But, {MF} is equal to {CG}.
-Thus, {CG} is also equal to {FE}.
-Let {CN} have been added to both.
-Thus, gnomon {OPQ} is equal to {CE}.
-But, {CE} was shown (to be) equal to four times {GF}.
-Thus, gnomon {OPQ} is also four times square {FG}.
-Thus, gnomon {OPQ} plus square {FG} is five times {FG}.
-But, gnomon {OPQ} plus square {FG} is (square) {DN}.
-And {DN} is the (square) on {DB}, and {GF} the (square) on {DC}.
-Thus, the (square) on {DB} is five times the (square) on {DC}.
+Since {AC line} is double {DC line}, the (square) on {AC line} (is) thus four times the (square) on {DC line}—that is to say, {RS polygon} (is four times) {FG polygon}.
+And since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17], and {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, {CE polygon} is thus equal to {RS polygon}.
+And {RS polygon} (is) four times {FG polygon}.
+Thus, {CE polygon} (is) also four times {FG polygon}.
+Again, since {AD line} is equal to {DC line}, {HK line} is also equal to {KF line}.
+Hence, square {GF polygon} is also equal to square {HL polygon}.
+Thus, {GK line} (is) equal to {KL line} ---that is to say, {MN line} to {NE line}.
+Hence, {MF polygon} is also equal to {FE polygon}.
+But, {MF polygon} is equal to {CG polygon}.
+Thus, {CG polygon} is also equal to {FE polygon}.
+Let {CN polygon} have been added to both.
+Thus, gnomon {OPQ given} is equal to {CE polygon}.
+But, {CE polygon} was shown (to be) equal to four times {GF polygon}.
+Thus, gnomon {OPQ given} is also four times square {FG polygon}.
+Thus, gnomon {OPQ given} plus square {FG polygon} is five times {FG polygon}.
+But, gnomon {OPQ given} plus square {FG polygon} is (square) {DN polygon}.
+And {DN polygon} is the (square) on {DB line}, and {GF polygon} the (square) on {DC line}.
+Thus, the (square) on {DB line} is five times the (square) on {DC line}.
 (Which is) the very thing it was required to show.

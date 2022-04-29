@@ -1,49 +1,49 @@
 To construct a (regular) pyramid (i.e., a tetrahedron), and to enclose (it) in a given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
 
-Let the diameter {AB} of the given sphere be laid out, and let it have been cut at point {C} such that {AC} is double {CB} [Prop. 6.10].
-And let the semi-circle {ADB} have been drawn on {AB}.
-And let {CD} have been drawn from point {C} at right-angles to {AB}.
-And let {DA} have been joined.
-And let the circle {EFG} be laid down having a radius equal to {DC}, and let the equilateral triangle {EFG} have been inscribed in circle {EFG} [Prop. 4.2].
-And let the center of the circle, point {H}, have been found [Prop. 3.1].
-And let {EH}, {HF}, and {HG} have been joined.
-And let {HK} have been set up, at point {H}, at right-angles to the plane of circle {EFG} [Prop. 11.12].
-And let {HK}, equal to the straight-line {AC}, have been cut off from {HK}.
-And let {KE}, {KF}, and {KG} have been joined.
-And since {KH} is at right-angles to the plane of circle {EFG}, it will thus also make right-angles with all of the straight-lines joining it (which are) also in the plane of circle {EFG} [Def. 11.3].
-And {HE}, {HF}, and {HG} each join it.
-Thus, {HK} is at right-angles to each of {HE}, {HF}, and {HG}.
-And since {AC} is equal to {HK}, and {CD} to {HE}, and they contain right-angles, the base {DA} is thus equal to the base {KE} [Prop. 1.4].
-So, for the same (reasons), {KF} and {KG} is each equal to {DA}.
-Thus, the three (straight-lines) {KE}, {KF}, and {KG} are equal to one another.
-And since {AC} is double {CB}, {AB} (is) thus triple {BC}.
-And as {AB} (is) to {BC}, so the (square) on {AD} (is) to the (square) on {DC}, as will be shown later [see lemma].
-Thus, the (square) on {AD} (is) three times the (square) on {DC}.
-And the (square) on {FE} is also three times the (square) on {EH} [Prop. 13.12], and {DC} is equal to {EH}.
-Thus, {DA} (is) also equal to {EF}.
-But, {DA} was shown (to be) equal to each of {KE}, {KF}, and {KG}.
-Thus, {EF}, {FG}, and {GE} are equal to {KE}, {KF}, and {KG}, respectively.
-Thus, the four triangles {EFG}, {KEF}, {KFG}, and {KEG} are equilateral.
-Thus, a pyramid, whose base is triangle {EFG}, and apex the point {K}, has been constructed from four equilateral triangles.
+Let the diameter {AB line} of the given sphere be laid out, and let it have been cut at point {C point} such that {AC line} is double {CB line} [Prop. 6.10].
+And let the semi-circle {ADB arc O} have been drawn on {AB line}.
+And let {CD line} have been drawn from point {C point} at right-angles to {AB line}.
+And let {DA line} have been joined.
+And let the circle {EFG given} be laid down having a radius equal to {DC line}, and let the equilateral triangle {EFG polygon} have been inscribed in circle {EFG given} [Prop. 4.2].
+And let the center of the circle, point {H point}, have been found [Prop. 3.1].
+And let {EH line}, {HF line}, and {HG line} have been joined.
+And let {HK line} have been set up, at point {H point}, at right-angles to the plane of circle {EFG given} [Prop. 11.12].
+And let {HK line}, equal to the straight-line {AC line}, have been cut off from {HK line}.
+And let {KE line}, {KF line}, and {KG line} have been joined.
+And since {KH line} is at right-angles to the plane of circle {EFG given}, it will thus also make right-angles with all of the straight-lines joining it (which are) also in the plane of circle {EFG given} [Def. 11.3].
+And {HE line}, {HF line}, and {HG line} each join it.
+Thus, {HK line} is at right-angles to each of {HE line}, {HF line}, and {HG line}.
+And since {AC line} is equal to {HK line}, and {CD line} to {HE line}, and they contain right-angles, the base {DA line} is thus equal to the base {KE line} [Prop. 1.4].
+So, for the same (reasons), {KF line} and {KG line} is each equal to {DA line}.
+Thus, the three (straight-lines) {KE line}, {KF line}, and {KG line} are equal to one another.
+And since {AC line} is double {CB line}, {AB line} (is) thus triple {BC line}.
+And as {AB line} (is) to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}, as will be shown later [see lemma].
+Thus, the (square) on {AD line} (is) three times the (square) on {DC line}.
+And the (square) on {FE line} is also three times the (square) on {EH line} [Prop. 13.12], and {DC line} is equal to {EH line}.
+Thus, {DA line} (is) also equal to {EF line}.
+But, {DA line} was shown (to be) equal to each of {KE line}, {KF line}, and {KG line}.
+Thus, {EF line}, {FG line}, and {GE line} are equal to {KE line}, {KF line}, and {KG line}, respectively.
+Thus, the four triangles {EFG polygon}, {KEF polygon}, {KFG polygon}, and {KEG polygon} are equilateral.
+Thus, a pyramid, whose base is triangle {EFG polygon}, and apex the point {K point}, has been constructed from four equilateral triangles.
 
 So, it is also necessary to enclose it in the given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
 
-For let the straight-line {HL} have been produced in a straight-line with {KH}, and let {HL} be made equal to {CB}.
-And since as {AC} (is) to {CD}, so {CD} (is) to {CB} [Prop. 6.8 corr.], and {AC} (is) equal to {KH}, and {CD} to {HE}, and {CB} to {HL}, thus as {KH} is to {HE}, so {EH} (is) to {HL}.
-Thus, the (rectangle contained) by {KH} and {HL} is equal to the (square) on {EH} [Prop. 6.17].
-And each of the angles {KHE} and {EHL} is a right-angle.
-Thus, the semi-circle drawn on {KL} will also pass through {E} [inasmuch as if we join {EL} then the angle {LEK} becomes a right-angle, on account of triangle {ELK} becoming equiangular to each of the triangles {ELH} and {EHK} [Props. 6.8, 3.31] ].
-So, if {KL} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, it will also pass through points {F} and {G}, (because) if {FL} and {LG} are joined, the angles at {F} and {G} will similarly become right-angles.
+For let the straight-line {HL line} have been produced in a straight-line with {KH line}, and let {HL line} be made equal to {CB line}.
+And since as {AC line} (is) to {CD line}, so {CD line} (is) to {CB line} [Prop. 6.8 corr.], and {AC line} (is) equal to {KH line}, and {CD line} to {HE line}, and {CB line} to {HL line}, thus as {KH line} is to {HE line}, so {EH line} (is) to {HL line}.
+Thus, the (rectangle contained) by {KH line} and {HL line} is equal to the (square) on {EH line} [Prop. 6.17].
+And each of the angles {KHE angle} and {EHL angle} is a right-angle.
+Thus, the semi-circle drawn on {KL line} will also pass through {E point} [inasmuch as if we join {EL line} then the angle {LEK angle} becomes a right-angle, on account of triangle {ELK polygon} becoming equiangular to each of the triangles {ELH polygon} and {EHK polygon} [Props. 6.8, 3.31] ].
+So, if {KL line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, it will also pass through points {F point} and {G point}, (because) if {FL line} and {LG line} are joined, the angles at {F point} and {G point} will similarly become right-angles.
 And the pyramid will have been enclosed by the given sphere.
-For the diameter, {KL}, of the sphere is equal to the diameter, {AB}, of the given sphere— inasmuch as {KH} was made equal to {AC}, and {HL} to {CB}.
+For the diameter, {KL line}, of the sphere is equal to the diameter, {AB line}, of the given sphere— inasmuch as {KH line} was made equal to {AC line}, and {HL line} to {CB line}.
 
 So, I say that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
 
-For since {AC} is double {CB}, {AB} is thus triple {BC}.
-Thus, via conversion, {BA} is one and a half times {AC}.
-And as {BA} (is) to {AC}, so the (square) on {BA} (is) to the (square) on {AD} [inasmuch as if {DB} is joined then as {BA} is to {AD}, so {DA} (is) to {AC}, on account of the similarity of triangles {DAB} and {DAC}.
-And as the first is to the third (of four proportional magnitudes), so the (square) on the first (is) to the (square) on the second.] Thus, the (square) on {BA} (is) also one and a half times the (square) on {AD}.
-And {BA} is the diameter of the given sphere, and {AD} (is) equal to the side of the pyramid.
+For since {AC line} is double {CB line}, {AB line} is thus triple {BC line}.
+Thus, via conversion, {BA line} is one and a half times {AC line}.
+And as {BA line} (is) to {AC line}, so the (square) on {BA line} (is) to the (square) on {AD line} [inasmuch as if {DB line} is joined then as {BA line} is to {AD line}, so {DA line} (is) to {AC line}, on account of the similarity of triangles {DAB polygon} and {DAC polygon}.
+And as the first is to the third (of four proportional magnitudes), so the (square) on the first (is) to the (square) on the second.] Thus, the (square) on {BA line} (is) also one and a half times the (square) on {AD line}.
+And {BA line} is the diameter of the given sphere, and {AD line} (is) equal to the side of the pyramid.
 
 Thus, the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
 (Which is) the very thing it was required to show.

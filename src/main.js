@@ -198,7 +198,7 @@ function makeRG()
     else if(h.typ == 'arcc')
     {
       let c = h.arg;
-      if(/[A-Z]/.test(c))
+      if(/[a-zA-Z]/.test(c))
       {
         let center = figure.points[c];
         shapes = [arc(center, figure.points[h.name[h.name.length-1]], figure.points[h.name[0]])];
@@ -211,7 +211,7 @@ function makeRG()
     else if(h.typ == 'arc')
     {
       let c = h.arg;
-      if(/[A-Z]/.test(c))
+      if(/[a-zA-Z]/.test(c))
       {
         let center = figure.points[c];
         shapes = [arc(center, figure.points[h.name[0]], figure.points[h.name[h.name.length-1]])];

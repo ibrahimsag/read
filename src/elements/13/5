@@ -1,24 +1,24 @@
 If a straight-line is cut in extreme and mean ratio, and a (straight-line) equal to the greater piece is added to it, then the whole straight-line has been cut in extreme and mean ratio, and the original straight-line is the greater piece.
 
-For let the straight-line {AB} have been cut in extreme and mean ratio at point {C}.
-And let {AC} be the greater piece.
-And let {AD} be [made] equal to {AC}.
-I say that the straight-line {DB} has been cut in extreme and mean ratio at {A}, and that the original straight-line {AB} is the greater piece.
+For let the straight-line {AB line} have been cut in extreme and mean ratio at point {C point}.
+And let {AC line} be the greater piece.
+And let {AD line} be [made] equal to {AC line}.
+I say that the straight-line {DB line} has been cut in extreme and mean ratio at {A point}, and that the original straight-line {AB line} is the greater piece.
 
-For let the square {AE} have been described on {AB}, and let the (remainder of the) figure have been drawn.
-And since {AB} has been cut in extreme and mean ratio at {C}, the (rectangle contained) by {ABC} is thus equal to the (square) on {AC} [Def. 6.3, Prop. 6.17].
-And {CE} is the (rectangle contained) by {ABC}, and {CH} the (square) on {AC}.
-But, {HE} is equal to {CE} [Prop. 1.43], and {DH} equal to {HC}.
-Thus, {DH} is also equal to {HE}.
-[Let {HB} have been added to both.]
-Thus, the whole of {DK} is equal to the whole of {AE}.
-And {DK} is the (rectangle contained) by {BD} and {DA}.
-For {AD} (is) equal to {DL}.
-And {AE} (is) the (square) on {AB}.
-Thus, the (rectangle contained) by {BDA} is equal to the (square) on {AB}.
-Thus, as {DB} (is) to {BA}, so {BA} (is) to {AD} [Prop. 6.17].
-And {DB} (is) greater than {BA}.
-Thus, {BA} (is) also greater than {AD} [Prop. 5.14].
+For let the square {AE polygon} have been described on {AB line}, and let the (remainder of the) figure have been drawn.
+And since {AB line} has been cut in extreme and mean ratio at {C point}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].
+And {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, and {CH polygon} the (square) on {AC line}.
+But, {HE polygon} is equal to {CE polygon} [Prop. 1.43], and {DH polygon} equal to {HC polygon}.
+Thus, {DH polygon} is also equal to {HE polygon}.
+[Let {HB polygon} have been added to both.]
+Thus, the whole of {DK polygon} is equal to the whole of {AE polygon}.
+And {DK polygon} is the (rectangle contained) by {BD line} and {DA line}.
+For {AD line} (is) equal to {DL line}.
+And {AE polygon} (is) the (square) on {AB line}.
+Thus, the (rectangle contained) by {BD line} and {DA line} is equal to the (square) on {AB line}.
+Thus, as {DB line} (is) to {BA line}, so {BA line} (is) to {AD line} [Prop. 6.17].
+And {DB line} (is) greater than {BA line}.
+Thus, {BA line} (is) also greater than {AD line} [Prop. 5.14].
 
-Thus, {DB} has been cut in extreme and mean ratio at {A}, and the greater piece is {AB}.
+Thus, {DB line} has been cut in extreme and mean ratio at {A point}, and the greater piece is {AB line}.
 (Which is) the very thing it was required to show.

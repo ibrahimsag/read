@@ -1,35 +1,35 @@
 To construct a cube, and to enclose (it) in a sphere, like in the (case of the) pyramid, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube.
 
-Let the diameter {AB} of the given sphere be laid out, and let it have been cut at {C} such that {AC} is double {CB}.
-And let the semi-circle {ADB} have been drawn on {AB}.
-And let {CD} have been drawn from {C} at right-angles to {AB}.
-And let {DB} have been joined.
-And let the square {EFGH}, having (its) side equal to {DB}, be laid out.
-And let {EK}, {FL}, {GM}, and {HN} have been drawn from (points) {E}, {F}, {G}, and {H}, (respectively), at right-angles to the plane of square {EFGH}.
-And let {EK}, {FL}, {GM}, and {HN}, equal to one of {EF}, {FG}, {GH}, and {HE}, have been cut off from {EK}, {FL}, {GM}, and {HN}, respectively.
-And let {KL}, {LM}, {MN}, and {NK} have been joined.
+Let the diameter {AB line} of the given sphere be laid out, and let it have been cut at {C point} such that {AC line} is double {CB line}.
+And let the semi-circle {ADB arc O} have been drawn on {AB line}.
+And let {CD line} have been drawn from {C point} at right-angles to {AB line}.
+And let {DB line} have been joined.
+And let the square {EFGH polygon}, having (its) side equal to {DB line}, be laid out.
+And let {EK line}, {FL line}, {GM line}, and {HN line} have been drawn from (points) {E point}, {F point}, {G point}, and {H point}, (respectively), at right-angles to the plane of square {EFGH polygon}.
+And let {EK line}, {FL line}, {GM line}, and {HN line}, equal to one of {EF line}, {FG line}, {GH line}, and {HE line}, have been cut off from {EK line}, {FL line}, {GM line}, and {HN line}, respectively.
+And let {KL line}, {LM line}, {MN line}, and {NK line} have been joined.
 Thus, a cube contained by six equal squares has been constructed.
 
 So, it is also necessary to enclose it by the given sphere, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube.
 
-For let {KG} and {EG} have been joined.
-And since angle {KEG} is a right-angle—on account of {KE} also being at right-angles to the plane {EG}, and manifestly also to the straight-line {EG} [Def. 11.3]—the semi-circle drawn on {KG} will thus also pass through point {E}.
-Again, since {GF} is at right-angles to each of {FL} and {FE}, {GF} is thus also at right-angles to the plane {FK} [Prop. 11.4].
-Hence, if we also join {FK} then {GF} will also be at right-angles to {FK}.
-And, again, on account of this, the semi-circle drawn on {GK} will also pass through point {F}.
+For let {KG line} and {EG line} have been joined.
+And since angle {KEG angle} is a right-angle—on account of {KE line} also being at right-angles to the plane {EG polygon}, and manifestly also to the straight-line {EG line} [Def. 11.3]—the semi-circle drawn on {KG line} will thus also pass through point {E point}.
+Again, since {GF line} is at right-angles to each of {FL line} and {FE line}, {GF line} is thus also at right-angles to the plane {FK line} [Prop. 11.4].
+Hence, if we also join {FK line} then {GF line} will also be at right-angles to {FK line}.
+And, again, on account of this, the semi-circle drawn on {GK line} will also pass through point {F point}.
 Similarly, it will also pass through the remaining (angular) points of the cube.
-So, if {KG} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then the cube will have been enclosed by a sphere.
+So, if {KG line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then the cube will have been enclosed by a sphere.
 So, I say that (it is) also (enclosed) by the given (sphere).
-For since {GF} is equal to {FE}, and the angle at {F} is a right-angle, the (square) on {EG} is thus double the (square) on {EF} [Prop. 1.47].
-And {EF} (is) equal to {EK}.
-Thus, the (square) on {EG} is double the (square) on {EK}.
-Hence, the (sum of the squares) on {GE} and {EK}—that is to say, the (square) on {GK} [Prop. 1.47]—is three times the (square) on {EK}.
-And since {AB} is three times {BC}, and as {AB} (is) to {BC}, so the (square) on {AB} (is) to the (square) on {BD} [Prop. 6.8, Def. 5.9], the (square) on {AB} (is) thus three times the (square) on {BD}.
-And the (square) on {GK} was also shown (to be) three times the (square) on {KE}.
-And {KE} was made equal to {DB}.
-Thus, {KG} (is) also equal to {AB}.
-And {AB} is the radius of the given sphere.
-Thus, {KG} is also equal to the diameter of the given sphere.
+For since {GF line} is equal to {FE line}, and the angle at {F point} is a right-angle, the (square) on {EG line} is thus double the (square) on {EF line} [Prop. 1.47].
+And {EF line} (is) equal to {EK line}.
+Thus, the (square) on {EG line} is double the (square) on {EK line}.
+Hence, the (sum of the squares) on {GE line} and {EK line}—that is to say, the (square) on {GK line} [Prop. 1.47]—is three times the (square) on {EK line}.
+And since {AB line} is three times {BC line}, and as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BD line} [Prop. 6.8, Def. 5.9], the (square) on {AB line} (is) thus three times the (square) on {BD line}.
+And the (square) on {GK line} was also shown (to be) three times the (square) on {KE line}.
+And {KE line} was made equal to {DB line}.
+Thus, {KG line} (is) also equal to {AB line}.
+And {AB line} is the radius of the given sphere.
+Thus, {KG line} is also equal to the diameter of the given sphere.
 
 Thus, the cube has been enclosed by the given sphere.
 And it has simultaneously been shown that the square on the diameter of the sphere is three times the (square) on the side of the cube.

@@ -88,7 +88,24 @@ function() {
       rg.gnomon(z.H, z.M, z.O),
       ...['Pb', 'aK', 'DF', 'LF', 'LD', 'FG', 'DB', 'KE', 'BE']
         .map(s => rg.line(z[s[0]], z[s[1]])),
-    ]
+    ],
+    polygonl: {
+      AE: 'AKEB',
+      CE: 'CGEB',
+      FH: 'HbFa',
+      CK: 'CAKG',
+      CH: 'CbHA',
+      DF: 'DCFL',
+      HF: 'HbFa',
+      KC: 'CAKG',
+      HC: 'CbHA',
+      LH: 'LPHa',
+      DH: 'DAHP',
+      AP: 'DAHP',
+    },
+    given: {
+      MNO: [rg.gnomon(z.H, z.M, z.O), rg.polygon([...'ACFLPH'].map(l => z[l]))],
+    },
   };
 },
 
@@ -126,6 +143,20 @@ function() {
       rg.gnomon(z.H, z.M, z.O),
       ...['FE', 'LF', 'AL', 'DA', 'GD', 'KG', 'aK', 'Pb', 'AF'].map(s => rg.line(z[s[0]], z[s[1]])),
     ],
+    polygonl: {
+      AF: 'ABFL',
+      CG: 'CKGD',
+      AH: 'ACHP',
+      KB: 'KEBC',
+      BH: 'BbHC',
+      HB: 'BbHC',
+      LH: 'LPHa',
+      HF: 'HbFa',
+      BG: 'BEGD',
+    },
+    given: {
+      MNO: [rg.gnomon(z.H, z.M, z.O), rg.polygon([...'CBFLPH'].map(l => z[l]))],
+    },
   };
 },
 
@@ -165,6 +196,22 @@ function() {
       rg.gnomon(z.a, z.O, z.Q),
       ...['AB', 'RM', 'HN', 'bE', 'Ab', 'DL', 'CS', 'BE', 'bB'].map(s => rg.line(z[s[0]], z[s[1]])),
     ],
+    polygonl: {
+      AE: 'AbEB',
+      RS: 'RbSa',
+      FG: 'FaGK',
+      CE: 'CSEB',
+      GF: 'FaGK',
+      HL: 'HbLK',
+      MF: 'MaFN',
+      FE: 'FSEN',
+      CG: 'CDGa',
+      CN: 'CFNB',
+      DN: 'DKNB',
+    },
+    given: {
+      OPQ: [rg.gnomon(z.a, z.O, z.Q), rg.polygon([...'FNBDGa'].map(l => z[l]))]
+    }
   };
 },
 
@@ -199,6 +246,19 @@ function() {
       rg.gnomon(z.F, z.L, z.N),
       ...['AB', 'HK', 'DE', 'AD', 'CG', 'BE', 'DB'].map(s => rg.line(z[s[0]], z[s[1]])),
     ],
+    polygonl: {
+      AK: 'AHKB',
+      AF: 'AHFC',
+      HG: 'HDGF',
+      FE: 'FGEK',
+      CK: 'CFKB',
+      CE: 'CGEB',
+      AE: 'ADEB',
+      GH: 'GFHD',
+    },
+    given: {
+      LMN: [rg.gnomon(z.F, z.L, z.N), rg.polygon([...'AHFGEB'].map(l => z[l]))]
+    }
   };
 },
 
@@ -225,7 +285,17 @@ function() {
     },
     shapes: [
       ...['EA', 'Ab', 'bE', 'EB', 'BD', 'DL', 'LK', 'Cc'].map(s => rg.line(z[s[0]], z[s[1]])),
-    ]
+    ],
+    polygonl: {
+      "AE": "AbEB",
+      "CE": "CcEB",
+      "CH": "CdHA",
+      "HE": "HbEK",
+      "DH": "DLHA",
+      "HC": "HdCA",
+      "HB": "HKBA",
+      "DK": "DLKB"
+    },
   };
 },
 
@@ -369,7 +439,7 @@ function() {
     shapes: [
       rg.circle(z.F, r*2),
       rg.polygon([...'ABCDE'].map(l => z[l])),
-      ...['AG', 'AK', 'KB', 'KF', 'FM'].map(s => rg.line(z[s[0]], z[s[1]])),
+      ...['AG', 'AK', 'KB', 'KF', 'BF', 'FM', 'KN'].map(s => rg.line(z[s[0]], z[s[1]])),
     ],
   };
 },
@@ -416,6 +486,9 @@ function() {
       rg.line(v2.add(z.K, v2.s(k, -5)), v2.add(z.K, v2.s(k, 5))),
       rg.line(v2.add(z.N, v2.s(v2.y, -50)), v2.add(z.N, v2.s(v2.y, 50))),
     ],
+    given: {
+      N: [rg.line(v2.add(z.N, v2.s(v2.y, -50)), v2.add(z.N, v2.s(v2.y, 50)))]
+    }
   };
 },
 
@@ -497,8 +570,10 @@ function() {
         .map(s => rg.line(z[s[0]], z[s[1]])),
       rg.curve(c),
       rg.arc(z.O, z.A, z.B),
-
-    ]
+    ],
+    given: {
+      EFG: [rg.curve(c)],
+    }
   };
 },
 
@@ -532,6 +607,12 @@ function() {
       ...['AD', 'DB', 'AB', 'AE', 'EG', 'GB', 'DF'].map(s => rg.line(z[s[0]], z[s[1]])),
       rg.curve(c),
     ],
+    polygonl: {
+      EC: 'EFCA',
+      FB: 'FGBC',
+      BF: 'FGBC',
+      EB: 'EGBA',
+    },
   };
 },
 
@@ -627,6 +708,7 @@ function() {
       A: [5],
       C: [5],
       B: [5],
+      H: [2],
     },
     shapes: [
       ...['EF', 'FG', 'GH', 'HE',
@@ -638,6 +720,9 @@ function() {
         .map(s => rg.line(z[s[0]], z[s[1]], {strokeWidth: 3})),
       rg.arc(z.O, z.A, z.B)
     ],
+    polygonl: {
+      EG: 'EFGH',
+    }
   };
 },
 
@@ -663,8 +748,16 @@ function() {
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
   let a = v2.r(v2.u(v2.sub(z.V, z.W)), Math.PI/2);
-  let c = Array(21).fill().map((_, i) => v3.r(y.H, v3.z, Math.PI*i/10))
+  let c = Array(21).fill().map((_, i) => v3.r(y.E, v3.z, -Math.PI*i/10))
   c = c.map(v => v3.s(f.map(d => v3.dot(d, v)), r));
+  let x = {};
+  x.o = v2.s(v2.y, -1.2);
+  x.B = v2.add(x.o, v2.s(v2.x, 1));
+  x.A = v2.add(x.o, v2.s(v2.x, -1));
+  x.C = v2.add(x.o, v2.s(v2.x, 3/5));
+  x.D = v2.add(x.o, v2.r(v2.s(v2.x, 1), -Math.acos(3/5)));
+  for(let i in x)
+    z[i] = v2.s(x[i], r-20);
   return {
     title: 'Proposition 16',
     id: '13.16',
@@ -691,20 +784,35 @@ function() {
       V: [7],
       W: [6],
       a: [7, 2],
+      A: [5],
+      B: [5],
+      C: [5],
+      D: [0],
     },
     shapes: [
       rg.line(v2.add(z.a, v2.s(a, -5)), v2.add(z.a, v2.s(a, 5)), {stroke: hsl(25)}),
       rg.polygon([...'HGFEK'].map(l => z[l]), {stroke: hsl(20)}),
       rg.polygon([...'HNGMFLEPKO'].map(l => z[l]), {stroke: hsl(20)}),
       ...['XZ', 'QE', 'RF', 'SG', 'TH', 'UK', 'QZ', 'QW', 'UW', 'UZ', 'LV',
-          'QR', 'TU', 'UQ', 'PQ', 'QL', 'OU', 'UP', 'MV', ]
+          'QR', 'TU', 'UQ', 'PQ', 'QL', 'OU', 'UP', 'MV', 'EV', 'VK']
         .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
       rg.curve(c, {stroke: hsl(20)}),
       rg.polygon([...'NMLPO'].map(l => z[l])),
       ...['RS', 'ST', 'LR', 'RM', 'MS', 'SN', 'NT', 'TO', 
           'XM', 'XL']
         .map(s => rg.line(z[s[0]], z[s[1]])),
+      ...['AB', 'BD', 'DC']
+        .map(s => rg.line(z[s[0]], z[s[1]])),
+      rg.arc(z.o, z.A, z.B)
     ],
+    given: {
+      EFGHK: [rg.curve(c)],
+      EF: [rg.curve(c.slice(0, 5))],
+      FG: [rg.curve(c.slice(4, 9))],
+      GH: [rg.curve(c.slice(8, 13))],
+      HK: [rg.curve(c.slice(12, 17))],
+      KE: [rg.curve(c.slice(16, 21))],
+    }
   };
 },
 
@@ -763,6 +871,10 @@ function() {
       ...['BW', 'WC', 'CV', 'UV', 'BU']
         .map(s => rg.line(z[s[0]], z[s[1]])),
     ],
+    polygonl: {
+      BD: 'BADC',
+      BF: 'BCFE',
+    }
   };
 },
 
@@ -775,7 +887,7 @@ function() {
   z.G = v2.add(z.A, v2.s(v2.y, -2));
   let k = -1/Math.sqrt(5);
   let d = 1/3;
-  let l = 3/5;
+  let l = -k;
   s(z, 'KDL', [k, d, l].map(c => v2.s(v2.x, c)));
   s(z, 'EHFM', [0, k, d, l].map(c => v2.r(v2.x, -Math.acos(c))));
   z.N = v2.add(z.B, v2.s(v2.sub(z.F, z.B), phi));

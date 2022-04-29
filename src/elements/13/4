@@ -1,20 +1,20 @@
 If a straight-line is cut in extreme and mean ratio then the sum of the squares on the whole and the lesser piece is three times the square on the greater piece.
 
-Let {AB} be a straight-line, and let it have been cut in extreme and mean ratio at {C}, and let {AC} be the greater piece.
-I say that the (sum of the squares) on {AB} and {BC} is three times the (square) on {CA}.
+Let {AB line} be a straight-line, and let it have been cut in extreme and mean ratio at {C point}, and let {AC line} be the greater piece.
+I say that the (sum of the squares) on {AB line} and {BC line} is three times the (square) on {CA line}.
 
-For let the square {ADEB} have been described on {AB}, and let the (remainder of the) figure have been drawn.
-Therefore, since {AB} has been cut in extreme and mean ratio at {C}, and {AC} is the greater piece, the (rectangle contained) by {ABC} is thus equal to the (square) on {AC} [Def. 6.3, Prop. 6.17].
-And {AK} is the (rectangle contained) by {ABC}, and {HG} the (square) on {AC}.
-Thus, {AK} is equal to {HG}.
-And since {AF} is equal to {FE} [Prop. 1.43], let {CK} have been added to both.
-Thus, the whole of {AK} is equal to the whole of {CE}.
-Thus, {AK} plus {CE} is double {AK}.
-But, {AK} plus {CE} is the gnomon {LMN} plus the square {CK}.
-Thus, gnomon {LMN} plus square {CK} is double {AK}.
-But, indeed, {AK} was also shown (to be) equal to {HG}.
-Thus, gnomon {LMN} plus [square {CK} is double {HG}.
-Hence, gnomon {LMN} plus] the squares {CK} and {HG} is three times the square {HG}.
-And gnomon {LMN} plus the squares {CK} and {HG} is the whole of {AE} plus {CK}—which are the squares on {AB} and {BC} (respectively)—and {GH} (is) the square on {AC}.
-Thus, the (sum of the) squares on {AB} and {BC} is three times the square on {AC}.
+For let the square {ADEB polygon} have been described on {AB line}, and let the (remainder of the) figure have been drawn.
+Therefore, since {AB line} has been cut in extreme and mean ratio at {C point}, and {AC line} is the greater piece, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].
+And {AK polygon} is the (rectangle contained) by {AB line} and {BC line}, and {HG polygon} the (square) on {AC line}.
+Thus, {AK polygon} is equal to {HG polygon}.
+And since {AF polygon} is equal to {FE polygon} [Prop. 1.43], let {CK polygon} have been added to both.
+Thus, the whole of {AK polygon} is equal to the whole of {CE polygon}.
+Thus, {AK polygon} plus {CE polygon} is double {AK polygon}.
+But, {AK polygon} plus {CE polygon} is the gnomon {LMN given} plus the square {CK polygon}.
+Thus, gnomon {LMN given} plus square {CK polygon} is double {AK polygon}.
+But, indeed, {AK polygon} was also shown (to be) equal to {HG polygon}.
+Thus, gnomon {LMN given} plus [square {CK polygon} is double {HG polygon}.
+Hence, gnomon {LMN given} plus] the squares {CK polygon} and {HG polygon} is three times the square {HG polygon}.
+And gnomon {LMN given} plus the squares {CK polygon} and {HG polygon} is the whole of {AE polygon} plus {CK polygon}—which are the squares on {AB line} and {BC line} (respectively)—and {GH polygon} (is) the square on {AC line}.
+Thus, the (sum of the) squares on {AB line} and {BC line} is three times the square on {AC line}.
 (Which is) the very thing it was required to show.

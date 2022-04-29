@@ -1,29 +1,29 @@
 If a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.
 
-For let the straight-line {AB} have been cut in extreme and mean ratio at point {C}, and let {AC} be the greater piece.
-And let the straight-line {AD} have been produced in a straight-line with {CA}.
-And let {AD} be made (equal to) half of {AB}.
-I say that the (square) on {CD} is five times the (square) on {DA}.
+For let the straight-line {AB line} have been cut in extreme and mean ratio at point {C point}, and let {AC line} be the greater piece.
+And let the straight-line {AD line} have been produced in a straight-line with {CA line}.
+And let {AD line} be made (equal to) half of {AB line}.
+I say that the (square) on {CD line} is five times the (square) on {DA line}.
 
-For let the squares {AE} and {DF} have been described on {AB} and {DC} (respectively).
-And let the figure in {DF} have been drawn.
-And let {FC} have been drawn across to {G}.
-And since {AB} has been cut in extreme and mean ratio at {C}, the (rectangle contained) by {ABC} is thus equal to the (square) on {AC} [Def. 6.3, Prop. 6.17].
-And {CE} is the (rectangle contained) by {ABC}, and {FH} the (square) on {AC}.
-Thus, {CE} (is) equal to {FH}.
-And since {BA} is double {AD}, and {BA} (is) equal to {KA}, and {AD} to {AH}, {KA} (is) thus also double {AH}.
-And as {KA} (is) to {AH}, so {CK} (is) to {CH} [Prop. 6.1].
-Thus, {CK} (is) double {CH}.
-And {LH} plus {HC} is also double {CH} [Prop. 1.43].
-Thus, {KC} (is) equal to {LH} plus {HC}.
-And {CE} was also shown (to be) equal to {HF}.
-Thus, the whole square {AE} is equal to the gnomon {MNO}.
-And since {BA} is double {AD}, the (square) on {BA} is four times the (square) on {AD}—that is to say, {AE} (is four times) {DH}.
-And {AE} (is) equal to gnomon {MNO}.
-And, thus, gnomon {MNO} is also four times {AP}.
-Thus, the whole of {DF} is five times {AP}.
-And {DF} is the (square) on {DC}, and {AP} the (square) on {DA}.
-Thus, the (square) on {CD} is five times the (square) on {DA}.
+For let the squares {AE polygon} and {DF polygon} have been described on {AB line} and {DC line} (respectively).
+And let the figure in {DF polygon} have been drawn.
+And let {FC line} have been drawn across to {G point}.
+And since {AB line} has been cut in extreme and mean ratio at {C point}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].
+And {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, and {FH polygon} the (square) on {AC line}.
+Thus, {CE polygon} (is) equal to {FH polygon}.
+And since {BA line} is double {AD line}, and {BA line} (is) equal to {KA line}, and {AD line} to {AH line}, {KA line} (is) thus also double {AH line}.
+And as {KA line} (is) to {AH line}, so {CK polygon} (is) to {CH polygon} [Prop. 6.1].
+Thus, {CK polygon} (is) double {CH polygon}.
+And {LH polygon} plus {HC polygon} is also double {CH polygon} [Prop. 1.43].
+Thus, {KC polygon} (is) equal to {LH polygon} plus {HC polygon}.
+And {CE polygon} was also shown (to be) equal to {HF polygon}.
+Thus, the whole square {AE polygon} is equal to the gnomon {MNO given}.
+And since {BA line} is double {AD line}, the (square) on {BA line} is four times the (square) on {AD line}—that is to say, {AE polygon} (is four times) {DH polygon}.
+And {AE polygon} (is) equal to gnomon {MNO given}.
+And, thus, gnomon {MNO given} is also four times {AP polygon}.
+Thus, the whole of {DF polygon} is five times {AP polygon}.
+And {DF polygon} is the (square) on {DC line}, and {AP polygon} the (square) on {DA line}.
+Thus, the (square) on {CD line} is five times the (square) on {DA line}.
 
 Thus, if a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.
 (Which is) the very thing it was required to show.
