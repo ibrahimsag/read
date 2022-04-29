@@ -73,24 +73,19 @@ function make(colors, cs)
     </p>
     <h4>Book 11 - Elementary Stereometry</h4>
     <p>
-    In progress...
-    </p>
-    <p>
     Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
     </p>
     <h4>Book 12 - Proportional Stereometry</h4>
     <p>
-    In progress...
-    </p>
-    <p>
     Start with <a pref="12.1">First proposition</a>.
+    <br>
+    Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
     </p>
     <h4>Book 13 - The Platonic Solids</h4>
     <p>
-    In progress...
-    </p>
-    <p>
     Start with <a pref="13.1">First proposition</a>.
+    <br>
+    Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
     </p>
     <br>
     <h3 class="${cs.helpTitle}">On the next page:</h3>
