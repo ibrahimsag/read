@@ -873,10 +873,22 @@ function makePR(rg, svg, cs)
     let m_b = document.querySelector('#move-back');
     let h_o = colors.sentence, h_b = colors.dim;
 
-    if (o === section.i_p[k_focus+1] - 1)
+    m_b.innerText = "previous";
+    if (o === 0)
+    {
+      m_b.innerText = "";
+    }
+
+    if (o === section.i_count-2)
     {
       h_o = colors.dim;
-      h_b = colors.sentence;
+      h_b = colors.dim;
+      m_o.innerText = "back to top";
+    }
+    else if (o === section.i_p[k_focus+1] - 1)
+    {
+      h_b = colors.dim;
+      h_o = colors.sentence;
       m_o.innerText = "next sentence";
     }
     else

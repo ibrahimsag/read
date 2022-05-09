@@ -161,6 +161,10 @@ function make(colors)
       transition: 'background-color 0.3s ease',
 
       width: '33%',
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
     },
     moveOn: {
       transition: 'background-color 0.3s ease',
