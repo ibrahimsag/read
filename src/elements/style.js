@@ -4,8 +4,14 @@ function make(colors)
       color: colors.link,
       userSelect: 'none',
       cursor: 'pointer',
+      '& svg path': {
+        fill: colors.link
+      },
       '&:hover': {
-        color: colors.link_hover
+        color: colors.link_hover,
+        '& svg path': {
+          fill: colors.link_hover
+        }
       }
     };
 
