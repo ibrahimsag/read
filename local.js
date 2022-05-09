@@ -6,7 +6,6 @@ const port = 3000
 app.use('/build', express.static('build'));
 app.use('/img', express.static('img'));
 app.use('/fonts/', express.static('public/fonts'));
-app.use('/fonts/', express.static('public/fonts'));
 app.use('/js/', express.static('public/js'));
 app.use('/', express.static('.'));
 

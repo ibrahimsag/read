@@ -645,8 +645,6 @@ function makePR(rg, svg, cs)
   let vs_ = [];
   let last_section_id = -1;
   let last_section;
-  let marks = {};
-  let centers = {};
 
   function prepareDOM(proseEl, section)
   {
@@ -769,70 +767,10 @@ function makePR(rg, svg, cs)
     let figColumnEl = document.querySelector('#figColumn');
     if(last_section_id != section.id)
     {
-      marks = {}
-      centers = {};
       let titleEl = document.querySelector('#proseTitle');
       titleEl.innerText = section.title;
 
       prepareDOM(proseEl, section);
-
-      figColumnEl.querySelectorAll('.given').forEach(el => figColumnEl.removeChild(el));
-
-      let installSVG = () => {
-        let mark = de('div');
-        mark.className = 'given';
-        mark.style.margin = "10px";
-        if(section.imgData)
-        {
-          mark.innerHTML = section.imgData.svgStr;
-          let imgEl = mark.querySelector('svg');
-          refreshImgLetters(imgEl, section.imgData.letters, {});
-        }
-        else if(section.imgsData)
-        {
-          mark.innerHTML = section.imgsData.map(d => d.svgStr).join('');
-          let imgEls = mark.querySelectorAll('svg');
-
-          for(let i = 0; i< section.imgsData.length; i++)
-          {
-            let imgEl = imgEls[i];
-            let letters = section.imgsData[i].letters;
-            refreshImgLetters(imgEl, letters, {});
-          }
-        }
-
-        figColumnEl.insertBefore(mark, figColumnEl.firstChild);
-      }
-
-      if(section.img && !section.imgData)
-      {
-        fetch(section.img).then(resp => resp.json()).then(d =>
-        {
-          if(last_section_id != section.id)
-            return;
-
-          section.imgData = d;
-
-          installSVG()
-        })
-      }
-      else if(section.imgs && !section.imgsData)
-      {
-        let ps = section.imgs.map(img => fetch(img).then(resp => resp.json()));
-        Promise.all(ps).then(ds =>
-        {
-          if(last_section_id != section.id)
-            return;
-
-          section.imgsData = ds;
-
-          installSVG()
-        })
-      }
-      else if(section.imgData || section.imgsData)
-      {
-        installSVG();
-      }
     }
 
     function findMaxLTE(ps, i)
@@ -1140,120 +1078,6 @@ function makePR(rg, svg, cs)
     }
   }
 
-  proxy.centers = () =>
-  {
-    for(let i = 0; i < us.length; i++)
-    {
-      let u = us[i];
-      if(u && u.i === last_section.i)
-      {
-        return centers[u.part.name[0]];
-      }
-    }
-  }
-
-  proxy.mark = (kind, c) =>
-  {
-    if(kind === 'arc' || kind  === 'arcc' || kind === 'circle')
-    {
-      kind = kind + ' ' + c;
-      for(let i = 0; i < us.length; i++)
-      {
-        let u = us[i];
-        if(u && u.i === last_section.i)
-        {
-          [...u.part.name].forEach(l => centers[l] = c);
-        }
-      }
-    }
-    marks[last_section.i] = kind;
-  };
-
-  function store(key, contents)
-  {
-    let k = prompt("storage key:", key);
-    if(k)
-    {
-      var xhr = new XMLHttpRequest();
-      xhr.open("POST", "/store/", true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify({
-        key: `src/elements/${k}`,
-        contents: contents
-      }));
-    }
-  }
-
-
-  proxy.collect = (i_book, i_section) =>
-  {
-    let paragraphs = last_section.prose.split('\n\n');
-    let new_paragraphs = []
-    let polygonls = [];
-    let o = 0;
-    for(let paragraph_i = 0; paragraph_i < paragraphs.length; paragraph_i++)
-    {
-      let paragraph = paragraphs[paragraph_i];
-      let sentences = paragraph.split('\n');
-      let new_sentences = [];
-      for(let sentence_i = 0; sentence_i < sentences.length; sentence_i++)
-      {
-        let sentence = sentences[sentence_i];
-        let new_sentence = '';
-        let i_RE = /(\{[^\}]*\})/g;
-        let parts = sentence.split(i_RE).filter(x=>x);
-        let seen = false;
-        for(let part_i = 0; part_i < parts.length; part_i++)
-        {
-          let part = parts[part_i];
-
-          let mRE = /\{([a-zA-Z]+)[^\}]*\}/;
-          let m = part.match(mRE);
-          let new_part;
-          if(m && !m[1].startsWith('figure'))
-          {
-            if(marks[o])
-            {
-              if(marks[o] === "polygon" && m[1].length === 2)
-              {
-                if(!last_section.polygonl || !last_section.polygonl[m[1]])
-                {
-                  polygonls.push(m[1]);
-                }
-              }
-              new_part = ['{', m[1], ' ', marks[o], '}'].join('');
-            }
-            else
-              new_part = part;
-            o++;
-            seen = true;
-          }
-          else
-          {
-            new_part = part;
-          }
-
-          new_sentence += new_part;
-        }
-        if(!seen)
-        {
-          o++;
-        }
-        new_sentences.push(new_sentence);
-      }
-      new_paragraphs.push(new_sentences.join('\n'));
-    }
-    if(polygonls.length > 0)
-    {
-      let pls = {};
-      for(let i = 0; i < polygonls.length; i++)
-        pls[polygonls[i]] = polygonls[i];
-      console.log(JSON.stringify(pls, null, '  '));
-    }
-    let new_prose = new_paragraphs.join('\n\n');
-    store(i_book+'/'+i_section, new_prose);
-  }
-
   return {present, proxy};
 }
 
@@ -1321,58 +1145,6 @@ function elements() {
 
     function keyHandler(e)
     {
-      if(e.key == "q")
-      {
-        pr.proxy.collect(i_book, id.split('.')[1]);
-      }
-      if(e.key == "A")
-      {
-        let c = prompt("arcc center:", pr.proxy.centers());
-        if(c)
-        {
-          pr.proxy.mark("arcc", c);
-        }
-      }
-      if(e.key == "a")
-      {
-        let c = prompt("arc center:", pr.proxy.centers());
-        if(c)
-        {
-          pr.proxy.mark("arc", c);
-        }
-      }
-      if(e.key == "c")
-      {
-        let c = prompt("circle center:", pr.proxy.centers());
-        if(c)
-        {
-          pr.proxy.mark("circle", c);
-        }
-      }
-      if(e.key == "o")
-      {
-        pr.proxy.mark("point");
-      }
-      if(e.key == "l")
-      {
-        pr.proxy.mark("line");
-      }
-      if(e.key == "p")
-      {
-        pr.proxy.mark("polygon");
-      }
-      if(e.key == "m")
-      {
-        pr.proxy.mark("magnitude");
-      }
-      if(e.key == "v")
-      {
-        pr.proxy.mark("angle");
-      }
-      if(e.key == "g")
-      {
-        pr.proxy.mark("given");
-      }
       if(e.key == "j" || e.keyCode == 39)
       {
         pr.proxy.moveon();
