@@ -91,7 +91,7 @@ function make(colors, cs)
     <h3 class="${cs.helpTitle}">On the next page:</h3>
     <p>Read on a wide screen.</p>
     <p><span style="display:inline-block;background:${colors.dim};width:30px;height:.8em;margin-bottom:-0.2em;"></span><span style="display:inline-block;background:${colors.sentence};width:60px;height:.8em;margin-bottom:-0.2em;"></span> moves highlight.</p>
-    <p>Alternatively, one can use right/left or j/k on keyboard.</p>
+    <p>Alternatively, one can use down/up or j/k on keyboard.</p>
   </div>
   <div class="${cs.front}">
     <h1>Euclid's Elements</h1>

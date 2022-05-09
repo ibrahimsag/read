@@ -1157,20 +1157,22 @@ function elements() {
 
     function keyHandler(e)
     {
-      if(e.key == "j" || e.keyCode == 39)
+      if(e.key == "j" || e.keyCode == 40)
       {
         pr.proxy.moveon();
+        e.preventDefault();
       }
-      else if(e.key == "k" || e.keyCode == 37)
+      else if(e.key == "k" || e.keyCode == 38)
       {
         pr.proxy.moveback();
+        e.preventDefault();
       }
-      else if(e.key == "z")
+      else if(e.key == "z" || e.keyCode == 37)
       {
         i_section = (i_section-1 + sections.length) % sections.length;
         openSection(i_book, sections[i_section].id);
       }
-      else if(e.key == "x")
+      else if(e.key == "x" || e.keyCode == 39)
       {
         i_section = (i_section+1) % sections.length;
         openSection(i_book, sections[i_section].id);
