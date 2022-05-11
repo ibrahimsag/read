@@ -338,7 +338,7 @@ function makeRG()
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
-function makePR(rg, svg, cs)
+function makePR(rg, w, cs)
 {
   let proxy = {};
 
@@ -639,21 +639,11 @@ function makePR(rg, svg, cs)
     })
   }
 
-  let us = [];
-  let vs = [];
-  let us_ = [];
-  let vs_ = [];
-  let last_section_id = -1;
-  let last_section;
-
-  function prepareDOM(proseEl, section)
+  function prepareDOM(section)
   {
-    us = [];
-    us_ = [];
-    vs = [];
-    vs_ = [];
-    while(proseEl.firstChild)
-      proseEl.removeChild(proseEl.firstChild);
+    let handles = { r: [], s: [], r_: [], s_: [] };
+    while(w.prose.firstChild)
+      w.prose.removeChild(w.prose.firstChild);
 
     section.paragraphs.forEach(sentences =>
     {
@@ -691,7 +681,7 @@ function makePR(rg, svg, cs)
             el.dataset.i = i;
             sentenceEl.append(el);
             r = {part, i, k, lastSeenFigureIndex, el};
-            us.push(r);
+            handles.r.push(r);
           }
         }
         parts.forEach(prepPart);
@@ -699,19 +689,23 @@ function makePR(rg, svg, cs)
         sentenceEl.dataset.i = section.i_p[k+1] - 1
         if(!seen)
         {
-          us.push(null);
+          handles.r.push(null);
         }
 
-        vs.push({sentenceEl, k});
+        handles.s.push({sentenceEl, k});
         paragraphEl.append(sentenceEl, ' ');
       });
-      proseEl.appendChild(paragraphEl);
+      w.prose.appendChild(paragraphEl);
     })
+    return handles;
   }
 
+  let handles;
+  let last_present;
+  let last_section_id = -1;
   function present(o, section, hover_o, no_scroll)
   {
-    last_section = section;
+    last_present = {o, section, hover_o};
     if(o == null)
     {
       o = section.i || 0;
@@ -746,14 +740,12 @@ function makePR(rg, svg, cs)
       return present(0, section);
     }
 
-    let proseEl = document.querySelector('#proseContent');
-    let figColumnEl = document.querySelector('#figColumn');
     if(last_section_id != section.id)
     {
-      let titleEl = document.querySelector('#proseTitle');
-      titleEl.innerText = section.title;
+      if(w.title)
+        w.title.innerText = section.title;
 
-      prepareDOM(proseEl, section);
+      handles = prepareDOM(section);
     }
 
     function findMaxLTE(ps, i)
@@ -785,43 +777,43 @@ function makePR(rg, svg, cs)
     let figureIndex = 0;
     let hoverFigureIndex = 0;
 
-    while(vs_.length > 0)
+    while(handles.s_.length > 0)
     {
-      let v = vs_.pop();
+      let v = handles.s_.pop();
       v.sentenceEl.style['color'] = colors.dim;
     }
 
-    while(us_.length > 0)
+    while(handles.r_.length > 0)
     {
-      let a = us_.pop();
+      let a = handles.r_.pop();
       if(!a) continue;
       a.el.style['color'] = colors.dim;
     }
 
     if (k_hover!=null)
     {
-      let hover = vs[k_hover];
+      let hover = handles.s[k_hover];
       hover.sentenceEl.style['color'] = colors.hover;
-      vs_.push(hover);
+      handles.s_.push(hover);
 
-      us.slice(section.i_p[k_hover], section.i_p[k_hover+1]).forEach(u =>
+      handles.r.slice(section.i_p[k_hover], section.i_p[k_hover+1]).forEach(u =>
       {
         if(!u) return;
         u.el.style['color'] = colors.hover;
-        us_.push(u);
+        handles.r_.push(u);
       });
     }
 
-    let focus = vs[k_focus];
+    let focus = handles.s[k_focus];
     focus.sentenceEl.style['color'] = colors.sentence;
-    vs_.push(focus);
+    handles.s_.push(focus);
     if(!no_scroll)
     {
       scrollToSentenceIfNecessary(focus.sentenceEl);
     }
 
     let seenMarks = {};
-    us.slice(section.i_p[k_focus], section.i_p[k_focus+1]).forEach(u =>
+    handles.r.slice(section.i_p[k_focus], section.i_p[k_focus+1]).forEach(u =>
     {
       if(!u) return;
       u.el.style['color'] = colors.sentence;
@@ -831,70 +823,70 @@ function makePR(rg, svg, cs)
         nearHighlights.push(part);
         seenMarks[hash] = true;
       }
-      us_.push(u);
+      handles.r_.push(u);
     });
 
-    if(!isNaN(hover_o) && hover_o != o && us[hover_o])
+    if(!isNaN(hover_o) && hover_o != o && handles.r[hover_o])
     {
-      let hover = us[hover_o];
-      hoverHighlights.push(hover.part);
-      hoverFigureIndex = hover.lastSeenFigureIndex;
-      hover.el.style['color'] = colors.hover_bright;
-      us_.push(hover);
+      let hover_u = handles.r[hover_o];
+      hoverHighlights.push(hover_u.part);
+      hoverFigureIndex = hover_u.lastSeenFigureIndex;
+      hover_u.el.style['color'] = colors.hover_bright;
+      handles.r_.push(hover_u);
     }
 
-    if(us[o])
+    if(handles.r[o])
     {
-      let focus = us[o];
+      let focus = handles.r[o];
       highlights.push(focus.part);
       figureIndex = focus.lastSeenFigureIndex;
       focus.el.style['color'] = colors.bright;
-      us_.push(focus);
+      handles.r_.push(focus);
     }
 
-    let m_o = document.querySelector('#move-on');
-    let m_b = document.querySelector('#move-back');
-    let h_o = colors.sentence, h_b = colors.dim;
+    if(w.mb && w.mo)
+    {
+      let h_o = colors.sentence, h_b = colors.dim;
+      w.mb.innerText = "previous";
+      if (o === 0)
+      {
+        w.mb.innerText = "";
+      }
 
-    m_b.innerText = "previous";
-    if (o === 0)
-    {
-      m_b.innerText = "";
+      if (o === section.i_count-2)
+      {
+        h_o = colors.dim;
+        h_b = colors.dim;
+        w.mo.innerText = "back to top";
+      }
+      else if (o === section.i_p[k_focus+1] - 1)
+      {
+        h_b = colors.dim;
+        h_o = colors.sentence;
+        w.mo.innerText = "next sentence";
+      }
+      else
+      {
+        w.mo.innerText = "next symbol";
+      }
+      w.mo.style['background-color'] = h_o;
+      w.mb.style['background-color'] = h_b;
     }
 
-    if (o === section.i_count-2)
-    {
-      h_o = colors.dim;
-      h_b = colors.dim;
-      m_o.innerText = "back to top";
-    }
-    else if (o === section.i_p[k_focus+1] - 1)
-    {
-      h_b = colors.dim;
-      h_o = colors.sentence;
-      m_o.innerText = "next sentence";
-    }
-    else
-    {
-      m_o.innerText = "next symbol";
-    }
-    m_o.style['background-color'] = h_o;
-    m_b.style['background-color'] = h_b;
-
-    while(svg.firstChild)
-      svg.removeChild(svg.firstChild);
+    while(w.svg.firstChild)
+      w.svg.removeChild(w.svg.firstChild);
 
     let hs = highlights.filter(h=>h.typ);
     let nhs = nearHighlights.filter(h=>h.typ);
     let hhs = hoverHighlights.filter(h=>h.typ);
     let g = se('g');
-    svg.append(g);
+    w.svg.append(g);
     if(!section.figures)
     {
       let figure = section;
       g.append(...figure.shapes.map(rg.draw));
 
-      let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
+      let f = l => h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
       nhs.forEach( f('sentence') );
       hs.forEach( f('bright') );
 
@@ -910,7 +902,7 @@ function makePR(rg, svg, cs)
 
 
       let els = prepareLetterOverlay(figure, letterColor, true, false);
-      svg.append(...els);
+      w.svg.append(...els);
     }
     else
     {
@@ -922,7 +914,7 @@ function makePR(rg, svg, cs)
         let highlightFigure = figureIndex == 0 || figureIndex == i+1;
         let hoverHighlightFigure = hoverFigureIndex == 0 || hoverFigureIndex == i+1;
 
-        let f = l => h => svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
+        let f = l => h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
         if(highlightFigure)
         {
           // nhs.forEach( f('sentence') );
@@ -942,22 +934,22 @@ function makePR(rg, svg, cs)
           // nearHighlights.forEach(f(colors.sentence));
           highlights.forEach(f(colors.bright));
         }
-        if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
+        if(hoverHighlightFigure)
         {
           hoverHighlights.forEach(f(colors.hover_bright));
         }
 
         let els = prepareLetterOverlay(figure, letterColor, highlightFigure, true);
-        svg.append(...els);
+        w.svg.append(...els);
       }
     }
 
     if(last_section_id != section.id)
     {
       let r = g.getBBox();
-      svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
-      svg.setAttribute('width', r.width + 100);
-      svg.setAttribute('height', r.height + 100);
+      w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
+      w.svg.setAttribute('width', r.width + 100);
+      w.svg.setAttribute('height', r.height + 100);
     }
 
     last_section_id = section.id;
@@ -965,8 +957,12 @@ function makePR(rg, svg, cs)
     proxy.moveon = () => { present(o + 1, section); };
     proxy.moveback = () => { present(o - 1, section); };
 
+  }
+
+  function attachProseMouseEvents()
+  {
     let forClick = false, forCancel = null;
-    proseEl.onmouseout = (e) =>
+    w.prose.onmouseout = (e) =>
     {
       if(forClick)
         return;
@@ -977,15 +973,15 @@ function makePR(rg, svg, cs)
         forCancel = null;
       }
 
-      if(!isNaN(hover_o))
+      if(!isNaN(last_present.hover_o))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(o, section, undefined, true);
+          present(last_present.o, last_present.section, undefined, true);
         });
       }
     }
 
-    proseEl.onmousemove = (e) =>
+    w.prose.onmousemove = (e) =>
     {
       if(forClick)
         return;
@@ -1004,12 +1000,12 @@ function makePR(rg, svg, cs)
       if(!isNaN(i))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(o, section, i, true);
+          present(last_present.o, last_present.section, i, true);
         });
       }
     }
 
-    proseEl.onclick = (e) =>
+    w.prose.onclick = (e) =>
     {
       forClick = true;
       if(forCancel)
@@ -1023,13 +1019,13 @@ function makePR(rg, svg, cs)
       {
         window.requestAnimationFrame( () => {
           forClick = false;
-          present(i, section);
+          present(i, last_present.section);
         });
       }
     }
   }
 
-  return {present, proxy};
+  return {present, proxy, attachProseMouseEvents};
 }
 
 function elements() {
@@ -1053,8 +1049,14 @@ function elements() {
     el.className = cs.container;
     el.innerHTML = made.cover + made.section;
 
-    const svg = document.querySelector('#figure');
-    pr = makePR(rg, svg, cs);
+    pr = makePR(rg, {
+      svg: document.querySelector('#figure'),
+      prose: document.querySelector('#proseContent'),
+      title: document.querySelector('#proseTitle'),
+      mo: document.querySelector('#move-on'),
+      mb: document.querySelector('#move-back'),
+    }, cs);
+    pr.attachProseMouseEvents();
 
     presentForLocation();
   }
