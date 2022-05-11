@@ -22,6 +22,26 @@ let colors = {
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
+function findMaxLTE(ps, i)
+{
+  let lo = 0, hi = ps.length -1;
+  let found = false;
+  while(!found && lo + 1 < hi)
+  {
+    let k = Math.floor((lo+hi)/2);
+    if(ps[k] == i)
+    {
+      found = true;
+      lo = k;
+    }
+    else if(ps[k] < i)
+      lo = k;
+    else
+      hi = k;
+  }
+  return lo;
+}
+
 /**
  * Create DOM node, set attributes.
  *
@@ -475,7 +495,7 @@ function makePR(rg, w, cs)
     figure.prepared = true;
   }
 
-  function prepareLetterOverlay(figure, letterColor, highlightFigure, smallLetters)
+  function prepareLetterOverlay(figure, letterColor, smallLetters)
   {
     let shapes = [];
     for(var i in figure.letters)
@@ -490,9 +510,17 @@ function makePR(rg, w, cs)
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
 
       let fillcolor = colors.dim;
-      if(highlightFigure && letterColor[i])
+      if(letterColor[i] === 'bright')
       {
-        fillcolor = letterColor[i];
+        fillcolor = colors.bright;
+      }
+      else if(letterColor[i] === 'sentence')
+      {
+        fillcolor = colors.sentence;
+      }
+      else if(letterColor[i] === 'hover_bright')
+      {
+        fillcolor = colors.hover_bright;
       }
       let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
       let attrs = {
@@ -641,7 +669,7 @@ function makePR(rg, w, cs)
 
   function prepareDOM(section)
   {
-    let handles = { r: [], s: [], r_: [], s_: [] };
+    let handles = { r: [], s: [] };
     while(w.prose.firstChild)
       w.prose.removeChild(w.prose.firstChild);
 
@@ -701,16 +729,17 @@ function makePR(rg, w, cs)
   }
 
   let handles;
+  let tie = { s: [], r: [] };
   let last_present;
   let last_section_id = -1;
-  function present(o, section, hover_o, no_scroll)
+  function present(ri, section, ri_hover, no_scroll)
   {
-    last_present = {o, section, hover_o};
-    if(o == null)
+    last_present = {ri, section, ri_hover};
+    if(ri == null)
     {
-      o = section.i || 0;
+      ri = section.i || 0;
     }
-    section.i = o;
+    section.i = ri;
 
     if(!section.paragraphs)
     {
@@ -731,11 +760,11 @@ function makePR(rg, w, cs)
       }
     }
 
-    if(o < 0)
+    if(ri < 0)
     {
       return present(section.i_count-2, section);
     }
-    else if (o >= section.i_count-1 && section.i_count > 0)
+    else if (ri >= section.i_count-1 && section.i_count > 0)
     {
       return present(0, section);
     }
@@ -748,118 +777,101 @@ function makePR(rg, w, cs)
       handles = prepareDOM(section);
     }
 
-    function findMaxLTE(ps, i)
+    while(tie.s.length > 0)
     {
-      let lo = 0, hi = ps.length -1;
-      let found = false;
-      while(!found && lo + 1 < hi)
-      {
-        let k = Math.floor((lo+hi)/2);
-        if(ps[k] == i)
-        {
-          found = true;
-          lo = k;
-        }
-        else if(ps[k] < i)
-          lo = k;
-        else
-          hi = k;
-      }
-      return lo;
-    }
-
-    let k_focus = findMaxLTE(section.i_p, o);
-    let k_hover = !isNaN(hover_o) ? findMaxLTE(section.i_p, hover_o): null;;
-
-    let nearHighlights = [];
-    let hoverHighlights = [];
-    let highlights = [];
-    let figureIndex = 0;
-    let hoverFigureIndex = 0;
-
-    while(handles.s_.length > 0)
-    {
-      let v = handles.s_.pop();
+      let v = tie.s.pop();
       v.sentenceEl.style['color'] = colors.dim;
     }
 
-    while(handles.r_.length > 0)
+    while(tie.r.length > 0)
     {
-      let a = handles.r_.pop();
+      let a = tie.r.pop();
       if(!a) continue;
       a.el.style['color'] = colors.dim;
     }
 
-    if (k_hover!=null)
-    {
-      let hover = handles.s[k_hover];
-      hover.sentenceEl.style['color'] = colors.hover;
-      handles.s_.push(hover);
+    tie.s = []
+    tie.r = [];
+    tie.near = [];
+    tie.hover = [];
+    tie.center = [];
+    tie.fi = 0;
+    tie.hfi = 0;
 
-      handles.r.slice(section.i_p[k_hover], section.i_p[k_hover+1]).forEach(u =>
-      {
-        if(!u) return;
-        u.el.style['color'] = colors.hover;
-        handles.r_.push(u);
-      });
-    }
+    let si = findMaxLTE(section.i_p, ri);
 
-    let focus = handles.s[k_focus];
-    focus.sentenceEl.style['color'] = colors.sentence;
-    handles.s_.push(focus);
+    let sh = handles.s[si];
+    sh.sentenceEl.style['color'] = colors.sentence;
+    tie.s.push(sh);
     if(!no_scroll)
     {
-      scrollToSentenceIfNecessary(focus.sentenceEl);
+      scrollToSentenceIfNecessary(sh.sentenceEl);
     }
 
     let seenMarks = {};
-    handles.r.slice(section.i_p[k_focus], section.i_p[k_focus+1]).forEach(u =>
+    handles.r.slice(section.i_p[si], section.i_p[si+1]).forEach(rh =>
     {
-      if(!u) return;
-      u.el.style['color'] = colors.sentence;
-      let part = u.part, hash = JSON.stringify(part);
+      if(!rh) return;
+      rh.el.style['color'] = colors.sentence;
+      let part = rh.part, hash = JSON.stringify(part);
       if(!seenMarks[hash])
       {
-        nearHighlights.push(part);
+        tie.near.push(part);
         seenMarks[hash] = true;
       }
-      handles.r_.push(u);
+      tie.r.push(rh);
     });
 
-    if(!isNaN(hover_o) && hover_o != o && handles.r[hover_o])
+    if(handles.r[ri])
     {
-      let hover_u = handles.r[hover_o];
-      hoverHighlights.push(hover_u.part);
-      hoverFigureIndex = hover_u.lastSeenFigureIndex;
-      hover_u.el.style['color'] = colors.hover_bright;
-      handles.r_.push(hover_u);
+      let rh = handles.r[ri];
+      tie.center.push(rh.part);
+      tie.fi = rh.lastSeenFigureIndex;
+      rh.el.style['color'] = colors.bright;
+      tie.r.push(rh);
     }
 
-    if(handles.r[o])
+    let si_hover = !isNaN(ri_hover) ? findMaxLTE(section.i_p, ri_hover): null;;
+
+    if (si_hover!=null)
     {
-      let focus = handles.r[o];
-      highlights.push(focus.part);
-      figureIndex = focus.lastSeenFigureIndex;
-      focus.el.style['color'] = colors.bright;
-      handles.r_.push(focus);
+      let sh_hover = handles.s[si_hover];
+      sh_hover.sentenceEl.style['color'] = colors.hover;
+      tie.s.push(sh_hover);
+
+      handles.r.slice(section.i_p[si_hover], section.i_p[si_hover+1]).forEach(rh =>
+      {
+        if(!rh) return;
+        rh.el.style['color'] = colors.hover;
+        tie.r.push(rh);
+      });
+    }
+
+    if(!isNaN(ri_hover) && ri_hover != ri && handles.r[ri_hover])
+    {
+      let rh_hover = handles.r[ri_hover];
+      tie.hover.push(rh_hover.part);
+      tie.hfi = rh_hover.lastSeenFigureIndex;
+      rh_hover.el.style['color'] = colors.hover_bright;
+      tie.r.push(rh_hover);
     }
 
     if(w.mb && w.mo)
     {
       let h_o = colors.sentence, h_b = colors.dim;
       w.mb.innerText = "previous";
-      if (o === 0)
+      if (ri === 0)
       {
         w.mb.innerText = "";
       }
 
-      if (o === section.i_count-2)
+      if (ri === section.i_count-2)
       {
         h_o = colors.dim;
         h_b = colors.dim;
         w.mo.innerText = "back to top";
       }
-      else if (o === section.i_p[k_focus+1] - 1)
+      else if (ri === section.i_p[si+1] - 1)
       {
         h_b = colors.dim;
         h_o = colors.sentence;
@@ -876,9 +888,13 @@ function makePR(rg, w, cs)
     while(w.svg.firstChild)
       w.svg.removeChild(w.svg.firstChild);
 
-    let hs = highlights.filter(h=>h.typ);
-    let nhs = nearHighlights.filter(h=>h.typ);
-    let hhs = hoverHighlights.filter(h=>h.typ);
+
+    let appendDraw = (figure, l, ds) => ds.forEach(h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw)));
+    let setLetterColor = (o, c, ds) => ds.forEach(h => { h.name.split('').forEach(l => o[l] = c); })
+
+    tie.center = tie.center.filter(h=>h.typ);
+    tie.near = tie.near.filter(h=>h.typ);
+    tie.hover = tie.hover.filter(h=>h.typ);
     let g = se('g');
     w.svg.append(g);
     if(!section.figures)
@@ -886,22 +902,15 @@ function makePR(rg, w, cs)
       let figure = section;
       g.append(...figure.shapes.map(rg.draw));
 
-      let f = l => h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
-      nhs.forEach( f('sentence') );
-      hs.forEach( f('bright') );
+      let o = {};
+      appendDraw(figure, 'sentence', tie.near);
+      // setLetterColor(o, 'sentence', tie.near);
+      appendDraw(figure, 'bright', tie.center);
+      setLetterColor(o, 'bright', tie.center);
+      appendDraw(figure, 'hover_bright', tie.hover);
+      setLetterColor(o, 'hover_bright', tie.hover);
 
-      hhs.forEach( f('hover_bright') );
-
-      let letterColor = {};
-      f = c => h => {
-        h.name.split('').forEach(l => letterColor[l] = c);
-      }
-      // nearHighlights.forEach(f(colors.sentence));
-      highlights.forEach(f(colors.bright));
-      hoverHighlights.forEach(f(colors.hover_bright));
-
-
-      let els = prepareLetterOverlay(figure, letterColor, true, false);
+      let els = prepareLetterOverlay(figure, o, false);
       w.svg.append(...els);
     }
     else
@@ -911,35 +920,25 @@ function makePR(rg, w, cs)
         let figure = section.figures[i];
         g.append(...figure.shapes.map(rg.draw));
 
-        let highlightFigure = figureIndex == 0 || figureIndex == i+1;
-        let hoverHighlightFigure = hoverFigureIndex == 0 || hoverFigureIndex == i+1;
 
-        let f = l => h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw));
-        if(highlightFigure)
+        let o = {};
+        let shouldHighlight = tie.fi == 0 || tie.fi == i+1;
+        if(shouldHighlight)
         {
-          // nhs.forEach( f('sentence') );
-          hs.forEach( f('bright') );
-        }
-        if(hoverHighlightFigure)
-        {
-          hhs.forEach( f('hover_bright') );
+          // appendDraw(figure, 'sentence', tie.near);
+          appendDraw(figure, 'bright', tie.center);
+          // setLetterColor(o, 'sentence', tie.near);
+          setLetterColor(o, 'bright', tie.center);
         }
 
-        let letterColor = {};
-        f = c => h => {
-          h.name.split('').forEach(l => letterColor[l] = c);
-        }
-        if(figureIndex == 0 || figureIndex == i+1)
+        let shouldHighlightHover = tie.hfi == 0 || tie.hfi == i+1;
+        if(shouldHighlightHover)
         {
-          // nearHighlights.forEach(f(colors.sentence));
-          highlights.forEach(f(colors.bright));
-        }
-        if(hoverHighlightFigure)
-        {
-          hoverHighlights.forEach(f(colors.hover_bright));
+          appendDraw(figure, 'hover_bright', tie.hover);
+          setLetterColor(o, 'hover_bright', tie.hover);
         }
 
-        let els = prepareLetterOverlay(figure, letterColor, highlightFigure, true);
+        let els = prepareLetterOverlay(figure, o, true);
         w.svg.append(...els);
       }
     }
@@ -953,13 +952,12 @@ function makePR(rg, w, cs)
     }
 
     last_section_id = section.id;
-
-    proxy.moveon = () => { present(o + 1, section); };
-    proxy.moveback = () => { present(o - 1, section); };
-
   }
 
-  function attachProseMouseEvents()
+  proxy.moveon = () => { present(last_present.ri + 1, last_present.section); };
+  proxy.moveback = () => { present(last_present.ri - 1, last_present.section); };
+
+  proxy.attachProseMouseEvents = () =>
   {
     let forClick = false, forCancel = null;
     w.prose.onmouseout = (e) =>
@@ -973,10 +971,10 @@ function makePR(rg, w, cs)
         forCancel = null;
       }
 
-      if(!isNaN(last_present.hover_o))
+      if(!isNaN(last_present.ri_hover))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(last_present.o, last_present.section, undefined, true);
+          present(last_present.ri, last_present.section, undefined, true);
         });
       }
     }
@@ -1000,7 +998,7 @@ function makePR(rg, w, cs)
       if(!isNaN(i))
       {
         forCancel = window.requestAnimationFrame(() => {
-          present(last_present.o, last_present.section, i, true);
+          present(last_present.ri, last_present.section, i, true);
         });
       }
     }
@@ -1025,7 +1023,7 @@ function makePR(rg, w, cs)
     }
   }
 
-  return {present, proxy, attachProseMouseEvents};
+  return {present, proxy};
 }
 
 function elements() {
@@ -1056,7 +1054,7 @@ function elements() {
       mo: document.querySelector('#move-on'),
       mb: document.querySelector('#move-back'),
     }, cs);
-    pr.attachProseMouseEvents();
+    pr.proxy.attachProseMouseEvents();
 
     presentForLocation();
   }
