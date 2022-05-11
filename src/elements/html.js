@@ -1,7 +1,36 @@
 function make(colors, cs)
 {
   let cover = `
-<div id="cover" class="${cs.cover}">
+<div id="cover" class="${cs.coverWrap}">
+<div class="${cs.hero}">
+<p>
+A digital and interactive rendering of the entire 13 books, optimized for your reading.
+</p>
+
+<p>
+We have transitioned to digital technologies, but our most important books are yet to adapt.
+</p>
+
+<p>
+As an experiment, this 2300 years old cornerstone of our civilization is carefully reproduced in open and modern technologies for this digital experience.
+</p>
+</div>
+<div id="preview" class="${cs.preview}">
+  <div class="${cs.figPreview}">
+    <svg viewbox="0 0 512 512"></svg>
+  </div>
+  <div class="prose-container ${cs.prosePreview}">
+    <div class="${cs.proseHeadingPreview}">
+      <div class="proseTitle ${cs.proseTitle}"></div>
+    </div>
+    <div class="proseContent"></div>
+  </div>
+</div>
+<div class="${cs.hero}">
+<p> Read at your own pace.</p>
+<p> <a id="readNow">${anglesDown}</a></p>
+</div>
+<div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
     <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
     <p>
@@ -103,6 +132,7 @@ function make(colors, cs)
     <p style="margin-top: 50px;">Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
     <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
   </div>
+</div>
 </div>`;
 
   let section = `
@@ -112,7 +142,7 @@ function make(colors, cs)
       <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
     </div>
   </div>
-  <div id="figColumn" class="${cs.figColumn}">
+  <div class="${cs.figColumn}">
     <svg id="figure" viewbox="0 0 512 512"></svg>
   </div>
   <div class="${cs.prose}">
@@ -131,6 +161,8 @@ function make(colors, cs)
 
   return { cover, section };
 }
+
+let anglesDown = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M169.4 278.6C175.6 284.9 183.8 288 192 288s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0L192 210.8L54.63 73.38c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L169.4 278.6zM329.4 265.4L192 402.8L54.63 265.4c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l160 160C175.6 476.9 183.8 480 192 480s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25S341.9 252.9 329.4 265.4z"/></svg>';
 
 let arrowl = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M9.375 233.4l128-128c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H480c17.69 0 32 14.31 32 32s-14.31 32-32 32H109.3l73.38 73.38c12.5 12.5 12.5 32.75 0 45.25c-12.49 12.49-32.74 12.51-45.25 0l-128-128C-3.125 266.1-3.125 245.9 9.375 233.4z"/></svg>'
 let arrowr = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"/></svg>'

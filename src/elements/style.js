@@ -35,10 +35,12 @@ function make(colors)
         }
       },
     },
-    cover: {
-      marginRight: 'auto',
+    coverWrap: {
+      margin: 'auto',
       width: 1024,
       padding: 12,
+    },
+    cover: {
       display: 'flex',
       flexFlow: 'row nowrap',
       '& h4': {
@@ -193,6 +195,45 @@ function make(colors)
     c_dim: { color: colors.dim },
     c_sentence: { color: colors.sentence },
     c_bright: { color: colors.bright },
+
+    hero: {
+      color: colors.make([220, 50, 60]),
+      width: '90%',
+      margin: 'auto',
+      textAlign: 'center',
+      '& a' : style_link
+    },
+
+    preview: {
+      marginTop: 50,
+      marginBottom: 50,
+      display: 'flex',
+      flexDirection: 'row',
+      userSelect: 'none',
+      '& a': {
+        ...style_link,
+        display: 'inline-block'
+      },
+      '& p': {
+        lineHeight: '2em',
+        marginBottom: '2em',
+        textAlign: 'left',
+      },
+    },
+    figPreview: {
+      width: '50%',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-end',
+    },
+    prosePreview: {
+      height: 300,
+      width: '50%',
+      overflow: 'scroll',
+    },
+    proseHeadingPreview: {
+    },
+
   };
   return style;
 }

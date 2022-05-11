@@ -955,7 +955,11 @@ function makePR(rg, w, cs)
     last_section_id = section.id;
   }
 
-  proxy.moveon = () => { present(last_present.ri + 1, last_present.section); };
+  proxy.reached_end = () => {
+    return (last_present.ri + 2 === last_present.section.i_count);
+  }
+
+  proxy.moveon = (no_scroll) => { present(last_present.ri + 1, last_present.section, undefined, no_scroll); };
   proxy.moveback = () => { present(last_present.ri - 1, last_present.section); };
 
   proxy.attachProseMouseEvents = () =>
@@ -1048,12 +1052,66 @@ function elements() {
     el.className = cs.container;
     el.innerHTML = made.cover + made.section;
 
+    {
+      let preview = makePR(rg, {
+        svg: document.querySelector('#preview svg'),
+        prose: document.querySelector('#preview .proseContent'),
+        title: document.querySelector('#preview .proseTitle'),
+      }, cs);
+      canPresentSection(1, '43')
+      let sections = books[1];
+
+      let i_section = section_indices[1]['1.43'];
+      let prev_section = sections[i_section];
+      preview.present(null, sections[i_section]);
+
+      let proseCont = document.querySelector('#preview .prose-container');
+      let last_t = performance.now();
+      let target_scroll = 0;
+      let stopPreview = false;
+      function scrollPreview()
+      {
+        window.requestAnimationFrame( () =>
+          {
+            let total_height = proseCont.scrollHeight;
+            let total_scroll = total_height - proseCont.clientHeight;
+            let total_time = prev_section.i_count * 300/1000;
+            let scroll_speed = total_scroll/total_time;
+            if( stopPreview || target_scroll > total_scroll)
+              return;
+            let t = performance.now();
+            let dt = t-last_t
+            last_t = t;
+            target_scroll += scroll_speed*dt/1000;
+            proseCont.scrollTo(0, target_scroll)
+            scrollPreview();
+          });
+      }
+      scrollPreview();
+      function movePreview()
+      {
+        setTimeout(() =>
+          {
+            if(stopPreview || preview.proxy.reached_end())
+              return;
+            preview.proxy.moveon(true);
+            movePreview();
+          }, 300);
+      }
+      movePreview();
+      document.querySelector('#readNow').onclick = () =>
+      {
+        stopPreview = true;
+        document.querySelector('#coverStart').scrollIntoView();
+      };
+    }
+
     pr = makePR(rg, {
-      svg: document.querySelector('#figure'),
-      prose: document.querySelector('#proseContent'),
-      title: document.querySelector('#proseTitle'),
-      mo: document.querySelector('#move-on'),
-      mb: document.querySelector('#move-back'),
+      svg: document.querySelector('#section #figure'),
+      prose: document.querySelector('#section #proseContent'),
+      title: document.querySelector('#section #proseTitle'),
+      mo: document.querySelector('#section #move-on'),
+      mb: document.querySelector('#section #move-back'),
     }, cs);
     pr.proxy.attachProseMouseEvents();
 
