@@ -98,9 +98,10 @@ function make(colors, cs)
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
     <h4 style="background-color:${colors.make([0, 0, 20])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
     <svg style="margin-top:-50px;" width="400px" height="400px">${smpl}</svg>
-    <div style="height: 200px;"></div>
+    <p style="margin-top: 50px;">"As for ancient geometrical analysis, ... [it] is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination..."</p>
+    <p><em>— R. Descartes, A Discourse on the Method, 1637</em></p>
+    <p style="margin-top: 50px;">Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
     <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-    <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
   </div>
 </div>`;
 
