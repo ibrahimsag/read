@@ -728,6 +728,7 @@ function makePR(rg, w, cs)
     return handles;
   }
 
+  let bookmarks = {};
   let handles;
   let tie = { s: [], r: [] };
   let last_present;
@@ -737,9 +738,9 @@ function makePR(rg, w, cs)
     last_present = {ri, section, ri_hover};
     if(ri == null)
     {
-      ri = section.i || 0;
+      ri = bookmarks[section.id] || 0;
     }
-    section.i = ri;
+    bookmarks[section.id] = ri;
 
     if(!section.paragraphs)
     {
@@ -850,9 +851,9 @@ function makePR(rg, w, cs)
     if(!isNaN(ri_hover) && ri_hover != ri && handles.r[ri_hover])
     {
       let rh_hover = handles.r[ri_hover];
+      rh_hover.el.style['color'] = colors.hover_bright;
       tie.hover.push(rh_hover.part);
       tie.hfi = rh_hover.lastSeenFigureIndex;
-      rh_hover.el.style['color'] = colors.hover_bright;
       tie.r.push(rh_hover);
     }
 
@@ -1286,226 +1287,5 @@ function elements() {
   window.onresize = queueAlign;
 
 };
-
-function eh(a, b)
-{
-  let r = a > b ? [b, a] : [a, b];
-  return JSON.stringify(r);
-}
-
-function inset(rose, h)
-{
-  let t = 5;
-  let ps = [];
-  let o = h.lefthand ? -1 : 1;
-  let [p0, p1, p2] = h.is.map(i => rose.ps[i]);
-  let es = [v2.sub(p1, p0), v2.sub(p2, p1), v2.sub(p0, p2)];
-  let [e0, e1, e2] = es.map(e => v2.normalize(e));
-  let [n0, n1, n2] = [e0, e1, e2].map(e => v2.rot(e, o*Math.PI/2));
-
-  ps[1] = v2.add(p1, v2.add(v2.scale(e0, t/v2.dot(e0, n1)), v2.scale(e1, t/v2.dot(e1, n0))));
-  ps[2] = v2.add(p2, v2.scale(e2, t/v2.dot(e2, n1)));
-  ps[0] = v2.add(p0, v2.scale(e2, t/v2.dot(e2, n0)));
-  if(h.alone)
-  {
-    ps[2] = v2.add(ps[2], v2.scale(e1, t/v2.dot(e1, n2)));
-    ps[0] = v2.add(ps[0], v2.scale(e0, t/v2.dot(e0, n2)));
-  }
-  return ps;
-}
-
-function penrose(kites)
-{
-  function ec(rose, a, b, p)
-  {
-    let m = eh(a, b);
-    let i;
-    if((i = rose.es[m]) === undefined)
-    {
-      i = rose.ps.length;
-      rose.ps.push(p)
-      rose.es[m] = i;
-    }
-    return i;
-  }
-
-  function subdivide(rose, h)
-  {
-    let o = h.lefthand ? -1 : 1;
-    let ps = h.is.map(i => rose.ps[i]);
-    if(h.typ === 'kite')
-    {
-      let e1 = v2.sub(ps[2], ps[1]);
-      let p0 = v2.add(ps[1], v2.rot(e1, o*Math.PI/5));
-      let i0 = ec(rose, h.is[0], h.is[2], p0);
-
-      let p1 = v2.add(ps[1], v2.rot(e1, o*Math.PI*2/5));
-      let i1 = ec(rose, h.is[0], h.is[1], p1)
-
-      let ts = [{typ:'dart', lefthand: h.lefthand, is: [i1, i0, h.is[0]]},
-                {typ:'kite', lefthand: h.lefthand, is: [h.is[1], h.is[2], i0]},
-                {typ:'kite', lefthand: !h.lefthand, is: [h.is[1], i1, i0]}];
-      return ts;
-    }
-    else if(h.typ === 'dart')
-    {
-      let e1 = v2.sub(ps[0], ps[2]);
-      let p0 = v2.add(ps[2], v2.rot(e1, o*Math.PI/5));
-      let i0 = ec(rose, h.is[1], h.is[2], p0);
-
-      let ts = [{typ:'dart', lefthand: h.lefthand, is: [i0, h.is[0], h.is[1]]},
-                {typ:'kite', lefthand: !h.lefthand, is: [h.is[2], i0, h.is[0]]}];
-      return ts;
-    }
-  }
-
-  function rhombs(rose, h)
-  {
-    let o = h.lefthand ? -1 : 1;
-    if(h.typ === 'kite')
-    {
-      let ps = h.is.map(i => rose.ps[i]);
-      let e1 = v2.sub(ps[2], ps[1]);
-      let p0 = v2.add(ps[1], v2.rot(e1, o*Math.PI/5));
-      let i0 = ec(rose, h.is[0], h.is[2], p0);
-
-      let ts = [{typ:'thin', lefthand: h.lefthand, is: [i0, h.is[1], h.is[2]]},
-                {typ:'thick', lefthand: h.lefthand, is: [h.is[1], i0, h.is[0]]}];
-      return ts;
-    }
-    else if(h.typ === 'dart')
-    {
-      let ts = [{typ:'thick', lefthand: h.lefthand, is: [h.is[2], h.is[0], h.is[1]]}];
-      return ts;
-    }
-  }
-
-  function makeArc(radius, sub)
-  {
-    let ps = [];
-    ps[0] = [0, 0];
-    ps[2] = v2.rot([radius, 0], Math.PI/10);
-    ps[1] = v2.rot(v2.sub(ps[2], ps[0]), -Math.PI/5);
-
-    let rose = {ps};
-    let sun = [{typ:'kite', is:[0, 1, 2]}];
-    for(let i = 0; i < 2; i++)
-    {
-      let l = sun[i];
-      let lefthand = !l.lefthand;
-      let is;
-      let ps = l.is.map(i => rose.ps[i]);
-      if(lefthand)
-      {
-        let i0;
-        if(i === 8)
-        {
-          i0 = 1;
-        }
-        else
-        {
-          i0 = rose.ps.length;
-          let p = v2.add(ps[0], v2.rot(v2.sub(ps[2], ps[0]), Math.PI/5));
-          rose.ps.push(p);
-        }
-        is = [l.is[0], i0, l.is[2]];
-      }
-      else
-      {
-        let i0 = rose.ps.length;
-        let p = v2.add(ps[0], v2.rot(v2.sub(ps[1], ps[0]), Math.PI/5));
-        rose.ps.push(p)
-        is = [l.is[0], l.is[1], i0];
-      }
-
-      sun.push({typ:'kite', lefthand, is});
-    }
-
-      rose.es = {};
-    let hs = sun;
-    for(let i = 0; i < sub; i++)
-    {
-      rose.es = {};
-      hs = hs.map(h => subdivide(rose, h)).flat()
-    }
-
-    if(!kites)
-      hs = hs.map(h => rhombs(rose, h)).flat();
-
-    rose.es = {};
-    for(let i = 0; i < hs.length; i++)
-    {
-      let is = hs[i].is;
-      let m = eh(is[0], is[2]);
-      if(rose.es[m] === undefined)
-        rose.es[m] = i;
-      else
-        delete rose.es[m];
-    }
-
-    for(let k in rose.es)
-    {
-      let hi = rose.es[k];
-      hs[hi].alone = true;
-    }
-    return {rose, hs};
-  }
-  return {makeArc};
-}
-
-function bgtiles()
-{
-
-  let w = {}, u = {}, v = {};
-  w.e = se('svg');
-  w.w = Math.max(window.innerWidth, window.innerHeight)*1.5;
-  w.h = w.w;
-  w.e.setAttribute('width', `${w.w}`);
-  w.e.setAttribute('height', `${w.h}`);
-  w.e.setAttribute('viewBox', `0 0 ${w.w} ${w.h}`);
-  w.e.style.dominantBaseline = 'hanging';
-
-  w.e.style.position = 'fixed';
-  w.e.style.zIndex = '-1';
-  w.e.style.top = 0;
-  w.e.style.left = 0;
-
-  document.body.append(w.e);
-
-  let pattern = penrose();
-
-  let pp = p => `${p[0]} ${p[1]}`;
-
-  function draw(rose, h)
-  {
-    let es = [];
-    let ps = inset(rose, h);
-
-    {
-      let d = `M ${pp(ps[0])} L ${pp(ps[1])} L ${ pp(ps[2]) }`;
-      if(h.alone)
-        d+= ` L ${pp(ps[0])}`;
-      let c = hsl(320, 50, 10);
-      let e = se('path', {fill: 'none', stroke: c, 'stroke-width': '1', d:d})
-
-      es.push(e);
-    }
-    return es;
-  }
-
-  let piece = 50;
-  let phi = (1+Math.sqrt(5))/2;
-  let sub = Math.round(Math.log(w.w*1.5/piece)/Math.log(phi));
-  let radius = piece*Math.pow(phi, sub);
-
-  let {rose, hs} = pattern.makeArc(radius, sub);
-
-  let es = hs.map(h => draw(rose, h)).flat();
-
-  while(w.e.firstChild)
-    w.e.removeChild(w.e.firstChild);
-  w.e.append(...es);
-}
-// bgtiles();
 
 elements();
