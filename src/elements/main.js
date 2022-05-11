@@ -709,23 +709,6 @@ function makePR(rg, svg, cs)
     })
   }
 
-  function refreshImgLetters(imgEl, letters, letterColor)
-  {
-    imgEl.querySelectorAll('text').forEach(el => imgEl.removeChild(el));
-
-    for(var l in letters) {
-      let d = letters[l];
-      var el = se('text');
-      el.textContent = l;
-      el.setAttribute('font-family', 'Nale');
-      el.setAttribute('font-size', d.s);
-      el.setAttribute('fill', letterColor[l] || colors.dim);
-      el.setAttribute('x', d.x);
-      el.setAttribute('y', d.y);
-      imgEl.appendChild(el);
-    }
-  }
-
   function present(o, section, hover_o, no_scroll)
   {
     last_section = section;
@@ -979,50 +962,6 @@ function makePR(rg, svg, cs)
 
     last_section_id = section.id;
 
-    if(section.img && section.imgData)
-    {
-      let imgEl = figColumnEl.querySelector('.given svg');
-      let letterColor = {};
-      let f = c => h => {
-        h.name.split('').forEach(l => letterColor[l] = c);
-      }
-      if(figureIndex == 0 || figureIndex == i+1)
-      {
-        //nearHighlights.forEach(f(colors.sentence));
-        highlights.forEach(f(colors.bright));
-      }
-      if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
-      {
-        hoverHighlights.forEach(f(colors.hover_bright));
-      }
-
-      refreshImgLetters(imgEl, section.imgData.letters, letterColor);
-    }
-    else if(section.imgs && section.imgsData)
-    {
-      let imgEls = figColumnEl.querySelectorAll('.given svg');
-      for(let i = 0; i < section.imgsData.length; i++)
-      {
-        let imgEl = imgEls[i];
-        let letters = section.imgsData[i].letters;
-        let letterColor = {};
-        let f = c => h => {
-          h.name.split('').forEach(l => letterColor[l] = c);
-        }
-        if(figureIndex == 0 || figureIndex == i+1)
-        {
-          // nearHighlights.forEach(f(colors.sentence));
-          highlights.forEach(f(colors.bright));
-        }
-        if(hoverFigureIndex == 0 || hoverFigureIndex == i+1)
-        {
-          hoverHighlights.forEach(f(colors.hover_bright));
-        }
-
-        refreshImgLetters(imgEl, letters, letterColor);
-      }
-    }
-
     proxy.moveon = () => { present(o + 1, section); };
     proxy.moveback = () => { present(o - 1, section); };
 
@@ -1176,17 +1115,6 @@ function elements() {
       {
         i_section = (i_section+1) % sections.length;
         openSection(i_book, sections[i_section].id);
-      }
-      else if(e.key == "h")
-      {
-        let s = document.querySelector('#figColumn .given');
-        if(s)
-        {
-          if(s.style.display != "none")
-            s.style.display = "none";
-          else
-            s.style.display = null;
-        }
       }
     }
 
