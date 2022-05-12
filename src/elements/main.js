@@ -358,68 +358,69 @@ function makeRG()
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
 }
 
+function prepareMags(section)
+{
+  let mags = section.mags;
+  let last_pos = [0, 0];
+  let pos = [0, 0];
+  section.ticks = [];
+  section.indices = {};
+
+  for(var i = 0; i < mags.length; i++)
+  {
+    let mag = mags[i];
+    if(mag.p)
+    {
+      pos = mag.p;
+      last_pos = pos;
+    }
+    else if(mag.v)
+    {
+      pos = v2.add(last_pos, v2.s(v2.y, mag.v));
+      last_pos = pos;
+    }
+
+    if(mag.p || mag.v)
+    {
+      section.shapes.push(rg.tick(pos));
+      section.indices[mag.l] = section.ticks.length;
+      section.ticks.push(pos);
+      section.letters[mag.l] = [2.9, 2];
+    }
+    else if(mag.m)
+    {
+      section.letters[mag.l] = [1, 2];
+      section.indices[mag.l] = section.ticks.length - 1;
+    }
+    else
+    {
+      section.letters[mag.l] = [1, 2];
+      section.indices[mag.l] = section.ticks.length - 1;
+    }
+    section.points[mag.l] = pos;
+
+    if(mag.m)
+    {
+      let n = mag.n ? mag.n : 1;
+      for(var k = 0; k < n; k++)
+      {
+        let prev_pos = pos;
+        pos = v2.add(prev_pos, v2.s(v2.x, mag.m));
+        section.shapes.push(rg.tick(pos));
+        section.shapes.push(rg.line(prev_pos, pos));
+        section.ticks.push(pos);
+        section.indices[mag.l + 'e'] = section.ticks.length - 1;
+      }
+    }
+  }
+
+  return section;
+}
+
 function makePR(rg, w, cs)
 {
   let proxy = {};
 
-  function prepareMags(section)
-  {
-    let mags = section.mags;
-    let last_pos = [0, 0];
-    let pos = [0, 0];
-    section.ticks = [];
-    section.indices = {};
-
-    for(var i = 0; i < mags.length; i++)
-    {
-      let mag = mags[i];
-      if(mag.p)
-      {
-        pos = mag.p;
-        last_pos = pos;
-      }
-      else if(mag.v)
-      {
-        pos = v2.add(last_pos, v2.s(v2.y, mag.v));
-        last_pos = pos;
-      }
-
-      if(mag.p || mag.v)
-      {
-        section.shapes.push(rg.tick(pos));
-        section.indices[mag.l] = section.ticks.length;
-        section.ticks.push(pos);
-        section.letters[mag.l] = [2.9, 2];
-      }
-      else if(mag.m)
-      {
-        section.letters[mag.l] = [1, 2];
-        section.indices[mag.l] = section.ticks.length - 1;
-      }
-      else
-      {
-        section.letters[mag.l] = [1, 2];
-        section.indices[mag.l] = section.ticks.length - 1;
-      }
-      section.points[mag.l] = pos;
-
-      if(mag.m)
-      {
-        let n = mag.n ? mag.n : 1;
-        for(var k = 0; k < n; k++)
-        {
-          let prev_pos = pos;
-          pos = v2.add(prev_pos, v2.s(v2.x, mag.m));
-          section.shapes.push(rg.tick(pos));
-          section.shapes.push(rg.line(prev_pos, pos));
-          section.ticks.push(pos);
-          section.indices[mag.l + 'e'] = section.ticks.length - 1;
-        }
-      }
-    }
-
-    return section;
-  }
 
   function prepareLetterOffsets(figure, smallLetters)
   {
@@ -481,10 +482,9 @@ function makePR(rg, w, cs)
     if(!figure.points) figure.points = {};
     if(!figure.shapes) figure.shapes = [];
     if(!figure.letters) figure.letters = {};
-    if(figure.mags && !figure.magsProcessed)
+    if(figure.mags && !figure.ticks)
     {
       prepareMags(figure);
-      figure.magsProcessed = true;
     }
 
     if(!figure.letterOffsets)
@@ -546,8 +546,7 @@ function makePR(rg, w, cs)
     let lastSeenFigureIndex = 0;
     section.i_count = 0;
     section.i_p = [];
-    section.paragraphs = section.prose.split('\n\n').map(paragraphProse =>
-      {
+    section.paragraphs = section.prose.split('\n\n').map(paragraphProse => {
         return paragraphProse.split('\n').map(sentenceProse =>
           {
             let k = section.i_p.length;
@@ -946,10 +945,13 @@ function makePR(rg, w, cs)
 
     if(last_section_id != section.id)
     {
-      let r = g.getBBox();
-      w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
-      w.svg.setAttribute('width', r.width + 100);
-      w.svg.setAttribute('height', r.height + 100);
+      setTimeout( () =>
+        {
+          let r = g.getBBox();
+          w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
+          w.svg.setAttribute('width', r.width + 100);
+          w.svg.setAttribute('height', r.height + 100);
+        });
     }
 
     last_section_id = section.id;
@@ -1043,6 +1045,7 @@ function elements() {
   let section_indices = {};
   let pr;
 
+  let stopPreview = false;
   const rg = makeRG();
   window.books = window.books_(rg);
 
@@ -1050,61 +1053,8 @@ function elements() {
 
     const el = document.querySelector('#container');
     el.className = cs.container;
-    el.innerHTML = made.cover + made.section;
+    el.innerHTML = made.cover + made.toc + made.section;
 
-    {
-      let preview = makePR(rg, {
-        svg: document.querySelector('#preview svg'),
-        prose: document.querySelector('#preview .proseContent'),
-        title: document.querySelector('#preview .proseTitle'),
-      }, cs);
-      canPresentSection(1, '43')
-      let sections = books[1];
-
-      let i_section = section_indices[1]['1.43'];
-      let prev_section = sections[i_section];
-      preview.present(null, sections[i_section]);
-
-      let proseCont = document.querySelector('#preview .prose-container');
-      let last_t = performance.now();
-      let target_scroll = 0;
-      let stopPreview = false;
-      function scrollPreview()
-      {
-        window.requestAnimationFrame( () =>
-          {
-            let total_height = proseCont.scrollHeight;
-            let total_scroll = total_height - proseCont.clientHeight;
-            let total_time = prev_section.i_count * 300/1000;
-            let scroll_speed = total_scroll/total_time;
-            if( stopPreview || target_scroll > total_scroll)
-              return;
-            let t = performance.now();
-            let dt = t-last_t
-            last_t = t;
-            target_scroll += scroll_speed*dt/1000;
-            proseCont.scrollTo(0, target_scroll)
-            scrollPreview();
-          });
-      }
-      scrollPreview();
-      function movePreview()
-      {
-        setTimeout(() =>
-          {
-            if(stopPreview || preview.proxy.reached_end())
-              return;
-            preview.proxy.moveon(true);
-            movePreview();
-          }, 300);
-      }
-      movePreview();
-      document.querySelector('#readNow').onclick = () =>
-      {
-        stopPreview = true;
-        document.querySelector('#coverStart').scrollIntoView();
-      };
-    }
 
     pr = makePR(rg, {
       svg: document.querySelector('#section #figure'),
@@ -1141,6 +1091,7 @@ function elements() {
   }
 
   function presentSection(i_book, id) {
+    stopPreview = true;
     let sections = books[i_book];
 
     let i_section = section_indices[i_book][id];
@@ -1231,11 +1182,172 @@ function elements() {
   function presentCover() {
     document.querySelector('#container').className = 'cover';
     document.onkeydown = undefined;
+    {
+      let preview = makePR(rg, {
+        svg: document.querySelector('#preview svg'),
+        prose: document.querySelector('#preview .proseContent'),
+        title: document.querySelector('#preview .proseTitle'),
+      }, cs);
+      canPresentSection(1, '43')
+      let sections = books[1];
+
+      let i_section = section_indices[1]['1.43'];
+      let prev_section = sections[i_section];
+      preview.present(null, sections[i_section]);
+
+      let proseCont = document.querySelector('#preview .prose-container');
+      let last_t = performance.now();
+      let target_scroll = 0;
+      stopPreview = false;
+      function scrollPreview()
+      {
+        window.requestAnimationFrame( () =>
+          {
+            let total_height = proseCont.scrollHeight;
+            let total_scroll = total_height - proseCont.clientHeight;
+            let total_time = prev_section.i_count * 300/1000;
+            let scroll_speed = total_scroll/total_time;
+            if( stopPreview || target_scroll > total_scroll)
+              return;
+            let t = performance.now();
+            let dt = t-last_t
+            last_t = t;
+            target_scroll += scroll_speed*dt/1000;
+            proseCont.scrollTo(0, target_scroll)
+            scrollPreview();
+          });
+      }
+      scrollPreview();
+      function movePreview()
+      {
+        setTimeout(() =>
+          {
+            if(stopPreview || preview.proxy.reached_end())
+              return;
+            preview.proxy.moveon(true);
+            movePreview();
+          }, 300);
+      }
+      movePreview();
+      document.querySelector('#readNow').onclick = () =>
+      {
+        stopPreview = true;
+        document.querySelector('#coverStart').scrollIntoView();
+      };
+    }
+  }
+
+  function presentToc() {
+    stopPreview = true;
+    document.querySelector('#container').className = 'toc';
+    document.onkeydown = undefined;
+    let sectionsColumn = document.querySelector('#sectionsColumn');
+    let lastSelected = null;
+    let handleBookSelect = (el) =>
+    {
+      el.classList.toggle('selected');
+      if(lastSelected)
+        lastSelected.classList.toggle('selected');
+      lastSelected = el;
+
+      while(sectionsColumn.firstChild)
+        sectionsColumn.removeChild(sectionsColumn.firstChild);
+
+      let m = el.textContent.match(/Book (\d+).*/)
+      let sections = books[m[1]];
+      for(let i in sections)
+      {
+        let sle = document.createElement('div')
+        let s = sections[i];
+        {
+          let e = document.createElement('h4')
+          e.innerText = s.title;
+          sle.append(e);
+        }
+
+        let prepare = (f) =>
+        {
+          if(f.mags && !f.ticks)
+          {
+            if(!f.points) f.points = {};
+            if(!f.shapes) f.shapes = [];
+            if(!f.letters) f.letters = {};
+            prepareMags(f);
+          }
+        }
+
+        if(s.figures)
+          s.figures.forEach(prepare);
+        else
+          prepare(s)
+
+        if(s.figures || (s.shapes && s.shapes.length > 0))
+        {
+          let svg = se('svg');
+          let g = se('g');
+
+          if(!s.figures)
+          {
+            g.append(...s.shapes.map(rg.draw));
+          }
+          else
+          {
+            s.figures.forEach(figure => {
+              g.append(...figure.shapes.map(rg.draw));
+            });
+          }
+
+          setTimeout( () =>
+            {
+              let r = g.getBBox();
+              svg.setAttribute('viewBox', [r.x - 50/2, r.y - 50/2, r.width+100/2, r.height+100/2].join(' '));
+              svg.setAttribute('width', (r.width + 100)/2);
+              svg.setAttribute('height', (r.height + 100)/2);
+            });
+
+          svg.append(g);
+          sle.append(svg);
+        }
+        {
+          let e = document.createElement('p');
+          e.innerText = s.prose.split('\n')[0] + '.. ';
+          let a = document.createElement('a');
+          a.setAttribute('pref', s.id);
+          a.innerText = 'continue';
+          e.append(a);
+          sle.append(e);
+        }
+        sectionsColumn.appendChild(sle);
+
+      }
+    }
+
+    let ss = document.querySelector('#booksColumn h4.selected');
+    if(ss)
+    {
+      lastSelected = ss;
+    }
+    else
+    {
+      handleBookSelect(document.querySelectorAll('#booksColumn h4')[0]);
+    }
+    let el = document.querySelector('#booksColumn');
+    el.onclick = (e) =>
+    {
+      let el = e.srcElement
+      if(el.nodeName !== 'H4' || lastSelected === el)
+          return;
+      handleBookSelect(el);
+    }
   }
 
   let presentForLocation = () => {
     let m, re = /elements\/([^\/]+)/;
-    if(m = location.pathname.match(re))
+    if(location.pathname.match('/elements/toc'))
+    {
+      presentToc();
+    }
+    else if(m = location.pathname.match(re))
     {
       let id = m[1];
       let [i_book, _] = id.split('.');
@@ -1260,6 +1372,7 @@ function elements() {
   }
 
   function openSection(i_book, id) {
+    window.scrollTo(0, 0);
     if(canPresentSection(i_book, id))
     {
       history.pushState(null, '', id);
@@ -1271,8 +1384,16 @@ function elements() {
     }
   }
 
+  function openToc()
+  {
+    window.scrollTo(0, 0);
+    history.pushState(null, '', '/elements/toc');
+    presentToc();
+  }
+
   function openCover()
   {
+    window.scrollTo(0, 0);
     history.pushState(null, '', '/elements/');
     presentCover();
   }
@@ -1289,6 +1410,10 @@ function elements() {
       if(pref.value == 'cover')
       {
         openCover();
+      }
+      else if(pref.value == 'toc')
+      {
+        openToc();
       }
       else
       {

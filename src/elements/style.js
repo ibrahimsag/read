@@ -23,14 +23,28 @@ function make(colors)
       },
 
       '#container': {
+        '&>#section': {
+          display: 'none',
+        },
+        '&>#cover': {
+          display: 'none',
+        },
+        '&>#toc': {
+          display: 'none',
+        },
         '&.cover': {
-          '& #section': {
-            display: 'none',
+          '&>#cover': {
+            display: 'block',
           },
         },
         '&.section': {
-          '& #cover': {
-            display: 'none',
+          '&>#section': {
+            display: 'block',
+          },
+        },
+        '&.toc': {
+          '&>#toc': {
+            display: 'block',
           },
         }
       },
@@ -43,9 +57,6 @@ function make(colors)
     cover: {
       display: 'flex',
       flexFlow: 'row nowrap',
-      '& h4': {
-        color: colors.sentence,
-      },
       '& a': {
         'text-decoration': 'underline',
         ...style_link
@@ -57,8 +68,10 @@ function make(colors)
       paddingLeft: 24,
       '& p': { fontSize: '0.9em' }
     },
-    contents: {
+    contentsColumn: {
       width: 512,
+    },
+    contents: {
       '& a': {
         ...style_link,
         display: 'inline-block',
@@ -66,6 +79,12 @@ function make(colors)
       '& p': {
         marginLeft: 20
       },
+      '& h4': {
+        color: colors.sentence,
+      },
+      height: 700,
+      overflow: 'scroll',
+      maskImage: 'linear-gradient(transparent, black 5%, black 80%, transparent 100%)',
     },
     helpTitle: {
       color: colors.make([320, 100, 75])
@@ -86,7 +105,6 @@ function make(colors)
 
     logo: {
       padding: [[15, 25]],
-      textAlign: 'right',
       '& a': {
         fontSize: '1.2em',
         ...style_link,
@@ -209,6 +227,7 @@ function make(colors)
       marginBottom: 50,
       display: 'flex',
       flexDirection: 'row',
+      alignItems: 'center',
       userSelect: 'none',
       '& a': {
         ...style_link,
@@ -216,7 +235,7 @@ function make(colors)
       },
       '& p': {
         lineHeight: '2em',
-        marginBottom: '2em',
+        //marginBottom: '2em',
         textAlign: 'left',
       },
     },
@@ -227,13 +246,57 @@ function make(colors)
       alignItems: 'flex-end',
     },
     prosePreview: {
-      height: 300,
+      height: 200,
       width: '50%',
       overflow: 'scroll',
+      maskImage: 'linear-gradient(transparent, black 20%, black 80%, transparent 100%)',
     },
     proseHeadingPreview: {
     },
 
+    toc: {
+      margin: 'auto',
+      width: 1024,
+      '& a': {
+        'text-decoration': 'underline',
+        ...style_link
+      },
+      '& h4': {
+        color: colors.sentence,
+      },
+    },
+    tocColumns: {
+      display: 'flex',
+      flexDirection: 'row-reverse',
+    },
+    booksColumn: {
+      width: 512,
+      '& p': {
+        marginLeft: 24,
+        paddingRight: 24,
+      },
+      '& h4:hover': {
+        textDecoration: 'underline',
+        cursor: 'pointer',
+      },
+      '& h4.selected': {
+        border: '1px solid',
+        borderColor: colors.dim,
+        borderRight: '1px solid black',
+        padding: 10,
+      }
+    },
+    sectionsColumn: {
+      '& svg': {
+        display: 'block',
+        margin: 'auto'
+      },
+      width: 512,
+      padding: 24,
+      borderLeft: '1px solid',
+      borderColor: colors.dim,
+      marginLeft: -1,
+    },
   };
   return style;
 }

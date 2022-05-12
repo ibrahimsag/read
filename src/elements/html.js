@@ -1,5 +1,93 @@
 function make(colors, cs)
 {
+  let contents = `
+<h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
+<p>
+Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
+<br>
+Interesting proofs:
+<a pref="1.43">Complements in parallelograms</a>,
+<a pref="1.47">Pythagorean theorem</a>
+</p>
+<h4>Book 2 - Fundamentals of Geometric Algebra</h4>
+<p>
+Start with <a pref="2.d">Definitions</a> or <a pref="2.1">First proposition</a>.
+<br>
+Interesting construction:
+<a pref="2.11">Golden section</a>
+</p>
+<h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
+<p>
+Start with <a pref="3.d">Definitions</a> or <a pref="3.1">First proposition</a>.
+<br>
+Interesting propositions:
+<a pref="3.20">Angles at center and circumference</a>,
+<a pref="3.36">Relations of lines from outside a circle</a>
+</p>
+<h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
+<p>
+Start with <a pref="4.d">Definitions</a> or <a pref="4.1">First proposition</a>.
+<br>
+Interesting construction: <a pref="4.11">Regular Pentagon</a>
+</p>
+<h4>Book 5 - Proportion</h4>
+<p>
+Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
+<br>
+Interesting proof:
+<a pref="5.23">Commutativity of multiplication</a>
+</p>
+<h4>Book 6 - Similar Figures</h4>
+<p>
+Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
+<br>
+Interesting propositions:
+<a pref="6.19">Ratios of similar areas</a>,
+<a pref="6.30">Solution of a quadratic equation</a>
+</p>
+<h4>Book 7 - Elementary Number Theory</h4>
+<p>
+Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
+<br>
+Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
+</p>
+<h4>Book 8 - Continued Proportion</h4>
+<p>
+Start with <a pref="8.1">First proposition</a>.
+<br>
+Interesting proof: <a pref="8.10">Prime factors in series</a>
+</p>
+<h4>Book 9 - Applications of Number Theory</h4>
+<p>
+Start with <a pref="9.1">First proposition</a>.
+<br>
+Interesting proof: <a pref="9.20">Infinity of primes</a>
+</p>
+<h4>Book 10 - Incommensurable Magnitudes</h4>
+<p>
+Start with <a pref="10.d1">Definitions I</a>, <a pref="10.d2">Definitions II</a> or <a pref="10.d3">Definitions III</a>.
+<br>
+Interesting proof: <a pref="10.1">Method of exhaustion</a>
+</p>
+<h4>Book 11 - Elementary Stereometry</h4>
+<p>
+Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
+</p>
+<h4>Book 12 - Proportional Stereometry</h4>
+<p>
+Start with <a pref="12.1">First proposition</a>.
+<br>
+Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
+</p>
+<h4>Book 13 - The Platonic Solids</h4>
+<p>
+Start with <a pref="13.1">First proposition</a>.
+<br>
+Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
+</p>
+<br>
+`
+
   let cover = `
 <div id="cover" class="${cs.coverWrap}">
 <div class="${cs.hero}">
@@ -31,91 +119,9 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 <p> <a id="readNow">${anglesDown}</a></p>
 </div>
 <div id="coverStart" class="${cs.cover}">
-  <div class="${cs.contents}">
-    <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
-    <p>
-    Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
-    <br>
-    Interesting proofs:
-    <a pref="1.43">Complements in parallelograms</a>,
-    <a pref="1.47">Pythagorean theorem</a>
-    </p>
-    <h4>Book 2 - Fundamentals of Geometric Algebra</h4>
-    <p>
-    Start with <a pref="2.d">Definitions</a> or <a pref="2.1">First proposition</a>.
-    <br>
-    Interesting construction:
-    <a pref="2.11">Golden section</a>
-    </p>
-    <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
-    <p>
-    Start with <a pref="3.d">Definitions</a> or <a pref="3.1">First proposition</a>.
-    <br>
-    Interesting propositions:
-    <a pref="3.20">Angles at center and circumference</a>,
-    <a pref="3.36">Relations of lines from outside a circle</a>
-    </p>
-    <h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
-    <p>
-    Start with <a pref="4.d">Definitions</a> or <a pref="4.1">First proposition</a>.
-    <br>
-    Interesting construction: <a pref="4.11">Regular Pentagon</a>
-    </p>
-    <h4>Book 5 - Proportion</h4>
-    <p>
-    Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
-    <br>
-    Interesting proof:
-    <a pref="5.23">Commutativity of multiplication</a>
-    </p>
-    <h4>Book 6 - Similar Figures</h4>
-    <p>
-    Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
-    <br>
-    Interesting propositions:
-    <a pref="6.19">Ratios of similar areas</a>,
-    <a pref="6.30">Solution of a quadratic equation</a>
-    </p>
-    <h4>Book 7 - Elementary Number Theory</h4>
-    <p>
-    Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
-    <br>
-    Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
-    </p>
-    <h4>Book 8 - Continued Proportion</h4>
-    <p>
-    Start with <a pref="8.1">First proposition</a>.
-    <br>
-    Interesting proof: <a pref="8.10">Prime factors in series</a>
-    </p>
-    <h4>Book 9 - Applications of Number Theory</h4>
-    <p>
-    Start with <a pref="9.1">First proposition</a>.
-    <br>
-    Interesting proof: <a pref="9.20">Infinity of primes</a>
-    </p>
-    <h4>Book 10 - Incommensurable Magnitudes</h4>
-    <p>
-    Start with <a pref="10.d1">Definitions I</a>, <a pref="10.d2">Definitions II</a> or <a pref="10.d3">Definitions III</a>.
-    <br>
-    Interesting proof: <a pref="10.1">Method of exhaustion</a>
-    </p>
-    <h4>Book 11 - Elementary Stereometry</h4>
-    <p>
-    Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
-    </p>
-    <h4>Book 12 - Proportional Stereometry</h4>
-    <p>
-    Start with <a pref="12.1">First proposition</a>.
-    <br>
-    Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
-    </p>
-    <h4>Book 13 - The Platonic Solids</h4>
-    <p>
-    Start with <a pref="13.1">First proposition</a>.
-    <br>
-    Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
-    </p>
+  <div class="${cs.contentsColumn}">
+    <div class="${cs.contents}">${contents}</div>
+    <p style="text-align: center;"> <a pref="toc">Table of Contents</a></p>
     <br>
     <h3 class="${cs.helpTitle}">On the next page:</h3>
     <p>Read on a wide screen.</p>
@@ -135,11 +141,23 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 </div>
 </div>`;
 
+  let toc = `
+<div id="toc" class="${cs.toc}">
+  <div id="booksColumn" class="${cs.tocColumns}">
+    <div id="sectionsColumn" class="${cs.sectionsColumn}">
+    </div>
+    <div class="${cs.booksColumn}">
+      <h1><a pref="cover">${arrowl}</a> Euclid's Elements</h1>
+      ${contents}
+    </div>
+  </div>
+</div>`;
+
   let section = `
 <div id="section" class="${cs.section}">
   <div class="${cs.header}">
     <div class="${cs.logo}">
-      <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
+      <a pref="toc">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
     </div>
   </div>
   <div class="${cs.figColumn}">
@@ -159,7 +177,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
   </div>
 </div>`;
 
-  return { cover, section };
+  return { cover, section, toc };
 }
 
 let anglesDown = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M169.4 278.6C175.6 284.9 183.8 288 192 288s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0L192 210.8L54.63 73.38c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L169.4 278.6zM329.4 265.4L192 402.8L54.63 265.4c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l160 160C175.6 476.9 183.8 480 192 480s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25S341.9 252.9 329.4 265.4z"/></svg>';
