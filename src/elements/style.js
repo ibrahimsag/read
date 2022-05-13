@@ -115,7 +115,11 @@ function make(colors)
     bookTitle: {
       whiteSpace: 'nowrap',
       overflow: 'hidden',
-      textOverflow: 'ellipsis'
+      textOverflow: 'ellipsis',
+      cursor: 'pointer',
+      '&:hover': {
+        textDecoration: 'underline',
+      }
     },
 
     proseHeading: {

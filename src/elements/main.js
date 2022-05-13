@@ -1033,6 +1033,7 @@ function makePR(rg, w, cs)
   return {present, proxy};
 }
 
+const rg = makeRG();
 function elements() {
   const jss = create().setup(preset());
   const sheet = jss.createStyleSheet(style(colors), {link: true});
@@ -1046,7 +1047,6 @@ function elements() {
   let pr;
 
   let stopPreview = false;
-  const rg = makeRG();
   window.books = window.books_(rg);
 
   window.onload = () => {
@@ -1100,6 +1100,7 @@ function elements() {
 
     let el = document.querySelector('#bookTitle');
     el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
+    el.setAttribute('pref', 'toc.'+i_book)
 
     i_section = Math.min(sections.length-1, i_section);
     pr.present(null, sections[i_section]);
@@ -1237,14 +1238,16 @@ function elements() {
     }
   }
 
-  function presentToc() {
+  function presentToc(id) {
     stopPreview = true;
     document.querySelector('#container').className = 'toc';
     document.onkeydown = undefined;
+    let booksColumn = document.querySelector('#booksColumn');
     let sectionsColumn = document.querySelector('#sectionsColumn');
     let lastSelected = null;
-    let handleBookSelect = (el) =>
+    let handleBookSelect = (id) =>
     {
+      let el = booksColumn.querySelectorAll('h4')[id-1];
       el.classList.toggle('selected');
       if(lastSelected)
         lastSelected.classList.toggle('selected');
@@ -1253,8 +1256,12 @@ function elements() {
       while(sectionsColumn.firstChild)
         sectionsColumn.removeChild(sectionsColumn.firstChild);
 
-      let m = el.textContent.match(/Book (\d+).*/)
-      let sections = books[m[1]];
+      {
+        let e = de('h2', {textContent: el.textContent});
+        sectionsColumn.append(e);
+      }
+
+      let sections = books[id];
       for(let i in sections)
       {
         let sle = document.createElement('div')
@@ -1262,7 +1269,7 @@ function elements() {
         {
           let e = document.createElement('h4')
           e.innerText = s.title;
-          sle.append(e);
+          sle.appendChild(e);
         }
 
         let prepare = (f) =>
@@ -1325,27 +1332,30 @@ function elements() {
     let ss = document.querySelector('#booksColumn h4.selected');
     if(ss)
     {
-      lastSelected = ss;
+      lastSelected = ss
     }
-    else
-    {
-      handleBookSelect(document.querySelectorAll('#booksColumn h4')[0]);
-    }
+
+    handleBookSelect(id);
     let el = document.querySelector('#booksColumn');
     el.onclick = (e) =>
     {
       let el = e.srcElement
       if(el.nodeName !== 'H4' || lastSelected === el)
           return;
-      handleBookSelect(el);
+      let m = el.textContent.match(/Book (\d+).*/)
+      handleBookSelect(Number(m[1]));
     }
   }
 
   let presentForLocation = () => {
     let m, re = /elements\/([^\/]+)/;
-    if(location.pathname.match('/elements/toc'))
+    if(m = location.pathname.match(/\/elements\/toc\/(\d+)/))
     {
-      presentToc();
+      let id = Number(m[1]);
+      if(!isNaN(id) && id > 0 && id < 14)
+        presentToc(id);
+      else
+        presentToc(1)
     }
     else if(m = location.pathname.match(re))
     {
@@ -1375,7 +1385,7 @@ function elements() {
     window.scrollTo(0, 0);
     if(canPresentSection(i_book, id))
     {
-      history.pushState(null, '', id);
+      history.pushState(null, '', '/elements/'+id);
       presentSection(i_book, id);
     }
     else
@@ -1384,11 +1394,11 @@ function elements() {
     }
   }
 
-  function openToc()
+  function openToc(id)
   {
     window.scrollTo(0, 0);
-    history.pushState(null, '', '/elements/toc');
-    presentToc();
+    history.pushState(null, '', `/elements/toc/${id}`);
+    presentToc(id);
   }
 
   function openCover()
@@ -1411,9 +1421,10 @@ function elements() {
       {
         openCover();
       }
-      else if(pref.value == 'toc')
+      else if(pref.value.startsWith('toc'))
       {
-        openToc();
+        let [_, i_book] = pref.value.split('.');
+        openToc(Number(i_book) || 1);
       }
       else
       {

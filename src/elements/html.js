@@ -143,10 +143,10 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 
   let toc = `
 <div id="toc" class="${cs.toc}">
-  <div id="booksColumn" class="${cs.tocColumns}">
+  <div class="${cs.tocColumns}">
     <div id="sectionsColumn" class="${cs.sectionsColumn}">
     </div>
-    <div class="${cs.booksColumn}">
+    <div id="booksColumn" class="${cs.booksColumn}">
       <h1><a pref="cover">${arrowl}</a> Euclid's Elements</h1>
       ${contents}
     </div>
@@ -157,7 +157,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 <div id="section" class="${cs.section}">
   <div class="${cs.header}">
     <div class="${cs.logo}">
-      <a pref="toc">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
+      <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
     </div>
   </div>
   <div class="${cs.figColumn}">
