@@ -859,7 +859,7 @@ function makePR(rg, w, cs)
     if(w.mb && w.mo)
     {
       let h_o = colors.sentence, h_b = colors.dim;
-      w.mb.innerText = "previous";
+      w.mb.innerHTML = "previous" + w.arrowu;
       if (ri === 0)
       {
         w.mb.innerText = "";
@@ -875,11 +875,11 @@ function makePR(rg, w, cs)
       {
         h_b = colors.dim;
         h_o = colors.sentence;
-        w.mo.innerText = "next sentence";
+        w.mo.innerHTML = w.arrowd + "next sentence";
       }
       else
       {
-        w.mo.innerText = "next symbol";
+        w.mo.innerHTML = w.arrowd + " next symbol";
       }
       w.mo.style['background-color'] = h_o;
       w.mb.style['background-color'] = h_b;
@@ -1062,6 +1062,8 @@ function elements() {
       title: document.querySelector('#section #proseTitle'),
       mo: document.querySelector('#section #move-on'),
       mb: document.querySelector('#section #move-back'),
+      arrowu: made.arrowu,
+      arrowd: made.arrowd,
     }, cs);
     pr.proxy.attachProseMouseEvents();
 

@@ -180,15 +180,22 @@ function make(colors)
 
       cursor: 'pointer',
       userSelect: 'none',
+      '& svg': {
+        height: 20,
+        marginTop: 3
+      }
     },
     moveBack: {
       transition: 'background-color 0.3s ease',
 
       width: '33%',
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
+      '& svg': {
+        marginLeft: 10,
+      }
     },
     moveOn: {
       transition: 'background-color 0.3s ease',
@@ -196,9 +203,12 @@ function make(colors)
       width: '67%',
 
       display: 'flex',
-      flexDirection: 'column',
+      flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
+      '& svg': {
+        marginRight: 10,
+      }
     },
 
     figColumn: {
