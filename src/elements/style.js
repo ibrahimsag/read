@@ -237,8 +237,9 @@ function make(colors)
     },
 
     preview: {
+      position: 'relative',
       marginTop: 50,
-      marginBottom: 50,
+      marginBottom: 100,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -266,6 +267,31 @@ function make(colors)
       maskImage: 'linear-gradient(transparent, black 20%, black 80%, transparent 100%)',
     },
     proseHeadingPreview: {
+    },
+    arrows: {
+      position: 'absolute',
+      left: 425,
+      bottom: -80,
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'flex-end',
+      '& svg': {
+        height: 40,
+        width: 40,
+        margin: 5,
+        borderRadius: 15,
+        padding:10,
+        borderWidth: 3,
+        borderStyle: 'solid',
+        borderColor: colors.dim,
+        '& path': {
+          fill: colors.make([0, 0, 50]),
+        }
+      }
+    },
+    arrowsColumn: {
+      display: 'flex',
+      flexDirection: 'column',
     },
 
     toc: {

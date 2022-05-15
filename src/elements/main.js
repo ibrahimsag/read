@@ -1194,7 +1194,7 @@ function elements() {
     document.onkeydown = undefined;
     {
       let preview = makePR(rg, {
-        svg: document.querySelector('#preview svg'),
+        svg: document.querySelector('#previewFigure'),
         prose: document.querySelector('#preview .proseContent'),
         title: document.querySelector('#preview .proseTitle'),
       }, cs);
@@ -1205,6 +1205,7 @@ function elements() {
       let prev_section = sections[i_section];
       preview.present(null, sections[i_section]);
 
+      let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
       proseCont.scrollTo(0, 0);
       stopPreview = false;
@@ -1217,7 +1218,6 @@ function elements() {
           let b = proseCont.offsetTop;
           let target_scroll = a - b -50;
 
-          i++;
           let i_seen = i;
           let last_t = performance.now();
           function frame(current_scroll)
@@ -1239,13 +1239,41 @@ function elements() {
           frame(proseCont.scrollTop);
         }
 
+        function flashColor(el)
+        {
+          let target_l = 50;
+
+          let i_seen = i;
+          let last_t = performance.now();
+          function frame(current_l)
+          {
+            if(stopPreview || i != i_seen) return;
+            window.requestAnimationFrame( () =>
+              {
+                let speed = 100;
+                let t = performance.now();
+                let dt = t-last_t
+                last_t = t;
+                current_l -= speed*dt/1000;
+                el.style.borderColor = hsl(current_l)
+                if( target_l > current_l)
+                  return;
+                frame(current_l);
+              });
+          }
+          frame(90);
+        }
+
+
         setTimeout(() =>
           {
             if(stopPreview || preview.proxy.reached_end())
               return;
             preview.proxy.moveon(true);
             let sentence_el = preview.proxy.last_prose_element();
+            i++;
             scrollPreview(sentence_el);
+            flashColor(downArrowEl);
             movePreview();
           }, 1000);
       }
