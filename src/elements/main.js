@@ -17,6 +17,7 @@ let colors = {
   link_hover: hsluv.hpluvToHex([140, 100, 60]),
   hover: hsluv.hpluvToHex([320, 100, 50]),
   hover_bright: hsluv.hpluvToHex([320, 100, 80]),
+  player: hsluv.hpluvToHex([320, 100, 50]),
   make: hsluv.hpluvToHex,
 };
 
@@ -958,6 +959,12 @@ function makePR(rg, w, cs)
     last_present.sh = sh;
   }
 
+  proxy.section_progress = () =>
+  {
+    let {ri, section} = last_present;
+    return ri / (section.i_count-2);
+  }
+
   proxy.last_prose_element = () =>
   {
     let {rh, sh} = last_present;
@@ -968,6 +975,7 @@ function makePR(rg, w, cs)
     return (last_present.ri + 2 === last_present.section.i_count);
   }
 
+  proxy.restart = (no_scroll) => { present(null, last_present.section, undefined, no_scroll); };
   proxy.moveon = (no_scroll) => { present(last_present.ri + 1, last_present.section, undefined, no_scroll); };
   proxy.moveback = () => { present(last_present.ri - 1, last_present.section); };
 
@@ -1054,6 +1062,7 @@ function elements() {
   let pr;
 
   let stopPreview = false;
+  let previewCanceler;
   window.books = window.books_(rg);
 
   window.onload = () => {
@@ -1204,14 +1213,15 @@ function elements() {
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
       preview.present(null, sections[i_section]);
-
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
       proseCont.scrollTo(0, 0);
-      stopPreview = false;
       let i = 0;
       function movePreview()
       {
+        if(previewCanceler)
+          clearTimeout(previewCanceler);
+
         function scrollPreview(sentence_el)
         {
           let a = sentence_el.offsetTop;
@@ -1255,7 +1265,7 @@ function elements() {
                 let dt = t-last_t
                 last_t = t;
                 current_l -= speed*dt/1000;
-                el.style.borderColor = hsl(current_l)
+                el.style.borderColor = hpl(320, 100, current_l)
                 if( target_l > current_l)
                   return;
                 frame(current_l);
@@ -1264,20 +1274,59 @@ function elements() {
           frame(90);
         }
 
-
-        setTimeout(() =>
+        previewCanceler = setTimeout(() =>
           {
+            if(preview.proxy.reached_end())
+            {
+              setTimeout(() => {
+                showOverlay();
+              }, 1000);
+            }
             if(stopPreview || preview.proxy.reached_end())
+            {
+              stopPreview = true;
               return;
+            }
             preview.proxy.moveon(true);
             let sentence_el = preview.proxy.last_prose_element();
             i++;
             scrollPreview(sentence_el);
             flashColor(downArrowEl);
+            document.querySelector('#progress').style.width = Math.ceil(preview.proxy.section_progress()*100) + '%';
             movePreview();
           }, 1000);
       }
-      movePreview();
+
+      let previewEl = document.querySelector('#preview')
+      function showOverlay()
+      {
+        previewEl.querySelector('#previewOverlay').style.opacity = '70%';
+      }
+      function hideOverlay()
+      {
+        previewEl.querySelector('#previewOverlay').style.opacity = '0%';
+      }
+      showOverlay();
+      stopPreview = true;
+      previewEl.onclick = () =>
+      {
+        if(!stopPreview)
+        {
+          stopPreview = true;
+          showOverlay();
+        }
+        else
+        {
+          stopPreview = false;
+          hideOverlay();
+          if(preview.proxy.reached_end())
+          {
+            proseCont.scrollTo(0, 0);
+            preview.proxy.restart(true);
+          }
+          movePreview();
+        }
+      }
       document.querySelector('#readNow').onclick = () =>
       {
         stopPreview = true;
@@ -1391,7 +1440,9 @@ function elements() {
       if(el.nodeName !== 'H4' || lastSelected === el)
           return;
       let m = el.textContent.match(/Book (\d+).*/)
-      handleBookSelect(Number(m[1]));
+      let id = Number(m[1]);
+      history.pushState(null, '', `/elements/toc/${id}`);
+      handleBookSelect(id);
     }
   }
 
@@ -1457,10 +1508,12 @@ function elements() {
   }
 
   document.onclick = (e) => {
-    let pref = e.srcElement.attributes.pref;
-    if(!pref && e.srcElement.parentElement)
+    let el = e.srcElement;
+    let pref = el.attributes.pref;
+    while(!pref && el.parentElement)
     {
-      pref = e.srcElement.parentElement.attributes.pref;
+      el = el.parentElement;
+      pref = el.attributes.pref;
     }
 
     if(pref)

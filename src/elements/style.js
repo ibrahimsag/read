@@ -83,7 +83,7 @@ function make(colors)
         color: colors.sentence,
       },
       height: 700,
-      overflow: 'scroll',
+      overflow: 'hidden',
       maskImage: 'linear-gradient(transparent, black 5%, black 80%, transparent 100%)',
     },
     helpTitle: {
@@ -107,9 +107,11 @@ function make(colors)
       padding: [[15, 25]],
       '& a': {
         fontSize: '1.2em',
-        ...style_link,
         cursor: 'pointer',
         userSelect: 'none',
+        '&:hover': {
+          color: colors.sentence,
+        }
       }
     },
     bookTitle: {
@@ -117,7 +119,10 @@ function make(colors)
       overflow: 'hidden',
       textOverflow: 'ellipsis',
       cursor: 'pointer',
+      color: colors.link,
+      marginLeft: 25,
       '&:hover': {
+        color: colors.link_hover,
         textDecoration: 'underline',
       }
     },
@@ -239,7 +244,7 @@ function make(colors)
     preview: {
       position: 'relative',
       marginTop: 50,
-      marginBottom: 100,
+      paddingBottom: 100,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -263,35 +268,66 @@ function make(colors)
     prosePreview: {
       height: 200,
       width: '50%',
-      overflow: 'scroll',
-      maskImage: 'linear-gradient(transparent, black 20%, black 80%, transparent 100%)',
+      paddingRight: 20,
+      overflow: 'hidden',
+      maskImage: 'linear-gradient(transparent, black 10%, black 80%, transparent 100%)',
     },
     proseHeadingPreview: {
     },
     arrows: {
       position: 'absolute',
-      left: 425,
-      bottom: -80,
+      right: 10,
+      bottom: 10,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'flex-end',
       '& svg': {
         height: 40,
         width: 40,
-        margin: 5,
         borderRadius: 15,
         padding:10,
+        marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
-        borderColor: colors.dim,
+        borderColor: colors.player,
         '& path': {
-          fill: colors.make([0, 0, 50]),
+          fill: colors.player,
         }
       }
     },
     arrowsColumn: {
       display: 'flex',
       flexDirection: 'column',
+    },
+    progress: {
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: '10%',
+      height: 5,
+      backgroundColor: colors.player,
+      transition: 'width 0.2s ease',
+    },
+    previewOverlay: {
+      position: 'absolute',
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0,
+      backgroundColor: 'black',
+      opacity: '0%',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      '& svg': {
+        height: 70,
+        '& path': {
+          fill: colors.bright,
+        }
+      },
+      '&:hover svg path': {
+        fill: colors.make([320, 100, 50])
+      }
     },
 
     toc: {
@@ -329,7 +365,10 @@ function make(colors)
     sectionsColumn: {
       '& svg': {
         display: 'block',
-        margin: 'auto'
+        margin: 'auto',
+        '& path': {
+          strokeWidth: 2,
+        }
       },
       width: 512,
       padding: 24,
