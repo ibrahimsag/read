@@ -403,7 +403,7 @@ function() {
 },
 
 function() {
-  let z = [];
+  let z = {};
   let r = 200;
   z.F = v2.o;
   z.A = v2.s(v2.y, -1);
@@ -445,7 +445,7 @@ function() {
 },
 
 function() {
-  let z = [];
+  let z = {};
   let r = 200;
   let phi = 2
   z.F = v2.o;
@@ -493,7 +493,7 @@ function() {
 },
 
 function() {
-  let z = [];
+  let z = {};
   let r = 150;
   let phi = 2
   z.D = v2.o;
@@ -666,9 +666,9 @@ function() {
           'LE', 'LF', 'LG', 'LH',
           'ME', 'MF', 'MG', 'MH',
           'ML', 'EG', 'HF']
-        .map(s => rg.line(z[s[0]], z[s[1]])),
+        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
       ...['ME', 'MH', 'EH']
-        .map(s => rg.line(z[s[0]], z[s[1]], {strokeWidth: 3})),
+        .map(s => rg.line(z[s[0]], z[s[1]])),
     ]
   };
 },
