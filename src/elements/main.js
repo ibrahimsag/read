@@ -837,9 +837,9 @@ function makePR(rg, w, cs)
       });
     }
 
-    if(handles.r[ri])
+    let rh = handles.r[ri];
+    if(rh)
     {
-      let rh = handles.r[ri];
       tie.center.push(rh.part);
       tie.fi = rh.lastSeenFigureIndex;
       rh.el.style['color'] = colors.bright;
@@ -954,6 +954,14 @@ function makePR(rg, w, cs)
     }
 
     last_section_id = section.id;
+    last_present.rh = rh;
+    last_present.sh = sh;
+  }
+
+  proxy.last_prose_element = () =>
+  {
+    let {rh, sh} = last_present;
+    return sh.sentenceEl;
   }
 
   proxy.reached_end = () => {
@@ -1198,37 +1206,48 @@ function elements() {
       preview.present(null, sections[i_section]);
 
       let proseCont = document.querySelector('#preview .prose-container');
-      let last_t = performance.now();
-      let target_scroll = 0;
+      proseCont.scrollTo(0, 0);
       stopPreview = false;
-      function scrollPreview()
-      {
-        window.requestAnimationFrame( () =>
-          {
-            let total_height = proseCont.scrollHeight;
-            let total_scroll = total_height - proseCont.clientHeight;
-            let total_time = prev_section.i_count * 300/1000;
-            let scroll_speed = total_scroll/total_time;
-            if( stopPreview || target_scroll > total_scroll)
-              return;
-            let t = performance.now();
-            let dt = t-last_t
-            last_t = t;
-            target_scroll += scroll_speed*dt/1000;
-            proseCont.scrollTo(0, target_scroll)
-            scrollPreview();
-          });
-      }
-      scrollPreview();
+      let i = 0;
       function movePreview()
       {
+        function scrollPreview(sentence_el)
+        {
+          let a = sentence_el.offsetTop;
+          let b = proseCont.offsetTop;
+          let target_scroll = a - b -50;
+
+          i++;
+          let i_seen = i;
+          let last_t = performance.now();
+          function frame(current_scroll)
+          {
+            if(stopPreview || i != i_seen) return;
+            window.requestAnimationFrame( () =>
+              {
+                let scroll_speed = 300;
+                let t = performance.now();
+                let dt = t-last_t
+                last_t = t;
+                current_scroll += scroll_speed*dt/1000;
+                proseCont.scrollTo(0, current_scroll)
+                if( target_scroll < current_scroll)
+                  return;
+                frame(current_scroll);
+              });
+          }
+          frame(proseCont.scrollTop);
+        }
+
         setTimeout(() =>
           {
             if(stopPreview || preview.proxy.reached_end())
               return;
             preview.proxy.moveon(true);
+            let sentence_el = preview.proxy.last_prose_element();
+            scrollPreview(sentence_el);
             movePreview();
-          }, 300);
+          }, 1000);
       }
       movePreview();
       document.querySelector('#readNow').onclick = () =>
