@@ -799,6 +799,7 @@ function makePR(rg, w, cs)
     tie.hfi = 0;
 
     let si = findMaxLTE(section.i_p, ri);
+    let si_hover = !isNaN(ri_hover) ? findMaxLTE(section.i_p, ri_hover): null;;
 
     let sh = handles.s[si];
     sh.sentenceEl.style['color'] = colors.sentence;
@@ -822,17 +823,6 @@ function makePR(rg, w, cs)
       tie.r.push(rh);
     });
 
-    if(handles.r[ri])
-    {
-      let rh = handles.r[ri];
-      tie.center.push(rh.part);
-      tie.fi = rh.lastSeenFigureIndex;
-      rh.el.style['color'] = colors.bright;
-      tie.r.push(rh);
-    }
-
-    let si_hover = !isNaN(ri_hover) ? findMaxLTE(section.i_p, ri_hover): null;;
-
     if (si_hover!=null)
     {
       let sh_hover = handles.s[si_hover];
@@ -845,6 +835,15 @@ function makePR(rg, w, cs)
         rh.el.style['color'] = colors.hover;
         tie.r.push(rh);
       });
+    }
+
+    if(handles.r[ri])
+    {
+      let rh = handles.r[ri];
+      tie.center.push(rh.part);
+      tie.fi = rh.lastSeenFigureIndex;
+      rh.el.style['color'] = colors.bright;
+      tie.r.push(rh);
     }
 
     if(!isNaN(ri_hover) && ri_hover != ri && handles.r[ri_hover])
