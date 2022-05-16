@@ -244,6 +244,7 @@ function make(colors)
     preview: {
       position: 'relative',
       marginTop: 50,
+      paddingTop: 50,
       paddingBottom: 100,
       display: 'flex',
       flexDirection: 'row',
@@ -318,6 +319,9 @@ function make(colors)
       opacity: '0%',
       display: 'flex',
       alignItems: 'center',
+      borderWidth: 1,
+      borderStyle: 'solid',
+      borderColor: colors.make([0, 0, 15]),
       justifyContent: 'center',
       '& svg': {
         height: 70,

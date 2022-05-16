@@ -1212,10 +1212,10 @@ function elements() {
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
-      preview.present(null, sections[i_section]);
+      preview.present(6, sections[i_section]);
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
-      proseCont.scrollTo(0, 0);
+      proseCont.scrollTo(0, 150);
       let i = 0;
       function movePreview()
       {
