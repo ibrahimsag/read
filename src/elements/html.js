@@ -151,6 +151,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 </div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>
@@ -218,7 +219,7 @@ Interesting propositions:
     </div>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
-        <svg viewBox="0 0 290 210" width="290" height="210">${fext.smpl7}</svg>
+        <svg viewBox="0 -5 385 210" width="385" height="210">${fext.smpl7}</svg>
 
       </div>
       <div class="${cs.contentsColumn}">
@@ -304,7 +305,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
     <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Table of Contents</a></h3>
   </div>
 </div>
-  <div style="border-top: 1px solid #222;" class="${cs.coverFoot}">
+  <div class="${cs.coverFoot}">
     <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
     <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
   </div>

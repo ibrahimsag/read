@@ -78,6 +78,7 @@ function make(colors)
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'flex-start',
+      borderTop: '1px solid #222',
     },
     contentsColumn: {
       flexBasis: 0,
@@ -85,8 +86,7 @@ function make(colors)
       '&.fig': {
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
+        alignItems: 'flex-end',
       }
     },
     helpTitle: {
@@ -250,6 +250,7 @@ function make(colors)
     coverFoot: {
       textAlign: 'right',
       fontSize: '0.8em',
+      borderTop: '1px solid #444',
     },
     coverQuotes: {
       marginTop: 50,
