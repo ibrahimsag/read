@@ -239,6 +239,7 @@ function make(colors)
 
     coverHead: {
       textAlign: 'right',
+      userSelect: 'none',
       '& a': {
         color: colors.make([0, 0, 30]),
         '&:hover': {

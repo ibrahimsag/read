@@ -92,9 +92,8 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 <div id="cover" class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
     <h1>Euclid's Elements</h1>
-    <h3 style="text-align: left; margin-left: 20px; margin-bottom: -40px;"> <a pref="toc" style="text-decoration: none; ">Dive In</a></h3>
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 style="background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em">Ibrahim S.</h4>
+    <h4 style="padding: 3px; display: flex; justify-content: space-between; background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
   </div>
 <div class="${cs.hero}">
 <p>
@@ -138,6 +137,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 </div>
 <div class="${cs.hero}">
 <p> Read at your own pace.</p>
+ <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.coverQuotes}">
   <div>
@@ -148,9 +148,6 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
   <p>"... the whole subject of mechanics is distinguished from geometry by the attribution of exactness to geometry and of anything less than exactness to mechanics. Yet the errors do not come from the art but from those who practice the art."</p>
   <p><em>— I. Newton, Preface to Principia, 1687</em></p>
   </div>
-</div>
-<div class="${cs.hero}">
- <a id="readNow">${anglesDown}</a>
 </div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
@@ -295,7 +292,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 </p>
       </div>
     </div>
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Dive In</a></h3>
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Table of Contents</a></h3>
   </div>
 </div>
   <div style="border-top: 1px solid #222;" class="${cs.coverFoot}">
