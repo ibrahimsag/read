@@ -297,7 +297,7 @@ Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
 <p>
 Start with <a pref="13.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
+Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodecahedron</a>, <a pref="13.18">Finitude of regular polyhedra</a>
 </p>
       </div>
     </div>

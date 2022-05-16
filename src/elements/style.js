@@ -77,7 +77,6 @@ function make(colors)
     contentsRow: {
       display: 'flex',
       flexDirection: 'row',
-      marginBottom: 50,
       alignItems: 'flex-start',
     },
     contentsColumn: {
