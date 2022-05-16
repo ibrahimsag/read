@@ -53,6 +53,10 @@ function make(colors)
       margin: 'auto',
       width: 1024,
       padding: 12,
+      '& a': {
+        'text-decoration': 'underline',
+        ...style_link
+      }
     },
     cover: {
       display: 'flex',
@@ -62,29 +66,29 @@ function make(colors)
         ...style_link
       }
     },
-    front: {
-      textAlign: 'right',
-      width: 512,
-      paddingLeft: 24,
-      '& p': { fontSize: '0.9em' }
-    },
-    contentsColumn: {
-      width: 512,
-    },
     contents: {
-      '& a': {
-        ...style_link,
-        display: 'inline-block',
-      },
       '& p': {
         marginLeft: 20
       },
       '& h4': {
         color: colors.sentence,
       },
-      height: 700,
-      overflow: 'hidden',
-      maskImage: 'linear-gradient(transparent, black 5%, black 80%, transparent 100%)',
+    },
+    contentsRow: {
+      display: 'flex',
+      flexDirection: 'row',
+      marginBottom: 50,
+      alignItems: 'center',
+    },
+    contentsColumn: {
+      flexBasis: 0,
+      flexGrow: 1,
+      '&.fig': {
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }
     },
     helpTitle: {
       color: colors.make([320, 100, 75])
@@ -233,6 +237,19 @@ function make(colors)
     c_sentence: { color: colors.sentence },
     c_bright: { color: colors.bright },
 
+    coverHead: {
+      textAlign: 'right',
+    },
+    coverFoot: {
+      textAlign: 'right',
+      display: 'flex',
+      flexDirection: 'row',
+      fontSize: '0.8em',
+      '& div': {
+        flexGrow: 1,
+        flexBasis: 0,
+      },
+    },
     hero: {
       color: colors.make([220, 50, 60]),
       width: '90%',

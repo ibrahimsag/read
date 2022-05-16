@@ -948,9 +948,9 @@ function makePR(rg, w, cs)
       setTimeout( () =>
         {
           let r = g.getBBox();
-          w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].join(' '));
-          w.svg.setAttribute('width', r.width + 100);
-          w.svg.setAttribute('height', r.height + 100);
+          w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].map(Math.round).join(' '));
+          w.svg.setAttribute('width', Math.round(r.width) + 100);
+          w.svg.setAttribute('height', Math.round(r.height) + 100);
         });
     }
 
@@ -1056,7 +1056,7 @@ function elements() {
 
   const cs = sheet.classes;
 
-  const made = html(colors, cs);
+  const made = html(colors, cs, figureExtracts);
 
   let section_indices = {};
   let pr;
@@ -1580,7 +1580,6 @@ function elements() {
   window.addEventListener('scroll', queueAlign);
 
   window.onresize = queueAlign;
-
 };
 
 elements();
