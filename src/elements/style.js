@@ -249,12 +249,21 @@ function make(colors)
     },
     coverFoot: {
       textAlign: 'right',
+      fontSize: '0.8em',
+    },
+    coverQuotes: {
+      marginTop: 50,
+      textAlign: 'right',
       display: 'flex',
       flexDirection: 'row',
       fontSize: '0.8em',
       '& div': {
+        padding: 20,
         flexGrow: 1,
         flexBasis: 0,
+        '& em': {
+          color: colors.sentence
+        }
       },
     },
     hero: {

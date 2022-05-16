@@ -138,7 +138,19 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
 </div>
 <div class="${cs.hero}">
 <p> Read at your own pace.</p>
-<p> <a id="readNow">${anglesDown}</a></p>
+</div>
+<div class="${cs.coverQuotes}">
+  <div>
+  <p>"As for ancient geometrical analysis, ... [it] is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination..."</p>
+  <p><em>— R. Descartes, A Discourse on the Method, 1637</em></p>
+  </div>
+  <div>
+  <p>"... the whole subject of mechanics is distinguished from geometry by the attribution of exactness to geometry and of anything less than exactness to mechanics. Yet the errors do not come from the art but from those who practice the art."</p>
+  <p><em>— I. Newton, Preface to Principia, 1687</em></p>
+  </div>
+</div>
+<div class="${cs.hero}">
+ <a id="readNow">${anglesDown}</a>
 </div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
@@ -286,16 +298,9 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
     <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Dive In</a></h3>
   </div>
 </div>
-  <div class="${cs.coverFoot}">
-    <div>
-    <p style="margin-top: 50px;">"As for ancient geometrical analysis, ... [it] is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination..."</p>
-    <p><em>— R. Descartes, A Discourse on the Method, 1637</em></p>
-    </div>
-    <div>
-    <p style="margin-top: 6em;">Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
+  <div style="border-top: 1px solid #222;" class="${cs.coverFoot}">
+    <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
     <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
-    </div>
-
   </div>
 </div>`;
 
