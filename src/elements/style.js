@@ -78,7 +78,7 @@ function make(colors)
       display: 'flex',
       flexDirection: 'row',
       marginBottom: 50,
-      alignItems: 'center',
+      alignItems: 'flex-start',
     },
     contentsColumn: {
       flexBasis: 0,

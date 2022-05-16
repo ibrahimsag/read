@@ -1731,7 +1731,7 @@ function()
     figures: [
     (function()
     {
-      const F = [136, 156];
+      const F = [0, 0];
       const E = F;
       const w = [-r, 0];
       const B = vec2.add(F, w);
@@ -1760,7 +1760,7 @@ function()
     })(),
     (function()
     {
-      const E = [386, 156];
+      const E = [r*2.5, 0];
       const w = [-r, 0];
       const B = vec2.add(E, w);
       const D = vec2.sub(B, vec2.rot(vec2.scale(w, 2), Math.PI/2));

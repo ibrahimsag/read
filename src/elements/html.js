@@ -175,7 +175,7 @@ Interesting construction:
     </div>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
-        <svg viewBox="0 -1 500 501" width="500" height="501">${fext.smpl3}</svg>
+        <svg viewBox="-130 -131 460 341" width="460" height="341">${fext.smpl3}</svg>
       </div>
       <div class="${cs.contentsColumn}">
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
@@ -192,13 +192,6 @@ Start with <a pref="4.d">Definitions</a> or <a pref="4.1">First proposition</a>.
 <br>
 Interesting construction: <a pref="4.11">Regular Pentagon</a>
 </p>
-      </div>
-    </div>
-    <div class="${cs.contentsRow}">
-      <div class="${cs.contentsColumn} fig">
-        <svg viewBox="0 0 477 338" width="477" height="338">${fext.smpl6}</svg>
-      </div>
-      <div class="${cs.contentsColumn}">
 <h4>Book 5 - Proportion</h4>
 <p>
 Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
@@ -206,6 +199,13 @@ Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
 Interesting proof:
 <a pref="5.23">Commutativity of multiplication</a>
 </p>
+      </div>
+    </div>
+    <div class="${cs.contentsRow}">
+      <div class="${cs.contentsColumn} fig">
+        <svg viewBox="0 0 477 338" width="477" height="338">${fext.smpl6}</svg>
+      </div>
+      <div class="${cs.contentsColumn}">
 <h4>Book 6 - Similar Figures</h4>
 <p>
 Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
@@ -228,6 +228,12 @@ Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
 <br>
 Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
 </p>
+<h4>Book 8 - Continued Proportion</h4>
+<p>
+Start with <a pref="8.1">First proposition</a>.
+<br>
+Interesting proof: <a pref="8.10">Prime factors in series</a>
+</p>
       </div>
     </div>
     <div class="${cs.contentsRow}">
@@ -235,12 +241,6 @@ Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
         <svg viewBox="-0 0 430 230" width="430" height="230">${fext.smpl9}</svg>
       </div>
       <div class="${cs.contentsColumn}">
-<h4>Book 8 - Continued Proportion</h4>
-<p>
-Start with <a pref="8.1">First proposition</a>.
-<br>
-Interesting proof: <a pref="8.10">Prime factors in series</a>
-</p>
 <h4>Book 9 - Applications of Number Theory</h4>
 <p>
 Start with <a pref="9.1">First proposition</a>.
@@ -264,13 +264,22 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
     </div>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
-        <svg viewBox="-184 -298 302 423" width="302" height="423">${fext.smpl12}</svg>
+        <svg viewBox="-189 -190 378 357" width="378" height="357">${fext.smpl11}</svg>
       </div>
       <div class="${cs.contentsColumn}">
 <h4>Book 11 - Elementary Stereometry</h4>
 <p>
 Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
+<br>
+Interesting construction: <a pref="11.23">Solid angle</a>
 </p>
+      </div>
+    </div>
+    <div class="${cs.contentsRow}">
+      <div class="${cs.contentsColumn} fig">
+        <svg viewBox="-184 -298 302 423" width="302" height="423">${fext.smpl12}</svg>
+      </div>
+      <div class="${cs.contentsColumn}">
 <h4>Book 12 - Proportional Stereometry</h4>
 <p>
 Start with <a pref="12.1">First proposition</a>.
