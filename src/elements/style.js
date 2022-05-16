@@ -239,6 +239,13 @@ function make(colors)
 
     coverHead: {
       textAlign: 'right',
+      '& a': {
+        color: colors.make([0, 0, 30]),
+        '&:hover': {
+          color: colors.sentence,
+        }
+
+      }
     },
     coverFoot: {
       textAlign: 'right',
