@@ -175,7 +175,7 @@ Interesting construction:
     </div>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
-        <svg viewBox="-130 -131 460 341" width="460" height="341">${fext.smpl3}</svg>
+        <svg viewBox="-130 -131 461 341" width="461" height="341">${fext.smpl3}</svg>
       </div>
       <div class="${cs.contentsColumn}">
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
