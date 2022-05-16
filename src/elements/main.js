@@ -11,7 +11,7 @@ import html from './html.js';
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
   near: hsluv.hsluvToHex([0, 0, 50]),
-  sentence: hsluv.hsluvToHex([0, 0, 60]),
+  sentence: hsluv.hsluvToHex([0, 0, 70]),
   dim: hsluv.hsluvToHex([0, 0, 40]),
   link: hsluv.hpluvToHex([140, 100, 40]),
   link_hover: hsluv.hpluvToHex([140, 100, 60]),
@@ -814,7 +814,7 @@ function makePR(rg, w, cs)
     handles.r.slice(section.i_p[si], section.i_p[si+1]).forEach(rh =>
     {
       if(!rh) return;
-      rh.el.style['color'] = colors.sentence;
+      rh.el.style['color'] = colors.near;
       let part = rh.part, hash = JSON.stringify(part);
       if(!seenMarks[hash])
       {
@@ -903,7 +903,7 @@ function makePR(rg, w, cs)
       g.append(...figure.shapes.map(rg.draw));
 
       let o = {};
-      appendDraw(figure, 'sentence', tie.near);
+      //appendDraw(figure, 'sentence', tie.near);
       // setLetterColor(o, 'sentence', tie.near);
       appendDraw(figure, 'bright', tie.center);
       setLetterColor(o, 'bright', tie.center);
