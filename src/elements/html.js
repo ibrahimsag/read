@@ -95,19 +95,6 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
     <h4 class="${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
   </div>
-<div class="${cs.hero}">
-<p>
-A digital and interactive rendering of the entire 13 books, 482 figures optimized for your reading.
-</p>
-
-<p>
-We have transitioned to digital technologies, but our most important books are yet to adapt.
-</p>
-
-<p>
-As an experiment, this 2300 years old cornerstone of our civilization is carefully reproduced in open and modern technologies for this digital experience.
-</p>
-</div>
 <div id="preview" class="${cs.preview}">
   <div id="progress" class="${cs.progress}"></div>
   <div id="arrows" class="${cs.arrows}">
@@ -136,7 +123,8 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
   </div>
 </div>
 <div class="${cs.hero}">
-<p> Read at your own pace. <span class="${cs.intent}">On a wider screen.</span></p>
+<p> This is a short animation. Showing the resonance of highlights.</p>
+<p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.coverQuotes}">

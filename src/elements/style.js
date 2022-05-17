@@ -83,7 +83,9 @@ function make(colors)
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'flex-start',
-      borderTop: '1px solid #222',
+      borderTopWidth: 1,
+      borderTopStyle: 'solid',
+      borderTopColor: '#222',
     },
     contentsColumn: {
       width: '50%',
@@ -263,7 +265,9 @@ function make(colors)
     coverFoot: {
       textAlign: 'right',
       fontSize: '0.8em',
-      borderTop: '1px solid #444',
+      borderTopWidth: 1,
+      borderTopStyle: 'solid',
+      borderTopColor: '#444',
     },
     coverQuotes: {
       marginTop: 50,
@@ -316,7 +320,7 @@ function make(colors)
       alignItems: 'flex-end',
     },
     prosePreview: {
-      height: 200,
+      height: 220,
       width: '50%',
       paddingRight: 20,
       overflow: 'hidden',
@@ -431,10 +435,6 @@ function make(colors)
       marginLeft: -1,
     },
 
-    intent: {
-      display: 'none',
-    },
-
     landscapeDictate: {
       backgroundColor: 'black',
       position: 'fixed',
@@ -485,9 +485,6 @@ function make(colors)
           width: '100%',
         }
       },
-      intent: {
-        display: 'inline',
-      }
     },
 
   };

@@ -9,7 +9,7 @@ import style from './style.js';
 import html from './html.js';
 
 let colors = {
-  bright: hsluv.hsluvToHex([0, 0, 90]),
+  bright: hsluv.hsluvToHex([0, 0, 100]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   near: hsluv.hsluvToHex([0, 0, 50]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
