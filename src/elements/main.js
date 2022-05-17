@@ -656,7 +656,7 @@ function makePR(rg, w, cs)
   {
     setTimeout(() => {
 
-      let pt = window.scrollY, ph = window.innerHeight - 50;
+      let pt = window.scrollY, ph = window.innerHeight - 70;
       let p = { t: pt, b: pt + ph}
       let c = { t: el.offsetTop, b: el.offsetTop + el.offsetHeight };
       if((p.t > (c.t - 10)) || (p.b < (c.b + 10)))
