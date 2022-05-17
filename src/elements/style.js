@@ -20,6 +20,7 @@ function make(colors)
     '@global': {
       body: {
         color: colors.dim,
+        lineHeight: '1.5em'
       },
 
       '#container': {
