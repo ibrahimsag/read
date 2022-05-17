@@ -10,6 +10,7 @@ import html from './html.js';
 
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 90]),
+  occluded: hsluv.hsluvToHex([0, 0, 75]),
   near: hsluv.hsluvToHex([0, 0, 50]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
   dim: hsluv.hsluvToHex([0, 0, 40]),
@@ -345,6 +346,14 @@ function makeRG()
           s.options["strokeWidth"] += 1;
         });
     }
+    else if(layer === 'occluded_bright')
+    {
+      shapes.forEach(s =>
+        {
+          s.options["stroke"] = colors.occluded;
+          s.options["strokeWidth"] += 1;
+        });
+    }
     else if(layer === 'hover_bright')
     {
       shapes.forEach(s =>
@@ -514,6 +523,10 @@ function makePR(rg, w, cs)
       if(letterColor[i] === 'bright')
       {
         fillcolor = colors.bright;
+      }
+      else if(letterColor[i] === 'occluded_bright')
+      {
+        fillcolor = colors.occluded;
       }
       else if(letterColor[i] === 'sentence')
       {
@@ -905,8 +918,16 @@ function makePR(rg, w, cs)
       let o = {};
       //appendDraw(figure, 'sentence', tie.near);
       // setLetterColor(o, 'sentence', tie.near);
-      appendDraw(figure, 'bright', tie.center);
-      setLetterColor(o, 'bright', tie.center);
+      if(!isNaN(ri_hover))
+      {
+        appendDraw(figure, 'occluded_bright', tie.center);
+        setLetterColor(o, 'occluded_bright', tie.center);
+      }
+      else
+      {
+        appendDraw(figure, 'bright', tie.center);
+        setLetterColor(o, 'bright', tie.center);
+      }
       appendDraw(figure, 'hover_bright', tie.hover);
       setLetterColor(o, 'hover_bright', tie.hover);
 
@@ -926,9 +947,17 @@ function makePR(rg, w, cs)
         if(shouldHighlight)
         {
           // appendDraw(figure, 'sentence', tie.near);
-          appendDraw(figure, 'bright', tie.center);
           // setLetterColor(o, 'sentence', tie.near);
-          setLetterColor(o, 'bright', tie.center);
+          if(!isNaN(ri_hover))
+          {
+            appendDraw(figure, 'occluded_bright', tie.center);
+            setLetterColor(o, 'occluded_bright', tie.center);
+          }
+          else
+          {
+            appendDraw(figure, 'bright', tie.center);
+            setLetterColor(o, 'bright', tie.center);
+          }
         }
 
         let shouldHighlightHover = tie.hfi == 0 || tie.hfi == i+1;
