@@ -19,7 +19,7 @@ function make(colors)
     link: style_link,
     '@global': {
       body: {
-        color: colors.dim,
+        color: colors.near,
         lineHeight: '1.5em'
       },
 
@@ -153,6 +153,7 @@ function make(colors)
       marginLeft: 600,
       width: 512,
       padding: [[12, 12, 62, 12]],
+      color: colors.dim,
       '& a': {
         ...style_link,
         display: 'inline-block'
@@ -241,7 +242,7 @@ function make(colors)
       textAlign: 'right',
       userSelect: 'none',
       '& a': {
-        color: colors.make([0, 0, 30]),
+        color: colors.near,
         '&:hover': {
           color: colors.sentence,
         }
@@ -316,6 +317,7 @@ function make(colors)
       width: '50%',
       paddingRight: 20,
       overflow: 'hidden',
+      color: colors.dim,
       maskImage: 'linear-gradient(transparent, black 10%, black 80%, transparent 100%)',
     },
     proseHeadingPreview: {
