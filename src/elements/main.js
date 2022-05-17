@@ -972,15 +972,27 @@ function makePR(rg, w, cs)
       }
     }
 
-    if(last_section_id != section.id)
+    if(last_section_id != section.id && g.firstChild)
     {
-      setTimeout( () =>
-        {
-          let r = g.getBBox();
-          w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].map(Math.round).join(' '));
-          w.svg.setAttribute('width', Math.round(r.width) + 100);
-          w.svg.setAttribute('height', Math.round(r.height) + 100);
-        });
+      function setViewBox(attempt)
+      {
+        setTimeout( () =>
+          {
+            if(last_section_id != section.id)
+              return;
+            let r = g.getBBox();
+            if((r.width < 10 || r.height < 10))
+            {
+              console.error("viewbox not ready", attempt);
+              setViewBox(attempt+1);
+              return;
+            }
+            w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].map(Math.round).join(' '));
+            w.svg.setAttribute('width', Math.round(r.width) + 100);
+            w.svg.setAttribute('height', Math.round(r.height) + 100);
+          });
+      }
+      setViewBox(1);
     }
 
     last_section_id = section.id;

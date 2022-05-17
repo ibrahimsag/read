@@ -460,7 +460,7 @@ function make(colors)
       },
       preview: {
         margin: 'auto',
-        width: '80%',
+        width: '100%',
         paddingTop: 20,
         flexDirection: 'column'
       },
