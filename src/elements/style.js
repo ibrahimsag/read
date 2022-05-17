@@ -285,6 +285,7 @@ function make(colors)
     },
 
     preview: {
+      minWidth: 600,
       position: 'relative',
       marginTop: 50,
       paddingTop: 50,
@@ -428,7 +429,25 @@ function make(colors)
       display: 'none',
     },
 
+    landscapeDictate: {
+      backgroundColor: 'black',
+      position: 'fixed',
+      left: 0,
+      right: 0,
+      top: 0,
+      bottom: 0,
+      display: 'none',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 999,
+      textAlign: 'center',
+      '& a': style_link
+    },
     '@media (orientation: portrait)': {
+      landscapeDictate: {
+        display: 'flex',
+        fontSize: '2em',
+      },
       coverWrap: {
         width: '95%',
       },

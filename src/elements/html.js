@@ -325,6 +325,13 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 
   let section = `
 <div id="section" class="${cs.section}">
+  <div class="${cs.landscapeDictate}">
+  <p>
+    Designed for a wider screen. Try turning your phone.
+    <br>
+    <a pref="cover">Home</a>
+  </p>
+  </div>
   <div class="${cs.header}">
     <div class="${cs.logo}">
       <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
