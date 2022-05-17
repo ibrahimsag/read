@@ -37,6 +37,9 @@ function make(colors)
           '&>#cover': {
             display: 'block',
           },
+          '& #landscapeDictate': {
+            display: 'none',
+          }
         },
         '&.section': {
           '&>#section': {
@@ -444,12 +447,13 @@ function make(colors)
       justifyContent: 'center',
       zIndex: 999,
       textAlign: 'center',
+      fontSize: '2em',
+      lineHeight: '3em',
       '& a': style_link
     },
     '@media (orientation: portrait)': {
       landscapeDictate: {
         display: 'flex',
-        fontSize: '2em',
       },
       coverWrap: {
         width: '95%',

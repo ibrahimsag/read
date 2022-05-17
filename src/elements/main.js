@@ -1098,7 +1098,7 @@ function elements() {
 
     const el = document.querySelector('#container');
     el.className = cs.container;
-    el.innerHTML = made.cover + made.toc + made.section;
+    el.innerHTML = made.cover + made.toc + made.section + made.landscapeDictate;
 
 
     pr = makePR(rg, {
