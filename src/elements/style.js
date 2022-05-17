@@ -49,6 +49,7 @@ function make(colors)
         }
       },
     },
+
     coverWrap: {
       margin: 'auto',
       width: 1024,
@@ -81,8 +82,7 @@ function make(colors)
       borderTop: '1px solid #222',
     },
     contentsColumn: {
-      flexBasis: 0,
-      flexGrow: 1,
+      width: '50%',
       '&.fig': {
         display: 'flex',
         flexDirection: 'column',
@@ -247,6 +247,14 @@ function make(colors)
 
       }
     },
+    headStand: {
+      padding: 3,
+      display: 'flex',
+      justifyContent: 'space-between',
+      backgroundColor: colors.make([0, 0, 10]),
+      color: 'black',
+      marginTop: '-1.5em',
+    },
     coverFoot: {
       textAlign: 'right',
       fontSize: '0.8em',
@@ -262,6 +270,7 @@ function make(colors)
         padding: 20,
         flexGrow: 1,
         flexBasis: 0,
+        color: colors.make([0, 0, 60]),
         '& em': {
           color: colors.sentence
         }
@@ -324,7 +333,7 @@ function make(colors)
         marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
-        borderColor: colors.player,
+        borderColor: colors.make([320, 100, 30]),
         '& path': {
           fill: colors.player,
         }
@@ -414,6 +423,47 @@ function make(colors)
       borderColor: colors.dim,
       marginLeft: -1,
     },
+
+    intent: {
+      display: 'none',
+    },
+
+    '@media (orientation: portrait)': {
+      coverWrap: {
+        width: '95%',
+      },
+      preview: {
+        margin: 'auto',
+        width: '80%',
+        paddingTop: 20,
+        flexDirection: 'column'
+      },
+      figPreview: {
+        width: '100%',
+        alignItems: 'center',
+      },
+      prosePreview: {
+        width: 512,
+        padding: 20,
+      },
+      coverQuotes: {
+        flexDirection: 'column'
+      },
+      contentsRow: {
+        flexDirection: 'column',
+        alignItems: 'center',
+      },
+      contentsColumn: {
+        width: 'auto',
+        '&.title': {
+          width: '100%',
+        }
+      },
+      intent: {
+        display: 'inline',
+      }
+    },
+
   };
   return style;
 }

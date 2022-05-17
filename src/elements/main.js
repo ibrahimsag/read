@@ -1216,6 +1216,11 @@ function elements() {
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
       proseCont.scrollTo(0, 150);
+      function setProgress()
+      {
+        document.querySelector('#progress').style.width = Math.ceil(preview.proxy.section_progress()*100) + '%';
+      }
+      setProgress();
       let i = 0;
       function movePreview()
       {
@@ -1251,7 +1256,7 @@ function elements() {
 
         function flashColor(el)
         {
-          let target_l = 50;
+          let target_l = 30;
 
           let i_seen = i;
           let last_t = performance.now();
@@ -1292,7 +1297,7 @@ function elements() {
             i++;
             scrollPreview(sentence_el);
             flashColor(downArrowEl);
-            document.querySelector('#progress').style.width = Math.ceil(preview.proxy.section_progress()*100) + '%';
+            setProgress()
             movePreview();
           }, 1000);
       }

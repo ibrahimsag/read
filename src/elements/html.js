@@ -93,7 +93,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
   <div class="${cs.coverHead}">
     <h1>Euclid's Elements</h1>
     <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 style="padding: 3px; display: flex; justify-content: space-between; background-color:${colors.make([0, 0, 10])};color:#000;margin-top:-1.5em"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
+    <h4 class="${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
   </div>
 <div class="${cs.hero}">
 <p>
@@ -136,7 +136,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
   </div>
 </div>
 <div class="${cs.hero}">
-<p> Read at your own pace.</p>
+<p> Read at your own pace. <span class="${cs.intent}">On a wider screen.</span></p>
  <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.coverQuotes}">
@@ -156,7 +156,7 @@ As an experiment, this 2300 years old cornerstone of our civilization is careful
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
 Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
@@ -178,7 +178,7 @@ Interesting construction:
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-130 -131 461 341" width="461" height="341">${fext.smpl3}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
 <p>
 Start with <a pref="3.d">Definitions</a> or <a pref="3.1">First proposition</a>.
@@ -206,7 +206,7 @@ Interesting proof:
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="0 0 477 338" width="477" height="338">${fext.smpl6}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 6 - Similar Figures</h4>
 <p>
 Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
@@ -222,7 +222,7 @@ Interesting propositions:
         <svg viewBox="0 -5 385 210" width="385" height="210">${fext.smpl7}</svg>
 
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 7 - Elementary Number Theory</h4>
 <p>
 Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
@@ -241,7 +241,7 @@ Interesting proof: <a pref="8.10">Prime factors in series</a>
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-0 0 430 230" width="430" height="230">${fext.smpl9}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 9 - Applications of Number Theory</h4>
 <p>
 Start with <a pref="9.1">First proposition</a>.
@@ -254,7 +254,7 @@ Interesting proof: <a pref="9.20">Infinity of primes</a>
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-51 -50 501 225" width="501" height="225">${fext.smpl10}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 10 - Incommensurable Magnitudes</h4>
 <p>
 Start with <a pref="10.d1">Definitions I</a>, <a pref="10.d2">Definitions II</a> or <a pref="10.d3">Definitions III</a>.
@@ -267,7 +267,7 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-189 -190 378 357" width="378" height="357">${fext.smpl11}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 11 - Elementary Stereometry</h4>
 <p>
 Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
@@ -280,7 +280,7 @@ Interesting construction: <a pref="11.23">Solid angle</a>
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-184 -298 302 423" width="302" height="423">${fext.smpl12}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 12 - Proportional Stereometry</h4>
 <p>
 Start with <a pref="12.1">First proposition</a>.
@@ -293,7 +293,7 @@ Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-229 -207 458 498" width="458" height="498">${fext.smpl13}</svg>
       </div>
-      <div class="${cs.contentsColumn}">
+      <div class="${cs.contentsColumn} title">
 <h4>Book 13 - The Platonic Solids</h4>
 <p>
 Start with <a pref="13.1">First proposition</a>.
