@@ -93,7 +93,7 @@ function make(colors)
       '&.fig': {
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'flex-end',
+        alignItems: 'center',
       }
     },
     helpTitle: {
@@ -272,8 +272,15 @@ function make(colors)
       borderTopStyle: 'solid',
       borderTopColor: '#444',
     },
+    quoteTitle: {
+      '& h3': {
+        marginTop: '3rem',
+        marginBottom: 0,
+        color: colors.sentence
+      },
+      textAlign: 'center',
+    },
     coverQuotes: {
-      marginTop: 50,
       textAlign: 'right',
       display: 'flex',
       flexDirection: 'row',

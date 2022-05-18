@@ -126,6 +126,9 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 <p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
+<div class="${cs.quoteTitle}">
+<h3>Through Dilemma of Geometry</h3>
+</div>
 <div class="${cs.coverQuotes}">
   <div>
   <p>"As for ancient geometrical analysis, ... [it] is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination..."</p>
@@ -138,7 +141,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 </div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Table of Contents</a></h3>
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>
@@ -289,7 +292,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 </p>
       </div>
     </div>
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Table of Contents</a></h3>
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
   </div>
 </div>
   <div class="${cs.coverFoot}">
