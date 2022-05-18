@@ -449,6 +449,9 @@ function make(colors)
       textAlign: 'center',
       fontSize: '2em',
       lineHeight: '3em',
+      '& svg path': {
+        fill: colors.link
+      },
       '& a': style_link
     },
     '@media (orientation: portrait)': {
