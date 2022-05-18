@@ -56,6 +56,7 @@ function make(colors)
 
     coverWrap: {
       margin: 'auto',
+      minWidth: 650,
       width: 1024,
       padding: 12,
       '& a': {
