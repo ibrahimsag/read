@@ -109,21 +109,23 @@ function make(colors)
       alignItems: 'flex-start',
     },
     header: {
+      width: '100%',
       height: 76,
-      flex: [[0, 0, 'auto']],
-    },
-
-    logo: {
       padding: [[15, 25]],
-      '& a': {
-        fontSize: '1.2em',
-        cursor: 'pointer',
-        userSelect: 'none',
-        '&:hover': {
-          color: colors.sentence,
-        }
+      display: 'flex',
+      flexDirection: 'row nowrap',
+      alignItems: 'baseline',
+      overflow: 'ellipsis',
+    },
+    logo: {
+      fontSize: '1.2em',
+      cursor: 'pointer',
+      userSelect: 'none',
+      '&:hover': {
+        color: colors.sentence,
       }
     },
+
     bookTitle: {
       whiteSpace: 'nowrap',
       overflow: 'hidden',

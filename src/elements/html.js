@@ -313,9 +313,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   let section = `
 <div id="section" class="${cs.section}">
   <div class="${cs.header}">
-    <div class="${cs.logo}">
-      <a pref="cover">Elements</a> <span class="${cs.bookTitle}" id="bookTitle"></span>
-    </div>
+    <a class="${cs.logo}" pref="cover">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
   </div>
   <div class="${cs.figColumn}">
     <svg id="figure" viewbox="0 0 512 512"></svg>

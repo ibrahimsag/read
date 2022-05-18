@@ -1237,9 +1237,50 @@ function elements() {
       i_section = (i_section+1) % sections.length;
       openSection(i_book, sections[i_section].id);
     }
+
+    function alignFigure(scroll_position) {
+      let t, d;
+      if(scroll_position > 0)
+      {
+        if(scroll_position > 75)
+          t = 0;
+        else
+          t = 76;
+      }
+      else
+      {
+        t = 76 - scroll_position;
+      }
+      let h = Math.max(512, window.innerHeight - Math.min(76, t));
+
+      let rule = sheet.getRule('figColumn');
+      rule.prop('top', t);
+      rule.prop('height', h);
+    }
+
+    let last_known_scroll_position = 0;
+    let ticking = false;
+
+    function queueAlign() {
+      last_known_scroll_position = window.scrollY;
+
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          alignFigure(last_known_scroll_position);
+          ticking = false;
+        });
+
+        ticking = true;
+      }
+    }
+    window.onscroll = queueAlign;
+
+    window.onresize = queueAlign;
   }
 
   function presentCover() {
+    window.onscroll = undefined;
+    window.onresize = undefined;
     document.querySelector('#container').className = 'cover';
     document.onkeydown = undefined;
     {
@@ -1253,10 +1294,13 @@ function elements() {
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
-      preview.present(6, sections[i_section]);
+      preview.present(6, sections[i_section], undefined, true);
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
-      proseCont.scrollTo(0, 150);
+      setTimeout(() =>
+        {
+          proseCont.scrollTo(0, 150);
+        });
       function setProgress()
       {
         document.querySelector('#progress').style.width = Math.ceil(preview.proxy.section_progress()*100) + '%';
@@ -1382,6 +1426,8 @@ function elements() {
   }
 
   function presentToc(id) {
+    window.onscroll = undefined;
+    window.onresize = undefined;
     stopPreview = true;
     document.querySelector('#container').className = 'toc';
     document.onkeydown = undefined;
@@ -1587,45 +1633,6 @@ function elements() {
       }
     }
   }
-
-  function alignFigure(scroll_position) {
-    let t, d;
-    if(scroll_position > 0)
-    {
-      if(scroll_position > 75)
-        t = 0;
-      else
-        t = 76;
-    }
-    else
-    {
-      t = 76 - scroll_position;
-    }
-    let h = Math.max(512, window.innerHeight - Math.min(76, t));
-
-    let rule = sheet.getRule('figColumn');
-    rule.prop('top', t);
-    rule.prop('height', h);
-  }
-
-  let last_known_scroll_position = 0;
-  let ticking = false;
-
-  function queueAlign() {
-    last_known_scroll_position = window.scrollY;
-
-    if (!ticking) {
-      window.requestAnimationFrame(function() {
-        alignFigure(last_known_scroll_position);
-        ticking = false;
-      });
-
-      ticking = true;
-    }
-  }
-  window.addEventListener('scroll', queueAlign);
-
-  window.onresize = queueAlign;
 };
 
 elements();
