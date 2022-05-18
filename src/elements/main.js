@@ -892,7 +892,7 @@ function makePR(rg, w, cs)
       }
       else
       {
-        w.mo.innerHTML = w.arrowd + " next symbol";
+        w.mo.innerHTML = w.arrowd + " next highlight";
       }
       w.mo.style['background-color'] = h_o;
       w.mb.style['background-color'] = h_b;

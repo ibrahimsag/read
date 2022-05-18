@@ -328,6 +328,7 @@ function make(colors)
       paddingRight: 20,
       overflow: 'hidden',
       color: colors.dim,
+      fontSize: '1.2rem',
       maskImage: 'linear-gradient(transparent, black 10%, black 80%, transparent 100%)',
     },
     proseHeadingPreview: {
@@ -459,6 +460,9 @@ function make(colors)
 
     '@media (max-width: 650px)': {
       '@global': {
+        body:{
+          fontSize: '1.7rem',
+        },
         '#container.section>#section': {
           display: 'none !important',
         },
