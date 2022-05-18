@@ -818,7 +818,7 @@ function makePR(rg, w, cs)
     let sh = handles.s[si];
     sh.sentenceEl.style['color'] = colors.sentence;
     tie.s.push(sh);
-    if(!no_scroll)
+    if(!no_scroll && !w.no_scroll)
     {
       scrollToSentenceIfNecessary(sh.sentenceEl);
     }
@@ -1016,8 +1016,8 @@ function makePR(rg, w, cs)
     return (last_present.ri + 2 === last_present.section.i_count);
   }
 
-  proxy.restart = (no_scroll) => { present(null, last_present.section, undefined, no_scroll); };
-  proxy.moveon = (no_scroll) => { present(last_present.ri + 1, last_present.section, undefined, no_scroll); };
+  proxy.restart = () => { present(null, last_present.section); };
+  proxy.moveon = () => { present(last_present.ri + 1, last_present.section); };
   proxy.moveback = () => { present(last_present.ri - 1, last_present.section); };
 
   proxy.attachProseMouseEvents = () =>
@@ -1288,13 +1288,14 @@ function elements() {
         svg: document.querySelector('#previewFigure'),
         prose: document.querySelector('#preview .proseContent'),
         title: document.querySelector('#preview .proseTitle'),
+        no_scroll: true,
       }, cs);
       canPresentSection(1, '43')
       let sections = books[1];
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
-      preview.present(6, sections[i_section], undefined, true);
+      preview.present(6, sections[i_section]);
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
       setTimeout(() =>
@@ -1377,7 +1378,7 @@ function elements() {
               stopPreview = true;
               return;
             }
-            preview.proxy.moveon(true);
+            preview.proxy.moveon();
             let sentence_el = preview.proxy.last_prose_element();
             i++;
             scrollPreview(sentence_el);
