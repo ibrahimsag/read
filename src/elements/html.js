@@ -123,7 +123,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
   </div>
 </div>
 <div class="${cs.hero}">
-<p> This is a short animation. Showing the resonance of highlights.</p>
+<p> Above is a short animation. Showing the resonance of highlights. Imagine the resonance between mentor and apprentice.</p>
 <p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>

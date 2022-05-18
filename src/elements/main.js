@@ -1311,7 +1311,7 @@ function elements() {
                 let dt = t-last_t
                 last_t = t;
                 current_l -= speed*dt/1000;
-                el.style.borderColor = hpl(320, 100, current_l)
+                el.style.borderColor = hpl(140, 100, current_l)
                 if( target_l > current_l)
                   return;
                 frame(current_l);

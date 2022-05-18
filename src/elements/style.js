@@ -286,7 +286,7 @@ function make(colors)
       },
     },
     hero: {
-      color: colors.make([220, 50, 60]),
+      //color: colors.make([220, 50, 60]),
       width: '90%',
       margin: 'auto',
       textAlign: 'center',
@@ -344,9 +344,9 @@ function make(colors)
         marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
-        borderColor: colors.make([320, 100, 30]),
+        borderColor: colors.make([140, 100, 30]),
         '& path': {
-          fill: colors.player,
+          fill: colors.link,
         }
       }
     },
@@ -360,15 +360,15 @@ function make(colors)
       top: 0,
       width: '10%',
       height: 5,
-      backgroundColor: colors.player,
+      backgroundColor: colors.make([140, 100, 30]),
       transition: 'width 0.2s ease',
     },
     previewOverlay: {
       position: 'absolute',
-      left: 0,
-      right: 0,
-      top: 0,
-      bottom: 0,
+      left: -5,
+      right: -5,
+      top: -5,
+      bottom: -5,
       backgroundColor: 'black',
       opacity: '0%',
       display: 'flex',
@@ -384,7 +384,7 @@ function make(colors)
         }
       },
       '&:hover svg path': {
-        fill: colors.make([320, 100, 50])
+        fill: colors.make([140, 100, 50])
       }
     },
 
