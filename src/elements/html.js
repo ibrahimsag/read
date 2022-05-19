@@ -127,7 +127,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
  <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.quoteTitle}">
-<h3>Through Dilemma of Geometry</h3>
+<h3>At the Dilemma of Geometry</h3>
 </div>
 <div class="${cs.coverQuotes}">
   <div>
