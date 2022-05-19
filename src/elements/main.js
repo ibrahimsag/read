@@ -431,7 +431,6 @@ function makePR(rg, w, cs)
 {
   let proxy = {};
 
-
   function prepareLetterOffsets(figure, smallLetters)
   {
     figure.letterOffsets = {};
@@ -746,8 +745,18 @@ function makePR(rg, w, cs)
   let tie = { s: [], r: [] };
   let last_present;
   let last_section_id = -1;
+  let eventLock = false;
   function present(ri, section, ri_hover, no_scroll)
   {
+    if(eventLock)
+      return;
+    if(last_section_id != section.id)
+    {
+      eventLock = true;
+      setTimeout(() => {
+        eventLock = false;
+      }, 100);
+    }
     last_present = {ri, section, ri_hover};
     if(ri == null)
     {
@@ -983,14 +992,16 @@ function makePR(rg, w, cs)
             let r = g.getBBox();
             if((r.width < 10 || r.height < 10))
             {
-              console.error("viewbox not ready", attempt);
+              console.error(section.id, last_section_id, "viewbox not ready", attempt);
+              if(attempt > 10)
+                return;
               setViewBox(attempt+1);
               return;
             }
             w.svg.setAttribute('viewBox', [r.x - 50, r.y - 50, r.width+100, r.height+100].map(Math.round).join(' '));
             w.svg.setAttribute('width', Math.round(r.width) + 100);
             w.svg.setAttribute('height', Math.round(r.height) + 100);
-          });
+          }, attempt*50);
       }
       setViewBox(1);
     }
