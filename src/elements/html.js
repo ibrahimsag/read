@@ -126,22 +126,8 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 <p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
-<div class="${cs.quoteTitle}">
-<h3>At the Dilemma of Geometry</h3>
-</div>
-<div class="${cs.coverQuotes}">
-  <div>
-  <p>"As for ancient geometrical analysis, ... [it] is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination..."</p>
-  <p><em>— R. Descartes, A Discourse on the Method, 1637</em></p>
-  </div>
-  <div>
-  <p>"... the whole subject of mechanics is distinguished from geometry by the attribution of exactness to geometry and of anything less than exactness to mechanics. Yet the errors do not come from the art but from those who practice the art."</p>
-  <p><em>— I. Newton, Preface to Principia, 1687</em></p>
-  </div>
-</div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>

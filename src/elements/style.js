@@ -65,6 +65,7 @@ function make(colors)
       }
     },
     cover: {
+      marginTop: 50,
       display: 'flex',
       flexFlow: 'row nowrap',
       '& a': {
@@ -425,9 +426,11 @@ function make(colors)
         cursor: 'pointer',
       },
       '& h4.selected': {
-        border: '1px solid',
+        borderWidth: 1,
+        borderStyle: 'solid',
         borderColor: colors.dim,
-        borderRight: '1px solid black',
+        borderRightColor: 'black',
+        backgroundColor: 'black',
         padding: 10,
       }
     },
@@ -443,7 +446,7 @@ function make(colors)
       padding: 24,
       borderLeft: '1px solid',
       borderColor: colors.dim,
-      marginLeft: -1,
+      marginLeft: -2,
     },
 
     landscapeDictate: {
