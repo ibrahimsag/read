@@ -131,7 +131,7 @@ function makeRG()
 {
   const rsvg = rough.svg(de('svg'));
 
-  const roughopts = { roughness: 0.1, stroke: colors.dim, strokeWidth: 1 };
+  const roughopts = { roughness: 0.1, disableMultiStroke: true, stroke: colors.dim, strokeWidth: 1 };
 
   function curve(vs, o)
   {
@@ -547,7 +547,7 @@ function makePR(rg, w, cs)
       };
       var el = se('text', attrs);
       var el_ = se('text', {...attrs, stroke: hsl(0),
-        'stroke-width':5, 'stroke-linecap': 'round',
+        'stroke-width':3, 'stroke-linecap': 'round',
         'stroke-linejoin': 'round'});
 
       shapes.push(el_, el);
