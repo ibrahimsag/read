@@ -33,6 +33,7 @@ function book5(rg)
 function()
 {
   return {
+    id: '5.d',
     title: 'Definitions',
     prose: prop0,
     points: {},
@@ -47,6 +48,7 @@ function()
   const f = 90;
 
   return {
+    id: '5.1',
     title: 'Proposition 1',
     prose: prop1,
     mags: [
@@ -68,6 +70,7 @@ function()
   const f = 80;
 
   return {
+    id: '5.2',
     title: 'Proposition 2',
     prose: prop2,
     mags: [
@@ -88,6 +91,7 @@ function()
   const b = 70;
   const d = 40;
   return {
+    id: '5.3',
     title: 'Proposition 3',
     prose: prop3,
     mags: [
@@ -109,6 +113,7 @@ function()
 {
   const a = 60, b = a/2.1, c = 50, d = c/2.1, v = 40;
   return {
+    id: '5.4',
     title: 'Proposition 4',
     prose: prop4,
     mags: [
@@ -132,6 +137,7 @@ function()
 {
   const a = 80, b = 50;
   return {
+    id: '5.5',
     title: 'Proposition 5',
     prose: prop5,
     mags: [
@@ -150,6 +156,7 @@ function()
 {
   const e = 70, f = 50;
   return {
+    id: '5.6',
     title: 'Proposition 6',
     prose: prop6,
     mags: [
@@ -170,6 +177,7 @@ function()
 {
   const a = 60, c = 70;
   return {
+    id: '5.7',
     title: 'Proposition 7',
     prose: prop7,
     mags: [
@@ -187,6 +195,7 @@ function()
 {
   const c1 = 60, c2 = 25, d = 35, v = 40;
   return {
+    id: '5.8',
     title: 'Proposition 8',
     prose: prop8,
     singlecanvas: true,
@@ -232,6 +241,7 @@ function()
 {
   const a = 140, c = 160;
   return {
+    id: '5.9',
     title: 'Proposition 9',
     prose: prop9,
     mags: [
@@ -246,6 +256,7 @@ function()
 {
   const a = 140, b = 100, c = 160;
   return {
+    id: '5.10',
     title: 'Proposition 10',
     prose: prop10,
     mags: [
@@ -262,6 +273,7 @@ function()
         c = 50, d = c / r,
         e = 60, f = e / r;
   return {
+    id: '5.11',
     title: 'Proposition 11',
     prose: prop11,
     mags: [
@@ -287,6 +299,7 @@ function()
         c = 70, d = c / r,
         e = 40, f = e / r;
   return {
+    id: '5.12',
     title: 'Proposition 12',
     prose: prop12,
     mags: [
@@ -310,6 +323,7 @@ function()
 {
   const a = 50, b = a/2, c = 60, d = c/2, e = 55, f = e/1.2, v = 40;
   return {
+    id: '5.13',
     title: 'Proposition 13',
     prose: prop13,
     mags: [
@@ -333,6 +347,7 @@ function()
 {
   const a = 120, b = a/1.3, c = 80, d = c/1.3;
   return {
+    id: '5.14',
     title: 'Proposition 14',
     prose: prop14,
     mags: [
@@ -348,6 +363,7 @@ function()
 {
   const c = 60, f = 50;
   return {
+    id: '5.15',
     title: 'Proposition 15',
     prose: prop15,
     mags: [
@@ -369,6 +385,7 @@ function()
 {
   const a = 60, b = a/1.3, c = 50, d = c/1.3;
   return {
+    id: '5.16',
     title: 'Proposition 16',
     prose: prop16,
     mags: [
@@ -388,6 +405,7 @@ function()
 {
   const a = 70, b = a / 1.9, c = 60, d = c/1.8;
   return {
+    id: '5.17',
     title: 'Proposition 17',
     prose: prop17,
     mags: [
@@ -413,6 +431,7 @@ function()
 {
   const a = 150, b = a/1.7, c = 190, d = c/1.7, r = 40;
   return {
+    id: '5.18',
     title: 'Proposition 18',
     prose: prop18,
     mags: [
@@ -431,6 +450,7 @@ function()
 {
   const a = 100, b = a*1.7, c = 120, d = c*1.7;
   return {
+    id: '5.19',
     title: 'Proposition 19',
     prose: prop19,
     mags: [
@@ -449,6 +469,7 @@ function()
   const a = 180, b = a/1.8, c = b * 1.4,
         d = 150, e = d/1.8, f = e * 1.4;
   return {
+    id: '5.20',
     title: 'Proposition 20',
     prose: prop20,
     mags: [
@@ -467,6 +488,7 @@ function()
   const a = 180, b = a/1.8, c = b * 1.4,
         d = 150, e = d*1.2, f = e / 1.8;
   return {
+    id: '5.21',
     title: 'Proposition 21',
     prose: prop21,
     mags: [
@@ -484,6 +506,7 @@ function()
 {
   const a = 55, d = 40, b = a/1.3, c = b*1.6, e = d/1.3, f = e*1.6;
   return {
+    id: '5.22',
     title: 'Proposition 22',
     prose: prop22,
     mags: [
@@ -507,6 +530,7 @@ function()
 {
   const a = 45, d = 30, b = a/1.6, c = b*1.6, e = d*1.6, f = e/1.6;
   return {
+    id: '5.23',
     title: 'Proposition 23',
     prose: prop23,
     mags: [
@@ -530,6 +554,7 @@ function()
 {
   const a = 160, d = 120;
   return {
+    id: '5.24',
     title: 'Proposition 24',
     prose: prop24,
     mags: [
@@ -549,6 +574,7 @@ function()
 {
   const a = 160, c = 120;
   return {
+    id: '5.25',
     title: 'Proposition 25',
     prose: prop25,
     mags: [

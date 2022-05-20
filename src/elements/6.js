@@ -41,6 +41,7 @@ function book6(rg)
 function()
 {
   return {
+    id: '5.d',
     title: 'Definitions',
     prose: prop0,
   };
@@ -62,6 +63,7 @@ function()
   const L = vec2.add(C, [l2 * 3, 0]);
 
   return {
+    id: '6.1',
     title: 'Proposition 1',
     prose: prop1,
     points: { A, B, C, D, E, F, G, H, K, L },
@@ -102,6 +104,7 @@ function()
   const E = vec2.add(A, vec2.scale(ac, 0.7));
 
   return {
+    id: '6.2',
     title: 'Proposition 2',
     prose: prop2,
     points: { A, B, C, D, E },
@@ -139,6 +142,7 @@ function()
   const D = vec2.add(A, ad);
 
   return {
+    id: '6.3',
     title: 'Proposition 3',
     prose: prop3,
     points: { A, B, C, D, E },
@@ -169,6 +173,7 @@ function()
   const F = vec2.add(E, vec2.scale(ca, 1.5));
 
   return {
+    id: '6.4',
     title: 'Proposition 4',
     prose: prop4,
     points: { A, B, C, D, E, F },
@@ -202,6 +207,7 @@ function()
   const G = vec2.add(F, vec2.scale(vec2.rot(ca, -2*theta), 0.6));
 
   return {
+    id: '6.5',
     title: 'Proposition 5',
     prose: prop5,
     points: { A, B, C, D, E, F, G },
@@ -237,6 +243,7 @@ function()
   const [E, F, G] = [de, df, dg].map(v => vec2.add(D, v));
 
   return {
+    id: '6.6',
     title: 'Proposition 6',
     prose: prop6,
     points: { A, B, C, D, E, F, G },
@@ -275,6 +282,7 @@ function()
   const F = vec2.add(D, df);
 
   return {
+    id: '6.7',
     title: 'Proposition 7',
     prose: prop7,
     points: { A, B, C, D, E, F, G },
@@ -306,6 +314,7 @@ function()
   const D = vec2.add(B, bd);
 
   return {
+    id: '6.8',
     title: 'Proposition 8',
     prose: prop8,
     points: { A, B, C, D },
@@ -336,6 +345,7 @@ function()
   const F = vec2.add(A, vec2.scale(at, 0.3));
 
   return {
+    id: '6.9',
     title: 'Proposition 9',
     prose: prop9,
     points: { A, B, C, D, E, F },
@@ -372,6 +382,7 @@ function()
   const K = vec2.add(B, fd);
 
   return {
+    id: '6.10',
     title: 'Proposition 10',
     prose: prop10,
     points: { A, B, C, D, E, F, G, H, K },
@@ -411,6 +422,7 @@ function()
   const [B, D, E] = [ab, ad, ae].map(v => vec2.add(A, v));
 
   return {
+    id: '6.11',
     title: 'Proposition 11',
     prose: prop11,
     points: { A, B, C, D, E },
@@ -443,6 +455,7 @@ function()
   const [G, E, H, F, T, W] = [dg, de, dh, df, dt, dw].map(v => vec2.add(D, v));
 
   return {
+    id: '6.12',
     title: 'Proposition 12',
     prose: prop12,
     points: { D, E, F, G, H },
@@ -477,6 +490,7 @@ function()
   const D = vec2.sub(B, [0, Math.sqrt(a * b)]);
 
   return {
+    id: '6.13',
     title: 'Proposition 13',
     prose: prop13,
     points: { A, B, C, D, O },
@@ -509,6 +523,7 @@ function()
   const [G, C] = [B, E].map(pt => vec2.add(pt, u2));
 
   return {
+    id: '6.14',
     title: 'Proposition 14',
     prose: prop14,
     points: { A, B, C, D, E, F, G, H },
@@ -548,6 +563,7 @@ function()
   const E = vec2.add(A, vec2.scale(ba, 1/1.1));
 
   return {
+    id: '6.15',
     title: 'Proposition 15',
     prose: prop15,
     points: { A, B, C, D, E },
@@ -579,6 +595,7 @@ function()
   const L = vec2.sub(D, [0, e]);
 
   return {
+    id: '6.16',
     title: 'Proposition 16',
     prose: prop16,
     points: { A, B, C, D, G, H, K, L },
@@ -609,6 +626,7 @@ function()
 {
   const b = 120, c = 90, a = b * b / c;
   return {
+    id: '6.17',
     title: 'Proposition 17',
     prose: prop17,
     mags: [
@@ -631,6 +649,7 @@ function()
   const [B, G, H] = [cd, cf, ce].map(v => vec2.add(A, vec2.scale(v, 0.6)));
 
   return {
+    id: '6.18',
     title: 'Proposition 18',
     prose: prop18,
     points: { A, B, C, D, E, F, G, H },
@@ -669,6 +688,7 @@ function()
   const [D, F] = [ba, bc].map(v => vec2.add(E, vec2.scale(v, ratio)));
 
   return {
+    id: '6.19',
     title: 'Proposition 19',
     prose: prop19,
     points: { A, B, C, D, E, F, G },
@@ -698,6 +718,7 @@ function()
   const [G, H, K, L, N] = ds.map(v => vec2.add(F, vec2.scale(v, 0.6)));
 
   return {
+    id: '6.20',
     title: 'Proposition 20',
     prose: prop20,
     points: { A, B, C, D, E, F, G, H, K, L, M, N },
@@ -741,6 +762,7 @@ function()
   const cpts = ds.map(v => vec2.add(C, vec2.scale(v, 1.2)));
 
   return {
+    id: '6.21',
     title: 'Proposition 21',
     prose: prop21,
     points: { A, B, C },
@@ -785,6 +807,7 @@ function()
   const T = vec2.add(S, [g, 0]);
 
   return {
+    id: '6.22',
     title: 'Proposition 22',
     prose: prop22,
     points: {A, B, C, D, E, F, G, H, K, L, M, N, Q, R, S, T, U, V },
@@ -836,6 +859,7 @@ function()
   const [F, G, H] = [E, C, D].map(pt=>vec2.add(pt, vec2.scale(u, l)));
 
   return {
+    id: '6.23',
     title: 'Proposition 23',
     prose: prop23,
     points: { A, B, C, D, E, F, G, H },
@@ -888,6 +912,7 @@ function()
   const K = vec2.add(D, ae);
 
   return {
+    id: '6.24',
     title: 'Proposition 24',
     prose: prop24,
     points: { A, B, C, D, E, F, G, H, K },
@@ -935,6 +960,7 @@ function()
   const K = vec2.add(G, vec2.scale(ba, g/b));
 
   return {
+    id: '6.25',
     title: 'Proposition 25',
     prose: prop25,
     points: { A, B, C, D, E, F, G, H, K, L, M },
@@ -990,6 +1016,7 @@ function()
   const H = vec2.add(G, ak);
 
   return {
+    id: '6.26',
     title: 'Proposition 26',
     prose: prop26,
     points: { A, B, C, D, E, F, G, H, K },
@@ -1046,6 +1073,7 @@ function()
   const N = vec2.sub(F, vec2.scale(v, 20));
 
   return {
+    id: '6.27',
     title: 'Proposition 27',
     prose: prop27,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q },
@@ -1124,6 +1152,7 @@ function()
   const N = vec2.add(K, vec2.scale(u, w * 0.3));
 
   return {
+    id: '6.28',
     title: 'Proposition 28',
     prose: prop28,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, R, S, T, U, V, W },
@@ -1217,6 +1246,7 @@ function()
 
 
   return {
+    id: '6.29',
     title: 'Proposition 29',
     prose: prop29,
     points: { A, B, C, D, E, F, G, H, K, L, M, N, O, P, Q, S, U, V, W, X },
@@ -1290,6 +1320,7 @@ function()
   const H = vec2.add(B, [0, -a]);
 
   return {
+    id: '6.30',
     title: 'Proposition 30',
     prose: prop30,
     points: { A, B, C, D, E, F, G, H },
@@ -1340,6 +1371,7 @@ function()
   const cs = [[0, 0], cb, vec2.add(cb, cbi), cbi].map(v => vec2.add(C, v));
 
   return {
+    id: '6.31',
     title: 'Proposition 31',
     prose: prop31,
     points: { A, B, C, D },
@@ -1369,6 +1401,7 @@ function()
   const D = vec2.add(C, vec2.scale(v, 150* 2));
 
   return {
+    id: '6.32',
     title: 'Proposition 32',
     prose: prop32,
     points: { A, B, C, D, E },
@@ -1405,6 +1438,7 @@ function()
 
 
   return {
+    id: '6.33',
     title: 'Proposition 33',
     prose: prop33,
     points: { A, B, C, D, E, F, G, H, K, L, M, N },

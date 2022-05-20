@@ -25,26 +25,7 @@ function storeProps()
 
   function saveBook(book, i)
   {
-    let ps = book(srg).map(f => f()).map(p =>
-    {
-      let m;
-       if(i >= 9)
-      {
-      }
-      else if(p.title.startsWith('Def'))
-      {
-        p.id = `${i+1}.d`;
-      }
-      else if(m = p.title.match(/Proposition (\d+)/))
-      {
-        p.id = `${i+1}.${m[1]}`;
-      }
-      else
-      {
-        console.log('what? ', p.title);
-      }
-      return p;
-    });
+    let ps = book(srg).map(f => f());
     fs.writeFile("build/"+(i+1)+".json", JSON.stringify(ps), function(err) {
       if(err) {
         return console.log(err);
