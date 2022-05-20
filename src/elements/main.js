@@ -1224,50 +1224,28 @@ function elements() {
 
     document.onkeydown = keyHandler;
 
-    document.querySelector('#move-on').ontouchend = (e) =>
+    document.querySelector('#move-on').onclick = (e) =>
     {
       e.preventDefault();
       pr.proxy.moveon();
     }
 
-    document.querySelector('#move-on').onmousedown = (e) =>
-    {
-      pr.proxy.moveon();
-    }
-
-    document.querySelector('#move-back').ontouchend = (e) =>
+    document.querySelector('#move-back').onclick = (e) =>
     {
       e.preventDefault();
       pr.proxy.moveback();
     }
 
-    document.querySelector('#move-back').onmousedown = (e) =>
-    {
-      pr.proxy.moveback();
-    }
-
-    document.querySelector('#prev-section').ontouchend = (e) =>
+    document.querySelector('#prev-section').onclick = (e) =>
     {
       e.preventDefault();
       i_section = (i_section-1+sections.length) % sections.length;
       openSection(i_book, sections[i_section].id);
     }
 
-    document.querySelector('#next-section').ontouchend = (e) =>
+    document.querySelector('#next-section').onclick = (e) =>
     {
       e.preventDefault();
-      i_section = (i_section+1) % sections.length;
-      openSection(i_book, sections[i_section].id);
-    }
-
-    document.querySelector('#prev-section').onmousedown = (e) =>
-    {
-      i_section = (i_section-1+sections.length) % sections.length;
-      openSection(i_book, sections[i_section].id);
-    }
-
-    document.querySelector('#next-section').onmousedown = (e) =>
-    {
       i_section = (i_section+1) % sections.length;
       openSection(i_book, sections[i_section].id);
     }
