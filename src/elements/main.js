@@ -158,45 +158,40 @@ function makeRG()
 {
   const rsvg = rough.svg(de('svg'));
 
-  const roughopts = { roughness: 0.1, disableMultiStroke: true, stroke: colors.dim, strokeWidth: 1 };
+  const roughopts = { roughness: 0, disableMultiStroke: true, stroke: colors.dim, strokeWidth: 1 };
+
+  function r_arc(c, a, b)
+  {
+    let ca = v2.sub(a, c);
+    let cb = v2.sub(b, c);
+    let d = v2.len(ca);
+    let uca = v2.scale(ca, 1/d);
+    let start = (Math.atan2(uca[1], uca[0]) + Math.PI*2) % (Math.PI * 2);
+    let ucb = v2.scale(cb, 1/d);
+    let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
+    if(start > end)
+      end += Math.PI * 2;
+    return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, roughopts);
+  }
 
   function curve(vs, o)
   {
-    if(o)
-    {
-      if(o.layer === 'low')
-        o.stroke = colors.low;
-    }
-    return rsvg.generator.curve(vs, {...roughopts, ...o});
+    return {typ: 'curve', vs, ...o};
   }
 
   function polygon(vs, o)
   {
-    if(o)
-    {
-      if(o.dashed)
-        o.strokeLineDash = [10, 10];
-      if(o.layer === 'low')
-        o.stroke = colors.low;
-    }
-    return rsvg.generator.polygon(vs, {...roughopts, ...o});
+    return {typ: 'polygon', vs, ...o};
   }
 
   function line(a, b, o)
   {
-    if(o)
-    {
-      if(o.dashed)
-        o.strokeLineDash = [10, 10];
-      if(o.layer === 'low')
-        o.stroke = colors.low;
-    }
-    return rsvg.generator.line(a[0], a[1], b[0], b[1], {...roughopts, ...o});
+    return {typ: 'line', a, b, ...o}
   }
 
   function circle(c, d, o)
   {
-    return rsvg.generator.circle(c[0], c[1], d, {...roughopts, ...o});
+    return {typ: 'circle', c, d, ...o}
   }
 
   function anglecurve(a, o, b)
@@ -228,16 +223,7 @@ function makeRG()
 
   function arc(c, a, b, o)
   {
-    let ca = v2.sub(a, c);
-    let cb = v2.sub(b, c);
-    let d = v2.len(ca);
-    let uca = v2.scale(ca, 1/d);
-    let start = (Math.atan2(uca[1], uca[0]) + Math.PI*2) % (Math.PI * 2);
-    let ucb = v2.scale(cb, 1/d);
-    let end = (Math.atan2(ucb[1], ucb[0]) + Math.PI*2) % (Math.PI*2);
-    if(start > end)
-      end += Math.PI * 2;
-    return rsvg.generator.arc(c[0], c[1], d*2, d*2, start, end, false, {...roughopts, ...o});
+    return {typ: 'arc', c, a, b, ...o};
   }
 
   function gnomon(c, d, e)
@@ -250,6 +236,48 @@ function makeRG()
     let w = [0, 5];
     let a = v2.sub(pt, w), b = v2.add(pt, w);
     return line(a, b);
+  }
+
+  function draw(s) {
+    let o;
+    if(s.typ === 'curve')
+      o = rsvg.generator.curve(s.vs, roughopts);
+    else if(s.typ === 'polygon')
+      o = rsvg.generator.polygon(s.vs, roughopts);
+    else if(s.typ === 'line')
+      o = rsvg.generator.line(s.a[0], s.a[1], s.b[0], s.b[1], roughopts);
+    else if(s.typ === 'circle')
+      o = rsvg.generator.circle(s.c[0], s.c[1], s.d, roughopts);
+    else if(s.typ === 'arc')
+      o = r_arc(s.c, s.a, s.b)
+
+    let e = rsvg.draw(o).firstChild;
+
+    if(s.dashed || s.strokeLineDash)
+    {
+      let a = s.strokeLineDash || [10, 10];
+      e.setAttribute('stroke-dasharray', a.join(' '));
+    }
+
+    let w = s.strokeWidth || 1;
+    if(s.layer && s.layer.endsWith('bright'))
+      w+=1;
+    e.setAttribute('stroke-width', w);
+
+    let stroke;
+    if(s.layer === 'bright')
+      stroke = colors.bright;
+    else if(s.layer === 'occluded_bright')
+      stroke = colors.occluded;
+    else if(s.layer === 'hover_bright')
+      stroke = colors.hover_bright;
+    else if(s.layer === 'low')
+      stroke = colors.low;
+    else
+      stroke = colors.dim;
+
+    e.setAttribute('stroke', stroke);
+    return e;
   }
 
   function makeHighlight(figure, layer, h) {
@@ -362,7 +390,7 @@ function makeRG()
     }
     else if(h.typ == 'given' && figure.given && figure.given[h.name])
     {
-      shapes = figure.given[h.name].map(s => ({ ...s, options: {...s.options} }));
+      shapes = figure.given[h.name];
     }
     else
     {
@@ -370,48 +398,10 @@ function makeRG()
       return [];
     }
 
-    if(layer === 'sentence')
-    {
-      shapes.forEach(s =>
-        {
-          if(h.typ === 'angle' && (s.shape == 'arc' || s.shape === 'curve'))
-          {
-            s.options["stroke"] = colors.dim;
-          }
-          else
-          {
-            s.options["stroke"] = colors.near;
-          }
-        });
-    }
-    else if(layer === 'bright')
-    {
-      shapes.forEach(s =>
-        {
-          s.options["stroke"] = colors.bright;
-          s.options["strokeWidth"] += 1;
-        });
-    }
-    else if(layer === 'occluded_bright')
-    {
-      shapes.forEach(s =>
-        {
-          s.options["stroke"] = colors.occluded;
-          s.options["strokeWidth"] += 1;
-        });
-    }
-    else if(layer === 'hover_bright')
-    {
-      shapes.forEach(s =>
-        {
-          s.options["stroke"] = colors.hover_bright;
-          s.options["strokeWidth"] += 1;
-        });
-    }
-
-    return shapes;
+    return shapes.map(s => ({layer, ...s}));
   }
-  return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw: rsvg.draw.bind(rsvg) }
+
+  return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw }
 }
 
 function prepareMags(section)
