@@ -946,7 +946,6 @@ function makePR(rg, w, cs)
     let setLetterColor = (o, c, ds) => ds.forEach(h => { h.name.split('').forEach(l => o[l] = c); })
 
     tie.center = tie.center.filter(h=>h.typ);
-    tie.near = tie.near.filter(h=>h.typ);
     tie.hover = tie.hover.filter(h=>h.typ);
     let g = se('g');
     w.svg.append(g);
@@ -956,8 +955,6 @@ function makePR(rg, w, cs)
       g.append(...figure.shapes.map(rg.draw));
 
       let o = {};
-      //appendDraw(figure, 'sentence', tie.near);
-      // setLetterColor(o, 'sentence', tie.near);
       if(!isNaN(ri_hover))
       {
         appendDraw(figure, 'occluded_bright', tie.center);
@@ -986,8 +983,6 @@ function makePR(rg, w, cs)
         let shouldHighlight = tie.fi == 0 || tie.fi == i+1;
         if(shouldHighlight)
         {
-          // appendDraw(figure, 'sentence', tie.near);
-          // setLetterColor(o, 'sentence', tie.near);
           if(!isNaN(ri_hover))
           {
             appendDraw(figure, 'occluded_bright', tie.center);
