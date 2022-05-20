@@ -304,7 +304,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   <div class="${cs.header}">
     <a class="${cs.logo}" pref="cover">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
   </div>
-  <div class="${cs.figColumn}">
+  <div id="figColumn" class="${cs.figColumn}">
     <svg id="figure" viewbox="0 0 512 512"></svg>
   </div>
   <div class="${cs.prose}">

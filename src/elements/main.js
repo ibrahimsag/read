@@ -20,8 +20,8 @@ let colors_dark = {
   none: hsluv.hsluvToHex([0, 0, 0]),
   link: hsluv.hpluvToHex([140, 100, 50]),
   link_hover: hsluv.hpluvToHex([140, 100, 70]),
-  hover: hsluv.hpluvToHex([320, 100, 50]),
-  hover_bright: hsluv.hpluvToHex([320, 100, 80]),
+  hover: hsluv.hpluvToHex([325, 100, 50]),
+  hover_bright: hsluv.hpluvToHex([325, 100, 80]),
   player: hsluv.hpluvToHex([140, 100, 50]),
   player_low: hsluv.hpluvToHex([140, 100, 30]),
   player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
@@ -29,7 +29,7 @@ let colors_dark = {
 
 let colors_light = {
   bright: hsluv.hsluvToHex([0, 0, 0]),
-  occluded: hsluv.hsluvToHex([0, 0, 20]),
+  occluded: hsluv.hsluvToHex([0, 0, 30]),
   full: hsluv.hsluvToHex([0, 0, 0]),
   sentence: hsluv.hsluvToHex([0, 0, 35]),
   near: hsluv.hsluvToHex([0, 0, 50]),
@@ -39,8 +39,8 @@ let colors_light = {
   none: hsluv.hsluvToHex([0, 0, 100]),
   link: hsluv.hpluvToHex([140, 100, 50]),
   link_hover: hsluv.hpluvToHex([140, 100, 30]),
-  hover: hsluv.hpluvToHex([320, 100, 50]),
-  hover_bright: hsluv.hpluvToHex([320, 100, 20]),
+  hover: hsluv.hsluvToHex([350, 100, 50]),
+  hover_bright: hsluv.hsluvToHex([350, 100, 40]),
   player: hsluv.hpluvToHex([140, 100, 50]),
   player_low: hsluv.hpluvToHex([140, 100, 70]),
   player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
@@ -927,7 +927,7 @@ function makePR(rg, w)
       g.append(...figure.shapes.map(rg.draw));
 
       let o = {};
-      if(!isNaN(ri_hover))
+      if(!isNaN(ri_hover) && ri_hover !== ri)
       {
         appendDraw(figure, 'occluded_bright', tie.center);
         setLetterColor(o, 'occluded_bright', tie.center);
@@ -955,7 +955,7 @@ function makePR(rg, w)
         let shouldHighlight = tie.fi == 0 || tie.fi == i+1;
         if(shouldHighlight)
         {
-          if(!isNaN(ri_hover))
+          if(!isNaN(ri_hover) && ri_hover != ri)
           {
             appendDraw(figure, 'occluded_bright', tie.center);
             setLetterColor(o, 'occluded_bright', tie.center);
@@ -1102,11 +1102,30 @@ function makePR(rg, w)
 
 const rg = makeRG();
 function elements() {
+  let l = (r) => r.key;
   const jss = create().setup(preset());
-  const sheet = jss.createStyleSheet(style(colors), {link: true});
-  sheet.attach();
+  const dark_sheet = jss.createStyleSheet(style(colors_dark), {generateId: l});
+  const light_sheet = jss.createStyleSheet(style(colors_light), {generateId: l});
+  let sheet_select = false;
+  dark_sheet.attach();
+  function switchSheets()
+  {
+    if(sheet_select)
+    {
+      sheet_select = false;
+      light_sheet.detach();
+      dark_sheet.attach();
+    }
+    else
+    {
+      sheet_select = true;
+      dark_sheet.detach();
+      light_sheet.attach();
+    }
+  }
+  // setTimeout(switchSheets);
 
-  const cs = sheet.classes;
+  const cs = dark_sheet.classes;
 
   const made = html(colors, cs, figureExtracts);
 
@@ -1264,9 +1283,9 @@ function elements() {
       }
       let h = Math.max(512, window.innerHeight - Math.min(76, t));
 
-      let rule = sheet.getRule('figColumn');
-      rule.prop('top', t);
-      rule.prop('height', h);
+      let e = document.querySelector('#figColumn');
+      e.style.top = t + 'px';
+      e.style.height = h + 'px';
     }
 
     let last_known_scroll_position = 0;
