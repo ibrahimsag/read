@@ -19,6 +19,7 @@ function make(colors)
     link: style_link,
     '@global': {
       body: {
+        backgroundColor: colors.none,
         color: colors.near,
         lineHeight: '1.5em'
       },
@@ -87,7 +88,7 @@ function make(colors)
       alignItems: 'flex-start',
       borderTopWidth: 1,
       borderTopStyle: 'solid',
-      borderTopColor: '#222',
+      borderTopColor: colors.stand,
     },
     contentsColumn: {
       width: '50%',
@@ -96,9 +97,6 @@ function make(colors)
         flexDirection: 'column',
         alignItems: 'center',
       }
-    },
-    helpTitle: {
-      color: colors.make([320, 100, 75])
     },
 
     section: {
@@ -262,7 +260,7 @@ function make(colors)
       padding: 3,
       display: 'flex',
       justifyContent: 'space-between',
-      backgroundColor: colors.make([0, 0, 10]),
+      backgroundColor: colors.stand,
       color: 'black',
       marginTop: '-1.5em',
     },
@@ -271,33 +269,9 @@ function make(colors)
       fontSize: '0.8em',
       borderTopWidth: 1,
       borderTopStyle: 'solid',
-      borderTopColor: '#444',
-    },
-    quoteTitle: {
-      '& h3': {
-        marginTop: '3rem',
-        marginBottom: 0,
-        color: colors.sentence
-      },
-      textAlign: 'center',
-    },
-    coverQuotes: {
-      textAlign: 'right',
-      display: 'flex',
-      flexDirection: 'row',
-      fontSize: '0.8em',
-      '& div': {
-        padding: 20,
-        flexGrow: 1,
-        flexBasis: 0,
-        color: colors.make([0, 0, 60]),
-        '& em': {
-          color: colors.sentence
-        }
-      },
+      borderTopColor: colors.low,
     },
     hero: {
-      //color: colors.make([220, 50, 60]),
       width: '90%',
       margin: 'auto',
       textAlign: 'center',
@@ -320,7 +294,6 @@ function make(colors)
       },
       '& p': {
         lineHeight: '2em',
-        //marginBottom: '2em',
         textAlign: 'left',
       },
     },
@@ -356,7 +329,7 @@ function make(colors)
         marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
-        borderColor: colors.make([140, 100, 30]),
+        borderColor: colors.player_low,
         '& path': {
           fill: colors.link,
         }
@@ -372,7 +345,7 @@ function make(colors)
       top: 0,
       width: '10%',
       height: 5,
-      backgroundColor: colors.make([140, 100, 30]),
+      backgroundColor: colors.player_low,
       transition: 'width 0.2s ease',
     },
     previewOverlay: {
@@ -387,7 +360,7 @@ function make(colors)
       alignItems: 'center',
       borderWidth: 1,
       borderStyle: 'solid',
-      borderColor: colors.make([0, 0, 15]),
+      borderColor: colors.low,
       justifyContent: 'center',
       '& svg': {
         height: 70,
@@ -396,7 +369,7 @@ function make(colors)
         }
       },
       '&:hover svg path': {
-        fill: colors.make([140, 100, 50])
+        fill: colors.player,
       }
     },
 

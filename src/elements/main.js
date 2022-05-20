@@ -11,15 +11,19 @@ import html from './html.js';
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
-  near: hsluv.hsluvToHex([0, 0, 50]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
+  near: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 40]),
+  low: hsluv.hsluvToHex([0, 0, 20]),
+  stand: hsluv.hsluvToHex([0, 0, 10]),
+  none: hsluv.hsluvToHex([0, 0, 0]),
   link: hsluv.hpluvToHex([140, 100, 50]),
   link_hover: hsluv.hpluvToHex([140, 100, 70]),
   hover: hsluv.hpluvToHex([320, 100, 50]),
   hover_bright: hsluv.hpluvToHex([320, 100, 80]),
-  player: hsluv.hpluvToHex([320, 100, 50]),
-  make: hsluv.hpluvToHex,
+  player: hsluv.hpluvToHex([140, 100, 50]),
+  player_low: hsluv.hpluvToHex([140, 100, 30]),
+  player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
 };
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -138,7 +142,7 @@ function makeRG()
     if(o)
     {
       if(o.layer === 'low')
-        o.stroke = hsl(20);
+        o.stroke = colors.low;
     }
     return rsvg.generator.curve(vs, {...roughopts, ...o});
   }
@@ -150,7 +154,7 @@ function makeRG()
       if(o.dashed)
         o.strokeLineDash = [10, 10];
       if(o.layer === 'low')
-        o.stroke = hsl(20);
+        o.stroke = colors.low;
     }
     return rsvg.generator.polygon(vs, {...roughopts, ...o});
   }
@@ -162,7 +166,7 @@ function makeRG()
       if(o.dashed)
         o.strokeLineDash = [10, 10];
       if(o.layer === 'low')
-        o.stroke = hsl(20);
+        o.stroke = colors.low;
     }
     return rsvg.generator.line(a[0], a[1], b[0], b[1], {...roughopts, ...o});
   }
@@ -564,7 +568,7 @@ function makePR(rg, w, cs)
         'y': pos[1],
       };
       var el = se('text', attrs);
-      var el_ = se('text', {...attrs, stroke: hsl(0),
+      var el_ = se('text', {...attrs, stroke: colors.none,
         'stroke-width':3, 'stroke-linecap': 'round',
         'stroke-linejoin': 'round'});
 
@@ -1386,7 +1390,7 @@ function elements() {
                 let dt = t-last_t
                 last_t = t;
                 current_l -= speed*dt/1000;
-                el.style.borderColor = hpl(140, 100, current_l)
+                el.style.borderColor = colors.player_l(current_l)
                 if( target_l > current_l)
                   return;
                 frame(current_l);
