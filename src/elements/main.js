@@ -158,7 +158,7 @@ function makeRG()
 {
   const rsvg = rough.svg(de('svg'));
 
-  const roughopts = { roughness: 0, disableMultiStroke: true, stroke: colors.dim, strokeWidth: 1 };
+  const roughopts = { roughness: 0, disableMultiStroke: true, stroke: '#000', strokeWidth: 1 };
 
   function r_arc(c, a, b)
   {
@@ -462,7 +462,7 @@ function prepareMags(section)
   return section;
 }
 
-function makePR(rg, w, cs)
+function makePR(rg, w)
 {
   let proxy = {};
 
@@ -724,7 +724,7 @@ function makePR(rg, w, cs)
         let {parts, k, seen} = a;
 
         let sentenceEl = de('span');
-        sentenceEl.className = cs.sentence;
+        sentenceEl.className = 'sentence';
 
         function prepPart(a)
         {
@@ -748,7 +748,7 @@ function makePR(rg, w, cs)
           {
             let el = de('span');
             el.innerText = part.name;
-            el.className = cs.name;
+            el.className = 'name';
             el.dataset.i = i;
             sentenceEl.append(el);
             r = {part, i, k, lastSeenFigureIndex, el};
@@ -834,14 +834,14 @@ function makePR(rg, w, cs)
     while(tie.s.length > 0)
     {
       let v = tie.s.pop();
-      v.sentenceEl.style['color'] = colors.dim;
+      v.sentenceEl.className = 'sentence';
     }
 
     while(tie.r.length > 0)
     {
       let a = tie.r.pop();
       if(!a) continue;
-      a.el.style['color'] = colors.dim;
+      a.el.className = 'name';
     }
 
     tie.s = []
@@ -856,39 +856,18 @@ function makePR(rg, w, cs)
     let si_hover = !isNaN(ri_hover) ? findMaxLTE(section.i_p, ri_hover): null;;
 
     let sh = handles.s[si];
-    sh.sentenceEl.style['color'] = colors.sentence;
+    sh.sentenceEl.className = 'sentence sentence-at';
     tie.s.push(sh);
     if(!no_scroll && !w.no_scroll)
     {
       scrollToSentenceIfNecessary(sh.sentenceEl);
     }
 
-    let seenMarks = {};
-    handles.r.slice(section.i_p[si], section.i_p[si+1]).forEach(rh =>
-    {
-      if(!rh) return;
-      rh.el.style['color'] = colors.near;
-      let part = rh.part, hash = JSON.stringify(part);
-      if(!seenMarks[hash])
-      {
-        tie.near.push(part);
-        seenMarks[hash] = true;
-      }
-      tie.r.push(rh);
-    });
-
     if (si_hover!=null)
     {
       let sh_hover = handles.s[si_hover];
-      sh_hover.sentenceEl.style['color'] = colors.hover;
+      sh_hover.sentenceEl.className = 'sentence sentence-hover';
       tie.s.push(sh_hover);
-
-      handles.r.slice(section.i_p[si_hover], section.i_p[si_hover+1]).forEach(rh =>
-      {
-        if(!rh) return;
-        rh.el.style['color'] = colors.hover;
-        tie.r.push(rh);
-      });
     }
 
     let rh = handles.r[ri];
@@ -896,14 +875,14 @@ function makePR(rg, w, cs)
     {
       tie.center.push(rh.part);
       tie.fi = rh.lastSeenFigureIndex;
-      rh.el.style['color'] = colors.bright;
+      rh.el.className = 'name name-at';
       tie.r.push(rh);
     }
 
     if(!isNaN(ri_hover) && ri_hover != ri && handles.r[ri_hover])
     {
       let rh_hover = handles.r[ri_hover];
-      rh_hover.el.style['color'] = colors.hover_bright;
+      rh_hover.el.className = 'name name-hover';
       tie.hover.push(rh_hover.part);
       tie.hfi = rh_hover.lastSeenFigureIndex;
       tie.r.push(rh_hover);
@@ -911,7 +890,6 @@ function makePR(rg, w, cs)
 
     if(w.mb && w.mo)
     {
-      let h_o = colors.sentence, h_b = colors.dim;
       w.mb.innerHTML = "previous" + w.arrowu;
       if (ri === 0)
       {
@@ -920,22 +898,16 @@ function makePR(rg, w, cs)
 
       if (ri === section.i_count-2)
       {
-        h_o = colors.dim;
-        h_b = colors.dim;
         w.mo.innerText = "back to top";
       }
       else if (ri === section.i_p[si+1] - 1)
       {
-        h_b = colors.dim;
-        h_o = colors.sentence;
         w.mo.innerHTML = w.arrowd + "next sentence";
       }
       else
       {
         w.mo.innerHTML = w.arrowd + " next highlight";
       }
-      w.mo.style['background-color'] = h_o;
-      w.mb.style['background-color'] = h_b;
     }
 
     while(w.svg.firstChild)
@@ -1097,6 +1069,8 @@ function makePR(rg, w, cs)
       }
       if(!isNaN(i))
       {
+        if(i === last_present.ri_hover)
+          return;
         forCancel = window.requestAnimationFrame(() => {
           present(last_present.ri, last_present.section, i, true);
         });
@@ -1158,7 +1132,7 @@ function elements() {
       mb: document.querySelector('#section #move-back'),
       arrowu: made.arrowu,
       arrowd: made.arrowd,
-    }, cs);
+    });
     pr.proxy.attachProseMouseEvents();
 
     presentForLocation();
@@ -1326,7 +1300,7 @@ function elements() {
         prose: document.querySelector('#preview .proseContent'),
         title: document.querySelector('#preview .proseTitle'),
         no_scroll: true,
-      }, cs);
+      });
       canPresentSection(1, '43')
       let sections = books[1];
 

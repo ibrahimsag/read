@@ -95,6 +95,35 @@ function make(colors)
       '.letter-occluded': {
         fill: colors.occluded,
       },
+
+      '.sentence': {
+        transition: 'color 0.2s ease',
+      },
+      '.name': {
+        transition: 'color 0.2s ease',
+        fontFamily: 'Nale',
+      },
+
+      '.sentence-at': {
+        color: colors.sentence
+      },
+      '.sentence-hover': {
+        color: colors.hover
+      },
+
+      '.sentence-at .name': {
+        color: colors.near
+      },
+      '.sentence-hover .name': {
+        color: colors.near
+      },
+
+      '.name.name-at': {
+        color: colors.bright
+      },
+      '.name.name-hover': {
+        color: colors.hover_bright
+      },
     },
 
     coverWrap: {
@@ -214,15 +243,6 @@ function make(colors)
       },
     },
 
-    name: {
-      transition: 'color 0.2s ease',
-
-      fontFamily: 'Nale',
-    },
-    sentence: {
-      transition: 'color 0.2s ease',
-    },
-
     movement: {
       width: 512,
       height: 50,
@@ -249,7 +269,7 @@ function make(colors)
     },
     moveBack: {
       transition: 'background-color 0.3s ease',
-
+      backgroundColor: colors.dim,
       width: '33%',
       display: 'flex',
       flexDirection: 'row',
@@ -261,9 +281,8 @@ function make(colors)
     },
     moveOn: {
       transition: 'background-color 0.3s ease',
-
+      backgroundColor: colors.sentence,
       width: '67%',
-
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'center',
