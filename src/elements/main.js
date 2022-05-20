@@ -8,7 +8,7 @@ import v2 from '../vec2.js';
 import style from './style.js';
 import html from './html.js';
 
-let colors = {
+let colors_dark = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   full: hsluv.hsluvToHex([0, 0, 100]),
@@ -46,6 +46,8 @@ let colors_light = {
   player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
 };
 
+let colors = colors_dark;
+// let colors = colors_light;
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 

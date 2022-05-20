@@ -384,7 +384,7 @@ function make(colors)
         }
       },
       '&:hover svg path': {
-        fill: colors.player_low,
+        fill: colors.link_hover,
       }
     },
 

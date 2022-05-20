@@ -92,7 +92,7 @@ Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
 <div id="cover" class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
     <h1>Euclid's Elements</h1>
-    <h3>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
+    <h3 class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
     <h4 class="${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
   </div>
 <div id="preview" class="${cs.preview}">
