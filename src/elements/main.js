@@ -11,6 +11,7 @@ import html from './html.js';
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
+  full: hsluv.hsluvToHex([0, 0, 100]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
   near: hsluv.hsluvToHex([0, 0, 50]),
   dim: hsluv.hsluvToHex([0, 0, 40]),
@@ -25,6 +26,26 @@ let colors = {
   player_low: hsluv.hpluvToHex([140, 100, 30]),
   player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
 };
+
+let colors_light = {
+  bright: hsluv.hsluvToHex([0, 0, 0]),
+  occluded: hsluv.hsluvToHex([0, 0, 20]),
+  full: hsluv.hsluvToHex([0, 0, 0]),
+  sentence: hsluv.hsluvToHex([0, 0, 35]),
+  near: hsluv.hsluvToHex([0, 0, 50]),
+  dim: hsluv.hsluvToHex([0, 0, 60]),
+  low: hsluv.hsluvToHex([0, 0, 80]),
+  stand: hsluv.hsluvToHex([0, 0, 90]),
+  none: hsluv.hsluvToHex([0, 0, 100]),
+  link: hsluv.hpluvToHex([140, 100, 50]),
+  link_hover: hsluv.hpluvToHex([140, 100, 30]),
+  hover: hsluv.hpluvToHex([320, 100, 50]),
+  hover_bright: hsluv.hpluvToHex([320, 100, 20]),
+  player: hsluv.hpluvToHex([140, 100, 50]),
+  player_low: hsluv.hpluvToHex([140, 100, 70]),
+  player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
+};
+
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 

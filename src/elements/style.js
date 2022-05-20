@@ -53,6 +53,18 @@ function make(colors)
           },
         }
       },
+      '.smpl-low': {
+        stroke: colors.low,
+      },
+      '.smpl-dim': {
+        stroke: colors.dim,
+      },
+      '.smpl-near': {
+        stroke: colors.near,
+      },
+      '.smpl-bright': {
+        stroke: colors.bright,
+      },
     },
 
     coverWrap: {
@@ -193,13 +205,16 @@ function make(colors)
       display: 'flex',
       alignItems: 'stretch',
 
-      color: 'black',
+      color: colors.none,
 
       cursor: 'pointer',
       userSelect: 'none',
       '& svg': {
         height: 20,
-        marginTop: 3
+        marginTop: 3,
+        '& path': {
+          fill: colors.none
+        }
       }
     },
     moveBack: {
@@ -261,7 +276,7 @@ function make(colors)
       display: 'flex',
       justifyContent: 'space-between',
       backgroundColor: colors.stand,
-      color: 'black',
+      color: colors.none,
       marginTop: '-1.5em',
     },
     coverFoot: {
@@ -354,7 +369,7 @@ function make(colors)
       right: -5,
       top: -5,
       bottom: -5,
-      backgroundColor: 'black',
+      backgroundColor: colors.none,
       opacity: '0%',
       display: 'flex',
       alignItems: 'center',
@@ -365,11 +380,11 @@ function make(colors)
       '& svg': {
         height: 70,
         '& path': {
-          fill: colors.bright,
+          fill: colors.full,
         }
       },
       '&:hover svg path': {
-        fill: colors.player,
+        fill: colors.player_low,
       }
     },
 
@@ -402,8 +417,8 @@ function make(colors)
         borderWidth: 1,
         borderStyle: 'solid',
         borderColor: colors.dim,
-        borderRightColor: 'black',
-        backgroundColor: 'black',
+        borderRightColor: colors.none,
+        backgroundColor: colors.none,
         padding: 10,
       }
     },
@@ -423,7 +438,7 @@ function make(colors)
     },
 
     landscapeDictate: {
-      backgroundColor: 'black',
+      backgroundColor: colors.none,
       position: 'fixed',
       left: 0,
       right: 0,
