@@ -46,6 +46,8 @@ let colors_light = {
   player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
 };
 
+let player_l = colors_dark.player_l;
+
 let colors = colors_dark;
 // let colors = colors_light;
 
@@ -1112,12 +1114,14 @@ function elements() {
   {
     if(sheet_select)
     {
+      player_l = colors_dark.player_l;
       sheet_select = false;
       light_sheet.detach();
       dark_sheet.attach();
     }
     else
     {
+      player_l = colors_light.player_l;
       sheet_select = true;
       dark_sheet.detach();
       light_sheet.attach();
@@ -1385,14 +1389,14 @@ function elements() {
                 let t = performance.now();
                 let dt = t-last_t
                 last_t = t;
-                current_l -= speed*dt/1000;
-                el.style.borderColor = colors.player_l(current_l)
-                if( target_l > current_l)
+                current_l += speed*dt/1000;
+                el.style.borderColor = player_l(current_l)
+                if( target_l < current_l)
                   return;
                 frame(current_l);
               });
           }
-          frame(90);
+          frame(0);
         }
 
         previewCanceler = setTimeout(() =>
