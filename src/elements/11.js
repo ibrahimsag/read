@@ -1,26 +1,5 @@
 import v2 from '../vec2.js';
 import v3 from '../vec3.js';
-import hsluv from 'hsluv';
-
-function hsl(...args)
-{
-  if(args.length === 1)
-  {
-    return hsluv.hsluvToHex([0, 0, args[0]]);
-  }
-  else if(args.length === 2)
-  {
-    return hsluv.hsluvToHex([args[0], 100, args[1]]);
-  }
-  else if(args.length === 3)
-  {
-    return hsluv.hsluvToHex(args);
-  }
-  else
-  {
-    console.error("# arguments for hsluv", args);
-  }
-}
 
 import prop0 from './11/0';
 import prop1 from './11/1';
@@ -1493,7 +1472,6 @@ function() {
       rg.line(z.H, z.M),
       ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.G, z.N, z.K, z.E][i])),
       ...[z.A, z.L, z.B, z.C].map((p, i) => rg.line(p, [z.F, z.M, z.H, z.D][i])),
-      rg.line(z.F, z.N, {strokeWidth: 2}),
     ],
     given: {
       CM: piped(z, 'CDFABHML'),
@@ -1639,10 +1617,6 @@ function() {
             rg.polygon([...'ALMG'].map(l=>z[l])),
             rg.polygon([...'HBEK'].map(l=>z[l])),
             ...[...'ALMG'].map((l, i) => rg.line(z[l], z['HBEK'[i]])),
-            rg.line(z.H, z.B, {stroke:hsl(0), strokeWidth: 10}),
-            rg.line(z.L, z.B, {stroke:hsl(0), strokeWidth: 10}),
-            rg.line(z.H, z.B, {strokeWidth: 1}),
-            rg.line(z.L, z.B, {strokeWidth: 1}),
             rg.polygon([...'UWVd'].map(l=>z[l])),
             rg.polygon([...'RTXS'].map(l=>z[l])),
             ...[...'UWVd'].map((l, i) => rg.line(z[l], z['RTXS'[i]])),
@@ -1816,10 +1790,6 @@ function() {
       rg.polygon([...'GFDT'].map(l => z[l])),
       rg.polygon([...'HUKV'].map(l => z[l])),
       ...[...'CLRS'].map((l, i) => rg.line(z[l], z['HUKV'[i]])),
-      ...[...'OBP'].map(l => rg.line(z[l], z.Q, {stroke: hsl(0), strokeWidth: 7})),
-      ...[...'OBP'].map(l => rg.line(z[l], z.Q)),
-      ...[...'CRV'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 7})),
-      ...[...'CRV'].map(l => rg.line(z[l], z.S)),
     ],
     given: {
       AB: piped(z, 'APEMOQBN'),
@@ -1913,8 +1883,6 @@ function() {
       ...[...'LWXY'].map((l, i) => rg.line(z[l], z['EKQH'[i]])),
       ...[...'Aabc'].map((l, i) => rg.line(z[l], z['EHBG'[i]])),
       ...[...'MPZd'].map((l, i) => rg.line(z[l], z['ELWK'[i]])),
-      ...[...'NCU'].map(l => rg.line(z[l], z.S, {stroke: hsl(0), strokeWidth: 10})),
-      ...[...'NCU'].map(l => rg.line(z[l], z.S)),
     ],
     given: {
       AB: piped(z, 'AEGcaHBb'),

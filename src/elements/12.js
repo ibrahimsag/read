@@ -201,7 +201,7 @@ function() {
     },
     shapes: [
       rg.polygon([...'ABD'].map(l => z[l])),
-      ...[z.A,z.B, z.D].map(p => rg.line(p, z.C, {strokeWidth: 3})),
+      ...[z.A,z.B, z.D].map(p => rg.line(p, z.C)),
       ...['HE', 'EG', 'GH', 'HK', 'KL', 'LH', 'KF', 'FG', 'EF', 'EK']
           .map(s=>rg.line(z[s[0]], z[s[1]])),
     ],
@@ -267,8 +267,6 @@ function() {
       rg.polygon([...'SQR'].map(l => z[l])),
       rg.polygon([...'STU'].map(l => z[l])),
       rg.polygon([...'SRVT'].map(l => z[l])),
-      rg.line(z.G, z.B, {strokeWidth: 3}),
-      rg.line(z.H, z.E, {strokeWidth: 3}),
     ],
     given: {
       ABCG: pyr(z, 'ABCG'),
@@ -335,8 +333,6 @@ function() {
       rg.polygon([...'SQR'].map(l => z[l])),
       rg.polygon([...'STU'].map(l => z[l])),
       rg.polygon([...'SRVT'].map(l => z[l])),
-      rg.line(z.G, z.B, {strokeWidth: 3}),
-      rg.line(z.H, z.E, {strokeWidth: 3}),
       ...prism(z, 'abcdefgh'),
     ],
     given: {

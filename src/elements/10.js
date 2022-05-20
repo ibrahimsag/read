@@ -860,8 +860,8 @@ function() {
     prose: prop17,
     shapes: [
       rg.line(B, H),
-      rg.line(G, D, {strokeLineDash: [10, 10]}),
-      rg.line(G, H, {strokeLineDash: [10, 10]}),
+      rg.line(G, D, {dashed: true}),
+      rg.line(G, H, {dashed: true}),
     ],
     mags: [
       { l: 'A', m: 100, n: 2, p: A },
@@ -1425,7 +1425,7 @@ function() {
     shapes: [
       rg.polygon([z.A, z.B, z.C]),
       rg.line(z.A, z.D),
-      rg.polygon([z.B, z.B2, z.C2, z.C, z.C3], {strokeLineDash: [10, 10]}),
+      rg.polygon([z.B, z.B2, z.C2, z.C, z.C3], {dashed: true}),
     ]
   };
 },

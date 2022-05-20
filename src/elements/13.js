@@ -1,27 +1,5 @@
 import v2 from '../vec2.js';
 import v3 from '../vec3.js';
-import hsluv from 'hsluv';
-
-function hsl(...args)
-{
-  if(args.length === 1)
-  {
-    return hsluv.hsluvToHex([0, 0, args[0]]);
-  }
-  else if(args.length === 2)
-  {
-    return hsluv.hsluvToHex([args[0], 100, args[1]]);
-  }
-  else if(args.length === 3)
-  {
-    return hsluv.hsluvToHex(args);
-  }
-  else
-  {
-    console.error("# arguments for hsluv", args);
-  }
-}
-
 
 import prop1 from './13/1';
 import prop2 from './13/2';
@@ -637,10 +615,8 @@ function() {
   x.B = v2.add(x.C, v2.x);
   x.A = v2.add(x.C, v2.s(v2.x, -1));
   x.D = v2.add(x.C, v2.s(v2.y, -1));
-  let c = Array(11).fill().map((_, i) => v2.add(x.C, v2.r(v2.x, -Math.PI*i/10)));
   for(let i in x)
     z[i] = v2.s(x[i], r);
-  c = c.map(v => v2.s(v, r));
   return {
     title: 'Proposition 14',
     id: '13.14',
@@ -660,14 +636,12 @@ function() {
       B: [5],
     },
     shapes: [
-      rg.curve(c),
+      rg.arc(z.C, z.A, z.B),
       ...['AB', 'BD', 'DC',
-          'EF', 'FG', 'GH', 'HE',
-          'LE', 'LF', 'LG', 'LH',
-          'ME', 'MF', 'MG', 'MH',
+          'FG', 'LE', 'LF', 'LG',
           'ML', 'EG', 'HF']
-        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
-      ...['ME', 'MH', 'EH']
+        .map(s => rg.line(z[s[0]], z[s[1]], {layer: 'low'})),
+      ...['ME', 'MH', 'EH', 'MF', 'EF', 'MG', 'GH', 'HL', 'EL']
         .map(s => rg.line(z[s[0]], z[s[1]])),
     ]
   };
@@ -711,13 +685,11 @@ function() {
       H: [2],
     },
     shapes: [
+      ...['KL', 'LM', 'LF', 'KG', 'EG', 'AB', 'BD', 'DC']
+        .map(s => rg.line(z[s[0]], z[s[1]], {layer: 'low'})),
       ...['EF', 'FG', 'GH', 'HE',
-          'KL', 'LM', 'MN', 'NK',
-          'KE', 'LF', 'MG', 'NH',
-          'KG', 'EG', 'AB', 'BD', 'DC']
+          'MN', 'NK', 'KE', 'MG', 'NH']
         .map(s => rg.line(z[s[0]], z[s[1]])),
-      ...['EH', 'GH', 'NH']
-        .map(s => rg.line(z[s[0]], z[s[1]], {strokeWidth: 3})),
       rg.arc(z.O, z.A, z.B)
     ],
     polygonl: {
@@ -790,13 +762,13 @@ function() {
       D: [0],
     },
     shapes: [
-      rg.line(v2.add(z.a, v2.s(a, -5)), v2.add(z.a, v2.s(a, 5)), {stroke: hsl(25)}),
-      rg.polygon([...'HGFEK'].map(l => z[l]), {stroke: hsl(20)}),
-      rg.polygon([...'HNGMFLEPKO'].map(l => z[l]), {stroke: hsl(20)}),
+      rg.line(v2.add(z.a, v2.s(a, -5)), v2.add(z.a, v2.s(a, 5)), {layer: 'low'}),
+      rg.polygon([...'HGFEK'].map(l => z[l]), {layer: 'low'}),
+      rg.polygon([...'HNGMFLEPKO'].map(l => z[l]), {layer: 'low'}),
       ...['XZ', 'QE', 'RF', 'SG', 'TH', 'UK', 'QZ', 'QW', 'UW', 'UZ', 'LV',
           'QR', 'TU', 'UQ', 'PQ', 'QL', 'OU', 'UP', 'MV', 'EV', 'VK']
-        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
-      rg.curve(c, {stroke: hsl(20)}),
+        .map(s => rg.line(z[s[0]], z[s[1]], {layer: 'low'})),
+      rg.curve(c, {layer: 'low'}),
       rg.polygon([...'NMLPO'].map(l => z[l])),
       ...['RS', 'ST', 'LR', 'RM', 'MS', 'SN', 'NT', 'TO', 
           'XM', 'XL']
@@ -867,7 +839,7 @@ function() {
           'EF', 'NO', 'EB', 'MH', 'FC',
           'TW', 'UR', 'SV', 'XW',
           'BR', 'BS', 'BV', 'ZU', 'ZX']
-        .map(s => rg.line(z[s[0]], z[s[1]], {stroke: hsl(20)})),
+        .map(s => rg.line(z[s[0]], z[s[1]], {layer: 'low'})),
       ...['BW', 'WC', 'CV', 'UV', 'BU']
         .map(s => rg.line(z[s[0]], z[s[1]])),
     ],

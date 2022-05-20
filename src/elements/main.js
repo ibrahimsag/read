@@ -135,16 +135,35 @@ function makeRG()
 
   function curve(vs, o)
   {
+    if(o)
+    {
+      if(o.layer === 'low')
+        o.stroke = hsl(20);
+    }
     return rsvg.generator.curve(vs, {...roughopts, ...o});
   }
 
   function polygon(vs, o)
   {
+    if(o)
+    {
+      if(o.dashed)
+        o.strokeLineDash = [10, 10];
+      if(o.layer === 'low')
+        o.stroke = hsl(20);
+    }
     return rsvg.generator.polygon(vs, {...roughopts, ...o});
   }
 
   function line(a, b, o)
   {
+    if(o)
+    {
+      if(o.dashed)
+        o.strokeLineDash = [10, 10];
+      if(o.layer === 'low')
+        o.stroke = hsl(20);
+    }
     return rsvg.generator.line(a[0], a[1], b[0], b[1], {...roughopts, ...o});
   }
 

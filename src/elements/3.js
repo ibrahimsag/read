@@ -74,7 +74,7 @@ function()
     points: { A, B, C, D, E, F, G },
     shapes: [
       rg.circle(F, 2 * r),
-      rg.circle(F, 5, {strokeWidth: 2}),
+      rg.line(vec2.add(F, vec2.s(vec2.x, -5)), vec2.add(F, vec2.s(vec2.x, 5))),
       rg.line(C, E),
       rg.line(A, B),
       rg.line(G, A),
@@ -327,7 +327,7 @@ function()
       rg.line(G, F),
       rg.line(H, E),
       rg.line(H, F),
-      rg.line(K, E, {strokeLineDash: [5, 4]}),
+      rg.line(K, E, {dashed: true}),
       rg.line(K, F),
     ],
     letters: {
@@ -389,7 +389,7 @@ function()
       rg.line(M, L),
       rg.line(M, K),
       rg.line(N, D),
-      rg.line(M, N, {strokeLineDash: [5,4]}),
+      rg.line(M, N, {dashed: true}),
     ],
     letters: {
       A: [4],
@@ -639,8 +639,8 @@ function()
       rg.circle(O, 2 * r1),
       rg.circle(P, 2 * r2),
       rg.curve(ells),
-      rg.circle(G, 5, {strokeWidth: 2}),
-      rg.circle(H, 5, {strokeWidth: 2}),
+      rg.line(vec2.add(G, vec2.s(vec2.y, -5)), vec2.add(G, vec2.s(vec2.y, 5))),
+      rg.line(vec2.add(H, vec2.s(vec2.y, -5)), vec2.add(H, vec2.s(vec2.y, 5))),
       rg.line(A, C),
       rg.line(B, D),
     ],
