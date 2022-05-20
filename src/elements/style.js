@@ -65,6 +65,36 @@ function make(colors)
       '.smpl-bright': {
         stroke: colors.bright,
       },
+      '.fig-low': {
+        stroke: colors.low,
+      },
+      '.fig-dim': {
+        stroke: colors.dim,
+      },
+      '.fig-bright': {
+        stroke: colors.bright,
+      },
+      '.fig-hover': {
+        stroke: colors.hover_bright,
+      },
+      '.fig-occluded': {
+        stroke: colors.occluded,
+      },
+      '.letter-none': {
+        stroke: colors.none,
+      },
+      '.letter-dim': {
+        fill: colors.dim,
+      },
+      '.letter-bright': {
+        fill: colors.bright,
+      },
+      '.letter-hover': {
+        fill: colors.hover_bright,
+      },
+      '.letter-occluded': {
+        fill: colors.occluded,
+      },
     },
 
     coverWrap: {

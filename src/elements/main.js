@@ -264,19 +264,18 @@ function makeRG()
       w+=1;
     e.setAttribute('stroke-width', w);
 
-    let stroke;
+    let fc;
     if(s.layer === 'bright')
-      stroke = colors.bright;
+      fc = 'bright';
     else if(s.layer === 'occluded_bright')
-      stroke = colors.occluded;
+      fc = 'occluded';
     else if(s.layer === 'hover_bright')
-      stroke = colors.hover_bright;
+      fc = 'hover';
     else if(s.layer === 'low')
-      stroke = colors.low;
+      fc = 'low';
     else
-      stroke = colors.dim;
-
-    e.setAttribute('stroke', stroke);
+      fc = 'dim';
+    e.setAttribute('class','fig-'+fc);
     return e;
   }
 
@@ -554,34 +553,30 @@ function makePR(rg, w, cs)
       let letter = figure.letters[i];
       let shouldBeSmall = smallLetters || (figure.smallletters && figure.smallletters.indexOf(i) > -1);
 
-      let fillcolor = colors.dim;
+      let lc = 'dim';
       if(letterColor[i] === 'bright')
       {
-        fillcolor = colors.bright;
+        lc = 'bright';
       }
       else if(letterColor[i] === 'occluded_bright')
       {
-        fillcolor = colors.occluded;
-      }
-      else if(letterColor[i] === 'sentence')
-      {
-        fillcolor = colors.sentence;
+        lc = 'occluded';
       }
       else if(letterColor[i] === 'hover_bright')
       {
-        fillcolor = colors.hover_bright;
+        lc = 'hover';
       }
       let pos = v2.add(figure.points[i], figure.letterOffsets[i]);
       let attrs = {
         'font-family': 'Nale',
         'font-size': shouldBeSmall ? 16 : 24,
-        'fill': fillcolor,
+        'class': 'letter-'+lc,
         'textContent': i,
         'x': pos[0],
         'y': pos[1],
       };
       var el = se('text', attrs);
-      var el_ = se('text', {...attrs, stroke: colors.none,
+      var el_ = se('text', {...attrs, class: 'letter-none',
         'stroke-width':3, 'stroke-linecap': 'round',
         'stroke-linejoin': 'round'});
 
