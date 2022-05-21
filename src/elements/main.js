@@ -1211,8 +1211,6 @@ function elements() {
   }
   setTimeout( () => {
     let modePref = window.localStorage.modePreference;
-    if(!modePref)
-      modePref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
     if(modePref === 'light')
       switchSheets();
