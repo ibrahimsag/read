@@ -1,4 +1,4 @@
-function make(colors, cs, fext)
+function make(cs, fext)
 {
   let contents = `
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>

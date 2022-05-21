@@ -46,10 +46,89 @@ let colors_light = {
   player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
 };
 
-let player_l = colors_dark.player_l;
+/*
+SOLARIZED HEX
+--------- -------
+base03    #002b36 222, 100, 15
+base02    #073642 221, 94 , 20
+base01    #586e75 215, 35 , 45
+base00    #657b83 218, 32 , 50
+base0     #839496 201, 20 , 60
+base1     #93a1a1 192, 15 , 65
+base2     #eee8d5 73 , 23 , 92
+base3     #fdf6e3 71 , 76 , 97
+yellow    #b58900 59 , 100, 60
+orange    #cb4b16 21 , 95 , 49
+red       #dc322f 13 , 82 , 49
+magenta   #d33682 348, 81 , 50
+violet    #6c71c4 264, 57 , 51
+blue      #268bd2 245, 93 , 56
+cyan      #2aa198 182, 92 , 60
+green     #859900 97 , 100, 60
+*/
 
-let colors = colors_dark;
-// let colors = colors_light;
+let sol = {
+base03  : hsluv.hsluvToHex([222, 100, 15]),
+base02  : hsluv.hsluvToHex([221, 94 , 20]),
+base01  : hsluv.hsluvToHex([215, 35 , 45]),
+base00  : hsluv.hsluvToHex([218, 32 , 50]),
+base0   : hsluv.hsluvToHex([201, 20 , 60]),
+base1   : hsluv.hsluvToHex([192, 15 , 65]),
+base2   : hsluv.hsluvToHex([73 , 23 , 92]),
+base3   : hsluv.hsluvToHex([71 , 76 , 97]),
+yellow  : hsluv.hsluvToHex([59 , 100, 60]),
+orange  : hsluv.hsluvToHex([21 , 95 , 49]),
+red     : hsluv.hsluvToHex([13 , 82 , 49]),
+magenta : hsluv.hsluvToHex([348, 81 , 50]),
+violet  : hsluv.hsluvToHex([264, 57 , 51]),
+blue    : hsluv.hsluvToHex([245, 93 , 56]),
+cyan    : hsluv.hsluvToHex([182, 92 , 60]),
+green   : hsluv.hsluvToHex([97 , 100, 60]),
+}
+
+let colors_lightsolarized = {
+        bright: hsluv.hsluvToHex(sol.base01),
+      occluded: hsluv.hsluvToHex([218, 32, 50]),
+          full: hsluv.hsluvToHex([215, 35, 45]),
+      sentence: hsluv.hsluvToHex([218, 32, 50]),
+          near: hsluv.hsluvToHex([201, 20, 60]),
+           dim: hsluv.hsluvToHex([192, 15, 65]),
+           low: hsluv.hsluvToHex([73, 22, 87]),
+         stand: hsluv.hsluvToHex([73, 23, 92]),
+          none: hsluv.hsluvToHex([71, 76, 97]),
+
+          link: hsluv.hpluvToHex([140, 100, 60]),
+    link_hover: hsluv.hpluvToHex([140, 100, 50]),
+
+         hover: hsluv.hsluvToHex([12, 82, 50]),
+  hover_bright: hsluv.hsluvToHex([12, 82, 60]),
+
+        player: hsluv.hpluvToHex([140, 100, 50]),
+    player_low: hsluv.hpluvToHex([140, 100, 60]),
+  player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
+};
+
+let colors_darksolarized = {
+        bright: hsluv.hsluvToHex([192, 15, 65]),   // base1
+      occluded: hsluv.hsluvToHex([201, 20, 60]),
+          full: hsluv.hsluvToHex([192, 15, 65]),     //base1
+      sentence: hsluv.hsluvToHex([201, 20, 60]), // base0
+          near: hsluv.hsluvToHex([218, 32, 50]),
+           dim: hsluv.hsluvToHex([215, 35, 45]),      // base01
+           low: hsluv.hsluvToHex([221, 70, 25]),
+         stand: hsluv.hsluvToHex([221, 70, 20]),
+          none: hsluv.hsluvToHex([222, 80, 15]),    // base03
+
+          link: hsluv.hpluvToHex([140, 100, 50]),
+    link_hover: hsluv.hpluvToHex([140, 100, 70]),
+
+         hover: hsluv.hsluvToHex([13, 82, 49]),
+  hover_bright: hsluv.hsluvToHex([13, 82, 55]), // red
+
+        player: hsluv.hpluvToHex([140, 100, 50]),
+    player_low: hsluv.hpluvToHex([140, 100, 40]),
+  player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
+};
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -1109,6 +1188,7 @@ function elements() {
   const dark_sheet = jss.createStyleSheet(style(colors_dark), {generateId: l});
   const light_sheet = jss.createStyleSheet(style(colors_light), {generateId: l});
   let sheet_select = false;
+  let player_l = colors_dark.player_l;
   dark_sheet.attach();
   function switchSheets()
   {
@@ -1131,7 +1211,7 @@ function elements() {
 
   const cs = dark_sheet.classes;
 
-  const made = html(colors, cs, figureExtracts);
+  const made = html(cs, figureExtracts);
 
   let section_indices = {};
   let pr;
@@ -1374,7 +1454,7 @@ function elements() {
                 frame(current_l);
               });
           }
-          frame(0);
+          frame(5);
         }
 
         previewCanceler = setTimeout(() =>
@@ -1403,11 +1483,11 @@ function elements() {
       let previewEl = document.querySelector('#preview')
       function showOverlay()
       {
-        previewEl.querySelector('#previewOverlay').style.opacity = '70%';
+        previewEl.querySelector('#previewOverlay').style.visibility = 'visible';
       }
       function hideOverlay()
       {
-        previewEl.querySelector('#previewOverlay').style.opacity = '0%';
+        previewEl.querySelector('#previewOverlay').style.visibility = 'hidden';
       }
       showOverlay();
       stopPreview = true;

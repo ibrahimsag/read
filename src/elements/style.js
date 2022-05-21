@@ -98,6 +98,7 @@ function make(colors)
 
       '.sentence': {
         transition: 'color 0.2s ease',
+        color: colors.dim,
       },
       '.name': {
         transition: 'color 0.2s ease',
@@ -112,10 +113,10 @@ function make(colors)
       },
 
       '.sentence-at .name': {
-        color: colors.near
+        color: colors.dim
       },
       '.sentence-hover .name': {
-        color: colors.near
+        color: colors.dim
       },
 
       '.name.name-at': {
@@ -231,7 +232,6 @@ function make(colors)
       marginLeft: 600,
       width: 512,
       padding: [[12, 12, 62, 12]],
-      color: colors.dim,
       '& a': {
         ...style_link,
         display: 'inline-block'
@@ -313,7 +313,7 @@ function make(colors)
       textAlign: 'right',
       userSelect: 'none',
       '& a': {
-        color: colors.near,
+        color: colors.dim,
         '&:hover': {
           color: colors.sentence,
         }
@@ -418,8 +418,8 @@ function make(colors)
       right: -5,
       top: -5,
       bottom: -5,
-      backgroundColor: colors.none,
-      opacity: '0%',
+      backgroundColor: colors.none + 'aa',
+      visibility: 'hidden',
       display: 'flex',
       alignItems: 'center',
       borderWidth: 1,
