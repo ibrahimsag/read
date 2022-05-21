@@ -83,7 +83,7 @@ Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
 <p>
 Start with <a pref="13.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="13.18">Finitude of regular polyhedra</a>
+Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodecahedron</a>, <a pref="13.18">Finitude of regular polyhedra</a>
 </p>
 <br>
 `
@@ -282,8 +282,14 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   </div>
 </div>
   <div class="${cs.coverFoot}">
-    <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-    <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
+    <div style="padding: 20px; font-size: 1.2rem;">
+      <a id="lightMode">Light Mode</a>
+      <a id="darkMode">Dark Mode</a>
+    </div>
+    <div>
+      <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
+      <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
+    </div>
   </div>
 </div>`;
 

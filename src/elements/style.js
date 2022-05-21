@@ -1,4 +1,4 @@
-function make(colors)
+function make(colors, mode)
 {
   const style_link = {
       color: colors.link,
@@ -15,6 +15,20 @@ function make(colors)
       }
     };
 
+  const for_dark = {
+    '#darkMode': {
+      display: 'none',
+    }
+  }
+
+  const for_light = {
+    '#lightMode': {
+      display: 'none',
+    }
+  }
+
+  const for_mode = mode === 'light' ? for_light : for_dark;
+
   const style = {
     link: style_link,
     '@global': {
@@ -23,6 +37,7 @@ function make(colors)
         color: colors.near,
         lineHeight: '1.5em'
       },
+      ...for_mode,
 
       '#container': {
         '&>#section': {
@@ -58,9 +73,6 @@ function make(colors)
       },
       '.smpl-dim': {
         stroke: colors.dim,
-      },
-      '.smpl-near': {
-        stroke: colors.near,
       },
       '.smpl-bright': {
         stroke: colors.bright,
@@ -334,6 +346,9 @@ function make(colors)
       borderTopWidth: 1,
       borderTopStyle: 'solid',
       borderTopColor: colors.low,
+      display: 'flex',
+      flexDirection: 'row',
+      justifyContent: 'space-between'
     },
     hero: {
       width: '90%',

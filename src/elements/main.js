@@ -38,7 +38,7 @@ let colors_light = {
   stand: hsluv.hsluvToHex([0, 0, 95]),
   none: hsluv.hsluvToHex([0, 0, 100]),
   link: hsluv.hpluvToHex([140, 100, 60]),
-  link_hover: hsluv.hpluvToHex([140, 100, 50]),
+  link_hover: hsluv.hpluvToHex([140, 100, 70]),
   hover: hsluv.hsluvToHex([350, 100, 50]),
   hover_bright: hsluv.hsluvToHex([350, 100, 40]),
   player: hsluv.hpluvToHex([140, 100, 50]),
@@ -1185,8 +1185,8 @@ const rg = makeRG();
 function elements() {
   let l = (r) => r.key;
   const jss = create().setup(preset());
-  const dark_sheet = jss.createStyleSheet(style(colors_dark), {generateId: l});
-  const light_sheet = jss.createStyleSheet(style(colors_light), {generateId: l});
+  const dark_sheet = jss.createStyleSheet(style(colors_dark, 'dark'), {generateId: l});
+  const light_sheet = jss.createStyleSheet(style(colors_light, 'light'), {generateId: l});
   let sheet_select = false;
   let player_l = colors_dark.player_l;
   dark_sheet.attach();
@@ -1198,6 +1198,7 @@ function elements() {
       sheet_select = false;
       light_sheet.detach();
       dark_sheet.attach();
+      window.localStorage.modePreference = 'dark';
     }
     else
     {
@@ -1205,9 +1206,17 @@ function elements() {
       sheet_select = true;
       dark_sheet.detach();
       light_sheet.attach();
+      window.localStorage.modePreference = 'light';
     }
   }
-  // setTimeout(switchSheets);
+  setTimeout( () => {
+    let modePref = window.localStorage.modePreference;
+    if(!modePref)
+      modePref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+    if(modePref === 'light')
+      switchSheets();
+  });
 
   const cs = dark_sheet.classes;
 
@@ -1373,8 +1382,11 @@ function elements() {
   function presentCover() {
     window.onscroll = undefined;
     window.onresize = undefined;
-    document.querySelector('#container').className = 'cover';
     document.onkeydown = undefined;
+    document.querySelector('#container').className = 'cover';
+
+    document.querySelector('#lightMode').onclick = switchSheets;
+    document.querySelector('#darkMode').onclick = switchSheets;
     {
       let preview = makePR(rg, {
         svg: document.querySelector('#previewFigure'),
