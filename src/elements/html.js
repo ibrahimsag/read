@@ -126,8 +126,22 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 <p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
+<div class="${cs.quoteTitle}">
+<h4>At the millenia old difficulties of geometry</h4>
+</div>
+<div class="${cs.coverQuotes}">
+  <div>
+  <p>"As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it."</p>
+  <p><em>— R. Descartes, A Discourse on the Method, 1637</em></p>
+  </div>
+  <div>
+  <p>"... geometry is nothing other than that part of universal mechanics which reduces the art of measuring to exact propositions and demonstrations. But geometry is commonly used in reference to magnitude, and mechanics in reference to motion. In this sense rational mechanics will be the science, expressed in exact propositions and demonstrations, of the motions that result from any forces whatever and of the forces that are required for any motions whatever."</p>
+  <p><em>— I. Newton, Preface to Principia, 1687</em></p>
+  </div>
+</div>
 <div id="coverStart" class="${cs.cover}">
   <div class="${cs.contents}">
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>

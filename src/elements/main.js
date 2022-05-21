@@ -13,7 +13,7 @@ let colors_dark = {
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   full: hsluv.hsluvToHex([0, 0, 100]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
-  near: hsluv.hsluvToHex([0, 0, 50]),
+  near: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   low: hsluv.hsluvToHex([0, 0, 15]),
   stand: hsluv.hsluvToHex([0, 0, 7]),

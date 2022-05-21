@@ -150,7 +150,6 @@ function make(colors, mode)
       }
     },
     cover: {
-      marginTop: 50,
       display: 'flex',
       flexFlow: 'row nowrap',
       '& a': {
@@ -318,19 +317,12 @@ function make(colors, mode)
     },
 
     c_dim: { color: colors.dim },
-    c_sentence: { color: colors.sentence },
+    c_sentence: { color: colors.near },
     c_bright: { color: colors.bright },
 
     coverHead: {
       textAlign: 'right',
       userSelect: 'none',
-      '& a': {
-        color: colors.dim,
-        '&:hover': {
-          color: colors.sentence,
-        }
-
-      }
     },
     headStand: {
       padding: 3,
@@ -339,6 +331,15 @@ function make(colors, mode)
       backgroundColor: colors.stand,
       color: colors.none,
       marginTop: '-1.5em',
+      '& a': {
+        color: colors.near,
+        textDecoration: 'none',
+        '&:hover': {
+          color: colors.sentence,
+          textDecoration: 'underline',
+        }
+
+      }
     },
     coverFoot: {
       textAlign: 'right',
@@ -355,6 +356,29 @@ function make(colors, mode)
       margin: 'auto',
       textAlign: 'center',
       '& a' : style_link
+    },
+    quoteTitle: {
+      '& h4': {
+        marginTop: '3rem',
+        marginBottom: 0,
+        color: colors.sentence
+      },
+      textAlign: 'center',
+    },
+    coverQuotes: {
+      textAlign: 'right',
+      display: 'flex',
+      flexDirection: 'row',
+      fontSize: '0.8em',
+      '& div': {
+        padding: 20,
+        flexGrow: 1,
+        flexBasis: 0,
+        color: colors.near,
+        '& em': {
+          color: colors.sentence
+        }
+      },
     },
 
     preview: {
@@ -478,8 +502,7 @@ function make(colors, mode)
         cursor: 'pointer',
       },
       '& h4.selected': {
-        borderWidth: 1,
-        borderStyle: 'solid',
+        border: '1px solid',
         borderColor: colors.dim,
         borderRightColor: colors.none,
         backgroundColor: colors.none,
@@ -498,7 +521,7 @@ function make(colors, mode)
       padding: 24,
       borderLeft: '1px solid',
       borderColor: colors.dim,
-      marginLeft: -2,
+      marginLeft: -1,
     },
 
     landscapeDictate: {
