@@ -296,7 +296,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   </div>
 </div>
   <div class="${cs.coverFoot}">
-    <div style="padding: 20px; font-size: 1.2rem;">
+    <div style="padding: 20px; font-size: 1.2rem;" class="${cs.modeSwitch}">
       <a id="lightMode">Light Mode</a>
       <a id="darkMode">Dark Mode</a>
     </div>

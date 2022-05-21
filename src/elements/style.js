@@ -144,10 +144,6 @@ function make(colors, mode)
       minWidth: 650,
       width: 1024,
       padding: 12,
-      '& a': {
-        'text-decoration': 'underline',
-        ...style_link
-      }
     },
     cover: {
       display: 'flex',
@@ -522,6 +518,15 @@ function make(colors, mode)
       borderLeft: '1px solid',
       borderColor: colors.dim,
       marginLeft: -1,
+    },
+    modeSwitch: {
+      '& a': {
+        color: colors.sentence,
+        textDecoration: 'none',
+        '&:hover': {
+          color: colors.full,
+        }
+      }
     },
 
     landscapeDictate: {
