@@ -1,7 +1,7 @@
 To cut a given straight-line such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.
 
 Let {AB line} be the given straight-line.
-So it is required to cut {AB line} such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight- line), is equal to the square on the remaining piece.
+So it is required to cut {AB line} such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.
 
 For let the square {ABDC polygon} have been described on {AB line} [Prop. 1.46], and let {AC line} have been cut in half at point {E point} [Prop. 1.10], and let {BE line} have been joined.
 And let {CA line} have been drawn through to (point) {F point} (as {CF line}), and let {EF line} be made equal to {BE line} [Prop. 1.3].

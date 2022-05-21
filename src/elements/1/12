@@ -4,7 +4,7 @@ Let {AB line} be the given infinite straight-line and {C point} the given point,
 So it is required to draw a straight-line perpendicular to the given infinite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).
 
 For let point {D point} have been taken somewhere on the other side (to {C point}) of the straight-line {AB line}, and let the circle {EFG circle C} have been drawn with center {C point} and radius {CD line} [Post. 3], and let the straight-line {EG line} have been cut in half at (point) {H point} [Prop. 1.10], and let the straight-lines {CG line}, {CH line}, and {CE line} have been joined.
-I say that a (straight- line) {CH line} has been drawn perpendicular to the given in- finite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).
+I say that a (straight-line) {CH line} has been drawn perpendicular to the given infinite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).
 
 For since {GH line} is equal to {HE line}, and {HC line} (is) common, the two (straight-lines) {GH line}, {HC line} are equal to the two straight-lines {EH line}, {HC line}, respectively, and the base {CG line} is equal to the base {CE line}.
 Thus, the angle {CHG angle} is equal to the angle {EHC angle} [Prop. 1.8], and they are adjacent.
