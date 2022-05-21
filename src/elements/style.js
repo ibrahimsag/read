@@ -317,7 +317,7 @@ function make(colors, mode)
     },
 
     c_dim: { color: colors.dim },
-    c_sentence: { color: colors.near },
+    c_sentence: { color: colors.step },
     c_bright: { color: colors.bright },
 
     coverHead: {

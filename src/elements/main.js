@@ -13,6 +13,7 @@ let colors_dark = {
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   full: hsluv.hsluvToHex([0, 0, 100]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
+  step: hsluv.hsluvToHex([0, 0, 60]),
   near: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   low: hsluv.hsluvToHex([0, 0, 15]),
@@ -28,12 +29,13 @@ let colors_dark = {
 };
 
 let colors_light = {
-  bright: hsluv.hsluvToHex([0, 0, 0]),
-  occluded: hsluv.hsluvToHex([0, 0, 30]),
+  bright: hsluv.hsluvToHex([130, 100, 70]),
+  step: hsluv.hsluvToHex([130, 50, 80]),
+  occluded: hsluv.hsluvToHex([130, 100, 70]),
   full: hsluv.hsluvToHex([0, 0, 0]),
   sentence: hsluv.hsluvToHex([0, 0, 45]),
   near: hsluv.hsluvToHex([0, 0, 60]),
-  dim: hsluv.hsluvToHex([0, 0, 75]),
+  dim: hsluv.hsluvToHex([0, 0, 80]),
   low: hsluv.hsluvToHex([0, 0, 90]),
   stand: hsluv.hsluvToHex([0, 0, 95]),
   none: hsluv.hsluvToHex([0, 0, 100]),
