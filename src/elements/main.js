@@ -10,10 +10,10 @@ import html from './html.js';
 
 let colors_dark = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
+  step: hsluv.hsluvToHex([0, 0, 60]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   full: hsluv.hsluvToHex([0, 0, 100]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
-  step: hsluv.hsluvToHex([0, 0, 60]),
   near: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   low: hsluv.hsluvToHex([0, 0, 15]),
@@ -1214,6 +1214,12 @@ function elements() {
     }
   }
   setTimeout( () => {
+    let version = window.localStorage.version;
+    if(!version || version !== '1.0')
+    {
+      window.localStorage.version = '1.0';
+      window.localStorage.modePreference = '';
+    }
     let modePref = window.localStorage.modePreference;
     if(!modePref)
     {
@@ -1392,8 +1398,8 @@ function elements() {
     document.onkeydown = undefined;
     document.querySelector('#container').className = 'cover';
 
-    document.querySelector('#lightMode').onclick = switchSheets;
-    document.querySelector('#darkMode').onclick = switchSheets;
+    document.querySelector('#lightMode').onclick = () => switchSheets();
+    document.querySelector('#darkMode').onclick = () => switchSheets();
     {
       let preview = makePR(rg, {
         svg: document.querySelector('#previewFigure'),
