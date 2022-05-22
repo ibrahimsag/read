@@ -1192,7 +1192,7 @@ function elements() {
   let sheet_select = false;
   let player_l = colors_dark.player_l;
   dark_sheet.attach();
-  function switchSheets()
+  function switchSheets(notStorePref)
   {
     if(sheet_select)
     {
@@ -1200,7 +1200,8 @@ function elements() {
       sheet_select = false;
       light_sheet.detach();
       dark_sheet.attach();
-      window.localStorage.modePreference = 'dark';
+      if(!notStorePref)
+        window.localStorage.modePreference = 'dark';
     }
     else
     {
@@ -1208,14 +1209,20 @@ function elements() {
       sheet_select = true;
       dark_sheet.detach();
       light_sheet.attach();
-      window.localStorage.modePreference = 'light';
+      if(!notStorePref)
+        window.localStorage.modePreference = 'light';
     }
   }
   setTimeout( () => {
     let modePref = window.localStorage.modePreference;
+    if(!modePref)
+    {
+      let mediaMatch = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      modePref = !mediaMatch ? 'light' : undefined;
+    }
 
     if(modePref === 'light')
-      switchSheets();
+      switchSheets(true);
   });
 
   const cs = dark_sheet.classes;
