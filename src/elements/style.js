@@ -141,7 +141,7 @@ function make(colors, mode)
 
     coverWrap: {
       margin: 'auto',
-      minWidth: 650,
+      minWidth: 1024,
       width: 1024,
       padding: 12,
     },
@@ -564,6 +564,7 @@ function make(colors, mode)
         display: 'flex',
       },
       coverWrap: {
+        minWidth: 650,
         width: '95%',
       },
       preview: {
