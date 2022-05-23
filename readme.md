@@ -44,8 +44,6 @@ rollup -c rollup.prepare.config.js
 
 ### Specification
 
-## Structure
-
 Array of `Section` for each book.
 
 `Section` is an object of following properties.
