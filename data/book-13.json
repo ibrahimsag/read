@@ -1,0 +1,5880 @@
+[
+  {
+    "title": "Proposition 1",
+    "id": "13.1",
+    "prose": "If a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.\n\nFor let the straight-line {AB line} have been cut in extreme and mean ratio at point {C point}, and let {AC line} be the greater piece.\nAnd let the straight-line {AD line} have been produced in a straight-line with {CA line}.\nAnd let {AD line} be made (equal to) half of {AB line}.\nI say that the (square) on {CD line} is five times the (square) on {DA line}.\n\nFor let the squares {AE polygon} and {DF polygon} have been described on {AB line} and {DC line} (respectively).\nAnd let the figure in {DF polygon} have been drawn.\nAnd let {FC line} have been drawn across to {G point}.\nAnd since {AB line} has been cut in extreme and mean ratio at {C point}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].\nAnd {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, and {FH polygon} the (square) on {AC line}.\nThus, {CE polygon} (is) equal to {FH polygon}.\nAnd since {BA line} is double {AD line}, and {BA line} (is) equal to {KA line}, and {AD line} to {AH line}, {KA line} (is) thus also double {AH line}.\nAnd as {KA line} (is) to {AH line}, so {CK polygon} (is) to {CH polygon} [Prop. 6.1].\nThus, {CK polygon} (is) double {CH polygon}.\nAnd {LH polygon} plus {HC polygon} is also double {CH polygon} [Prop. 1.43].\nThus, {KC polygon} (is) equal to {LH polygon} plus {HC polygon}.\nAnd {CE polygon} was also shown (to be) equal to {HF polygon}.\nThus, the whole square {AE polygon} is equal to the gnomon {MNO given}.\nAnd since {BA line} is double {AD line}, the (square) on {BA line} is four times the (square) on {AD line}—that is to say, {AE polygon} (is four times) {DH polygon}.\nAnd {AE polygon} (is) equal to gnomon {MNO given}.\nAnd, thus, gnomon {MNO given} is also four times {AP polygon}.\nThus, the whole of {DF polygon} is five times {AP polygon}.\nAnd {DF polygon} is the (square) on {DC line}, and {AP polygon} the (square) on {DA line}.\nThus, the (square) on {CD line} is five times the (square) on {DA line}.\n\nThus, if a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "L": [
+        -75,
+        -167.70509831248424
+      ],
+      "a": [
+        0,
+        -167.70509831248424
+      ],
+      "F": [
+        92.70509831248422,
+        -167.70509831248424
+      ],
+      "P": [
+        -75,
+        -75
+      ],
+      "H": [
+        0,
+        -75
+      ],
+      "b": [
+        92.70509831248422,
+        -75
+      ],
+      "D": [
+        -75,
+        0
+      ],
+      "A": [
+        0,
+        0
+      ],
+      "C": [
+        92.70509831248422,
+        0
+      ],
+      "B": [
+        150,
+        0
+      ],
+      "K": [
+        0,
+        150
+      ],
+      "G": [
+        92.70509831248422,
+        150
+      ],
+      "E": [
+        150,
+        150
+      ],
+      "M": [
+        -37.5,
+        -75
+      ],
+      "N": [
+        26.516504294495526,
+        -101.51650429449553
+      ],
+      "O": [
+        0,
+        -37.5
+      ]
+    },
+    "smallletters": "MNO",
+    "letters": {
+      "H": [
+        6
+      ],
+      "A": [
+        3.8,
+        5
+      ],
+      "L": [
+        3
+      ],
+      "P": [
+        3
+      ],
+      "D": [
+        3
+      ],
+      "F": [
+        7
+      ],
+      "C": [
+        8,
+        2
+      ],
+      "B": [
+        7
+      ],
+      "K": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "N": [
+        1,
+        2
+      ],
+      "M": [
+        5
+      ],
+      "O": [
+        3
+      ]
+    },
+    "shapes": [
+      [
+        "gnomon",
+        [
+          0,
+          -75
+        ],
+        [
+          -37.5,
+          -75
+        ],
+        [
+          0,
+          -37.5
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          -75
+        ],
+        [
+          92.70509831248422,
+          -75
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -167.70509831248424
+        ],
+        [
+          0,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          0
+        ],
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          -167.70509831248424
+        ],
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          -167.70509831248424
+        ],
+        [
+          -75,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ],
+        [
+          92.70509831248422,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          0
+        ],
+        [
+          150,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          150
+        ],
+        [
+          150,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          0
+        ],
+        [
+          150,
+          150
+        ]
+      ]
+    ],
+    "polygonl": {
+      "AE": "AKEB",
+      "CE": "CGEB",
+      "FH": "HbFa",
+      "CK": "CAKG",
+      "CH": "CbHA",
+      "DF": "DCFL",
+      "HF": "HbFa",
+      "KC": "CAKG",
+      "HC": "CbHA",
+      "LH": "LPHa",
+      "DH": "DAHP",
+      "AP": "DAHP"
+    },
+    "given": {
+      "MNO": [
+        [
+          "gnomon",
+          [
+            0,
+            -75
+          ],
+          [
+            -37.5,
+            -75
+          ],
+          [
+            0,
+            -37.5
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              0,
+              0
+            ],
+            [
+              92.70509831248422,
+              0
+            ],
+            [
+              92.70509831248422,
+              -167.70509831248424
+            ],
+            [
+              -75,
+              -167.70509831248424
+            ],
+            [
+              -75,
+              -75
+            ],
+            [
+              0,
+              -75
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 2",
+    "id": "13.2",
+    "prose": "If the square on a straight-line is five times the (square) on a piece of it, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line.\n\nFor let the square on the straight-line {AB line} be five times the (square) on the piece of it, {AC line}.\nAnd let {CD line} be double {AC line}.\nI say that if {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.\n\nFor let the squares {AF polygon} and {CG polygon} have been described on each of {AB line} and {CD line} (respectively).\nAnd let the figure in {AF polygon} have been drawn.\nAnd let {BE line} have been drawn across.\nAnd since the (square) on {BA line} is five times the (square) on {AC line}, {AF polygon} is five times {AH polygon}.\nThus, gnomon {MNO given} (is) four times {AH polygon}.\nAnd since {DC line} is double {CA line}, the (square) on {DC line} is thus four times the (square) on {CA line}—that is to say, {CG polygon} (is four times) {AH polygon}.\nAnd the gnomon {MNO given} was also shown (to be) four times {AH polygon}.\nThus, gnomon {MNO given} (is) equal to {CG polygon}.\nAnd since {DC line} is double {CA line}, and {DC line} (is) equal to {CK line}, and {AC line} to {CH line}, [{KC line} (is) thus also double {CH line}], (and) {KB polygon} (is) also double {BH polygon} [Prop. 6.1].\nAnd {LH polygon} plus {HB polygon} is also double {HB polygon} [Prop. 1.43].\nThus, {KB polygon} (is) equal to {LH polygon} plus {HB polygon}.\nAnd the whole gnomon {MNO given} was also shown (to be) equal to the whole of {CG polygon}.\nThus, the remainder {HF polygon} is also equal to (the remainder) {BG polygon}.\nAnd {BG polygon} is the (rectangle contained) by {CD line} and {DB line}.\nFor {CD line} (is) equal to {DG line}.\nAnd {HF polygon} (is) the square on {CB line}.\nThus, the (rectangle contained) by {CD line} and {DB line} is equal to the (square) on {CB line}.\nThus, as {DC line} is to {CB line}, so {CB line} (is) to {BD line} [Prop. 6.17].\nAnd {DC line} (is) greater than {CB line} (see lemma).\nThus, {CB line} (is) also greater than {BD line} [Prop. 5.14].\nThus, if the straight-line {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.\n\nThus, if the square on a straight-line is five times the (square) on a piece of itself, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line. (Which is) the very thing it was required to show.\n\nLemma\n\nAnd it can be shown that double {AC line} (i.e., {DC line}) is greater than {BC line}, as follows.\n\nFor if (double {AC line} is) not (greater than {BC line}), if possible, let {BC line} be double {CA line}.\nThus, the (square) on {BC line} (is) four times the (square) on {CA line}.\nThus, the (sum of) the (squares) on {BC line} and {CA line} (is) five times the (square) on {CA line}.\nAnd the (square) on {BA line} was assumed (to be) five times the (square) on {CA line}.\nThus, the (square) on {BA line} is equal to the (sum of) the (squares) on {BC line} and {CA line}.\nThe very thing (is) impossible [Prop. 2.4].\nThus, {CB line} is not double {AC line}.\nSo, similarly, we can show that a (straight-line) less than {CB line} is not double {AC line} either.\nFor (in this case) the absurdity is much [greater].\n\nThus, double {AC line} is greater than {CB line}.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "L": [
+        -75,
+        -167.70509831248424
+      ],
+      "a": [
+        0,
+        -167.70509831248424
+      ],
+      "F": [
+        92.70509831248422,
+        -167.70509831248424
+      ],
+      "P": [
+        -75,
+        -75
+      ],
+      "H": [
+        0,
+        -75
+      ],
+      "b": [
+        92.70509831248422,
+        -75
+      ],
+      "A": [
+        -75,
+        0
+      ],
+      "C": [
+        0,
+        0
+      ],
+      "B": [
+        92.70509831248422,
+        0
+      ],
+      "D": [
+        150,
+        0
+      ],
+      "K": [
+        0,
+        150
+      ],
+      "E": [
+        92.70509831248422,
+        150
+      ],
+      "G": [
+        150,
+        150
+      ],
+      "M": [
+        -37.5,
+        -75
+      ],
+      "N": [
+        26.516504294495526,
+        -101.51650429449553
+      ],
+      "O": [
+        0,
+        -37.5
+      ]
+    },
+    "smallletters": "MNO",
+    "letters": {
+      "L": [
+        3
+      ],
+      "F": [
+        7
+      ],
+      "A": [
+        3
+      ],
+      "B": [
+        8,
+        2
+      ],
+      "D": [
+        7
+      ],
+      "C": [
+        3.9,
+        5
+      ],
+      "K": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "M": [
+        5
+      ],
+      "O": [
+        3
+      ],
+      "N": [
+        1,
+        2
+      ],
+      "H": [
+        6
+      ]
+    },
+    "shapes": [
+      [
+        "gnomon",
+        [
+          0,
+          -75
+        ],
+        [
+          -37.5,
+          -75
+        ],
+        [
+          0,
+          -37.5
+        ]
+      ],
+      [
+        "line",
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ],
+        [
+          92.70509831248422,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          -167.70509831248424
+        ],
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          0
+        ],
+        [
+          -75,
+          -167.70509831248424
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          0
+        ],
+        [
+          -75,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          150,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          150
+        ],
+        [
+          150,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -167.70509831248424
+        ],
+        [
+          0,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          -75
+        ],
+        [
+          92.70509831248422,
+          -75
+        ]
+      ],
+      [
+        "line",
+        [
+          -75,
+          0
+        ],
+        [
+          92.70509831248422,
+          -167.70509831248424
+        ]
+      ]
+    ],
+    "polygonl": {
+      "AF": "ABFL",
+      "CG": "CKGD",
+      "AH": "ACHP",
+      "KB": "KEBC",
+      "BH": "BbHC",
+      "HB": "BbHC",
+      "LH": "LPHa",
+      "HF": "HbFa",
+      "BG": "BEGD"
+    },
+    "given": {
+      "MNO": [
+        [
+          "gnomon",
+          [
+            0,
+            -75
+          ],
+          [
+            -37.5,
+            -75
+          ],
+          [
+            0,
+            -37.5
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              0,
+              0
+            ],
+            [
+              92.70509831248422,
+              0
+            ],
+            [
+              92.70509831248422,
+              -167.70509831248424
+            ],
+            [
+              -75,
+              -167.70509831248424
+            ],
+            [
+              -75,
+              -75
+            ],
+            [
+              0,
+              -75
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 3",
+    "id": "13.3",
+    "prose": "If a straight-line is cut in extreme and mean ratio then the square on the lesser piece added to half of the greater piece is five times the square on half of the greater piece.\n\nFor let some straight-line {AB line} have been cut in extreme and mean ratio at point {C point}.\nAnd let {AC line} be the greater piece.\nAnd let {AC line} have been cut in half at {D point}.\nI say that the (square) on {BD line} is five times the (square) on {DC line}.\n\nFor let the square {AE polygon} have been described on {AB line}.\nAnd let the figure have been drawn double.\nSince {AC line} is double {DC line}, the (square) on {AC line} (is) thus four times the (square) on {DC line}—that is to say, {RS polygon} (is four times) {FG polygon}.\nAnd since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17], and {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, {CE polygon} is thus equal to {RS polygon}.\nAnd {RS polygon} (is) four times {FG polygon}.\nThus, {CE polygon} (is) also four times {FG polygon}.\nAgain, since {AD line} is equal to {DC line}, {HK line} is also equal to {KF line}.\nHence, square {GF polygon} is also equal to square {HL polygon}.\nThus, {GK line} (is) equal to {KL line} ---that is to say, {MN line} to {NE line}.\nHence, {MF polygon} is also equal to {FE polygon}.\nBut, {MF polygon} is equal to {CG polygon}.\nThus, {CG polygon} is also equal to {FE polygon}.\nLet {CN polygon} have been added to both.\nThus, gnomon {OPQ given} is equal to {CE polygon}.\nBut, {CE polygon} was shown (to be) equal to four times {GF polygon}.\nThus, gnomon {OPQ given} is also four times square {FG polygon}.\nThus, gnomon {OPQ given} plus square {FG polygon} is five times {FG polygon}.\nBut, gnomon {OPQ given} plus square {FG polygon} is (square) {DN polygon}.\nAnd {DN polygon} is the (square) on {DB line}, and {GF polygon} the (square) on {DC line}.\nThus, the (square) on {DB line} is five times the (square) on {DC line}.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        0,
+        0
+      ],
+      "D": [
+        92.70509831248422,
+        0
+      ],
+      "C": [
+        185.41019662496845,
+        0
+      ],
+      "B": [
+        300,
+        0
+      ],
+      "R": [
+        0,
+        114.58980337503156
+      ],
+      "G": [
+        92.70509831248422,
+        114.58980337503156
+      ],
+      "a": [
+        185.41019662496845,
+        114.58980337503156
+      ],
+      "M": [
+        300,
+        114.58980337503156
+      ],
+      "H": [
+        0,
+        207.29490168751576
+      ],
+      "K": [
+        92.70509831248422,
+        207.29490168751576
+      ],
+      "F": [
+        185.41019662496845,
+        207.29490168751576
+      ],
+      "N": [
+        300,
+        207.29490168751576
+      ],
+      "b": [
+        0,
+        300
+      ],
+      "L": [
+        92.70509831248422,
+        300
+      ],
+      "S": [
+        185.41019662496845,
+        300
+      ],
+      "E": [
+        300,
+        300
+      ],
+      "O": [
+        155.41019662496845,
+        114.58980337503156
+      ],
+      "P": [
+        206.62340006056485,
+        93.37659993943512
+      ],
+      "Q": [
+        185.41019662496845,
+        144.58980337503155
+      ]
+    },
+    "smallletters": "OPQ",
+    "letters": {
+      "A": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "R": [
+        3
+      ],
+      "H": [
+        3
+      ],
+      "G": [
+        2
+      ],
+      "K": [
+        6
+      ],
+      "L": [
+        5
+      ],
+      "S": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        6
+      ],
+      "M": [
+        7
+      ],
+      "N": [
+        7
+      ],
+      "O": [
+        5
+      ],
+      "Q": [
+        3
+      ],
+      "P": [
+        1
+      ]
+    },
+    "shapes": [
+      [
+        "gnomon",
+        [
+          185.41019662496845,
+          114.58980337503156
+        ],
+        [
+          155.41019662496845,
+          114.58980337503156
+        ],
+        [
+          185.41019662496845,
+          144.58980337503155
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          300,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          114.58980337503156
+        ],
+        [
+          300,
+          114.58980337503156
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          207.29490168751576
+        ],
+        [
+          300,
+          207.29490168751576
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          300
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          92.70509831248422,
+          0
+        ],
+        [
+          92.70509831248422,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          185.41019662496845,
+          0
+        ],
+        [
+          185.41019662496845,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          0
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          300
+        ],
+        [
+          300,
+          0
+        ]
+      ]
+    ],
+    "polygonl": {
+      "AE": "AbEB",
+      "RS": "RbSa",
+      "FG": "FaGK",
+      "CE": "CSEB",
+      "GF": "FaGK",
+      "HL": "HbLK",
+      "MF": "MaFN",
+      "FE": "FSEN",
+      "CG": "CDGa",
+      "CN": "CFNB",
+      "DN": "DKNB"
+    },
+    "given": {
+      "OPQ": [
+        [
+          "gnomon",
+          [
+            185.41019662496845,
+            114.58980337503156
+          ],
+          [
+            155.41019662496845,
+            114.58980337503156
+          ],
+          [
+            185.41019662496845,
+            144.58980337503155
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              185.41019662496845,
+              207.29490168751576
+            ],
+            [
+              300,
+              207.29490168751576
+            ],
+            [
+              300,
+              0
+            ],
+            [
+              92.70509831248422,
+              0
+            ],
+            [
+              92.70509831248422,
+              114.58980337503156
+            ],
+            [
+              185.41019662496845,
+              114.58980337503156
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 4",
+    "id": "13.4",
+    "prose": "If a straight-line is cut in extreme and mean ratio then the sum of the squares on the whole and the lesser piece is three times the square on the greater piece.\n\nLet {AB line} be a straight-line, and let it have been cut in extreme and mean ratio at {C point}, and let {AC line} be the greater piece.\nI say that the (sum of the squares) on {AB line} and {BC line} is three times the (square) on {CA line}.\n\nFor let the square {ADEB polygon} have been described on {AB line}, and let the (remainder of the) figure have been drawn.\nTherefore, since {AB line} has been cut in extreme and mean ratio at {C point}, and {AC line} is the greater piece, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].\nAnd {AK polygon} is the (rectangle contained) by {AB line} and {BC line}, and {HG polygon} the (square) on {AC line}.\nThus, {AK polygon} is equal to {HG polygon}.\nAnd since {AF polygon} is equal to {FE polygon} [Prop. 1.43], let {CK polygon} have been added to both.\nThus, the whole of {AK polygon} is equal to the whole of {CE polygon}.\nThus, {AK polygon} plus {CE polygon} is double {AK polygon}.\nBut, {AK polygon} plus {CE polygon} is the gnomon {LMN given} plus the square {CK polygon}.\nThus, gnomon {LMN given} plus square {CK polygon} is double {AK polygon}.\nBut, indeed, {AK polygon} was also shown (to be) equal to {HG polygon}.\nThus, gnomon {LMN given} plus [square {CK polygon} is double {HG polygon}.\nHence, gnomon {LMN given} plus] the squares {CK polygon} and {HG polygon} is three times the square {HG polygon}.\nAnd gnomon {LMN given} plus the squares {CK polygon} and {HG polygon} is the whole of {AE polygon} plus {CK polygon}—which are the squares on {AB line} and {BC line} (respectively)—and {GH polygon} (is) the square on {AC line}.\nThus, the (sum of the) squares on {AB line} and {BC line} is three times the square on {AC line}.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        0,
+        0
+      ],
+      "C": [
+        185.41019662496845,
+        0
+      ],
+      "B": [
+        300,
+        0
+      ],
+      "H": [
+        0,
+        114.58980337503156
+      ],
+      "F": [
+        185.41019662496845,
+        114.58980337503156
+      ],
+      "K": [
+        300,
+        114.58980337503156
+      ],
+      "D": [
+        0,
+        300
+      ],
+      "G": [
+        185.41019662496845,
+        300
+      ],
+      "E": [
+        300,
+        300
+      ],
+      "L": [
+        155.41019662496845,
+        114.58980337503156
+      ],
+      "M": [
+        206.62340006056485,
+        93.37659993943512
+      ],
+      "N": [
+        185.41019662496845,
+        144.58980337503155
+      ]
+    },
+    "smallletters": "LMN",
+    "letters": {
+      "A": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "H": [
+        3
+      ],
+      "K": [
+        7
+      ],
+      "L": [
+        5
+      ],
+      "M": [
+        7,
+        3
+      ],
+      "N": [
+        3
+      ],
+      "F": [
+        6
+      ]
+    },
+    "shapes": [
+      [
+        "gnomon",
+        [
+          185.41019662496845,
+          114.58980337503156
+        ],
+        [
+          155.41019662496845,
+          114.58980337503156
+        ],
+        [
+          185.41019662496845,
+          144.58980337503155
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          300,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          114.58980337503156
+        ],
+        [
+          300,
+          114.58980337503156
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          300
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          185.41019662496845,
+          0
+        ],
+        [
+          185.41019662496845,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          0
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          300
+        ],
+        [
+          300,
+          0
+        ]
+      ]
+    ],
+    "polygonl": {
+      "AK": "AHKB",
+      "AF": "AHFC",
+      "HG": "HDGF",
+      "FE": "FGEK",
+      "CK": "CFKB",
+      "CE": "CGEB",
+      "AE": "ADEB",
+      "GH": "GFHD"
+    },
+    "given": {
+      "LMN": [
+        [
+          "gnomon",
+          [
+            185.41019662496845,
+            114.58980337503156
+          ],
+          [
+            155.41019662496845,
+            114.58980337503156
+          ],
+          [
+            185.41019662496845,
+            144.58980337503155
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              114.58980337503156
+            ],
+            [
+              185.41019662496845,
+              114.58980337503156
+            ],
+            [
+              185.41019662496845,
+              300
+            ],
+            [
+              300,
+              300
+            ],
+            [
+              300,
+              0
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 5",
+    "id": "13.5",
+    "prose": "If a straight-line is cut in extreme and mean ratio, and a (straight-line) equal to the greater piece is added to it, then the whole straight-line has been cut in extreme and mean ratio, and the original straight-line is the greater piece.\n\nFor let the straight-line {AB line} have been cut in extreme and mean ratio at point {C point}.\nAnd let {AC line} be the greater piece.\nAnd let {AD line} be [made] equal to {AC line}.\nI say that the straight-line {DB line} has been cut in extreme and mean ratio at {A point}, and that the original straight-line {AB line} is the greater piece.\n\nFor let the square {AE polygon} have been described on {AB line}, and let the (remainder of the) figure have been drawn.\nAnd since {AB line} has been cut in extreme and mean ratio at {C point}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].\nAnd {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, and {CH polygon} the (square) on {AC line}.\nBut, {HE polygon} is equal to {CE polygon} [Prop. 1.43], and {DH polygon} equal to {HC polygon}.\nThus, {DH polygon} is also equal to {HE polygon}.\n[Let {HB polygon} have been added to both.]\nThus, the whole of {DK polygon} is equal to the whole of {AE polygon}.\nAnd {DK polygon} is the (rectangle contained) by {BD line} and {DA line}.\nFor {AD line} (is) equal to {DL line}.\nAnd {AE polygon} (is) the (square) on {AB line}.\nThus, the (rectangle contained) by {BD line} and {DA line} is equal to the (square) on {AB line}.\nThus, as {DB line} (is) to {BA line}, so {BA line} (is) to {AD line} [Prop. 6.17].\nAnd {DB line} (is) greater than {BA line}.\nThus, {BA line} (is) also greater than {AD line} [Prop. 5.14].\n\nThus, {DB line} has been cut in extreme and mean ratio at {A point}, and the greater piece is {AB line}.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "D": [
+        -154.5084971874737,
+        0
+      ],
+      "A": [
+        0,
+        0
+      ],
+      "C": [
+        154.5084971874737,
+        0
+      ],
+      "B": [
+        250,
+        0
+      ],
+      "L": [
+        -154.5084971874737,
+        154.5084971874737
+      ],
+      "H": [
+        0,
+        154.5084971874737
+      ],
+      "d": [
+        154.5084971874737,
+        154.5084971874737
+      ],
+      "K": [
+        250,
+        154.5084971874737
+      ],
+      "a": [
+        -154.5084971874737,
+        250
+      ],
+      "b": [
+        0,
+        250
+      ],
+      "c": [
+        154.5084971874737,
+        250
+      ],
+      "E": [
+        250,
+        250
+      ]
+    },
+    "letters": {
+      "D": [
+        1
+      ],
+      "A": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "L": [
+        5
+      ],
+      "H": [
+        3.9,
+        10
+      ],
+      "K": [
+        7
+      ],
+      "E": [
+        8
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          250
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          250,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          0
+        ],
+        [
+          -154.5084971874737,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -154.5084971874737,
+          0
+        ],
+        [
+          -154.5084971874737,
+          154.5084971874737
+        ]
+      ],
+      [
+        "line",
+        [
+          -154.5084971874737,
+          154.5084971874737
+        ],
+        [
+          250,
+          154.5084971874737
+        ]
+      ],
+      [
+        "line",
+        [
+          154.5084971874737,
+          0
+        ],
+        [
+          154.5084971874737,
+          250
+        ]
+      ]
+    ],
+    "polygonl": {
+      "AE": "AbEB",
+      "CE": "CcEB",
+      "CH": "CdHA",
+      "HE": "HbEK",
+      "DH": "DLHA",
+      "HC": "HdCA",
+      "HB": "HKBA",
+      "DK": "DLKB"
+    }
+  },
+  {
+    "title": "Proposition 6",
+    "id": "13.6",
+    "prose": "If a rational straight-line is cut in extreme and mean ratio then each of the pieces is that irrational (straight-line) called an apotome.\n\nLet {AB magnitude} be a rational straight-line cut in extreme and mean ratio at {C point}, and let {AC magnitude} be the greater piece.\nI say that {AC magnitude} and {CB magnitude} is each that irrational (straight-line) called an apotome.\n\nFor let {BA magnitude} have been produced, and let {AD magnitude} be made (equal) to half of {BA magnitude}.\nTherefore, since the straight-line {AB magnitude} has been cut in extreme and mean ratio at {C point}, and {AD magnitude}, which is half of {AB magnitude}, has been added to the greater piece {AC magnitude}, the (square) on {CD magnitude} is thus five times the (square) on {DA magnitude} [Prop. 13.1].\nThus, the (square) on {CD magnitude} has to the (square) on {DA magnitude} the ratio which a number (has) to a number.\nThe (square) on {CD magnitude} (is) thus commensurable with the (square) on {DA magnitude} [Prop. 10.6].\nAnd the (square) on {DA magnitude} (is) rational.\nFor {DA magnitude} [is] rational, being half of {AB magnitude}, which is rational.\nThus, the (square) on {CD magnitude} (is) also rational [Def. 10.4].\nThus, {CD magnitude} is also rational.\nAnd since the (square) on {CD magnitude} does not have to the (square) on {DA magnitude} the ratio which a square number (has) to a square number, {CD magnitude} (is) thus incommensurable in length with {DA magnitude} [Prop. 10.9].\nThus, {CD magnitude} and {DA magnitude} are rational (straight-lines which are) commensurable in square only.\nThus, {AC magnitude} is an apotome [Prop. 10.73].\nAgain, since {AB magnitude} has been cut in extreme and mean ratio, and {AC magnitude} is the greater piece, the (rectangle contained) by {AB magnitude} and {BC magnitude} is thus equal to the (square) on {AC magnitude} [Def. 6.3, Prop. 6.17].\nThus, the (square) on the apotome {AC magnitude}, applied to the rational (straight-line) {AB magnitude}, makes {BC magnitude} as width.\nAnd the (square) on an apotome, applied to a rational (straight-line), makes a first apotome as width [Prop. 10.97].\nThus, {CB magnitude} is a first apotome.\nAnd {CA magnitude} was also shown (to be) an apotome.\n\nThus, if a rational straight-line is cut in extreme and mean ratio then each of the pieces is that irrational (straight-line) called an apotome.\n",
+    "mags": [
+      {
+        "l": "D",
+        "m": 125,
+        "p": [
+          0,
+          0
+        ]
+      },
+      {
+        "l": "A",
+        "m": 154.5084971874737
+      },
+      {
+        "l": "C",
+        "m": 95.4915028125263
+      },
+      {
+        "l": "B"
+      }
+    ]
+  },
+  {
+    "title": "Proposition 7",
+    "id": "13.7",
+    "prose": "If three angles, either consecutive or not consecutive, of an equilateral pentagon are equal then the pentagon will be equiangular.\n\nFor let three angles of the equilateral pentagon {ABCDE polygon}—first of all, the consecutive (angles) at {A point}, {B point}, and {C point}—-be equal to one another.\nI say that pentagon {ABCDE polygon} is equiangular.\n\nFor let {AC line}, {BE line}, and {FD line} have been joined.\nAnd since the two (straight-lines) {CB line} and {BA line} are equal to the two (straight-lines) {BA line} and {AE line}, respectively, and angle {CBA angle} is equal to angle {BAE angle}, base {AC line} is thus equal to base {BE line}, and triangle {ABC polygon} equal to triangle {ABE polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4], (that is), {BCA angle} (equal) to {BEA angle}, and {ABE angle} to {CAB angle}.\nAnd hence side {AF line} is also equal to side {BF line} [Prop. 1.6].\nAnd the whole of {AC line} was also shown (to be) equal to the whole of {BE line}.\nThus, the remainder {FC line} is also equal to the remainder {FE line}.\nAnd {CD line} is also equal to {DE line}.\nSo, the two (straight-lines) {FC line} and {CD line} are equal to the two (straight-lines) {FE line} and {ED line} (respectively).\nAnd {FD line} is their common base.\nThus, angle {FCD angle} is equal to angle {FED angle} [Prop. 1.8].\nAnd {BCA angle} was also shown (to be) equal to {AEB angle}.\nAnd thus the whole of {BCD angle} (is) equal to the whole of {AED angle}.\nBut, (angle) {BCD angle} was assumed (to be) equal to the angles at {A point} and {B point}.\nThus, (angle) {AED angle} is also equal to the angles at {A point} and {B point}.\nSo, similarly, we can show that angle {CDE angle} is also equal to the angles at {A point}, {B point}, {C point}.\nThus, pentagon {ABCDE polygon} is equiangular.\n\nAnd so let consecutive angles not be equal, but let the (angles) at points {A point}, {C point}, and {D point} be equal.\nI say that pentagon {ABCDE polygon} is also equiangular in this case.\n\nFor let {BD line} have been joined.\nAnd since the two (straight-lines) {BA line} and {AE line} are equal to the (straight-lines) {BC line} and {CD line}, and they contain equal angles, base {BE line} is thus equal to base {BD line}, and triangle {ABE polygon} is equal to triangle {BCD polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4].\nThus, angle {AEB polygon} is equal to (angle) {CDB polygon}.\nAnd angle {BED angle} is also equal to (angle) {BDE angle}, since side {BE line} is also equal to side {BD line} [Prop. 1.5].\nThus, the whole angle {AED angle} is also equal to the whole (angle) {CDE angle}.\nBut, (angle) {CDE angle} was assumed (to be) equal to the angles at {A point} and {C point}.\nThus, angle {AED angle} is also equal to the (angles) at {A point} and {C point}.\nSo, for the same (reasons), (angle) {ABC angle} is also equal to the angles at {A point}, {C point}, and {D point}.\nThus, pentagon {ABCDE polygon} is equiangular.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        -1.8369701987210297e-14,
+        -150
+      ],
+      "B": [
+        -142.65847744427305,
+        -46.3525491562421
+      ],
+      "C": [
+        -88.16778784387095,
+        121.35254915624212
+      ],
+      "D": [
+        88.16778784387095,
+        121.35254915624212
+      ],
+      "E": [
+        142.65847744427302,
+        -46.352549156242134
+      ],
+      "F": [
+        -33.67709824346891,
+        -46.352549156242084
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        7
+      ],
+      "F": [
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            -1.8369701987210297e-14,
+            -150
+          ],
+          [
+            -142.65847744427305,
+            -46.3525491562421
+          ],
+          [
+            -88.16778784387095,
+            121.35254915624212
+          ],
+          [
+            88.16778784387095,
+            121.35254915624212
+          ],
+          [
+            142.65847744427302,
+            -46.352549156242134
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          -1.8369701987210297e-14,
+          -150
+        ],
+        [
+          -88.16778784387095,
+          121.35254915624212
+        ]
+      ],
+      [
+        "line",
+        [
+          -142.65847744427305,
+          -46.3525491562421
+        ],
+        [
+          88.16778784387095,
+          121.35254915624212
+        ]
+      ],
+      [
+        "line",
+        [
+          -142.65847744427305,
+          -46.3525491562421
+        ],
+        [
+          142.65847744427302,
+          -46.352549156242134
+        ]
+      ],
+      [
+        "line",
+        [
+          88.16778784387095,
+          121.35254915624212
+        ],
+        [
+          -33.67709824346891,
+          -46.352549156242084
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 8",
+    "id": "13.8",
+    "prose": "If straight-lines subtend two consecutive angles of an equilateral and equiangular pentagon then they cut one another in extreme and mean ratio, and their greater pieces are equal to the sides of the pentagon.\n\nFor let the two straight-lines, {AC line} and {BE line}, cutting one another at point {H point}, have subtended two consecutive angles, at {A point} and {B point} (respectively), of the equilateral and equiangular pentagon {ABCDE polygon}.\nI say that each of them has been cut in extreme and mean ratio at point {H point}, and that their greater pieces are equal to the sides of the pentagon.\n\nFor let the circle {ABCDE circle O} have been circumscribed about pentagon {ABCDE polygon} [Prop. 4.14].\nAnd since the two straight-lines {EA line} and {AB line} are equal to the two (straight-lines) {AB line} and {BC line} (respectively), and they contain equal angles, the base {BE line} is thus equal to the base {AC line}, and triangle {ABE polygon} is equal to triangle {ABC polygon}, and the remaining angles will be equal to the remaining angles, respectively, which the equal sides subtend [Prop. 1.4].\nThus, angle {BAC angle} is equal to (angle) {ABE angle}.\nThus, (angle) {AHE angle} (is) double (angle) {BAH angle} [Prop. 1.32].\nAnd {EAC angle} is also double {BAC angle}, inasmuch as circumference {EDC arcc O} is also double circumference {CB arcc O} [Props. 3.28, 6.33].\nThus, angle {HAE angle} (is) equal to (angle) {AHE angle}.\nHence, straight-line {HE line} is also equal to (straight-line) {EA line}—that is to say, to (straight-line) {AB line} [Prop. 1.6].\nAnd since straight-line {BA line} is equal to {AE line}, angle {ABE angle} is also equal to {AEB angle} [Prop. 1.5].\nBut, {ABE angle} was shown (to be) equal to {BAH angle}.\nThus, {BEA angle} is also equal to {BAH angle}.\nAnd (angle) {ABE angle} is common to the two triangles {ABE polygon} and {ABH polygon}.\nThus, the remaining angle {BAE angle} is equal to the remaining (angle) {AHB angle} [Prop. 1.32].\nThus, triangle {ABE polygon} is equiangular to triangle {ABH polygon}.\nThus, proportionally, as {EB line} is to {BA line}, so {AB line} (is) to {BH line} [Prop. 6.4].\nAnd {BA line} (is) equal to {EH line}.\nThus, as {BE line} (is) to {EH line}, so {EH line} (is) to {HB line}.\nAnd {BE line} (is) greater than {EH line}.\n{EH line} (is) thus also greater than {HB line} [Prop. 5.14].\nThus, {BE line} has been cut in extreme and mean ratio at {H point}, and the greater piece {HE line} is equal to the side of the pentagon.\nSo, similarly, we can show that {AC line} has also been cut in extreme and mean ratio at {H point}, and that its greater piece {CH line} is equal to the side of the pentagon.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        -1.8369701987210297e-14,
+        -150
+      ],
+      "B": [
+        142.65847744427302,
+        -46.352549156242134
+      ],
+      "C": [
+        88.167787843871,
+        121.3525491562421
+      ],
+      "D": [
+        -88.16778784387104,
+        121.35254915624206
+      ],
+      "E": [
+        -142.65847744427305,
+        -46.35254915624207
+      ],
+      "H": [
+        33.67709824346891,
+        -46.3525491562421
+      ],
+      "O": [
+        0,
+        0
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        8
+      ],
+      "C": [
+        6
+      ],
+      "D": [
+        4
+      ],
+      "E": [
+        2
+      ],
+      "H": [
+        8,
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            -1.8369701987210297e-14,
+            -150
+          ],
+          [
+            142.65847744427302,
+            -46.352549156242134
+          ],
+          [
+            88.167787843871,
+            121.3525491562421
+          ],
+          [
+            -88.16778784387104,
+            121.35254915624206
+          ],
+          [
+            -142.65847744427305,
+            -46.35254915624207
+          ]
+        ]
+      ],
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          -1.8369701987210297e-14,
+          -150
+        ],
+        [
+          88.167787843871,
+          121.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          142.65847744427302,
+          -46.352549156242134
+        ],
+        [
+          -142.65847744427305,
+          -46.35254915624207
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 9",
+    "id": "13.9",
+    "prose": "If the side of a hexagon and of a decagon inscribed in the same circle are added together then the whole straight-line has been cut in extreme and mean ratio (at the junction point), and its greater piece is the side of the hexagon.\n\nLet {ABC circle E} be a circle.\nAnd of the figures inscribed in circle {ABC circle E}, let {BC line} be the side of a decagon, and {CD line} (the side) of a hexagon.\nAnd let them be (laid down) straight-on (to one another).\nI say that the whole straight-line {BD line} has been cut in extreme and mean ratio (at {C point}), and that {CD line} is its greater piece.\n\nFor let the center of the circle, point {E point}, have been found [Prop. 3.1], and let {EB line}, {EC line}, and {ED line} have been joined, and let {BE line} have been drawn across to {A line}.\nSince {BC line} is a side on an equilateral decagon, circumference {ACB arc E} (is) thus five times circumference {BC arcc E}.\nThus, circumference {AC arc E} (is) four times {CB arc E}.\nAnd as circumference {AC arc E} (is) to {CB arc E}, so angle {AEC angle} (is) to {CEB angle} [Prop. 6.33].\nThus, (angle) {AEC angle} (is) four times {CEB angle}.\nAnd since angle {EBC angle} (is) equal to {ECB angle} [Prop. 1.5], angle {AEC angle} is thus double {ECB angle} [Prop. 1.32].\nAnd since straight-line {EC line} is equal to {CD line}—for each of them is equal to the side of the hexagon [inscribed] in circle {ABC circle E} [Prop. 4.15 corr.]— angle {CED angle} is also equal to angle {CDE angle} [Prop. 1.5].\nThus, angle {ECB angle} (is) double {EDC angle} [Prop. 1.32].\nBut, {AEC angle} was shown (to be) double {ECB angle}.\nThus, {AEC angle} (is) four times {EDC angle}.\nAnd {AEC angle} was also shown (to be) four times {BEC angle}.\nThus, {EDC angle} (is) equal to {BEC angle}.\nAnd angle {EBD angle} (is) common to the two triangles {BEC polygon} and {BED polygon}.\nThus, the remaining (angle) {BED angle} is equal to the (remaining angle) {ECB angle} [Prop. 1.32].\nThus, triangle {EBD polygon} is equiangular to triangle {EBC polygon}.\nThus, proportionally, as {DB line} is to {BE line}, so {EB line} (is) to {BC line} [Prop. 6.4].\nAnd {EB line} (is) equal to {CD line}.\nThus, as {BD line} is to {DC line}, so {DC line} (is) to {CB line}.\nAnd {BD line} (is) greater than {DC line}.\nThus, {DC line} (is) also greater than {CB line} [Prop. 5.14].\nThus, the straight-line {BD line} has been cut in extreme and mean ratio [at {C point}], and {DC line} is its greater piece.\n(Which is), the very thing it was required to show.\n",
+    "points": {
+      "E": [
+        0,
+        0
+      ],
+      "A": [
+        120,
+        0
+      ],
+      "B": [
+        -120,
+        0
+      ],
+      "C": [
+        -97.0820393249937,
+        70.53423027509677
+      ],
+      "F": [
+        -37.082039324993694,
+        114.12678195541842
+      ],
+      "D": [
+        -60,
+        184.6610122305152
+      ]
+    },
+    "letters": {
+      "A": [
+        7
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        3.5
+      ],
+      "D": [
+        5
+      ],
+      "F": [
+        5.5
+      ],
+      "E": [
+        1
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        240
+      ],
+      [
+        "line",
+        [
+          120,
+          0
+        ],
+        [
+          -120,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -120,
+          0
+        ],
+        [
+          -60,
+          184.6610122305152
+        ]
+      ],
+      [
+        "line",
+        [
+          -60,
+          184.6610122305152
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          -97.0820393249937,
+          70.53423027509677
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 10",
+    "id": "13.10",
+    "prose": "If an equilateral pentagon is inscribed in a circle then the square on the side of the pentagon is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.\n\nLet {ABCDE circle F} be a circle.\nAnd let the equilateral pentagon {ABCDE polygon} have been inscribed in circle {ABCDE circle F}.\nI say that the square on the side of pentagon {ABCDE polygon} is the (sum of the squares) on the sides of the hexagon and of the decagon inscribed in circle {ABCDE circle F}.\n\nFor let the center of the circle, point {F point}, have been found [Prop. 3.1].\nAnd, {AF line} being joined, let it have been drawn across to point {G point}.\nAnd let {FB line} have been joined.\nAnd let {FH line} have been drawn from {F point} perpendicular to {AB line}.\nAnd let it have been drawn across to {K point}.\nAnd let {AK line} and {KB line} have been joined.\nAnd, again, let {FL line} have been drawn from {F point} perpendicular to {AK line}.\nAnd let it have been drawn across to {M point}.\nAnd let {KN line} have been joined.\n\nSince circumference {ABCG arcc F} is equal to circumference {AEDG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remaining circumference {CG arcc F} is thus equal to the remaining (circumference) {GD arcc F}.\nAnd {CD line} (is the side) of the pentagon.\n{CG line} (is) thus (the side) of the decagon.\nAnd since {FA line} is equal to {FB line}, and {FH line} is perpendicular (to {AB line}), angle {AFK angle} (is) thus also equal to {KFB angle} [Props. 1.5, 1.26].\nHence, circumference {AK arcc F} is also equal to {KB arcc F} [Prop. 3.26].\nThus, circumference {AB arcc F} (is) double circumference {BK arc F}.\nThus, straight-line {AK line} is the side of the decagon.\nSo, for the same (reasons, circumference) {AK arcc F} is also double {KM arc F}.\nAnd since circumference {AB arcc F} is double circumference {BK arc F}, and circumference {CD arcc F} (is) equal to circumference {AB arcc F}, circumference {CD arcc F} (is) thus also double circumference {BK arc F}.\nAnd circumference {CD arcc F} is also double {CG arcc F}.\nThus, circumference {CG arcc F} (is) equal to circumference {BK arc F}.\nBut, {BK arc F} is double {KM arc F}, since {KA arc F} (is) also (double {KM arc F}).\nThus, (circumference) {CG arcc F} is also double {KM arc F}.\nBut, indeed, circumference {CB arc F} is also double circumference {BK arc F}.\nFor circumference {CB arc F} (is) equal to {BA arc F}.\nThus, the whole circumference {GB arc F} is also double {BM arc F}.\nHence, angle {GFB angle} [is] also double angle {BFM angle} [Prop. 6.33].\nAnd {GFB angle} (is) also double {FAB angle}.\nFor {FAB angle} (is) equal to {ABF angle}.\nThus, {BFN angle} is also equal to {FAB angle}.\nAnd angle {ABF angle} (is) common to the two triangles {ABF polygon} and {BFN polygon}.\nThus, the remaining (angle) {AFB angle} is equal to the remaining (angle) {BNF angle} [Prop. 1.32].\nThus, triangle {ABF polygon} is equiangular to triangle {BFN polygon}.\nThus, proportionally, as straight-line {AB line} (is) to {BF line}, so {FB line} (is) to {BN line} [Prop. 6.4].\nThus, the (rectangle contained) by {AB line} and {BN line} is equal to the (square) on {BF line} [Prop. 6.17].\nAgain, since {AL line} is equal to {LK line}, and {LN line} is common and at right-angles (to {KA line}), base {KN line} is thus equal to base {AN line} [Prop. 1.4].\nAnd, thus, angle {LKN angle} is equal to angle {LAN angle}.\nBut, {LAN angle} is equal to {KBN angle} [Props. 3.29, 1.5].\nThus, {LKN angle} is also equal to {KBN angle}.\nAnd the (angle) at {A point} (is) common to the two triangles {AKB polygon} and {AKN polygon}.\nThus, the remaining (angle) {AKB angle} is equal to the remaining (angle) {KNA angle} [Prop. 1.32].\nThus, triangle {KBA polygon} is equiangular to triangle {KNA polygon}.\nThus, proportionally, as straight-line {BA line} is to {AK line}, so {KA line} (is) to {AN line} [Prop. 6.4].\nThus, the (rectangle contained) by {BA line} and {AN line} is equal to the (square) on {AK line} [Prop. 6.17].\nAnd the (rectangle contained) by {AB line} and {BN line} was also shown (to be) equal to the (square) on {BF line}.\nThus, the (rectangle contained) by {AB line} and {BN line} plus the (rectangle contained) by {BA line} and {AN line}, which is the (square) on {BA line} [Prop. 2.2], is equal to the (square) on {BF line} plus the (square) on {AK line}.\nAnd {BA line} is the side of the pentagon, and {BF line} (the side) of the hexagon [Prop. 4.15 corr.], and {AK line} (the side) of the decagon.\n\nThus, the square on the side of the pentagon (inscribed in a circle) is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.\n",
+    "points": {
+      "F": [
+        0,
+        0
+      ],
+      "A": [
+        0,
+        -200
+      ],
+      "M": [
+        -61.803398874989476,
+        -190.2113032590307
+      ],
+      "K": [
+        -117.55705045849463,
+        -161.80339887498948
+      ],
+      "B": [
+        -190.2113032590307,
+        -61.80339887498949
+      ],
+      "C": [
+        -117.55705045849464,
+        161.80339887498945
+      ],
+      "G": [
+        -2.4492935982947064e-14,
+        200
+      ],
+      "D": [
+        117.5570504584946,
+        161.80339887498948
+      ],
+      "E": [
+        190.21130325903073,
+        -61.80339887498945
+      ],
+      "H": [
+        -95.10565162951536,
+        -130.90169943749476
+      ],
+      "N": [
+        -52.57311121191336,
+        -161.80339887498948
+      ],
+      "L": [
+        -58.7785252292473,
+        -180.90169943749473
+      ]
+    },
+    "smallletters": "NL",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        3.5
+      ],
+      "G": [
+        5
+      ],
+      "D": [
+        6
+      ],
+      "E": [
+        7.5
+      ],
+      "F": [
+        7
+      ],
+      "K": [
+        2
+      ],
+      "M": [
+        2
+      ],
+      "H": [
+        4.5,
+        10
+      ],
+      "N": [
+        6.7,
+        3
+      ],
+      "L": [
+        4.4,
+        3
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        400
+      ],
+      [
+        "polygon",
+        [
+          [
+            0,
+            -200
+          ],
+          [
+            -190.2113032590307,
+            -61.80339887498949
+          ],
+          [
+            -117.55705045849464,
+            161.80339887498945
+          ],
+          [
+            117.5570504584946,
+            161.80339887498948
+          ],
+          [
+            190.21130325903073,
+            -61.80339887498945
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -200
+        ],
+        [
+          -2.4492935982947064e-14,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -200
+        ],
+        [
+          -117.55705045849463,
+          -161.80339887498948
+        ]
+      ],
+      [
+        "line",
+        [
+          -117.55705045849463,
+          -161.80339887498948
+        ],
+        [
+          -190.2113032590307,
+          -61.80339887498949
+        ]
+      ],
+      [
+        "line",
+        [
+          -117.55705045849463,
+          -161.80339887498948
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -190.2113032590307,
+          -61.80339887498949
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          -61.803398874989476,
+          -190.2113032590307
+        ]
+      ],
+      [
+        "line",
+        [
+          -117.55705045849463,
+          -161.80339887498948
+        ],
+        [
+          -52.57311121191336,
+          -161.80339887498948
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 11",
+    "id": "13.11",
+    "prose": "If an equilateral pentagon is inscribed in a circle which has a rational diameter then the side of the pentagon is that irrational (straight-line) called minor.\n\nFor let the equilateral pentagon {ABCDE polygon} have been inscribed in the circle {ABCDE circle F} which has a rational diameter.\nI say that the side of pentagon [{ABCDE polygon}] is that irrational (straight-line) called minor.\n\nFor let the center of the circle, point {F point}, have been found [Prop. 3.1].\nAnd let {AF line} and {FB line} have been joined.\nAnd let them have been drawn across to points {G point} and {H point} (respectively).\nAnd let {AC line} have been joined.\nAnd let {FK line} made (equal) to the fourth part of {AF line}.\nAnd {AF line} (is) rational.\n{FK line} (is) thus also rational.\nAnd {BF line} is also rational.\nThus, the whole of {BK line} is rational.\nAnd since circumference {ACG arcc F} is equal to circumference {ADG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remainder {CG arcc F} is thus equal to the remainder {GD arcc F}.\nAnd if we join {AD line} then the angles at {L point} are inferred (to be) right-angles, and {CD line} (is inferred to be) double {CL line} [Prop. 1.4].\nSo, for the same (reasons), the (angles) at {M point} are also right-angles, and {AC line} (is) double {CM line}.\nTherefore, since angle {ALC angle} (is) equal to {AMF angle}, and (angle) {LAC angle} (is) common to the two triangles {ACL polygon} and {AMF polygon}, the remaining (angle) {ACL angle} is thus equal to the remaining (angle) {MFA angle} [Prop. 1.32].\nThus, triangle {ACL polygon} is equiangular to triangle {AMF polygon}.\nThus, proportionally, as {LC line} (is) to {CA line}, so {MF line} (is) to {FA line} [Prop. 6.4].\nAnd (we can take) the doubles of the leading (magnitudes).\nThus, as double {LC line} (is) to {CA line}, so double {MF line} (is) to {FA line}.\nAnd as double {MF line} (is) to {FA line}, so {MF line} (is) to half of {FA line}.\nAnd, thus, as double {LC line} (is) to {CA line}, so {MF line} (is) to half of {FA line}.\nAnd (we can take) the halves of the following (magnitudes).\nThus, as double {LC line} (is) to half of {CA line}, so {MF line} (is) to the fourth of {FA line}.\nAnd {DC line} is double {LC line}, and {CM line} half of {CA line}, and {FK line} the fourth part of {FA line}.\nThus, as {DC line} is to {CM line}, so {MF line} (is) to {FK line}.\nVia composition, as the sum of DCM (i.e., {DC line} and {CM line}) (is) to {CM line}, so {MK line} (is) to {KF line} [Prop. 5.18].\nAnd, thus, as the (square) on the sum of {DC line} and {CM line} (is) to the (square) on {CM line}, so the (square) on {MK line} (is) to the (square) on {KF line}.\nAnd since the greater piece of a (straight-line) subtending two sides of a pentagon, such as {AC line}, (which is) cut in extreme and mean ratio is equal to the side of the pentagon [Prop. 13.8] --- that is to say, to {DC line} --- and the square on the greater piece added to half of the whole is five times the (square) on half of the whole [Prop. 13.1], and {CM line} (is) half of the whole, {AC line}, thus the (square) on {DC line} and {CM line}, (taken) as one, is five times the (square) on {CM line}.\nAnd the (square) on {DC line} and {CM line}, (taken) as one, (is) to the (square) on {CM line}, so the (square) on {MK line} was shown (to be) to the (square) on {KF line}.\nThus, the (square) on {MK line} (is) five times the (square) on {KF line}.\nAnd the square on {KF line} (is) rational.\nFor the diameter (is) rational.\nThus, the (square) on {MK line} (is) also rational.\nThus, {MK line} is rational [in square only].\nAnd since {BF line} is four times {FK line}, {BK line} is thus five times {KF line}.\nThus, the (square) on {BK line} (is) twenty-five times the (square) on {KF line}.\nAnd the (square) on {MK line} (is) five times the square on {KF line}.\nThus, the (square) on {BK line} (is) five times the (square) on {KM line}.\nThus, the (square) on {BK line} does not have to the (square) on {KM line} the ratio which a square number (has) to a square number.\nThus, {BK line} is incommensurable in length with {KM line} [Prop. 10.9].\nAnd each of them is a rational (straight-line).\nThus, {BK line} and {KM line} are rational (straight-lines which are) commensurable in square only.\nAnd if from a rational (straight-line) a rational (straight-line) is subtracted, which is commensurable in square only with the whole, then the remainder is that irrational (straight-line called) an apotome [Prop. 10.73].\nThus, {MB line} is an apotome, and {MK line} its attachment.\nSo, I say that (it is) also a fourth (apotome).\nSo, let the (square) on {N given} be (made) equal to that (magnitude) by which the (square) on {BK line} is greater than the (square) on {KM line}.\nThus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on {N given}.\nAnd since {KF line} is commensurable (in length) with {FB line} then, via composition, {KB line} is also commensurable (in length) with {FB line} [Prop. 10.15].\nBut, {BF line} is commensurable (in length) with {BH line}.\nThus, {BK line} is also commensurable (in length) with {BH line} [Prop. 10.12].\nAnd since the (square) on {BK line} is five times the (square) on {KM line}, the (square) on {BK line} thus has to the (square) on {KM line} the ratio which 5 (has) to one.\nThus, via conversion, the (square) on {BK line} has to the (square) on {N given} the ratio which 5 (has) to 4 [Prop. 5.19 corr.], which is not (that) of a square (number) to a square (number).\n{BK line} is thus incommensurable (in length) with {N given} [Prop. 10.9].\nThus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}).\nTherefore, since the square on the whole, {BK line}, is greater than the (square) on the attachment, {KM line}, by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}), and the whole, {BK line}, is commensurable (in length) with the (previously) laid down rational (straight-line) {BH line}, {MB line} is thus a fourth apotome [Def. 10.14].\nAnd the rectangle contained by a rational (straight-line) and a fourth apotome is irrational, and its square-root is that irrational (straight-line) called minor [Prop. 10.94].\nAnd the square on {AB line} is the rectangle contained by {HB line} and {BM line}, on account of joining {AH line}, (so that) triangle {ABH polygon} becomes equiangular with triangle {ABM polygon} [Prop. 6.8], and (proportionally) as {HB line} is to {BA line}, so {AB line} (is) to {BM line}.\n\nThus, the side {AB line} of the pentagon is that irrational (straight-line) called minor.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "F": [
+        0,
+        0
+      ],
+      "A": [
+        0,
+        -200
+      ],
+      "B": [
+        -190.2113032590307,
+        -61.80339887498949
+      ],
+      "C": [
+        -117.55705045849464,
+        161.80339887498945
+      ],
+      "G": [
+        -2.4492935982947064e-14,
+        200
+      ],
+      "D": [
+        117.5570504584946,
+        161.80339887498948
+      ],
+      "H": [
+        190.2113032590307,
+        61.80339887498951
+      ],
+      "E": [
+        190.21130325903073,
+        -61.80339887498945
+      ],
+      "L": [
+        -1.9815201452341833e-14,
+        161.80339887498948
+      ],
+      "M": [
+        -58.778525229247315,
+        -19.098300562505262
+      ],
+      "K": [
+        47.552825814757675,
+        15.450849718747378
+      ],
+      "N": [
+        -247.27469423673995,
+        80.3444185374863
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        4
+      ],
+      "G": [
+        5
+      ],
+      "D": [
+        6
+      ],
+      "H": [
+        6
+      ],
+      "E": [
+        7
+      ],
+      "F": [
+        8
+      ],
+      "M": [
+        1.5,
+        2
+      ],
+      "K": [
+        1,
+        2
+      ],
+      "L": [
+        8
+      ],
+      "N": [
+        7,
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        400
+      ],
+      [
+        "polygon",
+        [
+          [
+            0,
+            -200
+          ],
+          [
+            -190.2113032590307,
+            -61.80339887498949
+          ],
+          [
+            -117.55705045849464,
+            161.80339887498945
+          ],
+          [
+            117.5570504584946,
+            161.80339887498948
+          ],
+          [
+            190.21130325903073,
+            -61.80339887498945
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -200
+        ],
+        [
+          -2.4492935982947064e-14,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          -190.2113032590307,
+          -61.80339887498949
+        ],
+        [
+          190.2113032590307,
+          61.80339887498951
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -200
+        ],
+        [
+          -117.55705045849464,
+          161.80339887498945
+        ]
+      ],
+      [
+        "line",
+        [
+          49.09791078663241,
+          10.69556713727161
+        ],
+        [
+          46.00774084288294,
+          20.206132300223146
+        ]
+      ],
+      [
+        "line",
+        [
+          -247.27469423673995,
+          30.344418537486305
+        ],
+        [
+          -247.27469423673995,
+          130.34441853748632
+        ]
+      ]
+    ],
+    "given": {
+      "N": [
+        [
+          "line",
+          [
+            -247.27469423673995,
+            30.344418537486305
+          ],
+          [
+            -247.27469423673995,
+            130.34441853748632
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 12",
+    "id": "13.12",
+    "prose": "If an equilateral triangle is inscribed in a circle then the square on the side of the triangle is three times the (square) on the radius of the circle.\n\nLet there be a circle {ABC circle D}, and let the equilateral triangle {ABC polygon} have been inscribed in it [Prop. 4.2].\nI say that the square on one side of triangle {ABC polygon} is three times the (square) on the radius of circle {ABC circle D}.\n\nFor let the center, {D point}, of circle {ABC circle D} have been found [Prop. 3.1].\nAnd {AD line} (being) joined, let it have been drawn across to {E point}.\nAnd let {BE line} have been joined.\n\nAnd since triangle {ABC polygon} is equilateral, circumference {BEC arcc D} is thus the third part of the circumference of circle {ABC circle D}.\nThus, circumference {BE arcc D} is the sixth part of the circumference of the circle.\nThus, straight-line {BE line} is (the side) of a hexagon.\nThus, it is equal to the radius {DE line} [Prop. 4.15 corr.].\nAnd since {AE line} is double {DE line}, the (square) on {AE line} is four times the (square) on {ED line}---that is to say, of the (square) on {BE line}.\nAnd the (square) on {AE line} (is) equal to the (sum of the squares) on {AB line} and {BE line} [Props. 3.31, 1.47].\nThus, the (sum of the squares) on {AB line} and {BE line} is four times the (square) on {BE line}.\nThus, via separation, the (square) on {AB line} is three times the (square) on {BE line}.\nAnd {BE line} (is) equal to {DE line}.\nThus, the (square) on {AB line} is three times the (square) on {DE line}.\n\nThus, the square on the side of the triangle is three times the (square) on the radius [of the circle].\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "D": [
+        0,
+        0
+      ],
+      "A": [
+        0,
+        -150
+      ],
+      "B": [
+        -129.9038105676658,
+        74.99999999999997
+      ],
+      "E": [
+        -1.8369701987210297e-14,
+        150
+      ],
+      "C": [
+        129.90381056766577,
+        75.00000000000007
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        6
+      ],
+      "E": [
+        5
+      ],
+      "D": [
+        7
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            0,
+            -150
+          ],
+          [
+            -129.9038105676658,
+            74.99999999999997
+          ],
+          [
+            129.90381056766577,
+            75.00000000000007
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -150
+        ],
+        [
+          -1.8369701987210297e-14,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -129.9038105676658,
+          74.99999999999997
+        ],
+        [
+          -1.8369701987210297e-14,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          -5,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 13",
+    "id": "13.13",
+    "prose": "To construct a (regular) pyramid (i.e., a tetrahedron), and to enclose (it) in a given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.\n\nLet the diameter {AB line} of the given sphere be laid out, and let it have been cut at point {C point} such that {AC line} is double {CB line} [Prop. 6.10].\nAnd let the semi-circle {ADB arc O} have been drawn on {AB line}.\nAnd let {CD line} have been drawn from point {C point} at right-angles to {AB line}.\nAnd let {DA line} have been joined.\nAnd let the circle {EFG given} be laid down having a radius equal to {DC line}, and let the equilateral triangle {EFG polygon} have been inscribed in circle {EFG given} [Prop. 4.2].\nAnd let the center of the circle, point {H point}, have been found [Prop. 3.1].\nAnd let {EH line}, {HF line}, and {HG line} have been joined.\nAnd let {HK line} have been set up, at point {H point}, at right-angles to the plane of circle {EFG given} [Prop. 11.12].\nAnd let {HK line}, equal to the straight-line {AC line}, have been cut off from {HK line}.\nAnd let {KE line}, {KF line}, and {KG line} have been joined.\nAnd since {KH line} is at right-angles to the plane of circle {EFG given}, it will thus also make right-angles with all of the straight-lines joining it (which are) also in the plane of circle {EFG given} [Def. 11.3].\nAnd {HE line}, {HF line}, and {HG line} each join it.\nThus, {HK line} is at right-angles to each of {HE line}, {HF line}, and {HG line}.\nAnd since {AC line} is equal to {HK line}, and {CD line} to {HE line}, and they contain right-angles, the base {DA line} is thus equal to the base {KE line} [Prop. 1.4].\nSo, for the same (reasons), {KF line} and {KG line} is each equal to {DA line}.\nThus, the three (straight-lines) {KE line}, {KF line}, and {KG line} are equal to one another.\nAnd since {AC line} is double {CB line}, {AB line} (is) thus triple {BC line}.\nAnd as {AB line} (is) to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}, as will be shown later [see lemma].\nThus, the (square) on {AD line} (is) three times the (square) on {DC line}.\nAnd the (square) on {FE line} is also three times the (square) on {EH line} [Prop. 13.12], and {DC line} is equal to {EH line}.\nThus, {DA line} (is) also equal to {EF line}.\nBut, {DA line} was shown (to be) equal to each of {KE line}, {KF line}, and {KG line}.\nThus, {EF line}, {FG line}, and {GE line} are equal to {KE line}, {KF line}, and {KG line}, respectively.\nThus, the four triangles {EFG polygon}, {KEF polygon}, {KFG polygon}, and {KEG polygon} are equilateral.\nThus, a pyramid, whose base is triangle {EFG polygon}, and apex the point {K point}, has been constructed from four equilateral triangles.\n\nSo, it is also necessary to enclose it in the given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.\n\nFor let the straight-line {HL line} have been produced in a straight-line with {KH line}, and let {HL line} be made equal to {CB line}.\nAnd since as {AC line} (is) to {CD line}, so {CD line} (is) to {CB line} [Prop. 6.8 corr.], and {AC line} (is) equal to {KH line}, and {CD line} to {HE line}, and {CB line} to {HL line}, thus as {KH line} is to {HE line}, so {EH line} (is) to {HL line}.\nThus, the (rectangle contained) by {KH line} and {HL line} is equal to the (square) on {EH line} [Prop. 6.17].\nAnd each of the angles {KHE angle} and {EHL angle} is a right-angle.\nThus, the semi-circle drawn on {KL line} will also pass through {E point} [inasmuch as if we join {EL line} then the angle {LEK angle} becomes a right-angle, on account of triangle {ELK polygon} becoming equiangular to each of the triangles {ELH polygon} and {EHK polygon} [Props. 6.8, 3.31] ].\nSo, if {KL line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, it will also pass through points {F point} and {G point}, (because) if {FL line} and {LG line} are joined, the angles at {F point} and {G point} will similarly become right-angles.\nAnd the pyramid will have been enclosed by the given sphere.\nFor the diameter, {KL line}, of the sphere is equal to the diameter, {AB line}, of the given sphere— inasmuch as {KH line} was made equal to {AC line}, and {HL line} to {CB line}.\n\nSo, I say that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.\n\nFor since {AC line} is double {CB line}, {AB line} is thus triple {BC line}.\nThus, via conversion, {BA line} is one and a half times {AC line}.\nAnd as {BA line} (is) to {AC line}, so the (square) on {BA line} (is) to the (square) on {AD line} [inasmuch as if {DB line} is joined then as {BA line} is to {AD line}, so {DA line} (is) to {AC line}, on account of the similarity of triangles {DAB polygon} and {DAC polygon}.\nAnd as the first is to the third (of four proportional magnitudes), so the (square) on the first (is) to the (square) on the second.] Thus, the (square) on {BA line} (is) also one and a half times the (square) on {AD line}.\nAnd {BA line} is the diameter of the given sphere, and {AD line} (is) equal to the side of the pyramid.\n\nThus, the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "H": [
+        0,
+        0,
+        0
+      ],
+      "E": [
+        59.500983952938604,
+        -67.80100988420898,
+        108.91582055566373
+      ],
+      "F": [
+        -137.23196616631247,
+        33.90050494217727,
+        4.25948668400874
+      ],
+      "G": [
+        77.73098221361572,
+        33.900504942019126,
+        -113.17530723977836
+      ],
+      "K": [
+        -45.96976941318603,
+        -175.51651237807454,
+        -84.14709848078965
+      ],
+      "L": [
+        22.984884706593014,
+        87.75825618903727,
+        42.073549240394826
+      ],
+      "O": [
+        0,
+        -250
+      ],
+      "B": [
+        150,
+        -250
+      ],
+      "A": [
+        -150,
+        -250
+      ],
+      "D": [
+        49.999999999999986,
+        -391.4213562373095
+      ],
+      "C": [
+        50,
+        -250
+      ]
+    },
+    "letters": {
+      "K": [
+        1
+      ],
+      "E": [
+        8
+      ],
+      "F": [
+        4
+      ],
+      "H": [
+        4
+      ],
+      "L": [
+        5
+      ],
+      "G": [
+        6
+      ],
+      "A": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "D": [
+        1
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          59.500983952938604,
+          -67.80100988420898,
+          108.91582055566373
+        ],
+        [
+          -137.23196616631247,
+          33.90050494217727,
+          4.25948668400874
+        ]
+      ],
+      [
+        "line",
+        [
+          -137.23196616631247,
+          33.90050494217727,
+          4.25948668400874
+        ],
+        [
+          77.73098221361572,
+          33.900504942019126,
+          -113.17530723977836
+        ]
+      ],
+      [
+        "line",
+        [
+          77.73098221361572,
+          33.900504942019126,
+          -113.17530723977836
+        ],
+        [
+          59.500983952938604,
+          -67.80100988420898,
+          108.91582055566373
+        ]
+      ],
+      [
+        "line",
+        [
+          -45.96976941318603,
+          -175.51651237807454,
+          -84.14709848078965
+        ],
+        [
+          59.500983952938604,
+          -67.80100988420898,
+          108.91582055566373
+        ]
+      ],
+      [
+        "line",
+        [
+          -45.96976941318603,
+          -175.51651237807454,
+          -84.14709848078965
+        ],
+        [
+          -137.23196616631247,
+          33.90050494217727,
+          4.25948668400874
+        ]
+      ],
+      [
+        "line",
+        [
+          -45.96976941318603,
+          -175.51651237807454,
+          -84.14709848078965
+        ],
+        [
+          77.73098221361572,
+          33.900504942019126,
+          -113.17530723977836
+        ]
+      ],
+      [
+        "line",
+        [
+          -45.96976941318603,
+          -175.51651237807454,
+          -84.14709848078965
+        ],
+        [
+          22.984884706593014,
+          87.75825618903727,
+          42.073549240394826
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          59.500983952938604,
+          -67.80100988420898,
+          108.91582055566373
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          -137.23196616631247,
+          33.90050494217727,
+          4.25948668400874
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          77.73098221361572,
+          33.900504942019126,
+          -113.17530723977836
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          -250
+        ],
+        [
+          150,
+          -250
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          -250
+        ],
+        [
+          49.999999999999986,
+          -391.4213562373095
+        ]
+      ],
+      [
+        "line",
+        [
+          49.999999999999986,
+          -391.4213562373095
+        ],
+        [
+          50,
+          -250
+        ]
+      ],
+      [
+        "curve",
+        [
+          [
+            59.500983952938604,
+            -67.80100988420898,
+            108.91582055566373
+          ],
+          [
+            94.94056274670984,
+            -64.48259226176907,
+            82.63343657709326
+          ],
+          [
+            121.086697769036,
+            -54.852169232108864,
+            48.26231608534998
+          ],
+          [
+            135.38002315309723,
+            -39.85243370047424,
+            9.1669438318437
+          ],
+          [
+            136.42140862284768,
+            -20.951664290004363,
+            -30.82575275377673
+          ],
+          [
+            124.1089161127489,
+            2.2552671927943903e-13,
+            -67.80100988420934
+          ],
+          [
+            99.64777817586037,
+            20.951664290013216,
+            -98.13943176977483
+          ],
+          [
+            65.43242142403405,
+            39.852433700667206,
+            -118.87128229635118
+          ],
+          [
+            24.81208336607019,
+            54.85216923488853,
+            -127.96718349043064
+          ],
+          [
+            -18.237034314961985,
+            64.48259229097613,
+            -124.53676520008206
+          ],
+          [
+            -59.500984228565834,
+            67.80101012348416,
+            -108.91582090417515
+          ],
+          [
+            -94.94056463697326,
+            64.48259386440078,
+            -82.63343888725439
+          ],
+          [
+            -121.08670873984224,
+            54.85217832100846,
+            -48.262329049867425
+          ],
+          [
+            -135.38007849279722,
+            39.852478521887804,
+            -9.167007089460832
+          ],
+          [
+            -136.4216563135634,
+            20.951860508076408,
+            30.82547879036028
+          ],
+          [
+            -124.10991608521829,
+            0.0007751628997726386,
+            67.7999393139042
+          ],
+          [
+            -99.65146813798839,
+            -20.948864091226092,
+            98.13560686763651
+          ],
+          [
+            -65.44500245231193,
+            -39.84308344956739,
+            118.8586523125113
+          ],
+          [
+            -24.852075027668093,
+            -54.82304951016007,
+            127.9282922497019
+          ],
+          [
+            18.117622044057484,
+            -64.39737243640437,
+            124.4242463221628
+          ],
+          [
+            59.16391439499304,
+            -67.56515660244597,
+            108.60801272793552
+          ]
+        ]
+      ],
+      [
+        "arc",
+        [
+          0,
+          -250
+        ],
+        [
+          -150,
+          -250
+        ],
+        [
+          150,
+          -250
+        ]
+      ]
+    ],
+    "given": {
+      "EFG": [
+        [
+          "curve",
+          [
+            [
+              59.500983952938604,
+              -67.80100988420898,
+              108.91582055566373
+            ],
+            [
+              94.94056274670984,
+              -64.48259226176907,
+              82.63343657709326
+            ],
+            [
+              121.086697769036,
+              -54.852169232108864,
+              48.26231608534998
+            ],
+            [
+              135.38002315309723,
+              -39.85243370047424,
+              9.1669438318437
+            ],
+            [
+              136.42140862284768,
+              -20.951664290004363,
+              -30.82575275377673
+            ],
+            [
+              124.1089161127489,
+              2.2552671927943903e-13,
+              -67.80100988420934
+            ],
+            [
+              99.64777817586037,
+              20.951664290013216,
+              -98.13943176977483
+            ],
+            [
+              65.43242142403405,
+              39.852433700667206,
+              -118.87128229635118
+            ],
+            [
+              24.81208336607019,
+              54.85216923488853,
+              -127.96718349043064
+            ],
+            [
+              -18.237034314961985,
+              64.48259229097613,
+              -124.53676520008206
+            ],
+            [
+              -59.500984228565834,
+              67.80101012348416,
+              -108.91582090417515
+            ],
+            [
+              -94.94056463697326,
+              64.48259386440078,
+              -82.63343888725439
+            ],
+            [
+              -121.08670873984224,
+              54.85217832100846,
+              -48.262329049867425
+            ],
+            [
+              -135.38007849279722,
+              39.852478521887804,
+              -9.167007089460832
+            ],
+            [
+              -136.4216563135634,
+              20.951860508076408,
+              30.82547879036028
+            ],
+            [
+              -124.10991608521829,
+              0.0007751628997726386,
+              67.7999393139042
+            ],
+            [
+              -99.65146813798839,
+              -20.948864091226092,
+              98.13560686763651
+            ],
+            [
+              -65.44500245231193,
+              -39.84308344956739,
+              118.8586523125113
+            ],
+            [
+              -24.852075027668093,
+              -54.82304951016007,
+              127.9282922497019
+            ],
+            [
+              18.117622044057484,
+              -64.39737243640437,
+              124.4242463221628
+            ],
+            [
+              59.16391439499304,
+              -67.56515660244597,
+              108.60801272793552
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Lemma",
+    "id": "13.13-lem",
+    "prose": "It must be shown that as {AB line} is to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}.\n\nFor, let the figure of the semi-circle have been set out, and let {DB line} have been joined.\nAnd let the square {EC polygon} have been described on {AC line}.\nAnd let the parallelogram {FB polygon} have been completed.\nTherefore, since, on account of triangle {DAB polygon} being equiangular to triangle {DAC polygon} [Props. 6.8, 6.4], (proportionally) as {BA line} is to {AD line}, so {DA line} (is) to {AC line}, the (rectangle contained) by {BA line} and {AC line} is thus equal to the (square) on {AD line} [Prop. 6.17].\nAnd since as {AB line} is to {BC line}, so {EB polygon} (is) to {BF polygon} [Prop. 6.1].\nAnd {EB polygon} is the (rectangle contained) by {BA line} and {AC line}—for {EA line} (is) equal to {AC line}.\nAnd {BF polygon} the (rectangle contained) by {AC line} and {CB line}.\nThus, as {AB line} (is) to {BC line}, so the (rectangle contained) by {BA line} and {AC line} (is) to the (rectangle contained) by {AC line} and {CB line}.\nAnd the (rectangle contained) by {BA line} and {AC line} is equal to the (square) on {AD line}, and the (rectangle contained) by {AC line} and {CB line} (is) equal to the (square) on {DC line}.\nFor the perpendicular {DC line} is the mean proportional to the pieces of the base, {AC line} and {CB line}, on account of {ADB angle} being a right-angle [Prop. 6.8 corr.].\nThus, as {AB line} (is) to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "O": [
+        0,
+        0
+      ],
+      "B": [
+        150,
+        0
+      ],
+      "A": [
+        -150,
+        0
+      ],
+      "C": [
+        50,
+        0
+      ],
+      "D": [
+        49.999999999999986,
+        -141.42135623730948
+      ],
+      "E": [
+        -150,
+        200
+      ],
+      "F": [
+        50,
+        200
+      ],
+      "G": [
+        150,
+        200
+      ]
+    },
+    "letters": {
+      "A": [
+        3
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ],
+      "B": [
+        7
+      ],
+      "C": [
+        8
+      ],
+      "D": [
+        1
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          -150,
+          0
+        ],
+        [
+          49.999999999999986,
+          -141.42135623730948
+        ]
+      ],
+      [
+        "line",
+        [
+          49.999999999999986,
+          -141.42135623730948
+        ],
+        [
+          150,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          0
+        ],
+        [
+          150,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          0
+        ],
+        [
+          -150,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          200
+        ],
+        [
+          150,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          200
+        ],
+        [
+          150,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          49.999999999999986,
+          -141.42135623730948
+        ],
+        [
+          50,
+          200
+        ]
+      ],
+      [
+        "curve",
+        [
+          [
+            150,
+            0
+          ],
+          [
+            142.65847744427302,
+            -46.352549156242105
+          ],
+          [
+            121.35254915624212,
+            -88.16778784387097
+          ],
+          [
+            88.16778784387097,
+            -121.35254915624212
+          ],
+          [
+            46.35254915624212,
+            -142.65847744427302
+          ],
+          [
+            9.184850993605149e-15,
+            -150
+          ],
+          [
+            -46.3525491562421,
+            -142.65847744427305
+          ],
+          [
+            -88.16778784387095,
+            -121.35254915624212
+          ],
+          [
+            -121.35254915624209,
+            -88.16778784387098
+          ],
+          [
+            -142.65847744427302,
+            -46.35254915624213
+          ],
+          [
+            -150,
+            -1.8369701987210297e-14
+          ]
+        ]
+      ]
+    ],
+    "polygonl": {
+      "EC": "EFCA",
+      "FB": "FGBC",
+      "BF": "FGBC",
+      "EB": "EGBA"
+    }
+  },
+  {
+    "title": "Proposition 14",
+    "id": "13.14",
+    "prose": "To construct an octahedron, and to enclose (it) in a (given) sphere, like in the preceding (proposition), and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.\n\nLet the diameter {AB line} of the given sphere be laid out, and let it have been cut in half at {C point}.\nAnd let the semi-circle {ADB arc C} have been drawn on {AB line}.\nAnd let {CD line} be drawn from {C point} at right-angles to {AB line}.\nAnd let {DB line} have been joined.\nAnd let the square {EFGH polygon}, having each of its sides equal to {DB line}, be laid out.\nAnd let {HF line} and {EG line} have been joined.\nAnd let the straight-line {KL line} have been set up, at point {K point}, at right-angles to the plane of square {EFGH polygon} [Prop. 11.12].\nAnd let it have been drawn across on the other side of the plane, like {KM line}.\nAnd let {KL line} and {KM line}, equal to one of {EK line}, {FK line}, {GK line}, and {HK line}, have been cut off from {KL line} and {KM line}, respectively.\nAnd let {LE line}, {LF line}, {LG line}, {LH line}, {ME line}, {MF line}, {MG line}, and {MH line} have been joined.\n\nAnd since {KE line} is equal to {KH line}, and angle {EKH angle} is a right-angle, the (square) on the {HE line} is thus double the (square) on {EK line} [Prop. 1.47].\nAgain, since {LK line} is equal to {KE line}, and angle {LKE angle} is a right-angle, the (square) on {EL line} is thus double the (square) on {EK line} [Prop. 1.47].\nAnd the (square) on {HE line} was also shown (to be) double the (square) on {EK line}.\nThus, the (square) on {LE line} is equal to the (square) on {EH line}.\nThus, {LE line} is equal to {EH line}.\nSo, for the same (reasons), {LH line} is also equal to {HE line}.\nTriangle {LEH polygon} is thus equilateral.\nSo, similarly, we can show that each of the remaining triangles, whose bases are the sides of the square {EFGH polygon}, and apexes the points {L point} and {M point}, are equilateral.\nThus, an octahedron contained by eight equilateral triangles has been constructed.\n\nSo, it is also necessary to enclose it by the given sphere, and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.\n\nFor since the three (straight-lines) {LK line}, {KM line}, and {KE line} are equal to one another, the semi-circle drawn on {LM line} will thus also pass through {E point}.\nAnd, for the same (reasons), if {LM line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then it will also pass through points {F point}, {G point}, and {H point}, and the octahedron will have been enclosed by a sphere.\nSo, I say that (it is) also (enclosed) by the given (sphere).\nFor since {LK line} is equal to {KM line}, and {KE line} (is) common, and they contain right-angles, the base {LE line} is thus equal to the base {EM line} [Prop. 1.4].\nAnd since angle {LEM angle} is a right-angle—for (it is) in a semi-circle [Prop. 3.31]—the (square) on {LM line} is thus double the (square) on {LE line} [Prop. 1.47].\nAgain, since {AC line} is equal to {CB line}, {AB line} is double {BC line}.\nAnd as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BD line} [Prop. 6.8, Def. 5.9].\nThus, the (square) on {AB line} is double the (square) on {BD line}.\nAnd the (square) on {LM line} was also shown (to be) double the (square) on {LE line}.\nAnd the (square) on {DB line} is equal to the (square) on {LE line}.\nFor {EH line} was made equal to {DB line}.\nThus, the (square) on {AB line} (is) also equal to the (square) on {LM line}.\nThus, {AB line} (is) equal to {LM line}.\nAnd {AB line} is the diameter of the given sphere.\nThus, {LM line} is equal to the diameter of the given sphere.\n\nThus, the octahedron has been enclosed by the given sphere, and it has been simultaneously proved that the square on the diameter of the sphere is double the (square) on the side of the octahedron.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "K": [
+        0,
+        0,
+        0
+      ],
+      "H": [
+        114.72632809267327,
+        0,
+        -96.63265308565366
+      ],
+      "G": [
+        73.90872974913451,
+        96.63265308565366,
+        87.74753571751808
+      ],
+      "E": [
+        -73.90872974913451,
+        -96.63265308565366,
+        -87.74753571751808
+      ],
+      "F": [
+        -114.72632809267327,
+        0,
+        96.63265308565366
+      ],
+      "L": [
+        62.25246428248192,
+        -114.72632809267326,
+        73.90872974913452
+      ],
+      "M": [
+        -62.25246428248192,
+        114.72632809267326,
+        -73.90872974913452
+      ],
+      "C": [
+        0,
+        -225
+      ],
+      "B": [
+        150,
+        -225
+      ],
+      "A": [
+        -150,
+        -225
+      ],
+      "D": [
+        0,
+        -375
+      ]
+    },
+    "letters": {
+      "L": [
+        1
+      ],
+      "M": [
+        5
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        3
+      ],
+      "H": [
+        7
+      ],
+      "G": [
+        7
+      ],
+      "K": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "A": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "B": [
+        5
+      ]
+    },
+    "shapes": [
+      [
+        "arc",
+        [
+          0,
+          -225
+        ],
+        [
+          -150,
+          -225
+        ],
+        [
+          150,
+          -225
+        ]
+      ],
+      [
+        "line",
+        [
+          -150,
+          -225
+        ],
+        [
+          150,
+          -225
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          150,
+          -225
+        ],
+        [
+          0,
+          -375
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          0,
+          -375
+        ],
+        [
+          0,
+          -225
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -114.72632809267327,
+          0,
+          96.63265308565366
+        ],
+        [
+          73.90872974913451,
+          96.63265308565366,
+          87.74753571751808
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ],
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ],
+        [
+          -114.72632809267327,
+          0,
+          96.63265308565366
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ],
+        [
+          73.90872974913451,
+          96.63265308565366,
+          87.74753571751808
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -62.25246428248192,
+          114.72632809267326,
+          -73.90872974913452
+        ],
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ],
+        [
+          73.90872974913451,
+          96.63265308565366,
+          87.74753571751808
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          114.72632809267327,
+          0,
+          -96.63265308565366
+        ],
+        [
+          -114.72632809267327,
+          0,
+          96.63265308565366
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -62.25246428248192,
+          114.72632809267326,
+          -73.90872974913452
+        ],
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ]
+      ],
+      [
+        "line",
+        [
+          -62.25246428248192,
+          114.72632809267326,
+          -73.90872974913452
+        ],
+        [
+          114.72632809267327,
+          0,
+          -96.63265308565366
+        ]
+      ],
+      [
+        "line",
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ],
+        [
+          114.72632809267327,
+          0,
+          -96.63265308565366
+        ]
+      ],
+      [
+        "line",
+        [
+          -62.25246428248192,
+          114.72632809267326,
+          -73.90872974913452
+        ],
+        [
+          -114.72632809267327,
+          0,
+          96.63265308565366
+        ]
+      ],
+      [
+        "line",
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ],
+        [
+          -114.72632809267327,
+          0,
+          96.63265308565366
+        ]
+      ],
+      [
+        "line",
+        [
+          -62.25246428248192,
+          114.72632809267326,
+          -73.90872974913452
+        ],
+        [
+          73.90872974913451,
+          96.63265308565366,
+          87.74753571751808
+        ]
+      ],
+      [
+        "line",
+        [
+          73.90872974913451,
+          96.63265308565366,
+          87.74753571751808
+        ],
+        [
+          114.72632809267327,
+          0,
+          -96.63265308565366
+        ]
+      ],
+      [
+        "line",
+        [
+          114.72632809267327,
+          0,
+          -96.63265308565366
+        ],
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ]
+      ],
+      [
+        "line",
+        [
+          -73.90872974913451,
+          -96.63265308565366,
+          -87.74753571751808
+        ],
+        [
+          62.25246428248192,
+          -114.72632809267326,
+          73.90872974913452
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Proposition 15",
+    "id": "13.15",
+    "prose": "To construct a cube, and to enclose (it) in a sphere, like in the (case of the) pyramid, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube.\n\nLet the diameter {AB line} of the given sphere be laid out, and let it have been cut at {C point} such that {AC line} is double {CB line}.\nAnd let the semi-circle {ADB arc O} have been drawn on {AB line}.\nAnd let {CD line} have been drawn from {C point} at right-angles to {AB line}.\nAnd let {DB line} have been joined.\nAnd let the square {EFGH polygon}, having (its) side equal to {DB line}, be laid out.\nAnd let {EK line}, {FL line}, {GM line}, and {HN line} have been drawn from (points) {E point}, {F point}, {G point}, and {H point}, (respectively), at right-angles to the plane of square {EFGH polygon}.\nAnd let {EK line}, {FL line}, {GM line}, and {HN line}, equal to one of {EF line}, {FG line}, {GH line}, and {HE line}, have been cut off from {EK line}, {FL line}, {GM line}, and {HN line}, respectively.\nAnd let {KL line}, {LM line}, {MN line}, and {NK line} have been joined.\nThus, a cube contained by six equal squares has been constructed.\n\nSo, it is also necessary to enclose it by the given sphere, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube.\n\nFor let {KG line} and {EG line} have been joined.\nAnd since angle {KEG angle} is a right-angle—on account of {KE line} also being at right-angles to the plane {EG polygon}, and manifestly also to the straight-line {EG line} [Def. 11.3]—the semi-circle drawn on {KG line} will thus also pass through point {E point}.\nAgain, since {GF line} is at right-angles to each of {FL line} and {FE line}, {GF line} is thus also at right-angles to the plane {FK line} [Prop. 11.4].\nHence, if we also join {FK line} then {GF line} will also be at right-angles to {FK line}.\nAnd, again, on account of this, the semi-circle drawn on {GK line} will also pass through point {F point}.\nSimilarly, it will also pass through the remaining (angular) points of the cube.\nSo, if {KG line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then the cube will have been enclosed by a sphere.\nSo, I say that (it is) also (enclosed) by the given (sphere).\nFor since {GF line} is equal to {FE line}, and the angle at {F point} is a right-angle, the (square) on {EG line} is thus double the (square) on {EF line} [Prop. 1.47].\nAnd {EF line} (is) equal to {EK line}.\nThus, the (square) on {EG line} is double the (square) on {EK line}.\nHence, the (sum of the squares) on {GE line} and {EK line}—that is to say, the (square) on {GK line} [Prop. 1.47]—is three times the (square) on {EK line}.\nAnd since {AB line} is three times {BC line}, and as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BD line} [Prop. 6.8, Def. 5.9], the (square) on {AB line} (is) thus three times the (square) on {BD line}.\nAnd the (square) on {GK line} was also shown (to be) three times the (square) on {KE line}.\nAnd {KE line} was made equal to {DB line}.\nThus, {KG line} (is) also equal to {AB line}.\nAnd {AB line} is the radius of the given sphere.\nThus, {KG line} is also equal to the diameter of the given sphere.\n\nThus, the cube has been enclosed by the given sphere.\nAnd it has simultaneously been shown that the square on the diameter of the sphere is three times the (square) on the side of the cube.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "E": [
+        -152.81669013602513,
+        -39.81570232861698,
+        -71.14611067338151
+      ],
+      "H": [
+        22.699822242049432,
+        -39.81570232861698,
+        -167.0312183942221
+      ],
+      "F": [
+        -106.8469207228391,
+        135.70081004945757,
+        13.000987807408137
+      ],
+      "G": [
+        68.66959165523545,
+        135.70081004945757,
+        -82.88411991343246
+      ],
+      "K": [
+        -68.66959165523545,
+        -135.70081004945757,
+        82.88411991343246
+      ],
+      "N": [
+        106.8469207228391,
+        -135.70081004945757,
+        -13.000987807408137
+      ],
+      "L": [
+        -22.699822242049432,
+        39.81570232861698,
+        167.0312183942221
+      ],
+      "M": [
+        152.81669013602513,
+        39.81570232861698,
+        71.14611067338151
+      ],
+      "O": [
+        0,
+        350
+      ],
+      "B": [
+        150,
+        350
+      ],
+      "A": [
+        -150,
+        350
+      ],
+      "C": [
+        50,
+        350
+      ],
+      "D": [
+        49.999999999999986,
+        208.57864376269052
+      ]
+    },
+    "letters": {
+      "E": [
+        2
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "N": [
+        1
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        8.2,
+        2
+      ],
+      "M": [
+        7
+      ],
+      "D": [
+        8.5,
+        2
+      ],
+      "A": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "H": [
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          -68.66959165523545,
+          -135.70081004945757,
+          82.88411991343246
+        ],
+        [
+          -22.699822242049432,
+          39.81570232861698,
+          167.0312183942221
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -22.699822242049432,
+          39.81570232861698,
+          167.0312183942221
+        ],
+        [
+          152.81669013602513,
+          39.81570232861698,
+          71.14611067338151
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -22.699822242049432,
+          39.81570232861698,
+          167.0312183942221
+        ],
+        [
+          -106.8469207228391,
+          135.70081004945757,
+          13.000987807408137
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -68.66959165523545,
+          -135.70081004945757,
+          82.88411991343246
+        ],
+        [
+          68.66959165523545,
+          135.70081004945757,
+          -82.88411991343246
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -152.81669013602513,
+          -39.81570232861698,
+          -71.14611067338151
+        ],
+        [
+          68.66959165523545,
+          135.70081004945757,
+          -82.88411991343246
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -150,
+          350
+        ],
+        [
+          150,
+          350
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          150,
+          350
+        ],
+        [
+          49.999999999999986,
+          208.57864376269052
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          49.999999999999986,
+          208.57864376269052
+        ],
+        [
+          50,
+          350
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -152.81669013602513,
+          -39.81570232861698,
+          -71.14611067338151
+        ],
+        [
+          -106.8469207228391,
+          135.70081004945757,
+          13.000987807408137
+        ]
+      ],
+      [
+        "line",
+        [
+          -106.8469207228391,
+          135.70081004945757,
+          13.000987807408137
+        ],
+        [
+          68.66959165523545,
+          135.70081004945757,
+          -82.88411991343246
+        ]
+      ],
+      [
+        "line",
+        [
+          68.66959165523545,
+          135.70081004945757,
+          -82.88411991343246
+        ],
+        [
+          22.699822242049432,
+          -39.81570232861698,
+          -167.0312183942221
+        ]
+      ],
+      [
+        "line",
+        [
+          22.699822242049432,
+          -39.81570232861698,
+          -167.0312183942221
+        ],
+        [
+          -152.81669013602513,
+          -39.81570232861698,
+          -71.14611067338151
+        ]
+      ],
+      [
+        "line",
+        [
+          152.81669013602513,
+          39.81570232861698,
+          71.14611067338151
+        ],
+        [
+          106.8469207228391,
+          -135.70081004945757,
+          -13.000987807408137
+        ]
+      ],
+      [
+        "line",
+        [
+          106.8469207228391,
+          -135.70081004945757,
+          -13.000987807408137
+        ],
+        [
+          -68.66959165523545,
+          -135.70081004945757,
+          82.88411991343246
+        ]
+      ],
+      [
+        "line",
+        [
+          -68.66959165523545,
+          -135.70081004945757,
+          82.88411991343246
+        ],
+        [
+          -152.81669013602513,
+          -39.81570232861698,
+          -71.14611067338151
+        ]
+      ],
+      [
+        "line",
+        [
+          152.81669013602513,
+          39.81570232861698,
+          71.14611067338151
+        ],
+        [
+          68.66959165523545,
+          135.70081004945757,
+          -82.88411991343246
+        ]
+      ],
+      [
+        "line",
+        [
+          106.8469207228391,
+          -135.70081004945757,
+          -13.000987807408137
+        ],
+        [
+          22.699822242049432,
+          -39.81570232861698,
+          -167.0312183942221
+        ]
+      ],
+      [
+        "arc",
+        [
+          0,
+          350
+        ],
+        [
+          -150,
+          350
+        ],
+        [
+          150,
+          350
+        ]
+      ]
+    ],
+    "polygonl": {
+      "EG": "EFGH"
+    }
+  },
+  {
+    "title": "Proposition 16",
+    "id": "13.16",
+    "prose": "To construct an icosahedron, and to enclose (it) in a sphere, like the aforementioned figures, and to show that the side of the icosahedron is that irrational (straight-line) called minor.\n\nLet the diameter {AB line} of the given sphere be laid out, and let it have been cut at {C point} such that {AC line} is four times {CB line} [Prop. 6.10].\nAnd let the semi-circle {ADB arc o} have been drawn on {AB line}.\nAnd let the straight-line {CD line} have been drawn from {C point} at right-angles to {AB line}.\nAnd let {DB line} have been joined.\nAnd let the circle {EFGHK given} be set down, and let its radius be equal to {DB line}.\nAnd let the equilateral and equiangular pentagon {EFGHK polygon} have been inscribed in circle {EFGHK given} [Prop. 4.11].\nAnd let the circumferences {EF given}, {FG given}, {GH given}, {HK given}, and {KE given} have been cut in half at points {L point}, {M point}, {N point}, {O point}, and {P point} (respectively).\nAnd let {LM line}, {MN line}, {NO line}, {OP line}, {PL line}, and {EP line} have been joined.\nThus, pentagon {LMNOP polygon} is also equilateral, and {EP line} (is) the side of the decagon (inscribed in the circle).\nAnd let the straight-lines {EQ line}, {FR line}, {GS line}, {HT line}, and {KU line}, which are equal to the radius of circle {EFGHK given}, have been set up at right-angles to the plane of the circle, at points {E point}, {F point}, {G point}, {H point}, and {K point} (respectively).\nAnd let {QR line}, {RS line}, {ST line}, {TU line}, {UQ line}, {QL line}, {LR line}, {RM line}, {MS line}, {SN line}, {NT line}, {TO line}, {OU line}, {UP line}, and {PQ line} have been joined.\n\nAnd since {EQ line} and {KU line} are each at right-angles to the same plane, {EQ line} is thus parallel to {KU line} [Prop. 11.6].\nAnd it is also equal to it.\nAnd straight-lines joining equal and parallel (straight-lines) on the same side are (themselves) equal and parallel [Prop. 1.33].\nThus, {QU line} is equal and parallel to {EK line}.\nAnd {EK line} (is the side) of an equilateral pentagon (inscribed in circle {EFGHK given}).\nThus, {QU line} (is) also the side of an equilateral pentagon inscribed in circle {EFGHK given}.\nSo, for the same (reasons), {QR line}, {RS line}, {ST line}, and {TU line} are also the sides of an equilateral pentagon inscribed in circle {EFGHK given}.\nPentagon {QRSTU polygon} (is) thus equilateral.\nAnd side {QE line} is (the side) of a hexagon (inscribed in circle {EFGHK given}), and {EP line} (the side) of a decagon, and (angle) {QEP angle} is a right-angle, thus {QP line} is (the side) of a pentagon (inscribed in the same circle).\nFor the square on the side of a pentagon is (equal to the sum of) the (squares) on (the sides of) a hexagon and a decagon inscribed in the same circle [Prop. 13.10].\nSo, for the same (reasons), {PU line} is also the side of a pentagon.\nAnd {QU line} is also (the side) of a pentagon.\nThus, triangle {QPU polygon} is equilateral.\nSo, for the same (reasons), (triangles) {QLR polygon}, {RMS polygon}, {SNT polygon}, and {TOU polygon} are each also equilateral.\nAnd since {QL line} and {QP line} were each shown (to be the sides) of a pentagon, and {LP line} is also (the side) of a pentagon, triangle {QLP polygon} is thus equilateral.\nSo, for the same (reasons), triangles {LRM polygon}, {MSN polygon}, {NTO polygon}, and {OUP polygon} are each also equilateral.\n\nLet the center, point {V point}, of circle {EFGHK given} have been found [Prop. 3.1].\nAnd let {VZ line} have been set up, at (point) {V point}, at right-angles to the plane of the circle.\nAnd let it have been produced on the other side (of the circle), like {VX line}.\nAnd let {VW line} have been cut off (from {XZ line} so as to be equal to the side) of a hexagon, and each of {VX line} and {WZ line} (so as to be equal to the side) of a decagon.\nAnd let {QZ line}, {QW line}, {UZ line}, {EV line}, {LV line}, {LX line}, and {XM line} havebeen joined.\n\nAnd since {VW line} and {QE line} are each at right-angles to the plane of the circle, {VW line} is thus parallel to {QE line} [Prop. 11.6].\nAnd they are also equal.\n{EV line} and {QW line} are thus equal and parallel (to one another) [Prop. 1.33].\nAnd {EV line} (is the side) of a hexagon.\nThus, {QW line} (is) also (the side) of a hexagon.\nAnd since {QW line} is (the side) of a hexagon, and {WZ line} (the side) of a decagon, and angle {QWZ angle} is a right-angle [Def. 11.3, Prop. 1.29], {QZ line} is thus (the side) of a pentagon [Prop. 13.10].\nSo, for the same (reasons), {UZ line} is also (the side) of a pentagon—inasmuch as, if we join {VK line} and {WU line} then they will be equal and opposite.\nAnd {VK line}, being (equal) to the radius (of the circle), is (the side) of a hexagon [Prop. 4.15 corr.].\nThus, {WU line} (is) also the side of a hexagon.\nAnd {WZ line} (is the side) of a decagon, and (angle) {UWZ angle} (is) a right-angle.\nThus, {UZ line} (is the side) of a pentagon [Prop. 13.10].\nAnd {QU line} is also (the side) of a pentagon.\nTriangle {QUZ polygon} is thus equilateral.\nSo, for the same (reasons), each of the remaining triangles, whose bases are the straight-lines {QR line}, {RS line}, {ST line}, and {TU line}, and apexes the point {Z point}, are also equilateral.\nAgain, since {VL line} (is the side) of a hexagon, and {VX line} (the side) of a decagon, and angle {LVX angle} is a right-angle, {LX line} is thus (the side) of a pentagon [Prop. 13.10].\nSo, for the same (reasons), if we join {MV line} , which is (the side) of a hexagon, {MX line} is also inferred (to be the side) of a pentagon.\nAnd {LM line} is also (the side) of a pentagon.\nThus, triangle {LMX polygon} is equilateral.\nSo, similarly, it can be shown that each of the remaining triangles, whose bases are the (straight-lines) {MN line} , {NO line}, {OP line}, and {PL line}, and apexes the point {X point}, are also equilateral.\nThus, an icosahedron contained by twenty equilateral triangles has been constructed.\n\nSo, it is also necessary to enclose it in the given sphere, and to show that the side of the icosahedron is that irrational (straight-line) called minor.\n\nFor, since {VW line} is (the side) of a hexagon, and {WZ line} (the side) of a decagon, {VZ line} has thus been cut in extreme and mean ratio at {W point} , and {VW line} is its greater piece [Prop. 13.9].\nThus, as {ZV line} is to {VW line}, so {VW line} (is) to {WZ line}.\nAnd {VW line} (is) equal to {VE line}, and {WZ line} to {VX line}.\nThus, as {ZV line} is to {VE line}, so {EV line} (is) to {VX line}.\nAnd angles {ZVE angle} and {EVX angle} are right-angles.\nThus, if we join straight-line {EZ line} then angle {XEZ angle} will be a right-angle, on account of the similarity of triangles {XEZ polygon} and {VEZ polygon} [Prop. 6.8].\nSo, for the same (reasons), since as {ZV line} is to {VW line}, so {VW line} (is) to {WZ line}, and {ZV line} (is) equal to {XW line}, and {VW line} to {WQ line}, thus as {XW line} is to {WQ line}, so {QW line} (is) to {WZ line}.\nAnd, again, on account of this, if we join {QX line} then the angle at {Q point} will be a right-angle [Prop. 6.8].\nThus, the semi-circle drawn on {XZ line} will also pass through {Q point} [Prop. 3.31].\nAnd if {XZ line} remains fixed, and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then it will also pass through (point) {Q point}, and (through) the remaining (angular) points of the icosahedron.\nAnd the icosahedron will have been enclosed by a sphere.\nSo, I say that (it is) also (enclosed) by the given (sphere).\nFor let {VW line} have been cut in half at {a point}.\nAnd since the straight-line {VZ line} has been cut in extreme and mean ratio at {W point}, and {ZW line} is its lesser piece, then the square on {ZW line} added to half of the greater piece, {Wa line}, is five times the (square) on half of the greater piece [Prop. 13.3].\nThus, the (square) on {Za line} is five times the (square) on {aW line}.\nAnd {ZX line} is double {Za line}, and {VW line} double {aW line}.\nThus, the (square) on {ZX line} is five times the (square) on {WV line}.\nAnd since {AC line} is four times {CB line}, {AB line} is thus five times {BC line}.\nAnd as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BD line} [Prop. 6.8, Def. 5.9].\nThus, the (square) on {AB line} is five times the (square) on {BD line}.\nAnd the (square) on {ZX line} was also shown (to be) five times the (square) on {VW line}.\nAnd {DB line} is equal to {VW line}.\nFor each of them is equal to the radius of circle {EFGHK given}.\nThus, {AB line} (is) also equal to {XZ line}.\nAnd {AB line} is the diameter of the given sphere.\nThus, {XZ line} is equal to the diameter of the given sphere.\nThus, the icosahedron has been enclosed by the given sphere.\n\nSo, I say that the side of the icosahedron is that irrational (straight-line) called minor.\nFor since the diameter of the sphere is rational, and the square on it is five times the (square) on the radius of circle {EFGHK given}, the radius of circle {EFGHK given} is thus also rational.\nHence, its diameter is also rational.\nAnd if an equilateral pentagon is inscribed in a circle having a rational diameter then the side of the pentagon is that irrational (straight-line) called minor [Prop. 13.11].\nAnd the side of pentagon {EFGHK polygon} is (the side) of the icosahedron.\nThus, the side of the icosahedron is that irrational (straight-line) called minor.\n\nCorollary\n\nSo, (it is) clear, from this, that the square on the diameter of the sphere is five times the square on the radius of the circle from which the icosahedron has been described, and that the the diameter of the sphere is the sum of (the side) of the hexagon, and two of (the sides) of the decagon, inscribed in the same circle.\n",
+    "points": {
+      "V": [
+        0,
+        0,
+        0
+      ],
+      "H": [
+        199.28002391455007,
+        89.01072112067133,
+        48.626778571014015
+      ],
+      "N": [
+        101.60352764381832,
+        174.8058182506434,
+        95.49685374950762
+      ],
+      "G": [
+        -34.88206280996242,
+        193.83103424010642,
+        105.89037661436714
+      ],
+      "M": [
+        -158.0438908680711,
+        138.81938322437975,
+        75.837374694058
+      ],
+      "F": [
+        -220.8383243364873,
+        30.78344610975074,
+        16.817073255728996
+      ],
+      "L": [
+        -199.28002456417863,
+        -89.010721527297,
+        -48.626778793154635
+      ],
+      "E": [
+        -101.603551910545,
+        -174.80583440244246,
+        -95.49686257327566
+      ],
+      "P": [
+        34.88154778411832,
+        -193.83139821880454,
+        -105.89057545683619
+      ],
+      "K": [
+        158.0366678513887,
+        -138.82479621276136,
+        -75.84033182308838
+      ],
+      "O": [
+        220.76453423911144,
+        -30.842018230623825,
+        -16.849071351197384
+      ],
+      "Q": [
+        -101.603551910545,
+        -67.60302495559772,
+        -291.73028899880467
+      ],
+      "R": [
+        -220.8383243364873,
+        137.9862555565955,
+        -179.41635316979998
+      ],
+      "S": [
+        -34.88206280996242,
+        301.0338436869512,
+        -90.34304981116185
+      ],
+      "T": [
+        199.28002391455007,
+        196.21353056751605,
+        -147.60664785451496
+      ],
+      "U": [
+        158.0366678513887,
+        -31.621986765916628,
+        -272.07375824861737
+      ],
+      "X": [
+        0,
+        -126.02446079435111,
+        230.68622811949209
+      ],
+      "W": [
+        0,
+        107.20280944684474,
+        -196.233426425529
+      ],
+      "Z": [
+        0,
+        233.2272702411959,
+        -426.91965454502105
+      ],
+      "a": [
+        0,
+        53.60140472342237,
+        -98.1167132127645
+      ],
+      "o": [
+        0,
+        -276
+      ],
+      "B": [
+        230,
+        -276
+      ],
+      "A": [
+        -230,
+        -276
+      ],
+      "C": [
+        138,
+        -276
+      ],
+      "D": [
+        138,
+        -460
+      ]
+    },
+    "letters": {
+      "H": [
+        6
+      ],
+      "Q": [
+        5
+      ],
+      "R": [
+        5
+      ],
+      "S": [
+        5
+      ],
+      "T": [
+        5
+      ],
+      "U": [
+        5
+      ],
+      "L": [
+        2
+      ],
+      "F": [
+        2
+      ],
+      "M": [
+        4
+      ],
+      "G": [
+        1
+      ],
+      "N": [
+        5
+      ],
+      "O": [
+        7
+      ],
+      "K": [
+        8
+      ],
+      "P": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "X": [
+        1
+      ],
+      "Z": [
+        3.5
+      ],
+      "V": [
+        7
+      ],
+      "W": [
+        6
+      ],
+      "a": [
+        7,
+        2
+      ],
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        0
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          -5,
+          53.60140472342237
+        ],
+        [
+          5,
+          53.60140472342237
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "polygon",
+        [
+          [
+            199.28002391455007,
+            89.01072112067133,
+            48.626778571014015
+          ],
+          [
+            -34.88206280996242,
+            193.83103424010642,
+            105.89037661436714
+          ],
+          [
+            -220.8383243364873,
+            30.78344610975074,
+            16.817073255728996
+          ],
+          [
+            -101.603551910545,
+            -174.80583440244246,
+            -95.49686257327566
+          ],
+          [
+            158.0366678513887,
+            -138.82479621276136,
+            -75.84033182308838
+          ]
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "polygon",
+        [
+          [
+            199.28002391455007,
+            89.01072112067133,
+            48.626778571014015
+          ],
+          [
+            101.60352764381832,
+            174.8058182506434,
+            95.49685374950762
+          ],
+          [
+            -34.88206280996242,
+            193.83103424010642,
+            105.89037661436714
+          ],
+          [
+            -158.0438908680711,
+            138.81938322437975,
+            75.837374694058
+          ],
+          [
+            -220.8383243364873,
+            30.78344610975074,
+            16.817073255728996
+          ],
+          [
+            -199.28002456417863,
+            -89.010721527297,
+            -48.626778793154635
+          ],
+          [
+            -101.603551910545,
+            -174.80583440244246,
+            -95.49686257327566
+          ],
+          [
+            34.88154778411832,
+            -193.83139821880454,
+            -105.89057545683619
+          ],
+          [
+            158.0366678513887,
+            -138.82479621276136,
+            -75.84033182308838
+          ],
+          [
+            220.76453423911144,
+            -30.842018230623825,
+            -16.849071351197384
+          ]
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          0,
+          -126.02446079435111,
+          230.68622811949209
+        ],
+        [
+          0,
+          233.2272702411959,
+          -426.91965454502105
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        [
+          -101.603551910545,
+          -174.80583440244246,
+          -95.49686257327566
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -220.8383243364873,
+          137.9862555565955,
+          -179.41635316979998
+        ],
+        [
+          -220.8383243364873,
+          30.78344610975074,
+          16.817073255728996
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -34.88206280996242,
+          301.0338436869512,
+          -90.34304981116185
+        ],
+        [
+          -34.88206280996242,
+          193.83103424010642,
+          105.89037661436714
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          199.28002391455007,
+          196.21353056751605,
+          -147.60664785451496
+        ],
+        [
+          199.28002391455007,
+          89.01072112067133,
+          48.626778571014015
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        [
+          158.0366678513887,
+          -138.82479621276136,
+          -75.84033182308838
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        [
+          0,
+          233.2272702411959,
+          -426.91965454502105
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        [
+          0,
+          107.20280944684474,
+          -196.233426425529
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        [
+          0,
+          107.20280944684474,
+          -196.233426425529
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        [
+          0,
+          233.2272702411959,
+          -426.91965454502105
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -199.28002456417863,
+          -89.010721527297,
+          -48.626778793154635
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        [
+          -220.8383243364873,
+          137.9862555565955,
+          -179.41635316979998
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          199.28002391455007,
+          196.21353056751605,
+          -147.60664785451496
+        ],
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          34.88154778411832,
+          -193.83139821880454,
+          -105.89057545683619
+        ],
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -67.60302495559772,
+          -291.73028899880467
+        ],
+        [
+          -199.28002456417863,
+          -89.010721527297,
+          -48.626778793154635
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          220.76453423911144,
+          -30.842018230623825,
+          -16.849071351197384
+        ],
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          158.0366678513887,
+          -31.621986765916628,
+          -272.07375824861737
+        ],
+        [
+          34.88154778411832,
+          -193.83139821880454,
+          -105.89057545683619
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -158.0438908680711,
+          138.81938322437975,
+          75.837374694058
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -101.603551910545,
+          -174.80583440244246,
+          -95.49686257327566
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          158.0366678513887,
+          -138.82479621276136,
+          -75.84033182308838
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "curve",
+        [
+          [
+            -101.603551910545,
+            -174.80583440244246,
+            -95.49686257327566
+          ],
+          [
+            -158.18387294558394,
+            -138.69657141953294,
+            -75.77028229928798
+          ],
+          [
+            -199.28005436485952,
+            -89.01072167024353,
+            -48.62677887124668
+          ],
+          [
+            -220.8693155971203,
+            -30.6118823097057,
+            -16.723347524597298
+          ],
+          [
+            -220.83834933172457,
+            30.78346137683163,
+            16.817081596173296
+          ],
+          [
+            -199.1901867624835,
+            89.16550538281813,
+            48.711337598813465
+          ],
+          [
+            -158.04390087327783,
+            138.81940846934853,
+            75.8373884854473
+          ],
+          [
+            -101.42717680966953,
+            174.8847006436371,
+            95.53994739720493
+          ],
+          [
+            -34.88205399073944,
+            193.83105983142264,
+            105.89039059496693
+          ],
+          [
+            35.077567356268005,
+            193.8038844402988,
+            105.87554461113349
+          ],
+          [
+            101.60355237446738,
+            174.80583497218515,
+            95.49686288452752
+          ],
+          [
+            158.1838761237316,
+            138.69657520386852,
+            75.77028436667992
+          ],
+          [
+            199.2800727912121,
+            89.01074295199616,
+            48.62679049752113
+          ],
+          [
+            220.86940845224441,
+            30.611986370242775,
+            16.723404373127796
+          ],
+          [
+            220.8387645390305,
+            -30.78300972144822,
+            -16.816834855712788
+          ],
+          [
+            199.19186149827806,
+            -89.16373653253561,
+            -48.71037127149998
+          ],
+          [
+            158.0500753328349,
+            -138.81307446915812,
+            -75.83392820537262
+          ],
+          [
+            101.44821104811561,
+            -174.8637371457895,
+            -95.52849498613494
+          ],
+          [
+            34.948861867943606,
+            -193.7663547942994,
+            -105.85504207208108
+          ],
+          [
+            -34.878239543340264,
+            -193.6162295145716,
+            -105.77302825797727
+          ],
+          [
+            -101.04132503578656,
+            -174.29121479980492,
+            -95.21572460303234
+          ]
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "polygon",
+        [
+          [
+            101.60352764381832,
+            174.8058182506434,
+            95.49685374950762
+          ],
+          [
+            -158.0438908680711,
+            138.81938322437975,
+            75.837374694058
+          ],
+          [
+            -199.28002456417863,
+            -89.010721527297,
+            -48.626778793154635
+          ],
+          [
+            34.88154778411832,
+            -193.83139821880454,
+            -105.89057545683619
+          ],
+          [
+            220.76453423911144,
+            -30.842018230623825,
+            -16.849071351197384
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          -220.8383243364873,
+          137.9862555565955,
+          -179.41635316979998
+        ],
+        [
+          -34.88206280996242,
+          301.0338436869512,
+          -90.34304981116185
+        ]
+      ],
+      [
+        "line",
+        [
+          -34.88206280996242,
+          301.0338436869512,
+          -90.34304981116185
+        ],
+        [
+          199.28002391455007,
+          196.21353056751605,
+          -147.60664785451496
+        ]
+      ],
+      [
+        "line",
+        [
+          -199.28002456417863,
+          -89.010721527297,
+          -48.626778793154635
+        ],
+        [
+          -220.8383243364873,
+          137.9862555565955,
+          -179.41635316979998
+        ]
+      ],
+      [
+        "line",
+        [
+          -220.8383243364873,
+          137.9862555565955,
+          -179.41635316979998
+        ],
+        [
+          -158.0438908680711,
+          138.81938322437975,
+          75.837374694058
+        ]
+      ],
+      [
+        "line",
+        [
+          -158.0438908680711,
+          138.81938322437975,
+          75.837374694058
+        ],
+        [
+          -34.88206280996242,
+          301.0338436869512,
+          -90.34304981116185
+        ]
+      ],
+      [
+        "line",
+        [
+          -34.88206280996242,
+          301.0338436869512,
+          -90.34304981116185
+        ],
+        [
+          101.60352764381832,
+          174.8058182506434,
+          95.49685374950762
+        ]
+      ],
+      [
+        "line",
+        [
+          101.60352764381832,
+          174.8058182506434,
+          95.49685374950762
+        ],
+        [
+          199.28002391455007,
+          196.21353056751605,
+          -147.60664785451496
+        ]
+      ],
+      [
+        "line",
+        [
+          199.28002391455007,
+          196.21353056751605,
+          -147.60664785451496
+        ],
+        [
+          220.76453423911144,
+          -30.842018230623825,
+          -16.849071351197384
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -126.02446079435111,
+          230.68622811949209
+        ],
+        [
+          -158.0438908680711,
+          138.81938322437975,
+          75.837374694058
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          -126.02446079435111,
+          230.68622811949209
+        ],
+        [
+          -199.28002456417863,
+          -89.010721527297,
+          -48.626778793154635
+        ]
+      ],
+      [
+        "line",
+        [
+          -230,
+          -276
+        ],
+        [
+          230,
+          -276
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          -276
+        ],
+        [
+          138,
+          -460
+        ]
+      ],
+      [
+        "line",
+        [
+          138,
+          -460
+        ],
+        [
+          138,
+          -276
+        ]
+      ],
+      [
+        "arc",
+        [
+          0,
+          -276
+        ],
+        [
+          -230,
+          -276
+        ],
+        [
+          230,
+          -276
+        ]
+      ]
+    ],
+    "given": {
+      "EFGHK": [
+        [
+          "curve",
+          [
+            [
+              -101.603551910545,
+              -174.80583440244246,
+              -95.49686257327566
+            ],
+            [
+              -158.18387294558394,
+              -138.69657141953294,
+              -75.77028229928798
+            ],
+            [
+              -199.28005436485952,
+              -89.01072167024353,
+              -48.62677887124668
+            ],
+            [
+              -220.8693155971203,
+              -30.6118823097057,
+              -16.723347524597298
+            ],
+            [
+              -220.83834933172457,
+              30.78346137683163,
+              16.817081596173296
+            ],
+            [
+              -199.1901867624835,
+              89.16550538281813,
+              48.711337598813465
+            ],
+            [
+              -158.04390087327783,
+              138.81940846934853,
+              75.8373884854473
+            ],
+            [
+              -101.42717680966953,
+              174.8847006436371,
+              95.53994739720493
+            ],
+            [
+              -34.88205399073944,
+              193.83105983142264,
+              105.89039059496693
+            ],
+            [
+              35.077567356268005,
+              193.8038844402988,
+              105.87554461113349
+            ],
+            [
+              101.60355237446738,
+              174.80583497218515,
+              95.49686288452752
+            ],
+            [
+              158.1838761237316,
+              138.69657520386852,
+              75.77028436667992
+            ],
+            [
+              199.2800727912121,
+              89.01074295199616,
+              48.62679049752113
+            ],
+            [
+              220.86940845224441,
+              30.611986370242775,
+              16.723404373127796
+            ],
+            [
+              220.8387645390305,
+              -30.78300972144822,
+              -16.816834855712788
+            ],
+            [
+              199.19186149827806,
+              -89.16373653253561,
+              -48.71037127149998
+            ],
+            [
+              158.0500753328349,
+              -138.81307446915812,
+              -75.83392820537262
+            ],
+            [
+              101.44821104811561,
+              -174.8637371457895,
+              -95.52849498613494
+            ],
+            [
+              34.948861867943606,
+              -193.7663547942994,
+              -105.85504207208108
+            ],
+            [
+              -34.878239543340264,
+              -193.6162295145716,
+              -105.77302825797727
+            ],
+            [
+              -101.04132503578656,
+              -174.29121479980492,
+              -95.21572460303234
+            ]
+          ]
+        ]
+      ],
+      "EF": [
+        [
+          "curve",
+          [
+            [
+              -101.603551910545,
+              -174.80583440244246,
+              -95.49686257327566
+            ],
+            [
+              -158.18387294558394,
+              -138.69657141953294,
+              -75.77028229928798
+            ],
+            [
+              -199.28005436485952,
+              -89.01072167024353,
+              -48.62677887124668
+            ],
+            [
+              -220.8693155971203,
+              -30.6118823097057,
+              -16.723347524597298
+            ],
+            [
+              -220.83834933172457,
+              30.78346137683163,
+              16.817081596173296
+            ]
+          ]
+        ]
+      ],
+      "FG": [
+        [
+          "curve",
+          [
+            [
+              -220.83834933172457,
+              30.78346137683163,
+              16.817081596173296
+            ],
+            [
+              -199.1901867624835,
+              89.16550538281813,
+              48.711337598813465
+            ],
+            [
+              -158.04390087327783,
+              138.81940846934853,
+              75.8373884854473
+            ],
+            [
+              -101.42717680966953,
+              174.8847006436371,
+              95.53994739720493
+            ],
+            [
+              -34.88205399073944,
+              193.83105983142264,
+              105.89039059496693
+            ]
+          ]
+        ]
+      ],
+      "GH": [
+        [
+          "curve",
+          [
+            [
+              -34.88205399073944,
+              193.83105983142264,
+              105.89039059496693
+            ],
+            [
+              35.077567356268005,
+              193.8038844402988,
+              105.87554461113349
+            ],
+            [
+              101.60355237446738,
+              174.80583497218515,
+              95.49686288452752
+            ],
+            [
+              158.1838761237316,
+              138.69657520386852,
+              75.77028436667992
+            ],
+            [
+              199.2800727912121,
+              89.01074295199616,
+              48.62679049752113
+            ]
+          ]
+        ]
+      ],
+      "HK": [
+        [
+          "curve",
+          [
+            [
+              199.2800727912121,
+              89.01074295199616,
+              48.62679049752113
+            ],
+            [
+              220.86940845224441,
+              30.611986370242775,
+              16.723404373127796
+            ],
+            [
+              220.8387645390305,
+              -30.78300972144822,
+              -16.816834855712788
+            ],
+            [
+              199.19186149827806,
+              -89.16373653253561,
+              -48.71037127149998
+            ],
+            [
+              158.0500753328349,
+              -138.81307446915812,
+              -75.83392820537262
+            ]
+          ]
+        ]
+      ],
+      "KE": [
+        [
+          "curve",
+          [
+            [
+              158.0500753328349,
+              -138.81307446915812,
+              -75.83392820537262
+            ],
+            [
+              101.44821104811561,
+              -174.8637371457895,
+              -95.52849498613494
+            ],
+            [
+              34.948861867943606,
+              -193.7663547942994,
+              -105.85504207208108
+            ],
+            [
+              -34.878239543340264,
+              -193.6162295145716,
+              -105.77302825797727
+            ],
+            [
+              -101.04132503578656,
+              -174.29121479980492,
+              -95.21572460303234
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "title": "Proposition 17",
+    "id": "13.17",
+    "prose": "To construct a dodecahedron, and to enclose (it) in a sphere, like the aforementioned figures, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.\n\nLet two planes of the aforementioned cube [Prop. 13.15], {ABCD polygon} and {CBEF polygon}, (which are) at right-angles to one another, be laid out.\nAnd let the sides {AB line}, {BC line}, {CD line}, {DA line}, {EF line}, {EB line}, and {FC line} have each been cut in half at points {G point}, {H point}, {K point}, {L point}, {M point}, {N point}, and {O point} (respectively).\nAnd let {GK line}, {HL line}, {MH line}, and {NO line} have been joined.\nAnd let {NP line}, {PO line}, and {HQ line} have each been cut in extreme and mean ratio at points {R point}, {S point}, and {T point} (respectively).\nAnd let their greater pieces be {RP line}, {PS line}, and {TQ line} (respectively).\nAnd let {RU line}, {SV line}, and {TW line} have been set up on the exterior side of the cube, at points {R point}, {S point}, and {T point} (respectively), at right-angles to the planes of the cube.\nAnd let them be made equal to {RP line}, {PS line}, and {TQ line}.\nAnd let {UB line}, {BW line}, {WC line}, {CV line}, and {VU line} have been joined.\n\nI say that the pentagon {UBWCV polygon} is equilateral, and in one plane, and, further, equiangular.\nFor let {RB line}, {SB line}, and {VB line} have been joined.\nAnd since the straight-line {NP line} has been cut in extreme and mean ratio at {R point}, and {RP line} is the greater piece, the (sum of the squares) on {PN line} and {NR line} is thus three times the (square) on {RP line} [Prop. 13.4].\nAnd {PN line} (is) equal to {NB line}, and {PR line} to {RU line}.\nThus, the (sum of the squares) on {BN line} and {NR line} is three times the (square) on {RU line}.\nAnd the (square) on {BR line} is equal to the (sum of the squares) on {BN line} and {NR line} [Prop. 1.47].\nThus, the (square) on {BR line} is three times the (square) on {RU line}.\nHence, the (sum of the squares) on {BR line} and {RU line} is four times the (square) on {RU line}.\nAnd the (square) on {BU line} is equal to the (sum of the squares) on {BR line} and {RU line} [Prop. 1.47].\nThus, the (square) on {BU line} is four times the (square) on {UR line}.\nThus, {BU line} is double {RU line}.\nAnd {VU line} is also double {UR line}, inasmuch as {SR line} is also double {PR line}—that is to say, {RU line}.\nThus, {BU line} (is) equal to {UV line}.\nSo, similarly, it can be shown that each of {BW line}, {WC line}, {CV line} is equal to each of {BU line} and {UV line}.\nThus, pentagon {BUVCW polygon} is equilateral.\nSo, I say that it is also in one plane.\nFor let {PX line} have been drawn from {P point}, parallel to each of {RU line} and {SV line}, on the exterior side of the cube.\nAnd let {XH line} and {HW line} have been joined.\nI say that {XHW line} is a straight-line.\nFor since {HQ line} has been cut in extreme and mean ratio at {T point}, and {QT line} is its greater piece, thus as {HQ line} is to {QT line}, so {QT line} (is) to {TH line}.\nAnd {HQ line} (is) equal to {HP line}, and {QT line} to each of {TW line} and {PX line}.\nThus, as {HP line} is to {PX line}, so {WT line} (is) to {TH line}.\nAnd {HP line} is parallel to {TW line}.\nFor of each of them is at right-angles to the plane {BD polygon} [Prop. 11.6].\nAnd {TH line} (is parallel) to {PX line}.\nFor each of them is at right-angles to the plane {BF polygon} [Prop. 11.6].\nAnd if two triangles, like {XPH polygon} and {HTW polygon}, having two sides proportional to two sides, are placed together at a single angle such that their corresponding sides are also parallel then the remaining sides will be straight-on (to one another) [Prop. 6.32].\nThus, {XH line} is straight-on to {HW line}.\nAnd every straight-line is in one plane [Prop. 11.1].\nThus, pentagon {UBWCV polygon} is in one plane.\n\nSo, I say that it is also equiangular.\n\nFor since the straight-line {NP line} has been cut in extreme and mean ratio at {R point}, and {PR line} is the greater piece [thus as the sum of {NP line} and {PR line} is to {PN line}, so {NP line} (is) to {PR line}], and {PR line} (is) equal to {PS line} [thus as {SN line} is to {NP line}, so {NP line} (is) to {PS line}], {NS line} has thus also been cut in extreme and mean ratio at {P point}, and {NP line} is the greater piece [Prop. 13.5].\nThus, the (sum of the squares) on {NS line} and {SP line} is three times the (square) on {NP line} [Prop. 13.4].\nAnd {NP line} (is) equal to {NB line}, and {PS line} to {SV line}.\nThus, the (sum of the) squares on {NS line} and {SV line} is three times the (square) on {NB line}.\nHence, the (sum of the squares) on {VS line}, {SN line}, and {NB line} is four times the (square) on {NB line}.\nAnd the (square) on {SB line} is equal to the (sum of the squares) on {SN line} and {NB line} [Prop. 1.47].\nThus, the (sum of the squares) on {BS line} and {SV line} —that is to say, the (square) on {BV line} [for angle {VSB angle} (is) a right-angle]—is four times the (square) on {NB line} [Def. 11.3, Prop. 1.47].\nThus, {VB line} is double {BN line}.\nAnd {BC line} (is) also double {BN line}.\nThus, {BV line} is equal to {BC line}.\nAnd since the two (straight-lines) {BU line} and {UV line} are equal to the two (straight-lines) {BW line} and {WC line} (respectively), and the base {BV line} (is) equal to the base {BC line}, angle {BUV angle} is thus equal to angle {BWC angle} [Prop. 1.8].\nSo, similarly, we can show that angle {UVC angle} is equal to angle {BWC angle}.\nThus, the three angles {BWC angle}, {BUV angle}, and {UVC angle} are equal to one another.\nAnd if three angles of an equilateral pentagon are equal to one another then the pentagon is equiangular [Prop. 13.7].\nThus, pentagon {BUVCW polygon} is equiangular.\nAnd it was also shown (to be) equilateral.\nThus, pentagon {BUVCW polygon} is equilateral and equiangular, and it is on one of the sides, {BC line}, of the cube.\nThus, if we make the same construction on each of the twelve sides of the cube then some solid figure contained by twelve equilateral and equiangular pentagons will have been constructed, which is called a dodecahedron.\n\nSo, it is necessary to enclose it in the given sphere, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.\n\nFor let {XP line} have been produced, and let (the produced straight-line) be {XZ line}.\nThus, {PZ line} meets the diameter of the cube, and they cut one another in half.\nFor, this has been proved in the penultimate theorem of the eleventh book [Prop. 11.38].\nLet them cut (one another) at {Z point}.\nThus, {Z point} is the center of the sphere enclosing the cube, and {ZP line} (is) half the side of the cube.\nSo, let {UZ line} have been joined.\nAnd since the straight-line {NS line} has been cut in extreme and mean ratio at {P point}, and its greater piece is {NP line}, the (sum of the squares) on {NS line} and {SP line} is thus three times the (square) on {NP line} [Prop. 13.4].\nAnd {NS line} (is) equal to {XZ line}, inasmuch as {NP line} is also equal to {PZ line}, and {XP line} to {PS line}.\nBut, indeed, {PS line} (is) also (equal) to {XU line}, since (it is) also (equal) to {RP line}.\nThus, the (sum of the squares) on {ZX line} and {XU line} is three times the (square) on {NP line}.\nAnd the (square) on {UZ line} is equal to the (sum of the squares) on {ZX line} and {XU line} [Prop. 1.47].\nThus, the (square) on {UZ line} is three times the (square) on {NP line}.\nAnd the square on the radius of the sphere enclosing the cube is also three times the (square) on half the side of the cube.\nFor it has previously been demonstrated (how to) construct the cube, and to enclose (it) in a sphere, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube [Prop. 13.15].\nAnd if the (square on the) whole (is three times) the (square on the) whole, then the (square on the) half (is) also (three times) the (square on the) half.\nAnd {NP line} is half of the side of the cube.\nThus, {UZ line} is equal to the radius of the sphere enclosing the cube.\nAnd {Z point} is the center of the sphere enclosing the cube.\nThus, point {U point} is on the surface of the sphere.\nSo, similarly, we can show that each of the remaining angles of the dodecahedron is also on the surface of the sphere.\nThus, the dodecahedron has been enclosed by the given sphere.\n\nSo, I say that the side of the dodecahedron is that irrational straight-line called an apotome.\n\nFor since {RP line} is the greater piece of {NP line}, which has been cut in extreme and mean ratio, and {PS line} is the greater piece of {PO line}, which has been cut in extreme and mean ratio, {RS line} is thus the greater piece of the whole of {NO line}, which has been cut in extreme and mean ratio.\n[Thus, since as {NP line} is to {PR line}, (so) {PR line} (is) to {RN line}, and (the same is also true) of the doubles.\nFor parts have the same ratio as similar multiples (taken in corresponding order) [Prop. 5.15].\nThus, as {NO line} (is) to {RS line}, so {RS line} (is) to the sum of {NR line} and {SO line}.\nAnd {NO line} (is) greater than {RS line}.\nThus, {RS line} (is) also greater than the sum of {NR line} and {SO line} [Prop. 5.14].\nThus, {NO line} has been cut in extreme and mean ratio, and {RS line} is its greater piece.]\nAnd {RS line} (is) equal to {UV line}.\nThus, {UV line} is the greater piece of {NO line}, which has been cut in extreme and mean ratio.\nAnd since the diameter of the sphere is rational, and the square on it is three times the (square) on the side of the cube, {NO line}, which is the side of the cube, is thus rational.\nAnd if a rational (straight)-line is cut in extreme and mean ratio then each of the pieces is the irrational (straight-line called) an apotome.\n\nThus, {UV line}, which is the side of the dodecahedron, is the irrational (straight-line called) an apotome [Prop. 13.6].\n\nCorollary\n\nSo, (it is) clear, from this, that the side of the dodecahedron is the greater piece of the side of the cube, when is cut in extreme and mean ratio.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "B": [
+        -112.72472554168547,
+        0,
+        41.14773689465415
+      ],
+      "H": [
+        0,
+        0,
+        0
+      ],
+      "C": [
+        112.72472554168547,
+        0,
+        -41.14773689465415
+      ],
+      "G": [
+        -83.20714585357429,
+        83.60480512165985,
+        122.01150535695925
+      ],
+      "Q": [
+        29.517579688111187,
+        83.60480512165985,
+        80.8637684623051
+      ],
+      "K": [
+        142.24230522979664,
+        83.60480512165985,
+        39.71603156765096
+      ],
+      "A": [
+        -53.689566165463106,
+        167.2096102433197,
+        202.87527381926435
+      ],
+      "L": [
+        59.035159376222374,
+        167.2096102433197,
+        161.7275369246102
+      ],
+      "D": [
+        171.75988491790784,
+        167.2096102433197,
+        120.57980002995608
+      ],
+      "E": [
+        -55.38891680377058,
+        -172.1654618158855,
+        198.21988208307428
+      ],
+      "M": [
+        57.3358087379149,
+        -172.1654618158855,
+        157.0721451884201
+      ],
+      "F": [
+        170.06053427960038,
+        -172.1654618158855,
+        115.92440829376595
+      ],
+      "N": [
+        -84.05682117272804,
+        -86.08273090794275,
+        119.68380948886421
+      ],
+      "P": [
+        28.66790436895745,
+        -86.08273090794275,
+        78.53607259421005
+      ],
+      "O": [
+        141.39262991064294,
+        -86.08273090794275,
+        37.388335699555896
+      ],
+      "R": [
+        -40.99980738830758,
+        -86.08273090794275,
+        103.96677255524438
+      ],
+      "S": [
+        98.33561612622248,
+        -86.08273090794275,
+        53.10537263317573
+      ],
+      "T": [
+        11.274712175224956,
+        31.934193933662776,
+        30.887211094198737
+      ],
+      "W": [
+        -6.443027111022356,
+        85.13624747918249,
+        -17.650751111952204
+      ],
+      "U": [
+        -59.242674901193816,
+        -137.75334209593981,
+        53.990215187138
+      ],
+      "X": [
+        10.42503685607122,
+        -137.75334209593981,
+        28.55951522610368
+      ],
+      "V": [
+        80.09274861333624,
+        -137.75334209593981,
+        3.1288152650693624
+      ],
+      "Z": [
+        58.185484057068635,
+        -2.477925786282902,
+        159.39984105651516
+      ]
+    },
+    "letters": {
+      "B": [
+        3
+      ],
+      "D": [
+        7
+      ],
+      "N": [
+        2
+      ],
+      "E": [
+        1
+      ],
+      "M": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "U": [
+        1
+      ],
+      "X": [
+        1
+      ],
+      "V": [
+        1
+      ],
+      "O": [
+        7
+      ],
+      "C": [
+        7
+      ],
+      "K": [
+        7
+      ],
+      "Q": [
+        6
+      ],
+      "G": [
+        3
+      ],
+      "A": [
+        3
+      ],
+      "L": [
+        5
+      ],
+      "W": [
+        5
+      ],
+      "R": [
+        6
+      ],
+      "T": [
+        7
+      ],
+      "Z": [
+        5
+      ],
+      "H": [
+        2
+      ],
+      "P": [
+        6
+      ],
+      "S": [
+        8.2,
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          112.72472554168547,
+          0,
+          -41.14773689465415
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -83.20714585357429,
+          83.60480512165985,
+          122.01150535695925
+        ],
+        [
+          142.24230522979664,
+          83.60480512165985,
+          39.71603156765096
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -53.689566165463106,
+          167.2096102433197,
+          202.87527381926435
+        ],
+        [
+          171.75988491790784,
+          167.2096102433197,
+          120.57980002995608
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          -53.689566165463106,
+          167.2096102433197,
+          202.87527381926435
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          59.035159376222374,
+          167.2096102433197,
+          161.7275369246102
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          112.72472554168547,
+          0,
+          -41.14773689465415
+        ],
+        [
+          171.75988491790784,
+          167.2096102433197,
+          120.57980002995608
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -55.38891680377058,
+          -172.1654618158855,
+          198.21988208307428
+        ],
+        [
+          170.06053427960038,
+          -172.1654618158855,
+          115.92440829376595
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -84.05682117272804,
+          -86.08273090794275,
+          119.68380948886421
+        ],
+        [
+          141.39262991064294,
+          -86.08273090794275,
+          37.388335699555896
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -55.38891680377058,
+          -172.1654618158855,
+          198.21988208307428
+        ],
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          57.3358087379149,
+          -172.1654618158855,
+          157.0721451884201
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          170.06053427960038,
+          -172.1654618158855,
+          115.92440829376595
+        ],
+        [
+          112.72472554168547,
+          0,
+          -41.14773689465415
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          11.274712175224956,
+          31.934193933662776,
+          30.887211094198737
+        ],
+        [
+          -6.443027111022356,
+          85.13624747918249,
+          -17.650751111952204
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -59.242674901193816,
+          -137.75334209593981,
+          53.990215187138
+        ],
+        [
+          -40.99980738830758,
+          -86.08273090794275,
+          103.96677255524438
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          98.33561612622248,
+          -86.08273090794275,
+          53.10537263317573
+        ],
+        [
+          80.09274861333624,
+          -137.75334209593981,
+          3.1288152650693624
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          10.42503685607122,
+          -137.75334209593981,
+          28.55951522610368
+        ],
+        [
+          -6.443027111022356,
+          85.13624747918249,
+          -17.650751111952204
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          -40.99980738830758,
+          -86.08273090794275,
+          103.96677255524438
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          98.33561612622248,
+          -86.08273090794275,
+          53.10537263317573
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          80.09274861333624,
+          -137.75334209593981,
+          3.1288152650693624
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          58.185484057068635,
+          -2.477925786282902,
+          159.39984105651516
+        ],
+        [
+          -59.242674901193816,
+          -137.75334209593981,
+          53.990215187138
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          58.185484057068635,
+          -2.477925786282902,
+          159.39984105651516
+        ],
+        [
+          10.42503685607122,
+          -137.75334209593981,
+          28.55951522610368
+        ],
+        {
+          "layer": "low"
+        }
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          -6.443027111022356,
+          85.13624747918249,
+          -17.650751111952204
+        ]
+      ],
+      [
+        "line",
+        [
+          -6.443027111022356,
+          85.13624747918249,
+          -17.650751111952204
+        ],
+        [
+          112.72472554168547,
+          0,
+          -41.14773689465415
+        ]
+      ],
+      [
+        "line",
+        [
+          112.72472554168547,
+          0,
+          -41.14773689465415
+        ],
+        [
+          80.09274861333624,
+          -137.75334209593981,
+          3.1288152650693624
+        ]
+      ],
+      [
+        "line",
+        [
+          -59.242674901193816,
+          -137.75334209593981,
+          53.990215187138
+        ],
+        [
+          80.09274861333624,
+          -137.75334209593981,
+          3.1288152650693624
+        ]
+      ],
+      [
+        "line",
+        [
+          -112.72472554168547,
+          0,
+          41.14773689465415
+        ],
+        [
+          -59.242674901193816,
+          -137.75334209593981,
+          53.990215187138
+        ]
+      ]
+    ],
+    "polygonl": {
+      "BD": "BADC",
+      "BF": "BCFE"
+    }
+  },
+  {
+    "title": "Proposition 18",
+    "id": "13.18",
+    "prose": "To set out the sides of the five (aforementioned) figures, and to compare (them) with one another.\n\nLet the diameter, {AB line}, of the given sphere be laid out.\nAnd let it have been cut at {C point}, such that {AC line} is equal to {CB line}, and at {D point}, such that {AD line} is double {DB line}.\nAnd let the semi-circle {AEB arc C} have been drawn on {AB line}.\nAnd let {CE line} and {DF line} have been drawn from {C point} and {D point} (respectively), at right-angles to {AB line}.\nAnd let {AF line}, {FB line}, and {EB line} have been joined.\nAnd since {AD line} is double {DB line}, {AB line} is thus triple {BD line}.\nThus, via conversion, {BA line} is one and a half times {AD line}.\nAnd as {BA line} (is) to {AD line}, so the (square) on {BA line} (is) to the (square) on {AF line} [Def. 5.9].\nFor triangle {AFB polygon} is equiangular to triangle {AFD polygon} [Prop. 6.8].\nThus, the (square) on {BA line} is one and a half times the (square) on {AF line}.\nAnd the square on the diameter of the sphere is also one and a half times the (square) on the side of the pyramid [Prop. 13.13].\nAnd {AB line} is the diameter of the sphere.\nThus, {AF line} is equal to the side of the pyramid.\n\nAgain, since {AD line} is double {DB line}, {AB line} is thus triple {BD line}.\nAnd as {AB line} (is) to {BD line}, so the (square) on {AB line} (is) to the (square) on {BF line} [Prop. 6.8, Def. 5.9].\nThus, the (square) on {AB line} is three times the (square) on {BF line}.\nAnd the square on the diameter of the sphere is also three times the (square) on the side of the cube [Prop. 13.15].\nAnd {AB line} is the diameter of the sphere.\nThus, {BF line} is the side of the cube.\n\nAnd since {AC line} is equal to {CB line}, {AB line} is thus double {BC line}.\nAnd as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BE line} [Prop. 6.8, Def. 5.9].\nThus, the (square) on {AB line} is double the (square) on {BE line}.\nAnd the square on the diameter of the sphere is also double the (square) on the side of the octahedron [Prop. 13.14].\nAnd {AB line} is the diameter of the given sphere.\nThus, {BE line} is the side of the octahedron.\n\nSo let {AG line} have been drawn from point {A point} at right-angles to the straight-line {AB line}.\nAnd let {AG line} be made equal to {AB line}.\nAnd let {GC line} have been joined.\nAnd let {HK line} have been drawn from {H point}, perpendicular to {AB line}.\nAnd since {GA line} is double {AC line}.\nFor {GA line} (is) equal to {AB line}.\nAnd as {GA line} (is) to {AC line}, so {HK line} (is) to {KC line} [Prop. 6.4].\n{HK line} (is) thus also double {KC line}.\nThus, the (square) on {HK line} is four times the (square) on {KC line}.\nThus, the (sum of the squares) on {HK line} and {KC line}, which is the (square) on {HC line} [Prop. 1.47], is five times the (square) on {KC line}.\nAnd {HC line} (is) equal to {CB line}.\nThus, the (square) on {BC line} (is) five times the (square) on {CK line}.\nAnd since {AB line} is double {CB line}, of which {AD line} is double {DB line}, the remainder {BD line} is thus double the remainder {DC line}.\n{BC line} (is) thus triple {CD line}.\nThe (square) on {BC line} (is) thus nine times the (square) on {CD line}.\nAnd the (square) on {BC line} (is) five times the (square) on {CK line}.\nThus, the (square) on {CK line} (is) greater than the (square) on {CD line}.\n{CK line} is thus greater than {CD line}.\nLet {CL line} be made equal to {CK line}.\nAnd let {LM line} have been drawn from {L point} at right-angles to {AB line}.\nAnd let {MB line} have been joined.\nAnd since the (square) on {BC line} is five times the (square) on {CK line}, and {AB line} is double {BC line}, and {KL line} double {CK line}, the (square) on {AB line} is thus five times the (square) on {KL line}.\nAnd the square on the diameter of the sphere is also five times the (square) on the radius of the circle from which the icosahedron has been described [Prop. 13.16 corr.].\nAnd {AB line} is the diameter of the sphere.\nThus, {KL line} is the radius of the circle from which the icosahedron has been described.\nThus, {KL line} is (the side) of the hexagon (inscribed) in the aforementioned circle [Prop. 4.15 corr.].\nAnd since the diameter of the sphere is composed of (the side) of the hexagon, and two of (the sides) of the decagon, inscribed in the aforementioned circle, and {AB line} is the diameter of the sphere, and {KL line} the side of the hexagon, and {AK line} (is) equal to {LB line}, thus {AK line} and {LB line} are each sides of the decagon inscribed in the circle from which the icosahedron has been described.\nAnd since {LB line} is (the side) of the decagon.\nAnd {ML line} (is the side) of the hexagon—for (it is) equal to {KL line}, since (it is) also (equal) to {HK line}, for they are equally far from the center.\nAnd {HK line} and {KL line} are each double {KC line}.\n{MB line} is thus (the side) of the pentagon (inscribed in the circle) [Props. 13.10, 1.47].\nAnd (the side) of the pentagon is (the side) of the icosahedron [Prop. 13.16].\nThus, {MB line} is (the side) of the icosahedron.\n\nAnd since {FB line} is the side of the cube, let it have been cut in extreme and mean ratio at {N point}, and let {NB line} be the greater piece.\nThus, {NB line} is the side of the dodecahedron [Prop. 13.17 corr.].\n\nAnd since the (square) on the diameter of the sphere was shown (to be) one and a half times the square on the side, {AF line}, of the pyramid, and twice the square on (the side), {BE line}, of the octahedron, and three times the square on (the side), {FB line}, of the cube, thus, of whatever (parts) the (square) on the diameter of the sphere (makes) six, of such (parts) the (square) on (the side) of the pyramid (makes) four, and (the square) on (the side) of the octahedron three, and (the square) on (the side) of the cube two.\nThus, the (square) on the side of the pyramid is one and a third times the square on the side of the octahedron, and double the square on (the side) of the cube.\nAnd the (square) on (the side) of the octahedron is one and a half times the square on (the side) of the cube.\nTherefore, the aforementioned sides of the three figures—I mean, of the pyramid, and of the octahedron, and of the cube— are in rational ratios to one another.\nAnd (the sides of) the remaining two (figures)—I mean, of the icosahedron, and of the dodecahedron—are neither in rational ratios to one another, nor to the (sides) of the aforementioned (three figures).\nFor they are irrational (straight lines): (namely), a minor [Prop. 13.16], and an apotome [Prop. 13.17].\n\n(And), we can show that the side, {MB line}, of the icosahedron is greater that the (side), {NB line}, or the dodecahedron, as follows.\n\nFor, since triangle {FDB polygon} is equiangular to triangle {FAB polygon} [Prop. 6.8], proportionally, as {DB line} is to {BF line}, so {BF line} (is) to {BA line} [Prop. 6.4].\nAnd since three straight-lines are (continually) proportional, as the first (is) to the third, so the (square) on the first (is) to the (square) on the second [Def. 5.9, Prop. 6.20 corr.].\nThus, as {DB line} is to {BA line}, so the (square) on {DB line} (is) to the (square) on {BF line}.\nThus, inversely, as {AB line} (is) to {BD line}, so the (square) on {FB line} (is) to the (square) on {BD line}.\nAnd {AB line} (is) triple {BD line}.\nThus, the (square) on {FB line} (is) three times the (square) on {BD line}.\nAnd the (square) on {AD line} is also four times the (square) on {DB line}.\nFor {AD line} (is) double {DB line}.\nThus, the (square) on {AD line} (is) greater than the (square) on {FB line}.\nThus, {AD line} (is) greater than {FB line}.\nThus, {AL line} is much greater than {FB line}.\nAnd {KL line} is the greater piece of {AL line}, which is cut in extreme and mean ratio—inasmuch as {LK line} is (the side) of the hexagon, and {KA line} (the side) of the decagon [Prop. 13.9].\nAnd {NB line} is the greater piece of {FB line}, which is cut in extreme and mean ratio.\nThus, {KL line} (is) greater than {NB line}.\nAnd {KL line} (is) equal to {LM line}.\nThus, {LM line} (is) greater than {NB line} [and {MB line} is greater than {LM line}].\nThus, {MB line}, which is (the side) of the icosahedron, is much greater than {NB line}, which is (the side) of the dodecahedron.\n(Which is) the very thing it was required to show.\n\nSo, I say that, beside the five aforementioned figures, no other (solid) figure can be constructed (which is) contained by equilateral and equiangular (planes), equal to one another.\n\nFor a solid angle cannot be constructed from two triangles, or indeed (two) planes (of any sort) [Def. 11.11].\nAnd (the solid angle) of the pyramid (is constructed) from three (equiangular) triangles, and (that) of the octahedron from four (triangles), and (that) of the icosahedron from (five) triangles.\nAnd a solid angle cannot be (made) from six equilateral and equiangular triangles set up together at one point.\nFor, since the angles of a equilateral triangle are (each) two-thirds of a right-angle, the (sum of the) six (plane) angles (containing the solid angle) will be four right-angles.\nThe very thing (is) impossible.\nFor every solid angle is contained by (plane angles whose sum is) less than four right-angles [Prop. 11.21].\nSo, for the same (reasons), a solid angle cannot be constructed from more than six plane angles (equal to two-thirds of a right-angle) either.\nAnd the (solid) angle of a cube is contained by three squares.\nAnd (a solid angle contained) by four (squares is) impossible.\nFor, again, the (sum of the plane angles containing the solid angle) will be four right-angles.\nAnd (the solid angle) of a dodecahedron (is contained) by three equilateral and equiangular pentagons.\nAnd (a solid angle contained) by four (equiangular pentagons is) impossible.\nFor, the angle of an equilateral pentagon being one and one-fifth of right-angle, four (such) angles will be greater (in sum) than four right-angles.\nThe very thing (is) impossible.\nAnd, on account of the same absurdity, a solid angle cannot be constructed from any other (equiangular) polygonal figures either.\n\nThus, beside the five aforementioned figures, no other solid figure can be constructed (which is) contained by equilateral and equiangular (planes).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "C": [
+        0,
+        0
+      ],
+      "B": [
+        180,
+        0
+      ],
+      "A": [
+        -180,
+        0
+      ],
+      "G": [
+        -180,
+        -360
+      ],
+      "K": [
+        -80.49844718999243,
+        0
+      ],
+      "D": [
+        60,
+        0
+      ],
+      "L": [
+        80.49844718999243,
+        0
+      ],
+      "E": [
+        1.1021821192326179e-14,
+        -180
+      ],
+      "H": [
+        -80.49844718999243,
+        -160.99689437998487
+      ],
+      "F": [
+        59.999999999999986,
+        -169.7056274847714
+      ],
+      "M": [
+        80.49844718999245,
+        -160.99689437998487
+      ],
+      "N": [
+        105.83592135001263,
+        -104.88384586771704
+      ]
+    },
+    "smallletters": "N",
+    "letters": {
+      "H": [
+        8.5,
+        3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "M": [
+        8
+      ],
+      "A": [
+        5
+      ],
+      "K": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "L": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "G": [
+        1
+      ],
+      "N": [
+        3,
+        3
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          -180,
+          0
+        ],
+        [
+          180,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -80.49844718999243,
+          -160.99689437998487
+        ],
+        [
+          -80.49844718999243,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -180,
+          0
+        ],
+        [
+          -180,
+          -360
+        ]
+      ],
+      [
+        "line",
+        [
+          -180,
+          -360
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          1.1021821192326179e-14,
+          -180
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          59.999999999999986,
+          -169.7056274847714
+        ],
+        [
+          60,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          80.49844718999245,
+          -160.99689437998487
+        ],
+        [
+          80.49844718999243,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -180,
+          0
+        ],
+        [
+          1.1021821192326179e-14,
+          -180
+        ]
+      ],
+      [
+        "line",
+        [
+          1.1021821192326179e-14,
+          -180
+        ],
+        [
+          180,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -180,
+          0
+        ],
+        [
+          59.999999999999986,
+          -169.7056274847714
+        ]
+      ],
+      [
+        "line",
+        [
+          59.999999999999986,
+          -169.7056274847714
+        ],
+        [
+          180,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          -180,
+          0
+        ],
+        [
+          80.49844718999245,
+          -160.99689437998487
+        ]
+      ],
+      [
+        "line",
+        [
+          80.49844718999245,
+          -160.99689437998487
+        ],
+        [
+          180,
+          0
+        ]
+      ],
+      [
+        "line",
+        [
+          109.91840425465125,
+          -107.77059721366517
+        ],
+        [
+          101.753438445374,
+          -101.99709452176891
+        ]
+      ],
+      [
+        "arc",
+        [
+          0,
+          0
+        ],
+        [
+          -180,
+          0
+        ],
+        [
+          180,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "Lemma",
+    "id": "13.18-lem",
+    "prose": "It can be shown that the angle of an equilateral and equiangular pentagon is one and one-fifth of a right-angle, as follows.\n\nFor let {ABCDE polygon} be an equilateral and equiangular pentagon, and let the circle {ABCDE circle F} have been circumscribed about it [Prop. 4.14].\nAnd let its center, {F point}, have been found [Prop. 3.1].\nAnd let {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} have been joined.\nThus, they cut the angles of the pentagon in half at (points) {A point}, {B point}, {C point}, {D point}, and {E point} [Prop. 1.4].\nAnd since the five angles at {F point} are equal (in sum) to four right-angles, and are also equal (to one another), (any) one of them, like {AFB angle}, is thus one less a fifth of a right-angle.\nThus, the (sum of the) remaining (angles in triangle {ABF polygon}), {FAB line} and {ABF line}, is one plus a fifth of a right-angle [Prop. 1.32].\nAnd {FAB angle} (is) equal to {FBC angle}.\nThus, the whole angle, {ABC angle}, of the pentagon is also one and one-fifth of a right-angle.\n(Which is) the very thing it was required to show.\n\n",
+    "points": {
+      "F": [
+        0,
+        0
+      ],
+      "A": [
+        -1.8369701987210297e-14,
+        -150
+      ],
+      "B": [
+        142.65847744427302,
+        -46.352549156242134
+      ],
+      "C": [
+        88.167787843871,
+        121.3525491562421
+      ],
+      "D": [
+        -88.16778784387104,
+        121.35254915624206
+      ],
+      "E": [
+        -142.65847744427305,
+        -46.35254915624207
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "E": [
+        2.5
+      ],
+      "D": [
+        4
+      ],
+      "C": [
+        6
+      ],
+      "B": [
+        7.5
+      ],
+      "F": [
+        2,
+        2
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          0,
+          0
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            -1.8369701987210297e-14,
+            -150
+          ],
+          [
+            142.65847744427302,
+            -46.352549156242134
+          ],
+          [
+            88.167787843871,
+            121.3525491562421
+          ],
+          [
+            -88.16778784387104,
+            121.35254915624206
+          ],
+          [
+            -142.65847744427305,
+            -46.35254915624207
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          -1.8369701987210297e-14,
+          -150
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          142.65847744427302,
+          -46.352549156242134
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          88.167787843871,
+          121.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          -88.16778784387104,
+          121.35254915624206
+        ]
+      ],
+      [
+        "line",
+        [
+          0,
+          0
+        ],
+        [
+          -142.65847744427305,
+          -46.35254915624207
+        ]
+      ]
+    ]
+  }
+]

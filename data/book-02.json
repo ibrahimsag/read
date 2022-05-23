@@ -1,0 +1,2335 @@
+[
+  {
+    "id": "2.d",
+    "title": "Definitions",
+    "prose": "1. Any rectangular parallelogram is said to be contained by the two straight-lines containing the right-angle.\n\n2. And in any parallelogrammic figure, let any one whatsoever of the parallelograms about its diagonal, (taken) with its two complements, be called a gnomon.\n",
+    "points": {},
+    "shapes": [],
+    "letters": {}
+  },
+  {
+    "id": "2.1",
+    "title": "Proposition 1",
+    "prose": "If there are two straight-lines, and one of them is cut into any number of pieces whatsoever, then the rectangle contained by the two straight-lines is equal to the (sum of the) rectangles contained by the uncut (straight-line), and every one of the pieces (of the cut straight-line).\n\nLet {A given} and {BC line} be the two straight-lines, and let {BC line} be cut, at random, at points {D point} and {E point}.\nI say that the rectangle contained by {A given} and {BC line} is equal to the rectangle(s) contained by {A given} and {BD line}, by {A given} and {DE line}, and, finally, by {A given} and {EC line}.\n\nFor let {BF line} have been drawn from point {B point}, at right-angles to {BC line} [Prop. 1.11],\nand let {BG line} be made equal to {A given} [Prop. 1.3],\nand let {GH line} have been drawn through (point) {G point}, parallel to {BC line} [Prop. 1.31],\nand let {DK line}, {EL line}, and {CH line} have been drawn through (points) {D point}, {E point}, and {C point} (respectively), parallel to {BG line} [Prop. 1.31].\n\nSo the (rectangle) {BH polygon} is equal to the (rectangles) {BK polygon}, {DL polygon}, and {EH polygon}.\nAnd {BH polygon} is the (rectangle contained) by {A given} and {BC line}.\nFor it is contained by {GB line} and {BC line}, and {BG line} (is) equal to {A given}.\nAnd {BK polygon} (is) the (rectangle contained) by {A given} and {BD line}.\nFor it is contained by {GB line} and {BD line}, and {BG line} (is) equal to {A given}.\nAnd {DL polygon} (is) the (rectangle contained) by {A given} and {DE line}.\nFor {DK line}, that is to say {BG line} [Prop. 1.34], (is) equal to {A given}.\nSimilarly, {EH polygon} (is) also the (rectangle contained) by {A given} and {EC line}.\nThus, the (rectangle contained) by {A given} and {BC line} is equal to the (rectangles contained) by {A given} and {BD line}, by {A given} and {DE line}, and, finally, by {A given} and {EC line}.\n\nThus, if there are two straight-lines, and one of them is cut into any number of pieces whatsoever, then the rectangle contained by the two straight-lines is equal to the (sum of the) rectangles contained by the uncut (straight-line), and every one of the pieces (of the cut straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        170,
+        50
+      ],
+      "B": [
+        60,
+        100
+      ],
+      "C": [
+        450,
+        100
+      ],
+      "D": [
+        235.5,
+        100
+      ],
+      "E": [
+        352.5,
+        100
+      ],
+      "F": [
+        60.000000000000014,
+        334
+      ],
+      "G": [
+        60.000000000000014,
+        300
+      ],
+      "H": [
+        450,
+        300
+      ],
+      "K": [
+        235.5,
+        300
+      ],
+      "L": [
+        352.5,
+        300
+      ]
+    },
+    "given": {
+      "A": [
+        [
+          "line",
+          [
+            170,
+            50
+          ],
+          [
+            370,
+            50
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          170,
+          50
+        ],
+        [
+          370,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          60,
+          100
+        ],
+        [
+          450,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          60,
+          100
+        ],
+        [
+          60.000000000000014,
+          334
+        ]
+      ],
+      [
+        "line",
+        [
+          235.5,
+          100
+        ],
+        [
+          235.5,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          352.5,
+          100
+        ],
+        [
+          352.5,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          450,
+          100
+        ],
+        [
+          450,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          60.000000000000014,
+          300
+        ],
+        [
+          450,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        5
+      ]
+    },
+    "polygonl": {
+      "BH": "BGHC",
+      "BK": "BGKD",
+      "DL": "DKLE",
+      "EH": "ELHC"
+    }
+  },
+  {
+    "id": "2.2",
+    "title": "Proposition 2",
+    "prose": "If a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight-line), and each of the pieces (of the straight-line), is equal to the square on the whole.\n\nFor let the straight-line {AB line} have been cut, at random, at point {C point}.\nI say that the rectangle contained by {AB line} and {BC line}, plus the rectangle contained by {BA line} and {AC line}, is equal to the square on {AB line}.\n\nFor let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let {CF line} have been drawn through {C point}, parallel to either of {AD line} or {BE line} [Prop. 1.31].\n\nSo the (square) {AE polygon} is equal to the (rectangles) {AF polygon} and {CE polygon}.\nAnd {AE polygon} is the square on {AB line}.\nAnd {AF polygon} (is) the rectangle contained by the (straight-lines) {BA line} and {AC line}.\nFor it is contained by {DA line} and {AC line}, and {AD line} (is) equal to {AB line}.\nAnd {CE polygon} (is) the (rectangle contained) by {AB line} and {BC line}.\nFor {BE line} (is) equal to {AB line}.\nThus, the (rectangle contained) by {BA line} and {AC line}, plus the (rectangle contained) by {AB line} and {BC line}, is equal to the square on {AB line}.\n\nThus, if a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight-line), and each of the pieces (of the straight-line), is equal to the square on the whole.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        175,
+        50
+      ],
+      "D": [
+        100.00000000000001,
+        300
+      ],
+      "E": [
+        350,
+        300
+      ],
+      "F": [
+        175.00000000000003,
+        300
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            50
+          ],
+          [
+            100.00000000000001,
+            300
+          ],
+          [
+            350,
+            300
+          ],
+          [
+            350,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          175,
+          50
+        ],
+        [
+          175.00000000000003,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ]
+    },
+    "polygonl": {
+      "AE": "ADEB",
+      "AF": "ADFC",
+      "CE": "CFEB"
+    }
+  },
+  {
+    "id": "2.3",
+    "title": "Proposition 3",
+    "prose": "If a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle contained by (both of) the pieces, and the square on the aforementioned piece.\n\nFor let the straight-line {AB line} have been cut, at random, at (point) {C point}.\nI say that the rectangle contained by {AB line} and {BC line} is equal to the rectangle contained by {AC line} and {CB line}, plus the square on {BC line}.\n\nFor let the square {CDEB polygon} have been described on {CB line} [Prop. 1.46], and let {ED line} have been drawn through to {F point} (as {EF line}), and let {AF line} have been drawn through {A point}, parallel to either of {CD line} or {BE line} [Prop. 1.31].\nSo the (rectangle) {AE polygon} is equal to the (rectangle) {AD polygon} and the (square) {CE polygon}.\nAnd {AE polygon} is the rectangle contained by {AB line} and {BC line}.\nFor it is contained by {AB line} and {BE line}, and {BE line} (is) equal to {BC line}.\nAnd {AD polygon} (is) the (rectangle contained) by {AC line} and {CB line}.\nFor {DC line} (is) equal to {CB line}.\nAnd {DB polygon} (is) the square on {CB line}.\nThus, the rectangle contained by {AB line} and {BC line} is equal to the rectangle contained by {AC line} and {CB line}, plus the square on {BC line}.\n\nThus, if a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle contained by (both of) the pieces, and the square on the aforementioned piece.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        400,
+        50
+      ],
+      "C": [
+        155,
+        50
+      ],
+      "D": [
+        155.00000000000003,
+        295
+      ],
+      "E": [
+        400,
+        295
+      ],
+      "F": [
+        50.000000000000014,
+        295
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50.000000000000014,
+            295
+          ],
+          [
+            400,
+            295
+          ],
+          [
+            400,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          155,
+          50
+        ],
+        [
+          155.00000000000003,
+          295
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ]
+    },
+    "polygonl": {
+      "AE": "AFEB",
+      "AD": "AFDC",
+      "CE": "CDEB",
+      "DB": "CDEB"
+    }
+  },
+  {
+    "id": "2.4",
+    "title": "Proposition 4",
+    "prose": "If a straight-line is cut at random then the square on the whole (straight-line) is equal to the (sum of the) squares on the pieces (of the straight-line), and twice the rectangle contained by the pieces.\n\nFor let the straight-line {AB line} have been cut, at random, at (point) {C point}.\nI say that the square on {AB line} is equal to the (sum of the) squares on {AC line} and {CB line}, and twice the rectangle contained by {AC line} and {CB line}.\n\nFor let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let {BD line} have been joined, and let {CF line} have been drawn through {C point}, parallel to either of {AD line} or {EB line} [Prop. 1.31], and let {HK line} have been drawn through {G point}, parallel to either of {AB line} or {DE line} [Prop. 1.31].\nAnd since {CF line} is parallel to {AD line}, and {BD line} has fallen across them, the external angle {CGB angle} is equal to the internal and opposite (angle) {ADB angle} [Prop. 1.29].\nBut, {ADB angle} is equal to {ABD angle}, since the side {BA line} is also equal to {AD line} [Prop. 1.5].\nThus, angle {CGB angle} is also equal to {GBC angle}.\nSo the side {BC line} is equal to the side {CG line} [Prop. 1.6].\nBut, {CB line} is equal to {GK line}, and {CG line} to {KB line} [Prop. 1.34].\nThus, {GK line} is also equal to {KB line}.\nThus, {CGKB polygon} is equilateral.\nSo I say that (it is) also right-angled.\nFor since {CG line} is parallel to {BK line} [and the straight-line {CB line} has fallen across them], the angles {KBC angle} and {GCB angle} are thus equal to two right-angles [Prop. 1.29].\nBut {KBC angle} (is) a right-angle.\nThus, {BCG angle} (is) also a rightangle.\nSo the opposite (angles) {CGK angle} and {GKB angle} are also right-angles [Prop. 1.34].\nThus, {CGKB polygon} is right-angled.\nAnd it was also shown (to be) equilateral.\nThus, it is a square.\nAnd it is on {CB line}.\nSo, for the same (reasons), {HF polygon} is also a square.\nAnd it is on {HG line}, that is to say [on] {AC line} [Prop. 1.34].\nThus, the squares {HF polygon} and {KC polygon} are on {AC line} and {CB line} (respectively).\nAnd the (rectangle) {AG polygon} is equal to the (rectangle) {GE polygon} [Prop. 1.43].\nAnd {AG polygon} is the (rectangle contained) by {AC line} and {CB line}.\nFor {GC line} (is) equal to {CB line}.\nThus, {GE polygon} is also equal to the (rectangle contained) by {AC line} and {CB line}.\nThus, the (rectangles) {AG polygon} and {GE polygon} are equal to twice the (rectangle contained) by {AC line} and {CB line}.\nAnd {HF polygon} and {CK polygon} are the squares on {AC line} and {CB line} (respectively).\nThus, the four (figures) {HF polygon}, {CK polygon}, {AG polygon}, and {GE polygon} are equal to the (sum of the) squares on {AC line} and {BC line}, and twice the rectangle contained by {AC line} and {CB line}.\nBut, the (figures) {HF polygon}, {CK polygon}, {AG polygon}, and {GE polygon} are (equivalent to) the whole of {ADEB polygon}, which is the square on {AB line}.\nThus, the square on {AB line} is equal to the (sum of the) squares on {AC line} and {CB line}, and twice the rectangle contained by {AC line} and {CB line}.\n\nThus, if a straight-line is cut at random then the square on the whole (straight-line) is equal to the (sum of the) squares on the pieces (of the straight-line), and twice the rectangle contained by the pieces.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        260,
+        50
+      ],
+      "D": [
+        50.00000000000002,
+        350
+      ],
+      "E": [
+        350,
+        350
+      ],
+      "F": [
+        260,
+        350
+      ],
+      "G": [
+        260,
+        140
+      ],
+      "H": [
+        50.00000000000001,
+        140
+      ],
+      "K": [
+        350,
+        140
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50.00000000000002,
+            350
+          ],
+          [
+            350,
+            350
+          ],
+          [
+            350,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          50
+        ],
+        [
+          50.00000000000002,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          260,
+          50
+        ],
+        [
+          260,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000001,
+          140
+        ],
+        [
+          350,
+          140
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5.8,
+        1.2
+      ],
+      "H": [
+        3
+      ],
+      "K": [
+        -1
+      ]
+    },
+    "polygonl": {
+      "HF": "DFGH",
+      "KC": "KBCG",
+      "CK": "KBCG",
+      "AG": "AHGC",
+      "GE": "GFEK"
+    }
+  },
+  {
+    "id": "2.5",
+    "title": "Proposition 5",
+    "prose": "If a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).\n\nFor let any straight-line {AB line} have been cut---equally at {C point}, and unequally at {D point}.\nI say that the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.\n\nFor let the square {CEFB polygon} have been described on {CB line} [Prop. 1.46],\nand let {BE line} have been joined,\nand let {DG line} have been drawn through {D point}, parallel to either of {CE line} or {BF line} [Prop. 1.31],\nand again let {KM line} have been drawn through {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],\nand again let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {BM line} [Prop. 1.31].\nAnd since the complement {CH polygon} is equal to the complement {HF polygon} [Prop. 1.43], let the (square) {DM polygon} have been added to both.\nThus, the whole (rectangle) {CM polygon} is equal to the whole (rectangle) {DF polygon}.\nBut, (rectangle) {CM polygon} is equal to (rectangle) {AL polygon}, since {AC line} is also equal to {CB line} [Prop. 1.36].\nThus, (rectangle) {AL polygon} is also equal to (rectangle) {DF polygon}.\nLet (rectangle) {CH polygon} have been added to both.\nThus, the whole (rectangle) {AH polygon} is equal to the gnomon {NOP given}.\nBut, {AH polygon} is the (rectangle contained) by {AD line} and {DB line}.\nFor {DH line} (is) equal to {DB line}.\nThus, the gnomon {NOP given} is also equal to the (rectangle contained) by {AD line} and {DB line}.\nLet {LG polygon}, which is equal to the (square) on {CD line}, have been added to both.\nThus, the gnomon {NOP given} and the (square) {LG polygon} are equal to the rectangle contained by {AD line} and {DB line}, and the square on {CD line}.\nBut, the gnomon {NOP given} and the (square) {LG polygon} is (equivalent to) the whole square {CEFB polygon}, which is on {CB line}.\nThus, the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.\n\nThus, if a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        450,
+        50
+      ],
+      "C": [
+        250,
+        50
+      ],
+      "D": [
+        298,
+        50
+      ],
+      "E": [
+        250,
+        250
+      ],
+      "F": [
+        450,
+        250
+      ],
+      "G": [
+        298,
+        250
+      ],
+      "H": [
+        298,
+        202
+      ],
+      "K": [
+        49.99999999999999,
+        202
+      ],
+      "L": [
+        250,
+        202
+      ],
+      "M": [
+        450,
+        202
+      ],
+      "N": [
+        264.4,
+        202
+      ],
+      "O": [
+        321.758787847868,
+        178.241212152132
+      ],
+      "P": [
+        298,
+        235.6
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          49.99999999999999,
+          202
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          450,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          49.99999999999999,
+          202
+        ],
+        [
+          450,
+          202
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          298,
+          50
+        ],
+        [
+          298,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          450,
+          50
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          450,
+          50
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          298,
+          202
+        ],
+        [
+          264.4,
+          202
+        ],
+        [
+          298,
+          235.6
+        ]
+      ]
+    ],
+    "smallletters": "NOP",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        4.8
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        2
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        3.8,
+        1.5
+      ],
+      "M": [
+        -1
+      ],
+      "N": [
+        5
+      ],
+      "O": [
+        1,
+        1.5
+      ],
+      "P": [
+        3
+      ]
+    },
+    "given": {
+      "NOP": [
+        [
+          "gnomon",
+          [
+            298,
+            202
+          ],
+          [
+            264.4,
+            202
+          ],
+          [
+            298,
+            235.6
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              250,
+              202
+            ],
+            [
+              298,
+              202
+            ],
+            [
+              298,
+              250
+            ],
+            [
+              450,
+              250
+            ],
+            [
+              450,
+              50
+            ],
+            [
+              250,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "CH": "CLHD",
+      "HF": "HGFM",
+      "DM": "DHMB",
+      "CM": "CLMB",
+      "DF": "DGFB",
+      "AL": "AKLC",
+      "AH": "AKHD",
+      "LG": "LEGH"
+    }
+  },
+  {
+    "id": "2.6",
+    "title": "Proposition 6",
+    "prose": "If a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.\n\nFor let any straight-line {AB line} have been cut in half at point {C point}, and let any straight-line {BD line} have been added to it straight-on.\nI say that the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the square on {CD line}.\n\nFor let the square {CEFD polygon} have been described on {CD line} [Prop. 1.46],\nand let {DE line} have been joined,\nand let {BG line} have been drawn through point {B point}, parallel to either of {EC line} or {DF line} [Prop. 1.31],\nand let {KM line} have been drawn through point {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],\nand finally let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {DM line} [Prop. 1.31].\n\nTherefore, since {AC line} is equal to {CB line}, (rectangle) {AL polygon} is also equal to (rectangle) {CH polygon} [Prop. 1.36].\nBut, (rectangle) {CH polygon} is equal to (rectangle) {HF polygon} [Prop. 1.43].\nThus, (rectangle) {AL polygon} is also equal to (rectangle) {HF polygon}.\nLet (rectangle) {CM polygon} have been added to both.\nThus, the whole (rectangle) {AM polygon} is equal to the gnomon {NOP given}.\nBut, {AM polygon} is the (rectangle contained) by {AD line} and {DB line}.\nFor {DM line} is equal to {DB line}.\nThus, gnomon {NOP given} is also equal to the [rectangle contained] by {AD line} and {DB line}.\nLet {LG polygon}, which is equal to the square on {BC line}, have been added to both.\nThus, the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the gnomon {NOP given} and the (square) {LG polygon}.\nBut the gnomon {NOP given} and the (square) {LG polygon} is (equivalent to) the whole square {CEFD polygon}, which is on {CD line}.\nThus, the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the square on {CD line}.\n\nThus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        200,
+        50
+      ],
+      "D": [
+        440,
+        50
+      ],
+      "E": [
+        200.00000000000003,
+        290
+      ],
+      "F": [
+        440,
+        290
+      ],
+      "G": [
+        350,
+        290
+      ],
+      "H": [
+        350,
+        140
+      ],
+      "K": [
+        50.00000000000001,
+        140
+      ],
+      "L": [
+        200,
+        140
+      ],
+      "M": [
+        440,
+        140
+      ],
+      "N": [
+        305,
+        140
+      ],
+      "O": [
+        381.8198051533946,
+        108.18019484660536
+      ],
+      "P": [
+        350,
+        185
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          50.00000000000001,
+          140
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          440,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000001,
+          140
+        ],
+        [
+          440,
+          140
+        ]
+      ],
+      [
+        "line",
+        [
+          200.00000000000003,
+          290
+        ],
+        [
+          440,
+          290
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          200.00000000000003,
+          290
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          50
+        ],
+        [
+          350,
+          290
+        ]
+      ],
+      [
+        "line",
+        [
+          440,
+          50
+        ],
+        [
+          440,
+          290
+        ]
+      ],
+      [
+        "line",
+        [
+          200.00000000000003,
+          290
+        ],
+        [
+          440,
+          50
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          350,
+          140
+        ],
+        [
+          305,
+          140
+        ],
+        [
+          350,
+          185
+        ]
+      ]
+    ],
+    "smallletters": "NOP",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        4.8
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        2
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        3.8,
+        1.5
+      ],
+      "M": [
+        -1
+      ],
+      "N": [
+        5
+      ],
+      "O": [
+        1,
+        1.5
+      ],
+      "P": [
+        3
+      ]
+    },
+    "given": {
+      "NOP": [
+        [
+          "gnomon",
+          [
+            350,
+            140
+          ],
+          [
+            305,
+            140
+          ],
+          [
+            350,
+            185
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              200,
+              140
+            ],
+            [
+              350,
+              140
+            ],
+            [
+              350,
+              290
+            ],
+            [
+              440,
+              290
+            ],
+            [
+              440,
+              50
+            ],
+            [
+              200,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "AL": "AKLC",
+      "CH": "CLHB",
+      "HF": "HGFM",
+      "CM": "CLMD",
+      "AM": "AKMD",
+      "LG": "LEGH"
+    }
+  },
+  {
+    "id": "2.7",
+    "title": "Proposition 7",
+    "prose": "If a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rectangle contained by the whole, and the said piece, and the square on the remaining piece.\n\nFor let any straight-line {AB line} have been cut, at random, at point {C point}.\nI say that the (sum of the) squares on {AB line} and {BC line} is equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {CA line}.\n\nFor let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let the (rest of) the figure have been drawn.\n\nTherefore, since (rectangle) {AG polygon} is equal to (rectangle) {GE polygon} [Prop. 1.43], let the (square) {CF polygon} have been added to both.\nThus, the whole (rectangle) {AF polygon} is equal to the whole (rectangle) {CE polygon}.\nThus, (rectangle) {AF polygon} plus (rectangle) {CE polygon} is double (rectangle) {AF polygon}.\nBut, (rectangle) {AF polygon} plus (rectangle) {CE polygon} is the gnomon {KLM given}, and the square {CF polygon}.\nThus, the gnomon {KLM given} , and the square {CF polygon}, is double the (rectangle) {AF polygon}.\nBut double the (rectangle) {AF polygon} is also twice the (rectangle contained) by {AB line} and {BC line}.\nFor {BF line} (is) equal to {BC line}.\nThus, the gnomon {KLM given}, and the square {CF polygon}, are equal to twice the (rectangle contained) by {AB line} and {BC line}.\nLet {DG polygon}, which is the square on {AC line}, have been added to both.\nThus, the gnomon {KLM given}, and the squares {BG polygon} and {GD polygon}, are equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {AC line}.\nBut, the gnomon {KLM given} and the squares {BG polygon} and {GD polygon} is (equivalent to) the whole of {ADEB polygon} and {CF polygon}, which are the squares on {AB line} and {BC line} (respectively).\nThus, the (sum of the) squares on {AB line} and {BC line} is equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {AC line}.\n\nThus, if a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rectangle contained by the whole, and the said piece, and the square on the remaining piece.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        230,
+        50
+      ],
+      "D": [
+        50.00000000000002,
+        350
+      ],
+      "E": [
+        350,
+        350
+      ],
+      "F": [
+        350,
+        170
+      ],
+      "G": [
+        230,
+        170
+      ],
+      "H": [
+        50.00000000000001,
+        170
+      ],
+      "K": [
+        176,
+        170
+      ],
+      "L": [
+        268.18376618407353,
+        131.81623381592644
+      ],
+      "M": [
+        230,
+        224
+      ],
+      "N": [
+        230.00000000000003,
+        350
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50.00000000000002,
+            350
+          ],
+          [
+            350,
+            350
+          ],
+          [
+            350,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000001,
+          170
+        ],
+        [
+          350,
+          170
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          50
+        ],
+        [
+          230.00000000000003,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000002,
+          350
+        ],
+        [
+          350,
+          50
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          230,
+          170
+        ],
+        [
+          176,
+          170
+        ],
+        [
+          230,
+          224
+        ]
+      ]
+    ],
+    "smallletters": "KLM",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        -2.2,
+        1.3
+      ],
+      "H": [
+        3
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        1,
+        1.5
+      ],
+      "M": [
+        3,
+        0.5
+      ],
+      "N": [
+        5
+      ]
+    },
+    "given": {
+      "KLM": [
+        [
+          "gnomon",
+          [
+            230,
+            170
+          ],
+          [
+            176,
+            170
+          ],
+          [
+            230,
+            224
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              50.00000000000001,
+              170
+            ],
+            [
+              230,
+              170
+            ],
+            [
+              230.00000000000003,
+              350
+            ],
+            [
+              350,
+              350
+            ],
+            [
+              350,
+              50
+            ],
+            [
+              50,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "AG": "AHGC",
+      "GE": "GNEF",
+      "CF": "CGFB",
+      "AF": "AHFB",
+      "CE": "CNEB",
+      "BG": "BFGC",
+      "GD": "GNDH",
+      "DG": "GNDH",
+      "AE": "ADEB"
+    }
+  },
+  {
+    "id": "2.8",
+    "title": "Proposition 8",
+    "prose": "If a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).\n\nFor let any straight-line {AB line} have been cut, at random, at point {C point}.\nI say that four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the square described on {AB line} and {BC line}, as on one (complete straight-line).\n\nFor let {BD line} have been produced in a straight-line [with the straight-line {AB line}], and let {BD line} be made equal to {CB line} [Prop. 1.3],\nand let the square {AEFD polygon} have been described on {AD line} [Prop. 1.46],\nand let the (rest of the) figure have been drawn double.\n\nTherefore, since {CB line} is equal to {BD line}, but {CB line} is equal to {GK line} [Prop. 1.34], and {BD line} to {KN line} [Prop. 1.34], {GK line} is thus also equal to {KN line}.\nSo, for the same (reasons), {QR line} is equal to {RP line}.\nAnd since {BC line} is equal to {BD line}, and {GK line} to {KN line}, (square) {CK polygon} is thus also equal to (square) {KD polygon}, and (square) {GR polygon} to (square) {RN polygon} [Prop. 1.36].\nBut, (square) {CK polygon} is equal to (square) {RN polygon}.\nFor (they are) complements in the parallelogram {CP polygon} [Prop. 1.43].\nThus, (square) {KD polygon} is also equal to (square) {GR polygon}.\nThus, the four (squares) {DK polygon}, {CK polygon}, {GR polygon}, and {RN polygon} are equal to one another.\nThus, the four (taken together) are quadruple (square) {CK polygon}.\nAgain, since {CB line} is equal to {BD line}, but {BD line} (is) equal to {BK line}---that is to say, {CG line}--- and {CB line} is equal to {GK line}---that is to say, {GQ line}--- {CG line} is thus also equal to {GQ line}.\nAnd since {CG line} is equal to {GQ line}, and {QR line} to {RP line}, (rectangle) {AG polygon} is also equal to (rectangle) {MQ polygon}, and (rectangle) {QL polygon} to (rectangle) {RF polygon} [Prop. 1.36].\nBut, (rectangle) {MQ polygon} is equal to (rectangle) {QL polygon}.\nFor (they are) complements in the parallelogram {ML polygon} [Prop. 1.43].\nThus, (rectangle) {AG polygon} is also equal to (rectangle) {RF polygon}.\nThus, the four (rectangles) {AG polygon}, {MQ polygon}, {QL polygon}, and {RF polygon} are equal to one another.\nThus, the four (taken together) are quadruple (rectangle) {AG polygon}.\nAnd it was also shown that the four (squares) {CK polygon}, {KD polygon}, {GR polygon}, and {RN polygon} (taken together are) quadruple (square) {CK polygon}.\nThus, the eight (figures taken together), which comprise the gnomon {STU given}, are quadruple (rectangle) {AK polygon}.\nAnd since {AK polygon} is the (rectangle contained) by {AB line} and {BD line}, for {BK line} (is) equal to {BD line}, four times the (rectangle contained) by {AB line} and {BD line} is quadruple (rectangle) {AK polygon}.\nBut the gnomon {STU given} was also shown (to be equal to) quadruple (rectangle) {AK polygon}.\nThus, four times the (rectangle contained) by {AB line} and {BD line} is equal to the gnomon {STU given}.\nLet {OH polygon}, which is equal to the square on {AC line}, have been added to both.\nThus, four times the rectangle contained by {AB line} and {BD line}, plus the square on {AC line}, is equal to the gnomon {STU given}, and the (square) {OH polygon}.\nBut, the gnomon {STU given} and the (square) {OH polygon} is (equivalent to) the whole square {AEFD polygon}, which is on {AD line}.\nThus, four times the (rectangle contained) by {AB line} and {BD line}, plus the (square) on {AC line}, is equal to the square on {AD line}.\nAnd {BD line} (is) equal to {BC line}.\nThus, four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the (square) on {AD line}, that is to say the square described on {AB line} and {BC line}, as on one (complete straight-line).\n\nThus, if a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        275,
+        50
+      ],
+      "D": [
+        425,
+        50
+      ],
+      "E": [
+        50.00000000000002,
+        425
+      ],
+      "F": [
+        425,
+        425
+      ],
+      "G": [
+        275,
+        125
+      ],
+      "H": [
+        275,
+        425
+      ],
+      "K": [
+        350,
+        125
+      ],
+      "L": [
+        350,
+        425
+      ],
+      "M": [
+        50.00000000000001,
+        125
+      ],
+      "N": [
+        425,
+        125
+      ],
+      "O": [
+        50.000000000000014,
+        200
+      ],
+      "P": [
+        425,
+        200
+      ],
+      "Q": [
+        275,
+        200
+      ],
+      "R": [
+        350,
+        200
+      ],
+      "S": [
+        221.96699141100893,
+        200
+      ],
+      "T": [
+        387.5,
+        87.5
+      ],
+      "U": [
+        275,
+        253.03300858899107
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50.00000000000002,
+            425
+          ],
+          [
+            425,
+            425
+          ],
+          [
+            425,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000001,
+          125
+        ],
+        [
+          425,
+          125
+        ]
+      ],
+      [
+        "line",
+        [
+          50.000000000000014,
+          200
+        ],
+        [
+          425,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          275,
+          50
+        ],
+        [
+          275,
+          425
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          50
+        ],
+        [
+          350,
+          425
+        ]
+      ],
+      [
+        "line",
+        [
+          425,
+          50
+        ],
+        [
+          50.00000000000002,
+          425
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          312.5,
+          162.5
+        ],
+        [
+          221.96699141100893,
+          200
+        ],
+        [
+          275,
+          253.03300858899107
+        ]
+      ]
+    ],
+    "smallletters": "STU",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        0
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        -2
+      ],
+      "L": [
+        5
+      ],
+      "M": [
+        3,
+        0.5
+      ],
+      "N": [
+        -1
+      ],
+      "O": [
+        3
+      ],
+      "P": [
+        -1
+      ],
+      "Q": [
+        -2
+      ],
+      "R": [
+        -2
+      ],
+      "S": [
+        5
+      ],
+      "T": [
+        2
+      ],
+      "U": [
+        3
+      ]
+    },
+    "given": {
+      "STU": [
+        [
+          "gnomon",
+          [
+            312.5,
+            162.5
+          ],
+          [
+            221.96699141100893,
+            200
+          ],
+          [
+            275,
+            253.03300858899107
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              50.000000000000014,
+              200
+            ],
+            [
+              275,
+              200
+            ],
+            [
+              275,
+              425
+            ],
+            [
+              425,
+              425
+            ],
+            [
+              425,
+              50
+            ],
+            [
+              50,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "CK": "CGKB",
+      "KD": "KNDB",
+      "DK": "KNDB",
+      "GR": "GQRK",
+      "RN": "RPNK",
+      "CP": "CQPD",
+      "AG": "AMGC",
+      "MQ": "MOQG",
+      "QL": "QHLR",
+      "RF": "RLFP",
+      "ML": "MELK",
+      "AK": "AMKB",
+      "OH": "OEHQ"
+    }
+  },
+  {
+    "id": "2.9",
+    "title": "Proposition 9",
+    "prose": "If a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.\n\nFor let any straight-line {AB line} have been cut---equally at {C point}, and unequally at {D point}.\nI say that the (sum of the) squares on {AD line} and {DB line} is double the (sum of the squares) on {AC line} and {CD line}.\n\nFor let {CE line} have been drawn from (point) {C point}, at right-angles to {AB line} [Prop. 1.11], and let it be made equal to each of {AC line} and {CB line} [Prop. 1.3], and let {EA line} and {EB line} have been joined.\nAnd let {DF line} have been drawn through (point) {D point}, parallel to {EC line} [Prop. 1.31],\nand (let) {FG line} (have been drawn) through (point) {F point}, (parallel) to {AB line} [Prop. 1.31].\nAnd let {AF line} have been joined.\nAnd since {AC line} is equal to {CE line}, the angle {EAC angle} is also equal to the (angle) {AEC angle} [Prop. 1.5].\nAnd since the (angle) at {C point} is a right-angle, the (sum of the) remaining angles (of triangle {AEC polygon}), {EAC angle} and {AEC angle}, is thus equal to one right-angle [Prop. 1.32].\nAnd they are equal.\nThus, (angles) {CEA angle} and {CAE angle} are each half a right-angle.\nSo, for the same (reasons), (angles) {CEB angle} and {EBC angle} are also each half a right-angle.\nThus, the whole (angle) {AEB angle} is a right-angle.\nAnd since {GEF angle} is half a right-angle, and {EGF angle} (is) a right-angle---for it is equal to the internal and opposite (angle) {ECB angle} [Prop. 1.29]---the remaining (angle) {EFG angle} is thus half a right-angle [Prop. 1.32].\nThus, angle {GEF angle} [is] equal to {EFG angle}.\nSo the side {EG line} is also equal to the (side) {GF line} [Prop. 2.6].\nAgain, since the angle at {B point} is half a right-angle, and (angle) {FDB angle} (is) a right-angle---for again it is equal to the internal and opposite (angle) {ECB angle} [Prop. 1.29]--- the remaining (angle) {BFD angle} is half a right-angle [Prop. 1.32].\nThus, the angle at {B point} (is) equal to {DFB angle}.\nSo the side {FD line} is also equal to the side {DB line} [Prop. 1.6].\nAnd since {AC line} is equal to {CE line}, the (square) on {AC line} (is) also equal to the (square) on {CE line}.\nThus, the (sum of the) squares on {AC line} and {CE line} is double the (square) on {AC line}.\nAnd the square on {EA line} is equal to the (sum of the) squares on {AC line} and {CE line}.\nFor angle {ACE angle} (is) a right-angle [Prop. 1.47].\nThus, the (square) on {EA line} is double the (square) on {AC line}.\nAgain, since {EG line} is equal to {GF line}, the (square) on {EG line} (is) also equal to the (square) on {GF line}.\nThus, the (sum of the squares) on {EG line} and {GF line} is double the square on {GF line}.\nAnd the square on {EF line} is equal to the (sum of the) squares on {EG line} and {GF line} [Prop. 1.47].\nThus, the square on {EF line} is double the (square) on {GF line}.\nAnd {GF line} (is) equal to {CD line} [Prop. 1.34].\nThus, the (square) on {EF line} is double the (square) on {CD line}.\nAnd the (square) on {EA line} is also double the (square) on {AC line}.\nThus, the (sum of the) squares on {AE line} and {EF line} is double the (sum of the) squares on {AC line} and {CD line}.\nAnd the square on {AF line} is equal to the (sum of the squares) on {AE line} and {EF line}.\nFor the angle {AEF angle} is a right-angle [Prop. 1.47].\nThus, the square on {AF line} is double the (sum of the squares) on {AC line} and {CD line}.\nAnd the (sum of the squares) on {AD line} and {DF line} (is) equal to the (square) on {AF line}.\nFor the angle at {D point} is a right-angle [Prop. 1.47].\nThus, the (sum of the squares) on {AD line} and {DF line} is double the (sum of the) squares on {AC line} and {CD line}.\nAnd {DF line} (is) equal to {DB line}.\nThus, the (sum of the) squares on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.\n\nThus, if a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        250
+      ],
+      "B": [
+        450,
+        250
+      ],
+      "C": [
+        250,
+        250
+      ],
+      "D": [
+        330,
+        250
+      ],
+      "E": [
+        250,
+        50
+      ],
+      "F": [
+        330,
+        130
+      ],
+      "G": [
+        250,
+        130
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          250,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          330,
+          250
+        ],
+        [
+          330,
+          130
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          130
+        ],
+        [
+          330,
+          130
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          330,
+          130
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        0
+      ],
+      "G": [
+        3,
+        0.7
+      ]
+    }
+  },
+  {
+    "id": "2.10",
+    "title": "Proposition 10",
+    "prose": "If a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).\n\nFor let any straight-line {AB line} have been cut in half at (point) {C point}, and let any straight-line {BD line} have been added to it straight-on.\nI say that the (sum of the) squares on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.\n\nFor let {CE line} have been drawn from point {C point}, at right-angles to {AB line} [Prop. 1.11], and let it be made equal to each of {AC line} and {CB line} [Prop. 1.3], and let {EA line} and {EB line} have been joined.\nAnd let {EF line} have been drawn through {E point}, parallel to {AD line} [Prop. 1.31], and let {FD line} have been drawn through {D point}, parallel to {CE line} [Prop. 1.31].\nAnd since some straight-line {EF line} falls across the parallel straight-lines {EC line} and {FD line}, the (internal angles) {CEF angle} and {EFD angle} are thus equal to two right-angles [Prop. 1.29].\nThus, {FEB angle} and {EFD angle} are less than two right-angles.\nAnd (straight-lines) produced from (internal angles whose sum is) less than two right-angles meet together [Post. 5].\nThus, being produced in the direction of {B point} and {D point}, the (straight-lines) {EB line} and {FD line} will meet.\nLet them have been produced, and let them meet together at {G point}, and let {AG line} have been joined.\nAnd since {AC line} is equal to {CE line}, angle {EAC angle} is also equal to (angle) {AEC angle} [Prop. 1.5].\nAnd the (angle) at {C point} (is) a right-angle.\nThus, {EAC angle} and {AEC angle} [are] each half a right-angle [Prop. 1.32].\nSo, for the same (reasons), {CEB angle} and {EBC angle} are also each half a right-angle.\nThus, (angle) {AEB angle} is a right-angle.\nAnd since {EBC angle} is half a right-angle, {DBG angle} (is) thus also half a right-angle [Prop. 1.15].\nAnd {BDG angle} is also a right-angle.\nFor it is equal to {DCE angle}.\nFor (they are) alternate (angles) [Prop. 1.29].\nThus, the remaining (angle) {DGB angle} is half a right-angle.\nThus, {DGB angle} is equal to {DBG angle}.\nSo side {BD line} is also equal to side {GD line} [Prop. 1.6].\nAgain, since {EGF angle} is half a right-angle, and the (angle) at {F point} (is) a right-angle, for it is equal to the opposite (angle) at {C point} [Prop. 1.34], the remaining (angle) {FEG angle} is thus half a right-angle.\nThus, angle {EGF angle} (is) equal to {FEG angle}.\nSo the side {GF line} is also equal to the side {EF line} [Prop. 1.6].\nAnd since [{EC line} is equal to {CA line}] the square on {EC line} is [also] equal to the square on {CA line}.\nThus, the (sum of the) squares on {EC line} and {CA line} is double the square on {CA line}.\nAnd the (square) on {EA line} is equal to the (sum of the squares) on {EC line} and {CA line} [Prop. 1.47].\nThus, the square on {EA line} is double the square on {AC line}.\nAgain, since {FG line} is equal to {EF line}, the (square) on {FG line} is also equal to the (square) on {FE line}.\nThus, the (sum of the squares) on {GF line} and {FE line} is double the (square) on {EF line}.\nAnd the (square) on {EG line} is equal to the (sum of the squares) on {GF line} and {FE line} [Prop. 1.47].\nThus, the (square) on {EG line} is double the (square) on {EF line}.\nAnd {EF line} (is) equal to {CD line} [Prop. 1.34].\nThus, the square on {EG line} is double the (square) on {CD line}.\nBut it was also shown that the (square) on {EA line} (is) double the (square) on {AC line}.\nThus, the (sum of the) squares on {AE line} and {EG line} is double the (sum of the) squares on {AC line} and {CD line}.\nAnd the square on {AG line} is equal to the (sum of the) squares on {AE line} and {EG line} [Prop. 1.47].\nThus, the (square) on {AG line} is double the (sum of the squares) on {AC line} and {CD line}.\nAnd the (sum of the squares) on {AD line} and {DG line} is equal to the (square) on {AG line} [Prop. 1.47].\nThus, the (sum of the) [squares] on {AD line} and {DG line} is double the (sum of the) [squares] on {AC line} and {CD line}.\nAnd {DG line} (is) equal to {DB line}.\nThus, the (sum of the) [squares] on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.\n\nThus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        250
+      ],
+      "B": [
+        350,
+        250
+      ],
+      "C": [
+        200,
+        250
+      ],
+      "D": [
+        440,
+        250
+      ],
+      "E": [
+        200,
+        100
+      ],
+      "F": [
+        440,
+        100
+      ],
+      "G": [
+        440,
+        340
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          440,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          200,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          440,
+          340
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          200,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          440,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          440,
+          340
+        ],
+        [
+          440,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          440,
+          340
+        ],
+        [
+          50,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        4.5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        0
+      ],
+      "G": [
+        -1.5
+      ]
+    }
+  },
+  {
+    "id": "2.11",
+    "title": "Proposition 11",
+    "prose": "To cut a given straight-line such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.\n\nLet {AB line} be the given straight-line.\nSo it is required to cut {AB line} such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.\n\nFor let the square {ABDC polygon} have been described on {AB line} [Prop. 1.46], and let {AC line} have been cut in half at point {E point} [Prop. 1.10], and let {BE line} have been joined.\nAnd let {CA line} have been drawn through to (point) {F point} (as {CF line}), and let {EF line} be made equal to {BE line} [Prop. 1.3].\nAnd let the square {FH polygon} have been described on {AF line} [Prop. 1.46], and let {GH line} have been drawn through to (point) {K point} (as {GK line}).\nI say that {AB line} has been cut at {H point} such as to make the rectangle contained by {AB line} and {BH line} equal to the square on {AH line}.\n\nFor since the straight-line {AC line} has been cut in half at {E point}, and {FA line} has been added to it, the rectangle contained by {CF line} and {FA line}, plus the square on {AE line}, is thus equal to the square on {EF line} [Prop. 2.6].\nAnd {EF line} (is) equal to {EB line}.\nThus, the (rectangle contained) by {CF line} and {FA line}, plus the (square) on {AE line}, is equal to the (square) on {EB line}.\nBut, the (sum of the squares) on {BA line} and {AE line} is equal to the (square) on {EB line}.\nFor the angle at {A point} (is) a right-angle [Prop. 1.47].\nThus, the (rectangle contained) by {CF line} and {FA line}, plus the (square) on {AE line}, is equal to the (sum of the squares) on {BA line} and {AE line}.\nLet the square on {AE line} have been subtracted from both.\nThus, the remaining rectangle contained by {CF line} and {FA line} is equal to the square on {AB line}.\nAnd {FK polygon} is the (rectangle contained) by {CF line} and {FA line}.\nFor {AF line} (is) equal to {FG line}.\nAnd {AD polygon} (is) the (square) on {AB line}.\nThus, the (rectangle) {FK polygon} is equal to the (square) {AD polygon}.\nLet (rectangle) {AK polygon} have been subtracted from both.\nThus, the remaining (square) {FH polygon} is equal to the (rectangle) {HD polygon}.\nAnd {HD polygon} is the (rectangle contained) by {AB line} and {BH line}.\nFor {AB line} (is) equal to {BD line}.\nAnd {FH polygon} (is) the (square) on {AH line}.\nThus, the rectangle contained by {AB line} and {BH line} is equal to the square on {HA line}.\n\nThus, the given straight-line {AB line} has been cut at (point) {H point} such as to make the rectangle contained by {AB line} and {BH line} equal to the square on {HA line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        200
+      ],
+      "B": [
+        300,
+        200
+      ],
+      "C": [
+        50.000000000000014,
+        450
+      ],
+      "D": [
+        300,
+        450
+      ],
+      "E": [
+        50.00000000000001,
+        325
+      ],
+      "F": [
+        49.99999999999999,
+        45.49150281252628
+      ],
+      "G": [
+        204.50849718747372,
+        45.491502812526264
+      ],
+      "H": [
+        204.50849718747372,
+        199.99999999999997
+      ],
+      "K": [
+        204.50849718747375,
+        450
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            200
+          ],
+          [
+            50.000000000000014,
+            450
+          ],
+          [
+            300,
+            450
+          ],
+          [
+            300,
+            200
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50.00000000000001,
+          325
+        ],
+        [
+          300,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          49.99999999999999,
+          45.49150281252628
+        ]
+      ],
+      [
+        "line",
+        [
+          49.99999999999999,
+          45.49150281252628
+        ],
+        [
+          204.50849718747372,
+          45.491502812526264
+        ]
+      ],
+      [
+        "line",
+        [
+          204.50849718747372,
+          45.491502812526264
+        ],
+        [
+          204.50849718747375,
+          450
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        2
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        0
+      ],
+      "K": [
+        5
+      ]
+    },
+    "polygonl": {
+      "FH": "FAHG",
+      "FK": "FCKG",
+      "AD": "ACDB",
+      "AK": "ACKH",
+      "HD": "HKDB"
+    }
+  },
+  {
+    "id": "2.12",
+    "title": "Proposition 12",
+    "prose": "In obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.\n\nLet {ABC polygon} be an obtuse-angled triangle, having the angle {BAC angle} obtuse.\nAnd let {BD line} be drawn from point {B point}, perpendicular to {CA line} produced [Prop. 1.12].\nI say that the square on {BC line} is greater than the (sum of the) squares on {BA line} and {AC line}, by twice the rectangle contained by {CA line} and {AD line}.\n\nFor since the straight-line {CD line} has been cut, at random, at point {A point}, the (square) on {DC line} is thus equal to the (sum of the) squares on {CA line} and {AD line}, and twice the rectangle contained by {CA line} and {AD line} [Prop. 2.4].\nLet the (square) on {DB line} have been added to both.\nThus, the (sum of the squares) on {CD line} and {DB line} is equal to the (sum of the) squares on {CA line}, {AD line}, and {DB line}, and twice the [rectangle contained] by {CA line} and {AD line}.\nBut, the (square) on {CB line} is equal to the (sum of the squares) on {CD line} and {DB line}.\nFor the angle at {D point} (is) a right-angle [Prop. 1.47].\nAnd the (square) on {AB line} (is) equal to the (sum of the squares) on {AD line} and {DB line} [Prop. 1.47].\nThus, the square on {CB line} is equal to the (sum of the) squares on {CA line} and {AB line}, and twice the rectangle contained by {CA line} and {AD line}.\nSo the square on {CB line} is greater than the (sum of the) squares on {CA line} and {AB line} by twice the rectangle contained by {CA line} and {AD line}.\n\nThus, in obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        200
+      ],
+      "B": [
+        74.99999999999999,
+        50
+      ],
+      "C": [
+        400,
+        200
+      ],
+      "D": [
+        75,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            75,
+            200
+          ],
+          [
+            400,
+            200
+          ],
+          [
+            74.99999999999999,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          74.99999999999999,
+          50
+        ],
+        [
+          150,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "2.13",
+    "title": "Proposition 13",
+    "prose": "In acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.\n\nLet {ABC polygon} be an acute-angled triangle, having the angle at (point) {B point} acute.\nAnd let {AD line} have been drawn from point {A point}, perpendicular to {BC line} [Prop. 1.12].\nI say that the square on {AC line} is less than the (sum of the) squares on {CB line} and {BA line}, by twice the rectangle contained by {CB line} and {BD line}.\n\nFor since the straight-line {CB line} has been cut, at random, at (point) {D point}, the (sum of the) squares on {CB line} and {BD line} is thus equal to twice the rectangle contained by {CB line} and {BD line}, and the square on {DC line} [Prop. 2.7].\nLet the square on {DA line} have been added to both.\nThus, the (sum of the) squares on {CB line}, {BD line}, and {DA line} is equal to twice the rectangle contained by {CB line} and {BD line}, and the (sum of the) squares on {AD line} and {DC line}.\nBut, the (square) on {AB line} (is) equal to the (sum of the squares) on {BD line} and {DA line}.\nFor the angle at (point) {D point} is a right-angle [Prop. 1.47].\nAnd the (square) on {AC line} (is) equal to the (sum of the squares) on {AD line} and {DC line} [Prop. 1.47].\nThus, the (sum of the squares) on {CB line} and {BA line} is equal to the (square) on {AC line}, and twice the (rectangle contained) by {CB line} and {BD line}.\nSo the (square) on {AC line} alone is less than the (sum of the) squares on {CB line} and {BA line} by twice the rectangle contained by {CB line} and {BD line}.\n\nThus, in acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        275,
+        50
+      ],
+      "B": [
+        150,
+        250
+      ],
+      "C": [
+        400,
+        250
+      ],
+      "D": [
+        275,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            275,
+            50
+          ],
+          [
+            150,
+            250
+          ],
+          [
+            400,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          275,
+          250
+        ],
+        [
+          275,
+          50
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "2.14",
+    "title": "Proposition 14",
+    "prose": "To construct a square equal to a given rectilinear figure.\n\nLet {A given} be the given rectilinear figure.\nSo it is required to construct a square equal to the rectilinear figure {A given}.\n\nFor let the right-angled parallelogram {BD polygon}, equal to the rectilinear figure {A given}, have been constructed [Prop. 1.45].\nTherefore, if {BE line} is equal to {ED line} then that (which) was prescribed has taken place.\nFor the square {BD polygon}, equal to the rectilinear figure {A given}, has been constructed.\nAnd if not, then one of the (straight-lines) {BE line} or {ED line} is greater (than the other).\nLet {BE line} be greater, and let it have been produced to {F point}, and let {EF line} be made equal to {ED line} [Prop. 1.3].\nAnd let {BF line} have been cut in half at (point) {G point} [Prop. 1.10].\nAnd, with center {G point}, and radius one of the (straight-lines) {GB line} or {GF line}, let the semi-circle {BHF given} have been drawn.\nAnd let {DE line} have been produced to {H point}, and let {GH line} have been joined.\n\nTherefore, since the straight-line {BF line} has been cut--- equally at {G point}, and unequally at {E point}---the rectangle contained by {BE line} and {EF line}, plus the square on {EG line}, is thus equal to the square on {GF line} [Prop. 2.5].\nAnd {GF line} (is) equal to {GH line}.\nThus, the (rectangle contained) by {BE line} and {EF line}, plus the (square) on {GE line}, is equal to the (square) on {GH line}.\nAnd the (sum of the) squares on {HE line} and {EG line} is equal to the (square) on {GH line} [Prop. 1.47].\nThus, the (rectangle contained) by {BE line} and {EF line}, plus the (square) on {GE line}, is equal to the (sum of the squares) on {HE line} and {EG line}.\nLet the square on {GE line} have been taken from both.\nThus, the remaining rectangle contained by {BE line} and {EF line} is equal to the square on {EH line}.\nBut, {BD polygon} is the (rectangle contained) by {BE line} and {EF line}.\nFor {EF line} (is) equal to {ED line}.\nThus, the parallelogram {BD polygon} is equal to the square on {HE line}.\nAnd {BD polygon} (is) equal to the rectilinear figure {A given}.\nThus, the rectilinear figure {A given} is also equal to the square (which) can be described on {EH line}.\n\nThus, a square---(namely), that (which) can be described on {EH line}---has been constructed, equal to the given rectilinear figure {A given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        10,
+        100
+      ],
+      "B": [
+        150,
+        190
+      ],
+      "C": [
+        150,
+        290
+      ],
+      "D": [
+        350,
+        290
+      ],
+      "E": [
+        350,
+        190
+      ],
+      "F": [
+        450,
+        190
+      ],
+      "G": [
+        300,
+        190
+      ],
+      "H": [
+        350,
+        48.57864376269049
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            60,
+            10
+          ],
+          [
+            170,
+            10
+          ],
+          [
+            100,
+            150
+          ],
+          [
+            10,
+            100
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            150,
+            190
+          ],
+          [
+            150,
+            290
+          ],
+          [
+            350,
+            290
+          ],
+          [
+            350,
+            190
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          190
+        ],
+        [
+          350,
+          48.57864376269049
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          190
+        ],
+        [
+          350,
+          48.57864376269049
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          190
+        ],
+        [
+          450,
+          190
+        ]
+      ],
+      [
+        "arc",
+        [
+          300,
+          190
+        ],
+        [
+          150,
+          190
+        ],
+        [
+          450,
+          190
+        ]
+      ]
+    ],
+    "given": {
+      "A": [
+        [
+          "polygon",
+          [
+            [
+              60,
+              10
+            ],
+            [
+              170,
+              10
+            ],
+            [
+              100,
+              150
+            ],
+            [
+              10,
+              100
+            ]
+          ]
+        ]
+      ],
+      "BHF": [
+        [
+          "arc",
+          [
+            300,
+            190
+          ],
+          [
+            150,
+            190
+          ],
+          [
+            450,
+            190
+          ]
+        ]
+      ]
+    },
+    "letters": {
+      "A": [
+        -0.5,
+        10
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        0.5
+      ]
+    },
+    "polygonl": {
+      "BD": "BCDE"
+    }
+  }
+]

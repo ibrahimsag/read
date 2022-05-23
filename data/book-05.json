@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "5.d",
+    "title": "Definitions",
+    "prose": "1. A magnitude is a part of a(nother) magnitude, the lesser of the greater, when it measures the greater.\n\n2. And the greater (magnitude is) a multiple of the lesser when it is measured by the lesser.\n\n3. A ratio is a certain type of condition with respect to size of two magnitudes of the same kind.\n\n4. (Those)magnitudes are said to have a ratio with respect to one another which, being multiplied, are capable of exceeding one another.\n\n5. Magnitudes are said to be in the same ratio, the first to the second, and the third to the fourth, when equal multiples of the first and the third either both exceed, are both equal to, or are both less than, equal multiples of the second and the fourth, respectively, being taken in corresponding order, according to any kind of multiplication whatever.\n\n6. And let magnitudes having the same ratio be called proportional.\n\n7. And when for equal multiples (as in Def. 5), the multiple of the first (magnitude) exceeds the multiple of the second, and the multiple of the third (magnitude) does not exceed the multiple of the fourth, then the first (magnitude) is said to have a greater ratio to the second than the third (magnitude has) to the fourth.\n\n8. And a proportion in three terms is the smallest (possible).\n\n9. And when three magnitudes are proportional, the first is said to have to the third the squared\" ratio of that (it has) to the\n\n10. And when four magnitudes are (continuously) proportional, the first is said to have to the fourth the cubed ratio of that (it has) to the second. And so on, similarly, in successive order, whatever the (continuous) proportion might be.\n\n11. These magnitudes are said to be corresponding (magnitudes): the leading to the leading (of two ratios), and the following to the following.\n\n12. An alternate ratio is a taking of the (ratio of the) leading (magnitude) to the leading (of two equal ratios), and (setting it equal to) the (ratio of the) following (magnitude) to the following.\n\n13. An inverse ratio is a taking of the (ratio of the) following (magnitude) as the leading and the leading (magnitude) as the following.\n\n14. A composition of a ratio is a taking of the (ratio of the) leading plus the following (magnitudes), as one, to the following (magnitude) by itself.\n\n15. A separation of a ratio is a taking of the (ratio of the) excess by which the leading (magnitude) exceeds the following to the following (magnitude) by itself.\n\n16. A conversion of a ratio is a taking of the (ratio of the) leading (magnitude) to the excess by which the leading (magnitude) exceeds the following.\n\n17. There being several magnitudes, and other (magnitudes) of equal number to them, (which are) also in the same ratio taken two by two, a ratio via equality (or ex aequali) occurs when as the first is to the last in the first (set of) magnitudes, so the first (is) to the last in the second (set of) magnitudes. Or alternately, (it is) a taking of the (ratio of the) outer (magnitudes) by the removal of the inner (magnitudes).\n\n18. There being three magnitudes, and other (magnitudes) of equal number to them, a perturbed proportion occurs when as the leading is to the following in the first (set of) magnitudes, so the leading (is) to the following in the second (set of) magnitudes, and as the following (is) to some other (i.e., the remaining magnitude) in the first (set of) magnitudes, so some other (is) to the leading in the second (set of) magnitudes.\n",
+    "points": {},
+    "shapes": [],
+    "letters": {}
+  },
+  {
+    "id": "5.1",
+    "title": "Proposition 1",
+    "prose": "If there are any number of magnitudes whatsoever (which are) equal multiples, respectively, of some (other) magnitudes, of equal number (to them), then as many times as one of the (first) magnitudes is (divisible) by one (of the second), so many times will all (of the first magnitudes) also (be divisible) by all (of the second).\n\nLet there be any number of magnitudes whatsoever, {AB magnitude}, {CD magnitude}, (which are) equal multiples, respectively, of some (other) magnitudes, {E magnitude}, {F magnitude}, of equal number (to them).\nI say that as many times as {AB magnitude} is (divisible) by {E magnitude}, so many times will {AB magnitude}, {CD magnitude} also be (divisible) by {E magnitude}, {F magnitude}.\n\nFor since {AB magnitude}, {CD magnitude} are equal multiples of {E magnitude}, {F magnitude}, thus as many magnitudes as (there) are in {AB magnitude} equal to {E magnitude}, so many (are there) also in {CD magnitude} equal to {F magnitude}.\nLet {AB magnitude} have been divided into magnitudes {AG magnitude}, {GB magnitude}, equal to {E magnitude}, and {CD magnitude} into (magnitudes) {CH magnitude}, {HD magnitude}, equal to {F magnitude}.\nSo, the number of (divisions) {AG magnitude}, {GB magnitude} will be equal to the number of (divisions) {CH magnitude}, {HD magnitude}.\nAnd since {AG magnitude} is equal to {E magnitude}, and {CH magnitude} to {F magnitude}, {AG magnitude} (is) thus equal to {E magnitude}, and {AG magnitude}, {CH magnitude} to {E magnitude}, {F magnitude}.\nSo, for the same (reasons), {GB magnitude} is equal to {E magnitude}, and {GB magnitude}, {HD magnitude} to {E magnitude}, {F magnitude}.\nThus, as many (magnitudes) as (there) are in {AB magnitude} equal to {E magnitude}, so many (are there) also in {AB magnitude}, {CD magnitude} equal to {E magnitude}, {F magnitude}.\nThus, as many times as {AB magnitude} is (divisible) by {E magnitude}, so many times will {AB magnitude}, {CD magnitude} also be (divisible) by {E magnitude}, {F magnitude}.\n\nThus, if there are any number of magnitudes whatsoever (which are) equal multiples, respectively, of some (other) magnitudes, of equal number (to them), then as many times as one of the (first) magnitudes is (divisible) by one (of the second), so many times will all (of the first magnitudes) also (be divisible) by all (of the second).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "G",
+        "m": 70
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 90,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "H",
+        "m": 90
+      },
+      {
+        "l": "D"
+      },
+      {
+        "l": "F",
+        "m": 90,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.2",
+    "title": "Proposition 2",
+    "prose": "If a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and a fifth (magnitude) and a sixth (are) also equal multiples of the second and fourth (respectively), then the first (magnitude) and the fifth, being added together, and the third and the sixth, (being added together), will also be equal multiples of the second (magnitude) and the fourth (respectively).\n\nFor let a first (magnitude) {AB magnitude} and a third {DE magnitude} be equal multiples of a second {C magnitude} and a fourth {F magnitude} (respectively).\nAnd let a fifth (magnitude) {BG magnitude} and a sixth {EH magnitude} also be (other) equal multiples of the second {C magnitude} and the fourth {F magnitude} (respectively).\nI say that the first (magnitude) and the fifth, being added together, (to give) {AG magnitude}, and the third (magnitude) and the sixth, (being added together, to give) {DH magnitude}, will also be equal multiples of the second (magnitude) {C magnitude} and the fourth {F magnitude} (respectively).\n\nFor since {AB magnitude} and {DE magnitude} are equal multiples of {C magnitude} and {F magnitude} (respectively), thus as many (magnitudes) as (there) are in {AB magnitude} equal to {C magnitude}, so many (are there) also in {DE magnitude} equal to {F magnitude}.\nAnd so, for the same (reasons), as many (magnitudes) as (there) are in {BG magnitude} equal to {C magnitude}, so many (are there) also in {EH magnitude} equal to {F magnitude}.\nThus, as many (magnitudes) as (there) are in the whole of {AG magnitude} equal to {C magnitude}, so many (are there) also in the whole of {DH magnitude} equal to {F magnitude}.\nThus, as many times as {AG magnitude} is (divisible) by {C magnitude}, so many times will {DH magnitude} also be divisible by {F magnitude}.\nThus, the first (magnitude) and the fifth, being added together, (to give) {AG magnitude}, and the third (magnitude) and the sixth, (being added together, to give) {DH magnitude}, will also be equal multiples of the second (magnitude) {C magnitude} and the fourth {F magnitude} (respectively).\n\nThus, if a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and a fifth (magnitude) and a sixth (are) also equal multiples of the second and fourth (respectively), then the first (magnitude) and the fifth, being added together, and the third and sixth, (being added together), will also be equal multiples of the second (magnitude) and the fourth (respectively).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 50,
+        "n": 3,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 50,
+        "n": 2
+      },
+      {
+        "l": "G"
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 80,
+        "n": 3,
+        "v": 70
+      },
+      {
+        "l": "E",
+        "m": 80,
+        "n": 2
+      },
+      {
+        "l": "H"
+      },
+      {
+        "l": "F",
+        "m": 80,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.3",
+    "title": "Proposition 3",
+    "prose": "If a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and equal multiples are taken of the first and the third, then, via equality, the (magnitudes) taken will also be equal multiples of the second (magnitude) and the fourth, respectively.\n\nFor let a first (magnitude) {A magnitude} and a third {C magnitude} be equal multiples of a second {B magnitude} and a fourth {D magnitude} (respectively), and let the equal multiples {EF magnitude} and {GH magnitude} have been taken of {A magnitude} and {C magnitude} (respectively).\nI say that {EF magnitude} and {GH magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).\n\nFor since {EF magnitude} and {GH magnitude} are equal multiples of {A magnitude} and {C magnitude} (respectively), thus as many (magnitudes) as (there) are in {EF magnitude} equal to {A magnitude}, so many (are there) also in {GH magnitude} equal to {C magnitude}.\nLet {EF magnitude} have been divided into magnitudes {EK magnitude}, {KF magnitude} equal to {A magnitude}, and {GH magnitude} into (magnitudes) {GL magnitude}, {LH magnitude} equal to {C magnitude}.\nSo,the number of (magnitudes) {EK magnitude}, {KF magnitude} will be equal to the number of (magnitudes) {GL magnitude}, {LH magnitude}.\nAnd since {A magnitude} and {C magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively), and {EK magnitude} (is) equal to {A magnitude}, and {GL magnitude} to {C magnitude}, {EK magnitude} and {GL magnitude} are thus equal multiples of {B magnitude} and {D magnitude} (respectively).\nSo, for the same (reasons), {KF magnitude} and {LH magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).\nTherefore, since the first (magnitude) {EK magnitude} and the third {GL magnitude} are equal multiples of the second {B magnitude} and the fourth {D magnitude} (respectively), and the fifth (magnitude) {KF magnitude} and the sixth {LH magnitude} are also equal multiples of the second {B magnitude} and the fourth {D magnitude} (respectively), then the first (magnitude) and fifth, being added together, (to give) {EF magnitude}, and the third (magnitude) and sixth, (being added together, to give) {GH magnitude}, are thus also equal multiples of the second (magnitude) {B magnitude} and the fourth {D magnitude} (respectively) [Prop. 5.2].\n\nThus, if a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and equal multiples are taken of the first and the third, then, via equality, the (magnitudes) taken will also be equal multiples of the second (magnitude) and the fourth, respectively.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "n": 3,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 210,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 210
+      },
+      {
+        "l": "F"
+      },
+      {
+        "l": "C",
+        "m": 40,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 40,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 120,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 120
+      },
+      {
+        "l": "H"
+      }
+    ]
+  },
+  {
+    "id": "5.4",
+    "title": "Proposition 4",
+    "prose": "If a first (magnitude) has the same ratio to a second that a third (has) to a fourth then equal multiples of the first (magnitude) and the third will also have the same ratio to equal multiples of the second and the fourth, being taken in corresponding order, according to any kind of multiplication whatsoever.\n\nFor let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}.\nAnd let equal multiples {E magnitude} and {F magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and other random equal multiples {G magnitude} and {H magnitude} of {B magnitude} and {D magnitude} (respectively).\nI say that as {E magnitude} (is) to {G magnitude}, so {F magnitude} (is) to {H magnitude}.\n\nFor let equal multiples {K magnitude} and {L magnitude} have been taken of {E magnitude} and {F magnitude} (respectively), and other random equal multiples {M magnitude} and {N magnitude} of {G magnitude} and {H magnitude} (respectively).\n\n[And] since {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {C magnitude} (respectively), and the equal multiples {K magnitude} and {L magnitude} have been taken of {E magnitude} and {F magnitude} (respectively), {K magnitude} and {L magnitude} are thus equal multiples of {A magnitude} and {C magnitude} (respectively) [Prop. 5.3].\nSo, for the same (reasons), {M magnitude} and {N magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).\nAnd since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {K magnitude} and {L magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {M magnitude} and {N magnitude} of {B magnitude} and {D magnitude} (respectively), then if {K magnitude} exceeds {M magnitude} then {L magnitude} also exceeds {N magnitude} , and if ({K magnitude} is) equal (to {M magnitude} then {L magnitude} is also) equal (to {N magnitude}), and if ({K magnitude} is) less (than {M magnitude} then {L magnitude} is also) less (than {N magnitude} ) [Def. 5.5].\nAnd {K magnitude} and {L magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively), and {M magnitude} and {N magnitude} other random equal multiples of {G magnitude} and {H magnitude} (respectively).\nThus, as {E magnitude} (is) to {G magnitude}, so {F magnitude} (is) to {H magnitude} [Def.5.5].\n\nThus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth then equal multiples of the first (magnitude) and the third will also have the same ratio to equal multiples of the second and the fourth, being taken in corresponding order, according to any kind of multiplication whatsoever.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          40
+        ]
+      },
+      {
+        "l": "B",
+        "m": 28.57142857142857,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 60,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 28.57142857142857,
+        "n": 3,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 120,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "M",
+        "m": 85.71428571428571,
+        "n": 3,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 23.80952380952381,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 50,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 23.80952380952381,
+        "n": 3,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 100,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 71.42857142857143,
+        "n": 3,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "5.5",
+    "title": "Proposition 5",
+    "prose": "If a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).\n\nFor let the magnitude {AB magnitude} be the same multiple of the magnitude {CD magnitude} that the (part) taken away {AE magnitude} (is) of the (part) taken away {CF magnitude} (respectively).\nI say that the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).\n\nFor as many times as {AE magnitude} is (divisible) by {CF magnitude}, so many times let {EB magnitude} also have been made (divisible) by {CG magnitude}.\n\nAnd since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), {AE magnitude} and {AB magnitude} are thus equal multiples of {CF magnitude} and {GF magnitude} (respectively) [Prop. 5.1].\nAnd {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).\nThus, {AB magnitude} is an equal multiple of each of {GF magnitude} and {CD magnitude}.\nThus, {GF magnitude} (is) equal to {CD magnitude}.\nLet {CF magnitude} have been subtracted from both.\nThus, the remainder {GC magnitude} is equal to the remainder {FD magnitude}.\nAnd since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), and {GC magnitude} (is) equal to {DF magnitude}, {AE magnitude} and {EB magnitude} are thus equal multiples of {CF magnitude} and {FD magnitude} (respectively).\nAnd {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).\nThus, {EB magnitude} and {AB magnitude} are equal multiples of {FD magnitude} and {CD magnitude} (respectively).\nThus, the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).\n\nThus, if a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 80,
+        "n": 3,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 50,
+        "n": 3
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "G",
+        "m": 50,
+        "v": 80
+      },
+      {
+        "l": "C",
+        "m": 80
+      },
+      {
+        "l": "F",
+        "m": 50
+      },
+      {
+        "l": "D"
+      }
+    ]
+  },
+  {
+    "id": "5.6",
+    "title": "Proposition 6",
+    "prose": "If two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).\n\nFor let two magnitudes {AB magnitude} and {CD magnitude} be equal multiples of two magnitudes {E magnitude} and {F magnitude} (respectively).\nAnd let the (parts) taken away {AG magnitude} and {CH magnitude} be equal multiples of {E magnitude} and {F magnitude} (respectively).\nI say that the remainders {GB magnitude} and {HD magnitude} are also either equal to {E magnitude} and {F magnitude} (respectively), or (are) equal multiples of them.\n\nFor let {GB magnitude} be, first of all, equal to {E magnitude}.\nI say that {HD magnitude} is also equal to {F magnitude}.\n\nFor let {CK magnitude} be made equal to {F magnitude}.\nSince {AG magnitude} and {CH magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively), and {GB magnitude} (is) equal to {E magnitude}, and {KC magnitude} to {F magnitude}, {AB magnitude} and {KH magnitude} are thus equal multiples of {E magnitude} and {F magnitude} (respectively) [Prop. 5.2].\nAnd {AB magnitude} and {CD magnitude} are assumed (to be) equal multiples of {E magnitude} and {F magnitude} (respectively).\nThus, {KH magnitude} and {CD magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively).\nTherefore, {KH magnitude} and {CD magnitude} are each equal multiples of {F magnitude}.\nThus, {KH magnitude} is equal to {CD magnitude}.\nLet {CH magnitude} have be taken away from both.\nThus, the remainder {KC magnitude} is equal to the remainder {HD magnitude}.\nBut, {F magnitude} is equal to {KC magnitude}.\nThus, {HD magnitude} is also equal to {F magnitude}.\nHence, if {GB magnitude} is equal to {E magnitude} then {HD magnitude} will also be equal to {F magnitude}.\n\nSo, similarly, we can show that even if {GB magnitude} is a multiple of {E magnitude} then {HD magnitude} will also be the same multiple of {F magnitude}.\n\nThus, if two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "n": 3,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "G",
+        "m": 70
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 70,
+        "v": 80
+      },
+      {
+        "l": "C",
+        "m": 70,
+        "n": 3
+      },
+      {
+        "l": "H",
+        "m": 70
+      },
+      {
+        "l": "D"
+      },
+      {
+        "l": "F",
+        "m": 70,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.7",
+    "title": "Proposition 7",
+    "prose": "Equal (magnitudes) have the same ratio to the same (magnitude), and the latter (magnitude has the same ratio) to the equal (magnitudes).\n\nLet {A magnitude} and {B magnitude} be equal magnitudes, and {C magnitude} some other random magnitude.\nI say that {A magnitude} and {B magnitude} each have the same ratio to {C magnitude}, and (that) {C magnitude} (has the same ratio) to each of {A magnitude} and {B magnitude}.\n\nFor let the equal multiples {D magnitude} and {E magnitude} have been taken of {A magnitude} and {B magnitude} (respectively), and the other random multiple {F magnitude} of {C magnitude}.\n\nTherefore, since {D magnitude} and {E magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and {A magnitude} (is) equal to {B magnitude}, {D magnitude} (is) thus also equal to {E magnitude}.\nAnd {F magnitude} (is) different, at random.\nThus, if {D magnitude} exceeds {F magnitude} then {E magnitude} also exceeds {F magnitude}, and if ({D magnitude} is) equal (to {F magnitude} then {E magnitude} is also) equal (to {F magnitude}), and if ({D magnitude} is) less (than {F magnitude} then {E magnitude} is also) less (than {F magnitude}).\nAnd {D magnitude} and {E magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and {F magnitude} another random multiple of {C magnitude}.\nThus, as {A magnitude} (is) to {C magnitude}, so {B magnitude} (is) to {C magnitude} [Def. 5.5].\n\n[So] I say that {C magnitude} also has the same ratio to each of {A magnitude} and {B magnitude}.\n\nFor, similarly, we can show, by the same construction, that {D magnitude} is equal to {E magnitude}.\nAnd {F magnitude} (has) some other (value).\nThus, if {F magnitude} exceeds {D magnitude} then it also exceeds {E magnitude}, and if ({F magnitude} is) equal (to {D magnitude} then it is also) equal (to {E magnitude}), and if ({F magnitude} is) less (than {D magnitude} then it is also) less (than {E magnitude}).\nAnd {F magnitude} is a multiple of {C magnitude}, and {D magnitude} and {E magnitude} other random equal multiples of {A magnitude} and {B magnitude}.\nThus, as {C magnitude} (is) to {A magnitude}, so {C magnitude} (is) to {B magnitude} [Def. 5.5].\n\nThus, equal (magnitudes) have the same ratio to the same (magnitude), and the latter (magnitude has the same ratio) to the equal (magnitudes).\n\nCorollary\n\nSo (it is) clear, from this, that if some magnitudes are proportional then they will also be proportional inversely.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 60,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 60,
+        "n": 4,
+        "p": [
+          180,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 60,
+        "n": 4,
+        "v": 50
+      },
+      {
+        "l": "F",
+        "m": 70,
+        "n": 3,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.8",
+    "title": "Proposition 8",
+    "prose": "For unequal magnitudes, the greater (magnitude) has a greater ratio than the lesser to the same (magnitude).\nAnd the latter (magnitude) has a greater ratio to the lesser (magnitude) than to the greater.\n\nLet {AB magnitude} and {C magnitude} be unequal magnitudes, and let {AB magnitude} be the greater (of the two), and {D magnitude} another random magnitude.\nI say that {AB magnitude} has a greater ratio to {D magnitude} than {C magnitude} (has) to {D magnitude}, and (that) {D magnitude} has a greater ratio to {C magnitude} than (it has) to {AB magnitude}.\n\nFor since {AB magnitude} is greater than {C magnitude}, let {BE magnitude} be made equal to {C magnitude}.\nSo, the lesser of {AE magnitude} and {EB magnitude}, being multiplied, will sometimes be greater than {D magnitude} [Def. 5.4].\n{figure 1}First of all, let {AE magnitude} be less than {EB magnitude}, and let {AE magnitude} have been multiplied, and let {FG magnitude} be a multiple of it which (is) greater than {D magnitude}.\nAnd as many times as {FG magnitude} is (divisible) by {AE magnitude}, so many times let {GH magnitude} also have become (divisible) by {EB magnitude}, and {K magnitude} by {C magnitude}.\nAnd let the double multiple {L magnitude} of {D magnitude} have been taken, and the triple multiple {M magnitude}, and several more, (each increasing) in order by one, until the (multiple) taken becomes the first multiple of {D magnitude} (which is) greater than {K magnitude}.\nLet it have been taken, and let it also be the quadruple multiple {N magnitude} of {D magnitude}---the first (multiple) greater than {K magnitude}.\n\nTherefore, since {K magnitude} is less than {N magnitude} first, {K magnitude} is thus not less than {M magnitude}.\nAnd since {FG magnitude} and {GH magnitude} are equal multiples of {AE magnitude} and {EB magnitude} (respectively), {FG magnitude} and {FH magnitude} are thus equal multiples of {AE magnitude} and {AB magnitude} (respectively) [Prop. 5.1].\nAnd {FG magnitude} and {K magnitude} are equal multiples of {AE magnitude} and {C magnitude} (respectively).\nThus, {FH magnitude} and {K magnitude} are equal multiples of {AB magnitude} and {C magnitude} (respectively).\nThus, {FH magnitude}, {K magnitude} are equal multiples of {AB magnitude}, {C magnitude}.\nAgain, since {GH magnitude} and {K magnitude} are equal multiples of {EB magnitude} and {C magnitude}, and {EB magnitude} (is) equal to {C magnitude}, {GH magnitude} (is) thus also equal to {K magnitude}.\nAnd {K magnitude} is not less than {M magnitude}.\nThus, {GH magnitude} not less than {M magnitude} either.\nAnd {FG magnitude} (is) greater than {D magnitude}.\nThus, the whole of {FH magnitude} is greater than {D magnitude} and {M magnitude} (added) together.\nBut, {D magnitude} and {M magnitude} (added) together is equal to {N magnitude}, inasmuch as {M magnitude} is three times {D magnitude}, and {M magnitude} and {D magnitude} (added) together is four times {D magnitude}, and {N magnitude} is also four times {D magnitude}.\nThus, {M magnitude} and {D magnitude} (added) together is equal to {N magnitude}.\nBut, {FH magnitude} is greater than {M magnitude} and {D magnitude}.\nThus, {FH magnitude} exceeds {N magnitude}.\nAnd {K magnitude} does not exceed {N magnitude}.\nAnd {FH magnitude}, {K magnitude} are equal multiples of {AB magnitude}, {C magnitude}, and {N magnitude} another random multiple of {D magnitude}.\nThus, {AB magnitude} has a greater ratio to {D magnitude} than {C magnitude} (has) to {D magnitude} [Def. 5.7].\n\nSo, I say that {D magnitude} also has a greater ratio to {C magnitude} than {D magnitude} (has) to {AB magnitude}.\n\nFor, similarly, by the same construction, we can show that {N magnitude} exceeds {K magnitude}, and {N magnitude} does not exceed {FH magnitude}.\nAnd {N magnitude} is a multiple of {D magnitude}, and {FH magnitude}, {K magnitude} other random equal multiples of {AB magnitude}, {C magnitude} (respectively).\nThus, {D magnitude} has a greater ratio to {C magnitude} than {D magnitude} (has) to {AB magnitude} [Def. 5.5].\n\n{figure 2}And so let {AE magnitude} be greater than {EB magnitude}.\nSo, the lesser, {EB magnitude}, being multiplied, will sometimes be greater than {D magnitude}.\nLet it have been multiplied, and let {GH magnitude} be a multiple of {EB magnitude} (which is) greater than {D magnitude}.\nAnd as many times as {GH magnitude} is (divisible) by {EB magnitude}, so many times let {FG magnitude} also have become (divisible) by {AE magnitude}, and {K magnitude} by {C magnitude}.\nSo, similarly (to the above), we can show that {FH magnitude} and {K magnitude} are equal multiples of {AB magnitude} and {C magnitude} (respectively).\nAnd, similarly (to the above), let the multiple {N magnitude} of {D magnitude}, (which is) the first (multiple) greater than {FG magnitude}, have been taken.\nSo, {FG magnitude} is again not less than {M magnitude}.\nAnd {GH magnitude} (is) greater than {D magnitude}.\nThus, the whole of {FH magnitude} exceeds {D magnitude} and {M magnitude}, that is to say {N magnitude}.\nAnd {K magnitude} does not exceed {N magnitude}, inasmuch as {FG magnitude}, which (is) greater than {GH magnitude} ---that is to say, {K magnitude} ---also does not exceed {N magnitude}.\nAnd, following the above (arguments), we (can) complete the proof in the same manner.\n\nThus, for unequal magnitudes, the greater (magnitude) has a greater ratio than the lesser to the same (magnitude).\nAnd the latter (magnitude) has a greater ratio to the lesser (magnitude) than to the greater.\n(Which is) the very thing it was required to show.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "mags": [
+          {
+            "l": "A",
+            "m": 25,
+            "p": [
+              40,
+              50
+            ]
+          },
+          {
+            "l": "E",
+            "m": 60
+          },
+          {
+            "l": "B"
+          },
+          {
+            "l": "C",
+            "m": 60,
+            "v": 40
+          },
+          {
+            "l": "F",
+            "m": 25,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "G",
+            "m": 60,
+            "n": 2
+          },
+          {
+            "l": "H"
+          },
+          {
+            "l": "K",
+            "m": 60,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "D",
+            "m": 35,
+            "v": 40
+          },
+          {
+            "l": "L",
+            "m": 35,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "M",
+            "m": 35,
+            "n": 3,
+            "v": 40
+          },
+          {
+            "l": "N",
+            "m": 35,
+            "n": 4,
+            "v": 40
+          }
+        ]
+      },
+      {
+        "mags": [
+          {
+            "l": "A",
+            "m": 60,
+            "p": [
+              290,
+              50
+            ]
+          },
+          {
+            "l": "E",
+            "m": 25
+          },
+          {
+            "l": "B"
+          },
+          {
+            "l": "C",
+            "m": 25,
+            "v": 40
+          },
+          {
+            "l": "F",
+            "m": 60,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "G",
+            "m": 25,
+            "n": 2
+          },
+          {
+            "l": "H"
+          },
+          {
+            "l": "K",
+            "m": 25,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "D",
+            "m": 35,
+            "v": 40
+          },
+          {
+            "l": "L",
+            "m": 35,
+            "n": 2,
+            "v": 40
+          },
+          {
+            "l": "M",
+            "m": 35,
+            "n": 3,
+            "v": 40
+          },
+          {
+            "l": "N",
+            "m": 35,
+            "n": 4,
+            "v": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5.9",
+    "title": "Proposition 9",
+    "prose": "(Magnitudes) having the same ratio to the same (magnitude) are equal to one another.\nAnd those (magnitudes) to which the same (magnitude) has the same ratio are equal.\n\nFor let {A magnitude} and {B magnitude} each have the same ratio to {C magnitude}.\nI say that {A magnitude} is equal to {B magnitude}.\n\nFor if not, {A magnitude} and {B magnitude} would not each have the same ratio to {C magnitude} [Prop. 5.8].\nBut they do.\nThus, {A magnitude} is equal to {B magnitude}.\n\nSo, again, let {C magnitude} have the same ratio to each of {A magnitude} and {B magnitude}.\nI say that {A magnitude} is equal to {B magnitude}.\n\nFor if not, {C magnitude} would not have the same ratio to each of {A magnitude} and {B magnitude} [Prop. 5.8].\nBut it does.\nThus, {A magnitude} is equal to {B magnitude}.\n\nThus, (magnitudes) having the same ratio to the same (magnitude) are equal to one another.\nAnd those (magnitudes) to which the same (magnitude) has the same ratio are equal.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 140,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "p": [
+          150,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5.10",
+    "title": "Proposition 10",
+    "prose": "For (magnitudes) having a ratio to the same (magnitude), that (magnitude which) has the greater ratio is (the) greater.\nAnd that (magnitude) to which the latter (magnitude) has a greater ratio is (the) lesser.\n\nFor let {A magnitude} have a greater ratio to {C magnitude} than {B magnitude} (has) to {C magnitude}.\nI say that {A magnitude} is greater than {B magnitude}.\n\nFor if not, {A magnitude} is surely either equal to or less than {B magnitude}.\nIn fact, {A magnitude} is not equal to {B magnitude}.\nFor (then) {A magnitude} and {B magnitude} would each have the same ratio to {C magnitude} [Prop. 5.7].\nBut they do not.\nThus, {A magnitude} is not equal to {B magnitude}.\nNeither, indeed, is {A magnitude} less than {B magnitude}.\nFor (then) {A magnitude} would have a lesser ratio to {C magnitude} than {B magnitude} (has) to {C magnitude} [Prop. 5.8].\nBut it does not.\nThus, {A magnitude} is not less than {B magnitude}.\nAnd it was shown not (to be) equal either.\nThus, {A magnitude} is greater than {B magnitude}.\n\nSo, again, let {C magnitude} have a greater ratio to {B magnitude} than {C magnitude} (has) to {A magnitude}.\nI say that {B magnitude} is less than {A magnitude}.\n\nFor if not, (it is) surely either equal or greater.\nIn fact, {B magnitude} is not equal to {A magnitude}.\nFor (then) {C magnitude} would have the same ratio to each of {A magnitude} and {B magnitude} [Prop. 5.7].\nBut it does not.\nThus, {A magnitude} is not equal to {B magnitude}.\nNeither, indeed, is {B magnitude} greater than {A magnitude}.\nFor (then) {C magnitude} would have a lesser ratio to {B magnitude} than (it has) to {A magnitude} [Prop. 5.8].\nBut it does not.\nThus, {B magnitude} is not greater than {A magnitude}.\nAnd it was shown that (it is) not equal (to {A magnitude}) either.\nThus, {B magnitude} is less than {A magnitude}.\n\nThus, for (magnitudes) having a ratio to the same (magnitude), that (magnitude which) has the greater ratio is (the) greater.\nAnd that (magnitude) to which the latter (magnitude) has a greater ratio is (the) lesser.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 140,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 100,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "p": [
+          150,
+          120
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5.11",
+    "title": "Proposition 11",
+    "prose": "(Ratios which are) the same with the same ratio are also the same with one another.\n\nFor let it be that as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and as {C magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {F magnitude}.\nI say that as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\n\nFor let the equal multiples {G magnitude}, {H magnitude}, {K magnitude} have been taken of {A magnitude}, {C magnitude}, {E magnitude} (respectively), and the other random equal multiples {L magnitude}, {M magnitude}, {N magnitude} of {B magnitude}, {D magnitude}, {F magnitude} (respectively).\n\nAnd since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {G magnitude} and {H magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {L magnitude} and {M magnitude} of {B magnitude} and {D magnitude} (respectively), thus if {G magnitude} exceeds {L magnitude} then {H magnitude} also exceeds {M magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {H magnitude} is also) equal (to {M magnitude}), and if ({G magnitude} is) less (than {L magnitude} then {H magnitude} is also) less (than {M magnitude}) [Def. 5.5].\nAgain, since as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude}, and the equal multiples {H magnitude} and {K magnitude} have been taken of {C magnitude} and {E magnitude} (respectively), and the other random equal multiples {M magnitude} and {N magnitude} of {D magnitude} and {F magnitude} (respectively), thus if {H magnitude} exceeds {M magnitude} then {K magnitude} also exceeds {N magnitude}, and if ({H magnitude} is) equal (to {M magnitude} then {K magnitude} is also) equal (to {N magnitude}), and if ({H magnitude} is) less (than {M magnitude} then {K magnitude} is also) less (than {N magnitude}) [Def. 5.5].\nBut (we saw that) if {H magnitude} was exceeding {M magnitude} then {G magnitude} was also exceeding {L magnitude}, and if ({H magnitude} was) equal (to {M magnitude} then {G magnitude} was also) equal (to {L magnitude}), and if ({H magnitude} was) less (than {M magnitude} then {G magnitude} was also) less (than {L magnitude}).\nAnd, hence, if {G magnitude} exceeds {L magnitude} then {K magnitude} also exceeds {N magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {K magnitude} is also) equal (to {N magnitude}), and if ({G magnitude} is) less (than {L magnitude} then {K magnitude} is also) less (than {N magnitude}).\nAnd {G magnitude} and {K magnitude} are equal multiples of {A magnitude} and {E magnitude} (respectively), and {L magnitude} and {N magnitude} other random equal multiples of {B magnitude} and {F magnitude} (respectively).\nThus, as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude} [Def. 5.5].\n\nThus, (ratios which are) the same with the same ratio are also the same with one another.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 30,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 23.076923076923077,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 30,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 23.076923076923077,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "p": [
+          180,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 38.46153846153846,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 50,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "M",
+        "m": 38.46153846153846,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 60,
+        "p": [
+          350,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 46.15384615384615,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 60,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "N",
+        "m": 46.15384615384615,
+        "n": 3,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.12",
+    "title": "Proposition 12",
+    "prose": "If there are any number of magnitudes whatsoever (which are) proportional then as one of the leading (magnitudes is) to one of the following, so will all of the leading (magnitudes) be to all of the following.\n\nLet there be any number of magnitudes whatsoever, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, (which are) proportional, (so that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and {E magnitude} to {F magnitude}.\nI say that as {A magnitude} is to {B magnitude}, so {A magnitude}, {C magnitude}, {E magnitude} (are) to {B magnitude}, {D magnitude}, {F magnitude}.\n\nFor let the equal multiples {G magnitude}, {H magnitude}, {K magnitude} have been taken of {A magnitude}, {C magnitude}, {E magnitude} (respectively), and the other random equal multiples {L magnitude}, {M magnitude}, {N magnitude} of {B magnitude}, {D magnitude}, {F magnitude} (respectively).\n\nAnd since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and {E magnitude} to {F magnitude}, and the equal multiples {G magnitude}, {H magnitude}, {K magnitude} have been taken of {A magnitude}, {C magnitude}, {E magnitude} (respectively), and the other random equal multiples {L magnitude}, {M magnitude}, {N magnitude} of {B magnitude}, {D magnitude}, {F magnitude} (respectively), thus if {G magnitude} exceeds {L magnitude} then {H magnitude} also exceeds {M magnitude}, and {K magnitude} (exceeds) {N magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {H magnitude} is also) equal (to {M magnitude}, and {K magnitude} to {N magnitude}), and if ({G magnitude} is) less (than {L magnitude} then {H magnitude} is also) less (than {M magnitude}, and {K magnitude} than {N magnitude}) [Def. 5.5].\nAnd, hence, if {G magnitude} exceeds {L magnitude} then {G magnitude}, {H magnitude}, {K magnitude} also exceed {L magnitude}, {M magnitude}, {N magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {G magnitude}, {H magnitude}, {K magnitude} are also) equal (to {L magnitude}, {M magnitude}, {N magnitude}) and if ({G magnitude} is) less (than {L magnitude} then {G magnitude}, {H magnitude}, {K magnitude} are also) less (than {L magnitude}, {M magnitude}, {N magnitude}).\nAnd {G magnitude} and {G magnitude}, {H magnitude}, {K magnitude} are equal multiples of {A magnitude} and {A magnitude}, {C magnitude}, {E magnitude} (respectively), inasmuch as if there are any number of magnitudes whatsoever (which are) equal multiples, respectively, of some (other) magnitudes, of equal number (to them), then as many times as one of the (first) magnitudes is (divisible) by one (of the second), so many times will all (of the first magnitudes) also (be divisible) by all (of the second) [Prop. 5.1].\nSo, for the same (reasons), {L magnitude} and {L magnitude}, {M magnitude}, {N magnitude} are also equal multiples of {B magnitude} and {B magnitude}, {D magnitude}, {F magnitude} (respectively).\nThus, as {A magnitude} is to {B magnitude}, so {A magnitude}, {C magnitude}, {E magnitude} (are) to {B magnitude}, {D magnitude}, {F magnitude} (respectively).\n\nThus, if there are any number of magnitudes whatsoever (which are) proportional then as one of the leading (magnitudes is) to one of the following, so will all of the leading (magnitudes) be to all of the following.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 42.85714285714286,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 70,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 50,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 40,
+        "p": [
+          350,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 28.571428571428573,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 120,
+        "p": [
+          50,
+          180
+        ]
+      },
+      {
+        "l": "H",
+        "m": 140,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 171.42857142857144,
+        "p": [
+          280,
+          180
+        ]
+      },
+      {
+        "l": "M",
+        "m": 200,
+        "v": 50
+      },
+      {
+        "l": "N",
+        "m": 114.28571428571429,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.13",
+    "title": "Proposition 13",
+    "prose": "If a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the third (magnitude) has a greater ratio to the fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.\n\nFor let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}, and let the third (magnitude) {C magnitude} have a greater ratio to the fourth {D magnitude} than a fifth {E magnitude} (has) to a sixth {F magnitude}.\nI say that the first (magnitude) {A magnitude} will also have a greater ratio to the second {B magnitude} than the fifth {E magnitude} (has) to the sixth {F magnitude}.\n\nFor since there are some equal multiples of {C magnitude} and {E magnitude}, and other random equal multiples of {D magnitude} and {F magnitude}, (for which) the multiple of {C magnitude} exceeds the (multiple) of {D magnitude}, and the multiple of {E magnitude} does not exceed the multiple of {F magnitude} [Def. 5.7], let them have been taken.\nAnd let {G magnitude} and {H magnitude} be equal multiples of {C magnitude} and {E magnitude} (respectively), and {K magnitude} and {L magnitude} other random equal multiples of {D magnitude} and {F magnitude} (respectively), such that {G magnitude} exceeds {K magnitude}, but {H magnitude} does not exceed {L magnitude}.\nAnd as many times as {G magnitude} is (divisible) by {C magnitude}, so many times let {M magnitude} be (divisible) by {A magnitude}.\nAnd as many times as {K magnitude} (is divisible) by {D magnitude}, so many times let {N magnitude} be (divisible) by {B magnitude}.\n\nAnd since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {M magnitude} and {G magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {N magnitude} and {K magnitude} of {B magnitude} and {D magnitude} (respectively), thus if {M magnitude} exceeds {N magnitude} then {G magnitude} exceeds {K magnitude}, and if ({M magnitude} is) equal (to {N magnitude} then {G magnitude} is also) equal (to {K magnitude}), and if ({M magnitude} is) less (than {N magnitude} then {G magnitude} is also) less (than {K magnitude}) [Def. 5.5].\nAnd {G magnitude} exceeds {K magnitude}.\nThus, {M magnitude} also exceeds {N magnitude}.\nAnd {H magnitude} does not exceeds {L magnitude}.\nAnd {M magnitude} and {H magnitude} are equal multiples of {A magnitude} and {E magnitude} (respectively), and {N magnitude} and {L magnitude} other random equal multiples of {B magnitude} and {F magnitude} (respectively).\nThus, {A magnitude} has a greater ratio to {B magnitude} than {E magnitude} (has) to {F magnitude} [Def. 5.7].\n\nThus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and a third (magnitude) has a greater ratio to a fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 50,
+        "p": [
+          40,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 25,
+        "v": 40
+      },
+      {
+        "l": "M",
+        "m": 50,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 25,
+        "n": 3,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          190,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 30,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 60,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 30,
+        "n": 3,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 55,
+        "p": [
+          350,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 45.833333333333336,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 55,
+        "n": 2,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 45.833333333333336,
+        "n": 3,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "5.14",
+    "title": "Proposition 14",
+    "prose": "If a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the first (magnitude) is greater than the third, then the second will also be greater than the fourth.\nAnd if (the first magnitude is) equal (to the third then the second will also be) equal (to the fourth).\nAnd if (the first magnitude is) less (than the third then the second will also be) less (than the fourth).\n\nFor let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}.\nAnd let {A magnitude} be greater than {C magnitude}.\nI say that {B magnitude} is also greater than {D magnitude}.\n\nFor since {A magnitude} is greater than {C magnitude}, and {B magnitude} (is) another random [magnitude], {A magnitude} thus has a greater ratio to {B magnitude} than {C magnitude} (has) to {B magnitude} [Prop. 5.8].\nAnd as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.\nThus, {C magnitude} also has a greater ratio to {D magnitude} than {C magnitude} (has) to {B magnitude}.\nAnd that (magnitude) to which the same (magnitude) has a greater ratio is the lesser [Prop. 5.10].\nThus, {D magnitude} (is) less than {B magnitude}.\nHence, {B magnitude} is greater than {D magnitude}.\n\nSo, similarly, we can show that even if {A magnitude} is equal to {C magnitude} then {B magnitude} will also be equal to {D magnitude}, and even if {A magnitude} is less than {C magnitude} then {B magnitude} will also be less than {D magnitude}.\n\nThus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the first (magnitude) is greater than the third, then the second will also be greater than the fourth.\nAnd if (the first magnitude is) equal (to the third then the second will also be) equal (to the fourth).\nAnd if (the first magnitude is) less (than the third then the second will also be) less (than the fourth).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 92.3076923076923,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 80,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 61.53846153846153,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.15",
+    "title": "Proposition 15",
+    "prose": "Parts have the same ratio as similar multiples, taken in corresponding order.\n\nFor let {AB magnitude} and {DE magnitude} be equal multiples of {C magnitude} and {F magnitude} (respectively).\nI say that as {C magnitude} is to {F magnitude}, so {AB magnitude} (is) to {DE magnitude}.\n\nFor since {AB magnitude} and {DE magnitude} are equal multiples of {C magnitude} and {F magnitude} (respectively), thus as many magnitudes as there are in {AB magnitude} equal to {C magnitude}, so many (are there) also in {DE magnitude} equal to {F magnitude}.\nLet {AB magnitude} have been divided into (magnitudes) {AG magnitude}, {GH magnitude}, {HB magnitude}, equal to {C magnitude}, and {DE magnitude} into (magnitudes) {DK magnitude}, {KL magnitude}, {LE magnitude}, equal to {F magnitude}.\nSo, the number of (magnitudes) {AG magnitude}, {GH magnitude}, {HB magnitude} will equal the number of (magnitudes) {DK magnitude}, {KL magnitude}, {LE magnitude}.\nAnd since {AG magnitude}, {GH magnitude}, {HB magnitude} are equal to one another, and {DK magnitude}, {KL magnitude}, {LE magnitude} are also equal to one another, thus as {AG magnitude} is to {DK magnitude}, so {GH magnitude} (is) to {KL magnitude}, and {HB magnitude} to {LE magnitude} [Prop. 5.7].\nAnd, thus (for proportional magnitudes), as one of the leading (magnitudes) will be to one of the following, so all of the leading (magnitudes will be) to all of the following [Prop. 5.12].\nThus, as {AG magnitude} is to {DK magnitude}, so {AB magnitude} (is)to {DE magnitude}.\nAnd {AG magnitude} is equal to {C magnitude}, and {DK magnitude} to {F magnitude}.\nThus, as {C magnitude} is to {F magnitude}, so {AB magnitude} (is) to {DE magnitude}.\n\nThus, parts have the same ratio as similar multiples, taken in corresponding order.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "G",
+        "m": 60
+      },
+      {
+        "l": "H",
+        "m": 60
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "D",
+        "m": 50,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 50
+      },
+      {
+        "l": "L",
+        "m": 50
+      },
+      {
+        "l": "E"
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 50,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.16",
+    "title": "Proposition 16",
+    "prose": "If four magnitudes are proportional then they will also be proportional alternately.\n\nLet {A magnitude}, {B magnitude}, {C magnitude} and {D magnitude} be four proportional magnitudes, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.\nI say that they will also be [proportional] alternately, (so that) as {A magnitude} (is) to {C magnitude}, so {B magnitude} (i{s magnitude}) to {{D magnitude} magnitude}.\n\nFor let the equal multiples {E magnitude} and {F magnitude} have been taken of {A magnitude} and {B magnitude} (respectively), and the other random equal multiples {G magnitude} and {H magnitude} of {C magnitude} and {D magnitude} (respectively).\n\nAnd since {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\nBut as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.\nAnd, thus, as {C magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {F magnitude} [Prop. 5.11].\nAgain, since {G magnitude} and {H magnitude} are equal multiples of {C magnitude} and {D magnitude} (respectively), thus as {C magnitude} is to {D magnitude}, so {G magnitude} (is) to {H magnitude} [Prop. 5.15].\nBut as {C magnitude} (is) to {D magnitude}, [so] {E magnitude} (is) to {F magnitude}.\nAnd, thus, as {E magnitude} (is) to {F magnitude}, so {G magnitude} (is) to {H magnitude} [Prop. 5.11].\nAnd if four magnitudes are proportional, and the first is greater than the third then the second will also be greater than the fourth, and if (the first is) equal (to the third then the second will also be) equal (to the fourth), and if (the first is) less (than the third then the second will also be) less (than the fourth) [Prop. 5.14].\nThus, if {E magnitude} exceeds {G magnitude} then {F magnitude} also exceeds {H magnitude}, and if ({E magnitude} is) equal (to {G magnitude} then {F magnitude} is also) equal (to {H magnitude}), and if ({E magnitude} is) less (than {G magnitude} then {F magnitude} is also) less (than {H magnitude}).\nAnd {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and {G magnitude} and {H magnitude} other random equal multiples of {C magnitude} and {D magnitude} (respectively).\nThus, as {A magnitude} is to {C magnitude}, so {B magnitude} (is) to {D magnitude} [Def. 5.5].\n\nThus, if four magnitudes are proportional then they will also be proportional alternately.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 46.15384615384615,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 60,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "F",
+        "m": 46.15384615384615,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 38.46153846153846,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 50,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 38.46153846153846,
+        "n": 2,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.17",
+    "title": "Proposition 17",
+    "prose": "If composed magnitudes are proportional then they will also be proportional (when) separarted.\n\nLet {AB magnitude}, {BE magnitude}, {CD magnitude}, and {DF magnitude} be composed magnitudes (which are) proportional, (so that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}.\nI say that they will also be proportional (when) separated, (so that) as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {DF magnitude}.\n\nFor let the equal multiples {GH magnitude}, {HK magnitude}, {LM magnitude}, and {MN magnitude} have been taken of {AE magnitude}, {EB magnitude}, {CF magnitude}, and {FD magnitude} (respectively), and the other random equal multiples {KO magnitude} and {NP magnitude} of {EB magnitude} and {FD magnitude} (respectively).\n\nAnd since {GH magnitude} and {HK magnitude} are equal multiples of {AE magnitude} and {EB magnitude} (respectively), {GH magnitude} and {GK magnitude} are thus equal multiples of {AE magnitude} and {AB magnitude} (respectively) [Prop. 5.1].\nBut {GH magnitude} and {LM magnitude} are equal multiples of {AE magnitude} and {CF magnitude} (respectively).\nThus, {GK magnitude} and {LM magnitude} are equal multiples of {AB magnitude} and {CF magnitude} (respectively).\nAgain, since {LM magnitude} and {MN magnitude} are equal multiples of {CF magnitude} and {FD magnitude} (respectively), {LM magnitude} and {LN magnitude} are thus equal multiples of {CF magnitude} and {CD magnitude} (respectively) [Prop. 5.1].\nAnd {LM magnitude} and {GK magnitude} were equal multiples of {CF magnitude} and {AB magnitude} (respectively).\nThus, {GK magnitude} and {LN magnitude} are equal multiples of {AB magnitude} and {CD magnitude} (respectively).\nThus, {GK magnitude}, {LN magnitude} are equal multiples of {AB magnitude}, {CD magnitude}.\nAgain, since {HK magnitude} and {MN magnitude} are equal multiples of {EB magnitude} and {FD magnitude} (respectively), and {KO magnitude} and {NP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively), then, added together, {HO magnitude} and {MP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively) [Prop. 5.2].\nAnd since as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}, and the equal multiples {GK magnitude}, {LN magnitude} have been taken of {AB magnitude}, {CD magnitude}, and the equal multiples {HO magnitude}, {MP magnitude} of {EB magnitude}, {FD magnitude}, thus if {GK magnitude} exceeds {HO magnitude} then {LN magnitude} also exceeds {MP magnitude}, and if ({GK magnitude} is) equal (to {HO magnitude} then {LN magnitude} is also) equal (to {MP magnitude}), and if ({GK magnitude} is) less (than {HO magnitude} then {LN magnitude} is also) less (than {MP magnitude}) [Def. 5.5].\nSo let {GK magnitude} exceed {HO magnitude}, and thus, {HK magnitude} being taken away from both, {GH magnitude} exceeds {KO magnitude}.\nBut (we saw that) if {GK magnitude} was exceeding {HO magnitude} then {LN magnitude} was also exceeding {MP magnitude}.\nThus, {LN magnitude} also exceeds {MP magnitude}, and, {MN magnitude} being taken away from both, {LM magnitude} also exceeds {NP magnitude}.\nHence, if {GH magnitude} exceeds {KO magnitude} then {LM magnitude} also exceeds {NP magnitude}.\nSo, similarly, we can show that even if {GH magnitude} is equal to {KO magnitude} then {LM magnitude} will also be equal to {NP magnitude}, and even if ({GH magnitude} is) less (than {KO magnitude} then {LM magnitude} will also be) less (than {NP magnitude}).\nAnd {GH magnitude}, {LM magnitude} are equal multiples of {AE magnitude}, {CF magnitude}, and {KO magnitude}, {NP magnitude} other random equal multiples of {EB magnitude}, {FD magnitude}.\nThus, as {AE magnitude} is to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Def. 5.5].\n\nThus, if composed magnitudes are proportional then they will also be proportional (when) separated.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 36.8421052631579
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 33.333333333333336
+      },
+      {
+        "l": "D"
+      },
+      {
+        "l": "G",
+        "m": 70,
+        "n": 2,
+        "p": [
+          50,
+          120
+        ]
+      },
+      {
+        "l": "H",
+        "m": 36.8421052631579,
+        "n": 2
+      },
+      {
+        "l": "K",
+        "m": 36.8421052631579,
+        "n": 3
+      },
+      {
+        "l": "O"
+      },
+      {
+        "l": "L",
+        "m": 60,
+        "n": 2,
+        "v": 70
+      },
+      {
+        "l": "M",
+        "m": 33.333333333333336,
+        "n": 2
+      },
+      {
+        "l": "N",
+        "m": 33.333333333333336,
+        "n": 3
+      },
+      {
+        "l": "P"
+      }
+    ]
+  },
+  {
+    "id": "5.18",
+    "title": "Proposition 18",
+    "prose": "If separated magnitudes are proportional then they will also be proportional (when) composed.\n\nLet {AE magnitude}, {EB magnitude}, {CF magnitude}, and {FD magnitude} be separated magnitudes (which are) proportional, (so that) as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude}.\nI say that they will also be proportional (when) composed, (so that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {FD magnitude}.\nFor if (it is) not (the case that) as {AB magnitude} is to {BE magnitude}, so {CD magnitude} (is) to {FD magnitude}, then it will surely be (the case that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} is either to some (magnitude) less than {DF magnitude}, or (some magnitude) greater (than {DF magnitude}).\n\nLet it, first of all, be to (some magnitude) less (than {DF magnitude}), (namely) {DG magnitude}.\nAnd since composed magnitudes are proportional, (so that) as {AB magnitude} is to {BE magnitude}, so {CD magnitude} (is) to {DG magnitude}, they will thus also be proportional (when) separated [Prop. 5.17].\nThus, as {AE magnitude} is to {EB magnitude}, so {CG magnitude} (is) to {GD magnitude}.\nBut it was also assumed that as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude}.\nThus, (it is) also (the case that) as {CG magnitude} (is) to {GD magnitude}, so {CF magnitude} (is) to {FD magnitude} [Prop. 5.11].\nAnd the first (magnitude) {CG magnitude} (is) greater than the third {CF magnitude}.\nThus, the second (magnitude) {GD magnitude} (is) also greater than the fourth {FD magnitude} [Prop. 5.14].\nBut (it is) also less.\nThe very thing is impossible.\nThus, (it is) not (the case that) as {AB magnitude} is to {BE magnitude}, so {CD magnitude} (is) to less than {FD magnitude}.\nSimilarly, we can show that neither (is it the case) to greater (than {FD magnitude}).\nThus, (it is the case) to the same (as {FD magnitude}).\n\nThus, if separated magnitudes are proportional then they will also be proportional (when) composed.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 150,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 88.23529411764706
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "C",
+        "m": 190,
+        "v": 70
+      },
+      {
+        "l": "F",
+        "m": 40
+      },
+      {
+        "l": "G",
+        "m": 71.76470588235294
+      },
+      {
+        "l": "D"
+      }
+    ]
+  },
+  {
+    "id": "5.19",
+    "title": "Proposition 19",
+    "prose": "If as the whole is to the whole so the (part) taken away is to the (part) taken away then the remainder to the remainder will also be as the whole (is) to the whole.\n\nFor let the whole {AB magnitude} be to the whole {CD magnitude} as the (part) taken away {AE magnitude} (is) to the (part) taken away {CF magnitude}.\nI say that the remainder {EB magnitude} to the remainder {FD magnitude} will also be as the whole {AB magnitude} (is) to the whole {CD magnitude}.\n\nFor since as {AB magnitude} is to {CD magnitude}, so {AE magnitude} (is) to {CF magnitude}, (it is) also (the case), alternately, (that) as {BA magnitude} (is) to {AE magnitude}, so {DC magnitude} (is) to {CF magnitude} [Prop. 5.16].\nAnd since composed magnitudes are proportional then they will also be proportional (when) separated, (so that) as {BE magnitude} (is) to {EA magnitude}, so {DF magnitude} (is) to {CF magnitude} [Prop. 5.17].\nAlso, alternately, as {BE magnitude} (is) to {DF magnitude}, so {EA magnitude} (is) to {FC magnitude} [Prop. 5.16].\nAnd it was assumed that as {AE magnitude} (is) to {CF magnitude}, so the whole {AB magnitude} (is) to the whole {CD magnitude}.\nAnd, thus, as the remainder {EB magnitude} (is) to the remainder {FD magnitude}, so the whole {AB magnitude} will be to the whole {CD magnitude}.\n\n\nThus, if as the whole is to the whole so the (part) taken away is to the (part) taken away then the remainder to the remainder will also be as the whole (is) to the whole.\n[And since it was shown (that) as {AB magnitude} (is) to {CD magnitude}, so {EB magnitude} (is) to {FD magnitude}, (it is) also (the case), alternately, (that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {FD magnitude}.\nThus, composed magnitudes are proportional.\nAnd it was shown (that) as {BA magnitude} (is) to {AE magnitude}, so {DC magnitude} (is) to {CF magnitude}.\nAnd (the latter) is converted (from the former).]\n\nCorollary\n\nSo (it is) clear, from this, that if composed magnitudes are proportional then they will also be proportional (when) converted.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 170
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "C",
+        "m": 120,
+        "v": 70
+      },
+      {
+        "l": "F",
+        "m": 204
+      },
+      {
+        "l": "D"
+      }
+    ]
+  },
+  {
+    "id": "5.20",
+    "title": "Proposition 20",
+    "prose": "If there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if), via equality, the first is greater than the third then the fourth will also be greater than the sixth.\nAnd if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).\nAnd if (the first is) less (than the third then the fourth will also be) less (than the sixth).\n\nLet {A magnitude}, {B magnitude}, and {C magnitude} be three magnitudes, and {D magnitude}, {E magnitude}, {F magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two, (so that) as {A magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}, and as {B magnitude} (is) to {C magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd let {A magnitude} be greater than {C magnitude}, via equality.\nI say that {D magnitude} will also be greater than {F magnitude}.\nAnd if ({A magnitude} is) equal (to {C magnitude} then {D magnitude} will also be) equal (to {F magnitude}).\nAnd if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).\n\nFor since {A magnitude} is greater than {C magnitude}, and {B magnitude} some other (magnitude), and the greater (magnitude) has a greater ratio than the lesser to the same (magnitude) [Prop. 5.8], {A magnitude} thus has a greater ratio to {B magnitude} than {C magnitude} (has) to {B magnitude}.\nBut as {A magnitude} (is) to {B magnitude}, [so] {D magnitude} (is) to {E magnitude}.\nAnd, inversely, as {C magnitude} (is) to {B magnitude}, so {F magnitude} (is) to {E magnitude} [Prop. 5.7 corr.].\nThus, {D magnitude} also has a greater ratio to {E magnitude} than {F magnitude} (has) to {E magnitude} [Prop. 5.13].\nAnd for (magnitudes) having a ratio to the same (magnitude), that having the greater ratio is greater [Prop. 5.10].\nThus, {D magnitude} (is) greater than {F magnitude}.\nSimilarly, we can show that even if {A magnitude} is equal to {C magnitude} then {D magnitude} will also be equal to {F magnitude}, and even if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).\n\nThus, if there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if), via equality, the first is greater than the third, then the fourth will also be greater than the sixth.\nAnd if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).\nAnd (if the first is) less (than the third then the fourth will also be) less (than the sixth).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 180,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 100,
+        "v": 70
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 70
+      },
+      {
+        "l": "D",
+        "m": 150,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 83.33333333333333,
+        "v": 70
+      },
+      {
+        "l": "F",
+        "m": 116.66666666666666,
+        "v": 70
+      }
+    ]
+  },
+  {
+    "id": "5.21",
+    "title": "Proposition 21",
+    "prose": "If there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if) their proportion (is) perturbed, and (if), via equality, the first is greater than the third then the fourth will also be greater than the sixth.\nAnd if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).\nAnd if (the first is) less (than the third then the fourth will also be) less (than the sixth).\n\nLet {A magnitude}, {B magnitude}, and {C magnitude} be three magnitudes, and {D magnitude}, {E magnitude}, {F magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two.\nAnd let their proportion be perturbed, (so that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}, and as {B magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {E magnitude}.\nAnd let {A magnitude} be greater than {C magnitude}, via equality.\nI say that {D magnitude} will also be greater than {F magnitude}.\nAnd if ({A magnitude} is) equal (to {C magnitude} then {D magnitude} will also be) equal (to {F magnitude}).\nAnd if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).\n\nFor since {A magnitude} is greater than {C magnitude}, and {B magnitude} some other (magnitude), {A magnitude} thus has a greater ratio to {B magnitude} than {C magnitude} (has) to {B magnitude} [Prop. 5.8].\nBut as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd, inversely, as {C magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {D magnitude} [Prop. 5.7 corr.].\nThus, {E magnitude} also has a greater ratio to {F magnitude} than {E magnitude} (has) to {D magnitude} [Prop. 5.13].\nAnd that (magnitude) to which the same (magnitude) has a greater ratio is (the) lesser (magnitude) [Prop. 5.10].\nThus, {F magnitude} is less than {D magnitude}.\nThus, {D magnitude} is greater than {F magnitude}.\nSimilarly, we can show that even if {A magnitude} is equal to {C magnitude} then {D magnitude} will also be equal to {F magnitude}, and even if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).\n\nThus, if there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if) their proportion (is) perturbed, and (if), via equality, the first is greater than the third then the fourth will also be greater than the sixth.\nAnd if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).\nAnd if (the first is) less (than the third then the fourth will also be) less (than the sixth).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 180,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 100,
+        "v": 70
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 70
+      },
+      {
+        "l": "D",
+        "m": 150,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 180,
+        "v": 70
+      },
+      {
+        "l": "F",
+        "m": 100,
+        "v": 70
+      }
+    ]
+  },
+  {
+    "id": "5.22",
+    "title": "Proposition 22",
+    "prose": "If there are any number of magnitudes whatsoever, and (some) other (magnitudes) of equal number to them, (which are) also in the same ratio taken two by two, then they will also be in the same ratio via equality.\n\nLet there be any number of magnitudes whatsoever, {A magnitude}, {B magnitude}, {C magnitude}, and (some) other (magnitudes), {D magnitude}, {E magnitude}, {F magnitude}, of equal number to them, (which are) in the same ratio taken two by two, (so that) as {A magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}, and as {B magnitude} (is) to {C magnitude}, so {E magnitude} (is) to {F magnitude}.\nI say that they will also be in the same ratio via equality.\n(That is, as {A magnitude} is to {C magnitude}, so {D magnitude} is to {F magnitude}.)\n\nFor let the equal multiples {G magnitude} and {H magnitude} have been taken of {A magnitude} and {D magnitude} (respectively), and the other random equal multiples {K magnitude} and {L magnitude} of {B magnitude} and {E magnitude} (respectively), and the yet other random equal multiples {M magnitude} and {N magnitude} of {C magnitude} and {F magnitude} (respectively).\n\nAnd since as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude}, and the equal multiples {G magnitude} and {H magnitude} have been taken of {A magnitude} and {D magnitude} (respectively), and the other random equal multiples {K magnitude} and {L magnitude} of {B magnitude} and {E magnitude} (respectively), thus as {G magnitude} is to {K magnitude}, so {H magnitude} (is) to {L magnitude} [Prop. 5.4].\nAnd, so, for the same (reasons), as {K magnitude} (is) to {M magnitude}, so {L magnitude} (is) to {N magnitude}.\nTherefore, since {G magnitude}, {K magnitude}, and {M magnitude} are three magnitudes, and {H magnitude}, {L magnitude}, and {N magnitude} other (magnitudes) of equal number to them, (which are) also in the same ratio taken two by two, thus, via equality, if {G magnitude} exceeds {M magnitude} then {H magnitude} also exceeds {N magnitude}, and if ({G magnitude} is) equal (to {M magnitude} then {H magnitude} is also) equal (to {N magnitude}), and if ({G magnitude} is) less (than {M magnitude} then {H magnitude} is also) less (than {N magnitude}) [Prop. 5.20].\nAnd {G magnitude} and {H magnitude} are equal multiples of {A magnitude} and {D magnitude} (respectively), and {M magnitude} and {N magnitude} other random equal multiples of {C magnitude} and {F magnitude} (respectively).\nThus, as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {F magnitude} [Def.5.5].\n\nThus, if there are any number of magnitudes whatsoever, and (some) other (magnitudes) of equal number to them, (which are) also in the same ratio taken two by two, then they will also be in the same ratio via equality.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 55,
+        "p": [
+          30,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 40,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 55,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 40,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "B",
+        "m": 42.30769230769231,
+        "p": [
+          180,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 30.769230769230766,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 42.30769230769231,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 30.769230769230766,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 67.6923076923077,
+        "p": [
+          360,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 49.230769230769226,
+        "v": 50
+      },
+      {
+        "l": "M",
+        "m": 67.6923076923077,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "N",
+        "m": 49.230769230769226,
+        "n": 2,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.23",
+    "title": "Proposition 23",
+    "prose": "If there are three magnitudes, and others of equal number to them, (being) in the same ratio taken two by two, and (if) their proportion is perturbed, then they will also be in the same ratio via equality.\n\nLet {A magnitude}, {B magnitude}, and {C magnitude} be three magnitudes, and {D magnitude}, {E magnitude} and {F magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two.\nAnd let their proportion be perturbed, (so that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}, and as {B magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {E magnitude}.\nI say that as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {F magnitude}.\n\nLet the equal multiples {G magnitude}, {H magnitude}, and {K magnitude} have been taken of {A magnitude}, {B magnitude}, and {D magnitude} (respectively), and the other random equal multiples {L magnitude}, {M magnitude}, and {N magnitude} of {C magnitude}, {E magnitude}, and {F magnitude} (respectively).\n\nAnd since {G magnitude} and {H magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {H magnitude}.\nAnd, so, for the same (reasons), as {E magnitude} (is) to {F magnitude}, so {M magnitude} (is)to {N magnitude}.\nAnd as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd, thus, as {G magnitude} (is) to {H magnitude}, so {M magnitude} (is) to {N magnitude} [Prop. 5.11].\nAnd since as {B magnitude} is to {C magnitude}, so {D magnitude} (is) to {E magnitude}, also, alternately, as {B magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {E magnitude} [Prop. 5.16].\nAnd since {H magnitude} and {K magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {B magnitude} is to {D magnitude}, so {H magnitude} (is) to {K magnitude}.\nBut, as {B magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {E magnitude}.\nAnd, thus, as {H magnitude} (is) to {K magnitude}, so {C magnitude} (is) to {E magnitude} [Prop. 5.11].\nAgain, since {L magnitude} and {M magnitude} are equal multiples of {C magnitude} and {E magnitude} (respectively), thus as {C magnitude} is to {E magnitude}, so {L magnitude} (is) to {M magnitude} [Prop. 5.15].\nBut, as {C magnitude} (is) to {E magnitude}, so {H magnitude} (is) to {K magnitude}.\nAnd, thus, as {H magnitude} (is) to {K magnitude}, so {L magnitude} (is) to {M magnitude} [Prop. 5.11].\nAlso, alternately, as {H magnitude} (is) to {L magnitude}, so {K magnitude} (is) to {M magnitude} [Prop. 5.16].\nAnd it was also shown (that) as {G magnitude} (is) to {H magnitude}, so {M magnitude} (is) to {N magnitude}.\nTherefore, since {G magnitude}, {H magnitude}, and {L magnitude} are three magnitudes, and {K magnitude}, {M magnitude}, and {N magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two, and their proportion is perturbed, thus, via equality, if {G magnitude} exceeds {L magnitude} then {K magnitude} also exceeds {N magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {K magnitude} is also) equal (to {N magnitude}), and if ({G magnitude} is) less (than {L magnitude} then {K magnitude} is also) less (than {N magnitude}) [Prop. 5.21].\nAnd {G magnitude} and {K magnitude} are equal multiples of {A magnitude} and {D magnitude} (respectively), and {L magnitude} and {N magnitude} of {C magnitude} and {F magnitude} (respectively).\nThus, as {A magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {F magnitude} [Def. 5.5].\n\nThus, if there are three magnitudes, and others of equal number to them, (being) in the same ratio taken two by two, and (if) their proportion is perturbed, then they will also be in the same ratio via equality.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 45,
+        "p": [
+          30,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 30,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 45,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 30,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "B",
+        "m": 28.125,
+        "p": [
+          220,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 48,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 28.125,
+        "n": 3,
+        "v": 50
+      },
+      {
+        "l": "M",
+        "m": 48,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 45,
+        "p": [
+          380,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 30,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 45,
+        "n": 2,
+        "v": 50
+      },
+      {
+        "l": "N",
+        "m": 30,
+        "n": 2,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "5.24",
+    "title": "Proposition 24",
+    "prose": "If a first (magnitude) has to a second the same ratio that third (has) to a fourth, and a fifth (magnitude) also has to the second the same ratio that a sixth (has) to the fourth, then the first (magnitude) and the fifth, added together, will also have the same ratio to the second that the third (magnitude) and sixth (added together, have) to the fourth.\n\nFor let a first (magnitude) {AB magnitude} have the same ratio to a second {C magnitude} that a third {DE magnitude} (has) to a fourth {F magnitude}.\nAnd let a fifth (magnitude) {BG magnitude} also have the same ratio to the second {C magnitude} that a sixth {EH magnitude} (has) to the fourth {F magnitude}.\nI say that the first (magnitude) and the fifth, added together, {AG magnitude}, will also have the same ratio to the second {C magnitude} that the third (magnitude) and the sixth, (added together), {DH magnitude}, (has) to the fourth {F magnitude}.\n\nFor since as {BG magnitude} is to {C magnitude}, so {EH magnitude} (is) to {F magnitude}, thus, inversely, as {C magnitude} (is) to {BG magnitude}, so {F magnitude} (is) to {EH magnitude} [Prop. 5.7 corr.].\nTherefore, since as {AB magnitude} is to {C magnitude}, so {DE magnitude} (is) to {F magnitude}, and as {C magnitude} (is) to {BG magnitude}, so {F magnitude} (is) to {EH magnitude}, thus, via equality, as {AB magnitude} is to {BG magnitude}, so {DE magnitude} (is) to {EH magnitude} [Prop. 5.22].\nAnd since separated magnitudes are proportional then they will also be proportional (when) composed [Prop. 5.18].\nThus, as {AG magnitude} is to {GB magnitude}, so {DH magnitude} (is) to {HE magnitude}.\nAnd, also, as {BG magnitude} is to {C magnitude}, so {EH magnitude} (is) to {F magnitude}.\nThus, via equality, as {AG magnitude} is to {C magnitude}, so {DH magnitude} (is) to {F magnitude} [Prop. 5.22].\n\nThus, if a first (magnitude) has to a second the same ratio that a third (has) to a fourth, and a fifth (magnitude) also has to the second the same ratio that a sixth (has) to the fourth, then the first (magnitude) and the fifth, added together, will also have the same ratio to the second that the third (magnitude) and the sixth (added together, have) to the fourth.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 160,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 80
+      },
+      {
+        "l": "G"
+      },
+      {
+        "l": "C",
+        "m": 133.33333333333334,
+        "v": 70
+      },
+      {
+        "l": "D",
+        "m": 120,
+        "v": 70
+      },
+      {
+        "l": "E",
+        "m": 60
+      },
+      {
+        "l": "H"
+      },
+      {
+        "l": "F",
+        "m": 100,
+        "v": 70
+      }
+    ]
+  },
+  {
+    "id": "5.25",
+    "title": "Proposition 25",
+    "prose": "If four magnitudes are proportional then the (sum of the) largest and the smallest [of them] is greater than the (sum of the) remaining two (magnitudes).\n\nLet {AB magnitude}, {CD magnitude}, {E magnitude}, and {F magnitude} be four proportional magnitudes, (such that) as {AB magnitude} (is) to {CD magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd let {AB magnitude} be the greatest of them, and {F magnitude} the least.\nI say that {AB magnitude} and {F magnitude} is greater than {CD magnitude} and {E magnitude}.\n\nFor let {AG magnitude} be made equal to {E magnitude}, and {CH magnitude} equal to {F magnitude}.\n\n[In fact,] since as {AB magnitude} is to {CD magnitude}, so {E magnitude} (is) to {F magnitude}, and {E magnitude} (is) equal to {AG magnitude}, and {F magnitude} to {CH magnitude}, thus as {AB magnitude} is to {CD magnitude}, so {AG magnitude} (is) to {CH magnitude}.\nAnd since the whole {AB magnitude} is to the whole {CD magnitude} as the (part) taken away {AG magnitude} (is) to the (part) taken away {CH magnitude}, thus the remainder {GB magnitude} will also be to the remainder {HD magnitude} as the whole {AB magnitude} (is) to the whole {CD magnitude} [Prop. 5.19].\nAnd {AB magnitude} (is) greater than {CD magnitude}.\nThus, {GB magnitude} (is) also greater than {HD magnitude}.\nAnd since {AG magnitude} is equal to {E magnitude}, and {CH magnitude} to {F magnitude}, thus {AG magnitude} and {F magnitude} is equal to {CH magnitude} and {E magnitude}.\nAnd [since] if [equal (magnitudes) are added to unequal (magnitudes) then the wholes are unequal, thus if] {AG magnitude} and {F magnitude} are added to {GB magnitude}, and {CH magnitude} and {E magnitude} to {HD magnitude}---{GB magnitude} and {HD magnitude} being unequal, and {GB magnitude} greater---it is inferred that {AB magnitude} and {F magnitude} (is) greater than {CD magnitude} and {E magnitude}.\n\nThus, if four magnitudes are proportional then the (sum of the) largest and the smallest of them is greater than the (sum of the) remaining two (magnitudes).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 160,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "G",
+        "m": 80
+      },
+      {
+        "l": "B"
+      },
+      {
+        "l": "E",
+        "m": 160,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 120,
+        "v": 70
+      },
+      {
+        "l": "H",
+        "m": 60
+      },
+      {
+        "l": "D"
+      },
+      {
+        "l": "F",
+        "m": 120,
+        "v": 50
+      }
+    ]
+  }
+]
