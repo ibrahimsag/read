@@ -1240,6 +1240,15 @@ function elements() {
 
   let stopPreview = false;
   let previewCanceler;
+  let previewEl;
+  function showOverlay()
+  {
+    previewEl.querySelector('#previewOverlay').style.visibility = 'visible';
+  }
+  function hideOverlay()
+  {
+    previewEl.querySelector('#previewOverlay').style.visibility = 'hidden';
+  }
   window.books = window.books_(rg);
 
   window.onload = () => {
@@ -1260,6 +1269,7 @@ function elements() {
     });
     pr.proxy.attachProseMouseEvents();
 
+    previewEl = document.querySelector('#preview')
     presentForLocation();
   }
 
@@ -1287,6 +1297,7 @@ function elements() {
 
   function presentSection(i_book, id) {
     stopPreview = true;
+    showOverlay();
     let sections = books[i_book];
 
     let i_section = section_indices[i_book][id];
@@ -1502,20 +1513,11 @@ function elements() {
             flashColor(downArrowEl);
             setProgress()
             movePreview();
-          }, 1000);
+          }, 500);
       }
 
-      let previewEl = document.querySelector('#preview')
-      function showOverlay()
-      {
-        previewEl.querySelector('#previewOverlay').style.visibility = 'visible';
-      }
-      function hideOverlay()
-      {
-        previewEl.querySelector('#previewOverlay').style.visibility = 'hidden';
-      }
-      showOverlay();
       stopPreview = true;
+      showOverlay();
       previewEl.onclick = () =>
       {
         if(!stopPreview)
@@ -1538,6 +1540,7 @@ function elements() {
       document.querySelector('#readNow').onclick = () =>
       {
         stopPreview = true;
+        showOverlay();
         document.querySelector('#coverStart').scrollIntoView();
       };
     }
@@ -1547,6 +1550,7 @@ function elements() {
     window.onscroll = undefined;
     window.onresize = undefined;
     stopPreview = true;
+    showOverlay();
     document.querySelector('#container').className = 'toc';
     document.onkeydown = undefined;
     let booksColumn = document.querySelector('#booksColumn');
