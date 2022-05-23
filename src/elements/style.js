@@ -454,7 +454,7 @@ function make(colors, mode)
       top: -5,
       bottom: -5,
       backgroundColor: colors.none,
-      opacity: '80%',
+      opacity: '70%',
       visibility: 'hidden',
       display: 'flex',
       alignItems: 'center',

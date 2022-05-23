@@ -29,9 +29,9 @@ let colors_dark = {
 };
 
 let colors_light = {
-  bright: hsluv.hpluvToHex([230, 100, 70]),
-  step: hsluv.hpluvToHex([230, 100, 80]),
-  occluded: hsluv.hsluvToHex([230, 100, 70]),
+  bright: hsluv.hpluvToHex([0, 0, 0]),
+  step: hsluv.hpluvToHex([0, 0, 50]),
+  occluded: hsluv.hsluvToHex([0, 0, 25]),
   full: hsluv.hsluvToHex([0, 0, 0]),
   sentence: hsluv.hsluvToHex([0, 0, 45]),
   near: hsluv.hsluvToHex([0, 0, 60]),
