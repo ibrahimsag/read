@@ -62,7 +62,9 @@ export default [
 {
   input: 'src/elements/content.js',
   plugins: [
-    json()
+    string({
+      include: 'build/*.json'
+    }),
   ],
   output: {
     file: 'build/elements-content.js',

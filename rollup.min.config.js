@@ -1,6 +1,6 @@
 import commonjs from '@rollup/plugin-commonjs';
 import { nodeResolve } from '@rollup/plugin-node-resolve';
-import json from '@rollup/plugin-json';
+import { string } from "rollup-plugin-string";
 import {terser} from 'rollup-plugin-terser';
 import replace from '@rollup/plugin-replace';
 
@@ -37,7 +37,9 @@ export default [{
   input: 'src/elements/content.js',
   plugins: [
     commonjs(),
-    json(),
+    string({
+      include: 'build/*.json'
+    }),
     terser()
   ],
   output: {

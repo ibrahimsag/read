@@ -51,19 +51,19 @@ window.books_ = (rg) => {
 
   return {
     descs,
-    1: book1.map(unfoldGraphics),
-    2: book2.map(unfoldGraphics),
-    3: book3.map(unfoldGraphics),
-    4: book4.map(unfoldGraphics),
-    5: book5.map(unfoldGraphics),
-    6: book6.map(unfoldGraphics),
-    7: book7.map(unfoldGraphics),
-    8: book8.map(unfoldGraphics),
-    9: book9.map(unfoldGraphics),
-    10: book10.map(unfoldGraphics),
-    11: book11.map(unfoldGraphics),
-    12: book12.map(unfoldGraphics),
-    13: book13.map(unfoldGraphics),
+    1: JSON.parse(book1).map(unfoldGraphics),
+    2: JSON.parse(book2).map(unfoldGraphics),
+    3: JSON.parse(book3).map(unfoldGraphics),
+    4: JSON.parse(book4).map(unfoldGraphics),
+    5: JSON.parse(book5).map(unfoldGraphics),
+    6: JSON.parse(book6).map(unfoldGraphics),
+    7: JSON.parse(book7).map(unfoldGraphics),
+    8: JSON.parse(book8).map(unfoldGraphics),
+    9: JSON.parse(book9).map(unfoldGraphics),
+    10: JSON.parse(book10).map(unfoldGraphics),
+    11: JSON.parse(book11).map(unfoldGraphics),
+    12: JSON.parse(book12).map(unfoldGraphics),
+    13: JSON.parse(book13).map(unfoldGraphics),
   };
 }
 
