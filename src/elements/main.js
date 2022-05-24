@@ -1215,17 +1215,12 @@ function elements() {
   }
   setTimeout( () => {
     let version = window.localStorage.version;
-    if(!version || version !== '1.0')
+    if(!version || version !== '2.0')
     {
-      window.localStorage.version = '1.0';
+      window.localStorage.version = '2.0';
       window.localStorage.modePreference = '';
     }
     let modePref = window.localStorage.modePreference;
-    if(!modePref)
-    {
-      let mediaMatch = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      modePref = !mediaMatch ? 'light' : undefined;
-    }
 
     if(modePref === 'light')
       switchSheets(true);
@@ -1255,7 +1250,7 @@ function elements() {
 
     const el = document.querySelector('#container');
     el.className = cs.container;
-    el.innerHTML = made.cover + made.toc + made.section + made.landscapeDictate;
+    el.innerHTML = made.pg + made.cover + made.toc + made.section + made.landscapeDictate;
 
 
     pr = makePR(rg, {
@@ -1403,6 +1398,45 @@ function elements() {
     window.onresize = queueAlign;
   }
 
+  function presentPg() {
+    window.onscroll = undefined;
+    window.onresize = undefined;
+    document.onkeydown = undefined;
+    document.querySelector('#container').className = 'pg';
+    let paths = document.querySelectorAll('svg.large path');
+    for(let i = 0; i < paths.length; i++)
+    {
+      let p = paths[i], sw = p.getAttribute('stroke-width');
+      if(sw === '10' || sw === '11')
+      {
+      }
+      else if(sw === '1')
+      {
+        p.setAttribute('stroke-width', '4');
+      }
+      else
+      {
+        p.setAttribute('stroke-width', '6');
+      }
+    }
+    paths = document.querySelectorAll('.pgFiguresLeft svg path');
+    for(let i = 0; i < paths.length; i++)
+    {
+      let p = paths[i], sw = p.getAttribute('stroke-width');
+      if(sw === '10' || sw === '11')
+      {
+      }
+      else if(sw === '1')
+      {
+        p.setAttribute('stroke-width', '6');
+      }
+      else
+      {
+        p.setAttribute('stroke-width', '10');
+      }
+    }
+  }
+
   function presentCover() {
     window.onscroll = undefined;
     window.onresize = undefined;
@@ -1486,7 +1520,10 @@ function elements() {
                 current_l += speed*dt/1000;
                 el.style.borderColor = player_l(current_l)
                 if( target_l < current_l)
+                {
+                  el.style.borderColor = "";
                   return;
+                }
                 frame(current_l);
               });
           }
@@ -1662,7 +1699,11 @@ function elements() {
 
   let presentForLocation = () => {
     let m, re = /elements\/([^\/]+)/;
-    if(m = location.pathname.match(/\/elements\/toc\/(\d+)/))
+    if(m = location.pathname.match(/\/elements\/pg/))
+    {
+      presentPg();
+    }
+    else if(m = location.pathname.match(/\/elements\/toc\/(\d+)/))
     {
       let id = Number(m[1]);
       if(!isNaN(id) && id > 0 && id < 14)

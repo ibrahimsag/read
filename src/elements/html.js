@@ -88,12 +88,41 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 <br>
 `
 
+  let pg = `
+<div id="pg" class="${cs.pg}">
+  <div style="text-align: center;">
+    <h1>The Elements of Euclid</h1>
+    <h3 class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
+    <h4 style="border: none; margin-top: -1.17em; margin-bottom: 0; padding-right: 10px;" class="${cs.headStand}">a</h4>
+  </div>
+
+  <div class="${cs.pgFigures}">
+    <div class="${cs.pgFiguresLeft}">
+      <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>
+      <svg viewBox="-130 -131 461 341" width="461" height="341">${fext.smpl3}</svg>
+      <svg viewBox="0 0 477 338" width="477" height="338">${fext.smpl6}</svg>
+      <svg viewBox="0 -5 385 210" width="385" height="210">${fext.smpl7}</svg>
+    </div>
+    <div>
+      <svg style="margin-top: -25px;" class="large" viewBox="-229 -207 458 498" width="458" height="498">${fext.smpl13}</svg>
+    </div>
+    <div class="${cs.pgFiguresLeft}">
+      <svg viewBox="-0 0 430 230" width="430" height="230">${fext.smpl9}</svg>
+      <svg viewBox="-51 -50 501 225" width="501" height="225">${fext.smpl10}</svg>
+      <svg viewBox="-189 -190 378 357" width="378" height="357">${fext.smpl11}</svg>
+      <svg viewBox="-184 -298 302 423" width="302" height="423">${fext.smpl12}</svg>
+    </div>
+  </div>
+
+  <div class="pgBorder"></div>
+</div>`;
+
   let cover = `
 <div id="cover" class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
     <h1>Euclid's Elements</h1>
     <h3 class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 class="${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
+    <h4 class="${cs.coverStand} ${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
   </div>
 <div id="preview" class="${cs.preview}">
   <div id="progress" class="${cs.progress}"></div>
@@ -354,7 +383,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   </p>
 </div>`;
 
-  return { cover, section, toc, arrowu, arrowd, landscapeDictate };
+  return { pg, cover, section, toc, arrowu, arrowd, landscapeDictate };
 }
 
 let anglesDown = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 384 512"><path d="M169.4 278.6C175.6 284.9 183.8 288 192 288s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0L192 210.8L54.63 73.38c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L169.4 278.6zM329.4 265.4L192 402.8L54.63 265.4c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l160 160C175.6 476.9 183.8 480 192 480s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25S341.9 252.9 329.4 265.4z"/></svg>';

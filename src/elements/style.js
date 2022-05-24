@@ -40,6 +40,9 @@ function make(colors, mode)
       ...for_mode,
 
       '#container': {
+        '&>#pg': {
+          display: 'none',
+        },
         '&>#section': {
           display: 'none',
         },
@@ -48,6 +51,14 @@ function make(colors, mode)
         },
         '&>#toc': {
           display: 'none',
+        },
+        '&.pg': {
+          '&>#pg': {
+            display: 'block',
+          },
+          '& #landscapeDictate': {
+            display: 'none',
+          }
         },
         '&.cover': {
           '&>#cover': {
@@ -137,6 +148,38 @@ function make(colors, mode)
       '.name.name-hover': {
         color: colors.hover_bright
       },
+    },
+
+    pg: {
+      paddingTop: 10,
+      width: 1200,
+      height: 630,
+      fontSize: '2rem',
+      margin:10,
+      position: 'relative',
+    },
+    pgBorder: {
+      position: 'absolute',
+      top: -1,
+      left: -1,
+      bottom: -1,
+      right: -1,
+      border: '1px solid #555',
+    },
+    pgFigures: {
+      display: 'flex',
+      flexDirection: 'row',
+      paddingLeft: 10,
+    },
+    pgFiguresLeft: {
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      '& svg': {
+        maxWidth: 175,
+        maxHeight: 220,
+        '& path': {
+        }
+      }
     },
 
     coverWrap: {
@@ -320,13 +363,10 @@ function make(colors, mode)
       textAlign: 'right',
       userSelect: 'none',
     },
-    headStand: {
+    coverStand: {
       padding: 3,
       display: 'flex',
       justifyContent: 'space-between',
-      backgroundColor: colors.stand,
-      color: colors.none,
-      marginTop: '-1.5em',
       '& a': {
         color: colors.near,
         textDecoration: 'none',
@@ -336,6 +376,13 @@ function make(colors, mode)
         }
 
       }
+    },
+    headStand: {
+      borderBottomColor: colors.stand,
+      borderBottomStyle: 'solid',
+      borderBottomSize: 1,
+      color: colors.none,
+      marginTop: '-1.5em',
     },
     coverFoot: {
       textAlign: 'right',
