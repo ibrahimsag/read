@@ -381,8 +381,8 @@ function make(colors, mode)
       minWidth: 600,
       position: 'relative',
       marginTop: 50,
-      paddingTop: 50,
-      paddingBottom: 100,
+      paddingTop: 100,
+      paddingBottom: 50,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -415,16 +415,16 @@ function make(colors, mode)
     },
     arrows: {
       position: 'absolute',
-      right: 10,
-      bottom: 10,
+      left: 440,
+      top: 15,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'flex-end',
       '& svg': {
-        height: 40,
-        width: 40,
-        borderRadius: 15,
-        padding:10,
+        height: 30,
+        width: 30,
+        borderRadius: 10,
+        padding:5,
         marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
@@ -571,8 +571,10 @@ function make(colors, mode)
       preview: {
         margin: 'auto',
         width: '100%',
-        paddingTop: 20,
         flexDirection: 'column'
+      },
+      arrows: {
+        left: 250
       },
       figPreview: {
         width: '100%',
