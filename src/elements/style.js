@@ -34,7 +34,7 @@ function make(colors, mode)
     '@global': {
       body: {
         backgroundColor: colors.none,
-        color: colors.near,
+        color: colors.sentence,
         lineHeight: '1.5em'
       },
       ...for_mode,
@@ -360,29 +360,8 @@ function make(colors, mode)
     c_bright: { color: colors.bright },
 
     coverHead: {
-      textAlign: 'right',
+      textAlign: 'center',
       userSelect: 'none',
-    },
-    coverStand: {
-      padding: 3,
-      display: 'flex',
-      justifyContent: 'space-between',
-      '& a': {
-        color: colors.near,
-        textDecoration: 'none',
-        '&:hover': {
-          color: colors.sentence,
-          textDecoration: 'underline',
-        }
-
-      }
-    },
-    headStand: {
-      borderBottomColor: colors.stand,
-      borderBottomStyle: 'solid',
-      borderBottomSize: 1,
-      color: colors.none,
-      marginTop: '-1.5em',
     },
     coverFoot: {
       textAlign: 'right',
@@ -417,9 +396,9 @@ function make(colors, mode)
         padding: 20,
         flexGrow: 1,
         flexBasis: 0,
-        color: colors.near,
+        color: colors.sentence,
         '& em': {
-          color: colors.sentence
+          color: colors.emph
         }
       },
     },
@@ -500,8 +479,7 @@ function make(colors, mode)
       right: -5,
       top: -5,
       bottom: -5,
-      backgroundColor: colors.none,
-      opacity: '70%',
+      backgroundColor: colors.none + 'bb',
       visibility: 'hidden',
       display: 'flex',
       alignItems: 'center',
@@ -509,13 +487,25 @@ function make(colors, mode)
       borderStyle: 'solid',
       borderColor: colors.low,
       justifyContent: 'center',
-      '& svg': {
+      '& svg.click': {
+        position: 'absolute',
+        top: 10,
+        '& path.letter': {
+          fill: colors.occluded,
+        },
+        '& path.arrow': {
+          stroke: colors.occluded,
+          fill: 'none',
+        }
+      },
+      '& svg.play': {
+        opacity: '50%',
         height: 70,
         '& path': {
           fill: colors.full,
         }
       },
-      '&:hover svg path': {
+      '&:hover svg.play path': {
         fill: colors.link_hover,
       }
     },
@@ -630,6 +620,11 @@ function make(colors, mode)
       prosePreview: {
         width: 512,
         padding: 20,
+      },
+      previewOverlay: {
+        '& svg.click': {
+          top: 110,
+        },
       },
       coverQuotes: {
         flexDirection: 'column'

@@ -93,7 +93,6 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   <div style="text-align: center;">
     <h1>The Elements of Euclid</h1>
     <h3 class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 style="border: none; margin-top: -1.17em; margin-bottom: 0; padding-right: 10px;" class="${cs.headStand}">a</h4>
   </div>
 
   <div class="${cs.pgFigures}">
@@ -120,9 +119,9 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   let cover = `
 <div id="cover" class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
-    <h1>Euclid's Elements</h1>
-    <h3 class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h3>
-    <h4 class="${cs.coverStand} ${cs.headStand}"><a pref="toc" style="margin-left: 25px;">Table of Contents</a>Ibrahim S.</h4>
+    <h1 style="line-height: 1.5em; font-size: 2.5em;">The Elements of Euclid</h1>
+    <h2 style="margin-top: -0.6em" class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
+    <h3 style="margin-top: 2em; font-style: oblique; font-weight:lighter;">The renowned 2300 year old textbook on Geometry, made interactive<br>--- with 482 figures</h3>
   </div>
 <div id="preview" class="${cs.preview}">
   <div id="progress" class="${cs.progress}"></div>
@@ -148,15 +147,16 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
     <div class="proseContent"></div>
   </div>
   <div id="previewOverlay" class="${cs.previewOverlay}">
+  ${fext.clickhere}
   ${play}
   </div>
 </div>
 <div class="${cs.hero}">
-<p> You can find the entire 13 books carefully reproduced, to read at your own pace.</p>
+<p>Find the entire 13 books carefully reproduced, to read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.quoteTitle}">
-<h4>At the millenia old difficulties of geometry</h4>
+<h4>At the ages old difficulties of communication</h4>
 </div>
 <div class="${cs.coverQuotes}">
   <div>
@@ -388,7 +388,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 
 let anglesDown = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 384 512"><path d="M169.4 278.6C175.6 284.9 183.8 288 192 288s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0L192 210.8L54.63 73.38c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25L169.4 278.6zM329.4 265.4L192 402.8L54.63 265.4c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l160 160C175.6 476.9 183.8 480 192 480s16.38-3.125 22.62-9.375l160-160c12.5-12.5 12.5-32.75 0-45.25S341.9 252.9 329.4 265.4z"/></svg>';
 
-let play = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z"/></svg>'
+let play = '<svg class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z"/></svg>'
 
 let srotate = '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M16.48 2.52c3.27 1.55 5.61 4.72 5.97 8.48h1.5C23.44 4.84 18.29 0 12 0l-.66.03 3.81 3.81 1.33-1.32zm-6.25-.77c-.59-.59-1.54-.59-2.12 0L1.75 8.11c-.59.59-.59 1.54 0 2.12l12.02 12.02c.59.59 1.54.59 2.12 0l6.36-6.36c.59-.59.59-1.54 0-2.12L10.23 1.75zm4.6 19.44L2.81 9.17l6.36-6.36 12.02 12.02-6.36 6.36zm-7.31.29C4.25 19.94 1.91 16.76 1.55 13H.05C.56 19.16 5.71 24 12 24l.66-.03-3.81-3.81-1.33 1.32z"/></svg>'
 

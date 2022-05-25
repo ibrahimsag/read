@@ -13,8 +13,8 @@ let colors_dark = {
   step: hsluv.hsluvToHex([0, 0, 60]),
   occluded: hsluv.hsluvToHex([0, 0, 75]),
   full: hsluv.hsluvToHex([0, 0, 100]),
+  emph: hsluv.hsluvToHex([0, 0, 80]),
   sentence: hsluv.hsluvToHex([0, 0, 70]),
-  near: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   low: hsluv.hsluvToHex([0, 0, 15]),
   stand: hsluv.hsluvToHex([0, 0, 8]),
@@ -33,8 +33,8 @@ let colors_light = {
   step: hsluv.hpluvToHex([0, 0, 50]),
   occluded: hsluv.hsluvToHex([0, 0, 25]),
   full: hsluv.hsluvToHex([0, 0, 0]),
-  sentence: hsluv.hsluvToHex([0, 0, 45]),
-  near: hsluv.hsluvToHex([0, 0, 60]),
+  emph: hsluv.hsluvToHex([0, 0, 25]),
+  sentence: hsluv.hsluvToHex([0, 0, 35]),
   dim: hsluv.hsluvToHex([0, 0, 80]),
   low: hsluv.hsluvToHex([0, 0, 90]),
   stand: hsluv.hsluvToHex([0, 0, 93]),
@@ -93,7 +93,6 @@ let colors_lightsolarized = {
       occluded: hsluv.hsluvToHex([218, 32, 50]),
           full: hsluv.hsluvToHex([215, 35, 45]),
       sentence: hsluv.hsluvToHex([218, 32, 50]),
-          near: hsluv.hsluvToHex([201, 20, 60]),
            dim: hsluv.hsluvToHex([192, 15, 65]),
            low: hsluv.hsluvToHex([73, 22, 87]),
          stand: hsluv.hsluvToHex([73, 23, 92]),
@@ -115,7 +114,6 @@ let colors_darksolarized = {
       occluded: hsluv.hsluvToHex([201, 20, 60]),
           full: hsluv.hsluvToHex([192, 15, 65]),     //base1
       sentence: hsluv.hsluvToHex([201, 20, 60]), // base0
-          near: hsluv.hsluvToHex([218, 32, 50]),
            dim: hsluv.hsluvToHex([215, 35, 45]),      // base01
            low: hsluv.hsluvToHex([221, 70, 25]),
          stand: hsluv.hsluvToHex([221, 70, 20]),
@@ -929,7 +927,6 @@ function makePR(rg, w)
 
     tie.s = []
     tie.r = [];
-    tie.near = [];
     tie.hover = [];
     tie.center = [];
     tie.fi = 0;
@@ -1457,7 +1454,7 @@ function elements() {
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
-      preview.present(6, sections[i_section]);
+      preview.present(6, prev_section);
       let downArrowEl = document.querySelector('#downArrow svg');
       let proseCont = document.querySelector('#preview .prose-container');
       setTimeout(() =>
