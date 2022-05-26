@@ -9,56 +9,64 @@ import style from './style.js';
 import html from './html.js';
 
 let colors_dark = {
-  bright: hsluv.hsluvToHex([0, 0, 100]),
-  step: hsluv.hsluvToHex([0, 0, 60]),
-  occluded: hsluv.hsluvToHex([0, 0, 75]),
-  full: hsluv.hsluvToHex([0, 0, 100]),
-  emph: hsluv.hsluvToHex([0, 0, 80]),
-  sentence: hsluv.hsluvToHex([0, 0, 70]),
-  dim: hsluv.hsluvToHex([0, 0, 30]),
-  low: hsluv.hsluvToHex([0, 0, 15]),
-  stand: hsluv.hsluvToHex([0, 0, 8]),
-  none: hsluv.hsluvToHex([0, 0, 2]),
-  link: hsluv.hpluvToHex([140, 100, 50]),
-  link_hover: hsluv.hpluvToHex([140, 100, 70]),
-  hover: hsluv.hpluvToHex([325, 100, 50]),
-  hover_bright: hsluv.hpluvToHex([325, 100, 80]),
-  player: hsluv.hpluvToHex([140, 100, 50]),
-  player_low: hsluv.hpluvToHex([140, 100, 30]),
-  player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
+        bright: hsl(0, 0, 100),
+          step: hsl(0, 0, 60),
+      occluded: hsl(0, 0, 75),
+
+          emph: hsl(0, 0, 80),
+      sentence: hsl(0, 0, 70),
+
+          full: hsl(0, 0, 100),
+           dim: hsl(0, 0, 30),
+           low: hsl(0, 0, 15),
+         stand: hsl(0, 0, 8),
+          none: hsl(0, 0, 2),
+
+          link: hpl(140, 100, 50),
+    link_hover: hpl(140, 100, 70),
+
+         hover: hpl(325, 100, 50),
+  hover_bright: hpl(325, 100, 80),
+
+        player: hpl(140, 100, 50),
+  player_l: (l) => hpl(140, 100, l),
 };
 
 let colors_light = {
-  bright: hsluv.hpluvToHex([0, 0, 0]),
-  step: hsluv.hpluvToHex([0, 0, 50]),
-  occluded: hsluv.hsluvToHex([0, 0, 25]),
-  full: hsluv.hsluvToHex([0, 0, 0]),
-  emph: hsluv.hsluvToHex([0, 0, 25]),
-  sentence: hsluv.hsluvToHex([0, 0, 35]),
-  dim: hsluv.hsluvToHex([0, 0, 80]),
-  low: hsluv.hsluvToHex([0, 0, 90]),
-  stand: hsluv.hsluvToHex([0, 0, 93]),
-  none: hsluv.hsluvToHex([0, 0, 97]),
-  link: hsluv.hpluvToHex([140, 100, 60]),
-  link_hover: hsluv.hpluvToHex([140, 100, 70]),
-  hover: hsluv.hsluvToHex([350, 100, 45]),
-  hover_bright: hsluv.hsluvToHex([350, 100, 70]),
-  player: hsluv.hpluvToHex([140, 100, 50]),
-  player_low: hsluv.hpluvToHex([140, 100, 70]),
-  player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
+        bright: hpl(0, 0, 0),
+          step: hpl(0, 0, 50),
+      occluded: hsl(0, 0, 25),
+
+          emph: hsl(0, 0, 25),
+      sentence: hsl(0, 0, 35),
+
+          full: hsl(0, 0, 0),
+           dim: hsl(0, 0, 80),
+           low: hsl(0, 0, 90),
+         stand: hsl(0, 0, 93),
+          none: hsl(0, 0, 97),
+
+          link: hpl(140, 100, 60),
+    link_hover: hpl(140, 100, 70),
+
+         hover: hsl(350, 100, 45),
+  hover_bright: hsl(350, 100, 70),
+
+        player: hpl(140, 100, 50),
+  player_l: (l) => hpl(140, 100, 100-l),
 };
 
 /*
-SOLARIZED HEX
---------- -------
-base03    #002b36 222, 100, 15
-base02    #073642 221, 94 , 20
-base01    #586e75 215, 35 , 45
-base00    #657b83 218, 32 , 50
-base0     #839496 201, 20 , 60
-base1     #93a1a1 192, 15 , 65
-base2     #eee8d5 73 , 23 , 92
-base3     #fdf6e3 71 , 76 , 97
+SOLARIZED HEX                  Dark          Light        Fit
+--------- -------              ------------  ----------   ---------
+base03    #002b36 222, 100, 15  background                 none
+base02    #073642 221, 94 , 20  bg hl                      stand
+base01    #586e75 215, 35 , 45  secondary     emph         dim
+base00    #657b83 218, 32 , 50                primary
+base0     #839496 201, 20 , 60  primary                    sentence
+base1     #93a1a1 192, 15 , 65  emph          secondary    emph
+base2     #eee8d5 73 , 23 , 92                bg hl        occluded
+base3     #fdf6e3 71 , 76 , 97                background   full
 yellow    #b58900 59 , 100, 60
 orange    #cb4b16 21 , 95 , 49
 red       #dc322f 13 , 82 , 49
@@ -70,64 +78,62 @@ green     #859900 97 , 100, 60
 */
 
 let sol = {
-base03  : hsluv.hsluvToHex([222, 100, 15]),
-base02  : hsluv.hsluvToHex([221, 94 , 20]),
-base01  : hsluv.hsluvToHex([215, 35 , 45]),
-base00  : hsluv.hsluvToHex([218, 32 , 50]),
-base0   : hsluv.hsluvToHex([201, 20 , 60]),
-base1   : hsluv.hsluvToHex([192, 15 , 65]),
-base2   : hsluv.hsluvToHex([73 , 23 , 92]),
-base3   : hsluv.hsluvToHex([71 , 76 , 97]),
-yellow  : hsluv.hsluvToHex([59 , 100, 60]),
-orange  : hsluv.hsluvToHex([21 , 95 , 49]),
-red     : hsluv.hsluvToHex([13 , 82 , 49]),
-magenta : hsluv.hsluvToHex([348, 81 , 50]),
-violet  : hsluv.hsluvToHex([264, 57 , 51]),
-blue    : hsluv.hsluvToHex([245, 93 , 56]),
-cyan    : hsluv.hsluvToHex([182, 92 , 60]),
-green   : hsluv.hsluvToHex([97 , 100, 60]),
+base03  : hsl(222, 100, 15),
+base02  : hsl(221, 94 , 20),
+base01  : hsl(215, 35 , 45),
+base00  : hsl(218, 32 , 50),
+base0   : hsl(201, 20 , 60),
+base1   : hsl(192, 15 , 65),
+base2   : hsl(73 , 23 , 92),
+base3   : hsl(71 , 76 , 97),
+yellow  : hsl(59 , 100, 60),
+orange  : hsl(21 , 95 , 49),
+red     : hsl(13 , 82 , 49),
+magenta : hsl(348, 81 , 50),
+violet  : hsl(264, 57 , 51),
+blue    : hsl(245, 93 , 56),
+cyan    : hsl(182, 92 , 60),
+green   : hsl(97 , 100, 60),
 }
 
 let colors_lightsolarized = {
-        bright: hsluv.hsluvToHex(sol.base01),
-      occluded: hsluv.hsluvToHex([218, 32, 50]),
-          full: hsluv.hsluvToHex([215, 35, 45]),
-      sentence: hsluv.hsluvToHex([218, 32, 50]),
-           dim: hsluv.hsluvToHex([192, 15, 65]),
-           low: hsluv.hsluvToHex([73, 22, 87]),
-         stand: hsluv.hsluvToHex([73, 23, 92]),
-          none: hsluv.hsluvToHex([71, 76, 97]),
+        bright: hsl(215, 35, 45),
+      occluded: hsl(218, 32, 50),
+          full: hsl(215, 35, 45),
+      sentence: hsl(218, 32, 50),
+           dim: hsl(192, 15, 65),
+           low: hsl(73, 22, 87),
+         stand: hsl(73, 23, 92),
+          none: hsl(71, 76, 97),
 
-          link: hsluv.hpluvToHex([140, 100, 60]),
-    link_hover: hsluv.hpluvToHex([140, 100, 50]),
+          link: hpl(140, 100, 60),
+    link_hover: hpl(140, 100, 50),
 
-         hover: hsluv.hsluvToHex([12, 82, 50]),
-  hover_bright: hsluv.hsluvToHex([12, 82, 60]),
+         hover: hsl(12, 82, 50),
+  hover_bright: hsl(12, 82, 60),
 
-        player: hsluv.hpluvToHex([140, 100, 50]),
-    player_low: hsluv.hpluvToHex([140, 100, 60]),
-  player_l: (l) => hsluv.hpluvToHex([140, 100, 100-l]),
+        player: hpl(140, 100, 50),
+  player_l: (l) => hpl(140, 100, 100-l),
 };
 
 let colors_darksolarized = {
-        bright: hsluv.hsluvToHex([192, 15, 65]),   // base1
-      occluded: hsluv.hsluvToHex([201, 20, 60]),
-          full: hsluv.hsluvToHex([192, 15, 65]),     //base1
-      sentence: hsluv.hsluvToHex([201, 20, 60]), // base0
-           dim: hsluv.hsluvToHex([215, 35, 45]),      // base01
-           low: hsluv.hsluvToHex([221, 70, 25]),
-         stand: hsluv.hsluvToHex([221, 70, 20]),
-          none: hsluv.hsluvToHex([222, 80, 15]),    // base03
+        bright: hsl(192, 15, 65), // base1
+      occluded: hsl(201, 20, 60),
+          full: hsl(192, 15, 65), // base1
+      sentence: hsl(201, 20, 60), // base0
+           dim: hsl(215, 35, 45), // base01
+           low: hsl(221, 70, 25),
+         stand: hsl(221, 70, 20),
+          none: hsl(222, 80, 15), // base03
 
-          link: hsluv.hpluvToHex([140, 100, 50]),
-    link_hover: hsluv.hpluvToHex([140, 100, 70]),
+          link: hpl(140, 100, 50),
+    link_hover: hpl(140, 100, 70),
 
-         hover: hsluv.hsluvToHex([13, 82, 49]),
-  hover_bright: hsluv.hsluvToHex([13, 82, 55]), // red
+         hover: hsl(13, 82, 49),
+  hover_bright: hsl(13, 82, 55), // red
 
-        player: hsluv.hpluvToHex([140, 100, 50]),
-    player_low: hsluv.hpluvToHex([140, 100, 40]),
-  player_l: (l) => hsluv.hpluvToHex([140, 100, l]),
+        player: hpl(140, 100, 50),
+  player_l: (l) => hpl(140, 100, l),
 };
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -233,7 +239,6 @@ function hpl(...args)
     console.error("# arguments for hpl", args);
   }
 }
-
 
 function makeRG()
 {
@@ -1501,7 +1506,7 @@ function elements() {
 
         function flashColor(el)
         {
-          let target_l = 30;
+          let target_l = 50;
 
           let i_seen = i;
           let last_t = performance.now();
@@ -1510,7 +1515,7 @@ function elements() {
             if(stopPreview || i != i_seen) return;
             window.requestAnimationFrame( () =>
               {
-                let speed = 100;
+                let speed = 150;
                 let t = performance.now();
                 let dt = t-last_t
                 last_t = t;
@@ -1531,13 +1536,14 @@ function elements() {
           {
             if(preview.proxy.reached_end())
             {
-              setTimeout(() => {
-                showOverlay();
-              }, 1000);
+              setTimeout( () =>
+                {
+                  stopPreview = true;
+                  showOverlay();
+                }, 1000);
             }
             if(stopPreview || preview.proxy.reached_end())
             {
-              stopPreview = true;
               return;
             }
             preview.proxy.moveon();

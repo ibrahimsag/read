@@ -141,9 +141,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
     <svg id="previewFigure" viewbox="0 0 512 512"></svg>
   </div>
   <div class="prose-container ${cs.prosePreview}">
-    <div class="${cs.proseHeadingPreview}">
-      <div class="proseTitle ${cs.proseTitle}"></div>
-    </div>
+    <div class="proseTitle ${cs.proseTitle}"></div>
     <div class="proseContent"></div>
   </div>
   <div id="previewOverlay" class="${cs.previewOverlay}">

@@ -243,7 +243,7 @@ function make(colors, mode)
       cursor: 'pointer',
       userSelect: 'none',
       '&:hover': {
-        color: colors.sentence,
+        color: colors.emph,
       }
     },
 
@@ -294,6 +294,8 @@ function make(colors, mode)
     },
 
     movement: {
+      color: colors.none,
+
       width: 512,
       height: 50,
 
@@ -304,8 +306,6 @@ function make(colors, mode)
       flex: '0 0 auto',
       display: 'flex',
       alignItems: 'stretch',
-
-      color: colors.none,
 
       cursor: 'pointer',
       userSelect: 'none',
@@ -377,13 +377,11 @@ function make(colors, mode)
       width: '90%',
       margin: 'auto',
       textAlign: 'center',
-      '& a' : style_link
     },
     quoteTitle: {
       '& h4': {
         marginTop: '3rem',
         marginBottom: 0,
-        color: colors.sentence
       },
       textAlign: 'center',
     },
@@ -437,15 +435,15 @@ function make(colors, mode)
       fontSize: '1.2rem',
       maskImage: 'linear-gradient(transparent, black 10%, black 80%, transparent 100%)',
     },
-    proseHeadingPreview: {
-    },
     arrows: {
       position: 'absolute',
-      left: 440,
+      left: 0,
+      right: 0,
       top: 15,
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'flex-end',
+      justifyContent: 'center',
       '& svg': {
         height: 30,
         width: 30,
@@ -454,7 +452,7 @@ function make(colors, mode)
         marginRight: 10,
         borderWidth: 3,
         borderStyle: 'solid',
-        borderColor: colors.player_low,
+        borderColor: colors.player,
         '& path': {
           fill: colors.link,
         }
@@ -470,39 +468,39 @@ function make(colors, mode)
       top: 0,
       width: '10%',
       height: 5,
-      backgroundColor: colors.player_low,
+      backgroundColor: colors.player,
       transition: 'width 0.2s ease',
     },
     previewOverlay: {
+      visibility: 'hidden',
       position: 'absolute',
       left: -5,
       right: -5,
       top: -5,
       bottom: -5,
       backgroundColor: colors.none + 'bb',
-      visibility: 'hidden',
-      display: 'flex',
-      alignItems: 'center',
       borderWidth: 1,
       borderStyle: 'solid',
       borderColor: colors.low,
+      display: 'flex',
+      alignItems: 'center',
       justifyContent: 'center',
       '& svg.click': {
         position: 'absolute',
         top: 10,
         '& path.letter': {
-          fill: colors.occluded,
+          fill: colors.emph,
         },
         '& path.arrow': {
-          stroke: colors.occluded,
+          stroke: colors.emph,
           fill: 'none',
         }
       },
       '& svg.play': {
-        opacity: '50%',
+        opacity: '70%',
         height: 70,
         '& path': {
-          fill: colors.full,
+          fill: colors.emph,
         }
       },
       '&:hover svg.play path': {
@@ -549,6 +547,7 @@ function make(colors, mode)
         margin: 'auto',
         '& path': {
           strokeWidth: 2,
+          stroke: colors.sentence
         }
       },
       width: 512,
@@ -609,9 +608,6 @@ function make(colors, mode)
         margin: 'auto',
         width: '100%',
         flexDirection: 'column'
-      },
-      arrows: {
-        left: 250
       },
       figPreview: {
         width: '100%',
