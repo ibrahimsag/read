@@ -5,7 +5,7 @@ import vec2 from './vec2.js';
 
 let colors = {
   bright: hsluv.hsluvToHex([0, 0, 100]),
-  sentence: hsluv.hsluvToHex([0, 0, 50]),
+  sentence: hsluv.hsluvToHex([0, 0, 70]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   trail: hsluv.hsluvToHex([0, 0, 30]),
   link: hsluv.hpluvToHex([140, 100, 50]),

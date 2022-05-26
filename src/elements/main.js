@@ -9,6 +9,7 @@ import style from './style.js';
 import html from './html.js';
 
 let colors_dark = {
+  id: 'dark',
         bright: hsl(0, 0, 100),
           step: hsl(0, 0, 60),
       occluded: hsl(0, 0, 75),
@@ -29,10 +30,11 @@ let colors_dark = {
   hover_bright: hpl(325, 100, 80),
 
         player: hpl(140, 100, 50),
-  player_l: (l) => hpl(140, 100, l),
+  player_l: (l) => hpl(140, 100, l*50),
 };
 
 let colors_light = {
+  id: 'light',
         bright: hpl(0, 0, 0),
           step: hpl(0, 0, 50),
       occluded: hsl(0, 0, 25),
@@ -52,8 +54,8 @@ let colors_light = {
          hover: hsl(350, 100, 45),
   hover_bright: hsl(350, 100, 70),
 
-        player: hpl(140, 100, 50),
-  player_l: (l) => hpl(140, 100, 100-l),
+        player: hsl(140, 80, 65),
+  player_l: (l) => hsl(140, 20+l*60, 97-l*32),
 };
 
 /*
@@ -97,43 +99,53 @@ green   : hsl(97 , 100, 60),
 }
 
 let colors_lightsolarized = {
-        bright: hsl(215, 35, 45),
-      occluded: hsl(218, 32, 50),
-          full: hsl(215, 35, 45),
-      sentence: hsl(218, 32, 50),
-           dim: hsl(192, 15, 65),
-           low: hsl(73, 22, 87),
+  id: 'solarized_light',
+        bright: hsl(222, 100, 15),
+          step: hsl(222, 23, 50),
+      occluded: hsl(221, 94, 20),
+
+          emph: hsl(215, 35, 30),
+      sentence: hsl(218, 32, 40),
+
+          full: hsl(222, 100, 15),
+           dim: hsl(192, 5, 70),
+           low: hsl(73, 13, 85),
          stand: hsl(73, 23, 92),
           none: hsl(71, 76, 97),
 
           link: hpl(140, 100, 60),
-    link_hover: hpl(140, 100, 50),
+    link_hover: hpl(140, 100, 75),
 
-         hover: hsl(12, 82, 50),
-  hover_bright: hsl(12, 82, 60),
+         hover: hpl(325, 100, 50),
+  hover_bright: hpl(325, 100, 80),
 
-        player: hpl(140, 100, 50),
-  player_l: (l) => hpl(140, 100, 100-l),
+        player: hsl(140, 80, 65),
+  player_l: (l) => hsl(140, 20+l*60, 97-l*32),
 };
 
 let colors_darksolarized = {
-        bright: hsl(192, 15, 65), // base1
-      occluded: hsl(201, 20, 60),
-          full: hsl(192, 15, 65), // base1
-      sentence: hsl(201, 20, 60), // base0
-           dim: hsl(215, 35, 45), // base01
-           low: hsl(221, 70, 25),
-         stand: hsl(221, 70, 20),
-          none: hsl(222, 80, 15), // base03
+  id: 'solarized_dark',
+        bright: hsl(71, 76, 97),
+          step: hsl(73,  3, 70),
+      occluded: hsl(73, 23, 70),
+
+          emph: hsl(192, 15, 75),
+      sentence: hsl(201, 20, 70),
+
+          full: hsl(71, 76, 97),
+           dim: hsl(215, 35, 45),
+           low: hsl(221, 54, 25),
+         stand: hsl(221, 94, 20),
+          none: hsl(222, 100, 15),
 
           link: hpl(140, 100, 50),
     link_hover: hpl(140, 100, 70),
 
-         hover: hsl(13, 82, 49),
-  hover_bright: hsl(13, 82, 55), // red
+         hover: hpl(325, 100, 50),
+  hover_bright: hpl(325, 100, 80),
 
         player: hpl(140, 100, 50),
-  player_l: (l) => hpl(140, 100, l),
+  player_l: (l) => hpl(140, 100, l*35+15),
 };
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
@@ -1187,48 +1199,60 @@ function makePR(rg, w)
 
 const rg = makeRG();
 function elements() {
+  let cheme_a = [colors_dark, colors_light, colors_darksolarized, colors_lightsolarized];
+  let chemes = {};
+  cheme_a.forEach(c => {chemes[c.id] = c;});
+
   let l = (r) => r.key;
   const jss = create().setup(preset());
-  const dark_sheet = jss.createStyleSheet(style(colors_dark, 'dark'), {generateId: l});
-  const light_sheet = jss.createStyleSheet(style(colors_light, 'light'), {generateId: l});
-  let sheet_select = false;
-  let player_l = colors_dark.player_l;
-  dark_sheet.attach();
-  function switchSheets(notStorePref)
+
+  let sheet;
+  let cheme_select;
+  function switchCheme(cheme, notStorePref)
   {
-    if(sheet_select)
-    {
-      player_l = colors_dark.player_l;
-      sheet_select = false;
-      light_sheet.detach();
-      dark_sheet.attach();
-      if(!notStorePref)
-        window.localStorage.modePreference = 'dark';
-    }
-    else
-    {
-      player_l = colors_light.player_l;
-      sheet_select = true;
-      dark_sheet.detach();
-      light_sheet.attach();
-      if(!notStorePref)
-        window.localStorage.modePreference = 'light';
-    }
+    if(cheme === cheme_select || !chemes[cheme])
+      return;
+
+    cheme_select = cheme;
+    if(!notStorePref)
+      window.localStorage.cheme = cheme;
+
+    if(sheet)
+      sheet.detach();
+    sheet = jss.createStyleSheet(style(chemes[cheme]), {generateId: l});
+    sheet.attach();
   }
+  window.switchCheme = switchCheme;
+  switchCheme('dark', true);
+
+  function paletteClick() {
+    let select_i;
+    for(let i = 0; i<cheme_a.length; i++)
+    {
+      if(cheme_a[i].id == cheme_select)
+      {
+        select_i = i;
+        break;
+      }
+    }
+    let next_i = (select_i + 1) % cheme_a.length;
+    switchCheme(cheme_a[next_i].id);
+  }
+
   setTimeout( () => {
     let version = window.localStorage.version;
-    if(!version || version !== '2.0')
+    if(!version || version !== '3.0')
     {
-      window.localStorage.version = '2.0';
-      window.localStorage.modePreference = '';
+      window.localStorage.version = '3.0';
+      window.localStorage.cheme = '';
     }
-    let modePref = window.localStorage.modePreference;
+    let chemePref = window.localStorage.cheme;
 
-    if(modePref === 'light')
-      switchSheets(true);
+    if(chemePref)
+      switchCheme(chemePref);
   });
 
-  const cs = dark_sheet.classes;
+  const cs = sheet.classes;
 
   const made = html(cs, figureExtracts);
 
@@ -1445,8 +1469,7 @@ function elements() {
     document.onkeydown = undefined;
     document.querySelector('#container').className = 'cover';
 
-    document.querySelector('#lightMode').onclick = () => switchSheets();
-    document.querySelector('#darkMode').onclick = () => switchSheets();
+    document.querySelector('#palette').onclick = paletteClick;
     {
       let preview = makePR(rg, {
         svg: document.querySelector('#previewFigure'),
@@ -1506,7 +1529,7 @@ function elements() {
 
         function flashColor(el)
         {
-          let target_l = 50;
+          let target_l = 1;
 
           let i_seen = i;
           let last_t = performance.now();
@@ -1515,12 +1538,12 @@ function elements() {
             if(stopPreview || i != i_seen) return;
             window.requestAnimationFrame( () =>
               {
-                let speed = 150;
+                let speed = 3;
                 let t = performance.now();
                 let dt = t-last_t
                 last_t = t;
                 current_l += speed*dt/1000;
-                el.style.borderColor = player_l(current_l)
+                el.style.borderColor = chemes[cheme_select].player_l(current_l)
                 if( target_l < current_l)
                 {
                   el.style.borderColor = "";
@@ -1529,7 +1552,7 @@ function elements() {
                 frame(current_l);
               });
           }
-          frame(5);
+          frame(0);
         }
 
         previewCanceler = setTimeout(() =>

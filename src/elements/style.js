@@ -1,4 +1,4 @@
-function make(colors, mode)
+function make(colors)
 {
   const style_link = {
       color: colors.link,
@@ -15,29 +15,28 @@ function make(colors, mode)
       }
     };
 
-  const for_dark = {
-    '#darkMode': {
-      display: 'none',
-    }
-  }
-
-  const for_light = {
-    '#lightMode': {
-      display: 'none',
-    }
-  }
-
-  const for_mode = mode === 'light' ? for_light : for_dark;
-
   const style = {
     link: style_link,
     '@global': {
       body: {
         backgroundColor: colors.none,
+        transition: 'background-color 0.1s ease',
         color: colors.sentence,
         lineHeight: '1.5em'
       },
-      ...for_mode,
+
+      '#palette': {
+        cursor: 'pointer',
+
+        '& svg path': {
+          fill: colors.occluded,
+        },
+        '&:hover': {
+          '& svg path': {
+            fill: colors.full,
+          },
+        }
+      },
 
       '#container': {
         '&>#pg': {
@@ -371,7 +370,7 @@ function make(colors, mode)
       borderTopColor: colors.low,
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between'
+      justifyContent: 'flex-end'
     },
     hero: {
       width: '90%',
@@ -555,15 +554,6 @@ function make(colors, mode)
       borderLeft: '1px solid',
       borderColor: colors.dim,
       marginLeft: -1,
-    },
-    modeSwitch: {
-      '& a': {
-        color: colors.sentence,
-        textDecoration: 'none',
-        '&:hover': {
-          color: colors.full,
-        }
-      }
     },
 
     landscapeDictate: {

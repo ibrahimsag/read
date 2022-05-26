@@ -117,7 +117,10 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 </div>`;
 
   let cover = `
-<div id="cover" class="${cs.coverWrap}">
+<div style="position:relative;" id="cover" class="${cs.coverWrap}">
+<div id="palette" style="position: absolute; right: 30px; top: 30px;">
+${palette}
+</div>
   <div class="${cs.coverHead}">
     <h1 style="line-height: 1.5em; font-size: 2.5em;">The Elements of Euclid</h1>
     <h2 style="margin-top: -0.6em" class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
@@ -323,10 +326,6 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   </div>
 </div>
   <div class="${cs.coverFoot}">
-    <div style="padding: 20px; font-size: 1.2rem;" class="${cs.modeSwitch}">
-      <a id="lightMode">Light Mode</a>
-      <a id="darkMode">Dark Mode</a>
-    </div>
     <div>
       <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
       <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
@@ -400,5 +399,8 @@ let arrowr = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><pat
 
 let larrowl = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><path d="M9.375 233.4l128-128c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H480c17.69 0 32 14.31 32 32s-14.31 32-32 32H109.3l73.38 73.38c12.5 12.5 12.5 32.75 0 45.25c-12.49 12.49-32.74 12.51-45.25 0l-128-128C-3.125 266.1-3.125 245.9 9.375 233.4z"/></svg>'
 let larrowr = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"/></svg>'
+
+let palette = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 263.3C224.2 233.3 238.4 205.2 262.4 187.2L499.1 9.605C517.7-4.353 543.6-2.965 560.7 12.9C577.7 28.76 580.8 54.54 568.2 74.07L406.5 324.1C391.3 347.7 366.6 363.2 339.3 367.1L224 263.3zM320 400C320 461.9 269.9 512 208 512H64C46.33 512 32 497.7 32 480C32 462.3 46.33 448 64 448H68.81C86.44 448 98.4 429.1 96.59 411.6C96.2 407.8 96 403.9 96 400C96 339.6 143.9 290.3 203.7 288.1L319.8 392.5C319.9 394.1 320 397.5 320 400V400z"/></svg>'
+
 
 export default make;
