@@ -1,4 +1,4 @@
-function make(colors)
+function make(colors, brand)
 {
   const style_link = {
       color: colors.link,
@@ -28,17 +28,14 @@ function make(colors)
       '#palette': {
         cursor: 'pointer',
 
-        '& svg path': {
-          fill: colors.occluded,
-        },
+        stroke: brand.step,
         '&:hover': {
-          '& svg path': {
-            fill: colors.full,
-          },
+            stroke: brand.bright,
         }
       },
 
       '#container': {
+      minWidth: 1024,
         '&>#pg': {
           display: 'none',
         },
@@ -181,13 +178,42 @@ function make(colors)
       }
     },
 
+    logoBar:{
+      backgroundColor: brand.none,
+      borderBottomStyle: 'solid',
+      borderBottomWidth: 1,
+      borderBottomColor: brand.dim,
+    },
+    logoWrap:{
+      margin: 'auto',
+      width: 1024,
+      userSelect: 'none',
+    },
+    logo: {
+      padding: [[15, 25]],
+      fontSize: '1.2em',
+      cursor: 'pointer',
+      userSelect: 'none',
+      textDecoration: 'none',
+      '&:hover': {
+        color: colors.emph,
+      }
+    },
+    b_dim: { color: brand.dim },
+    b_sentence: { color: brand.step },
+    b_bright: { color: brand.bright },
+
+    c_dim: { color: colors.dim },
+    c_sentence: { color: colors.step },
+    c_bright: { color: colors.bright },
+
     coverWrap: {
       margin: 'auto',
       minWidth: 1024,
       width: 1024,
       padding: 12,
     },
-    cover: {
+    coverContents: {
       display: 'flex',
       flexFlow: 'row nowrap',
       '& a': {
@@ -237,7 +263,7 @@ function make(colors)
       alignItems: 'baseline',
       overflow: 'ellipsis',
     },
-    logo: {
+    homeLink: {
       fontSize: '1.2em',
       cursor: 'pointer',
       userSelect: 'none',
@@ -354,13 +380,8 @@ function make(colors)
       alignItems: 'flex-end',
     },
 
-    c_dim: { color: colors.dim },
-    c_sentence: { color: colors.step },
-    c_bright: { color: colors.bright },
-
     coverHead: {
       textAlign: 'center',
-      userSelect: 'none',
     },
     coverFoot: {
       textAlign: 'right',
@@ -370,12 +391,18 @@ function make(colors)
       borderTopColor: colors.low,
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'flex-end'
+      justifyContent: 'flex-end',
+      '& a': {
+        ...style_link
+      },
     },
     hero: {
       width: '90%',
       margin: 'auto',
       textAlign: 'center',
+      '& a': {
+        ...style_link
+      },
     },
     quoteTitle: {
       '& h4': {
@@ -580,6 +607,10 @@ function make(colors)
         body:{
           fontSize: '1.7rem',
         },
+        '#container': {
+          minWidth: 650,
+          width: '95%',
+        },
         '#container.section>#section': {
           display: 'none !important',
         },
@@ -589,6 +620,9 @@ function make(colors)
       },
       landscapeDictate: {
         display: 'flex',
+      },
+      logoWrap: {
+        width: 'auto',
       },
       coverWrap: {
         minWidth: 650,

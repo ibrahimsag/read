@@ -117,14 +117,20 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 </div>`;
 
   let cover = `
-<div style="position:relative;" id="cover" class="${cs.coverWrap}">
-<div id="palette" style="position: absolute; right: 30px; top: 30px;">
-${palette}
+<div id="cover" style="">
+<div class="${cs.logoBar}">
+  <div style="display: flex;align-items:center;"class="${cs.logoWrap}">
+  <a class="${cs.logo}" href="/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
+<div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
+${sun}
 </div>
+  </div>
+</div>
+<div class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
     <h1 style="line-height: 1.5em; font-size: 2.5em;">The Elements of Euclid</h1>
-    <h2 style="margin-top: -0.6em" class=${cs.c_dim}>with <span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
-    <h3 style="margin-top: 2em; font-style: oblique; font-weight:lighter;">The renowned 2300 year old textbook on Geometry, made interactive<br>--- with 482 figures</h3>
+  <h2 id="hla" style="margin-top: -0.6em"><span class=${cs.c_dim}>with </span><span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
+    <h3 style="margin-top: 2em; font-style: oblique; font-weight:lighter;">An interactive rendering the renowned 2300 year old textbook on Geometry<br>--- with 482 figures</h3>
   </div>
 <div id="preview" class="${cs.preview}">
   <div id="progress" class="${cs.progress}"></div>
@@ -169,7 +175,7 @@ ${palette}
   <p><em>— I. Newton, Preface to Principia, 1687</em></p>
   </div>
 </div>
-<div id="coverStart" class="${cs.cover}">
+<div id="coverStart" class="${cs.coverContents}">
   <div class="${cs.contents}">
     <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
@@ -331,6 +337,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
       <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
     </div>
   </div>
+</div>
 </div>`;
 
   let toc = `
@@ -348,7 +355,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   let section = `
 <div id="section" class="${cs.section}">
   <div class="${cs.header}">
-    <a class="${cs.logo}" pref="cover">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
+    <a class="${cs.homeLink}" pref="cover">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
   </div>
   <div id="figColumn" class="${cs.figColumn}">
     <svg id="figure" viewbox="0 0 512 512"></svg>
@@ -400,7 +407,7 @@ let arrowr = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><pat
 let larrowl = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><path d="M9.375 233.4l128-128c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H480c17.69 0 32 14.31 32 32s-14.31 32-32 32H109.3l73.38 73.38c12.5 12.5 12.5 32.75 0 45.25c-12.49 12.49-32.74 12.51-45.25 0l-128-128C-3.125 266.1-3.125 245.9 9.375 233.4z"/></svg>'
 let larrowr = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 512 512"><path d="M502.6 278.6l-128 128c-12.51 12.51-32.76 12.49-45.25 0c-12.5-12.5-12.5-32.75 0-45.25L402.8 288H32C14.31 288 0 273.7 0 255.1S14.31 224 32 224h370.8l-73.38-73.38c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l128 128C515.1 245.9 515.1 266.1 502.6 278.6z"/></svg>'
 
-let palette = '<svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224 263.3C224.2 233.3 238.4 205.2 262.4 187.2L499.1 9.605C517.7-4.353 543.6-2.965 560.7 12.9C577.7 28.76 580.8 54.54 568.2 74.07L406.5 324.1C391.3 347.7 366.6 363.2 339.3 367.1L224 263.3zM320 400C320 461.9 269.9 512 208 512H64C46.33 512 32 497.7 32 480C32 462.3 46.33 448 64 448H68.81C86.44 448 98.4 429.1 96.59 411.6C96.2 407.8 96 403.9 96 400C96 339.6 143.9 290.3 203.7 288.1L319.8 392.5C319.9 394.1 320 397.5 320 400V400z"/></svg>'
+let sun = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>'
 
 
 export default make;

@@ -8,6 +8,13 @@ import v2 from '../vec2.js';
 import style from './style.js';
 import html from './html.js';
 
+let colors_brand = {
+  bright: hsl(0, 0, 100),
+  step: hsl(0, 0, 60),
+  dim: hsl(0, 0, 30),
+  none: hsl(0, 0, 2),
+};
+
 let colors_dark = {
   id: 'dark',
         bright: hsl(0, 0, 100),
@@ -43,8 +50,8 @@ let colors_light = {
       sentence: hsl(0, 0, 35),
 
           full: hsl(0, 0, 0),
-           dim: hsl(0, 0, 80),
-           low: hsl(0, 0, 90),
+           dim: hsl(0, 0, 70),
+           low: hsl(0, 0, 85),
          stand: hsl(0, 0, 93),
           none: hsl(0, 0, 97),
 
@@ -1199,7 +1206,7 @@ function makePR(rg, w)
 
 const rg = makeRG();
 function elements() {
-  let cheme_a = [colors_dark, colors_light, colors_darksolarized, colors_lightsolarized];
+  let cheme_a = [colors_dark, colors_light];
   let chemes = {};
   cheme_a.forEach(c => {chemes[c.id] = c;});
 
@@ -1219,7 +1226,7 @@ function elements() {
 
     if(sheet)
       sheet.detach();
-    sheet = jss.createStyleSheet(style(chemes[cheme]), {generateId: l});
+    sheet = jss.createStyleSheet(style(chemes[cheme], colors_brand), {generateId: l});
     sheet.attach();
   }
   window.switchCheme = switchCheme;
