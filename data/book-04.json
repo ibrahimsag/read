@@ -1,0 +1,2612 @@
+[
+  {
+    "id": "4.d",
+    "title": "Definitions",
+    "prose": "1. A rectilinear figure is said to be inscribed in a(nother) rectilinear figure when the respective angles of the inscribed figure touch the respective sides of the (figure) in which it is inscribed.\n\n2. And, similarly, a (rectilinear) figure is said to be circumscribed about a(nother rectilinear) figure when the respective sides of the circumscribed (figure) touch the respective angles of the (figure) about which it is circumscribed.\n\n3. A rectilinear figure is said to be inscribed in a circle when each angle of the inscribed (figure) touches the circumference of the circle.\n\n4. And a rectilinear figure is said to be circumscribed about a circle when each side of the circumscribed (figure) touches the circumference of the circle.\n\n5. And, similarly, a circle is said to be inscribed in a (rectilinear) figure when the circumference of the circle touches each side of the (figure) in which it is inscribed.\n\n6. And a circle is said to be circumscribed about a rectilinear (figure) when the circumference of the circle touches each angle of the (figure) about which it is circumscribed.\n\n7. A straight-line is said to be inserted into a circle when its extemities are on the circumference of the circle.\n",
+    "points": {},
+    "shapes": [],
+    "letters": {}
+  },
+  {
+    "id": "4.1",
+    "title": "Proposition 1",
+    "prose": "To insert a straight-line equal to a given straight-line into a circle, (the latter straight-line) not being greater than the diameter of the circle.\n\nLet {ABC circle G} be the given circle, and {D given} the given straight-line (which is) not greater than the diameter of the circle.\nSo it is required to insert a straight-line, equal to the straight-line {D given}, into the circle {ABC circle G}.\n\nLet a diameter {BC line} of circle {ABC circle G} have been drawn.\nTherefore, if {BC line} is equal to {D given} then that (which) was prescribed has taken place.\nFor the (straight-line) {BC line}, equal to the straight-line {D given}, has been inserted into the circle {ABC circle G}.\nAnd if {BC line} is greater than {D given} then let {CE line} be made equal to {D given} [Prop. 1.3], and let the circle {EAF circle C} have been drawn with center {C point} and radius {CE line}.\nAnd let {CA line} have been joined.\n\nTherefore, since the point {C point} is the center of circle {EAF circle C}, {CA line} is equal to {CE line}.\nBut, {CE line} is equal to {D given}.\nThus, {D given} is also equal to {CA line}.\n\nThus, {CA line}, equal to the given straight-line {D given}, has been inserted into the given circle {ABC circle G}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        316.6666666666667,
+        155.71909584179366
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        350,
+        250
+      ],
+      "D": [
+        300,
+        40
+      ],
+      "E": [
+        250,
+        250
+      ],
+      "F": [
+        316.6666666666667,
+        344.28090415820634
+      ],
+      "G": [
+        200,
+        250
+      ]
+    },
+    "given": {
+      "D": [
+        [
+          "line",
+          [
+            250,
+            40
+          ],
+          [
+            350,
+            40
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          250
+        ],
+        300
+      ],
+      [
+        "circle",
+        [
+          350,
+          250
+        ],
+        200
+      ],
+      [
+        "line",
+        [
+          316.6666666666667,
+          155.71909584179366
+        ],
+        [
+          350,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          350,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          40
+        ],
+        [
+          350,
+          40
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        0.8
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "4.2",
+    "title": "Proposition 2",
+    "prose": "To inscribe a triangle, equiangular with a given triangle, in a given circle.\n\nLet {ABC circle O} be the given circle, and {DEF polygon} the given triangle.\nSo it is required to inscribe a triangle, equiangular with triangle {DEF polygon}, in circle {ABC circle O}.\n\nLet {GH line} have been drawn touching circle {ABC circle O} at {A point}.\nAnd let (angle) {HAC angle}, equal to angle {DEF angle}, have been constructed on the straight-line {AH line} at the point {A point} on it, and (angle) {GAB angle}, equal to [angle] {DFE angle}, on the straight-line {AG line} at the point {A point} on it [Prop. 1.23].\nAnd let {BC line} have been joined.\n\nTherefore, since some straight-line {AH line} touches the circle {ABC circle O}, and the straight-line {AC line} has been drawn across (the circle) from the point of contact {A point}, (angle) {HAC angle} is thus equal to the angle {ABC angle} in the alternate segment of the circle [Prop. 3.32].\nBut, {HAC angle} is equal to {DEF angle}.\nThus, angle {ABC angle} is also equal to {DEF angle}.\nSo, for the same (reasons), {ACB angle} is also equal to {DFE angle}.\nThus, the remaining (angle) {BAC angle} is equal to the remaining (angle) {EDF angle} [Prop. 1.32].\n\nThus, a triangle, equiangular with the given triangle, has been inscribed in the given circle.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        149.09830056250527,
+        295.10565162951536
+      ],
+      "B": [
+        121.2214747707527,
+        119.09830056250526
+      ],
+      "C": [
+        275.10565162951536,
+        230.90169943749473
+      ],
+      "D": [
+        355.2786404500042,
+        256.0845213036123
+      ],
+      "E": [
+        332.9771798166022,
+        115.2786404500042
+      ],
+      "F": [
+        456.0845213036123,
+        204.72135954999578
+      ],
+      "O": [
+        180,
+        200
+      ],
+      "G": [
+        53.99264893298991,
+        264.20395219202067
+      ],
+      "H": [
+        291.7567780067783,
+        341.45820078575747
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          180,
+          200
+        ],
+        200
+      ],
+      [
+        "polygon",
+        [
+          [
+            149.09830056250527,
+            295.10565162951536
+          ],
+          [
+            121.2214747707527,
+            119.09830056250526
+          ],
+          [
+            275.10565162951536,
+            230.90169943749473
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            355.2786404500042,
+            256.0845213036123
+          ],
+          [
+            332.9771798166022,
+            115.2786404500042
+          ],
+          [
+            456.0845213036123,
+            204.72135954999578
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          53.99264893298991,
+          264.20395219202067
+        ],
+        [
+          291.7567780067783,
+          341.45820078575747
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3.5
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "4.3",
+    "title": "Proposition 3",
+    "prose": "To circumscribe a triangle, equiangular with a given triangle, about a given circle.\n\nLet {ABC circle K} be the given circle, and {DEF polygon} the given triangle.\nSo it is required to circumscribe a triangle, equiangular with triangle {DEF polygon}, about circle {ABC circle K}.\n\nLet {EF line} have been produced in each direction to points {G point} and {H point}.\nAnd let the center {K point} of circle {ABC circle K} have been found [Prop. 3.1].\nAnd let the straight-line {KB line} have been drawn, at random, across ({ABC circle K}).\nAnd let (angle) {BKA angle}, equal to angle {DEG angle}, have been constructed on the straight-line {KB line} at the point {K point} on it, and (angle) {BKC angle}, equal to {DFH angle} [Prop. 1.23].\nAnd let the (straight-lines) {LAM line}, {MBN line}, and {NCL line} have been drawn through the points {A point}, {B point}, and {C point} (respectively), touching the circle {ABC circle K}.\n\nAnd since {LM line}, {MN line}, and {NL line} touch circle {ABC circle K} at points {A point}, {B point}, and {C point} (respectively), and {KA line}, {KB line}, and {KC line} are joined from the center {K point} to points {A point}, {B point}, and {C point} (respectively), the angles at points {A point}, {B point}, and {C point} are thus right-angles [Prop. 3.18].\nAnd since the (sum of the) four angles of quadrilateral {AMBK polygon} is equal to four right-angles, inasmuch as {AMBK polygon} (can) also (be) divided into two triangles [Prop. 1.32], and angles {KAM angle} and {KBM angle} are (both) right-angles, the (sum of the) remaining (angles), {AKB angle} and {AMB angle}, is thus equal to two right-angles.\nAnd {DEG angle} and {DEF angle} is also equal to two right-angles [Prop. 1.13].\nThus, {AKB angle} and {AMB angle} is equal to {DEG angle} and {DEF angle}, of which {AKB angle} is equal to {DEG angle}.\nThus, the remainder {AMB angle} is equal to the remainder {DEF angle}.\nSo, similarly, it can be shown that {LNB angle} is also equal to {DFE angle}.\nThus, the remaining (angle) {MLN angle} is also equal to the [remaining] (angle) {EDF angle} [Prop. 1.32].\nThus, triangle {LMN polygon} is equiangular with triangle {DEF polygon}.\nAnd it has been drawn around circle {ABC circle K}.\n\nThus, a triangle, equiangular with the given triangle, has been circumscribed about the given circle.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        197.09505077410785,
+        139.99111442956325
+      ],
+      "B": [
+        314.7213595499958,
+        152.97717981660216
+      ],
+      "C": [
+        250,
+        280
+      ],
+      "D": [
+        463.5141570468792,
+        96
+      ],
+      "E": [
+        396.08681352379216,
+        155.44519968361314
+      ],
+      "F": [
+        352.8973478678764,
+        96
+      ],
+      "G": [
+        439.2762791797079,
+        214.89039936722628
+      ],
+      "H": [
+        309.7078822119607,
+        36.55480031638686
+      ],
+      "K": [
+        250,
+        200
+      ],
+      "L": [
+        38.286143177069505,
+        280
+      ],
+      "M": [
+        263.0439549206928,
+        81.84933438795618
+      ],
+      "N": [
+        407.00884044041203,
+        280
+      ],
+      "P": [
+        400,
+        120
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          200
+        ],
+        160
+      ],
+      [
+        "polygon",
+        [
+          [
+            38.286143177069505,
+            280
+          ],
+          [
+            263.0439549206928,
+            81.84933438795618
+          ],
+          [
+            407.00884044041203,
+            280
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          439.2762791797079,
+          214.89039936722628
+        ],
+        [
+          309.7078822119607,
+          36.55480031638686
+        ]
+      ],
+      [
+        "line",
+        [
+          463.5141570468792,
+          96
+        ],
+        [
+          396.08681352379216,
+          155.44519968361314
+        ]
+      ],
+      [
+        "line",
+        [
+          463.5141570468792,
+          96
+        ],
+        [
+          352.8973478678764,
+          96
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          200
+        ],
+        [
+          197.09505077410785,
+          139.99111442956325
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          200
+        ],
+        [
+          314.7213595499958,
+          152.97717981660216
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          200
+        ],
+        [
+          250,
+          280
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        4
+      ],
+      "F": [
+        3.8,
+        1.2
+      ],
+      "G": [
+        -1.5
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        -1.5
+      ],
+      "L": [
+        -3
+      ],
+      "M": [
+        1
+      ],
+      "N": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "4.4",
+    "title": "Proposition 4",
+    "prose": "To inscribe a circle in a given triangle.\n\nLet {ABC polygon} be the given triangle.\nSo it is required to inscribe a circle in triangle {ABC polygon}.\n\nLet the angles {ABC angle} and {ACB angle} have been cut in half by the straight-lines {BD line} and {CD line} (respectively) [Prop. 1.9], and let them meet one another at point {D point}, and let {DE line}, {DF line}, and {DG line} have been drawn from point {D point}, perpendicular to the straight-lines {AB line}, {BC line}, and {CA line} (respectively) [Prop. 1.12].\n\nAnd since angle {ABD angle} is equal to {CBD angle}, and the right-angle {BED angle} is also equal to the right-angle {BFD angle}, {EBD polygon} and {FBD polygon} are thus two triangles having two angles equal to two angles, and one side equal to one side---the (one) subtending one of the equal angles (which is) common to the (triangles)---(namely), {BD line}.\nThus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].\nThus, {DE line} (is) equal to {DF line}.\nSo, for the same (reasons), {DG line} is also equal to {DF line}.\nThus, the three straight-lines {DE line}, {DF line}, and {DG line} are equal to one another.\nThus, the circle drawn with center {D point}, and radius one of {E point}, {F point}, or {G point}, will also go through the remaining points, and will touch the straight-lines {AB line}, {BC line}, and {CA line}, on account of the angles at {E point}, {F point}, and {G point} being right-angles.\nFor if it cuts (one of) them then it will be a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, falling inside the circle.\nThe very thing was shown (to be) absurd [Prop. 3.16].\nThus, the circle drawn with center {D point}, and radius one of {E point}, {F point}, or {G point}, does not cut the straight-lines {AB line}, {BC line}, and {CA line}.\nThus, it will touch them and will be the circle inscribed in triangle {ABC polygon}.\nLet it have been (so) inscribed, like {FGE circle D} (in the figure).\n\nThus, the circle {EFG circle D} has been inscribed in the given triangle {ABC polygon}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        250,
+        63.118549649463404
+      ],
+      "B": [
+        37.48918268427974,
+        320
+      ],
+      "C": [
+        462.51081731572026,
+        320
+      ],
+      "D": [
+        250,
+        220
+      ],
+      "E": [
+        172.94867572242106,
+        156.257601025131
+      ],
+      "F": [
+        250,
+        320
+      ],
+      "G": [
+        327.05132427757894,
+        156.257601025131
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          220
+        ],
+        200
+      ],
+      [
+        "polygon",
+        [
+          [
+            250,
+            63.118549649463404
+          ],
+          [
+            37.48918268427974,
+            320
+          ],
+          [
+            462.51081731572026,
+            320
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          220
+        ],
+        [
+          37.48918268427974,
+          320
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          220
+        ],
+        [
+          462.51081731572026,
+          320
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          220
+        ],
+        [
+          172.94867572242106,
+          156.257601025131
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          220
+        ],
+        [
+          250,
+          320
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          220
+        ],
+        [
+          327.05132427757894,
+          156.257601025131
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "4.5",
+    "title": "Proposition 5",
+    "prose": "To circumscribe a circle about a given triangle.\n\nLet {ABC polygon} be the given triangle.\nSo it is required to circumscribe a circle about the given triangle {ABC polygon}.\n\nLet the straight-lines {AB line} and {AC line} have been cut in half at points {D point} and {E point} (respectively) [Prop. 1.10].\nAnd let {DF line} and {EF line} have been drawn from points {D point} and {E point}, at right-angles to {AB line} and {AC line} (respectively) [Prop. 1.11].\nSo ({DF line} and {EF line} ) will surely either meet inside triangle {ABC polygon}, on the straight-line {BC line}, or beyond {BC line}.\n\n{figure 1}Let them, first of all, meet inside (triangle {ABC polygon}) at (point) {F point}, and let {FB line}, {FC line}, and {FA line} have been joined.\nAnd since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {FB line} [Prop. 1.4].\nSo, similarly, we can show that {CF line} is also equal to {AF line}.\nSo that {FB line} is also equal to {FC line}.\nThus, the three (straight-lines) {FA line}, {FB line}, and {FC line} are equal to one another.\nThus, the circle drawn with center {F point}, and radius one of {A point}, {B point}, or {C point}, will also go through the remaining points.\nAnd the circle will have been circumscribed about triangle {ABC polygon}.\nLet it have been (so) circumscribed, like {ABC circle F} (in the first diagram from the left).\n\n{figure 2}And so, let {DF line} and {EF line} meet on the straight-line {BC line} at (point) {F point}, like in the second diagram (from the left).\nAnd let {AF line} have been joined.\nSo, similarly, we can show that point {F point} is the center of the circle circumscribed about triangle {ABC polygon}.\n\n{figure 3}And so, let {DF line} and {EF line} meet outside triangle {ABC polygon}, again at (point) {F point}, like in the third diagram (from the left).\nAnd let {AF line}, {BF line}, and {CF line} have been joined.\nAnd, again, since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {BF line} [Prop. 1.4].\nSo, similarly, we can show that {CF line} is also equal to {AF line}.\nSo that {BF line} is also equal to {FC line}.\nThus, [again] the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, and {FC line}, will also go through the remaining points.\nAnd it will have been circumscribed about triangle {ABC polygon}.\n\nThus, a circle has been circumscribed about the given triangle.\n(Which is) the very thing it was required to do.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "points": {
+          "A": [
+            80,
+            50
+          ],
+          "B": [
+            23.368810393753684,
+            161.14496766047313
+          ],
+          "C": [
+            129.49747468305833,
+            169.49747468305833
+          ],
+          "D": [
+            51.68440519687684,
+            105.57248383023656
+          ],
+          "E": [
+            104.74873734152916,
+            109.74873734152916
+          ],
+          "F": [
+            80,
+            120
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              80,
+              120
+            ],
+            140
+          ],
+          [
+            "polygon",
+            [
+              [
+                80,
+                50
+              ],
+              [
+                23.368810393753684,
+                161.14496766047313
+              ],
+              [
+                129.49747468305833,
+                169.49747468305833
+              ]
+            ]
+          ],
+          [
+            "line",
+            [
+              80,
+              120
+            ],
+            [
+              80,
+              50
+            ]
+          ],
+          [
+            "line",
+            [
+              80,
+              120
+            ],
+            [
+              23.368810393753684,
+              161.14496766047313
+            ]
+          ],
+          [
+            "line",
+            [
+              80,
+              120
+            ],
+            [
+              129.49747468305833,
+              169.49747468305833
+            ]
+          ],
+          [
+            "line",
+            [
+              80,
+              120
+            ],
+            [
+              51.68440519687684,
+              105.57248383023656
+            ]
+          ],
+          [
+            "line",
+            [
+              80,
+              120
+            ],
+            [
+              104.74873734152916,
+              109.74873734152916
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            4
+          ],
+          "C": [
+            -1.5
+          ],
+          "D": [
+            2
+          ],
+          "E": [
+            0
+          ],
+          "F": [
+            -3,
+            2
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            281.7793349817683,
+            57.62954330681425
+          ],
+          "B": [
+            180,
+            120.00000000000001
+          ],
+          "C": [
+            320,
+            120
+          ],
+          "D": [
+            230.88966749088414,
+            88.81477165340713
+          ],
+          "E": [
+            300.8896674908841,
+            88.81477165340712
+          ],
+          "F": [
+            250,
+            120
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              250,
+              120
+            ],
+            140
+          ],
+          [
+            "polygon",
+            [
+              [
+                281.7793349817683,
+                57.62954330681425
+              ],
+              [
+                180,
+                120.00000000000001
+              ],
+              [
+                320,
+                120
+              ]
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              120
+            ],
+            [
+              281.7793349817683,
+              57.62954330681425
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              120
+            ],
+            [
+              180,
+              120.00000000000001
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              120
+            ],
+            [
+              320,
+              120
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              120
+            ],
+            [
+              230.88966749088414,
+              88.81477165340713
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              120
+            ],
+            [
+              300.8896674908841,
+              88.81477165340712
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            -1.5
+          ],
+          "D": [
+            2
+          ],
+          "E": [
+            2.7,
+            4
+          ],
+          "F": [
+            -3
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            451.7793349817683,
+            57.62954330681425
+          ],
+          "B": [
+            363.3688103937537,
+            78.8550323395269
+          ],
+          "C": [
+            490,
+            120
+          ],
+          "D": [
+            407.574072687761,
+            68.24228782317057
+          ],
+          "E": [
+            470.8896674908841,
+            88.81477165340712
+          ],
+          "F": [
+            420,
+            120
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              420,
+              120
+            ],
+            140
+          ],
+          [
+            "polygon",
+            [
+              [
+                451.7793349817683,
+                57.62954330681425
+              ],
+              [
+                363.3688103937537,
+                78.8550323395269
+              ],
+              [
+                490,
+                120
+              ]
+            ]
+          ],
+          [
+            "line",
+            [
+              420,
+              120
+            ],
+            [
+              451.7793349817683,
+              57.62954330681425
+            ]
+          ],
+          [
+            "line",
+            [
+              420,
+              120
+            ],
+            [
+              363.3688103937537,
+              78.8550323395269
+            ]
+          ],
+          [
+            "line",
+            [
+              420,
+              120
+            ],
+            [
+              490,
+              120
+            ]
+          ],
+          [
+            "line",
+            [
+              420,
+              120
+            ],
+            [
+              407.574072687761,
+              68.24228782317057
+            ]
+          ],
+          [
+            "line",
+            [
+              420,
+              120
+            ],
+            [
+              470.8896674908841,
+              88.81477165340712
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            2
+          ],
+          "C": [
+            -1.5
+          ],
+          "D": [
+            1.3
+          ],
+          "E": [
+            2.7,
+            4
+          ],
+          "F": [
+            -3
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "4.6",
+    "title": "Proposition 6",
+    "prose": "To inscribe a square in a given circle.\n\nLet {ABCD circle E} be the given circle.\nSo it is required to inscribe a square in circle {ABCD circle E}.\n\nLet two diameters of circle {ABCD circle E}, {AC line} and {BD line}, have been drawn at right-angles to one another.\nAnd let {AB line}, {BC line}, {CD line}, and {DA line} have been joined.\n\nAnd since {BE line} is equal to {ED line}, for {E point} (is) the center (of the circle), and {EA line} is common and at right-angles, the base {AB line} is thus equal to the base {AD line} [Prop. 1.4].\nSo, for the same (reasons), each of {BC line} and {CD line} is equal to each of {AB line} and {AD line}.\nThus, the quadrilateral {ABCD polygon} is equilateral.\nSo I say that (it is) also right-angled.\nFor since the straight-line {BD line} is a diameter of circle {ABCD circle E}, {BAD arc E} is thus a semi-circle.\nThus, angle {BAD angle} (is) a right-angle [Prop. 3.31].\nSo, for the same (reasons), (angles) {ABC angle}, {BCD angle}, and {CDA angle} are also each right-angles.\nThus, the quadrilateral {ABCD polygon} is right-angled.\nAnd it was also shown (to be) equilateral.\nThus, it is a square [Def. 1.22].\nAnd it has been inscribed in circle {ABCD circle E}.\n\nThus, the square {ABCD polygon} has been inscribed in the given circle.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        200,
+        50
+      ],
+      "B": [
+        50,
+        200
+      ],
+      "C": [
+        199.99999999999997,
+        350
+      ],
+      "D": [
+        350,
+        200.00000000000003
+      ],
+      "E": [
+        200,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          200
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            200,
+            50
+          ],
+          [
+            50,
+            200
+          ],
+          [
+            199.99999999999997,
+            350
+          ],
+          [
+            350,
+            200.00000000000003
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          199.99999999999997,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200.00000000000003
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "4.7",
+    "title": "Proposition 7",
+    "prose": "To circumscribe a square about a given circle.\n\nLet {ABCD circle E} be the given circle.\nSo it is required to circumscribe a square about circle {ABCD circle E}.\n\nLet two diameters of circle {ABCD circle E}, {AC line} and {BD line}, have been drawn at right-angles to one another.\nAnd let {FG line}, {GH line}, {HK line}, and {KF line} have been drawn through points {A point}, {B point}, {C point}, and {D point} (respectively), touching circle {ABCD circle E}.\n\nTherefore, since {FG line} touches circle {ABCD circle E}, and {EA line} has been joined from the center {E point} to the point of contact {A point}, the angles at {A point} are thus right-angles [Prop. 3.18].\nSo, for the same (reasons), the angles at points {B point}, {C point}, and {D point} are also right-angles.\nAnd since angle {AEB angle} is a right-angle, and {EBG angle} is also a right-angle, {GH line} is thus parallel to {AC line} [Prop. 1.29].\nSo, for the same (reasons), {AC line} is also parallel to {FK line}.\nSo that {GH line} is also parallel to {FK line} [Prop. 1.30].\nSo, similarly, we can show that {GF line} and {HK line} are each parallel to {BED line}.\nThus, {GK polygon}, {GC polygon}, {AK polygon}, {FB polygon}, and {BK polygon} are (all) parallelograms.\nThus, {GF line} is equal to {HK line}, and {GH line} to {FK line} [Prop. 1.34].\nAnd since {AC line} is equal to {BD line}, but {AC line} (is) also (equal) to each of {GH line} and {FK line}, and {BD line} is equal to each of {GF line} and {HK line} [Prop. 1.34], the quadrilateral {FGHK polygon} is thus equilateral.\nSo I say that (it is) also right-angled.\nFor since {GBEA polygon} is a parallelogram, and {AEB angle} is a right-angle, {AGB angle} is thus also a right-angle [Prop. 1.34].\nSo, similarly, we can show that the angles at {H point}, {K point}, and {F point} are also right-angles.\nThus, {FGHK polygon} is right-angled.\nAnd it was also shown (to be) equilateral.\nThus, it is a square [Def. 1.22].\nAnd it has been circumscribed about circle {ABCD circle E}.\n\nThus, a square has been circumscribed about the given circle.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        200,
+        50
+      ],
+      "B": [
+        50,
+        200
+      ],
+      "C": [
+        199.99999999999997,
+        350
+      ],
+      "D": [
+        350,
+        200.00000000000003
+      ],
+      "E": [
+        200,
+        200
+      ],
+      "F": [
+        350,
+        50.00000000000003
+      ],
+      "G": [
+        50,
+        50
+      ],
+      "H": [
+        50,
+        350
+      ],
+      "K": [
+        350,
+        350
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          200
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            350,
+            50.00000000000003
+          ],
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            350
+          ],
+          [
+            350,
+            350
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          199.99999999999997,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200.00000000000003
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        -3
+      ]
+    },
+    "polygonl": {
+      "GK": "GHKF",
+      "GC": "GHCA",
+      "AK": "ACKF",
+      "FB": "FDBG",
+      "BK": "BHKD"
+    }
+  },
+  {
+    "id": "4.8",
+    "title": "Proposition 8",
+    "prose": "To inscribe a circle in a given square.\n\nLet the given square be {ABCD polygon}.\nSo it is required to inscribe a circle in square {ABCD polygon}.\n\nLet {AD line} and {AB line} each have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].\nAnd let {EH line} have been drawn through {E point}, parallel to either of {AB line} or {CD line}, and let {FK line} have been drawn through {F point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].\nThus, {AK polygon}, {KB polygon}, {AH polygon}, {HD polygon}, {AG polygon}, {GC polygon}, {BG polygon}, and {GD polygon} are each parallelograms, and their opposite sides [are] manifestly equal [Prop. 1.34].\nAnd since {AD line} is equal to {AB line}, and {AE line} is half of {AD line}, and {AF line} half of {AB line}, {AE line} (is) thus also equal to {AF line}.\nSo that the opposite (sides are) also (equal).\nThus, {FG line} (is) also equal to {GE line}.\nSo, similarly, we can also show that each of {GH line} and {GK line} is equal to each of {FG line} and {GE line}.\nThus, the four (straight-lines) {GE line}, {GF line}, {GH line}, and {GK line} [are] equal to one another.\nThus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, will also go through the remaining points.\nAnd it will touch the straight-lines {AB line}, {BC line}, {CD line}, and {DA line}, on account of the angles at {E point}, {F point}, {H point}, and {K point} being right-angles.\nFor if the circle cuts {AB line}, {BC line}, {CD line}, or {DA line}, then a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, will fall inside the circle.\nThe very thing was shown (to be) absurd [Prop. 3.16].\nThus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, does not cut the straight-lines {AB line}, {BC line}, {CD line}, or {DA line}.\nThus, it will touch them, and will have been inscribed in the square {ABCD polygon}.\n\nThus, a circle has been inscribed in the given square.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        50,
+        350
+      ],
+      "C": [
+        350,
+        350
+      ],
+      "D": [
+        350,
+        50.00000000000003
+      ],
+      "E": [
+        200,
+        50
+      ],
+      "F": [
+        50,
+        200
+      ],
+      "G": [
+        200,
+        200
+      ],
+      "H": [
+        199.99999999999997,
+        350
+      ],
+      "K": [
+        350,
+        200.00000000000003
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          200
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            50,
+            350
+          ],
+          [
+            350,
+            350
+          ],
+          [
+            350,
+            50.00000000000003
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200.00000000000003
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          199.99999999999997,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        2
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        -1
+      ]
+    },
+    "polygonl": {
+      "AK": "DAFK",
+      "KB": "CKFB",
+      "AH": "EABH",
+      "HD": "EHCD",
+      "AG": "EAFG",
+      "GC": "KGHC",
+      "BG": "FBHG",
+      "GD": "EGKD"
+    }
+  },
+  {
+    "id": "4.9",
+    "title": "Proposition 9",
+    "prose": "To circumscribe a circle about a given square.\n\nLet {ABCD polygon} be the given square.\nSo it is required to circumscribe a circle about square {ABCD polygon}.\n\n{AC line} and {BD line} being joined, let them cut one another at {E point}.\n\nAnd since {DA line} is equal to {AB line}, and {AC line} (is) common, the two (straight-lines) {DA line}, {AC line} are thus equal to the two (straight-lines) {BA line}, {AC line}.\nAnd the base {DC line} (is) equal to the base {BC line}.\nThus, angle {DAC angle} is equal to angle {BAC angle} [Prop. 1.8].\nThus, the angle {DAB angle} has been cut in half by {AC line}.\nSo, similarly, we can show that {ABC angle}, {BCD angle}, and {CDA angle} have each been cut in half by the straight-lines {AC line} and {DB line}.\nAnd since angle {DAB angle} is equal to {ABC angle}, and {EAB angle} is half of {DAB angle}, and {EBA angle} half of {ABC angle}, {EAB angle} is thus also equal to {EBA angle}.\nSo that side {EA line} is also equal to {EB line} [Prop. 1.6].\nSo, similarly, we can show that each of the [straight-lines] {EA line} and {EB line} are also equal to each of {EC line} and {ED line}.\nThus, the four (straight-lines) {EA line}, {EB line}, {EC line}, and {ED line} are equal to one another.\nThus, the circle drawn with center {E point}, and radius one of {A point}, {B point}, {C point}, or {D point}, will also go through the remaining points, and will have been circumscribed about the square {ABCD polygon}.\nLet it have been (so) circumscribed, like {ABCD circle E} (in the figure).\n\nThus, a circle has been circumscribed about the given square.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        200,
+        50
+      ],
+      "B": [
+        50,
+        200
+      ],
+      "C": [
+        199.99999999999997,
+        350
+      ],
+      "D": [
+        350,
+        200.00000000000003
+      ],
+      "E": [
+        200,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          200
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            200,
+            50
+          ],
+          [
+            50,
+            200
+          ],
+          [
+            199.99999999999997,
+            350
+          ],
+          [
+            350,
+            200.00000000000003
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          199.99999999999997,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200.00000000000003
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        0,
+        1.3
+      ]
+    }
+  },
+  {
+    "id": "4.10",
+    "title": "Proposition 10",
+    "prose": "To construct an isosceles triangle having each of the angles at the base double the remaining (angle).\n\nLet some straight-line {AB line} be taken, and let it have been cut at point {C point} so that the rectangle contained by {AB line} and {BC line} is equal to the square on {CA line} [Prop. 2.11].\nAnd let the circle {BDE circle A} have been drawn with center {A point}, and radius {AB line}.\nAnd let the straight-line {BD line}, equal to the straight-line {AC line}, being not greater than the diameter of circle {BDE circle A}, have been inserted into circle {BDE circle A} [Prop. 4.1].\nAnd let {AD line} and {DC line} have been joined.\nAnd let the circle {ACD circle O} have been circumscribed about triangle {ACD polygon} [Prop. 4.5].\n\nAnd since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line}, and {AC line} (is) equal to {BD line}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {BD line}.\nAnd since some point {B point} has been taken outside of circle {ACD circle O}, and two straight-lines {BA line} and {BD line} have radiated from {B point} towards the circle {ACD circle O}, and (one) of them cuts (the circle), and (the other) meets (the circle), and the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {BD line}, {BD line} thus touches circle {ACD circle O} [Prop. 3.37].\nTherefore, since {BD line} touches (the circle), and {DC line} has been drawn across (the circle) from the point of contact {D point}, the angle {BDC angle} is thus equal to the angle {DAC angle} in the alternate segment of the circle [Prop. 3.32].\nTherefore, since {BDC angle} is equal to {DAC angle}, let {CDA angle} have been added to both.\nThus, the whole of {BDA angle} is equal to the two (angles) {CDA angle} and {DAC angle}.\nBut, the external (angle) {BCD angle} is equal to {CDA angle} and {DAC angle} [Prop. 1.32].\nThus, {BDA angle} is also equal to {BCD angle}.\nBut, {BDA angle} is equal to {CBD angle}, since the side {AD line} is also equal to {AB line} [Prop. 1.5].\nSo that {DBA angle} is also equal to {BCD angle}.\nThus, the three (angles) {BDA angle}, {DBA angle}, and {BCD angle} are equal to one another.\nAnd since angle {DBC angle} is equal to {BCD angle}, side {BD line} is also equal to side {DC line} [Prop. 1.6].\nBut, {BD line} was assumed (to be) equal to {CA line}.\nThus, {CA line} is also equal to {CD line}.\nSo that angle {CDA angle} is also equal to angle {DAC angle} [Prop. 1.5].\nThus, {CDA angle} and {DAC angle} is double {DAC angle}.\nBut {BCD angle} (is) equal to {CDA angle} and {DAC angle}.\nThus, {BCD angle} is also double {CAD angle}.\nAnd {BCD angle} (is) equal to to each of {BDA angle} and {DBA angle}.\nThus, {BDA angle} and {DBA angle} are each double {DAB angle}.\n\nThus, the isosceles triangle {ABD polygon} has been constructed having each of the angles at the base {BD line} double the remaining (angle).\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        220,
+        220
+      ],
+      "B": [
+        325.80134541264516,
+        74.37694101250946
+      ],
+      "C": [
+        285.3888275204825,
+        130
+      ],
+      "D": [
+        391.19017293312766,
+        164.37694101250946
+      ],
+      "E": [
+        391.19017293312766,
+        275.62305898749054
+      ],
+      "O": [
+        314.63160018144407,
+        220
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          220,
+          220
+        ],
+        360
+      ],
+      [
+        "circle",
+        [
+          314.63160018144407,
+          220
+        ],
+        189.2632003628881
+      ],
+      [
+        "polygon",
+        [
+          [
+            220,
+            220
+          ],
+          [
+            325.80134541264516,
+            74.37694101250946
+          ],
+          [
+            391.19017293312766,
+            164.37694101250946
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          285.3888275204825,
+          130
+        ],
+        [
+          391.19017293312766,
+          164.37694101250946
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        0.5
+      ],
+      "C": [
+        1.7
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        -2
+      ]
+    }
+  },
+  {
+    "id": "4.11",
+    "title": "Proposition 11",
+    "prose": "To inscribe an equilateral and equiangular pentagon in a given circle.\n\nLet {ABCDE circle O} be the given circle.\nSo it is required to inscribed an equilateral and equiangular pentagon in circle {ABCDE circle O}.\n\nLet the the isosceles triangle {FGH polygon} be set up having each of the angles at {G point} and {H point} double the (angle) at {F point} [Prop. 4.10].\nAnd let triangle {ACD polygon}, equiangular to {FGH polygon}, have been inscribed in circle {ABCDE circle O}, such that {CAD angle} is equal to the angle at {F point}, and the (angles) at {G point} and {H point} (are) equal to {ACD angle} and {CDA angle}, respectively [Prop. 4.2].\nThus, {ACD angle} and {CDA angle} are each double {CAD angle}.\nSo let {ACD angle} and {CDA angle} have been cut in half by the straight-lines {CE line} and {DB line}, respectively [Prop. 1.9].\nAnd let {AB line}, {BC line}, {DE line} and {EA line} have been joined.\n\nTherefore, since angles {ACD angle} and {CDA angle} are each double {CAD angle}, and are cut in half by the straight-lines {CE line} and {DB line}, the five angles {DAC angle}, {ACE angle}, {ECD angle}, {CDB angle}, and {BDA angle} are thus equal to one another.\nAnd equal angles stand upon equal circumferences [Prop. 3.26].\nThus, the five circumferences {AB arcc O}, {BC arcc O}, {CD arcc O}, {DE arcc O}, and {EA arcc O} are equal to one another [Prop. 3.29].\nThus, the pentagon {ABCDE polygon} is equilateral.\nSo I say that (it is) also equiangular.\nFor since the circumference {AB arcc O} is equal to the circumference {DE arcc O}, let {BCD arcc O} have been added to both.\nThus, the whole circumference {ABCD arcc O} is equal to the whole circumference {EDCB arc O}.\nAnd the angle {AED angle} stands upon circumference {ABCD arcc O}, and angle {BAE angle} upon circumference {EDCB arc O}.\nThus, angle {BAE angle} is also equal to {AED angle} [Prop. 3.27].\nSo, for the same (reasons), each of the angles {ABC angle}, {BCD angle}, and {CDE angle} is also equal to each of {BAE angle} and {AED angle}.\nThus, pentagon {ABCDE polygon} is equiangular.\nAnd it was also shown (to be) equilateral.\n\nThus, an equilateral and equiangular pentagon has been inscribed in the given circle.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        150,
+        60
+      ],
+      "B": [
+        35.87321804458158,
+        142.9179606750063
+      ],
+      "C": [
+        79.46576972490321,
+        277.0820393249937
+      ],
+      "D": [
+        220.53423027509677,
+        277.08203932499373
+      ],
+      "E": [
+        264.12678195541844,
+        142.91796067500633
+      ],
+      "F": [
+        400,
+        60
+      ],
+      "G": [
+        329.4657697249032,
+        277.0820393249937
+      ],
+      "H": [
+        470.5342302750968,
+        277.08203932499373
+      ],
+      "O": [
+        150,
+        180
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          150,
+          180
+        ],
+        240
+      ],
+      [
+        "polygon",
+        [
+          [
+            150,
+            60
+          ],
+          [
+            35.87321804458158,
+            142.9179606750063
+          ],
+          [
+            79.46576972490321,
+            277.0820393249937
+          ],
+          [
+            220.53423027509677,
+            277.08203932499373
+          ],
+          [
+            264.12678195541844,
+            142.91796067500633
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            400,
+            60
+          ],
+          [
+            329.4657697249032,
+            277.0820393249937
+          ],
+          [
+            470.5342302750968,
+            277.08203932499373
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          35.87321804458158,
+          142.9179606750063
+        ],
+        [
+          220.53423027509677,
+          277.08203932499373
+        ]
+      ],
+      [
+        "line",
+        [
+          79.46576972490321,
+          277.0820393249937
+        ],
+        [
+          264.12678195541844,
+          142.91796067500633
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          60
+        ],
+        [
+          220.53423027509677,
+          277.08203932499373
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          60
+        ],
+        [
+          79.46576972490321,
+          277.0820393249937
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        4
+      ],
+      "D": [
+        -2
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        -3
+      ],
+      "H": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "4.12",
+    "title": "Proposition 12",
+    "prose": "To circumscribe an equilateral and equiangular pentagon about a given circle.\n\nLet {ABCDE circle F} be the given circle.\nSo it is required to circumscribe an equilateral and equiangular pentagon about circle {ABCDE circle F}.\n\nLet {A point}, {B point}, {C point}, {D point}, and {E point} have been conceived as the angular points of a pentagon having been inscribed (in circle {ABCDE circle F}) [Prop. 3.11], such that the circumferences {AB arcc F}, {BC arcc F}, {CD arcc F}, {DE arcc F}, and {EA arcc F} are equal.\nAnd let {GH line}, {HK line}, {KL line}, {LM line}, and {MG line} have been drawn through (points) {A point}, {B point}, {C point}, {D point}, and {E point} (respectively), touching the circle.\nAnd let the center {F point} of the circle {ABCDE circle F} have been found [Prop. 3.1].\nAnd let {FB line}, {FK line}, {FC line}, {FL line}, and {FD line} have been joined.\n\nAnd since the straight-line {KL line} touches (circle) {ABCDE circle F} at {C point}, and {FC line} has been joined from the center {F point} to the point of contact {C point}, {FC line} is thus perpendicular to {KL line} [Prop. 3.18].\nThus, each of the angles at {C point} is a right-angle.\nSo, for the same (reasons), the angles at {B point} and {D point} are also right-angles.\nAnd since angle {FCK angle} is a right-angle, the (square) on {FK line} is thus equal to the (sum of the squares) on {FC line} and {CK line} [Prop. 1.47].\nSo, for the same (reasons), the (square) on {FK line} is also equal to the (sum of the squares) on {FB line} and {BK line}.\nSo that the (sum of the squares) on {FC line} and {CK line} is equal to the (sum of the squares) on {FB line} and {BK line}, of which the (square) on {FC line} is equal to the (square) on {FB line}.\nThus, the remaining (square) on {CK line} is equal to the remaining (square) on {BK line}.\nThus, {BK line} (is) equal to {CK line}.\nAnd since {FB line} is equal to {FC line}, and {FK line} (is) common, the two (straight-lines) {BF line}, {FK line} are equal to the two (straight-lines) {CF line}, {FK line}.\nAnd the base {BK line} [is] equal to the base {CK line}.\nThus, angle {BFK angle} is equal to [angle] {KFC angle} [Prop. 1.8].\nAnd {BKF angle} (is equal) to {FKC angle} [Prop. 1.8].\nThus, {BFC angle} (is) double {KFC angle}, and {BKC angle} (is double) {FKC angle}.\nSo, for the same (reasons), {CFD angle} is also double {CFL angle}, and {DLC angle} (is also double) {FLC angle}.\nAnd since circumference {BC arcc F} is equal to {CD arcc F}, angle {BFC angle} is also equal to {CFD angle} [Prop. 3.27].\nAnd {BFC angle} is double {KFC angle}, and {DFC angle} (is double) {LFC angle}.\nThus, {KFC angle} is also equal to {LFC angle}.\nAnd angle {FCK angle} is also equal to {FCL angle}.\nSo, {FKC polygon} and {FLC polygon} are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) {FC line}.\nThus, they will also have the remaining sides equal to the (corresponding) remaining sides, and the remaining angle to the remaining angle [Prop. 1.26].\nThus, the straight-line {KC line} (is) equal to {CL line}, and the angle {FKC angle} to {FLC angle}.\nAnd since {KC line} is equal to {CL line}, {KL line} (is) thus double {KC line}.\nSo, for the same (reasons), it can be shown that {HK line} (is) also double {BK line}.\nAnd {BK line} is equal to {KC line}.\nThus, {HK line} is also equal to {KL line}.\nSo, similarly, each of {HG line}, {GM line}, and {ML line} can also be shown (to be) equal to each of {HK line} and {KL line}.\nThus, pentagon {GHKLM polygon} is equilateral.\nSo I say that (it is) also equiangular.\nFor since angle {FKC angle} is equal to {FLC angle}, and {HKL angle} was shown (to be) double {FKC angle}, and {KLM angle} double {FLC angle}, {HKL angle} is thus also equal to {KLM angle}.\nSo, similarly, each of {KHG angle}, {HGM angle}, and {GML angle} can also be shown (to be) equal to each of {HKL angle} and {KLM angle}.\nThus, the five angles {GHK angle}, {HKL angle}, {KLM angle}, {LMG angle}, and {MGH angle} are equal to one another.\nThus, the pentagon {GHKLM polygon} is equiangular.\nAnd it was also shown (to be) equilateral, and has been circumscribed about circle {ABCDE circle F}.\n\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        131.83221215612903,
+        128.6474508437579
+      ],
+      "B": [
+        77.34152255572695,
+        296.3525491562421
+      ],
+      "C": [
+        219.99999999999997,
+        400
+      ],
+      "D": [
+        362.658477444273,
+        296.35254915624216
+      ],
+      "E": [
+        308.167787843871,
+        128.6474508437579
+      ],
+      "F": [
+        220,
+        250
+      ],
+      "G": [
+        220,
+        64.58980337503155
+      ],
+      "H": [
+        43.66442431225806,
+        192.7050983124842
+      ],
+      "K": [
+        111.01862079919584,
+        400
+      ],
+      "L": [
+        328.9813792008041,
+        400
+      ],
+      "M": [
+        396.33557568774194,
+        192.70509831248427
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          220,
+          250
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            220,
+            64.58980337503155
+          ],
+          [
+            43.66442431225806,
+            192.7050983124842
+          ],
+          [
+            111.01862079919584,
+            400
+          ],
+          [
+            328.9813792008041,
+            400
+          ],
+          [
+            396.33557568774194,
+            192.70509831248427
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          77.34152255572695,
+          296.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          219.99999999999997,
+          400
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          362.658477444273,
+          296.35254915624216
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          111.01862079919584,
+          400
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          328.9813792008041,
+          400
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        3.5
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1.5
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        3
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "4.13",
+    "title": "Proposition 13",
+    "prose": "To inscribe a circle in a given pentagon, which is equilateral and equiangular.\n\nLet {ABCDE polygon} be the given equilateral and equiangular pentagon.\nSo it is required to inscribe a circle in pentagon {ABCDE polygon}.\n\nFor let angles {BCD angle} and {CDE angle} have each been cut in half by each of the straight-lines {CF line} and {DF line} (respectively) [Prop. 1.9].\nAnd from the point {F point}, at which the straight-lines {CF line} and {DF line} meet one another, let the straight-lines {FB line}, {FA line}, and {FE line} have been joined.\nAnd since {BC line} is equal to {CD line}, and {CF line} (is) common, the two (straight-lines) {BC line}, {CF line} are equal to the two (straight-lines) {DC line}, {CF line}.\nAnd angle {BCF angle} [is] equal to angle {DCF angle}.\nThus, the base {BF line} is equal to the base {DF line}, and triangle {BCF polygon} is equal to triangle {DCF polygon}, and the remaining angles will be equal to the (corresponding) remaining angles which the equal sides subtend [Prop. 1.4].\nThus, angle {CBF angle} (is) equal to {CDF angle}.\nAnd since {CDE angle} is double {CDF angle}, and {CDE angle} (is) equal to {ABC angle}, and {CDF angle} to {CBF angle}, {CBA angle} is thus also double {CBF angle}.\nThus, angle {ABF angle} is equal to {FBC angle}.\nThus, angle {ABC angle} has been cut in half by the straight-line {BF line}.\nSo, similarly, it can be shown that {BAE angle} and {AED angle} have been cut in half by the straight-lines {FA line} and {FE line}, respectively.\nSo let {FG line}, {FH line}, {FK line}, {FL line}, and {FM line} have been drawn from point {F point}, perpendicular to the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, and {EA line} (respectively) [Prop. 1.12].\nAnd since angle {HCF angle} is equal to {KCF angle}, and the right-angle {FHC angle} is also equal to the [right-angle] {FKC angle}, {FHC polygon} and {FKC polygon} are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) {FC line}, subtending one of the equal angles.\nThus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].\nThus, the perpendicular {FH line} (is) equal to the perpendicular {FK line}.\nSo, similarly, it can be shown that {FL line}, {FM line}, and {FG line} are each equal to each of {FH line} and {FK line}.\nThus, the five straight-lines {FG line}, {FH line}, {FK line}, {FL line}, and {FM line} are equal to one another.\nThus, the circle drawn with center {F point}, and radius one of {G point}, {H point}, {K point}, {L point}, or {M point}, will also go through the remaining points, and will touch the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, and {EA line}, on account of the angles at points {G point}, {H point}, {K point}, {L point}, and {M point} being right-angles.\nFor if it does not touch them, but cuts them, it follows that a (straight-line) drawn at right-angles to the diameter of the circle, from its extremity, falls inside the circle.\nThe very thing was shown (to be) absurd [Prop. 3.16].\nThus, the circle drawn with center {F point}, and radius one of {G point}, {H point}, {K point}, {L point}, or {M point}, does not cut the straight-lines {AB line}, {BC line}, {CD line}, {DE line}, or {EA line}.\nThus, it will touch them.\nLet it have been drawn, like {GHKLM circle F} (in the figure).\n\nThus, a circle has been inscribed in the given pentagon which is equilateral and equiangular.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        220,
+        70
+      ],
+      "B": [
+        48.80982706687237,
+        194.37694101250946
+      ],
+      "C": [
+        114.19865458735481,
+        395.6230589874905
+      ],
+      "D": [
+        325.80134541264516,
+        395.62305898749054
+      ],
+      "E": [
+        391.19017293312766,
+        194.3769410125095
+      ],
+      "F": [
+        220,
+        250
+      ],
+      "G": [
+        134.40491353343617,
+        132.18847050625473
+      ],
+      "H": [
+        81.50424082711359,
+        295
+      ],
+      "K": [
+        219.99999999999997,
+        395.62305898749054
+      ],
+      "L": [
+        358.49575917288644,
+        295
+      ],
+      "M": [
+        305.5950864665639,
+        132.18847050625476
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          220,
+          250
+        ],
+        291.2461179749811
+      ],
+      [
+        "polygon",
+        [
+          [
+            220,
+            70
+          ],
+          [
+            48.80982706687237,
+            194.37694101250946
+          ],
+          [
+            114.19865458735481,
+            395.6230589874905
+          ],
+          [
+            325.80134541264516,
+            395.62305898749054
+          ],
+          [
+            391.19017293312766,
+            194.3769410125095
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          220,
+          70
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          48.80982706687237,
+          194.37694101250946
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          114.19865458735481,
+          395.6230589874905
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          325.80134541264516,
+          395.62305898749054
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          391.19017293312766,
+          194.3769410125095
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          220,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          134.40491353343617,
+          132.18847050625473
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          81.50424082711359,
+          295
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          219.99999999999997,
+          395.62305898749054
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          358.49575917288644,
+          295
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          250
+        ],
+        [
+          305.5950864665639,
+          132.18847050625476
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        0.4,
+        5
+      ],
+      "G": [
+        2
+      ],
+      "H": [
+        4
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        -2
+      ],
+      "M": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "4.14",
+    "title": "Proposition 14",
+    "prose": "To circumscribe a circle about a given pentagon which is equilateral and equiangular.\n\nLet {ABCDE polygon} be the given pentagon which is equilateral and equiangular.\nSo it is required to circumscribe a circle about the pentagon {ABCDE polygon}.\n\nSo let angles {BCD angle} and {CDE angle} have been cut in half by the (straight-lines) {CF line} and {DF line}, respectively [Prop. 1.9].\nAnd let the straight-lines {FB line}, {FA line}, and {FE line} have been joined from point {F point}, at which the straight-lines meet, to the points {B point}, {A point}, and {E point} (respectively).\nSo, similarly, to the (proposition) before this (one), it can be shown that angles {CBA angle}, {BAE angle}, and {AED angle} have also been cut in half by the straight-lines {FB line}, {FA line}, and {FE line}, respectively.\nAnd since angle {BCD angle} is equal to {CDE angle}, and {FCD angle} is half of {BCD angle}, and {CDF angle} half of {CDE angle}, {FCD angle} is thus also equal to {FDC angle}.\nSo that side {FC line} is also equal to side {FD line} [Prop. 1.6].\nSo, similarly, it can be shown that {FB line}, {FA line}, and {FE line} are also each equal to each of {FC line} and {FD line}.\nThus, the five straight-lines {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} are equal to one another.\nThus, the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, {FC line}, {FD line}, or {FE line}, will also go through the remaining points, and will have been circumscribed.\nLet it have been (so) circumscribed, and let it be {ABCDE circle F}.\n\nThus, a circle has been circumscribed about the given pentagon, which is equilateral and equiangular.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        220,
+        40
+      ],
+      "B": [
+        48.80982706687237,
+        164.37694101250946
+      ],
+      "C": [
+        114.19865458735481,
+        365.6230589874905
+      ],
+      "D": [
+        325.80134541264516,
+        365.62305898749054
+      ],
+      "E": [
+        391.19017293312766,
+        164.3769410125095
+      ],
+      "F": [
+        220,
+        220
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          220,
+          220
+        ],
+        360
+      ],
+      [
+        "polygon",
+        [
+          [
+            220,
+            40
+          ],
+          [
+            48.80982706687237,
+            164.37694101250946
+          ],
+          [
+            114.19865458735481,
+            365.6230589874905
+          ],
+          [
+            325.80134541264516,
+            365.62305898749054
+          ],
+          [
+            391.19017293312766,
+            164.3769410125095
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          220
+        ],
+        [
+          220,
+          40
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          220
+        ],
+        [
+          48.80982706687237,
+          164.37694101250946
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          220
+        ],
+        [
+          114.19865458735481,
+          365.6230589874905
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          220
+        ],
+        [
+          325.80134541264516,
+          365.62305898749054
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          220
+        ],
+        [
+          391.19017293312766,
+          164.3769410125095
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        4
+      ],
+      "D": [
+        -2
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        0.2,
+        1.2
+      ]
+    }
+  },
+  {
+    "id": "4.15",
+    "title": "Proposition 15",
+    "prose": "To inscribe an equilateral and equiangular hexagon in a given circle.\n\nLet {ABCDEF circle G} be the given circle.\nSo it is required to inscribe an equilateral and equiangular hexagon in circle {ABCDEF circle G}.\n\nLet the diameter {AD line} of circle {ABCDEF circle G} have been drawn, and let the center {G point} of the circle have been found [Prop. 3.1].\nAnd let the circle {EGCH circle D} have been drawn, with center {D point}, and radius {DG line}.\nAnd {EG line} and {CG line} being joined, let them have been drawn across (the circle) to points {B point} and {F point} (respectively).\nAnd let {AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line} have been joined.\nI say that the hexagon {ABCDEF polygon} is equilateral and equiangular.\n\nFor since point {G point} is the center of circle {ABCDEF circle G}, {GE line} is equal to {GD line}.\nAgain, since point {D point} is the center of circle {GCH circle D}, {DE line} is equal to {DG line}.\nBut, {GE line} was shown (to be) equal to {GD line}.\nThus, {GE line} is also equal to {ED line}.\nThus, triangle {EGD polygon} is equilateral.\nThus, its three angles {EGD angle}, {GDE angle}, and {DEG angle} are also equal to one another, inasmuch as the angles at the base of isosceles triangles are equal to one another [Prop. 1.5].\nAnd the three angles of the triangle are equal to two right-angles [Prop. 1.32].\nThus, angle {EGD angle} is one third of two right-angles.\nSo, similarly, {DGC angle} can also be shown (to be) one third of two right-angles.\nAnd since the straight-line {CG line}, standing on {EB line}, makes adjacent angles {EGC angle} and {CGB angle} equal to two right-angles [Prop. 1.13], the remaining angle {CGB angle} is thus also one third of two right-angles.\nThus, angles {EGD angle}, {DGC angle}, and {CGB angle} are equal to one another.\nAnd hence the (angles) opposite to them {BGA angle}, {AGF angle}, and {FGE angle} are also equal[Prop. 1.15].\nThus, the six angles {EGD angle}, {DGC angle}, {CGB angle}, {BGA angle}, {AGF angle}, and {FGE angle} are equal to one another.\nAnd equal angles stand on equal circumferences [Prop. 3.26].\nThus, the six circumferences {AB arc G}, {BC arc G}, {CD arc G}, {DE arc G}, {EF arc G}, and {FA arc G} are equal to one another.\nAnd equal circumferences are subtended by equal straight-lines [Prop. 3.29].\nThus, the six straight-lines ({AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line}) are equal to one another.\nThus, hexagon {ABCDEF polygon} is equilateral.\nSo, I say that (it is) also equiangular.\nFor since circumference {FA arc G} is equal to circumference {ED arcc G}, let circumference {ABCD arc G} have been added to both.\nThus, the whole of {FABCD arc G} is equal to the whole of {EDCBA arcc G}.\nAnd angle {FED angle} stands on circumference {FABCD arc G}, and angle {AFE angle} on circumference {EDCBA arcc G}.\nThus, angle {AFE angle} is equal to {DEF angle} [Prop. 3.27].\nSimilarly, it can also be shown that the remaining angles of hexagon {ABCDEF polygon} are individually equal to each of the angles {AFE angle} and {FED angle}.\nThus, hexagon {ABCDEF polygon} is equiangular.\nAnd it was also shown (to be) equilateral.\nAnd it has been inscribed in circle {ABCDE circle G}.\n\nThus, an equilateral and equiangular hexagon has been inscribed in the given circle.\n(Which is) the very thing it was required to do.\n\nCorollary\n\nSo, from this, (it is) manifest that a side of the hexagon is equal to the radius of the circle.\nAnd similarly to a pentagon, if we draw tangents to the circle through the (sixfold) divisions of the (circumference of the) circle, an equilateral and equiangular hexagon can be circumscribed about the circle, analogously to the aforementioned pentagon.\nAnd, further, by (means) similar to the aforementioned pentagon, we can inscribe and circumscribe a circle in (and about) a given hexagon.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        30,
+        220
+      ],
+      "B": [
+        89.99999999999999,
+        116.07695154586737
+      ],
+      "C": [
+        209.99999999999997,
+        116.07695154586736
+      ],
+      "D": [
+        270,
+        219.99999999999997
+      ],
+      "E": [
+        210.00000000000006,
+        323.92304845413264
+      ],
+      "F": [
+        89.99999999999999,
+        323.92304845413264
+      ],
+      "G": [
+        150,
+        220
+      ],
+      "H": [
+        390,
+        219.99999999999997
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          150,
+          220
+        ],
+        240
+      ],
+      [
+        "circle",
+        [
+          270,
+          219.99999999999997
+        ],
+        240
+      ],
+      [
+        "polygon",
+        [
+          [
+            30,
+            220
+          ],
+          [
+            89.99999999999999,
+            116.07695154586737
+          ],
+          [
+            209.99999999999997,
+            116.07695154586736
+          ],
+          [
+            270,
+            219.99999999999997
+          ],
+          [
+            210.00000000000006,
+            323.92304845413264
+          ],
+          [
+            89.99999999999999,
+            323.92304845413264
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          30,
+          220
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          89.99999999999999,
+          116.07695154586737
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          209.99999999999997,
+          116.07695154586736
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          270,
+          219.99999999999997
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          210.00000000000006,
+          323.92304845413264
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          220
+        ],
+        [
+          89.99999999999999,
+          323.92304845413264
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        -3.2,
+        1.2
+      ],
+      "F": [
+        4,
+        1.3
+      ],
+      "G": [
+        2.5,
+        4
+      ],
+      "H": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "4.16",
+    "title": "Proposition 16",
+    "prose": "To inscribe an equilateral and equiangular fifteen-sided figure in a given circle.\n\nLet {ABCD circle O} be the given circle.\nSo it is required to inscribe an equilateral and equiangular fifteen-sided figure in circle {ABCD circle O}.\n\nLet the side {AC line} of an equilateral triangle inscribed in (the circle) [Prop. 4.2], and (the side) {AB line} of an (inscribed) equilateral pentagon [Prop. 4.11], have been inscribed in circle {ABCD circle O}.\nThus, just as the circle {ABCD circle O} is (made up) of fifteen equal pieces, the circumference {ABC arcc O}, being a third of the circle, will be (made up) of five such (pieces), and the circumference {AB arcc O}, being a fifth of the circle, will be (made up) of three.\nThus, the remainder {BC arcc O} (will be made up) of two equal (pieces).\nLet (circumference) {BC arcc O} have been cut in half at {E point} [Prop. 3.30].\nThus, each of the circumferences {BE arcc O} and {EC arcc O} is one fifteenth of the circle {ABCDE circle O}.\n\nThus, if, joining {BE line} and {EC line}, we continuously insert straight-lines equal to them into circle {ABCD circle O} [Prop. 4.1], then an equilateral and equiangular fifteen-sided figure will have been inserted into (the circle).\n(Which is) the very thing it was required to do.\n\nAnd similarly to the pentagon, if we draw tangents to the circle through the (fifteenfold) divisions of the (circumference of the) circle, we can circumscribe an equilateral and equiangular fifteen-sided figure about the circle.\nAnd, further, through similar proofs to the pentagon, we can also inscribe and circumscribe a circle in (and about) a given fifteen-sided figure.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        256,
+        76
+      ],
+      "B": [
+        84.80982706687237,
+        200.37694101250946
+      ],
+      "C": [
+        100.11542731880104,
+        345.99999999999994
+      ],
+      "D": [
+        411.88457268119896,
+        346.0000000000001
+      ],
+      "E": [
+        76.98605883371079,
+        274.8151233881776
+      ],
+      "O": [
+        256,
+        256
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          256
+        ],
+        360
+      ],
+      [
+        "polygon",
+        [
+          [
+            256,
+            76
+          ],
+          [
+            182.78740424635598,
+            91.56181762433184
+          ],
+          [
+            122.23393141406905,
+            135.5564908554055
+          ],
+          [
+            84.80982706687237,
+            200.37694101250946
+          ],
+          [
+            76.98605883371079,
+            274.8151233881776
+          ],
+          [
+            100.11542731880104,
+            345.99999999999994
+          ],
+          [
+            150.1986545873548,
+            401.6230589874905
+          ],
+          [
+            218.57589565280333,
+            432.066568132085
+          ],
+          [
+            293.42410434719665,
+            432.066568132085
+          ],
+          [
+            361.80134541264516,
+            401.62305898749054
+          ],
+          [
+            411.88457268119896,
+            346.0000000000001
+          ],
+          [
+            435.0139411662892,
+            274.81512338817777
+          ],
+          [
+            427.19017293312766,
+            200.3769410125095
+          ],
+          [
+            389.76606858593095,
+            135.55649085540546
+          ],
+          [
+            329.212595753644,
+            91.56181762433184
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            256,
+            76
+          ],
+          [
+            84.80982706687237,
+            200.37694101250946
+          ],
+          [
+            150.1986545873548,
+            401.6230589874905
+          ],
+          [
+            361.80134541264516,
+            401.62305898749054
+          ],
+          [
+            427.19017293312766,
+            200.3769410125095
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            256,
+            76
+          ],
+          [
+            100.11542731880104,
+            345.99999999999994
+          ],
+          [
+            411.88457268119896,
+            346.0000000000001
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        2.5
+      ],
+      "C": [
+        3.5
+      ],
+      "D": [
+        -2
+      ],
+      "E": [
+        3
+      ]
+    }
+  }
+]

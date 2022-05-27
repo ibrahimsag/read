@@ -1,0 +1,6559 @@
+[
+  {
+    "id": "3.d",
+    "title": "Definitions",
+    "prose": "1. Equal circles are (circles) whose diameters are equal, or whose (distances) from the centers (to the circumferences) are equal (i.e., whose radii are equal).\n\n2. A straight-line said to touch a circle is any (straight-line) which, meeting the circle and being produced, does not cut the circle.\n\n3. Circles said to touch one another are any (circles) which, meeting one another, do not cut one another.\n\n4. In a circle, straight-lines are said to be equally far from the center when the perpendiculars drawn to them from the center are equal.\n\n5. And (that straight-line) is said to be further (from the center) on which the greater perpendicular falls (from the center).\n\n6. A segment of a circle is the figure contained by a straight-line and a circumference of a circle.\n\n7. And the angle of a segment is that contained by a straight-line and a circumference of a circle.\n\n8. And the angle in a segment is the angle contained by the joined straight-lines, when any point is taken on the circumference of a segment, and straight-lines are joined from it to the ends of the straight-line which is the base of the segment.\n\n9. And when the straight-lines containing an angle cut off some circumference, the angle is said to stand upon that (circumference).\n\n10. And a sector of a circle is the figure contained by the straight-lines surrounding an angle, and the circumference cut off by them, when the angle is constructed at the center of a circle.\n\n11. Similar segments of circles are those accepting equal angles, or in which the angles are equal to one another.\n",
+    "points": {},
+    "shapes": [],
+    "letters": {}
+  },
+  {
+    "id": "3.1",
+    "title": "Proposition 1",
+    "prose": "To find the center of a given circle.\n\nLet {ABC circle F} be the given circle.\nSo it is required to find the center of circle {ABC circle F}.\n\nLet some straight-line {AB line} have been drawn through ({ABC circle F}), at random, and let ({AB line}) have been cut in half at point {D point} [Prop. 1.9].\nAnd let {DC line} have been drawn from {D point}, at right-angles to {AB line} [Prop. 1.11].\nAnd let ({CD line}) have been drawn through to {E point} (as {CE line}).\nAnd let {CE line} have been cut in half at {F point} [Prop. 1.9].\nI say that (point) {F point} is the center of the [circle] {ABC circle F}.\n\nFor (if) not then, if possible, let {G point} (be the center of the circle), and let {GA line}, {GD line}, and {GB line} have been joined.\nAnd since {AD line} is equal to {DB line}, and {DG line} (is) common, the two (straight-lines) {AD line}, {DG line} are equal to the two (straight-lines) {BD line}, {DG line}, respectively.\nAnd the base {GA line} is equal to the base {GB line}.\nFor (they are both) radii.\nThus, angle {ADG angle} is equal to angle {GDB angle} [Prop. 1.8].\nAnd when a straight-line stood upon (another) straight-line make adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].\nThus, {GDB angle} is a right-angle.\nAnd {FDB angle} is also a right-angle.\nThus, {FDB angle} (is) equal to {GDB angle}, the greater to the lesser.\nThe very thing is impossible.\nThus, (point) {G point} is not the center of the circle {ABC circle F}.\nSo, similarly, we can show that neither is any other (point) except {F point}.\n\nThus, point {F point} is the center of the [circle] {ABC circle F}.\n\nCorollary\n\nSo, from this, (it is) manifest that if any straight-line in a circle cuts any (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line).\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        126.0961894323342,
+        281
+      ],
+      "B": [
+        385.9038105676658,
+        281
+      ],
+      "C": [
+        256,
+        56
+      ],
+      "D": [
+        256,
+        281
+      ],
+      "E": [
+        256,
+        356
+      ],
+      "F": [
+        256,
+        206
+      ],
+      "G": [
+        306,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          251,
+          206
+        ],
+        [
+          261,
+          206
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          56
+        ],
+        [
+          256,
+          356
+        ]
+      ],
+      [
+        "line",
+        [
+          126.0961894323342,
+          281
+        ],
+        [
+          385.9038105676658,
+          281
+        ]
+      ],
+      [
+        "line",
+        [
+          306,
+          206
+        ],
+        [
+          126.0961894323342,
+          281
+        ]
+      ],
+      [
+        "line",
+        [
+          306,
+          206
+        ],
+        [
+          385.9038105676658,
+          281
+        ]
+      ],
+      [
+        "line",
+        [
+          306,
+          206
+        ],
+        [
+          256,
+          281
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3.5
+      ],
+      "B": [
+        -1.5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        3.9
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        3,
+        1.3
+      ],
+      "G": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.2",
+    "title": "Proposition 2",
+    "prose": "If two points are taken at random on the circumference of a circle then the straight-line joining the points will fall inside the circle.\n\nLet {ABC circle D} be a circle, and let two points {A point} and {B point} have been taken at random on its circumference.\nI say that the straight-line joining {A point} to {B point} will fall inside the circle.\n\nFor (if) not then, if possible, let it fall outside (the circle), like {AEB given} (in the figure).\nAnd let the center of the circle {ABC circle D} have been found [Prop. 3.1], and let it be (at point) {D point}.\nAnd let {DA line} and {DB line} have been joined, and let {DFE line} have been drawn through.\n\nTherefore, since {DA line} is equal to {DB line}, the angle {DAE given} (is) thus also equal to {DBE given} [Prop. 1.5].\nAnd since in triangle {AED given} the one side, {AEB given}, has been produced, angle {DEB given} (is) thus greater than {DAE given} [Prop. 1.16].\nAnd {DAE given} (is) equal to {DBE given} [Prop. 1.5].\nThus, {DEB given} (is) greater than {DBE given}.\nAnd the greater angle is subtended by the greater side [Prop. 1.19].\nThus, {DB line} (is) greater than {DE line}.\nAnd {DB line} (is) equal to {DF line}.\nThus, {DF line} (is) greater than {DE line}, the lesser than the greater.\nThe very thing is impossible.\nThus, the straight-line joining {A point} to {B point} will not fall outside the circle.\nSo, similarly, we can show that neither (will it fall) on the circumference itself.\nThus, (it will fall) inside (the circle).\n\nThus, if two points are taken at random on the circumference of a circle then the straight-line joining the points will fall inside the circle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        107.18279480282831,
+        224.79998503464563
+      ],
+      "B": [
+        274.7999850346456,
+        354.8172051971717
+      ],
+      "C": [
+        347.9360580479465,
+        87.47674814364645
+      ],
+      "D": [
+        256,
+        206
+      ],
+      "E": [
+        153.4061233984813,
+        338.2632287433936
+      ],
+      "F": [
+        164.0639419520535,
+        324.52325185635357
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          153.4061233984813,
+          338.2632287433936
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          107.18279480282831,
+          224.79998503464563
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          274.7999850346456,
+          354.8172051971717
+        ]
+      ],
+      [
+        "arc",
+        [
+          228.41918258561606,
+          241.55697555690608
+        ],
+        [
+          274.7999850346456,
+          354.8172051971717
+        ],
+        [
+          107.18279480282831,
+          224.79998503464563
+        ]
+      ]
+    ],
+    "given": {
+      "AEB": [
+        [
+          "arc",
+          [
+            228.41918258561606,
+            241.55697555690608
+          ],
+          [
+            274.7999850346456,
+            354.8172051971717
+          ],
+          [
+            107.18279480282831,
+            224.79998503464563
+          ]
+        ]
+      ],
+      "AED": [
+        [
+          "line",
+          [
+            107.18279480282831,
+            224.79998503464563
+          ],
+          [
+            256,
+            206
+          ]
+        ],
+        [
+          "arc",
+          [
+            228.41918258561606,
+            241.55697555690608
+          ],
+          [
+            153.4061233984813,
+            338.2632287433936
+          ],
+          [
+            107.18279480282831,
+            224.79998503464563
+          ]
+        ],
+        [
+          "line",
+          [
+            153.4061233984813,
+            338.2632287433936
+          ],
+          [
+            256,
+            206
+          ]
+        ]
+      ],
+      "DAE": [
+        [
+          "line",
+          [
+            107.18279480282831,
+            224.79998503464563
+          ],
+          [
+            256,
+            206
+          ]
+        ],
+        [
+          "arc",
+          [
+            228.41918258561606,
+            241.55697555690608
+          ],
+          [
+            153.4061233984813,
+            338.2632287433936
+          ],
+          [
+            107.18279480282831,
+            224.79998503464563
+          ]
+        ],
+        [
+          "anglecurve",
+          [
+            256,
+            206
+          ],
+          [
+            107.18279480282831,
+            224.79998503464563
+          ],
+          [
+            106.46707846715543,
+            347.3152556318218
+          ]
+        ]
+      ],
+      "DEB": [
+        [
+          "line",
+          [
+            153.4061233984813,
+            338.2632287433936
+          ],
+          [
+            256,
+            206
+          ]
+        ],
+        [
+          "arc",
+          [
+            228.41918258561606,
+            241.55697555690608
+          ],
+          [
+            274.7999850346456,
+            354.8172051971717
+          ],
+          [
+            153.4061233984813,
+            338.2632287433936
+          ]
+        ],
+        [
+          "anglecurve",
+          [
+            256,
+            206
+          ],
+          [
+            153.4061233984813,
+            338.2632287433936
+          ],
+          [
+            259.2244950080179,
+            400.0125284096931
+          ]
+        ]
+      ],
+      "DBE": [
+        [
+          "line",
+          [
+            274.7999850346456,
+            354.8172051971717
+          ],
+          [
+            256,
+            206
+          ]
+        ],
+        [
+          "arc",
+          [
+            228.41918258561606,
+            241.55697555690608
+          ],
+          [
+            274.7999850346456,
+            354.8172051971717
+          ],
+          [
+            153.4061233984813,
+            338.2632287433936
+          ]
+        ],
+        [
+          "anglecurve",
+          [
+            256,
+            206
+          ],
+          [
+            274.7999850346456,
+            354.8172051971717
+          ],
+          [
+            156.31174836786363,
+            385.97874480883246
+          ]
+        ]
+      ]
+    },
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        5.5
+      ],
+      "C": [
+        0
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        4,
+        1.2
+      ],
+      "F": [
+        1,
+        1.2
+      ]
+    }
+  },
+  {
+    "id": "3.3",
+    "title": "Proposition 3",
+    "prose": "In a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.\nAnd (conversely) if it cuts it at right-angles then it also cuts it in half.\n\nLet {ABC circle E} be a circle, and, within it, let some straight-line through the center, {CD line}, cut in half some straight-line not through the center, {AB line}, at the point {F point}.\nI say that ({CD line}) also cuts ({AB line}) at right-angles.\n\nFor let the center of the circle {ABC circle E} have been found [Prop. 3.1], and let it be (at point) {E point}, and let {EA line} and {EB line} have been joined.\n\nAnd since {AF line} is equal to {FB line}, and {FE line} (is) common, two (sides of triangle {AFE polygon}) [are] equal to two (sides of triangle {BFE polygon}).\nAnd the base {EA line} (is) equal to the base {EB line}.\nThus, angle {AFE angle} is equal to angle {BFE angle} [Prop. 1.8].\nAnd when a straight-line stood upon (another) straight-line makes adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].\nThus, {AFE angle} and {BFE angle} are each right-angles.\nThus, the (straight-line) {CD line}, which is through the center and cuts in half the (straight-line) {AB line}, which is not through the center, also cuts ({AB line}) at right-angles.\n\nAnd so let {CD line} cut {AB line} at right-angles.\nI say that it also cuts ({AB line}) in half.\nThat is to say, that {AF line} is equal to {FB line}.\n\nFor, with the same construction, since {EA line} is equal to {EB line}, angle {EAF angle} is also equal to {EBF angle} [Prop. 1.5].\nAnd the right-angle {AFE angle} is also equal to the right-angle {BFE angle}.\nThus, {EAF polygon} and {EFB polygon} are two triangles having two angles equal to two angles, and one side equal to one side---(namely), their common (side) {EF line}, subtending one of the equal angles.\nThus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].\nThus, {AF line} (is) equal to {FB line}.\n\nThus, in a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.\nAnd (conversely) if it cuts it at right-angles then it also cuts it in half.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        117.41807012330699,
+        263.40251485476347
+      ],
+      "B": [
+        394.58192987669304,
+        263.40251485476347
+      ],
+      "C": [
+        256,
+        56
+      ],
+      "D": [
+        256,
+        356
+      ],
+      "E": [
+        256,
+        206
+      ],
+      "F": [
+        256,
+        263.40251485476347
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          256,
+          56
+        ],
+        [
+          256,
+          356
+        ]
+      ],
+      [
+        "line",
+        [
+          117.41807012330699,
+          263.40251485476347
+        ],
+        [
+          394.58192987669304,
+          263.40251485476347
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          117.41807012330699,
+          263.40251485476347
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          394.58192987669304,
+          263.40251485476347
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3.5
+      ],
+      "B": [
+        -1.5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        -2.3
+      ]
+    }
+  },
+  {
+    "id": "3.4",
+    "title": "Proposition 4",
+    "prose": "In a circle, if two straight-lines, which are not through the center, cut one another then they do not cut one another in half.\n\nLet {ABCD circle F} be a circle, and within it, let two straight-lines, {AC line} and {BD line}, which are not through the center, cut one another at (point) {E point}.\nI say that they do not cut one another in half.\n\nFor, if possible, let them cut one another in half, such that {AE line} is equal to {EC line}, and {BE line} to {ED line}.\nAnd let the center of the circle {ABCD circle F} have been found [Prop. 3.1], and let it be (at point) {F point}, and let {FE line} have been joined.\n\nTherefore, since some straight-line through the center, {FE line}, cuts in half some straight-line not through the center, {AC line}, it also cuts it at right-angles [Prop. 3.3].\nThus, {FEA angle} is a right-angle.\nAgain, since some straight-line {FE line} cuts in half some straight-line {BD line}, it also cuts it at right-angles [Prop. 3.3].\nThus, {FEB angle} (is) a right-angle.\nBut {FEA angle} was also shown (to be) a right-angle.\nThus, {FEA angle} (is) equal to {FEB angle}, the lesser to the greater.\nThe very thing is impossible.\nThus, {AC line} and {BD line} do not cut one another in half.\n\nThus, in a circle, if two straight-lines, which are not through the center, cut one another then they do not cut one another in half.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        106.0099341106937,
+        207.72630661284813
+      ],
+      "B": [
+        201.3887879734046,
+        345.70545988251945
+      ],
+      "C": [
+        349.5407995013182,
+        323.260900681575
+      ],
+      "D": [
+        402.3932443293505,
+        173.30415906071403
+      ],
+      "E": [
+        271,
+        286
+      ],
+      "F": [
+        256,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          271,
+          286
+        ]
+      ],
+      [
+        "line",
+        [
+          106.0099341106937,
+          207.72630661284813
+        ],
+        [
+          349.5407995013182,
+          323.260900681575
+        ]
+      ],
+      [
+        "line",
+        [
+          201.3887879734046,
+          345.70545988251945
+        ],
+        [
+          402.3932443293505,
+          173.30415906071403
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        -2
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        5,
+        1.2
+      ],
+      "F": [
+        1.4
+      ]
+    }
+  },
+  {
+    "id": "3.5",
+    "title": "Proposition 5",
+    "prose": "If two circles cut one another then they will not have the same center.\n\nFor let the two circles {ABC circle L} and {CDG circle K} cut one another at points {B point} and {C point}.\nI say that they will not have the same center.\n\nFor, if possible, let {E point} be (the common center), and let {EC line} have been joined, and let {EFG line} have been drawn through (the two circles), at random.\nAnd since point {E point} is the center of the circle {ABC circle L}, {EC line} is equal to {EF line}.\nAgain, since point {E point} is the center of the circle {CDG circle K}, {EC line} is equal to {EG line}.\nBut {EC line} was also shown (to be) equal to {EF line}.\nThus, {EF line} is also equal to {EG line}, the lesser to the greater.\nThe very thing is impossible.\nThus, point {E point} is not the (common) center of the circles {ABC circle L} and {CDG circle K}.\n\nThus, if two circles cut one another then they will not have the same center.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        101.50757595082503,
+        101.50757595082501
+      ],
+      "B": [
+        101.50757595082501,
+        271.2132034355964
+      ],
+      "C": [
+        271.2132034355964,
+        101.50757595082503
+      ],
+      "D": [
+        143.93398282201787,
+        143.93398282201787
+      ],
+      "E": [
+        218.18019484660536,
+        218.18019484660536
+      ],
+      "F": [
+        271.2132034355964,
+        271.2132034355964
+      ],
+      "G": [
+        356.06601717798213,
+        356.06601717798213
+      ],
+      "K": [
+        250,
+        250
+      ],
+      "L": [
+        186.36038969321072,
+        186.36038969321072
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          250
+        ],
+        300
+      ],
+      [
+        "circle",
+        [
+          186.36038969321072,
+          186.36038969321072
+        ],
+        240
+      ],
+      [
+        "line",
+        [
+          218.18019484660536,
+          218.18019484660536
+        ],
+        [
+          271.2132034355964,
+          101.50757595082503
+        ]
+      ],
+      [
+        "line",
+        [
+          218.18019484660536,
+          218.18019484660536
+        ],
+        [
+          356.06601717798213,
+          356.06601717798213
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        0.5
+      ],
+      "D": [
+        -2
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -2
+      ]
+    }
+  },
+  {
+    "id": "3.6",
+    "title": "Proposition 6",
+    "prose": "If two circles touch one another then they will not have the same center.\n\nFor let the two circles {ABC circle G} and {CDE circle F} touch one another at point {C point}.\nI say that they will not have the same center.\n\nFor, if possible, let {F point} be (the common center), and let {FC line} have been joined, and let {FEB line} have been drawn through (the two circles), at random.\n\nTherefore, since point {F point} is the center of the circle {ABC circle G}, {FC line} is equal to {FB line}.\nAgain, since point {F point} is the center of the circle {CDE circle F}, {FC line} is equal to {FE line}.\nBut {FC line} was shown (to be) equal to {FB line}.\nThus, {FE line} is also equal to {FB line}, the lesser to the greater.\nThe very thing is impossible.\nThus, point {F point} is not the (common) center of the circles {ABC circle G} and {CDE circle F}.\n\nThus, if two circles touch one another then they will not have the same center.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        174.99999999999994,
+        329.90381056766574
+      ],
+      "B": [
+        400,
+        200.0000000000001
+      ],
+      "C": [
+        175.00000000000003,
+        70.0961894323342
+      ],
+      "D": [
+        200.41881973232074,
+        271.3068661963648
+      ],
+      "E": [
+        337.78500811069193,
+        187.32240859473333
+      ],
+      "F": [
+        230,
+        165.35898384862244
+      ],
+      "G": [
+        250,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          200
+        ],
+        300
+      ],
+      [
+        "circle",
+        [
+          230,
+          165.35898384862244
+        ],
+        220
+      ],
+      [
+        "line",
+        [
+          230,
+          165.35898384862244
+        ],
+        [
+          175.00000000000003,
+          70.0961894323342
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          165.35898384862244
+        ],
+        [
+          400,
+          200.0000000000001
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        -1.2,
+        0.8
+      ],
+      "C": [
+        1.5
+      ],
+      "D": [
+        4.5
+      ],
+      "E": [
+        -2.6,
+        1.2
+      ],
+      "F": [
+        4,
+        1.2
+      ]
+    }
+  },
+  {
+    "id": "3.7",
+    "title": "Proposition 7",
+    "prose": "If some point, which is not the center of the circle, is taken on the diameter of a circle, and some straight-lines radiate from the point towards the (circumference of the) circle, then the greatest (straight-line) will be that on which the center (lies), and the least the remainder (of the same diameter).\nAnd for the others, a (straight-line) nearer to the (straight-line) through the center is always greater than a (straight-line) further away.\nAnd only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).\n\nLet {ABCD circle E} be a circle, and let {AD line} be its diameter, and let some point {F point}, which is not the center of the circle, have been taken on {AD line}.\nLet {E point} be the center of the circle.\nAnd let some straight-lines, {FB line}, {FC line}, and {FG line}, radiate from {F point} towards (the circumference of) circle {ABCD circle E}.\nI say that {FA line} is the greatest (straight-line), {FD line} the least, and of the others, {FB line} (is) greater than {FC line}, and {FC line} than {FG line}.\n\nFor let {BE line}, {CE line}, and {GE line} have been joined.\nAnd since for every triangle (any) two sides are greater than the remaining (side) [Prop. 1.20], {EB line} and {EF line} is thus greater than {BF line}.\nAnd {AE line} (is) equal to {BE line} [thus, {BE line} and {EF line} is equal to {AF line}].\nThus, {AF line} (is) greater than {BF line}.\nAgain, since {BE line} is equal to {CE line}, and {FE line} (is) common, the two (straight-lines) {BE line}, {EF line} are equal to the two (straight-lines) {CE line}, {EF line} (respectively).\nBut, angle {BEF angle} (is) also greater than angle {CEF angle}.\nThus, the base {BF line} is greater than the base {CF line}.\nThus, the base {BF line} is greater than the base {CF line} [Prop. 1.24].\nSo, for the same (reasons), {CF line} is also greater than {FG line}.\n\nAgain, since {GF line} and {FE line} are greater than {EG line} [Prop. 1.20], and {EG line} (is) equal to {ED line}, {GF line} and {FE line} are thus greater than {ED line}.\nLet {EF line} have been taken from both.\nThus, the remainder {GF line} is greater than the remainder {FD line}.\nThus, {FA line} (is) the greatest (straight-line), {FD line} the least, and {FB line} (is) greater than {FC line}, and {FC line} than {FG line}.\n\nI also say that from point {F point} only two equal (straight-lines) will radiate towards (the circumference of) circle {ABCD circle E}, (one) on each (side) of the least (straight-line) {FD line}.\nFor let the (angle) {FEH angle}, equal to angle {GEF angle}, have been constructed on the straight-line {EF line}, at the point {E point} on it [Prop. 1.23], and let {FH line} have been joined.\nTherefore, since {GE line} is equal to {EH line}, and {EF line} (is) common, the two (straight-lines) {GE line}, {EF line} are equal to the two (straight-lines) {HE line}, {EF line} (respectively).\nAnd angle {GEF angle} (is) equal to angle {HEF angle}.\nThus, the base {FG line} is equal to the base {FH line} [Prop. 1.4].\nSo I say that another (straight-line) equal to {FG line} will not radiate towards (the circumference of) the circle from point {F point}.\nFor, if possible, let {FK line} (so) radiate.\nAnd since {FK line} is equal to {FG line}, but {FH line} [is equal] to {FG line}, {FK line} is thus also equal to {FH line}, the nearer to the (straight-line) through the center equal to the further away.\nThe very thing (is) impossible.\nThus, another (straight-line) equal to {GF line} will not radiate from the point {F point} towards (the circumference of) the circle.\nThus, (there is) only one (such straight-line).\n\nThus, if some point, which is not the center of the circle, is taken on the diameter of a circle, and some straight-lines radiate from the point towards the (circumference of the) circle, then the greatest (straight-line) will be that on which the center (lies), and the least the remainder (of the same diameter).\nAnd for the others, a (straight-line) nearer to the (straight-line) through the center is always greater than a (straight-line) further away.\nAnd only two equal (straight-lines) will radiate from the same point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        250
+      ],
+      "B": [
+        88.19660112501052,
+        132.44294954150536
+      ],
+      "C": [
+        188.19660112501052,
+        59.7886967409693
+      ],
+      "D": [
+        450,
+        250
+      ],
+      "E": [
+        250,
+        250
+      ],
+      "F": [
+        330,
+        250
+      ],
+      "G": [
+        349.99999999999994,
+        76.79491924311225
+      ],
+      "H": [
+        349.99999999999994,
+        423.20508075688775
+      ],
+      "K": [
+        311.80339887498945,
+        440.21130325903073
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          250
+        ],
+        400
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          88.19660112501052,
+          132.44294954150536
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          88.19660112501052,
+          132.44294954150536
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          188.19660112501052,
+          59.7886967409693
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          188.19660112501052,
+          59.7886967409693
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          349.99999999999994,
+          76.79491924311225
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          349.99999999999994,
+          76.79491924311225
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          349.99999999999994,
+          423.20508075688775
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          349.99999999999994,
+          423.20508075688775
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          311.80339887498945,
+          440.21130325903073
+        ],
+        [
+          250,
+          250
+        ],
+        {
+          "dashed": true
+        }
+      ],
+      [
+        "line",
+        [
+          311.80339887498945,
+          440.21130325903073
+        ],
+        [
+          330,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        2.3
+      ],
+      "C": [
+        1.5
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        4
+      ],
+      "F": [
+        -0.1,
+        2
+      ],
+      "G": [
+        0
+      ],
+      "H": [
+        5.5
+      ],
+      "K": [
+        5.5
+      ]
+    }
+  },
+  {
+    "id": "3.8",
+    "title": "Proposition 8",
+    "prose": "If some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.\nFor the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.\nFor the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.\nFor the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.\nAnd only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).\n\nLet {ABC circle M} be a circle, and let some point {D point} have been taken outside {ABC circle M}, and from it let some straight-lines, {DA line}, {DE line}, {DF line}, and {DC line}, have been drawn through (the circle), and let {DA line} be through the center.\nI say that for the straight-lines radiating towards the concave (part of the) circumference, {AEFC arc M}, the greatest is the one (passing) through the center, (namely) {AD line}, and (that) {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.\nFor the straight-lines radiating towards the convex (part of the) circumference, {HLKG arc M}, the least is the one between the point and the diameter {AG line}, (namely) {DG line}, and a (straight-line) nearer to the least (straight-line) {DG line} is always less than one farther away, (so that) {DK line} (is less) than {DL line}, and {DL line} than than {DH line}.\n\nFor let the center of the circle have been found [Prop. 3.1], and let it be (at point) {M point} [Prop. 3.1].\nAnd let {ME line}, {MF line}, {MC line}, {MK line}, {ML line}, and {MH line} have been joined.\nAnd since {AM line} is equal to {EM line}, let {MD line} have been added to both.\nThus, {AD line} is equal to {EM line} and {MD line}.\nBut, {EM line} and {MD line} is greater than {ED line} [Prop. 1.20].\nThus, {AD line} is also greater than {ED line}.\nAgain, since {ME line} is equal to {MF line}, and {MD line} (is) common, the (straight-lines) {EM line}, {MD line} are thus equal to {FM line}, {MD line}.\nAnd angle {EMD angle} is greater than angle {FMD angle}.\nThus, the base {ED line} is greater than the base {FD line} [Prop. 1.24].\nSo, similarly, we can show that {FD line} is also greater than {CD line}.\nThus, {AD line} (is) the greatest (straight-line), and {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.\n\nAnd since {MK line} and {KD line} is greater than {MD line} [Prop. 1.20], and {MG line} (is) equal to {MK line}, the remainder {KD line} is thus greater than the remainder {GD line}.\nSo {GD line} is less than {KD line}.\nAnd since in triangle {MLD polygon}, the two internal straight-lines {MK line} and {KD line} were constructed on one of the sides, {MD line}, then {MK line} and {KD line} are thus less than {ML line} and {LD line} [Prop. 1.21].\nAnd {MK line} (is) equal to {ML line}.\nThus, the remainder {DK line} is less than the remainder {DL line}.\nSo, similarly, we can show that {DL line} is also less than {DH line}.\nThus, {DG line} (is) the least (straight-line), and {DK line} (is) less than {DL line}, and {DL line} than {DH line}.\n\nI also say that only two equal (straight-lines) will radiate from point {D point} towards (the circumference of) the circle, (one) on each (side) on the least (straight-line), {DG line}.\nLet the angle {DMB angle}, equal to angle {KMD angle}, have been constructed on the straight-line {MD line}, at the point {M point} on it [Prop. 1.23], and let {DB line} have been joined.\nAnd since {MK line} is equal to {MB line}, and {MD line} (is) common, the two (straight-lines) {KM line}, {MD line} are equal to the two (straight-lines) {BM line}, {MD line}, respectively.\nAnd angle {KMD angle} (is) equal to angle {BMD angle}.\nThus, the base {DK line} is equal to the base {DB line} [Prop. 1.4].\n[So] I say that another (straight-line) equal to {DK line} will not radiate towards the (circumference of the) circle from point {D point}.\nFor, if possible, let (such a straight-line) radiate, and let it be {DN line}.\nTherefore, since {DK line} is equal to {DN line}, but {DK line} is equal to {DB line}, then {DB line} is thus also equal to {DN line}, (so that) a (straight-line) nearer to the least (straight-line) {DG line} [is] equal to one further away.\nThe very thing was shown (to be) impossible.\nThus, not more than two equal (straight-lines) will radiate towards (the circumference of) circle {ABC circle M} from point {D point}, (one) on each side of the least (straight-line) {DG line}.\n\nThus, if some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.\nFor the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.\nFor the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.\nFor the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.\nAnd only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        106.29574286683636,
+        417.13032141645454
+      ],
+      "B": [
+        314.4639638130901,
+        203.05671251605094
+      ],
+      "C": [
+        82.86967858354545,
+        206.29574286683638
+      ],
+      "D": [
+        400,
+        50
+      ],
+      "E": [
+        60.284572171703815,
+        354.58570533350434
+      ],
+      "F": [
+        51.71003753333204,
+        277.4148935881584
+      ],
+      "G": [
+        293.70425713316365,
+        182.86967858354546
+      ],
+      "H": [
+        197.0365942934691,
+        150.02927543477526
+      ],
+      "K": [
+        269.45258109854024,
+        167.04760634441107
+      ],
+      "L": [
+        238.96286930291947,
+        155.1487148290233
+      ],
+      "M": [
+        200,
+        300
+      ],
+      "N": [
+        331.3952787081796,
+        227.6447601538092
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          300
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          106.29574286683636,
+          417.13032141645454
+        ],
+        [
+          400,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          314.4639638130901,
+          203.05671251605094
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          82.86967858354545,
+          206.29574286683638
+        ]
+      ],
+      [
+        "line",
+        [
+          82.86967858354545,
+          206.29574286683638
+        ],
+        [
+          400,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          314.4639638130901,
+          203.05671251605094
+        ],
+        [
+          400,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          60.284572171703815,
+          354.58570533350434
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          51.71003753333204,
+          277.4148935881584
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          50
+        ],
+        [
+          60.284572171703815,
+          354.58570533350434
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          50
+        ],
+        [
+          51.71003753333204,
+          277.4148935881584
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          197.0365942934691,
+          150.02927543477526
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          238.96286930291947,
+          155.1487148290233
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          269.45258109854024,
+          167.04760634441107
+        ]
+      ],
+      [
+        "line",
+        [
+          331.3952787081796,
+          227.6447601538092
+        ],
+        [
+          400,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          300
+        ],
+        [
+          331.3952787081796,
+          227.6447601538092
+        ],
+        {
+          "dashed": true
+        }
+      ]
+    ],
+    "letters": {
+      "A": [
+        4
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        2.5
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        3.5
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        0.5
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        0.6
+      ],
+      "L": [
+        1.2
+      ],
+      "M": [
+        6
+      ],
+      "N": [
+        -0.5
+      ]
+    }
+  },
+  {
+    "id": "3.9",
+    "title": "Proposition 9",
+    "prose": "If some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.\n\nLet {ABC circle D} be a circle, and {D point} a point inside it, and let more than two equal straight-lines, {DA line}, {DB line}, and {DC line}, radiate from {D point} towards (the circumference of) circle {ABC circle D}.\nI say that point {D point} is the center of circle {ABC circle D}.\n\nFor let {AB line} and {BC line} have been joined, and (then) have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].\nAnd {ED line} and {FD line} being joined, let them have been drawn through to points {G point}, {K point}, {H point}, and {L point} (as {EG line}, {DK line}, {FH line} and {DL line}, respectively).\n\nTherefore, since {AE line} is equal to {EB line}, and {ED line} (is) common, the two (straight-lines) {AE line}, {ED line} are equal to the two (straight-lines) {BE line}, {ED line} (respectively).\nAnd the base {DA line} (is) equal to the base {DB line}.\nThus, angle {AED angle} is equal to angle {BED angle} [Prop. 1.8].\nThus, angles {AED angle} and {BED angle} (are) each right-angles [Def. 1.10].\nThus, {GK line} cuts {AB line} in half, and at right-angles.\nAnd since, if some straight-line in a circle cuts some (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line) [Prop. 3.1 corr.], the center of the circle is thus on {GK line}.\nSo, for the same (reasons), the center of circle {ABC circle D} is also on {HL line}.\nAnd the straight-lines {GK line} and {HL line} have no common (point) other than point {D point}.\nThus, point {D point} is the center of circle {ABC circle D}.\n\nThus, if some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        161.832212156129,
+        371.3525491562421
+      ],
+      "B": [
+        128.6474508437579,
+        161.832212156129
+      ],
+      "C": [
+        371.3525491562421,
+        161.832212156129
+      ],
+      "D": [
+        250,
+        250
+      ],
+      "E": [
+        145.23983149994345,
+        266.5923806561856
+      ],
+      "F": [
+        250,
+        161.832212156129
+      ],
+      "G": [
+        398.15325108927067,
+        226.53483024396542
+      ],
+      "H": [
+        249.99999999999997,
+        400
+      ],
+      "K": [
+        101.84674891072933,
+        273.4651697560346
+      ],
+      "L": [
+        250.00000000000003,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          250
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          161.832212156129,
+          371.3525491562421
+        ],
+        [
+          128.6474508437579,
+          161.832212156129
+        ]
+      ],
+      [
+        "line",
+        [
+          161.832212156129,
+          371.3525491562421
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          128.6474508437579,
+          161.832212156129
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          371.3525491562421,
+          161.832212156129
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          371.3525491562421,
+          161.832212156129
+        ],
+        [
+          128.6474508437579,
+          161.832212156129
+        ]
+      ],
+      [
+        "line",
+        [
+          101.84674891072933,
+          273.4651697560346
+        ],
+        [
+          398.15325108927067,
+          226.53483024396542
+        ]
+      ],
+      [
+        "line",
+        [
+          249.99999999999997,
+          400
+        ],
+        [
+          250.00000000000003,
+          100
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        4.5
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        0
+      ],
+      "D": [
+        -2.3,
+        1.2
+      ],
+      "E": [
+        0.5
+      ],
+      "F": [
+        0.4
+      ],
+      "G": [
+        -1
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        3
+      ],
+      "L": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.10",
+    "title": "Proposition 10",
+    "prose": "A circle does not cut a(nother) circle at more than two points.\n\nFor, if possible, let the circle {ABC circle P} cut the circle {DEF given} at more than two points, {B point}, {G point}, {F point}, and {H point}.\nAnd {BH line} and {BG line} being joined, let them (then) have been cut in half at points {K point} and {L point} (respectively).\nAnd {KC line} and {LM line} being drawn at right-angles to {BH line} and {BG line} from {K point} and {L point} (respectively) [Prop. 1.11], let them (then) have been drawn through to points {A point} and {E point} (as {CA line} and {ME line}, respectively).\n\nTherefore, since in circle {ABC circle P} some straight-line {AC line} cuts some (other) straight-line {BH line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {AC line} [Prop. 3.1 corr.].\nAgain, since in the same circle {ABC line} some straight-line {NO line} cuts some (other straight-line) {BG line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {NO line} [Prop. 3.1 corr.].\nAnd it was also shown (to be) on {AC line}.\nAnd the straight-lines {AC line} and {NO line} meet at no other (point) than {P point}.\nThus, point {P point} is the center of circle {ABC circle P}.\nSo, similarly, we can show that {P point} is also the center of circle {DEF given}.\nThus, two circles cutting one another, {ABC circle P} and {DEF given}, have the same center {P point}.\nThe very thing is impossible [Prop. 3.5].\n\nThus, a circle does not cut a(nother) circle at more than two points.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        223.95277334996047,
+        102.27883704816881
+      ],
+      "B": [
+        358.3545943089633,
+        146.27304163265958
+      ],
+      "C": [
+        276.04722665003953,
+        397.72116295183116
+      ],
+      "D": [
+        231.7669413449723,
+        146.59518593371817
+      ],
+      "E": [
+        442.0375118373805,
+        216.13860535494857
+      ],
+      "F": [
+        141.64540569103667,
+        353.72695836734044
+      ],
+      "G": [
+        387.2967218679171,
+        310.41200347881056
+      ],
+      "H": [
+        112.70327813208291,
+        189.58799652118944
+      ],
+      "K": [
+        235.52893622052312,
+        167.9305190769245
+      ],
+      "L": [
+        372.8256580884402,
+        228.34252255573506
+      ],
+      "M": [
+        57.96248816261945,
+        283.8613946450515
+      ],
+      "N": [
+        102.27883704816881,
+        276.0472266500396
+      ],
+      "O": [
+        397.72116295183116,
+        223.95277334996044
+      ],
+      "P": [
+        250,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          250
+        ],
+        300
+      ],
+      [
+        "curve",
+        [
+          [
+            215.32192789652072,
+            146.06420209870657
+          ],
+          [
+            278.8360355225969,
+            137.86684141877276
+          ],
+          [
+            339.2253112626074,
+            141.82084839634103
+          ],
+          [
+            389.945640053963,
+            157.4977450226522
+          ],
+          [
+            425.50068726513086,
+            183.19869629613117
+          ],
+          [
+            442.0375118373806,
+            216.1386053549486
+          ],
+          [
+            437.7640922330377,
+            252.7479219372305
+          ],
+          [
+            413.1435197751699,
+            289.0594585392114
+          ],
+          [
+            370.8438155171307,
+            321.138296738524
+          ],
+          [
+            315.4488087628159,
+            345.50819666181263
+          ],
+          [
+            252.961408036147,
+            359.5283015144308
+          ],
+          [
+            190.1530927977814,
+            361.6793153912561
+          ],
+          [
+            133.83011857522055,
+            351.7281425623154
+          ],
+          [
+            90.09595356646915,
+            330.7531470119801
+          ],
+          [
+            63.68987315571479,
+            301.02729496871825
+          ],
+          [
+            57.47338588801637,
+            265.77184374553553
+          ],
+          [
+            72.12014461756758,
+            228.80726852715333
+          ],
+          [
+            106.04294576814351,
+            194.1392546029644
+          ],
+          [
+            155.5657274685861,
+            165.52461921131533
+          ],
+          [
+            215.32192789652063,
+            146.06420209870657
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          112.70327813208291,
+          189.58799652118944
+        ],
+        [
+          358.3545943089633,
+          146.27304163265958
+        ]
+      ],
+      [
+        "line",
+        [
+          358.3545943089633,
+          146.27304163265958
+        ],
+        [
+          387.2967218679171,
+          310.41200347881056
+        ]
+      ],
+      [
+        "line",
+        [
+          223.95277334996047,
+          102.27883704816881
+        ],
+        [
+          276.04722665003953,
+          397.72116295183116
+        ]
+      ],
+      [
+        "line",
+        [
+          57.96248816261945,
+          283.8613946450515
+        ],
+        [
+          442.0375118373805,
+          216.13860535494857
+        ]
+      ]
+    ],
+    "given": {
+      "DEF": [
+        [
+          "curve",
+          [
+            [
+              215.32192789652072,
+              146.06420209870657
+            ],
+            [
+              278.8360355225969,
+              137.86684141877276
+            ],
+            [
+              339.2253112626074,
+              141.82084839634103
+            ],
+            [
+              389.945640053963,
+              157.4977450226522
+            ],
+            [
+              425.50068726513086,
+              183.19869629613117
+            ],
+            [
+              442.0375118373806,
+              216.1386053549486
+            ],
+            [
+              437.7640922330377,
+              252.7479219372305
+            ],
+            [
+              413.1435197751699,
+              289.0594585392114
+            ],
+            [
+              370.8438155171307,
+              321.138296738524
+            ],
+            [
+              315.4488087628159,
+              345.50819666181263
+            ],
+            [
+              252.961408036147,
+              359.5283015144308
+            ],
+            [
+              190.1530927977814,
+              361.6793153912561
+            ],
+            [
+              133.83011857522055,
+              351.7281425623154
+            ],
+            [
+              90.09595356646915,
+              330.7531470119801
+            ],
+            [
+              63.68987315571479,
+              301.02729496871825
+            ],
+            [
+              57.47338588801637,
+              265.77184374553553
+            ],
+            [
+              72.12014461756758,
+              228.80726852715333
+            ],
+            [
+              106.04294576814351,
+              194.1392546029644
+            ],
+            [
+              155.5657274685861,
+              165.52461921131533
+            ],
+            [
+              215.32192789652063,
+              146.06420209870657
+            ]
+          ]
+        ]
+      ]
+    },
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        0.5
+      ],
+      "C": [
+        5.5
+      ],
+      "D": [
+        0.4,
+        2
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        4,
+        1.2
+      ],
+      "G": [
+        -2
+      ],
+      "H": [
+        2
+      ],
+      "K": [
+        4
+      ],
+      "L": [
+        2.3,
+        1.3
+      ],
+      "M": [
+        3
+      ],
+      "N": [
+        0.2
+      ],
+      "O": [
+        0.2
+      ],
+      "P": [
+        -2
+      ]
+    }
+  },
+  {
+    "id": "3.11",
+    "title": "Proposition 11",
+    "prose": "If two circles touch one another internally, and their centers are found, then the straight-line joining their centers, being produced, will fall upon the point of union of the circles.\n\nFor let two circles, {ABC circle F} and {ADE circle K}, touch one another internally at point {A point}, and let the center {F point} of circle {ABC circle F} have been found [Prop. 3.1], and (the center) {G point} of (circle) {ADE circle K} [Prop. 3.1].\nI say that the straight-line joining {G point} to {F point}, being produced, will fall on {A point}.\n\nFor (if) not then, if possible, let it fall like {FGH line} (in the figure), and let {AF line} and {AG line} have been joined.\n\nTherefore, since {AG line} and {GF line} is greater than {FA line}, that is to say {FH line} [Prop. 1.20], let {FG line} have been taken from both.\nThus, the remainder {AG line} is greater than the remainder {GH line}.\nAnd {AG line} (is) equal to {GD line}.\nThus, {GD line} is also greater than {GH line}, the lesser than the greater.\nThe very thing is impossible.\nThus, the straight-line joining {F point} to {G point} will not fall outside (one circle but inside the other).\nThus, it will fall upon the point of union (of the circles) at point {A point}.\n\nThus, if two circles touch one another internally, [and their centers are found], then the straight-line joining their centers, [being produced], will fall upon the point of union of the circles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        143.93398282201787,
+        143.93398282201787
+      ],
+      "B": [
+        400,
+        250
+      ],
+      "C": [
+        211.17714323462184,
+        394.8888739433602
+      ],
+      "D": [
+        240.5265654509247,
+        118.0520783117658
+      ],
+      "E": [
+        230.2881074446957,
+        313.4134950001864
+      ],
+      "F": [
+        250,
+        250
+      ],
+      "G": [
+        245.26328272546235,
+        184.0260391558829
+      ],
+      "H": [
+        239.25813490921405,
+        100.38511994333135
+      ],
+      "K": [
+        214.64466094067262,
+        214.64466094067262
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          250
+        ],
+        300
+      ],
+      [
+        "circle",
+        [
+          214.64466094067262,
+          214.64466094067262
+        ],
+        200
+      ],
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          239.25813490921405,
+          100.38511994333135
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          250
+        ],
+        [
+          143.93398282201787,
+          143.93398282201787
+        ]
+      ],
+      [
+        "line",
+        [
+          245.26328272546235,
+          184.0260391558829
+        ],
+        [
+          143.93398282201787,
+          143.93398282201787
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        4
+      ],
+      "D": [
+        4
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        -2
+      ],
+      "G": [
+        -1
+      ],
+      "H": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.12",
+    "title": "Proposition 12",
+    "prose": "If two circles touch one another externally then the (straight-line) joining their centers will go through the point of union.\n\nFor let two circles, {ABC circle L} and {ADE circle K}, touch one another externally at point {A point}, and let the center {F point} of {ABC circle L} have been found [Prop. 3.1], and (the center) {G point} of {ADE circle K} [Prop. 3.1].\nI say that the straight-line joining {F point} to {G point} will go through the point of union at {A point}.\n\nFor (if) not then, if possible, let it go like {FCDG line} (in the figure), and let {AF line} and {AG line} have been joined.\n\nTherefore, since point {F point} is the center of circle {ABC circle L}, {FA line} is equal to {FC line}.\nAgain, since point {G point} is the center of circle {ADE circle K}, {GA line} is equal to {GD line}.\nAnd {FA line} was also shown (to be) equal to {FC line}.\nThus, the (straight-lines) {FA line} and {AG line} are equal to the (straight-lines) {FC line} and {GD line}.\nSo the whole of {FG line} is greater than {FA line} and {AG line}.\nBut, (it is) also less [Prop. 1.20].\nThe very thing is impossible.\nThus, the straight-line joining {F point} to {G point} cannot not go through the point of union at {A point}.\nThus, (it will go) through it.\n\nThus, if two circles touch one another externally then the [straight-line] joining their centers will go through the point of union.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        186.73762078750735,
+        167.71006467905374
+      ],
+      "B": [
+        119.1560186284449,
+        57.426913176920976
+      ],
+      "C": [
+        158.57799619656709,
+        190.51327905356268
+      ],
+      "D": [
+        169.29874029039175,
+        199.82848706365795
+      ],
+      "E": [
+        217.71006467905374,
+        363.26237921249265
+      ],
+      "F": [
+        105.73809517621407,
+        144.60091840679027
+      ],
+      "G": [
+        274.9785423310978,
+        291.65320835720274
+      ],
+      "K": [
+        300,
+        250
+      ],
+      "L": [
+        130.10643118126106,
+        126.56509701858062
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          300,
+          250
+        ],
+        280
+      ],
+      [
+        "circle",
+        [
+          130.10643118126106,
+          126.56509701858062
+        ],
+        140
+      ],
+      [
+        "polygon",
+        [
+          [
+            186.73762078750735,
+            167.71006467905374
+          ],
+          [
+            105.73809517621407,
+            144.60091840679027
+          ],
+          [
+            274.9785423310978,
+            291.65320835720274
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          158.57799619656709,
+          190.51327905356268
+        ],
+        [
+          169.29874029039175,
+          199.82848706365795
+        ]
+      ]
+    ],
+    "smallletters": "CD",
+    "letters": {
+      "A": [
+        1.5
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -0.8,
+        3
+      ],
+      "E": [
+        4,
+        1.3
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        -2
+      ]
+    }
+  },
+  {
+    "id": "3.13",
+    "title": "Proposition 13",
+    "prose": "A circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.\n\nFor, if possible, let circle {ABDC circle O} touch circle {EBFD given}---first of all, internally---at more than one point, {D point} and {B point}.\n\nAnd let the center {G point} of circle {ABDC circle O} have been found [Prop. 3.1], and (the center) {H point} of {EBFD given} [Prop. 3.1].\n\nThus, the (straight-line) joining {G point} and {H point} will fall on {B point} and {D point} [Prop. 3.11].\nLet it fall like {BGHD line} (in the figure).\nAnd since point {G point} is the center of circle {ABDC circle O}, {BG line} is equal to {GD line}.\nThus, {BG line} (is) greater than {HD line}.\nThus, {BH line} (is) much greater than {HD line}.\nAgain, since point {H point} is the center of circle {EBFD given}, {BH line} is equal to {HD line}.\nBut it was also shown (to be) much greater than it.\nThe very thing (is) impossible.\nThus, a circle does not touch a(nother) circle internally at more than one point.\n\nSo, I say that neither (does it touch) externally (at more than one point).\n\nFor, if possible, let circle {ACK circle P} touch circle {ABDC circle O} externally at more than one point, {A point} and {C point}.\nAnd let {AC line} have been joined.\n\nTherefore, since two points, {A point} and {C point}, have been taken at random on the circumference of each of the circles {ABDC circle O} and {ACK circle P}, the straight-line joining the points will fall inside each (circle) [Prop. 3.2].\nBut, it fell inside {ABDC circle O}, and outside {ACK circle P} [Def. 3.3].\nThe very thing (is) absurd.\nThus, a circle does not touch a(nother) circle externally at more than one point.\nAnd it was shown that neither (does it) internally.\nThus, a circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        223.25411503481732,
+        132.2747005357494
+      ],
+      "B": [
+        102.91796067500631,
+        320.5342302750968
+      ],
+      "C": [
+        317.7252994642506,
+        226.7458849651827
+      ],
+      "D": [
+        297.08203932499373,
+        320.5342302750968
+      ],
+      "E": [
+        200,
+        262
+      ],
+      "F": [
+        200,
+        370
+      ],
+      "G": [
+        161.16718427000254,
+        320.5342302750968
+      ],
+      "H": [
+        238.8328157299975,
+        320.5342302750968
+      ],
+      "K": [
+        376.7766952966369,
+        73.22330470336311
+      ],
+      "O": [
+        200,
+        250
+      ],
+      "P": [
+        313.1370849898476,
+        136.8629150101524
+      ]
+    },
+    "given": {
+      "EBFD": [
+        [
+          "curve",
+          [
+            [
+              302,
+              301.6
+            ],
+            [
+              299.7710552748482,
+              312.827231304159
+            ],
+            [
+              293.1816366795453,
+              323.56377872609323
+            ],
+            [
+              282.51973342624467,
+              333.3404036237936
+            ],
+            [
+              268.25132184860354,
+              341.7298205757793
+            ],
+            [
+              251,
+              348.3653718043597
+            ],
+            [
+              231.51973342624464,
+              352.95705187993826
+            ],
+            [
+              210.66190325330066,
+              355.3041823498868
+            ],
+            [
+              189.33809674669936,
+              355.3041823498868
+            ],
+            [
+              168.4802665737554,
+              352.95705187993826
+            ],
+            [
+              149.00000000000003,
+              348.3653718043597
+            ],
+            [
+              131.7486781513965,
+              341.7298205757793
+            ],
+            [
+              117.48026657375537,
+              333.3404036237936
+            ],
+            [
+              106.8183633204547,
+              323.56377872609323
+            ],
+            [
+              100.22894472515182,
+              312.827231304159
+            ],
+            [
+              98,
+              301.6
+            ],
+            [
+              100.22894472515182,
+              293.36669704361674
+            ],
+            [
+              106.81836332045468,
+              285.4932289341983
+            ],
+            [
+              117.48026657375536,
+              278.3237040092181
+            ],
+            [
+              131.74867815139646,
+              272.1714649110952
+            ],
+            [
+              148.99999999999994,
+              267.30539401013624
+            ],
+            [
+              168.48026657375536,
+              263.9381619547119
+            ],
+            [
+              189.33809674669928,
+              262.2169329434164
+            ],
+            [
+              210.6619032533007,
+              262.2169329434164
+            ],
+            [
+              231.5197334262446,
+              263.9381619547119
+            ],
+            [
+              251,
+              267.30539401013624
+            ],
+            [
+              268.25132184860354,
+              272.1714649110952
+            ],
+            [
+              282.5197334262446,
+              278.32370400921803
+            ],
+            [
+              293.1816366795453,
+              285.4932289341983
+            ],
+            [
+              299.77105527484815,
+              293.3666970436167
+            ],
+            [
+              302,
+              301.6
+            ]
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          250
+        ],
+        240
+      ],
+      [
+        "circle",
+        [
+          313.1370849898476,
+          136.8629150101524
+        ],
+        180
+      ],
+      [
+        "curve",
+        [
+          [
+            302,
+            301.6
+          ],
+          [
+            299.7710552748482,
+            312.827231304159
+          ],
+          [
+            293.1816366795453,
+            323.56377872609323
+          ],
+          [
+            282.51973342624467,
+            333.3404036237936
+          ],
+          [
+            268.25132184860354,
+            341.7298205757793
+          ],
+          [
+            251,
+            348.3653718043597
+          ],
+          [
+            231.51973342624464,
+            352.95705187993826
+          ],
+          [
+            210.66190325330066,
+            355.3041823498868
+          ],
+          [
+            189.33809674669936,
+            355.3041823498868
+          ],
+          [
+            168.4802665737554,
+            352.95705187993826
+          ],
+          [
+            149.00000000000003,
+            348.3653718043597
+          ],
+          [
+            131.7486781513965,
+            341.7298205757793
+          ],
+          [
+            117.48026657375537,
+            333.3404036237936
+          ],
+          [
+            106.8183633204547,
+            323.56377872609323
+          ],
+          [
+            100.22894472515182,
+            312.827231304159
+          ],
+          [
+            98,
+            301.6
+          ],
+          [
+            100.22894472515182,
+            293.36669704361674
+          ],
+          [
+            106.81836332045468,
+            285.4932289341983
+          ],
+          [
+            117.48026657375536,
+            278.3237040092181
+          ],
+          [
+            131.74867815139646,
+            272.1714649110952
+          ],
+          [
+            148.99999999999994,
+            267.30539401013624
+          ],
+          [
+            168.48026657375536,
+            263.9381619547119
+          ],
+          [
+            189.33809674669928,
+            262.2169329434164
+          ],
+          [
+            210.6619032533007,
+            262.2169329434164
+          ],
+          [
+            231.5197334262446,
+            263.9381619547119
+          ],
+          [
+            251,
+            267.30539401013624
+          ],
+          [
+            268.25132184860354,
+            272.1714649110952
+          ],
+          [
+            282.5197334262446,
+            278.32370400921803
+          ],
+          [
+            293.1816366795453,
+            285.4932289341983
+          ],
+          [
+            299.77105527484815,
+            293.3666970436167
+          ],
+          [
+            302,
+            301.6
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          161.16718427000254,
+          315.5342302750968
+        ],
+        [
+          161.16718427000254,
+          325.5342302750968
+        ]
+      ],
+      [
+        "line",
+        [
+          238.8328157299975,
+          315.5342302750968
+        ],
+        [
+          238.8328157299975,
+          325.5342302750968
+        ]
+      ],
+      [
+        "line",
+        [
+          223.25411503481732,
+          132.2747005357494
+        ],
+        [
+          317.7252994642506,
+          226.7458849651827
+        ]
+      ],
+      [
+        "line",
+        [
+          102.91796067500631,
+          320.5342302750968
+        ],
+        [
+          297.08203932499373,
+          320.5342302750968
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1.7
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        -2
+      ],
+      "D": [
+        -2
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1,
+        4
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "3.14",
+    "title": "Proposition 14",
+    "prose": "In a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.\n\nLet {ABDC circle E} be a circle, and let {AB line} and {CD line} be equal straight-lines within it.\nI say that {AB line} and {CD line} are equally far from the center.\n\nFor let the center of circle {ABDC circle E} have been found [Prop. 3.1], and let it be (at) {E point}.\nAnd let {EF line} and {EG line} have been drawn from (point) {E point}, perpendicular to {AB line} and {CD line} (respectively) [Prop. 1.12].\nAnd let {AE line} and {EC line} have been joined.\n\nTherefore, since some straight-line, {EF line}, through the center (of the circle), cuts some (other) straight-line, {AB line}, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].\nThus, {AF line} (is) equal to {FB line}.\nThus, {AB line} (is) double {AF line}.\nSo, for the same (reasons), {CD line} is also double {CG line}.\nAnd {AB line} is equal to {CD line}.\nThus, {AF line} (is) also equal to {CG line}.\nAnd since {AE line} is equal to {EC line}, the (square) on {AE line} (is) also equal to the (square) on {EC line}.\nBut, the (sum of the squares) on {AF line} and {EF line} (is) equal to the (square) on {AE line}.\nFor the angle at {F point} (is) a right-angle [Prop. 1.47].\nAnd the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {EC line}.\nFor the angle at {G point} (is) a right-angle [Prop. 1.47].\nThus, the (sum of the squares) on {AF line} and {FE line} is equal to the (sum of the squares) on {CG line} and {GE line}, of which the (square) on {AF line} is equal to the (square) on {CG line}.\nFor {AF line} is equal to {CG line}.\nThus, the remaining (square) on {FE line} is equal to the (remaining square) on {EG line}.\nThus, {EF line} (is) equal to {EG line}.\nAnd straight-lines in a circle are said to be equally far from the center when perpendicular (straight-lines) which are drawn to them from the center are equal [Def. 3.4].\nThus, {AB line} and {CD line} are equally far from the center.\n\nSo, let the straight-lines {AB line} and {CD line} be equally far from the center.\nThat is to say, let {EF line} be equal to {EG line}.\nI say that {AB line} is also equal to {CD line}.\n\nFor, with the same construction, we can, similarly, show that {AB line} is double {AF line}, and {CD line} (double) {CG line}.\nAnd since {AE line} is equal to {CE line}, the (square) on {AE line} is equal to the (square) on {CE line}.\nBut, the (sum of the squares) on {EF line} and {FA line} is equal to the (square) on {AE line} [Prop. 1.47].\nAnd the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {CE line} [Prop. 1.47].\nThus, the (sum of the squares) on {EF line} and {FA line} is equal to the (sum of the squares) on {EG line} and {GC line}, of which the (square) on {EF line} is equal to the (square) on {EG line}.\nFor {EF line} (is) equal to {EG line}.\nThus, the remaining (square) on {AF line} is equal to the (remaining square) on {CG line}.\nThus, {AF line} (is) equal to {CG line}.\nAnd {AB line} is double {AF line}, and {CD line} double {CG line}.\nThus, {AB line} (is) equal to {CD line}.\n\nThus, in a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        289.153249729708,
+        352.29033471955563
+      ],
+      "B": [
+        109.70966528044438,
+        172.846750270292
+      ],
+      "C": [
+        366.1145213304098,
+        307.8567238437145
+      ],
+      "D": [
+        300.4336108758411,
+        62.73222893988218
+      ],
+      "E": [
+        256,
+        206
+      ],
+      "F": [
+        199.4314575050762,
+        262.5685424949238
+      ],
+      "G": [
+        333.27406610312545,
+        185.29447639179836
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          199.4314575050762,
+          262.5685424949238
+        ],
+        [
+          256,
+          206
+        ]
+      ],
+      [
+        "line",
+        [
+          333.27406610312545,
+          185.29447639179836
+        ],
+        [
+          256,
+          206
+        ]
+      ],
+      [
+        "line",
+        [
+          289.153249729708,
+          352.29033471955563
+        ],
+        [
+          109.70966528044438,
+          172.846750270292
+        ]
+      ],
+      [
+        "line",
+        [
+          366.1145213304098,
+          307.8567238437145
+        ],
+        [
+          300.4336108758411,
+          62.73222893988218
+        ]
+      ],
+      [
+        "line",
+        [
+          289.153249729708,
+          352.29033471955563
+        ],
+        [
+          256,
+          206
+        ]
+      ],
+      [
+        "line",
+        [
+          366.1145213304098,
+          307.8567238437145
+        ],
+        [
+          256,
+          206
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        2.5
+      ],
+      "C": [
+        5.5
+      ],
+      "D": [
+        0.5
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        4
+      ],
+      "G": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "3.15",
+    "title": "Proposition 15",
+    "prose": "In a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.\n\nLet {ABCD circle E} be a circle, and let {AD line} be its diameter, and {E point} (its) center.\nAnd let {BC line} be nearer to the diameter {AD line}, and {FG line} further away.\nI say that {AD line} is the greatest (straight-line), and {BC line} (is) greater than {FG line}.\n\nFor let {EH line} and {EK line} have been drawn from the center {E point}, at right-angles to {BC line} and {FG line} (respectively) [Prop. 1.12].\nAnd since {BC line} is nearer to the center, and {FG line} further away, {EK line} (is) thus greater than {EH line} [Def. 3.5].\nLet {EL line} be made equal to {EH line} [Prop. 1.3].\nAnd {LM line} being drawn through {L point}, at right-angles to {EK line} [Prop. 1.11], let it have been drawn through to {N point} (as {MN line}).\nAnd let {ME line}, {EN line}, {FE line}, and {EG line} have been joined.\n\nAnd since {EH line} is equal to {EL line}, {BC line} is also equal to {MN line} [Prop. 3.14].\nAgain, since {AE line} is equal to {EM line}, and {ED line} to {EN line}, {AD line} is thus equal to {ME line} and {EN line}.\nBut, {ME line} and {EN line} is greater than {MN line} [Prop. 1.20], and {MN line} (is) equal to {BC line}.\nThus, {AD line} is greater than {BC line}.\nAnd since the two (straight-lines) {ME line}, {EN line} are equal to the two (straight-lines) {FE line}, {EG line} (respectively), and angle {MEN angle} [is] greater than angle {FEG angle}, the base {MN line} is thus greater than the base {FG line} [Prop. 1.24].\nBut, {MN line} was shown (to be) equal to {BC line}.\nThus, the diameter {AD line} (is) the greatest (straight-line), and {BC line} (is) greater than {FG line}.\n\nThus, in a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        256,
+        56
+      ],
+      "B": [
+        355.19677979854777,
+        93.48333955543107
+      ],
+      "C": [
+        315.5721835952171,
+        343.66319385259715
+      ],
+      "D": [
+        256,
+        356
+      ],
+      "E": [
+        256,
+        206
+      ],
+      "F": [
+        134.6474508437579,
+        117.83221215612902
+      ],
+      "G": [
+        134.6474508437579,
+        294.16778784387094
+      ],
+      "H": [
+        335.3844816968824,
+        218.57326670401412
+      ],
+      "K": [
+        134.6474508437579,
+        205.99999999999997
+      ],
+      "L": [
+        175.62598075315051,
+        206
+      ],
+      "M": [
+        175.62598075315054,
+        79.35081117469774
+      ],
+      "N": [
+        175.6259807531505,
+        332.64918882530225
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          256,
+          56
+        ],
+        [
+          256,
+          356
+        ]
+      ],
+      [
+        "line",
+        [
+          355.19677979854777,
+          93.48333955543107
+        ],
+        [
+          315.5721835952171,
+          343.66319385259715
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            134.6474508437579,
+            117.83221215612902
+          ],
+          [
+            256,
+            206
+          ],
+          [
+            134.6474508437579,
+            294.16778784387094
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            175.62598075315054,
+            79.35081117469774
+          ],
+          [
+            256,
+            206
+          ],
+          [
+            175.6259807531505,
+            332.64918882530225
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          335.3844816968824,
+          218.57326670401412
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          134.6474508437579,
+          205.99999999999997
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        2
+      ],
+      "G": [
+        4.5
+      ],
+      "H": [
+        -1
+      ],
+      "K": [
+        3
+      ],
+      "L": [
+        2.2,
+        1.4
+      ],
+      "M": [
+        1
+      ],
+      "N": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "3.16",
+    "title": "Proposition 16",
+    "prose": "A (straight-line) drawn at right-angles to the diameter of a circle, from its end, will fall outside the circle.\nAnd another straight-line cannot be inserted into the space between the (aforementioned) straight-line and the circumference.\nAnd the angle of the semi-circle is greater than any acute rectilinear angle whatsoever, and the remaining (angle is) less (than any acute rectilinear angle).\n\nLet {ABC circle D} be a circle around the center {D point} and the diameter {AB line}.\nI say that the (straight-line) drawn from {A point}, at right-angles to {AB line} [Prop. 1.11], from its end, will fall outside the circle.\n\nFor (if) not then, if possible, let it fall inside, like {CA line} (in the figure), and let {DC line} have been joined.\n\nSince {DA line} is equal to {DC line}, angle {DAC angle} is also equal to angle {ACD angle} [Prop. 1.5].\nAnd {DAC angle} (is) a right-angle.\nThus, {ACD angle} (is) also a right-angle.\nSo, in triangle {ACD polygon}, the two angles {DAC angle} and {ACD angle} are equal to two right-angles.\nThe very thing is impossible [Prop. 1.17].\nThus, the (straight-line) drawn from point {A point}, at right-angles to {BA line}, will not fall inside the circle.\nSo, similarly, we can show that neither (will it fall) on the circumference.\nThus, (it will fall) outside (the circle).\n\nLet it fall like {AE line} (in the figure).\nSo, I say that another straight-line cannot be inserted into the space between the straight-line {AE line} and the circumference {CHA arcc D}.\n\nFor, if possible, let it be inserted like {FA line} (in the figure), and let {DG line} have been drawn from point {D point}, perpendicular to {FA line} [Prop. 1.12].\nAnd since {AGD angle} is a right-angle, and {DAG angle} (is) less than a right-angle, {AD line} (is) thus greater than {DG line} [Prop. 1.19].\nAnd {DA line} (is) equal to {DH line}.\nThus, {DH line} (is) greater than {DG line}, the lesser than the greater.\nThe very thing is impossible.\nThus, another straight-line cannot be inserted into the space between the straight-line ({AE line}) and the circumference.\n\nAnd I also say that the semi-circular angle contained by the straight-line {BA line} and the circumference {CHA arcc D} is greater than any acute rectilinear angle whatsoever, and the remaining (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line} is less than any acute rectilinear angle whatsoever.\n\nFor if any rectilinear angle is greater than the (angle) contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}, then a straight-line can be inserted into the space between the circumference {CHA arcc D} and the straight-line {AE line}---anything which will make (an angle) contained by straight-lines greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.\nBut (such a straight-line) cannot be inserted.\nThus, an acute (angle) contained by straight-lines cannot be greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, neither (can it be) less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.\n\nCorollary\n\nSo, from this, (it is) manifest that a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [and that the straight-line touches the circle at a single point, inasmuch as it was also shown that a (straight-line) meeting (the circle) at two (points) falls inside it [Prop. 3.2] ].\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        256,
+        356
+      ],
+      "B": [
+        256,
+        56
+      ],
+      "C": [
+        108.6569123906967,
+        177.89280281214127
+      ],
+      "D": [
+        256,
+        206
+      ],
+      "E": [
+        31,
+        356
+      ],
+      "F": [
+        30.624876488081668,
+        317.44651700149177
+      ],
+      "G": [
+        105.7499176587211,
+        330.2976780009945
+      ],
+      "H": [
+        140.42301358363162,
+        301.61359846230346
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          256,
+          356
+        ],
+        [
+          256,
+          56
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          108.6569123906967,
+          177.89280281214127
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          356
+        ],
+        [
+          108.6569123906967,
+          177.89280281214127
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          105.7499176587211,
+          330.2976780009945
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          356
+        ],
+        [
+          30.624876488081668,
+          317.44651700149177
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          356
+        ],
+        [
+          31,
+          356
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        1.3
+      ],
+      "H": [
+        1,
+        1.2
+      ]
+    }
+  },
+  {
+    "id": "3.17",
+    "title": "Proposition 17",
+    "prose": "To draw a straight-line touching a given circle from a given point.\n\nLet {A point} be the given point, and {BCD circle E} the given circle.\nSo it is required to draw a straight-line touching circle {BCD circle E} from point {A point}.\n\nFor let the center {E point} of the circle have been found [Prop. 3.1], and let {AE line} have been joined.\nAnd let (the circle) {AFG circle E} have been drawn with center {E point} and radius {EA line}.\nAnd let {DF line} have been drawn from from (point) {D point}, at right-angles to {EA line} [Prop. 1.11].\nAnd let {EF line} and {AB line} have been joined.\nI say that the (straight-line) {AB line} has been drawn from point {A point} touching circle {BCD circle E}.\n\nFor since {E point} is the center of circles {BCD circle E} and {AFG circle E}, {EA line} is thus equal to {EF line}, and {ED line} to {EB line}.\nSo the two (straight-lines) {AE line}, {EB line} are equal to the two (straight-lines) {FE line}, {ED line} (respectively).\nAnd they contain a common angle at {E point}.\nThus, the base {DF line} is equal to the base {AB line}, and triangle {DEF polygon} is equal to triangle {EBA polygon}, and the remaining angles (are equal) to the (corresponding) remaining angles [Prop. 1.4].\nThus, (angle) {EDF angle} (is) equal to {EBA angle}.\nAnd {EDF angle} (is) a right-angle.\nThus, {EBA angle} (is) also a right-angle.\nAnd {EB line} is a radius.\nAnd a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [Prop. 3.16 corr.].\nThus, {AB line} touches circle {BCD circle E}.\n\nThus, the straight-line {AB line} has been drawn touching the given circle {BCD circle E} from the given point {A point}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        256,
+        56
+      ],
+      "B": [
+        184,
+        152
+      ],
+      "C": [
+        346,
+        206
+      ],
+      "D": [
+        256,
+        116
+      ],
+      "E": [
+        256,
+        206
+      ],
+      "F": [
+        136,
+        116
+      ],
+      "G": [
+        406,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        300
+      ],
+      [
+        "circle",
+        [
+          256,
+          206
+        ],
+        180
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          136,
+          116
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          206
+        ],
+        [
+          256,
+          56
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          56
+        ],
+        [
+          184,
+          152
+        ]
+      ],
+      [
+        "line",
+        [
+          136,
+          116
+        ],
+        [
+          256,
+          116
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3,
+        3
+      ],
+      "C": [
+        -1,
+        0.8
+      ],
+      "D": [
+        0.2
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        2.5
+      ],
+      "G": [
+        -1,
+        0.8
+      ]
+    }
+  },
+  {
+    "id": "3.18",
+    "title": "Proposition 18",
+    "prose": "If some straight-line touches a circle, and some (other) straight-line is joined from the center (of the circle) to the point of contact, then the (straight-line) so joined will be perpendicular to the tangent.\n\nFor let some straight-line {DE line} touch the circle {ABC circle F} at point {C point}, and let the center {F point} of circle {ABC circle F} have been found [Prop. 3.1], and let {FC line} have been joined from {F point} to {C point}.\nI say that {FC line} is perpendicular to {DE line}.\n\nFor if not, let {FG line} have been drawn from {F point}, perpendicular to {DE line} [Prop. 1.12].\n\nTherefore, since angle {FGC angle} is a right-angle, (angle) {FCG angle} is thus acute [Prop. 1.17].\nAnd the greater angle is subtended by the greater side [Prop. 1.19].\nThus, {FC line} (is) greater than {FG line}.\nAnd {FC line} (is) equal to {FB line}.\nThus, {FB line} (is) also greater than {FG line}, the lesser than the greater.\nThe very thing is impossible.\nThus, {FG line} is not perpendicular to {DE line}.\nSo, similarly, we can show that neither (is) any other (straight-line) except {FC line}.\nThus, {FC line} is perpendicular to {DE line}.\n\nThus, if some straight-line touches a circle, and some (other) straight-line is joined from the center (of the circle) to the point of contact, then the (straight-line) so joined will be perpendicular to the tangent.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        99.93398282201787,
+        99.93398282201788
+      ],
+      "B": [
+        356,
+        206
+      ],
+      "C": [
+        312.06601717798213,
+        312.06601717798213
+      ],
+      "D": [
+        471.1650429449553,
+        152.96699141100893
+      ],
+      "E": [
+        206,
+        418.13203435596427
+      ],
+      "F": [
+        206,
+        206
+      ],
+      "G": [
+        418.13203435596427,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          206,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          206,
+          418.13203435596427
+        ],
+        [
+          471.1650429449553,
+          152.96699141100893
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          312.06601717798213,
+          312.06601717798213
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          418.13203435596427,
+          206
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        2,
+        1.2
+      ],
+      "C": [
+        -2
+      ],
+      "D": [
+        -1.5
+      ],
+      "E": [
+        -2
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        -1,
+        0.8
+      ]
+    }
+  },
+  {
+    "id": "3.19",
+    "title": "Proposition 19",
+    "prose": "If some straight-line touches a circle, and a straight-line is drawn from the point of contact, at right-[angles] to the tangent, then the center (of the circle) will be on the (straight-line) so drawn.\n\nFor let some straight-line {DE line} touch the circle {ABC circle O} at point {C point}.\nAnd let {CA line} have been drawn from {C point}, at right-angles to {DE line} [Prop. 1.11].\nI say that the center of the circle is on {AC line}.\n\nFor (if) not, if possible, let {F point} be (the center of the circle), and let {CF line} have been joined.\n\n[Therefore], since some straight-line {DE line} touches the circle {ABC circle O}, and {FC line} has been joined from the center to the point of contact, {FC line} is thus perpendicular to {DE line} [Prop. 3.18].\nThus, {FCE angle} is a right-angle.\nAnd {ACE angle} is also a right-angle.\nThus, {FCE angle} is equal to {ACE angle}, the lesser to the greater.\nThe very thing is impossible.\nThus, {F point} is not the center of circle {ABC circle O}.\nSo, similarly, we can show that neither is any (point) other (than one) on {AC line}.\n\nThus, if some straight-line touches a circle, and a straight-line is drawn from the point of contact, at right-angles to the tangent, then the center (of the circle) will be on the (straight-line) so drawn.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        206,
+        56
+      ],
+      "B": [
+        56,
+        206
+      ],
+      "C": [
+        206,
+        356
+      ],
+      "D": [
+        56,
+        356
+      ],
+      "E": [
+        356,
+        356
+      ],
+      "F": [
+        236,
+        216
+      ],
+      "O": [
+        206,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          206,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          206,
+          56
+        ],
+        [
+          206,
+          356
+        ]
+      ],
+      [
+        "line",
+        [
+          236,
+          216
+        ],
+        [
+          206,
+          356
+        ]
+      ],
+      [
+        "line",
+        [
+          56,
+          356
+        ],
+        [
+          356,
+          356
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        2,
+        1.2
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.20",
+    "title": "Proposition 20",
+    "prose": "In a circle, the angle at the center is double that at the circumference, when the angles have the same circumference base.\n\nLet {ABC circle E} be a circle, and let {BEC angle} be an angle at its center, and {BAC angle} (one) at (its) circumference.\nAnd let them have the same circumference base {BC arcc E}.\nI say that angle {BEC angle} is double (angle) {BAC angle}.\n\nFor being joined, let {AE line} have been drawn through to {F point} (as {AF line}).\n\nTherefore, since {EA line} is equal to {EB line}, angle {EAB angle} (is) also equal to {EBA angle} [Prop. 1.5].\nThus, angle {EAB angle} and {EBA angle} is double (angle) {EAB angle}.\nAnd {BEF angle} (is) equal to {EAB angle} and {EBA angle} [Prop. 1.32].\nThus, {BEF angle} is also double {EAB angle}.\nSo, for the same (reasons), {FEC angle} is also double {EAC angle}.\nThus, the whole (angle) {BEC angle} is double the whole (angle) {BAC angle}.\n\nSo let another (straight-line) have been inflected, and let there be another angle, {BDC angle}.\nAnd {DE line} being joined, let it have been produced to {G point}.\nSo, similarly, we can show that angle {GEC angle} is double {EDC angle}, of which {GEB angle} is double {EDB angle}.\nThus, the remaining (angle) {BEC angle} is double the (remaining angle) {BDC angle}.\n\nThus, in a circle, the angle at the center is double that at the circumference, when [the angles] have the same circumference base.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        64.57864376269049,
+        64.57864376269052
+      ],
+      "B": [
+        237.2868930080462,
+        403.53766811902756
+      ],
+      "C": [
+        403.53766811902756,
+        237.28689300804615
+      ],
+      "D": [
+        347.4213562373095,
+        64.57864376269049
+      ],
+      "E": [
+        206,
+        206
+      ],
+      "F": [
+        347.4213562373095,
+        347.4213562373095
+      ],
+      "G": [
+        64.57864376269052,
+        347.4213562373095
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          206,
+          206
+        ],
+        400
+      ],
+      [
+        "line",
+        [
+          64.57864376269049,
+          64.57864376269052
+        ],
+        [
+          237.2868930080462,
+          403.53766811902756
+        ]
+      ],
+      [
+        "line",
+        [
+          64.57864376269049,
+          64.57864376269052
+        ],
+        [
+          403.53766811902756,
+          237.28689300804615
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          237.2868930080462,
+          403.53766811902756
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          403.53766811902756,
+          237.28689300804615
+        ]
+      ],
+      [
+        "line",
+        [
+          64.57864376269049,
+          64.57864376269052
+        ],
+        [
+          347.4213562373095,
+          347.4213562373095
+        ]
+      ],
+      [
+        "line",
+        [
+          347.4213562373095,
+          64.57864376269049
+        ],
+        [
+          237.2868930080462,
+          403.53766811902756
+        ]
+      ],
+      [
+        "line",
+        [
+          347.4213562373095,
+          64.57864376269049
+        ],
+        [
+          403.53766811902756,
+          237.28689300804615
+        ]
+      ],
+      [
+        "line",
+        [
+          347.4213562373095,
+          64.57864376269049
+        ],
+        [
+          64.57864376269052,
+          347.4213562373095
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        0.5
+      ],
+      "E": [
+        1,
+        2
+      ],
+      "F": [
+        -2
+      ],
+      "G": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "3.21",
+    "title": "Proposition 21",
+    "prose": "In a circle, angles in the same segment are equal to one another.\n\nLet {ABCD circle F} be a circle, and let {BAD angle} and {BED angle} be angles in the same segment {BAED arc F}.\nI say that angles {BAD angle} and {BED angle} are equal to one another.\n\nFor let the center of circle {ABCD circle F} have been found [Prop. 3.1], and let it be (at point) {F point}.\nAnd let {BF line} and {FD line} have been joined.\n\nAnd since angle {BFD angle} is at the center, and {BAD angle} at the circumference, and they have the same circumference base {BCD arcc F}, angle {BFD angle} is thus double {BAD angle} [Prop. 3.20].\n\nSo, for the same (reasons), {BFD angle} is also double {BED angle}.\nThus, {BAD angle} (is) equal to {BED angle}.\nThus, in a circle, angles in the same segment are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        117.83221215612902,
+        84.6474508437579
+      ],
+      "B": [
+        72.34902137174484,
+        274.098574960932
+      ],
+      "C": [
+        252.3525491562421,
+        348.658477444273
+      ],
+      "D": [
+        339.6509786282552,
+        274.098574960932
+      ],
+      "E": [
+        354.1532510892706,
+        182.53483024396536
+      ],
+      "F": [
+        206,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          206,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          117.83221215612902,
+          84.6474508437579
+        ],
+        [
+          72.34902137174484,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          117.83221215612902,
+          84.6474508437579
+        ],
+        [
+          339.6509786282552,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          72.34902137174484,
+          274.098574960932
+        ],
+        [
+          339.6509786282552,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          72.34902137174484,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          206
+        ],
+        [
+          339.6509786282552,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          354.1532510892706,
+          182.53483024396536
+        ],
+        [
+          72.34902137174484,
+          274.098574960932
+        ]
+      ],
+      [
+        "line",
+        [
+          354.1532510892706,
+          182.53483024396536
+        ],
+        [
+          339.6509786282552,
+          274.098574960932
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1.5
+      ],
+      "B": [
+        3.5
+      ],
+      "C": [
+        -2.5
+      ],
+      "D": [
+        -1.5
+      ],
+      "E": [
+        -0.5
+      ],
+      "F": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.22",
+    "title": "Proposition 22",
+    "prose": "For quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.\n\nLet {ABCD circle E} be a circle, and let {ABCD polygon} be a quadrilateral within it.\nI say that the (sum of the) opposite angles is equal to two right-angles.\n\nLet {AC line} and {BD line} have been joined.\n\nTherefore, since the three angles of any triangle are equal to two right-angles [Prop. 1.32], the three angles {CAB angle}, {ABC angle}, and {BCA angle} of triangle {ABC polygon} are thus equal to two right-angles.\nAnd {CAB angle} (is) equal to {BDC angle}.\nFor they are in the same segment {BADC arcc E} [Prop. 3.21].\nAnd {ACB angle} (is equal) to {ADB angle}.\nFor they are in the same segment {ADCB arcc E} [Prop. 3.21].\nThus, the whole of {ADC angle} is equal to {BAC angle} and {ACB angle}.\nLet {ABC angle} have been added to both.\nThus, {ABC angle}, {BAC angle}, and {ACB angle} are equal to {ABC angle} and {ADC angle}.\nBut, {ABC angle}, {BAC angle}, and {ACB angle} are equal to two right-angles.\nThus, {ABC angle} and {ADC angle} are also equal to two right-angles.\nSimilarly, we can show that angles {BAD angle} and {DCB angle} are also equal to two right-angles.\n\nThus, for quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        63.341522555726954,
+        159.6474508437579
+      ],
+      "B": [
+        252.35254915624213,
+        63.34152255572698
+      ],
+      "C": [
+        348.658477444273,
+        252.3525491562421
+      ],
+      "D": [
+        117.83221215612903,
+        327.3525491562421
+      ],
+      "E": [
+        206,
+        206
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          206,
+          206
+        ],
+        300
+      ],
+      [
+        "line",
+        [
+          63.341522555726954,
+          159.6474508437579
+        ],
+        [
+          252.35254915624213,
+          63.34152255572698
+        ]
+      ],
+      [
+        "line",
+        [
+          63.341522555726954,
+          159.6474508437579
+        ],
+        [
+          348.658477444273,
+          252.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          63.341522555726954,
+          159.6474508437579
+        ],
+        [
+          117.83221215612903,
+          327.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          252.35254915624213,
+          63.34152255572698
+        ],
+        [
+          348.658477444273,
+          252.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          252.35254915624213,
+          63.34152255572698
+        ],
+        [
+          117.83221215612903,
+          327.3525491562421
+        ]
+      ],
+      [
+        "line",
+        [
+          348.658477444273,
+          252.3525491562421
+        ],
+        [
+          117.83221215612903,
+          327.3525491562421
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2.2
+      ],
+      "B": [
+        0.5
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        4.5
+      ]
+    }
+  },
+  {
+    "id": "3.23",
+    "title": "Proposition 23",
+    "prose": "Two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.\n\nFor, if possible, let the two similar and unequal segments of circles, {ACB arc E} and {ADB arc F}, have been constructed on the same side of the same straight-line {AB line}.\nAnd let {ACD line} have been drawn through (the segments), and let {CB line} and {DB line} have been joined.\n\nTherefore, since segment {ACB arc E} is similar to segment {ADB arc F}, and similar segments of circles are those accepting equal angles [Def. 3.11], angle {ACB angle} is thus equal to {ADB angle}, the external to the internal.\nThe very thing is impossible [Prop. 1.16].\n\nThus, two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.\n",
+    "points": {
+      "A": [
+        50,
+        200
+      ],
+      "B": [
+        450,
+        200
+      ],
+      "C": [
+        287.495545077197,
+        119.6536354803867
+      ],
+      "D": [
+        378.5646023681032,
+        88.84435157919063
+      ],
+      "E": [
+        250,
+        400
+      ],
+      "F": [
+        250,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "arc",
+        [
+          250,
+          250
+        ],
+        [
+          50,
+          200
+        ],
+        [
+          450,
+          200
+        ]
+      ],
+      [
+        "arc",
+        [
+          250,
+          400
+        ],
+        [
+          50,
+          200
+        ],
+        [
+          450,
+          200
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            200
+          ],
+          [
+            378.5646023681032,
+            88.84435157919063
+          ],
+          [
+            450,
+            200
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          287.495545077197,
+          119.6536354803867
+        ],
+        [
+          450,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "3.24",
+    "title": "Proposition 24",
+    "prose": "Similar segments of circles on equal straight-lines are equal to one another.\n\nFor let {AEB arc K} and {CFD arc L} be similar segments of circles on the equal straight-lines {AB line} and {CD line} (respectively).\nI say that segment {AEB arc K} is equal to segment {CFD arc L}.\n\nFor if the segment {AEB arc K} is applied to the segment {CFD arc L}, and point {A point} is placed on (point) {C point}, and the straight-line {AB line} on {CD line}, then point {B point} will also coincide with point {D point}, on account of {AB line} being equal to {CD line}.\nAnd if {AB line} coincides with {CD line} then the segment {AEB arc K} will also coincide with {CFD arc L}.\nFor if the straight-line {AB line} coincides with {CD line}, and the segment {AEB arc K} does not coincide with {CFD arc L}, then it will surely either fall inside it, outside (it), or it will miss like {CGD given} (in the figure), and a circle (will) cut (another) circle at more than two points.\nThe very thing is impossible [Prop. 3.10].\nThus, if the straight-line {AB line} is applied to {CD line}, the segment {AEB arc K} cannot not also coincide with {CFD arc L}.\nThus, it will coincide, and will be equal to it [C.N. 4].\n\nThus, similar segments of circles on equal straight-lines are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        200
+      ],
+      "B": [
+        350,
+        200
+      ],
+      "C": [
+        100,
+        400
+      ],
+      "D": [
+        350,
+        400
+      ],
+      "E": [
+        225.1994586818739,
+        93.41026812480315
+      ],
+      "F": [
+        179.82050807568876,
+        301.74682452694515
+      ],
+      "G": [
+        250.8661038379447,
+        296.08089464394664
+      ],
+      "K": [
+        225,
+        220
+      ],
+      "L": [
+        225,
+        420
+      ]
+    },
+    "given": {
+      "CGD": [
+        [
+          "curve",
+          [
+            [
+              350,
+              400
+            ],
+            [
+              357.99203572054364,
+              376.3571507671416
+            ],
+            [
+              359.31529544368027,
+              353.89985271875946
+            ],
+            [
+              353.90342540144036,
+              333.75420855250957
+            ],
+            [
+              342.0277993557432,
+              316.93040498777185
+            ],
+            [
+              324.2839107848157,
+              304.27205778536796
+            ],
+            [
+              301.5615123536305,
+              296.41390933068124
+            ],
+            [
+              275,
+              293.75
+            ],
+            [
+              245.9312788645519,
+              296.41390933068124
+            ],
+            [
+              215.8129760054262,
+              304.27205778536796
+            ],
+            [
+              186.15534889105982,
+              316.9304049877718
+            ],
+            [
+              158.44555478443297,
+              333.75420855250957
+            ],
+            [
+              134.07307846807555,
+              353.89985271875946
+            ],
+            [
+              114.26005767508777,
+              376.3571507671416
+            ],
+            [
+              100,
+              400
+            ]
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "arc",
+        [
+          225,
+          220
+        ],
+        [
+          100,
+          200
+        ],
+        [
+          350,
+          200
+        ]
+      ],
+      [
+        "arc",
+        [
+          225,
+          420
+        ],
+        [
+          100,
+          400
+        ],
+        [
+          350,
+          400
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          200
+        ],
+        [
+          350,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          400
+        ],
+        [
+          350,
+          400
+        ]
+      ],
+      [
+        "curve",
+        [
+          [
+            350,
+            400
+          ],
+          [
+            357.99203572054364,
+            376.3571507671416
+          ],
+          [
+            359.31529544368027,
+            353.89985271875946
+          ],
+          [
+            353.90342540144036,
+            333.75420855250957
+          ],
+          [
+            342.0277993557432,
+            316.93040498777185
+          ],
+          [
+            324.2839107848157,
+            304.27205778536796
+          ],
+          [
+            301.5615123536305,
+            296.41390933068124
+          ],
+          [
+            275,
+            293.75
+          ],
+          [
+            245.9312788645519,
+            296.41390933068124
+          ],
+          [
+            215.8129760054262,
+            304.27205778536796
+          ],
+          [
+            186.15534889105982,
+            316.9304049877718
+          ],
+          [
+            158.44555478443297,
+            333.75420855250957
+          ],
+          [
+            134.07307846807555,
+            353.89985271875946
+          ],
+          [
+            114.26005767508777,
+            376.3571507671416
+          ],
+          [
+            100,
+            400
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        2
+      ],
+      "G": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.25",
+    "title": "Proposition 25",
+    "prose": "For a given segment of a circle, to complete the circle, the very one of which it is a segment.\n\nLet {ABC arcc E} be the given segment of a circle.\nSo it is required to complete the circle for segment {ABC arcc E}, the very one of which it is a segment.\n\nFor let {AC line} have been cut in half at (point) {D point} [Prop. 1.10], and let {DB line} have been drawn from point {D point}, at right-angles to {AC line} [Prop. 1.11].\nAnd let {AB line} have been joined.\nThus, angle {ABD angle} is surely either greater than, equal to, or less than (angle) {BAD angle}.\n\n{figure 1}First of all, let it be greater.\nAnd let (angle) {BAE angle}, equal to angle {ABD angle}, have been constructed on the straight-line {BA line}, at the point {A point} on it [Prop. 1.23].\nAnd let {DB line} have been drawn through to {E point} (as {BE line}), and let {EC line} have been joined.\nTherefore, since angle {ABE angle} is equal to {BAE angle}, the straight-line {EB line} is thus also equal to {EA line} [Prop. 1.6].\nAnd since {AD line} is equal to {DC line}, and {DE line} (is) common, the two (straight-lines) {AD line}, {DE line} are equal to the two (straight-lines) {CD line}, {DE line}, respectively.\nAnd angle {ADE angle} is equal to angle {CDE angle}.\nFor each (is) a right-angle.\nThus, the base {AE line} is equal to the base {CE line} [Prop. 1.4].\nBut, {AE line} was shown (to be) equal to {BE line}.\nThus, {BE line} is also equal to {CE line}.\nThus, the three (straight-lines) {AE line}, {EB line}, and {EC line} are equal to one another.\nThus, if a circle is drawn with center {E point}, and radius one of {AE line}, {EB line}, or {EC line}, it will also go through the remaining points (of the segment), and the (associated circle) will have been completed [Prop. 3.9].\nThus, a circle has been completed from the given segment of a circle.\nAnd (it is) clear that the segment {ABC arcc E} is less than a semi-circle, because the center {E point} happens to lie outside it.\n\n{figure 2}[And], similarly, even if angle {ABD angle} is equal to {BAD angle}, (since) {AD line} becomes equal to each of {BD line} [Prop. 1.6] and {DC line}, the three (straight-lines) {DA line}, {DB line}, and {DC line} will be equal to one another.\nAnd point {D point} will be the center of the completed circle.\nAnd {ABC arcc D} will manifestly be a semi-circle.\n\n{figure 3}And if {ABD angle} is less than {BAD angle}, and we construct (angle {BAE angle}), equal to angle {ABD angle}, on the straight-line {BA line}, at the point {A point} on it [Prop. 1.23], then the center will fall on {DB line}, inside the segment {ABC arcc E}.\nAnd segment {ABC arcc E} will manifestly be greater than a semi-circle.\n\nThus, a circle has been completed from the given segment of a circle.\n(Which is) the very thing it was required to do.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "points": {
+          "A": [
+            63.86881346763482,
+            74.98889303695404
+          ],
+          "B": [
+            30,
+            150
+          ],
+          "C": [
+            63.86881346763482,
+            225.01110696304596
+          ],
+          "D": [
+            63.86881346763482,
+            150
+          ],
+          "E": [
+            130,
+            150
+          ]
+        },
+        "shapes": [
+          [
+            "arc",
+            [
+              130,
+              150
+            ],
+            [
+              63.86881346763482,
+              225.01110696304596
+            ],
+            [
+              63.86881346763482,
+              74.98889303695404
+            ]
+          ],
+          [
+            "line",
+            [
+              63.86881346763482,
+              74.98889303695404
+            ],
+            [
+              63.86881346763482,
+              225.01110696304596
+            ]
+          ],
+          [
+            "line",
+            [
+              63.86881346763482,
+              74.98889303695404
+            ],
+            [
+              30,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              30,
+              150
+            ],
+            [
+              130,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              63.86881346763482,
+              74.98889303695404
+            ],
+            [
+              130,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              63.86881346763482,
+              225.01110696304596
+            ],
+            [
+              130,
+              150
+            ]
+          ]
+        ],
+        "smallletters": "ABCDE",
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            5
+          ],
+          "D": [
+            0
+          ],
+          "E": [
+            -1
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            280,
+            70
+          ],
+          "B": [
+            200,
+            150
+          ],
+          "C": [
+            280,
+            230
+          ],
+          "D": [
+            280,
+            150
+          ],
+          "E": [
+            280,
+            150
+          ]
+        },
+        "shapes": [
+          [
+            "arc",
+            [
+              280,
+              150
+            ],
+            [
+              280,
+              230
+            ],
+            [
+              280,
+              70
+            ]
+          ],
+          [
+            "line",
+            [
+              280,
+              70
+            ],
+            [
+              280,
+              230
+            ]
+          ],
+          [
+            "line",
+            [
+              280,
+              70
+            ],
+            [
+              200,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              200,
+              150
+            ],
+            [
+              280,
+              150
+            ]
+          ]
+        ],
+        "smallletters": "ABCD",
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            5
+          ],
+          "D": [
+            -1
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            454.7213595499958,
+            73.91547869638771
+          ],
+          "B": [
+            350,
+            150
+          ],
+          "C": [
+            454.7213595499958,
+            226.0845213036123
+          ],
+          "D": [
+            454.7213595499958,
+            150
+          ],
+          "E": [
+            430,
+            150
+          ]
+        },
+        "shapes": [
+          [
+            "arc",
+            [
+              430,
+              150
+            ],
+            [
+              454.7213595499958,
+              226.0845213036123
+            ],
+            [
+              454.7213595499958,
+              73.91547869638771
+            ]
+          ],
+          [
+            "line",
+            [
+              454.7213595499958,
+              73.91547869638771
+            ],
+            [
+              454.7213595499958,
+              226.0845213036123
+            ]
+          ],
+          [
+            "line",
+            [
+              454.7213595499958,
+              73.91547869638771
+            ],
+            [
+              350,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              350,
+              150
+            ],
+            [
+              454.7213595499958,
+              150
+            ]
+          ],
+          [
+            "line",
+            [
+              454.7213595499958,
+              73.91547869638771
+            ],
+            [
+              430,
+              150
+            ]
+          ]
+        ],
+        "smallletters": "ABCDE",
+        "letters": {
+          "A": [
+            0.5
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            5.5
+          ],
+          "D": [
+            -1
+          ],
+          "E": [
+            5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3.26",
+    "title": "Proposition 26",
+    "prose": "In equal circles, equal angles stand upon equal circumferences whether they are standing at the center or at the circumference.\n\nLet {ABC circle G} and {DEF circle H} be equal circles, and within them let {BGC angle} and {EHF angle} be equal angles at the center, and {BAC angle} and {EDF angle} (equal angles) at the circumference.\nI say that circumference {BKC arcc G} is equal to circumference {ELF arcc H}.\n\nFor let {BC line} and {EF line} have been joined.\n\nAnd since circles {ABC circle G} and {DEF circle H} are equal, their radii are equal.\nSo the two (straight-lines) {BG line}, {GC line} (are) equal to the two (straight-lines) {EH line}, {HF line} (respectively).\nAnd the angle at {G point} (is) equal to the angle at {H point}.\nThus, the base {BC line} is equal to the base {EF line} [Prop. 1.4].\nAnd since the angle at {A point} is equal to the (angle) at {D point}, the segment {BAC arc G} is thus similar to the segment {EDF arc H} [Def. 3.11].\nAnd they are on equal straight-lines [{BC line} and {EF line}].\nAnd similar segments of circles on equal straight-lines are equal to one another [Prop. 3.24].\nThus, segment {BAC arc G} is equal to (segment) {EDF arc H}.\nAnd the whole circle {ABC circle G} is also equal to the whole circle {DEF circle H}.\nThus, the remaining circumference {BKC arcc G} is equal to the (remaining) circumference {ELF arcc H}.\n\nThus, in equal circles, equal angles stand upon equal circumferences, whether they are standing at the center or at the circumference.\n(Which is) the very thing which it was required to show.\n",
+    "points": {
+      "A": [
+        84.60095002604531,
+        60.89934758116323
+      ],
+      "B": [
+        40.89934758116323,
+        195.39904997395467
+      ],
+      "C": [
+        219.10065241883677,
+        195.39904997395467
+      ],
+      "D": [
+        465.10565162951536,
+        119.09830056250527
+      ],
+      "E": [
+        280.8993475811632,
+        195.39904997395467
+      ],
+      "F": [
+        459.1006524188368,
+        195.39904997395467
+      ],
+      "G": [
+        130,
+        150
+      ],
+      "H": [
+        370,
+        150
+      ],
+      "K": [
+        130,
+        250
+      ],
+      "L": [
+        370,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          130,
+          150
+        ],
+        200
+      ],
+      [
+        "circle",
+        [
+          370,
+          150
+        ],
+        200
+      ],
+      [
+        "polygon",
+        [
+          [
+            84.60095002604531,
+            60.89934758116323
+          ],
+          [
+            40.89934758116323,
+            195.39904997395467
+          ],
+          [
+            219.10065241883677,
+            195.39904997395467
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          150
+        ],
+        [
+          40.89934758116323,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          150
+        ],
+        [
+          219.10065241883677,
+          195.39904997395467
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            465.10565162951536,
+            119.09830056250527
+          ],
+          [
+            280.8993475811632,
+            195.39904997395467
+          ],
+          [
+            459.1006524188368,
+            195.39904997395467
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          370,
+          150
+        ],
+        [
+          280.8993475811632,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          370,
+          150
+        ],
+        [
+          459.1006524188368,
+          195.39904997395467
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        3.6
+      ],
+      "C": [
+        -1.6
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        3.6
+      ],
+      "F": [
+        -1.6
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "3.27",
+    "title": "Proposition 27",
+    "prose": "In equal circles, angles standing upon equal circumferences are equal to one another, whether they are standing at the center or at the circumference.\n\nFor let the angles {BGC angle} and {EHF angle} at the centers {G point} and {H point}, and the (angles) {BAC angle} and {EDF angle} at the circumferences, stand upon the equal circumferences {BC arcc G} and {EF arcc H}, in the equal circles {ABC circle G} and {DEF circle H} (respectively).\nI say that angle {BGC angle} is equal to (angle) {EHF angle}, and {BAC angle} is equal to {EDF angle}.\n\nFor if {BGC angle} is unequal to {EHF angle}, one of them is greater.\nLet {BGC angle} be greater, and let the (angle) {BGK angle}, equal to angle {EHF angle}, have been constructed on the straight-line {BG line}, at the point {G point} on it [Prop. 1.23].\nBut equal angles (in equal circles) stand upon equal circumferences, when they are at the centers [Prop. 3.26].\nThus, circumference {BK arcc G} (is) equal to circumference {EF arcc H}.\nBut, {EF arcc H} is equal to {BC arcc G}.\nThus, {BK arcc G} is also equal to {BC arcc G}, the lesser to the greater.\nThe very thing is impossible.\nThus, angle {BGC angle} is not unequal to {EHF angle}.\nThus, (it is) equal.\nAnd the (angle) at {A point} is half {BGC angle}, and the (angle) at {D point} half {EHF angle} [Prop. 3.20].\nThus, the angle at {A point} (is) also equal to the (angle) at {D point}.\n\nThus, in equal circles, angles standing upon equal circumferences are equal to one another, whether they are standing at the center or at the circumference.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        84.60095002604531,
+        60.89934758116323
+      ],
+      "B": [
+        40.89934758116323,
+        195.39904997395467
+      ],
+      "C": [
+        219.10065241883677,
+        195.39904997395467
+      ],
+      "D": [
+        324.6009500260453,
+        60.89934758116323
+      ],
+      "E": [
+        280.8993475811632,
+        195.39904997395467
+      ],
+      "F": [
+        459.1006524188368,
+        195.39904997395467
+      ],
+      "G": [
+        130,
+        150
+      ],
+      "H": [
+        370,
+        150
+      ],
+      "K": [
+        200.71067811865476,
+        220.71067811865476
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          130,
+          150
+        ],
+        200
+      ],
+      [
+        "circle",
+        [
+          370,
+          150
+        ],
+        200
+      ],
+      [
+        "line",
+        [
+          84.60095002604531,
+          60.89934758116323
+        ],
+        [
+          40.89934758116323,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          84.60095002604531,
+          60.89934758116323
+        ],
+        [
+          219.10065241883677,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          150
+        ],
+        [
+          40.89934758116323,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          150
+        ],
+        [
+          219.10065241883677,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          150
+        ],
+        [
+          200.71067811865476,
+          220.71067811865476
+        ]
+      ],
+      [
+        "line",
+        [
+          324.6009500260453,
+          60.89934758116323
+        ],
+        [
+          280.8993475811632,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          324.6009500260453,
+          60.89934758116323
+        ],
+        [
+          459.1006524188368,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          370,
+          150
+        ],
+        [
+          280.8993475811632,
+          195.39904997395467
+        ]
+      ],
+      [
+        "line",
+        [
+          370,
+          150
+        ],
+        [
+          459.1006524188368,
+          195.39904997395467
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1.5
+      ],
+      "B": [
+        3.5
+      ],
+      "C": [
+        -1.6
+      ],
+      "D": [
+        1.5
+      ],
+      "E": [
+        3.5
+      ],
+      "F": [
+        -1.6
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        -2.5
+      ]
+    }
+  },
+  {
+    "id": "3.28",
+    "title": "Proposition 28",
+    "prose": "In equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.\n\nLet {ABC circle K} and {DEF circle L} be equal circles, and let {AB line} and {DE line} be equal straight-lines in these circles, cutting off the greater circumferences {ACB arc K} and {DFE arc L}, and the lesser (circumferences) {AGB arcc K} and {DHE arcc L} (respectively).\nI say that the greater circumference {ACB arc K} is equal to the greater circumference {DFE arc L}, and the lesser circumference {AGB arcc K} to (the lesser) {DHE arcc L}.\n\nFor let the centers of the circles, {K point} and {L point}, have been found [Prop. 3.1], and let {AK line}, {KB line}, {DL line}, and {LE line} have been joined.\n\nAnd since ({ABC circle K} and {DEF circle L}) are equal circles, their radii are also equal [Def. 3.1].\nSo the two (straight-lines) {AK line}, {KB line} are equal to the two (straight-lines) {DL line}, {LE line} (respectively).\nAnd the base {AB line} (is) equal to the base {DE line}.\nThus, angle {AKB angle} is equal to angle {DLE angle} [Prop. 1.8].\nAnd equal angles stand upon equal circum-ferences, when they are at the centers [Prop. 3.26].\nThus, circumference {AGB arcc K} (is) equal to {DHE arcc L}.\nAnd the whole circle {ABC circle K} is also equal to the whole circle {DEF circle L}.\nThus, the remaining circumference {ACB arc K} is also equal to the remaining circumference {DFE arc L}.\n\nThus, in equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        40.89934758116323,
+        195.39904997395467
+      ],
+      "B": [
+        219.10065241883677,
+        195.39904997395467
+      ],
+      "C": [
+        130,
+        50
+      ],
+      "D": [
+        280.8993475811632,
+        195.39904997395467
+      ],
+      "E": [
+        459.1006524188368,
+        195.39904997395467
+      ],
+      "F": [
+        370,
+        50
+      ],
+      "G": [
+        130,
+        250
+      ],
+      "H": [
+        370,
+        250
+      ],
+      "K": [
+        130,
+        150
+      ],
+      "L": [
+        370,
+        150
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          130,
+          150
+        ],
+        200
+      ],
+      [
+        "circle",
+        [
+          370,
+          150
+        ],
+        200
+      ],
+      [
+        "polygon",
+        [
+          [
+            40.89934758116323,
+            195.39904997395467
+          ],
+          [
+            219.10065241883677,
+            195.39904997395467
+          ],
+          [
+            130,
+            150
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            280.8993475811632,
+            195.39904997395467
+          ],
+          [
+            459.1006524188368,
+            195.39904997395467
+          ],
+          [
+            370,
+            150
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3.5
+      ],
+      "B": [
+        -1.5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        3.5
+      ],
+      "E": [
+        -1.5
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.29",
+    "title": "Proposition 29",
+    "prose": "In equal circles, equal straight-lines subtend equal circumferences.\n\nLet {ABC circle K} and {DEF circle L} be equal circles, and within them let the equal circumferences {BGC arcc K} and {EHF arcc L} have been cut off.\nAnd let the straight-lines {BC line} and {EF line} have been joined.\nI say that {BC line} is equal to {EF line}.\n\nFor let the centers of the circles have been found [Prop. 3.1], and let them be (at) {K point} and {L point}.\nAnd let {BK line}, {KC line}, {EL line}, and {LF line} have been joined.\n\nAnd since the circumference {BGC arcc K} is equal to the circumference {EHF arcc L}, the angle {BKC angle} is also equal to (angle) {ELF angle} [Prop. 3.27].\nAnd since the circles {ABC circle K} and {DEF circle L} are equal, their radii are also equal [Def. 3.1].\nSo the two (straight-lines) {BK line}, {KC line} are equal to the two (straight-lines) {EL line}, {LF line} (respectively).\nAnd they contain equal angles.\nThus, the base {BC line} is equal to the base {EF line} [Prop. 1.4].\n\nThus, in equal circles, equal straight-lines subtend equal circumferences.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        130,
+        50
+      ],
+      "B": [
+        40.89934758116323,
+        195.39904997395467
+      ],
+      "C": [
+        219.10065241883677,
+        195.39904997395467
+      ],
+      "D": [
+        370,
+        50
+      ],
+      "E": [
+        280.8993475811632,
+        195.39904997395467
+      ],
+      "F": [
+        459.1006524188368,
+        195.39904997395467
+      ],
+      "G": [
+        130,
+        250
+      ],
+      "H": [
+        370,
+        250
+      ],
+      "K": [
+        130,
+        150
+      ],
+      "L": [
+        370,
+        150
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          130,
+          150
+        ],
+        200
+      ],
+      [
+        "circle",
+        [
+          370,
+          150
+        ],
+        200
+      ],
+      [
+        "polygon",
+        [
+          [
+            130,
+            150
+          ],
+          [
+            40.89934758116323,
+            195.39904997395467
+          ],
+          [
+            219.10065241883677,
+            195.39904997395467
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            370,
+            150
+          ],
+          [
+            280.8993475811632,
+            195.39904997395467
+          ],
+          [
+            459.1006524188368,
+            195.39904997395467
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3.5
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3.5
+      ],
+      "F": [
+        -1.5
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.30",
+    "title": "Proposition 30",
+    "prose": "To cut a given circumference in half.\n\nLet {ADB arc C} be the given circumference.\nSo it is required to cut circumference {ADB arc C} in half.\n\nLet {AB line} have been joined, and let it have been cut in half at (point) {C point} [Prop. 1.10].\nAnd let {CD line} have been drawn from point {C point}, at right-angles to {AB line} [Prop. 1.11].\nAnd let {AD line}, and {DB line} have been joined.\n\nAnd since {AC line} is equal to {CB line}, and {CD line} (is) common, the two (straight-lines) {AC line}, {CD line} are equal to the two (straight-lines) {BC line}, {CD line} (respectively).\nAnd angle {ACD angle} (is) equal to angle {BCD angle}.\nFor (they are) each right-angles.\nThus, the base {AD line} is equal to the base {DB line} [Prop. 1.4].\nAnd equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser [Prop. 1.28].\nAnd the circumferences {AD arc C} and {DB arc C} are each less than a semi-circle.\nThus, circumference {AD arc C} (is) equal to circumference {DB arc C}.\n\nThus, the given circumference has been cut in half at point {D point}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        100,
+        200
+      ],
+      "B": [
+        400,
+        200
+      ],
+      "C": [
+        250,
+        200
+      ],
+      "D": [
+        250,
+        50
+      ]
+    },
+    "shapes": [
+      [
+        "arc",
+        [
+          250,
+          200
+        ],
+        [
+          100,
+          200
+        ],
+        [
+          400,
+          200
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            250,
+            50
+          ],
+          [
+            100,
+            200
+          ],
+          [
+            400,
+            200
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          250,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "3.31",
+    "title": "Proposition 31",
+    "prose": "In a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser segment (is) greater than a right-angle.\nAnd, further, the angle of a segment greater (than a semi-circle) is greater than a right-angle, and the angle of a segment less (than a semi-circle) is less than a right-angle.\n\nLet {ABCD circle E} be a circle, and let {BC line} be its diameter, and {E point} its center.\nAnd let {BA line}, {AC line}, {AD line}, and {DC line} have been joined.\nI say that the angle {BAC angle} in the semi-circle {BAC arc E} is a right-angle, and the angle {ABC angle} in the segment {ABC arcc E}, (which is) greater than a semi-circle, is less than a right-angle, and the angle {ADC angle} in the segment {ADC arc E}, (which is) less than a semi-circle, is greater than a right-angle.\n\nLet {AE line} have been joined, and let {BA line} have been drawn through to {F point} (as {BF line}).\n\nAnd since {BE line} is equal to {EA line}, angle {ABE angle} is also equal to {BAE angle} [Prop. 1.5].\nAgain, since {CE line} is equal to {EA line}, {ACE angle} is also equal to {CAE angle} [Prop. 1.5].\nThus, the whole (angle) {BAC angle} is equal to the two (angles) {ABC angle} and {ACB angle}.\nAnd {FAC angle}, (which is) external to triangle {ABC polygon}, is also equal to the two angles {ABC angle} and {ACB angle} [Prop. 1.32].\nThus, angle {BAC angle} (is) also equal to {FAC angle}.\nThus, (they are) each right-angles [Def. 1.10].\nThus, the angle {BAC angle} in the semi-circle {BAC arc E} is a right-angle.\n\nAnd since the two angles {ABC angle} and {BAC angle} of triangle {ABC polygon} are less than two right-angles [Prop. 1.17], and {BAC angle} is a right-angle, angle {ABC angle} is thus less than a right-angle.\nAnd it is in segment {ABC arcc E}, (which is) greater than a semi-circle.\n\nAnd since {ABCD polygon} is a quadrilateral within a circle, and for quadrilaterals within circles the (sum of the) opposite angles is equal to two right-angles [Prop. 3.22] [angles {ABC angle} and {ADC angle} are thus equal to two right-angles], and (angle) {ABC angle} is less than a right-angle.\nThe remaining angle {ADC angle} is thus greater than a right-angle.\nAnd it is in segment {ADC arc E}, (which is) less than a semi-circle.\n\nI also say that the angle of the greater segment, (namely) that contained by the circumference {ABC arcc E} and the straight-line {AC line}, is greater than a right-angle.\nAnd the angle of the lesser segment, (namely) that contained by the circumference {ADC arc E} and the straight-line {AC line}, is less than a right-angle.\nAnd this is immediately apparent.\nFor since the (angle contained by) the two straight-lines {BA line} and {AC line} is a right-angle, the (angle) contained by the circumference {ABC arcc E} and the straight-line {AC line} is thus greater than a right-angle.\nAgain, since the (angle contained by) the straight-lines {AC line} and {AF line} is a right-angle, the (angle) contained by the circumference {ADC arc E} and the straight-line {CA line} is thus less than a right-angle.\n\nThus, in a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser [segment] (is) greater than a right-angle.\nAnd, further, the [angle] of a segment greater (than a semi-circle) [is] greater than a right-angle, and the [angle] of a segment less (than a semi-circle) is less than a right-angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        107.34152255572695,
+        183.6474508437579
+      ],
+      "B": [
+        161.83221215612903,
+        351.3525491562421
+      ],
+      "C": [
+        338.167787843871,
+        108.64745084375788
+      ],
+      "D": [
+        203.64745084375787,
+        87.34152255572695
+      ],
+      "E": [
+        250,
+        230
+      ],
+      "F": [
+        63.74897087540529,
+        49.48337219377049
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          230
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            161.83221215612903,
+            351.3525491562421
+          ],
+          [
+            107.34152255572695,
+            183.6474508437579
+          ],
+          [
+            203.64745084375787,
+            87.34152255572695
+          ],
+          [
+            338.167787843871,
+            108.64745084375788
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          107.34152255572695,
+          183.6474508437579
+        ],
+        [
+          338.167787843871,
+          108.64745084375788
+        ]
+      ],
+      [
+        "line",
+        [
+          107.34152255572695,
+          183.6474508437579
+        ],
+        [
+          250,
+          230
+        ]
+      ],
+      [
+        "line",
+        [
+          107.34152255572695,
+          183.6474508437579
+        ],
+        [
+          63.74897087540529,
+          49.48337219377049
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        0.5
+      ],
+      "D": [
+        1.5
+      ],
+      "E": [
+        -1.5
+      ],
+      "F": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "3.32",
+    "title": "Proposition 32",
+    "prose": "If some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.\n\nFor let some straight-line {EF line} touch the circle {ABCD circle T} at the point {B point}, and let some (other) straight-line {BD line} have been drawn from point {B point} into the circle {ABCD circle T}, cutting it (in two).\nI say that the angles {BD line} makes with the tangent {EF line} will be equal to the angles in the alternate segments of the circle.\nThat is to say, that angle {FBD angle} is equal to the angle constructed in segment {BAD arc T}, and angle {EBD angle} is equal to the angle constructed in segment {DCB arc T}.\n\nFor let {BA line} have been drawn from {B point}, at right-angles to {EF line} [Prop. 1.11].\nAnd let the point {C point} have been taken at random on the circumference {BD arcc T}.\nAnd let {AD line}, {DC line}, and {CB line} have been joined.\n\nAnd since some straight-line {EF line} touches the circle {ABCD circle T} at point {B point}, and {BA line} has been drawn from the point of contact, at right-angles to the tangent, the center of circle {ABCD circle T} is thus on {BA line} [Prop. 3.19].\nThus, {BA line} is a diameter of circle {ABCD circle T}.\nThus, angle {ADB angle}, being in a semi-circle, is a right-angle [Prop. 3.31].\nThus, the remaining angles (of triangle {ADB polygon}) {BAD angle} and {ABD angle} are equal to one right-angle [Prop. 1.32].\nAnd {ABF angle} is also a right-angle.\nThus, {ABF angle} is equal to {BAD angle} and {ABD angle}.\nLet {ABD angle} have been subtracted from both.\nThus, the remaining angle {DBF angle} is equal to the angle {BAD angle} in the alternate segment of the circle.\nAnd since {ABCD polygon} is a quadrilateral in a circle, (the sum of) its opposite angles is equal to two right-angles [Prop. 3.22].\nAnd {DBF angle} and {DBE angle} is also equal to two right-angles [Prop. 1.13].\nThus, {DBF angle} and {DBE angle} is equal to {BAD angle} and {BCD angle}, of which {BAD angle} was shown (to be) equal to {DBF angle}.\nThus, the remaining (angle) {DBE angle} is equal to the angle {DCB angle} in the alternate segment {DCB arc T} of the circle.\n\nThus, if some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        250,
+        80
+      ],
+      "B": [
+        250,
+        380
+      ],
+      "C": [
+        383.6509786282552,
+        298.098574960932
+      ],
+      "D": [
+        371.3525491562421,
+        141.83221215612906
+      ],
+      "E": [
+        100,
+        380
+      ],
+      "F": [
+        400,
+        380
+      ],
+      "T": [
+        250,
+        230
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          250,
+          230
+        ],
+        300
+      ],
+      [
+        "polygon",
+        [
+          [
+            250,
+            80
+          ],
+          [
+            250,
+            380
+          ],
+          [
+            383.6509786282552,
+            298.098574960932
+          ],
+          [
+            371.3525491562421,
+            141.83221215612906
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          380
+        ],
+        [
+          371.3525491562421,
+          141.83221215612906
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          380
+        ],
+        [
+          400,
+          380
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "3.33",
+    "title": "Proposition 33",
+    "prose": "To draw a segment of a circle, accepting an angle equal to a given rectilinear angle, on a given straight-line.\n\nLet {AB line} be the given straight-line, and {C given} the given rectilinear angle.\nSo it is required to draw a segment of a circle, accepting an angle equal to {C given}, on the given straight-line {AB line}.\n\nSo the [angle] {C given} is surely either acute, a right-angle, or obtuse.\n{figure 1}First of all, let it be acute.\nAnd, as in the first diagram (from the left), let (angle) {BAD angle}, equal to angle {C given}, have been constructed on the straight-line {AB line}, at the point {A point} (on it) [Prop. 1.23].\nThus, {BAD angle} is also acute.\nLet {AE line} have been drawn, at right-angles to {DA line} [Prop. 1.11].  \nAnd let {AB line} have been cut in half at {F point} [Prop. 1.10].\nAnd let {FG line} have been drawn from point {F point}, at right-angles to {AB line} [Prop. 1.11].\nAnd let {GB line} have been joined.\n\nAnd since {AF line} is equal to {FB line}, and {FG line} (is) common, the two (straight-lines) {AF line}, {FG line} are equal to the two (straight-lines) {BF line}, {FG line} (respectively).\nAnd angle {AFG angle} (is) equal to [angle] {BFG angle}.\nThus, the base {AG line} is equal to the base {BG line} [Prop. 1.4].\nThus, the circle drawn with center {G point}, and radius {GA line}, will also go through {B point} (as well as {A point}).\nLet it have been drawn, and let it be (denoted) {ABE circle G}.\nAnd let {EB line} have been joined.\nTherefore, since {AD line} is at the extremity of diameter {AE line}, (namely, point) {A point}, at right-angles to {AE line}, the (straight-line) {AD line} thus touches the circle {ABE circle G} [Prop. 3.16 corr.].\nTherefore, since some straight-line {AD line} touches the circle {ABE circle G}, and some (other) straight-line {AB line} has been drawn across from the point of contact {A point} into circle {ABE circle G}, angle {DAB angle} is thus equal to the angle {AEB angle} in the alternate segment of the circle [Prop. 3.32].\nBut, {DAB angle} is equal to {C given}.\nThus, angle {C given} is also equal to {AEB angle}.\n\nThus, a segment {AEB arc G} of a circle, accepting the angle {AEB angle} (which is) equal to the given (angle) {C given}, has been drawn on the given straight-line {AB line}.\n\n{figure 2}And so let {C given} be a right-angle.\nAnd let it again be necessary to draw a segment of a circle on {AB line}, accepting an angle equal to the right-[angle] {C given}.\nLet the (angle) {BAD angle} [again] have been constructed, equal to the right-angle {C given} [Prop. 1.23], as in the second diagram (from the left).\nAnd let {AB line} have been cut in half at {F point} [Prop. 1.10].\nAnd let the circle {AEB circle F} have been drawn with center {F point}, and radius either {FA line} or {FB line}.\n\nThus, the straight-line {AD line} touches the circle {ABE circle F}, on account of the angle at {A point} being a right-angle [Prop. 3.16 corr.].\nAnd angle {BAD angle} is equal to the angle in segment {AEB arcc F}.\nFor (the latter angle), being in a semi-circle, is also a right-angle [Prop. 3.31].\nBut, {BAD angle} is also equal to {C given}.\nThus, the (angle) in (segment) {AEB angle} is also equal to {C given}.\n\nThus, a segment {AEB arcc F} of a circle, accepting an angle equal to {C given}, has again been drawn on {AB line}.\n\n{figure 3}And so let (angle) {C given} be obtuse.\nAnd let (angle) {BAD angle}, equal to ({C given}), have been constructed on the straight-line {AB line}, at the point {A point} (on it) [Prop. 1.23], as in the third diagram (from the left).\nAnd let {AE line} have been drawn, at right-angles to {AD line} [Prop. 1.11].\nAnd let {AB line} have again been cut in half at {F point} [Prop. 1.10].\nAnd let {FG line} have been drawn, at right-angles to {AB line} [Prop. 1.10].\nAnd let {GB line} have been joined.\n\nAnd again, since {AF line} is equal to {FB line}, and {FG line} (is) common, the two (straight-lines) {AF line}, {FG line} are equal to the two (straight-lines) {BF line}, {FG line} (respectively).\nAnd angle {AFG angle} (is) equal to angle {BFG angle}.\nThus, the base {AG line} is equal to the base {BG line} [Prop. 1.4].\nThus, a circle of center {G point}, and radius {GA line}, being drawn, will also go through {B point} (as well as {A point}).\nLet it go like {AEB circle G} (in the third diagram from the left).\nAnd since {AD line} is at right-angles to the diameter {AE line}, at its extremity, {AD line} thus touches circle {AEB circle G} [Prop. 3.16 corr.].\nAnd {AB line} has been drawn across (the circle) from the point of contact {A point}.\nThus, angle {BAD angle} is equal to the angle constructed in the alternate segment {AHB arc G} of the circle [Prop. 3.32].\nBut, angle {BAD angle} is equal to {C given}.\nThus, the angle in segment {AHB arc G} is also equal to {C given}.\n\nThus, a segment {AHB arc G} of a circle, accepting an angle equal to {C given}, has been drawn on the given straight-line {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "points": {
+          "A": [
+            90,
+            100
+          ],
+          "B": [
+            33.36881039375368,
+            211.14496766047313
+          ],
+          "C": [
+            90,
+            60
+          ],
+          "D": [
+            27,
+            100
+          ],
+          "E": [
+            90,
+            240
+          ],
+          "F": [
+            61.68440519687684,
+            155.57248383023656
+          ],
+          "G": [
+            90,
+            170
+          ]
+        },
+        "given": {
+          "C": [
+            [
+              "anglecurve",
+              [
+                55,
+                60
+              ],
+              [
+                90,
+                60
+              ],
+              [
+                74.11033250911586,
+                28.814771653407128
+              ]
+            ],
+            [
+              "line",
+              [
+                90,
+                60
+              ],
+              [
+                55,
+                60
+              ]
+            ],
+            [
+              "line",
+              [
+                90,
+                60
+              ],
+              [
+                74.11033250911586,
+                28.814771653407128
+              ]
+            ]
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              90,
+              170
+            ],
+            140
+          ],
+          [
+            "line",
+            [
+              90,
+              60
+            ],
+            [
+              55,
+              60
+            ]
+          ],
+          [
+            "line",
+            [
+              90,
+              60
+            ],
+            [
+              74.11033250911586,
+              28.814771653407128
+            ]
+          ],
+          [
+            "line",
+            [
+              90,
+              100
+            ],
+            [
+              33.36881039375368,
+              211.14496766047313
+            ]
+          ],
+          [
+            "line",
+            [
+              90,
+              100
+            ],
+            [
+              27,
+              100
+            ]
+          ],
+          [
+            "line",
+            [
+              90,
+              100
+            ],
+            [
+              90,
+              240
+            ]
+          ],
+          [
+            "line",
+            [
+              33.36881039375368,
+              211.14496766047313
+            ],
+            [
+              90,
+              240
+            ]
+          ],
+          [
+            "line",
+            [
+              61.68440519687684,
+              155.57248383023656
+            ],
+            [
+              90,
+              170
+            ]
+          ],
+          [
+            "line",
+            [
+              33.36881039375368,
+              211.14496766047313
+            ],
+            [
+              90,
+              170
+            ]
+          ]
+        ],
+        "smallletters": "ABCDEFG",
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            4
+          ],
+          "C": [
+            -1
+          ],
+          "D": [
+            3
+          ],
+          "E": [
+            5
+          ],
+          "F": [
+            2.5
+          ],
+          "G": [
+            -1
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            250,
+            100
+          ],
+          "B": [
+            250,
+            240
+          ],
+          "C": [
+            250,
+            60
+          ],
+          "D": [
+            187,
+            100
+          ],
+          "E": [
+            180,
+            170
+          ],
+          "F": [
+            250,
+            170
+          ]
+        },
+        "given": {
+          "C": [
+            [
+              "anglecurve",
+              [
+                215,
+                60
+              ],
+              [
+                250,
+                60
+              ],
+              [
+                250,
+                25
+              ]
+            ],
+            [
+              "line",
+              [
+                250,
+                60
+              ],
+              [
+                215,
+                60
+              ]
+            ],
+            [
+              "line",
+              [
+                250,
+                60
+              ],
+              [
+                250,
+                25
+              ]
+            ]
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              250,
+              170
+            ],
+            140
+          ],
+          [
+            "line",
+            [
+              250,
+              60
+            ],
+            [
+              215,
+              60
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              60
+            ],
+            [
+              250,
+              25
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              100
+            ],
+            [
+              250,
+              240
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              100
+            ],
+            [
+              187,
+              100
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              100
+            ],
+            [
+              180,
+              170
+            ]
+          ],
+          [
+            "line",
+            [
+              250,
+              240
+            ],
+            [
+              180,
+              170
+            ]
+          ]
+        ],
+        "smallletters": "ABCDEF",
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            5
+          ],
+          "C": [
+            -1
+          ],
+          "D": [
+            3
+          ],
+          "E": [
+            3
+          ],
+          "F": [
+            -1
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            410,
+            100
+          ],
+          "B": [
+            476.57395614066075,
+            191.63118960624632
+          ],
+          "C": [
+            410,
+            60
+          ],
+          "D": [
+            347,
+            100
+          ],
+          "E": [
+            410,
+            240
+          ],
+          "F": [
+            443.2869780703304,
+            145.81559480312316
+          ],
+          "G": [
+            410,
+            170
+          ],
+          "H": [
+            466.6311896062463,
+            128.8550323395269
+          ]
+        },
+        "given": {
+          "C": [
+            [
+              "anglecurve",
+              [
+                375,
+                60
+              ],
+              [
+                410,
+                60
+              ],
+              [
+                430.57248383023654,
+                31.68440519687684
+              ]
+            ],
+            [
+              "line",
+              [
+                410,
+                60
+              ],
+              [
+                375,
+                60
+              ]
+            ],
+            [
+              "line",
+              [
+                410,
+                60
+              ],
+              [
+                430.57248383023654,
+                31.68440519687684
+              ]
+            ]
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              410,
+              170
+            ],
+            140
+          ],
+          [
+            "line",
+            [
+              410,
+              60
+            ],
+            [
+              375,
+              60
+            ]
+          ],
+          [
+            "line",
+            [
+              410,
+              60
+            ],
+            [
+              430.57248383023654,
+              31.68440519687684
+            ]
+          ],
+          [
+            "line",
+            [
+              410,
+              100
+            ],
+            [
+              476.57395614066075,
+              191.63118960624632
+            ]
+          ],
+          [
+            "line",
+            [
+              410,
+              100
+            ],
+            [
+              347,
+              100
+            ]
+          ],
+          [
+            "line",
+            [
+              410,
+              100
+            ],
+            [
+              410,
+              240
+            ]
+          ],
+          [
+            "line",
+            [
+              443.2869780703304,
+              145.81559480312316
+            ],
+            [
+              410,
+              170
+            ]
+          ],
+          [
+            "line",
+            [
+              476.57395614066075,
+              191.63118960624632
+            ],
+            [
+              410,
+              170
+            ]
+          ],
+          [
+            "line",
+            [
+              466.6311896062463,
+              128.8550323395269
+            ],
+            [
+              410,
+              100
+            ]
+          ],
+          [
+            "line",
+            [
+              466.6311896062463,
+              128.8550323395269
+            ],
+            [
+              476.57395614066075,
+              191.63118960624632
+            ]
+          ]
+        ],
+        "smallletters": "ABCDEFGH",
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            -1.5
+          ],
+          "C": [
+            -1.5
+          ],
+          "D": [
+            3
+          ],
+          "E": [
+            5
+          ],
+          "F": [
+            -0.5
+          ],
+          "G": [
+            3
+          ],
+          "H": [
+            0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3.34",
+    "title": "Proposition 34",
+    "prose": "To cut off a segment, accepting an angle equal to a given rectilinear angle, from a given circle.\n\nLet {ABC circle T} be the given circle, and {D given} the given rectilinear angle.\nSo it is required to cut off a segment, accepting an angle equal to the given rectilinear angle {D given}, from the given circle {ABC circle T}.\n\nLet {EF line} have been drawn touching {ABC circle T} at point {B point}.\nAnd let (angle) {FBC angle}, equal to angle {D given}, have been constructed on the straight-line {FB line}, at the point {B point} on it [Prop. 1.23].\n\nTherefore, since some straight-line {EF line} touches the circle {ABC circle T}, and {BC line} has been drawn across (the circle) from the point of contact {B point}, angle {FBC angle} is thus equal to the angle constructed in the alternate segment {BAC arcc T} [Prop. 1.32].\nBut, {FBC angle} is equal to {D given}.\nThus, the (angle) in the segment {BAC arcc T} is also equal to [angle] {D given}.\n\nThus, the segment {BAC arcc T}, accepting an angle equal to the given rectilinear angle {D given}, has been cut off from the given circle {ABC circle T}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        270.5342302750968,
+        297.08203932499373
+      ],
+      "B": [
+        80,
+        200
+      ],
+      "C": [
+        215.03998802771653,
+        80.94623584226267
+      ],
+      "D": [
+        350,
+        300
+      ],
+      "E": [
+        80.00000000000001,
+        320
+      ],
+      "F": [
+        79.99999999999999,
+        80
+      ],
+      "T": [
+        200,
+        200
+      ]
+    },
+    "given": {
+      "D": [
+        [
+          "anglecurve",
+          [
+            470,
+            300
+          ],
+          [
+            350,
+            300
+          ],
+          [
+            429.3574238388382,
+            209.98667164434485
+          ]
+        ],
+        [
+          "line",
+          [
+            350,
+            300
+          ],
+          [
+            470,
+            300
+          ]
+        ],
+        [
+          "line",
+          [
+            350,
+            300
+          ],
+          [
+            429.3574238388382,
+            209.98667164434485
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          200,
+          200
+        ],
+        240
+      ],
+      [
+        "polygon",
+        [
+          [
+            270.5342302750968,
+            297.08203932499373
+          ],
+          [
+            80,
+            200
+          ],
+          [
+            215.03998802771653,
+            80.94623584226267
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          80.00000000000001,
+          320
+        ],
+        [
+          79.99999999999999,
+          80
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          300
+        ],
+        [
+          470,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          300
+        ],
+        [
+          429.3574238388382,
+          209.98667164434485
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -2
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -0.5,
+        15
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "3.35",
+    "title": "Proposition 35",
+    "prose": "If two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.\n\nFor let the two straight-lines {AC line} and {BD line}, in the circle {ABCD circle F}, cut one another at point {E point}.\nI say that the rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.\n\n{figure 1}In fact, if {AC line} and {BD line} are through the center (as in the first diagram from the left), so that {E point} is the center of circle {ABCD circle F}, then (it is) clear that, {AE line}, {EC line}, {DE line}, and {EB line} being equal, the rectangle contained by {AE line} and {EC line} is also equal to the rectangle contained by {DE line} and {EB line}.\n\n{figure 2}So let {AC line} and {DB line} not be though the center (as in the second diagram from the left), and let the center of {ABCD circle F} have been found [Prop. 3.1], and let it be (at) {F point}.\nAnd let {FG line} and {FH line} have been drawn from {F point}, perpendicular to the straight-lines {AC line} and {DB line} (respectively) [Prop. 1.12].\nAnd let {FB line}, {FC line}, and {FE line} have been joined.\n\nAnd since some straight-line, {GF line}, through the center, cuts at right-angles some (other) straight-line, {AC line}, not through the center, then it also cuts it in half [Prop. 3.3].\nThus, {AG line} (is) equal to {GC line}.\nTherefore, since the straight-line {AC line} is cut equally at {G point}, and unequally at {E point}, the rectangle contained by {AE line} and {EC line} plus the square on {EG line} is thus equal to the (square) on {GC line} [Prop. 2.5].\nLet the (square) on {GF line} have been added [to both].\nThus, the (rectangle contained) by {AE line} and {EC line} plus the (sum of the squares) on {GE line} and {GF line} is equal to the (sum of the squares) on {CG line} and {GF line}.\nBut, the (square) on {FE line} is equal to the (sum of the squares) on {EG line} and {GF line} [Prop. 1.47], and the (square) on {FC line} is equal to the (sum of the squares) on {CG line} and {GF line} [Prop. 1.47].\nThus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FC line}.\nAnd {FC line} (is) equal to {FB line}.\nThus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FB line}.\nSo, for the same (reasons), the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line} is equal to the (square) on {FB line}.\nAnd the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} was also shown (to be) equal to the (square) on {FB line}.\nThus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line}.\nLet the (square) on {FE line} have been taken from both.\nThus, the remaining rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.\n\nThus, if two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.\n(Which is) the very thing it was required to show.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "points": {
+          "A": [
+            85.99999999999999,
+            69.39745962155614
+          ],
+          "B": [
+            36,
+            156
+          ],
+          "C": [
+            186,
+            242.60254037844385
+          ],
+          "D": [
+            236,
+            156
+          ],
+          "E": [
+            136,
+            156
+          ],
+          "F": [
+            136,
+            156
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              136,
+              156
+            ],
+            200
+          ],
+          [
+            "line",
+            [
+              85.99999999999999,
+              69.39745962155614
+            ],
+            [
+              186,
+              242.60254037844385
+            ]
+          ],
+          [
+            "line",
+            [
+              36,
+              156
+            ],
+            [
+              236,
+              156
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            2
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            -2
+          ],
+          "D": [
+            -1
+          ],
+          "E": [
+            0
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            294.2805390808568,
+            116.15604827954733
+          ],
+          "B": [
+            357.9657263574457,
+            251.98999688162502
+          ],
+          "C": [
+            432.4870596855978,
+            244.5378635488098
+          ],
+          "D": [
+            468.0133425404566,
+            98.78276793358735
+          ],
+          "E": [
+            391,
+            206
+          ],
+          "F": [
+            386,
+            156
+          ],
+          "G": [
+            363.3837993832273,
+            180.34695591417858
+          ],
+          "H": [
+            412.9895344489512,
+            175.3863824076062
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              386,
+              156
+            ],
+            200
+          ],
+          [
+            "line",
+            [
+              386,
+              156
+            ],
+            [
+              391,
+              206
+            ]
+          ],
+          [
+            "line",
+            [
+              294.2805390808568,
+              116.15604827954733
+            ],
+            [
+              432.4870596855978,
+              244.5378635488098
+            ]
+          ],
+          [
+            "line",
+            [
+              357.9657263574457,
+              251.98999688162502
+            ],
+            [
+              468.0133425404566,
+              98.78276793358735
+            ]
+          ],
+          [
+            "line",
+            [
+              386,
+              156
+            ],
+            [
+              363.3837993832273,
+              180.34695591417858
+            ]
+          ],
+          [
+            "line",
+            [
+              386,
+              156
+            ],
+            [
+              412.9895344489512,
+              175.3863824076062
+            ]
+          ],
+          [
+            "line",
+            [
+              386,
+              156
+            ],
+            [
+              357.9657263574457,
+              251.98999688162502
+            ]
+          ],
+          [
+            "line",
+            [
+              386,
+              156
+            ],
+            [
+              432.4870596855978,
+              244.5378635488098
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            2
+          ],
+          "B": [
+            4
+          ],
+          "C": [
+            -2
+          ],
+          "D": [
+            0
+          ],
+          "E": [
+            5,
+            1.4
+          ],
+          "F": [
+            1.4
+          ],
+          "G": [
+            4
+          ],
+          "H": [
+            -2
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3.36",
+    "title": "Proposition 36",
+    "prose": "If some point is taken outside a circle, and two straight-lines radiate from it towards the circle, and (one) of them cuts the circle, and the (other) touches (it), then the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, will be equal to the square on the tangent (line).\n\nFor let some point {D point} have been taken outside circle {ABC circle E}, and let two straight-lines, {DCA line} and {DB line}, radiate from {D point} towards circle {ABC circle E}.\nAnd let {DCA line} cut circle {ABC circle E}, and let {BD line} touch (it).\nI say that the rectangle contained by {AD line} and {DC line} is equal to the square on {DB line}.\n\n{DCA line} is surely either through the center, or not.\n{figure 1}Let it first of all be through the center, and let {F point} be the center of circle {ABC circle E}, and let {FB line} have been joined.\nThus, (angle) {FBD angle} is a right-angle [Prop. 3.18].\nAnd since straight-line {AC line} is cut in half at {F point}, let {CD line} have been added to it.\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FC line} is equal to the (square) on {FD line} [Prop. 2.6].\nAnd {FC line} (is) equal to {FB line}.\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FB line} is equal to the (square) on {FD line}.\nAnd the (square) on {FD line} is equal to the (sum of the squares) on {FB line} and {BD line} [Prop. 1.47].\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FB line} is equal to the (sum of the squares) on {FB line} and {BD line}.\nLet the (square) on {FB line} have been subtracted from both.\nThus, the remaining (rectangle contained) by {AD line} and {DC line} is equal to the (square) on the tangent {DB line}.\n\n{figure 2}And so let {DCA line} not be through the center of circle {ABC circle E}, and let the center {E point} have been found, and let {EF line} have been drawn from {E point}, perpendicular to {AC line} [Prop. 1.12].\nAnd let {EB line}, {EC line}, and {ED line} have been joined.\n(Angle) {EBD angle} (is) thus a right-angle [Prop. 3.18].\nAnd since some straight-line, {EF line}, through the center, cuts some (other) straight-line, {AC line}, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].\nThus, {AF line} is equal to {FC line}.\nAnd since the straight-line {AC line} is cut in half at point {F point}, let {CD line} have been added to it.\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FC line} is equal to the (square) on {FD line} [Prop. 2.6].\nLet the (square) on {FE line} have been added to both.\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (sum of the squares) on {CF line} and {FE line} is equal to the (sum of the squares) on {FD line} and {FE line}.\nBut the (square) on {EC line} is equal to the (sum of the squares) on {CF line} and {FE line}.\nFor [angle] {EFC angle} [is] a right-angle [Prop. 1.47].\nAnd the (square) on {ED line} is equal to the (sum of the squares) on {DF line} and {FE line} [Prop. 1.47].\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EC line} is equal to the (square) on {ED line}.\nAnd {EC line} (is) equal to {EB line}.\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EB line} is equal to the (square) on {ED line}.\nAnd the (sum of the squares) on {EB line} and {BD line} is equal to the (square) on {ED line}.\nFor {EBD angle} (is) a right-angle [Prop. 1.47].\nThus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EB line} is equal to the (sum of the squares) on {EB line} and {BD line}.\nLet the (square) on {EB line} have been subtracted from both.\nThus, the remaining (rectangle contained) by {AD line} and {DC line} is equal to the (square) on {BD line}.\n\nThus, if some point is taken outside a circle, and two straight-lines radiate from it towards the circle, and (one) of them cuts the circle, and (the other) touches (it), then the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, will be equal to the square on the tangent (line).\n(Which is) the very thing it was required to show.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "points": {
+          "A": [
+            44.72135954999579,
+            -89.44271909999159
+          ],
+          "B": [
+            -100,
+            0
+          ],
+          "C": [
+            -44.72135954999579,
+            89.44271909999159
+          ],
+          "D": [
+            -99.99999999999999,
+            200
+          ],
+          "E": [
+            0,
+            0
+          ],
+          "F": [
+            0,
+            0
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              0,
+              0
+            ],
+            200
+          ],
+          [
+            "line",
+            [
+              44.72135954999579,
+              -89.44271909999159
+            ],
+            [
+              -99.99999999999999,
+              200
+            ]
+          ],
+          [
+            "line",
+            [
+              -100,
+              0
+            ],
+            [
+              -99.99999999999999,
+              200
+            ]
+          ],
+          [
+            "line",
+            [
+              -100,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            0
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            -2.9,
+            4
+          ],
+          "D": [
+            -3
+          ],
+          "F": [
+            -1
+          ]
+        }
+      },
+      {
+        "points": {
+          "A": [
+            200,
+            -86.60254037844386
+          ],
+          "B": [
+            150,
+            0
+          ],
+          "C": [
+            173.62920592095762,
+            64.55619111856356
+          ],
+          "D": [
+            150,
+            200
+          ],
+          "E": [
+            250,
+            0
+          ],
+          "F": [
+            186.8146029604788,
+            -11.02317462994015
+          ]
+        },
+        "shapes": [
+          [
+            "circle",
+            [
+              250,
+              0
+            ],
+            200
+          ],
+          [
+            "line",
+            [
+              150,
+              0
+            ],
+            [
+              150,
+              200
+            ]
+          ],
+          [
+            "line",
+            [
+              150,
+              0
+            ],
+            [
+              250,
+              0
+            ]
+          ],
+          [
+            "line",
+            [
+              150,
+              200
+            ],
+            [
+              200,
+              -86.60254037844386
+            ]
+          ],
+          [
+            "line",
+            [
+              150,
+              200
+            ],
+            [
+              250,
+              0
+            ]
+          ],
+          [
+            "line",
+            [
+              173.62920592095762,
+              64.55619111856356
+            ],
+            [
+              250,
+              0
+            ]
+          ],
+          [
+            "line",
+            [
+              186.8146029604788,
+              -11.02317462994015
+            ],
+            [
+              250,
+              0
+            ]
+          ]
+        ],
+        "letters": {
+          "A": [
+            1
+          ],
+          "B": [
+            3
+          ],
+          "C": [
+            3.4,
+            3
+          ],
+          "D": [
+            -3
+          ],
+          "E": [
+            -1
+          ],
+          "F": [
+            2.5
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "3.37",
+    "title": "Proposition 37",
+    "prose": "If some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.\n\nFor let some point {D point} have been taken outside circle {ABC circle F}, and let two straight-lines, {DCA line} and {DB line}, radiate from {D point} towards circle {ABC circle F}, and let {DCA line} cut the circle, and let {DB line} meet (the circle).\nAnd let the (rectangle contained) by {AD line} and {DC line} be equal to the (square) on {DB line}.\nI say that {DB line} touches circle {ABC circle F}.\n\nFor let {DE line} have been drawn touching {ABC circle F} [Prop. 3.17], and let the center of the circle {ABC circle F} have been found, and let it be (at) {F point}.\nAnd let {FE line}, {FB line}, and {FD line} have been joined.\n(Angle) {FED angle} is thus a right-angle [Prop. 3.18].\nAnd since {DE line} touches circle {ABC circle F}, and {DCA line} cuts (it), the (rectangle contained) by {AD line} and {DC line} is thus equal to the (square) on {DE line} [Prop. 3.36].\nAnd the (rectangle contained) by {AD line} and {DC line} was also equal to the (square) on {DB line}.\nThus, the (square) on {DE line} is equal to the (square) on {DB line}.\nThus, {DE line} (is) equal to {DB line}.\nAnd {FE line} is also equal to {FB line}.\nSo the two (straight-lines) {DE line}, {EF line} are equal to the two (straight-lines) {DB line}, {BF line} (respectively).\nAnd their base, {FD line}, is common.\nThus, angle {DEF angle} is equal to angle {DBF angle} [Prop. 1.8].\nAnd {DEF angle} (is) a right-angle.\nThus, {DBF angle} (is) also a right-angle.\nAnd {FB line} produced is a diameter, And a (straight-line) drawn at right-angles to a diameter of a circle, at its extremity, touches the circle [Prop. 3.16 corr.].\nThus, {DB line} touches circle {ABC circle F}.\nSimilarly, (the same thing) can be shown, even if the center happens to be on {AC line}.\n\nThus, if some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        382.50743948190467,
+        347.3962852513905
+      ],
+      "B": [
+        228.9450406405151,
+        299.7511740688854
+      ],
+      "C": [
+        211.33254091344412,
+        189.14861407081267
+      ],
+      "D": [
+        50,
+        40
+      ],
+      "E": [
+        360.00114122765456,
+        98.23480434887527
+      ],
+      "F": [
+        336,
+        226
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          336,
+          226
+        ],
+        260
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            40
+          ],
+          [
+            228.9450406405151,
+            299.7511740688854
+          ],
+          [
+            336,
+            226
+          ],
+          [
+            360.00114122765456,
+            98.23480434887527
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          40
+        ],
+        [
+          382.50743948190467,
+          347.3962852513905
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          40
+        ],
+        [
+          336,
+          226
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -2
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        3.3,
+        3
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        -1.5
+      ]
+    }
+  }
+]

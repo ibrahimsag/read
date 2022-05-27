@@ -1,0 +1,5015 @@
+[
+  {
+    "id": "5.d",
+    "title": "Definitions",
+    "prose": "1. Similar rectilinear figures are those (which) have (their) angles separately equal and the (corresponding) sides about the equal angles proportional.\n\n2. A straight-line is said to have been cut in extreme and mean ratio when as the whole is to the greater segment so the greater (segment is) to the lesser.\n\n3. The height of any figure is the (straight-line) drawn from the vertex perpendicular to the base.\n"
+  },
+  {
+    "id": "6.1",
+    "title": "Proposition 1",
+    "prose": "Triangles and parallelograms which are of the same height are to one another as their bases.\n\nLet {ABC polygon} and {ACD angle} be triangles, and {EC polygon} and {CF polygon} parallelograms, of the same height {AC line}.\nI say that as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and parallelogram {EC polygon} to parallelogram {CF polygon}.\n\nFor let the (straight-line) {BD line} have been produced in each direction to points {H point} and {L point}, and let [any number] (of straight-lines) {BG line} and {GH line} be made equal to base {BC line}, and any number (of straight-lines) {DK line} and {KL line} equal to base {CD line}. And let {AG line}, {AH line}, {AK line}, and {AL line} have been joined.\n\nAnd since {CB line}, {BG line}, and {GH line} are equal to one another, triangles {AHG polygon}, {AGB polygon}, and {ABC polygon} are also equal to one another [Prop. 1.38].\nThus, as many times as base {HC line} is (divisible by) base {BC line}, so many times is triangle {AHC polygon} also (divisible) by triangle {ABC polygon}.\nSo, for the same (reasons), as many times as base {LC line} is (divisible) by base {CD line}, so many times is triangle {ALC polygon} also (divisible) by triangle {ACD polygon}.\nAnd if base {HC line} is equal to base {CL line} then triangle {AHC polygon} is also equal to triangle {ACL polygon} [Prop. 1.38].\nAnd if base {HC line} exceeds base {CL line} then triangle {AHC polygon} also exceeds triangle {ACL polygon}.\nAnd if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (than {ACL polygon}).\nSo, their being four magnitudes, two bases, {BC line} and {CD line}, and two triangles, {ABC polygon} and {ACD polygon}, equal multiples have been taken of base {BC line} and triangle {ABC polygon}---(namely), base {HC line} and triangle {AHC polygon}---and other random equal multiples of base {CD line} and triangle {ADC polygon}---(namely), base {LC line} and triangle {ALC polygon}.\nAnd it has been shown that if base {HC line} exceeds base {CL line} then triangle {AHC polygon} also exceeds triangle {ALC polygon}, and if ({HC line} is) equal (to {CL line} then {AHC polygon} is also) equal (to {ALC polygon}), and if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (than {ALC polygon}).\nThus, as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon} [Def. 5.5].\nAnd since parallelogram {EC polygon} is double triangle {ABC polygon}, and parallelogram {FC polygon} is double triangle {ACD polygon} [Prop. 1.34], and parts have the same ratio as similar multiples [Prop. 5.15], thus as triangle {ABC polygon} is to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon}.\nIn fact, since it was shown that as base {BC line} (is) to {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and as triangle {ABC polygon} (is) to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {CF polygon}, thus, also, as base {BC line} (is) to base {CD line}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon} [Prop. 5.11].\n\nThus, triangles and parallelograms which are of the same height are to one another as their bases.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        200,
+        50
+      ],
+      "B": [
+        150,
+        250
+      ],
+      "C": [
+        200,
+        250
+      ],
+      "D": [
+        265,
+        250
+      ],
+      "E": [
+        150,
+        50
+      ],
+      "F": [
+        265,
+        50
+      ],
+      "G": [
+        100,
+        250
+      ],
+      "H": [
+        50,
+        250
+      ],
+      "K": [
+        330,
+        250
+      ],
+      "L": [
+        395,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          265,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          150,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          265,
+          50
+        ],
+        [
+          265,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          395,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          50,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          100,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          150,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          200,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          265,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          330,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          395,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        -3
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        -3
+      ]
+    },
+    "polygonl": {
+      "EC": "AEBC",
+      "CF": "ACDF",
+      "FC": "ACDF"
+    }
+  },
+  {
+    "id": "6.2",
+    "title": "Proposition 2",
+    "prose": "If some straight-line is drawn parallel to one of the sides of a triangle then it will cut the (other) sides of the triangle proportionally.\nAnd if (two of) the sides of a triangle are cut proportionally then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.\n\nFor let {DE line} have been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}.\nI say that as {BD line} is to {DA line}, so {CE line} (is) to {EA line}.\n\nFor let {BE line} and {CD line} have been joined.\n\nThus, triangle {BDE polygon} is equal to triangle {CDE polygon}.\nFor they are on the same base {DE line} and between the same parallels {DE line} and {BC line} [Prop. 1.38].\nAnd {ADE polygon} is some other triangle.\nAnd equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7].\nThus, as triangle {BDE polygon} is to [triangle] {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon}.\nBut, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so (is) {BD line} to {DA line}.\nFor, having the same height---(namely), the (straight-line) drawn from {E point} perpendicular to {AB line}--- they are to one another as their bases [Prop. 6.1].\nSo, for the same (reasons), as triangle {CDE polygon} (is) to {ADE polygon}, so {CE line} (is) to {EA line}.\nAnd, thus, as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line} [Prop. 5.11].\n\nAnd so, let the sides {AB line} and {AC line} of triangle {ABC polygon} have been cut proportionally (such that) as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line}.\nAnd let {DE line} have been joined.\nI say that {DE line} is parallel to {BC line}.\n\nFor, by the same construction, since as {BD line} is to {DA line}, so {CE line} (is) to {EA line}, but as {BD line} (is) to {DA line}, so triangle {BDE polygon} (is) to triangle {ADE polygon}, and as {CE line} (is) to {EA line}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 6.1], thus, also, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 5.11].\nThus, triangles {BDE polygon} and {CDE polygon} each have the same ratio to {ADE polygon}.\nThus, triangle {BDE polygon} is equal to triangle {CDE polygon} [Prop. 5.9].\nAnd they are on the same base {DE line}.\nAnd equal triangles, which are also on the same base, are also between the same parallels [Prop. 1.39].\nThus, {DE line} is parallel to {BC line}.\n\nThus, if some straight-line is drawn parallel to one of the sides of a triangle, then it will cut the (other) sides of the triangle proportionally.\nAnd if (two of) the sides of a triangle are cut proportionally, then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        150,
+        300
+      ],
+      "C": [
+        350,
+        300
+      ],
+      "D": [
+        120,
+        225
+      ],
+      "E": [
+        260,
+        225
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            150,
+            300
+          ],
+          [
+            350,
+            300
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          225
+        ],
+        [
+          260,
+          225
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          300
+        ],
+        [
+          260,
+          225
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          225
+        ],
+        [
+          350,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        -0.2
+      ]
+    }
+  },
+  {
+    "id": "6.3",
+    "title": "Proposition 3",
+    "prose": "If an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.\nAnd if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.\n\nLet {ABC polygon} be a triangle.\nAnd let the angle {BAC angle} have been cut in half by the straight-line {AD line}.\nI say that as {BD line} is to {CD line}, so {BA line} (is) to {AC line}.\n\nFor let {CE line} have been drawn through (point) {C point} parallel to {DA line}.\nAnd, {BA line} being drawn through, let it meet ({CE line}) at (point) {E point}.\n\nAnd since the straight-line {AC line} falls across the parallel (straight-lines) {AD line} and {EC line}, angle {ACE angle} is thus equal to {CAD angle} [Prop. 1.29].\nBut, (angle) {CAD angle} is assumed (to be) equal to {BAD angle}.\nThus, (angle) {BAD angle} is also equal to {ACE angle}.\nAgain, since the straight-line {BAE line} falls across the parallel (straight-lines) {AD line} and {EC line}, the external angle {BAD angle} is equal to the internal (angle) {AEC angle} [Prop. 1.29].\nAnd (angle) {ACE angle} was also shown (to be) equal to {BAD angle}.\nThus, angle {ACE angle} is also equal to {AEC angle}.\nAnd, hence, side {AE line} is equal to side {AC line} [Prop. 1.6].\nAnd since {AD line} has been drawn parallel to one of the sides {EC line} of triangle {BCE polygon}, thus, proportionally, as {BD line} is to {DC line}, so {BA line} (is) to {AE line} [Prop. 6.2].\nAnd {AE line} (is) equal to {AC line}.\nThus, as {BD line} (is) to {DC line}, so {BA line} (is) to {AC line}.\n\nAnd so, let {BD line} be to {DC line}, as {BA line} (is) to {AC line}.\nAnd let {AD line} have been joined.\nI say that angle {BAC angle} has been cut in half by the straight-line {AD line}.\n\nFor, by the same construction, since as {BD line} is to {DC line}, so {BA line} (is) to {AC line}, then also as {BD line} (is) to {DC line}, so {BA line} is to {AE line}.\nFor {AD line} has been drawn parallel to one (of the sides) {EC line} of triangle {BCE polygon} [Prop. 6.2].\nThus, also, as {BA line} (is) to {AC line}, so {BA line} (is) to {AE line} [Prop. 5.11].\nThus, {AC line} (is) equal to {AE line} [Prop. 5.9].\nAnd, hence, angle {AEC angle} is equal to {ACE angle} [Prop. 1.5].\nBut, {AEC angle} [is] equal to the external (angle) {BAD angle}, and {ACE angle} is equal to the alternate (angle) {CAD angle} [Prop. 1.29].\nThus, (angle) {BAD angle} is also equal to {CAD angle}.\nThus, angle {BAC angle} has been cut in half by the straight-line {AD line}.\n\nThus, if an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.\nAnd if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        240,
+        150
+      ],
+      "B": [
+        50,
+        300
+      ],
+      "C": [
+        300,
+        300
+      ],
+      "D": [
+        199.93606817578208,
+        300
+      ],
+      "E": [
+        366.8016914003103,
+        49.893401526070846
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            366.8016914003103,
+            49.893401526070846
+          ],
+          [
+            50,
+            300
+          ],
+          [
+            300,
+            300
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          240,
+          150
+        ],
+        [
+          199.93606817578208,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          240,
+          150
+        ],
+        [
+          300,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "6.4",
+    "title": "Proposition 4",
+    "prose": "In equiangular triangles the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.\n\nLet {ABC polygon} and {DCE polygon} be equiangular triangles, having angle {ABC angle} equal to {DCE angle}, and (angle) {BAC angle} to {CDE angle}, and, further, (angle) {ACB angle} to {CED angle}.\nI say that in triangles {ABC polygon} and {DCE polygon} the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.\n\nLet {BC line} be placed straight-on to {CE line}.\nAnd since angles {ABC angle} and {ACB angle} are less than two right-angles [Prop. 1.17], and {ACB angle} (is) equal to {DEC angle}, thus {ABC angle} and {DEC angle} are less than two right-angles.\nThus, {BA line} and {ED line}, being produced, will meet [C.N. 5].\nLet them have been produced, and let them meet at (point) {F point}.\n\nAnd since angle {DCE angle} is equal to {ABC angle}, {BF line} is parallel to {CD line} [Prop. 1.28].\nAgain, since (angle) {ACB angle} is equal to {DEC angle}, {AC line} is parallel to {FE line} [Prop. 1.28].\nThus, {FACD polygon} is a parallelogram.\nThus, {FA line} is equal to {DC line}, and {AC line} to {FD line} [Prop. 1.34].\nAnd since {AC line} has been drawn parallel to one (of the sides) {FE line} of triangle {FBE polygon}, thus as {BA line} is to {AF line}, so {BC line} (is) to {CE line} [Prop. 6.2].\nAnd {AF line} (is) equal to {CD line}.\nThus, as {BA line} (is) to {CD line}, so {BC line} (is) to {CE line}, and, alternately, as {AB line} (is) to {BC line}, so {DC line} (is) to {CE line} [Prop. 5.16].\nAgain, since {CD line} is parallel to {BF line}, thus as {BC line} (is) to {CE line}, so {FD line} (is) to {DE line} [Prop. 6.2].\nAnd {FD line} (is) equal to {AC line}.\nThus, as {BC line} is to {CE line}, so {AC line} (is) to {DE line}, and, alternately, as {BC line} (is) to {CA line}, so {CE line} (is) to {ED line} [Prop. 6.2].\nTherefore, since it was shown that as {AB line} (is) to {BC line}, so {DC line} (is) to {CE line}, and as {BC line} (is) to {CA line}, so {CE line} (is) to {ED line}, thus, via equality, as {BA line} (is) to {AC line}, so {CD line} (is) to {DE line} [Prop. 5.22].\n\nThus, in equiangular triangles the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        300,
+        150
+      ],
+      "B": [
+        50,
+        300
+      ],
+      "C": [
+        230,
+        300
+      ],
+      "D": [
+        355,
+        225
+      ],
+      "E": [
+        320,
+        300
+      ],
+      "F": [
+        425,
+        75
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            300
+          ],
+          [
+            320,
+            300
+          ],
+          [
+            425,
+            75
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          150
+        ],
+        [
+          230,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          300
+        ],
+        [
+          355,
+          225
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "6.5",
+    "title": "Proposition 5",
+    "prose": "If two triangles have proportional sides then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having proportional sides, (so that) as {AB line} (is) to {BC line}, so {DE line} (is) to {EF line}, and as {BC line} (is) to {CA line}, so {EF line} (is) to {FD line}, and, further, as {BA line} (is) to {AC line}, so {ED line} (is) to {DF line}.\nI say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and (that the triangles) will have the angles which corresponding sides subtend equal.\n(That is), (angle) {ABC angle} (equal) to {DEF angle}, {BCA angle} to {EFD angle}, and, further, {BAC angle} to {EDF angle}.\n\nFor let (angle) {FEG angle}, equal to angle {ABC angle}, and (angle) {EFG angle}, equal to {ACB angle}, have been constructed on the straight-line {EF line} at the points {E point} and {F point} on it (respectively) [Prop. 1.23].\nThus, the remaining (angle) at {A point} is equal to the remaining (angle) at {G point} [Prop. 1.32].\n\nThus, triangle {ABC polygon} is equiangular to [triangle] {EGF polygon}.\nThus, for triangles {ABC polygon} and {EGF polygon}, the sides about the equal angles are proportional, and (those) sides subtending equal angles correspond [Prop. 6.4].\nThus, as {AB line} is to {BC line}, [so] {GE line} (is) to {EF line}.\nBut, as {AB line} (is) to {BC line}, so, it was assumed, (is) {DE line} to {EF line}.\nThus, as {DE line} (is) to {EF line}, so {GE line} (is) to {EF line} [Prop. 5.11].\nThus, {DE line} and {GE line} each have the same ratio to {EF line}.\nThus, {DE line} is equal to {GE line} [Prop. 5.9].\nSo, for the same (reasons), {DF line} is also equal to {GF line}.\nTherefore, since {DE line} is equal to {EG line}, and {EF line} (is) common, the two (sides) {DE line}, {EF line} are equal to the two (sides) {GE line}, {EF line} (respectively).\nAnd base {DF line} [is] equal to base {FG line}.\nThus, angle {DEF angle} is equal to angle {GEF angle} [Prop. 1.8], and triangle {DEF angle} (is) equal to triangle {GEF angle}, and the remaining angles (are) equal to the remaining angles which the equal sides subtend [Prop. 1.4].\nThus, angle {DFE angle} is also equal to {GFE angle}, and (angle) {EDF angle} to {EGF angle}.\nAnd since (angle) {FED angle} is equal to {GEF angle}, and (angle) {GEF angle} to {ABC angle}, angle {ABC angle} is thus also equal to {DEF angle}.\nSo, for the same (reasons), (angle) {ACB angle} is also equal to {DFE angle}, and, further, the (angle) at {A point} to the (angle) at {D point}.\nThus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.\n\nThus, if two triangles have proportional sides then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        235.53084447944073,
+        106.50953746869641
+      ],
+      "B": [
+        50,
+        320
+      ],
+      "C": [
+        200,
+        300
+      ],
+      "D": [
+        421.31850668766447,
+        83.90572248121785
+      ],
+      "E": [
+        310,
+        212
+      ],
+      "F": [
+        400,
+        200
+      ],
+      "G": [
+        450.99146999607325,
+        306.4529472942838
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            235.53084447944073,
+            106.50953746869641
+          ],
+          [
+            50,
+            320
+          ],
+          [
+            200,
+            300
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            421.31850668766447,
+            83.90572248121785
+          ],
+          [
+            310,
+            212
+          ],
+          [
+            450.99146999607325,
+            306.4529472942838
+          ],
+          [
+            400,
+            200
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          310,
+          212
+        ],
+        [
+          400,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -0.7,
+        2
+      ],
+      "G": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.6",
+    "title": "Proposition 6",
+    "prose": "If two triangles have one angle equal to one angle, and the sides about the equal angles proportional, then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having one angle, {BAC angle}, equal to one angle, {EDF angle} (respectively), and the sides about the equal angles proportional, (so that) as {BA line} (is) to {AC line}, so {ED line} (is) to {DF line}.\nI say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and will have angle {ABC angle} equal to {DEF angle}, and (angle) {ACB angle} to {DFE angle}.\n\nFor let (angle) {FDG angle}, equal to each of {BAC angle} and {EDF angle}, and (angle) {DFG angle}, equal to {ACB angle}, have been constructed on the straight-line {DF line} at the points {D point} and {F point} on it (respectively) [Prop. 1.23].\nThus, the remaining angle at {B point} is equal to the remaining angle at {G point} [Prop. 1.32].\n\nThus, triangle {ABC polygon} is equiangular to triangle {DGF polygon}.\nThus, proportionally, as {BA line} (is) to {AC line}, so {GD line} (is) to {DF line} [Prop. 6.4].\nAnd it was also assumed that as {BA line} is) to {AC line}, so {ED line} (is) to {DF line}.\nAnd, thus, as {ED line} (is) to {DF line}, so {GD line} (is) to {DF line} [Prop. 5.11].\nThus, {ED line} (is) equal to {DG line} [Prop. 5.9].\nAnd {DF line} (is) common.\nSo, the two (sides) {ED line}, {DF line} are equal to the two (sides) {GD line}, {DF line} (respectively).\nAnd angle {EDF angle} [is] equal to angle {GDF angle}.\nThus, base {EF line} is equal to base {GF line}, and triangle {DEF polygon} is equal to triangle {GDF polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4].\nThus, (angle) {DFG angle} is equal to {DFE angle}, and (angle) {DGF angle} to {DEF angle}.\nBut, (angle) {DFG angle} is equal to {ACB angle}.\nThus, (angle) {ACB angle} is also equal to {DFE angle}.\nAnd (angle) {BAC angle} was also assumed (to be) equal to {EDF angle}.\nThus, the remaining (angle) at {B point} is equal to the remaining (angle) at {E point} [Prop. 1.32].\nThus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.\n\nThus, if two triangles have one angle equal to one angle, and the sides about the equal angles proportional, then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        70,
+        50
+      ],
+      "B": [
+        50,
+        300
+      ],
+      "C": [
+        226.91916782274322,
+        306.81194436750354
+      ],
+      "D": [
+        270,
+        50
+      ],
+      "E": [
+        260,
+        175
+      ],
+      "F": [
+        348.4595839113716,
+        178.40597218375177
+      ],
+      "G": [
+        385.7918945931447,
+        98.13768945981997
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            70,
+            50
+          ],
+          [
+            50,
+            300
+          ],
+          [
+            226.91916782274322,
+            306.81194436750354
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            270,
+            50
+          ],
+          [
+            260,
+            175
+          ],
+          [
+            348.4595839113716,
+            178.40597218375177
+          ],
+          [
+            385.7918945931447,
+            98.13768945981997
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          270,
+          50
+        ],
+        [
+          348.4595839113716,
+          178.40597218375177
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "6.7",
+    "title": "Proposition 7",
+    "prose": "If two triangles have one angle equal to one angle, and the sides about other angles proportional, and the remaining angles either both less than, or both not less than, right-angles, then the triangles will be equiangular, and will have the angles about which the sides are proportional equal.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having one angle, {BAC angle}, equal to one angle, {EDF angle} (respectively), and the sides about (some) other angles, {ABC angle} and {DEF angle} (respectively), proportional, (so that) as {AB line} (is) to {BC line}, so {DE line} (is) to {EF line}, and the remaining (angles) at {C point} and {F point}, first of all, both less than right-angles.\nI say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and (that) angle {ABC angle} will be equal to {DEF angle}, and (that) the remaining (angle) at {C point} (will be) manifestly equal to the remaining (angle) at {F point}.\n\nFor if angle {ABC angle} is not equal to (angle) {DEF angle} then one of them is greater.\nLet {ABC angle} be greater.\nAnd let (angle) {ABG angle}, equal to (angle) {DEF angle}, have been constructed on the straight-line {AB line} at the point {B point} on it [Prop. 1.23].\n\nAnd since angle {BAG angle} is equal to (angle) {EDF angle}, and (angle) {ABG angle} to {DEF angle}, the remaining (angle) {AGB angle} is thus equal to the remaining (angle) {DFE angle} [Prop. 1.32].\nThus, triangle {ABG polygon} is equiangular to triangle {DEF polygon}.\nThus, as {AB line} is to {BG line}, so {DE line} (is) to {EF line} [Prop. 6.4].\nAnd as {DE line} (is) to {EF line}, [so] it was assumed (is) {AB line} to {BC line}.\nThus, {AB line} has the same ratio to each of {BC line} and {BG line} [Prop. 5.11].\nThus, {BC line} (is) equal to {BG line} [Prop. 5.9].\nAnd, hence, the angle at {C point} is equal to angle {BGC angle} [Prop. 1.5].\nAnd the angle at {C point} was assumed (to be) less than a right-angle.\nThus, (angle) {BGC angle} is also less than a right-angle.\nHence, the adjacent angle to it, {AGB angle}, is greater than a right-angle [Prop. 1.13].\nAnd ({AGB angle}) was shown to be equal to the (angle) at {F point}.\nThus, the (angle) at {F point} is also greater than a right-angle.\nBut it was assumed (to be) less than a right-angle.\nThe very thing is absurd.\nThus, angle {ABC angle} is not unequal to (angle) {DEF angle}.\nThus, (it is) equal.\nAnd the (angle) at {A point} is also equal to the (angle) at {D point}.\nAnd thus the remaining (angle) at {C point} is equal to the remaining (angle) at {F point} [Prop. 1.32].\nThus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.\n\nBut, again, let each of the (angles) at {C point} and {F point} be assumed (to be) not less than a right-angle.\nI say, again, that triangle {ABC polygon} is equiangular to triangle {DEF polygon} in this case also.\n\nFor, with the same construction, we can similarly show that {BC line} is equal to {BG line}.\nHence, also, the angle at {C point} is equal to (angle) {BGC angle}.\nAnd the (angle) at {C point} (is) not less than a right-angle.\nThus, {BGC angle} (is) not less than a right-angle either.\nSo, in triangle {BGC polygon} the (sum of) two angles is not less than two right-angles.\nThe very thing is impossible [Prop. 1.17].\nThus, again, angle {ABC angle} is not unequal to {DEF angle}.\nThus, (it is) equal.\nAnd the (angle) at {A point} is also equal to the (angle) at {D point}.\nThus, the remaining (angle) at {C point} is equal to the remaining (angle) at {F point} [Prop. 1.32].\nThus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.\n\nThus, if two triangles have one angle equal to one angle, and the sides about other angles proportional, and the remaining angles both less than, or both not less than, right-angles, then the triangles will be equiangular, and will have the angles about which the sides (are) proportional equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        50
+      ],
+      "B": [
+        50,
+        150
+      ],
+      "C": [
+        183.18476131237114,
+        259.52033700011305
+      ],
+      "D": [
+        300,
+        100
+      ],
+      "E": [
+        240,
+        160
+      ],
+      "F": [
+        319.9108567874227,
+        225.71220220006785
+      ],
+      "G": [
+        176.5478090498969,
+        217.61626960009048
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            150,
+            50
+          ],
+          [
+            50,
+            150
+          ],
+          [
+            183.18476131237114,
+            259.52033700011305
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            300,
+            100
+          ],
+          [
+            240,
+            160
+          ],
+          [
+            319.9108567874227,
+            225.71220220006785
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          150
+        ],
+        [
+          176.5478090498969,
+          217.61626960009048
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "6.8",
+    "title": "Proposition 8",
+    "prose": "If, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another.\n\nLet {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle, and let {AD line} have been drawn from {A point}, perpendicular to {BC line} [Prop. 1.12].\nI say that triangles {ABD polygon} and {ADC polygon} are each similar to the whole (triangle) {ABC polygon} and, further, to one another.\n\nFor since (angle) {BAC angle} is equal to {ADB angle}---for each (are) right-angles---and the (angle) at {B point} (is) common to the two triangles {ABC polygon} and {ABD polygon}, the remaining (angle) {ACB angle} is thus equal to the remaining (angle) {BAD angle} [Prop. 1.32].\nThus, triangle {ABC polygon} is equiangular to triangle {ABD polygon}.\nThus, as {BC line}, subtending the right-angle in triangle {ABC polygon}, is to {BA line}, subtending the right-angle in triangle {ABD polygon}, so the same {AB line}, subtending the angle at {C point} in triangle {ABC polygon}, (is) to {BD line}, subtending the equal (angle) {BAD angle} in triangle {ABD polygon}, and, further, (so is) {AC line} to {AD line}, (both) subtending the angle at {B point} common to the two triangles [Prop. 6.4].\nThus, triangle {ABC polygon} is equiangular to triangle {ABD polygon}, and has the sides about the equal angles proportional.\nThus, triangle {ABC polygon} [is] similar to triangle {ABD polygon} [Def. 6.1].\nSo, similarly, we can show that triangle {ABC polygon} is also similar to triangle {ADC polygon}.\nThus, [triangles] {ABD polygon} and {ADC polygon} are each similar to the whole (triangle) {ABC polygon}.\n\nSo I say that triangles {ABD polygon} and {ADC polygon} are also similar to one another.\n\nFor since the right-angle {BDA angle} is equal to the right-angle {ADC angle}, and, indeed, (angle) {BAD angle} was also shown (to be) equal to the (angle) at {C point}, thus the remaining (angle) at {B point} is also equal to the remaining (angle) {DAC angle} [Prop. 1.32].\nThus, triangle {ABD polygon} is equiangular to triangle {ADC polygon}.\nThus, as {BD line}, subtending (angle) {BAD angle} in triangle {ABD polygon}, is to {DA line}, subtending the (angle) at {C point} in triangle {ADC polygon}, (which is) equal to (angle) {BAD angle}, so (is) the same {AD line}, subtending the angle at {B point} in triangle {ABD polygon}, to {DC line}, subtending (angle) {DAC angle} in triangle {ADC polygon}, (which is) equal to the (angle) at {B point}, and, further, (so is) {BA line} to {AC line}, (each) subtending right-angles [Prop. 6.4].\nThus, triangle {ABD polygon} is similar to triangle {ADC polygon} [Def. 6.1].\n\nThus, if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another.\n[(Which is) the very thing it was required to show.]\n\nCorollary\n\nSo (it is) clear, from this, that if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the (straight-line so) drawn is in mean proportion to the pieces of the base.\n(which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        250,
+        50
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        450,
+        250
+      ],
+      "D": [
+        250,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            250,
+            50
+          ],
+          [
+            50,
+            250
+          ],
+          [
+            450,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          250,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.9",
+    "title": "Proposition 9",
+    "prose": "To cut off a prescribed part from a given straight-line.\n\nLet {AB line} be the given straight-line.\nSo it is required to cut off a prescribed part from {AB line}.\n\nSo let a third (part) have been prescribed.\n[And] let some straight-line {AC line} have been drawn from (point) {A point}, encompassing a random angle with {AB line}.\nAnd let a random point {D point} have been taken on {AC line}.\nAnd let {DE line} and {EC line} be made equal to {AD line} [Prop. 1.3].\nAnd let {BC line} have been joined.\nAnd let {DF line} have been drawn through {D point} parallel to it [Prop. 1.31].\n\nTherefore, since {FD line} has been drawn parallel to one of the sides, {BC line}, of triangle {ABC polygon}, then, proportionally, as {CD line} is to {DA line}, so {BF line} (is) to {FA line} [Prop. 6.2].\nAnd {CD line} (is) double {DA line}.\nThus, {BF line} (is) also double {FA line}.\nThus, {BA line} (is) triple {AF line}.\n\nThus, the prescribed third part, {AF line}, has been cut off from the given straight-line, {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        300
+      ],
+      "B": [
+        365,
+        300
+      ],
+      "C": [
+        253.87228258248678,
+        151.87811642229673
+      ],
+      "D": [
+        117.95742752749558,
+        250.62603880743225
+      ],
+      "E": [
+        185.91485505499116,
+        201.2520776148645
+      ],
+      "F": [
+        155,
+        300
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          300
+        ],
+        [
+          470,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          300
+        ],
+        [
+          367.13466179497937,
+          69.5881811013505
+        ]
+      ],
+      [
+        "line",
+        [
+          117.95742752749558,
+          250.62603880743225
+        ],
+        [
+          155,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          253.87228258248678,
+          151.87811642229673
+        ],
+        [
+          365,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        2
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.10",
+    "title": "Proposition 10",
+    "prose": "To cut a given uncut straight-line similarly to a given cut (straight-line).\n\nLet {AB line} be the given uncut straight-line, and {AC line} a (straight-line) cut at points {D point} and {E point}, and let ({AC line}) be laid down so as to encompass a random angle (with {AB line}).\nAnd let {CB line} have been joined.\nAnd let {DF line} and {EG line} have been drawn through (points) {D point} and {E point} (respectively), parallel to {BC line}, and let {DHK line} have been drawn through (point) {D point}, parallel to {AB line} [Prop. 1.31].\n\nThus, {FH polygon} and {HB polygon} are each parallelograms.\nThus, {DH line} (is) equal to {FG line}, and {HK line} to {GB line} [Prop. 1.34].\nAnd since the straight-line {HE line} has been drawn parallel to one of the sides, {KC line}, of triangle {DKC polygon}, thus, proportionally, as {CE line} is to {ED line}, so {KH line} (is) to {HD line} [Prop. 6.2].\nAnd {KH line} (is) equal to {BG line}, and {HD line} to {GF line}.\nThus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}.\nAgain, since {FD line} has been drawn parallel to one of the sides, {GE line}, of triangle {AGE polygon}, thus, proportionally, as {ED line} is to {DA line}, so {GF line} (is) to {FA line} [Prop. 6.2].\nAnd it was also shown that as {CE line} (is) to {ED line}, so {BG line} (is) to {GF line}.\nThus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}, and as {ED line} (is) to {DA line}, so {GF line} (is) to {FA line}.\n\nThus, the given uncut straight-line, {AB line}, has been cut similarly to the given cut straight-line, {AC line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        350
+      ],
+      "B": [
+        330,
+        350
+      ],
+      "C": [
+        450,
+        50
+      ],
+      "D": [
+        150,
+        275
+      ],
+      "E": [
+        310,
+        155
+      ],
+      "F": [
+        120,
+        350
+      ],
+      "G": [
+        232,
+        350
+      ],
+      "H": [
+        262,
+        275
+      ],
+      "K": [
+        360,
+        275
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            350
+          ],
+          [
+            330,
+            350
+          ],
+          [
+            450,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          275
+        ],
+        [
+          360,
+          275
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          275
+        ],
+        [
+          120,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          310,
+          155
+        ],
+        [
+          232,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -3
+      ],
+      "H": [
+        2
+      ],
+      "K": [
+        -1
+      ]
+    },
+    "polygonl": {
+      "FH": "DFGH",
+      "HB": "KHGB"
+    }
+  },
+  {
+    "id": "6.11",
+    "title": "Proposition 11",
+    "prose": "To find a third (straight-line) proportional to two given straight-lines.\n\nLet {BA line} and {AC line} be the [two] given [straight-lines], and let them be laid down encompassing a random angle.\nSo it is required to find a third (straight-line) proportional to {BA line} and {AC line}.\nFor let ({BA line} and {AC line}) have been produced to points {D point} and {E point} (respectively), and let {BD line} be made equal to {AC line} [Prop. 1.3].\nAnd let {BC line} have been joined.\nAnd let {DE line} have been drawn through (point) {D point} parallel to it [Prop. 1.31].\n\nTherefore, since {BC line} has been drawn parallel to one of the sides {DE line} of triangle {ADE polygon}, proportionally, as {AB line} is to {BD line}, so {AC line} (is) to {CE line} [Prop. 6.2].\nAnd {BD line} (is) equal to {AC line}.\nThus, as {AB line} is to {AC line}, so {AC line} (is) to {CE line}.\n\nThus, a third (straight-line), {CE line}, has been found (which is) proportional to the two given straight-lines, {AB line} and {AC line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        230,
+        50
+      ],
+      "B": [
+        173.85766647524866,
+        139.82782634793952
+      ],
+      "C": [
+        250,
+        200
+      ],
+      "D": [
+        93.65433286846098,
+        268.1532925592817
+      ],
+      "E": [
+        278.57142857142856,
+        414.28571428571433
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            230,
+            50
+          ],
+          [
+            93.65433286846098,
+            268.1532925592817
+          ],
+          [
+            278.57142857142856,
+            414.28571428571433
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          173.85766647524866,
+          139.82782634793952
+        ],
+        [
+          250,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "6.12",
+    "title": "Proposition 12",
+    "prose": "To find a fourth (straight-line) proportional to three given straight-lines.\n\nLet {A magnitude}, {B magnitude}, and {C magnitude} be the three given straight-lines.\nSo it is required to find a fourth (straight-line) proportional to {A magnitude}, {B magnitude}, and {C magnitude}.\n\nLet the two straight-lines {DE line} and {DF line} be set out encompassing the [random] angle {EDF angle}.\nAnd let {DG line} be made equal to {A magnitude}, and {GE line} to {B magnitude}, and, further, {DH line} to {C magnitude} [Prop. 1.3].\nAnd {GH line} being joined, let {EF line} have been drawn through (point) {E point} parallel to it [Prop. 1.31].\n\nTherefore, since {GH line} has been drawn parallel to one of the sides {EF line} of triangle {DEF polygon}, thus as {DG line} is to {GE line}, so {DH line} (is) to {HF line} [Prop. 6.2].\nAnd {DG line} (is) equal to {A magnitude}, and {GE line} to {B magnitude}, and {DH line} to {C magnitude}.\nThus, as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {HF line}.\n\nThus, a fourth (straight-line), {HF line}, has been found (which is) proportional to the three given straight-lines, {A magnitude}, {B magnitude}, and {C magnitude}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "D": [
+        50,
+        350
+      ],
+      "E": [
+        276.5247584249853,
+        185.42012935810752
+      ],
+      "F": [
+        283.33333333333337,
+        350
+      ],
+      "G": [
+        195.62305898749054,
+        244.19865458735484
+      ],
+      "H": [
+        200,
+        350
+      ]
+    },
+    "mags": [
+      {
+        "l": "A",
+        "m": 180,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 150,
+        "v": 40
+      }
+    ],
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          350
+        ],
+        [
+          316.97560814373264,
+          156.03086674348387
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          350
+        ],
+        [
+          333.33333333333337,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          195.62305898749054,
+          244.19865458735484
+        ],
+        [
+          200,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          276.5247584249853,
+          185.42012935810752
+        ],
+        [
+          283.33333333333337,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "D": [
+        -3
+      ],
+      "E": [
+        1.5
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        1.5
+      ],
+      "H": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.13",
+    "title": "Proposition 13",
+    "prose": "To find the (straight-line) in mean proportion to two given straight-lines.\n\nLet {AB line} and {BC line} be the two given straight-lines.\nSo it is required to find the (straight-line) in mean proportion to {AB line} and {BC line}.\n\nLet ({AB line} and {BC line}) be laid down straight-on (with respect to one another), and let the semi-circle {ADC arc O} have been drawn on {AC line} [Prop. 1.10].\nAnd let {BD line} have been drawn from (point) {B point}, at right-angles to {AC line} [Prop. 1.11].\nAnd let {AD line} and {DC line} have been joined.\n\nAnd since {ADC angle} is an angle in a semi-circle, it is a right-angle [Prop. 3.31].\nAnd since, in the right-angled triangle {ADC polygon}, the (straight-line) {DB line} has been drawn from the right-angle perpendicular to the base, {DB line} is thus the mean proportional to the pieces of the base, {AB line} and {BC line} [Prop. 6.8 corr.].\n\nThus, {DB line} has been found (which is) in mean proportion to the two given straight-lines, {AB line} and {BC line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        300
+      ],
+      "B": [
+        330,
+        300
+      ],
+      "C": [
+        480,
+        300
+      ],
+      "D": [
+        330,
+        95.06098468080802
+      ],
+      "O": [
+        265,
+        300
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            300
+          ],
+          [
+            480,
+            300
+          ],
+          [
+            330,
+            95.06098468080802
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          330,
+          95.06098468080802
+        ],
+        [
+          330,
+          300
+        ]
+      ],
+      [
+        "arc",
+        [
+          265,
+          300
+        ],
+        [
+          50,
+          300
+        ],
+        [
+          480,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        0.5
+      ]
+    }
+  },
+  {
+    "id": "6.14",
+    "title": "Proposition 14",
+    "prose": "In equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional.\nAnd those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal.\n\nLet {AB polygon} and {BC polygon} be equal and equiangular parallelograms having the angles at {B point} equal.\nAnd let {DB line} and {BE line} be laid down straight-on (with respect to one another).\nThus, {FB line} and {BG line} are also straight-on (with respect to one another) [Prop. 1.14].\nI say that the sides of {AB polygon} and {BC polygon} about the equal angles are reciprocally proportional, that is to say, that as {DB line} is to {BE line}, so {GB line} (is) to {BF line}.\n\nFor let the parallelogram {FE polygon} have been completed.\nTherefore, since parallelogram {AB polygon} is equal to parallelogram {BC polygon}, and {FE polygon} (is) some other (parallelogram), thus as (parallelogram) {AB polygon} is to {FE polygon}, so (parallelogram) {BC polygon} (is) to {FE polygon} [Prop. 5.7].\nBut, as (parallelogram) {AB polygon} (is) to {FE polygon}, so {DB line} (is) to {BE line}, and as (parallelogram) {BC polygon} (is) to {FE polygon}, so {GB line} (is) to {BF line} [Prop. 6.1].\nThus, also, as {DB line} (is) to {BE line}, so {GB line} (is) to {BF line}.\nThus, in parallelograms {AB polygon} and {BC polygon} the sides about the equal angles are reciprocally proportional.\n\nAnd so, let {DB line} be to {BE line}, as {GB line} (is) to {BF line}. I say that parallelogram {AB polygon} is equal to parallelogram {BC polygon}.\n\nFor since as {DB line} is to {BE line}, so {GB line} (is) to {BF line}, but as {DB line} (is) to {BE line}, so parallelogram {AB polygon} (is) to parallelogram {FE polygon}, and as {GB line} (is) to {BF line}, so parallelogram {BC polygon} (is) to parallelogram {FE polygon} [Prop. 6.1], thus, also, as (parallelogram) {AB polygon} (is) to {FE polygon}, so (parallelogram) {BC polygon} (is) to {FE polygon} [Prop. 5.11].\nThus, parallelogram {AB polygon} is equal to parallelogram {BC polygon} [Prop. 5.9].\n\nThus, in equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional.\nAnd those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        33.647450843757895,
+        292.658477444273
+      ],
+      "B": [
+        200,
+        150
+      ],
+      "C": [
+        410.90169943749476,
+        54.89434837048465
+      ],
+      "D": [
+        153.6474508437579,
+        292.658477444273
+      ],
+      "E": [
+        230.90169943749476,
+        54.89434837048465
+      ],
+      "F": [
+        80,
+        150
+      ],
+      "G": [
+        380,
+        150
+      ],
+      "H": [
+        110.90169943749476,
+        54.89434837048465
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          110.90169943749476,
+          54.89434837048465
+        ],
+        [
+          410.90169943749476,
+          54.89434837048465
+        ]
+      ],
+      [
+        "line",
+        [
+          80,
+          150
+        ],
+        [
+          380,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          33.647450843757895,
+          292.658477444273
+        ],
+        [
+          153.6474508437579,
+          292.658477444273
+        ]
+      ],
+      [
+        "line",
+        [
+          110.90169943749476,
+          54.89434837048465
+        ],
+        [
+          33.647450843757895,
+          292.658477444273
+        ]
+      ],
+      [
+        "line",
+        [
+          153.6474508437579,
+          292.658477444273
+        ],
+        [
+          230.90169943749476,
+          54.89434837048465
+        ]
+      ],
+      [
+        "line",
+        [
+          410.90169943749476,
+          54.89434837048465
+        ],
+        [
+          380,
+          150
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -2.5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        -1
+      ]
+    },
+    "polygonl": {
+      "AB": "FADB",
+      "BC": "EBGC",
+      "FE": "HFBE"
+    }
+  },
+  {
+    "id": "6.15",
+    "title": "Proposition 15",
+    "prose": "In equal triangles also having one angle equal to one (angle) the sides about the equal angles are reciprocally proportional.\nAnd those triangles having one angle equal to one angle for which the sides about the equal angles (are) reciprocally proportional are equal.\n\nLet {ABC polygon} and {ADE polygon} be equal triangles having one angle equal to one (angle), (namely) {BAC angle} (equal) to {DAE angle}.\nI say that, in triangles {ABC polygon} and {ADE polygon}, the sides about the equal angles are reciprocally proportional, that is to say, that as {CA line} is to {AD line}, so {EA line} (is) to {AB line}.\n\nFor let {CA line} be laid down so as to be straight-on (with respect) to {AD line}.\nThus, {EA line} is also straight-on (with respect) to {AB line} [Prop. 1.14].\nAnd let {BD line} have been joined.\n\nTherefore, since triangle {ABC polygon} is equal to triangle {ADE polygon}, and {BAD polygon} (is) some other (triangle), thus as triangle {CAB polygon} is to triangle {BAD polygon}, so triangle {EAD polygon} (is) to triangle {BAD polygon} [Prop. 5.7].\nBut, as (triangle) {CAB polygon} (is) to {BAD polygon}, so {CA line} (is) to {AD line}, and as (triangle) {EAD polygon} (is) to {BAD polygon}, so {EA line} (is) to {AB line} [Prop. 6.1].\nAnd thus, as {CA line} (is) to {AD line}, so {EA line} (is) to {AB line}.\nThus, in triangles {ABC polygon} and {ADE polygon} the sides about the equal angles (are) reciprocally proportional.\n\nAnd so, let the sides of triangles {ABC polygon} and {ADE polygon} be reciprocally proportional, and (thus) let {CA line} be to {AD line}, as {EA line} (is) to {AB line}.\nI say that triangle {ABC polygon} is equal to triangle {ADE polygon}.\n\nFor, {BD line} again being joined, since as {CA line} is to {AD line}, so {EA line} (is) to {AB line}, but as {CA line} (is) to {AD line}, so triangle {ABC polygon} (is) to triangle {BAD polygon}, and as {EA line} (is) to {AB line}, so triangle {EAD polygon} (is) to triangle {BAD polygon} [Prop. 6.1], thus as triangle {ABC polygon} (is) to triangle {BAD polygon}, so triangle {EAD polygon} (is) to triangle {BAD polygon}.\nThus, (triangles) {ABC polygon} and {EAD polygon} each have the same ratio to {BAD polygon}.\nThus, [triangle] {ABC polygon} is equal to triangle {EAD polygon} [Prop. 5.9].\n\nThus, in equal triangles also having one angle equal to one (angle) the sides about the equal angles (are) reciprocally proportional.\nAnd those triangles having one angle equal to one angle for which the sides about the equal angles (are) reciprocally proportional are equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        200,
+        200
+      ],
+      "B": [
+        150,
+        50
+      ],
+      "C": [
+        350,
+        50
+      ],
+      "D": [
+        35,
+        365
+      ],
+      "E": [
+        245.45454545454544,
+        336.3636363636364
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            150,
+            50
+          ],
+          [
+            35,
+            365
+          ],
+          [
+            245.45454545454544,
+            336.3636363636364
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          350,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          50
+        ],
+        [
+          35,
+          365
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -1,
+        2
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.16",
+    "title": "Proposition 16",
+    "prose": "If four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two).\nAnd if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.\n\nLet {AB line}, {CD line}, {E magnitude}, and {F magnitude} be four proportional straight-lines, (such that) as {AB line} (is) to {CD line}, so {E magnitude} (is) to {F magnitude}.\nI say that the rectangle contained by {AB line} and {F magnitude} is equal to the rectangle contained by {CD line} and {E magnitude}.\n\n[For] let {AG line} and {CH line} have been drawn from points {A point} and {C point} at right-angles to the straight-lines {AB line} and {CD line} (respectively) [Prop. 1.11].\nAnd let {AG line} be made equal to {F magnitude}, and {CH line} to {E magnitude} [Prop. 1.3].\nAnd let the parallelograms {BG polygon} and {DH polygon} have been completed.\n\nAnd since as {AB line} is to {CD line}, so {E magnitude} (is) to {F magnitude}, and {E magnitude} (is) equal {CH line}, and {F magnitude} to {AG line}, thus as {AB line} is to {CD line}, so {CH line} (is) to {AG line}. Thus, in the parallelograms {BG polygon} and {DH polygon} the sides about the equal angles are reciprocally proportional.\nAnd those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.14].\nThus, parallelogram {BG polygon} is equal to parallelogram {DH polygon}.\nAnd {BG polygon} is the (rectangle contained) by {AB line} and {F magnitude}.\nFor {AG line} (is) equal to {F magnitude}.\nAnd {DH polygon} (is) the (rectangle contained) by {CD line} and {E magnitude}.\nFor {E magnitude} (is) equal to {CH line}.\nThus, the rectangle contained by {AB line} and {F magnitude} is equal to the rectangle contained by {CD line} and {E magnitude}.\n\nAnd so, let the rectangle contained by {AB line} and {F magnitude} be equal to the rectangle contained by {CD line} and {E magnitude}.\nI say that the four straight-lines will be proportional, (so that) as {AB line} (is) to {CD line}, so {E magnitude} (is) to {F magnitude}.\n\nFor, with the same construction, since the (rectangle contained) by {AB line} and {F magnitude} is equal to the (rectangle contained) by {CD line} and {E magnitude}.\nAnd {BG polygon} is the (rectangle contained) by {AB line} and {F magnitude}.\nFor {AG line} is equal to {F magnitude}.\nAnd {DH polygon} (is) the (rectangle contained) by {CD line} and {E magnitude}.\nFor {CH line} (is) equal to {E magnitude}.\n{BG polygon} is thus equal to {DH polygon}.\nAnd they are equiangular.\nAnd in equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional [Prop. 6.14].\nThus, as {AB line} is to {CD line}, so {CH line} (is) to {AG line}.\nAnd {CH line} (is) equal to {E magnitude}, and {AG line} to {F magnitude}.\nThus, as {AB line} is to {CD line}, so {E magnitude} (is) to {F magnitude}.\n\nThus, if four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two).\nAnd if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        150
+      ],
+      "B": [
+        250,
+        150
+      ],
+      "C": [
+        320,
+        150
+      ],
+      "D": [
+        460,
+        150
+      ],
+      "G": [
+        50,
+        66
+      ],
+      "H": [
+        320,
+        30
+      ],
+      "K": [
+        250,
+        66
+      ],
+      "L": [
+        460,
+        30
+      ]
+    },
+    "mags": [
+      {
+        "l": "E",
+        "m": 120,
+        "p": [
+          50,
+          200
+        ]
+      },
+      {
+        "l": "F",
+        "m": 84,
+        "p": [
+          320,
+          200
+        ]
+      }
+    ],
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            150
+          ],
+          [
+            250,
+            150
+          ],
+          [
+            250,
+            66
+          ],
+          [
+            50,
+            66
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            320,
+            150
+          ],
+          [
+            460,
+            150
+          ],
+          [
+            460,
+            30
+          ],
+          [
+            320,
+            30
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        -1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ]
+    },
+    "polygonl": {
+      "BG": "ABKG",
+      "DH": "CDLH"
+    }
+  },
+  {
+    "id": "6.17",
+    "title": "Proposition 17",
+    "prose": "If three straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the square on the middle (one).\nAnd if the rectangle contained by the (two) outermost is equal to the square on the middle (one) then the three straight-lines will be proportional.\n\nLet {A magnitude}, {B magnitude} and {C magnitude} be three proportional straight-lines, (such that) as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.\nI say that the rectangle contained by {A magnitude} and {C magnitude} is equal to the square on {B magnitude}.\n\nLet {D magnitude} be made equal to {B magnitude} [Prop. 1.3].\n\nAnd since as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}, and {B magnitude} (is) equal to {D magnitude}, thus as {A magnitude} is to {B magnitude}, (so) {D magnitude} (is) to {C magnitude}.\nAnd if four straight-lines are proportional then the [rectangle] contained by the (two) outermost is equal to the rectangle contained by the middle (two) [Prop. 6.16].\nThus, the (rectangle contained) by {A magnitude} and {C magnitude} is equal to the (rectangle contained) by {B magnitude} and {D magnitude}.\nBut, the (rectangle contained) by {B magnitude} and {D magnitude} is the (square) on {B magnitude}.\nFor {B magnitude} (is) equal to {D magnitude}.\nThus, the rectangle contained by {A magnitude} and {C magnitude} is equal to the square on {B magnitude}.\n\nAnd so, let the (rectangle contained) by {A magnitude} and {C magnitude} be equal to the (square) on {B magnitude}.\nI say that as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}.\n\nFor, with the same construction, since the (rectangle contained) by {A magnitude} and {C magnitude} is equal to the (square) on {B magnitude}.\nBut, the (square) on {B magnitude} is the (rectangle contained) by {B magnitude} and {D magnitude}.\nFor {B magnitude} (is) equal to {D magnitude}.\nThe (rectangle contained) by {A magnitude} and {C magnitude} is thus equal to the (rectangle contained) by {B magnitude} and {D magnitude}.\nAnd if the (rectangle contained) by the (two) outermost is equal to the (rectangle contained) by the middle (two) then the four straight-lines are proportional [Prop. 6.16].\nThus, as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude}.\nAnd {B magnitude} (is) equal to {D magnitude}.\nThus, as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.\n\nThus, if three straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the square on the middle (one).\nAnd if the rectangle contained by the (two) outermost is equal to the square on the middle (one) then the three straight-lines will be proportional.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 160,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 90,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 120,
+        "p": [
+          220,
+          100
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6.18",
+    "title": "Proposition 18",
+    "prose": "To describe a rectilinear figure similar, and similarly laid down, to a given rectilinear figure on a given straight-line.\n\nLet {AB line} be the given straight-line, and {CE polygon} the given rectilinear figure.\nSo it is required to describe a rectilinear figure similar, and similarly laid down, to the rectilinear figure {CE polygon} on the straight-line {AB line}.\n\nLet {DF line} have been joined, and let {GAB angle}, equal to the angle at {C point}, and {ABG angle}, equal to (angle) {CDF angle}, have been constructed on the straight-line {AB line} at the points {A point} and {B point} on it (respectively) [Prop. 1.23].\nThus, the remaining (angle) {CFD angle} is equal to {AGB angle} [Prop. 1.32].\nThus, triangle {FCD polygon} is equiangular to triangle {GAB polygon}.\nThus, proportionally, as {FD line} is to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line} [Prop. 6.4].\nAgain, let {BGH angle}, equal to angle {DFE angle}, and {GBH angle} equal to (angle) {FDE angle}, have been constructed on the straight-line {BG line} at the points {G point} and {B point} on it (respectively) [Prop. 1.23].\nThus, the remaining (angle) at {E point} is equal to the remaining (angle) at {H point} [Prop. 1.32].\nThus, triangle {FDE polygon} is equiangular to triangle {GHB polygon}.\nThus, proportionally, as {FD line} is to {GB line}, so {FE line} (is) to {GH line}, and {ED line} to {HB line} [Prop. 6.4].\nAnd it was also shown (that) as {FD line} (is) to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line}.\nThus, also, as {FC line} (is) to {AG line}, so {CD line} (is) to {AB line}, and {FE line} to {GH line}, and, further, {ED line} to {HB line}.\nAnd since angle {CFD angle} is equal to {AGB angle}, and {DFE angle} to {BGH angle}, thus the whole (angle) {CFE angle} is equal to the whole (angle) {AGH angle}.\nSo, for the same (reasons), (angle) {CDE angle} is also equal to {ABH angle}.\nAnd the (angle) at {C point} is also equal to the (angle) at {A point}, and the (angle) at {E point} to the (angle) at {H point}.\nThus, (figure) {AH polygon} is equiangular to {CE polygon}.\nAnd (the two figures) have the sides about their equal angles proportional.\nThus, the rectilinear figure {AH polygon} is similar to the rectilinear figure {CE polygon} [Def. 6.1].\n\nThus, the rectilinear figure {AH polygon}, similar, and similarly laid down, to the given rectilinear figure {CE polygon} has been constructed on the given straight-line {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        300,
+        200
+      ],
+      "B": [
+        390,
+        200
+      ],
+      "C": [
+        50,
+        200
+      ],
+      "D": [
+        200,
+        200
+      ],
+      "E": [
+        220,
+        40
+      ],
+      "F": [
+        70,
+        70
+      ],
+      "G": [
+        312,
+        122
+      ],
+      "H": [
+        402,
+        104
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            200
+          ],
+          [
+            200,
+            200
+          ],
+          [
+            220,
+            40
+          ],
+          [
+            70,
+            70
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            300,
+            200
+          ],
+          [
+            390,
+            200
+          ],
+          [
+            402,
+            104
+          ],
+          [
+            312,
+            122
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          70,
+          70
+        ],
+        [
+          200,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          312,
+          122
+        ],
+        [
+          390,
+          200
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ]
+    },
+    "polygonl": {
+      "CE": "FCDE",
+      "AH": "GABH"
+    }
+  },
+  {
+    "id": "6.19",
+    "title": "Proposition 19",
+    "prose": "Similar triangles are to one another in the squared ratio of (their) corresponding sides.\n\nLet {ABC polygon} and {DEF polygon} be similar triangles having the angle at {B point} equal to the (angle) at {E point}, and {AB line} to {BC line}, as {DE line} (is) to {EF line}, such that {BC line} corresponds to {EF line}.\nI say that triangle {ABC polygon} has a squared ratio to triangle {DEF polygon} with respect to (that side) {BC line} (has) to {EF line}.\n\nFor let a third (straight-line), {BG line}, have been taken (which is) proportional to {BC line} and {EF line}, so that as {BC line} (is) to {EF line}, so {EF line} (is) to {BG line} [Prop. 6.11].\nAnd let {AG line} have been joined.\n\nTherefore, since as {AB line} is to {BC line}, so {DE line} (is) to {EF line}, thus, alternately, as {AB line} is to {DE line}, so {BC line} (is) to {EF line} [Prop. 5.16].\nBut, as {BC line} (is) to {EF line}, so {EF line} is to {BG line}.\nAnd, thus, as {AB line} (is) to {DE line}, so {EF line} (is) to {BG line}.\nThus, for triangles {ABG polygon} and {DEF polygon}, the sides about the equal angles are reciprocally proportional.\nAnd those triangles having one (angle) equal to one (angle) for which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.15].\nThus, triangle {ABG polygon} is equal to triangle {DEF polygon}.\nAnd since as {BC line} (is) to {EF line}, so {EF line} (is) to {BG line}, and if three straight-lines are proportional then the first has a squared ratio to the third with respect to the second [Def. 5.9], {BC line} thus has a squared ratio to {BG line} with respect to (that) {CB line} (has) to {EF line}.\nAnd as {CB line} (is) to {BG line}, so triangle {ABC polygon} (is) to triangle {ABG polygon} [Prop. 6.1].\nThus, triangle {ABC polygon} also has a squared ratio to (triangle) {ABG polygon} with respect to (that side) {BC line} (has) to {EF line}.\nAnd triangle {ABG polygon} (is) equal to triangle {DEF polygon}.\nThus, triangle {ABC polygon} also has a squared ratio to triangle {DEF polygon} with respect to (that side) {BC line} (has) to {EF line}.\n\nThus, similar triangles are to one another in the squared ratio of (their) corresponding sides.\n[(Which is) the very thing it was required to show].\n\nCorollary\n\nSo it is clear, from this, that if three straight-lines are proportional, then as the first is to the third, so the figure (described) on the first (is) to the similar, and similarly described, (figure) on the second.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        50
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        250,
+        250
+      ],
+      "D": [
+        360,
+        130
+      ],
+      "E": [
+        300,
+        250
+      ],
+      "F": [
+        420,
+        250
+      ],
+      "G": [
+        122,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            150,
+            50
+          ],
+          [
+            50,
+            250
+          ],
+          [
+            250,
+            250
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            360,
+            130
+          ],
+          [
+            300,
+            250
+          ],
+          [
+            420,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          122,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.20",
+    "title": "Proposition 20",
+    "prose": "Similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.\n\nLet {ABCDE polygon} and {FGHKL polygon} be similar polygons, and let {AB line} correspond to {FG line}.\nI say that polygons {ABCDE polygon} and {FGHKL polygon} can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and (that) polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to that {AB line} (has) to {FG line}.\n\nLet {BE line}, {EC line}, {GL line}, and {LH line} have been joined.\n\nAnd since polygon {ABCDE polygon} is similar to polygon {FGHKL polygon}, angle {BAE angle} is equal to angle {GFL angle}, and as {BA line} is to {AE line}, so {GF line} (is) to {FL line} [Def. 6.1].\nTherefore, since {ABE polygon} and {FGL polygon} are two triangles having one angle equal to one angle and the sides about the equal angles proportional, triangle {ABE polygon} is thus equiangular to triangle {FGL polygon} [Prop. 6.6].\nHence, (they are) also similar [Prop. 6.4, Def. 6.1].\nThus, angle {ABE angle} is equal to (angle) {FGL angle}.\nAnd the whole (angle) {ABC angle} is equal to the whole (angle) {FGH angle}, on account of the similarity of the polygons.\nThus, the remaining angle {EBC angle} is equal to {LGH angle}.\nAnd since, on account of the similarity of triangles {ABE polygon} and {FGL polygon}, as {EB line} is to {BA line}, so {LG line} (is) to {GF line}, but also, on account of the similarity of the polygons, as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, thus, via equality, as {EB line} is to {BC line}, so {LG line} (is) to {GH line} [Prop. 5.22], and the sides about the equal angles, {EBC angle} and {LGH angle}, are proportional.\nThus, triangle {EBC polygon} is equiangular to triangle {LGH polygon} [Prop. 6.6].\nHence, triangle {EBC polygon} is also similar to triangle {LGH polygon} [Prop. 6.4, Def. 6.1].\nSo, for the same (reasons), triangle {ECD polygon} is also similar to triangle {LHK polygon}.\nThus, the similar polygons {ABCDE polygon} and {FGHKL polygon} have been divided into equal numbers of similar triangles.\n\nI also say that (the triangles) correspond (in proportion) to the wholes.\nThat is to say, the triangles are proportional: {ABE polygon}, {EBC polygon}, and {ECD polygon} are the leading (magnitudes), and their (associated) following (magnitudes are) {FGL polygon}, {LGH polygon}, and {LHK polygon} (respectively).\n(I) also (say) that polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to (that) a corresponding side (has) to a corresponding side---that is to say, (side) {AB line} to {FG line}.\n\nFor let {AC line} and {FH line} have been joined.\nAnd since angle {ABC angle} is equal to {FGH angle}, and as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, on account of the similarity of the polygons, triangle {ABC polygon} is equiangular to triangle {FGH polygon} [Prop. 6.6].\nThus, angle {BAC angle} is equal to {GFH angle}, and (angle) {BCA angle} to {GHF angle}.\nAnd since angle {BAM angle} is equal to {GFN angle}, and (angle) {ABM angle} is also equal to {FGN angle} (see earlier), the remaining (angle) {AMB angle} is thus also equal to the remaining (angle) {FNG angle} [Prop. 1.32].\nThus, triangle {ABM polygon} is equiangular to triangle {FGN polygon}.\nSo, similarly, we can show that triangle {BMC polygon} is also equiangular to triangle {GNH polygon}.\nThus, proportionally, as {AM line} is to {MB line}, so {FN line} (is) to {NG line}, and as {BM line} (is) to {MC line}, so {GN line} (is) to {NH line} [Prop. 6.4].\nHence, also, via equality, as {AM line} (is) to {MC line}, so {FN line} (is) to {NH line} [Prop. 5.22].\nBut, as {AM line} (is) to {MC line}, so [triangle] {ABM polygon} is to {MBC polygon}, and {AME polygon} to {EMC polygon}.\nFor they are to one another as their bases [Prop. 6.1].\nAnd as one of the leading (magnitudes) is to one of the following (magnitudes), so (the sum of) all the leading (magnitudes) is to (the sum of) all the following (magnitudes) [Prop. 5.12].\nThus, as triangle {AMB polygon} (is) to {BMC polygon}, so (triangle) {ABE polygon} (is) to {CBE polygon}.\nBut, as (triangle) {AMB polygon} (is) to {BMC polygon}, so {AM line} (is) to {MC line}.\nThus, also, as {AM line} (is) to {MC line}, so triangle {ABE polygon} (is) to triangle {EBC polygon}.\nAnd so, for the same (reasons), as {FN line} (is) to {NH line}, so triangle {FGL polygon} (is) to triangle {GLH polygon}.\nAnd as {AM line} is to {MC line}, so {FN line} (is) to {NH line}.\nThus, also, as triangle {ABE polygon} (is) to triangle {BEC polygon}, so triangle {FGL polygon} (is) to triangle {GLH polygon}, and, alternately, as triangle {ABE polygon} (is) to triangle {FGL polygon}, so triangle {BEC polygon} (is) to triangle {GLH polygon} [Prop. 5.16].\nSo, similarly, we can also show, by joining {BD line} and {GK line}, that as triangle {BEC polygon} (is) to triangle {LGH polygon}, so triangle {ECD polygon} (is) to triangle {LHK polygon}.\nAnd since as triangle {ABE polygon} is to triangle {FGL polygon}, so (triangle) {EBC polygon} (is) to {LGH polygon}, and, further, (triangle) {ECD polygon} to {LHK polygon}, and also as one of the leading (magnitudes is) to one of the following, so (the sum of) all the leading (magnitudes is) to (the sum of) all the following [Prop. 5.12], thus as triangle {ABE polygon} is to triangle {FGL polygon}, so polygon {ABCDE polygon} (is) to polygon {FGHKL polygon}.\nBut, triangle {ABE polygon} has a squared ratio to triangle {FGL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.\nFor, similar triangles are in the squared ratio of corresponding sides [Prop. 6.14].\nThus, polygon {ABCDE polygon} also has a squared ratio to polygon {FGHKL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.\n\nThus, similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.\n[(Which is) the very thing it was required to show].\n\nCorollary\n\nAnd, in the same manner, it can also be shown for [similar] quadrilaterals that they are in the squared ratio of (their) corresponding sides.\nAnd it was also shown for triangles.\nHence, in general, similar rectilinear figures are also to one another in the squared ratio of (their) corresponding sides.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        50
+      ],
+      "B": [
+        50,
+        130
+      ],
+      "C": [
+        100,
+        250
+      ],
+      "D": [
+        200,
+        250
+      ],
+      "E": [
+        250,
+        90
+      ],
+      "F": [
+        350,
+        100
+      ],
+      "G": [
+        320,
+        148
+      ],
+      "H": [
+        350,
+        220
+      ],
+      "K": [
+        410,
+        220
+      ],
+      "L": [
+        440,
+        124
+      ],
+      "M": [
+        100,
+        120
+      ],
+      "N": [
+        350,
+        142
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            50
+          ],
+          [
+            50,
+            130
+          ],
+          [
+            100,
+            250
+          ],
+          [
+            200,
+            250
+          ],
+          [
+            250,
+            90
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            350,
+            100
+          ],
+          [
+            320,
+            148
+          ],
+          [
+            350,
+            220
+          ],
+          [
+            410,
+            220
+          ],
+          [
+            440,
+            124
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          50
+        ],
+        [
+          100,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          130
+        ],
+        [
+          200,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          130
+        ],
+        [
+          250,
+          90
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          250
+        ],
+        [
+          250,
+          90
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          100
+        ],
+        [
+          350,
+          220
+        ]
+      ],
+      [
+        "line",
+        [
+          320,
+          148
+        ],
+        [
+          410,
+          220
+        ]
+      ],
+      [
+        "line",
+        [
+          320,
+          148
+        ],
+        [
+          440,
+          124
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          220
+        ],
+        [
+          440,
+          124
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        -1
+      ],
+      "M": [
+        -2
+      ],
+      "N": [
+        -2
+      ]
+    }
+  },
+  {
+    "id": "6.21",
+    "title": "Proposition 21",
+    "prose": "(Rectilinear figures) similar to the same rectilinear figure are also similar to one another.\n\nLet each of the rectilinear figures {A given} and {B given} be similar to (the rectilinear figure) {C given}.\nI say that {A given} is also similar to {B given}.\n\nFor since {A given} is similar to {C given}, ({A given}) is equiangular to ({C given}), and has the sides about the equal angles proportional [Def. 6.1].\nAgain, since {B given} is similar to {C given}, ({B given}) is equiangular to ({C given}), and has the sides about the equal angles proportional [Def. 6.1].\nThus, {A given} and {B given} are each equiangular to {C given}, and have the sides about the equal angles proportional.\nThus, {A given} is similar to {B given} [Def. 6.1].\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        20,
+        20
+      ],
+      "B": [
+        240,
+        70
+      ],
+      "C": [
+        150,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            20,
+            20
+          ],
+          [
+            100,
+            170
+          ],
+          [
+            170,
+            170
+          ],
+          [
+            170,
+            70
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            240,
+            70
+          ],
+          [
+            288,
+            160
+          ],
+          [
+            330,
+            160
+          ],
+          [
+            330,
+            100
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            150,
+            200
+          ],
+          [
+            246,
+            380
+          ],
+          [
+            330,
+            380
+          ],
+          [
+            330,
+            260
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -2.1,
+        15
+      ],
+      "B": [
+        -2.1,
+        10
+      ],
+      "C": [
+        -2.2,
+        20
+      ]
+    },
+    "given": {
+      "A": [
+        [
+          "polygon",
+          [
+            [
+              20,
+              20
+            ],
+            [
+              100,
+              170
+            ],
+            [
+              170,
+              170
+            ],
+            [
+              170,
+              70
+            ]
+          ]
+        ]
+      ],
+      "B": [
+        [
+          "polygon",
+          [
+            [
+              240,
+              70
+            ],
+            [
+              288,
+              160
+            ],
+            [
+              330,
+              160
+            ],
+            [
+              330,
+              100
+            ]
+          ]
+        ]
+      ],
+      "C": [
+        [
+          "polygon",
+          [
+            [
+              150,
+              200
+            ],
+            [
+              246,
+              380
+            ],
+            [
+              330,
+              380
+            ],
+            [
+              330,
+              260
+            ]
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "id": "6.22",
+    "title": "Proposition 22",
+    "prose": "If four straight-lines are proportional then similar, and similarly described, rectilinear figures (drawn) on them will also be proportional.\nAnd if similar, and similarly described, rectilinear figures (drawn) on them are proportional then the straight-lines themselves will also be proportional.\n\nLet {AB line}, {CD line}, {EF line}, and {GH line} be four proportional straight-lines, (such that) as {AB line} (is) to {CD line}, so {EF line} (is) to {GH line}.\nAnd let the similar, and similarly laid out, rectilinear figures {KAB polygon} and {LCD polygon} have been described on {AB line} and {CD line} (respectively), and the similar, and similarly laid out, rectilinear figures {MF polygon} and {NH polygon} on {EF line} and {GH line} (respectively).\nI say that as {KAB polygon} is to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.\n\nFor let a third (straight-line) {O magnitude} have been taken (which is) proportional to {AB line} and {CD line}, and a third (straight-line) {P magnitude} proportional to {EF line} and {GH line} [Prop. 6.11].\nAnd since as {AB line} is to {CD line}, so {EF line} (is) to {GH line}, and as {CD line} (is) to {O magnitude}, so {GH line} (is) to {P magnitude}, thus, via equality, as {AB line} is to {O magnitude}, so {EF line} (is) to {P magnitude} [Prop. 5.22].\nBut, as {AB line} (is) to {O magnitude}, so [also] {KAB polygon} (is) to {LCD polygon}, and as {EF line} (is) to {P magnitude}, so {MF polygon} (is) to {NH polygon} [Prop. 5.19 corr.].\nAnd, thus, as {KAB polygon} (is) to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.\n\nAnd so let {KAB polygon} be to {LCD polygon}, as {MF polygon} (is) to {NH polygon}.\nI say also that as {AB line} is to {CD line}, so {EF line} (is) to {GH line}.\nFor if as {AB line} is to {CD line}, so {EF line} (is) not to {GH line}, let {AB line} be to {CD line}, as {EF line} (is) to {QR line} [Prop. 6.12].\nAnd let the rectilinear figure {SR polygon}, similar, and similarly laid down, to either of {MF polygon} or {NH polygon}, have been described on {QR line} [Props. 6.18, 6.21].\n\nTherefore, since as {AB line} is to {CD line}, so {EF line} (is) to {QR line}, and the similar, and similarly laid out, (rectilinear figures) {KAB polygon} and {LCD polygon} have been described on {AB line} and {CD line} (respectively), and the similar, and similarly laid out, (rectilinear figures) {MF polygon} and {SR polygon} on {EF line} and {QR line} (resespectively), thus as {KAB polygon} is to {LCD polygon}, so {MF polygon} (is) to {SR polygon} (see above).\nAnd it was also assumed that as {KAB polygon} (is) to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.\nThus, also, as {MF polygon} (is) to {SR polygon}, so {MF polygon} (is) to {NH polygon} [Prop. 5.11].\nThus, {MF polygon} has the same ratio to each of {NH polygon} and {SR polygon}.\nThus, {NH polygon} is equal to {SR polygon} [Prop. 5.9].\nAnd it is also similar, and similarly laid out, to it.\nThus, {GH line} (is) equal to {QR line}.\nAnd since {AB line} is to {CD line}, as {EF line} (is) to {QR line}, and {QR line} (is) equal to {GH line}, thus as {AB line} is to {CD line}, so {EF line} (is) to {GH line}.\n\nThus, if four straight-lines are proportional, then similar, and similarly described, rectilinear figures (drawn) on them will also be proportional.\nAnd if similar, and similarly described, rectilinear figures (drawn) on them are proportional then the straight-lines themselves will also be proportional.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        150
+      ],
+      "B": [
+        180,
+        150
+      ],
+      "C": [
+        250,
+        150
+      ],
+      "D": [
+        354,
+        150
+      ],
+      "E": [
+        70,
+        300
+      ],
+      "F": [
+        150,
+        300
+      ],
+      "G": [
+        270,
+        300
+      ],
+      "H": [
+        334,
+        300
+      ],
+      "K": [
+        109.01876496614109,
+        34.16915185551218
+      ],
+      "L": [
+        297.21501197291286,
+        57.33532148440975
+      ],
+      "M": [
+        94.7213595499958,
+        223.9154786963877
+      ],
+      "N": [
+        289.77708763999664,
+        239.13238295711017
+      ],
+      "Q": [
+        270,
+        420
+      ],
+      "R": [
+        334,
+        420
+      ],
+      "S": [
+        289.77708763999664,
+        359.13238295711017
+      ],
+      "T": [
+        353.77708763999664,
+        359.13238295711017
+      ],
+      "U": [
+        174.72135954999578,
+        223.9154786963877
+      ],
+      "V": [
+        353.77708763999664,
+        239.13238295711017
+      ]
+    },
+    "mags": [
+      {
+        "l": "O",
+        "m": 83.2,
+        "p": [
+          70,
+          350
+        ]
+      },
+      {
+        "l": "P",
+        "m": 51.2,
+        "p": [
+          200,
+          350
+        ]
+      }
+    ],
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            109.01876496614109,
+            34.16915185551218
+          ],
+          [
+            50,
+            150
+          ],
+          [
+            180,
+            150
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            297.21501197291286,
+            57.33532148440975
+          ],
+          [
+            250,
+            150
+          ],
+          [
+            354,
+            150
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            94.7213595499958,
+            223.9154786963877
+          ],
+          [
+            70,
+            300
+          ],
+          [
+            150,
+            300
+          ],
+          [
+            174.72135954999578,
+            223.9154786963877
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            289.77708763999664,
+            239.13238295711017
+          ],
+          [
+            270,
+            300
+          ],
+          [
+            334,
+            300
+          ],
+          [
+            353.77708763999664,
+            239.13238295711017
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            289.77708763999664,
+            359.13238295711017
+          ],
+          [
+            270,
+            420
+          ],
+          [
+            334,
+            420
+          ],
+          [
+            353.77708763999664,
+            359.13238295711017
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -3
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        1
+      ],
+      "M": [
+        1
+      ],
+      "N": [
+        1
+      ],
+      "Q": [
+        -3
+      ],
+      "R": [
+        -3
+      ],
+      "S": [
+        1
+      ]
+    },
+    "polygonl": {
+      "MF": "MEFU",
+      "NH": "NGHV",
+      "SR": "SQRT"
+    }
+  },
+  {
+    "id": "6.23",
+    "title": "Proposition 23",
+    "prose": "Equiangular parallelograms have to one another the ratio compounded out of (the ratios of) their sides.\n\nLet {AC polygon} and {CF polygon} be equiangular parallelograms having angle {BCD angle} equal to {ECG angle}.\nI say that parallelogram {AC polygon} has to parallelogram {CF polygon} the ratio compounded out of (the ratios of) their sides.\n\nFor let {BC line} be laid down so as to be straight-on to {CG line}.\nThus, {DC line} is also straight-on to {CE line} [Prop. 1.14].\nAnd let the parallelogram {DG polygon} have been completed.\nAnd let some straight-line {K magnitude} have been laid down.\nAnd let it be contrived that as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, and as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude} [Prop. 6.12].\n\nThus, the ratios of {K magnitude} to {L magnitude} and of {L magnitude} to {M magnitude} are the same as the ratios of the sides, (namely), {BC line} to {CG line} and {DC line} to {CE line} (respectively).\nBut, the ratio of {K magnitude} to {M magnitude} is compounded out of the ratio of {K magnitude} to {L magnitude} and (the ratio) of {L magnitude} to {M magnitude}.\nHence, {K magnitude} also has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).\nAnd since as {BC line} is to {CG line}, so parallelogram {AC polygon} (is) to {CH polygon} [Prop. 6.1], but as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, thus, also, as {K magnitude} (is) to {L magnitude}, so (parallelogram) {AC polygon} (is) to {CH polygon}.\nAgain, since as {DC line} (is) to {CE line}, so parallelogram {CH polygon} (is) to {CF polygon} [Prop. 6.1], but as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude}, thus, also, as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}.\nTherefore, since it was shown that as {K magnitude} (is) to {L magnitude}, so parallelogram {AC polygon} (is) to parallelogram {CH polygon}, and as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}, thus, via equality, as {K magnitude} is to {M magnitude}, so (parallelogram) {AC polygon} (is) to parallelogram {CF polygon} [Prop. 5.22].\nAnd {K magnitude} has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).\nThus, (parallelogram) {AC polygon} also has to (parallelogram) {CF polygon} the ratio compounded out of (the ratio of) their sides.\n\nThus, equiangular parallelograms have to one another the ratio compounded out of (the ratio of) their sides.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        175.38394081705223,
+        36.43877679258213
+      ],
+      "B": [
+        150,
+        150
+      ],
+      "C": [
+        280,
+        150
+      ],
+      "D": [
+        305.38394081705223,
+        36.43877679258213
+      ],
+      "E": [
+        245.09708137655318,
+        306.14668191019956
+      ],
+      "F": [
+        405.0970813765532,
+        306.14668191019956
+      ],
+      "G": [
+        440,
+        150
+      ],
+      "H": [
+        465.38394081705223,
+        36.43877679258213
+      ]
+    },
+    "mags": [
+      {
+        "l": "K",
+        "m": 91,
+        "p": [
+          50,
+          200
+        ]
+      },
+      {
+        "l": "L",
+        "m": 112,
+        "v": 50
+      },
+      {
+        "l": "M",
+        "m": 154,
+        "v": 50
+      }
+    ],
+    "shapes": [
+      [
+        "line",
+        [
+          175.38394081705223,
+          36.43877679258213
+        ],
+        [
+          465.38394081705223,
+          36.43877679258213
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          440,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          245.09708137655318,
+          306.14668191019956
+        ],
+        [
+          405.0970813765532,
+          306.14668191019956
+        ]
+      ],
+      [
+        "line",
+        [
+          175.38394081705223,
+          36.43877679258213
+        ],
+        [
+          150,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          305.38394081705223,
+          36.43877679258213
+        ],
+        [
+          245.09708137655318,
+          306.14668191019956
+        ]
+      ],
+      [
+        "line",
+        [
+          465.38394081705223,
+          36.43877679258213
+        ],
+        [
+          405.0970813765532,
+          306.14668191019956
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -2.2
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        -3
+      ],
+      "G": [
+        -2
+      ],
+      "H": [
+        1
+      ]
+    },
+    "polygonl": {
+      "AC": "ABCD",
+      "CF": "CEFG",
+      "DG": "DCGH",
+      "CH": "CGHD"
+    }
+  },
+  {
+    "id": "6.24",
+    "title": "Proposition 24",
+    "prose": "In any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.\n\nLet {ABCD polygon} be a parallelogram, and {AC line} its diagonal.\nAnd let {EG polygon} and {HK polygon} be parallelograms about {AC line}.\nI say that the parallelograms {EG polygon} and {HK polygon} are each similar to the whole (parallelogram) {ABCD polygon}, and to one another.\n\nFor since {EF line} has been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}, proportionally, as {BE line} is to {EA line}, so {CF line} (is) to {FA line} [Prop. 6.2].\nAgain, since {FG line} has been drawn parallel to one (of the sides) {CD line} of triangle {ACD polygon}, proportionally, as {CF line} is to {FA line}, so {DG line} (is) to {GA line} [Prop. 6.2].\nBut, as {CF line} (is) to {FA line}, so it was also shown (is) {BE line} to {EA line}.\nAnd thus as {BE line} (is) to {EA line}, so {DG line} (is) to {GA line}.\nAnd, thus, compounding, as {BA line} (is) to {AE line}, so {DA line} (is) to {AG line} [Prop. 5.18].\nAnd, alternately, as {BA line} (is) to {AD line}, so {EA line} (is) to {AG line} [Prop. 5.16].\nThus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the common angle {BAD angle} are proportional.\nAnd since {GF line} is parallel to {DC line}, angle {AFG angle} is equal to {DCA angle} [Prop. 1.29].\nAnd angle {DAC angle} (is) common to the two triangles {ADC polygon} and {AGF polygon}.\nThus, triangle {ADC polygon} is equiangular to triangle {AGF polygon} [Prop. 1.32].\nSo, for the same (reasons), triangle {ACB polygon} is equiangular to triangle {AFE polygon}, and the whole parallelogram {ABCD polygon} is equiangular to parallelogram {EG polygon}.\nThus, proportionally, as {AD line} (is) to {DC line}, so {AG line} (is) to {GF line}, and as {DC line} (is) to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, and, further, as {CB line} (is) to {BA line}, so {FE line} (is) to {EA line} [Prop. 6.4].\nAnd since it was shown that as {DC line} is to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, thus, via equality, as {DC line} is to {CB line}, so {GF line} (is) to {FE line} [Prop. 5.22].\nThus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the equal angles are proportional.\nThus, parallelogram {ABCD polygon} is similar to parallelogram {EG polygon} [Def. 6.1].\nSo, for the same (reasons), parallelogram {ABCD polygon} is also similar to parallelogram {KH polygon}.\nThus, parallelograms {EG polygon} and {HK polygon} are each similar to [parallelogram] {ABCD polygon}.\nAnd (rectilinear figures) similar to the same rectilinear figure are also similar to one another [Prop. 6.21].\nThus, parallelogram {EG polygon} is also similar to parallelogram {HK polygon}.\n\nThus, in any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        50
+      ],
+      "B": [
+        350,
+        50
+      ],
+      "C": [
+        400,
+        250
+      ],
+      "D": [
+        100,
+        250
+      ],
+      "E": [
+        140,
+        50
+      ],
+      "F": [
+        155,
+        110
+      ],
+      "G": [
+        65,
+        110
+      ],
+      "H": [
+        365,
+        110
+      ],
+      "K": [
+        190,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            350,
+            50
+          ],
+          [
+            400,
+            250
+          ],
+          [
+            100,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          65,
+          110
+        ],
+        [
+          365,
+          110
+        ]
+      ],
+      [
+        "line",
+        [
+          140,
+          50
+        ],
+        [
+          190,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          400,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        -3
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        0
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        -1
+      ],
+      "K": [
+        -3
+      ]
+    },
+    "polygonl": {
+      "EG": "EAGF",
+      "HK": "HFKC",
+      "KH": "HFKC"
+    }
+  },
+  {
+    "id": "6.25",
+    "title": "Proposition 25",
+    "prose": "To construct a single (rectilinear figure) similar to a given rectilinear figure, and equal to a different given rectilinear figure.\n\nLet {ABC polygon} be the given rectilinear figure to which it is required to construct a similar (rectilinear figure), and {D given} the (rectilinear figure) to which (the constructed figure) is required (to be) equal.\nSo it is required to construct a single (rectilinear figure) similar to {ABC polygon}, and equal to {D given}.\n\nFor let the parallelogram {BE polygon}, equal to triangle {ABC polygon}, have been applied to (the straight-line) {BC line} [Prop. 1.44], and the parallelogram {CM polygon}, equal to {D given}, (have been applied) to (the straight-line) {CE line}, in the angle {FCE angle}, which is equal to {CBL angle} [Prop. 1.45].\nThus, {BC line} is straight-on to {CF line}, and {LE line} to {EM line} [Prop. 1.14].\nAnd let the mean proportion {GH line} have been taken of {BC line} and {CF line} [Prop. 6.13].\nAnd let {KGH polygon}, similar, and similarly laid out, to {ABC polygon} have been described on {GH line} [Prop. 6.18].\n\nAnd since as {BC line} is to {GH line}, so {GH line} (is) to {CF line}, and if three straight-lines are proportional then as the first is to the third, so the figure (described) on the first (is) to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.], thus as {BC line} is to {CF line}, so triangle {ABC polygon} (is) to triangle {KGH polygon}.\nBut, also, as {BC line} (is) to {CF line}, so parallelogram {BE polygon} (is) to parallelogram {EF polygon} [Prop. 6.1].\nAnd, thus, as triangle {ABC polygon} (is) to triangle {KGH polygon}, so parallelogram {BE polygon} (is) to parallelogram {EF polygon}.\nThus, alternately, as triangle {ABC polygon} (is) to parallelogram {BE polygon}, so triangle {KGH polygon} (is) to parallelogram {EF polygon} [Prop. 5.16].\nAnd triangle {ABC polygon} (is) equal to parallelogram {BE polygon}.\nThus, triangle {KGH polygon} (is) also equal to parallelogram {EF polygon}.\nBut, parallelogram {EF polygon} is equal to {D given}.\nThus, {KGH polygon} is also equal to {D given}.\nAnd {KGH polygon} is also similar to {ABC polygon}.\n\nThus, a single (rectilinear figure) {KGH polygon} has been constructed (which is) similar to the given rectilinear figure {ABC polygon}, and equal to a different given (rectilinear figure) {D given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        30,
+        50
+      ],
+      "B": [
+        50,
+        150
+      ],
+      "C": [
+        150,
+        150
+      ],
+      "D": [
+        120,
+        60
+      ],
+      "E": [
+        140,
+        200
+      ],
+      "F": [
+        290,
+        150
+      ],
+      "G": [
+        360,
+        160
+      ],
+      "H": [
+        478.3215956619923,
+        160
+      ],
+      "K": [
+        336.3356808676015,
+        41.67840433800768
+      ],
+      "L": [
+        40,
+        200
+      ],
+      "M": [
+        280,
+        200
+      ]
+    },
+    "given": {
+      "D": [
+        [
+          "polygon",
+          [
+            [
+              120,
+              60
+            ],
+            [
+              270,
+              60
+            ],
+            [
+              280,
+              110
+            ],
+            [
+              150,
+              110
+            ]
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            360,
+            160
+          ],
+          [
+            478.3215956619923,
+            160
+          ],
+          [
+            336.3356808676015,
+            41.67840433800768
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            120,
+            60
+          ],
+          [
+            270,
+            60
+          ],
+          [
+            280,
+            110
+          ],
+          [
+            150,
+            110
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            150
+          ],
+          [
+            40,
+            200
+          ],
+          [
+            280,
+            200
+          ],
+          [
+            290,
+            150
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          140,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          30,
+          50
+        ],
+        [
+          50,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          30,
+          50
+        ],
+        [
+          150,
+          150
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        0
+      ],
+      "D": [
+        -1.4,
+        20
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        -3
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        -3
+      ],
+      "M": [
+        -3
+      ]
+    },
+    "polygonl": {
+      "BE": "BLEC",
+      "CM": "CEMF",
+      "EF": "CEMF"
+    }
+  },
+  {
+    "id": "6.26",
+    "title": "Proposition 26",
+    "prose": "If from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.\n\nFor, from parallelogram {ABCD polygon}, let (parallelogram) {AF polygon} have been subtracted (which is) similar, and similarly laid out, to {ABCD polygon}, having the common angle {DAB angle} with it.\nI say that {ABCD polygon} is about the same diagonal as {AF polygon}.\n\nFor (if) not, then, if possible, let {AHC given} be [{ABCD polygon}'s] diagonal.\nAnd producing {GF line}, let it have been drawn through to (point) {H point} (as {GH line}).\nAnd let {HK line} have been drawn through (point) {H point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].\n\nTherefore, since {ABCD polygon} is about the same diagonal as {KG polygon}, thus as {DA line} is to {AB line}, so {GA line} (is) to {AK line} [Prop. 6.24].\nAnd, on account of the similarity of {ABCD polygon} and {EG polygon}, also, as {DA line} (is) to {AB line}, so {GA line} (is) to {AE line}.\nThus, also, as {GA line} (is) to {AK line}, so {GA line} (is) to {AE line}.\nThus, {GA line} has the same ratio to each of {AK line} and {AE line}.\nThus, {AE line} is equal to {AK line} [Prop. 5.9], the lesser to the greater.\nThe very thing is impossible.\nThus, {ABCD polygon} is not not about the same diagonal as {AF polygon}.\nThus, parallelogram {ABCD polygon} is about the same diagonal as parallelogram {AF polygon}.\n\nThus, if from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        50
+      ],
+      "B": [
+        38.19660112501053,
+        240.21130325903073
+      ],
+      "C": [
+        338.19660112501055,
+        240.21130325903073
+      ],
+      "D": [
+        400,
+        50
+      ],
+      "E": [
+        72.18847050625473,
+        135.59508646656383
+      ],
+      "F": [
+        207.18847050625473,
+        135.59508646656383
+      ],
+      "G": [
+        235,
+        50
+      ],
+      "H": [
+        191.73762078750738,
+        183.1479122813215
+      ],
+      "K": [
+        56.737620787507375,
+        183.1479122813215
+      ]
+    },
+    "given": {
+      "AHC": [
+        [
+          "line",
+          [
+            100,
+            50
+          ],
+          [
+            191.73762078750738,
+            183.1479122813215
+          ]
+        ],
+        [
+          "line",
+          [
+            191.73762078750738,
+            183.1479122813215
+          ],
+          [
+            338.19660112501055,
+            240.21130325903073
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            50
+          ],
+          [
+            38.19660112501053,
+            240.21130325903073
+          ],
+          [
+            338.19660112501055,
+            240.21130325903073
+          ],
+          [
+            400,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          50
+        ],
+        [
+          338.19660112501055,
+          240.21130325903073
+        ]
+      ],
+      [
+        "line",
+        [
+          72.18847050625473,
+          135.59508646656383
+        ],
+        [
+          207.18847050625473,
+          135.59508646656383
+        ]
+      ],
+      [
+        "line",
+        [
+          235,
+          50
+        ],
+        [
+          191.73762078750738,
+          183.1479122813215
+        ]
+      ],
+      [
+        "line",
+        [
+          191.73762078750738,
+          183.1479122813215
+        ],
+        [
+          56.737620787507375,
+          183.1479122813215
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          50
+        ],
+        [
+          191.73762078750738,
+          183.1479122813215
+        ]
+      ],
+      [
+        "line",
+        [
+          191.73762078750738,
+          183.1479122813215
+        ],
+        [
+          338.19660112501055,
+          240.21130325903073
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        2.8
+      ],
+      "F": [
+        -0.4,
+        3
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        -3
+      ],
+      "K": [
+        2.8
+      ]
+    },
+    "polygonl": {
+      "AF": "AEFG",
+      "KG": "KHGA",
+      "EG": "EFGA"
+    }
+  },
+  {
+    "id": "6.27",
+    "title": "Proposition 27",
+    "prose": "Of all the parallelograms applied to the same straight-line, and falling short by parallelogrammic figures similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line) which (is) similar to (that parallelogram) by which it falls short.\n\nLet {AB line} be a straight-line, and let it have been cut in half at (point) {C point} [Prop. 1.10].\nAnd let the parallelogram {AD polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {DB polygon} (which is) applied to half of {AB line}---that is to say, {CB line}.\nI say that of all the parallelograms applied to {AB line}, and falling short by [parallelogrammic] figures similar, and similarly laid out, to {DB polygon}, the greatest is {AD polygon}.\nFor let the parallelogram {AF polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {FB polygon} (which is) similar, and similarly laid out, to {DB polygon}.\nI say that {AD polygon} is greater than {AF polygon}.\n\nFor since parallelogram {DB polygon} is similar to parallelogram {FB polygon}, they are about the same diagonal [Prop. 6.26].\nLet their (common) diagonal {DB line} have been drawn, and let the (rest of the) figure have been described.\n\nTherefore, since (complement) {CF polygon} is equal to (complement) {FE polygon} [Prop. 1.43], and (parallelogram) {FB polygon} is common, the whole (parallelogram) {CH polygon} is thus equal to the whole (parallelogram) {KE polygon}.\nBut, (parallelogram) {CH polygon} is equal to {CG polygon}, since {AC line} (is) also (equal) to {CB line} [Prop. 6.1].\nThus, (parallelogram) {GC polygon} is also equal to {EK polygon}.\nLet (parallelogram) {CF polygon} have been added to both.\nThus, the whole (parallelogram) {AF polygon} is equal to the gnomon {LMN given}.\nHence, parallelogram {DB polygon}---that is to say, {AD polygon}---is greater than parallelogram {AF polygon}.\n\nThus, for all parallelograms applied to the same straight-line, and falling short by a parallelogrammic figure similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        127.25424859373686,
+        287.76412907378835
+      ],
+      "B": [
+        427.25424859373686,
+        287.76412907378835
+      ],
+      "C": [
+        277.25424859373686,
+        287.76412907378835
+      ],
+      "D": [
+        200,
+        50
+      ],
+      "E": [
+        350,
+        50
+      ],
+      "F": [
+        268.176274578121,
+        121.32923872213651
+      ],
+      "G": [
+        73.17627457812105,
+        121.32923872213651
+      ],
+      "H": [
+        373.1762745781211,
+        121.32923872213651
+      ],
+      "K": [
+        322.25424859373686,
+        287.76412907378835
+      ],
+      "L": [
+        248.17627457812102,
+        121.32923872213651
+      ],
+      "M": [
+        288.176274578121,
+        121.32923872213651
+      ],
+      "N": [
+        261.99593469062205,
+        102.30810839623344
+      ],
+      "O": [
+        50,
+        50
+      ],
+      "P": [
+        245,
+        50
+      ],
+      "Q": [
+        223.17627457812105,
+        121.32923872213651
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            50
+          ],
+          [
+            127.25424859373686,
+            287.76412907378835
+          ],
+          [
+            427.25424859373686,
+            287.76412907378835
+          ],
+          [
+            350,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          73.17627457812105,
+          121.32923872213651
+        ],
+        [
+          373.1762745781211,
+          121.32923872213651
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          277.25424859373686,
+          287.76412907378835
+        ]
+      ],
+      [
+        "line",
+        [
+          245,
+          50
+        ],
+        [
+          322.25424859373686,
+          287.76412907378835
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          50
+        ],
+        [
+          427.25424859373686,
+          287.76412907378835
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          268.176274578121,
+          121.32923872213651
+        ],
+        [
+          261.99593469062205,
+          102.30810839623344
+        ],
+        [
+          248.17627457812102,
+          121.32923872213651
+        ]
+      ]
+    ],
+    "given": {
+      "LMN": [
+        [
+          "gnomon",
+          [
+            268.176274578121,
+            121.32923872213651
+          ],
+          [
+            261.99593469062205,
+            102.30810839623344
+          ],
+          [
+            248.17627457812102,
+            121.32923872213651
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              245,
+              50
+            ],
+            [
+              268.176274578121,
+              121.32923872213651
+            ],
+            [
+              223.17627457812105,
+              121.32923872213651
+            ],
+            [
+              277.25424859373686,
+              287.76412907378835
+            ],
+            [
+              427.25424859373686,
+              287.76412907378835
+            ],
+            [
+              350,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "smallletters": "LMNF",
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        0
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        -1
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        4
+      ],
+      "M": [
+        0
+      ],
+      "N": [
+        0
+      ],
+      "P": [
+        1
+      ],
+      "Q": [
+        4.4
+      ]
+    },
+    "polygonl": {
+      "AD": "ACDO",
+      "DB": "DCBE",
+      "AF": "AKFG",
+      "FB": "FKBH",
+      "CF": "CKFQ",
+      "FE": "FHEP",
+      "CH": "CBHQ",
+      "KE": "KBEP",
+      "EK": "KBEP",
+      "CG": "CQGA",
+      "GC": "CQGA"
+    }
+  },
+  {
+    "id": "6.28",
+    "title": "Proposition 28",
+    "prose": "To apply a parallelogram, equal to a given rectilinear figure, to a given straight-line, (the applied parallelogram) falling short by a parallelogrammic figure similar to a given (parallelogram).\nIt is necessary for the given rectilinear figure not to be greater than the (parallelogram) described on half (of the straight-line) and similar to the deficit.\n\nLet {AB line} be the given straight-line, and {C given} the given rectilinear figure to which the (parallelogram) applied to {AB line} is required (to be) equal, [being] not greater than the (parallelogram) described on half of {AB line} and similar to the deficit, and {D given} the (parallelogram) to which the deficit is required (to be) similar.\nSo it is required to apply a parallelogram, equal to the given rectilinear figure {C given}, to the straight-line {AB line}, falling short by a parallelogrammic figure which is similar to {D given}.\n\nLet {AB line} have been cut in half at point {E point} [Prop. 1.10], and let (parallelogram) {EBFG polygon}, (which is) similar, and similarly laid out, to (parallelogram) {D given}, have been described on {EB line} [Prop. 6.18].\nAnd let parallelogram {AG polygon} have been completed.\n\nTherefore, if {AG polygon} is equal to {C given} then the thing prescribed has happened.\nFor a parallelogram {AG polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by a parallelogrammic figure {GB polygon} which is similar to {D given}.\nAnd if not, let {HE polygon} be greater than {C given}.\nAnd {HE polygon} (is) equal to {GB polygon} [Prop. 6.1].\nThus, {GB polygon} (is) also greater than {C given}.\nSo, let (parallelogram) {KLMN polygon} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the excess by which {GB polygon} is greater than {C given} [Prop. 6.25].\nBut, {GB polygon} [is] similar to {D given}.\nThus, {KM polygon} is also similar to {GB polygon} [Prop. 6.21].\nTherefore, let {KL line} correspond to {GE line}, and {LM line} to {GF line}.\nAnd since (parallelogram) {GB polygon} is equal to (figure) {C given} and (parallelogram) {KM polygon}, {GB polygon} is thus greater than {KM polygon}.\nThus, {GE line} is also greater than {KL line}, and {GF line} than {LM line}.\nLet {GO line} be made equal to {KL line}, and {GP line} to {LM line} [Prop. 1.3].\nAnd let the parallelogram {OGPQ polygon} have been completed.\nThus, {GQ polygon} is equal and similar to {KM polygon}.\nThus, {GQ polygon} is also similar to {GB polygon} [Prop. 6.21].\nThus, {GQ polygon} and {GB polygon} are about the same diagonal [Prop. 6.26].\nLet {GQB line} be their (common) diagonal, and let the (remainder of the) figure have been described.\n\nTherefore, since {BG polygon} is equal to {C given} and {KM polygon}, of which {GQ polygon} is equal to {KM polygon}, the remaining gnomon {VWU given} is thus equal to the remainder {C given}.\nAnd since (the complement) {PR polygon} is equal to (the complement) {OS polygon} [Prop. 1.43], let (parallelogram) {QB polygon} have been added to both.\nThus, the whole (parallelogram) {PB polygon} is equal to the whole (parallelogram) {OB polygon}.\nBut, {OB polygon} is equal to {TE polygon}, since side {AE line} is equal to side {EB line} [Prop. 6.1].\nThus, {TE polygon} is also equal to {PB polygon}.\nLet (parallelogram) {OS polygon} have been added to both.\nThus, the whole (parallelogram) {TS polygon} is equal to the gnomon {VWU given}.\nBut, gnomon {VWU given} was shown (to be) equal to {C given}.\nTherefore, (parallelogram) {TS polygon} is also equal to (figure) {C given}.\n\nThus, the parallelogram {ST polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, falling short by the parallelogrammic figure {QB polygon}, which is similar to {D given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        111.80339887498948,
+        240.2113032590307
+      ],
+      "B": [
+        361.8033988749895,
+        240.2113032590307
+      ],
+      "C": [
+        100,
+        400
+      ],
+      "D": [
+        250,
+        400
+      ],
+      "E": [
+        236.80339887498948,
+        240.2113032590307
+      ],
+      "F": [
+        300,
+        50
+      ],
+      "G": [
+        175,
+        50
+      ],
+      "H": [
+        50,
+        50
+      ],
+      "K": [
+        367.0820393249937,
+        444.12678195541844
+      ],
+      "L": [
+        330,
+        330
+      ],
+      "M": [
+        405,
+        330
+      ],
+      "N": [
+        442.0820393249937,
+        444.12678195541844
+      ],
+      "O": [
+        212.0820393249937,
+        164.12678195541844
+      ],
+      "P": [
+        250,
+        50
+      ],
+      "Q": [
+        287.08203932499373,
+        164.12678195541844
+      ],
+      "R": [
+        337.0820393249937,
+        164.12678195541844
+      ],
+      "S": [
+        311.8033988749895,
+        240.2113032590307
+      ],
+      "T": [
+        87.0820393249937,
+        164.12678195541844
+      ],
+      "U": [
+        280.90169943749476,
+        145.10565162951536
+      ],
+      "V": [
+        267.08203932499373,
+        164.12678195541844
+      ],
+      "W": [
+        307.08203932499373,
+        164.12678195541844
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            111.80339887498948,
+            240.2113032590307
+          ],
+          [
+            361.8033988749895,
+            240.2113032590307
+          ],
+          [
+            300,
+            50
+          ],
+          [
+            50,
+            50
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            250,
+            400
+          ],
+          [
+            300,
+            400
+          ],
+          [
+            280,
+            330
+          ],
+          [
+            230,
+            330
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            100,
+            400
+          ],
+          [
+            190,
+            390
+          ],
+          [
+            200,
+            320
+          ],
+          [
+            90,
+            330
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            367.0820393249937,
+            444.12678195541844
+          ],
+          [
+            330,
+            330
+          ],
+          [
+            405,
+            330
+          ],
+          [
+            442.0820393249937,
+            444.12678195541844
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          87.0820393249937,
+          164.12678195541844
+        ],
+        [
+          337.0820393249937,
+          164.12678195541844
+        ]
+      ],
+      [
+        "line",
+        [
+          175,
+          50
+        ],
+        [
+          236.80339887498948,
+          240.2113032590307
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          311.8033988749895,
+          240.2113032590307
+        ]
+      ],
+      [
+        "line",
+        [
+          175,
+          50
+        ],
+        [
+          361.8033988749895,
+          240.2113032590307
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          287.08203932499373,
+          164.12678195541844
+        ],
+        [
+          280.90169943749476,
+          145.10565162951536
+        ],
+        [
+          267.08203932499373,
+          164.12678195541844
+        ]
+      ]
+    ],
+    "given": {
+      "C": [
+        [
+          "polygon",
+          [
+            [
+              100,
+              400
+            ],
+            [
+              190,
+              390
+            ],
+            [
+              200,
+              320
+            ],
+            [
+              90,
+              330
+            ]
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "polygon",
+          [
+            [
+              250,
+              400
+            ],
+            [
+              300,
+              400
+            ],
+            [
+              280,
+              330
+            ],
+            [
+              230,
+              330
+            ]
+          ]
+        ]
+      ],
+      "VWU": [
+        [
+          "gnomon",
+          [
+            287.08203932499373,
+            164.12678195541844
+          ],
+          [
+            280.90169943749476,
+            145.10565162951536
+          ],
+          [
+            267.08203932499373,
+            164.12678195541844
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              250,
+              50
+            ],
+            [
+              287.08203932499373,
+              164.12678195541844
+            ],
+            [
+              212.0820393249937,
+              164.12678195541844
+            ],
+            [
+              236.80339887498948,
+              240.2113032590307
+            ],
+            [
+              361.8033988749895,
+              240.2113032590307
+            ],
+            [
+              300,
+              50
+            ]
+          ]
+        ]
+      ]
+    },
+    "smallletters": "UVWQ",
+    "letters": {
+      "A": [
+        -3
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        0,
+        10
+      ],
+      "D": [
+        0.2,
+        5
+      ],
+      "E": [
+        -3
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        -3
+      ],
+      "L": [
+        1
+      ],
+      "M": [
+        1
+      ],
+      "N": [
+        -3
+      ],
+      "O": [
+        0
+      ],
+      "P": [
+        1
+      ],
+      "Q": [
+        4.5,
+        0.8
+      ],
+      "R": [
+        -1
+      ],
+      "S": [
+        -3
+      ],
+      "T": [
+        3
+      ],
+      "U": [
+        0
+      ],
+      "V": [
+        1.5
+      ],
+      "W": [
+        0
+      ]
+    },
+    "polygonl": {
+      "AG": "AEGH",
+      "GB": "GEBF",
+      "BG": "GEBF",
+      "HE": "HAEG",
+      "KM": "KLMN",
+      "GQ": "GOQP",
+      "OS": "OESQ",
+      "QB": "QSBR",
+      "PR": "PQRF",
+      "PB": "PSBF",
+      "OB": "OEBR",
+      "TE": "TAEO",
+      "TS": "TASQ",
+      "ST": "TASQ"
+    }
+  },
+  {
+    "id": "6.29",
+    "title": "Proposition 29",
+    "prose": "To apply a parallelogram, equal to a given rectilinear figure, to a given straight-line, (the applied parallelogram) overshooting by a parallelogrammic figure similar to a given (parallelogram).\n\nLet {AB line} be the given straight-line, and {C given} the given rectilinear figure to which the (parallelogram) applied to {AB line} is required (to be) equal, and {D given} the (parallelogram) to which the excess is required (to be) similar.\nSo it is required to apply a parallelogram, equal to the given rectilinear figure {C given}, to the given straight-line {AB line}, overshooting by a parallelogrammic figure similar to {D given}.\n\nLet {AB line} have been cut in half at (point) {E point} [Prop. 1.10], and let the parallelogram {BF polygon}, (which is) similar, and similarly laid out, to {D given}, have been described on {EB line} [Prop. 6.18].\nAnd let (parallelogram) {GH polygon} have been constructed (so as to be) both similar, and similarly laid out, to {D given}, and equal to the sum of {BF polygon} and {C given} [Prop. 6.25].\nAnd let {KH line} correspond to {FL line}, and {KG line} to {FE line}.\nAnd since (parallelogram) {GH polygon} is greater than (parallelogram) {FB polygon}, {KH line} is thus also greater than {FL line}, and {KG line} than {FE line}.\nLet {FL line} and {FE line} have been produced, and let {FLM line} be (made) equal to {KH line}, and {FEN line} to {KG line} [Prop. 1.3].\nAnd let (parallelogram) {MN polygon} have been completed.\nThus, {MN polygon} is equal and similar to {GH polygon}.\nBut, {GH polygon} is similar to {EL polygon}.\nThus, {MN polygon} is also similar to {EL polygon} [Prop. 6.21].\n{EL polygon} is thus about the same diagonal as {MN polygon} [Prop. 6.26].\nLet their (common) diagonal {FO line} have been drawn, and let the (remainder of the) figure have been described.\n\nAnd since (parallelogram) {GH polygon} is equal to (parallelogram) {EL polygon} and (figure) {C given}, but {GH polygon} is equal to (parallelogram) {MN polygon}, {MN polygon} is thus also equal to {EL polygon} and {C given}.\nLet {EL polygon} have been subtracted from both.\nThus, the remaining gnomon {VWX given} is equal to (figure) {C given}.\nAnd since {AE line} is equal to {EB line}, (parallelogram) {AN polygon} is also equal to (parallelogram) {NB polygon} [Prop. 6.1], that is to say, (parallelogram) {LP polygon} [Prop. 1.43].\nLet (parallelogram) {EO polygon} have been added to both.\nThus, the whole (parallelogram) {AO polygon} is equal to the gnomon {VWX given}.\nBut, the gnomon {VWX given} is equal to (figure) {C given}.\nThus, (parallelogram) {AO polygon} is also equal to (figure) {C given}.\n\nThus, the parallelogram {AO polygon}, equal to the given rectilinear figure {C given}, has been applied to the given straight-line {AB line}, overshooting by the parallelogrammic figure {QP polygon} which is similar to {D given}, since {PQ polygon} is also similar to {EL polygon} [Prop. 6.24].\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        30,
+        250
+      ],
+      "B": [
+        230,
+        250
+      ],
+      "C": [
+        50,
+        20
+      ],
+      "D": [
+        50,
+        200
+      ],
+      "E": [
+        130,
+        250
+      ],
+      "F": [
+        167.47626291714494,
+        53.54254985426229
+      ],
+      "G": [
+        305.009494833142,
+        328.5829800582951
+      ],
+      "H": [
+        497.47626291714494,
+        53.54254985426229
+      ],
+      "K": [
+        357.47626291714494,
+        53.54254985426229
+      ],
+      "L": [
+        267.47626291714494,
+        53.54254985426229
+      ],
+      "M": [
+        307.47626291714494,
+        53.54254985426229
+      ],
+      "N": [
+        115.00949483314201,
+        328.5829800582951
+      ],
+      "O": [
+        255.009494833142,
+        328.5829800582951
+      ],
+      "P": [
+        270,
+        250
+      ],
+      "Q": [
+        215.009494833142,
+        328.5829800582951
+      ],
+      "S": [
+        15.009494833142021,
+        328.5829800582951
+      ],
+      "U": [
+        445.009494833142,
+        328.5829800582951
+      ],
+      "V": [
+        233.74762629171448,
+        230.35425498542622
+      ],
+      "W": [
+        250,
+        250
+      ],
+      "X": [
+        210,
+        250
+      ]
+    },
+    "given": {
+      "C": [
+        [
+          "polygon",
+          [
+            [
+              50,
+              20
+            ],
+            [
+              130,
+              20
+            ],
+            [
+              150,
+              70
+            ],
+            [
+              70,
+              120
+            ],
+            [
+              30,
+              40
+            ]
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "polygon",
+          [
+            [
+              50,
+              200
+            ],
+            [
+              90,
+              200
+            ],
+            [
+              103.11669202100073,
+              131.23989244899178
+            ],
+            [
+              63.11669202100073,
+              131.23989244899178
+            ]
+          ]
+        ]
+      ],
+      "VWX": [
+        [
+          "gnomon",
+          [
+            230,
+            250
+          ],
+          [
+            233.74762629171448,
+            230.35425498542622
+          ],
+          [
+            210,
+            250
+          ]
+        ],
+        [
+          "polygon",
+          [
+            [
+              267.47626291714494,
+              53.54254985426229
+            ],
+            [
+              230,
+              250
+            ],
+            [
+              130,
+              250
+            ],
+            [
+              115.00949483314201,
+              328.5829800582951
+            ],
+            [
+              255.009494833142,
+              328.5829800582951
+            ],
+            [
+              307.47626291714494,
+              53.54254985426229
+            ]
+          ]
+        ]
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            50,
+            200
+          ],
+          [
+            90,
+            200
+          ],
+          [
+            103.11669202100073,
+            131.23989244899178
+          ],
+          [
+            63.11669202100073,
+            131.23989244899178
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            20
+          ],
+          [
+            130,
+            20
+          ],
+          [
+            150,
+            70
+          ],
+          [
+            70,
+            120
+          ],
+          [
+            30,
+            40
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            305.009494833142,
+            328.5829800582951
+          ],
+          [
+            445.009494833142,
+            328.5829800582951
+          ],
+          [
+            497.47626291714494,
+            53.54254985426229
+          ],
+          [
+            357.47626291714494,
+            53.54254985426229
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          30,
+          250
+        ],
+        [
+          270,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          30,
+          250
+        ],
+        [
+          15.009494833142021,
+          328.5829800582951
+        ]
+      ],
+      [
+        "line",
+        [
+          167.47626291714494,
+          53.54254985426229
+        ],
+        [
+          115.00949483314201,
+          328.5829800582951
+        ]
+      ],
+      [
+        "line",
+        [
+          267.47626291714494,
+          53.54254985426229
+        ],
+        [
+          215.009494833142,
+          328.5829800582951
+        ]
+      ],
+      [
+        "line",
+        [
+          307.47626291714494,
+          53.54254985426229
+        ],
+        [
+          255.009494833142,
+          328.5829800582951
+        ]
+      ],
+      [
+        "line",
+        [
+          15.009494833142021,
+          328.5829800582951
+        ],
+        [
+          255.009494833142,
+          328.5829800582951
+        ]
+      ],
+      [
+        "line",
+        [
+          167.47626291714494,
+          53.54254985426229
+        ],
+        [
+          307.47626291714494,
+          53.54254985426229
+        ]
+      ],
+      [
+        "line",
+        [
+          167.47626291714494,
+          53.54254985426229
+        ],
+        [
+          255.009494833142,
+          328.5829800582951
+        ]
+      ],
+      [
+        "gnomon",
+        [
+          230,
+          250
+        ],
+        [
+          233.74762629171448,
+          230.35425498542622
+        ],
+        [
+          210,
+          250
+        ]
+      ]
+    ],
+    "smallletters": "BVWX",
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -0.1,
+        2.5
+      ],
+      "C": [
+        -2,
+        7
+      ],
+      "D": [
+        -0.2,
+        10
+      ],
+      "E": [
+        2
+      ],
+      "F": [
+        1
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        1
+      ],
+      "M": [
+        1
+      ],
+      "N": [
+        -3
+      ],
+      "O": [
+        -3
+      ],
+      "P": [
+        -1
+      ],
+      "Q": [
+        -3
+      ],
+      "V": [
+        -0.3,
+        2
+      ],
+      "W": [
+        -2.2
+      ],
+      "X": [
+        1
+      ]
+    },
+    "polygonl": {
+      "BF": "BEFL",
+      "GH": "GKHU",
+      "FB": "FEBL",
+      "EL": "FEBL",
+      "MN": "MONF",
+      "AN": "AENS",
+      "NB": "NEBQ",
+      "LP": "LMPB",
+      "EO": "ENOP",
+      "AO": "ASOP",
+      "QP": "QOPB",
+      "PQ": "QOPB"
+    }
+  },
+  {
+    "id": "6.30",
+    "title": "Proposition 30",
+    "prose": "To cut a given finite straight-line in extreme and mean ratio.\n\nLet {AB line} be the given finite straight-line.\nSo it is required to cut the straight-line {AB line} in extreme and mean ratio.\n\nLet the square {BC polygon} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CD polygon}, equal to {BC polygon}, have been applied to {AC line}, overshooting by the figure {AD polygon} (which is) similar to {BC polygon} [Prop. 6.29].\n\nAnd {BC polygon} is a square.\nThus, {AD polygon} is also a square.\nAnd since {BC polygon} is equal to {CD polygon}, let (rectangle) {CE polygon} have been subtracted from both.\nThus, the remaining (rectangle) {BF polygon} is equal to the remaining (square) {AD polygon}.\nAnd it is also equiangular to it.\nThus, the sides of {BF polygon} and {AD polygon} about the equal angles are reciprocally proportional [Prop. 6.14].\nThus, as {FE line} is to {ED line}, so {AE line} (is) to {EB line}.\nAnd {FE line} (is) equal to {AB line}, and {ED line} to {AE line}.\nThus, as {BA line} is to {AE line}, so {AE line} (is) to {EB line}.\nAnd {AB line} (is) greater than {AE line}.\nThus, {AE line} (is) also greater than {EB line} [Prop. 5.14].\n\nThus, the straight-line {AB line} has been cut in extreme and mean ratio at {E point}, and {AE line} is its greater piece.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        300
+      ],
+      "B": [
+        300,
+        300
+      ],
+      "C": [
+        50,
+        50
+      ],
+      "D": [
+        204.50849718747372,
+        454.5084971874737
+      ],
+      "E": [
+        204.50849718747372,
+        300
+      ],
+      "F": [
+        204.50849718747372,
+        50
+      ],
+      "G": [
+        50,
+        454.5084971874737
+      ],
+      "H": [
+        300,
+        50
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          50,
+          454.5084971874737
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          50
+        ],
+        [
+          300,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          300
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          204.50849718747372,
+          50
+        ],
+        [
+          204.50849718747372,
+          454.5084971874737
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          454.5084971874737
+        ],
+        [
+          204.50849718747372,
+          454.5084971874737
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          50
+        ],
+        [
+          300,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        -2
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        1
+      ]
+    },
+    "polygonl": {
+      "BC": "BACH",
+      "CD": "CGDF",
+      "AD": "AGDE",
+      "CE": "CAEF",
+      "BF": "BEFH"
+    }
+  },
+  {
+    "id": "6.31",
+    "title": "Proposition 31",
+    "prose": "In right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.\n\nLet {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle.\nI say that the figure (drawn) on {BC line} is equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line}.\n\nLet the perpendicular {AD line} have been drawn [Prop. 1.12].\n\nTherefore, since, in the right-angled triangle {ABC polygon}, the (straight-line) {AD line} has been drawn from the rightangle at {A point} perpendicular to the base {BC line}, the triangles {ABD polygon} and {ADC polygon} about the perpendicular are similar to the whole (triangle) {ABC polygon}, and to one another [Prop. 6.8].\nAnd since {ABC polygon} is similar to {ABD polygon}, thus as {CB line} is to {BA line}, so {AB line} (is) to {BD line} [Def. 6.1].\nAnd since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.].\nThus, as {CB line} (is) to {BD line}, so the figure (drawn) on {CB line} (is) to the similar, and similarly described, (figure) on {BA line}.\nAnd so, for the same (reasons), as {BC line} (is) to {CD line}, so the figure (drawn) on {BC line} (is) to the (figure) on {CA line}.\nHence, also, as {BC line} (is) to {BD line} and {DC line}, so the figure (drawn) on {BC line} (is) to the (sum of the) similar, and similarly described, (figures) on {BA line} and {AC line} [Prop. 5.24].\nAnd {BC line} is equal to {BD line} and {DC line}.\nThus, the figure (drawn) on {BC line} (is) also equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line} [Prop. 5.9].\n\nThus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        188.19660112501055,
+        59.78869674096927
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        450,
+        250
+      ],
+      "D": [
+        188.19660112501055,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            188.19660112501055,
+            59.78869674096927
+          ],
+          [
+            450,
+            250
+          ],
+          [
+            488.04226065180615,
+            197.6393202250021
+          ],
+          [
+            226.2388617768167,
+            7.428016965971381
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            50,
+            250
+          ],
+          [
+            188.19660112501055,
+            59.78869674096927
+          ],
+          [
+            150.1543404732044,
+            32.14937651596716
+          ],
+          [
+            11.957739348193854,
+            222.3606797749979
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            450,
+            250
+          ],
+          [
+            50,
+            250
+          ],
+          [
+            50,
+            330
+          ],
+          [
+            450,
+            330
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          188.19660112501055,
+          59.78869674096927
+        ],
+        [
+          188.19660112501055,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1,
+        3
+      ],
+      "B": [
+        3.6
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.32",
+    "title": "Proposition 32",
+    "prose": "If two triangles, having two sides proportional to two sides, are placed together at a single angle such that the corresponding sides are also parallel, then the remaining sides of the triangles will be straight-on (with respect to one another).\n\nLet {ABC polygon} and {DCE polygon} be two triangles having the two sides {BA line} and {AC line} proportional to the two sides {DC line} and {DE line}---so that as {AB line} (is) to {AC line}, so {DC line} (is) to {DE line}---and (having side) {AB line} parallel to {DC line}, and {AC line} to {DE line}.\nI say that (side) {BC line} is straight-on to {CE line}.\n\nFor since {AB line} is parallel to {DC line}, and the straight-line {AC line} has fallen across them, the alternate angles {BAC angle} and {ACD angle} are equal to one another [Prop. 1.29].\nSo, for the same (reasons), {CDE angle} is also equal to {ACD angle}.\nAnd, hence, {BAC angle} is equal to {CDE angle}.\nAnd since {ABC polygon} and {DCE polygon} are two triangles having the one angle at {A point} equal to the one angle at {D point}, and the sides about the equal angles proportional, (so that) as {BA line} (is) to {AC line}, so {CD line} (is) to {DE line}, triangle {ABC polygon} is thus equiangular to triangle {DCE polygon} [Prop. 6.6].\nThus, angle {ABC angle} is equal to {DCE angle}.\nAnd (angle) {ACD angle} was also shown (to be) equal to {BAC angle}.\nThus, the whole (angle) {ACE angle} is equal to the two (angles) {ABC angle} and {BAC angle}.\nLet {ACB angle} have been added to both.\nThus, {ACE angle} and {ACB angle} are equal to {BAC angle}, {ACB angle}, and {CBA angle}.\nBut, {BAC angle}, {ABC angle}, and {ACB angle} are equal to two right-angles [Prop. 1.32].\nThus, {ACE angle} and {ACB angle} are also equal to two right-angles.\nThus, the two straight-lines {BC line} and {CE line}, not lying on the same side, make adjacent angles {ACE angle} and {ACB angle} (whose sum is) equal to two right-angles with some straight-line {AC line}, at the point {C point} on it.\nThus, {BC line} is straight-on to {CE line} [Prop. 1.14].\n\nThus, if two triangles, having two sides proportional to two sides, are placed together at a single angle such that the corresponding sides are also parallel, then the remaining sides of the triangles will be straight-on (with respect to one another).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        156.06601717798213,
+        173.93398282201787
+      ],
+      "B": [
+        50,
+        280
+      ],
+      "C": [
+        150,
+        280
+      ],
+      "D": [
+        362.13203435596427,
+        67.86796564403576
+      ],
+      "E": [
+        350,
+        280
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            156.06601717798213,
+            173.93398282201787
+          ],
+          [
+            50,
+            280
+          ],
+          [
+            150,
+            280
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            362.13203435596427,
+            67.86796564403576
+          ],
+          [
+            150,
+            280
+          ],
+          [
+            350,
+            280
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -3
+      ]
+    }
+  },
+  {
+    "id": "6.33",
+    "title": "Proposition 33",
+    "prose": "In equal circles, angles have the same ratio as the (ratio of the) circumferences on which they stand, whether they are standing at the centers (of the circles) or at the circumferences.\n\nLet {ABC circle G} and {DEF circle H} be equal circles, and let {BGC angle} and {EHF angle} be angles at their centers, {G point} and {H point} (respectively), and {BAC angle} and {EDF angle} (angles) at their circumferences.\nI say that as circumference {BC arcc G} is to circumference {EF arcc H}, so angle {BGC angle} (is) to {EHF angle}, and (angle) {BAC angle} to {EDF angle}.\n\nFor let any number whatsoever of consecutive (circumferences), {CK arcc G} and {KL arcc G}, be made equal to circumference {BC arcc G}, and any number whatsoever, {FM arcc H} and {MN arcc H}, to circumference {EF arcc H}.\nAnd let {GK line}, {GL line}, {HM line}, and {HN line} have been joined.\n\nTherefore, since circumferences {BC arcc G}, {CK arcc G}, and {KL arcc G} are equal to one another, angles {BGC angle}, {CGK angle}, and {KGL angle} are also equal to one another [Prop. 3.27].\nThus, as many times as circumference {BL arcc G} is (divisible) by {BC arcc G}, so many times is angle {BGL angle} also (divisible) by {BGC angle}.\nAnd so, for the same (reasons), as many times as circumference {EN arcc H} is (divisible) by {EF arcc H}, so many times is angle {NHE angle} also (divisible) by {EHF angle}.\nThus, if circumference {BL arcc G} is equal to circumference {EN arcc H} then angle {BGL angle} is also equal to {EHN angle} [Prop. 3.27], and if circumference {BL arcc G} is greater than circumference {EN arcc H} then angle {BGL angle} is also greater than {EHN angle}, and if ({BL arcc G} is) less (than {EN arcc H} then {BGL angle} is also) less (than {EHN angle}).\nSo there are four magnitudes, two circumferences {BC arcc G} and {EF arcc H}, and two angles {BGC angle} and {EHF angle}.\nAnd equal multiples have been taken of circumference {BC arcc G} and angle {BGC angle}, (namely) circumference {BL arcc G} and angle {BGL angle}, and of circumference {EF arcc H} and angle {EHF angle}, (namely) circumference {EN arcc H} and angle {EHN angle}.\nAnd it has been shown that if circumference {BL arcc G} exceeds circumference {EN arcc H} then angle {BGL angle} also exceeds angle {EHN angle}, and if ({BL arcc G} is) equal (to {EN arcc H} then {BGL angle} is also) equal (to {EHN angle}), and if ({BL arcc G} is) less (than {EN arcc H} then {BGL angle} is also) less (than {EHN angle}).\nThus, as circumference {BC arcc G} (is) to {EF arcc H}, so angle {BGC angle} (is) to {EHF angle} [Def. 5.5].\nBut as angle {BGC angle} (is) to {EHF angle}, so (angle) {BAC angle} (is) to {EDF angle} [Prop. 5.15].\nFor the former (are) double the latter (respectively) [Prop. 3.20].\nThus, also, as circumference {BC arcc G} (is) to circumference {EF arcc H}, so angle {BGC angle} (is) to {EHF angle}, and {BAC angle} to {EDF angle}.\n\nThus, in equal circles, angles have the same ratio as the (ratio of the) circumferences on which they stand, whether they are standing at the centers (of the circles) or at the circumferences.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        236.07420270039438,
+        99.09585842496287
+      ],
+      "B": [
+        50,
+        150
+      ],
+      "C": [
+        91.22147477075268,
+        230.90169943749473
+      ],
+      "D": [
+        480.90169943749476,
+        91.22147477075268
+      ],
+      "E": [
+        304.89434837048464,
+        180.90169943749478
+      ],
+      "F": [
+        341.2214747707527,
+        230.90169943749473
+      ],
+      "G": [
+        150,
+        150
+      ],
+      "H": [
+        400,
+        150
+      ],
+      "K": [
+        180.90169943749473,
+        245.10565162951536
+      ],
+      "L": [
+        245.10565162951536,
+        180.90169943749476
+      ],
+      "M": [
+        400,
+        250
+      ],
+      "N": [
+        458.7785252292473,
+        230.90169943749476
+      ]
+    },
+    "shapes": [
+      [
+        "circle",
+        [
+          150,
+          150
+        ],
+        200
+      ],
+      [
+        "line",
+        [
+          236.07420270039438,
+          99.09585842496287
+        ],
+        [
+          50,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          236.07420270039438,
+          99.09585842496287
+        ],
+        [
+          91.22147477075268,
+          230.90169943749473
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          50,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          91.22147477075268,
+          230.90169943749473
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          180.90169943749473,
+          245.10565162951536
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          150
+        ],
+        [
+          245.10565162951536,
+          180.90169943749476
+        ]
+      ],
+      [
+        "circle",
+        [
+          400,
+          150
+        ],
+        200
+      ],
+      [
+        "line",
+        [
+          480.90169943749476,
+          91.22147477075268
+        ],
+        [
+          304.89434837048464,
+          180.90169943749478
+        ]
+      ],
+      [
+        "line",
+        [
+          480.90169943749476,
+          91.22147477075268
+        ],
+        [
+          341.2214747707527,
+          230.90169943749473
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          150
+        ],
+        [
+          304.89434837048464,
+          180.90169943749478
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          150
+        ],
+        [
+          341.2214747707527,
+          230.90169943749473
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          150
+        ],
+        [
+          400,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          150
+        ],
+        [
+          458.7785252292473,
+          230.90169943749476
+        ]
+      ]
+    ],
+    "smallletters": "GH",
+    "letters": {
+      "A": [
+        0
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        4
+      ],
+      "G": [
+        0
+      ],
+      "K": [
+        -2
+      ],
+      "L": [
+        -2
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        4
+      ],
+      "H": [
+        0
+      ],
+      "M": [
+        -2
+      ],
+      "N": [
+        -2
+      ]
+    }
+  }
+]

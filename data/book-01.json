@@ -1,0 +1,5457 @@
+[
+  {
+    "id": "1.d",
+    "title": "Definitions",
+    "prose": "1. A point is that of which there is no part.\n\n2. And a line is a length without breadth.\n\n3. And the extremities of a line are points.\n\n4. A straight-line is (any) one which lies evenly with points on itself.\n\n5. And a surface is that which has length and breadth only.\n\n6. And the extremities of a surface are lines.\n\n7. A plane surface is (any) one which lies evenly with the straight-lines on itself.\n\n8. And a plane angle is the inclination of the lines to one another, when two lines in a plane meet one another, and are not lying in a straight-line.\n\n9. And when the lines containing the angle are straight then the angle is called rectilinear.\n\n10. And when a straight-line stood upon (another) straight-line makes adjacent angles (which are) equal to one another, each of the equal angles is a right-angle, and the former straight-line is called a perpendicular to that upon which it stands.\n\n11. An obtuse angle is one greater than a right-angle.\n\n12. And an acute angle (is) one less than a right-angle.\n\n13. A boundary is that which is the extremity of something.\n\n14. A figure is that which is contained by some boundary or boundaries.\n\n15. A circle is a plane figure contained by a single line [which is called a circumference], (such that) all of the straight-lines radiating towards [the circumference] from one point amongst those lying inside the figure are equal to one another.\n\n16. And the point is called the center of the circle.\n\n17. And a diameter of the circle is any straight-line, being drawn through the center, and terminated in each direction by the circumference of the circle. (And) any such (straight-line) also cuts the circle in half.\n\n18. And a semi-circle is the figure contained by the diameter and the circumference cuts off by it. And the center of the semi-circle is the same (point) as (the center of) the circle.\n\n19. Rectilinear figures are those (figures) contained by straight-lines: trilateral figures being those contained by three straight-lines, quadrilateral by four, and multilateral by more than four.\n\n20. And of the trilateral figures: an equilateral triangle is that having three equal sides, an isosceles (triangle) that having only two equal sides, and a scalene (triangle) that having three unequal sides.\n\n21. And further of the trilateral figures: a right-angled triangle is that having a right-angle, an obtuse-angled (triangle) that having an obtuse angle, and an acute-angled (triangle) that having three acute angles.\n\n22. And of the quadrilateral figures: a square is that which is right-angled and equilateral, a rectangle that which is right-angled but not equilateral, a rhombus that which is equilateral but not right-angled, and a rhomboid that having opposite sides and angles equal to one another which is neither right-angled nor equilateral. And let quadrilateral figures besides these be called trapezia.\n\n23. Parallel lines are straight-lines which, being in the same plane, and being produced to infinity in each direction, meet with one another in neither (of these directions).\n\nPostulates\n\n1. Let it have been postulated† to draw a straight-line from any point to any point.\n\n2. And to produce a finite straight-line continuously in a straight-line.\n\n3. And to draw a circle with any center and radius.\n\n4. And that all right-angles are equal to one another.\n\n5. And that if a straight-line falling across two (other) straight-lines makes internal angles on the same side (of itself whose sum is) less than two right-angles, then the two (other) straight-lines, being produced to infinity, meet on that side (of the original straight-line) that the (sum of the internal angles) is less than two right-angles (and do not meet on the other side).\n\nCommon Notions\n\n1. Things equal to the same thing are also equal to one another.\n\n2. And if equal things are added to equal things then the wholes are equal.\n\n3. And if equal things are subtracted fromequal things then the remainders are equal.\n\n4. And things coinciding with one another are equal to one another.\n\n5. And the whole [is] greater than the part.\n",
+    "points": {},
+    "shapes": [],
+    "letters": {}
+  },
+  {
+    "id": "1.1",
+    "title": "Proposition 1",
+    "prose": "To construct an equilateral triangle on a given finite straight-line.\n\nLet {AB line} be the given finite straight-line.\n\nSo it is required to construct an equilateral triangle on the straight-line {AB line}.\n\nLet the circle {BCD circle A} with center {A point} and radius {AB line} have been drawn [Post. 3], and again let the circle {ACE circle B} with center {B point} and radius {BA line} have been drawn [Post. 3].\nAnd let the straight-lines {CA line} and {CB line} have been joined from the point {C point}, where the circles cut one another, to the points {A point} and {B point} (respectively) [Post. 1].\n\nAnd since the point {A point} is the center of the circle {CDB circle A}, {AC line} is equal to {AB line} [Def. 1.15].\nAgain, since the point {B point} is the center of the circle {CAE circle B}, {BC line} is equal to {BA line} [Def. 1.15].\nBut {CA line} was also shown (to be) equal to {AB line}.\nThus, {CA line} and {CB line} are each equal to {AB line}.\nBut things equal to the same thing are also equal to one another [C.N.  1].\nThus, {CA line} is also equal to {CB line}.\nThus, the three (straight-lines) {CA line}, {AB line}, and {BC line} are equal to one another.\n\nThus, the triangle {ABC polygon} is equilateral, and has been constructed on the given finite straight-line {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        170,
+        200
+      ],
+      "B": [
+        330,
+        200
+      ],
+      "C": [
+        250,
+        61.43593539448983
+      ],
+      "D": [
+        10,
+        200
+      ],
+      "E": [
+        490,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          170,
+          200
+        ],
+        [
+          330,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          330,
+          200
+        ],
+        [
+          250,
+          61.43593539448983
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          61.43593539448983
+        ],
+        [
+          170,
+          200
+        ]
+      ],
+      [
+        "circle",
+        [
+          170,
+          200
+        ],
+        320
+      ],
+      [
+        "circle",
+        [
+          330,
+          200
+        ],
+        320
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        3,
+        1.3
+      ]
+    }
+  },
+  {
+    "id": "1.2",
+    "title": "Proposition 2",
+    "prose": "To place a straight-line equal to a given straight-line at a given point.\n\nLet {A point} be the given point, and {BC line} the given straight-line.\nSo it is required to place a straight-line at point {A point} equal to the given straight-line {BC line}.\n\nFor let the straight-line {AB line} have been joined from point {A point} to point {B point} [Post. 1], and let the equilateral triangle {DAB polygon} have been been constructed upon it [Prop. 1.1].\nAnd let the straight-lines {AE line} and {BF line} have been produced in a straight-line with {DA line} and {DB line} (respectively) [Post. 2].\nAnd let the circle {CGH circle B} with center {B point} and radius {BC line} have been drawn [Post. 3],\nand again let the circle {GKL circle D} with center {D point} and radius {DG line} have been drawn [Post. 3].\n\nTherefore, since the point {B point} is the center of (the circle) {CGH circle B}, {BC line} is equal to {BG line} [Def. 1.15].\nAgain, since the point {D point} is the center of the circle {GKL circle D}, {DL line} is equal to {DG line} [Def. 1.15].\nAnd within these, {DA line} is equal to {DB line}.\nThus, the remainder {AL line} is equal to the remainder {BG line} [C.N. 3].\nBut {BC line} was also shown (to be) equal to {BG line}.\nThus, {AL line} and {BC line} are each equal to {BG line}.\nBut things equal to the same thing are also equal to one another [C.N. 1].\nThus, {AL line} is also equal to {BC line}.\n\nThus, the straight-line {AL line}, equal to the given straight-line {BC line}, has been placed at the given point {A point}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        200,
+        270
+      ],
+      "B": [
+        250,
+        230
+      ],
+      "C": [
+        250,
+        120
+      ],
+      "D": [
+        190.35898384862247,
+        206.69872981077805
+      ],
+      "E": [
+        228.92304845413258,
+        459.90381056766586
+      ],
+      "F": [
+        458.7435565298213,
+        311.55444566227686
+      ],
+      "G": [
+        352.45798040741715,
+        270.0295172445699
+      ],
+      "H": [
+        147.54201959258282,
+        189.9704827554301
+      ],
+      "K": [
+        164.15555632856112,
+        34.651487145999624
+      ],
+      "L": [
+        216.56241136868383,
+        378.74597247555647
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          250,
+          230
+        ],
+        [
+          250,
+          120
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          230
+        ],
+        [
+          200,
+          270
+        ]
+      ],
+      [
+        "line",
+        [
+          190.35898384862247,
+          206.69872981077805
+        ],
+        [
+          228.92304845413258,
+          459.90381056766586
+        ]
+      ],
+      [
+        "line",
+        [
+          190.35898384862247,
+          206.69872981077805
+        ],
+        [
+          458.7435565298213,
+          311.55444566227686
+        ]
+      ],
+      [
+        "circle",
+        [
+          250,
+          230
+        ],
+        220
+      ],
+      [
+        "circle",
+        [
+          190.35898384862247,
+          206.69872981077805
+        ],
+        348.0624847486569
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        0
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        7,
+        0.8
+      ],
+      "G": [
+        -0.4,
+        3
+      ],
+      "H": [
+        2
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.3",
+    "title": "Proposition 3",
+    "prose": "For two given unequal straight-lines, to cut off from the greater a straight-line equal to the lesser.\n\nLet {AB line} and {C given} be the two given unequal straight-lines, of which let the greater be {AB line}.\nSo it is required to cut off a straight-line equal to the lesser {C given} from the greater {AB line}.\n\nLet the line {AD line}, equal to the straight-line {C given}, have been placed at point {A point} [Prop. 1.2].\nAnd let the circle {DEF circle A} have been drawn with center {A point} and radius {AD line} [Post.3].\n\nAnd since point {A point} is the center of circle {DEF circle A}, {AE line} is equal to {AD line} [Def. 1.15].\nBut, {C given} is also equal to {AD line}.\nThus, {AE line} and {C given} are each equal to {AD line}.\nSo {AE line} is also equal to {C given} [C.N. 1].\n\nThus, for two given unequal straight-lines, {AB line} and {C given}, the (straight-line) {AE line}, equal to the lesser {C given}, has been cut off from the greater {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        200,
+        250
+      ],
+      "B": [
+        450,
+        250
+      ],
+      "C": [
+        180,
+        50
+      ],
+      "D": [
+        93.93398282201788,
+        143.93398282201787
+      ],
+      "E": [
+        350,
+        250
+      ],
+      "F": [
+        275,
+        379.9038105676658
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          200,
+          250
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          180,
+          50
+        ],
+        [
+          330,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          250
+        ],
+        [
+          93.93398282201788,
+          143.93398282201787
+        ]
+      ],
+      [
+        "circle",
+        [
+          200,
+          250
+        ],
+        300
+      ]
+    ],
+    "letters": {
+      "A": [
+        4
+      ],
+      "B": [
+        -1,
+        0.8
+      ],
+      "C": [
+        0,
+        1.3
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        0
+      ],
+      "F": [
+        6
+      ]
+    },
+    "given": {
+      "C": [
+        [
+          "line",
+          [
+            180,
+            50
+          ],
+          [
+            330,
+            50
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "id": "1.4",
+    "title": "Proposition 4",
+    "prose": "If two triangles have two corresponding sides equal, and have the angles enclosed by the equal sides equal, then they will also have equal bases, and the two triangles will be equal, and the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.\n(That is) {AB line} to {DE line}, and {AC line} to {DF line}.\nAnd (let) the angle {BAC angle} (be) equal to the angle {EDF angle}.\nI say that the base {BC line} is also equal to the base {EF line}, and triangle {ABC polygon} will be equal to triangle {DEF polygon}, and the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles.\n(That is) {ABC angle} to {DEF angle}, and {ACB angle} to {DFE angle}.\n\nLet the triangle {ABC polygon} be applied to the triangle {DEF polygon}, the point {A point} being placed on the point {D point}, and the straight-line {AB line} on {DE line}.\nThe point {B point} will also coincide with {E point}, on account of {AB line} being equal to {DE line}.\nSo (because of) {AB line} coinciding with {DE line}, the straight-line {AC line} will also coincide with {DF line}, on account of the angle {BAC angle} being equal to {EDF angle}.\nSo the point {C point} will also coincide with the point {F point}, again on account of {AC line} being equal to {DF line}.\nBut, point {B point} certainly also coincided with point {E point}, so that the base {BC line} will coincide with the base {EF line}.\nFor if {B point} coincides with {E point}, and {C point} with {F point}, and the base {BC line} does not coincide with {EF line}, then two straight-lines will encompass an area.\nThe very thing is impossible [Post. 1].\nThus, the base {BC line} will coincide with {EF line}, and will be equal to it [C.N. 4].\nSo the whole triangle {ABC polygon} will coincide with the whole triangle {DEF polygon}, and will be equal to it [C.N. 4].\nAnd the remaining angles will coincide with the remaining angles, and will be equal to them [C.N. 4]. (That is) {ABC angle} to {DEF angle}, and {ACB angle} to {DFE angle} [C.N. 4].\n\nThus, if two triangles have two corresponding sides equal, and have the angles enclosed by the equal sides equal, then they will also have equal bases, and the two triangles will be equal, and the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        170,
+        50
+      ],
+      "B": [
+        50,
+        200
+      ],
+      "C": [
+        220,
+        200
+      ],
+      "D": [
+        400,
+        50
+      ],
+      "E": [
+        280,
+        200
+      ],
+      "F": [
+        450,
+        200
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            170,
+            50
+          ],
+          [
+            50,
+            200
+          ],
+          [
+            220,
+            200
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            400,
+            50
+          ],
+          [
+            280,
+            200
+          ],
+          [
+            450,
+            200
+          ]
+        ]
+      ],
+      [
+        "curve",
+        [
+          [
+            280,
+            200
+          ],
+          [
+            280,
+            200
+          ],
+          [
+            308.3333333333333,
+            210
+          ],
+          [
+            336.6666666666667,
+            217.32050807568876
+          ],
+          [
+            365,
+            220
+          ],
+          [
+            393.3333333333333,
+            217.32050807568876
+          ],
+          [
+            421.6666666666667,
+            210
+          ],
+          [
+            450,
+            200
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1,
+        0.8
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1,
+        0.8
+      ]
+    }
+  },
+  {
+    "id": "1.5",
+    "title": "Proposition 5",
+    "prose": "For isosceles triangles, the angles at the base are equal to one another, and if the equal sides are produced then the angles under the base will be equal to one another.\n\nLet {ABC polygon} be an isosceles triangle having the side {AB line} equal to the side {AC line}, and let the straight-lines {BD line} and {CE line} have been produced in a straight-line with {AB line} and {AC line} (respectively) [Post. 2].\nI say that the angle {ABC angle} is equal to {ACB angle},\nand (angle) {CBD angle} to {BCE angle}.\n\nFor let the point {F point} have been taken somewhere on {BD line}, and let {AG line} have been cut off from the greater {AE line}, equal to the lesser {AF line} [Prop. 1.3].\nAlso, let the straight-lines {FC line} and {GB line} have been joined [Post. 1].\n\nIn fact, since {AF line} is equal to {AG line}, and {AB line} to {AC line}, the two (straight-lines) {FA line}, {AC line} are equal to the two (straight-lines) {GA line}, {AB line}, respectively.\nThey also encompass a common angle {FAG angle}.\nThus, the base {FC line} is equal to the base {GB line}, and the triangle {AFC polygon} will be equal to the triangle {AGB polygon}, and the remaining angles subtendend by the equal sides will be equal to the corresponding remaining angles [Prop. 1.4].\n(That is) {ACF angle} to {ABG angle}, and {AFC angle} to {AGB angle}.\nAnd since the whole of {AF line} is equal to the whole of {AG line}, within which {AB line} is equal to {AC line}, the remainder {BF line} is thus equal to the remainder {CG line} [C.N. 3].\nBut {FC line} was also shown (to be) equal to {GB line}.\nSo the two (straight-lines) {BF line}, {FC line} are equal to the two (straight-lines) {CG line}, {GB line}, respectively, and the angle {BFC angle} (is) equal to the angle {CGB angle}, and the base {BC line} is common to them.\nThus, the triangle {BFC polygon} will be equal to the triangle {CGB polygon}, and the remaining angles subtended by the equal sides will be equal to the corresponding remaining angles [Prop. 1.4].\nThus, {FBC angle} is equal to {GCB angle}, and {BCF angle} to {CBG angle}.\nTherefore, since the whole angle {ABG angle} was shown (to be) equal to the whole angle {ACF angle}, within which {CBG angle} is equal to {BCF angle}, the remainder {ABC angle} is thus equal to the remainder {ACB angle} [C.N. 3].\nAnd they are at the base of triangle {ABC polygon}.\nAnd {FBC angle} was also shown (to be) equal to {GCB angle}.\nAnd they are under the base.\n\nThus, for isosceles triangles, the angles at the base are equal to one another, and if the equal sides are produced then the angles under the base will be equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        256,
+        50
+      ],
+      "B": [
+        206,
+        180
+      ],
+      "C": [
+        306,
+        180
+      ],
+      "D": [
+        131,
+        375
+      ],
+      "E": [
+        381,
+        375
+      ],
+      "F": [
+        181,
+        245
+      ],
+      "G": [
+        331,
+        245
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          206,
+          180
+        ],
+        [
+          306,
+          180
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          50
+        ],
+        [
+          131,
+          375
+        ]
+      ],
+      [
+        "line",
+        [
+          256,
+          50
+        ],
+        [
+          381,
+          375
+        ]
+      ],
+      [
+        "line",
+        [
+          181,
+          245
+        ],
+        [
+          306,
+          180
+        ]
+      ],
+      [
+        "line",
+        [
+          206,
+          180
+        ],
+        [
+          331,
+          245
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3,
+        1.3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        3,
+        1.3
+      ],
+      "G": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "1.6",
+    "title": "Proposition 6",
+    "prose": "If a triangle has two angles equal to one another then the sides subtending the equal angles will also be equal to one another.\n\nLet {ABC polygon} be a triangle having the angle {ABC angle} equal to the angle {ACB angle}.\nI say that side {AB line} is also equal to side {AC line}.\n\nFor if {AB line} is unequal to {AC line} then one of them is greater.\nLet {AB line} be greater.\nAnd let {DB line}, equal to the lesser {AC line}, have been cut off from the greater {AB line} [Prop. 1.3].  And let {DC line} have been joined [Post. 1].\n\nTherefore, since {DB line} is equal to {AC line}, and {BC line} (is) common, the two sides {DB line}, {BC line} are equal to the two sides {AC line}, {CB line}, respectively, and the angle {DBC angle} is equal to the angle {ACB angle}.\nThus, the base {DC line} is equal to the base {AB line}, and the triangle {DBC polygon} will be equal to the triangle {ACB polygon} [Prop. 1.4], the lesser to the greater.\nThe very notion (is) absurd [C.N. 5].\nThus, {AB line} is not unequal to {AC line}.\nThus, (it is) equal.\n\nThus, if a triangle has two angles equal to one another then the sides subtending the equal angles will also be equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        256,
+        50
+      ],
+      "B": [
+        106,
+        280
+      ],
+      "C": [
+        406,
+        280
+      ],
+      "D": [
+        211,
+        119
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            256,
+            50
+          ],
+          [
+            106,
+            280
+          ],
+          [
+            406,
+            280
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          406,
+          280
+        ],
+        [
+          211,
+          119
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        2.5
+      ]
+    }
+  },
+  {
+    "id": "1.7",
+    "title": "Proposition 7",
+    "prose": "On the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines (which meet) cannot be constructed (meeting) at a different point on the same side (of the straight-line), but having the same ends as the given straight-lines.\n\nFor, if possible, let the two straight-lines {AD line}, {DB line}, equal to two (given) straight-lines {AC line}, {CB line}, respectively, have been constructed on the same straight-line {AB line}, meeting at different points, {C point} and {D point}, on the same side (of {AB line}), and having the same ends (on {AB line}).\nSo {CA line} and {DA line} are equal, having the same ends at {A point}, and {CB line} and {DB line} are equal, having the same ends at {B point}.\nAnd let {CD line} have been joined [Post. 1].\n\nTherefore, since {AC line} is equal to {AD line}, the angle {ACD angle} is also equal to angle {ADC angle} [Prop. 1.5].\nThus, {ADC angle} (is) greater than {DCB angle} [C.N. 5].\nThus, {CDB angle} is much greater than {DCB angle} [C.N. 5].\nAgain, since {CB line} is equal to {DB line}, the angle {CDB angle} is also equal to angle {DCB angle} [Prop. 1.5]. But it was shown that the former (angle {CDB angle}) is also much greater (than the latter angle {DCB angle}). The very thing is impossible.\n\nThus, on the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines (which meet) cannot be constructed (meeting) at a different point on the same side (of the straight-line), but having the same ends as the given straight-lines.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        106,
+        280
+      ],
+      "B": [
+        406,
+        280
+      ],
+      "C": [
+        226,
+        50
+      ],
+      "D": [
+        325.9069886184882,
+        60.50715381169934
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            106,
+            280
+          ],
+          [
+            406,
+            280
+          ],
+          [
+            226,
+            50
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          406,
+          280
+        ],
+        [
+          325.9069886184882,
+          60.50715381169934
+        ]
+      ],
+      [
+        "line",
+        [
+          226,
+          50
+        ],
+        [
+          325.9069886184882,
+          60.50715381169934
+        ]
+      ],
+      [
+        "line",
+        [
+          106,
+          280
+        ],
+        [
+          325.9069886184882,
+          60.50715381169934
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        2
+      ],
+      "D": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "1.8",
+    "title": "Proposition 8",
+    "prose": "If two triangles have two corresponding sides equal, and also have equal bases, then the angles encompassed by the equal straight-lines will also be equal.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.\n(That is) {AB line} to {DE line}, and {AC line} to {DF line}.\nLet them also have the base {BC line} equal to the base {EF line}.\nI say that the angle {BAC angle} is also equal to the angle {EDF angle}.\n\nFor if triangle {ABC polygon} is applied to triangle {DEF polygon}, the point {B point} being placed on point {E point}, and the straight-line {BC line} on {EF line}, point {C point} will also coincide with {F point}, on account of {BC line} being equal to {EF line}.\nSo (because of) {BC line} coinciding with {EF line}, (the sides) {BA line} and {CA line} will also coincide with {ED line} and {DF line} (respectively).\nFor if base {BC line} coincides with base {EF line}, but the sides {AB line} and {AC line} do not coincide with {ED line} and {DF line} (respectively), but miss like {EG line} and {GF line}, then we will have constructed upon the same straight-line, two other straight-lines equal, respectively, to two (given) straight-lines, and (meeting) at a different point on the same side (of the straight-line), but having the same ends. But (such straight-lines) cannot be constructed [Prop. 1.7].\nThus, the base {BC line} being applied to the base {EF line}, the sides {BA line} and {AC line} cannot not coincide with {ED line} and {DF line} (respectively). Thus, they will coincide.\nSo the angle {BAC angle} will also coincide with angle {EDF angle}, and they will be equal [C.N. 4].\n\nThus, if two triangles have two corresponding sides equal, and have equal bases, then the angles encom- passed by the equal straight-lines will also be equal.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        140,
+        50
+      ],
+      "B": [
+        70,
+        200
+      ],
+      "C": [
+        220,
+        150
+      ],
+      "D": [
+        370,
+        50
+      ],
+      "E": [
+        300,
+        200
+      ],
+      "F": [
+        450,
+        150
+      ],
+      "G": [
+        413.85374250710595,
+        54.138391056391086
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            140,
+            50
+          ],
+          [
+            70,
+            200
+          ],
+          [
+            220,
+            150
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            370,
+            50
+          ],
+          [
+            300,
+            200
+          ],
+          [
+            450,
+            150
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            413.85374250710595,
+            54.138391056391086
+          ],
+          [
+            300,
+            200
+          ],
+          [
+            450,
+            150
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.9",
+    "title": "Proposition 9",
+    "prose": "To cut a given rectilinear angle in half.\n\nLet {BAC angle} be the given rectilinear angle. So it is required to cut it in half.\n\nLet the point {D point} have been taken somewhere on {AB line}, and let {AE line}, equal to {AD line}, have been cut off from {AC line} [Prop. 1.3], and let {DE line} have been joined.\nAnd let the equilateral triangle {DEF polygon} have been constructed upon {DE line} [Prop. 1.1], and let {AF line} have been joined.\nI say that the angle {BAC angle} has been cut in half by the straight-line {AF line}.\n\nFor since {AD line} is equal to {AE line}, and {AF line} is common, the two (straight-lines) {DA line}, {AF line} are equal to the two (straight-lines) {EA line}, {AF line}, respectively.\nAnd the base {DF line} is equal to the base {EF line}.\nThus, angle {DAF angle} is equal to angle {EAF angle} [Prop. 1.8].\n\nThus, the given rectilinear angle {BAC angle} has been cut in half by the straight-line {AF line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        156,
+        50
+      ],
+      "B": [
+        126,
+        380
+      ],
+      "C": [
+        356,
+        300
+      ],
+      "D": [
+        141,
+        215
+      ],
+      "E": [
+        259.4997348883137,
+        179.37466861039212
+      ],
+      "F": [
+        231.10230944579646,
+        299.81111506019687
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          156,
+          50
+        ],
+        [
+          126,
+          380
+        ]
+      ],
+      [
+        "line",
+        [
+          156,
+          50
+        ],
+        [
+          356,
+          300
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            141,
+            215
+          ],
+          [
+            259.4997348883137,
+            179.37466861039212
+          ],
+          [
+            231.10230944579646,
+            299.81111506019687
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          156,
+          50
+        ],
+        [
+          231.10230944579646,
+          299.81111506019687
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        -0.5
+      ],
+      "F": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.10",
+    "title": "Proposition 10",
+    "prose": "To cut a given finite straight-line in half.\n\nLet {AB line} be the given finite straight-line.\nSo it is required to cut the finite straight-line {AB line} in half.\n\nLet the equilateral triangle {ABC polygon} have been constructed upon {AB line} [Prop. 1.1], and let the angle {ACB angle} have been cut in half by the straight-line {CD line} [Prop. 1.9].\nI say that the straight-line {AB line} has been cut in half at point {D point}.\n\nFor since {AC line} is equal to {CB line}, and {CD line} (is) common, the two (straight-lines) {AC line} , {CD line} are equal to the two (straight-lines) {BC line}, {CD line}, respectively.\nAnd the angle {ACD angle} is equal to the angle {BCD angle}.\nThus, the base {AD line} is equal to the base {BD line} [Prop. 1.4].\n\nThus, the given finite straight-line {AB line} has been cut in half at (point) {D point}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        126,
+        300
+      ],
+      "B": [
+        356,
+        300
+      ],
+      "C": [
+        241.00000000000003,
+        100.81415712957912
+      ],
+      "D": [
+        241,
+        300
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            126,
+            300
+          ],
+          [
+            356,
+            300
+          ],
+          [
+            241.00000000000003,
+            100.81415712957912
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          241.00000000000003,
+          100.81415712957912
+        ],
+        [
+          241,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.11",
+    "title": "Proposition 11",
+    "prose": "To draw a straight-line at right-angles to a given straight-line from a given point on it.\n\nLet {AB line} be the given straight-line, and {C point} the given point on it.\nSo it is required to draw a straight-line from the point {C point} at right-angles to the straight-line {AB line}.\n\nLet the point {D point} be have been taken somewhere on {AC line}, and let {CE line} be made equal to {CD line} [Prop. 1.3], and let the equilateral triangle {FDE polygon} have been constructed on {DE line} [Prop. 1.1], and let {FC line} have been joined.\nI say that the straight-line {FC line} has been drawn at right-angles to the given straight-line {AB line} from the given point {C point} on it.\n\nFor since {DC line} is equal to {CE line}, and {CF line} is common, the two (straight-lines) {DC line}, {CF line} are equal to the two (straight-lines), {EC line}, {CF line}, respectively.\nAnd the base {DF line} is equal to the base {FE line}.\nThus, the angle {DCF angle} is equal to the angle {ECF angle} [Prop. 1.8], and they are adjacent.\nBut when a straight-line stood on a(nother) straight-line makes the adjacent angles equal to one another, each of the equal angles is a right-angle [Def. 1.10].\nThus, each of the (angles) {DCF angle} and {FCE angle} is a right-angle.\n\nThus, the straight-line {CF line} has been drawn at right-angles to the given straight-line {AB line} from the given point {C point} on it.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        56,
+        250
+      ],
+      "B": [
+        426,
+        250
+      ],
+      "C": [
+        222.5,
+        250
+      ],
+      "D": [
+        130,
+        250
+      ],
+      "E": [
+        315,
+        250
+      ],
+      "F": [
+        222.5,
+        89.78530029987886
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          56,
+          250
+        ],
+        [
+          426,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          222.5,
+          89.78530029987886
+        ],
+        [
+          222.5,
+          250
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            130,
+            250
+          ],
+          [
+            315,
+            250
+          ],
+          [
+            222.5,
+            89.78530029987886
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.12",
+    "title": "Proposition 12",
+    "prose": "To draw a straight-line perpendicular to a given infinite straight-line from a given point which is not on it.\n\nLet {AB line} be the given infinite straight-line and {C point} the given point, which is not on ({AB line}).\nSo it is required to draw a straight-line perpendicular to the given infinite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).\n\nFor let point {D point} have been taken somewhere on the other side (to {C point}) of the straight-line {AB line}, and let the circle {EFG circle C} have been drawn with center {C point} and radius {CD line} [Post. 3], and let the straight-line {EG line} have been cut in half at (point) {H point} [Prop. 1.10], and let the straight-lines {CG line}, {CH line}, and {CE line} have been joined.\nI say that a (straight-line) {CH line} has been drawn perpendicular to the given infinite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).\n\nFor since {GH line} is equal to {HE line}, and {HC line} (is) common, the two (straight-lines) {GH line}, {HC line} are equal to the two straight-lines {EH line}, {HC line}, respectively, and the base {CG line} is equal to the base {CE line}.\nThus, the angle {CHG angle} is equal to the angle {EHC angle} [Prop. 1.8], and they are adjacent.\nBut when a straight-line stood on a(nother) straight-line makes the adjacent angles equal to one another, each of the equal angles is a right-angle, and the former straight-line is called perpendicular to that upon which it stands [Def. 1.10].\n\nThus, the (straight-line) {CH line} has been drawn perpen-dicular to the given infinite straight-line {AB line} from the given point {C point}, which is not on ({AB line}).\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        56,
+        350
+      ],
+      "B": [
+        426,
+        350
+      ],
+      "C": [
+        222.5,
+        250
+      ],
+      "D": [
+        269.69051352078503,
+        377.7861707448995
+      ],
+      "E": [
+        315,
+        350
+      ],
+      "F": [
+        222.5,
+        113.77867274174722
+      ],
+      "G": [
+        130,
+        350
+      ],
+      "H": [
+        222.5,
+        350
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          56,
+          350
+        ],
+        [
+          426,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          222.5,
+          250
+        ],
+        [
+          130,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          222.5,
+          250
+        ],
+        [
+          222.5,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          222.5,
+          250
+        ],
+        [
+          315,
+          350
+        ]
+      ],
+      [
+        "circle",
+        [
+          222.5,
+          250
+        ],
+        272.44265451650557
+      ],
+      [
+        "circle",
+        [
+          269.69051352078503,
+          377.7861707448995
+        ],
+        5
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5.5
+      ],
+      "E": [
+        5.5
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        4.5
+      ],
+      "H": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.13",
+    "title": "Proposition 13",
+    "prose": "If a straight-line stood on a(nother) straight-line makes angles, it will certainly either make two right-angles, or (angles whose sum is) equal to two right-angles.\n\nFor let some straight-line {AB line} stood on the straight-line {CD line} make the angles {CBA angle} and {ABD angle}.\nI say that the angles {CBA angle} and {ABD angle} are certainly either two right-angles, or (have a sum) equal to two right-angles.\n\nIn fact, if {CBA angle} is equal to {ABD angle} then they are two right-angles [Def. 1.10].\nBut, if not, let {BE line} have been drawn from the point {B point} at right-angles to [the straight-line] {CD line} [Prop. 1.11].\nThus, {CBE angle} and {EBD angle} are two right-angles.\nAnd since {CBE angle} is equal to the two (angles) {CBA angle} and {ABE angle}, let {EBD angle} have been added to both.\nThus, the (sum of the angles) {CBE angle} and {EBD angle} is equal to the (sum of the) three (angles) {CBA angle}, {ABE angle}, and {EBD angle} [C.N. 2].\nAgain, since {DBA angle} is equal to the two (angles) {DBE angle} and {EBA angle}, let {ABC angle} have been added to both.\nThus, the (sum of the angles) {DBA angle} and {ABC angle} is equal to the (sum of the) three (angles) {DBE angle}, {EBA angle}, and {ABC angle} [C.N. 2].\nBut (the sum of) {CBE angle} and {EBD angle} was also shown (to be) equal to the (sum of the) same three (angles).\nAnd things equal to the same thing are also equal to one another [C.N. 1].\nTherefore, (the sum of) {CBE angle} and {EBD angle} is also equal to (the sum of) {DBA angle} and {ABC angle}.\nBut, (the sum of) {CBE angle} and {EBD angle} is two right-angles.\nThus, (the sum of) {ABD angle} and {ABC angle} is also equal to two right-angles.\n\nThus, if a straight-line stood on a(nother) straight-line makes angles, it will certainly either make two right-angles, or (angles whose sum is) equal to two right-angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        314.9188760731664,
+        89.01889236101084
+      ],
+      "B": [
+        193.6,
+        256
+      ],
+      "C": [
+        400,
+        256
+      ],
+      "D": [
+        56,
+        256
+      ],
+      "E": [
+        193.6,
+        49.599999999999994
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          400,
+          256
+        ],
+        [
+          56,
+          256
+        ]
+      ],
+      [
+        "line",
+        [
+          193.6,
+          256
+        ],
+        [
+          193.6,
+          49.599999999999994
+        ]
+      ],
+      [
+        "line",
+        [
+          193.6,
+          256
+        ],
+        [
+          314.9188760731664,
+          89.01889236101084
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.14",
+    "title": "Proposition 14",
+    "prose": "If two straight-lines, not lying on the same side, make adjacent angles (whose sum is) equal to two right-angles at the same point on some straight-line, then the two straight-lines will be straight-on (with respect) to one another.\n\nFor let two straight-lines {BC line} and {BD line}, not lying on the same side, make adjacent angles {ABC angle} and {ABD angle} (whose sum is) equal to two right-angles at the same point {B point} on some straight-line {AB line}.\nI say that {BD line} is straight-on with respect to {CB line}.\n\nFor if {BD line} is not straight-on to {BC line} then let {BE line} be straight-on to {CB line}.\n\nTherefore, since the straight-line {AB line} stands on the straight-line {CBE line}, the (sum of the) angles {ABC angle} and {ABE angle} is thus equal to two right-angles [Prop. 1.13].\nBut (the sum of) {ABC angle} and {ABD angle} is also equal to two right-angles.\nThus, (the sum of angles) {CBA angle} and {ABE angle} is equal to (the sum of angles) {CBA angle} and {ABD angle} [C.N. 1].\nLet (angle) {CBA angle} have been subtracted from both.\nThus, the remainder {ABE angle} is equal to the remainder {ABD angle} [C.N. 3], the lesser to the greater.\nThe very thing is impossible.\nThus, {BE line} is not straight-on with respect to {CB line}.\nSimilarly, we can show that neither (is) any other (straight-line) than {BD line}.\nThus, {CB line} is straight-on with respect to {BD line}.\n\nThus, if two straight-lines, not lying on the same side, make adjacent angles (whose sum is) equal to two right-angles at the same point on some straight-line, then the two straight-lines will be straight-on (with respect) to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        143.32907504718406,
+        127.91177218655747
+      ],
+      "B": [
+        193.6,
+        256
+      ],
+      "C": [
+        56,
+        256
+      ],
+      "D": [
+        400,
+        256
+      ],
+      "E": [
+        279.39219673576173,
+        148.4199880123991
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          56,
+          256
+        ],
+        [
+          400,
+          256
+        ]
+      ],
+      [
+        "line",
+        [
+          193.6,
+          256
+        ],
+        [
+          279.39219673576173,
+          148.4199880123991
+        ]
+      ],
+      [
+        "line",
+        [
+          193.6,
+          256
+        ],
+        [
+          143.32907504718406,
+          127.91177218655747
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.15",
+    "title": "Proposition 15",
+    "prose": "If two straight-lines cut one another then they make the vertically opposite angles equal to one another.\n\nFor let the two straight-lines {AB line} and {CD line} cut one another at the point {E point}.\nI say that angle {AEC angle} is equal to (angle) {DEB angle}, and (angle) {CEB angle} to (angle) {AED angle}.\n\nFor since the straight-line {AE line} stands on the straight-line {CD line}, making the angles {CEA angle} and {AED angle}, the (sum of the) angles {CEA angle} and {AED angle} is thus equal to two right-angles [Prop. 1.13].\nAgain, since the straight-line {DE line} stands on the straight-line {AB line}, making the angles {AED angle} and {DEB angle}, the (sum of the) angles {AED angle} and {DEB angle} is thus equal to two right-angles [Prop. 1.13].\nBut (the sum of) {CEA angle} and {AED angle} was also shown (to be) equal to two right-angles.\nThus, (the sum of) {CEA angle} and {AED angle} is equal to (the sum of) {AED angle} and {DEB angle} [C.N. 1].\nLet {AED angle} have been subtracted from both.\nThus, the remainder {CEA angle} is equal to the remainder {BED angle} [C.N. 3].\nSimilarly, it can be shown that {CEB angle} and {DEA angle} are also equal.\n\nThus, if two straight-lines cut one another then they make the vertically opposite angles equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        133.7117048963574,
+        94.62998201859864
+      ],
+      "B": [
+        348.19219673576174,
+        363.58001198760087
+      ],
+      "C": [
+        400,
+        256
+      ],
+      "D": [
+        56,
+        256
+      ],
+      "E": [
+        262.4,
+        256
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          400,
+          256
+        ],
+        [
+          56,
+          256
+        ]
+      ],
+      [
+        "line",
+        [
+          133.7117048963574,
+          94.62998201859864
+        ],
+        [
+          348.19219673576174,
+          363.58001198760087
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        0.5
+      ]
+    }
+  },
+  {
+    "id": "1.16",
+    "title": "Proposition 16",
+    "prose": "For any triangle, when one of the sides is produced, the external angle is greater than each of the internal and opposite angles.\n\nLet {ABC polygon} be a triangle, and let one of its sides {BC line} have been produced to {BD line}.\nI say that the external angle {ACD angle} is greater than each of the internal and opposite angles, {CBA angle} and {BAC angle}.\n\nLet the (straight-line) {AC line} have been cut in half at (point) {E point} [Prop. 1.10].\nAnd {BE line} being joined, let it have been produced in a straight-line to (point) {BF line}.\nAnd let {EF line} be made equal to {BE line} [Prop. 1.3], and let {FC line} have been joined, and let {AC line} have been drawn through to (point) {G point} (as {AG line}).\n\nTherefore, since {AE line} is equal to {EC line}, and {BE line} to {EF line}, the two (straight-lines) {AE line}, {EB line} are equal to the two (straight-lines) {CE line}, {EF line}, respectively.\nAlso, angle {AEB angle} is equal to angle {FEC angle}, for (they are) vertically opposite [Prop. 1.15].\nThus, the base {AB line} is equal to the base {FC line}, and the triangle {ABE polygon} is equal to the triangle {FEC polygon}, and the remaining angles subtended by the equal sides are equal to the corresponding remaining angles [Prop. 1.4].\n\nThus, {BAE angle} is equal to {ECF angle}.\nBut {ECD angle} is greater than {ECF angle}.\nThus, {ACD angle} is greater than {BAE angle}.\nSimilarly, by having cut {BC line} in half, it can be shown (that) {BCG angle} ---that is to say, {ACD angle}--- (is) also greater than {ABC angle}.\n\nThus, for any triangle, when one of the sides is produced, the external angle is greater than each of the internal and opposite angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        50
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        250,
+        250
+      ],
+      "D": [
+        450,
+        250
+      ],
+      "E": [
+        200,
+        150
+      ],
+      "F": [
+        350,
+        50
+      ],
+      "G": [
+        350,
+        450
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          50,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          50
+        ],
+        [
+          350,
+          450
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          450,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          350,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          50
+        ],
+        [
+          250,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        4
+      ],
+      "C": [
+        4.5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        -3.4,
+        2
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "1.17",
+    "title": "Proposition 17",
+    "prose": "For any triangle, (the sum of any) two angles is less than two right-angles, (the angles) being taken up in any (possible way).\n\nLet {ABC polygon} be a triangle.\nI say that (the sum of any) two angles of triangle {ABC polygon} is less than two right-angles, (the angles) being taken up in any (possible way).\n\nFor let {BC line} have been produced to {D point}.\n\nAnd since the angle {ACD angle} is external to triangle {ABC polygon}, it is greater than the internal and opposite angle {ABC angle} [Prop. 1.16].\nLet {ACB angle} have been added to both.\nThus, the (sum of the angles) {ACD angle} and {ACB angle} is greater than the (sum of the angles) {ABC angle} and {BCA angle}.\nBut, (the sum of) {ACD angle} and {ACB angle} is equal to two right-angles [Prop. 1.13].\nThus, (the sum of) {ABC angle} and {BCA angle} is less than two right-angles.\nSimilarly, we can show that (the sum of) {BAC angle} and {ACB angle} is also less than two right-angles, and again (that the sum of) {CAB angle} and {ABC angle} (is less than two right-angles).\n\nThus, for any triangle, (the sum of any) two angles is less than two right-angles, (the angles) being taken up in any (possible way).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        70
+      ],
+      "B": [
+        120,
+        250
+      ],
+      "C": [
+        250,
+        250
+      ],
+      "D": [
+        315,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          70
+        ],
+        [
+          120,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          70
+        ],
+        [
+          250,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          250
+        ],
+        [
+          315,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.18",
+    "title": "Proposition 18",
+    "prose": "For any triangle, the greater side subtends the greater angle.\n\nFor let {ABC polygon} be a triangle having side {AC line} greater than {AB line}.\nI say that angle {ABC angle} is also greater than {BCA angle}.\n\nFor since {AC line} is greater than {AB line}, let {AD line} be made equal to {AB line} [Prop. 1.3], and let {BD line} have been joined.\n\nAnd since angle {ADB angle} is external to triangle {BCD polygon}, it is greater than the internal and opposite (angle) {DCB angle} [Prop. 1.16].\nBut {ADB angle} (is) equal to {ABD angle}, since side {AB line} is also equal to side {AD line} [Prop. 1.5].\nThus, {ABD angle} is also greater than {ACB angle}.\nThus, {ABC angle} is much greater than {ACB angle}.\n\nThus, for any triangle, the greater side subtends the greater angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        70
+      ],
+      "B": [
+        120,
+        250
+      ],
+      "C": [
+        350,
+        250
+      ],
+      "D": [
+        215.6093916063799,
+        169.36563496382794
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          70
+        ],
+        [
+          120,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          70
+        ],
+        [
+          350,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          250
+        ],
+        [
+          350,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          250
+        ],
+        [
+          215.6093916063799,
+          169.36563496382794
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "1.19",
+    "title": "Proposition 19",
+    "prose": "For any triangle, the greater angle is subtended by the greater side.\n\nLet {ABC polygon} be a triangle having the angle {ABC angle} greater than {BCA angle}.\nI say that side {AC line} is also greater than side {AB line}.\n\nFor if not, {AC line} is certainly either equal to, or less than, {AB line}.\nIn fact, {AC line} is not equal to {AB line}.\nFor then angle {ABC angle} would also have been equal to {ACB angle} [Prop. 1.5].\nBut it is not.\nThus, {AC line} is not equal to {AB line}.\nNeither, indeed, is {AC line} less than {AB line}.\nFor then angle {ABC angle} would also have been less than {ACB angle} [Prop. 1.18].\nBut it is not.\nThus, {AC line} is not less than {AB line}.\nBut it was shown that ({AC line}) is also not equal (to {AB line}).\nThus, {AC line} is greater than {AB line}.\n\nThus, for any triangle, the greater angle is subtended by the greater side.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        250,
+        50
+      ],
+      "B": [
+        120,
+        150
+      ],
+      "C": [
+        300,
+        300
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          120,
+          150
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          50
+        ],
+        [
+          300,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          150
+        ],
+        [
+          300,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.20",
+    "title": "Proposition 20",
+    "prose": "For any triangle, (the sum of any) two sides is greater than the remaining (side), (the sides) being taken up in any (possible way).\n\nFor let {ABC polygon} be a triangle.\nI say that for triangle {ABC polygon} (the sum of any) two sides is greater than the remaining (side), (the sides) being taken up in any (possible way).\n(So), (the sum of) {BA line} and {AC line} (is greater) than {BC line}, (the sum of) {AB line} and {BC line} than {AC line}, and (the sum of) {BC line} and {CA line} than {AB line}.\n\nFor let {BA line} have been drawn through to point {D point} (as {AD line}), and let {AD line} be made equal to {CA line} [Prop. 1.3], and let {DC line} have been joined.\n\nTherefore, since {DA line} is equal to {AC line}, the angle {ADC angle} is also equal to {ACD angle} [Prop. 1.5].\nThus, {BCD angle} is greater than {ADC angle}.\nAnd since triangle {DCB polygon} has the angle {BCD angle} greater than {BDC angle}, and the greater angle subtends the greater side [Prop. 1.19], {DB line} is thus greater than {BC line}.\nBut {DA line} is equal to {AC line}.\nThus, (the sum of) {BA line} and {AC line} is greater than {BC line}.\nSimilarly, we can show that (the sum of) {AB line} and {BC line} is also greater than {CA line}, and (the sum of) {BC line} and {CA line} than {AB line}.\n\nThus, for any triangle, (the sum of any) two sides is greater than the remaining (side), (the sides) being taken up in any (possible way).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        250
+      ],
+      "B": [
+        80,
+        350
+      ],
+      "C": [
+        300,
+        350
+      ],
+      "D": [
+        253.3823943574884,
+        102.31086520358801
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          150,
+          250
+        ],
+        [
+          80,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          250
+        ],
+        [
+          300,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          80,
+          350
+        ],
+        [
+          300,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          253.3823943574884,
+          102.31086520358801
+        ],
+        [
+          150,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          253.3823943574884,
+          102.31086520358801
+        ],
+        [
+          300,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        2
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        7
+      ],
+      "D": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.21",
+    "title": "Proposition 21",
+    "prose": "If two internal straight-lines are constructed on one of the sides of a triangle, from its ends, the constructed (straight-lines) will be less than the two remaining sides of the triangle, but will encompass a greater angle.\n\nFor let the two internal straight-lines {BD line} and {DC line} have been constructed on one of the sides {BC line} of the triangle {ABC polygon}, from its ends {B point} and {C point} (respectively).\nI say that {BD line} and {DC line} are less than the (sum of the) two remaining sides of the triangle {BA line} and {AC line}, but encompass an angle {BDC angle} greater than {BAC angle}.\n\nFor let {BD line} have been drawn through to {E point} (as {BE line}).\nAnd since for every triangle (the sum of any) two sides is greater than the remaining (side) [Prop. 1.20], for triangle {ABE polygon} the (sum of the) two sides {AB line} and {AE line} is thus greater than {BE line}.\nLet {EC line} have been added to both.\nThus, (the sum of) {BA line} and {AC line} is greater than (the sum of) {BE line} and {EC line}.\nAgain, since in triangle {CED polygon} the (sum of the) two sides {CE line} and {ED line} is greater than {CD line}, let {DB line} have been added to both.\nThus, (the sum of) {CE line} and {EB line} is greater than (the sum of) {CD line} and {DB line}.\nBut, (the sum of) {BA line} and {AC line} was shown (to be) greater than (the sum of) {BE line} and {EC line}.\nThus, (the sum of) {BA line} and {AC line} is much greater than (the sum of) {BD line} and {DC line}.\n\nAgain, since for every triangle the external angle is greater than the internal and opposite (angles) [Prop. 1.16], for triangle {CDE polygon} the external angle {BDC angle} is thus greater than {CED angle}.\nAccordingly, for the same (reason), the external angle {CEB angle} of the triangle {ABE polygon} is also greater than {BAC angle}.\nBut, {BDC angle} was shown (to be) greater than {CEB angle}.\nThus, {BDC angle} is much greater than {BAC angle}.\n\nThus, if two internal straight-lines are constructed on one of the sides of a triangle, from its ends, the constructed (straight-lines) are less than the two remaining sides of the triangle, but encompass a greater angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        100
+      ],
+      "B": [
+        80,
+        300
+      ],
+      "C": [
+        400,
+        300
+      ],
+      "D": [
+        176,
+        172
+      ],
+      "E": [
+        200,
+        140
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          150,
+          100
+        ],
+        [
+          80,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          100
+        ],
+        [
+          400,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          80,
+          300
+        ],
+        [
+          400,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          80,
+          300
+        ],
+        [
+          200,
+          140
+        ]
+      ],
+      [
+        "line",
+        [
+          176,
+          172
+        ],
+        [
+          400,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        7
+      ],
+      "D": [
+        2
+      ],
+      "E": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "1.22",
+    "title": "Proposition 22",
+    "prose": "To construct a triangle from three straight-lines which are equal to three given [straight-lines].\nIt is necessary for (the sum of) two (of the straight-lines) to be greater than the remaining (one), (the straight-lines) being taken up in any (possible way) [on account of the (fact that) for every triangle (the sum of any) two sides is greater than the remaining (one), (the sides) being taken up in any (possible way) [Prop. 1.20] ].\n\nLet {A given}, {B given}, and {C given} be the three given straight-lines, of which let (the sum of any) two be greater than the remaining (one), (the straight-lines) being taken up in (any possible way).\n(Thus), (the sum of) {A given} and {B given} (is greater) than {C given}, (the sum of) {A given} and {C given} than {B given}, and also (the sum of) {B given} and {C given} than {A given}.\nSo it is required to construct a triangle from (straight-lines) equal to {A given}, {B given}, and {C given}.\n\nLet some straight-line {DE line} be set out, terminated at {D point}, and infinite in the direction of {E point}.\nAnd let {DF line} made equal to {A given} [Prop. 1.3], and {FG line} equal to {B given} [Prop. 1.3], and {GH line} equal to {C given} [Prop. 1.3].\nAnd let the circle {DKL circle F} have been drawn with center {F point} and radius {FD line}.\nAgain, let the circle {KLH circle G} have been drawn with center {G point} and radius {GH line}.\nAnd let {KF line} and {KG line} have been joined.\nI say that the triangle {KFG polygon} has been constructed from three straight-lines equal to {A given}, {B given}, and {C given}.\n\nFor since point {F point} is the center of the circle {DKL circle F}, {FD line} is equal to {FK line}.\nBut, {FD line} is equal to {A given}.\nThus, {KF line} is also equal to {A given}.\nAgain, since point {G point} is the center of the circle {LKH circle G}, {GH line} is equal to {GK line}.\nBut, {GH line} is equal to {C given}.\nThus, {KG line} is also equal to {C given}.\nAnd {FG line} is equal to {B given}.\nThus, the three straight-lines {KF line}, {FG line}, and {GK line} are equal to {A given}, {B given}, and {C given} (respectively).\n\nThus, the triangle {KFG polygon} has been constructed from the three straight-lines {KF line}, {FG line}, and {GK line}, which are equal to the three given straight-lines {A given}, {B given}, and {C given} (respectively).\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        50,
+        30
+      ],
+      "B": [
+        50,
+        60
+      ],
+      "C": [
+        50,
+        90
+      ],
+      "D": [
+        60,
+        280
+      ],
+      "E": [
+        450,
+        280
+      ],
+      "F": [
+        195,
+        280
+      ],
+      "G": [
+        310,
+        280
+      ],
+      "H": [
+        395,
+        280
+      ],
+      "K": [
+        300.32608695652175,
+        195.55229188173774
+      ],
+      "L": [
+        300.32608695652175,
+        364.44770811826226
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          30
+        ],
+        [
+          185,
+          30
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          60
+        ],
+        [
+          165,
+          60
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          90
+        ],
+        [
+          135,
+          90
+        ]
+      ],
+      [
+        "line",
+        [
+          60,
+          280
+        ],
+        [
+          450,
+          280
+        ]
+      ],
+      [
+        "circle",
+        [
+          195,
+          280
+        ],
+        5
+      ],
+      [
+        "circle",
+        [
+          310,
+          280
+        ],
+        5
+      ],
+      [
+        "circle",
+        [
+          395,
+          280
+        ],
+        5
+      ],
+      [
+        "circle",
+        [
+          195,
+          280
+        ],
+        270
+      ],
+      [
+        "circle",
+        [
+          310,
+          280
+        ],
+        170
+      ],
+      [
+        "line",
+        [
+          300.32608695652175,
+          195.55229188173774
+        ],
+        [
+          310,
+          280
+        ]
+      ],
+      [
+        "line",
+        [
+          300.32608695652175,
+          195.55229188173774
+        ],
+        [
+          195,
+          280
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3,
+        0.8
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        3
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        -2
+      ],
+      "K": [
+        0.5
+      ],
+      "L": [
+        -2
+      ]
+    },
+    "given": {
+      "A": [
+        [
+          "line",
+          [
+            50,
+            30
+          ],
+          [
+            185,
+            30
+          ]
+        ]
+      ],
+      "B": [
+        [
+          "line",
+          [
+            50,
+            60
+          ],
+          [
+            165,
+            60
+          ]
+        ]
+      ],
+      "C": [
+        [
+          "line",
+          [
+            50,
+            90
+          ],
+          [
+            135,
+            90
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "id": "1.23",
+    "title": "Proposition 23",
+    "prose": "To construct a rectilinear angle equal to a given rectilinear angle at a (given) point on a given straight-line.\n\nLet {AB line} be the given straight-line, {A point} the (given) point on it, and {DCE angle} the given rectilinear angle.\nSo it is required to construct a rectilinear angle equal to the given rectilinear angle {DCE angle} at the (given) point {A point} on the given straight-line {AB line}.\n\nLet the points {D point} and {E point} have been taken somewhere on each of the (straight-lines) {CD line} and {CE line} (respectively), and let {DE line} have been joined.\nAnd let the triangle {AFG polygon} have been constructed from three straight-lines which are equal to {CD line}, {DE line}, and {CE line}, such that {CD line} is equal to {AF line}, {CE line} to {AG line}, and also {DE line} to {FG line} [Prop. 1.22].\n\nTherefore, since the two (straight-lines) {DC line}, {CE line} are equal to the two straight-lines {FA line}, {AG line}, respectively, and the base {DE line} is equal to the base {FG line}, the angle {DCE angle} is thus equal to the angle {FAG angle} [Prop. 1.8].\n\nThus, the rectilinear angle {FAG angle}, equal to the given rectilinear angle {DCE angle}, has been constructed at the (given) point {A point} on the given straight-line {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        100,
+        350
+      ],
+      "B": [
+        400,
+        350
+      ],
+      "C": [
+        100,
+        100
+      ],
+      "D": [
+        220,
+        50
+      ],
+      "E": [
+        260,
+        160
+      ],
+      "F": [
+        194.80332922886578,
+        261.0487281309408
+      ],
+      "G": [
+        270.8800749063506,
+        350
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          100,
+          350
+        ],
+        [
+          400,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          100
+        ],
+        [
+          268,
+          30
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          100
+        ],
+        [
+          324,
+          184
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          50
+        ],
+        [
+          260,
+          160
+        ]
+      ],
+      [
+        "line",
+        [
+          194.80332922886578,
+          261.0487281309408
+        ],
+        [
+          100,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          194.80332922886578,
+          261.0487281309408
+        ],
+        [
+          270.8800749063506,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        2
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        0.2
+      ]
+    }
+  },
+  {
+    "id": "1.24",
+    "title": "Proposition 24",
+    "prose": "If two triangles have two sides equal to two sides, respectively, but (one) has the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the other), then (the former triangle) will also have a base greater than the base (of the latter).\n\nLet {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.\n(That is), {AB line} to {DE line}, and {AC line} to {DF line}.\nLet them also have the angle {BAC angle} greater than the angle {FDE angle}.\nI say that the base {BC line} is greater than the base {EF line}.\n\nFor since angle {BAC angle} is greater than angle {EDF angle}, let (angle) {EDG angle}, equal to angle {BAC angle}, have been constructed at point {D point} on the straight-line {DE line} [Prop. 1.23].\nAnd let {DG line} be made equal to either of {AC line} or {DF line} [Prop. 1.3], and let {EG line} and {FG line} have been joined.\n\nTherefore, since {AB line} is equal to {DE line} and {AC line} to {DG line}, the two (straight-lines) {BA line}, {AC line} are equal to the two (straight-lines) {ED line}, {DG line}, respectively.\nAlso the angle {BAC angle} is equal to the angle {EDG angle}.\nThus, the base {BC line} is equal to the base {EG line} [Prop. 1.4].\nAgain, since {DF line} is equal to {DG line}, angle {DGF angle} is also equal to angle {DFG angle} [Prop. 1.5].\nThus, {DFG angle} (is) greater than {EGF angle}.\nThus, {EFG angle} is much greater than {EGF angle}.\nAnd since triangle {EFG polygon} has angle {EFG angle} greater than {EGF angle}, and the greater angle subtends the greater side [Prop. 1.19], side {EG line} (is) thus also greater than {EF line}.\nBut {EG line} (is) equal to {BC line}.\nThus, {BC line} (is) also greater than {EF line}.\n\nThus, if two triangles have two sides equal to two sides, respectively, but (one) has the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the other), then (the former triangle) will also have a base greater than the base (of the latter).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        50
+      ],
+      "B": [
+        200,
+        200
+      ],
+      "C": [
+        70,
+        250
+      ],
+      "D": [
+        300,
+        50
+      ],
+      "E": [
+        400,
+        200
+      ],
+      "F": [
+        322.7860342318321,
+        250.94973661088926
+      ],
+      "G": [
+        270,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            50
+          ],
+          [
+            200,
+            200
+          ],
+          [
+            70,
+            250
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            300,
+            50
+          ],
+          [
+            400,
+            200
+          ],
+          [
+            270,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          322.7860342318321,
+          250.94973661088926
+        ],
+        [
+          400,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          322.7860342318321,
+          250.94973661088926
+        ],
+        [
+          300,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          322.7860342318321,
+          250.94973661088926
+        ],
+        [
+          270,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        4
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -1
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "1.25",
+    "title": "Proposition 25",
+    "prose": "If two triangles have two sides equal to two sides, respectively, but (one) has a base greater than the base (of the other), then (the former triangle) will also have the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the latter).\n\nLet {ABC polygon} and {DEF polygon} be two triangles having the two sides {AB line} and {AC line} equal to the two sides {DE line} and {DF line}, respectively.\n(That is), {AB line} to {DE line}, and {AC line} to {DF line}.\nAnd let the base {BC line} be greater than the base {EF line}.\nI say that angle {BAC angle} is also greater than {EDF angle}.\n\nFor if not, ({BAC angle}) is certainly either equal to, or less than ({EDF angle}).\nIn fact, {BAC angle} is not equal to {EDF angle}.\nFor then the base {BC line} would also have been equal to {EF line} [Prop. 1.4].\nBut it is not.\nThus, angle {BAC angle} is not equal to {EDF angle}.\nNeither, indeed, is {BAC angle} less than {EDF angle}.\nFor then the base {BC line} would also have been less than {EF line} [Prop. 1.24].\nBut it is not.\nThus, angle {BAC angle} is not less than {EDF angle}.\nBut it was shown that ({BAC angle} is) also not equal (to {EDF angle}).\nThus, {BAC angle} is greater than {EDF angle}.\n\nThus, if two triangles have two sides equal to two sides, respectively, but (one) has a base greater than the base (of the other), then (the former triangle) will also have the angle encompassed by the equal straight-lines greater than the (corresponding) angle (in the latter).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        200,
+        50
+      ],
+      "B": [
+        70,
+        200
+      ],
+      "C": [
+        320,
+        100
+      ],
+      "D": [
+        250,
+        200
+      ],
+      "E": [
+        80.01010372538792,
+        302.48626817552986
+      ],
+      "F": [
+        336.4220771924124,
+        297.11449208922795
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            200,
+            50
+          ],
+          [
+            70,
+            200
+          ],
+          [
+            320,
+            100
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            250,
+            200
+          ],
+          [
+            80.01010372538792,
+            302.48626817552986
+          ],
+          [
+            336.4220771924124,
+            297.11449208922795
+          ]
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "1.26",
+    "title": "Proposition 26",
+    "prose": "If two triangles have two angles equal to two angles, respectively, and one side equal to one side ---in fact, either that by the equal angles, or that subtending one of the equal angles--- then (the triangles) will also have the remaining sides equal to the [corresponding] remaining sides, and the remaining angle (equal) to the remaining angle.\n\nLet {ABC polygon} and {DEF polygon} be two triangles having the two angles {ABC angle} and {BCA angle} equal to the two (angles) {DEF angle} and {EFD angle}, respectively.\n(That is) {ABC angle} to {DEF angle}, and {BCA angle} to {EFD angle}.\nAnd let them also have one side equal to one side.\nFirst of all, the (side) by the equal angles.\n(That is) {BC line} (equal) to {EF line}.\nI say that the remaining sides will be equal to the corresponding remaining sides.\n(That is) {AB line} to {DE line}, and {AC line} to {DF line}.\nAnd the remaining angle (will be equal) to the remaining angle.\n(That is) {BAC angle} to {EDF angle}.\n\nFor if {AB line} is unequal to {DE line} then one of them is greater.\nLet {AB line} be greater, and let {BG line} be made equal to {DE line} [Prop. 1.3], and let {GC line} have been joined.\n\nTherefore, since {BG line} is equal to {DE line}, and {BC line} to {EF line}, the two (straight-lines) {GB line}, {BC line} are equal to the two (straight-lines) {DE line}, {EF line}, respectively.\nAnd angle {GBC angle} is equal to angle {DEF angle}.\nThus, the base {GC line} is equal to the base {DF line}, and triangle {GBC polygon} is equal to triangle {DEF polygon}, and the remaining angles subtended by the equal sides will be equal to the (corresponding) remaining angles [Prop. 1.4].\nThus, {GCB angle} (is equal) to {DFE angle}.\nBut, {DFE angle} was assumed (to be) equal to {BCA angle}.\nThus, {BCG angle} is also equal to {BCA angle}, the lesser to the greater.\nThe very thing (is) impossible.\nThus, {AB line} is not unequal to {DE line}.\nThus, (it is) equal.\nAnd {BC line} is also equal to {EF line}.\nSo the two (straight-lines) {AB line}, {BC line} are equal to the two (straight-lines) {DE line}, {EF line}, respectively.\nAnd angle {ABC angle} is equal to angle {DEF angle}.\nThus, the base {AC line} is equal to the base {DF line}, and the remaining angle {BAC angle} is equal to the remaining angle {EDF angle} [Prop. 1.4].\n\nBut, again, let the sides subtending the equal angles be equal: for instance, (let) {AB line} (be equal) to {DE line}.\nAgain, I say that the remaining sides will be equal to the remaining sides.\n(That is) {AC line} to {DF line}, and {BC line} to {EF line}.\nFurthermore, the remaining angle {BAC angle} is equal to the remaining angle {EDF angle}.\n\nFor if {BC line} is unequal to {EF line} then one of them is greater.\nIf possible, let {BC line} be greater.\nAnd let {BH line} be made equal to {EF line} [Prop. 1.3], and let {AH line} have been joined.\nAnd since {BH line} is equal to {EF line}, and {AB line} to {DE line}, the two (straight-lines) {AB line}, {BH line} are equal to the two (straight-lines) {DE line}, {EF line}, respectively.\nAnd the angles they encompass (are also equal).\nThus, the base {AH line} is equal to the base {DF line}, and the triangle {ABH polygon} is equal to the triangle {DEF polygon}, and the remaining angles subtended by the equal sides will be equal to the (corresponding) remaining angles [Prop. 1.4].\nThus, angle {BHA angle} is equal to {EFD angle}.\nBut, {EFD angle} is equal to {BCA angle}.\nSo, for triangle {AHC polygon}, the external angle {BHA angle} is equal to the internal and opposite angle {BCA angle}.\nThe very thing (is) impossible [Prop. 1.16].\nThus, {BC line} is not unequal to {EF line}.\nThus, (it is) equal.\nAnd {AB line} is also equal to {DE line}.\nSo the two (straight-lines) {AB line}, {BC line} are equal to the two (straight-lines) {DE line}, {EF line}, respectively.\nAnd they encompass equal angles.\nThus, the base {AC line} is equal to the base {DF line}, and triangle {ABC polygon} (is) equal to triangle {DEF polygon}, and the remaining angle {BAC angle} (is) equal to the remaining angle {EDF angle} [Prop. 1.4].\n\nThus, if two triangles have two angles equal to two angles, respectively, and one side equal to one side ---in fact, either that by the equal angles, or that subtending one of the equal angles--- then (the triangles) will also have the remaining sides equal to the (corresponding) remaining sides, and the remaining angle (equal) to the remaining angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        120
+      ],
+      "B": [
+        70,
+        250
+      ],
+      "C": [
+        260,
+        250
+      ],
+      "D": [
+        300,
+        40
+      ],
+      "E": [
+        270,
+        170
+      ],
+      "F": [
+        460,
+        170
+      ],
+      "G": [
+        91,
+        159
+      ],
+      "H": [
+        203,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            120
+          ],
+          [
+            70,
+            250
+          ],
+          [
+            260,
+            250
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            300,
+            40
+          ],
+          [
+            270,
+            170
+          ],
+          [
+            460,
+            170
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          91,
+          159
+        ],
+        [
+          260,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          203,
+          250
+        ],
+        [
+          100,
+          120
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.27",
+    "title": "Proposition 27",
+    "prose": "If a straight-line falling across two straight-lines makes the alternate angles equal to one another then the (two) straight-lines will be parallel to one another.\n\nFor let the straight-line {EF line}, falling across the two straight-lines {AB line} and {CD line}, make the alternate angles {AEF angle} and {EFD angle} equal to one another.\nI say that {AB line} and CD are parallel.\n\nFor if not, being produced, {AB line} and {CD line} will certainly meet together: either in the direction of {B point} and {D point}, or (in the direction) of {A point} and {C point} [Def. 1.23].\nLet them have been produced, and let them meet together in the direction of {B point} and {D point} at (point) {G point}.\nSo, for the triangle {GEF polygon}, the external angle {AEF angle} is equal to the interior and opposite (angle) {EFG angle}.\nThe very thing is impossible [Prop. 1.16].\nThus, being produced, {AB line} and {DC line} will not meet together in the direction of {B point} and {D point}.\nSimilarly, it can be shown that neither (will they meet together) in (the direction of) {A point} and {C point}.\nBut (straight-lines) meeting in neither direction are parallel [Def. 1.23].\nThus, {AB line} and {CD line} are parallel.\n\nThus, if a straight-line falling across two straight-lines makes the alternate angles equal to one another then the (two) straight-lines will be parallel (to one another).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        80
+      ],
+      "B": [
+        300,
+        80
+      ],
+      "C": [
+        50,
+        200
+      ],
+      "D": [
+        350,
+        200
+      ],
+      "E": [
+        200,
+        80
+      ],
+      "F": [
+        140,
+        200
+      ],
+      "G": [
+        450,
+        140
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          80
+        ],
+        [
+          300,
+          80
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          200
+        ],
+        [
+          350,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          450,
+          140
+        ],
+        [
+          350,
+          200
+        ]
+      ],
+      [
+        "line",
+        [
+          450,
+          140
+        ],
+        [
+          300,
+          80
+        ]
+      ],
+      [
+        "line",
+        [
+          110,
+          260
+        ],
+        [
+          230,
+          20
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1.8
+      ],
+      "F": [
+        5.3
+      ],
+      "G": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "1.28",
+    "title": "Proposition 28",
+    "prose": "If a straight-line falling across two straight-lines makes the external angle equal to the internal and opposite angle on the same side, or (makes) the (sum of the) internal (angles) on the same side equal to two right-angles, then the (two) straight-lines will be parallel to one another.\n\nFor let {EF line}, falling across the two straight-lines {AB line} and {CD line}, make the external angle {EGB angle} equal to the internal and opposite angle {GHD angle}, or the (sum of the) internal (angles) on the same side, {BGH angle} and {GHD angle}, equal to two right-angles.\nI say that {AB line} is parallel to {CD line}.\n\nFor since (in the first case) {EGB angle} is equal to {GHD angle}, but {EGB angle} is equal to {AGH angle} [Prop. 1.15], {AGH angle} is thus also equal to {GHD angle}.\nAnd they are alternate (angles).\nThus, {AB line} is parallel to {CD line} [Prop. 1.27].\n\nAgain, since (in the second case, the sum of) {BGH angle} and {GHD angle} is equal to two right-angles, and (the sum of) {AGH angle} and {BGH angle} is also equal to two right-angles [Prop. 1.13], (the sum of) {AGH angle} and {BGH angle} is thus equal to (the sum of) {BGH angle} and {GHD angle}.\nLet {BGH angle} have been subtracted from both.\nThus, the remainder {AGH angle} is equal to the remainder {GHD angle}.\nAnd they are alternate (angles).\nThus, {AB line} is parallel to {CD line} [Prop. 1.27].\n\nThus, if a straight-line falling across two straight-lines makes the external angle equal to the internal and opposite angle on the same side, or (makes) the (sum of the) internal (angles) on the same side equal to two right-angles, then the (two) straight-lines will be parallel (to one another).\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        100
+      ],
+      "B": [
+        400,
+        100
+      ],
+      "C": [
+        50,
+        250
+      ],
+      "D": [
+        400,
+        250
+      ],
+      "E": [
+        102.5,
+        25
+      ],
+      "F": [
+        312.5,
+        325
+      ],
+      "G": [
+        155,
+        100
+      ],
+      "H": [
+        260,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          100
+        ],
+        [
+          400,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          400,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          102.5,
+          25
+        ],
+        [
+          312.5,
+          325
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        0.3
+      ],
+      "H": [
+        0.3
+      ]
+    }
+  },
+  {
+    "id": "1.29",
+    "title": "Proposition 29",
+    "prose": "A straight-line falling across parallel straight-lines makes the alternate angles equal to one another, the external (angle) equal to the internal and opposite (angle), and the (sum of the) internal (angles) on the same side equal to two right-angles.\n\nFor let the straight-line {EF line} fall across the parallel straight-lines {AB line} and {CD line}.\nI say that it makes the alternate angles, {AGH angle} and {GHD angle}, equal, the external angle {EGB angle} equal to the internal and opposite (angle) {GHD angle}, and the (sum of the) internal (angles) on the same side, {BGH angle} and {GHD angle}, equal to two right-angles.\n\nFor if {AGH angle} is unequal to {GHD angle} then one of them is greater.\nLet {AGH angle} be greater.\nLet {BGH angle} have been added to both.\nThus, (the sum of) {AGH angle} and {BGH angle} is greater than (the sum of) {BGH angle} and {GHD angle}.\nBut, (the sum of) {AGH angle} and {BGH angle} is equal to two right-angles [Prop. 1.13].\nThus, (the sum of) {BGH angle} and {GHD angle} is [also] less than two right-angles.\nBut (straight-lines) being produced to infinity from (internal angles whose sum is) less than two right-angles meet together [Post. 5].\nThus, {AB line} and {CD line}, being produced to infinity, will meet together.\nBut they do not meet, on account of them (initially) being assumed parallel (to one another) [Def. 1.23].\nThus, {AGH angle} is not unequal to {GHD angle}.\nThus, (it is) equal.\nBut, {AGH angle} is equal to {EGB angle} [Prop. 1.15].\nAnd {EGB angle} is thus also equal to {GHD angle}.\nLet {BGH angle} be added to both.\nThus, (the sum of) {EGB angle} and {BGH angle} is equal to (the sum of) {BGH angle} and {GHD angle}.\n\nBut, (the sum of) {EGB angle} and {BGH angle} is equal to two right-angles [Prop. 1.13].\nThus, (the sum of) {BGH angle} and {GHD angle} is also equal to two right-angles.\n\nThus, a straight-line falling across parallel straight-lines makes the alternate angles equal to one another, the external (angle) equal to the internal and opposite (angle), and the (sum of the) internal (angles) on the same side equal to two right-angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        100
+      ],
+      "B": [
+        400,
+        100
+      ],
+      "C": [
+        50,
+        250
+      ],
+      "D": [
+        400,
+        250
+      ],
+      "E": [
+        102.5,
+        25
+      ],
+      "F": [
+        312.5,
+        325
+      ],
+      "G": [
+        155,
+        100
+      ],
+      "H": [
+        260,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          100
+        ],
+        [
+          400,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          400,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          102.5,
+          25
+        ],
+        [
+          312.5,
+          325
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        0.3
+      ],
+      "H": [
+        0.3
+      ]
+    }
+  },
+  {
+    "id": "1.30",
+    "title": "Proposition 30",
+    "prose": "(Straight-lines) parallel to the same straight-line are also parallel to one another.\n\nLet each of the (straight-lines) {AB line} and {CD line} be parallel to {EF line}.\nI say that {AB line} is also parallel to {CD line}.\n\nFor let the straight-line {GK line} fall across ({AB line}, {CD line}, and {EF line}).\n\nAnd since {GK line} has fallen across the parallel straight-lines {AB line} and {EF line}, (angle) {AGK angle} (is) thus equal to {GHF angle} [Prop. 1.29].\nAgain, since {GK line} has fallen across the parallel straight-lines {EF line} and {CD line}, (angle) {GHF angle} is equal to {GKD angle} [Prop. 1.29].\nBut {AGK angle} was also shown (to be) equal to {GHF angle}.\nThus, {AGK angle} is also equal to {GKD angle}.\nAnd they are alternate (angles).\nThus, {AB line} is parallel to {CD line} [Prop. 1.27].\n\n[Thus, (straight-lines) parallel to the same straight-line are also parallel to one another.]\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        50,
+        100
+      ],
+      "B": [
+        400,
+        100
+      ],
+      "C": [
+        50,
+        250
+      ],
+      "D": [
+        400,
+        250
+      ],
+      "E": [
+        50,
+        170
+      ],
+      "F": [
+        400,
+        170
+      ],
+      "G": [
+        242.50000000000003,
+        100
+      ],
+      "H": [
+        207.5,
+        170
+      ],
+      "K": [
+        172.5,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          100
+        ],
+        [
+          400,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          400,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          170
+        ],
+        [
+          400,
+          170
+        ]
+      ],
+      [
+        "line",
+        [
+          270.50000000000006,
+          40
+        ],
+        [
+          144.5,
+          310
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3,
+        0.8
+      ],
+      "B": [
+        -1
+      ],
+      "C": [
+        3
+      ],
+      "D": [
+        -1
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        1.6
+      ],
+      "H": [
+        1.6
+      ],
+      "K": [
+        1.6
+      ]
+    }
+  },
+  {
+    "id": "1.31",
+    "title": "Proposition 31",
+    "prose": "To draw a straight-line parallel to a given straight-line, through a given point.\n\nLet {A point} be the given point, and {BC line} the given straight-line.\nSo it is required to draw a straight-line parallel to the straight-line {BC line}, through the point {A point}.\n\nLet the point {D point} have been taken somewhere on {BC line}, and let {AD line} have been joined.\nAnd let (angle) {DAE angle}, equal to angle {ADC angle}, have been constructed at the point {A point} on the straight-line {DA line} [Prop. 1.23].\nAnd let the straight-line {AF line} have been produced in a straight-line with {EA line}.\n\nAnd since the straight-line {AD line}, (in) falling across the two straight-lines {BC line} and {EF line}, has made the alternate angles {EAD angle} and {ADC angle} equal to one another, {EF line} is thus parallel to {BC line} [Prop. 1.27].\n\nThus, the straight-line {EF line} has been drawn parallel to the given straight-line {BC line}, through the given point {A point}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        250,
+        100
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        400,
+        250
+      ],
+      "D": [
+        150,
+        250
+      ],
+      "E": [
+        50,
+        100
+      ],
+      "F": [
+        400,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          250
+        ],
+        [
+          400,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          100
+        ],
+        [
+          400,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          100
+        ],
+        [
+          150,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        4.5
+      ],
+      "E": [
+        3
+      ],
+      "F": [
+        -1
+      ]
+    }
+  },
+  {
+    "id": "1.32",
+    "title": "Proposition 32",
+    "prose": "For any triangle, (if) one of the sides (is) produced (then) the external angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three internal angles of the triangle is equal to two right-angles.\n\nLet {ABC polygon} be a triangle, and let one of its sides {BC line} have been produced to {D point}.\nI say that the external angle {ACD angle} is equal to the (sum of the) two internal and opposite angles {CAB angle} and {ABC angle}, and the (sum of the) three internal angles of the triangle ---{ABC angle}, {BCA angle}, and {CAB angle}--- is equal to two right-angles.\n\nFor let {CE line} have been drawn through point {C point} parallel to the straight-line {AB line} [Prop. 1.31].\n\nAnd since {AB line} is parallel to {CE line}, and {AC line} has fallen across them, the alternate angles {BAC angle} and {ACE angle} are equal to one another [Prop. 1.29].\nAgain, since {AB line} is parallel to {CE line}, and the straight-line {BD line} has fallen across them, the external angle {ECD angle} is equal to the internal and opposite (angle) {ABC angle} [Prop. 1.29].\nBut {ACE angle} was also shown (to be) equal to {BAC angle}.\nThus, the whole angle {ACD angle} is equal to the (sum of the) two internal and opposite (angles) {BAC angle} and {ABC angle}.\n\nLet {ACB angle} have been added to both.\nThus, (the sum of) {ACD angle} and {ACB angle} is equal to the (sum of the) three (angles) {ABC angle}, {BCA angle}, and {CAB angle}.\nBut, (the sum of) {ACD angle} and {ACB angle} is equal to two right-angles [Prop. 1.13].\nThus, (the sum of) {ACB angle}, {CBA angle}, and {CAB angle} is also equal to two right-angles.\n\nThus, for any triangle, (if) one of the sides (is) produced (then) the external angle is equal to the (sum of the) two internal and opposite (angles), and the (sum of the) three internal angles of the triangle is equal to two right-angles.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        100
+      ],
+      "B": [
+        50,
+        350
+      ],
+      "C": [
+        250,
+        350
+      ],
+      "D": [
+        400,
+        350
+      ],
+      "E": [
+        350,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          50,
+          350
+        ],
+        [
+          150,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          50,
+          350
+        ],
+        [
+          400,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          100
+        ],
+        [
+          250,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          350,
+          100
+        ],
+        [
+          250,
+          350
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.33",
+    "title": "Proposition 33",
+    "prose": "Straight-lines joining equal and parallel (straight-lines) on the same sides are themselves also equal and parallel.\n\nLet {AB line} and {CD line} be equal and parallel (straight-lines), and let the straight-lines {AC line} and {BD line} join them on the same sides.\nI say that {AC line} and {BD line} are also equal and parallel.\n\nLet {BC line} have been joined.\nAnd since {AB line} is parallel to {CD line}, and {BC line} has fallen across them, the alternate angles {ABC angle} and {BCD angle} are equal to one another [Prop. 1.29].\nAnd since {AB line} and {CD line} are equal, and {BC line} is common, the two (straight-lines) {AB line}, {BC line} are equal to the two (straight-lines) {DC line}, {CB line}.\nAnd the angle {ABC angle} is equal to the angle {BCD angle}.\nThus, the base {AC line} is equal to the base {BD line}, and triangle {ABC polygon} is equal to triangle {ACD polygon}, and the remaining angles will be equal to the corresponding remaining angles subtended by the equal sides [Prop. 1.4].\nThus, angle {ACB angle} is equal to {CBD angle}.\nAlso, since the straight-line {BC line}, (in) falling across the two straight-lines {AC line} and {BD line}, has made the alternate angles ({ACB angle} and {CBD angle}) equal to one another, {AC line} is thus parallel to {BD line} [Prop. 1.27].\nAnd ({AC line}) was also shown (to be) equal to ({BD line}).\n\nThus, straight-lines joining equal and parallel (straight-lines) on the same sides are themselves also equal and parallel.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        400,
+        100
+      ],
+      "B": [
+        150,
+        100
+      ],
+      "C": [
+        300,
+        250
+      ],
+      "D": [
+        50,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            400,
+            100
+          ],
+          [
+            150,
+            100
+          ],
+          [
+            50,
+            250
+          ],
+          [
+            300,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          150,
+          100
+        ],
+        [
+          300,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.34",
+    "title": "Proposition 34",
+    "prose": "For parallelogrammic figures, the opposite sides and angles are equal to one another, and a diagonal cuts them in half.\n\nLet {ACDB polygon} be a parallelogrammic figure, and {BC line} its diagonal.\nI say that for parallelogram {ACDB polygon}, the opposite sides and angles are equal to one another, and the diagonal {BC line} cuts it in half.\n\nFor since {AB line} is parallel to {CD line}, and the straight-line {BC line} has fallen across them, the alternate angles {ABC angle} and {BCD angle} are equal to one another [Prop. 1.29].\nAgain, since {AC line} is parallel to {BD line}, and {BC line} has fallen across them, the alternate angles {ACB angle} and {CBD angle} are equal to one another [Prop. 1.29].]\nSo {ABC polygon} and {BCD polygon} are two triangles having the two angles {ABC angle} and {BCA angle} equal to the two (angles) {BCD angle} and {CBD angle}, respectively, and one side equal to one side—the (one) common to the equal angles, (namely) {BC line}.\nThus, they will also have the remaining sides equal to the corresponding remaining (sides), and the remaining angle (equal) to the remaining angle [Prop. 1.26].\nThus, side {AB line} is equal to {CD line}, and {AC line} to {BD line}.\nFurthermore, angle {BAC angle} is equal to {CDB angle}.\nAnd since angle {ABC angle} is equal to {BCD angle}, and {CBD angle} to {ACB angle}, the whole (angle) {ABD angle} is thus equal to the whole (angle) {ACD angle}.\nAnd {BAC angle} was also shown (to be) equal to {CDB angle}.\n\nThus, for parallelogrammic figures, the opposite sides and angles are equal to one another.\n\nAnd, I also say that a diagonal cuts them in half.\nFor since {AB line} is equal to {CD line}, and {BC line} (is) common, the two (straight-lines) {AB line}, {BC line} are equal to the two (straight-lines) {DC line}, {CB line}, respectively.\nAnd angle {ABC angle} is equal to angle {BCD angle}.\nThus, the base {AC line} (is) also equal to {DB line} [Prop. 1.4].\nAlso, triangle {ABC polygon} is equal to triangle {BCD polygon} [Prop. 1.4].\n\nThus, the diagonal {BC line} cuts the parallelogram {ACDB polygon} in half.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        150,
+        100
+      ],
+      "B": [
+        400,
+        100
+      ],
+      "C": [
+        120,
+        250
+      ],
+      "D": [
+        370,
+        250
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            150,
+            100
+          ],
+          [
+            400,
+            100
+          ],
+          [
+            370,
+            250
+          ],
+          [
+            120,
+            250
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          400,
+          100
+        ],
+        [
+          120,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        1
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "1.35",
+    "title": "Proposition 35",
+    "prose": "Parallelograms which are on the same base and between the same parallels are equal to one another.\n\nLet {ABCD polygon} and {EBCF polygon} be parallelograms on the same base {BC line}, and between the same parallels {AF line} and {BC line}.\nI say that {ABCD polygon} is equal to parallelogram {EBCF polygon}.\n\nFor since {ABCD polygon} is a parallelogram, {AD line} is equal to {BC line} [Prop. 1.34].\nSo, for the same (reasons), {EF line} is also equal to {BC line}.\nSo {AD line} is also equal to {EF line}.\nAnd {DE line} is common.\nThus, the whole (straight-line) {AE line} is equal to the whole (straight-line) {DF line}.\nAnd {AB line} is also equal to {DC line}.\nSo the two (straight-lines) {EA line}, {AB line} are equal to the two (straight-lines) {FD line}, {DC line}, respectively.\nAnd angle {FDC angle} is equal to angle {EAB angle}, the external to the internal [Prop. 1.29].\nThus, the base {EB line} is equal to the base {FC line}, and triangle {EAB polygon} will be equal to triangle {DFC polygon} [Prop. 1.4].\nLet {DGE polygon} have been taken away from both.\nThus, the remaining trapezium {ABGD polygon} is equal to the remaining trapezium {EGCF polygon}.\nLet triangle {GBC polygon} have been added to both.\nThus, the whole parallelogram {ABCD polygon} is equal to the whole parallelogram {EBCF polygon}.\n\nThus, parallelograms which are on the same base and between the same parallels are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        100
+      ],
+      "B": [
+        170,
+        250
+      ],
+      "C": [
+        270,
+        250
+      ],
+      "D": [
+        200,
+        100
+      ],
+      "E": [
+        300,
+        100
+      ],
+      "F": [
+        400,
+        100
+      ],
+      "G": [
+        235,
+        175
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            100
+          ],
+          [
+            170,
+            250
+          ],
+          [
+            270,
+            250
+          ],
+          [
+            400,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          270,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          100
+        ],
+        [
+          170,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        -3
+      ],
+      "C": [
+        -3
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        -1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "1.36",
+    "title": "Proposition 36",
+    "prose": "Parallelograms which are on equal bases and between the same parallels are equal to one another.\n\nLet {ABCD polygon} and {EFGH polygon} be parallelograms which are on the equal bases {BC line} and {FG line}, and (are) between the same parallels {AH line} and {BG line}.\nI say that the parallelogram {ABCD polygon} is equal to {EFGH polygon}.\n\nFor let {BE line} and {CH line} have been joined.\nAnd since {BC line} and {FG line} are equal, but {FG line} and {EH line} are equal [Prop. 1.34], {BC line} and {EH line} are thus also equal.\nAnd they are also parallel, and {EB line} and {HC line} join them.\nBut (straight-lines) joining equal and parallel (straight-lines) on the same sides are (themselves) equal and parallel [Prop. 1.33] [thus, {EB line} and {HC line} are also equal and parallel].\nThus, {EBCH polygon} is a parallelogram [Prop. 1.34], and is equal to {ABCD polygon}.\nFor it has the same base, {BC line}, as ({ABCD polygon}), and is between the same parallels, {BC line} and {AH line}, as ({ABCD polygon}) [Prop. 1.35].\nSo, for the same (reasons), {EFGH polygon} is also equal to the same (parallelogram) {EBCH polygon} [Prop. 1.34].\nSo that the parallelogram {ABCD polygon} is also equal to {EFGH polygon}.\n\nThus, parallelograms which are on equal bases and between the same parallels are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        100
+      ],
+      "B": [
+        70,
+        250
+      ],
+      "C": [
+        140,
+        250
+      ],
+      "D": [
+        170,
+        100
+      ],
+      "E": [
+        270,
+        100
+      ],
+      "F": [
+        340,
+        250
+      ],
+      "G": [
+        410,
+        250
+      ],
+      "H": [
+        340,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            100
+          ],
+          [
+            70,
+            250
+          ],
+          [
+            410,
+            250
+          ],
+          [
+            340,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          140,
+          250
+        ],
+        [
+          170,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          140,
+          250
+        ],
+        [
+          340,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          270,
+          100
+        ],
+        [
+          70,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          270,
+          100
+        ],
+        [
+          340,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.37",
+    "title": "Proposition 37",
+    "prose": "Triangles which are on the same base and between the same parallels are equal to one another.\n\nLet {ABC polygon} and {DBC polygon} be triangles on the same base {BC line}, and between the same parallels {AD line} and {BC line}.\nI say that triangle {ABC polygon} is equal to triangle {DBC polygon}.\n\nLet {AD line} have been produced in each direction to {E point} and {F point}, and let the (straight-line) {BE line} have been drawn through {B point} parallel to {CA line} [Prop. 1.31], and let the (straight-line) {CF line} have been drawn through {C point} parallel to {BD line} [Prop. 1.31].\nThus, {EBCA polygon} and {DBCF polygon} are both parallelograms, and are equal.\nFor they are on the same base {BC line}, and between the same parallels {BC line} and {EF line} [Prop. 1.35].\nAnd the triangle {ABC polygon} is half of the parallelogram {EBCA polygon}.\nFor the diagonal {AB line} cuts the latter in half [Prop. 1.34].\nAnd the triangle {DBC polygon} (is) half of the parallelogram {DBCF polygon}.\nFor the diagonal {DC line} cuts the latter in half [Prop. 1.34].\n[And the halves of equal things are equal to one another.]\nThus, triangle {ABC polygon} is equal to triangle {DBC polygon}.\n\nThus, triangles which are on the same base and between the same parallels are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        200,
+        100
+      ],
+      "B": [
+        150,
+        250
+      ],
+      "C": [
+        320,
+        250
+      ],
+      "D": [
+        300,
+        100
+      ],
+      "E": [
+        30,
+        100
+      ],
+      "F": [
+        470,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            30,
+            100
+          ],
+          [
+            150,
+            250
+          ],
+          [
+            320,
+            250
+          ],
+          [
+            470,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          150,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          100
+        ],
+        [
+          320,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          100
+        ],
+        [
+          150,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          100
+        ],
+        [
+          320,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.38",
+    "title": "Proposition 38",
+    "prose": "Triangles which are on equal bases and between the same parallels are equal to one another.\n\nLet {ABC polygon} and {DEF polygon} be triangles on the equal bases {BC line} and {EF line}, and between the same parallels {BF line} and {AD line}.\nI say that triangle {ABC polygon} is equal to triangle {DEF polygon}.\n\nFor let {AD line} have been produced in each direction to {G point} and {H point},\nand let the (straight-line) {BG line} have been drawn through {B point} parallel to {CA line} [Prop. 1.31], and let the (straight-line) {FH line} have been drawn through {F point} parallel to {DE line} [Prop. 1.31].\nThus, {GBCA polygon} and {DEFH polygon} are each parallelograms.\nAnd {GBCA polygon} is equal to {DEFH polygon}.\nFor they are on the equal bases {BC line} and {EF line}, and between the same parallels {BF line} and {GH line} [Prop. 1.36].\nAnd triangle {ABC polygon} is half of the parallelogram {GBCA polygon}.\nFor the diagonal {AB line} cuts the latter in half [Prop. 1.34].\nAnd triangle {FED polygon} (is) half of parallelogram {DEFH polygon}.\nFor the diagonal {DF line} cuts the latter in half.\n[And the halves of equal things are equal to one another].\nThus, triangle {ABC polygon} is equal to triangle {DEF polygon}.\n\nThus, triangles which are on equal bases and between the same parallels are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        220,
+        100
+      ],
+      "B": [
+        90,
+        250
+      ],
+      "C": [
+        190,
+        250
+      ],
+      "D": [
+        300,
+        100
+      ],
+      "E": [
+        340,
+        250
+      ],
+      "F": [
+        440,
+        250
+      ],
+      "G": [
+        120,
+        100
+      ],
+      "H": [
+        400,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            120,
+            100
+          ],
+          [
+            90,
+            250
+          ],
+          [
+            440,
+            250
+          ],
+          [
+            400,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          100
+        ],
+        [
+          90,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          220,
+          100
+        ],
+        [
+          190,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          100
+        ],
+        [
+          340,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          300,
+          100
+        ],
+        [
+          440,
+          250
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        5
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.39",
+    "title": "Proposition 39",
+    "prose": "Equal triangles which are on the same base, and on the same side, are also between the same parallels.\n\nLet {ABC polygon} and {DBC polygon} be equal triangles which are on the same base {BC line}, and on the same side.\nI say that they are also between the same parallels.\n\nFor let {AD line} have been joined.\nI say that {AD line} and {BC line} are parallel.\n\nFor, if not, let {AE line} have been drawn through point {A point} parallel to the straight-line {BC line} [Prop. 1.31], and let {EC line} have been joined.\nThus, triangle {ABC polygon} is equal to triangle {EBC polygon}.\nFor it is on the same base as it, {BC line}, and between the same parallels [Prop. 1.37].\nBut {ABC polygon} is equal to {DBC polygon}.\nThus, {DBC polygon} is also equal to {EBC polygon}, the greater to the lesser.\nThe very thing is impossible.\nThus, {AE line} is not parallel to {BC line}.\nSimilarly, we can show that neither (is) any other (straight-line) than {AD line}.\nThus, {AD line} is parallel to {BC line}.\n\nThus, equal triangles which are on the same base, and on the same side, are also between the same parallels.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        120,
+        100
+      ],
+      "B": [
+        90,
+        300
+      ],
+      "C": [
+        400,
+        300
+      ],
+      "D": [
+        350,
+        100
+      ],
+      "E": [
+        324,
+        120
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            120,
+            100
+          ],
+          [
+            90,
+            300
+          ],
+          [
+            400,
+            300
+          ],
+          [
+            350,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          100
+        ],
+        [
+          400,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          90,
+          300
+        ],
+        [
+          350,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          324,
+          120
+        ],
+        [
+          120,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          324,
+          120
+        ],
+        [
+          400,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        3
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        4.6,
+        4
+      ]
+    }
+  },
+  {
+    "id": "1.40",
+    "title": "Proposition 40",
+    "prose": "Equal triangles which are on equal bases, and on the same side, are also between the same parallels.\n\nLet {ABC polygon} and {CDE polygon} be equal triangles on the equal bases {BC line} and {CE line} (respectively), and on the same side.\nI say that they are also between the same parallels.\n\nFor let {AD line} have been joined.\nI say that {AD line} is parallel to {BE line}.\n\nFor if not, let {AF line} have been drawn through {A point} parallel to {BE line} [Prop. 1.31], and let {FE line} have been joined.\nThus, triangle {ABC polygon} is equal to triangle {FCE polygon}.\nFor they are on equal bases, {BC line} and {CE line}, and between the same parallels, {BE line} and {AF line} [Prop. 1.38].\nBut, triangle {ABC polygon} is equal to [triangle] {DCE polygon}.\nThus, [triangle] {DCE polygon} is also equal to triangle {FCE polygon}, the greater to the lesser.\nThe very thing is impossible.\nThus, {AF line} is not parallel to {BE line}.\nSimilarly, we can show that neither (is) any other (straight-line) than {AD line}.\nThus, {AD line} is parallel to {BE line}.\n\nThus, equal triangles which are on equal bases, and on the same side, are also between the same parallels.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        120,
+        100
+      ],
+      "B": [
+        90,
+        300
+      ],
+      "C": [
+        270,
+        300
+      ],
+      "D": [
+        400,
+        100
+      ],
+      "E": [
+        450,
+        300
+      ],
+      "F": [
+        374,
+        140
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            120,
+            100
+          ],
+          [
+            90,
+            300
+          ],
+          [
+            450,
+            300
+          ],
+          [
+            400,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          120,
+          100
+        ],
+        [
+          270,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          270,
+          300
+        ],
+        [
+          400,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          374,
+          140
+        ],
+        [
+          120,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          374,
+          140
+        ],
+        [
+          450,
+          300
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        1.5
+      ]
+    }
+  },
+  {
+    "id": "1.41",
+    "title": "Proposition 41",
+    "prose": "If a parallelogram has the same base as a triangle, and is between the same parallels, then the parallelogram is double (the area) of the triangle.\n\nFor let parallelogram {ABCD polygon} have the same base {BC line} as triangle {EBC polygon}, and let it be between the same parallels, {BC line} and {AE line}.\nI say that parallelogram {ABCD polygon} is double (the area) of triangle {BEC polygon}.\n\nFor let {AC line} have been joined.\nSo triangle {ABC polygon} is equal to triangle {EBC polygon}.\nFor it is on the same base, {BC line}, as ({EBC polygon}), and between the same parallels, {BC line} and {AE line} [Prop. 1.37].\nBut, parallelogram {ABCD polygon} is double (the area) of triangle {ABC polygon}.\nFor the diagonal {AC line} cuts the former in half [Prop. 1.34].\nSo parallelogram {ABCD polygon} is also double (the area) of triangle {EBC polygon}.\n\nThus, if a parallelogram has the same base as a triangle, and is between the same parallels, then the parallelogram is double (the area) of the triangle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        70,
+        100
+      ],
+      "B": [
+        40,
+        300
+      ],
+      "C": [
+        220,
+        300
+      ],
+      "D": [
+        250,
+        100
+      ],
+      "E": [
+        430,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            70,
+            100
+          ],
+          [
+            40,
+            300
+          ],
+          [
+            220,
+            300
+          ],
+          [
+            430,
+            100
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          70,
+          100
+        ],
+        [
+          220,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          100
+        ],
+        [
+          220,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          40,
+          300
+        ],
+        [
+          430,
+          100
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "1.42",
+    "title": "Proposition 42",
+    "prose": "To construct a parallelogram equal to a given triangle in a given rectilinear angle.\n\nLet {ABC polygon} be the given triangle, and {D given} the given rectilinear angle.\nSo it is required to construct a parallelogram equal to triangle {ABC polygon} in the rectilinear angle {D given}.\n\nLet {BC line} have been cut in half at {E point} [Prop. 1.10], and let {AE line} have been joined.\nAnd let (angle) {CEF angle}, equal to angle {D given}, have been constructed at the point {E point} on the straight-line {EC line} [Prop. 1.23].\nAnd let {AG line} have been drawn through {A point} parallel to {EC line} [Prop. 1.31], and let {CG line} have been drawn through {C point} parallel to {EF line} [Prop. 1.31].\nThus, {FECG polygon} is a parallelogram.\nAnd since {BE line} is equal to {EC line}, triangle {ABE polygon} is also equal to triangle {AEC polygon}.\nFor they are on the equal bases, {BE line} and {EC line}, and between the same parallels, {BC line} and {AG line} [Prop. 1.38].\nThus, triangle {ABC polygon} is double (the area) of triangle {AEC polygon}.\nAnd parallelogram {FECG polygon} is also double (the area) of triangle {AEC polygon}.\nFor it has the same base as ({AEC polygon}), and is between the same parallels as ({AEC polygon}) [Prop. 1.41].\nThus, parallelogram {FECG polygon} is equal to triangle {ABC polygon}.\n({FECG polygon}) also has the angle {CEF angle} equal to the given (angle) {D given}.\n\nThus, parallelogram {FECG polygon}, equal to the given triangle {ABC polygon}, has been constructed in the angle {CEF angle}, which is equal to {D given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        130,
+        100
+      ],
+      "B": [
+        100,
+        300
+      ],
+      "C": [
+        360,
+        300
+      ],
+      "D": [
+        60,
+        90
+      ],
+      "E": [
+        230,
+        300
+      ],
+      "F": [
+        345.4700538379252,
+        100
+      ],
+      "G": [
+        475.4700538379252,
+        100
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            130,
+            100
+          ],
+          [
+            100,
+            300
+          ],
+          [
+            360,
+            300
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          20,
+          20
+        ],
+        [
+          60,
+          90
+        ]
+      ],
+      [
+        "line",
+        [
+          100.6217782649107,
+          20.358983848622444
+        ],
+        [
+          60,
+          90
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          100
+        ],
+        [
+          230,
+          300
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          100
+        ],
+        [
+          475.4700538379252,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          360,
+          300
+        ],
+        [
+          475.4700538379252,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          300
+        ],
+        [
+          345.4700538379252,
+          100
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1,
+        8
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ]
+    },
+    "given": {
+      "D": [
+        [
+          "anglecurve",
+          [
+            20,
+            20
+          ],
+          [
+            60,
+            90
+          ],
+          [
+            100.6217782649107,
+            20.358983848622444
+          ]
+        ],
+        [
+          "line",
+          [
+            60,
+            90
+          ],
+          [
+            20,
+            20
+          ]
+        ],
+        [
+          "line",
+          [
+            60,
+            90
+          ],
+          [
+            100.6217782649107,
+            20.358983848622444
+          ]
+        ]
+      ]
+    }
+  },
+  {
+    "id": "1.43",
+    "title": "Proposition 43",
+    "prose": "For any parallelogram, the complements of the parallelograms about the diagonal are equal to one another.\n\nLet {ABCD polygon} be a parallelogram, and {AC line} its diagonal.\nAnd let {EH polygon} and {FG polygon} be the parallelograms about {AC line},and {BK polygon} and {KD polygon} the so-called complements (about {AC line}).\nI say that the complement {BK polygon} is equal to the complement {KD polygon}.\n\nFor since {ABCD polygon} is a parallelogram, and {AC line} its diagonal, triangle {ABC polygon} is equal to triangle {ACD polygon} [Prop. 1.34].\nAgain, since {EH polygon} is a parallelogram, and {AK line} is its diagonal, triangle {AEK polygon} is equal to triangle {AHK polygon} [Prop. 1.34].\nSo, for the same (reasons), triangle {KFC polygon} is also equal to (triangle) {KGC polygon}.\nTherefore, since triangle {AEK polygon} is equal to triangle {AHK polygon}, and {KFC polygon} to {KGC polygon}, triangle {AEK polygon} plus {KGC polygon} is equal to triangle {AHK polygon} plus {KFC polygon}.\nAnd the whole triangle {ABC polygon} is also equal to the whole (triangle) {ADC polygon}.\nThus, the remaining complement {BK polygon} is equal to the remaining complement {KD polygon}.\n\nThus, for any parallelogramic figure, the complements of the parallelograms about the diagonal are equal to one another.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        100,
+        70
+      ],
+      "B": [
+        50,
+        250
+      ],
+      "C": [
+        350,
+        250
+      ],
+      "D": [
+        400,
+        70
+      ],
+      "E": [
+        85,
+        124
+      ],
+      "F": [
+        385,
+        124
+      ],
+      "G": [
+        140,
+        250
+      ],
+      "H": [
+        190,
+        70
+      ],
+      "K": [
+        175,
+        124
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            70
+          ],
+          [
+            50,
+            250
+          ],
+          [
+            350,
+            250
+          ],
+          [
+            400,
+            70
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          70
+        ],
+        [
+          350,
+          250
+        ]
+      ],
+      [
+        "line",
+        [
+          85,
+          124
+        ],
+        [
+          385,
+          124
+        ]
+      ],
+      [
+        "line",
+        [
+          140,
+          250
+        ],
+        [
+          190,
+          70
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        5
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        3,
+        2
+      ],
+      "F": [
+        -1
+      ],
+      "G": [
+        5
+      ],
+      "H": [
+        1
+      ],
+      "K": [
+        -0.2,
+        4
+      ]
+    },
+    "polygonl": {
+      "EH": "EAHK",
+      "FG": "FCGK",
+      "BK": "BGKE",
+      "KD": "KFDH"
+    }
+  },
+  {
+    "id": "1.44",
+    "title": "Proposition 44",
+    "prose": "To apply a parallelogram equal to a given triangle to a given straight-line in a given rectilinear angle.\n\nLet {AB line} be the given straight-line, {C given} the given triangle, and {D given} the given rectilinear angle.\nSo it is required to apply a parallelogram equal to the given triangle {C given} to the given straight-line {AB line} in an angle equal to {D given}.\n\nLet the parallelogram {BEFG polygon}, equal to the triangle {C given}, have been constructed in the angle {EBG angle}, which is equal to {D given} [Prop. 1.42].\nAnd let it have been placed so that {BE line} is straight-on to {AB line}.\nAnd let {FG line} have been drawn through to {H point} (as {FH line}), and let {AH line} have been drawn through {A point} parallel to either of {BG line} or {EF line} [Prop. 1.31], and let {HB line} have been joined.\nAnd since the straight-line {HF line} falls across the parallel-lines {AH line} and {EF line}, the (sum of the) angles {AHF angle} and {HFE angle} is thus equal to two right-angles [Prop. 1.29].\nThus, (the sum of) {BHG angle} and {GFE angle} is less than two right-angles.\nAnd (straight-lines) produced to infinity from (internal angles whose sum is) less than two right-angles meet together [Post. 5].\nThus, being produced, {HB line} and {FE line} will meet together.\nLet them have been produced, and let them meet together at {K point}.\nAnd let {KL line} have been drawn through point {K point} parallel to either of {EA line} or {FH line} [Prop. 1.31].\nAnd let {HA line} and {GB line} have been produced to points {L point} and {M point} (respectively).\nThus, {HLKF polygon} is a parallelogram, and {HK line} its diagonal.\nAnd {AG polygon} and {ME polygon} (are) parallelograms, and {LB polygon} and {BF polygon} the so-called complements, about {HK line}.\nThus, {LB polygon} is equal to {BF polygon} [Prop. 1.43].\nBut, {BF polygon} is equal to triangle {C given}.\nThus, {LB polygon} is also equal to {C given}.\nAlso, since angle {GBE angle} is equal to {ABM angle} [Prop. 1.15], but {GBE angle} is equal to {D given}, {ABM angle} is thus also equal to angle {D given}.\n\nThus, the parallelogram {LB polygon}, equal to the given triangle {C given}, has been applied to the given straight-line {AB line} in the angle {ABM angle}, which is equal to {D given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        160,
+        440
+      ],
+      "B": [
+        170,
+        370
+      ],
+      "C": [
+        200,
+        170
+      ],
+      "D": [
+        380,
+        100
+      ],
+      "E": [
+        190,
+        230
+      ],
+      "F": [
+        98.07611844574882,
+        229.99999999999997
+      ],
+      "G": [
+        78.07611844574882,
+        370
+      ],
+      "H": [
+        68.07611844574882,
+        440
+      ],
+      "K": [
+        373.84776310850236,
+        230.00000000000003
+      ],
+      "L": [
+        343.84776310850236,
+        440.00000000000006
+      ],
+      "M": [
+        353.84776310850236,
+        370.00000000000006
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            221.2132034355964,
+            21.507575950825014
+          ],
+          [
+            50,
+            170
+          ],
+          [
+            200,
+            170
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          330,
+          150
+        ],
+        [
+          380,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          337.57359312880715,
+          43.4314575050762
+        ],
+        [
+          380,
+          100
+        ]
+      ],
+      [
+        "line",
+        [
+          160,
+          440
+        ],
+        [
+          190,
+          230
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            68.07611844574882,
+            440
+          ],
+          [
+            343.84776310850236,
+            440.00000000000006
+          ],
+          [
+            373.84776310850236,
+            230.00000000000003
+          ],
+          [
+            98.07611844574882,
+            229.99999999999997
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          78.07611844574882,
+          370
+        ],
+        [
+          353.84776310850236,
+          370.00000000000006
+        ]
+      ],
+      [
+        "line",
+        [
+          68.07611844574882,
+          440
+        ],
+        [
+          373.84776310850236,
+          230.00000000000003
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        -2
+      ],
+      "C": [
+        2,
+        10
+      ],
+      "D": [
+        3,
+        10
+      ],
+      "E": [
+        1
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        3
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        1
+      ],
+      "L": [
+        5
+      ],
+      "M": [
+        -1
+      ]
+    },
+    "given": {
+      "C": [
+        [
+          "polygon",
+          [
+            [
+              221.2132034355964,
+              21.507575950825014
+            ],
+            [
+              50,
+              170
+            ],
+            [
+              200,
+              170
+            ]
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "anglecurve",
+          [
+            330,
+            150
+          ],
+          [
+            380,
+            100
+          ],
+          [
+            337.57359312880715,
+            43.4314575050762
+          ]
+        ],
+        [
+          "line",
+          [
+            380,
+            100
+          ],
+          [
+            330,
+            150
+          ]
+        ],
+        [
+          "line",
+          [
+            380,
+            100
+          ],
+          [
+            337.57359312880715,
+            43.4314575050762
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "AG": "ABGH",
+      "ME": "MKEB",
+      "LB": "LMBA",
+      "BF": "BEFG"
+    }
+  },
+  {
+    "id": "1.45",
+    "title": "Proposition 45",
+    "prose": "To construct a parallelogram equal to a given rectilinear figure in a given rectilinear angle.\n\nLet {ABCD polygon} be the given rectilinear figure, and {E given} the given rectilinear angle.\nSo it is required to construct a parallelogram equal to the rectilinear figure {ABCD polygon} in the given angle {E given}.\n\nLet {DB line} have been joined, and let the parallelogram {FH polygon}, equal to the triangle {ABD polygon}, have been constructed in the angle {HKF angle}, which is equal to {E given} [Prop. 1.42].\nAnd let the parallelogram {GM polygon}, equal to the triangle {DBC polygon}, have been applied to the straight-line {GH line} in the angle {GHM angle}, which is equal to {E given} [Prop. 1.44].\nAnd since angle {E given} is equal to each of (angles) {HKF angle} and {GHM angle}, (angle) {HKF angle} is thus also equal to {GHM angle}.\nLet {KHG angle} have been added to both.\nThus, (the sum of) {FKH angle} and {KHG angle} is equal to (the sum of) {KHG angle} and {GHM angle}.\nBut, (the sum of) {FKH angle} and {KHG angle} is equal to two right-angles [Prop. 1.29].\nThus, (the sum of) {KHG angle} and {GHM angle} is also equal to two right-angles.\nSo two straight-lines, {KH line} and {HM line}, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the point {H point} on some straight-line {GH line}.\nThus, {KH line} is straight-on to {HM line} [Prop. 1.14].\nAnd since the straight-line {HG line} falls across the parallel-lines {KM line} and {FG line}, the alternate angles {MHG angle} and {HGF angle} are equal to one another [Prop. 1.29].\nLet {HGL angle} have been added to both.\nThus, (the sum of) {MHG angle} and {HGL angle} is equal to (the sum of) {HGF angle} and {HGL angle}.\nBut,(the sum of) {MHG angle} and {HGL angle} is equal to two right-angles [Prop. 1.29].\nThus, (the sum of) {HGF angle} and {HGL angle} is also equal to two right-angles.\nThus, {FG line} is straight-on to {GL line} [Prop. 1.14].\nAnd since {FK line} is equal and parallel to {HG line} [Prop. 1.34], but also {HG line} to {ML line} [Prop. 1.34], {KF line} is thus also equal and parallel to {ML line} [Prop. 1.30].\nAnd the straight-lines {KM line} and {FL line} join them.\nThus, {KM line} and {FL line} are equal and parallel as well [Prop. 1.33].\nThus, {KFLM polygon} is a parallelogram.\nAnd since triangle {ABD polygon} is equal to parallelogram {FH polygon}, and {DBC polygon} to {GM polygon}, the whole rectilinear figure {ABCD polygon} is thus equal to the whole parallelogram {KFLM polygon}.\n\nThus, the parallelogram {KFLM polygon}, equal to the given rectilinear figure {ABCD polygon}, has been constructed in the angle {FKM angle}, which is equal to the given (angle) {E given}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        100,
+        150
+      ],
+      "B": [
+        230,
+        250
+      ],
+      "C": [
+        310,
+        120
+      ],
+      "D": [
+        260,
+        70
+      ],
+      "E": [
+        290,
+        230
+      ],
+      "F": [
+        100,
+        320
+      ],
+      "G": [
+        200,
+        320
+      ],
+      "H": [
+        170,
+        450
+      ],
+      "K": [
+        70,
+        450
+      ],
+      "L": [
+        260,
+        320
+      ],
+      "M": [
+        230,
+        450
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            100,
+            150
+          ],
+          [
+            230,
+            250
+          ],
+          [
+            310,
+            120
+          ],
+          [
+            260,
+            70
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          250
+        ],
+        [
+          260,
+          70
+        ]
+      ],
+      [
+        "line",
+        [
+          340,
+          180
+        ],
+        [
+          290,
+          230
+        ]
+      ],
+      [
+        "line",
+        [
+          327.47658444979305,
+          289.9625351196689
+        ],
+        [
+          290,
+          230
+        ]
+      ],
+      [
+        "line",
+        [
+          70,
+          450
+        ],
+        [
+          100,
+          320
+        ]
+      ],
+      [
+        "line",
+        [
+          200,
+          320
+        ],
+        [
+          170,
+          450
+        ]
+      ],
+      [
+        "line",
+        [
+          260,
+          320
+        ],
+        [
+          230,
+          450
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          320
+        ],
+        [
+          260,
+          320
+        ]
+      ],
+      [
+        "line",
+        [
+          70,
+          450
+        ],
+        [
+          230,
+          450
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        3
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        -1
+      ],
+      "D": [
+        1
+      ],
+      "E": [
+        -1,
+        10
+      ],
+      "F": [
+        1
+      ],
+      "G": [
+        1
+      ],
+      "H": [
+        5
+      ],
+      "K": [
+        5
+      ],
+      "L": [
+        1
+      ],
+      "M": [
+        5
+      ]
+    },
+    "given": {
+      "E": [
+        [
+          "anglecurve",
+          [
+            340,
+            180
+          ],
+          [
+            290,
+            230
+          ],
+          [
+            327.47658444979305,
+            289.9625351196689
+          ]
+        ],
+        [
+          "line",
+          [
+            290,
+            230
+          ],
+          [
+            340,
+            180
+          ]
+        ],
+        [
+          "line",
+          [
+            290,
+            230
+          ],
+          [
+            327.47658444979305,
+            289.9625351196689
+          ]
+        ]
+      ]
+    },
+    "polygonl": {
+      "FH": "FKHG",
+      "GM": "GHML"
+    }
+  },
+  {
+    "id": "1.46",
+    "title": "Proposition 46",
+    "prose": "To describe a square on a given straight-line.\n\nLet {AB line} be the given straight-line. So it is required to describe a square on the straight-line {AB line}.\n\nLet {AC line} have been drawn at right-angles to the straight-line {AB line} from the point {A point} on it [Prop. 1.11], and let {AD line} have been made equal to {AB line} [Prop. 1.3].\nAnd let {DE line} have been drawn through point {D point} parallel to {AB line} [Prop. 1.31], and let {BE line} have been drawn through point {B point} parallel to {AD line} [Prop. 1.31].\nThus, {ADEB polygon} is a parallelogram.\nThus, {AB line} is equal to {DE line}, and {AD line} to {BE line} [Prop. 1.34].\nBut, {AB line} is equal to {AD line}.\nThus, the four (sides) {BA line}, {AD line}, {DE line}, and {EB line} are equal to one another.\nThus, the parallelogram {ADEB polygon} is equilateral.\nSo I say that (it is) also right-angled.\nFor since the straight-line {AD line} falls across the parallel-lines {AB line} and {DE line}, the (sum of the) angles {BAD angle} and {ADE angle} is equal to two right-angles [Prop. 1.29].\nBut {BAD angle} (is a) right-angle.\nThus, {ADE angle} (is) also a right-angle.\nAnd for parallelogrammic figures, the opposite sides and angles are equal to one another [Prop. 1.34].\nThus, each of the opposite angles {ABE angle} and {BED angle} (are) also right-angles.\nThus, {ADEB polygon} is right-angled.\nAnd it was also shown (to be) equilateral.\n\nThus, ({ADEB polygon}) is a square [Def. 1.22]. And it is described on the straight-line {AB line}.\n(Which is) the very thing it was required to do.\n",
+    "points": {
+      "A": [
+        100,
+        350
+      ],
+      "B": [
+        230,
+        350
+      ],
+      "C": [
+        100,
+        50
+      ],
+      "D": [
+        100,
+        220
+      ],
+      "E": [
+        230,
+        220
+      ]
+    },
+    "shapes": [
+      [
+        "line",
+        [
+          100,
+          350
+        ],
+        [
+          100,
+          50
+        ]
+      ],
+      [
+        "line",
+        [
+          100,
+          350
+        ],
+        [
+          230,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          220
+        ],
+        [
+          230,
+          350
+        ]
+      ],
+      [
+        "line",
+        [
+          230,
+          220
+        ],
+        [
+          100,
+          220
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        0
+      ],
+      "D": [
+        0
+      ],
+      "E": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "1.47",
+    "title": "Proposition 47",
+    "prose": "In a right-angled triangle, the square on the side subtending the right-angle is equal to the (sum of the) squares on the sides surrounding the right-angle.\n\nLet {ABC polygon} be a right-angled triangle having the right-angle {BAC angle}.\nI say that the square on {BC line} is equal to the (sum of the) squares on {BA line} and {AC line}.\n\nFor let the square {BDEC polygon} have been described on {BC line}, and (the squares) {GB polygon} and {HC polygon} on {AB line} and {AC line} (respectively) [Prop. 1.46].\nAnd let {AL line} have been drawn through point {A point} parallel to either of {BD line} or {CE line} [Prop. 1.31].\nAnd let {AD line} and {FC line} have been joined.\nAnd since angles {BAC angle} and {BAG angle} are each right-angles, then two straight-lines {AC line} and {AG line}, not lying on the same side, make the (sum of the) adjacent angles equal to two right-angles at the same point {A point} on some straight-line {BA line}.\nThus, {CA line} is straight-on to {AG line} [Prop. 1.14].\nSo, for the same (reasons), {BA line} is also straight-on to {AH line}.\nAnd since angle {DBC angle} is equal to {FBA angle}, for (they are) both right-angles, let {ABC angle} have been added to both.\nThus, the whole (angle) {DBA angle} is equal to the whole (angle) {FBC angle}.\nAnd since {DB line} is equal to {BC line}, and {FB line} to {BA line}, the two (straight-lines) {DB line}, {BA line} are equal to the two (straight-lines) {CB line}, {BF line}, respectively.\nAnd angle {DBA angle} (is) equal to angle {FBC angle}.\nThus, the base {AD line} [is] equal to the base {FC line}, and the triangle {ABD polygon} is equal to the triangle {FBC polygon} [Prop. 1.4].\nAnd parallelogram {BL polygon} [is] double (the area) of triangle {ABD polygon}.\nFor they have the same base, {BD line}, and are between the same parallels, {BD line} and {AL line} [Prop. 1.41].\nAnd square {GB polygon} is double (the area) of triangle {FBC polygon}.\nFor again they have the same base, {FB line}, and are between the same parallels, {FB line} and {GC line} [Prop. 1.41].\n[And the doubles of equal things are equal to one another.]\nThus, the parallelogram {BL polygon} is also equal to the square {GB polygon}.\nSo, similarly, {AE line} and {BK line} being joined, the parallelogram {CL polygon} can be shown (to be) equal to the square {HC polygon}.\nThus, the whole square {BDEC polygon} is equal to the (sum of the) two squares {GB polygon} and {HC polygon}.\nAnd the square {BDEC polygon} is described on {BC line}, and the (squares) {GB polygon} and {HC polygon} on {BA line} and {AC line} (respectively).\nThus, the square on the side {BC line} is equal to the (sum of the) squares on the sides {BA line} and {AC line}.\n\nThus, in a right-angled triangle, the square on the side subtending the right-angle is equal to the (sum of the) squares on the sides surrounding the right-[angle].\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        180,
+        193.39745962155615
+      ],
+      "B": [
+        130,
+        280
+      ],
+      "C": [
+        330,
+        280
+      ],
+      "D": [
+        130,
+        480
+      ],
+      "E": [
+        330,
+        480
+      ],
+      "F": [
+        43.39745962155615,
+        230
+      ],
+      "G": [
+        93.39745962155615,
+        143.39745962155615
+      ],
+      "H": [
+        266.60254037844385,
+        43.39745962155615
+      ],
+      "K": [
+        416.60254037844385,
+        130
+      ],
+      "L": [
+        180,
+        480
+      ],
+      "M": [
+        180,
+        280
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            180,
+            193.39745962155615
+          ],
+          [
+            93.39745962155615,
+            143.39745962155615
+          ],
+          [
+            43.39745962155615,
+            230
+          ],
+          [
+            130,
+            280
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            130,
+            280
+          ],
+          [
+            130,
+            480
+          ],
+          [
+            330,
+            480
+          ],
+          [
+            330,
+            280
+          ]
+        ]
+      ],
+      [
+        "polygon",
+        [
+          [
+            180,
+            193.39745962155615
+          ],
+          [
+            330,
+            280
+          ],
+          [
+            416.60254037844385,
+            130
+          ],
+          [
+            266.60254037844385,
+            43.39745962155615
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          180,
+          193.39745962155615
+        ],
+        [
+          180,
+          480
+        ]
+      ],
+      [
+        "line",
+        [
+          180,
+          193.39745962155615
+        ],
+        [
+          130,
+          480
+        ]
+      ],
+      [
+        "line",
+        [
+          180,
+          193.39745962155615
+        ],
+        [
+          330,
+          480
+        ]
+      ],
+      [
+        "line",
+        [
+          130,
+          280
+        ],
+        [
+          416.60254037844385,
+          130
+        ]
+      ],
+      [
+        "line",
+        [
+          330,
+          280
+        ],
+        [
+          43.39745962155615,
+          230
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        1.3,
+        1.2
+      ],
+      "B": [
+        3.5
+      ],
+      "C": [
+        -1.5
+      ],
+      "D": [
+        5
+      ],
+      "E": [
+        5
+      ],
+      "F": [
+        3
+      ],
+      "G": [
+        2
+      ],
+      "H": [
+        0
+      ],
+      "K": [
+        0
+      ],
+      "L": [
+        5
+      ]
+    },
+    "polygonl": {
+      "GB": "GABF",
+      "HC": "HKCA",
+      "BL": "BDLM",
+      "CL": "CELM"
+    }
+  },
+  {
+    "id": "1.48",
+    "title": "Proposition 48",
+    "prose": "If the square on one of the sides of a triangle is equal to the (sum of the) squares on the remaining sides of the triangle then the angle contained by the remaining sides of the triangle is a right-angle.\n\nFor let the square on one of the sides, {BC line}, of triangle {ABC polygon} be equal to the (sum of the) squares on the sides {BA line} and {AC line}.\nI say that angle {BAC angle} is a right-angle.\n\nFor let {AD line} have been drawn from point {A point} at right-angles to the straight-line {AC line} [Prop. 1.11], and let {AD line} have been made equal to {BA line} [Prop. 1.3], and let {DC line} have been joined.\nSince {DA line} is equal to {AB line}, the square on {DA line} is thus also equal to the square on {AB line}.\nLet the square on {AC line} have been added to both.\nThus, the (sum of the) squares on {DA line} and {AC line} is equal to the (sum of the) squares on {BA line} and {AC line}.\nBut, the (sum of the squares) on {DA line} and {AC line} is equal to the (square) on {DC line}.\nFor angle {DAC angle} is a right-angle [Prop. 1.47].\nBut, the (sum of the squares) on {BA line} and {AC line} is equal to the (square) on {BC line}.\nFor (that) was assumed.\nThus, the square on {DC line} is equal to the square on {BC line}.\nSo {DC line} is also equal to {BC line}.\nAnd since {DA line} is equal to {AB line}, and {AC line} (is) common, the two (straight-lines) {DA line}, {AC line} are equal to the two (straight-lines) {BA line}, {AC line}.\nAnd the base {DC line} is equal to the base {BC line}.\nThus, angle {DAC angle} [is] equal to angle {BAC angle} [Prop. 1.8].\nBut {DAC angle} is a right-angle.\nThus, {BAC angle} is also a right-angle.\n\nThus, if the square on one of the sides of a triangle is equal to the (sum of the) squares on the remaining sides of the triangle then the angle contained by the remaining sides of the triangle is a right-angle.\n(Which is) the very thing it was required to show.\n",
+    "points": {
+      "A": [
+        250,
+        280
+      ],
+      "B": [
+        350,
+        280
+      ],
+      "C": [
+        250,
+        50
+      ],
+      "D": [
+        150,
+        280
+      ]
+    },
+    "shapes": [
+      [
+        "polygon",
+        [
+          [
+            250,
+            50
+          ],
+          [
+            150,
+            280
+          ],
+          [
+            350,
+            280
+          ]
+        ]
+      ],
+      [
+        "line",
+        [
+          250,
+          280
+        ],
+        [
+          250,
+          50
+        ]
+      ]
+    ],
+    "letters": {
+      "A": [
+        5
+      ],
+      "B": [
+        5
+      ],
+      "C": [
+        1
+      ],
+      "D": [
+        5
+      ]
+    }
+  }
+]

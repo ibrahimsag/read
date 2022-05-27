@@ -1,0 +1,1575 @@
+[
+  {
+    "id": "8.d",
+    "title": "Definitions",
+    "prose": "See Book 7.\n"
+  },
+  {
+    "id": "8.1",
+    "title": "Proposition 1",
+    "prose": "If there are any multitude whatsoever of continuously proportional numbers, and the outermost of them are prime to one another, then the (numbers) are the least of those (numbers) having the same ratio as them.\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any multitude whatsoever of continuously proportional numbers.\nAnd let the outermost of them, {A magnitude} and {D magnitude}, be prime to one another.\nI say that {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them.\n\nFor if not, let {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude} be less than {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} (respectively), being in the same ratio as them.\nAnd since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in the same ratio as {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}, and the multitude [of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}] is equal to the multitude [of {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}], thus, via equality, as {A magnitude} is to {D magnitude}, (so) {E magnitude} (is) to {H magnitude} [Prop. 7.14].\nAnd {A magnitude} and {D magnitude} (are) prime (to one another).\nAnd prime (numbers are) also the least of those (numbers having the same ratio as them) [Prop. 7.21].\nAnd the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {A magnitude} measures {E magnitude}, the greater (measuring) the lesser.\nThe very thing is impossible.\nThus, {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}, being less than {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, are not in the same ratio as them.\nThus, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 140,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 170,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 180,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 210,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 90,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 105,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "8.2",
+    "title": "Proposition 2",
+    "prose": "To find the least numbers, as many as may be prescribed, (which are) continuously proportional in a given ratio.\n\nLet the given ratio, (expressed) in the least numbers, be that of {A magnitude} to {B magnitude}.\nSo it is required to find the least numbers, as many as may be prescribed, (which are) in the ratio of {A magnitude} to {B magnitude}.\n\nLet four (numbers) have been prescribed.\nAnd let {A magnitude} make {C magnitude} (by) multiplying itself, and let it make {D magnitude} (by) multiplying {B magnitude}.\nAnd, further, let {B magnitude} make {E magnitude} (by) multiplying itself.\nAnd, further, let {A magnitude} make {F magnitude}, {G magnitude}, {H magnitude} (by) multiplying {C magnitude}, {D magnitude}, {E magnitude}.\nAnd let {B magnitude} make {K magnitude} (by) multiplying {E magnitude}.\n\nAnd since {A magnitude} has made {C magnitude} (by) multiplying itself, and has made {D magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, [so] {C magnitude} (is) to {D magnitude} [Prop. 7.17].\nAgain, since {A magnitude} has made {D magnitude} (by) multiplying {B magnitude}, and {B magnitude} has made {E magnitude} (by) multiplying itself, {A magnitude}, {B magnitude} have thus made {D magnitude}, {E magnitude}, respectively, (by) multiplying {B magnitude}.\nThus, as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude} [Prop. 7.18].\nBut, as {A magnitude} (is) to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}.\nAnd thus as {C magnitude} (is) to {D magnitude}, (so) {D magnitude} (is) to {E magnitude}.\nAnd since {A magnitude} has made {F magnitude}, {G magnitude} (by) multiplying {C magnitude}, {D magnitude}, thus as {C magnitude} is to {D magnitude}, [so] {F magnitude} (is) to {G magnitude} [Prop. 7.17].\nAnd as {C magnitude} (is) to {D magnitude}, so {A magnitude} was to {B magnitude}.\nAnd thus as {A magnitude} (is) to {B magnitude}, (so) {F magnitude} (is) to {G magnitude}.\nAgain, since {A magnitude} has made {G magnitude}, {H magnitude} (by) multiplying {D magnitude}, {E magnitude}, thus as {D magnitude} is to {E magnitude}, (so) {G magnitude} (is) to {H magnitude} [Prop. 7.17].\nBut, as {D magnitude} (is) to {E magnitude}, (so) {A magnitude} (is) to {B magnitude}.\nAnd thus as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {H magnitude}.\nAnd since {A magnitude}, {B magnitude} have made {H magnitude}, {K magnitude} (by) multiplying {E magnitude}, thus as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {K magnitude}.\nBut, as {A magnitude} (is) to {B magnitude}, so {F magnitude} (is) to {G magnitude}, and {G magnitude} to {H magnitude}.\nAnd thus as {F magnitude} (is) to {G magnitude}, so {G magnitude} (is) to {H magnitude}, and {H magnitude} to {K magnitude}.\nThus, {C magnitude}, {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude}, {H magnitude}, {K magnitude} are (both continuously) proportional in the ratio of {A magnitude} to {B magnitude}.\nSo I say that (they are) also the least (sets of numbers continuously proportional in that ratio).\nFor since {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them, and the least of those (numbers) having the same ratio are prime to one another [Prop. 7.22], {A magnitude} and {B magnitude} are thus prime to one another.\nAnd {A magnitude}, {B magnitude} have made {C magnitude}, {E magnitude}, respectively, (by) multiplying themselves, and have made {F magnitude}, {K magnitude} by multiplying {C magnitude}, {E magnitude}, respectively.\nThus, {C magnitude}, {E magnitude} and {F magnitude}, {K magnitude} are prime to one another [Prop. 7.27].\nAnd if there are any multitude whatsoever of continuously proportional numbers, and the outermost of them are prime to one another, then the (numbers) are the least of those (numbers) having the same ratio as them [Prop. 8.1].\nThus, {C magnitude}, {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude}, {H magnitude}, {K magnitude} are the least of those (continuously proportional sets of numbers) having the same ratio as {A magnitude} and {B magnitude}.\n(Which is) the very thing it was required to show.\n\n\nCorollary\n\nSo it is clear, from this, that if three continuously proportional numbers are the least of those (numbers) having the same ratio as them then the outermost of them are square, and, if four (numbers), cube.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 90,
+        "v": 50
+      },
+      {
+        "l": "F",
+        "m": 180,
+        "v": 100
+      },
+      {
+        "l": "G",
+        "m": 200,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 220,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 260,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 100,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 130,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 160,
+        "v": 50
+      }
+    ]
+  },
+  {
+    "id": "8.3",
+    "title": "Proposition 3",
+    "prose": "If there are any multitude whatsoever of continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them then the outermost of them are prime to one another.\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any multitude whatsoever of continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them.\nI say that the outermost of them, {A magnitude} and {D magnitude}, are prime to one another.\n\nFor let the two least (numbers) {E magnitude}, {F magnitude} (which are) in the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} have been taken [Prop. 7.33].\nAnd the three (least numbers) {G magnitude}, {H magnitude}, {K magnitude} [Prop. 8.2].\nAnd (so on), successively increasing by one, until the multitude of (numbers) taken is made equal to the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}.\nLet them have been taken, and let them be {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}.\n\nAnd since {E magnitude} and {F magnitude} are the least of those (numbers) having the same ratio as them they are prime to one another [Prop. 7.22].\nAnd since {E magnitude}, {F magnitude} have made {G magnitude}, {K magnitude}, respectively, (by) multiplying themselves [Prop. 8.2 corr.], and have made {L magnitude}, {O magnitude} (by) multiplying {G magnitude}, {K magnitude}, respectively, {G magnitude}, {K magnitude} and {L magnitude}, {O magnitude} are thus also prime to one another [Prop. 7.27].\nAnd since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them, and {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude} are also the least (of those numbers having the same ratio as them), being in the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, and the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} is equal to the multitude of {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}, thus {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are equal to {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}, respectively.\nThus, {A magnitude} is equal to {L magnitude}, and {D magnitude} to {O magnitude}.\nAnd {L magnitude} and {O magnitude} are prime to one another.\nThus, {A magnitude} and {D magnitude} are also prime to one another.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 90,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 90,
+        "v": 50
+      },
+      {
+        "l": "M",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "O",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 50,
+        "p": [
+          220,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 60,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 80,
+        "p": [
+          320,
+          50
+        ]
+      },
+      {
+        "l": "H",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 120,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.4",
+    "title": "Proposition 4",
+    "prose": "For any multitude whatsoever of given ratios, (expressed) in the least numbers, to find the least numbers continuously proportional in these given ratios.\n\nLet the given ratios, (expressed) in the least numbers, be the (ratios) of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\nSo it is required to find the least numbers continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\n\nFor let the least number, {G magnitude}, measured by (both) {B magnitude} and {C magnitude} have be taken [Prop. 7.34].\nAnd as many times as {B magnitude} measures {G magnitude}, so many times let {A magnitude} also measure {H magnitude}.\nAnd as many times as {C magnitude} measures {G magnitude}, so many times let {D magnitude} also measure {K magnitude}.\nAnd {E magnitude} either measures, or does not measure, {K magnitude}.\n{figure 1}Let it, first of all, measure ({K magnitude}).\nAnd as many times as {E magnitude} measures {K magnitude}, so many times let {F magnitude} also measure {L magnitude}.\nAnd since {A magnitude} measures {H magnitude} the same number of times that {B magnitude} also (measures) {G magnitude}, thus as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.13, Def. 7.20].\nAnd so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {G magnitude} (is) to {K magnitude}, and, further, as {E magnitude} (is) to {F magnitude}, so {K magnitude} (is) to {L magnitude}.\nThus, {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\nSo I say that (they are) also the least (numbers continuously proportional in these ratios).\nFor if {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are not the least numbers continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and of {E magnitude} to {F magnitude}, let {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} be (the least such numbers).\nAnd since as {A magnitude} is to {B magnitude}, so {N magnitude} (is) to {O magnitude}, and {A magnitude} and {B magnitude} are the least (numbers which have the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {O magnitude}.\nSo, for the same (reasons), {C magnitude} also measures {O magnitude}.\nThus, {B magnitude} and {C magnitude} (both) measure {O magnitude}.\nThus, the least number measured by (both) {B magnitude} and {C magnitude} will also measure {O magnitude} [Prop. 7.35].\nAnd {G magnitude} (is) the least number measured by (both) {B magnitude} and {C magnitude}.\nThus, {G magnitude} measures {O magnitude}, the greater (measuring) the lesser.\nThe very thing is impossible.\nThus, there cannot be any numbers less than {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} (which are) continuously (proportional) in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\n\n{figure 2}So let {E magnitude} not measure {K magnitude}.\nAnd let the least number, {M magnitude}, measured by (both) {E magnitude} and {K magnitude} have been taken [Prop. 7.34].\nAnd as many times as {K magnitude} measures {M magnitude}, so many times let {H magnitude}, {G magnitude} also measure {N magnitude}, {O magnitude}, respectively.\nAnd as many times as {E magnitude} measures {M magnitude}, so many times let {F magnitude} also measure {P magnitude}.\nSince {H magnitude} measures {N magnitude} the same number of times as {G magnitude} (measures) {O magnitude}, thus as {H magnitude} is to {G magnitude}, so {N magnitude}(is) to {O magnitude} [Prop. 7.13, Def. 7.20].\nAnd as {H magnitude} (is) to {G magnitude}, so {A magnitude} (is) to {B magnitude}.\nAnd thus as {A magnitude} (is) to {B magnitude}, so {N magnitude} (is) to {O magnitude}.\nAnd so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {O magnitude} (is) to {M magnitude}.\nAgain, since {E magnitude} measures {M magnitude} the same number of times as {F magnitude} (measures) {P magnitude}, thus as {E magnitude} is to {F magnitude}, so {M magnitude} (is) to {P magnitude} [Prop. 7.13, Def.7.20].\nThus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\nSo I say that (they are) also the least (numbers) in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.\nFor if not, then there will be some numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.\nLet them be {Q magnitude}, {R magnitude}, {S magnitude}, {T magnitude}.\nAnd since as {Q magnitude} is to {R magnitude}, so {A magnitude} (is) to {B magnitude}, and {A magnitude} and {B magnitude} (are) the least (numbers having the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {R magnitude}.\nSo, for the same (reasons), {C magnitude} also measures {R magnitude}.\nThus, {B magnitude} and {C magnitude} (both) measure {R magnitude}.\nThus, the least (number) measured by (both) {B magnitude} and {C magnitude} will also measure {R magnitude} [Prop. 7.35].\nAnd {G magnitude} is the least number measured by (both) {B magnitude} and {C magnitude}.\nThus, {G magnitude} measures {R magnitude}.\nAnd as {G magnitude} is to {R magnitude}, so {K magnitude} (is) to {S magnitude}.\nThus, {K magnitude} also measures {S magnitude} [Def. 7.20].\nAnd {E magnitude} also measures {S magnitude} [Prop. 7.20].\nThus, {E magnitude} and {K magnitude} (both) measure {S magnitude}.\nThus, the least (number) measured by (both) {E magnitude} and {K magnitude} will also measure {S magnitude} [Prop. 7.35].\nAnd {M magnitude} is the least (number) measured by (both) {E magnitude} and {K magnitude}.\nThus, {M magnitude} measures {S magnitude}, the greater (measuring) the lesser.\nThe very thing is impossible.\nThus there cannot be any numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.\nThus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are the least (numbers) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "singlecanvas": true,
+    "figures": [
+      {
+        "mags": [
+          {
+            "l": "A",
+            "m": 90,
+            "p": [
+              50,
+              20
+            ]
+          },
+          {
+            "l": "C",
+            "m": 110,
+            "v": 25
+          },
+          {
+            "l": "E",
+            "m": 130,
+            "v": 25
+          },
+          {
+            "l": "N",
+            "m": 100,
+            "v": 35
+          },
+          {
+            "l": "O",
+            "m": 110,
+            "v": 25
+          },
+          {
+            "l": "M",
+            "m": 120,
+            "v": 25
+          },
+          {
+            "l": "P",
+            "m": 140,
+            "v": 25
+          },
+          {
+            "l": "B",
+            "m": 100,
+            "p": [
+              240,
+              20
+            ]
+          },
+          {
+            "l": "D",
+            "m": 130,
+            "v": 25
+          },
+          {
+            "l": "F",
+            "m": 160,
+            "v": 25
+          },
+          {
+            "l": "H",
+            "m": 145,
+            "v": 35
+          },
+          {
+            "l": "G",
+            "m": 160,
+            "v": 25
+          },
+          {
+            "l": "K",
+            "m": 175,
+            "v": 25
+          },
+          {
+            "l": "L",
+            "m": 200,
+            "v": 25
+          }
+        ]
+      },
+      {
+        "mags": [
+          {
+            "l": "A",
+            "m": 90,
+            "p": [
+              50,
+              225
+            ]
+          },
+          {
+            "l": "C",
+            "m": 110,
+            "v": 25
+          },
+          {
+            "l": "E",
+            "m": 130,
+            "v": 25
+          },
+          {
+            "l": "N",
+            "m": 145,
+            "v": 35
+          },
+          {
+            "l": "O",
+            "m": 160,
+            "v": 25
+          },
+          {
+            "l": "M",
+            "m": 175,
+            "v": 25
+          },
+          {
+            "l": "P",
+            "m": 200,
+            "v": 25
+          },
+          {
+            "l": "B",
+            "m": 100,
+            "p": [
+              270,
+              225
+            ]
+          },
+          {
+            "l": "D",
+            "m": 130,
+            "v": 25
+          },
+          {
+            "l": "F",
+            "m": 160,
+            "v": 25
+          },
+          {
+            "l": "H",
+            "m": 100,
+            "v": 35
+          },
+          {
+            "l": "G",
+            "m": 110,
+            "v": 25
+          },
+          {
+            "l": "K",
+            "m": 120,
+            "v": 25
+          },
+          {
+            "l": "Q",
+            "m": 80,
+            "p": [
+              200,
+              420
+            ]
+          },
+          {
+            "l": "R",
+            "m": 90,
+            "v": 25
+          },
+          {
+            "l": "S",
+            "m": 100,
+            "v": 25
+          },
+          {
+            "l": "T",
+            "m": 120,
+            "v": 25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8.5",
+    "title": "Proposition 5",
+    "prose": "Plane numbers have to one another the ratio compounded out of (the ratios of) their sides.\n\nLet {A magnitude} and {B magnitude} be plane numbers, and let the numbers {C magnitude}, {D magnitude} be the sides of {A magnitude}, and (the numbers) {E magnitude}, {F magnitude} (the sides) of {B magnitude}.\nI say that {A magnitude} has to {B magnitude} the ratio compounded out of (the ratios of) their sides.\n\nFor given the ratios which {C magnitude} has to {E magnitude}, and {D magnitude} (has) to {F magnitude}, let the least numbers, {G magnitude}, {H magnitude}, {K magnitude}, continuously proportional in the ratios {C magnitude} {E magnitude}, {D magnitude} {F magnitude} have been taken [Prop. 8.4], so that as {C magnitude} is to {E magnitude}, so {G magnitude} (is) to {H magnitude}, and as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {K magnitude}.\nAnd let {D magnitude} make {L magnitude} (by) multiplying {E magnitude}.\n\nAnd since {D magnitude} has made {A magnitude} (by) multiplying {C magnitude}, and has made {L magnitude} (by) multiplying {E magnitude}, thus as {C magnitude} is to {E magnitude}, so {A magnitude} (is) to {L magnitude} [Prop. 7.17].\nAnd as {C magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {H magnitude}.\nAnd thus as {G magnitude} (is) to {H magnitude}, so {A magnitude} (is) to {L magnitude}.\nAgain, since {E magnitude} has made {L magnitude} (by) multiplying {D magnitude} [Prop. 7.16], but, in fact, has also made {B magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {L magnitude} (is) to {B magnitude} [Prop. 7.17].\nBut, as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {K magnitude}.\nAnd thus as {H magnitude} (is) to {K magnitude}, so {L magnitude} (is) to {B magnitude}.\nAnd it was also shown that as {G magnitude} (is) to {H magnitude}, so {A magnitude} (is) to {L magnitude}.\nThus, via equality, as {G magnitude} is to {K magnitude}, [so] {A magnitude} (is) to {B magnitude} [Prop. 7.14].\nAnd {G magnitude} has to {K magnitude} the ratio compounded out of (the ratios of) the sides (of {A magnitude} and {B magnitude}).\nThus, {A magnitude} also has to {B magnitude} the ratio compounded out of (the ratios of) the sides (of {A magnitude} and {B magnitude}).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 300,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 110,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 130,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 80,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 230,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 130,
+        "p": [
+          210,
+          140
+        ]
+      },
+      {
+        "l": "F",
+        "m": 110,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.6",
+    "title": "Proposition 6",
+    "prose": "If there are any multitude whatsoever of continuously proportional numbers, and the first does not measure the second, then no other (number) will measure any other (number) either.\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude} be any multitude whatsoever of continuously proportional numbers, and let {A magnitude} not measure {B magnitude}.\nI say that no other (number) will measure any other (number) either.\n\nNow, (it is) clear that {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude} do not successively measure one another.\nFor {A magnitude} does not even measure {B magnitude}.\nSo I say that no other (number) will measure any other (number) either.\nFor, if possible, let {A magnitude} measure {C magnitude}.\nAnd as many (numbers) as are {A magnitude}, {B magnitude}, {C magnitude}, let so many of the least numbers, {F magnitude}, {G magnitude}, {H magnitude}, have been taken of those (numbers) having the same ratio as {A magnitude}, {B magnitude}, {C magnitude} [Prop. 7.33].\nAnd since {F magnitude}, {G magnitude}, {H magnitude} are in the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, and the multitude of {A magnitude}, {B magnitude}, {C magnitude} is equal to the multitude of {F magnitude}, {G magnitude}, {H magnitude}, thus, via equality, as {A magnitude} is to {C magnitude}, so {F magnitude} (is) to {H magnitude} [Prop. 7.14].\nAnd since as {A magnitude} is to {B magnitude}, so {F magnitude} (is) to {G magnitude}, and {A magnitude} does not measure {B magnitude}, {F magnitude} does not measure {G magnitude} either [Def. 7.20].\nThus, {F magnitude} is not a unit.\nFor a unit measures all numbers.\nAnd {F magnitude} and {H magnitude} are prime to one another [Prop. 8.3] [and thus {F magnitude} does not measure {H magnitude}].\nAnd as {F magnitude} is to {H magnitude},so {A magnitude} (is) to {C magnitude}.\nAnd thus {A magnitude} does not measure {C magnitude} either [Def. 7.20].\nSo, similarly, we can show that no other (number) can measure any other (number) either.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 130,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 230,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 270,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 100,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 140,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.7",
+    "title": "Proposition 7",
+    "prose": "If there are any multitude whatsoever of [continuously] proportional numbers, and the first measures the last, then (the first) will also measure the second.\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any number whatsoever of continuously proportional numbers.\nAnd let {A magnitude} measure {D magnitude}.\nI say that {A magnitude} also measures {B magnitude}.\n\nFor if {A magnitude} does not measure {B magnitude} then no other (number) will measure any other (number) either [Prop. 8.6].\nBut {A magnitude} measures {D magnitude}.\nThus, {A magnitude} also measures {B magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 130,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 175,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 230,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.8",
+    "title": "Proposition 8",
+    "prose": "If between two numbers there fall (some) numbers in continued proportion then, as many numbers as fall in between them in continued proportion, so many (numbers) will also fall in between (any two numbers) having the same ratio [as them] in continued proportion.\n\nFor let the numbers, {C magnitude} and {D magnitude}, fall between two numbers, {A magnitude} and {B magnitude}, in continued proportion, and let it have been contrived (that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\nI say that, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many (numbers) will also fall in between {E magnitude} and {F magnitude} in continued proportion.\n\nFor as many as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in multitude, let so many of the least numbers, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, having the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, have been taken [Prop. 7.33].\nThus, the outermost of them, {G magnitude} and {L magnitude}, are prime to one another [Prop. 8.3].\nAnd since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in the same ratio as {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, and the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} is equal to the multitude of {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, thus, via equality, as {A magnitude} is to {B magnitude}, so {G magnitude} (is) to {L magnitude} [Prop. 7.14].\nAnd as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd thus as {G magnitude} (is) to {L magnitude}, so {E magnitude} (is) to {F magnitude}.\nAnd {G magnitude} and {L magnitude} (are) prime (to one another).\nAnd (numbers) prime (to one another are) also the least (numbers having the same ratio as them) [Prop. 7.21].\nAnd the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {G magnitude} measures {E magnitude} the same number of times as {L magnitude} (measures) {F magnitude}.\nSo as many times as {G magnitude} measures {E magnitude}, so many times let {H magnitude}, {K magnitude} also measure {M magnitude}, {N magnitude}, respectively.\nThus, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} measure {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} (respectively) an equal number of times.\nThus, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} are in the same ratio as {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} [Def. 7.20].\nBut, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} are in the same ratio as {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}.\nThus, {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are also in the same ratio as {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude}.\nAnd {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are continuously proportional.\nThus, {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} are also continuously proportional.\nThus, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many numbers have also fallen in between {E magnitude} and {F magnitude} in continued proportion.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 80,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 95,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 105,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 75,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 80,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 85,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 150,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "M",
+        "m": 170,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 200,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.9",
+    "title": "Proposition 9",
+    "prose": "If two numbers are prime to one another and there fall in between them (some) numbers in continued proportion then, as many numbers as fall in between them in continued proportion, so many (numbers) will also fall between each of them and a unit in continued proportion.\n\nLet {A magnitude} and {B magnitude} be two numbers (which are) prime to one another, and let the (numbers) {C magnitude} and {D magnitude} fall in between them in continued proportion.\nAnd let the unit {E magnitude} be set out.\nI say that, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many (numbers) will also fall between each of {A magnitude} and {B magnitude} and the unit in continued proportion.\n\nFor let the least two numbers, {F magnitude} and {G magnitude}, which are in the ratio of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, have been taken [Prop. 7.33].\nAnd the (least) three (numbers), {H magnitude}, {K magnitude}, {L magnitude}.\nAnd so on, successively increasing by one, until the multitude of the (least numbers taken) is made equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} [Prop. 8.2].\nLet them have been taken, and let them be {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude}.\nSo (it is) clear that {F magnitude} has made {H magnitude} (by) multiplying itself, and has made {M magnitude} (by) multiplying {H magnitude}.\nAnd {G magnitude} has made {L magnitude} (by) multiplying itself, and has made {P magnitude} (by) multiplying {L magnitude} [Prop. 8.2 corr.].\nAnd since {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} are the least of those (numbers) having the same ratio as {F magnitude}, {G magnitude}, and {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are also the least of those (numbers) having the same ratio as {F magnitude}, {G magnitude} [Prop. 8.2], and the multitude of {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} is equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, thus {M magnitude}, {N magnitude}, {O magnitude}, {P magnitude} are equal to {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, respectively.\nThus, {M magnitude} is equal to {A magnitude}, and {P magnitude} to {B magnitude}.\nAnd since {F magnitude} has made {H magnitude} (by) multiplying itself, {F magnitude} thus measures {H magnitude} according to the units in {F magnitude} [Def. 7.15].\nAnd the unit {E magnitude} also measures {F magnitude} according to the units in it.\nThus, the unit {E magnitude} measures the number {F magnitude} as many times as {F magnitude} (measures) {H magnitude}.\nThus, as the unit {E magnitude} is to the number {F magnitude}, so {F magnitude} (is) to {H magnitude} [Def. 7.20].\nAgain, since {F magnitude} has made {M magnitude} (by) multiplying {H magnitude}, {H magnitude} thus measures {M magnitude} according to the units in {F magnitude} [Def. 7.15].\nAnd the unit {E magnitude} also measures the number {F magnitude} according to the units in it.\nThus, the unit {E magnitude} measures the number {F magnitude} as many times as {H magnitude} (measures) {M magnitude}.\nThus, as the unit {E magnitude} is to the number {F magnitude}, so {H magnitude} (is) to {M magnitude} [Prop. 7.20].\nAnd it was shown that as the unit {E magnitude} (is) to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}.\nAnd thus as the unit {E magnitude} (is) to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}, and {H magnitude} (is) to {M magnitude}.\nAnd {M magnitude} (is) equal to {A magnitude}.\nThus, as the unit {E magnitude} is to the number {F magnitude}, so {F magnitude} (is) to {H magnitude}, and {H magnitude} to {A magnitude}.\nAnd so, for the same (reasons), as the unit {E magnitude} (is) to the number {G magnitude}, so {G magnitude} (is) to {L magnitude}, and {L magnitude} to {B magnitude}.\nThus, as many (numbers) as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many numbers have also fallen between each of {A magnitude} and {B magnitude} and the unit {E magnitude} in continued proportion.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 85,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 105,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 125,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 145,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 30,
+        "v": 50
+      },
+      {
+        "l": "F",
+        "m": 55,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 80,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 75,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "K",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 125,
+        "v": 40
+      },
+      {
+        "l": "M",
+        "m": 85,
+        "v": 70
+      },
+      {
+        "l": "N",
+        "m": 105,
+        "v": 40
+      },
+      {
+        "l": "O",
+        "m": 125,
+        "v": 40
+      },
+      {
+        "l": "P",
+        "m": 145,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.10",
+    "title": "Proposition 10",
+    "prose": "If (some) numbers fall between each of two numbers and a unit in continued proportion then, as many (numbers) as fall between each of the (two numbers) and the unit in continued proportion, so many (numbers) will also fall in between the (two numbers) themselves in continued proportion.\n\nFor let the numbers {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude} fall between the numbers {A magnitude} and {B magnitude} (respectively) and the unit {C magnitude} in continued proportion.\nI say that, as many numbers as have fallen between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.\n\nFor let {D magnitude} make {H magnitude} (by) multiplying {F magnitude}.\nAnd let {D magnitude}, {F magnitude} make {K magnitude}, {L magnitude}, respectively, by multiplying {H magnitude}.\n\nAs since as the unit {C magnitude} is to the number {D magnitude}, so {D magnitude} (is) to {E magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {D magnitude} (measures) {E magnitude} [Def. 7.20].\nAnd the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.\nThus, the number {D magnitude} also measures {E magnitude} according to the units in {D magnitude}.\nThus, {D magnitude} has made {E magnitude} (by) multiplying itself.\nAgain, since as the [unit] {C magnitude} is to the number {D magnitude}, so {E magnitude} (is) to {A magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {E magnitude} (measures) {A magnitude} [Def. 7.20].\nAnd the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.\nThus, {E magnitude} also measures {A magnitude} according to the units in {D magnitude}.\nThus, {D magnitude} has made {A magnitude} (by) multiplying {E magnitude}.\nAnd so, for the same (reasons), {F magnitude} has made {G magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {G magnitude}.\nAnd since {D magnitude} has made {E magnitude} (by) multiplying itself, and has made {H magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {E magnitude} (is) to {H magnitude} [Prop. 7.17].\nAnd so, for the same reasons, as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.18].\nAnd thus as {E magnitude} (is) to {H magnitude}, so {H magnitude} (is) to {G magnitude}.\nAgain, since {D magnitude} has made {A magnitude}, {K magnitude} (by) multiplying {E magnitude}, {H magnitude}, respectively, thus as {E magnitude} is to {H magnitude}, so {A magnitude} (is) to {K magnitude} [Prop. 7.17].\nBut, as {E magnitude} (is) to {H magnitude}, so {D magnitude} (is) to {F magnitude}.\nAnd thus as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.\nAgain, since {D magnitude}, {F magnitude} have made {K magnitude}, {L magnitude}, respectively, (by) multiplying {H magnitude}, thus as {D magnitude} is to {F magnitude}, so {K magnitude} (is) to {L magnitude} [Prop. 7.18].\nBut, as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.\nAnd thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}.\nFurther, since {F magnitude} has made {L magnitude}, {B magnitude} (by) multiplying {H magnitude}, {G magnitude}, respectively, thus as {H magnitude} is to {G magnitude}, so {L magnitude} (is) to {B magnitude} [Prop. 7.17].\nAnd as {H magnitude} (is) to {G magnitude}, so {D magnitude} (is) to {F magnitude}.\nAnd thus as {D magnitude} (is) to {F magnitude}, so {L magnitude} (is) to {B magnitude}.\nAnd it was also shown that as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}, and {K magnitude} to {L magnitude}.\nAnd thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}, and {L magnitude} to {B magnitude}.\nThus, {A magnitude}, {K magnitude}, {L magnitude}, {B magnitude} are successively in continued proportion.\nThus, as many numbers as fall between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "C",
+        "m": 30,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 60,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "A",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 110,
+        "v": 50
+      },
+      {
+        "l": "K",
+        "m": 145,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 90,
+        "p": [
+          220,
+          90
+        ]
+      },
+      {
+        "l": "G",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 210,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.11",
+    "title": "Proposition 11",
+    "prose": "There exists one number in mean proportion to two (given) square numbers.\nAnd (one) square (number) has to the (other) square (number) a squared ratio with respect to (that) the side (of the former has) to the side (of the latter).\n\nLet {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.\nI say that there exists one number in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {D magnitude}.\n\nFor let {C magnitude} make {E magnitude} (by) multiplying {D magnitude}.\nAnd since {A magnitude} is square, and {C magnitude} is its side, {C magnitude} has thus made {A magnitude} (by) multiplying itself.\nAnd so, for the same (reasons), {D magnitude} has made {B magnitude} (by) multiplying itself.\nTherefore, since {C magnitude} has made {A magnitude}, {E magnitude} (by) multiplying {C magnitude}, {D magnitude}, respectively, thus as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {E magnitude} [Prop. 7.17].\nAnd so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {B magnitude} [Prop. 7.18].\nAnd thus as {A magnitude} (is) to {E magnitude}, so {E magnitude} (is) to {B magnitude}.\nThus, one number (namely, {E magnitude}) is in mean proportion to {A magnitude} and {B magnitude}.\n\nSo I say that {A magnitude} also has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {D magnitude}.\nFor since {A magnitude}, {E magnitude}, {B magnitude} are three (continuously) proportional numbers, {A magnitude} thus has to {B magnitude} a squared ratio with respect to (that) {A magnitude} (has) to {E magnitude} [Def. 5.9].\nAnd as {A magnitude} (is) to {E magnitude}, so {C magnitude} (is) to {D magnitude}.\nThus, {A magnitude} has to {B magnitude} a squared ratio with respect to (that) side {C magnitude} (has) to (side) {D magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 140,
+        "v": 50
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "p": [
+          150,
+          150
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8.12",
+    "title": "Proposition 12",
+    "prose": "There exist two numbers in mean proportion to two (given) cube numbers.\nAnd (one) cube (number) has to the (other) cube (number) a cubed ratio with respect to (that) the side (of the former has) to the side (of the latter).\n\nLet {A magnitude} and {B magnitude} be cube numbers, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.\nI say that there exist two numbers in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.\n\nFor let {C magnitude} make {E magnitude} (by) multiplying itself, and let it make {F magnitude} (by) multiplying {D magnitude}.\nAnd let {D magnitude} make {G magnitude} (by) multiplying itself, and let {C magnitude}, {D magnitude} make {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}.\n\nAnd since {A magnitude} is cube, and {C magnitude} (is) its side, and {C magnitude} has made {E magnitude} (by) multiplying itself, {C magnitude} has thus made {E magnitude} (by) multiplying itself, and has made {A magnitude} (by) multiplying {E magnitude}.\nAnd so, for the same (reasons), {D magnitude} has made {G magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {G magnitude}.\nAnd since {C magnitude} has made {E magnitude}, {F magnitude} (by) multiplying {C magnitude}, {D magnitude}, respectively, thus as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude} [Prop. 7.17].\nAnd so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {F magnitude} (is) to {G magnitude} [Prop. 7.18].\nAgain, since {C magnitude} has made {A magnitude}, {H magnitude} (by) multiplying {E magnitude}, {F magnitude}, respectively, thus as {E magnitude} is to {F magnitude}, so {A magnitude} (is) to {H magnitude} [Prop. 7.17].\nAnd as {E magnitude} (is) to {F magnitude}, so {C magnitude} (is) to {D magnitude}.\nAnd thus as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {H magnitude}.\nAgain, since {C magnitude}, {D magnitude} have made {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}, thus as {C magnitude} is to {D magnitude}, so {H magnitude} (is) to {K magnitude} [Prop. 7.18].\nAgain, since {D magnitude} has made {K magnitude}, {B magnitude} (by) multiplying {F magnitude}, {G magnitude}, respectively, thus as {F magnitude} is to {G magnitude}, so {K magnitude} (is) to {B magnitude} [Prop. 7.17].\nAnd as {F magnitude} (is) to {G magnitude}, so {C magnitude} (is) to {D magnitude}.\nAnd thus as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {H magnitude}, and {H magnitude} to {K magnitude}, and {K magnitude} to {B magnitude}.\nThus, {H magnitude} and {K magnitude} are two (numbers) in mean proportion to {A magnitude} and {B magnitude}.\n\nSo I say that {A magnitude} also has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.\nFor since {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are four (continuously) proportional numbers, {A magnitude} thus has to {B magnitude} a cubed ratio with respect to (that) {A magnitude} (has) to {H magnitude} [Def. 5.10].\nAnd as {A magnitude} (is) to {H magnitude}, so {C magnitude} (is) to {D magnitude}.\nAnd [thus] {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {D magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 90,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 40,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 85,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 165,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.13",
+    "title": "Proposition 13",
+    "prose": "If there are any multitude whatsoever of continuously proportional numbers, and each makes some (number by) multiplying itself, then the (numbers) created from them will (also) be (continuously) proportional.\nAnd if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be (continuously) proportional.\n\nLet {A magnitude}, {B magnitude}, {C magnitude} be any multitude whatsoever of continuously proportional numbers, (such that) as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.\nAnd let {A magnitude}, {B magnitude}, {C magnitude} make {D magnitude}, {E magnitude}, {F magnitude} (by) multiplying themselves, and let them make {G magnitude}, {H magnitude}, {K magnitude} (by) multiplying {D magnitude}, {E magnitude}, {F magnitude}.\nI say that {D magnitude}, {E magnitude}, {F magnitude} and {G magnitude}, {H magnitude}, {K magnitude} are continuously proportional.\n\nFor let {A magnitude} make {L magnitude} (by) multiplying {B magnitude}.\nAnd let {A magnitude}, {B magnitude} make {M magnitude}, {N magnitude}, respectively, (by) multiplying {L magnitude}.\nAnd, again, let {B magnitude} make {O magnitude} (by) multiplying {C magnitude}.\nAnd let {B magnitude}, {C magnitude} make {P magnitude}, {Q magnitude}, respectively, (by) multplying {O magnitude}.\n\nSo, similarly to the above, we can show that {D magnitude}, {L magnitude}, {E magnitude} and {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} are continuously proportional in the ratio of {A magnitude} to {B magnitude}, and, further, (that) {E magnitude}, {O magnitude}, {F magnitude} and {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude} are continuously proportional in the ratio of {B magnitude} to {C magnitude}.\nAnd as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}.\nAnd thus {D magnitude}, {L magnitude}, {E magnitude} are in the same ratio as {E magnitude}, {O magnitude}, {F magnitude}, and, further, {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} (are in the same ratio) as {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}.\nAnd the multitude of {D magnitude}, {L magnitude}, {E magnitude} is equal to the multitude of {E magnitude}, {O magnitude}, {F magnitude}, and that of {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} to that of {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}.\nThus, via equality, as {D magnitude} is to {E magnitude}, so {E magnitude} (is) to {F magnitude}, and as {G magnitude} (is) to {H magnitude}, so {H magnitude} (is) to {K magnitude} [Prop. 7.14].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 60,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 75,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 110,
+        "v": 50
+      },
+      {
+        "l": "H",
+        "m": 150,
+        "v": 40
+      },
+      {
+        "l": "K",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 100,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "O",
+        "m": 145,
+        "v": 40
+      },
+      {
+        "l": "M",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "P",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "Q",
+        "m": 220,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.14",
+    "title": "Proposition 14",
+    "prose": "If a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).\nAnd if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).\n\nLet {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} and {D magnitude} be their sides (respectively).\nAnd let {A magnitude} measure {B magnitude}.\nI say that {C magnitude} also measures {D magnitude}.\n\nFor let {C magnitude} make {E magnitude} (by) multiplying {D magnitude}.\nThus, {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude} [Prop. 8.11].\nAnd since {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional, and {A magnitude} measures {B magnitude}, {A magnitude} thus also measures {E magnitude} [Prop. 8.7].\nAnd as {A magnitude} is to {E magnitude}, so {C magnitude} (is) to {D magnitude}.\nThus,{C magnitude} also measures {D magnitude} [Def. 7.20].\n\nSo, again, let {C magnitude} measure {D magnitude}.\nI say that {A magnitude} also measures {B magnitude}.\n\nFor similarly, with the same construction, we can show that {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude}.\nAnd since as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {E magnitude}, and {C magnitude} measures {D magnitude}, {A magnitude} thus also measures {E magnitude} [Def. 7.20].\nAnd {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional.\nThus, {A magnitude} also measures {B magnitude}.\n\nThus, if a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).\nAnd if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 140,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          280,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.15",
+    "title": "Proposition 15",
+    "prose": "If a cube number measures a(nother) cube number then the side (of the former) will also measure the side (of the latter).\nAnd if the side (of a cube number) measures the side (of another cube number) then the (former) cube (number) will also measure the (latter) cube (number).\n\nFor let the cube number {A magnitude} measure the cube (number) {B magnitude}, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.\nI say that {C magnitude} measures {D magnitude}.\n\nFor let {C magnitude} make {E magnitude} (by) multiplying itself.\nAnd let {D magnitude} make {G magnitude} (by) multiplying itself.\nAnd, further, [let] {C magnitude} [make] {F magnitude} (by) multiplying {D magnitude}, and let {C magnitude}, {D magnitude} make {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}.\nSo it is clear that {E magnitude}, {F magnitude}, {G magnitude} and {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude} [Prop. 8.12].\nAnd since {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional, and {A magnitude} measures {B magnitude}, ({A magnitude}) thus also measures {H magnitude} [Prop. 8.7].\nAnd as {A magnitude} is to {H magnitude}, so {C magnitude} (is) to {D magnitude}.\nThus, {C magnitude} also measures {D magnitude} [Def. 7.20].\n\nAnd so let {C magnitude} measure {D magnitude}.\nI say that {A magnitude} will also measure {B magnitude}.\n\nFor similarly, with the same construction, we can show that {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude}.\nAnd since {C magnitude} measures {D magnitude}, and as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {H magnitude}, {A magnitude} thus also measures {H magnitude} [Def. 7.20].\nHence, {A magnitude} also measures {B magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          280,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 100,
+        "p": [
+          200,
+          140
+        ]
+      },
+      {
+        "l": "K",
+        "m": 140,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.16",
+    "title": "Proposition 16",
+    "prose": "If a square number does not measure a(nother) square number then the side (of the former) will not measure the side (of the latter) either.\nAnd if the side (of a square number) does not measure the side (of another square number) then the (former) square (number) will not measure the (latter) square (number) either.\n\nLet {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} and {D magnitude} be their sides (respectively).\nAnd let {A magnitude} not measure {B magnitude}.\nI say that {C magnitude} does not measure {D magnitude} either.\n\nFor if {C magnitude} measures {D magnitude} then {A magnitude} will also measure {B magnitude} [Prop. 8.14].\nAnd {A magnitude} does not measure {B magnitude}.\nThus, {C magnitude} will not measure {D magnitude} either.\n\n[So], again, let {C magnitude} not measure {D magnitude}.\nI say that {A magnitude} will not measure {B magnitude} either.\n\nFor if {A magnitude} measures {B magnitude} then {C magnitude} will also measure {D magnitude} [Prop. 8.14].\nAnd {C magnitude} does not measure {D magnitude}.\nThus, {A magnitude} will not measure {B magnitude} either.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          280,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.17",
+    "title": "Proposition 17",
+    "prose": "If a cube number does not measure a(nother) cube number then the side (of the former) will not measure the side (of the latter) either.\nAnd if the side (of a cube number) does not measure the side (of another cube number) then the (former) cube (number) will not measure the (latter) cube (number) either.\n\nFor let the cube number {A magnitude} not measure the cube number {B magnitude}.\nAnd let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.\nI say that {C magnitude} will not measure {D magnitude}.\n\nFor if {C magnitude} measures {D magnitude} then {A magnitude} will also measure {B magnitude} [Prop. 8.15].\nAnd {A magnitude} does not measure {B magnitude}.\nThus, {C magnitude} does not measure {D magnitude} either.\n\nAnd so let {C magnitude} not measure {D magnitude}.\nI say that {A magnitude} will not measure {B magnitude} either.\nFor if {A magnitude} measures {B magnitude} then {C magnitude} will also measure {D magnitude} [Prop. 8.15].\nAnd {C magnitude} does not measure {D magnitude}.\nThus, {A magnitude} will not measure {B magnitude} either.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          280,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.18",
+    "title": "Proposition 18",
+    "prose": "There exists one number in mean proportion to two similar plane numbers.\nAnd (one) plane (number) has to the (other) plane (number) a squared ratio with respect to (that) a corresponding side (of the former has) to a corresponding side (of the latter).\n\nLet {A magnitude} and {B magnitude} be two similar plane numbers.\nAnd let the numbers {C magnitude}, {D magnitude} be the sides of {A magnitude}, and {E magnitude}, {F magnitude} (the sides) of {B magnitude}.\nAnd since similar numbers are those having proportional sides [Def. 7.21], thus as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude}.\nTherefore, I say that there exists one number in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a squared ratio with respect to that {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude} ---that is to say, with respect to (that) a corresponding side (has) to a corresponding [side].\n\nFor since as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude}, thus, alternately, as {C magnitude} is to {E magnitude}, so {D magnitude} (is) to {F magnitude} [Prop. 7.13].\nAnd since {A magnitude} is plane, and {C magnitude}, {D magnitude} its sides, {D magnitude} has thus made {A magnitude} (by) multiplying {C magnitude}.\nAnd so, for the same (reasons), {E magnitude} has made {B magnitude} (by) multiplying {F magnitude}.\nSo let {D magnitude} make {G magnitude} (by) multiplying {E magnitude}.\nAnd since {D magnitude} has made {A magnitude} (by) multiplying {C magnitude}, and has made {G magnitude} (by) multiplying {E magnitude}, thus as {C magnitude} is to {E magnitude}, so {A magnitude} (is) to {G magnitude} [Prop. 7.17].\nBut as {C magnitude} (is) to {E magnitude}, [so] {D magnitude} (is) to {F magnitude}.\nAnd thus as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {G magnitude}.\nAgain, since {E magnitude} has made {G magnitude} (by) multiplying {D magnitude}, and has made {B magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {G magnitude} (is) to {B magnitude} [Prop. 7.17].\nAnd it was also shown that as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {G magnitude}.\nAnd thus as {A magnitude} (is) to {G magnitude}, so {G magnitude} (is) to {B magnitude}.\nThus, {A magnitude}, {G magnitude}, {B magnitude} are continously proportional.\nThus, there exists one number (namely, {G magnitude}) in mean proportion to {A magnitude} and {B magnitude}.\n\nSo I say that {A magnitude} also has to {B magnitude} a squared ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude}.\nFor since {A magnitude}, {G magnitude}, {B magnitude} are continuously proportional, {A magnitude} has to {B magnitude} a squared ratio with respect to (that {A magnitude} has) to {G magnitude} [Prop. 5.9].\nAnd as {A magnitude} is to {G magnitude}, so {C magnitude} (is) to {E magnitude}, and {D magnitude} to {F magnitude}.\nAnd thus {A magnitude} has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 50,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 130,
+        "v": 50
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 120,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.19",
+    "title": "Proposition 19",
+    "prose": "Two numbers fall (between) two similar solid numbers in mean proportion.\nAnd a solid (number) has to a similar solid (number) a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side.\n\nLet {A magnitude} and {B magnitude} be two similar solid numbers, and let {C magnitude}, {D magnitude}, {E magnitude} be the sides of {A magnitude}, and {F magnitude}, {G magnitude}, {H magnitude} (the sides) of {B magnitude}.\nAnd since similar solid (numbers) are those having proportional sides [Def. 7.21], thus as {C magnitude} is to {D magnitude}, so {F magnitude} (is) to {G magnitude}, and as {D magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {H magnitude}.\nI say that two numbers fall (between) {A magnitude} and {B magnitude} in mean proportion, and (that) {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.\n\nFor let {C magnitude} make {K magnitude} (by) multiplying {D magnitude}, and let {F magnitude} make {L magnitude} (by) multiplying {G magnitude}.\nAnd since {C magnitude}, {D magnitude} are in the same ratio as {F magnitude}, {G magnitude}, and {K magnitude} is the (number created) from (multiplying) {C magnitude}, {D magnitude}, and {L magnitude} the (number created) from (multiplying) {F magnitude}, {G magnitude}, [thus] {K magnitude} and {L magnitude} are similar plane numbers [Def. 7.21].\nThus, there exits one number in mean proportion to {K magnitude} and {L magnitude} [Prop. 8.18].\nLet it be {M magnitude}.\nThus, {M magnitude} is the (number created) from (multiplying) {D magnitude}, {F magnitude}, as shown in the theorem before this (one).\nAnd since {D magnitude} has made {K magnitude} (by) multiplying {C magnitude}, and has made {M magnitude} (by) multiplying {F magnitude}, thus as {C magnitude} is to {F magnitude}, so {K magnitude} (is) to {M magnitude} [Prop. 7.17].\nBut, as {K magnitude} (is) to {M magnitude}, (so) {M magnitude} (is) to {L magnitude}.\nThus, {K magnitude}, {M magnitude}, {L magnitude} are continuously proportional in the ratio of {C magnitude} to {F magnitude}.\nAnd since as {C magnitude} is to {D magnitude}, so {F magnitude} (is) to {G magnitude}, thus, alternately, as {C magnitude} is to {F magnitude}, so {D magnitude} (is) to {G magnitude} [Prop. 7.13].\nAnd so, for the same (reasons), as {D magnitude} (is) to {G magnitude}, so {E magnitude} (is) to {H magnitude}.\nThus, {K magnitude}, {M magnitude}, {L magnitude} are continuously proportional in the ratio of {C magnitude} to {F magnitude}, and of {D magnitude} to {G magnitude}, and, further, of {E magnitude} to {H magnitude}.\nSo let {E magnitude}, {H magnitude} make {N magnitude}, {O magnitude}, respectively, (by) multiplying {M magnitude}.\nAnd since {A magnitude} is solid, and {C magnitude}, {D magnitude}, {E magnitude} are its sides, {E magnitude} has thus made {A magnitude} (by) multiplying the (number created) from (multiplying) {C magnitude}, {D magnitude}.\nAnd {K magnitude} is the (number created) from (multiplying) {C magnitude}, {D magnitude}.\nThus, {E magnitude} has made {A magnitude} (by) multiplying {K magnitude}.\nAnd so, for the same (reasons), {H magnitude} has made {B magnitude} (by) multiplying {L magnitude}.\nAnd since {E magnitude} has made {A magnitude} (by) multiplying {K magnitude}, but has, in fact, also made {N magnitude} (by) multiplying {M magnitude}, thus as {K magnitude} is to {M magnitude}, so {A magnitude} (is) to {N magnitude} [Prop. 7.17].\nAnd as {K magnitude} (is) to {M magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.\nAnd thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so {A magnitude} (is) to {N magnitude}.\nAgain, since {E magnitude}, {H magnitude} have made {N magnitude}, {O magnitude}, respectively, (by) multiplying {M magnitude}, thus as {E magnitude} is to {H magnitude}, so {N magnitude} (is) to {O magnitude} [Prop. 7.18].\nBut, as {E magnitude} (is) to {H magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}.\nAnd thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so (is) {A magnitude} to {N magnitude}, and {N magnitude} to {O magnitude}.\nAgain, since {H magnitude} has made {O magnitude} (by) multiplying {M magnitude}, but has, in fact, also made {B magnitude} (by) multiplying {L magnitude}, thus as {M magnitude} (is) to {L magnitude}, so {O magnitude} (is) to {B magnitude} [Prop. 7.17].\nBut, as {M magnitude} (is) to {L magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}.\nAnd thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so not only (is) {O magnitude} to {B magnitude}, but also {A magnitude} to {N magnitude}, and {N magnitude} to {O magnitude}.\nThus, {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude} are continuously proportional in the aforementioned ratios of the sides.\n\nSo I say that {A magnitude} also has to {B magnitude} a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number {C magnitude} (has) to {F magnitude}, or {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.\nFor since {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude} are four continuously proportional numbers, {A magnitude} thus has to {B magnitude} a cubed ratio with respect to (that) {A magnitude} (has) to {N magnitude} [Def. 5.10].\nBut, as {A magnitude} (is) to {N magnitude}, so it was shown (is) {C magnitude} to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.\nAnd thus {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number {C magnitude} (has) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 190,
+        "v": 130
+      },
+      {
+        "l": "K",
+        "m": 100,
+        "v": 120
+      },
+      {
+        "l": "M",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 170,
+        "v": 80
+      },
+      {
+        "l": "O",
+        "m": 190,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.20",
+    "title": "Proposition 20",
+    "prose": "If one number falls between two numbers in mean proportion then the numbers will be similar plane (numbers).\n\nFor let one number {C magnitude} fall between the two numbers {A magnitude} and {B magnitude} in mean proportion.\nI say that {A magnitude} and {B magnitude} are similar plane numbers.\n\n[For] let the least numbers, {D magnitude} and {E magnitude}, having the same ratio as {A magnitude} and {C magnitude} have been taken [Prop. 7.33].\nThus, {D magnitude} measures {A magnitude} as many times as {E magnitude} (measures) {C magnitude} [Prop. 7.20].\nSo as many times as {D magnitude} measures {A magnitude}, so many units let there be in {F magnitude}.\nThus, {F magnitude} has made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].\nHence, {A magnitude} is plane, and {D magnitude}, {F magnitude} (are) its sides.\nAgain, since {D magnitude} and {E magnitude} are the least of those (numbers) having the same ratio as {C magnitude} and {B magnitude}, {D magnitude} thus measures {C magnitude} as many times as {E magnitude} (measures) {B magnitude} [Prop. 7.20].\nSo as many times as {E magnitude} measures {B magnitude}, so many units let there be in {G magnitude}.\nThus, {E magnitude} measures {B magnitude} according to the units in {G magnitude}.\nThus, {G magnitude} has made {B magnitude} (by) multiplying {E magnitude} [Def. 7.15].\nThus, {B magnitude} is plane, and {E magnitude}, {G magnitude} are its sides.\nThus, {A magnitude} and {B magnitude} are (both) plane numbers.\nSo I say that (they are) also similar.\nFor since {F magnitude} has made {A magnitude} (by) multiplying {D magnitude}, and has made {C magnitude} (by) multiplying {E magnitude}, thus as {D magnitude} is to {E magnitude}, so {A magnitude} (is) to {C magnitude}---that is to say, {C magnitude} to {B magnitude} [Prop. 7.17].\nAgain, since {E magnitude} has made {C magnitude}, {B magnitude} (by) multiplying {F magnitude}, {G magnitude}, respectively, thus as {F magnitude} is to {G magnitude}, so {C magnitude} (is) to {B magnitude} [Prop. 7.17].\nAnd as {C magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}.\nAnd thus as {D magnitude} (is) to {E magnitude}, so {F magnitude} (is) to {G magnitude}.\nAnd, alternately, as {D magnitude} (is) to {F magnitude}, so {E magnitude} (is) to {G magnitude} [Prop. 7.13].\nThus, {A magnitude} and {B magnitude} are similar plane numbers.\nFor their sides are proportional [Def. 7.21].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 170,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 70,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 100,
+        "v": 80
+      },
+      {
+        "l": "G",
+        "m": 140,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.21",
+    "title": "Proposition 21",
+    "prose": "If two numbers fall between two numbers in mean proportion then the (latter) are similar solid (numbers).\n\nFor let the two numbers {C magnitude} and {D magnitude} fall between the two numbers {A magnitude} and {B magnitude} in mean proportion.\nI say that {A magnitude} and {B magnitude} are similar solid (numbers).\n\nFor let the three least numbers {E magnitude}, {F magnitude}, {G magnitude} having the same ratio as {A magnitude}, {C magnitude}, {D magnitude} have been taken [Prop. 8.2].\nThus, the outermost of them, {E magnitude} and {G magnitude}, are prime to one another [Prop. 8.3].\nAnd since one number, {F magnitude}, has fallen (between) {E magnitude} and {G magnitude} in mean proportion, {E magnitude} and {G magnitude} are thus similar plane numbers [Prop. 8.20].\nTherefore, let {H magnitude}, {K magnitude} be the sides of {E magnitude}, and {L magnitude}, {M magnitude} (the sides) of {G magnitude}.\nThus, it is clear from the (proposition) before this (one) that {E magnitude}, {F magnitude}, {G magnitude} are continuously proportional in the ratio of {H magnitude} to {L magnitude}, and of {K magnitude} to {M magnitude}.\nAnd since {E magnitude}, {F magnitude}, {G magnitude} are the least (numbers) having the same ratio as {A magnitude}, {C magnitude}, {D magnitude}, and the multitude of {E magnitude}, {F magnitude}, {G magnitude} is equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, thus, via equality, as {E magnitude} is to {G magnitude}, so {A magnitude} (is) to {D magnitude} [Prop. 7.14].\nAnd {E magnitude} and {G magnitude} (are) prime (to one another), and prime (numbers) are also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {E magnitude} measures {A magnitude} the same number of times as {G magnitude} (measures) {D magnitude}.\nSo as many times as {E magnitude} measures {A magnitude}, so many units let there be in {N magnitude}.\nThus, {N magnitude} has made {A magnitude} (by) multiplying {E magnitude} [Def. 7.15].\nAnd {E magnitude} is the (number created) from (multiplying) {H magnitude} and {K magnitude}.\nThus, {N magnitude} has made {A magnitude} (by) multiplying the (number created) from (multiplying) {H magnitude} and {K magnitude}.\nThus, {A magnitude} is solid, and its sides are {H magnitude}, {K magnitude}, {N magnitude}.\nAgain, since {E magnitude}, {F magnitude}, {G magnitude} are the least (numbers) having the same ratio as {C magnitude}, {D magnitude}, {B magnitude}, thus {E magnitude} measures {C magnitude} the same number of times as {G magnitude} (measures) {B magnitude} [Prop. 7.20].\nSo as many times as {E magnitude} measures {C magnitude}, so many units let there be in {O magnitude}.\nThus, {G magnitude} measures {B magnitude} according to the units in {O magnitude}.\nThus, {O magnitude} has made {B magnitude} (by) multiplying {G magnitude}.\nAnd {G magnitude} is the (number created) from (multiplying) {L magnitude} and {M magnitude}.\nThus, {O magnitude} has made {B magnitude} (by) multiplying the (number created) from (multiplying) {L magnitude} and {M magnitude}.\nThus, {B magnitude} is solid, and its sides are {L magnitude}, {M magnitude}, {O magnitude}.\nThus, {A magnitude} and {B magnitude} are (both) solid.\n\n[So] I say that (they are) also similar.\nFor since {N magnitude}, {O magnitude} have made {A magnitude}, {C magnitude} (by) multiplying {E magnitude}, thus as {N magnitude} is to {O magnitude}, so {A magnitude}(is) to {C magnitude}---that is to say, {E magnitude} to {F magnitude} [Prop. 7.18].\nBut, as {E magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {L magnitude}, and {K magnitude} to {M magnitude}.\nAnd thus as {H magnitude} (is) to {L magnitude}, so {K magnitude} (is) to {M magnitude}, and {N magnitude} to {O magnitude}.\nAnd {H magnitude}, {K magnitude}, {N magnitude} are the sides of {A magnitude}, and {L magnitude}, {M magnitude}, {O magnitude} the sides of {B magnitude}.\nThus, {A magnitude} and {B magnitude} are similar solid numbers [Def. 7.21].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 80,
+        "v": 50
+      },
+      {
+        "l": "F",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 135,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 60,
+        "p": [
+          300,
+          50
+        ]
+      },
+      {
+        "l": "K",
+        "m": 75,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "L",
+        "m": 120,
+        "v": 90
+      },
+      {
+        "l": "M",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "O",
+        "m": 160,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.22",
+    "title": "Proposition 22",
+    "prose": "If three numbers are continuously proportional, and the first is square, then the third will also be square.\n\nLet {A magnitude}, {B magnitude}, {C magnitude} be three continuously proportional numbers, and let the first {A magnitude} be square.\nI say that the third {C magnitude} is also square.\n\nFor since one number, {B magnitude}, is in mean proportion to {A magnitude} and {C magnitude}, {A magnitude} and {C magnitude} are thus similar plane (numbers) [Prop. 8.20].\nAnd {A magnitude} is square.\nThus, {C magnitude} is also square [Def. 7.21].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 180,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.23",
+    "title": "Proposition 23",
+    "prose": "If four numbers are continuously proportional, and the first is cube, then the fourth will also be cube.\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be four continuously proportional numbers, and let {A magnitude} be cube.\nI say that {D magnitude} is also cube.\n\nFor since two numbers, {B magnitude} and {C magnitude}, are in mean proportion to {A magnitude} and {D magnitude}, {A magnitude} and {D magnitude} are thus similar solid numbers [Prop. 8.21].\nAnd {A magnitude} (is) cube.\nThus, {D magnitude} (is) also cube [Def. 7.21].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 220,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.24",
+    "title": "Proposition 24",
+    "prose": "If two numbers have to one another the ratio which a square number (has) to a(nother) square number, and the first is square, then the second will also be square.\n\nFor let two numbers, {A magnitude} and {B magnitude}, have to one another the ratio which the square number {C magnitude} (has) to the square number {D magnitude}.\nAnd let {A magnitude} be square.\nI say that {B magnitude} is also square.\n\nFor since {C magnitude} and {D magnitude} are square, {C magnitude} and {D magnitude} are thus similar plane (numbers).\nThus, one number falls (between) {C magnitude} and {D magnitude} in mean proportion [Prop. 8.18].\nAnd as {C magnitude} is to {D magnitude}, (so) {A magnitude} (is) to {B magnitude}.\nThus, one number also falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].\nAnd {A magnitude} is square.\nThus, {B magnitude} is also square [Prop. 8.22].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 80,
+        "p": [
+          240,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 120,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.25",
+    "title": "Proposition 25",
+    "prose": "If two numbers have to one another the ratio which a cube number (has) to a(nother) cube number, and the first is cube, then the second will also be cube.\n\nFor let two numbers, {A magnitude} and {B magnitude}, have to one another the ratio which the cube number {C magnitude} (has) to the cube number {D magnitude}.\nAnd let {A magnitude} be cube.\n[So] I say that {B magnitude} is also cube.\n\nFor since {C magnitude} and {D magnitude} are cube (numbers), {C magnitude} and {D magnitude} are (thus) similar solid (numbers).\nThus, two numbers fall (between) {C magnitude} and {D magnitude} in mean proportion [Prop. 8.19].\nAnd as many (numbers) as fall in between {C magnitude} and {D magnitude} in continued proportion, so many also (fall) in (between) those (numbers) having the same ratio as them (in continued proportion) [Prop. 8.8].\nAnd hence two numbers fall (between) {A magnitude} and {B magnitude} in mean proportion.\nLet {E magnitude} and {F magnitude} (so) fall.\nTherefore, since the four numbers {A magnitude}, {E magnitude}, {F magnitude}, {B magnitude} are continuously proportional, and {A magnitude} is cube, {B magnitude} (is) thus also cube [Prop. 8.23].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "p": [
+          230,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 200,
+        "v": 120
+      }
+    ]
+  },
+  {
+    "id": "8.26",
+    "title": "Proposition 26",
+    "prose": "Similar plane numbers have to one another the ratio which (some) square number (has) to a(nother) square number.\n\nLet {A magnitude} and {B magnitude} be similar plane numbers.\nI say that {A magnitude} has to {B magnitude} the ratio which (some) square number (has) to a(nother) square number.\n\nFor since {A magnitude} and {B magnitude} are similar plane numbers, one number thus falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.18].\nLet it (so) fall, and let it be {C magnitude}.\nAnd let the least numbers, {D magnitude}, {E magnitude}, {F magnitude}, having the same ratio as {A magnitude}, {C magnitude}, {B magnitude} have been taken [Prop. 8.2].\nThe outermost of them, {D magnitude} and {F magnitude}, are thus square [Prop. 8.2 corr.].\nAnd since as {D magnitude} is to {F magnitude}, so {A magnitude} (is) to {B magnitude}, and {D magnitude} and {F magnitude} are square, {A magnitude} thus has to {B magnitude} the ratio which (some) square number (has) to a(nother) square number.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 70,
+        "p": [
+          240,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 110,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "8.27",
+    "title": "Proposition 27",
+    "prose": "Similar solid numbers have to one another the ratio which (some) cube number (has) to a(nother) cube number.\n\nLet {A magnitude} and {B magnitude} be similar solid numbers.\nI say that {A magnitude} has to {B magnitude} the ratio which (some) cube number (has) to a(nother) cube number.\n\nFor since {A magnitude} and {B magnitude} are similar solid (numbers), two numbers thus fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.19].\nLet {C magnitude} and {D magnitude} have (so) fallen.\nAnd let the least numbers, {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}, having the same ratio as {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}, (and) equal in multitude to them, have been taken [Prop. 8.2].\nThus, the outermost of them, {E magnitude} and {H magnitude}, are cube [Prop. 8.2 corr.].\nAnd as {E magnitude} is to {H magnitude}, so {A magnitude} (is) to {B magnitude}.\nAnd thus {A magnitude} has to {B magnitude} the ratio which (some) cube number (has) to a(nother) cube number.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "p": [
+          260,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 90,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 130,
+        "v": 40
+      }
+    ]
+  }
+]

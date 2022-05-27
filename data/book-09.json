@@ -1,0 +1,1216 @@
+[
+  {
+    "id": "9.1",
+    "title": "Proposition 1",
+    "prose": "If two similar plane numbers make some (number by) multiplying one another then the created (number) will be square.\n\nLet {A magnitude} and {B magnitude} be two similar plane numbers, and let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.\nI say that {C magnitude} is square.\n\nFor let {A magnitude} make {D magnitude} (by) multiplying itself.\n{D magnitude} is thus square.\nTherefore, since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].\nAnd since {A magnitude} and {B magnitude} are similar plane numbers, one number thus falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.18].\nAnd if (some) numbers fall between two numbers in continued proportion then, as many (numbers) as fall in (between) them (in continued proportion), so many also (fall) in (between numbers) having the same ratio (as them in continued proportion) [Prop. 8.8].\nAnd hence one number falls (between) {D magnitude} and {C magnitude} in mean proportion.\nAnd {D magnitude} is square.\nThus, {C magnitude} (is) also square [Prop. 8.22].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 110,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 240,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 170,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.2",
+    "title": "Proposition 2",
+    "prose": "If two numbers make a square (number by) multiplying one another then they are similar plane numbers.\n\nLet {A magnitude} and {B magnitude} be two numbers, and let {A magnitude} make the square (number) {C magnitude} (by) multiplying {B magnitude}.\nI say that {A magnitude} and {B magnitude} are similar plane numbers.\n\nFor let {A magnitude} make {D magnitude} (by) multiplying itself.\nThus, {D magnitude} is square.\nAnd since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].\nAnd since {D magnitude} is square, and {C magnitude} (is) also, {D magnitude} and {C magnitude} are thus similar plane numbers.\nThus, one (number) falls (between) {D magnitude} and {C magnitude} in mean proportion [Prop. 8.18].\nAnd as {D magnitude} is to {C magnitude}, so {A magnitude} (is) to {B magnitude}.\nThus, one (number) also falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].\nAnd if one (number) falls (between) two numbers in mean proportion then [the] numbers are similar plane (numbers) [Prop. 8.20].\nThus, {A magnitude} and {B magnitude} are similar plane (numbers).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 110,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 240,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 170,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.3",
+    "title": "Proposition 3",
+    "prose": "If a cube number makes some (number by) multiplying itself then the created (number) will be cube.\n\nFor let the cube number {A magnitude} make {B magnitude} (by) multiplying itself.\nI say that {B magnitude} is cube.\n\nFor let the side {C magnitude} of {A magnitude} have been taken.\nAnd let {C magnitude} make {D magnitude} by multiplying itself.\nSo it is clear that {C magnitude} has made {A magnitude} (by) multiplying {D magnitude}.\nAnd since {C magnitude} has made {D magnitude} (by) multiplying itself, {C magnitude} thus measures {D magnitude} according to the units in it [Def. 7.15].\nBut, in fact, a unit also measures {C magnitude} according to the units in it [Def. 7.20].\nThus, as a unit is to {C magnitude}, so {C magnitude} (is) to {D magnitude}.\nAgain, since {C magnitude} has made {A magnitude} (by) multiplying {D magnitude}, {D magnitude} thus measures {A magnitude} according to the units in {C magnitude}.\nAnd a unit also measures {C magnitude} according to the units in it.\nThus, as a unit is to {C magnitude}, so {D magnitude} (is) to {A magnitude}.\nBut, as a unit (is) to {C magnitude}, so {C magnitude} (is) to {D magnitude}.\nAnd thus as a unit (is) to {C magnitude}, so {C magnitude} (is) to {D magnitude}, and {D magnitude} to {A magnitude}.\nThus, two numbers,{C magnitude} and {D magnitude}, have fallen (between) a unit and the number {A magnitude} in continued mean proportion.\nAgain, since {A magnitude} has made {B magnitude} (by) multiplying itself, {A magnitude} thus measures {B magnitude} according to the units in it.\nAnd a unit also measures {A magnitude} according to the units in it.\nThus, as a unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}.\nAnd two numbers have fallen (between) a unit and {A magnitude} in mean proportion.\nThus two numbers will also fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].\nAnd if two (numbers) fall (between) two numbers in mean proportion, and the first (number) is cube, then the second will also be cube [Prop. 8.23].\nAnd {A magnitude} is cube.\nThus, {B magnitude} is also cube.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 120,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 100,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.4",
+    "title": "Proposition 4",
+    "prose": "If a cube number makes some (number by) multiplying a(nother) cube number then the created (number) will be cube.\n\nFor let the cube number {A magnitude} make {C magnitude} (by) multiplying the cube number {B magnitude}.\nI say that {C magnitude} is cube.\n\nFor let {A magnitude} make {D magnitude} (by) multiplying itself.\nThus, {D magnitude} is cube [Prop. 9.3].\nAnd since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].\nAnd since {A magnitude} and {B magnitude} are cube, {A magnitude} and {B magnitude} are similar solid (numbers).\nThus, two numbers fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.19].\nHence, two numbers will also fall (between) {D magnitude} and {C magnitude} in mean proportion [Prop. 8.8].\nAnd {D magnitude} is cube.\nThus, {C magnitude} (is) also cube [Prop. 8.23].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.5",
+    "title": "Proposition 5",
+    "prose": "If a cube number makes a(nother) cube number (by) multiplying some (number) then the (number) multiplied will also be cube.\n\nFor let the cube number {A magnitude} make the cube (number) {C magnitude} (by) multiplying some number {B magnitude}.\nI say that {B magnitude} is cube.\n\nFor let {A magnitude} make {D magnitude} (by) multiplying itself.\n{D magnitude} is thus cube [Prop. 9.3].\nAnd since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].\nAnd since {D magnitude} and {C magnitude} are (both) cube, they are similar solid (numbers).\nThus, two numbers fall (between) {D magnitude} and {C magnitude} in mean proportion [Prop.8.19].\nAnd as {D magnitude} is to {C magnitude}, so {A magnitude} (is) to {B magnitude}.\nThus, two numbers also fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].\nAnd {A magnitude} is cube.\nThus, {B magnitude} is also cube [Prop. 8.23].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 120,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.6",
+    "title": "Proposition 6",
+    "prose": "If a number makes a cube (number by) multiplying itself then it itself will also be cube.\n\nFor let the number {A magnitude} make the cube (number) {B magnitude} (by) multiplying itself.\nI say that {A magnitude} is also cube.\n\nFor let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.\nTherefore, since {A magnitude} has made {B magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus cube.\nAnd since {A magnitude} has made {B magnitude} (by) multiplying itself, {A magnitude} thus measures {B magnitude} according to the units in ({A magnitude}).\nAnd a unit also measures {A magnitude} according to the units in it.\nThus, as a unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}.\nAnd since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {B magnitude} thus measures {C magnitude} according to the units in {A magnitude}.\nAnd a unit also measures {A magnitude} according to the units in it.\nThus, as a unit is to {A magnitude}, so {B magnitude} (is) to {C magnitude}.\nBut, as a unit (is) to {A magnitude}, so {A magnitude} (is) to {B magnitude}.\nAnd thus as {A magnitude} (is) to {B magnitude}, (so) {B magnitude} (is) to {C magnitude}.\nAnd since {B magnitude} and {C magnitude} are cube, they are similar solid (numbers).\nThus, there exist two numbers in mean proportion (between) {B magnitude} and {C magnitude} [Prop. 8.19].\nAnd as {B magnitude} is to {C magnitude}, (so) {A magnitude} (is) to {B magnitude}.\nThus, there also exist two numbers in mean proportion (between) {A magnitude} and {B magnitude} [Prop. 8.8].\nAnd {B magnitude} is cube.\nThus, {A magnitude} is also cube [Prop. 8.23].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 170,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 190,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.7",
+    "title": "Proposition 7",
+    "prose": "If a composite number makes some (number by) multiplying some (other) number then the created (number) will be solid.\n\nFor let the composite number {A magnitude} make {C magnitude} (by) multiplying some number {B magnitude}.\nI say that {C magnitude} is solid.\n\nFor since {A magnitude} is a composite (number), it will be measured by some number.\nLet it be measured by {D magnitude}.\nAnd, as many times as {D magnitude} measures {A magnitude}, so many units let there be in {E magnitude}.\nTherefore, since {D magnitude} measures {A magnitude} according to the units in {E magnitude}, {E magnitude} has thus made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].\nAnd since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, and {A magnitude} is the (number created) from (multiplying) {D magnitude}, {E magnitude}, the (number created) from (multiplying) {D magnitude}, {E magnitude} has thus made {C magnitude} (by) multiplying {B magnitude}.\nThus, {C magnitude} is solid, and its sides are {D magnitude}, {E magnitude}, {B magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 50,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 40,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 80,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.8",
+    "title": "Proposition 8",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, then the third from the unit will be square, and (all) those (numbers after that) which leave an interval of one (number), and the fourth (will be) cube, and all those (numbers after that) which leave an interval of two (numbers), and the seventh (will be) both cube and square, and (all) those (numbers after that) which leave an interval of five (numbers).\n\nLet any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, be continuously proportional, (starting) from a unit.\nI say that the third from the unit, {B magnitude}, is square, and all those (numbers after that) which leave an interval of one (number).\nAnd the fourth (from the unit), {C magnitude}, (is) cube, and all those (numbers after that) which leave an interval of two (numbers).\nAnd the seventh (from the unit), {F magnitude}, (is) both cube and square, and all those (numbers after that) which leave an interval of five (numbers).\n\nFor since as the unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}, the unit thus measures the number {A magnitude} the same number of times as {A magnitude} (measures) {B magnitude} [Def. 7.20].\nAnd the unit measures the number {A magnitude} according to the units in it.\nThus, {A magnitude} also measures {B magnitude} according to the units in {A magnitude}.\n{A magnitude} has thus made {B magnitude} (by) multiplying itself [Def. 7.15].\nThus, {B magnitude} is square.\nAnd since {B magnitude}, {C magnitude}, {D magnitude} are continuously proportional, and {B magnitude} is square, {D magnitude} is thus also square [Prop. 8.22].\nSo, for the same (reasons), {F magnitude} is also square.\nSo, similarly, we can also show that all those (numbers after that) which leave an interval of one (number) are square.\nSo I also say that the fourth (number) from the unit, {C magnitude}, is cube, and all those (numbers after that) which leave an interval of two (numbers).\nFor since as the unit is to {A magnitude}, so {B magnitude} (is) to {C magnitude}, the unit thus measures the number {A magnitude} the same number of times that {B magnitude} (measures) {C magnitude}.\nAnd the unit measures the number {A magnitude} according to the units in {A magnitude}.\nAnd thus {B magnitude} measures {C magnitude} according to the units in {A magnitude}.\n{A magnitude} has thus made {C magnitude} (by) multiplying {B magnitude}.\nTherefore, since {A magnitude} has made {B magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus cube.\nAnd since {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude} are continuously proportional, and {C magnitude} is cube, {F magnitude} is thus also cube [Prop. 8.23].\nAnd it was also shown (to be) square.\nThus, the seventh (number) from the unit is (both) cube and square.\nSo, similarly, we can show that all those (numbers after that) which leave an interval of five (numbers) are (both) cube and square.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 200,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.9",
+    "title": "Proposition 9",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, and the (number) after the unit is square, then all the remaining (numbers) will also be square.\nAnd if the (number) after the unit is cube, then all the remaining (numbers) will also be cube.\n\nLet any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, be continuously proportional, (starting) from a unit.\nAnd let the (number) after the unit, {A magnitude}, be square.\nI say that all the remaining (numbers) will also be square.\n\nIn fact, it has (already) been shown that the third (number) from the unit, {B magnitude}, is square, and all those (numbers after that) which leave an interval of one (number) [Prop. 9.8].\n[So] I say that all the remaining (numbers) are also square.\nFor since {A magnitude}, {B magnitude}, {C magnitude} are continuously proportional, and {A magnitude} (is) square, {C magnitude} is [thus] also square [Prop. 8.22].\nAgain, since {B magnitude}, {C magnitude}, {D magnitude} are [also] continuously proportional, and {B magnitude} is square, {D magnitude} is [thus] also square [Prop. 8.22].\nSo, similarly, we can show that all the remaining (numbers) are also square.\n\nAnd so let {A magnitude} be cube.\nI say that all the remaining (numbers) are also cube.\n\nIn fact, it has (already) been shown that the fourth (number) from the unit, {C magnitude}, is cube, and all those (numbers after that) which leave an interval of two (numbers) [Prop. 9.8].\n[So] I say that all the remaining (numbers) are also cube.\nFor since as the unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}, the unit thus measures {A magnitude} the same number of times as {A magnitude} (measures) {B magnitude}.\nAnd the unit measures {A magnitude} according to the units in it.\nThus, {A magnitude} also measures {B magnitude} according to the units in ({A magnitude}).\n{A magnitude} has thus made {B magnitude} (by) multiplying itself.\nAnd {A magnitude} is cube.\nAnd if a cube number makes some (number by) multiplying itself then the created (number) is cube [Prop. 9.3].\nThus, {B magnitude} is also cube.\nAnd since the four numbers {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are continuously proportional, and {A magnitude} is cube, {D magnitude} is thus also cube [Prop. 8.23].\nSo, for the same (reasons), {E magnitude} is also cube, and, similarly, all the remaining (numbers) are cube.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 200,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.10",
+    "title": "Proposition 10",
+    "prose": "If any multitude whatsoever of numbers is [continuously] proportional, (starting) from a unit, and the (number) after the unit is not square, then no other (number) will be square either, apart from the third from the unit, and all those (numbers after that) which leave an interval of one (number).\nAnd if the (number) after the unit is not cube, then no other (number) will be cube either, apart from the fourth from the unit, and all those (numbers after that) which leave an interval of two (numbers).\n\nLet any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, be continuously proportional, (starting) from a unit.\nAnd let the (number) after the unit, {A magnitude}, not be square.\nI say that no other (number) will be square either, apart from the third from the unit [and (all) those (numbers after that) which leave an interval of one (number)].\n\nFor, if possible, let {C magnitude} be square.\nAnd {B magnitude} is also square [Prop. 9.8].\nThus, {B magnitude} and {C magnitude} have to one another (the) ratio which (some) square number (has) to (some other) square number.\nAnd as {B magnitude} is to {C magnitude}, (so) {A magnitude} (is) to {B magnitude}.\nThus, {A magnitude} and {B magnitude} have to one another (the) ratio which (some) square number has to (some other) square number.\nHence, {A magnitude} and {B magnitude} are similar plane (numbers) [Prop. 8.26].\nAnd {B magnitude} is square.\nThus, {A magnitude} is also square.\nThe very opposite thing was assumed.\n{C magnitude} is thus not square.\nSo, similarly, we can show that no other (number is) square either, apart from the third from the unit, and (all) those (numbers after that) which leave an interval of one (number).\n\nAnd so let {A magnitude} not be cube.\nI say that no other (number) will be cube either, apart from the fourth from the unit, and (all) those (numbers after that) which leave an interval of two (numbers).\n\nFor, if possible, let {D magnitude} be cube.\nAnd {C magnitude} is also cube [Prop. 9.8].\nFor it is the fourth (number) from the unit.\nAnd as {C magnitude} is to {D magnitude}, (so) {B magnitude} (is) to {C magnitude}.\nAnd {B magnitude} thus has to {C magnitude} the ratio which (some) cube (number has) to (some other) cube (number).\nAnd {C magnitude} is cube.\nThus, {B magnitude} is also cube [Props. 7.13, 8.25].\nAnd since as the unit is to {A magnitude}, (so) {A magnitude} (is) to {B magnitude}, and the unit measures {A magnitude} according to the units in it, {A magnitude} thus also measures {B magnitude} according to the units in ({A magnitude}).\nThus, {A magnitude} has made the cube (number) {B magnitude} (by) multiplying itself.\nAnd if a number makes a cube (number by) multiplying itself then it itself will be cube [Prop. 9.6].\nThus, {A magnitude} (is) also cube.\nThe very opposite thing was assumed.\nThus, {D magnitude} is not cube.\nSo, similarly, we can show that no other (number) is cube either, apart from the fourth from the unit, and (all) those (numbers after that) which leave an interval of two (numbers).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 180,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 200,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.11",
+    "title": "Proposition 11",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, then a lesser (number) measures a greater according to some existing (number) among the proportional numbers.\n\nLet any multitude whatsoever of numbers, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, be continuously proportional, (starting) from the unit {A magnitude}.\nI say that, for {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, the least (number), {B magnitude}, measures {E magnitude} according to some (one) of {C magnitude}, {D magnitude}.\n\nFor since as the unit {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude}, the unit {A magnitude} thus measures the number {B magnitude} the same number of times as {D magnitude} (measures) {E magnitude}.\nThus, alternately, the unit {A magnitude} measures {D magnitude} the same number of times as {B magnitude} (measures) {E magnitude} [Prop. 7.15].\nAnd the unit {A magnitude} measures {D magnitude} according to the units in it.\nThus, {B magnitude} also measures {E magnitude} according to the units in {D magnitude}.\nHence, the lesser (number) {B magnitude} measures the greater {E magnitude} according to some existing number among the proportional numbers (namely, {D magnitude}).\n\nCorollary\n\nAnd (it is) clear that what(ever relative) place the measuring (number) has from the unit, the (number) according to which it measures has the same (relative) place from the measured (number), in (the direction of the number) before it.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 180,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.12",
+    "title": "Proposition 12",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, then however many prime numbers the last (number) is measured by, the (number) next to the unit will also be measured by the same (prime numbers).\n\nLet any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be (continuously) proportional, (starting) from a unit.\nI say that however many prime numbers {D magnitude} is measured by, {A magnitude} will also be measured by the same (prime numbers).\n\nFor let {D magnitude} be measured by some prime number {E magnitude}.\nI say that {E magnitude} measures {A magnitude}.\nFor (suppose it does) not.\n{E magnitude} is prime, and every prime number is prime to every number which it does not measure [Prop. 7.29].\nThus, {E magnitude} and {A magnitude} are prime to one another.\nAnd since {E magnitude} measures {D magnitude}, let it measure it according to {F magnitude}.\nThus, {E magnitude} has made {D magnitude} (by) multiplying {F magnitude}.\nAgain, since {A magnitude} measures {D magnitude} according to the units in {C magnitude} [Prop. 9.11 corr.], {A magnitude} has thus made {D magnitude} (by) multiplying {C magnitude}.\nBut, in fact, {E magnitude} has also made {D magnitude} (by) multiplying {F magnitude}.\nThus, the (number created) from (multiplying) {A magnitude}, {C magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {F magnitude}.\nThus, as {A magnitude} is to {E magnitude}, (so) {F magnitude} (is) to {C magnitude} [Prop. 7.19].\nAnd {A magnitude} and {E magnitude} (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {E magnitude} measures {C magnitude}.\nLet it measure it according to {G magnitude}.\nThus, {E magnitude} has made {C magnitude} (by) multiplying {G magnitude}.\nBut, in fact, via the (proposition) before this, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude} [Prop. 9.11 corr.].\nThus, the (number created) from (multiplying) {A magnitude}, {B magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {G magnitude}.\nThus, as {A magnitude} is to {E magnitude}, (so) {G magnitude} (is) to {B magnitude} [Prop. 7.19].\nAnd {A magnitude} and {E magnitude} (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {E magnitude} measures {B magnitude}.\nLet it measure it according to {H magnitude}.\nThus, {E magnitude} has made {B magnitude} (by) multiplying {H magnitude}.\nBut, in fact, {A magnitude} has also made {B magnitude} (by) multiplying itself [Prop. 9.8].\nThus, the (number created) from (multiplying) {E magnitude}, {H magnitude} is equal to the (square) on {A magnitude}.\nThus, as {E magnitude} is to {A magnitude}, (so) {A magnitude} (is) to {H magnitude} [Prop. 7.19].\nAnd {A magnitude} and {E magnitude} are prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {E magnitude} measures {A magnitude}, as the leading (measuring the) leading.\nBut, in fact, ({E magnitude}) also does not measure ({A magnitude}).\nThe very thing (is) impossible.\nThus, {E magnitude} and {A magnitude} are not prime to one another.\nThus, (they are) composite (to one another).\nAnd (numbers) composite (to one another) are (both) measured by some [prime] number [Def. 7.14].\nAnd since {E magnitude} is assumed (to be) prime, and a prime (number) is not measured by another number (other) than itself [Def. 7.11], {E magnitude} thus measures (both) {A magnitude} and {E magnitude}.\nHence, {E magnitude} measures {A magnitude}.\nAnd it also measures {D magnitude}.\nThus, {E magnitude} measures (both) {A magnitude} and {D magnitude}.\nSo, similarly, we can show that however many prime numbers {D magnitude} is measured by, {A magnitude} will also be measured by the same (prime numbers).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 120,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 85,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 145,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 125,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 105,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.13",
+    "title": "Proposition 13",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, and the (number) after the unit is prime, then the greatest (number) will be measured by no [other] (numbers) except (numbers) existing among the proportional numbers.\n\nLet any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be continuously proportional, (starting) from a unit.\nAnd let the (number) after the unit, {A magnitude}, be prime.\nI say that the greatest of them, {D magnitude}, will be measured by no other (numbers) except {A magnitude}, {B magnitude}, {C magnitude}.\n\nFor, if possible, let it be measured by {E magnitude}, and let {E magnitude} not be the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nSo it is clear that {E magnitude} is not prime.\nFor if {E magnitude} is prime, and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].\nThe very thing is impossible.\nThus, {E magnitude} is not prime.\nThus, (it is) composite.\nAnd every composite number is measured by some prime number [Prop. 7.31].\nThus, {E magnitude} is measured by some prime number.\nSo I say that it will be measured by no other prime number than {A magnitude}.\nFor if {E magnitude} is measured by another (prime number), and {E magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.\nHence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].\nThe very thing is impossible.\nThus, {A magnitude} measures {E magnitude}.\nAnd since {E magnitude} measures {D magnitude}, let it measure it according to {F magnitude}.\nI say that {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nFor if {F magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}, and measures {D magnitude} according to {E magnitude}, then one of {A magnitude}, {B magnitude}, {C magnitude} thus also measures {D magnitude} according to {E magnitude}.\nBut one of {A magnitude}, {B magnitude}, {C magnitude} (only) measures {D magnitude} according to some (one) of {A magnitude}, {B magnitude}, {C magnitude} [Prop. 9.11].\nAnd thus {E magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nThe very opposite thing was assumed.\nThus, {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nSimilarly, we can show that {F magnitude} is measured by {A magnitude}, (by) again showing that {F magnitude} is not prime.\nFor if ({F magnitude} is prime), and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].\nThe very thing is impossible.\nThus, {F magnitude} is not prime.\nThus, (it is) composite.\nAnd every composite number is measured by some prime number [Prop. 7.31].\nThus, {F magnitude} is measured by some prime number.\nSo I say that it will be measured by no other prime number than {A magnitude}.\nFor if some other prime (number) measures {F magnitude}, and {F magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.\nHence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].\nThe very thing is impossible.\nThus, {A magnitude} measures {F magnitude}.\nAnd since {E magnitude} measures {D magnitude} according to {F magnitude}, {E magnitude} has thus made {D magnitude} (by) multiplying {F magnitude}.\nBut, in fact, {A magnitude} has also made {D magnitude} (by) multiplying {C magnitude} [Prop. 9.11 corr.].\nThus, the (number created) from (multiplying) {A magnitude}, {C magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {F magnitude}.\nThus, proportionally, as {A magnitude} is to {E magnitude}, so {F magnitude} (is) to {C magnitude} [Prop. 7.19].\nAnd {A magnitude} measures {E magnitude}.\nThus, {F magnitude} also measures {C magnitude}.\nLet it measure it according to {G magnitude}.\nSo, similarly, we can show that {G magnitude} is not the same as one of {A magnitude}, {B magnitude}, and that it is measured by {A magnitude}.\nAnd since {F magnitude} measures {C magnitude} according to {G magnitude}, {F magnitude} has thus made {C magnitude} (by) multiplying {G magnitude}.\nBut, in fact, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude} [Prop. 9.11 corr.].\nThus, the (number created) from (multiplying) {A magnitude}, {B magnitude} is equal to the (number created) from (multiplying) {F magnitude}, {G magnitude}.\nThus, proportionally, as {A magnitude} (is) to {F magnitude}, so {G magnitude} (is) to {B magnitude} [Prop. 7.19].\nAnd {A magnitude} measures {F magnitude}.\nThus, {G magnitude} also measures {B magnitude}.\nLet it measure it according to {H magnitude}.\nSo, similarly, we can show that {H magnitude} is not the same as {A magnitude}.\nAnd since {G magnitude} measures {B magnitude} according to {H magnitude}, {G magnitude} has thus made {B magnitude} (by) multiplying {H magnitude}.\nBut, in fact, {A magnitude} has also made {B magnitude} (by) multiplying itself [Prop. 9.8].\nThus, the (number created) from (multiplying) {H magnitude}, {G magnitude} is equal to the square on {A magnitude}.\nThus, as {H magnitude} is to {A magnitude}, (so) {A magnitude} (is) to {G magnitude} [Prop. 7.19].\nAnd {A magnitude} measures {G magnitude}.\nThus, {H magnitude} also measures {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it.\nThe very thing (is) absurd.\nThus, the greatest (number) {D magnitude} cannot be measured by another (number) except (one of) {A magnitude}, {B magnitude}, {C magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 40,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 65,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "F",
+        "m": 95,
+        "v": 40
+      },
+      {
+        "l": "G",
+        "m": 55,
+        "v": 40
+      },
+      {
+        "l": "H",
+        "m": 60,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.14",
+    "title": "Proposition 14",
+    "prose": "If a least number is measured by (some) prime numbers then it will not be measured by any other prime number except (one of) the original measuring (numbers).\n\nFor let {A magnitude} be the least number measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.\nI say that {A magnitude} will not be measured by any other prime number except (one of) {B magnitude}, {C magnitude}, {D magnitude}.\n\nFor, if possible, let it be measured by the prime (number) {E magnitude}.\nAnd let {E magnitude} not be the same as one of {B magnitude}, {C magnitude}, {D magnitude}.\nAnd since {E magnitude} measures {A magnitude}, let it measure it according to {F magnitude}.\nThus, {E magnitude} has made {A magnitude} (by) multiplying {F magnitude}.\nAnd {A magnitude} is measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.\nAnd if two numbers make some (number by) multiplying one another, and some prime number measures the number created from them, then (the prime number) will also measure one of the original (numbers) [Prop. 7.30].\nThus, {B magnitude}, {C magnitude}, {D magnitude} will measure one of {E magnitude}, {F magnitude}.\nIn fact, they do not measure {E magnitude}.\nFor {E magnitude} is prime, and not the same as one of {B magnitude}, {C magnitude}, {D magnitude}.\nThus, they (all) measure {F magnitude}, which is less than {A magnitude}.\nThe very thing (is) impossible.\nFor {A magnitude} was assumed (to be) the least (number) measured by {B magnitude}, {C magnitude}, {D magnitude}.\nThus, no prime number can measure {A magnitude} except (one of) {B magnitude}, {C magnitude}, {D magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 70,
+        "v": 40
+      },
+      {
+        "l": "F",
+        "m": 40,
+        "v": 40
+      },
+      {
+        "l": "B",
+        "m": 50,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 60,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 80,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.15",
+    "title": "Proposition 15",
+    "prose": "If three continuously proportional numbers are the least of those (numbers) having the same ratio as them then two (of them) added together in any way are prime to the remaining (one).\n\nLet {A magnitude}, {B magnitude}, {C magnitude} be three continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them.\nI say that two of {A magnitude}, {B magnitude}, {C magnitude} added together in any way are prime to the remaining (one), (that is) {A magnitude} and {B magnitude} (prime) to {C magnitude}, {B magnitude} and {C magnitude} to {A magnitude}, and, further, {A magnitude} and {C magnitude} to {B magnitude}.\n\nLet the two least numbers, {DE magnitude} and {EF magnitude}, having the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, have been taken [Prop. 8.2].\nSo it is clear that {DE magnitude} has made {A magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {EF magnitude}, and, further, {EF magnitude} has made {C magnitude} (by) multiplying itself [Prop. 8.2].\nAnd since {DE magnitude}, {EF magnitude} are the least (of those numbers having the same ratio as them), they are prime to one another [Prop. 7.22].\nAnd if two numbers are prime to one another then the sum (of them) is also prime to each [Prop. 7.28].\nThus, {DF magnitude} is also prime to each of {DE magnitude}, {EF magnitude}.\nBut, in fact, {DE magnitude} is also prime to {EF magnitude}.\nThus, {DF magnitude}, {DE magnitude} are (both) prime to {EF magnitude}.\nAnd if two numbers are (both) prime to some number then the (number) created from (multiplying) them is also prime to the remaining (number) [Prop. 7.24].\nHence, the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is prime to {EF magnitude}.\nHence, the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is also prime to the (square) on {EF magnitude} [Prop. 7.25].\n[For if two numbers are prime to one another then the (number) created from (squaring) one of them is prime to the remaining (number).]\nBut the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is the (square) on {DE magnitude} plus the (number created) from (multiplying) {DE magnitude}, {EF magnitude} [Prop. 2.3].\nThus, the (square) on {DE magnitude} plus the (number created) from (multiplying) {DE magnitude}, {EF magnitude} is prime to the (square) on {EF magnitude}.\nAnd the (square) on {DE magnitude} is {A magnitude}, and the (number created) from (multiplying) {DE magnitude}, {EF magnitude} (is) {B magnitude}, and the (square) on {EF magnitude} (is) {C magnitude}.\nThus, {A magnitude}, {B magnitude} summed is prime to {C magnitude}.\nSo, similarly, we can show that {B magnitude}, {C magnitude} (summed) is also prime to {A magnitude}.\nSo I say that {A magnitude}, {C magnitude} (summed) is also prime to {B magnitude}.\nFor since {DF magnitude} is prime to each of {DE magnitude}, {EF magnitude} then the (square) on {DF magnitude} is also prime to the (number created) from (multiplying) {DE magnitude}, {EF magnitude} [Prop. 7.25].\nBut, the (sum of the squares) on {DE magnitude}, {EF magnitude} plus twice the (number created) from (multiplying) {DE magnitude}, {EF magnitude} is equal to the (square) on {DF magnitude} [Prop. 2.4].\nAnd thus the (sum of the squares) on {DE magnitude}, {EF magnitude} plus twice the (rectangle contained) by {DE magnitude}, {EF magnitude} [is] prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.\nBy separation, the (sum of the squares) on {DE magnitude}, {EF magnitude} plus once the (rectangle contained) by {DE magnitude}, {EF magnitude} is prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.\nAgain, by separation, the (sum of the squares) on {DE magnitude}, {EF magnitude} is prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.\nAnd the (square) on {DE magnitude} is {A magnitude}, and the (rectangle contained) by {DE magnitude}, {EF magnitude} (is) {B magnitude}, and the (square) on {EF magnitude} (is) {C magnitude}.\nThus, {A magnitude}, {C magnitude} summed is prime to {B magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 60,
+        "p": [
+          250,
+          50
+        ]
+      },
+      {
+        "l": "E",
+        "m": 80
+      },
+      {
+        "l": "F"
+      }
+    ]
+  },
+  {
+    "id": "9.16",
+    "title": "Proposition 16",
+    "prose": "If two numbers are prime to one another then as the first is to the second, so the second (will) not (be) to some other (number).\n\nFor let the two numbers {A magnitude} and {B magnitude} be prime to one another.\nI say that as {A magnitude} is to {B magnitude}, so {B magnitude} is not to some other (number).\n\nFor, if possible, let it be that as {A magnitude} (is) to {B magnitude}, (so) {B magnitude} (is) to {C magnitude}.\nAnd {A magnitude} and {B magnitude} (are) prime (to one another).\nAnd (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21].\nAnd the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {A magnitude} measures {B magnitude}, as the leading (measuring) the leading.\nAnd ({A magnitude}) also measures itself.\nThus, {A magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.\nThe very thing (is) absurd.\nThus, as {A magnitude} (is) to {B magnitude}, so {B magnitude} cannot be to {C magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.17",
+    "title": "Proposition 17",
+    "prose": "If any multitude whatsoever of numbers is continuously proportional, and the outermost of them are prime to one another, then as the first (is) to the second, so the last will not be to some other (number).\n\nLet {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any multitude whatsoever of continuously proportional numbers.\nAnd let the outermost of them, {A magnitude} and {D magnitude}, be prime to one another.\nI say that as {A magnitude} is to {B magnitude}, so {D magnitude} (is) not to some other (number).\n\nFor, if possible, let it be that as {A magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}.\nThus, alternately, as {A magnitude} is to {D magnitude}, (so) {B magnitude} (is) to {E magnitude} [Prop. 7.13].\nAnd {A magnitude} and {D magnitude} are prime (to one another).\nAnd (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21].\nAnd the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {A magnitude} measures {B magnitude}.\nAnd as {A magnitude} is to {B magnitude}, (so) {B magnitude} (is) to {C magnitude}.\nThus, {B magnitude} also measures {C magnitude}.\nAnd hence {A magnitude} measures {C magnitude} [Def. 7.20].\nAnd since as {B magnitude} is to {C magnitude}, (so) {C magnitude} (is) to {D magnitude}, and {B magnitude} measures {C magnitude}, {C magnitude} thus also measures {D magnitude} [Def. 7.20].\nBut, {A magnitude} was (found to be) measuring {C magnitude}.\nAnd hence {A magnitude} also measures {D magnitude}.\nAnd ({A magnitude}) also measures itself.\nThus, {A magnitude} measures {A magnitude} and {D magnitude}, which are prime to one another.\nThe very thing is impossible.\nThus, as {A magnitude} (is) to {B magnitude}, so {D magnitude} cannot be to some other (number).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 210,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.18",
+    "title": "Proposition 18",
+    "prose": "For two given numbers, to investigate whether it is possible to find a third (number) proportional to them.\n\nLet {A magnitude} and {B magnitude} be the two given numbers.\nAnd let it be required to investigate whether it is possible to find a third (number) proportional to them.\n\nSo {A magnitude} and {B magnitude} are either prime to one another, or not.\nAnd if they are prime to one another then it has (already) been show that it is impossible to find a third (number) proportional to them [Prop. 9.16].\n\nAnd so let {A magnitude} and {B magnitude} not be prime to one another.\nAnd let {B magnitude} make {C magnitude} (by) multiplying itself.\nSo {A magnitude} either measures, or does not measure, {C magnitude}.\nLet it first of all measure ({C magnitude}) according to {D magnitude}.\nThus, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.\nBut, in fact, {B magnitude} has also made {C magnitude} (by) multiplying itself.\nThus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude}.\nThus, as {A magnitude} is to {B magnitude}, (so) {B magnitude} (is) to {D magnitude} [Prop. 7.19].\nThus, a third number has been found proportional to {A magnitude}, {B magnitude}, (namely) {D magnitude}.\n\nAnd so let {A magnitude} not measure {C magnitude}.\nI say that it is impossible to find a third number proportional to {A magnitude}, {B magnitude}.\nFor, if possible, let it have been found, (and let it be) {D magnitude}.\nThus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude} [Prop. 7.19].\nAnd the (square) on {B magnitude} is {C magnitude}.\nThus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to {C magnitude}.\nHence, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.\nThus, {A magnitude} measures {C magnitude} according to {D magnitude}.\nBut ({A magnitude}) was, in fact, also assumed (to be) not measuring ({C magnitude}).\nThe very thing (is) absurd.\nThus, it is not possible to find a third number proportional to {A magnitude}, {B magnitude} when {A magnitude} does not measure {C magnitude}.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 90,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "p": [
+          200,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 130,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.19",
+    "title": "Proposition 19",
+    "prose": "For three given numbers, to investigate when it is possible to find a fourth (number) proportional to them.\n\nLet {A magnitude}, {B magnitude}, {C magnitude} be the three given numbers.\nAnd let it be required to investigate when it is possible to find a fourth (number) proportional to them.\n\nIn fact, ({A magnitude}, {B magnitude}, {C magnitude}) are either not continuously proportional and the outermost of them are prime to one another, or are continuously proportional and the outermost of them are not prime to one another, or are neither continuously proportional nor are the outermost of them prime to one another, or are continuously proportional and the outermost of them are prime to one another.\n\nIn fact, if {A magnitude}, {B magnitude}, {C magnitude} are continuously proportional, and the outermost of them, {A magnitude} and {C magnitude}, are prime to one another, (then) it has (already) been shown that it is impossible to find a fourth number proportional to them [Prop. 9.17].\nSo let {A magnitude}, {B magnitude}, {C magnitude} not be continuously proportional, (with) the outermost of them again being prime to one another.\nI say that, in this case, it is also impossible to find a fourth (number) proportional to them.\nFor, if possible, let it have been found, (and let it be) {D magnitude}.\nHence, it will be that as {A magnitude} (is) to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}.\nAnd let it be contrived that as {B magnitude} (is) to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}.\nAnd since as {A magnitude} is to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}, and as {B magnitude} (is) to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}, thus, via equality, as {A magnitude} (is) to {C magnitude}, (so) {C magnitude} (is) to {E magnitude} [Prop. 7.14].\nAnd {A magnitude} and {C magnitude} (are) prime (to one another).\nAnd (numbers) prime (to one another are) also the least (numbers having the same ratio as them) [Prop. 7.21].\nAnd the least (numbers) measure those numbers having the same ratio as them (the same number of times), the leading (measuring) the leading, and the following the following [Prop. 7.20].\nThus, {A magnitude} measures {C magnitude}, (as) the leading (measuring) the leading.\nAnd it also measures itself.\nThus, {A magnitude} measures {A magnitude} and {C magnitude}, which are prime to one another.\nThe very thing is impossible.\nThus, it is not possible to find a fourth (number) proportional to {A magnitude}, {B magnitude}, {C magnitude}.\n\nAnd so let {A magnitude}, {B magnitude}, {C magnitude} again be continuously proportional, and let {A magnitude} and {C magnitude} not be prime to one another.\nI say that it is possible to find a fourth (number) proportional to them.\nFor let {B magnitude} make {D magnitude} (by) multiplying {C magnitude}.\nThus, {A magnitude} either measures or does not measure {D magnitude}.\nLet it, first of all, measure ({D magnitude}) according to {E magnitude}.\nThus, {A magnitude} has made {D magnitude} (by) multiplying {E magnitude}.\nBut, in fact, {B magnitude} has also made {D magnitude} (by) multiplying {C magnitude}.\nThus, the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to the (number created) from (multiplying) {B magnitude}, {C magnitude}.\nThus, proportionally, as {A magnitude} [is] to {B magnitude}, (so) {C magnitude} (is) to {E magnitude} [Prop. 7.19].\nThus, a fourth (number) proportional to {A magnitude}, {B magnitude}, {C magnitude} has been found, (namely) {E magnitude}.\n\nAnd so let {A magnitude} not measure {D magnitude}.\nI say that it is impossible to find a fourth number proportional to {A magnitude}, {B magnitude}, {C magnitude}.\nFor, if possible, let it have been found, (and let it be) {E magnitude}.\nThus, the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to the (number created) from (multiplying) {B magnitude}, {C magnitude}.\nBut, the (number created) from (multiplying) {B magnitude}, {C magnitude} is {D magnitude}.\nAnd thus the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to {D magnitude}.\nThus, {A magnitude} has made {D magnitude} (by) multiplying {E magnitude}.\nThus, {A magnitude} measures {D magnitude} according to {E magnitude}.\nHence, {A magnitude} measures {D magnitude}.\nBut, it also does not measure ({D magnitude}).\nThe very thing (is) absurd.\nThus, it is not possible to find a fourth number proportional to {A magnitude}, {B magnitude}, {C magnitude} when {A magnitude} does not measure {D magnitude}.\nAnd so (let) {A magnitude}, {B magnitude}, {C magnitude} (be) neither continuously proportional, nor (let) the outermost of them (be) prime to one another.\nAnd let {B magnitude} make {D magnitude} (by) multiplying {C magnitude}.\nSo, similarly, it can be show that if {A magnitude} measures {D magnitude} then it is possible to find a fourth (number) proportional to ({A magnitude}, {B magnitude}, {C magnitude}), and impossible if ({A magnitude}) does not measure ({D magnitude}).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 210,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 190,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.20",
+    "title": "Proposition 20",
+    "prose": "The (set of all) prime numbers is more numerous than any assigned multitude of prime numbers.\n\nLet {A magnitude}, {B magnitude}, {C magnitude} be the assigned prime numbers.\nI say that the (set of all) primes numbers is more numerous than {A magnitude}, {B magnitude}, {C magnitude}.\n\nFor let the least number measured by {A magnitude}, {B magnitude}, {C magnitude} have been taken, and let it be {DE magnitude} [Prop. 7.36].\nAnd let the unit {DF magnitude} have been added to {DE magnitude}.\nSo {EF magnitude} is either prime, or not.\nLet it, first of all, be prime.\nThus, the (set of) prime numbers {A magnitude}, {B magnitude}, {C magnitude}, {EF magnitude}, (which is) more numerous than {A magnitude}, {B magnitude}, {C magnitude}, has been found.\n\nAnd so let {EF magnitude} not be prime.\nThus, it is measured by some prime number [Prop. 7.31].\nLet it be measured by the prime (number) {G magnitude}.\nI say that {G magnitude} is not the same as any of {A magnitude}, {B magnitude}, {C magnitude}.\nFor, if possible, let it be (the same).\nAnd {A magnitude}, {B magnitude}, {C magnitude} (all) measure {DE magnitude}.\nThus, {G magnitude} will also measure {DE magnitude}.\nAnd it also measures {EF magnitude}.\n(So) {G magnitude} will also measure the remainder, unit {DF magnitude}, (despite) being a number [Prop. 7.28].\nThe very thing (is) absurd.\nThus, {G magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nAnd it was assumed (to be) prime.\nThus, the (set of) prime numbers {A magnitude}, {B magnitude}, {C magnitude}, {G magnitude}, (which is) more numerous than the assigned multitude (of prime numbers), {A magnitude}, {B magnitude}, {C magnitude}, has been found.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 90,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 240,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 40
+      },
+      {
+        "l": "F"
+      },
+      {
+        "l": "G",
+        "m": 150,
+        "p": [
+          230,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9.21",
+    "title": "Proposition 21",
+    "prose": "If any multitude whatsoever of even numbers is added together then the whole is even.\n\nFor let any multitude whatsoever of even numbers, {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude}, lie together.\nI say that the whole, {AE magnitude}, is even.\n\nFor since everyone of {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude} is even, it has a half part [Def. 7.6].\nAnd hence the whole {AE magnitude} has a half part.\nAnd an even number is one (which can be) divided in half [Def. 7.6].\nThus, {AE magnitude} is even.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 50
+      },
+      {
+        "l": "C",
+        "m": 100
+      },
+      {
+        "l": "D",
+        "m": 160
+      },
+      {
+        "l": "E"
+      }
+    ]
+  },
+  {
+    "id": "9.22",
+    "title": "Proposition 22",
+    "prose": "If any multitude whatsoever of odd numbers is added together, and the multitude of them is even, then the whole will be even.\n\nFor let any even multitude whatsoever of odd numbers, {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude}, lie together.\nI say that the whole, {AE magnitude}, is even.\n\nFor since everyone of {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude} is odd then, a unit being subtracted from each, everyone of the remainders will be (made) even [Def. 7.7].\nAnd hence the sum of them will be even [Prop. 9.21].\nAnd the multitude of the units is even.\nThus, the whole {AE magnitude} is also even [Prop. 9.21].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 70,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 50
+      },
+      {
+        "l": "C",
+        "m": 100
+      },
+      {
+        "l": "D",
+        "m": 160
+      },
+      {
+        "l": "E"
+      }
+    ]
+  },
+  {
+    "id": "9.23",
+    "title": "Proposition 23",
+    "prose": "If any multitude whatsoever of odd numbers is added together, and the multitude of them is odd, then the whole will also be odd.\n\nFor let any multitude whatsoever of odd numbers, {AB magnitude}, {BC magnitude}, {CD magnitude}, lie together, and let the multitude of them be odd.\nI say that the whole, {AD magnitude}, is also odd.\n\nFor let the unit {DE magnitude} have been subtracted from {CD magnitude}.\nThe remainder {CE magnitude} is thus even [Def. 7.7].\nAnd {CA magnitude} is also even [Prop. 9.22].\nThus, the whole {AE magnitude} is also even [Prop. 9.21].\nAnd {DE magnitude} is a unit.\nThus, {AD magnitude} is odd [Def. 7.7].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 90,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 50
+      },
+      {
+        "l": "C",
+        "m": 130
+      },
+      {
+        "l": "E",
+        "m": 30
+      },
+      {
+        "l": "D"
+      }
+    ]
+  },
+  {
+    "id": "9.24",
+    "title": "Proposition 24",
+    "prose": "If an even (number) is subtracted from an(other) even number then the remainder will be even.\n\nFor let the even (number) {BC magnitude} have been subtracted from the even number {AB magnitude}.\nI say that the remainder {CA magnitude} is even.\n\nFor since {AB magnitude} is even, it has a half part [Def. 7.6].\nSo, for the same (reasons), {BC magnitude} also has a half part.\nAnd hence the remainder [{CA magnitude} has a half part].\n[Thus,] {AC magnitude} is even.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 150,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 90
+      },
+      {
+        "l": "B"
+      }
+    ]
+  },
+  {
+    "id": "9.25",
+    "title": "Proposition 25",
+    "prose": "If an odd (number) is subtracted from an even number then the remainder will be odd.\n\nFor let the odd (number) {BC magnitude} have been subtracted from the even number {AB magnitude}.\nI say that the remainder {CA magnitude} is odd.\n\nFor let the unit {CD magnitude} have been subtracted from {BC magnitude}.\n{DB magnitude} is thus even [Def. 7.7].\nAnd {AB magnitude} is also even.\nAnd thus the remainder {AD magnitude} is even [Prop. 9.24].\nAnd {CD magnitude} is a unit.\nThus, {CA magnitude} is odd [Def. 7.7].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 50
+      },
+      {
+        "l": "D",
+        "m": 90
+      },
+      {
+        "l": "B"
+      }
+    ]
+  },
+  {
+    "id": "9.26",
+    "title": "Proposition 26",
+    "prose": "If an odd (number) is subtracted from an odd number then the remainder will be even.\n\nFor let the odd (number) {BC magnitude} have been subtracted from the odd (number) {AB magnitude}.\nI say that the remainder {CA magnitude} is even.\n\nFor since {AB magnitude} is odd, let the unit {BD magnitude} have been subtracted (from it).\nThus, the remainder {AD magnitude} is even [Def. 7.7].\nSo, for the same (reasons), {CD magnitude} is also even.\nAnd hence the remainder {CA magnitude} is even [Prop. 9.24].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "C",
+        "m": 90
+      },
+      {
+        "l": "D",
+        "m": 30
+      },
+      {
+        "l": "B"
+      }
+    ]
+  },
+  {
+    "id": "9.27",
+    "title": "Proposition 27",
+    "prose": "If an even (number) is subtracted from an odd number then the remainder will be odd.\n\nFor let the even (number) {BC magnitude} have been subtracted from the odd (number) {AB magnitude}.\nI say that the remainder {CA magnitude} is odd.\n\n[For] let the unit {AD magnitude} have been subtracted (from {AB magnitude}).\n{DB magnitude} is thus even [Def. 7.7].\nAnd {BC magnitude} is also even.\nThus, the remainder {CD magnitude} is also even [Prop. 9.24].\n{CA magnitude} (is) thus odd [Def. 7.7].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 30,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "D",
+        "m": 130
+      },
+      {
+        "l": "C",
+        "m": 90
+      },
+      {
+        "l": "B"
+      }
+    ]
+  },
+  {
+    "id": "9.28",
+    "title": "Proposition 28",
+    "prose": "If an odd number makes some (number by) multiplying an even (number) then the created (number) will be even.\n\nFor let the odd number {A magnitude} make {C magnitude} (by) multiplying the even (number) {B magnitude}.\nI say that {C magnitude} is even.\n\nFor since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus composed out of so many (magnitudes) equal to {B magnitude}, as many as (there) are units in {A magnitude} [Def. 7.15].\nAnd {B magnitude} is even.\nThus, {C magnitude} is composed out of even (numbers).\nAnd if any multitude whatsoever of even numbers is added together then the whole is even [Prop. 9.21].\nThus, {C magnitude} is even.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.29",
+    "title": "Proposition 29",
+    "prose": "If an odd number makes some (number by) multiplying an odd (number) then the created (number) will be odd.\n\nFor let the odd number {A magnitude} make {C magnitude} (by) multiplying the odd (number) {B magnitude}.\nI say that {C magnitude} is odd.\n\nFor since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus composed out of so many (magnitudes) equal to {B magnitude}, as many as (there) are units in {A magnitude} [Def. 7.15].\nAnd each of {A magnitude}, {B magnitude} is odd.\nThus, {C magnitude} is composed out of odd (numbers), (and) the multitude of them is odd.\nHence {C magnitude} is odd [Prop. 9.23].\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 130,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 160,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.30",
+    "title": "Proposition 30",
+    "prose": "If an odd number measures an even number then it will also measure (one) half of it.\n\nFor let the odd number {A magnitude} measure the even (number) {B magnitude}.\nI say that ({A magnitude}) will also measure (one) half of ({B magnitude}).\n\nFor since {A magnitude} measures {B magnitude}, let it measure it according to {C magnitude}.\nI say that {C magnitude} is not odd.\nFor, if possible, let it be (odd).\nAnd since {A magnitude} measures {B magnitude} according to {C magnitude}, {A magnitude} has thus made {B magnitude} (by) multiplying {C magnitude}.\nThus, {B magnitude} is composed out of odd numbers, (and) the multitude of them is odd.\n{B magnitude} is thus odd [Prop. 9.23].\nThe very thing (is) absurd.\nFor ({B magnitude}) was assumed (to be) even.\nThus, {C magnitude} is not odd.\nThus, {C magnitude} is even.\nHence, {A magnitude} measures {B magnitude} an even number of times.\nSo, on account of this, ({A magnitude}) will also measure (one) half of ({B magnitude}).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 190,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 130,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.31",
+    "title": "Proposition 31",
+    "prose": "If an odd number is prime to some number then it will also be prime to its double.\n\nFor let the odd number {A magnitude} be prime to some number {B magnitude}.\nAnd let {C magnitude} be double {B magnitude}.\nI say that {A magnitude} is [also] prime to {C magnitude}.\n\nFor if [{A magnitude} and {C magnitude}] are not prime (to one another) then some number will measure them.\nLet it measure (them), and let it be {D magnitude}.\nAnd {A magnitude} is odd.\nThus, {D magnitude} (is) also odd.\nAnd since {D magnitude}, which is odd, measures {C magnitude}, and {C magnitude} is even, [{D magnitude}] will thus also measure half of {C magnitude} [Prop. 9.30].\nAnd {B magnitude} is half of {C magnitude}.\nThus, {D magnitude} measures {B magnitude}.\nAnd it also measures {A magnitude}.\nThus, {D magnitude} measures (both) {A magnitude} and {B magnitude}, (despite) them being prime to one another.\nThe very thing is impossible.\nThus, {A magnitude} is not unprime to {C magnitude}.\nThus, {A magnitude} and {C magnitude} are prime to one another.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 85,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 220,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 60,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.32",
+    "title": "Proposition 32",
+    "prose": "Each of the numbers (which is continually) doubled, (starting) from a dyad, is an even-times-even (number) only.\n\nFor let any multitude of numbers whatsoever, {B magnitude}, {C magnitude}, {D magnitude}, have been (continually) doubled, (starting) from the dyad {A magnitude}.\nI say that {B magnitude}, {C magnitude}, {D magnitude} are even-times-even (numbers) only.\n\nIn fact, (it is) clear that each [of {B magnitude}, {C magnitude}, {D magnitude}] is an even-times-even (number).\nFor it is doubled from a dyad [Def. 7.8].\nI also say that (they are even-times-even numbers) only.\nFor let a unit be laid down.\nTherefore, since any multitude of numbers whatsoever are continuously proportional, starting from a unit, and the (number) {A magnitude} after the unit is prime, the greatest of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, (namely) {D magnitude}, will not be measured by any other (numbers) except {A magnitude}, {B magnitude}, {C magnitude} [Prop. 9.13].\nAnd each of {A magnitude}, {B magnitude}, {C magnitude} is even.\nThus, {D magnitude} is an even-time-even (number) only [Def. 7.8].\nSo, similarly, we can show that each of {B magnitude}, {C magnitude} is [also] an even-time-even (number) only.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 85,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 100,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 140,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 220,
+        "v": 40
+      }
+    ]
+  },
+  {
+    "id": "9.33",
+    "title": "Proposition 33",
+    "prose": "If a number has an odd half then it is an even-time-odd (number) only.\n\nFor let the number {A magnitude} have an odd half.\nI say that {A magnitude} is an even-times-odd (number) only.\n\nIn fact, (it is) clear that ({A magnitude}) is an even-times-odd (number).\nFor its half, being odd, measures it an even number of times [Def. 7.9].\nSo I also say that (it is an even-times-odd number) only.\nFor if {A magnitude} is also an even-times-even (number) then it will be measured by an even (number) according to an even number [Def. 7.8].\nHence, its half will also be measured by an even number, (despite) being odd.\nThe very thing is absurd.\nThus, {A magnitude} is an even-times-odd (number) only.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9.34",
+    "title": "Proposition 34",
+    "prose": "If a number is neither (one) of the (numbers) doubled from a dyad, nor has an odd half, then it is (both) an even-times-even and an even-times-odd (number).\n\nFor let the number {A magnitude} neither be (one) of the (numbers) doubled from a dyad, nor let it have an odd half.\nI say that {A magnitude} is (both) an even-times-even and an even-times-odd (number).\n\nIn fact, (it is) clear that {A magnitude} is an even-times-even (number) [Def. 7.8].\nFor it does not have an odd half.\nSo I say that it is also an even-times-odd (number).\nFor if we cut {A magnitude} in half, and (then cut) its half in half, and we do this continually, then we will arrive at some odd number which will measure {A magnitude} according to an even number.\nFor if not, we will arrive at a dyad, and {A magnitude} will be (one) of the (numbers) doubled from a dyad.\nThe very opposite thing (was) assumed.\nHence, {A magnitude} is an even-times-odd (number) [Def. 7.9].\nAnd it was also shown (to be) an even-times-even (number).\nThus, {A magnitude} is (both) an even-times-even and an even-times-odd (number).\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 100,
+        "p": [
+          50,
+          50
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9.35",
+    "title": "Proposition 35",
+    "prose": "If there is any multitude whatsoever of continually proportional numbers, and (numbers) equal to the first are subtracted from (both) the second and the last, then as the excess of the second (number is) to the first, so the excess of the last will be to (the sum of) all those (numbers) before it.\n\nLet {A magnitude}, {BC magnitude}, {D magnitude}, {EF magnitude} be any multitude whatsoever of continuously proportional numbers, beginning from the least {A magnitude}.\nAnd let {BG magnitude} and {FH magnitude}, each equal to {A magnitude}, have been subtracted from {BC magnitude} and {EF magnitude} (respectively).\nI say that as {GC magnitude} is to {A magnitude}, so {EH magnitude} is to {A magnitude}, {BC magnitude}, {D magnitude}.\n\nFor let {FK magnitude} be made equal to {BC magnitude}, and {FL magnitude} to {D magnitude}.\nAnd since {FK magnitude} is equal to {BC magnitude}, of which {FH magnitude} is equal to {BG magnitude}, the remainder {HK magnitude} is thus equal to the remainder {GC magnitude}.\nAnd since as {EF magnitude} is to {D magnitude}, so {D magnitude} (is) to {BC magnitude}, and {BC magnitude} to {A magnitude} [Prop. 7.13], and {D magnitude} (is) equal to {FL magnitude}, and {BC magnitude} to {FK magnitude}, and {A magnitude} to {FH magnitude}, thus as {EF magnitude} is to {FL magnitude}, so {LF magnitude} (is) to {FK magnitude}, and {FK magnitude} to {FH magnitude}.\nBy separation, as {EL magnitude} (is) to {LF magnitude}, so {LK magnitude} (is) to {FK magnitude}, and {KH magnitude} to {FH magnitude} [Props. 7.11, 7.13].\nAnd thus as one of the leading (numbers) is to one of the following, so (the sum of) all of the leading (numbers is) to (the sum of) all of the following [Prop. 7.12].\nThus, as {KH magnitude} is to {FH magnitude}, so {EL magnitude}, {LK magnitude}, {KH magnitude} (are) to {LF magnitude}, {FK magnitude}, {HF magnitude}.\nAnd {KH magnitude} (is) equal to {CG magnitude}, and {FH magnitude} to {A magnitude}, and {LF magnitude}, {FK magnitude}, {HF magnitude} to {D magnitude}, {BC magnitude}, {A magnitude}.\nThus, as {CG magnitude} is to {A magnitude}, so {EH magnitude} (is) to {D magnitude}, {BC magnitude}, {A magnitude}.\nThus, as the excess of the second (number) is to the first, so the excess of the last (is) to (the sum of) all those (numbers) before it.\n(Which is) the very thing it was required to show.\n",
+    "mags": [
+      {
+        "l": "A",
+        "m": 160,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 160,
+        "v": 50
+      },
+      {
+        "l": "G",
+        "m": 40
+      },
+      {
+        "l": "C"
+      },
+      {
+        "l": "D",
+        "m": 240,
+        "v": 50
+      },
+      {
+        "l": "E",
+        "m": 40,
+        "v": 50
+      },
+      {
+        "l": "L",
+        "m": 40
+      },
+      {
+        "l": "K",
+        "m": 40
+      },
+      {
+        "l": "H",
+        "m": 160
+      },
+      {
+        "l": "F"
+      }
+    ]
+  },
+  {
+    "id": "9.36",
+    "title": "Proposition 36",
+    "prose": "If any multitude whatsoever of numbers is set out continuously in a double proportion, (starting) from a unit, until the whole sum added together becomes prime, and the sum multiplied into the last (number) makes some (number), then the (number so) created will be perfect.\n\nFor let any multitude of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be set out (continuouly) in a double proportion, until the whole sum added together is made prime.\nAnd let {E magnitude} be equal to the sum.\nAnd let {E magnitude} make {FG magnitude} (by) multiplying {D magnitude}.\nI say that {FG magnitude} is a perfect (number).\n\nFor as many as is the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, let so many (numbers), {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, have been taken in a double proportion, (starting) from {E magnitude}.\nThus, via equality, as {A magnitude} is to {D magnitude}, so {E magnitude} (is) to {M magnitude} [Prop. 7.14].\nThus, the (number created) from (multiplying) {E magnitude}, {D magnitude} is equal to the (number created) from (multiplying) {A magnitude}, {M magnitude}.\nAnd {FG magnitude} is the (number created) from (multiplying) {E magnitude}, {D magnitude}.\nThus, {FG magnitude} is also the (number created) from (multiplying) {A magnitude}, {M magnitude} [Prop. 7.19].\nThus, {A magnitude} has made {FG magnitude} (by) multiplying {M magnitude}.\nThus, {M magnitude} measures {FG magnitude} according to the units in {A magnitude}.\nAnd {A magnitude} is a dyad.\nThus, {FG magnitude} is double {M magnitude}.\nAnd {M magnitude}, {L magnitude}, {HK magnitude}, {E magnitude} are also continuously double one another.\nThus, {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, {FG magnitude} are continuously proportional in a double proportion.\nSo let {HN magnitude} and {FO magnitude}, each equal to the first (number) {E magnitude}, have been subtracted from the second (number) {HK magnitude} and the last {FG magnitude} (respectively).\nThus, as the excess of the second number is to the first, so the excess of the last (is) to (the sum of) all those (numbers) before it [Prop. 9.35].\nThus, as {NK magnitude} is to {E magnitude}, so {OG magnitude} (is) to {M magnitude}, {L magnitude}, {KH magnitude}, {E magnitude}.\nAnd {NK magnitude} is equal to {E magnitude}.\nAnd thus {OG magnitude} is equal to {M magnitude}, {L magnitude}, {HK magnitude}, {E magnitude}.\nAnd {FO magnitude} is also equal to {E magnitude}, and {E magnitude} to {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, and a unit.\nThus, the whole of {FG magnitude} is equal to {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, and {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, and a unit.\nAnd it is measured by them.\nI also say that {FG magnitude} will be measured by no other (numbers) except {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, and a unit.\nFor, if possible, let some (number) {P magnitude} measure {FG magnitude}, and let {P magnitude} not be the same as any of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}.\nAnd as many times as {P magnitude} measures {FG magnitude}, so many units let there be in {Q magnitude}.\nThus, {Q magnitude} has made {FG magnitude} (by) multiplying {P magnitude}.\nBut, in fact, {E magnitude} has also made {FG magnitude} (by) multiplying {D magnitude}.\nThus, as {E magnitude} is to {Q magnitude}, so {P magnitude} (is) to {D magnitude} [Prop. 7.19].\nAnd since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are continually proportional, (starting) from a unit, {D magnitude} will thus not be measured by any other numbers except {A magnitude}, {B magnitude}, {C magnitude} [Prop. 9.13].\nAnd {P magnitude} was assumed not (to be) the same as any of {A magnitude}, {B magnitude}, {C magnitude}.\nThus, {P magnitude} does not measure {D magnitude}.\nBut, as {P magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {Q magnitude}.\nThus, {E magnitude} does not measure {Q magnitude} either [Def. 7.20].\nAnd {E magnitude} is a prime (number).\nAnd every prime number [is] prime to every (number) which it does not measure [Prop. 7.29].\nThus, {E magnitude} and {Q magnitude} are prime to one another.\nAnd (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].\nAnd as {E magnitude} is to {Q magnitude}, (so) {P magnitude} (is) to {D magnitude}.\nThus, {E magnitude} measures {P magnitude} the same number of times as {Q magnitude} (measures) {D magnitude}.\nAnd {D magnitude} is not measured by any other (numbers) except {A magnitude}, {B magnitude}, {C magnitude}.\nThus, {Q magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}.\nLet it be the same as {B magnitude}.\nAnd as many as is the multitude of {B magnitude}, {C magnitude}, {D magnitude}, let so many (of the set out numbers) have been taken, (starting) from {E magnitude}, (namely) {E magnitude}, {HK magnitude}, {L magnitude}.\nAnd {E magnitude}, {HK magnitude}, {L magnitude} are in the same ratio as {B magnitude}, {C magnitude}, {D magnitude}.\nThus, via equality, as {B magnitude} (is) to {D magnitude}, (so) {E magnitude} (is) to {L magnitude} [Prop. 7.14].\nThus, the (number created) from (multiplying) {B magnitude}, {L magnitude} is equal to the (number created) from multiplying {D magnitude}, {E magnitude} [Prop. 7.19].\nBut, the (number created) from (multiplying) {D magnitude}, {E magnitude} is equal to the (number created) from (multiplying) {Q magnitude}, {P magnitude}.\nThus, the (number created) from (multiplying) {Q magnitude}, {P magnitude} is equal to the (number created) from (multiplying) {B magnitude}, {L magnitude}.\nThus, as {Q magnitude} is to {B magnitude}, (so) {L magnitude} (is) to {P magnitude} [Prop. 7.19].\nAnd {Q magnitude} is the same as {B magnitude}.\nThus, {L magnitude} is also the same as {P magnitude}.\nThe very thing (is) impossible.\nFor {P magnitude} was assumed not (to be) the same as any of the (numbers) set out.\nThus, {FG magnitude} cannot be measured by any number except {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, and a unit.\nAnd {FG magnitude} was shown (to be) equal to (the sumof) {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {HK magnitude}, {L magnitude}, {M magnitude}, and a unit.\nAnda perfect number is one which is equal to (the sum of) its own parts [Def. 7.22].\nThus, {FG magnitude} is a perfect (number).\n(Which is) the very thing it was required to show.\n",
+    "smallletters": "EHNKLMFOGPQ",
+    "mags": [
+      {
+        "l": "A",
+        "m": 40,
+        "p": [
+          50,
+          50
+        ]
+      },
+      {
+        "l": "B",
+        "m": 60,
+        "v": 40
+      },
+      {
+        "l": "C",
+        "m": 110,
+        "v": 40
+      },
+      {
+        "l": "D",
+        "m": 200,
+        "v": 40
+      },
+      {
+        "l": "E",
+        "m": 40,
+        "v": 70
+      },
+      {
+        "l": "H",
+        "m": 40,
+        "v": 40
+      },
+      {
+        "l": "N",
+        "m": 40
+      },
+      {
+        "l": "K"
+      },
+      {
+        "l": "L",
+        "m": 130,
+        "v": 30
+      },
+      {
+        "l": "M",
+        "m": 230,
+        "v": 30
+      },
+      {
+        "l": "F",
+        "m": 40,
+        "v": 30
+      },
+      {
+        "l": "O",
+        "m": 350
+      },
+      {
+        "l": "G"
+      },
+      {
+        "l": "P",
+        "m": 110,
+        "v": 30
+      },
+      {
+        "l": "Q",
+        "m": 150,
+        "v": 30
+      }
+    ]
+  }
+]
