@@ -10,7 +10,7 @@ import html from './html.js';
 
 let colors_brand = {
   bright: hsl(0, 0, 100),
-  step: hsl(0, 0, 60),
+  step: hsl(0, 0, 50),
   dim: hsl(0, 0, 30),
   none: hsl(0, 0, 2),
 };
@@ -18,8 +18,9 @@ let colors_brand = {
 let colors_dark = {
   id: 'dark',
         bright: hsl(0, 0, 100),
-          step: hsl(0, 0, 60),
+          step: hsl(0, 0, 50),
       occluded: hsl(0, 0, 75),
+        anim_l: (l) => hsl(0, 0, 30+l*70),
 
           emph: hsl(0, 0, 80),
       sentence: hsl(0, 0, 70),
@@ -43,8 +44,9 @@ let colors_dark = {
 let colors_light = {
   id: 'light',
         bright: hpl(0, 0, 0),
-          step: hpl(0, 0, 50),
+          step: hpl(0, 0, 60),
       occluded: hsl(0, 0, 25),
+        anim_l: (l) => hsl(0, 0, 70-l*70),
 
           emph: hsl(0, 0, 25),
       sentence: hsl(0, 0, 35),
@@ -1210,8 +1212,35 @@ function elements() {
   let chemes = {};
   cheme_a.forEach(c => {chemes[c.id] = c;});
 
-  let l = (r) => r.key;
   const jss = create().setup(preset());
+
+  let hla = { }
+    function setL(b)
+    {
+      hla.e.innerHTML = '';
+      let clamp = s => Math.max(0, Math.min(1, s));
+      for(let i =0; i < hla.t.length; i++)
+      {
+        let e = de('span', {textContent: hla.t[i]})
+        let l = 0;
+        let dist = Math.min(Math.abs(b[0] - i), Math.abs(i - b[1]));
+        if(i >= b[0] && i <= b[1])
+        {
+          l = 1;
+        }
+        else if(dist < 5)
+        {
+          l = 1 - clamp(dist)*0.7;
+        }
+        else
+        {
+          l = 0.3 - clamp(dist)*0.3;
+        }
+        e.style.color = chemes[cheme_select].anim_l(l)
+        hla.e.append(e);
+      }
+    }
+
 
   let sheet;
   let cheme_select;
@@ -1226,8 +1255,11 @@ function elements() {
 
     if(sheet)
       sheet.detach();
+    let l = (r) => r.key;
     sheet = jss.createStyleSheet(style(chemes[cheme], colors_brand), {generateId: l});
     sheet.attach();
+    if(hla.e)
+      setL(hla.region);
   }
   window.switchCheme = switchCheme;
   switchCheme('dark', true);
@@ -1475,6 +1507,62 @@ function elements() {
     window.onresize = undefined;
     document.onkeydown = undefined;
     document.querySelector('#container').className = 'cover';
+
+    // animating with highlights
+    {
+      hla.e = document.querySelector('#hla');
+      hla.t = hla.e.textContent;
+      hla.region = [9, 15];
+
+      function moveL(b, d)
+      {
+        return [b[0] + d, b[1] + d];
+      }
+      function tickL()
+      {
+        let last_t;
+        let s = 0;
+        function frame() {
+          window.requestAnimationFrame((timestamp) =>
+            {
+              if(last_t === undefined) {
+                last_t = timestamp;
+                frame();
+                return;
+              }
+              let dt = (timestamp - last_t)/ 1000;
+              s += dt;
+              function easeInOutQuad(x) {
+              return x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2;
+              }
+              let ease = easeInOutQuad
+              let t = 0;
+              let ss = 64;
+              if(s > ss*2)
+                return;
+              else if(s < ss)
+                t = ease(s/ss);
+              else
+                t = ease(2-s/ss);
+              let nb = moveL(hla.region, -1 * t * 15);
+              setL(nb);
+              frame();
+            });
+        }
+        frame();
+      }
+
+      function occasional() {
+        if(!document.querySelector('#container').classList.contains('cover'))
+          return;
+        tickL();
+        setTimeout(() =>
+          {
+            occasional();
+          }, 10000);
+      };
+      setTimeout(occasional, 1000);
+  }
 
     document.querySelector('#palette').onclick = paletteClick;
     {

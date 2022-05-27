@@ -130,7 +130,7 @@ ${sun}
   <div class="${cs.coverHead}">
     <h1 style="line-height: 1.5em; font-size: 2.5em;">The Elements of Euclid</h1>
   <h2 id="hla" style="margin-top: -0.6em"><span class=${cs.c_dim}>with </span><span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
-    <h3 style="margin-top: 2em; font-style: oblique; font-weight:lighter;">An interactive rendering the renowned 2300 year old textbook on Geometry<br>--- with 482 figures</h3>
+    <h3 style="margin-top: 2em; font-style: oblique; font-weight:lighter;">An interactive rendering of the renowned 2300 year-old textbook on Geometry<br>--- with all 482 figures</h3>
   </div>
 <div id="preview" class="${cs.preview}">
   <div id="progress" class="${cs.progress}"></div>
@@ -159,7 +159,7 @@ ${sun}
   </div>
 </div>
 <div class="${cs.hero}">
-<p>Find the entire 13 books carefully reproduced, to read at your own pace.</p>
+<p>Read at your own pace.</p>
  <a id="readNow">${anglesDown}</a>
 </div>
 <div class="${cs.quoteTitle}">
