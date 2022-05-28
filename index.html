@@ -31,8 +31,8 @@ html {
   box-sizing: border-box;
 }
 body {
+  font-size: 1.3em;
   background: black;
-  color: #777777;
   margin: 0;
   font-family: Geom;
 }
@@ -50,11 +50,9 @@ body {
 }
 
 .item .prose {
-  width: 300px;
-  margin-left: 180px;
-}
-h3 {
-  color: #ababab;
+  width: 350px;
+  margin-left: 90px;
+  margin-right: 40px;
 }
 .item svg {
   margin-left: 20px;
@@ -73,8 +71,7 @@ h3 {
 }
 
 .item .author {
-  color: #555555;
-  font-size: 1.0em;
+  font-size: 1.0rem;
   font-style: italic;
   width: 180px;
   padding-left: 10px;
@@ -85,12 +82,7 @@ h3 {
 }
 
 a {
-  color: #42845b;
   text-decoration: none;
-}
-
-a:hover {
-  color: #61bd84;
 }
 
 .section {
@@ -108,24 +100,52 @@ a:hover {
 .section blockquote {
   font-style: italic;
   margin-right: 80px;
-  border-right: 2px solid #474747;
+  border-right-width: 2px;
+  border-right-style: solid;
   padding-right: 20px;
   padding-bottom: 10px;
 }
 
-em {
+body {
   color: #ababab;
+}
+h3 {
+  color: #c6c6c6;
+}
+.item .author {
+  color: #777777;
+}
+a {
+  color: #51a06f;
+}
+a:hover {
+  color: #61bd84;
+}
+.section blockquote {
+  border-right-color: #474747;
+}
+em {
+  color: #c6c6c6;
+}
+.c_dim {
+  color: #474747;
+}
+.c_step {
+  color: #777777;
+}
+.c_bright {
+  color: #ffffff;
 }
     </style>
   </head>
   <body>
     <div id="experiment">
       <div class="title">
-      <h2>can be re<span style="color: #ababab;">a</span><span style="color: #ffffff;">d</span></h2>
-      <h5> An experiment in presenting geometry</h5>
+      <h2 class="c_dim">can be re<span class="c_step">a</span><span class="c_bright">d</span></h2>
+      <h5 style="margin-top: -0.9em;"> An experiment in presenting geometry</h5>
       </div>
 
-      <div id="page">
+      <div id="page" style="margin-top: 3em;">
         <div class="item">
           <div class="prose">
             <h3>Highlighted</h3>
@@ -133,14 +153,14 @@ em {
           </div>
           <svg id="figureH" width="330" height="150"></svg>
         </div>
-        <div class="item">
+        <div class="item" style="margin-top: 80px;">
           <div class="prose">
             <h3>Aligned</h3>
             <p>However long prose may be <br> figure is always present.</p>
           </div>
           <svg id="figureA" width="330" height="200"></svg>
         </div>
-        <div class="item">
+        <div class="item" style="margin-top: 80px;">
           <div class="link">
             <h3>ready</h3>
           </div>
@@ -218,9 +238,9 @@ em {
 <p>Complaining about the raw information available on demand as a pollution is the forerunner amongst the candidates for a cliche of this age.
 But its truth eludes the expansive dominion of finer and finer specialization.
 What we have is an opaque technology that brings all knowledge, raw and refined, within clicking distance.
-Nothing short of a recipe for confusion where accounting replaces work.
-As progress without articulation goes with the elevation of the known to dogma.
-Instead, we can consider that constraints of media was a factor on boundaries of specialties, that limits in communication faced by investigators and leaders had a cascading effect on what had to be left opaque, that the future can't be reached under borrowed light.</p>
+Nothing short of a recipe for confusion.
+As progress without articulation elevates the known to dogma.
+Instead, we can consider, that constraints of media was a factor on boundaries of specialties, that limits in communication faced by investigators and leaders had a cascading effect on what had to be left opaque. Most importantly, we need to realize that the future can't be reached under borrowed light.</p>
 <p>— ibrahim sagiroglu</p>
         </div>
       </div>
