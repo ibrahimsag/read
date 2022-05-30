@@ -1561,7 +1561,7 @@ function elements() {
             occasional();
           }, 10000);
       };
-      setTimeout(occasional, 1000);
+      //setTimeout(occasional, 1000);
   }
 
     document.querySelector('#palette').onclick = paletteClick;
