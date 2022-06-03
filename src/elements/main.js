@@ -1208,6 +1208,8 @@ function makePR(rg, w)
 
 const rg = makeRG();
 function elements() {
+  let baseTitle = document.title;
+
   let cheme_a = [colors_dark, colors_light];
   let chemes = {};
   cheme_a.forEach(c => {chemes[c.id] = c;});
@@ -1356,6 +1358,9 @@ function elements() {
   }
 
   function presentSection(i_book, id) {
+    document.title = `${id} - ${baseTitle}`;
+    if(window.gtagconfig) window.gtagconfig();
+
     stopPreview = true;
     showOverlay();
     let sections = books[i_book];
@@ -1503,6 +1508,8 @@ function elements() {
   }
 
   function presentCover() {
+    document.title = baseTitle;
+    if(window.gtagconfig) window.gtagconfig();
     window.onscroll = undefined;
     window.onresize = undefined;
     document.onkeydown = undefined;
@@ -1705,6 +1712,8 @@ function elements() {
   }
 
   function presentToc(id) {
+    document.title = 'Contents - ' + baseTitle;
+    if(window.gtagconfig) window.gtagconfig();
     window.onscroll = undefined;
     window.onresize = undefined;
     stopPreview = true;
