@@ -8,7 +8,7 @@ let colors = {
   step: hsluv.hsluvToHex([0, 0, 50]),
 
   emph: hsluv.hsluvToHex([0, 0, 80]),
-  sentence: hsluv.hsluvToHex([0, 0, 70]),
+  sentence: hsluv.hsluvToHex([0, 0, 60]),
   dim: hsluv.hsluvToHex([0, 0, 30]),
   none: hsluv.hsluvToHex([0, 0, 0]),
   trail: hsluv.hsluvToHex([0, 0, 30]),
@@ -105,7 +105,8 @@ a:hover {
   border-right-color: ${colors.dim};
 }
 em {
-  color: ${colors.emph};
+  color: ${colors.bright};
+  font-weight: lighter;
 }
 .c_dim {
   color: ${colors.dim};
