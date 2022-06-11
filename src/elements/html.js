@@ -120,7 +120,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 <div id="cover" style="">
 <div class="${cs.logoBar}">
   <div style="display: flex;align-items:center;"class="${cs.logoWrap}">
-  <a class="${cs.logo}" href="/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
+  <a class="${cs.logo}" href="//canberead.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
 <div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
 ${sun}
 </div>
@@ -334,7 +334,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   <div class="${cs.coverFoot}">
     <div>
       <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-      <p>Care by <a target="new" href="http://github.com/ibrahimsag">@ibrahimsag</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="/">read</a>.</p>
+      <p>Care by <a target="new" href="http://twitter.com/ratherthanpaper">@ratherthanpaper</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="//canberead.com/">read</a>.</p>
     </div>
   </div>
 </div>

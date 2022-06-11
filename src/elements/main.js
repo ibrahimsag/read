@@ -1822,18 +1822,18 @@ function elements() {
           return;
       let m = el.textContent.match(/Book (\d+).*/)
       let id = Number(m[1]);
-      history.pushState(null, '', `/elements/toc/${id}`);
+      history.pushState(null, '', `/toc/${id}`);
       handleBookSelect(id);
     }
   }
 
   let presentForLocation = () => {
-    let m, re = /elements\/([^\/]+)/;
-    if(m = location.pathname.match(/\/elements\/pg/))
+    let m, re = /\/([^\/]+)/;
+    if(m = location.pathname.match(/\/pg/))
     {
       presentPg();
     }
-    else if(m = location.pathname.match(/\/elements\/toc\/(\d+)/))
+    else if(m = location.pathname.match(/\/toc\/(\d+)/))
     {
       let id = Number(m[1]);
       if(!isNaN(id) && id > 0 && id < 14)
@@ -1856,7 +1856,7 @@ function elements() {
     }
     else
     {
-      history.replaceState(null, '', '/elements/');
+      history.replaceState(null, '', '/');
       presentCover();
     }
   }
@@ -1869,7 +1869,7 @@ function elements() {
     window.scrollTo(0, 0);
     if(canPresentSection(i_book, id))
     {
-      history.pushState(null, '', '/elements/'+id);
+      history.pushState(null, '', '/'+id);
       presentSection(i_book, id);
     }
     else
@@ -1881,14 +1881,14 @@ function elements() {
   function openToc(id)
   {
     window.scrollTo(0, 0);
-    history.pushState(null, '', `/elements/toc/${id}`);
+    history.pushState(null, '', `/toc/${id}`);
     presentToc(id);
   }
 
   function openCover()
   {
     window.scrollTo(0, 0);
-    history.pushState(null, '', '/elements/');
+    history.pushState(null, '', '/');
     presentCover();
   }
 

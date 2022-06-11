@@ -1,11 +1,10 @@
 [build]
-  publish = "public/"
-  command = "sh build.sh"
+  publish = "./"
 
 [[redirects]]
   from = "/elements/*"
-  to = "/elements.html"
-  status = 200
+  to = "//elements.canberead.com/:splat"
+  status = 301
 
 [[redirects]]
   from = "/*"

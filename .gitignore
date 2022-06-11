@@ -15,7 +15,9 @@ node_modules/
 .npm
 
 build
-public/elements.html
+elements-public/index.html
+elements-public/fonts
+elements-public/img
 public/index.html
 public/img
 
