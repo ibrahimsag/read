@@ -18,12 +18,6 @@ function make(colors, brand)
   const style = {
     link: style_link,
     '@global': {
-      body: {
-        backgroundColor: colors.none,
-        transition: 'background-color 0.1s ease',
-        color: colors.sentence,
-        lineHeight: '1.5em'
-      },
 
       '#palette': {
         cursor: 'pointer',
@@ -34,12 +28,19 @@ function make(colors, brand)
         }
       },
 
-      '#container': {
-      minWidth: 1024,
+      'body': {
+        backgroundColor: colors.none,
+        transition: 'background-color 0.1s ease',
+        color: colors.sentence,
+        lineHeight: '1.5em',
+        minWidth: 1024,
         '&>#pg': {
           display: 'none',
         },
         '&>#section': {
+          display: 'none',
+        },
+        '&>#logoBar': {
           display: 'none',
         },
         '&>#cover': {
@@ -57,6 +58,9 @@ function make(colors, brand)
           }
         },
         '&.cover': {
+          '&>#logoBar': {
+            display: 'block',
+          },
           '&>#cover': {
             display: 'block',
           },
@@ -606,15 +610,12 @@ function make(colors, brand)
       '@global': {
         body:{
           fontSize: '1.7rem',
-        },
-        '#container': {
           minWidth: 650,
-          width: '95%',
         },
-        '#container.section>#section': {
+        'body.section>#section': {
           display: 'none !important',
         },
-        '#container.toc>#toc': {
+        'body.toc>#toc': {
           display: 'none !important',
         }
       },

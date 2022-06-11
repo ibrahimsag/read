@@ -1315,9 +1315,8 @@ function elements() {
 
   window.onload = () => {
 
-    const el = document.querySelector('#container');
-    el.className = cs.container;
-    el.innerHTML = made.pg + made.cover + made.toc + made.section + made.landscapeDictate;
+    const el = document.body;
+    el.innerHTML = made.cover + made.toc + made.section + made.landscapeDictate;
 
 
     pr = makePR(rg, {
@@ -1367,7 +1366,7 @@ function elements() {
 
     let i_section = section_indices[i_book][id];
 
-    document.querySelector('#container').className = 'section';
+    document.body.className = 'section';
 
     let el = document.querySelector('#bookTitle');
     el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
@@ -1472,7 +1471,7 @@ function elements() {
     window.onscroll = undefined;
     window.onresize = undefined;
     document.onkeydown = undefined;
-    document.querySelector('#container').className = 'pg';
+    document.body.className = 'pg';
     let paths = document.querySelectorAll('svg.large path');
     for(let i = 0; i < paths.length; i++)
     {
@@ -1513,7 +1512,7 @@ function elements() {
     window.onscroll = undefined;
     window.onresize = undefined;
     document.onkeydown = undefined;
-    document.querySelector('#container').className = 'cover';
+    document.body.className = 'cover';
 
     // animating with highlights
     {
@@ -1560,7 +1559,7 @@ function elements() {
       }
 
       function occasional() {
-        if(!document.querySelector('#container').classList.contains('cover'))
+        if(!document.body.classList.contains('cover'))
           return;
         tickL();
         setTimeout(() =>
@@ -1718,7 +1717,7 @@ function elements() {
     window.onresize = undefined;
     stopPreview = true;
     showOverlay();
-    document.querySelector('#container').className = 'toc';
+    document.body.className = 'toc';
     document.onkeydown = undefined;
     let booksColumn = document.querySelector('#booksColumn');
     let sectionsColumn = document.querySelector('#sectionsColumn');

@@ -117,8 +117,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 </div>`;
 
   let cover = `
-<div id="cover" style="">
-<div class="${cs.logoBar}">
+<div id="logoBar" class="${cs.logoBar}">
   <div style="display: flex;align-items:center;"class="${cs.logoWrap}">
   <a class="${cs.logo}" href="//canberead.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
 <div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
@@ -126,7 +125,7 @@ ${sun}
 </div>
   </div>
 </div>
-<div class="${cs.coverWrap}">
+<div id="cover" class="${cs.coverWrap}">
   <div class="${cs.coverHead}">
     <h1 style="line-height: 1.5em; font-size: 2.5em;">The Elements of Euclid</h1>
   <h2 id="hla" style="margin-top: -0.6em"><span class=${cs.c_dim}>with </span><span class="${cs.c_sentence}">high</span><span class="${cs.c_bright}">lights</span></h2>
@@ -337,7 +336,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
       <p>Care by <a target="new" href="http://twitter.com/ratherthanpaper">@ratherthanpaper</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="//canberead.com/">read</a>.</p>
     </div>
   </div>
-</div>
+
 </div>`;
 
   let toc = `

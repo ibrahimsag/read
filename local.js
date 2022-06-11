@@ -35,12 +35,8 @@ app.post('/store', (req, res) => {
   });
 });
 
-app.get('/elements/*', (req, res) => {
-  res.sendFile(__dirname + '/src/elements/index.html');
-})
-
 app.get('/*', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/src/elements/index.html');
 })
 
 app.listen(port, () => {
