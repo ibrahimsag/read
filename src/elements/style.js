@@ -182,6 +182,16 @@ function make(colors, brand)
       }
     },
 
+    headLink: {
+      padding: [[15, 25]],
+      cursor: 'pointer',
+      userSelect: 'none',
+      textDecoration: 'none',
+      color: brand.step,
+      '&:hover': {
+        color: brand.bright,
+      }
+    },
     logoBar:{
       backgroundColor: brand.none,
       borderBottomStyle: 'solid',

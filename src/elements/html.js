@@ -118,8 +118,9 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
 
   let cover = `
 <div id="logoBar" class="${cs.logoBar}">
-  <div style="display: flex;align-items:center;"class="${cs.logoWrap}">
+  <div style="display: flex;align-items:baseline;"class="${cs.logoWrap}">
   <a class="${cs.logo}" href="//canberead.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
+  <a class="${cs.headLink}" href="//canberead.com/">how<span style="font-size: .9em;"> & </span>why</a>
 <div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
 ${sun}
 </div>
