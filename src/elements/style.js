@@ -281,8 +281,10 @@ function make(colors, brand)
       fontSize: '1.2em',
       cursor: 'pointer',
       userSelect: 'none',
+      color: colors.sentence,
+      textDecoration: 'none',
       '&:hover': {
-        color: colors.emph,
+        color: colors.bright,
       }
     },
 

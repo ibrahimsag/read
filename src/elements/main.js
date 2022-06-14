@@ -844,7 +844,8 @@ function makePR(rg, w)
           {
             let f = l => {
               let a = de('a');
-              a.setAttribute('pref', l.pref);
+              a.setAttribute('href', '/'+l.pref);
+              a.onclick = w.hrefClick;
               a.innerText = l.prefName;
               return a;
             }
@@ -1169,7 +1170,7 @@ function makePR(rg, w)
       }
 
       let i = parseInt(e.srcElement.dataset.i);
-      if(isNaN(i) && e.srcElement.attributes.pref)
+      if(isNaN(i) && e.srcElement.attributes.href)
       {
         i = parseInt(e.srcElement.parentElement.dataset.i);
       }
@@ -1209,6 +1210,29 @@ function makePR(rg, w)
 const rg = makeRG();
 function elements() {
   let baseTitle = document.title;
+
+  function hrefClick(event) {
+    let el = event.target;
+    let hrefUrl = el.getAttribute('href');
+    while(!hrefUrl && el.parentElement)
+    {
+      el = el.parentElement;
+      hrefUrl = el.getAttribute('href');
+    }
+    if(hrefUrl.startsWith('/'))
+    {
+      event.preventDefault();
+      window.history.pushState(null, '', hrefUrl);
+      presentForLocation();
+      window.scrollTo(0, 0);
+      return true;
+    }
+  }
+
+  function setupLinks() {
+    document.querySelectorAll('a')
+      .forEach(link => link.onclick = hrefClick);
+  }
 
   let cheme_a = [colors_dark, colors_light];
   let chemes = {};
@@ -1318,7 +1342,6 @@ function elements() {
     const el = document.body;
     el.innerHTML = made.cover + made.toc + made.section + made.landscapeDictate;
 
-
     pr = makePR(rg, {
       svg: document.querySelector('#section #figure'),
       prose: document.querySelector('#section #proseContent'),
@@ -1327,6 +1350,7 @@ function elements() {
       mb: document.querySelector('#section #move-back'),
       arrowu: made.arrowu,
       arrowd: made.arrowd,
+      hrefClick
     });
     pr.proxy.attachProseMouseEvents();
 
@@ -1360,6 +1384,7 @@ function elements() {
     document.title = `${id} - ${baseTitle}`;
     if(window.gtagconfig) window.gtagconfig();
 
+    setupLinks();
     stopPreview = true;
     showOverlay();
     let sections = books[i_book];
@@ -1370,7 +1395,7 @@ function elements() {
 
     let el = document.querySelector('#bookTitle');
     el.innerText = 'Book ' + (i_book) + ' - ' + books.descs[i_book-1];
-    el.setAttribute('pref', 'toc.'+i_book)
+    el.setAttribute('href', '/toc/'+i_book)
 
     i_section = Math.min(sections.length-1, i_section);
     pr.present(null, sections[i_section]);
@@ -1513,6 +1538,7 @@ function elements() {
     window.onresize = undefined;
     document.onkeydown = undefined;
     document.body.className = 'cover';
+    setupLinks();
 
     // animating with highlights
     {
@@ -1577,6 +1603,7 @@ function elements() {
         prose: document.querySelector('#preview .proseContent'),
         title: document.querySelector('#preview .proseTitle'),
         no_scroll: true,
+        hrefClick
       });
       canPresentSection(1, '43')
       let sections = books[1];
@@ -1719,6 +1746,7 @@ function elements() {
     showOverlay();
     document.body.className = 'toc';
     document.onkeydown = undefined;
+    setupLinks();
     let booksColumn = document.querySelector('#booksColumn');
     let sectionsColumn = document.querySelector('#sectionsColumn');
     let lastSelected = null;
@@ -1796,8 +1824,9 @@ function elements() {
           let e = document.createElement('p');
           e.innerText = s.prose.split('\n')[0] + '.. ';
           let a = document.createElement('a');
-          a.setAttribute('pref', s.id);
           a.innerText = 'continue';
+          a.setAttribute('href', '/'+s.id);
+          a.onclick = hrefClick;
           e.append(a);
           sle.append(e);
         }
@@ -1832,9 +1861,9 @@ function elements() {
     {
       presentPg();
     }
-    else if(m = location.pathname.match(/\/toc\/(\d+)/))
+    else if(m = location.pathname.match(/\/toc(\/\d+)?/))
     {
-      let id = Number(m[1]);
+      let id = m[1] && Number(m[1].slice(1));
       if(!isNaN(id) && id > 0 && id < 14)
         presentToc(id);
       else
@@ -1874,55 +1903,6 @@ function elements() {
     else
     {
       presentCover();
-    }
-  }
-
-  function openToc(id)
-  {
-    window.scrollTo(0, 0);
-    history.pushState(null, '', `/toc/${id}`);
-    presentToc(id);
-  }
-
-  function openCover()
-  {
-    window.scrollTo(0, 0);
-    history.pushState(null, '', '/');
-    presentCover();
-  }
-
-  document.onclick = (e) => {
-    let el = e.srcElement;
-    let pref = el.attributes.pref;
-    while(!pref && el.parentElement)
-    {
-      el = el.parentElement;
-      pref = el.attributes.pref;
-    }
-
-    if(pref)
-    {
-      if(pref.value == 'cover')
-      {
-        openCover();
-      }
-      else if(pref.value.startsWith('toc'))
-      {
-        let [_, i_book] = pref.value.split('.');
-        openToc(Number(i_book) || 1);
-      }
-      else
-      {
-        let [i_book, _] = pref.value.split('.');
-        if(isNaN(i_book))
-        {
-          console.error("unknown pref: ", pref.value);
-        }
-        else
-        {
-          openSection(i_book, pref.value)
-        }
-      }
     }
   }
 };

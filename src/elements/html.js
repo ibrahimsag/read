@@ -3,87 +3,87 @@ function make(cs, fext)
   let contents = `
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
-Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
+Start with <a href="/1.d">Definitions</a> or <a href="/1.1">First proposition</a>.
 <br>
 Interesting proofs:
-<a pref="1.43">Complements in parallelograms</a>,
-<a pref="1.47">Pythagorean theorem</a>
+<a href="/1.43">Complements in parallelograms</a>,
+<a href="/1.47">Pythagorean theorem</a>
 </p>
 <h4>Book 2 - Fundamentals of Geometric Algebra</h4>
 <p>
-Start with <a pref="2.d">Definitions</a> or <a pref="2.1">First proposition</a>.
+Start with <a href="/2.d">Definitions</a> or <a href="/2.1">First proposition</a>.
 <br>
 Interesting construction:
-<a pref="2.11">Golden section</a>
+<a href="/2.11">Golden section</a>
 </p>
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
 <p>
-Start with <a pref="3.d">Definitions</a> or <a pref="3.1">First proposition</a>.
+Start with <a href="/3.d">Definitions</a> or <a href="/3.1">First proposition</a>.
 <br>
 Interesting propositions:
-<a pref="3.20">Angles at center and circumference</a>,
-<a pref="3.36">Relations of lines from outside a circle</a>
+<a href="/3.20">Angles at center and circumference</a>,
+<a href="/3.36">Relations of lines from outside a circle</a>
 </p>
 <h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
 <p>
-Start with <a pref="4.d">Definitions</a> or <a pref="4.1">First proposition</a>.
+Start with <a href="/4.d">Definitions</a> or <a href="/4.1">First proposition</a>.
 <br>
-Interesting construction: <a pref="4.11">Regular Pentagon</a>
+Interesting construction: <a href="/4.11">Regular Pentagon</a>
 </p>
 <h4>Book 5 - Proportion</h4>
 <p>
-Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
+Start with <a href="/5.d">Definitions</a> or <a href="/5.1">First proposition</a>.
 <br>
 Interesting proof:
-<a pref="5.23">Commutativity of multiplication</a>
+<a href="/5.23">Commutativity of multiplication</a>
 </p>
 <h4>Book 6 - Similar Figures</h4>
 <p>
-Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
+Start with <a href="/6.d">Definitions</a> or <a href="/6.1">First proposition</a>.
 <br>
 Interesting propositions:
-<a pref="6.19">Ratios of similar areas</a>,
-<a pref="6.30">Solution of a quadratic equation</a>
+<a href="/6.19">Ratios of similar areas</a>,
+<a href="/6.30">Solution of a quadratic equation</a>
 </p>
 <h4>Book 7 - Elementary Number Theory</h4>
 <p>
-Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
+Start with <a href="/7.d">Definitions</a> or <a href="/7.1">First proposition</a>.
 <br>
-Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
+Interesting propositions: <a href="/7.2">Greatest common divisor algorithm</a>
 </p>
 <h4>Book 8 - Continued Proportion</h4>
 <p>
-Start with <a pref="8.1">First proposition</a>.
+Start with <a href="/8.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="8.10">Prime factors in series</a>
+Interesting proof: <a href="/8.10">Prime factors in series</a>
 </p>
 <h4>Book 9 - Applications of Number Theory</h4>
 <p>
-Start with <a pref="9.1">First proposition</a>.
+Start with <a href="/9.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="9.20">Infinity of primes</a>
+Interesting proof: <a href="/9.20">Infinity of primes</a>
 </p>
 <h4>Book 10 - Incommensurable Magnitudes</h4>
 <p>
-Start with <a pref="10.d1">Definitions I</a>, <a pref="10.d2">Definitions II</a> or <a pref="10.d3">Definitions III</a>.
+Start with <a href="/10.d1">Definitions I</a>, <a href="/10.d2">Definitions II</a> or <a href="/10.d3">Definitions III</a>.
 <br>
-Interesting proof: <a pref="10.1">Method of exhaustion</a>
+Interesting proof: <a href="/10.1">Method of exhaustion</a>
 </p>
 <h4>Book 11 - Elementary Stereometry</h4>
 <p>
-Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
+Start with <a href="/11.d">Definitions</a> or <a href="/11.1">First proposition</a>.
 </p>
 <h4>Book 12 - Proportional Stereometry</h4>
 <p>
-Start with <a pref="12.1">First proposition</a>.
+Start with <a href="/12.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
+Interesting proof: <a href="/12.7">Pyramid as the third of a prism</a>
 </p>
 <h4>Book 13 - The Platonic Solids</h4>
 <p>
-Start with <a pref="13.1">First proposition</a>.
+Start with <a href="/13.1">First proposition</a>.
 <br>
-Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodecahedron</a>, <a pref="13.18">Finitude of regular polyhedra</a>
+Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dodecahedron</a>, <a href="/13.18">Finitude of regular polyhedra</a>
 </p>
 <br>
 `
@@ -119,8 +119,8 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   let cover = `
 <div id="logoBar" class="${cs.logoBar}">
   <div style="display: flex;align-items:baseline;"class="${cs.logoWrap}">
-  <a class="${cs.logo}" href="//canberead.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
-  <a class="${cs.headLink}" href="//canberead.com/">how<span style="font-size: .9em;"> & </span>why</a>
+  <a class="${cs.logo}" href="https://canberead.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
+  <a class="${cs.headLink}" href="https://canberead.com/">how<span style="font-size: .9em;"> & </span>why</a>
 <div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
 ${sun}
 </div>
@@ -177,7 +177,7 @@ ${sun}
 </div>
 <div id="coverStart" class="${cs.coverContents}">
   <div class="${cs.contents}">
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a href="/toc">Full Table of Contents</a></h3>
     <div class="${cs.contentsRow}">
       <div class="${cs.contentsColumn} fig">
         <svg viewBox="-7 -7 473 537" width="473" height="537">${fext.smpl1}</svg>
@@ -185,18 +185,18 @@ ${sun}
       <div class="${cs.contentsColumn} title">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
-Start with <a pref="1.d">Definitions</a> or <a pref="1.1">First proposition</a>.
+Start with <a href="/1.d">Definitions</a> or <a href="/1.1">First proposition</a>.
 <br>
 Interesting proofs:
-<a pref="1.43">Complements in parallelograms</a>,
-<a pref="1.47">Pythagorean theorem</a>
+<a href="/1.43">Complements in parallelograms</a>,
+<a href="/1.47">Pythagorean theorem</a>
 </p>
 <h4>Book 2 - Fundamentals of Geometric Algebra</h4>
 <p>
-Start with <a pref="2.d">Definitions</a> or <a pref="2.1">First proposition</a>.
+Start with <a href="/2.d">Definitions</a> or <a href="/2.1">First proposition</a>.
 <br>
 Interesting construction:
-<a pref="2.11">Golden section</a>
+<a href="/2.11">Golden section</a>
 </p>
       </div>
     </div>
@@ -207,24 +207,24 @@ Interesting construction:
       <div class="${cs.contentsColumn} title">
 <h4>Book 3 - Fundamentals of Plane Geometry Involving Circles</h4>
 <p>
-Start with <a pref="3.d">Definitions</a> or <a pref="3.1">First proposition</a>.
+Start with <a href="/3.d">Definitions</a> or <a href="/3.1">First proposition</a>.
 <br>
 Interesting propositions:
-<a pref="3.20">Angles at center and circumference</a>,
-<a pref="3.36">Relations of lines from outside a circle</a>
+<a href="/3.20">Angles at center and circumference</a>,
+<a href="/3.36">Relations of lines from outside a circle</a>
 </p>
 <h4>Book 4 - Construction of Rectilinear Figures In and Around Circles</h4>
 <p>
-Start with <a pref="4.d">Definitions</a> or <a pref="4.1">First proposition</a>.
+Start with <a href="/4.d">Definitions</a> or <a href="/4.1">First proposition</a>.
 <br>
-Interesting construction: <a pref="4.11">Regular Pentagon</a>
+Interesting construction: <a href="/4.11">Regular Pentagon</a>
 </p>
 <h4>Book 5 - Proportion</h4>
 <p>
-Start with <a pref="5.d">Definitions</a> or <a pref="5.1">First proposition</a>.
+Start with <a href="/5.d">Definitions</a> or <a href="/5.1">First proposition</a>.
 <br>
 Interesting proof:
-<a pref="5.23">Commutativity of multiplication</a>
+<a href="/5.23">Commutativity of multiplication</a>
 </p>
       </div>
     </div>
@@ -235,11 +235,11 @@ Interesting proof:
       <div class="${cs.contentsColumn} title">
 <h4>Book 6 - Similar Figures</h4>
 <p>
-Start with <a pref="6.d">Definitions</a> or <a pref="6.1">First proposition</a>.
+Start with <a href="/6.d">Definitions</a> or <a href="/6.1">First proposition</a>.
 <br>
 Interesting propositions:
-<a pref="6.19">Ratios of similar areas</a>,
-<a pref="6.30">Solution of a quadratic equation</a>
+<a href="/6.19">Ratios of similar areas</a>,
+<a href="/6.30">Solution of a quadratic equation</a>
 </p>
       </div>
     </div>
@@ -251,15 +251,15 @@ Interesting propositions:
       <div class="${cs.contentsColumn} title">
 <h4>Book 7 - Elementary Number Theory</h4>
 <p>
-Start with <a pref="7.d">Definitions</a> or <a pref="7.1">First proposition</a>.
+Start with <a href="/7.d">Definitions</a> or <a href="/7.1">First proposition</a>.
 <br>
-Interesting propositions: <a pref="7.2">Greatest common divisor algorithm</a>
+Interesting propositions: <a href="/7.2">Greatest common divisor algorithm</a>
 </p>
 <h4>Book 8 - Continued Proportion</h4>
 <p>
-Start with <a pref="8.1">First proposition</a>.
+Start with <a href="/8.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="8.10">Prime factors in series</a>
+Interesting proof: <a href="/8.10">Prime factors in series</a>
 </p>
       </div>
     </div>
@@ -270,9 +270,9 @@ Interesting proof: <a pref="8.10">Prime factors in series</a>
       <div class="${cs.contentsColumn} title">
 <h4>Book 9 - Applications of Number Theory</h4>
 <p>
-Start with <a pref="9.1">First proposition</a>.
+Start with <a href="/9.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="9.20">Infinity of primes</a>
+Interesting proof: <a href="/9.20">Infinity of primes</a>
 </p>
       </div>
     </div>
@@ -283,9 +283,9 @@ Interesting proof: <a pref="9.20">Infinity of primes</a>
       <div class="${cs.contentsColumn} title">
 <h4>Book 10 - Incommensurable Magnitudes</h4>
 <p>
-Start with <a pref="10.d1">Definitions I</a>, <a pref="10.d2">Definitions II</a> or <a pref="10.d3">Definitions III</a>.
+Start with <a href="/10.d1">Definitions I</a>, <a href="/10.d2">Definitions II</a> or <a href="/10.d3">Definitions III</a>.
 <br>
-Interesting proof: <a pref="10.1">Method of exhaustion</a>
+Interesting proof: <a href="/10.1">Method of exhaustion</a>
 </p>
       </div>
     </div>
@@ -296,9 +296,9 @@ Interesting proof: <a pref="10.1">Method of exhaustion</a>
       <div class="${cs.contentsColumn} title">
 <h4>Book 11 - Elementary Stereometry</h4>
 <p>
-Start with <a pref="11.d">Definitions</a> or <a pref="11.1">First proposition</a>.
+Start with <a href="/11.d">Definitions</a> or <a href="/11.1">First proposition</a>.
 <br>
-Interesting construction: <a pref="11.23">Solid angle</a>
+Interesting construction: <a href="/11.23">Solid angle</a>
 </p>
       </div>
     </div>
@@ -309,9 +309,9 @@ Interesting construction: <a pref="11.23">Solid angle</a>
       <div class="${cs.contentsColumn} title">
 <h4>Book 12 - Proportional Stereometry</h4>
 <p>
-Start with <a pref="12.1">First proposition</a>.
+Start with <a href="/12.1">First proposition</a>.
 <br>
-Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
+Interesting proof: <a href="/12.7">Pyramid as the third of a prism</a>
 </p>
       </div>
     </div>
@@ -322,19 +322,19 @@ Interesting proof: <a pref="12.7">Pyramid as the third of a prism</a>
       <div class="${cs.contentsColumn} title">
 <h4>Book 13 - The Platonic Solids</h4>
 <p>
-Start with <a pref="13.1">First proposition</a>.
+Start with <a href="/13.1">First proposition</a>.
 <br>
-Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodecahedron</a>, <a pref="13.18">Finitude of regular polyhedra</a>
+Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dodecahedron</a>, <a href="/13.18">Finitude of regular polyhedra</a>
 </p>
       </div>
     </div>
-    <h3 style="text-align: center; margin-bottom: 50px;"> <a pref="toc">Full Table of Contents</a></h3>
+    <h3 style="text-align: center; margin-bottom: 50px;"> <a href="/toc">Full Table of Contents</a></h3>
   </div>
 </div>
   <div class="${cs.coverFoot}">
     <div>
       <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-      <p>Care by <a target="new" href="http://twitter.com/ratherthanpaper">@ratherthanpaper</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="//canberead.com/">read</a>.</p>
+      <p>Care by <a target="new" href="http://twitter.com/ratherthanpaper">@ratherthanpaper</a> as <a href="https://github.com/ibrahimsag/canberead/">code</a> to be <a href="https://canberead.com/">read</a>.</p>
     </div>
   </div>
 
@@ -346,7 +346,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
     <div id="sectionsColumn" class="${cs.sectionsColumn}">
     </div>
     <div id="booksColumn" class="${cs.booksColumn}">
-      <h1><a pref="cover">${larrowl}</a> Euclid's Elements</h1>
+      <h1><a href="/">${larrowl}</a> Euclid's Elements</h1>
       ${contents}
     </div>
   </div>
@@ -355,7 +355,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
   let section = `
 <div id="section" class="${cs.section}">
   <div class="${cs.header}">
-    <a class="${cs.homeLink}" pref="cover">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
+    <a class="${cs.homeLink}" href="/">Elements</a> <a class="${cs.bookTitle}" id="bookTitle"></a>
   </div>
   <div id="figColumn" class="${cs.figColumn}">
     <svg id="figure" viewbox="0 0 512 512"></svg>
@@ -383,7 +383,7 @@ Interesting propositions: <a pref="13.16">Icosahedron</a>, <a pref="13.17">Dodec
     <br>
     Try turning your phone.
     <br>
-    <a pref="cover">Home</a>
+    <a href="/">Home</a>
   </p>
 </div>`;
 
