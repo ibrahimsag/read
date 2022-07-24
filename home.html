@@ -63,8 +63,9 @@ body {
 #experiment {
   margin: 70px auto 12px;
   max-width: 880px;
+  min-width: 600px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 
 .item {
@@ -138,9 +139,11 @@ a {
   border-bottom-color: #474747;
   border-bottom-style: solid;
   border-bottom-width: 1px;
+  min-width: 600px;
 }
 .logoWrap {
   max-width: 880px;
+  min-width: 600px;
   width: 100%;
   margin: auto;
   user-select: none;
@@ -231,7 +234,11 @@ textarea {
   color: #aaaaaa;
 }
 button {
-  background: #aaa;
+  background: #ddd;
+  color: #000000;
+}
+button:hover {
+  background: #fff;
 }
     </style>
   </head>
@@ -249,7 +256,7 @@ button {
       <h2 style="margin-top: -0.9em; margin-bottom: 0;"> An experiment in presenting geometry</h1>
       </div>
 
-      <div id="page">
+      <div id="page" style="margin-top: 3rem;">
         <div class="item">
           <div class="link">
             <h3>ready</h3>
