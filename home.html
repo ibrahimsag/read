@@ -123,6 +123,62 @@ a {
   padding-bottom: 10px;
 }
 
+.headLink {
+  color: #777777;
+  cursor: pointer;
+  padding: 15px 25px;
+  user-select: none;
+  text-decoration: none;
+}
+.headLink:hover {
+  color: #ffffff;
+}
+.logoBar {
+  background-color: #070707;
+  border-bottom-color: #474747;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.logoWrap {
+  max-width: 880px;
+  width: 100%;
+  margin: auto;
+  user-select: none;
+}
+.logo {
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  user-select: none;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #c6c6c6;
+}
+
+input {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  background: black;
+  color: #919191;
+}
+textarea {
+  display: block;
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  background: black;
+  color: #aaaaaa;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-family: Geom;
+}
+
 body {
   color: #919191;
 }
@@ -158,39 +214,6 @@ em {
   color: #ffffff;
 }
 
-.headLink {
-  color: #777777;
-  cursor: pointer;
-  padding: 15px 25px;
-  user-select: none;
-  text-decoration: none;
-}
-.headLink:hover {
-  color: #ffffff;
-}
-.logoBar {
-  background-color: #070707;
-  border-bottom-color: #474747;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-}
-.logoWrap {
-  max-width: 880px;
-  width: 100%;
-  margin: auto;
-  user-select: none;
-}
-.logo {
-  cursor: pointer;
-  padding: 15px 25px;
-  font-size: 1.2em;
-  user-select: none;
-  text-decoration: none;
-}
-.logo:hover {
-  color: #c6c6c6;
-}
-
 #palette {
   cursor: pointer;
   stroke: #777777;
@@ -199,6 +222,17 @@ em {
   stroke: #ffffff;
 }
 
+input {
+  background: black;
+  color: #919191;
+}
+textarea {
+  background: black;
+  color: #aaaaaa;
+}
+button {
+  background: #aaa;
+}
     </style>
   </head>
   <body>
@@ -207,6 +241,7 @@ em {
   <a class="logo" href="https://canberead.com/"><span class=c_dim>re</span><span class="c_step">a</span><span class="c_bright">d</span></a>
   <a class="headLink" href="#what">what</a>
   <a class="headLink" href="#why">why</a>
+  <a class="headLink" href="#contact">contact</a>
   </div>
 </div>
     <div id="experiment">
@@ -275,6 +310,26 @@ em {
 <p>Screens are part of the computers for about fifty years now. But couple thousand years of imaginative work on <em>paper</em> determined that screens be an imitation of <em>paper</em>, for the most part. Basic container of data was inherited as <em>files</em> and <em>folders</em>. Much of the private computer was put together in a company that makes <em>photocopy machines</em>. Within which the preview of a <em>print</em> had monumental benefit along with a pointer device and a virtual catalog. <em>Word processors</em>, <em>spreadsheets</em> and <em>slides</em> came to be the most used software and suggested a future as typical products. And we come to look at web <em>pages</em> that were conceived to be available versions of physical documents.</p>
 <p>Imitation is mostly effective but it can also be frustrating. But frustrations are a bit difficult to demonstrate. First, It is not obvious how information technology should leave the office and become relevant to life besides facilitation of bureaucracies or consumption of packaged entertainment. Second, criticism of digitized paperwork(i.e. finance) seem to fall on deaf ears. Instead, the new medium is taken as ground to experiment around prevailing institutional dependence and brute specialization that beats their imagination out of people.</p>
 <p>Of course, this alone can't leave a dent in the curricular consumption called education. But one question has to be made explicit: What can be done better than on paper? So that we be aware of the cultural momentum and possibly see a course correction.</p>
+        </div>
+        <div id="contact" class="section" style="margin-top: 3em;">
+<h3>makes sense?</h3>
+<p>If you want to talk about these topics, or go of on a tangent, feel free to articulate on the form below.</p>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message" rows="7"></textarea></label>
+  </p>
+
+  <div data-netlify-recaptcha="true"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
         </div>
         <div class="section" style="text-align: right; border-top: 1px solid #333; margin-top: 3em; font-size: 0.7em;">
           <p>Care by <a target="new" href="https://twitter.com/ratherthanpaper">ibrahim sagiroglu</a> as <a target="new" href="https://github.com/ibrahimsag/canberead/">code</a>.</p>
