@@ -170,4 +170,3 @@ em {
     svgEl_a.appendChild(rsvg.draw(s));
   });
 }
-window.onload = main;

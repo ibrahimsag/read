@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>An experiment in presenting geometry</title>
+    <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <meta name="title" content="An experiment in presenting geometry">
     <meta name="image" content="https://canberead.com/img/preview.png">
@@ -57,16 +58,17 @@ body {
   line-height: 1.7em;
 }
 .title {
-  width: 700px;
+  text-align: center;
 }
 #experiment {
-  margin: 12px 30px;;
-  width: 880px;
-  text-align: right;
+  margin: 70px auto 12px;
+  max-width: 880px;
+  width: 100%;
+  padding: 0 30px;
 }
 
 .item {
-  display: flex;
+  text-align: center;
 }
 
 .item .prose {
@@ -84,18 +86,14 @@ body {
 
 .item.book {
   align-items: baseline;
-}
-
-.item .link {
-  width: 700px;
+  margin-right: 0px;
 }
 
 .item .author {
   font-size: 1.0rem;
   font-style: italic;
-  width: 180px;
   padding-left: 10px;
-  text-align: left;
+  display: inline-block;
 }
 .item .small {
   font-size: .7em;
@@ -106,23 +104,22 @@ a {
 }
 
 .section {
-  margin-right: 100px;
 }
-.section h3, .section > p {
-  margin-right: 80px;
+.section h3 {
+  margin-right: 0px;
 }
 
 .section img {
-  width: 780px;
+  width: 100%;
   margin: 10px 0;
 }
 
 .section blockquote {
   font-style: italic;
-  margin-right: 80px;
-  border-right-width: 2px;
-  border-right-style: solid;
-  padding-right: 20px;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: 0px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
 
@@ -160,13 +157,61 @@ em {
 .c_bright {
   color: #ffffff;
 }
+
+.headLink {
+  color: #777777;
+  cursor: pointer;
+  padding: 15px 25px;
+  user-select: none;
+  text-decoration: none;
+}
+.headLink:hover {
+  color: #ffffff;
+}
+.logoBar {
+  background-color: #070707;
+  border-bottom-color: #474747;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.logoWrap {
+  max-width: 880px;
+  width: 100%;
+  margin: auto;
+  user-select: none;
+}
+.logo {
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  user-select: none;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #c6c6c6;
+}
+
+#palette {
+  cursor: pointer;
+  stroke: #777777;
+}
+#palette:hover {
+  stroke: #ffffff;
+}
+
     </style>
   </head>
   <body>
+<div id="logoBar" class="logoBar">
+  <div style="display: flex;align-items:baseline;"class="logoWrap">
+  <a class="logo" href="https://canberead.com/"><span class=c_dim>re</span><span class="c_step">a</span><span class="c_bright">d</span></a>
+  <a class="headLink" href="#what">what</a>
+  <a class="headLink" href="#why">why</a>
+  </div>
+</div>
     <div id="experiment">
       <div class="title">
-      <h1 class="c_low">can be <span class="c_dim">re</span><span class="c_step">a</span><span class="c_bright">d</span></h1>
-      <h5 style="margin-top: -0.9em; margin-bottom: 0;"> An experiment in presenting geometry</h5>
+      <h2 style="margin-top: -0.9em; margin-bottom: 0;"> An experiment in presenting geometry</h1>
       </div>
 
       <div id="page">
@@ -176,10 +221,8 @@ em {
           </div>
         </div>
         <div class="item break book">
-          <div class="link">
             <a href="https://elements.canberead.com/">Elements of Geometry</a>
-          </div>
-          <div class="author">Euclid, <span class="small">~300 BC.</span></div>
+            <span class="author">Euclid, <span class="small">~300 BC.</span></span>
         </div>
         <div class="item">
           <div class="link">
@@ -187,38 +230,24 @@ em {
           </div>
         </div>
         <div class="item break book">
-          <div class="link">
             Philosophiæ Naturalis Principia Mathematica
-          </div>
-          <div class="author">Newton, <span class="small">1687</span></div>
+          <span class="author">Newton, <span class="small">1687</span></span>
         </div>
         <div class="item">
           <div class="link"><h3>downriver</h3></div>
         </div>
         <div class="item book">
-          <div class="link">
             On the Sphere and the Cylinder &amp; On Spirals
-          </div>
-          <div class="author">Archimedes, <span class="small">~200 BC.</span></div>
+          <span class="author">Archimedes, <span class="small">~200 BC.</span></span>
         </div>
         <div class="item book">
-          <div class="link">
-            Dialogues Concerning Two New Sciences
-          </div>
-          <div class="author">
-            Galileo, <span class="small">1638.</span>
-          </div>
+          Dialogues Concerning Two New Sciences
+          <span class="author">Galileo, <span class="small">1638.</span></span>
         </div>
         <div class="item book">
-          <div class="link">
-            La Géométrie
-          </div>
-          <div class="author">
-            Descartes, <span class="small">1637</span>
-          </div>
+          La Géométrie <span class="author">Descartes, <span class="small">1637</span></span>
         </div>
-        <div class="section" style="margin-top: 3em;">
-
+        <div id="what" class="section" style="margin-top: 3em;">
 <h3>what?</h3>
 <p>This is a clip from a geometry book. Particularly a translation of the 2300 years old Elements. Reading it requires going back and forth between the figure and the prose multiple times in most of the sentences. Which gets rather tedious and borderline torturous when you need to read again. Coloring it would help greatly.</p>
 <img src="/img/bare.png" alt="">
@@ -226,18 +255,17 @@ em {
 <p>This is from Oliver Byrne’s work(a digital version can be found at <a href="https://c82.net/euclid">c82.net/euclid</a>). About 180 years ago he made use of colored print and made a phenomenal contribution.</p>
 <img src="/img/colored.png" alt="">
 
-<p>That should bring a question: Now that we have digital displays that gets refreshed 60 times every second, what more can be done?</p>
+<p>That should bring a question: what can be done with digital displays that gets refreshed 60 times every second?</p>
 
 <p>The usual answer is to record a video. Which dictates a rhytym, isolates fragments, strains potential participation and often turns ridiculous under production costs. Surely films are awesome but their teaching of technical material is not the strong aspect.</p>
 
 <p>It needs to be emphasized here that screens are nothing short of magical. And I request some attention to the potential of intentional simplicity.</p>
 
-<p>Now, follow this short page: <a href="https://elements.canberead.com/1.43">elements.canberead.com/1.43</a>. And use j/k or down/up on keyboard or use the gray buttons at the bottom of the page. Higlights will move along the prose in resonance with the figure. Pointer devices are left on the supporting side.</p>
+<p>Now, follow this short page: <a href="https://elements.canberead.com/1.43">elements.canberead.com/1.43</a>. And use j/k or down/up on keyboard. Higlights will move along the prose in resonance with the figure. Pointer devices are left on the supporting side.</p>
 
-<iframe width="1124" height="500" src="https://elements.canberead.com/1.43" frameborder="1"></iframe>
-
-<p>To compare: Human eye can't distinguish between more than a handful of colors and picking colors for all the objects is not straightforward. But differential brightness on a dynamic screen is plain and simple. Complex figures only get more benefit out of the method. There is no frivolous animation or interactivity to prepare. And, last but not least, it helps people read together.</p>
-
+<p>To compare: Human eye can't distinguish between more than a handful of colors and picking colors for all the objects is not straightforward. But differential brightness on a dynamic screen is plain and simple. Complex figures only get more benefit out of the method. There is no frivolous animation or interactivity to prepare. And, last but not least, it helps people read together or again.</p>
+        </div>
+        <div id="why" class="section" style="margin-top: 3em;">
 <h3>why?</h3>
 <blockquote>
 <p>As for ancient geometrical analysis and modern algebra, even apart from the fact that they deal only in highly abstract matters that seem to have no practical application, the former is so closely tied to the consideration of figures that it is unable to exercise the intellect without greatly tiring the imagination, while in the latter case one is so much a slave to certain rules and symbols that it has been turned into a confused and obscure art that bewilders the mind instead of being a form of knowledge that cultivates it.</p>
@@ -248,25 +276,7 @@ em {
 <p>Imitation is mostly effective but it can also be frustrating. But frustrations are a bit difficult to demonstrate. First, It is not obvious how information technology should leave the office and become relevant to life besides facilitation of bureaucracies or consumption of packaged entertainment. Second, criticism of digitized paperwork(i.e. finance) seem to fall on deaf ears. Instead, the new medium is taken as ground to experiment around prevailing institutional dependence and brute specialization that beats their imagination out of people.</p>
 <p>Of course, this alone can't leave a dent in the curricular consumption called education. But one question has to be made explicit: What can be done better than on paper? So that we be aware of the cultural momentum and possibly see a course correction.</p>
         </div>
-        <div class="section" style="margin-top: 6em;">
-          <h3>pillars</h3>
-          <p></p>
-        </div>
-        <div class="item">
-          <div class="prose">
-            <h3>Highlighted</h3>
-            <p>However complex figure may be <br> prose is always ready.</p>
-          </div>
-          <svg id="figureH" width="330" height="150"></svg>
-        </div>
-        <div class="item" style="margin-top: 80px;">
-          <div class="prose">
-            <h3>Aligned</h3>
-            <p>However long prose may be <br> figure is always present.</p>
-          </div>
-          <svg id="figureA" width="330" height="200"></svg>
-        </div>
-        <div class="section" style="border-top: 1px solid #333; margin-top: 3em; font-size: 0.7em;">
+        <div class="section" style="text-align: right; border-top: 1px solid #333; margin-top: 3em; font-size: 0.7em;">
           <p>Care by <a target="new" href="https://twitter.com/ratherthanpaper">ibrahim sagiroglu</a> as <a target="new" href="https://github.com/ibrahimsag/canberead/">code</a>.</p>
         </div>
       </div>
