@@ -2,6 +2,18 @@
   publish = "./"
 
 [[redirects]]
+  from = "http://elements.canberead.com/*"
+  to = "http://elements.machinepresence.com/:splat"
+  force = true
+  status = 301
+
+[[redirects]]
+  from = "https://elements.canberead.com/*"
+  to = "https://elements.machinepresence.com/:splat"
+  force = true
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
