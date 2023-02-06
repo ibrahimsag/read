@@ -12,7 +12,7 @@ This is from Oliver Byrne’s work(a digital version can be found at [c82.net/eu
 
 The usual answer is to record a video. Which dictates a rhytym, isolates fragments, strains potential participation and mostly turns ridiculous under production costs. Surely films are awesome but their teaching of technical material is not the strong aspect.
 
-Now follow this: [canberead.com/elements/1.43](https://canberead.com/elements/1.43). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.
+Now follow this: [elements.machinepresence.com/1.43](https://elements.machinepresence.com/1.43). And press j/k or right/left on keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.
 
 ![](img/highlighted.png)
 

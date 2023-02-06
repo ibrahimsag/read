@@ -2,11 +2,6 @@
   publish = "./"
 
 [[redirects]]
-  from = "/elements/*"
-  to = "//elements.canberead.com/:splat"
-  status = 301
-
-[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
