@@ -334,7 +334,7 @@ Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dod
   <div class="${cs.coverFoot}">
     <div>
       <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-      <p>Care by <a target="new" href="http://twitter.com/ratherthanpaper">@ratherthanpaper</a> as <a href="https://github.com/ibrahimsag/read/">code</a> to be <a href="https://read.machinepresence.com/">read</a>.</p>
+      <p>Care by <a target="new" href="http://machinepresence.com">machinepresence.com</a> as <a href="https://github.com/ibrahimsag/read/">code</a> to be <a href="https://read.machinepresence.com/">read</a>.</p>
     </div>
   </div>
 
