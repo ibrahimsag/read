@@ -20,6 +20,3 @@ elements-public/fonts
 elements-public/img
 public/index.html
 public/img
-
-# Local Netlify folder
-.netlify
