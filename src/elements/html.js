@@ -120,7 +120,7 @@ Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dod
 <div id="logoBar" class="${cs.logoBar}">
   <div style="display: flex;align-items:baseline;"class="${cs.logoWrap}">
   <a class="${cs.logo}" href="https://read.machinepresence.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
-  <a class="${cs.headLink}" href="https://read.machinepresence.com/">how<span style="font-size: .9em;"> & </span>why</a>
+  <a class="${cs.headLink}" href="https://read.machinepresence.com/">about</a>
 <div id="palette" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
 ${sun}
 </div>
@@ -334,7 +334,7 @@ Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dod
   <div class="${cs.coverFoot}">
     <div>
       <p>Based on <a target="new" href="http://farside.ph.utexas.edu/books/Euclid/Euclid.html">this translation</a>.</p>
-      <p>Care by <a target="new" href="http://machinepresence.com">machinepresence.com</a> as <a href="https://github.com/ibrahimsag/read/">code</a> to be <a href="https://read.machinepresence.com/">read</a>.</p>
+      <p>Care by <a target="new" href="http://machinepresence.com">machinepresence</a> as <a href="https://github.com/ibrahimsag/read/">code</a> to be <a href="https://read.machinepresence.com/">read</a>.</p>
     </div>
   </div>
 
