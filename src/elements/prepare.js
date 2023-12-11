@@ -12,7 +12,7 @@ import book11 from './11.js';
 import book12 from './12.js';
 import book13 from './13.js';
 
-var fs = require('fs');
+import fs from 'fs/promises';
 
 let books = [book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13];
 
@@ -26,12 +26,13 @@ function storeProps()
   function saveBook(book, i)
   {
     let ps = book(srg).map(f => f());
-    fs.writeFile("build/"+(i+1)+".json", JSON.stringify(ps), function(err) {
+    fs.writeFile("build/"+(i+1)+".json", JSON.stringify(ps)).then(() => {
+      console.log("The file was saved!", i+1);
+    }).catch(function(err) {
       if(err) {
         return console.log(err);
       }
 
-      console.log("The file was saved!", i+1);
     });
   }
 

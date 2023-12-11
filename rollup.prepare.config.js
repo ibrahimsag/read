@@ -16,7 +16,6 @@ export default [
   ],
   output: {
     file: 'build/elements-prepare.js',
-    format: 'cjs',
     sourcemap: true,
   }
 }
