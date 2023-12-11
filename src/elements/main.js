@@ -1441,15 +1441,27 @@ function elements() {
     document.querySelector('#prev-section').onclick = (e) =>
     {
       e.preventDefault();
-      i_section = (i_section-1+sections.length) % sections.length;
-      openSection(i_book, sections[i_section].id);
+      if (i_section > 0) {
+        openSection(i_book, sections[i_section-1].id);
+      } else {
+        if (i_book > 1) {
+          let sections = books[i_book-1];
+          openSection(i_book-1, sections[sections.length-1].id);
+        }
+      }
     }
 
     document.querySelector('#next-section').onclick = (e) =>
     {
       e.preventDefault();
-      i_section = (i_section+1) % sections.length;
-      openSection(i_book, sections[i_section].id);
+      if (i_section < sections.length-1) {
+        openSection(i_book, sections[i_section+1].id);
+      } else {
+        if (i_book < 13) {
+          let sections = books[i_book+1];
+          openSection(i_book+1, sections[0].id);
+        }
+      }
     }
 
     function alignFigure(scroll_position) {
