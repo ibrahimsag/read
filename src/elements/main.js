@@ -1381,6 +1381,7 @@ function elements() {
   }
 
   function presentSection(i_book, id) {
+    i_book = parseInt(i_book);
     document.title = `${id} - ${baseTitle}`;
     if(window.gtagconfig) window.gtagconfig();
 
