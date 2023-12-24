@@ -6,7 +6,7 @@ import replace from '@rollup/plugin-replace';
 
 export default [
 {
-  input: 'src/elements/main.js',
+  input: 'src/main.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -22,7 +22,7 @@ export default [
   }
 },
 {
-  input: 'src/elements/content.js',
+  input: 'src/content.js',
   plugins: [
     commonjs(),
     string({

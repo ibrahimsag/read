@@ -1,27 +1,6 @@
 import v2 from '../vec2.js';
 import v3 from '../vec3.js';
 
-import prop1 from './13/1';
-import prop2 from './13/2';
-import prop3 from './13/3';
-import prop4 from './13/4';
-import prop5 from './13/5';
-import prop6 from './13/6';
-import prop7 from './13/7';
-import prop8 from './13/8';
-import prop9 from './13/9';
-import prop10 from './13/10';
-import prop11 from './13/11';
-import prop12 from './13/12';
-import prop13 from './13/13';
-import propl1 from './13/l1-13';
-import prop14 from './13/14';
-import prop15 from './13/15';
-import prop16 from './13/16';
-import prop17 from './13/17';
-import prop18 from './13/18';
-import propl2 from './13/l2-18';
-
 function s(o, ls, ps) {
   for(let i = 0; i < ls.length; i++)
     o[ls[i]] = ps[i];
@@ -41,9 +20,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 150);
   return {
-    title: 'Proposition 1',
     id: '13.1',
-    prose: prop1,
     points: z,
     smallletters: 'MNO',
     letters: {
@@ -97,9 +74,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 150);
   return {
-    title: 'Proposition 2',
     id: '13.2',
-    prose: prop2,
     points: z,
     smallletters: 'MNO',
     letters: {
@@ -146,9 +121,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 300);
   return {
-    title: 'Proposition 3',
     id: '13.3',
-    prose: prop3,
     points: z,
     smallletters: 'OPQ',
     letters: {
@@ -201,9 +174,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 300);
   return {
-    title: 'Proposition 4',
     id: '13.4',
-    prose: prop4,
     points: z,
     smallletters: 'LMN',
     letters: {
@@ -247,9 +218,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 250);
   return {
-    title: 'Proposition 5',
     id: '13.5',
-    prose: prop5,
     points: z,
     letters: {
       D: [1],
@@ -281,9 +250,7 @@ function() {
   let phi = 2/(1+Math.sqrt(5))
   let r = 250;
   return {
-    title: 'Proposition 6',
     id: '13.6',
-    prose: prop6,
     mags: [
       { l: 'D', m: 0.5*r, p: v2.o },
       { l: 'A', m: phi*r },
@@ -301,9 +268,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 150);
   return {
-    title: 'Proposition 7',
     id: '13.7',
-    prose: prop7,
     points: z,
     letters: {
       A: [1],
@@ -329,9 +294,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 150);
   return {
-    title: 'Proposition 8',
     id: '13.8',
-    prose: prop8,
     points: z,
     letters: {
       A: [1],
@@ -361,9 +324,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], r);
   return {
-    title: 'Proposition 9',
     id: '13.9',
-    prose: prop9,
     points: z,
     letters: {
       A: [7],
@@ -395,9 +356,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], r);
   return {
-    title: 'Proposition 10',
     id: '13.10',
-    prose: prop10,
     points: z,
     smallletters: 'NL',
     letters: {
@@ -439,9 +398,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], r);
   return {
-    title: 'Proposition 11',
     id: '13.11',
-    prose: prop11,
     points: z,
     letters: {
       A: [1],
@@ -480,9 +437,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], r);
   return {
-    title: 'Proposition 12',
     id: '13.12',
-    prose: prop12,
     points: z,
     letters: {
       A: [1],
@@ -527,9 +482,7 @@ function() {
   for(let i in x)
     z[i] = v2.s(x[i], r);
   return {
-    title: 'Proposition 13',
     id: '13.13',
-    prose: prop13,
     points: z,
     letters: {
       K: [1],
@@ -569,9 +522,7 @@ function() {
     z[i] = v2.s(z[i], r);
   c = c.map(v => v2.s(v, r));
   return {
-    title: 'Lemma',
     id: '13.13-lem',
-    prose: propl1,
     points: z,
     letters: {
       A: [3],
@@ -618,9 +569,7 @@ function() {
   for(let i in x)
     z[i] = v2.s(x[i], r);
   return {
-    title: 'Proposition 14',
     id: '13.14',
-    prose: prop14,
     points: z,
     letters: {
       L: [1],
@@ -666,9 +615,7 @@ function() {
   for(let i in x)
     z[i] = v2.s(x[i], r);
   return {
-    title: 'Proposition 15',
     id: '13.15',
-    prose: prop15,
     points: z,
     letters: {
       E: [2],
@@ -731,9 +678,7 @@ function() {
   for(let i in x)
     z[i] = v2.s(x[i], r-20);
   return {
-    title: 'Proposition 16',
     id: '13.16',
-    prose: prop16,
     points: z,
     letters: {
       H: [6],
@@ -805,9 +750,7 @@ function() {
   for(let i in y)
     z[i] = v3.s(f.map(d => v3.dot(d, y[i])), r);
   return {
-    title: 'Proposition 17',
     id: '13.17',
-    prose: prop17,
     points: z,
     letters: {
       B: [3],
@@ -867,9 +810,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], 180);
   return {
-    title: 'Proposition 18',
     id: '13.18',
-    prose: prop18,
     points: z,
     smallletters: 'N',
     letters: {
@@ -904,9 +845,7 @@ function() {
   for(let i in z)
     z[i] = v2.s(z[i], r);
   return {
-    title: 'Lemma',
     id: '13.18-lem',
-    prose: propl2,
     points: z,
     letters: {
       A: [1],

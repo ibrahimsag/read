@@ -29,22 +29,7 @@ export default [
   }
 },
 {
-  input: 'src/elements/latest.js',
-  plugins: [
-    nodeResolve({ preferBuiltins: false }),
-    commonjs(),
-    string({
-      include: 'src/elements/*/*'
-    }),
-  ],
-  output: {
-    file: 'build/latest.js',
-    format: 'iife',
-    sourcemap: true,
-  }
-},
-{
-  input: 'src/elements/main.js',
+  input: 'src/main.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
@@ -59,7 +44,7 @@ export default [
   }
 },
 {
-  input: 'src/elements/content.js',
+  input: 'src/content.js',
   plugins: [
     string({
       include: 'build/*.json'

@@ -38,7 +38,7 @@ app.post('/store', (req, res) => {
 });
 
 app.get('/*', (req, res) => {
-  res.sendFile(__dirname + '/src/elements/index.html');
+  res.sendFile(__dirname + '/src/index.html');
 })
 
 app.listen(port, () => {

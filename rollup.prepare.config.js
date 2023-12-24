@@ -5,12 +5,12 @@ import run from '@rollup/plugin-run';
 
 export default [
 {
-  input: 'src/elements/prepare.js',
+  input: 'src/prepare.js',
   plugins: [
     nodeResolve({ preferBuiltins: false }),
     commonjs(),
     string({
-      include: 'src/elements/*/*'
+      include: 'src/en/*/*'
     }),
     run()
   ],

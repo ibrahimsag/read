@@ -3,7 +3,7 @@ import hsluv from 'hsluv';
 import {create} from 'jss';
 import preset from 'jss-preset-default';
 
-import v2 from '../vec2.js';
+import v2 from './vec2.js';
 
 import style from './style.js';
 import html from './html.js';
