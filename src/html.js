@@ -3,7 +3,7 @@ function make(cs, fext)
   let contents = `
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
-Start with <a href="/1.d">Definitions</a> or <a href="/1.1">First proposition</a>.
+Start with <a href="/1.d">Definitions</a>, <a href="/1.p">Postulates</a>, <a href="/1.c">Common Notions</a> or <a href="/1.1">First proposition</a>.
 <br>
 Interesting proofs:
 <a href="/1.43">Complements in parallelograms</a>,
@@ -185,7 +185,7 @@ ${sun}
       <div class="${cs.contentsColumn} title">
 <h4>Book 1 - Fundamentals of Plane Geometry Involving Straight-Lines</h4>
 <p>
-Start with <a href="/1.d">Definitions</a> or <a href="/1.1">First proposition</a>.
+Start with <a href="/1.d">Definitions</a>, <a href="/1.p">Postulates</a>, <a href="/1.c">Common Notions</a> or <a href="/1.1">First proposition</a>.
 <br>
 Interesting proofs:
 <a href="/1.43">Complements in parallelograms</a>,
