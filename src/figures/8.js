@@ -3,11 +3,6 @@ import vec2 from '../vec2.js';
 function book8(rg)
 {
   return [
-function() {
-  return {
-    id: '8.d',
-  };
-},
 
 function() {
   return {

@@ -26,11 +26,6 @@ function book(rg)
   }
 
   return [
-function() {
-  return {
-    id: '11.d',
-  };
-},
 
 function() {
   let y = {};

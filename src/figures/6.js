@@ -5,13 +5,6 @@ function book6(rg)
   return [
 function()
 {
-  return {
-    id: '5.d',
-  };
-},
-
-function()
-{
   const A = [200, 50];
   const C = [200, 250];
   const l1 = 50;

@@ -5,16 +5,6 @@ function book4(rg)
   return [
 function()
 {
-  return {
-    id: '4.d',
-    points: {},
-    shapes: [],
-    letters: {}
-  };
-},
-
-function()
-{
   const r = 150;
   const d = 100;
   const D = [300, 40];

@@ -39,8 +39,13 @@ function storeProps()
 
   function saveBook(book, i)
   {
-    let [figures, en] = book;
-    let ps = figures(srg).map((f, i_section) => ({...f(), ...en[i_section]}));
+    let [figure_descs, en] = book;
+    let figures = {};
+    figure_descs(srg).forEach(f => {
+      let figure = f();
+      figures[figure.id] = figure;
+    });
+    let ps = en.map((prose) => ({...prose, ...figures[prose.id]}));
     fs.writeFile("build/"+(i+1)+".json", JSON.stringify(ps)).then(() => {
       console.log("The file was saved!", i+1);
     }).catch(function(err) {

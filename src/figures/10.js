@@ -406,12 +406,6 @@ let fig109 = ( function() {
   return [
 function() {
   return {
-    id: '10.d1',
-  };
-},
-
-function() {
-  return {
     id: '10.1',
     mags: [
       { l: 'A', m: 30, p: [50, 50] },
@@ -1598,12 +1592,6 @@ function() {
 
 function() {
   return {
-    id: '10.d2',
-  };
-},
-
-function() {
-  return {
     id: '10.48',
     mags: [
       { l: 'H', m: 80, p: v2.s(v2.x, 190) },
@@ -1998,12 +1986,6 @@ function() {
   return {
     id: '10.84',
     ...fig81
-  };
-},
-
-function() {
-  return {
-    id: '10.d3',
   };
 },
 

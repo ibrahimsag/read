@@ -6,13 +6,6 @@ function book7(rg)
 function()
 {
   return {
-    id: '7.d',
-  };
-},
-
-function()
-{
-  return {
     id: '7.1',
     mags: [
       { l: 'B', m: 160, p: [50, 50] },

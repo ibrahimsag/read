@@ -3,15 +3,6 @@ import vec2 from '../vec2.js';
 function book1(rg)
 {
   return [
-function()
-{
-  return {
-    id: '1.d',
-    points: {},
-    shapes: [],
-    letters: {}
-  };
-},
 
 function()
 {

@@ -5,16 +5,6 @@ function book3(rg)
   return [
 function()
 {
-  return {
-    id: '3.d',
-    points: {},
-    shapes: [],
-    letters: {}
-  };
-},
-
-function()
-{
   const r = 150;
   const F = [256, 206];
   const fe = [0, r];
