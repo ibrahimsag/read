@@ -510,13 +510,13 @@ function makeRG()
   return { tick, arc, gnomon, anglecurve, angle, curve, line, polygon, circle, makeHighlight, draw }
 }
 
-function prepareMags(section)
+function prepareMags(fig)
 {
-  let mags = section.mags;
+  let mags = fig.mags;
   let last_pos = [0, 0];
   let pos = [0, 0];
-  section.ticks = [];
-  section.indices = {};
+  fig.ticks = [];
+  fig.indices = {};
 
   for(var i = 0; i < mags.length; i++)
   {
@@ -534,22 +534,22 @@ function prepareMags(section)
 
     if(mag.p || mag.v)
     {
-      section.shapes.push(rg.tick(pos));
-      section.indices[mag.l] = section.ticks.length;
-      section.ticks.push(pos);
-      section.letters[mag.l] = [2.9, 2];
+      fig.shapes.push(rg.tick(pos));
+      fig.indices[mag.l] = fig.ticks.length;
+      fig.ticks.push(pos);
+      fig.letters[mag.l] = [2.9, 2];
     }
     else if(mag.m)
     {
-      section.letters[mag.l] = [1, 2];
-      section.indices[mag.l] = section.ticks.length - 1;
+      fig.letters[mag.l] = [1, 2];
+      fig.indices[mag.l] = fig.ticks.length - 1;
     }
     else
     {
-      section.letters[mag.l] = [1, 2];
-      section.indices[mag.l] = section.ticks.length - 1;
+      fig.letters[mag.l] = [1, 2];
+      fig.indices[mag.l] = fig.ticks.length - 1;
     }
-    section.points[mag.l] = pos;
+    fig.points[mag.l] = pos;
 
     if(mag.m)
     {
@@ -558,15 +558,15 @@ function prepareMags(section)
       {
         let prev_pos = pos;
         pos = v2.add(prev_pos, v2.s(v2.x, mag.m));
-        section.shapes.push(rg.tick(pos));
-        section.shapes.push(rg.line(prev_pos, pos));
-        section.ticks.push(pos);
-        section.indices[mag.l + 'e'] = section.ticks.length - 1;
+        fig.shapes.push(rg.tick(pos));
+        fig.shapes.push(rg.line(prev_pos, pos));
+        fig.ticks.push(pos);
+        fig.indices[mag.l + 'e'] = fig.ticks.length - 1;
       }
     }
   }
 
-  return section;
+  return fig;
 }
 
 function makePR(rg, w)
@@ -908,17 +908,18 @@ function makePR(rg, w)
       prepareProse(section);
     }
 
-    if(!section.prepared)
+    let fig = books.figures[section.id];
+    if(!section.prepared && fig)
     {
-      if(section.figures)
+      if(fig.figures)
       {
-        section.figures.forEach(figure => {
+        fig.figures.forEach(figure => {
           prepareFigure(figure, true);
         });
       }
       else
       {
-        prepareFigure(section, false);
+        prepareFigure(fig, false);
       }
     }
 
@@ -1028,9 +1029,11 @@ function makePR(rg, w)
     tie.hover = tie.hover.filter(h=>h.typ);
     let g = se('g');
     w.svg.append(g);
-    if(!section.figures)
+    if(!fig) {
+    }
+    else if(!fig.figures)
     {
-      let figure = section;
+      let figure = fig;
       g.append(...figure.shapes.map(rg.draw));
 
       let o = {};
@@ -1052,11 +1055,10 @@ function makePR(rg, w)
     }
     else
     {
-      for(var i = 0; i < section.figures.length; i++)
+      for(var i = 0; i < fig.figures.length; i++)
       {
-        let figure = section.figures[i];
+        let figure = fig.figures[i];
         g.append(...figure.shapes.map(rg.draw));
-
 
         let o = {};
         let shouldHighlight = tie.fi == 0 || tie.fi == i+1;
@@ -1359,7 +1361,7 @@ function elements() {
   }
 
   function canPresentSection(i_book, id) {
-    let sections = books[i_book];
+    let sections = books.en[i_book];
     if(!sections) return false;
 
     if(!section_indices[i_book])
@@ -1388,7 +1390,7 @@ function elements() {
     setupLinks();
     stopPreview = true;
     showOverlay();
-    let sections = books[i_book];
+    let sections = books.en[i_book];
 
     let i_section = section_indices[i_book][id];
 
@@ -1444,11 +1446,9 @@ function elements() {
       e.preventDefault();
       if (i_section > 0) {
         openSection(i_book, sections[i_section-1].id);
-      } else {
-        if (i_book > 1) {
-          let sections = books[i_book-1];
-          openSection(i_book-1, sections[sections.length-1].id);
-        }
+      } else if (i_book > 1) {
+        let sections = books.en[i_book-1];
+        openSection(i_book-1, sections[sections.length-1].id);
       }
     }
 
@@ -1457,11 +1457,9 @@ function elements() {
       e.preventDefault();
       if (i_section < sections.length-1) {
         openSection(i_book, sections[i_section+1].id);
-      } else {
-        if (i_book < 13) {
-          let sections = books[i_book+1];
-          openSection(i_book+1, sections[0].id);
-        }
+      } else if (i_book < 13) {
+        let sections = books.en[i_book+1];
+        openSection(i_book+1, sections[0].id);
       }
     }
 
@@ -1619,7 +1617,7 @@ function elements() {
         hrefClick
       });
       canPresentSection(1, '43')
-      let sections = books[1];
+      let sections = books.en[1];
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
@@ -1779,7 +1777,7 @@ function elements() {
         sectionsColumn.append(e);
       }
 
-      let sections = books[id];
+      let sections = books.en[id];
       for(let i in sections)
       {
         let sle = document.createElement('div')

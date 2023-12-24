@@ -47,7 +47,7 @@ export default [
   input: 'src/content.js',
   plugins: [
     string({
-      include: 'build/*.json'
+      include: 'src/en/*/*'
     }),
   ],
   output: {

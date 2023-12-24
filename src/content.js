@@ -1,16 +1,30 @@
-import book1 from '../build/1.json';
-import book2 from '../build/2.json';
-import book3 from '../build/3.json';
-import book4 from '../build/4.json';
-import book5 from '../build/5.json';
-import book6 from '../build/6.json';
-import book7 from '../build/7.json';
-import book8 from '../build/8.json';
-import book9 from '../build/9.json';
-import book10 from '../build/10.json';
-import book11 from '../build/11.json';
-import book12 from '../build/12.json';
-import book13 from '../build/13.json';
+import en01 from './en/1.js';
+import en02 from './en/2.js';
+import en03 from './en/3.js';
+import en04 from './en/4.js';
+import en05 from './en/5.js';
+import en06 from './en/6.js';
+import en07 from './en/7.js';
+import en08 from './en/8.js';
+import en09 from './en/9.js';
+import en10 from './en/10.js';
+import en11 from './en/11.js';
+import en12 from './en/12.js';
+import en13 from './en/13.js';
+
+import figures_01 from './figures/1.js';
+import figures_02 from './figures/2.js';
+import figures_03 from './figures/3.js';
+import figures_04 from './figures/4.js';
+import figures_05 from './figures/5.js';
+import figures_06 from './figures/6.js';
+import figures_07 from './figures/7.js';
+import figures_08 from './figures/8.js';
+import figures_09 from './figures/9.js';
+import figures_10 from './figures/10.js';
+import figures_11 from './figures/11.js';
+import figures_12 from './figures/12.js';
+import figures_13 from './figures/13.js';
 
 let descs = [
   "Fundamentals of Plane Geometry Involving Straight-Lines",
@@ -30,40 +44,33 @@ let descs = [
 
 
 window.books_ = (rg) => {
-  function unfoldGraphics(p) {
-    let callrg = a => rg[a[0]](...a.slice(1));
-    if(p.shapes)
-    {
-      p.shapes = p.shapes.map(callrg);
-    }
-    if(p.given)
-    {
-      for(let k in p.given)
-      {
-        p.given[k] = p.given[k].map(callrg);
-      }
-    }
-    if(p.figures)
-      p.figures.forEach(unfoldGraphics);
-
-    return p;
-  }
+  let all_figures = [figures_01, figures_02, figures_03, figures_04, figures_05, figures_06, figures_07, figures_08, figures_09, figures_10, figures_11, figures_12, figures_13];
+  let figures = {};
+  all_figures.forEach(figure_descs => {
+    figure_descs(rg).forEach(desc => {
+      let f = desc();
+      figures[f.id] = f;
+    });
+  });
 
   return {
     descs,
-    1: JSON.parse(book1).map(unfoldGraphics),
-    2: JSON.parse(book2).map(unfoldGraphics),
-    3: JSON.parse(book3).map(unfoldGraphics),
-    4: JSON.parse(book4).map(unfoldGraphics),
-    5: JSON.parse(book5).map(unfoldGraphics),
-    6: JSON.parse(book6).map(unfoldGraphics),
-    7: JSON.parse(book7).map(unfoldGraphics),
-    8: JSON.parse(book8).map(unfoldGraphics),
-    9: JSON.parse(book9).map(unfoldGraphics),
-    10: JSON.parse(book10).map(unfoldGraphics),
-    11: JSON.parse(book11).map(unfoldGraphics),
-    12: JSON.parse(book12).map(unfoldGraphics),
-    13: JSON.parse(book13).map(unfoldGraphics),
+    figures,
+    en: {
+      1: en01,
+      2: en02,
+      3: en03,
+      4: en04,
+      5: en05,
+      6: en06,
+      7: en07,
+      8: en08,
+      9: en09,
+      10: en10,
+      11: en11,
+      12: en12,
+      13: en13,
+    },
   };
 }
 
