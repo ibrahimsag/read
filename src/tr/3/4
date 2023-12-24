@@ -1,0 +1,19 @@
+In a circle, if two straight-lines, which are not through the center, cut one another then they do not cut one another in half.
+
+Let {ABCD circle F} be a circle, and within it, let two straight-lines, {AC line} and {BD line}, which are not through the center, cut one another at (point) {E point}.
+I say that they do not cut one another in half.
+
+For, if possible, let them cut one another in half, such that {AE line} is equal to {EC line}, and {BE line} to {ED line}.
+And let the center of the circle {ABCD circle F} have been found [Prop. 3.1], and let it be (at point) {F point}, and let {FE line} have been joined.
+
+Therefore, since some straight-line through the center, {FE line}, cuts in half some straight-line not through the center, {AC line}, it also cuts it at right-angles [Prop. 3.3].
+Thus, {FEA angle} is a right-angle.
+Again, since some straight-line {FE line} cuts in half some straight-line {BD line}, it also cuts it at right-angles [Prop. 3.3].
+Thus, {FEB angle} (is) a right-angle.
+But {FEA angle} was also shown (to be) a right-angle.
+Thus, {FEA angle} (is) equal to {FEB angle}, the lesser to the greater.
+The very thing is impossible.
+Thus, {AC line} and {BD line} do not cut one another in half.
+
+Thus, in a circle, if two straight-lines, which are not through the center, cut one another then they do not cut one another in half.
+(Which is) the very thing it was required to show.

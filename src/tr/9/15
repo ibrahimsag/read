@@ -1,0 +1,30 @@
+If three continuously proportional numbers are the least of those (numbers) having the same ratio as them then two (of them) added together in any way are prime to the remaining (one).
+
+Let {A magnitude}, {B magnitude}, {C magnitude} be three continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them.
+I say that two of {A magnitude}, {B magnitude}, {C magnitude} added together in any way are prime to the remaining (one), (that is) {A magnitude} and {B magnitude} (prime) to {C magnitude}, {B magnitude} and {C magnitude} to {A magnitude}, and, further, {A magnitude} and {C magnitude} to {B magnitude}.
+
+Let the two least numbers, {DE magnitude} and {EF magnitude}, having the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, have been taken [Prop. 8.2].
+So it is clear that {DE magnitude} has made {A magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {EF magnitude}, and, further, {EF magnitude} has made {C magnitude} (by) multiplying itself [Prop. 8.2].
+And since {DE magnitude}, {EF magnitude} are the least (of those numbers having the same ratio as them), they are prime to one another [Prop. 7.22].
+And if two numbers are prime to one another then the sum (of them) is also prime to each [Prop. 7.28].
+Thus, {DF magnitude} is also prime to each of {DE magnitude}, {EF magnitude}.
+But, in fact, {DE magnitude} is also prime to {EF magnitude}.
+Thus, {DF magnitude}, {DE magnitude} are (both) prime to {EF magnitude}.
+And if two numbers are (both) prime to some number then the (number) created from (multiplying) them is also prime to the remaining (number) [Prop. 7.24].
+Hence, the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is prime to {EF magnitude}.
+Hence, the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is also prime to the (square) on {EF magnitude} [Prop. 7.25].
+[For if two numbers are prime to one another then the (number) created from (squaring) one of them is prime to the remaining (number).]
+But the (number created) from (multiplying) {FD magnitude}, {DE magnitude} is the (square) on {DE magnitude} plus the (number created) from (multiplying) {DE magnitude}, {EF magnitude} [Prop. 2.3].
+Thus, the (square) on {DE magnitude} plus the (number created) from (multiplying) {DE magnitude}, {EF magnitude} is prime to the (square) on {EF magnitude}.
+And the (square) on {DE magnitude} is {A magnitude}, and the (number created) from (multiplying) {DE magnitude}, {EF magnitude} (is) {B magnitude}, and the (square) on {EF magnitude} (is) {C magnitude}.
+Thus, {A magnitude}, {B magnitude} summed is prime to {C magnitude}.
+So, similarly, we can show that {B magnitude}, {C magnitude} (summed) is also prime to {A magnitude}.
+So I say that {A magnitude}, {C magnitude} (summed) is also prime to {B magnitude}.
+For since {DF magnitude} is prime to each of {DE magnitude}, {EF magnitude} then the (square) on {DF magnitude} is also prime to the (number created) from (multiplying) {DE magnitude}, {EF magnitude} [Prop. 7.25].
+But, the (sum of the squares) on {DE magnitude}, {EF magnitude} plus twice the (number created) from (multiplying) {DE magnitude}, {EF magnitude} is equal to the (square) on {DF magnitude} [Prop. 2.4].
+And thus the (sum of the squares) on {DE magnitude}, {EF magnitude} plus twice the (rectangle contained) by {DE magnitude}, {EF magnitude} [is] prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.
+By separation, the (sum of the squares) on {DE magnitude}, {EF magnitude} plus once the (rectangle contained) by {DE magnitude}, {EF magnitude} is prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.
+Again, by separation, the (sum of the squares) on {DE magnitude}, {EF magnitude} is prime to the (rectangle contained) by {DE magnitude}, {EF magnitude}.
+And the (square) on {DE magnitude} is {A magnitude}, and the (rectangle contained) by {DE magnitude}, {EF magnitude} (is) {B magnitude}, and the (square) on {EF magnitude} (is) {C magnitude}.
+Thus, {A magnitude}, {C magnitude} summed is prime to {B magnitude}.
+(Which is) the very thing it was required to show.

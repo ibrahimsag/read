@@ -1,0 +1,40 @@
+If an area is contained by a rational (straight-line) and a second binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called first bimedial.
+
+For let the area {ABCD polygon} be contained by the rational (straight-line) {AB line} and by the second binomial (straight-line) {AD line}.
+I say that the square-root of area {AC polygon} is a first bimedial(straight-line).
+
+For since {AD line} is a second binomial (straight-line), let it have been divided into its (component) terms at {E point}, such that {AE line} is the greater term.
+Thus, {AE line} and {ED line} are rational (straight-lines which are) commensurable in square only, and the square on {AE line} is greater than (the square on) {ED line} by the (square) on (some straight-line) commensurable (in length) with ({AE line}), and the lesser term {ED line} is commensurable in length with {AB line} [Def. 10.6].
+Let {ED line} have been cut in half at {F point}.
+And let the (rectangle contained) by {AG line} and {GE line}, equal to the (square) on {EF line}, have been applied to {AE line}, falling short by a square figure.
+{AG line} (is) thus commensurable in length with {GE line} [Prop. 10.17].
+And let {GH line}, {EK line}, and {FL line} have been drawn through (points) {G point}, {E point}, and {F point} (respectively), parallel to {AB line} and {CD line}.
+And let the square {SN polygon}, equal to the parallelogram {AH polygon}, have been constructed, and the square {NQ polygon}, equal to {GK polygon}.
+And let {MN line} be laid down so as to be straight-on to {NO line}.
+Thus, {RN line} [is] also straight-on to {NP line}.
+And let the square {SQ polygon} have been completed.
+So, (it is) clear from what has been previously demonstrated [Prop. 10.53 lem.] that {MR polygon} is the mean proportional to {SN polygon} and {NQ polygon}, and (is) equal to {EL polygon}, and that {MO line} is the square-root of the area {AC polygon}.
+So, we must show that {MO line} is a first bimedial (straight-line).
+
+Since {AE line} is incommensurable in length with {ED line}, and {ED line} (is) commensurable (in length) with {AB line}, {AE line} (is) thus incommensurable (in length) with {AB line} [Prop. 10.13].
+And since {AG line} is commensurable (in length) with {EG line}, {AE line} is also commensurable (in length) with each of {AG line} and {GE line} [Prop. 10.15].
+But, {AE line} is incommensurable in length with {AB line}.
+Thus, {AG line} and {GE line} are also (both) incommensurable (in length) with {AB line} [Prop. 10.13].
+Thus, {BA line}, {AG line}, and ({BA line}, and) {GE line} are (pairs of) rational (straight-lines which are) commensurable in square only.
+And, hence, each of {AH polygon} and {GK polygon} is a medial (area) [Prop. 10.21].
+Hence, each of {SN polygon} and {NQ polygon} is also a medial (area).
+Thus, {MN line} and {NO line} are medial (straight-lines).
+And since {AG line} (is) commensurable in length with {GE line}, {AH polygon} is also commensurable with {GK polygon} ---that is to say, {SN polygon} with {NQ polygon}---that is to say, the (square) on {MN line} with the (square) on {NO line} [hence, {MN line} and {NO line} are commensurable in square] [Props. 6.1, 10.11].
+And since {AE line} is incommensurable in length with {ED line}, but {AE line} is commensurable (in length) with {AG line}, and {ED line} commensurable (in length) with {EF line}, {AG line} (is) thus incommensurable (in length) with {EF line} [Prop. 10.13].
+Hence, {AH polygon} is also incommensurable with {EL polygon}---that is to say, {SN polygon} with {MR polygon}---that is to say, {PN line} with {NR line}---that is to say, {MN line} is incommensurable in length with {NO line} [Props. 6.1, 10.11].
+But {MN line} and {NO line} have also been shown to be medial (straight-lines) which are commensurable in square.
+Thus, {MN line} and {NO line} are medial (straight-lines which are) commensurable in square only.
+So, I say that they also contain a rational (area).
+For since {DE line} was assumed (to be) commensurable (in length) with each of {AB line} and {EF line}, {EF line} (is) thus also commensurable with {EK line} [Prop. 10.12].
+And they (are) each rational.
+Thus, {EL polygon}---that is to say, {MR polygon}---(is) rational [Prop. 10.19].
+And {MR polygon} is the (rectangle contained) by {MN line} and {NO line}.
+And if two medial (straight-lines), commensurable in square only, which contain a rational (area), are added together, then the whole is (that) irrational (straight-line which is) called first bimedial [Prop. 10.37].
+
+Thus, {MO line} is a first bimedial (straight-line).
+(Which is) the very thing it was required to show.

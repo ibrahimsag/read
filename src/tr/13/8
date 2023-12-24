@@ -1,0 +1,26 @@
+If straight-lines subtend two consecutive angles of an equilateral and equiangular pentagon then they cut one another in extreme and mean ratio, and their greater pieces are equal to the sides of the pentagon.
+
+For let the two straight-lines, {AC line} and {BE line}, cutting one another at point {H point}, have subtended two consecutive angles, at {A point} and {B point} (respectively), of the equilateral and equiangular pentagon {ABCDE polygon}.
+I say that each of them has been cut in extreme and mean ratio at point {H point}, and that their greater pieces are equal to the sides of the pentagon.
+
+For let the circle {ABCDE circle O} have been circumscribed about pentagon {ABCDE polygon} [Prop. 4.14].
+And since the two straight-lines {EA line} and {AB line} are equal to the two (straight-lines) {AB line} and {BC line} (respectively), and they contain equal angles, the base {BE line} is thus equal to the base {AC line}, and triangle {ABE polygon} is equal to triangle {ABC polygon}, and the remaining angles will be equal to the remaining angles, respectively, which the equal sides subtend [Prop. 1.4].
+Thus, angle {BAC angle} is equal to (angle) {ABE angle}.
+Thus, (angle) {AHE angle} (is) double (angle) {BAH angle} [Prop. 1.32].
+And {EAC angle} is also double {BAC angle}, inasmuch as circumference {EDC arcc O} is also double circumference {CB arcc O} [Props. 3.28, 6.33].
+Thus, angle {HAE angle} (is) equal to (angle) {AHE angle}.
+Hence, straight-line {HE line} is also equal to (straight-line) {EA line}—that is to say, to (straight-line) {AB line} [Prop. 1.6].
+And since straight-line {BA line} is equal to {AE line}, angle {ABE angle} is also equal to {AEB angle} [Prop. 1.5].
+But, {ABE angle} was shown (to be) equal to {BAH angle}.
+Thus, {BEA angle} is also equal to {BAH angle}.
+And (angle) {ABE angle} is common to the two triangles {ABE polygon} and {ABH polygon}.
+Thus, the remaining angle {BAE angle} is equal to the remaining (angle) {AHB angle} [Prop. 1.32].
+Thus, triangle {ABE polygon} is equiangular to triangle {ABH polygon}.
+Thus, proportionally, as {EB line} is to {BA line}, so {AB line} (is) to {BH line} [Prop. 6.4].
+And {BA line} (is) equal to {EH line}.
+Thus, as {BE line} (is) to {EH line}, so {EH line} (is) to {HB line}.
+And {BE line} (is) greater than {EH line}.
+{EH line} (is) thus also greater than {HB line} [Prop. 5.14].
+Thus, {BE line} has been cut in extreme and mean ratio at {H point}, and the greater piece {HE line} is equal to the side of the pentagon.
+So, similarly, we can show that {AC line} has also been cut in extreme and mean ratio at {H point}, and that its greater piece {CH line} is equal to the side of the pentagon.
+(Which is) the very thing it was required to show.

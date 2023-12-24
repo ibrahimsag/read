@@ -1,0 +1,30 @@
+To find a first binomial (straight-line).
+
+Let two numbers {AC magnitude} and {CB magnitude} be laid down such that their sum {AB magnitude} has to {BC magnitude} the ratio which (some) square number (has) to (some) square number, and does not have to {CA magnitude} the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
+And let some rational (straight-line) {D magnitude} be laid down.
+And let {EF magnitude} be commensurable in length with {D magnitude}.
+{EF magnitude} is thus also rational [Def. 10.3].
+And let it have been contrived that as the number {BA magnitude} (is) to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
+And {AB magnitude} has to {AC magnitude} the ratio which (some) number (has) to (some) number.
+Thus, the (square) on {EF magnitude} also has to the (square) on {FG magnitude} the ratio which (some) number (has) to (some) number.
+Hence, the (square) on {EF magnitude} is commensurable with the (square) on {FG magnitude} [Prop. 10.6].
+And {EF magnitude} is rational.
+Thus, {FG magnitude} (is) also rational.
+And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, thus the (square) on {EF magnitude} does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {EF magnitude} is incommensurable in length with {FG magnitude} [Prop 10.9].
+{EF magnitude} and {FG magnitude} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {EG magnitude} is a binomial (straight-line) [Prop. 10.36].
+I say that (it is) also a first (binomial straight-line).
+
+For since as the number {BA magnitude} is to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude}, and {BA magnitude} (is) greater than {AC magnitude}, the (square) on {EF magnitude} (is) thus also greater than the (square) on {FG magnitude} [Prop. 5.14].
+Therefore, let (the sum of) the (squares) on {FG magnitude} and {H magnitude} be equal to the (square) on {EF magnitude}.
+And since as {BA magnitude} is to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude}, thus, via conversion, as {AB magnitude} is to {BC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
+And {AB magnitude} has to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {EF magnitude} also has to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, {EF magnitude} is commensurable in length with {H magnitude} [Prop. 10.9].
+Thus, the square on {EF magnitude} is greater than (the square on) {FG magnitude} by the (square) on (some straight-line) commensurable (in length) with ({EF magnitude}).
+And {EF magnitude} and {FG magnitude} are rational (straight-lines).
+And {EF magnitude} (is) commensurable in length with {D magnitude}.
+
+Thus, {EG magnitude} is a first binomial (straight-line) [Def. 10.5].
+(Which is) the very thing it was required to show.

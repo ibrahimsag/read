@@ -1,0 +1,26 @@
+A (straight-line) commensurable in length with a bimedial (straight-line) is itself also bimedial, and the same in order.
+
+Let {AB magnitude} be a bimedial (straight-line), and let {CD magnitude} be commensurable in length with {AB magnitude}.
+I say that {CD magnitude} is bimedial, and the same in order as {AB magnitude}.
+
+For since {AB magnitude} is a bimedial (straight-line), let it have been divided into its (component) medial (straight-lines) at {E point}.
+Thus, {AE magnitude} and {EB magnitude} are medial (straight-lines which are) commensurable in square only [Props. 10.37, 10.38].
+And let it have been contrived that as {AB magnitude} (is) to {CD magnitude}, (so) {AE magnitude} (is) to {CF magnitude} [Prop. 6.12].
+And thus as the remainder {EB magnitude} is to the remainder {FD magnitude}, so {AB magnitude} (is) to {CD magnitude} [Props. 5.19 corr., 6.16].
+And {AB magnitude} (is) commensurable in length with {CD magnitude}.
+Thus, {AE magnitude} and {EB magnitude} are also commensurable (in length) with {CF magnitude} and {FD magnitude}, respectively [Prop. 10.11].
+And {AE magnitude} and {EB magnitude} (are) medial.
+Thus, {CF magnitude} and {FD magnitude} (are) also medial [Prop. 10.23].
+And since as {AE magnitude} is to {EB magnitude}, (so) {CF magnitude} (is) to {FD magnitude}, and {AE magnitude} and {EB magnitude} are commensurable in square only, {CF magnitude} and {FD magnitude} are [thus] also commensurable in square only [Prop. 10.11].
+And they were also shown (to be) medial.
+Thus, {CD magnitude} is a bimedial (straight-line).
+So, I say that it is also the same in order as {AB magnitude}.
+
+For since as {AE magnitude} is to {EB magnitude}, (so) {CF magnitude} (is) to {FD magnitude}, thus also as the (square) on {AE magnitude} (is) to the (rectangle contained) by {AEB magnitude}, so the (square) on {CF magnitude} (is) to the (rectangle contained) by {CFD magnitude} [Prop. 10.21 lem.].
+Alternately, as the (square) on {AE magnitude} (is) to the (square) on {CF magnitude}, so the (rectangle contained) by {AEB magnitude} (is) to the (rectangle contained) by {CFD magnitude} [Prop. 5.16].
+And the (square) on {AE magnitude} (is) commensurable with the (square) on {CF magnitude}.
+Thus, the (rectangle contained) by {AEB magnitude} (is) also commensurable with the (rectangle contained) by {CFD magnitude} [Prop. 10.11].
+Therefore, either the (rectangle contained) by {AEB magnitude} is rational, and the (rectangle contained) by {CFD magnitude} is rational [and, on account of this, ({AE magnitude} and {CD magnitude}) are first bimedial (straight-lines)], or (the rectangle contained by {AEB magnitude} is) medial, and (the rectangle contained by {CFD magnitude} is) medial, and ({AB magnitude} and {CD magnitude}) are each second (bimedial straight-lines) [Props. 10.23, 10.37, 10.38].
+
+And, on account of this, {CD magnitude} will be the same in order as {AB magnitude}.
+(Which is) the very thing it was required to show.

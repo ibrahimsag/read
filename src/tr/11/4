@@ -1,0 +1,37 @@
+If a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
+
+For let some straight-line {EF line} have (been) set up at right-angles to two straight-lines, {AB line} and {CD line}, cutting one another at point {E point}, at {E point}.
+I say that {EF line} is also at right-angles to the plane (passing) through {AB line} and {CD line}.
+
+For let {AE line}, {EB line}, {CE line} and {ED line} have been cut off from (the two straight-lines so as to be) equal to one another.
+And let {GEH line} have been drawn, at random, through {E point} (in the plane passing through {AB line} and {CD line}).
+And let {AD line} and {CB line} have been joined.
+And, furthermore, let {FA line}, {FG line}, {FD line}, {FC line}, {FH line}, and {FB line} have been joined from the random (point) {F point} (on {EF line}).
+
+For since the two (straight-lines) {AE line} and {ED line} are equal to the two (straight-lines) {CE line} and {EB line}, and they enclose equal angles [Prop. 1.15], the base {AD line} is thus equal to the base {CB line}, and triangle {AED polygon} will be equal to triangle {CEB polygon} [Prop. 1.4].
+Hence, the angle {DAE angle} [is] equal to the angle {EBC angle}.
+And the angle {AEG angle} (is) also equal to the angle {BEH angle} [Prop. 1.15].
+So {AGE polygon} and {BEH polygon} are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), those by the equal angles, {AE line} and {EB line}.
+Thus, they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
+Thus, {GE line} (is) equal to {EH line}, and {AG line} to {BH line}
+And since {AE line} is equal to {EB line}, and {FE line} is common and at right-angles, the base {FA line} is thus equal to the base {FB line} [Prop. 1.4].
+So, for the same (reasons), {FC line} is also equal to {FD line}.
+And since {AD line} is equal to {CB line}, and {FA line} is also equal to {FB line}, the two (straight-lines) {FA line} and {AD line} are equal to the two (straight-lines) {FB line} and {BC line}, respectively.
+And the base {FD line} was shown (to be) equal to the base {FC line}.
+Thus, the angle {FAD angle} is also equal to the angle {FBC angle} [Prop. 1.8].
+And, again, since {AG line} was shown (to be) equal to {BH line}, but {FA line} (is) also equal to {FB line}, the two (straight-lines) {FA line} and {AG line} are equal to the two (straight-lines) {FB line} and {BH line} (respectively).
+And the angle {FAG angle} was shown (to be) equal to the angle {FBH angle}.
+Thus, the base {FG line} is equal to the base {FH line} [Prop. 1.4].
+And, again, since {GE line} was shown (to be) equal to {EH line}, and {EF line} (is) common, the two (straight-lines) {GE line} and {EF line} are equal to the two (straight-lines) {HE line} and {EF line} (respectively).
+And the base {FG line} (is) equal to the base {FH line}.
+Thus, the angle {GEF angle} is equal to the angle {HEF angle} [Prop. 1.8].
+Each of the angles {GEF angle} and {HEF angle} (are) thus right-angles [Def. 1.10].
+Thus, {FE line} is at right-angles to {GH line}, which was drawn at random through {E point} (in the reference plane passing though {AB line} and {CD line}).
+So, similarly, we can show that {FE line} will make right-angles with all straight-lines joined to it which are in the reference plane.
+And a straight-line is at right-angles to a plane when it makes right-angles with all straight-lines joined to it which are in the plane [Def. 11.3].
+Thus, {FE line} is at right-angles to the reference plane.
+And the reference plane is that (passing) through the straight-lines {AB line} and {CD line}.
+Thus, {FE line} is at right-angles to the plane (passing) through {AB line} and {CD line}.
+
+Thus, if a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
+(Which is) the very thing it was required to show.

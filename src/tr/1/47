@@ -1,0 +1,29 @@
+Dik açılı bir üçgende, dik açıyı karşılayan kenarın karesi, dik açıyı çevreleyen kenarların karelerinin toplamına eşittir.
+
+{ABC polygon} dik açılı bir üçgen olsun ve dik açı {BAC angle} olsun.
+{BC line} üzerindeki karenin, {BA line} ve {AC line} üzerindeki karelerin toplamına eşit olduğunu söylüyorum.
+
+Çünkü {BC line} üzerinde kare {BDEC polygon} çizilsin ve {AB line} ve {AC line} üzerinde (sırasıyla) {GB polygon} ve {HC polygon} (kareler) çizilsin [Prop. 1.46].
+Ve {AL line}, {A point} noktasından geçerek {BD line} veya {CE line} ile paralel çizilsin [Prop. 1.31].
+Ve {AD line} ve {FC line} birleştirilsin.
+Ve {BAC angle} ve {BAG angle} açıları her ikisi de dik açı olduğundan, aynı tarafta olmayan iki düz çizgi {AC line} ve {AG line}, aynı noktada {A point} bazı düz çizgiler {BA line} üzerinde bitişik açıların toplamını iki dik açıya eşit yapar.
+Dolayısıyla, {CA line} {AG line}'a doğrudan bağlıdır [Prop. 1.14].
+Yani, aynı (nedenlerle), {BA line} da {AH line}'a doğrudan bağlıdır.
+Ve {DBC angle} açısı {FBA angle} açısına eşittir, çünkü her ikisi de dik açıdır, {ABC angle} her ikisine de eklenir.
+Dolayısıyla, tüm {DBA angle} açısı tüm {FBC angle} açısına eşittir.
+Ve {DB line} {BC line}'a eşit olduğundan ve {FB line} {BA line}'a eşit olduğundan, iki (düz çizgi) {DB line}, {BA line} iki (düz çizgi) {CB line}, {BF line}'a sırasıyla eşittir.
+Ve {DBA angle} açısı {FBC angle} açısına eşittir.
+Dolayısıyla, taban {AD line} taban {FC line}'a eşittir ve üçgen {ABD polygon} üçgen {FBC polygon}'a eşittir [Prop. 1.4].
+Ve paralelkenar {BL polygon} {ABD polygon} üçgeninin iki katıdır (alan).
+Çünkü aynı tabana sahipler, {BD line}, ve aynı paraleller arasındalar, {BD line} ve {AL line} [Prop. 1.41].
+Ve kare {GB polygon} {FBC polygon} üçgeninin iki katıdır (alan).
+Çünkü yine aynı tabana sahipler, {FB line}, ve aynı paraleller arasındalar, {FB line} ve {GC line} [Prop. 1.41].
+[Ve eşit şeylerin çiftleri birbirine eşittir.]
+Dolayısıyla, paralelkenar {BL polygon} aynı zamanda kare {GB polygon}'a da eşittir.
+Yani, benzer şekilde, {AE line} ve {BK line} birleştirildiğinde, paralelkenar {CL polygon}'un kare {HC polygon}'a eşit olduğu gösterilebilir.
+Dolayısıyla, tüm kare {BDEC polygon}, iki karenin {GB polygon} ve {HC polygon} toplamına eşittir.
+Ve kare {BDEC polygon} {BC line} üzerinde çizilmiştir ve {GB polygon} ve {HC polygon} (kareler) {BA line} ve {AC line} üzerinde (sırasıyla) çizilmiştir.
+Dolayısıyla, {BC line} üzerindeki kare, {BA line} ve {AC line} üzerindeki karelerin toplamına eşittir.
+
+Dolayısıyla, dik açılı bir üçgende, dik açıyı karşılayan kenarın karesi, dik açıyı çevreleyen kenarların karelerinin toplamına eşittir.
+(Gösterilmesi gereken tam da budur.)

@@ -1,0 +1,44 @@
+When two medial (areas which are) incommensurable with one another are added together, the remaining two irrational (straight-lines) arise (as the square-roots of the total area)---either a second bimedial, or the square-root of (the sum of) two medial (areas).
+
+For let the two medial (areas) {AB polygon} and {CD polygon}, (which are) incommensurable with one another, have been added together.
+I say that the square-root of area {AD polygon} is either a second bimedial, or the square-root of (the sum of) two medial (areas).
+
+For {AB polygon} is either greater than or less than {CD polygon}.
+By chance, let {AB polygon}, first of all, be greater than {CD polygon}.
+And let the rational (straight-line) {EF line} be laid down.
+And let {EG polygon}, equal to {AB polygon}, have been applied to {EF line}, producing {EH line} as breadth, and {HI polygon}, equal to {CD polygon}, producing {HK line} as breadth.
+And since {AB polygon} and {CD polygon} are each medial, {EG polygon} and {HI polygon} (are) thus also each medial.
+And they are applied to the rational straight-line {FE line}, producing {EH line} and {HK line} (respectively) as breadth.
+Thus, {EH line} and {HK line} are each rational (straight-lines which are) incommensurable in length with {EF line} [Prop. 10.22].
+And since {AB polygon} is incommensurable with {CD polygon}, and {AB polygon} is equal to {EG polygon}, and {CD polygon} to {HI polygon}, {EG polygon} is thus also incommensurable with {HI polygon}.
+And as {EG polygon} (is) to {HI polygon}, so {EH line} is to {HK line} [Prop. 6.1].
+EHis thus incommensurable in length with {HK line} [Prop. 10.11].
+Thus, {EH line} and {HK line} are rational (straight-lines which are) commensurable in square only.
+{EK line} is thus a binomial (straight-line) [Prop. 10.36].
+And the square on {EH line} is greater than (the square on) {HK line} either by the (square) on (some straight-line) commensurable (in length) with ({EH line}), or by the (square) on (some straight-line) incommensurable (in length with {EH line}).
+Let it, first of all, be greater by the square on (some straight-line) commensurable in length with ({EH line}).
+And neither of {EH line} or {HK line} is commensurable in length with the (previously) laid down rational (straight-line) {EF line}.
+Thus, {EK line} is a third binomial (straight-line) [Def. 10.7].
+And {EF line} (is) rational.
+And if an area is contained by a rational (straight-line) and a third binomial (straight-line) then the square-root of the area is a second bimedial (straight-line) [Prop. 10.56].
+Thus, the square-root of {EI polygon}---that is to say, of {AD polygon}---is a second bimedial.
+And so, let the square on {EH line} be greater than (the square) on {HK line} by the (square) on (some straight-line) incommensurable in length with ({EH line}).
+And {EH line} and {HK line} are each incommensurable in length with {EF line}.
+Thus, {EK line} is a sixth binomial (straight-line) [Def. 10.10].
+And if an area is contained by a rational (straight-line) and a sixth binomial (straight-line) then the square-root of the area is the square-root of (the sum of) two medial (areas) [Prop. 10.59].
+Hence, the square-root of area {AD polygon} is also the square-root of (the sum of) two medial (areas).
+
+[So, similarly, we can show that, even if {AB polygon} is less than {CD polygon}, the square-root of area {AD polygon} is either a second bimedial or the square-root of (the sum of) two medial (areas).]
+
+Thus, when two medial (areas which are) incommensurable with one another are added together, the remaining two irrational (straight-lines) arise (as the square-roots of the total area)---either a second bimedial, or the square-root of (the sum of) two medial (areas).
+
+A binomial (straight-line), and the (other) irrational (straight-lines) after it, are neither the same as a medial (straight-line) nor (the same) as one another.
+For the (square) on a medial (straight-line), applied to a rational (straight-line), produces as breadth a rational (straight-line which is) also incommensurable in length with (the straight-line) to which it is applied [Prop. 10.22].
+And the (square) on a binomial (straight-line), applied to a rational (straight-line), produces as breadth a first binomial [Prop. 10.60].
+And the (square) on a first bimedial (straight-line), applied to a rational (straight-line), produces as breadth a second binomial [Prop. 10.61].
+And the (square) on a second bimedial (straight-line), applied to a rational (straight-line), produces as breadth a third binomial [Prop. 10.62].
+And the (square) on a major (straight-line), applied to a rational (straight-line), produces as breadth a fourth binomial [Prop. 10.63].
+And the (square) on the square-root of a rational plus a medial (area), applied to a rational (straight-line), produces as breadth a fifth binomial [Prop. 10.64].
+And the (square) on the square-root of (the sum of) two medial (areas), applied to a rational (straight-line), produces as breadth a sixth binomial [Prop. 10.65].
+And the aforementioned breadths differ from the first (breadth), and from one another---from the first, because it is rational---and from one another, because they are not the same in order.
+Hence, the (previously mentioned) irrational (straight-lines) themselves also differ from one another.

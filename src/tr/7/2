@@ -1,0 +1,44 @@
+To find the greatest common measure of two given numbers (which are) not prime to one another.
+
+Let {AB magnitude} and {CD magnitude} be the two given numbers (which are) not prime to one another.
+So it is required to find the greatest common measure of {AB magnitude} and {CD magnitude}.
+
+In fact, if {CD magnitude} measures {AB magnitude}, {CD magnitude} is thus a common measure of {CD magnitude} and {AB magnitude}, (since {CD magnitude}) also measures itself.
+And (it is) manifest that (it is) also the greatest (common measure).
+For nothing greater than {CD magnitude} can measure {CD magnitude}.
+
+But if {CD magnitude} does not measure {AB magnitude} then some number will remain from {AB magnitude} and {CD magnitude}, the lesser being continually subtracted, in turn, from the greater, which will measure the (number) preceding it.
+For a unit will not be left.
+But if not, {AB magnitude} and {CD magnitude} will be prime to one another [Prop. 7.1].
+The very opposite thing was assumed.
+Thus, some number will remain which will measure the (number) preceding it.
+And let {CD magnitude} measuring {BE magnitude} leave {EA magnitude} less than itself, and let {EA magnitude} measuring {DF magnitude} leave {FC magnitude} less than itself, and let {CF magnitude} measure {AE magnitude}.
+Therefore, since {CF magnitude} measures {AE magnitude}, and {AE magnitude} measures {DF magnitude}, {CF magnitude} will thus also measure {DF magnitude}.
+And it also measures itself.
+Thus, it will also measure the whole of {CD magnitude}.
+And {CD magnitude} measures {BE magnitude}.
+Thus, {CF magnitude} also measures {BE magnitude}.
+And it also measures {EA magnitude}.
+Thus, it will also measure the whole of {BA magnitude}.
+And it also measures {CD magnitude}.
+Thus, {CF magnitude} measures (both) {AB magnitude} and {CD magnitude}.
+Thus, {CF magnitude} is a common measure of {AB magnitude} and {CD magnitude}.
+So I say that (it is) also the greatest (common measure).
+For if {CF magnitude} is not the greatest common measure of {AB magnitude} and {CD magnitude} then some number which is greater than {CF magnitude} will measure the numbers {AB magnitude} and {CD magnitude}.
+Let it (so) measure ({AB magnitude} and {CD magnitude}), and let it be {G magnitude}.
+And since {G magnitude} measures {CD magnitude}, and {CD magnitude} measures {BE magnitude}, {G magnitude} thus also measures {BE magnitude}.
+And it also measures the whole of {BA magnitude}.
+Thus, it will also measure the remainder {AE magnitude}.
+And {AE magnitude} measures {DF magnitude}.
+Thus, {G magnitude} will also measure {DF magnitude}.
+And it also measures the whole of {DC magnitude}.
+Thus, it will also measure the remainder {CF magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some number which is greater than {CF magnitude} cannot measure the numbers {AB magnitude} and {CD magnitude}.
+Thus, {CF magnitude} is the greatest common measure of {AB magnitude} and {CD magnitude}.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+So it is manifest, from this, that if a number measures two numbers then it will also measure their greatest common measure.
+(Which is) the very thing it was required to show.

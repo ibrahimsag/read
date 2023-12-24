@@ -1,0 +1,20 @@
+Of all the parallelograms applied to the same straight-line, and falling short by parallelogrammic figures similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line) which (is) similar to (that parallelogram) by which it falls short.
+
+Let {AB line} be a straight-line, and let it have been cut in half at (point) {C point} [Prop. 1.10].
+And let the parallelogram {AD polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {DB polygon} (which is) applied to half of {AB line}---that is to say, {CB line}.
+I say that of all the parallelograms applied to {AB line}, and falling short by [parallelogrammic] figures similar, and similarly laid out, to {DB polygon}, the greatest is {AD polygon}.
+For let the parallelogram {AF polygon} have been applied to the straight-line {AB line}, falling short by the parallelogrammic figure {FB polygon} (which is) similar, and similarly laid out, to {DB polygon}.
+I say that {AD polygon} is greater than {AF polygon}.
+
+For since parallelogram {DB polygon} is similar to parallelogram {FB polygon}, they are about the same diagonal [Prop. 6.26].
+Let their (common) diagonal {DB line} have been drawn, and let the (rest of the) figure have been described.
+
+Therefore, since (complement) {CF polygon} is equal to (complement) {FE polygon} [Prop. 1.43], and (parallelogram) {FB polygon} is common, the whole (parallelogram) {CH polygon} is thus equal to the whole (parallelogram) {KE polygon}.
+But, (parallelogram) {CH polygon} is equal to {CG polygon}, since {AC line} (is) also (equal) to {CB line} [Prop. 6.1].
+Thus, (parallelogram) {GC polygon} is also equal to {EK polygon}.
+Let (parallelogram) {CF polygon} have been added to both.
+Thus, the whole (parallelogram) {AF polygon} is equal to the gnomon {LMN given}.
+Hence, parallelogram {DB polygon}---that is to say, {AD polygon}---is greater than parallelogram {AF polygon}.
+
+Thus, for all parallelograms applied to the same straight-line, and falling short by a parallelogrammic figure similar, and similarly laid out, to the (parallelogram) described on half (the straight-line), the greatest is the [parallelogram] applied to half (the straight-line).
+(Which is) the very thing it was required to show.

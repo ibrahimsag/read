@@ -1,0 +1,24 @@
+To find two rational (straight-lines which are) commensurable in square only, such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line which is) commensurable in length with the greater.
+
+For let some rational (straight-line) {AB line} be laid down, and two square numbers, {CD magnitude} and {DE magnitude}, such that the difference between them, {CE magnitude}, is not square [Prop. 10.28 lem. I].
+And let the semi-circle {AFB arc O} have been drawn on {AB line}.
+And let it be contrived that as {DC magnitude} (is) to {CE magnitude}, so the square on {BA line} (is) to the square on {AF line} [Prop. 10.6 corr.].
+And let {FB line} have been joined.
+
+[Therefore,] since as the (square) on {BA line} is to the (square) on {AF line}, so {DC magnitude} (is) to {CE magnitude}, the (square) on {BA line} thus has to the (square) on {AF line} the ratio which the number {DC magnitude} (has) to the number {CE magnitude}.
+Thus, the (square) on {BA line} is commensurable with the (square) on {AF line} [Prop. 10.6].
+And the (square) on {AB line} (is) rational [Def. 10.4].
+Thus, the (square) on {AF line} (is) also rational.
+Thus, {AF line} (is) also rational.
+And since {DC magnitude} does not have to {CE magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {BA line} thus does not have to the (square) on {AF line} the ratio which (some) square number has to (some) square number either.
+Thus, {AB line} is incommensurable in length with {AF line} [Prop. 10.9].
+Thus, the rational (straight-lines) {BA line} and {AF line} are commensurable in square only.
+And since as {DC magnitude} [is] to {CE magnitude}, so the (square) on {BA line} (is) to the (square) on {AF line}, thus, via conversion, as {CD magnitude} (is) to {DE magnitude}, so the (square) on {AB line} (is) to the (square) on {BF line} [Props. 5.19 corr., 3.31, 1.47].
+And {CD magnitude} has to {DE magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {AB line} also has to the (square) on {BF line} the ratio which (some) square number has to (some) square number.
+{AB line} is thus commensurable in length with {BF line} [Prop. 10.9].
+And the (square) on {AB line} is equal to the (sum of the squares) on {AF line} and {FB line} [Prop. 1.47].
+Thus, the square on {AB line} is greater than (the square on) {AF line} by (the square on) {BF line}, (which is) commensurable (in length) with ({AB line}).
+
+Thus, two rational (straight-lines), {BA line} and {AF line}, commensurable in square only, have been found such that the square on the greater, {AB line}, is larger than (the square on) the lesser, {AF line}, by the (square) on {BF line}, (which is) commensurable in length with ({AB line}).
+(Which is) the very thing it was required to show.

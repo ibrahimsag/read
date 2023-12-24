@@ -1,0 +1,51 @@
+Any pyramid having a triangular base is divided into two pyramids having triangular bases (which are) equal, similar to one another, and [similar] to the whole, and into two equal prisms.
+And the (sum of the) two prisms is greater than half of the whole pyramid.
+
+Let there be a pyramid whose base is triangle {ABC polygon}, and (whose) apex (is) point {D point}.
+I say that pyramid {ABCD given} is divided into two pyramids having triangular bases (which are) equal to one another, and similar to the whole, and into two equal prisms.
+And the (sum of the) two prisms is greater than half of the whole pyramid.
+
+For let {AB line}, {BC line}, {CA line}, {AD line}, {DB line}, and {DC line} have been cut in half at points {E point}, {F point}, {G point}, {H point}, {K point}, and {L point} (respectively).
+And let {HE line}, {EG line}, {GH line}, {HK line}, {KL line}, {LH line}, {KF line}, and {FG line} have been joined.
+Since {AE line} is equal to {EB line}, and {AH line} to {DH line}, {EH line} is thus parallel to {DB line} [Prop. 6.2].
+So, for the same (reasons), {HK line} is also parallel to {AB line}.
+Thus, {HEBK polygon} is a parallelogram.
+Thus, {HK line} is equal to {EB line} [Prop. 1.34].
+But, {EB line} is equal to {EA line}.
+Thus, {AE line} is also equal to {HK line}.
+And {AH line} is also equal to {HD line}.
+So the two (straight-lines) {EA line} and {AH line} are equal to the two (straight-lines) {KH line} and {HD line}, respectively.
+And angle {EAH angle} (is) equal to angle {KHD angle} [Prop. 1.29].
+Thus, base {EH line} is equal to base {KD line} [Prop. 1.4].
+Thus, triangle {AEH polygon} is equal and similar to triangle {HKD polygon} [Prop. 1.4].
+So, for the same (reasons), triangle {AHG polygon} is also equal and similar to triangle {HLD polygon}.
+And since {EH line} and {HG line} are two straight-lines joining one another (which are respectively) parallel to two straight-lines joining one another, {KD line} and {DL line}, not being in the same plane, they will contain equal angles [Prop. 11.10].
+Thus, angle {EHG angle} is equal to angle {KDL angle}.
+And since the two straight-lines {EH line} and {HG line} are equal to the two straight-lines {KD line} and {DL line}, respectively, and angle {EHG angle} is equal to angle {KDL angle}, base {EG line} [is] thus equal to base {KL line} [Prop. 1.4].
+Thus, triangle {EHG polygon} is equal and similar to triangle {KDL polygon}.
+So, for the same (reasons), triangle {AEG polygon} is also equal and similar to triangle {HKL polygon}.
+Thus, the pyramid whose base is triangle {AEG polygon}, and apex the point {H point}, is equal and similar to the pyramid whose base is triangle {HKL polygon}, and apex the point {D point} [Def. 11.10].
+And since {HK line} has been drawn parallel to one of the sides, {AB line}, of triangle {ADB polygon}, triangle {ADB polygon} is equiangular to triangle {DHK polygon} [Prop. 1.29], and they have proportional sides.
+Thus, triangle {ADB polygon} is similar to triangle {DHK polygon} [Def. 6.1].
+So, for the same (reasons), triangle {DBC polygon} is also similar to triangle {DKL polygon}, and {ADC polygon} to {DLH polygon}.
+And since two straight-lines joining one another, {BA line} and {AC line}, are parallel to two straight-lines joining one another, {KH line} and {HL line}, not in the same plane, they will contain equal angles [Prop. 11.10].
+Thus, angle {BAC angle} is equal to (angle) {KHL angle}.
+And as {BA line} is to {AC line}, so {KH line} (is) to {HL line}.
+Thus, triangle {ABC polygon} is similar to triangle {HKL polygon} [Prop. 6.6].
+And, thus, the pyramid whose base is triangle {ABC polygon}, and apex the point {D point}, is similar to the pyramid whose base is triangle {HKL polygon}, and apex the point {D point} [Def. 11.9].
+But, the pyramid whose base [is] triangle {HKL polygon}, and apex the point {D point}, was shown (to be) similar to the pyramid whose base is triangle {AEG polygon}, and apex the point {H point}.
+Thus, each of the pyramids {AEGH given} and {HKLD given} is similar to the whole pyramid {ABCD given}.
+
+And since {BF line} is equal to {FC line}, parallelogram {EBFG polygon} is double triangle {GFC polygon} [Prop. 1.41].
+And since, if two prisms (have) equal heights, and the former has a parallelogram as a base, and the latter a triangle, and the parallelogram (is) double the triangle, then the prisms are equal [Prop. 11.39], the prism contained by the two triangles {BKF polygon} and {EHG polygon}, and the three parallelograms {EBFG polygon}, {EBKH polygon}, and {HKFG polygon}, is thus equal to the prism contained by the two triangles {GFC polygon} and {HKL polygon}, and the three parallelograms {KFCL polygon}, {LCGH polygon}, and {HKFG polygon}.
+And (it is) clear that each of the prisms whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, and whose base (is) triangle {GFC polygon}, and opposite (plane) triangle {HKL polygon}, is greater than each of the pyramids whose bases are triangles {AEG polygon} and {HKL polygon}, and apexes the points {H point} and {D point} (respectively), inasmuch as, if we [also] join the straight-lines {EF line} and {EK line} then the prism whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, is greater than the pyramid whose base (is) triangle {EBF polygon}, and apex the point {K point}.
+But the pyramid whose base (is) triangle {EBF polygon}, and apex the point {K point}, is equal to the pyramid whose base is triangle {AEG polygon}, and apex point {H point}.
+For they are contained by equal and similar planes.
+And, hence, the prism whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, is greater than the pyramid whose base (is) triangle {AEG polygon}, and apex the point {H point}.
+And the prism whose base is parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, (is) equal to the prism whose base (is) triangle {GFC polygon}, and opposite (plane) triangle {HKL polygon}.
+And the pyramid whose base (is) triangle {AEG polygon}, and apex the point {H point}, is equal to the pyramid whose base (is) triangle {HKL polygon}, and apex the point {D point}.
+Thus, the (sum of the) aforementioned two prisms is greater than the (sum of the) aforementioned two pyramids, whose bases (are) triangles {AEG polygon} and {HKL polygon}, and apexes the points {H point} and {D point} (respectively).
+
+Thus, the whole pyramid, whose base (is) triangle {ABC polygon}, and apex the point {D point}, has been divided into two pyramids (which are) equal to one another [and similar to the whole], and into two equal prisms.
+And the (sum of the) two prisms is greater than half of the whole pyramid.
+(Which is) the very thing it was required to show.

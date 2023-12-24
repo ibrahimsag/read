@@ -1,0 +1,53 @@
+Eğer iki üçgenin iki açısı sırasıyla iki açıya eşitse ve bir kenarı bir kenara eşitse --- aslında, eşit açılar tarafından veya eşit açılardan birini karşılayan kenar --- o zaman (üçgenler) ayrıca kalan kenarları [karşılık gelen] kalan kenarlara eşit ve kalan açıyı kalan açıya eşit olacaktır.
+
+{ABC polygon} ve {DEF polygon} iki üçgen olsun ve iki açıları {ABC angle} ve {BCA angle} sırasıyla iki açıya {DEF angle} ve {EFD angle} eşit olsun.
+(Yani) {ABC angle} {DEF angle}'e ve {BCA angle} {EFD angle}'e eşit.
+Ve ayrıca bir kenarları bir kenara eşit olsun.
+Öncelikle, eşit açılar tarafından.
+(Yani) {BC line} {EF line}'a eşit.
+Kalan kenarların karşılık gelen kalan kenarlara eşit olacağını söylüyorum.
+(Yani) {AB line} {DE line}'a ve {AC line} {DF line}'a eşit.
+Ve kalan açı kalan açıya eşit olacak.
+(Yani) {BAC angle} {EDF angle}'a eşit.
+
+Çünkü eğer {AB line} {DE line}'dan eşit olmayan bir uzunluğa sahipse, ikisinden biri daha büyük olacaktır.
+{AB line} daha büyük olsun ve {BG line} {DE line}'a eşit yapılsın [Prop. 1.3], ve {GC line} birleştirilmiş olsun.
+
+Bu nedenle, {BG line} {DE line}'a eşit olduğundan ve {BC line} {EF line}'a eşit olduğundan, iki (düz çizgi) {GB line}, {BC line} sırasıyla iki (düz çizgi) {DE line}, {EF line}'a eşittir.
+Ve {GBC angle} açısı {DEF angle}'a eşittir.
+Böylece, taban {GC line} taban {DF line}'a eşit olacak ve üçgen {GBC polygon} üçgen {DEF polygon}'a eşit olacak ve eşit kenarlar tarafından sınırlanan kalan açılar (karşılık gelen) kalan açılara eşit olacak [Prop. 1.4].
+Böylece, {GCB angle} {DFE angle}'a eşittir.
+Ama, {DFE angle}'ın {BCA angle}'a eşit olduğu varsayılmıştı.
+Böylece, {BCG angle} da {BCA angle}'a eşittir, daha küçük olan daha büyük olana eşittir.
+Bu olanaksız bir şeydir.
+Böylece, {AB line} {DE line}'dan eşit olmayan bir uzunluğa sahip değildir.
+Böylece, (o) eşittir.
+Ve {BC line} da {EF line}'a eşittir.
+Yani iki (düz çizgi) {AB line}, {BC line} sırasıyla iki (düz çizgi) {DE line}, {EF line}'a eşittir.
+Ve {ABC angle} açısı {DEF angle}'a eşittir.
+Böylece, taban {AC line} taban {DF line}'a eşit olacak ve kalan açı {BAC angle} kalan açı {EDF angle}'a eşit olacak [Prop. 1.4].
+
+Ama, yine de, eşit açıları karşılayan kenarlar eşit olsun: örneğin, {AB line} {DE line}'a eşit olsun.
+Yine, kalan kenarların kalan kenarlara eşit olacağını söylüyorum.
+(Yani) {AC line} {DF line}'a ve {BC line} {EF line}'a eşit.
+Ayrıca, kalan açı {BAC angle} kalan açı {EDF angle}'a eşittir.
+
+Çünkü eğer {BC line} {EF line}'dan eşit olmayan bir uzunluğa sahipse, ikisinden biri daha büyük olacaktır.
+Mümkünse, {BC line} daha büyük olsun.
+Ve {BH line} {EF line}'a eşit yapılsın [Prop. 1.3], ve {AH line} birleştirilmiş olsun.
+Ve {BH line} {EF line}'a eşit olduğundan ve {AB line} {DE line}'a eşit olduğundan, iki (düz çizgi) {AB line}, {BH line} sırasıyla iki (düz çizgi) {DE line}, {EF line}'a eşittir.
+Ve onlar eşit açıları sınırlarlar.
+Böylece, taban {AH line} taban {DF line}'a eşittir ve üçgen {ABH polygon} üçgen {DEF polygon}'a eşittir ve eşit kenarlar tarafından sınırlanan kalan açılar (karşılık gelen) kalan açılara eşit olacak [Prop. 1.4].
+Böylece, açı {BHA angle} {EFD angle}'a eşittir.
+Ama, {EFD angle} {BCA angle}'a eşittir.
+Yani, üçgen {AHC polygon} için dış açı {BHA angle} iç ve karşıt açı {BCA angle}'a eşittir.
+Bu olanaksız bir şeydir [Prop. 1.16].
+Böylece, {BC line} {EF line}'dan eşit olmayan bir uzunluğa sahip değildir.
+Böylece, (o) eşittir.
+Ve {AB line} da {DE line}'a eşittir.
+Yani iki (düz çizgi) {AB line}, {BC line} sırasıyla iki (düz çizgi) {DE line}, {EF line}'a eşittir.
+Ve onlar eşit açıları sınırlarlar.
+Böylece, taban {AC line} taban {DF line}'a eşittir ve üçgen {ABC polygon} üçgen {DEF polygon}'a eşittir ve kalan açı {BAC angle} kalan açı {EDF angle}'a eşittir [Prop. 1.4].
+
+Böylece, eğer iki üçgenin iki açısı sırasıyla iki açıya eşitse ve bir kenarı bir kenara eşitse --- aslında, eşit açılar tarafından veya eşit açılardan birini karşılayan kenar --- o zaman (üçgenler) ayrıca kalan kenarları (karşılık gelen) kalan kenarlara eşit ve kalan açıyı kalan açıya eşit olacaktır.
+(Gösterilmesi gereken şey tam olarak budur.)

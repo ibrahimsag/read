@@ -1,0 +1,37 @@
+The (square) on that (straight-line) which with a rational (area) makes a medial whole, applied to a rational (straight-line), produces a fifth apotome as breadth.
+
+Let {AB magnitude} be that (straight-line) which with a rational (area) makes a medial whole, and {CD line} a rational (straight-line).
+And let {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {CF line} as breadth.
+I say that {CF line} is a fifth apotome.
+
+Let {BG magnitude} be an attachment to {AB magnitude}.
+Thus, the straightlines {AG magnitude} and {GB magnitude} are incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by them rational [Prop. 10.77].
+And let {CH polygon}, equal to the (square) on {AG magnitude}, have been applied to {CD line}, and {KL polygon}, equal to the (square) on {GB magnitude}.
+The whole of {CL polygon} is thus equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}.
+And the sum of the (squares) on {AG magnitude} and {GB magnitude} together is medial.
+Thus, {CL polygon} is medial.
+And it has been applied to the rational (straight-line) {CD line}, producing {CM line} as breadth.
+{CM line} is thus rational, and incommensurable (in length) with {CD line} [Prop. 10.22].
+And since the whole of {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, of which {CE polygon} is equal to the (square) on {AB magnitude}, the remainder {FL polygon} is thus equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [Prop. 2.7].
+Therefore, let {FM line} have been cut in half at {N point}.
+And let {NO line} have been drawn through {N point}, parallel to either of {CD line} or {ML line}.
+Thus, {FO polygon} and {NL polygon} are each equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}.
+And since twice the (rectangle contained) by {AG magnitude} and {GB magnitude} is rational, and [is] equal to {FL polygon}, {FL polygon} is thus rational.
+And it is applied to the rational (straight-line) {EF line}, producing {FM line} as breadth.
+Thus, {FM line} is rational, and commensurable in length with {CD line} [Prop. 10.20].
+And since {CL polygon} is medial, and {FL polygon} rational, {CL polygon} is thus incommensurable with {FL polygon}.
+And as {CL polygon} (is) to {FL polygon}, so {CM line} (is) to {MF line} [Prop. 6.1].
+{CM line} is thus incommensurable in length with {MF line} [Prop. 10.11].
+And both are rational.
+Thus, {CM line} and {MF line} are rational (straight-lines which are) commensurable in square only.
+{CF line} is thus an apotome [Prop. 10.73].
+So, I say that (it is) also a fifth (apotome).
+
+For, similarly (to the previous propositions), we can show that the (rectangle contained) by {CKM line} is equal to the (square) on {NM line}---that is to say, to the fourth part of the (square) on {FM line}.
+And since the (square) on {AG magnitude} is incommensurable with the (square) on {GB magnitude}, and the (square) on {AG magnitude} (is) equal to {CH polygon}, and the (square) on {GB magnitude} to {KL polygon}, {CH polygon} (is) thus incommensurable with {KL polygon}.
+And as {CH polygon} (is) to {KL polygon}, so {CK line} (is) to {KM line} [Prop. 6.1].
+Thus, {CK line} (is) incommensurable in length with {KM line} [Prop. 10.11].
+Therefore, since {CM line} and {MF line} are two unequal straight-lines, and (some area), equal to the fourth part of the (square) on {FM line}, has been applied to {CM line}, falling short by a square figure, and divides it into incommensurable (parts), the square on {CM line} is thus greater than (the square on) {MF line} by the (square) on (some straight-line) incommensurable (in length) with ({CM line}) [Prop. 10.18].
+And the attachment {FM line} is commensurable with the (previously) laid down rational (straight-line) {CD line}.
+Thus, {CF line} is a fifth apotome [Def. 10.15].
+(Which is) the very thing it was required to show.

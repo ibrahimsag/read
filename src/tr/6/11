@@ -1,0 +1,14 @@
+To find a third (straight-line) proportional to two given straight-lines.
+
+Let {BA line} and {AC line} be the [two] given [straight-lines], and let them be laid down encompassing a random angle.
+So it is required to find a third (straight-line) proportional to {BA line} and {AC line}.
+For let ({BA line} and {AC line}) have been produced to points {D point} and {E point} (respectively), and let {BD line} be made equal to {AC line} [Prop. 1.3].
+And let {BC line} have been joined.
+And let {DE line} have been drawn through (point) {D point} parallel to it [Prop. 1.31].
+
+Therefore, since {BC line} has been drawn parallel to one of the sides {DE line} of triangle {ADE polygon}, proportionally, as {AB line} is to {BD line}, so {AC line} (is) to {CE line} [Prop. 6.2].
+And {BD line} (is) equal to {AC line}.
+Thus, as {AB line} is to {AC line}, so {AC line} (is) to {CE line}.
+
+Thus, a third (straight-line), {CE line}, has been found (which is) proportional to the two given straight-lines, {AB line} and {AC line}.
+(Which is) the very thing it was required to do.

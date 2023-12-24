@@ -1,0 +1,37 @@
+If four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two).
+And if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.
+
+Let {AB line}, {CD line}, {E magnitude}, and {F magnitude} be four proportional straight-lines, (such that) as {AB line} (is) to {CD line}, so {E magnitude} (is) to {F magnitude}.
+I say that the rectangle contained by {AB line} and {F magnitude} is equal to the rectangle contained by {CD line} and {E magnitude}.
+
+[For] let {AG line} and {CH line} have been drawn from points {A point} and {C point} at right-angles to the straight-lines {AB line} and {CD line} (respectively) [Prop. 1.11].
+And let {AG line} be made equal to {F magnitude}, and {CH line} to {E magnitude} [Prop. 1.3].
+And let the parallelograms {BG polygon} and {DH polygon} have been completed.
+
+And since as {AB line} is to {CD line}, so {E magnitude} (is) to {F magnitude}, and {E magnitude} (is) equal {CH line}, and {F magnitude} to {AG line}, thus as {AB line} is to {CD line}, so {CH line} (is) to {AG line}. Thus, in the parallelograms {BG polygon} and {DH polygon} the sides about the equal angles are reciprocally proportional.
+And those equiangular parallelograms in which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.14].
+Thus, parallelogram {BG polygon} is equal to parallelogram {DH polygon}.
+And {BG polygon} is the (rectangle contained) by {AB line} and {F magnitude}.
+For {AG line} (is) equal to {F magnitude}.
+And {DH polygon} (is) the (rectangle contained) by {CD line} and {E magnitude}.
+For {E magnitude} (is) equal to {CH line}.
+Thus, the rectangle contained by {AB line} and {F magnitude} is equal to the rectangle contained by {CD line} and {E magnitude}.
+
+And so, let the rectangle contained by {AB line} and {F magnitude} be equal to the rectangle contained by {CD line} and {E magnitude}.
+I say that the four straight-lines will be proportional, (so that) as {AB line} (is) to {CD line}, so {E magnitude} (is) to {F magnitude}.
+
+For, with the same construction, since the (rectangle contained) by {AB line} and {F magnitude} is equal to the (rectangle contained) by {CD line} and {E magnitude}.
+And {BG polygon} is the (rectangle contained) by {AB line} and {F magnitude}.
+For {AG line} is equal to {F magnitude}.
+And {DH polygon} (is) the (rectangle contained) by {CD line} and {E magnitude}.
+For {CH line} (is) equal to {E magnitude}.
+{BG polygon} is thus equal to {DH polygon}.
+And they are equiangular.
+And in equal and equiangular parallelograms the sides about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, as {AB line} is to {CD line}, so {CH line} (is) to {AG line}.
+And {CH line} (is) equal to {E magnitude}, and {AG line} to {F magnitude}.
+Thus, as {AB line} is to {CD line}, so {E magnitude} (is) to {F magnitude}.
+
+Thus, if four straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two).
+And if the rectangle contained by the (two) outermost is equal to the rectangle contained by the middle (two) then the four straight-lines will be proportional.
+(Which is) the very thing it was required to show.

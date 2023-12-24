@@ -1,0 +1,15 @@
+If a cube number makes a(nother) cube number (by) multiplying some (number) then the (number) multiplied will also be cube.
+
+For let the cube number {A magnitude} make the cube (number) {C magnitude} (by) multiplying some number {B magnitude}.
+I say that {B magnitude} is cube.
+
+For let {A magnitude} make {D magnitude} (by) multiplying itself.
+{D magnitude} is thus cube [Prop. 9.3].
+And since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].
+And since {D magnitude} and {C magnitude} are (both) cube, they are similar solid (numbers).
+Thus, two numbers fall (between) {D magnitude} and {C magnitude} in mean proportion [Prop.8.19].
+And as {D magnitude} is to {C magnitude}, so {A magnitude} (is) to {B magnitude}.
+Thus, two numbers also fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].
+And {A magnitude} is cube.
+Thus, {B magnitude} is also cube [Prop. 8.23].
+(Which is) the very thing it was required to show.

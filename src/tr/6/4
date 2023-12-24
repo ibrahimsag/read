@@ -1,0 +1,24 @@
+In equiangular triangles the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.
+
+Let {ABC polygon} and {DCE polygon} be equiangular triangles, having angle {ABC angle} equal to {DCE angle}, and (angle) {BAC angle} to {CDE angle}, and, further, (angle) {ACB angle} to {CED angle}.
+I say that in triangles {ABC polygon} and {DCE polygon} the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.
+
+Let {BC line} be placed straight-on to {CE line}.
+And since angles {ABC angle} and {ACB angle} are less than two right-angles [Prop. 1.17], and {ACB angle} (is) equal to {DEC angle}, thus {ABC angle} and {DEC angle} are less than two right-angles.
+Thus, {BA line} and {ED line}, being produced, will meet [C.N. 5].
+Let them have been produced, and let them meet at (point) {F point}.
+
+And since angle {DCE angle} is equal to {ABC angle}, {BF line} is parallel to {CD line} [Prop. 1.28].
+Again, since (angle) {ACB angle} is equal to {DEC angle}, {AC line} is parallel to {FE line} [Prop. 1.28].
+Thus, {FACD polygon} is a parallelogram.
+Thus, {FA line} is equal to {DC line}, and {AC line} to {FD line} [Prop. 1.34].
+And since {AC line} has been drawn parallel to one (of the sides) {FE line} of triangle {FBE polygon}, thus as {BA line} is to {AF line}, so {BC line} (is) to {CE line} [Prop. 6.2].
+And {AF line} (is) equal to {CD line}.
+Thus, as {BA line} (is) to {CD line}, so {BC line} (is) to {CE line}, and, alternately, as {AB line} (is) to {BC line}, so {DC line} (is) to {CE line} [Prop. 5.16].
+Again, since {CD line} is parallel to {BF line}, thus as {BC line} (is) to {CE line}, so {FD line} (is) to {DE line} [Prop. 6.2].
+And {FD line} (is) equal to {AC line}.
+Thus, as {BC line} is to {CE line}, so {AC line} (is) to {DE line}, and, alternately, as {BC line} (is) to {CA line}, so {CE line} (is) to {ED line} [Prop. 6.2].
+Therefore, since it was shown that as {AB line} (is) to {BC line}, so {DC line} (is) to {CE line}, and as {BC line} (is) to {CA line}, so {CE line} (is) to {ED line}, thus, via equality, as {BA line} (is) to {AC line}, so {CD line} (is) to {DE line} [Prop. 5.22].
+
+Thus, in equiangular triangles the sides about the equal angles are proportional, and those (sides) subtending equal angles correspond.
+(Which is) the very thing it was required to show.

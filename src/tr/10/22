@@ -1,0 +1,32 @@
+The square on a medial (straight-line), being applied to a rational (straight-line), produces as breadth a (straight-line which is) rational, and incommensurable in length with the (straight-line) to which it is applied.
+
+Let {A magnitude} be a medial (straight-line), and {CB line} a rational (straight-line), and let the rectangular area {BD polygon}, equal to the (square) on {A magnitude}, have been applied to {BC line}, producing {CD line} as breadth.
+I say that {CD line} is rational, and incommensurable in length with {CB line}.
+
+For since {A magnitude} is medial, the square on it is equal to a (rectangular) area contained by rational (straight-lines which are) commensurable in square only [Prop. 10.21].
+Let the square on ({A magnitude}) be equal to {GF polygon}.
+And the square on ({A magnitude}) is also equal to {BD polygon}.
+Thus, {BD polygon} is equal to {GF polygon}.
+And ({BD polygon}) is also equiangular with ({GF polygon}).
+And for equal and equiangular parallelograms, the sides about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, proportionally, as {BC line} is to {EG line}, so {EF line} (is) to {CD line}.
+And, also, as the (square) on {BC line} is to the (square) on {EG line}, so the (square) on {EF line} (is) to the (square) on {CD line} [Prop. 6.22].
+And the (square) on {CB line} is commensurable with the (square) on {EG line}.
+For they are each rational.
+Thus, the (square) on {EF line} is also commensurable with the (square) on {CD line} [Prop. 10.11].
+And the (square) on {EF line} is rational.
+Thus, the (square) on {CD line} is also rational [Def. 10.4].
+Thus, {CD line} is rational.
+And since {EF line} is incommensurable in length with {EG line}.
+For they are commensurable in square only.
+And as {EF line} (is) to {EG line}, so the (square) on {EF line} (is) to the (rectangle contained) by {FE line} and {EG line} [see previous lemma].
+The (square) on {EF line} [is] thus incommensurable with the (rectangle contained) by {FE line} and {EG line} [Prop. 10.11].
+But, the (square) on {CD line} is commensurable with the (square) on {EF line}.
+For they are rational in square.
+And the (rectangle contained) by {DC line} and {CB line} is commensurable with the (rectangle contained) by {FE line} and {EG line}.
+For they are (both) equal to the (square) on {A magnitude}.
+Thus, the (square) on {CD line} is also incommensurable with the (rectangle contained) by {DC line} and {CB line} [Prop. 10.13].
+And as the (square) on {CD line} (is) to the (rectangle contained) by {DC line} and {CB line}, so {DC line} is to {CB line} [see previous lemma].
+Thus, {DC line} is incommensurable in length with {CB line} [Prop. 10.11].
+Thus, {CD line} is rational, and incommensurable in length with {CB line}.
+(Which is) the very thing it was required to show.

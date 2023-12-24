@@ -1,0 +1,14 @@
+If two numbers are prime to one another then a number measuring one of them will be prime to the remaining (one).
+
+Let {A magnitude} and {B magnitude} be two numbers (which are) prime to one another, and let some number {C magnitude} measure {A magnitude}.
+I say that {C magnitude} and {B magnitude} are also prime to one another.
+
+For if {C magnitude} and {B magnitude} are not prime to one another then [some] number will measure {C magnitude} and {B magnitude}.
+Let it (so) measure (them), and let it be {D magnitude}.
+Since {D magnitude} measures {C magnitude}, and {C magnitude} measures {A magnitude}, {D magnitude} thus also measures {A magnitude}.
+And ({D magnitude}) also measures {B magnitude}.
+Thus, {D magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.
+The very thing is impossible.
+Thus, some number does not measure the numbers {C magnitude} and {B magnitude}.
+Thus, {C magnitude} and {B magnitude} are prime to one another.
+(Which is) the very thing it was required to show.

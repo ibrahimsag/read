@@ -1,0 +1,21 @@
+Eğer iki üçgenin karşılık gelen iki kenarı eşitse ve eşit kenarlar tarafından sınırlanan açılar eşitse, o zaman aynı zamanda eşit tabanlara sahip olacaklar ve iki üçgen eşit olacak ve eşit kenarlar tarafından sınırlanan kalan açılar da karşılık gelen kalan açılara eşit olacaktır.
+
+{ABC polygon} ve {DEF polygon} iki üçgen olsun ve {AB line} ve {AC line} kenarları sırasıyla {DE line} ve {DF line} kenarlarına eşit olsun.
+(Yani) {AB line} {DE line}'ye ve {AC line} {DF line}'ye eşit olsun.
+Ve {BAC angle} açısı {EDF angle} açısına eşit olsun.
+Taban {BC line}'ın da {EF line}'a eşit olduğunu ve üçgen {ABC polygon}'ın üçgen {DEF polygon}'a eşit olacağını ve eşit kenarlar tarafından sınırlanan kalan açıların da karşılık gelen kalan açılara eşit olacağını söylüyorum.
+(Yani) {ABC angle} {DEF angle}'a ve {ACB angle} {DFE angle}'a eşit olacaktır.
+
+Üçgen {ABC polygon}'ı üçgen {DEF polygon}'a uygulayalım, {A point} noktası {D point} noktasının üzerine ve {AB line} çizgisi {DE line}'ın üzerine gelecek şekilde yerleştirilsin.
+{B point} noktası da {AB line}'ın {DE line}'a eşit olması nedeniyle {E point} noktası ile örtüşecektir.
+Böylece {AB line}'ın {DE line}'la örtüşmesinden dolayı, {AC line} çizgisi de {BAC angle} açısının {EDF angle} açısına eşit olması nedeniyle {DF line}'la örtüşecektir.
+Böylece {C point} noktası da yine {AC line}'ın {DF line}'a eşit olması nedeniyle {F point} noktası ile örtüşecektir.
+Fakat, {B point} noktası kesinlikle {E point} noktası ile örtüşmüştü, böylece taban {BC line} da taban {EF line}'la örtüşecektir.
+Çünkü eğer {B point} {E point}'la ve {C point} {F point}'le örtüşüyor ve taban {BC line} {EF line}'la örtüşmüyorsa, o zaman iki düz çizgi bir alanı sınırlayacaktır.
+Bu imkansız bir şeydir [Prop. 1].
+Böylece, taban {BC line} {EF line}'la örtüşecek ve ona eşit olacaktır [C.N. 4].
+Yani tüm üçgen {ABC polygon} tüm üçgen {DEF polygon}'la örtüşecek ve ona eşit olacaktır [C.N. 4].
+Ve kalan açılar da kalan açılarla örtüşecek ve onlara eşit olacak [C.N. 4]. (Yani) {ABC angle} {DEF angle}'a ve {ACB angle} {DFE angle}'a eşit olacak [C.N. 4].
+
+Böylece, eğer iki üçgenin karşılık gelen iki kenarı eşitse ve eşit kenarlar tarafından sınırlanan açılar eşitse, o zaman aynı zamanda eşit tabanlara sahip olacaklar ve iki üçgen eşit olacak ve eşit kenarlar tarafından sınırlanan kalan açılar da karşılık gelen kalan açılara eşit olacaktır.
+(Gösterilmesi gereken şey tam da budur.)

@@ -1,0 +1,18 @@
+In equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.
+
+Let {ABC circle K} and {DEF circle L} be equal circles, and let {AB line} and {DE line} be equal straight-lines in these circles, cutting off the greater circumferences {ACB arc K} and {DFE arc L}, and the lesser (circumferences) {AGB arcc K} and {DHE arcc L} (respectively).
+I say that the greater circumference {ACB arc K} is equal to the greater circumference {DFE arc L}, and the lesser circumference {AGB arcc K} to (the lesser) {DHE arcc L}.
+
+For let the centers of the circles, {K point} and {L point}, have been found [Prop. 3.1], and let {AK line}, {KB line}, {DL line}, and {LE line} have been joined.
+
+And since ({ABC circle K} and {DEF circle L}) are equal circles, their radii are also equal [Def. 3.1].
+So the two (straight-lines) {AK line}, {KB line} are equal to the two (straight-lines) {DL line}, {LE line} (respectively).
+And the base {AB line} (is) equal to the base {DE line}.
+Thus, angle {AKB angle} is equal to angle {DLE angle} [Prop. 1.8].
+And equal angles stand upon equal circum-ferences, when they are at the centers [Prop. 3.26].
+Thus, circumference {AGB arcc K} (is) equal to {DHE arcc L}.
+And the whole circle {ABC circle K} is also equal to the whole circle {DEF circle L}.
+Thus, the remaining circumference {ACB arc K} is also equal to the remaining circumference {DFE arc L}.
+
+Thus, in equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.
+(Which is) the very thing it was required to show.

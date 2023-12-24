@@ -1,0 +1,18 @@
+In right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
+
+Let {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle.
+I say that the figure (drawn) on {BC line} is equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line}.
+
+Let the perpendicular {AD line} have been drawn [Prop. 1.12].
+
+Therefore, since, in the right-angled triangle {ABC polygon}, the (straight-line) {AD line} has been drawn from the rightangle at {A point} perpendicular to the base {BC line}, the triangles {ABD polygon} and {ADC polygon} about the perpendicular are similar to the whole (triangle) {ABC polygon}, and to one another [Prop. 6.8].
+And since {ABC polygon} is similar to {ABD polygon}, thus as {CB line} is to {BA line}, so {AB line} (is) to {BD line} [Def. 6.1].
+And since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.].
+Thus, as {CB line} (is) to {BD line}, so the figure (drawn) on {CB line} (is) to the similar, and similarly described, (figure) on {BA line}.
+And so, for the same (reasons), as {BC line} (is) to {CD line}, so the figure (drawn) on {BC line} (is) to the (figure) on {CA line}.
+Hence, also, as {BC line} (is) to {BD line} and {DC line}, so the figure (drawn) on {BC line} (is) to the (sum of the) similar, and similarly described, (figures) on {BA line} and {AC line} [Prop. 5.24].
+And {BC line} is equal to {BD line} and {DC line}.
+Thus, the figure (drawn) on {BC line} (is) also equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line} [Prop. 5.9].
+
+Thus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
+(Which is) the very thing it was required to show.

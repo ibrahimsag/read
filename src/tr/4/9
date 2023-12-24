@@ -1,0 +1,21 @@
+To circumscribe a circle about a given square.
+
+Let {ABCD polygon} be the given square.
+So it is required to circumscribe a circle about square {ABCD polygon}.
+
+{AC line} and {BD line} being joined, let them cut one another at {E point}.
+
+And since {DA line} is equal to {AB line}, and {AC line} (is) common, the two (straight-lines) {DA line}, {AC line} are thus equal to the two (straight-lines) {BA line}, {AC line}.
+And the base {DC line} (is) equal to the base {BC line}.
+Thus, angle {DAC angle} is equal to angle {BAC angle} [Prop. 1.8].
+Thus, the angle {DAB angle} has been cut in half by {AC line}.
+So, similarly, we can show that {ABC angle}, {BCD angle}, and {CDA angle} have each been cut in half by the straight-lines {AC line} and {DB line}.
+And since angle {DAB angle} is equal to {ABC angle}, and {EAB angle} is half of {DAB angle}, and {EBA angle} half of {ABC angle}, {EAB angle} is thus also equal to {EBA angle}.
+So that side {EA line} is also equal to {EB line} [Prop. 1.6].
+So, similarly, we can show that each of the [straight-lines] {EA line} and {EB line} are also equal to each of {EC line} and {ED line}.
+Thus, the four (straight-lines) {EA line}, {EB line}, {EC line}, and {ED line} are equal to one another.
+Thus, the circle drawn with center {E point}, and radius one of {A point}, {B point}, {C point}, or {D point}, will also go through the remaining points, and will have been circumscribed about the square {ABCD polygon}.
+Let it have been (so) circumscribed, like {ABCD circle E} (in the figure).
+
+Thus, a circle has been circumscribed about the given square.
+(Which is) the very thing it was required to do.

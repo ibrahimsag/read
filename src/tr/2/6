@@ -1,0 +1,26 @@
+If a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.
+
+For let any straight-line {AB line} have been cut in half at point {C point}, and let any straight-line {BD line} have been added to it straight-on.
+I say that the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the square on {CD line}.
+
+For let the square {CEFD polygon} have been described on {CD line} [Prop. 1.46],
+and let {DE line} have been joined,
+and let {BG line} have been drawn through point {B point}, parallel to either of {EC line} or {DF line} [Prop. 1.31],
+and let {KM line} have been drawn through point {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],
+and finally let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {DM line} [Prop. 1.31].
+
+Therefore, since {AC line} is equal to {CB line}, (rectangle) {AL polygon} is also equal to (rectangle) {CH polygon} [Prop. 1.36].
+But, (rectangle) {CH polygon} is equal to (rectangle) {HF polygon} [Prop. 1.43].
+Thus, (rectangle) {AL polygon} is also equal to (rectangle) {HF polygon}.
+Let (rectangle) {CM polygon} have been added to both.
+Thus, the whole (rectangle) {AM polygon} is equal to the gnomon {NOP given}.
+But, {AM polygon} is the (rectangle contained) by {AD line} and {DB line}.
+For {DM line} is equal to {DB line}.
+Thus, gnomon {NOP given} is also equal to the [rectangle contained] by {AD line} and {DB line}.
+Let {LG polygon}, which is equal to the square on {BC line}, have been added to both.
+Thus, the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the gnomon {NOP given} and the (square) {LG polygon}.
+But the gnomon {NOP given} and the (square) {LG polygon} is (equivalent to) the whole square {CEFD polygon}, which is on {CD line}.
+Thus, the rectangle contained by {AD line} and {DB line}, plus the square on {CB line}, is equal to the square on {CD line}.
+
+Thus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the rectangle contained by the whole (straight-line) with the (straight-line) having being added, and the (straight-line) having being added, plus the square on half (of the original straight-line), is equal to the square on the sum of half (of the original straight-line) and the (straight-line) having been added.
+(Which is) the very thing it was required to show.

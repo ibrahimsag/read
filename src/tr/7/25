@@ -1,0 +1,13 @@
+If two numbers are prime to one another then the number created from (squaring) one of them will be prime to the remaining (number).
+
+Let {A magnitude} and {B magnitude} be two numbers (which are) prime to one another.
+And let {A magnitude} make {C magnitude} (by) multiplying itself.
+I say that {B magnitude} and {C magnitude} are prime to one another.
+
+For let {D magnitude} be made equal to {A magnitude}.
+Since {A magnitude} and {B magnitude} are prime to one another, and {A magnitude} (is) equal to {D magnitude}, {D magnitude} and {B magnitude} are thus also prime to one another.
+Thus, {D magnitude} and {A magnitude} are each prime to {B magnitude}.
+Thus, the (number) created from (multilying) {D magnitude} and {A magnitude} will also be prime to {B magnitude} [Prop. 7.24].
+And {C magnitude} is the number created from (multiplying) {D magnitude} and {A magnitude}.
+Thus, {C magnitude} and {B magnitude} are prime to one another.
+(Which is) the very thing it was required to show.

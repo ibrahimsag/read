@@ -1,0 +1,17 @@
+If a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight-line), and each of the pieces (of the straight-line), is equal to the square on the whole.
+
+For let the straight-line {AB line} have been cut, at random, at point {C point}.
+I say that the rectangle contained by {AB line} and {BC line}, plus the rectangle contained by {BA line} and {AC line}, is equal to the square on {AB line}.
+
+For let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let {CF line} have been drawn through {C point}, parallel to either of {AD line} or {BE line} [Prop. 1.31].
+
+So the (square) {AE polygon} is equal to the (rectangles) {AF polygon} and {CE polygon}.
+And {AE polygon} is the square on {AB line}.
+And {AF polygon} (is) the rectangle contained by the (straight-lines) {BA line} and {AC line}.
+For it is contained by {DA line} and {AC line}, and {AD line} (is) equal to {AB line}.
+And {CE polygon} (is) the (rectangle contained) by {AB line} and {BC line}.
+For {BE line} (is) equal to {AB line}.
+Thus, the (rectangle contained) by {BA line} and {AC line}, plus the (rectangle contained) by {AB line} and {BC line}, is equal to the square on {AB line}.
+
+Thus, if a straight-line is cut at random then the (sum of the) rectangle(s) contained by the whole (straight-line), and each of the pieces (of the straight-line), is equal to the square on the whole.
+(Which is) the very thing it was required to show.

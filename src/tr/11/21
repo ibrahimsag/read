@@ -1,0 +1,17 @@
+Any solid angle is contained by plane angles (whose sum is) less [than] four right-angles.
+
+Let the solid angle {A} be contained by the plane angles {BAC angle}, {CAD angle}, and {DAB angle}.
+I say that (the sum of) {BAC angle}, {CAD angle}, and {DAB angle} is less than four right-angles.
+
+For let the random points {B point}, {C point}, and {D point} have been taken on each of (the straight-lines) {AB line}, {AC line}, and {AD line} (respectively).
+And let {BC line}, {CD line}, and {DB line} have been joined.
+And since the solid angle at {B point} is contained by the three plane angles {CBA angle}, {ABD angle}, and {CBD angle}, (the sum of) any two is greater than the remaining (one) [Prop. 11.20].
+Thus, (the sum of) {CBA angle} and {ABD angle} is greater than {CBD angle}.
+So, for the same (reasons), (the sum of) {BCA angle} and {ACD angle} is also greater than {BCD angle}, and (the sum of) {CDA angle} and {ADB angle} is greater than {CDB angle}.
+Thus, the (sum of the) six angles {CBA angle}, {ABD angle}, {BCA angle}, {ACD angle}, {CDA angle}, and {ADB angle} is greater than the (sum of the) three (angles) {CBD angle}, {BCD angle}, and {CDB angle}.
+But, the (sum of the) three (angles) {CBD angle}, {BDC angle}, and {BCD angle} is equal to two right-angles [Prop. 1.32].
+Thus, the (sum of the) six angles {CBA angle}, {ABD angle}, {BCA angle}, {ACD angle}, {CDA angle}, and {ADB angle} is greater than two right-angles.
+And since the (sum of the) three angles of each of the triangles {ABC polygon}, {ACD polygon}, and {ADB polygon} is equal to two right-angles, the (sum of the) nine angles {CBA angle}, {ACB angle}, {BAC angle}, {ACD angle}, {CDA angle}, {CAD angle}, {ADB angle}, {DBA angle}, and {BAD angle} of the three triangles is equal to six right-angles, of which the (sum of the) six angles {ABC angle}, {BCA angle}, {ACD angle}, {CDA angle}, {ADB angle}, and {DBA angle} is greater than two right-angles.
+Thus, the (sum of the) remaining three [angles] {BAC angle}, {CAD angle}, and {DAB angle}, containing the solid angle, is less than four right-angles.
+
+Thus, any solid angle is contained by plane angles (whose sum is) less [than] four right-angles. (Which is) the very thing it was required to show.

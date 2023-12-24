@@ -1,0 +1,29 @@
+If four straight-lines are proportional then similar, and similarly described, rectilinear figures (drawn) on them will also be proportional.
+And if similar, and similarly described, rectilinear figures (drawn) on them are proportional then the straight-lines themselves will also be proportional.
+
+Let {AB line}, {CD line}, {EF line}, and {GH line} be four proportional straight-lines, (such that) as {AB line} (is) to {CD line}, so {EF line} (is) to {GH line}.
+And let the similar, and similarly laid out, rectilinear figures {KAB polygon} and {LCD polygon} have been described on {AB line} and {CD line} (respectively), and the similar, and similarly laid out, rectilinear figures {MF polygon} and {NH polygon} on {EF line} and {GH line} (respectively).
+I say that as {KAB polygon} is to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.
+
+For let a third (straight-line) {O magnitude} have been taken (which is) proportional to {AB line} and {CD line}, and a third (straight-line) {P magnitude} proportional to {EF line} and {GH line} [Prop. 6.11].
+And since as {AB line} is to {CD line}, so {EF line} (is) to {GH line}, and as {CD line} (is) to {O magnitude}, so {GH line} (is) to {P magnitude}, thus, via equality, as {AB line} is to {O magnitude}, so {EF line} (is) to {P magnitude} [Prop. 5.22].
+But, as {AB line} (is) to {O magnitude}, so [also] {KAB polygon} (is) to {LCD polygon}, and as {EF line} (is) to {P magnitude}, so {MF polygon} (is) to {NH polygon} [Prop. 5.19 corr.].
+And, thus, as {KAB polygon} (is) to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.
+
+And so let {KAB polygon} be to {LCD polygon}, as {MF polygon} (is) to {NH polygon}.
+I say also that as {AB line} is to {CD line}, so {EF line} (is) to {GH line}.
+For if as {AB line} is to {CD line}, so {EF line} (is) not to {GH line}, let {AB line} be to {CD line}, as {EF line} (is) to {QR line} [Prop. 6.12].
+And let the rectilinear figure {SR polygon}, similar, and similarly laid down, to either of {MF polygon} or {NH polygon}, have been described on {QR line} [Props. 6.18, 6.21].
+
+Therefore, since as {AB line} is to {CD line}, so {EF line} (is) to {QR line}, and the similar, and similarly laid out, (rectilinear figures) {KAB polygon} and {LCD polygon} have been described on {AB line} and {CD line} (respectively), and the similar, and similarly laid out, (rectilinear figures) {MF polygon} and {SR polygon} on {EF line} and {QR line} (resespectively), thus as {KAB polygon} is to {LCD polygon}, so {MF polygon} (is) to {SR polygon} (see above).
+And it was also assumed that as {KAB polygon} (is) to {LCD polygon}, so {MF polygon} (is) to {NH polygon}.
+Thus, also, as {MF polygon} (is) to {SR polygon}, so {MF polygon} (is) to {NH polygon} [Prop. 5.11].
+Thus, {MF polygon} has the same ratio to each of {NH polygon} and {SR polygon}.
+Thus, {NH polygon} is equal to {SR polygon} [Prop. 5.9].
+And it is also similar, and similarly laid out, to it.
+Thus, {GH line} (is) equal to {QR line}.
+And since {AB line} is to {CD line}, as {EF line} (is) to {QR line}, and {QR line} (is) equal to {GH line}, thus as {AB line} is to {CD line}, so {EF line} (is) to {GH line}.
+
+Thus, if four straight-lines are proportional, then similar, and similarly described, rectilinear figures (drawn) on them will also be proportional.
+And if similar, and similarly described, rectilinear figures (drawn) on them are proportional then the straight-lines themselves will also be proportional.
+(Which is) the very thing it was required to show.

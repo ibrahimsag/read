@@ -1,0 +1,17 @@
+Herhangi bir üçgen için, (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
+
+Çünkü {ABC polygon} bir üçgen olsun.
+Diyorum ki, {ABC polygon} üçgeni için (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
+(Yani), {BA line} ve {AC line} toplamı {BC line}'dan, {AB line} ve {BC line} toplamı {AC line}'dan ve {BC line} ve {CA line} toplamı {AB line}'dan daha büyüktür.
+
+Çünkü {BA line}, {D point} noktasına kadar çizilmiş olsun (yani {AD line}), ve {AD line}, {CA line}'a eşit yapılmış olsun [Prop. 1.3], ve {DC line} birleştirilmiş olsun.
+
+Dolayısıyla, {DA line} {AC line}'a eşit olduğundan, {ADC angle} açısı da {ACD angle} açısına eşittir [Prop. 1.5].
+Dolayısıyla, {BCD angle} açısı {ADC angle} açısından daha büyüktür.
+Ve {DCB polygon} üçgeni, {BCD angle} açısının {BDC angle} açısından daha büyük olduğu durumda, ve daha büyük açı daha büyük kenarı kapsar [Prop. 1.19], dolayısıyla {DB line} {BC line}'dan daha büyüktür.
+Ama {DA line} {AC line}'a eşittir.
+Dolayısıyla, {BA line} ve {AC line} toplamı {BC line}'dan daha büyüktür.
+Benzer şekilde, {AB line} ve {BC line} toplamının da {CA line}'dan daha büyük olduğunu ve {BC line} ve {CA line} toplamının {AB line}'dan daha büyük olduğunu gösterebiliriz.
+
+Dolayısıyla, herhangi bir üçgen için, (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
+(Gösterilmesi gereken tam da budur.)

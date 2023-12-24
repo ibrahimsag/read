@@ -1,0 +1,17 @@
+To inscribe a triangle, equiangular with a given triangle, in a given circle.
+
+Let {ABC circle O} be the given circle, and {DEF polygon} the given triangle.
+So it is required to inscribe a triangle, equiangular with triangle {DEF polygon}, in circle {ABC circle O}.
+
+Let {GH line} have been drawn touching circle {ABC circle O} at {A point}.
+And let (angle) {HAC angle}, equal to angle {DEF angle}, have been constructed on the straight-line {AH line} at the point {A point} on it, and (angle) {GAB angle}, equal to [angle] {DFE angle}, on the straight-line {AG line} at the point {A point} on it [Prop. 1.23].
+And let {BC line} have been joined.
+
+Therefore, since some straight-line {AH line} touches the circle {ABC circle O}, and the straight-line {AC line} has been drawn across (the circle) from the point of contact {A point}, (angle) {HAC angle} is thus equal to the angle {ABC angle} in the alternate segment of the circle [Prop. 3.32].
+But, {HAC angle} is equal to {DEF angle}.
+Thus, angle {ABC angle} is also equal to {DEF angle}.
+So, for the same (reasons), {ACB angle} is also equal to {DFE angle}.
+Thus, the remaining (angle) {BAC angle} is equal to the remaining (angle) {EDF angle} [Prop. 1.32].
+
+Thus, a triangle, equiangular with the given triangle, has been inscribed in the given circle.
+(Which is) the very thing it was required to do.

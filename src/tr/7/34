@@ -1,0 +1,52 @@
+To find the least number which two given numbers (both) measure.
+
+Let {A magnitude} and {B magnitude} be the two given numbers.
+So it is required to find the least number which they (both) measure.
+
+For {A magnitude} and {B magnitude} are either prime to one another, or not.
+{figure 1} Let them, first of all, be prime to one another.
+And let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.
+Thus, {B magnitude} has also made {C magnitude} (by) multiplying {A magnitude} [Prop. 7.16].
+Thus, {A magnitude} and {B magnitude} (both) measure {C magnitude}.
+So I say that ({C magnitude}) is also the least (number which they both measure).
+For if not, {A magnitude} and {B magnitude} will (both) measure some (other) number which is less than {C magnitude}.
+Let them (both) measure {D magnitude} (which is less than {C magnitude}).
+And as many times as {A magnitude} measures {D magnitude}, so many units let there be in {E magnitude}.
+And as many times as {B magnitude} measures {D magnitude}, so many units let there be in {F magnitude}.
+Thus, {A magnitude} has made {D magnitude} (by) multiplying {E magnitude}, and {B magnitude} has made {D magnitude} (by) multiplying {F magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude} and {E magnitude} is equal to the (number created) from (multiplying) {B magnitude} and {F magnitude}.
+Thus, as {A magnitude} (is) to {B magnitude}, so {F magnitude} (is) to {E magnitude} [Prop. 7.19].
+And {A magnitude} and {B magnitude} are prime (to one another), and prime (numbers) are the least (of those numbers having the same ratio) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser [Prop. 7.20].
+Thus, {B magnitude} measures {E magnitude}, as the following (number measuring) the following.
+And since {A magnitude} has made {C magnitude} and {D magnitude} (by) multiplying {B magnitude} and {E magnitude} (respectively), thus as {B magnitude} is to {E magnitude}, so {C magnitude} (is) to {D magnitude} [Prop. 7.17].
+And {B magnitude} measures {E magnitude}.
+Thus, {C magnitude} also measures {D magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, {A magnitude} and {B magnitude} do not (both) measure some number which is less than {C magnitude}.
+Thus, {C magnitude} is the least (number) which is measured by (both) {A magnitude} and {B magnitude}.
+
+{figure 2} So let {A magnitude} and {B magnitude} be not prime to one another.
+And let the least numbers, {F magnitude} and {E magnitude}, have been taken having the same ratio as {A magnitude} and {B magnitude} (respectively) [Prop. 7.33].
+Thus, the (number created) from (multiplying) {A magnitude} and {E magnitude} is equal to the (number created) from (multiplying) {B magnitude} and {F magnitude} [Prop. 7.19].
+And let {A magnitude} make {C magnitude} (by) multiplying {E magnitude}.
+Thus, {B magnitude} has also made {C magnitude} (by) multiplying {F magnitude}.
+Thus, {A magnitude} and {B magnitude} (both) measure {C magnitude}.
+So I say that ({C magnitude}) is also the least (number which they both measure).
+For if not, {A magnitude} and {B magnitude} will (both) measure some number which is less than {C magnitude}.
+Let them (both) measure {D magnitude} (which is less than {C magnitude}).
+And as many times as {A magnitude} measures {D magnitude}, so many units let there be in {G magnitude}.
+And as many times as {B magnitude} measures {D magnitude}, so many units let there be in {H magnitude}.
+Thus, {A magnitude} has made {D magnitude} (by) multiplying {G magnitude}, and {B magnitude} has made {D magnitude} (by) multiplying {H magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude} and {G magnitude} is equal to the (number created) from (multiplying) {B magnitude} and {H magnitude}.
+Thus, as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.19].
+And as {A magnitude} (is) to {B magnitude}, so {F magnitude} (is) to {E magnitude}.
+Thus, also, as {F magnitude} (is) to {E magnitude}, so {H magnitude} (is) to {G magnitude}.
+And {F magnitude} and {E magnitude} are the least (numbers having the same ratio as {A magnitude} and {B magnitude}), and the least (numbers) measure those (numbers) having the same ratio an equal number of times, the greater (measuring) the greater, and the lesser the lesser [Prop. 7.20].
+Thus, {E magnitude} measures {G magnitude}.
+And since {A magnitude} has made {C magnitude} and {D magnitude} (by) multiplying {E magnitude} and {G magnitude} (respectively), thus as {E magnitude} is to {G magnitude}, so {C magnitude} (is) to {D magnitude} [Prop. 7.17].
+And {E magnitude} measures {G magnitude}.
+Thus, {C magnitude} also measures {D magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, {A magnitude} and {B magnitude} do not (both) measure some (number) which is less than {C magnitude}.
+Thus, {C magnitude} (is) the least (number) which is measured by (both) {A magnitude} and {B magnitude}.
+(Which is) the very thing it was required to show.

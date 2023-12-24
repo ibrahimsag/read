@@ -1,0 +1,15 @@
+If there are two equal height prisms, and one has a parallelogram, and the other a triangle, (as a) base, and the parallelogram is double the triangle, then the prisms will be equal.
+
+Let {ABCDEF given} and {GHKLMN given} be two equal height prisms, and let the former have the parallelogram {AF polygon}, and the latter the triangle {GHK polygon}, as a base.
+And let parallelogram {AF polygon} be twice triangle {GHK polygon}.
+I say that prism {ABCDEF given} is equal to prism {GHKLMN given}.
+
+For let the solids {AO given} and {GP given} have been completed.
+Since parallelogram {AF polygon} is double triangle {GHK polygon}, and parallelogram {HK polygon} is also double triangle {GHK polygon} [Prop. 1.34], parallelogram {AF polygon} is thus equal to parallelogram {HK polygon}.
+And parallelepiped solids which are on equal bases, and (have) the same height, are equal to one another [Prop. 11.31].
+Thus, solid {AO given} is equal to solid {GP given}.
+And prism {ABCDEF given} is half of solid {AO given}, and prism {GHKLMN given} half of solid {GP given} [Prop. 11.28].
+Prism {ABCDEF given} is thus equal to prism {GHKLMN given}.
+
+Thus, if there are two equal height prisms, and one has a parallelogram, and the other a triangle, (as a) base, and the parallelogram is double the triangle, then the prisms are equal.
+(Which is) the very thing it was required to show.

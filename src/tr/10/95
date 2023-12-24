@@ -1,0 +1,29 @@
+If an area is contained by a rational (straight-line) and a fifth apotome then the square-root of the area is that (straight-line) which with a rational (area) makes a medial whole.
+
+For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the fifth apotome {AD line}.
+I say that the square-root of area {AB polygon} is that (straight-line) which with a rational (area) makes a medial whole.
+
+For let {DG line} be an attachment to {AD line}.
+Thus, {AG line} and {DG line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and the attachment {GD line} is commensurable in length the the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {DG line}, by the (square) on (some straight-line) incommensurable (in length) with ({AG line}) [Def. 10.15].
+Thus, if (some area), equal to the fourth part of the (square) on {DG line}, is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) incommensurable (in length) [Prop. 10.18].
+Therefore, let {DG line} have been divided in half at point {E point}, and let (some area), equal to the (square) on {EG line}, have been applied to {AG line}, falling short by a square figure, and let it be the (rectangle contained) by {AF line} and {FG line}.
+Thus, {AF line} is incommensurable in length with {FG line}.
+And since {AG line} is incommensurable in length with {CA line}, and both are rational (straight-lines), {AK polygon} is thus a medial (area) [Prop. 10.21].
+Again, since {DG line} is rational, and commensurable in length with {AC line}, {DK polygon} is a rational (area) [Prop. 10.19].
+
+Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
+And let the square {NO polygon}, equal to {FK polygon}, (and) about the same angle, {LPM angle}, have been subtracted (from {NO polygon}).
+Thus, the squares {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
+Let {PR line} be their (common) diagonal, and let (the rest of) the figure have been drawn.
+So, similarly (to the previous propositions), we can show that {LN line} is the square-root of area {AB polygon}.
+I say that {LN line} is that (straight-line) which with a rational (area) makes a medial whole.
+
+For since {AK polygon} was shown (to be) a medial (area), and is equal to (the sum of) the squares on {LP line} and {PN line}, the sum of the (squares) on {LP line} and {PN line} is thus medial.
+Again, since {DK polygon} is rational, and is equal to twice the (rectangle contained) by {LP line} and {PN line}, (the latter) is also rational.
+And since {AI polygon} is incommensurable with {FK polygon}, the (square) on {LP line} is thus also incommensurable with the (square) on {PN line}.
+Thus, {LP line} and {PN line} are (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by them rational.
+Thus, the remainder {LN line} is the irrational (straight-line) called that which with a rational (area) makes a medial whole [Prop. 10.77].
+And it is the square-root of area {AB polygon}.
+
+Thus, the square-root of area {AB polygon} is that (straight-line) which with a rational (area) makes a medial whole.
+(Which is) the very thing it was required to show.

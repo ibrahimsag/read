@@ -1,0 +1,14 @@
+Eğer bir paralelkenar bir üçgenle aynı tabana sahipse ve aynı paraleller arasında ise, o zaman paralelkenar üçgenin alanının iki katıdır.
+
+Çünkü {ABCD polygon} paralelkenarının {EBC polygon} üçgeniyle aynı {BC line} tabana sahip olduğunu ve {BC line} ve {AE line} aynı paraleller arasında olduğunu varsayalım.
+{ABCD polygon} paralelkenarının {EBC polygon} üçgeninin alanının iki katı olduğunu söylüyorum.
+
+Çünkü {AC line} birleştirilmiş olsun.
+Böylece {ABC polygon} üçgeni {EBC polygon} üçgenine eşittir.
+Çünkü o, ({EBC polygon}) ile aynı {BC line} taban üzerinde ve {BC line} ve {AE line} aynı paraleller arasındadır [Prop. 1.37].
+Ancak, {ABCD polygon} paralelkenar {ABC polygon} üçgeninin alanının iki katıdır.
+Çünkü köşegen {AC line}, öncekini yarıya böler [Prop. 1.34].
+Dolayısıyla {ABCD polygon} paralelkenar da {EBC polygon} üçgeninin alanının iki katıdır.
+
+Böylece, eğer bir paralelkenar bir üçgenle aynı tabana sahipse ve aynı paraleller arasında ise, o zaman paralelkenar üçgenin alanının iki katıdır.
+(Gösterilmesi gereken şey tam olarak budur.)

@@ -1,0 +1,14 @@
+A major (straight-line) can only be divided (into its component terms) at the same point.
+
+Let {AB magnitude} be a major (straight-line) which has been divided at {C point}, so that {AC magnitude} and {CB magnitude} are incommensurable in square, making the sum of the squares on {AC magnitude} and {CB magnitude} rational, and the (rectangle contained) by {AC magnitude} and {CB magnitude} medial [Prop. 10.39].
+I say that {AB magnitude} cannot be (so) divided at another point.
+
+For, if possible, let it also have been divided at {D point}, such that {AD magnitude} and {DB magnitude} are also incommensurable in square, making the sum of the (squares) on {AD magnitude} and {DB magnitude} rational, and the (rectangle contained) by them medial.
+And since, by whatever (amount the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by this (same amount).
+But, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} exceeds (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by a rational (area).
+For (they are) both rational (areas).
+Thus, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also exceeds twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area), (despite both) being medial (areas).
+The very thing is impossible [Prop. 10.26].
+Thus, a major (straight-line) cannot be divided (into its component terms) at different points.
+Thus, it can only be (so) divided at the same (point).
+(Which is) the very thing it was required to show.

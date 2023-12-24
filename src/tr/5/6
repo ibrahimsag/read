@@ -1,0 +1,25 @@
+If two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
+
+For let two magnitudes {AB magnitude} and {CD magnitude} be equal multiples of two magnitudes {E magnitude} and {F magnitude} (respectively).
+And let the (parts) taken away {AG magnitude} and {CH magnitude} be equal multiples of {E magnitude} and {F magnitude} (respectively).
+I say that the remainders {GB magnitude} and {HD magnitude} are also either equal to {E magnitude} and {F magnitude} (respectively), or (are) equal multiples of them.
+
+For let {GB magnitude} be, first of all, equal to {E magnitude}.
+I say that {HD magnitude} is also equal to {F magnitude}.
+
+For let {CK magnitude} be made equal to {F magnitude}.
+Since {AG magnitude} and {CH magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively), and {GB magnitude} (is) equal to {E magnitude}, and {KC magnitude} to {F magnitude}, {AB magnitude} and {KH magnitude} are thus equal multiples of {E magnitude} and {F magnitude} (respectively) [Prop. 5.2].
+And {AB magnitude} and {CD magnitude} are assumed (to be) equal multiples of {E magnitude} and {F magnitude} (respectively).
+Thus, {KH magnitude} and {CD magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively).
+Therefore, {KH magnitude} and {CD magnitude} are each equal multiples of {F magnitude}.
+Thus, {KH magnitude} is equal to {CD magnitude}.
+Let {CH magnitude} have be taken away from both.
+Thus, the remainder {KC magnitude} is equal to the remainder {HD magnitude}.
+But, {F magnitude} is equal to {KC magnitude}.
+Thus, {HD magnitude} is also equal to {F magnitude}.
+Hence, if {GB magnitude} is equal to {E magnitude} then {HD magnitude} will also be equal to {F magnitude}.
+
+So, similarly, we can show that even if {GB magnitude} is a multiple of {E magnitude} then {HD magnitude} will also be the same multiple of {F magnitude}.
+
+Thus, if two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
+(Which is) the very thing it was required to show.

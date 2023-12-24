@@ -1,0 +1,49 @@
+To find the greatest common measure of three given commensurable magnitudes.
+
+Let {A magnitude}, {B magnitude}, {C magnitude} be the three given commensurable magnitudes.
+So it is required to find the greatest common measure of {A magnitude}, {B magnitude}, {C magnitude}.
+
+For let the greatest common measure of the two (magnitudes) {A magnitude} and {B magnitude} have been taken [Prop. 10.3], and let it be {D magnitude}.
+So {D magnitude} either measures, or [does] not [measure], {C magnitude}.
+Let it, first of all, measure ({C magnitude}).
+Therefore, since {D magnitude} measures {C magnitude}, and it also measures {A magnitude} and {B magnitude}, {D magnitude} thus measures {A magnitude}, {B magnitude}, {C magnitude}.
+Thus, {D magnitude} is a common measure of {A magnitude}, {B magnitude}, {C magnitude}.
+And (it is) clear that (it is) also (the) greatest (common measure).
+For no magnitude larger than {D magnitude} measures (both) {A magnitude} and {B magnitude}.
+
+So let {D magnitude} not measure {C magnitude}.
+I say, first, that {C magnitude} and {D magnitude} are commensurable.
+For if {A magnitude}, {B magnitude}, {C magnitude} are commensurable then some magnitude will measure them which will clearly also measure {A magnitude} and {B magnitude}.
+Hence, it will also measure {D magnitude}, the greatest common measure of {A magnitude} and {B magnitude} [Prop. 10.3 corr.].
+And it also measures {C magnitude}.
+Hence, the aforementioned magnitude will measure (both) {C magnitude} and {D magnitude}.
+Thus, {C magnitude} and {D magnitude} are commensurable [Def. 10.1].
+Therefore, let their greatest common measure have been taken [Prop. 10.3], and let it be {E magnitude}.
+Therefore, since {E magnitude} measures {D magnitude}, but {D magnitude} measures (both) {A magnitude} and {B magnitude}, {E magnitude} will thus also measure {A magnitude} and {B magnitude}.
+And it also measures {C magnitude}.
+Thus, {E magnitude} measures {A magnitude}, {B magnitude}, {C magnitude}.
+Thus, {E magnitude} is a common measure of {A magnitude}, {B magnitude}, {C magnitude}.
+So I say that (it is) also (the) greatest (common measure).
+For, if possible, let {F magnitude} be some magnitude greater than {E magnitude}, and let it measure {A magnitude}, {B magnitude}, {C magnitude}.
+And since {F magnitude} measures {A magnitude}, {B magnitude}, {C magnitude}, it will thus also measure {A magnitude} and {B magnitude}, and will (thus) measure the greatest common measure of {A magnitude} and {B magnitude} [Prop. 10.3 corr.].
+And {D magnitude} is the greatest common measure of {A magnitude} and {B magnitude}.
+Thus, {F magnitude} measures {D magnitude}.
+And it also measures {C magnitude}.
+Thus, {F magnitude} measures (both) {C magnitude} and {D magnitude}.
+Thus, {F magnitude} will also measure the greatest common measure of {C magnitude} and {D magnitude} [Prop. 10.3 corr.].
+And it is {E magnitude}.
+Thus, {F magnitude} will measure {E magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some [magnitude] greater than the magnitude {E magnitude} cannot measure {A magnitude}, {B magnitude}, {C magnitude}.
+Thus, if {D magnitude} does not measure {C magnitude} then {E magnitude} is the greatest common measure of {A magnitude}, {B magnitude}, {C magnitude}.
+And if it does measure ({C magnitude}) then {D magnitude} itself (is the greatest common measure).
+
+Thus, the greatest common measure of three given commensurable magnitudes has been found.
+[(Which is) the very thing it was required to show.]
+
+Corollary
+
+So (it is) clear, from this, that if a magnitude measures three magnitudes then it will also measure their greatest common measure.
+
+So, similarly, the greatest common measure of more (magnitudes) can also be taken, and the (above) corollary will go forward.
+(Which is) the very thing it was required to show.

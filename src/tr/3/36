@@ -1,0 +1,41 @@
+If some point is taken outside a circle, and two straight-lines radiate from it towards the circle, and (one) of them cuts the circle, and the (other) touches (it), then the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, will be equal to the square on the tangent (line).
+
+For let some point {D point} have been taken outside circle {ABC circle E}, and let two straight-lines, {DCA line} and {DB line}, radiate from {D point} towards circle {ABC circle E}.
+And let {DCA line} cut circle {ABC circle E}, and let {BD line} touch (it).
+I say that the rectangle contained by {AD line} and {DC line} is equal to the square on {DB line}.
+
+{DCA line} is surely either through the center, or not.
+{figure 1}Let it first of all be through the center, and let {F point} be the center of circle {ABC circle E}, and let {FB line} have been joined.
+Thus, (angle) {FBD angle} is a right-angle [Prop. 3.18].
+And since straight-line {AC line} is cut in half at {F point}, let {CD line} have been added to it.
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FC line} is equal to the (square) on {FD line} [Prop. 2.6].
+And {FC line} (is) equal to {FB line}.
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FB line} is equal to the (square) on {FD line}.
+And the (square) on {FD line} is equal to the (sum of the squares) on {FB line} and {BD line} [Prop. 1.47].
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FB line} is equal to the (sum of the squares) on {FB line} and {BD line}.
+Let the (square) on {FB line} have been subtracted from both.
+Thus, the remaining (rectangle contained) by {AD line} and {DC line} is equal to the (square) on the tangent {DB line}.
+
+{figure 2}And so let {DCA line} not be through the center of circle {ABC circle E}, and let the center {E point} have been found, and let {EF line} have been drawn from {E point}, perpendicular to {AC line} [Prop. 1.12].
+And let {EB line}, {EC line}, and {ED line} have been joined.
+(Angle) {EBD angle} (is) thus a right-angle [Prop. 3.18].
+And since some straight-line, {EF line}, through the center, cuts some (other) straight-line, {AC line}, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].
+Thus, {AF line} is equal to {FC line}.
+And since the straight-line {AC line} is cut in half at point {F point}, let {CD line} have been added to it.
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {FC line} is equal to the (square) on {FD line} [Prop. 2.6].
+Let the (square) on {FE line} have been added to both.
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (sum of the squares) on {CF line} and {FE line} is equal to the (sum of the squares) on {FD line} and {FE line}.
+But the (square) on {EC line} is equal to the (sum of the squares) on {CF line} and {FE line}.
+For [angle] {EFC angle} [is] a right-angle [Prop. 1.47].
+And the (square) on {ED line} is equal to the (sum of the squares) on {DF line} and {FE line} [Prop. 1.47].
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EC line} is equal to the (square) on {ED line}.
+And {EC line} (is) equal to {EB line}.
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EB line} is equal to the (square) on {ED line}.
+And the (sum of the squares) on {EB line} and {BD line} is equal to the (square) on {ED line}.
+For {EBD angle} (is) a right-angle [Prop. 1.47].
+Thus, the (rectangle contained) by {AD line} and {DC line} plus the (square) on {EB line} is equal to the (sum of the squares) on {EB line} and {BD line}.
+Let the (square) on {EB line} have been subtracted from both.
+Thus, the remaining (rectangle contained) by {AD line} and {DC line} is equal to the (square) on {BD line}.
+
+Thus, if some point is taken outside a circle, and two straight-lines radiate from it towards the circle, and (one) of them cuts the circle, and (the other) touches (it), then the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, will be equal to the square on the tangent (line).
+(Which is) the very thing it was required to show.

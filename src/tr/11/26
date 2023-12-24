@@ -1,0 +1,31 @@
+To construct a solid angle equal to a given solid angle on a given straight-line, and at a given point on it.
+
+Let {AB line} be the given straight-line, and {A point} the given point on it, and {D given} the given solid angle, contained by the plane angles {EDC angle}, {EDF angle}, and {FDC angle}.
+So, it is necessary to construct a solid angle equal to the solid angle {D given} on the straight-line {AB line}, and at the point {A point} on it.
+
+For let some random point {F point} have been taken on {DF line}, and let {FG line} have been drawn from {F point} perpendicular to the plane through {ED line} and {DC line} [Prop. 11.11], and let it meet the plane at {G point}, and let {DG line} have been joined.
+And let {BAL angle}, equal to the angle {EDC angle}, and {BAK angle}, equal to {EDG angle}, have been constructed on the straight-line {AB line} at the point {A point} on it [Prop. 1.23].
+And let {AK line} be made equal to {DG line}.
+And let {KH line} have been set up at the point {K point} at right-angles to the plane through {BA line} and {AL line} [Prop. 11.12].
+And let {KH line} be made equal to {GF line}.
+And let {HA line} have been joined.
+I say that the solid angle at {A point}, contained by the (plane) angles {BAL angle}, {BAH angle}, and {HAL angle}, is equal to the solid angle at {D point}, contained by the (plane) angles {EDC angle}, {EDF angle}, and {FDC angle}.
+
+For let {AB line} and {DE line} have been cut off (so as to be) equal, and let {HB line}, {KB line}, {FE line}, and {GE line} have been joined.
+And since {FG line} is at right-angles to the reference plane (through {ED line} and {DC line}), it will also make right-angles with all of the straight-lines joined to it which are also in the reference plane [Def. 11.3].
+Thus, the angles {FGD angle} and {FGE angle} are right-angles.
+So, for the same (reasons), the angles {HKA angle} and {HKB angle} are also right-angles.
+And since the two (straight-lines) {KA line} and {AB line} are equal to the two (straight-lines) {GD line} and {DE line}, respectively, and they contain equal angles, the base {KB line} is thus equal to the base {GE line} [Prop. 1.4].
+And {KH line} is also equal to {GF line}.
+And they contain right-angles (with the respective bases).
+Thus, {HB line} (is) also equal to {FE line} [Prop. 1.4].
+Again, since the two (straight-lines) {AK line} and {KH line} are equal to the two (straight-lines) {DG line} and {GF line} (respectively), and they contain right-angles, the base {AH line} is thus equal to the base {FD line} [Prop. 1.4].
+And {AB line} (is) also equal to {DE line}.
+So, the two (straight-lines) {HA line} and {AB line} are equal to the two (straight-lines) {DF line} and {DE line} (respectively).
+And the base {HB line} (is) equal to the base {FE line}.
+Thus, the angle {BAH angle} is equal to the angle {EDF angle} [Prop. 1.8].
+So, for the same (reasons), {HAL angle} is also equal to {FDC angle}.
+And {BAL angle} is also equal to {EDC angle}.
+
+Thus, (a solid angle) has been constructed, equal to the given solid angle at {D given}, on the given straight-line {AB line}, at the given point {A point} on it.
+(Which is) the very thing it was required to do.

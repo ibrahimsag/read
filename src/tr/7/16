@@ -1,0 +1,17 @@
+If two numbers multiplying one another make some (numbers) then the (numbers) generated from them will be equal to one another.
+
+Let {A magnitude} and {B magnitude} be two numbers.
+And let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}, and let {B magnitude} make {D magnitude} (by) multiplying {A magnitude}.
+I say that {C magnitude} is equal to {D magnitude}.
+
+For since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {B magnitude} thus measures {C magnitude} according to the units in {A magnitude} [Def. 7.15].
+And the unit {E magnitude} also measures the number {A magnitude} according to the units in it.
+Thus, the unit {E magnitude} measures the number {A magnitude} as many times as {B magnitude} (measures) {C magnitude}.
+Thus, alternately, the unit {E magnitude} measures the number {B magnitude} as many times as {A magnitude} (measures) {C magnitude} [Prop. 7.15].
+Again, since {B magnitude} has made {D magnitude} (by) multiplying {A magnitude}, {A magnitude} thus measures {D magnitude} according to the units in {B magnitude} [Def. 7.15].
+And the unit {E magnitude} also measures {B magnitude} according to the units in it.
+Thus, the unit {E magnitude} measures the number {B magnitude} as many times as {A magnitude} (measures) {D magnitude}.
+And the unit {E magnitude} was measuring the number {B magnitude} as many times as {A magnitude} (measures) {C magnitude}.
+Thus, {A magnitude} measures each of {C magnitude} and {D magnitude} an equal number of times.
+Thus, {C magnitude} is equal to {D magnitude}.
+(Which is) the very thing it was required to show.

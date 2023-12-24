@@ -1,0 +1,34 @@
+If two straight-lines are at right-angles to the same plane then the straight-lines will be parallel.
+
+For let the two straight-lines {AB line} and {CD line} be at right-angles to a reference plane.
+I say that {AB line} is parallel to {CD line}.
+
+For let them meet the reference plane at points {B point} and {D point} (respectively). And let the straight-line {BD line} have been joined.
+And let {DE line} have been drawn at right-angles to {BD line} in the reference plane.
+And let {DE line} be made equal to {AB line}.
+And let {BE line}, {AE line}, and {AD line} have been joined.
+
+And since {AB line} is at right-angles to the reference plane, it will [thus] also make right-angles with all straight-lines joined to it which are in the reference plane [Def. 11.3].
+
+And {BD line} and {BE line}, which are in the reference plane, are each joined to {AB line}.
+Thus, each of the angles {ABD angle} and {ABE angle} are right-angles.
+So, for the same (reasons), each of the angles {CDB angle} and {CDE angle} are also right-angles.
+And since {AB line} is equal to {DE line}, and {BD line} (is) common, the two (straight-lines) {AB line} and {BD line} are equal to the two (straight-lines) {ED line} and {DB line} (respectively).
+And they contain right-angles.
+Thus, the base {AD line} is equal to the base {BE line} [Prop. 1.4].
+And since {AB line} is equal to {DE line}, and {AD line} (is) also (equal) to {BE line}, the two (straight-lines) {AB line} and {BE line} are thus equal to the two (straight-lines) {ED line} and {DA line} (respectively).
+And their base {AE line} (is) common.
+Thus, angle {ABE angle} is equal to angle {EDA angle} [Prop. 1.8].
+And {ABE angle} (is) a right-angle.
+Thus, {EDA angle} (is) also a right-angle.
+{ED line} is thus at right-angles to {DA line}.
+And it is also at right-angles to each of {BD line} and {DC line}.
+Thus, {ED line} is standing at right-angles to the three straight-lines {BD line}, {DA line}, and {DC line} at the (common) point of section.
+Thus, the three straight-lines {BD line}, {DA line}, and {DC line} are in one plane [Prop. 11.5].
+And in which(ever) plane {DB line} and {DA line} (are found), in that (plane) {AB line} (will) also (be found).
+For every triangle is in one plane [Prop. 11.2].
+And each of the angles {ABD angle} and {BDC angle} is a right-angle.
+Thus, {AB line} is parallel to {CD line} [Prop. 1.28].
+
+Thus, if two straight-lines are at right-angles to the same plane then the straight-lines will be parallel.
+(Which is) the very thing it was required to show.

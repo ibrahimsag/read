@@ -1,0 +1,54 @@
+The (square) on a rational (straight-line), applied to an apotome, produces as breadth a binomial whose terms are commensurable with the terms of the apotome, and in the same ratio.
+Moreover, the created binomial has the same order as the apotome.
+
+Let {A magnitude} be a rational (straight-line), and {BD magnitude} an apotome.
+And let the (rectangle contained) by {BD magnitude} and {KH magnitude} be equal to the (square) on {A magnitude}, such that the square on the rational (straight-line) {A magnitude}, applied to the apotome {BD magnitude}, produces {KH magnitude} as breadth.
+I say that {KH magnitude} is a binomial whose terms are commensurable with the terms of {BD magnitude}, and in the same ratio, and, moreover, that {KH magnitude} has the same order as {BD magnitude}.
+
+For let {DC magnitude} be an attachment to {BD magnitude}.
+Thus, {BC magnitude} and {CD magnitude} are rational (straight-lines which are) commensurable in square only [Prop. 10.73].
+And let the (rectangle contained) by {BC magnitude} and {G magnitude} also be equal to the (square) on {A magnitude}.
+And the (square) on {A magnitude} (is) rational.
+The (rectangle contained) by {BC magnitude} and {G magnitude} (is) thus also rational.
+And it has been applied to the rational (straight-line) {BC magnitude}.
+Thus, {G magnitude} is rational, and commensurable in length with {BC magnitude} [Prop. 10.20].
+Therefore, since the (rectangle contained) by {BC magnitude} and {G magnitude} is equal to the (rectangle contained) by {BD magnitude} and {KH magnitude}, thus, proportionally, as {CB magnitude} is to {BD magnitude}, so {KH magnitude} (is) to {G magnitude} [Prop. 6.16].
+And {BC magnitude} (is) greater than {BD magnitude}.
+Thus, {KH magnitude} (is) also greater than {G magnitude} [Prop. 5.16, 5.14].
+Let {KE magnitude} be made equal to {G magnitude}.
+{KE magnitude} is thus commensurable in length with {BC magnitude}.
+And since as {CB magnitude} is to {BD magnitude}, so {HK magnitude} (is) to {KE magnitude}, thus, via conversion, as {BC magnitude} (is) to {CD magnitude}, so {KH magnitude} (is) to {HE magnitude} [Prop. 5.19 corr.].
+Let it have been contrived that as {KH magnitude} (is) to {HE magnitude}, so {HF magnitude} (is) to {FE magnitude}.
+And thus the remainder {KF magnitude} is to {FH magnitude}, as {KH magnitude} (is) to {HE magnitude}---that is to say, [as] {BC magnitude} (is) to {CD magnitude} [Prop. 5.19].
+And {BC magnitude} and {CD magnitude} [are] commensurable in square only.
+
+{KF magnitude} and {FH magnitude} are thus also commensurable in square only [Prop. 10.11].
+And since as {KH magnitude} is to {HE magnitude}, (so) {KF magnitude} (is) to {FH magnitude}, but as {KH magnitude} (is) to {HE magnitude}, (so) {HF magnitude} (is) to {FE magnitude}, thus, also as {KF magnitude} (is) to {FH magnitude}, (so) {HF magnitude} (is) to {FE magnitude} [Prop. 5.11].
+And hence as the first (is) to the third, so the (square) on the first (is) to the (square) on the second [Def. 5.9].
+And thus as {KF magnitude} (is) to {FE magnitude}, so the (square) on {KF magnitude} (is) to the (square) on {FH magnitude}.
+And the (square) on {KF magnitude} is commensurable with the (square) on {FH magnitude}.
+For {KF magnitude} and {FH magnitude} are commensurable in square.
+Thus, {KF magnitude} is also commensurable in length with {FE magnitude} [Prop. 10.11].
+Hence, {KF magnitude} [is] also commensurable in length with {KE magnitude} [Prop. 10.15].
+And {KE magnitude} is rational, and commensurable in length with {BC magnitude}.
+Thus, {KF magnitude} (is) also rational, and commensurable in length with {BC magnitude} [Prop. 10.12].
+And since as {BC magnitude} is to {CD magnitude}, (so) {KF magnitude} (is) to {FH magnitude}, alternately, as {BC magnitude} (is) to {KF magnitude}, so {DC magnitude} (is) to {FH magnitude} [Prop. 5.16].
+And {BC magnitude} (is) commensurable (in length) with {KF magnitude}.
+Thus, {FH magnitude} (is) also commensurable in length with {CD magnitude} [Prop. 10.11].
+And {BC magnitude} and {CD magnitude} are rational (straight-lines which are) commensurable in square only.
+{KF magnitude} and {FH magnitude} are thus also rational (straight-lines which are) commensurable in square only [Def. 10.3, Prop. 10.13].
+Thus, {KH magnitude} is a binomial [Prop. 10.36].
+
+Therefore, if the square on {BC magnitude} is greater than (the square on) {CD magnitude} by the (square) on (some straight-line) commensurable (in length) with ({BC magnitude}), then the square on {KF magnitude} will also be greater than (the square on) {FH magnitude} by the (square) on (some straight-line) commensurable (in length) with ({KF magnitude}) [Prop. 10.14].
+And if {BC magnitude} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {KF magnitude} [Prop. 10.12].
+And if {CD magnitude} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FH magnitude} [Prop. 10.12].
+And if neither of {BC magnitude} or {CD magnitude} (are commensurable), neither also (are) either of {KF magnitude} or {FH magnitude} [Prop. 10.13].
+
+And if the square on {BC magnitude} is greater than (the square on) {CD magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}) then the square on {KF magnitude} will also be greater than (the square on) {FH magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({KF magnitude}) [Prop. 10.14].
+And if {BC magnitude} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {KF magnitude} [Prop. 10.12].
+And if {CD magnitude} is commensurable, (so) also (is) {FH magnitude} [Prop. 10.12].
+And if neither of {BC magnitude} or {CD magnitude} (are commensurable), neither also (are) either of {KF magnitude} or {FH magnitude} [Prop. 10.13].
+
+{KH magnitude} is thus a binomial whose terms, {KF magnitude} and {FH magnitude}, [are] commensurable (in length) with the terms, {BC magnitude} and {CD magnitude}, of the apotome, and in the same ratio.
+Moreover, {KH magnitude} will have the same order as {BC magnitude} [Defs. 10.5-10.10].
+(Which is) the very thing it was required to show.

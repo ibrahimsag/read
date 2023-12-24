@@ -1,0 +1,17 @@
+There being two circles about the same center, to inscribe an equilateral and even-sided polygon in the greater circle, not touching the lesser circle.
+
+Let {ABCD circle K} and {EFGH circle K} be the given two circles, about the same center, {K point}.
+So, it is necessary to inscribe an equilateral and even-sided polygon in the greater circle {ABCD circle K}, not touching circle {EFGH circle K}.
+
+Let the straight-line {BKD line} have been drawn through the center {K point}.
+And let {GA line} have been drawn, at right-angles to the straight-line {BD line}, through point {G point}, and let it have been drawn through to {C point}.
+Thus, {AC line} touches circle {EFGH circle K} [Prop. 3.16 corr.].
+So, (by) cutting circumference {BAD arc K} in half, and the half of it in half, and doing this continually, we will (eventually) leave a circumference less than {AD arc K} [Prop. 10.1].
+Let it have been left, and let it be {LD arc K}.
+And let {LM line} have been drawn, from {L point}, perpendicular to {BD line}, and let it have been drawn through to {N point}.
+And let {LD line} and {DN line} have been joined.
+Thus, {LD line} is equal to {DN line} [Props. 3.3, 1.4].
+And since {LN line} is parallel to {AC line} [Prop. 1.28], and {AC line} touches circle {EFGH circle K}, {LN line} thus does not touch circle {EFGH circle K}.
+Thus, even more so, {LD line} and {DN line} do not touch circle {EFGH circle K}.
+And if we continuously insert (straight-lines) equal to straight-line {LD line} into circle {ABCD circle K} [Prop. 4.1] then an equilateral and even-sided polygon, not touching the lesser circle {EFGH circle K}, will have been inscribed in circle {ABCD circle K}.
+(Which is) the very thing it was required to do.

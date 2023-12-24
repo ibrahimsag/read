@@ -1,0 +1,9 @@
+Two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.
+
+For, if possible, let the two similar and unequal segments of circles, {ACB arc E} and {ADB arc F}, have been constructed on the same side of the same straight-line {AB line}.
+And let {ACD line} have been drawn through (the segments), and let {CB line} and {DB line} have been joined.
+
+Therefore, since segment {ACB arc E} is similar to segment {ADB arc F}, and similar segments of circles are those accepting equal angles [Def. 3.11], angle {ACB angle} is thus equal to {ADB angle}, the external to the internal.
+The very thing is impossible [Prop. 1.16].
+
+Thus, two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.

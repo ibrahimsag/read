@@ -1,0 +1,17 @@
+Eğer bir düz çizgi, iki düz çizgi üzerine düşer ve aynı taraftaki dış açıyı, içteki ve karşıt açıya eşit yaparsa, veya (aynı taraftaki) iç açıların (toplamını) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır.
+
+Öyle ki, iki düz çizgi {AB çizgisi} ve {CD çizgisi} üzerine düşen {EF çizgisi}, dış açı {EGB açısı}nı içteki ve karşıt açı {GHD açısı}na eşit yapar, veya aynı taraftaki iç açıların (toplamı), {BGH açısı} ve {GHD açısı}, iki dik açıya eşit olur.
+Diyorum ki {AB çizgisi}, {CD çizgisi}ne paraleldir.
+
+Çünkü (ilk durumda) {EGB açısı}, {GHD açısı}na eşittir, ama {EGB açısı}, {AGH açısı}na da eşittir [Prop. 1.15], böylece {AGH açısı} da {GHD açısı}na eşittir.
+Ve bunlar sırayla (açılar)dır.
+Böylece, {AB çizgisi}, {CD çizgisi}ne paraleldir [Prop. 1.27].
+
+Yine, (ikinci durumda, toplamı) {BGH açısı} ve {GHD açısı}, iki dik açıya eşittir ve (toplamı) {AGH açısı} ve {BGH açısı} da iki dik açıya eşittir [Prop. 1.13], böylece (toplamı) {AGH açısı} ve {BGH açısı}, (toplamı) {BGH açısı} ve {GHD açısı}na eşittir.
+Her ikisinden de {BGH açısı} çıkarılsın.
+Böylece, kalan {AGH açısı}, kalan {GHD açısı}na eşittir.
+Ve bunlar sırayla (açılar)dır.
+Böylece, {AB çizgisi}, {CD çizgisi}ne paraleldir [Prop. 1.27].
+
+Böylece, eğer bir düz çizgi, iki düz çizgi üzerine düşer ve aynı taraftaki dış açıyı içteki ve karşıt açıya eşit yaparsa, veya (aynı taraftaki) iç açıların (toplamını) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır (birbirine).
+(Gösterilmesi gereken şey tam olarak budur).

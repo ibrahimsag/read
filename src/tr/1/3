@@ -1,0 +1,15 @@
+Verilen iki eşit olmayan düz çizgiden, büyük olanından küçük olana eşit bir düz çizgi kesmek.
+
+{AB line} ve {C given} iki verilen eşit olmayan düz çizgi olsun, bunlardan büyük olan {AB line} olsun.
+Büyük olan {AB line} 'dan küçük olana eşit bir düz çizgi kesmek gerekmektedir.
+
+Nokta {A point} 'te {C given} düz çizgisine eşit olan {AD line} çizgisi yerleştirilmiş olsun [Prop. 1.2].
+Ve merkezi {A point} ve yarıçapı {AD line} olan daire {DEF circle A} çizilmiş olsun [Post.3].
+
+Ve madem ki nokta {A point}, dairenin {DEF circle A} merkezidir, {AE line} {AD line}'a eşittir [Def. 1.15].
+Ama, {C given} de {AD line}'a eşittir.
+Böylece, {AE line} ve {C given} her biri {AD line}'a eşittir.
+Yani {AE line} da {C given}'a eşittir [C.N. 1].
+
+Böylece, verilen iki eşit olmayan düz çizgi için, {AB line} ve {C given}, küçük olana eşit olan {AE line} (düz çizgisi), büyük olan {AB line}'dan kesilmiştir.
+(Yapılması gereken tam olarak budur.)

@@ -1,0 +1,45 @@
+If a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.
+
+For let any straight-line {AB line} have been cut---equally at {C point}, and unequally at {D point}.
+I say that the (sum of the) squares on {AD line} and {DB line} is double the (sum of the squares) on {AC line} and {CD line}.
+
+For let {CE line} have been drawn from (point) {C point}, at right-angles to {AB line} [Prop. 1.11], and let it be made equal to each of {AC line} and {CB line} [Prop. 1.3], and let {EA line} and {EB line} have been joined.
+And let {DF line} have been drawn through (point) {D point}, parallel to {EC line} [Prop. 1.31],
+and (let) {FG line} (have been drawn) through (point) {F point}, (parallel) to {AB line} [Prop. 1.31].
+And let {AF line} have been joined.
+And since {AC line} is equal to {CE line}, the angle {EAC angle} is also equal to the (angle) {AEC angle} [Prop. 1.5].
+And since the (angle) at {C point} is a right-angle, the (sum of the) remaining angles (of triangle {AEC polygon}), {EAC angle} and {AEC angle}, is thus equal to one right-angle [Prop. 1.32].
+And they are equal.
+Thus, (angles) {CEA angle} and {CAE angle} are each half a right-angle.
+So, for the same (reasons), (angles) {CEB angle} and {EBC angle} are also each half a right-angle.
+Thus, the whole (angle) {AEB angle} is a right-angle.
+And since {GEF angle} is half a right-angle, and {EGF angle} (is) a right-angle---for it is equal to the internal and opposite (angle) {ECB angle} [Prop. 1.29]---the remaining (angle) {EFG angle} is thus half a right-angle [Prop. 1.32].
+Thus, angle {GEF angle} [is] equal to {EFG angle}.
+So the side {EG line} is also equal to the (side) {GF line} [Prop. 2.6].
+Again, since the angle at {B point} is half a right-angle, and (angle) {FDB angle} (is) a right-angle---for again it is equal to the internal and opposite (angle) {ECB angle} [Prop. 1.29]--- the remaining (angle) {BFD angle} is half a right-angle [Prop. 1.32].
+Thus, the angle at {B point} (is) equal to {DFB angle}.
+So the side {FD line} is also equal to the side {DB line} [Prop. 1.6].
+And since {AC line} is equal to {CE line}, the (square) on {AC line} (is) also equal to the (square) on {CE line}.
+Thus, the (sum of the) squares on {AC line} and {CE line} is double the (square) on {AC line}.
+And the square on {EA line} is equal to the (sum of the) squares on {AC line} and {CE line}.
+For angle {ACE angle} (is) a right-angle [Prop. 1.47].
+Thus, the (square) on {EA line} is double the (square) on {AC line}.
+Again, since {EG line} is equal to {GF line}, the (square) on {EG line} (is) also equal to the (square) on {GF line}.
+Thus, the (sum of the squares) on {EG line} and {GF line} is double the square on {GF line}.
+And the square on {EF line} is equal to the (sum of the) squares on {EG line} and {GF line} [Prop. 1.47].
+Thus, the square on {EF line} is double the (square) on {GF line}.
+And {GF line} (is) equal to {CD line} [Prop. 1.34].
+Thus, the (square) on {EF line} is double the (square) on {CD line}.
+And the (square) on {EA line} is also double the (square) on {AC line}.
+Thus, the (sum of the) squares on {AE line} and {EF line} is double the (sum of the) squares on {AC line} and {CD line}.
+And the square on {AF line} is equal to the (sum of the squares) on {AE line} and {EF line}.
+For the angle {AEF angle} is a right-angle [Prop. 1.47].
+Thus, the square on {AF line} is double the (sum of the squares) on {AC line} and {CD line}.
+And the (sum of the squares) on {AD line} and {DF line} (is) equal to the (square) on {AF line}.
+For the angle at {D point} is a right-angle [Prop. 1.47].
+Thus, the (sum of the squares) on {AD line} and {DF line} is double the (sum of the) squares on {AC line} and {CD line}.
+And {DF line} (is) equal to {DB line}.
+Thus, the (sum of the) squares on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.
+
+Thus, if a straight-line is cut into equal and unequal (pieces) then the (sum of the) squares on the unequal pieces of the whole (straight-line) is double the (sum of the) square on half (the straight-line) and (the square) on the (difference) between the (equal and unequal) pieces.
+(Which is) the very thing it was required to show.

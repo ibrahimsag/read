@@ -1,0 +1,22 @@
+If an equilateral triangle is inscribed in a circle then the square on the side of the triangle is three times the (square) on the radius of the circle.
+
+Let there be a circle {ABC circle D}, and let the equilateral triangle {ABC polygon} have been inscribed in it [Prop. 4.2].
+I say that the square on one side of triangle {ABC polygon} is three times the (square) on the radius of circle {ABC circle D}.
+
+For let the center, {D point}, of circle {ABC circle D} have been found [Prop. 3.1].
+And {AD line} (being) joined, let it have been drawn across to {E point}.
+And let {BE line} have been joined.
+
+And since triangle {ABC polygon} is equilateral, circumference {BEC arcc D} is thus the third part of the circumference of circle {ABC circle D}.
+Thus, circumference {BE arcc D} is the sixth part of the circumference of the circle.
+Thus, straight-line {BE line} is (the side) of a hexagon.
+Thus, it is equal to the radius {DE line} [Prop. 4.15 corr.].
+And since {AE line} is double {DE line}, the (square) on {AE line} is four times the (square) on {ED line}---that is to say, of the (square) on {BE line}.
+And the (square) on {AE line} (is) equal to the (sum of the squares) on {AB line} and {BE line} [Props. 3.31, 1.47].
+Thus, the (sum of the squares) on {AB line} and {BE line} is four times the (square) on {BE line}.
+Thus, via separation, the (square) on {AB line} is three times the (square) on {BE line}.
+And {BE line} (is) equal to {DE line}.
+Thus, the (square) on {AB line} is three times the (square) on {DE line}.
+
+Thus, the square on the side of the triangle is three times the (square) on the radius [of the circle].
+(Which is) the very thing it was required to show.

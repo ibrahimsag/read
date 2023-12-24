@@ -1,0 +1,32 @@
+If some straight-line is drawn parallel to one of the sides of a triangle then it will cut the (other) sides of the triangle proportionally.
+And if (two of) the sides of a triangle are cut proportionally then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.
+
+For let {DE line} have been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}.
+I say that as {BD line} is to {DA line}, so {CE line} (is) to {EA line}.
+
+For let {BE line} and {CD line} have been joined.
+
+Thus, triangle {BDE polygon} is equal to triangle {CDE polygon}.
+For they are on the same base {DE line} and between the same parallels {DE line} and {BC line} [Prop. 1.38].
+And {ADE polygon} is some other triangle.
+And equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7].
+Thus, as triangle {BDE polygon} is to [triangle] {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon}.
+But, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so (is) {BD line} to {DA line}.
+For, having the same height---(namely), the (straight-line) drawn from {E point} perpendicular to {AB line}--- they are to one another as their bases [Prop. 6.1].
+So, for the same (reasons), as triangle {CDE polygon} (is) to {ADE polygon}, so {CE line} (is) to {EA line}.
+And, thus, as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line} [Prop. 5.11].
+
+And so, let the sides {AB line} and {AC line} of triangle {ABC polygon} have been cut proportionally (such that) as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line}.
+And let {DE line} have been joined.
+I say that {DE line} is parallel to {BC line}.
+
+For, by the same construction, since as {BD line} is to {DA line}, so {CE line} (is) to {EA line}, but as {BD line} (is) to {DA line}, so triangle {BDE polygon} (is) to triangle {ADE polygon}, and as {CE line} (is) to {EA line}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 6.1], thus, also, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 5.11].
+Thus, triangles {BDE polygon} and {CDE polygon} each have the same ratio to {ADE polygon}.
+Thus, triangle {BDE polygon} is equal to triangle {CDE polygon} [Prop. 5.9].
+And they are on the same base {DE line}.
+And equal triangles, which are also on the same base, are also between the same parallels [Prop. 1.39].
+Thus, {DE line} is parallel to {BC line}.
+
+Thus, if some straight-line is drawn parallel to one of the sides of a triangle, then it will cut the (other) sides of the triangle proportionally.
+And if (two of) the sides of a triangle are cut proportionally, then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.
+(Which is) the very thing it was required to show.

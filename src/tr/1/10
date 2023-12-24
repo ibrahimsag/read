@@ -1,0 +1,14 @@
+Verilen sonlu düz çizgiyi yarıya bölmek.
+
+Verilen sonlu düz çizgi {AB line} olsun.
+Sonlu düz çizgi {AB line}'yi yarıya bölmek gerekmektedir.
+
+{AB line} üzerine eşkenar üçgen {ABC polygon} inşa edilmiş olsun [Prop. 1.1] ve açı {ACB angle} düz çizgi {CD line} tarafından ikiye bölünmüş olsun [Prop. 1.9].
+Diyorum ki, düz çizgi {AB line} {D point} noktasında yarıya bölünmüştür.
+
+Çünkü {AC line} {CB line}'ye eşittir ve {CD line} (ortak) olduğuna göre, iki (düz çizgi) {AC line}, {CD line} sırasıyla iki (düz çizgi) {BC line}, {CD line}'ye eşittir.
+Ve açı {ACD angle} açı {BCD angle}'ye eşittir.
+Böylece, taban {AD line} taban {BD line}'ye eşittir [Prop. 1.4].
+
+Böylece, verilen sonlu düz çizgi {AB line} (nokta) {D point}'te yarıya bölünmüştür.
+(Yapılması gereken tam olarak) budur.

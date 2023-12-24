@@ -1,0 +1,22 @@
+To inscribe a circle in a given square.
+
+Let the given square be {ABCD polygon}.
+So it is required to inscribe a circle in square {ABCD polygon}.
+
+Let {AD line} and {AB line} each have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].
+And let {EH line} have been drawn through {E point}, parallel to either of {AB line} or {CD line}, and let {FK line} have been drawn through {F point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].
+Thus, {AK polygon}, {KB polygon}, {AH polygon}, {HD polygon}, {AG polygon}, {GC polygon}, {BG polygon}, and {GD polygon} are each parallelograms, and their opposite sides [are] manifestly equal [Prop. 1.34].
+And since {AD line} is equal to {AB line}, and {AE line} is half of {AD line}, and {AF line} half of {AB line}, {AE line} (is) thus also equal to {AF line}.
+So that the opposite (sides are) also (equal).
+Thus, {FG line} (is) also equal to {GE line}.
+So, similarly, we can also show that each of {GH line} and {GK line} is equal to each of {FG line} and {GE line}.
+Thus, the four (straight-lines) {GE line}, {GF line}, {GH line}, and {GK line} [are] equal to one another.
+Thus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, will also go through the remaining points.
+And it will touch the straight-lines {AB line}, {BC line}, {CD line}, and {DA line}, on account of the angles at {E point}, {F point}, {H point}, and {K point} being right-angles.
+For if the circle cuts {AB line}, {BC line}, {CD line}, or {DA line}, then a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, will fall inside the circle.
+The very thing was shown (to be) absurd [Prop. 3.16].
+Thus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, does not cut the straight-lines {AB line}, {BC line}, {CD line}, or {DA line}.
+Thus, it will touch them, and will have been inscribed in the square {ABCD polygon}.
+
+Thus, a circle has been inscribed in the given square.
+(Which is) the very thing it was required to do.

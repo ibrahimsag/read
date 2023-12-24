@@ -1,0 +1,22 @@
+To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
+
+Let the two medial (straight-lines) {AB line} and {BC line}, (which are) commensurable in square only, be laid out having the (rectangle contained) by them rational, (and) such that the square on {AB line} is greater than (the square on) {BC line} by the (square) on (some straight-line) incommensurable (in length) with ({AB line}) [Prop. 10.31].
+And let the semi-circle {ADB arc O} have been drawn on {AB line}.
+And let {BC line} have been cut in half at {E point}.
+And let a (rectangular) parallelogram equal to the (square) on {BE line}, (and) falling short by a square figure, have been applied to {AB line}, (and let it be) the (rectangle contained by) {AF line} and {FB line} [Prop. 6.28].
+Thus, {AF line} [is] incommensurable in length with {FB line} [Prop. 10.18].
+And let {FD line} have been drawn from {F point} at right-angles to {AB line}.
+And let {AD line} and {DB line} have been joined.
+
+Since {AF line} is incommensurable (in length) with {FB line}, the (rectangle contained) by {BA line} and {AF line} is thus also incommensurable with the (rectangle contained) by {AB line} and {BF line} [Prop. 10.11].
+And the (rectangle contained) by {BA line} and {AF line} (is) equal to the (square) on {AD line}, and the (rectangle contained) by {AB line} and {BF line} to the (square) on {DB line} [Prop. 10.32 lem.].
+Thus, the (square) on {AD line} is also incommensurable with the (square) on {DB line}.
+And since the (square) on {AB line} is medial, the sum of the (squares) on {AD line} and {DB line} (is) thus also medial [Props. 3.31, 1.47].
+And since {BC line} is double {DF line} [see previous proposition], the (rectangle contained) by {AB line} and {BC line} (is) thus also double the (rectangle contained) by {AB line} and {FD line}.
+And the (rectangle contained) by {AB line} and {BC line} (is) rational.
+Thus, the (rectangle contained) by {AB line} and {FD line} (is) also rational [Prop. 10.6, Def. 10.4].
+And the (rectangle contained) by {AB line} and {FD line} (is) equal to the (rectangle contained) by {AD line} and {DB line} [Prop. 10.32 lem.].
+And hence the (rectangle contained) by {AD line} and {DB line} is rational.
+
+Thus, two straight-lines, {AD line} and {DB line}, (which are) incommensurable in square, have been found, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
+(Which is) the verything it was required to show.

@@ -1,0 +1,61 @@
+To draw a segment of a circle, accepting an angle equal to a given rectilinear angle, on a given straight-line.
+
+Let {AB line} be the given straight-line, and {C given} the given rectilinear angle.
+So it is required to draw a segment of a circle, accepting an angle equal to {C given}, on the given straight-line {AB line}.
+
+So the [angle] {C given} is surely either acute, a right-angle, or obtuse.
+{figure 1}First of all, let it be acute.
+And, as in the first diagram (from the left), let (angle) {BAD angle}, equal to angle {C given}, have been constructed on the straight-line {AB line}, at the point {A point} (on it) [Prop. 1.23].
+Thus, {BAD angle} is also acute.
+Let {AE line} have been drawn, at right-angles to {DA line} [Prop. 1.11].  
+And let {AB line} have been cut in half at {F point} [Prop. 1.10].
+And let {FG line} have been drawn from point {F point}, at right-angles to {AB line} [Prop. 1.11].
+And let {GB line} have been joined.
+
+And since {AF line} is equal to {FB line}, and {FG line} (is) common, the two (straight-lines) {AF line}, {FG line} are equal to the two (straight-lines) {BF line}, {FG line} (respectively).
+And angle {AFG angle} (is) equal to [angle] {BFG angle}.
+Thus, the base {AG line} is equal to the base {BG line} [Prop. 1.4].
+Thus, the circle drawn with center {G point}, and radius {GA line}, will also go through {B point} (as well as {A point}).
+Let it have been drawn, and let it be (denoted) {ABE circle G}.
+And let {EB line} have been joined.
+Therefore, since {AD line} is at the extremity of diameter {AE line}, (namely, point) {A point}, at right-angles to {AE line}, the (straight-line) {AD line} thus touches the circle {ABE circle G} [Prop. 3.16 corr.].
+Therefore, since some straight-line {AD line} touches the circle {ABE circle G}, and some (other) straight-line {AB line} has been drawn across from the point of contact {A point} into circle {ABE circle G}, angle {DAB angle} is thus equal to the angle {AEB angle} in the alternate segment of the circle [Prop. 3.32].
+But, {DAB angle} is equal to {C given}.
+Thus, angle {C given} is also equal to {AEB angle}.
+
+Thus, a segment {AEB arc G} of a circle, accepting the angle {AEB angle} (which is) equal to the given (angle) {C given}, has been drawn on the given straight-line {AB line}.
+
+{figure 2}And so let {C given} be a right-angle.
+And let it again be necessary to draw a segment of a circle on {AB line}, accepting an angle equal to the right-[angle] {C given}.
+Let the (angle) {BAD angle} [again] have been constructed, equal to the right-angle {C given} [Prop. 1.23], as in the second diagram (from the left).
+And let {AB line} have been cut in half at {F point} [Prop. 1.10].
+And let the circle {AEB circle F} have been drawn with center {F point}, and radius either {FA line} or {FB line}.
+
+Thus, the straight-line {AD line} touches the circle {ABE circle F}, on account of the angle at {A point} being a right-angle [Prop. 3.16 corr.].
+And angle {BAD angle} is equal to the angle in segment {AEB arcc F}.
+For (the latter angle), being in a semi-circle, is also a right-angle [Prop. 3.31].
+But, {BAD angle} is also equal to {C given}.
+Thus, the (angle) in (segment) {AEB angle} is also equal to {C given}.
+
+Thus, a segment {AEB arcc F} of a circle, accepting an angle equal to {C given}, has again been drawn on {AB line}.
+
+{figure 3}And so let (angle) {C given} be obtuse.
+And let (angle) {BAD angle}, equal to ({C given}), have been constructed on the straight-line {AB line}, at the point {A point} (on it) [Prop. 1.23], as in the third diagram (from the left).
+And let {AE line} have been drawn, at right-angles to {AD line} [Prop. 1.11].
+And let {AB line} have again been cut in half at {F point} [Prop. 1.10].
+And let {FG line} have been drawn, at right-angles to {AB line} [Prop. 1.10].
+And let {GB line} have been joined.
+
+And again, since {AF line} is equal to {FB line}, and {FG line} (is) common, the two (straight-lines) {AF line}, {FG line} are equal to the two (straight-lines) {BF line}, {FG line} (respectively).
+And angle {AFG angle} (is) equal to angle {BFG angle}.
+Thus, the base {AG line} is equal to the base {BG line} [Prop. 1.4].
+Thus, a circle of center {G point}, and radius {GA line}, being drawn, will also go through {B point} (as well as {A point}).
+Let it go like {AEB circle G} (in the third diagram from the left).
+And since {AD line} is at right-angles to the diameter {AE line}, at its extremity, {AD line} thus touches circle {AEB circle G} [Prop. 3.16 corr.].
+And {AB line} has been drawn across (the circle) from the point of contact {A point}.
+Thus, angle {BAD angle} is equal to the angle constructed in the alternate segment {AHB arc G} of the circle [Prop. 3.32].
+But, angle {BAD angle} is equal to {C given}.
+Thus, the angle in segment {AHB arc G} is also equal to {C given}.
+
+Thus, a segment {AHB arc G} of a circle, accepting an angle equal to {C given}, has been drawn on the given straight-line {AB line}.
+(Which is) the very thing it was required to do.

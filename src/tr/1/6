@@ -1,0 +1,17 @@
+Eğer bir üçgenin iki açısı birbirine eşitse, eşit açıları çevreleyen kenarlar da birbirine eşit olacaktır.
+
+{ABC polygon} üçgeni, {ABC angle} açısının {ACB angle} açısına eşit olduğunu varsayalım.
+Söylüyorum ki {AB line} kenarı da {AC line} kenarına eşittir.
+
+Çünkü eğer {AB line} {AC line}'dan farklı ise, ikisinden biri daha büyüktür.
+{AB line}'ın daha büyük olduğunu kabul edelim.
+Ve daha küçük olan {AC line}'a eşit olan {DB line}, daha büyük olan {AB line}'dan kesilmiş olsun [Prop. 1.3]. Ve {DC line} birleştirilmiş olsun [Post. 1].
+
+Bu nedenle, {DB line} {AC line}'a eşit olduğu ve {BC line} ortak olduğu için, {DB line}, {BC line} iki kenarı sırasıyla {AC line}, {CB line} iki kenarına eşittir ve {DBC angle} açısı {ACB angle} açısına eşittir.
+Böylece, {DC line} tabanı {AB line} tabanına eşit olacak ve {DBC polygon} üçgeni {ACB polygon} üçgenine eşit olacak [Prop. 1.4], küçük olan büyük olana.
+Bu düşünce tamamen saçma [C.N. 5].
+Böylece, {AB line} {AC line}'dan farklı değildir.
+Dolayısıyla, eşittir.
+
+Böylece, eğer bir üçgenin iki açısı birbirine eşitse, eşit açıları çevreleyen kenarlar da birbirine eşit olacaktır.
+(Gösterilmesi gereken tam olarak buydu.)

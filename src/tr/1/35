@@ -1,0 +1,21 @@
+Aynı taban üzerinde ve aynı paraleller arasında olan paralelkenarlar birbirine eşittir.
+
+{ABCD polygon} ve {EBCF polygon} paralelkenarlarının aynı taban {BC line} üzerinde ve aynı paraleller {AF line} ve {BC line} arasında olduğunu varsayalım.
+{ABCD polygon}'un paralelkenar {EBCF polygon}'a eşit olduğunu söylüyorum.
+
+Çünkü {ABCD polygon} bir paralelkenar olduğu için, {AD line} {BC line}'a eşittir [Prop. 1.34].
+Aynı şekilde, {EF line}'ın da {BC line}'a eşit olduğu anlaşılır.
+O halde {AD line} da {EF line}'a eşittir.
+Ve {DE line} ortaktır.
+Böylece, tüm (düz çizgi) {AE line} tüm (düz çizgi) {DF line}'a eşittir.
+Ve {AB line} da {DC line}'a eşittir.
+Yani iki (düz çizgi) {EA line}, {AB line} sırasıyla iki (düz çizgi) {FD line}, {DC line}'a eşittir.
+Ve açı {FDC angle}, dış açı {EAB angle}'a eşittir [Prop. 1.29].
+Böylece, taban {EB line} taban {FC line}'a eşit olur ve üçgen {EAB polygon} üçgen {DFC polygon}'a eşit olur [Prop. 1.4].
+Her iki taraftan da {DGE polygon}'un çıkarıldığını varsayalım.
+Böylece, kalan yamuk {ABGD polygon} kalan yamuk {EGCF polygon}'a eşittir.
+Her iki taraftan da üçgen {GBC polygon}'un eklendiğini varsayalım.
+Böylece, tüm paralelkenar {ABCD polygon} tüm paralelkenar {EBCF polygon}'a eşittir.
+
+Böylece, aynı taban üzerinde ve aynı paraleller arasında olan paralelkenarlar birbirine eşittir.
+(Gösterilmesi gereken şey tam olarak budur.)

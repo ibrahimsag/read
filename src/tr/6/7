@@ -1,0 +1,46 @@
+If two triangles have one angle equal to one angle, and the sides about other angles proportional, and the remaining angles either both less than, or both not less than, right-angles, then the triangles will be equiangular, and will have the angles about which the sides are proportional equal.
+
+Let {ABC polygon} and {DEF polygon} be two triangles having one angle, {BAC angle}, equal to one angle, {EDF angle} (respectively), and the sides about (some) other angles, {ABC angle} and {DEF angle} (respectively), proportional, (so that) as {AB line} (is) to {BC line}, so {DE line} (is) to {EF line}, and the remaining (angles) at {C point} and {F point}, first of all, both less than right-angles.
+I say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and (that) angle {ABC angle} will be equal to {DEF angle}, and (that) the remaining (angle) at {C point} (will be) manifestly equal to the remaining (angle) at {F point}.
+
+For if angle {ABC angle} is not equal to (angle) {DEF angle} then one of them is greater.
+Let {ABC angle} be greater.
+And let (angle) {ABG angle}, equal to (angle) {DEF angle}, have been constructed on the straight-line {AB line} at the point {B point} on it [Prop. 1.23].
+
+And since angle {BAG angle} is equal to (angle) {EDF angle}, and (angle) {ABG angle} to {DEF angle}, the remaining (angle) {AGB angle} is thus equal to the remaining (angle) {DFE angle} [Prop. 1.32].
+Thus, triangle {ABG polygon} is equiangular to triangle {DEF polygon}.
+Thus, as {AB line} is to {BG line}, so {DE line} (is) to {EF line} [Prop. 6.4].
+And as {DE line} (is) to {EF line}, [so] it was assumed (is) {AB line} to {BC line}.
+Thus, {AB line} has the same ratio to each of {BC line} and {BG line} [Prop. 5.11].
+Thus, {BC line} (is) equal to {BG line} [Prop. 5.9].
+And, hence, the angle at {C point} is equal to angle {BGC angle} [Prop. 1.5].
+And the angle at {C point} was assumed (to be) less than a right-angle.
+Thus, (angle) {BGC angle} is also less than a right-angle.
+Hence, the adjacent angle to it, {AGB angle}, is greater than a right-angle [Prop. 1.13].
+And ({AGB angle}) was shown to be equal to the (angle) at {F point}.
+Thus, the (angle) at {F point} is also greater than a right-angle.
+But it was assumed (to be) less than a right-angle.
+The very thing is absurd.
+Thus, angle {ABC angle} is not unequal to (angle) {DEF angle}.
+Thus, (it is) equal.
+And the (angle) at {A point} is also equal to the (angle) at {D point}.
+And thus the remaining (angle) at {C point} is equal to the remaining (angle) at {F point} [Prop. 1.32].
+Thus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.
+
+But, again, let each of the (angles) at {C point} and {F point} be assumed (to be) not less than a right-angle.
+I say, again, that triangle {ABC polygon} is equiangular to triangle {DEF polygon} in this case also.
+
+For, with the same construction, we can similarly show that {BC line} is equal to {BG line}.
+Hence, also, the angle at {C point} is equal to (angle) {BGC angle}.
+And the (angle) at {C point} (is) not less than a right-angle.
+Thus, {BGC angle} (is) not less than a right-angle either.
+So, in triangle {BGC polygon} the (sum of) two angles is not less than two right-angles.
+The very thing is impossible [Prop. 1.17].
+Thus, again, angle {ABC angle} is not unequal to {DEF angle}.
+Thus, (it is) equal.
+And the (angle) at {A point} is also equal to the (angle) at {D point}.
+Thus, the remaining (angle) at {C point} is equal to the remaining (angle) at {F point} [Prop. 1.32].
+Thus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.
+
+Thus, if two triangles have one angle equal to one angle, and the sides about other angles proportional, and the remaining angles both less than, or both not less than, right-angles, then the triangles will be equiangular, and will have the angles about which the sides (are) proportional equal.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,52 @@
+If an area is contained by a rational (straight-line) and a second apotome then the square-root of the area is a first apotome of a medial (straight-line).
+
+For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the second apotome {AD line}.
+I say that the square-root of area {AB polygon} is the first apotome of a medial(straight-line).
+
+For let {DG line} be an attachment to {AD line}.
+Thus, {AG line} and {GD line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and the attachment {DG line} is commensurable (in length) with the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {GD line}, by the (square) on (some straight-line) commensurable in length with ({AG line}) [Def. 10.12].
+Therefore, since the square on {AG line} is greater than (the square on) {GD line} by the (square) on (some straight-line) commensurable (in length) with ({AG line}), thus if (an area) equal to the fourth part of the (square) on {GD line} is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) commensurable (in length) [Prop. 10.17].
+Therefore, let {DG line} have been cut in half at {E point}.
+And let (an area) equal to the (square) on {EG line} have been applied to {AG line}, falling short by a square figure.
+And let it be the (rectangle contained) by {AF line} and {FG line}.
+Thus, {AF line} is commensurable in length with {FG line}.
+{AG line} is thus also commensurable in length with each of {AF line} and {FG line} [Prop. 10.15].
+And {AG line} (is) a rational (straight-line), and incommensurable in length with {AC line}.
+{AF line} and {FG line} are thus also each rational (straight-lines), and incommensurable in length with {AC line} [Prop. 10.13].
+Thus, {AI polygon} and {FK polygon} are each medial (areas) [Prop. 10.21].
+Again, since {DE line} is commensurable (in length) with {EG line}, thus {DG line} is also commensurable (in length) with each of {DE line} and {EG line} [Prop. 10.15].
+But, {DG line} is commensurable in length with {AC line} [thus, {DE line} and {EG line} are also each rational, and commensurable in length with {AC line}].
+Thus, {DH polygon} and {EK polygon} are each rational (areas) [Prop. 10.19].
+
+Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
+And let {NO polygon}, equal to {FK polygon}, which is about the same angle {LPM angle} as {LM polygon}, have been subtracted (from {LM polygon}).
+Thus, the squares {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
+Let {PR line} be their (common) diagonal, and let the (rest of the) figure have been drawn.
+Therefore, since {AI polygon} and {FK polygon} are medial (areas), and are equal to the (squares) on {LP line} and {PN line} (respectively), [thus] the (squares) on {LP line} and {PN line} are also medial.
+Thus, {LP line} and {PN line} are also medial (straight-lines which are) commensurable in square only.
+And since the (rectangle contained) by {AF line} and {FG line} is equal to the (square) on {EG line}, thus as {AF line} is to {EG line}, so {EG line} (is) to {FG line} [Prop. 10.17].
+But, as {AF line} (is) to {EG line}, so {AI polygon} (is) to {EK polygon}.
+And as {EG line} (is) to {FG line}, so {EK polygon} [is] to {FK polygon} [Prop. 6.1].
+Thus, {EK polygon} is the mean proportional to {AI polygon} and {FK polygon} [Prop. 5.11].
+And {MN polygon} is also the mean proportional to the squares {LM polygon} and {NO polygon} [Prop. 10.53 lem.].
+And {AI polygon} is equal to {LM polygon}, and {FK polygon} to {NO polygon}.
+Thus, {MN polygon} is also equal to {EK polygon}.
+But, {DH polygon} [is] equal to {EK polygon}, and {LO polygon} equal to {MN polygon} [Prop. 1.43].
+Thus, the whole (of) {DK polygon} is equal to the gnomon {UVW given} and {NO polygon}.
+Therefore, since the whole (of) {AK polygon} is equal to {LM polygon} and {NO polygon}, of which {DK polygon} is equal to the gnomon {UVW given} and {NO polygon}, the remainder {AB polygon} is thus equal to {TS polygon}.
+And {TS polygon} is the (square) on {LN line}.
+Thus, the (square) on {LN line} is equal to the area {AB polygon}.
+{LN line} is thus the square-root of area {AB polygon}.
+[So], I say that {LN line} is the first apotome of a medial (straight-line).
+
+For since {EK polygon} is a rational (area), and is equal to {LO polygon}, {LO polygon}---that is to say, the (rectangle contained) by {LP line} and {PN line}---is thus a rational (area).
+And {NO polygon} was shown (to be) a medial (area).
+Thus, {LO polygon} is incommensurable with {NO polygon}.
+And as {LO polygon} (is) to {NO polygon}, so {LP line} is to {PN line} [Prop. 6.1].
+Thus, {LP line} and {PN line} are incommensurable in length [Prop. 10.11].
+{LP line} and {PN line} are thus medial (straight-lines which are) commensurable in square only, and which contain a rational (area).
+Thus, {LN line} is the first apotome of a medial (straight-line) [Prop. 10.74].
+And it is the square-root of area {AB polygon}.
+
+Thus, the square root of area {AB polygon} is the first apotome of a medial (straight-line).
+(Which is) the very thing it was required to show.

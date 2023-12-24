@@ -1,0 +1,17 @@
+Aynı taban üzerinde ve aynı paraleller arasında olan üçgenler birbirine eşittir.
+
+{ABC polygon} ve {DBC polygon} üçgenlerinin aynı taban {BC line} üzerinde ve aynı paraleller {AD line} ve {BC line} arasında olduğunu varsayalım.
+Üçgen {ABC polygon}'un üçgen {DBC polygon}'a eşit olduğunu söylüyorum.
+
+{AD line}'ın her iki yönde {E point} ve {F point}'e kadar uzatıldığını ve {B point} üzerinden {CA line}'a paralel olarak {BE line}'ın çizildiğini [Prop. 1.31] ve {C point} üzerinden {BD line}'a paralel olarak {CF line}'ın çizildiğini [Prop. 1.31] varsayalım.
+Böylece, {EBCA polygon} ve {DBCF polygon} her ikisi de paralelkenar olup eşittirler.
+Çünkü onlar aynı taban {BC line} üzerinde ve aynı paraleller {BC line} ve {EF line} arasındadırlar [Prop. 1.35].
+Ve üçgen {ABC polygon}, paralelkenar {EBCA polygon}'ın yarısıdır.
+Çünkü köşegen {AB line}, sonuncuyu yarıya böler [Prop. 1.34].
+Ve üçgen {DBC polygon}, paralelkenar {DBCF polygon}'ın yarısıdır.
+Çünkü köşegen {DC line}, sonuncuyu yarıya böler [Prop. 1.34].
+[Ve eşit şeylerin yarıları birbirine eşittir.]
+Böylece, üçgen {ABC polygon} üçgen {DBC polygon}'a eşittir.
+
+Böylece, aynı taban üzerinde ve aynı paraleller arasında olan üçgenler birbirine eşittir.
+(Gösterilmesi gereken tam olarak budur.)

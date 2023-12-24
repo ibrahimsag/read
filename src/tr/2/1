@@ -1,0 +1,22 @@
+If there are two straight-lines, and one of them is cut into any number of pieces whatsoever, then the rectangle contained by the two straight-lines is equal to the (sum of the) rectangles contained by the uncut (straight-line), and every one of the pieces (of the cut straight-line).
+
+Let {A given} and {BC line} be the two straight-lines, and let {BC line} be cut, at random, at points {D point} and {E point}.
+I say that the rectangle contained by {A given} and {BC line} is equal to the rectangle(s) contained by {A given} and {BD line}, by {A given} and {DE line}, and, finally, by {A given} and {EC line}.
+
+For let {BF line} have been drawn from point {B point}, at right-angles to {BC line} [Prop. 1.11],
+and let {BG line} be made equal to {A given} [Prop. 1.3],
+and let {GH line} have been drawn through (point) {G point}, parallel to {BC line} [Prop. 1.31],
+and let {DK line}, {EL line}, and {CH line} have been drawn through (points) {D point}, {E point}, and {C point} (respectively), parallel to {BG line} [Prop. 1.31].
+
+So the (rectangle) {BH polygon} is equal to the (rectangles) {BK polygon}, {DL polygon}, and {EH polygon}.
+And {BH polygon} is the (rectangle contained) by {A given} and {BC line}.
+For it is contained by {GB line} and {BC line}, and {BG line} (is) equal to {A given}.
+And {BK polygon} (is) the (rectangle contained) by {A given} and {BD line}.
+For it is contained by {GB line} and {BD line}, and {BG line} (is) equal to {A given}.
+And {DL polygon} (is) the (rectangle contained) by {A given} and {DE line}.
+For {DK line}, that is to say {BG line} [Prop. 1.34], (is) equal to {A given}.
+Similarly, {EH polygon} (is) also the (rectangle contained) by {A given} and {EC line}.
+Thus, the (rectangle contained) by {A given} and {BC line} is equal to the (rectangles contained) by {A given} and {BD line}, by {A given} and {DE line}, and, finally, by {A given} and {EC line}.
+
+Thus, if there are two straight-lines, and one of them is cut into any number of pieces whatsoever, then the rectangle contained by the two straight-lines is equal to the (sum of the) rectangles contained by the uncut (straight-line), and every one of the pieces (of the cut straight-line).
+(Which is) the very thing it was required to show.

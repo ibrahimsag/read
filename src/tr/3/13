@@ -1,0 +1,28 @@
+A circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
+
+For, if possible, let circle {ABDC circle O} touch circle {EBFD given}---first of all, internally---at more than one point, {D point} and {B point}.
+
+And let the center {G point} of circle {ABDC circle O} have been found [Prop. 3.1], and (the center) {H point} of {EBFD given} [Prop. 3.1].
+
+Thus, the (straight-line) joining {G point} and {H point} will fall on {B point} and {D point} [Prop. 3.11].
+Let it fall like {BGHD line} (in the figure).
+And since point {G point} is the center of circle {ABDC circle O}, {BG line} is equal to {GD line}.
+Thus, {BG line} (is) greater than {HD line}.
+Thus, {BH line} (is) much greater than {HD line}.
+Again, since point {H point} is the center of circle {EBFD given}, {BH line} is equal to {HD line}.
+But it was also shown (to be) much greater than it.
+The very thing (is) impossible.
+Thus, a circle does not touch a(nother) circle internally at more than one point.
+
+So, I say that neither (does it touch) externally (at more than one point).
+
+For, if possible, let circle {ACK circle P} touch circle {ABDC circle O} externally at more than one point, {A point} and {C point}.
+And let {AC line} have been joined.
+
+Therefore, since two points, {A point} and {C point}, have been taken at random on the circumference of each of the circles {ABDC circle O} and {ACK circle P}, the straight-line joining the points will fall inside each (circle) [Prop. 3.2].
+But, it fell inside {ABDC circle O}, and outside {ACK circle P} [Def. 3.3].
+The very thing (is) absurd.
+Thus, a circle does not touch a(nother) circle externally at more than one point.
+And it was shown that neither (does it) internally.
+Thus, a circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,24 @@
+To describe a rectilinear figure similar, and similarly laid down, to a given rectilinear figure on a given straight-line.
+
+Let {AB line} be the given straight-line, and {CE polygon} the given rectilinear figure.
+So it is required to describe a rectilinear figure similar, and similarly laid down, to the rectilinear figure {CE polygon} on the straight-line {AB line}.
+
+Let {DF line} have been joined, and let {GAB angle}, equal to the angle at {C point}, and {ABG angle}, equal to (angle) {CDF angle}, have been constructed on the straight-line {AB line} at the points {A point} and {B point} on it (respectively) [Prop. 1.23].
+Thus, the remaining (angle) {CFD angle} is equal to {AGB angle} [Prop. 1.32].
+Thus, triangle {FCD polygon} is equiangular to triangle {GAB polygon}.
+Thus, proportionally, as {FD line} is to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line} [Prop. 6.4].
+Again, let {BGH angle}, equal to angle {DFE angle}, and {GBH angle} equal to (angle) {FDE angle}, have been constructed on the straight-line {BG line} at the points {G point} and {B point} on it (respectively) [Prop. 1.23].
+Thus, the remaining (angle) at {E point} is equal to the remaining (angle) at {H point} [Prop. 1.32].
+Thus, triangle {FDE polygon} is equiangular to triangle {GHB polygon}.
+Thus, proportionally, as {FD line} is to {GB line}, so {FE line} (is) to {GH line}, and {ED line} to {HB line} [Prop. 6.4].
+And it was also shown (that) as {FD line} (is) to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line}.
+Thus, also, as {FC line} (is) to {AG line}, so {CD line} (is) to {AB line}, and {FE line} to {GH line}, and, further, {ED line} to {HB line}.
+And since angle {CFD angle} is equal to {AGB angle}, and {DFE angle} to {BGH angle}, thus the whole (angle) {CFE angle} is equal to the whole (angle) {AGH angle}.
+So, for the same (reasons), (angle) {CDE angle} is also equal to {ABH angle}.
+And the (angle) at {C point} is also equal to the (angle) at {A point}, and the (angle) at {E point} to the (angle) at {H point}.
+Thus, (figure) {AH polygon} is equiangular to {CE polygon}.
+And (the two figures) have the sides about their equal angles proportional.
+Thus, the rectilinear figure {AH polygon} is similar to the rectilinear figure {CE polygon} [Def. 6.1].
+
+Thus, the rectilinear figure {AH polygon}, similar, and similarly laid down, to the given rectilinear figure {CE polygon} has been constructed on the given straight-line {AB line}.
+(Which is) the very thing it was required to do.

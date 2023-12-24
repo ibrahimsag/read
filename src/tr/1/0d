@@ -1,0 +1,45 @@
+1. Bir nokta, parçası olmayan şeydir.
+
+2. Ve bir çizgi, genişliği olmayan bir uzunluktur.
+
+3. Ve bir çizginin uçları noktalardır.
+
+4. Düz bir çizgi, üzerindeki noktalarla düzgün bir şekilde yatan herhangi bir çizgidir.
+
+5. Ve bir yüzey, sadece uzunluğu ve genişliği olan şeydir.
+
+6. Ve bir yüzeyin uç noktaları çizgilerdir.
+
+7. Düz bir yüzey, üzerindeki düz çizgilerle düzgün bir şekilde yatan herhangi bir yüzeydir.
+
+8. Ve bir düzlem açı, iki çizginin bir düzlemde birbirine eğimli olduğu, ve düz bir çizgide yatmayan durumdur.
+
+9. Ve açıyı içeren çizgiler düz olduğunda, açı doğrusal açı olarak adlandırılır.
+
+10. Ve bir düz çizgi, bitişik açıları birbirine eşit yapan (başka bir) düz çizgi üzerine dikildiğinde, eşit açıların her biri bir dik açıdır ve ilk düz çizgi, üzerine dikildiği çizgiye dik olarak adlandırılır.
+
+11. Geniş açı, dik açıdan daha büyük olanıdır.
+
+12. Ve dar açı, dik açıdan daha küçük olanıdır.
+
+13. Bir sınır, bir şeyin uç noktasıdır.
+
+14. Bir şekil, bir sınır veya sınırlar tarafından çevrelenen şeydir.
+
+15. Bir daire, tek bir çizgi tarafından çevrelenen düz bir şekildir [bu çizgiye çevre denir], (öyle ki) şeklin içinde yatan noktalardan birinden [çevreye] doğru yayılan tüm düz çizgiler birbirine eşittir.
+
+16. Ve bu nokta, dairenin merkezi olarak adlandırılır.
+
+17. Ve dairenin bir çapı, merkezden çizilmiş ve her iki yönde dairenin çevresi tarafından sınırlanmış herhangi bir düz çizgidir. (Ve) herhangi bir böyle (düz çizgi) daireyi yarıya böler.
+
+18. Ve bir yarı çember, çap tarafından ve onunla kesilen çevre tarafından çevrelenen şekildir. Ve yarı çemberin merkezi, dairenin merkezi ile aynı (nokta)dır.
+
+19. Düz çizgiler tarafından çevrelenen (şekiller) doğrusal şekillerdir: üç düz çizgi tarafından çevrelenenler üçgen şekiller, dört tarafından çevrelenenler dörtgen şekiller ve dörtten fazla tarafından çevrelenenler çokgen şekillerdir.
+
+20. Ve üçgen şekillerden: eşkenar üçgen, üç eşit kenarı olan üçgendir, ikizkenar (üçgen) yalnızca iki eşit kenarı olan üçgendir ve çeşitkenar (üçgen) üç eşitsiz kenarı olan üçgendir.
+
+21. Ve ayrıca üçgen şekillerden: dik açılı bir üçgen, bir dik açısı olan üçgendir, geniş açılı (üçgen) bir geniş açısı olan üçgendir ve dar açılı (üçgen) üç dar açısı olan üçgendir.
+
+22. Ve dörtgen şekillerden: bir kare, dik açılı ve eşkenar olanıdır, bir dikdörtgen dik açılı ama eşkenar olmayanıdır, bir eşkenar dörtgen eşkenar ama dik açılı olmayanıdır ve bir paralelkenar karşılıklı kenarları ve açıları birbirine eşit olanıdır ki ne dik açılı ne de eşkenardır. Ve bunların dışındaki dörtgen şekillere yamuk adı verilsin.
+
+23. Paralel çizgiler, aynı düzlemde bulunan ve her iki yönde sonsuza kadar uzatıldığında birbirleriyle hiçbir yönde kesişmeyen düz çizgilerdir.

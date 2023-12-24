@@ -1,0 +1,18 @@
+If a square number does not measure a(nother) square number then the side (of the former) will not measure the side (of the latter) either.
+And if the side (of a square number) does not measure the side (of another square number) then the (former) square (number) will not measure the (latter) square (number) either.
+
+Let {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} and {D magnitude} be their sides (respectively).
+And let {A magnitude} not measure {B magnitude}.
+I say that {C magnitude} does not measure {D magnitude} either.
+
+For if {C magnitude} measures {D magnitude} then {A magnitude} will also measure {B magnitude} [Prop. 8.14].
+And {A magnitude} does not measure {B magnitude}.
+Thus, {C magnitude} will not measure {D magnitude} either.
+
+[So], again, let {C magnitude} not measure {D magnitude}.
+I say that {A magnitude} will not measure {B magnitude} either.
+
+For if {A magnitude} measures {B magnitude} then {C magnitude} will also measure {D magnitude} [Prop. 8.14].
+And {C magnitude} does not measure {D magnitude}.
+Thus, {A magnitude} will not measure {B magnitude} either.
+(Which is) the very thing it was required to show.

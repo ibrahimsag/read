@@ -1,0 +1,43 @@
+The square on a binomial (straight-line) applied to a rational (straight-line) produces as breadth a first binomial (straight-line).
+
+Let {AB magnitude} be a binomial (straight-line), having been divided into its (component) terms at {C point}, such that {AC magnitude} is the greater term.
+And let the rational (straight-line) {DE line} be laid down.
+And let the (rectangle) {DEFG polygon}, equal to the (square) on {AB magnitude}, have been applied to {DE line}, producing {DG line} as breadth.
+I say that {DG line} is a first binomial (straight-line).
+
+For let {DH polygon}, equal to the (square) on {AC magnitude}, and {KL polygon}, equal to the (square) on {BC magnitude}, have been applied to {DE line}.
+Thus, the remaining twice the (rectangle contained) by {AC magnitude} and {CB magnitude} is equal to {MF polygon} [Prop. 2.4].
+Let {MG line} have been cut in half at {N point}, and let {NO line} have been drawn parallel [to each of {ML line} and {GF line}].
+{MO polygon} and {NF polygon} are thus each equal to once the (rectangle contained) by {ACB magnitude}.
+And since {AB magnitude} is a binomial (straight-line), having been divided into its (component) terms at {C point}, {AC magnitude} and {CB magnitude} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
+Thus, the (squares) on {AC magnitude} and {CB magnitude} are rational, and commensurable with one another.
+And hence the sum of the (squares) on {AC magnitude} and {CB magnitude} (is rational) [Prop. 10.15], and is equal to {DL polygon}.
+Thus, {DL polygon} is rational.
+And it is applied to the rational (straight-line) {DE line}.
+{DM line} is thus rational, and commensurable in length with {DE line} [Prop. 10.20].
+Again, since {AC magnitude} and {CB magnitude} are rational (straight-lines which are) commensurable in square only, twice the (rectangle contained) by {AC magnitude} and {CB magnitude}---that is to say, {MF polygon}---is thus medial [Prop. 10.21].
+And it is applied to the rational (straight-line) {ML line}.
+{MG line} is thus also rational, and incommensurable in length with {ML line}---that is to say, with {DE line} [Prop. 10.22].
+And {MD line} is also rational, and commensurable in length with {DE line}.
+Thus, {DM line} is incommensurable in length with {MG line} [Prop. 10.13].
+And they are rational.
+{DM line} and {MG line} are thus rational (straight-lines which are) commensurable in square only.
+Thus, {DG line} is a binomial (straight-line) [Prop. 10.36].
+So, we must show that (it is) also a first (binomial straight-line).
+
+Since the (rectangle contained) by {ACB magnitude} is the mean proportional to the squares on {AC magnitude} and {CB magnitude} [Prop. 10.53 lem.], {MO polygon} is thus also the mean proportional to {DH polygon} and {KL polygon}.
+Thus, as {DH polygon} is to {MO polygon}, so {MO polygon} (is) to {KL polygon}---that is to say, as {DK line} (is) to {MN line}, (so) {MN line} (is) to {MK line} [Prop. 6.1].
+Thus, the (rectangle contained) by {DK line} and {KM line} is equal to the (square) on {MN line} [Prop. 6.17].
+And since the (square) on {AC magnitude} is commensurable with the (square) on {CB magnitude}, {DH polygon} is also commensurable with {KL polygon}.
+Hence, {DK line} is also commensurable with {KM line} [Props. 6.1, 10.11].
+And since (the sum of) the squares on {AC magnitude} and {CB magnitude} is greater than twice the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.59 lem.], {DL polygon} (is) thus also greater than {MF polygon}.
+Hence, {DM line} is also greater than {MG line} [Props. 6.1, 5.14].
+And the (rectangle contained) by {DK line} and {KM line} is equal to the (square) on {MN line}---that is to say, to one quarter the (square) on {MG line}.
+And {DK line} (is) commensurable (in length) with {KM line}.
+And if there are two unequal straight-lines, and a (rectangle) equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) commensurable (in length), then the square on the greater is larger than (the square on) the lesser by the (square) on (some straight-line) commensurable (in length) with the greater [Prop. 10.17].
+Thus, the square on {DM line} is greater than (the square on) {MG line} by the (square) on (some straight-line) commensurable (in length) with ({DM line}).
+And {DM line} and {MG line} are rational.
+And {DM line}, which is the greater term, is commensurable in length with the (previously) laid down rational (straight-line) {DE line}.
+
+Thus, {DG line} is a first binomial (straight-line) [Def. 10.5].
+(Which is) the very thing it was required to show.

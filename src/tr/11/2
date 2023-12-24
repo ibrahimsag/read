@@ -1,0 +1,16 @@
+If two straight-lines cut one another then they are in one plane, and every triangle (formed using segments of both lines) is in one plane.
+
+For let the two straight-lines {AB line} and {CD line} have cut one another at point {E point}.
+I say that {AB line} and {CD line} are in one plane, and that every triangle (formed using segments of both lines) is in one plane.
+
+For let the random points {F point} and {G point} have been taken on {EC line} and {EB line} (respectively).
+And let {CB line} and {FG line} have been joined, and let {FH line} and {GK line} have been drawn across.
+I say, first of all, that triangle {ECB polygon} is in one (reference) plane.
+For if part of triangle {ECB polygon}, either {FHC polygon} or {GBK polygon}, is in the reference [plane], and the remainder in a different (plane) then a part of one the straight-lines {EC line} and {EB line} will also be in the reference plane, and (a part) in a different (plane).
+And if the part {FCBG polygon} of triangle {ECB polygon} is in the reference plane, and the remainder in a different (plane) then parts of both of the straight-lines {EC line} and {EB line} will also be in the reference plane, and (parts) in a different (plane).
+The very thing was shown to be absurb [Prop. 11.1].
+Thus, triangle {ECB polygon} is in one plane.
+And in whichever (plane) triangle {ECB polygon} is (found), in that (plane) {EC line} and {EB line} (will) each also (be found).
+And in whichever (plane) {EC line} and {EB line} (are) each (found), in that (plane) {AB line} and {CD line} (will) also (be found) [Prop. 11.1].
+Thus, the straight-lines {AB line} and {CD line} are in one plane, and every triangle (formed using segments of both lines) is in one plane.
+(Which is) the very thing it was required to show.

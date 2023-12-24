@@ -1,0 +1,21 @@
+To cut a given finite straight-line in extreme and mean ratio.
+
+Let {AB line} be the given finite straight-line.
+So it is required to cut the straight-line {AB line} in extreme and mean ratio.
+
+Let the square {BC polygon} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CD polygon}, equal to {BC polygon}, have been applied to {AC line}, overshooting by the figure {AD polygon} (which is) similar to {BC polygon} [Prop. 6.29].
+
+And {BC polygon} is a square.
+Thus, {AD polygon} is also a square.
+And since {BC polygon} is equal to {CD polygon}, let (rectangle) {CE polygon} have been subtracted from both.
+Thus, the remaining (rectangle) {BF polygon} is equal to the remaining (square) {AD polygon}.
+And it is also equiangular to it.
+Thus, the sides of {BF polygon} and {AD polygon} about the equal angles are reciprocally proportional [Prop. 6.14].
+Thus, as {FE line} is to {ED line}, so {AE line} (is) to {EB line}.
+And {FE line} (is) equal to {AB line}, and {ED line} to {AE line}.
+Thus, as {BA line} is to {AE line}, so {AE line} (is) to {EB line}.
+And {AB line} (is) greater than {AE line}.
+Thus, {AE line} (is) also greater than {EB line} [Prop. 5.14].
+
+Thus, the straight-line {AB line} has been cut in extreme and mean ratio at {E point}, and {AE line} is its greater piece.
+(Which is) the very thing it was required to do.

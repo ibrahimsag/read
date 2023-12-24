@@ -1,0 +1,22 @@
+Eğer iki üçgenin iki kenarı sırasıyla iki kenara eşitse, ancak (birindeki) eşit düz çizgiler tarafından kapsanan açı (diğerindeki) karşılık gelen açıdan daha büyükse, (bu üçgenin) tabanı da (diğerinin) tabanından daha büyük olacaktır.
+
+{ABC polygon} ve {DEF polygon} iki üçgen olsun ve iki kenar {AB line} ve {AC line}, sırasıyla {DE line} ve {DF line} iki kenarına eşit olsun.
+(Yani), {AB line} {DE line}'a ve {AC line} {DF line}'a eşittir.
+Ayrıca {BAC angle} açısının {FDE angle} açısından daha büyük olduğunu varsayalım.
+Tabanın {BC line} tabanından {EF line} tabanından daha büyük olduğunu söylüyorum.
+
+Çünkü {BAC angle} açısı {EDF angle} açısından daha büyük olduğundan, {BAC angle} açısına eşit olan {EDG angle} açısı {D point} noktasında düz çizgi {DE line} üzerinde yapılmış olsun [Prop. 1.23].
+Ve {DG line} ya {AC line}'a ya da {DF line}'a eşit yapılsın [Prop. 1.3], ve {EG line} ile {FG line} birleştirilsin.
+
+Bu nedenle, {AB line} {DE line}'a ve {AC line} {DG line}'a eşit olduğundan, iki (düz çizgi) {BA line}, {AC line} sırasıyla iki (düz çizgi) {ED line}, {DG line}'a eşittir.
+Ayrıca {BAC angle} açısı {EDG angle} açısına eşittir.
+Böylece, taban {BC line} taban {EG line}'a eşittir [Prop. 1.4].
+Yine, {DF line} {DG line}'a eşit olduğundan, {DGF angle} açısı da {DFG angle} açısına eşittir [Prop. 1.5].
+Böylece, {DFG angle} (açısı) {EGF angle} (açısından) daha büyüktür.
+Böylece, {EFG angle} açısı {EGF angle} açısından çok daha büyüktür.
+Ve {EFG polygon} üçgeninin {EFG angle} açısı {EGF angle} açısından daha büyük olduğundan ve daha büyük açı daha büyük kenarı karşılar [Prop. 1.19], {EG line} kenarı da {EF line}'dan daha büyüktür.
+Ama {EG line} {BC line}'a eşittir.
+Böylece, {BC line} da {EF line}'dan daha büyüktür.
+
+Böylece, eğer iki üçgenin iki kenarı sırasıyla iki kenara eşitse, ancak (birindeki) eşit düz çizgiler tarafından kapsanan açı (diğerindeki) karşılık gelen açıdan daha büyükse, (bu üçgenin) tabanı da (diğerinin) tabanından daha büyük olacaktır.
+(Gösterilmesi gereken şey tam olarak budur.)

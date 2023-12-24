@@ -1,0 +1,34 @@
+If three angles, either consecutive or not consecutive, of an equilateral pentagon are equal then the pentagon will be equiangular.
+
+For let three angles of the equilateral pentagon {ABCDE polygon}—first of all, the consecutive (angles) at {A point}, {B point}, and {C point}—-be equal to one another.
+I say that pentagon {ABCDE polygon} is equiangular.
+
+For let {AC line}, {BE line}, and {FD line} have been joined.
+And since the two (straight-lines) {CB line} and {BA line} are equal to the two (straight-lines) {BA line} and {AE line}, respectively, and angle {CBA angle} is equal to angle {BAE angle}, base {AC line} is thus equal to base {BE line}, and triangle {ABC polygon} equal to triangle {ABE polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4], (that is), {BCA angle} (equal) to {BEA angle}, and {ABE angle} to {CAB angle}.
+And hence side {AF line} is also equal to side {BF line} [Prop. 1.6].
+And the whole of {AC line} was also shown (to be) equal to the whole of {BE line}.
+Thus, the remainder {FC line} is also equal to the remainder {FE line}.
+And {CD line} is also equal to {DE line}.
+So, the two (straight-lines) {FC line} and {CD line} are equal to the two (straight-lines) {FE line} and {ED line} (respectively).
+And {FD line} is their common base.
+Thus, angle {FCD angle} is equal to angle {FED angle} [Prop. 1.8].
+And {BCA angle} was also shown (to be) equal to {AEB angle}.
+And thus the whole of {BCD angle} (is) equal to the whole of {AED angle}.
+But, (angle) {BCD angle} was assumed (to be) equal to the angles at {A point} and {B point}.
+Thus, (angle) {AED angle} is also equal to the angles at {A point} and {B point}.
+So, similarly, we can show that angle {CDE angle} is also equal to the angles at {A point}, {B point}, {C point}.
+Thus, pentagon {ABCDE polygon} is equiangular.
+
+And so let consecutive angles not be equal, but let the (angles) at points {A point}, {C point}, and {D point} be equal.
+I say that pentagon {ABCDE polygon} is also equiangular in this case.
+
+For let {BD line} have been joined.
+And since the two (straight-lines) {BA line} and {AE line} are equal to the (straight-lines) {BC line} and {CD line}, and they contain equal angles, base {BE line} is thus equal to base {BD line}, and triangle {ABE polygon} is equal to triangle {BCD polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4].
+Thus, angle {AEB polygon} is equal to (angle) {CDB polygon}.
+And angle {BED angle} is also equal to (angle) {BDE angle}, since side {BE line} is also equal to side {BD line} [Prop. 1.5].
+Thus, the whole angle {AED angle} is also equal to the whole (angle) {CDE angle}.
+But, (angle) {CDE angle} was assumed (to be) equal to the angles at {A point} and {C point}.
+Thus, angle {AED angle} is also equal to the (angles) at {A point} and {C point}.
+So, for the same (reasons), (angle) {ABC angle} is also equal to the angles at {A point}, {C point}, and {D point}.
+Thus, pentagon {ABCDE polygon} is equiangular.
+(Which is) the very thing it was required to show.

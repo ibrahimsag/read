@@ -1,0 +1,107 @@
+To construct a dodecahedron, and to enclose (it) in a sphere, like the aforementioned figures, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.
+
+Let two planes of the aforementioned cube [Prop. 13.15], {ABCD polygon} and {CBEF polygon}, (which are) at right-angles to one another, be laid out.
+And let the sides {AB line}, {BC line}, {CD line}, {DA line}, {EF line}, {EB line}, and {FC line} have each been cut in half at points {G point}, {H point}, {K point}, {L point}, {M point}, {N point}, and {O point} (respectively).
+And let {GK line}, {HL line}, {MH line}, and {NO line} have been joined.
+And let {NP line}, {PO line}, and {HQ line} have each been cut in extreme and mean ratio at points {R point}, {S point}, and {T point} (respectively).
+And let their greater pieces be {RP line}, {PS line}, and {TQ line} (respectively).
+And let {RU line}, {SV line}, and {TW line} have been set up on the exterior side of the cube, at points {R point}, {S point}, and {T point} (respectively), at right-angles to the planes of the cube.
+And let them be made equal to {RP line}, {PS line}, and {TQ line}.
+And let {UB line}, {BW line}, {WC line}, {CV line}, and {VU line} have been joined.
+
+I say that the pentagon {UBWCV polygon} is equilateral, and in one plane, and, further, equiangular.
+For let {RB line}, {SB line}, and {VB line} have been joined.
+And since the straight-line {NP line} has been cut in extreme and mean ratio at {R point}, and {RP line} is the greater piece, the (sum of the squares) on {PN line} and {NR line} is thus three times the (square) on {RP line} [Prop. 13.4].
+And {PN line} (is) equal to {NB line}, and {PR line} to {RU line}.
+Thus, the (sum of the squares) on {BN line} and {NR line} is three times the (square) on {RU line}.
+And the (square) on {BR line} is equal to the (sum of the squares) on {BN line} and {NR line} [Prop. 1.47].
+Thus, the (square) on {BR line} is three times the (square) on {RU line}.
+Hence, the (sum of the squares) on {BR line} and {RU line} is four times the (square) on {RU line}.
+And the (square) on {BU line} is equal to the (sum of the squares) on {BR line} and {RU line} [Prop. 1.47].
+Thus, the (square) on {BU line} is four times the (square) on {UR line}.
+Thus, {BU line} is double {RU line}.
+And {VU line} is also double {UR line}, inasmuch as {SR line} is also double {PR line}—that is to say, {RU line}.
+Thus, {BU line} (is) equal to {UV line}.
+So, similarly, it can be shown that each of {BW line}, {WC line}, {CV line} is equal to each of {BU line} and {UV line}.
+Thus, pentagon {BUVCW polygon} is equilateral.
+So, I say that it is also in one plane.
+For let {PX line} have been drawn from {P point}, parallel to each of {RU line} and {SV line}, on the exterior side of the cube.
+And let {XH line} and {HW line} have been joined.
+I say that {XHW line} is a straight-line.
+For since {HQ line} has been cut in extreme and mean ratio at {T point}, and {QT line} is its greater piece, thus as {HQ line} is to {QT line}, so {QT line} (is) to {TH line}.
+And {HQ line} (is) equal to {HP line}, and {QT line} to each of {TW line} and {PX line}.
+Thus, as {HP line} is to {PX line}, so {WT line} (is) to {TH line}.
+And {HP line} is parallel to {TW line}.
+For of each of them is at right-angles to the plane {BD polygon} [Prop. 11.6].
+And {TH line} (is parallel) to {PX line}.
+For each of them is at right-angles to the plane {BF polygon} [Prop. 11.6].
+And if two triangles, like {XPH polygon} and {HTW polygon}, having two sides proportional to two sides, are placed together at a single angle such that their corresponding sides are also parallel then the remaining sides will be straight-on (to one another) [Prop. 6.32].
+Thus, {XH line} is straight-on to {HW line}.
+And every straight-line is in one plane [Prop. 11.1].
+Thus, pentagon {UBWCV polygon} is in one plane.
+
+So, I say that it is also equiangular.
+
+For since the straight-line {NP line} has been cut in extreme and mean ratio at {R point}, and {PR line} is the greater piece [thus as the sum of {NP line} and {PR line} is to {PN line}, so {NP line} (is) to {PR line}], and {PR line} (is) equal to {PS line} [thus as {SN line} is to {NP line}, so {NP line} (is) to {PS line}], {NS line} has thus also been cut in extreme and mean ratio at {P point}, and {NP line} is the greater piece [Prop. 13.5].
+Thus, the (sum of the squares) on {NS line} and {SP line} is three times the (square) on {NP line} [Prop. 13.4].
+And {NP line} (is) equal to {NB line}, and {PS line} to {SV line}.
+Thus, the (sum of the) squares on {NS line} and {SV line} is three times the (square) on {NB line}.
+Hence, the (sum of the squares) on {VS line}, {SN line}, and {NB line} is four times the (square) on {NB line}.
+And the (square) on {SB line} is equal to the (sum of the squares) on {SN line} and {NB line} [Prop. 1.47].
+Thus, the (sum of the squares) on {BS line} and {SV line} —that is to say, the (square) on {BV line} [for angle {VSB angle} (is) a right-angle]—is four times the (square) on {NB line} [Def. 11.3, Prop. 1.47].
+Thus, {VB line} is double {BN line}.
+And {BC line} (is) also double {BN line}.
+Thus, {BV line} is equal to {BC line}.
+And since the two (straight-lines) {BU line} and {UV line} are equal to the two (straight-lines) {BW line} and {WC line} (respectively), and the base {BV line} (is) equal to the base {BC line}, angle {BUV angle} is thus equal to angle {BWC angle} [Prop. 1.8].
+So, similarly, we can show that angle {UVC angle} is equal to angle {BWC angle}.
+Thus, the three angles {BWC angle}, {BUV angle}, and {UVC angle} are equal to one another.
+And if three angles of an equilateral pentagon are equal to one another then the pentagon is equiangular [Prop. 13.7].
+Thus, pentagon {BUVCW polygon} is equiangular.
+And it was also shown (to be) equilateral.
+Thus, pentagon {BUVCW polygon} is equilateral and equiangular, and it is on one of the sides, {BC line}, of the cube.
+Thus, if we make the same construction on each of the twelve sides of the cube then some solid figure contained by twelve equilateral and equiangular pentagons will have been constructed, which is called a dodecahedron.
+
+So, it is necessary to enclose it in the given sphere, and to show that the side of the dodecahedron is that irrational (straight-line) called an apotome.
+
+For let {XP line} have been produced, and let (the produced straight-line) be {XZ line}.
+Thus, {PZ line} meets the diameter of the cube, and they cut one another in half.
+For, this has been proved in the penultimate theorem of the eleventh book [Prop. 11.38].
+Let them cut (one another) at {Z point}.
+Thus, {Z point} is the center of the sphere enclosing the cube, and {ZP line} (is) half the side of the cube.
+So, let {UZ line} have been joined.
+And since the straight-line {NS line} has been cut in extreme and mean ratio at {P point}, and its greater piece is {NP line}, the (sum of the squares) on {NS line} and {SP line} is thus three times the (square) on {NP line} [Prop. 13.4].
+And {NS line} (is) equal to {XZ line}, inasmuch as {NP line} is also equal to {PZ line}, and {XP line} to {PS line}.
+But, indeed, {PS line} (is) also (equal) to {XU line}, since (it is) also (equal) to {RP line}.
+Thus, the (sum of the squares) on {ZX line} and {XU line} is three times the (square) on {NP line}.
+And the (square) on {UZ line} is equal to the (sum of the squares) on {ZX line} and {XU line} [Prop. 1.47].
+Thus, the (square) on {UZ line} is three times the (square) on {NP line}.
+And the square on the radius of the sphere enclosing the cube is also three times the (square) on half the side of the cube.
+For it has previously been demonstrated (how to) construct the cube, and to enclose (it) in a sphere, and to show that the square on the diameter of the sphere is three times the (square) on the side of the cube [Prop. 13.15].
+And if the (square on the) whole (is three times) the (square on the) whole, then the (square on the) half (is) also (three times) the (square on the) half.
+And {NP line} is half of the side of the cube.
+Thus, {UZ line} is equal to the radius of the sphere enclosing the cube.
+And {Z point} is the center of the sphere enclosing the cube.
+Thus, point {U point} is on the surface of the sphere.
+So, similarly, we can show that each of the remaining angles of the dodecahedron is also on the surface of the sphere.
+Thus, the dodecahedron has been enclosed by the given sphere.
+
+So, I say that the side of the dodecahedron is that irrational straight-line called an apotome.
+
+For since {RP line} is the greater piece of {NP line}, which has been cut in extreme and mean ratio, and {PS line} is the greater piece of {PO line}, which has been cut in extreme and mean ratio, {RS line} is thus the greater piece of the whole of {NO line}, which has been cut in extreme and mean ratio.
+[Thus, since as {NP line} is to {PR line}, (so) {PR line} (is) to {RN line}, and (the same is also true) of the doubles.
+For parts have the same ratio as similar multiples (taken in corresponding order) [Prop. 5.15].
+Thus, as {NO line} (is) to {RS line}, so {RS line} (is) to the sum of {NR line} and {SO line}.
+And {NO line} (is) greater than {RS line}.
+Thus, {RS line} (is) also greater than the sum of {NR line} and {SO line} [Prop. 5.14].
+Thus, {NO line} has been cut in extreme and mean ratio, and {RS line} is its greater piece.]
+And {RS line} (is) equal to {UV line}.
+Thus, {UV line} is the greater piece of {NO line}, which has been cut in extreme and mean ratio.
+And since the diameter of the sphere is rational, and the square on it is three times the (square) on the side of the cube, {NO line}, which is the side of the cube, is thus rational.
+And if a rational (straight)-line is cut in extreme and mean ratio then each of the pieces is the irrational (straight-line called) an apotome.
+
+Thus, {UV line}, which is the side of the dodecahedron, is the irrational (straight-line called) an apotome [Prop. 13.6].
+
+Corollary
+
+So, (it is) clear, from this, that the side of the dodecahedron is the greater piece of the side of the cube, when is cut in extreme and mean ratio.
+(Which is) the very thing it was required to show.

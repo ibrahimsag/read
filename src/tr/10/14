@@ -1,0 +1,18 @@
+If four straight-lines are proportional, and the square on the first is greater than (the square on) the second by the (square) on (some straight-line) commensurable [in length] with the first, then the square on the third will also be greater than (the square on) the fourth by the (square) on (some straight-line) commensurable [in length] with the third.
+And if the square on the first is greater than (the square on) the second by the (square) on (some straight-line) incommensurable [in length] with the first, then the square on the third will also be greater than (the square on) the fourth by the (square) on (some straight-line) incommensurable [in length] with the third.
+
+Let {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be four proportional straight-lines, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
+And let the square on {A magnitude} be greater than (the square on) {B magnitude} by the (square) on {E magnitude}, and let the square on {C magnitude} be greater than (the square on) {D magnitude} by the (square) on {F magnitude}.
+I say that {A magnitude} is either commensurable (in length) with {E magnitude}, and {C magnitude} is also commensurable with {F magnitude}, or {A magnitude} is incommensurable (in length) with {E magnitude}, and {C magnitude} is also incommensurable with {F magnitude}.
+
+For since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, thus as the (square) on {A magnitude} is to the (square) on {B magnitude}, so the (square) on {C magnitude} (is) to the (square) on {D magnitude} [Prop. 6.22].
+But the (sum of the squares) on {E magnitude} and {B magnitude} is equal to the (square) on {A magnitude}, and the (sum of the squares) on {D magnitude} and {F magnitude} is equal to the (square) on {C magnitude}.
+Thus, as the (sum of the squares) on {E magnitude} and {B magnitude} is to the (square) on {B magnitude}, so the (sum of the squares) on {D magnitude} and {F magnitude} (is) to the (square) on {D magnitude}.
+Thus, via separation, as the (square) on {E magnitude} is to the (square) on {B magnitude}, so the (square) on {F magnitude} (is) to the (square) on {D magnitude} [Prop. 5.17].
+Thus, also, as {E magnitude} is to {B magnitude}, so {F magnitude} (is) to {D magnitude} [Prop. 6.22].
+Thus, inversely, as {B magnitude} is to {E magnitude}, so {D magnitude} (is) to {F magnitude} [Prop. 5.7 corr.].
+But, as {A magnitude} is to {B magnitude}, so {C magnitude} also (is) to {D magnitude}.
+Thus, via equality, as {A magnitude} is to {E magnitude}, so {C magnitude} (is) to {F magnitude} [Prop. 5.22].
+Therefore, {A magnitude} is either commensurable (in length) with {E magnitude}, and {C magnitude} is also commensurable with {F magnitude}, or {A magnitude} is incommensurable (in length) with {E magnitude}, and {C magnitude} is also incommensurable with {F magnitude} [Prop. 10.11].
+
+Thus, if, and so on ....

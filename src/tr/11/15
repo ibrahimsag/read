@@ -1,0 +1,22 @@
+If two straight-lines joined to one another are parallel (respectively) to two straight-lines joined to one another, which are not in the same plane, then the planes through them are parallel (to one another).
+
+For let the two straight-lines joined to one another, {AB line} and {BC line}, be parallel to the two straight-lines joined to one another, {DE line} and {EF line} (respectively), not being in the same plane.
+I say that the planes through {AB line}, {BC line} and {DE line}, {EF line} will not meet one another (when) produced.
+
+For let {BG line} have been drawn from point {B point} perpendicular to the plane through {DE line} and {EF line} [Prop. 11.11], and let it meet the plane at point {G point}.
+And let {GH line} have been drawn through {G point} parallel to {ED line}, and {GK line} (parallel) to {EF line} [Prop. 1.31].
+
+And since {BG line} is at right-angles to the plane through {DE line} and {EF line}, it will thus also make right-angles with all of the straight-lines joined to it, which are also in the plane through {DE line} and {EF line} [Def. 11.3].
+And each of {GH line} and {GK line}, which are in the plane through {DE line} and {EF line}, are joined to it.
+Thus, each of the angles {BGH angle} and {BGK angle} are right-angles.
+And since {BA line} is parallel to {GH line} [Prop. 11.9], the (sum of the) angles {GBA angle} and {BGH angle} is equal to two right-angles [Prop. 1.29].
+And {BGH angle} (is) a right-angle.
+{GBA angle} (is) thus also a right-angle.
+Thus, {GB line} is at right-angles to {BA line}.
+So, for the same (reasons), {GB line} is also at right-angles to {BC line}.
+Therefore, since the straight-line {GB line} has been set up at right-angles to two straight-lines, {BA line} and {BC line}, cutting one another, {GB line} is thus at right-angles to the plane through {BA line} and {BC line} [Prop. 11.4].
+And planes to which the same straight-line is at right-angles are parallel planes [Prop. 11.14].
+Thus, the plane through {AB line} and {BC line} is parallel to the (plane) through {DE line} and {EF line}.
+
+Thus, if two straight-lines joined to one another are parallel (respectively) to two straight-lines joined to one another, which are not in the same plane, then the planes through them are parallel (to one another).
+(Which is) the very thing it was required to show.

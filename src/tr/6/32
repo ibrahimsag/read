@@ -1,0 +1,21 @@
+If two triangles, having two sides proportional to two sides, are placed together at a single angle such that the corresponding sides are also parallel, then the remaining sides of the triangles will be straight-on (with respect to one another).
+
+Let {ABC polygon} and {DCE polygon} be two triangles having the two sides {BA line} and {AC line} proportional to the two sides {DC line} and {DE line}---so that as {AB line} (is) to {AC line}, so {DC line} (is) to {DE line}---and (having side) {AB line} parallel to {DC line}, and {AC line} to {DE line}.
+I say that (side) {BC line} is straight-on to {CE line}.
+
+For since {AB line} is parallel to {DC line}, and the straight-line {AC line} has fallen across them, the alternate angles {BAC angle} and {ACD angle} are equal to one another [Prop. 1.29].
+So, for the same (reasons), {CDE angle} is also equal to {ACD angle}.
+And, hence, {BAC angle} is equal to {CDE angle}.
+And since {ABC polygon} and {DCE polygon} are two triangles having the one angle at {A point} equal to the one angle at {D point}, and the sides about the equal angles proportional, (so that) as {BA line} (is) to {AC line}, so {CD line} (is) to {DE line}, triangle {ABC polygon} is thus equiangular to triangle {DCE polygon} [Prop. 6.6].
+Thus, angle {ABC angle} is equal to {DCE angle}.
+And (angle) {ACD angle} was also shown (to be) equal to {BAC angle}.
+Thus, the whole (angle) {ACE angle} is equal to the two (angles) {ABC angle} and {BAC angle}.
+Let {ACB angle} have been added to both.
+Thus, {ACE angle} and {ACB angle} are equal to {BAC angle}, {ACB angle}, and {CBA angle}.
+But, {BAC angle}, {ABC angle}, and {ACB angle} are equal to two right-angles [Prop. 1.32].
+Thus, {ACE angle} and {ACB angle} are also equal to two right-angles.
+Thus, the two straight-lines {BC line} and {CE line}, not lying on the same side, make adjacent angles {ACE angle} and {ACB angle} (whose sum is) equal to two right-angles with some straight-line {AC line}, at the point {C point} on it.
+Thus, {BC line} is straight-on to {CE line} [Prop. 1.14].
+
+Thus, if two triangles, having two sides proportional to two sides, are placed together at a single angle such that the corresponding sides are also parallel, then the remaining sides of the triangles will be straight-on (with respect to one another).
+(Which is) the very thing it was required to show.

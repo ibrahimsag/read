@@ -1,0 +1,15 @@
+Her paralelkenarda, köşegen etrafındaki paralelkenarların tamamlayıcıları birbirine eşittir.
+
+{ABCD polygon} bir paralelkenar olsun ve {AC line} onun köşegeni olsun.
+Ve {EH polygon} ve {FG polygon} {AC line} etrafındaki paralelkenarlar olsun, ve {BK polygon} ve {KD polygon} de ({AC line} etrafında) tamamlayıcılar olsun.
+Tamamlayıcı {BK polygon}'nin tamamlayıcı {KD polygon}'e eşit olduğunu söylüyorum.
+
+Çünkü {ABCD polygon} bir paralelkenar ve {AC line} onun köşegeni olduğundan, üçgen {ABC polygon} üçgen {ACD polygon}'e eşittir [Prop. 1.34].
+Yine, {EH polygon} bir paralelkenar olduğundan ve {AK line} onun köşegeni olduğundan, üçgen {AEK polygon} üçgen {AHK polygon}'e eşittir [Prop. 1.34].
+Dolayısıyla, aynı (nedenlerle), üçgen {KFC polygon} da (üçgen) {KGC polygon}'e eşittir.
+Bu nedenle, üçgen {AEK polygon}'in üçgen {AHK polygon}'e eşit olduğu ve {KFC polygon}'in {KGC polygon}'e eşit olduğu göz önüne alındığında, üçgen {AEK polygon} artı {KGC polygon} üçgen {AHK polygon} artı {KFC polygon}'e eşittir.
+Ve tüm üçgen {ABC polygon} da tüm (üçgen) {ADC polygon}'e eşittir.
+Böylece, kalan tamamlayıcı {BK polygon} kalan tamamlayıcı {KD polygon}'e eşittir.
+
+Böylece, her paralelkenar şekli için, köşegen etrafındaki paralelkenarların tamamlayıcıları birbirine eşittir.
+(Gösterilmesi gereken tam da budur.)

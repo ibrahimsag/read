@@ -1,0 +1,34 @@
+A medial (area) does not exceed a medial (area) by a rational (area).
+
+For, if possible, let the medial (area) {AB polygon} exceed the medial (area) {AC polygon} by the rational (area) {DB polygon}.
+And let the rational (straight-line) {EF line} be laid down.
+And let the rectangular parallelogram {FH polygon}, equal to {AB polygon}, have been applied to to {EF line}, producing {EH line} as breadth.
+And let {FG polygon}, equal to {AC polygon}, have been cut off (from {FH polygon}).
+Thus, the remainder {BD polygon} is equal to the remainder {KH polygon}.
+And {DB polygon} is rational.
+Thus, {KH polygon} is also rational.
+Therefore, since {AB polygon} and {AC polygon} are each medial, and {AB polygon} is equal to {FH polygon}, and {AC polygon} to {FG polygon}, {FH polygon} and {FG polygon} are thus each also medial.
+
+And they are applied to the rational (straight-line) {EF line}.
+Thus, {HE line} and {EG line} are each rational, and incommensurable in length with {EF line} [Prop. 10.22].
+And since {DB polygon} is rational, and is equal to {KH polygon}, {KH polygon} is thus also rational.
+And ({KH polygon}) is applied to the rational (straight-line) {EF line}.
+{GH line} is thus rational, and commensurable in length with {EF line} [Prop. 10.20].
+But, {EG line} is also rational, and incommensurable in length with {EF line}.
+Thus, {EG line} is incommensurable in length with {GH line} [Prop. 10.13].
+And as {EG line} is to {GH line}, so the (square) on {EG line} (is) to the (rectangle contained) by {EG line} and {GH line} [Prop. 10.13 lem.].
+Thus, the (square) on {EG line} is incommensurable with the (rectangle contained) by {EG line} and {GH line} [Prop. 10.11].
+But, the (sum of the) squares on {EG line} and {GH line} is commensurable with the (square) on {EG line}.
+For ({EG line} and {GH line} are) both rational.
+And twice the (rectangle contained) by {EG line} and {GH line} is commensurable with the (rectangle contained) by {EG line} and {GH line} [Prop. 10.6].
+For (the former) is double the latter.
+Thus, the (sum of the squares) on {EG line} and {GH line} is incommensurable with twice the (rectangle contained) by {EG line} and {GH line} [Prop. 10.13].
+And thus the sum of the (squares) on {EG line} and {GH line} plus twice the (rectangle contained) by {EG line} and {GH line}, that is the (square) on {EH line} [Prop. 2.4], is incommensurable with the (sum of the squares) on {EG line} and {GH line} [Prop. 10.16].
+And the (sum of the squares) on {EG line} and {GH line} (is) rational.
+Thus, the (square) on {EH line} is irrational [Def. 10.4].
+Thus, {EH line} is irrational [Def. 10.4].
+But, (it is) also rational.
+The very thing is impossible.
+
+Thus, a medial (area) does not exceed a medial (area) by a rational (area).
+(Which is) the very thing it was required to show.

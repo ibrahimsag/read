@@ -1,0 +1,17 @@
+In obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.
+
+Let {ABC polygon} be an obtuse-angled triangle, having the angle {BAC angle} obtuse.
+And let {BD line} be drawn from point {B point}, perpendicular to {CA line} produced [Prop. 1.12].
+I say that the square on {BC line} is greater than the (sum of the) squares on {BA line} and {AC line}, by twice the rectangle contained by {CA line} and {AD line}.
+
+For since the straight-line {CD line} has been cut, at random, at point {A point}, the (square) on {DC line} is thus equal to the (sum of the) squares on {CA line} and {AD line}, and twice the rectangle contained by {CA line} and {AD line} [Prop. 2.4].
+Let the (square) on {DB line} have been added to both.
+Thus, the (sum of the squares) on {CD line} and {DB line} is equal to the (sum of the) squares on {CA line}, {AD line}, and {DB line}, and twice the [rectangle contained] by {CA line} and {AD line}.
+But, the (square) on {CB line} is equal to the (sum of the squares) on {CD line} and {DB line}.
+For the angle at {D point} (is) a right-angle [Prop. 1.47].
+And the (square) on {AB line} (is) equal to the (sum of the squares) on {AD line} and {DB line} [Prop. 1.47].
+Thus, the square on {CB line} is equal to the (sum of the) squares on {CA line} and {AB line}, and twice the rectangle contained by {CA line} and {AD line}.
+So the square on {CB line} is greater than the (sum of the) squares on {CA line} and {AB line} by twice the rectangle contained by {CA line} and {AD line}.
+
+Thus, in obtuse-angled triangles, the square on the side subtending the obtuse angle is greater than the (sum of the) squares on the sides containing the obtuse angle by twice the (rectangle) contained by one of the sides around the obtuse angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off outside (the triangle) by the perpendicular (straight-line) towards the obtuse angle.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,14 @@
+Verilen doğrusal bir açıyı ikiye bölmek.
+
+{BAC angle} verilen doğrusal açı olsun. Bu açının ikiye bölünmesi gerekiyor.
+
+{AB line} üzerinde bir yerde {D point} noktası alınsın ve {AC line} üzerinden {AD line}'a eşit olan {AE line} kesilsin [Prop. 1.3], ve {DE line} birleştirilsin.
+Ve {DE line} üzerine eşkenar {DEF polygon} üçgeni yapılsın [Prop. 1.1], ve {AF line} birleştirilsin.
+Diyorum ki {BAC angle} açısı, {AF line} düz çizgisi ile ikiye bölünmüştür.
+
+Çünkü {AD line} {AE line}'a eşittir ve {AF line} ortaktır, iki (düz çizgi) {DA line}, {AF line} sırasıyla iki (düz çizgi) {EA line}, {AF line}'a eşittir.
+Ve taban {DF line} taban {EF line}'a eşittir.
+Böylece, açı {DAF angle} açı {EAF angle}'a eşittir [Prop. 1.8].
+
+Böylece, verilen doğrusal açı {BAC angle}, {AF line} düz çizgisi ile ikiye bölünmüştür.
+(Yapılması gereken) tam olarak budur.

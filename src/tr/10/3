@@ -1,0 +1,42 @@
+To find the greatest common measure of two given commensurable magnitudes.
+
+Let {AB magnitude} and {CD magnitude} be the two given magnitudes, of which (let) {AB magnitude} (be) the lesser.
+So, it is required to find the greatest common measure of {AB magnitude} and {CD magnitude}.
+
+For the magnitude {AB magnitude} either measures, or (does) not (measure), {CD magnitude}.
+Therefore, if it measures ({CD magnitude}), and (since) it also measures itself, {AB magnitude} is thus a common measure of {AB magnitude} and {CD magnitude}.
+And (it is) clear that (it is) also (the) greatest.
+For a (magnitude) greater than magnitude {AB magnitude} cannot measure {AB magnitude}.
+
+So let {AB magnitude} not measure {CD magnitude}.
+And continually subtracting in turn the lesser (magnitude) from the greater, the remaining (magnitude) will (at) some time measure the (magnitude) before it, on account of {AB magnitude} and {CD magnitude} not being incommensurable [Prop. 10.2].
+And let {AB magnitude} leave {EC magnitude} less than itself (in) measuring {ED magnitude}, and let {EC magnitude} leave {AF magnitude} less than itself (in) measuring {FB magnitude}, and let {AF magnitude} measure {CE magnitude}.
+
+Therefore, since {AF magnitude} measures {CE magnitude}, but {CE magnitude} measures {FB magnitude}, {AF magnitude} will thus also measure {FB magnitude}.
+And it also measures itself.
+Thus, {AF magnitude} will also measure the whole (of) {AB magnitude}.
+But, {AB magnitude} measures {DE magnitude}.
+Thus, {AF magnitude} will also measure {ED magnitude}.
+And it also measures {CE magnitude}.
+Thus, it also measures the whole of {CD magnitude}.
+Thus, {AF magnitude} is a common measure of {AB magnitude} and {CD magnitude}.
+So I say that (it is) also (the) greatest (common measure).
+For, if not, there will be some magnitude, greater than {AF magnitude}, which will measure (both) {AB magnitude} and {CD magnitude}.
+Let it be {G magnitude}.
+Therefore, since {G magnitude} measures {AB magnitude}, but {AB magnitude} measures {ED magnitude}, {G magnitude} will thus also measure {ED magnitude}.
+And it also measures the whole of {CD magnitude}.
+Thus, {G magnitude} will also measure the remainder {CE magnitude}.
+But {CE magnitude} measures {FB magnitude}.
+Thus, {G magnitude} will also measure {FB magnitude}.
+And it also measures the whole (of) {AB magnitude}.
+And (so) it will measure the remainder {AF magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some magnitude greater than {AF magnitude} cannot measure (both) {AB magnitude} and {CD magnitude}.
+Thus, {AF magnitude} is the greatest common measure of {AB magnitude} and {CD magnitude}.
+
+Thus, the greatest common measure of two given commensurable magnitudes, {AB magnitude} and {CD magnitude}, has been found.
+(Which is) the very thing it was required to show.
+
+Corollary
+
+So (it is) clear, from this, that if a magnitude measures two magnitudes then it will also measure their greatest common measure.

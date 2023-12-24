@@ -1,0 +1,21 @@
+Bir üçgenin bir kenarına, uç noktalarından iki iç doğru çizilirse, çizilen (doğrular) üçgenin kalan iki kenarından daha küçük olacak, ancak daha büyük bir açıyı kapsayacaktır.
+
+Öyle ki, üçgenin {ABC polygon} bir kenarı {BC line} üzerine, uç noktaları {B point} ve {C point} (sırasıyla) olmak üzere iki iç doğru {BD line} ve {DC line} çizilmiştir.
+Diyorum ki {BD line} ve {DC line}, üçgenin kalan iki kenarı {BA line} ve {AC line}'dan daha küçüktür, ancak {BAC angle}'dan daha büyük bir açı {BDC angle} kapsar.
+
+{BD line}, {E point} noktasına kadar çizilsin ({BE line} olarak).
+Ve her üçgen için (herhangi) iki kenarın toplamı kalan (kenardan) daha büyüktür [Prop. 1.20], bu nedenle {ABE polygon} üçgeni için iki kenarın {AB line} ve {AE line} toplamı {BE line}'dan daha büyüktür.
+Her ikisine de {EC line} ekleyelim.
+Bu durumda, {BA line} ve {AC line}'ın toplamı {BE line} ve {EC line}'ın toplamından daha büyüktür.
+Yine, {CED polygon} üçgeninde iki kenarın {CE line} ve {ED line} toplamı {CD line}'dan daha büyük olduğu için, her ikisine de {DB line} ekleyelim.
+Bu durumda, {CE line} ve {EB line}'ın toplamı {CD line} ve {DB line}'ın toplamından daha büyüktür.
+Ama, {BA line} ve {AC line}'ın toplamı {BE line} ve {EC line}'ın toplamından daha büyük olduğu gösterildi.
+Bu durumda, {BA line} ve {AC line}'ın toplamı {BD line} ve {DC line}'ın toplamından çok daha büyüktür.
+
+Yine, her üçgen için dış açı iç ve karşıt (açılardan) daha büyüktür [Prop. 1.16], bu nedenle {CDE polygon} üçgeni için dış açı {BDC angle} bu nedenle {CED angle}'dan daha büyüktür.
+Aynı şekilde, {ABE polygon} üçgeninin dış açısı {CEB angle} da {BAC angle}'dan daha büyüktür.
+Ama, {BDC angle}'ın {CEB angle}'dan daha büyük olduğu gösterildi.
+Bu durumda, {BDC angle} {BAC angle}'dan çok daha büyüktür.
+
+Bu nedenle, bir üçgenin bir kenarına, uç noktalarından iki iç doğru çizilirse, çizilen (doğrular) üçgenin kalan iki kenarından daha küçük olacak, ancak daha büyük bir açıyı kapsayacaktır.
+(Gösterilmesi gereken tam da budur.)

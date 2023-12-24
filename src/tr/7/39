@@ -1,0 +1,21 @@
+To find the least number that will have given parts.
+
+Let {A magnitude}, {B magnitude}, and {C magnitude} be the given parts.
+So it is required to find the least number which will have the parts {A magnitude}, {B magnitude}, and {C magnitude} (i.e., an {A magnitude}th part, a {B magnitude}th part, and a {C magnitude}th part).
+
+For let {D magnitude}, {E magnitude}, and {F magnitude} be numbers having the same names as the parts {A magnitude}, {B magnitude}, and {C magnitude} (respectively).
+And let the least number, {G magnitude}, measured by {D magnitude}, {E magnitude}, and {F magnitude}, have been taken [Prop. 7.36].
+
+Thus, {G magnitude} has parts called the same as {D magnitude}, {E magnitude}, and {F magnitude} [Prop. 7.37].
+And {A magnitude}, {B magnitude}, and {C magnitude} are parts called the same as {D magnitude}, {E magnitude}, and {F magnitude} (respectively).
+Thus, {G magnitude} has the parts {A magnitude}, {B magnitude}, and {C magnitude}.
+So I say that ({G magnitude}) is also the least (number having the parts {A magnitude}, {B magnitude}, and {C magnitude}).
+For if not, there will be some number less than {G magnitude} which will have the parts {A magnitude}, {B magnitude}, and {C magnitude}.
+Let it be {H magnitude}.
+Since {H magnitude} has the parts {A magnitude}, {B magnitude}, and {C magnitude}, {H magnitude} will thus be measured by numbers called the same as the parts {A magnitude}, {B magnitude}, and {C magnitude} [Prop. 7.38].
+And {D magnitude}, {E magnitude}, and {F magnitude} are numbers called the same as the parts {A magnitude}, {B magnitude}, and {C magnitude} (respectively).
+Thus, {H magnitude} is measured by {D magnitude}, {E magnitude}, and {F magnitude}.
+And ({H magnitude}) is less than {G magnitude}.
+The very thing is impossible.
+Thus, there cannot be some number less than {G magnitude} which will have the parts {A magnitude}, {B magnitude}, and {C magnitude}.
+(Which is) the very thing it was required to show.

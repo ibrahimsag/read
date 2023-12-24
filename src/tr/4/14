@@ -1,0 +1,17 @@
+To circumscribe a circle about a given pentagon which is equilateral and equiangular.
+
+Let {ABCDE polygon} be the given pentagon which is equilateral and equiangular.
+So it is required to circumscribe a circle about the pentagon {ABCDE polygon}.
+
+So let angles {BCD angle} and {CDE angle} have been cut in half by the (straight-lines) {CF line} and {DF line}, respectively [Prop. 1.9].
+And let the straight-lines {FB line}, {FA line}, and {FE line} have been joined from point {F point}, at which the straight-lines meet, to the points {B point}, {A point}, and {E point} (respectively).
+So, similarly, to the (proposition) before this (one), it can be shown that angles {CBA angle}, {BAE angle}, and {AED angle} have also been cut in half by the straight-lines {FB line}, {FA line}, and {FE line}, respectively.
+And since angle {BCD angle} is equal to {CDE angle}, and {FCD angle} is half of {BCD angle}, and {CDF angle} half of {CDE angle}, {FCD angle} is thus also equal to {FDC angle}.
+So that side {FC line} is also equal to side {FD line} [Prop. 1.6].
+So, similarly, it can be shown that {FB line}, {FA line}, and {FE line} are also each equal to each of {FC line} and {FD line}.
+Thus, the five straight-lines {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} are equal to one another.
+Thus, the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, {FC line}, {FD line}, or {FE line}, will also go through the remaining points, and will have been circumscribed.
+Let it have been (so) circumscribed, and let it be {ABCDE circle F}.
+
+Thus, a circle has been circumscribed about the given pentagon, which is equilateral and equiangular.
+(Which is) the very thing it was required to do.

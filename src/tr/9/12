@@ -1,0 +1,43 @@
+If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, then however many prime numbers the last (number) is measured by, the (number) next to the unit will also be measured by the same (prime numbers).
+
+Let any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be (continuously) proportional, (starting) from a unit.
+I say that however many prime numbers {D magnitude} is measured by, {A magnitude} will also be measured by the same (prime numbers).
+
+For let {D magnitude} be measured by some prime number {E magnitude}.
+I say that {E magnitude} measures {A magnitude}.
+For (suppose it does) not.
+{E magnitude} is prime, and every prime number is prime to every number which it does not measure [Prop. 7.29].
+Thus, {E magnitude} and {A magnitude} are prime to one another.
+And since {E magnitude} measures {D magnitude}, let it measure it according to {F magnitude}.
+Thus, {E magnitude} has made {D magnitude} (by) multiplying {F magnitude}.
+Again, since {A magnitude} measures {D magnitude} according to the units in {C magnitude} [Prop. 9.11 corr.], {A magnitude} has thus made {D magnitude} (by) multiplying {C magnitude}.
+But, in fact, {E magnitude} has also made {D magnitude} (by) multiplying {F magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude}, {C magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {F magnitude}.
+Thus, as {A magnitude} is to {E magnitude}, (so) {F magnitude} (is) to {C magnitude} [Prop. 7.19].
+And {A magnitude} and {E magnitude} (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, {E magnitude} measures {C magnitude}.
+Let it measure it according to {G magnitude}.
+Thus, {E magnitude} has made {C magnitude} (by) multiplying {G magnitude}.
+But, in fact, via the (proposition) before this, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude} [Prop. 9.11 corr.].
+Thus, the (number created) from (multiplying) {A magnitude}, {B magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {G magnitude}.
+Thus, as {A magnitude} is to {E magnitude}, (so) {G magnitude} (is) to {B magnitude} [Prop. 7.19].
+And {A magnitude} and {E magnitude} (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, {E magnitude} measures {B magnitude}.
+Let it measure it according to {H magnitude}.
+Thus, {E magnitude} has made {B magnitude} (by) multiplying {H magnitude}.
+But, in fact, {A magnitude} has also made {B magnitude} (by) multiplying itself [Prop. 9.8].
+Thus, the (number created) from (multiplying) {E magnitude}, {H magnitude} is equal to the (square) on {A magnitude}.
+Thus, as {E magnitude} is to {A magnitude}, (so) {A magnitude} (is) to {H magnitude} [Prop. 7.19].
+And {A magnitude} and {E magnitude} are prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, {E magnitude} measures {A magnitude}, as the leading (measuring the) leading.
+But, in fact, ({E magnitude}) also does not measure ({A magnitude}).
+The very thing (is) impossible.
+Thus, {E magnitude} and {A magnitude} are not prime to one another.
+Thus, (they are) composite (to one another).
+And (numbers) composite (to one another) are (both) measured by some [prime] number [Def. 7.14].
+And since {E magnitude} is assumed (to be) prime, and a prime (number) is not measured by another number (other) than itself [Def. 7.11], {E magnitude} thus measures (both) {A magnitude} and {E magnitude}.
+Hence, {E magnitude} measures {A magnitude}.
+And it also measures {D magnitude}.
+Thus, {E magnitude} measures (both) {A magnitude} and {D magnitude}.
+So, similarly, we can show that however many prime numbers {D magnitude} is measured by, {A magnitude} will also be measured by the same (prime numbers).
+(Which is) the very thing it was required to show.

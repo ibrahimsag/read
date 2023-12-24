@@ -1,0 +1,21 @@
+Similar polygons (inscribed) in circles are to one another as the squares on the diameters (of the circles).
+
+Let {ABC circle X} and {FGH circle Y} be circles, and let {ABCDE polygon} and {FGHKL polygon} be similar polygons (inscribed) in them (respectively), and let {BM line} and {GN line} be the diameters of the circles (respectively).
+I say that as the square on {BM line} is to the square on {GN line}, so polygon {ABCDE polygon} (is) to polygon {FGHKL polygon}.
+
+For let {BE line}, {AM line}, {GL line}, and {FN line} have been joined.
+And since polygon {ABCDE polygon} (is) similar to polygon {FGHKL polygon}, angle {BAE angle} is also equal to (angle) {GFL angle}, and as {BA line} is to {AE line}, so {GF line} (is) to {FL line} [Def. 6.1].
+So, {BAE polygon} and {GFL polygon} are two triangles having one angle equal to one angle, (namely), {BAE angle} (equal) to {GFL angle}, and the sides around the equal angles proportional.
+Triangle {ABE polygon} is thus equiangular with triangle {FGL polygon} [Prop. 6.6].
+Thus, angle {AEB angle} is equal to (angle) {FLG angle}.
+But, {AEB angle} is equal to {AMB angle}, and {FLG angle} to {FNG angle}, for they stand on the same circumference [Prop. 3.27].
+Thus, {AMB angle} is also equal to {FNG angle}.
+And the right-angle {BAM angle} is also equal to the right-angle {GFN angle} [Prop. 3.31].
+Thus, the remaining (angle) is also equal to the remaining (angle) [Prop. 1.32].
+Thus, triangle {ABM polygon} is equiangular with triangle {FGN polygon}.
+Thus, proportionally, as {BM line} is to {GN line}, so {BA line} (is) to {GF line} [Prop. 6.4].
+But, the (ratio) of the square on {BM line} to the square on {GN line} is the square of the ratio of {BM line} to {GN line}, and the (ratio) of polygon {ABCDE polygon} to polygon {FGHKL polygon} is the square of the (ratio) of {BA line} to {GF line} [Prop. 6.20].
+And, thus, as the square on {BM line} (is) to the square on {GN line}, so polygon {ABCDE polygon} (is) to polygon {FGHKL polygon}.
+
+Thus, similar polygons (inscribed) in circles are to one another as the squares on the diameters (of the circles).
+(Which is) the very thing it was required to show.

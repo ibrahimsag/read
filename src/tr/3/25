@@ -1,0 +1,33 @@
+For a given segment of a circle, to complete the circle, the very one of which it is a segment.
+
+Let {ABC arcc E} be the given segment of a circle.
+So it is required to complete the circle for segment {ABC arcc E}, the very one of which it is a segment.
+
+For let {AC line} have been cut in half at (point) {D point} [Prop. 1.10], and let {DB line} have been drawn from point {D point}, at right-angles to {AC line} [Prop. 1.11].
+And let {AB line} have been joined.
+Thus, angle {ABD angle} is surely either greater than, equal to, or less than (angle) {BAD angle}.
+
+{figure 1}First of all, let it be greater.
+And let (angle) {BAE angle}, equal to angle {ABD angle}, have been constructed on the straight-line {BA line}, at the point {A point} on it [Prop. 1.23].
+And let {DB line} have been drawn through to {E point} (as {BE line}), and let {EC line} have been joined.
+Therefore, since angle {ABE angle} is equal to {BAE angle}, the straight-line {EB line} is thus also equal to {EA line} [Prop. 1.6].
+And since {AD line} is equal to {DC line}, and {DE line} (is) common, the two (straight-lines) {AD line}, {DE line} are equal to the two (straight-lines) {CD line}, {DE line}, respectively.
+And angle {ADE angle} is equal to angle {CDE angle}.
+For each (is) a right-angle.
+Thus, the base {AE line} is equal to the base {CE line} [Prop. 1.4].
+But, {AE line} was shown (to be) equal to {BE line}.
+Thus, {BE line} is also equal to {CE line}.
+Thus, the three (straight-lines) {AE line}, {EB line}, and {EC line} are equal to one another.
+Thus, if a circle is drawn with center {E point}, and radius one of {AE line}, {EB line}, or {EC line}, it will also go through the remaining points (of the segment), and the (associated circle) will have been completed [Prop. 3.9].
+Thus, a circle has been completed from the given segment of a circle.
+And (it is) clear that the segment {ABC arcc E} is less than a semi-circle, because the center {E point} happens to lie outside it.
+
+{figure 2}[And], similarly, even if angle {ABD angle} is equal to {BAD angle}, (since) {AD line} becomes equal to each of {BD line} [Prop. 1.6] and {DC line}, the three (straight-lines) {DA line}, {DB line}, and {DC line} will be equal to one another.
+And point {D point} will be the center of the completed circle.
+And {ABC arcc D} will manifestly be a semi-circle.
+
+{figure 3}And if {ABD angle} is less than {BAD angle}, and we construct (angle {BAE angle}), equal to angle {ABD angle}, on the straight-line {BA line}, at the point {A point} on it [Prop. 1.23], then the center will fall on {DB line}, inside the segment {ABC arcc E}.
+And segment {ABC arcc E} will manifestly be greater than a semi-circle.
+
+Thus, a circle has been completed from the given segment of a circle.
+(Which is) the very thing it was required to do.

@@ -1,0 +1,49 @@
+To find the greatest common measure of three given numbers (which are) not prime to one another.
+
+Let {A magnitude}, {B magnitude}, and {C magnitude} be the three given numbers (which are) not prime to one another.
+So it is required to find the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
+
+For let the greatest common measure, {D magnitude}, of the two (numbers) {A magnitude} and {B magnitude} have been taken [Prop. 7.2].
+So {D magnitude} either measures, or does not measure, {C magnitude}.
+First of all, let it measure ({C magnitude}).
+And it also measures {A magnitude} and {B magnitude}.
+Thus, {D magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}.
+Thus, {D magnitude} is a common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
+So I say that (it is) also the greatest (common measure).
+For if {D magnitude} is not the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude} then some number greater than {D magnitude} will measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
+Let it (so) measure ({A magnitude}, {B magnitude}, and {C magnitude}), and let it be {E magnitude}.
+Therefore, since {E magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}, it will thus also measure {A magnitude} and {B magnitude}.
+Thus, it will also measure the greatest common measure of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
+And {D magnitude} is the greatest common measure of {A magnitude} and {B magnitude}.
+Thus, {E magnitude} measures {D magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some number which is greater than {D magnitude} cannot measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
+Thus, {D magnitude} is the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
+
+So let {D magnitude} not measure {C magnitude}.
+I say, first of all, that {C magnitude} and {D magnitude} are not prime to one another.
+For since {A magnitude}, {B magnitude}, {C magnitude} are not prime to one another, some number will measure them.
+So the (number) measuring {A magnitude}, {B magnitude}, and {C magnitude} will also measure {A magnitude} and {B magnitude}, and it will also measure the greatest common measure, {D magnitude}, of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
+And it also measures {C magnitude}.
+Thus, some number will measure the numbers {D magnitude} and {C magnitude}.
+Thus, {D magnitude} and {C magnitude} are not prime to one another.
+Therefore, let their greatest common measure, {E magnitude}, have been taken [Prop. 7.2].
+And since {E magnitude} measures {D magnitude}, and {D magnitude} measures {A magnitude} and {B magnitude}, {E magnitude} thus also measures {A magnitude} and {B magnitude}.
+And it also measures {C magnitude}.
+Thus, {E magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}. Thus, {E magnitude} is a common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
+So I say that (it is) also the greatest (common measure).
+For if {E magnitude} is not the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude} then some number greater than {E magnitude} will measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
+Let it (so) measure ({A magnitude}, {B magnitude}, and {C magnitude}), and let it be {F magnitude}.
+And since {F magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}, it also measures {A magnitude} and {B magnitude}.
+Thus, it will also measure the greatest common measure of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
+And {D magnitude} is the greatest common measure of {A magnitude} and {B magnitude}.
+Thus, {F magnitude} measures {D magnitude}.
+And it also measures {C magnitude}.
+Thus, {F magnitude} measures {D magnitude} and {C magnitude}.
+Thus, it will also measure the greatest common measure of {D magnitude} and {C magnitude} [Prop. 7.2 corr.].
+And {E magnitude} is the greatest common measure of {D magnitude} and {C magnitude}.
+Thus, {F magnitude} measures {E magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, some number which is greater than {E magnitude} does not measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
+Thus, {E magnitude} is the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
+(Which is) the very thing it was required to show.

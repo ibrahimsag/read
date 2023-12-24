@@ -1,0 +1,59 @@
+If there are two equal plane angles, and raised straight-lines are stood on the apexes of them, containing equal angles respectively with the original straight-lines (forming the angles), and random points are taken on the raised (straight-lines), and perpendiculars are drawn from them to the planes in which the original angles are, and straight-lines are joined from the points created in the planes to the (vertices of the) original angles, then they will enclose equal angles with the raised (straight-lines).
+
+Let {BAC angle} and {EDF angle} be two equal rectilinear angles.
+And let the raised straight-lines {AG line} and {DM line} have been stood on points {A point} and {D point}, containing equal angles respectively with the original straight-lines.
+(That is) {MDE angle} (equal) to {GAB angle}, and {MDF angle} (to) {GAC angle}.
+And let the random points {G point} and {M point} have been taken on {AG line} and {DM line} (respectively).
+And let the {GL line} and {MN line} have been drawn from points {G point} and {M point} perpendicular to the planes through {BAC polygon} and {EDF polygon} (respectively).
+And let them have joined the planes at points {L point} and {N point} (respectively).
+And let {LA line} and {ND line} have been joined.
+I say that angle {GAL angle} is equal to angle {MDN angle}.
+
+Let {AH line} be made equal to {DM line}.
+And let {HK line} have been drawn through point {H point} parallel to {GL line}.
+And {GL line} is perpendicular to the plane through {BAC polygon}.
+Thus, {HK line} is also perpendicular to the plane through {BAC polygon} [Prop. 11.8].
+And let {KC line}, {NF line}, {KB line}, and {NE line} have been drawn from points {K point} and {N point} perpendicular to the straight-lines {AC line}, {DF line}, {AB line}, and {DE line}.
+And let {HC line}, {CB line}, {MF line}, and {FE line} have been joined.
+Since the (square) on {HA line} is equal to the (sum of the squares) on {HK line} and {KA line} [Prop. 1.47], and the (sum of the squares) on {KC line} and {CA line} is equal to the (square) on {KA line} [Prop. 1.47], thus the (square) on {HA line} is equal to the (sum of the squares) on {HK line}, {KC line}, and {CA line}.
+And the (square) on {HC line} is equal to the (sum of the squares) on {HK line} and {KC line} [Prop. 1.47].
+Thus, the (square) on {HA line} is equal to the (sum of the squares) on {HC line} and {CA line}.
+Thus, angle {HCA angle} is a right-angle [Prop. 1.48].
+So, for the same (reasons), angle {DFM angle} is also a right-angle.
+Thus, angle {ACH angle} is equal to (angle) {DFM angle}.
+And {HAC angle} is also equal to {MDF angle}.
+So, {MDF polygon} and {HAC polygon} are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), that subtending one of the equal angles ---(that is), {HA line} (equal) to {MD line}.
+Thus, they will also have the remaining sides equal to the remaining sides, respectively [Prop. 1.26].
+Thus, {AC line} is equal to {DF line}.
+So, similarly, we can show that {AB line} is also equal to {DE line}.
+Therefore, since {AC line} is equal to {DF line}, and {AB line} to {DE line}, so the two (straight-lines) {CA line} and {AB line} are equal to the two (straight-lines) {FD line} and {DE line} (respectively).
+But, angle {CAB angle} is also equal to angle {FDE angle}.
+Thus, base {BC line} is equal to base {EF line}, and triangle ({ACB polygon}) to triangle ({DFE polygon}), and the remaining angles to the remaining angles (respectively) [Prop. 1.4].
+Thus, angle {ACB angle} (is) equal to {DFE angle}.
+And the right-angle {ACK angle} is also equal to the right-angle {DFN angle}.
+Thus, the remainder {BCK angle} is equal to the remainder {EFN angle}.
+So, for the same (reasons), {CBK angle} is also equal to {FEN angle}.
+So, {BCK polygon} and {EFN polygon} are two triangles having two angles equal to two angles, respectively, and one side equal to one side—(namely), that by the equal angles—(that is), {BC line} (equal) to {EF line}.
+Thus, they will also have the remaining sides equal to the remaining sides (respectively) [Prop. 1.26].
+Thus, {CK line} is equal to {FN line}.
+And {AC line} (is) also equal to {DF line}.
+So, the two (straight-lines) {AC line} and {CK line} are equal to the two (straight-lines) {DF line} and {FN line} (respectively).
+And they enclose right-angles.
+Thus, base {AK line} is equal to base {DN line} [Prop. 1.4].
+And since {AH line} is equal to {DM line}, the (square) on {AH line} is also equal to the (square) on {DM line}.
+But, the the (sum of the squares) on {AK line} and {KH line} is equal to the (square) on {AH line}.
+For angle {AKH angle} (is) a right-angle [Prop. 1.47].
+And the (sum of the squares) on {DN line} and {NM line} (is) equal to the square on {DM line}.
+For angle {DNM angle} (is) a right-angle [Prop. 1.47].
+Thus, the (sum of the squares) on {AK line} and {KH line} is equal to the (sum of the squares) on {DN line} and {NM line}, of which the (square) on {AK line} is equal to the (square) on {DN line}.
+Thus, the remaining (square) on {KH line} is equal to the (square) on {NM line}.
+Thus, {HK line} (is) equal to {MN line}.
+And since the two (straight-lines) {HA line} and {AK line} are equal to the two (straight-lines) {MD line} and {DN line}, respectively, and base {HK line} was shown (to be) equal to base {MN line}, angle {HAK angle} is thus equal to angle {MDN angle} [Prop. 1.8].
+
+Thus, if there are two equal plane angles, and so on of the proposition.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+So, it is clear, from this, that if there are two equal plane angles, and equal raised straight-lines are stood on them (at their apexes), containing equal angles respectively with the original straight-lines (forming the angles), then the perpendiculars drawn from (the raised ends of) them to the planes in which the original angles lie are equal to one another.
+(Which is) the very thing it was required to show.

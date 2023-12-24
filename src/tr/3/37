@@ -1,0 +1,25 @@
+If some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.
+
+For let some point {D point} have been taken outside circle {ABC circle F}, and let two straight-lines, {DCA line} and {DB line}, radiate from {D point} towards circle {ABC circle F}, and let {DCA line} cut the circle, and let {DB line} meet (the circle).
+And let the (rectangle contained) by {AD line} and {DC line} be equal to the (square) on {DB line}.
+I say that {DB line} touches circle {ABC circle F}.
+
+For let {DE line} have been drawn touching {ABC circle F} [Prop. 3.17], and let the center of the circle {ABC circle F} have been found, and let it be (at) {F point}.
+And let {FE line}, {FB line}, and {FD line} have been joined.
+(Angle) {FED angle} is thus a right-angle [Prop. 3.18].
+And since {DE line} touches circle {ABC circle F}, and {DCA line} cuts (it), the (rectangle contained) by {AD line} and {DC line} is thus equal to the (square) on {DE line} [Prop. 3.36].
+And the (rectangle contained) by {AD line} and {DC line} was also equal to the (square) on {DB line}.
+Thus, the (square) on {DE line} is equal to the (square) on {DB line}.
+Thus, {DE line} (is) equal to {DB line}.
+And {FE line} is also equal to {FB line}.
+So the two (straight-lines) {DE line}, {EF line} are equal to the two (straight-lines) {DB line}, {BF line} (respectively).
+And their base, {FD line}, is common.
+Thus, angle {DEF angle} is equal to angle {DBF angle} [Prop. 1.8].
+And {DEF angle} (is) a right-angle.
+Thus, {DBF angle} (is) also a right-angle.
+And {FB line} produced is a diameter, And a (straight-line) drawn at right-angles to a diameter of a circle, at its extremity, touches the circle [Prop. 3.16 corr.].
+Thus, {DB line} touches circle {ABC circle F}.
+Similarly, (the same thing) can be shown, even if the center happens to be on {AC line}.
+
+Thus, if some point is taken outside a circle, and two straight-lines radiate from the point towards the circle, and one of them cuts the circle, and the (other) meets (it), and the (rectangle contained) by the whole (straight-line) cutting (the circle), and the (part of it) cut off outside (the circle), between the point and the convex circumference, is equal to the (square) on the (straight-line) meeting (the circle), then the (straight-line) meeting (the circle) will touch the circle.
+(Which is) the very thing it was required to show.

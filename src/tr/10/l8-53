@@ -1,0 +1,24 @@
+ Let {AB polygon} and {BC polygon} be two squares, and let them be laid down such that {DB line} is straight-on to {BE line}.
+ {FB line} is, thus, also straight-on to {BG line}.
+ And let the parallelogram {AC polygon} have been completed.
+ I say that {AC polygon} is a square, and that {DG polygon} is the mean proportional to {AB polygon} and {BC polygon}, and, moreover, {DC polygon} is the mean proportional to {AC polygon} and {CB polygon}.
+
+For since {DB line} is equal to {BF line}, and {BE line} to {BG line}, the whole of {DE line} is thus equal to the whole of {FG line}.
+But {DE line} is equal to each of {AH line} and {KC line}, and {FG line} is equal to each of {AK line} and {HC line} [Prop. 1.34].
+Thus, {AH line} and {KC line} are also equal to {AK line} and {HC line}, respectively.
+Thus, the parallelogram {AC polygon} is equilateral.
+And (it is) also right-angled.
+Thus, {AC polygon} is a square.
+
+And since as {FB line} is to {BG line}, so {DB line} (is) to {BE line}, but as {FB line} (is) to {BG line}, so {AB polygon} (is) to {DG polygon}, and as {DB line} (is) to {BE line}, so {DG polygon} (is) to {BC polygon} [Prop. 6.1], thus also as {AB polygon} (is) to {DG polygon}, so {DG polygon} (is) to {BC polygon} [Prop. 5.11].
+Thus, {DG polygon} is the mean proportional to {AB polygon} and {BC polygon}.
+
+So I also say that {DC polygon} [is] the mean proportional to {AC polygon} and {CB polygon}.
+
+For since as {AD line} is to {DK line}, so {KG line} (is) to {GC line}.
+For [they are] respectively equal.
+And, via composition, as {AK line} (is) to {KD line}, so {KC line} (is) to {CG line} [Prop. 5.18].
+But as {AK line} (is) to {KD line}, so {AC polygon} (is) to {CD polygon}, and as {KC line} (is) to {CG line}, so {DC polygon} (is) to {CB polygon} [Prop. 6.1].
+Thus, also, as {AC polygon} (is) to {DC polygon}, so {DC polygon} (is) to {BC polygon} [Prop. 5.11].
+Thus, {DC polygon} is the mean proportional to {AC polygon} and {CB polygon}.
+Which (is the very thing) it was prescribed to show.

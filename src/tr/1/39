@@ -1,0 +1,20 @@
+Aynı tabanda ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
+
+{ABC polygon} ve {DBC polygon} aynı taban {BC line} üzerinde ve aynı tarafta olan eşit üçgenler olsun.
+Onların aynı zamanda aynı paraleller arasında olduğunu söylüyorum.
+
+Çünkü {AD line} birleştirilmiş olsun.
+{AD line} ve {BC line}'ın paralel olduğunu söylüyorum.
+
+Çünkü, eğer değilse, {A point} noktasından geçen ve düz çizgi {BC line}'a paralel olan {AE line} çizilmiş olsun ve {EC line} birleştirilmiş olsun.
+Böylece, {ABC polygon} üçgeni {EBC polygon} üçgenine eşittir.
+Çünkü aynı taban üzerindedir, {BC line}, ve aynı paraleller arasındadır [Prop. 1.37].
+Ama {ABC polygon}, {DBC polygon}'a eşittir.
+Böylece, {DBC polygon} da {EBC polygon}'a eşittir, büyük olan küçük olana.
+Bu imkansız bir şeydir.
+Böylece, {AE line} {BC line}'a paralel değildir.
+Benzer şekilde, {AD line}'dan başka hiçbir (düz çizgi) de gösterebiliriz.
+Böylece, {AD line} {BC line}'a paraleldir.
+
+Böylece, aynı tabanda ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
+(Gösterilmesi gereken şey) tam olarak budur.

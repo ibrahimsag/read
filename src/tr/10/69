@@ -1,0 +1,13 @@
+A (straight-line) commensurable (in length) with the square-root of a rational plus a medial (area) is [itself also] the square-root of a rational plus a medial (area).
+
+Let {AB magnitude} be the square-root of a rational plus a medial (area), and let {CD magnitude} be commensurable (in length) with {AB magnitude}.
+We must show that {CD magnitude} is also the square-root of a rational plus a medial (area).
+
+Let {AB magnitude} have been divided into its (component) straight-lines at {E point}.
+{AE magnitude} and {EB magnitude} are thus incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational [Prop. 10.40].
+And let the same construction have been made as in the previous (propositions).
+So, similarly, we can show that {CF magnitude} and {FD magnitude} are also incommensurable in square, and that the sum of the (squares) on {AE magnitude} and {EB magnitude} (is) commensurable with the sum of the (squares) on {CF magnitude} and {FD magnitude}, and the (rectangle contained) by {AE magnitude} and {EB magnitude} with the (rectangle contained) by {CF magnitude} and {FD magnitude}.
+And hence the sum of the squares on {CF magnitude} and {FD magnitude} is medial, and the (rectangle contained) by {CF magnitude} and {FD magnitude} (is) rational.
+
+Thus, {CD magnitude} is the square-root of a rational plus a medial (area) [Prop. 10.40].
+(Which is) the very thing it was required to show.

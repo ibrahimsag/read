@@ -1,0 +1,33 @@
+If an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome then the square-root of the area is a rational (straight-line).
+
+For let an area, the (rectangle contained) by {AB magnitude} and {CD magnitude}, have been contained by the apotome {AB magnitude}, and the binomial {CD magnitude}, of which let the greater term be {CE magnitude}.
+And let the terms of the binomial, {CE magnitude} and {ED magnitude}, be commensurable with the terms of the apotome, {AF magnitude} and {FB magnitude} (respectively), and in the same ratio.
+And let the square-root of the (rectangle contained) by {AB magnitude} and {CD magnitude} be {G magnitude}.
+I say that {G magnitude} is a rational (straight-line).
+
+For let the rational (straight-line) {H magnitude} be laid down.
+And let (some rectangle), equal to the (square) on {H magnitude}, have been applied to {CD magnitude}, producing {KL magnitude} as breadth.
+Thus, {KL magnitude} is an apotome, of which let the terms, {KM magnitude} and {ML magnitude}, be commensurable with the terms of the binomial, {CE magnitude} and {ED magnitude} (respectively), and in the same ratio [Prop. 10.112].
+But, {CE magnitude} and {ED magnitude} are also commensurable with {AF magnitude} and {FB magnitude} (respectively), and in the same ratio.
+Thus, as {AF magnitude} is to {FB magnitude}, so {KM magnitude} (is) to {ML magnitude}.
+Thus, alternately, as {AF magnitude} is to {KM magnitude}, so {BF magnitude} (is) to {LM magnitude} [Prop. 5.16].
+Thus, the remainder {AB magnitude} is also to the remainder {KL magnitude} as {AF magnitude} (is) to {KM magnitude} [Prop. 5.19].
+And {AF magnitude} (is) commensurable with {KM magnitude} [Prop. 10.12].
+{AB magnitude} is thus also commensurable with {KL magnitude} [Prop. 10.11].
+And as {AB magnitude} is to {KL magnitude}, so the (rectangle contained) by {CD magnitude} and {AB magnitude} (is) to the (rectangle contained) by {CD magnitude} and {KL magnitude} [Prop. 6.1].
+Thus, the (rectangle contained) by {CD magnitude} and {AB magnitude} is also commensurable with the (rectangle contained) by {CD magnitude} and {KL magnitude} [Prop. 10.11].
+And the (rectangle contained) by {CD magnitude} and {KL magnitude} (is) equal to the (square) on {H magnitude}.
+Thus, the (rectangle contained) by {CD magnitude} and {AB magnitude} is commensurable with the (square) on {H magnitude}.
+And the (square) on {G magnitude} is equal to the (rectangle contained) by {CD magnitude} and {AB magnitude}.
+The (square) on {G magnitude} is thus commensurable with the (square) on {H magnitude}.
+And the (square) on {H magnitude} (is) rational.
+Thus, the (square) on {G magnitude} is also rational.
+{G magnitude} is thus rational.
+And it is the square-root of the (rectangle contained) by {CD magnitude} and {AB magnitude}.
+
+Thus, if an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome, then the square-root of the area is a rational (straight-line).
+
+Corollary
+
+And it has also been made clear to us, through this, that it is possible for a rational area to be contained by irrational straight-lines.
+(Which is) the very thing it was required to show.

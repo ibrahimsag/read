@@ -1,0 +1,38 @@
+A (straight-line) drawn at right-angles to the diameter of a circle, from its end, will fall outside the circle.
+And another straight-line cannot be inserted into the space between the (aforementioned) straight-line and the circumference.
+And the angle of the semi-circle is greater than any acute rectilinear angle whatsoever, and the remaining (angle is) less (than any acute rectilinear angle).
+
+Let {ABC circle D} be a circle around the center {D point} and the diameter {AB line}.
+I say that the (straight-line) drawn from {A point}, at right-angles to {AB line} [Prop. 1.11], from its end, will fall outside the circle.
+
+For (if) not then, if possible, let it fall inside, like {CA line} (in the figure), and let {DC line} have been joined.
+
+Since {DA line} is equal to {DC line}, angle {DAC angle} is also equal to angle {ACD angle} [Prop. 1.5].
+And {DAC angle} (is) a right-angle.
+Thus, {ACD angle} (is) also a right-angle.
+So, in triangle {ACD polygon}, the two angles {DAC angle} and {ACD angle} are equal to two right-angles.
+The very thing is impossible [Prop. 1.17].
+Thus, the (straight-line) drawn from point {A point}, at right-angles to {BA line}, will not fall inside the circle.
+So, similarly, we can show that neither (will it fall) on the circumference.
+Thus, (it will fall) outside (the circle).
+
+Let it fall like {AE line} (in the figure).
+So, I say that another straight-line cannot be inserted into the space between the straight-line {AE line} and the circumference {CHA arcc D}.
+
+For, if possible, let it be inserted like {FA line} (in the figure), and let {DG line} have been drawn from point {D point}, perpendicular to {FA line} [Prop. 1.12].
+And since {AGD angle} is a right-angle, and {DAG angle} (is) less than a right-angle, {AD line} (is) thus greater than {DG line} [Prop. 1.19].
+And {DA line} (is) equal to {DH line}.
+Thus, {DH line} (is) greater than {DG line}, the lesser than the greater.
+The very thing is impossible.
+Thus, another straight-line cannot be inserted into the space between the straight-line ({AE line}) and the circumference.
+
+And I also say that the semi-circular angle contained by the straight-line {BA line} and the circumference {CHA arcc D} is greater than any acute rectilinear angle whatsoever, and the remaining (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line} is less than any acute rectilinear angle whatsoever.
+
+For if any rectilinear angle is greater than the (angle) contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}, then a straight-line can be inserted into the space between the circumference {CHA arcc D} and the straight-line {AE line}---anything which will make (an angle) contained by straight-lines greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.
+But (such a straight-line) cannot be inserted.
+Thus, an acute (angle) contained by straight-lines cannot be greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, neither (can it be) less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.
+
+Corollary
+
+So, from this, (it is) manifest that a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [and that the straight-line touches the circle at a single point, inasmuch as it was also shown that a (straight-line) meeting (the circle) at two (points) falls inside it [Prop. 3.2] ].
+(Which is) the very thing it was required to show.

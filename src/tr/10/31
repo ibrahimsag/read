@@ -1,0 +1,23 @@
+To find two medial (straight-lines), commensurable in square only, (and) containing a rational (area), such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) commensurable in length with the greater.
+
+Let two rational (straight-lines), {A magnitude} and {B magnitude}, commensurable in square only, be laid out, such that the square on the greater {A magnitude} is larger than the (square on the) lesser {B magnitude} by the (square) on (some straight-line) commensurable in length with ({A magnitude}) [Prop. 10.29].
+And let the (square) on {C magnitude} be equal to the (rectangle contained) by {A magnitude} and {B magnitude}.
+And the (rectangle contained by) {A magnitude} and {B magnitude} (is) medial [Prop. 10.21].
+Thus, the (square) on {C magnitude} (is) also medial.
+Thus, {C magnitude} (is) also medial [Prop. 10.21].
+And let the (rectangle contained) by {C magnitude} and {D magnitude} be equal to the (square) on {B magnitude}.
+And the (square) on {B magnitude} (is) rational.
+Thus,the (rectangle contained) by {C magnitude} and {D magnitude} (is) also rational.
+And since as {A magnitude} is to {B magnitude}, so the (rectangle contained) by {A magnitude} and {B magnitude} (is) to the (square) on {B magnitude} [Prop. 10.21 lem.], but the (square) on {C magnitude} is equal to the (rectangle contained) by {A magnitude} and {B magnitude}, and the (rectangle contained) by {C magnitude} and {D magnitude} to the (square) on {B magnitude}, thus as {A magnitude} (is) to {B magnitude}, so the (square) on {C magnitude} (is) to the (rectangle contained) by {C magnitude} and {D magnitude}.
+And as the (square) on {C magnitude} (is) to the (rectangle contained) by {C magnitude} and {D magnitude}, so {C magnitude} (is) to {D magnitude} [Prop. 10.21 lem.].
+And thus as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
+And {A magnitude} is commensurable in square only with {B magnitude}.
+Thus, {C magnitude} (is) also commensurable in square only with {D magnitude} [Prop. 10.11].
+And {C magnitude} is medial.
+Thus, {D magnitude} (is) also medial [Prop. 10.23].
+And since as {A magnitude} is to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}, and the square on {A magnitude} is greater than (the square on) {B magnitude} by the (square) on (some straight-line) commensurable (in length) with ({A magnitude}), the square on {C magnitude} is thus also greater than (the square on) {D magnitude} by the (square) on (some straight-line) commensurable (in length) with ({C magnitude}) [Prop. 10.14].
+
+Thus, two medial (straight-lines), {C magnitude} and {D magnitude}, commensurable in square only, (and) containing a rational (area), have been found.
+And the square on {C magnitude} is greater than (the square on) {D magnitude} by the (square) on (some straight-line) commensurable in length with ({C magnitude}).
+
+So, similarly, (the proposition) can also be demonstrated for (some straight-line) incommensurable (in length with {C magnitude}), provided that the square on {A magnitude} is greater than (the square on {B magnitude}) by the (square) on (some straight-line) incommensurable (in length) with ({A magnitude}) [Prop. 10.30].

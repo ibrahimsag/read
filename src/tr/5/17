@@ -1,0 +1,26 @@
+If composed magnitudes are proportional then they will also be proportional (when) separarted.
+
+Let {AB magnitude}, {BE magnitude}, {CD magnitude}, and {DF magnitude} be composed magnitudes (which are) proportional, (so that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}.
+I say that they will also be proportional (when) separated, (so that) as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {DF magnitude}.
+
+For let the equal multiples {GH magnitude}, {HK magnitude}, {LM magnitude}, and {MN magnitude} have been taken of {AE magnitude}, {EB magnitude}, {CF magnitude}, and {FD magnitude} (respectively), and the other random equal multiples {KO magnitude} and {NP magnitude} of {EB magnitude} and {FD magnitude} (respectively).
+
+And since {GH magnitude} and {HK magnitude} are equal multiples of {AE magnitude} and {EB magnitude} (respectively), {GH magnitude} and {GK magnitude} are thus equal multiples of {AE magnitude} and {AB magnitude} (respectively) [Prop. 5.1].
+But {GH magnitude} and {LM magnitude} are equal multiples of {AE magnitude} and {CF magnitude} (respectively).
+Thus, {GK magnitude} and {LM magnitude} are equal multiples of {AB magnitude} and {CF magnitude} (respectively).
+Again, since {LM magnitude} and {MN magnitude} are equal multiples of {CF magnitude} and {FD magnitude} (respectively), {LM magnitude} and {LN magnitude} are thus equal multiples of {CF magnitude} and {CD magnitude} (respectively) [Prop. 5.1].
+And {LM magnitude} and {GK magnitude} were equal multiples of {CF magnitude} and {AB magnitude} (respectively).
+Thus, {GK magnitude} and {LN magnitude} are equal multiples of {AB magnitude} and {CD magnitude} (respectively).
+Thus, {GK magnitude}, {LN magnitude} are equal multiples of {AB magnitude}, {CD magnitude}.
+Again, since {HK magnitude} and {MN magnitude} are equal multiples of {EB magnitude} and {FD magnitude} (respectively), and {KO magnitude} and {NP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively), then, added together, {HO magnitude} and {MP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively) [Prop. 5.2].
+And since as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}, and the equal multiples {GK magnitude}, {LN magnitude} have been taken of {AB magnitude}, {CD magnitude}, and the equal multiples {HO magnitude}, {MP magnitude} of {EB magnitude}, {FD magnitude}, thus if {GK magnitude} exceeds {HO magnitude} then {LN magnitude} also exceeds {MP magnitude}, and if ({GK magnitude} is) equal (to {HO magnitude} then {LN magnitude} is also) equal (to {MP magnitude}), and if ({GK magnitude} is) less (than {HO magnitude} then {LN magnitude} is also) less (than {MP magnitude}) [Def. 5.5].
+So let {GK magnitude} exceed {HO magnitude}, and thus, {HK magnitude} being taken away from both, {GH magnitude} exceeds {KO magnitude}.
+But (we saw that) if {GK magnitude} was exceeding {HO magnitude} then {LN magnitude} was also exceeding {MP magnitude}.
+Thus, {LN magnitude} also exceeds {MP magnitude}, and, {MN magnitude} being taken away from both, {LM magnitude} also exceeds {NP magnitude}.
+Hence, if {GH magnitude} exceeds {KO magnitude} then {LM magnitude} also exceeds {NP magnitude}.
+So, similarly, we can show that even if {GH magnitude} is equal to {KO magnitude} then {LM magnitude} will also be equal to {NP magnitude}, and even if ({GH magnitude} is) less (than {KO magnitude} then {LM magnitude} will also be) less (than {NP magnitude}).
+And {GH magnitude}, {LM magnitude} are equal multiples of {AE magnitude}, {CF magnitude}, and {KO magnitude}, {NP magnitude} other random equal multiples of {EB magnitude}, {FD magnitude}.
+Thus, as {AE magnitude} is to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Def. 5.5].
+
+Thus, if composed magnitudes are proportional then they will also be proportional (when) separated.
+(Which is) the very thing it was required to show.

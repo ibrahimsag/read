@@ -1,0 +1,21 @@
+For quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.
+
+Let {ABCD circle E} be a circle, and let {ABCD polygon} be a quadrilateral within it.
+I say that the (sum of the) opposite angles is equal to two right-angles.
+
+Let {AC line} and {BD line} have been joined.
+
+Therefore, since the three angles of any triangle are equal to two right-angles [Prop. 1.32], the three angles {CAB angle}, {ABC angle}, and {BCA angle} of triangle {ABC polygon} are thus equal to two right-angles.
+And {CAB angle} (is) equal to {BDC angle}.
+For they are in the same segment {BADC arcc E} [Prop. 3.21].
+And {ACB angle} (is equal) to {ADB angle}.
+For they are in the same segment {ADCB arcc E} [Prop. 3.21].
+Thus, the whole of {ADC angle} is equal to {BAC angle} and {ACB angle}.
+Let {ABC angle} have been added to both.
+Thus, {ABC angle}, {BAC angle}, and {ACB angle} are equal to {ABC angle} and {ADC angle}.
+But, {ABC angle}, {BAC angle}, and {ACB angle} are equal to two right-angles.
+Thus, {ABC angle} and {ADC angle} are also equal to two right-angles.
+Similarly, we can show that angles {BAD angle} and {DCB angle} are also equal to two right-angles.
+
+Thus, for quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.
+(Which is) the very thing it was required to show.

@@ -1,0 +1,19 @@
+Verilen bir üçgene eşit, verilen bir doğrusal açıda bir paralelkenar yapmak.
+
+{ABC polygon} verilen üçgen olsun ve {D given} verilen doğrusal açı olsun.
+Böylece, doğrusal açı {D given} içinde üçgen {ABC polygon} ile eşit bir paralelkenar yapmak gerekmektedir.
+
+{BC line} {E point} noktasında yarıya bölünmüş olsun [Prop. 1.10] ve {AE line} birleştirilmiş olsun.
+Ve {E point} noktasında {EC line} düz çizgi üzerinde {D given} açısına eşit olan {CEF angle} açısı yapılmış olsun [Prop. 1.23].
+Ve {A point} üzerinden {EC line} ile paralel {AG line} çizilmiş olsun [Prop. 1.31] ve {C point} üzerinden {EF line} ile paralel {CG line} çizilmiş olsun [Prop. 1.31].
+Böylece, {FECG polygon} bir paralelkenardır.
+Ve {BE line} {EC line}'a eşit olduğundan, üçgen {ABE polygon} da üçgen {AEC polygon}'a eşittir.
+Çünkü onlar eşit tabanlar üzerinde, {BE line} ve {EC line}, ve aynı paraleller arasında, {BC line} ve {AG line} [Prop. 1.38].
+Böylece, üçgen {ABC polygon} üçgen {AEC polygon}'ın iki katıdır.
+Ve paralelkenar {FECG polygon} da üçgen {AEC polygon}'ın iki katıdır.
+Çünkü onun aynı tabanı var ({AEC polygon}) ve aynı paraleller arasında ({AEC polygon}) [Prop. 1.41].
+Böylece, paralelkenar {FECG polygon} üçgen {ABC polygon}'a eşittir.
+({FECG polygon}) ayrıca açı {CEF angle} verilen (açı) {D given}'a eşittir.
+
+Böylece, verilen üçgen {ABC polygon}'a eşit olan paralelkenar {FECG polygon}, {CEF angle} açısında, {D given}'a eşit olarak yapılmıştır.
+(Yapılması gereken tam olarak budur.)

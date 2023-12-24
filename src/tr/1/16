@@ -1,0 +1,20 @@
+Herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı her iki iç ve karşı açıdan daha büyüktür.
+
+{ABC polygon} bir üçgen olsun ve kenarlarından biri {BC line} {BD line} olarak uzatılmış olsun.
+Dış açı {ACD angle}'nin her iki iç ve karşı açıdan, yani {CBA angle} ve {BAC angle} açılarından daha büyük olduğunu söylüyorum.
+
+{AC line} çizgisi {E point} noktasında ikiye bölünsün [Prop. 1.10].
+Ve {BE line} birleştirilip düz bir çizgi olarak {BF line} noktasına kadar uzatılsın.
+Ve {EF line}, {BE line}'a eşit yapılsın [Prop. 1.3], ve {FC line} birleştirilsin, ve {AC line} {G point} noktasına kadar çizilsin ({AG line} olarak).
+
+Dolayısıyla, {AE line} {EC line}'a eşit olduğu için ve {BE line} {EF line}'a eşit olduğu için, iki çizgi {AE line}, {EB line} sırasıyla iki çizgi {CE line}, {EF line}'a eşittir.
+Ayrıca, {AEB angle} açısı {FEC angle} açısına eşittir, çünkü bunlar dikey olarak karşıt açılardır [Prop. 1.15].
+Böylece, taban {AB line} taban {FC line}'a eşittir ve üçgen {ABE polygon} üçgen {FEC polygon}'a eşittir ve eşit kenarları çevreleyen kalan açılar, karşılık gelen kalan açılara eşittir [Prop. 1.4].
+
+Böylece, {BAE angle} açısı {ECF angle} açısına eşittir.
+Ama {ECD angle} açısı {ECF angle} açısından daha büyüktür.
+Böylece, {ACD angle} açısı {BAE angle} açısından daha büyüktür.
+Benzer şekilde, {BC line} çizgisini yarıya böldüğümüzde, {BCG angle} açısının -yani {ACD angle} açısının- ayrıca {ABC angle} açısından da daha büyük olduğunu gösterebiliriz.
+
+Böylece, herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı her iki iç ve karşı açıdan daha büyüktür.
+(Gösterilmesi gereken tam da budur.)

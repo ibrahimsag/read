@@ -1,0 +1,23 @@
+Bir üçgenin bir kenarının karesi, üçgenin kalan kenarlarının karelerinin toplamına eşitse, üçgenin kalan kenarları tarafından oluşturulan açı bir dik açıdır.
+
+Öyle ki, {ABC polygon} üçgeninin bir kenarı olan {BC line} üzerindeki kare, {BA line} ve {AC line} kenarları üzerindeki karelerin toplamına eşit olsun.
+{BAC angle} açısının bir dik açı olduğunu söylüyorum.
+
+Çünkü, {A point} noktasından {AC line} düz çizgisine dik olarak {AD line} çizilsin [Prop. 1.11] ve {AD line}, {BA line}'a eşit yapılsın [Prop. 1.3] ve {DC line} birleştirilsin.
+{DA line}'ın {AB line}'a eşit olduğu için, {DA line} üzerindeki kare de {AB line} üzerindeki kareye eşittir.
+Her ikisine de {AC line} üzerindeki kare eklenmiş olsun.
+Böylece, {DA line} ve {AC line} üzerindeki karelerin toplamı, {BA line} ve {AC line} üzerindeki karelerin toplamına eşittir.
+Ama, {DA line} ve {AC line} üzerindeki karelerin toplamı, {DC line} üzerindeki kareye eşittir.
+Çünkü {DAC angle} açısı bir dik açıdır [Prop. 1.47].
+Ama, {BA line} ve {AC line} üzerindeki karelerin toplamı, {BC line} üzerindeki kareye eşittir.
+Çünkü (bu) varsayılmıştı.
+Böylece, {DC line} üzerindeki kare, {BC line} üzerindeki kareye eşittir.
+Yani {DC line} da {BC line}'a eşittir.
+Ve {DA line}'ın {AB line}'a eşit olduğu ve {AC line}'ın (ise) ortak olduğu göz önüne alındığında, iki (düz çizgi) {DA line}, {AC line} iki (düz çizgi) {BA line}, {AC line}'a eşittir.
+Ve taban {DC line}, taban {BC line}'a eşittir.
+Böylece, {DAC angle} açısı {BAC angle} açısına eşittir [Prop. 1.8].
+Ama {DAC angle} bir dik açıdır.
+Böylece, {BAC angle} da bir dik açıdır.
+
+Böylece, bir üçgenin bir kenarının karesi, üçgenin kalan kenarlarının karelerinin toplamına eşitse, üçgenin kalan kenarları tarafından oluşturulan açı bir dik açıdır.
+(Gösterilmesi gereken tam da buydu.)

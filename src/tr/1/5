@@ -1,0 +1,25 @@
+İkizkenar üçgenlerde, tabandaki açılar birbirine eşittir ve eşit kenarlar uzatılırsa, tabanın altındaki açılar da birbirine eşit olacaktır.
+
+{ABC polygon} ikizkenar bir üçgen olsun ve {AB line} kenarı {AC line} kenarıyla eşit olsun, ve düz çizgiler {BD line} ve {CE line}, sırasıyla {AB line} ve {AC line} ile düz bir çizgide üretildi [Post. 2].
+Diyorum ki, {ABC angle} açısı {ACB angle} açısına eşittir,
+ve {CBD angle} (açısı) {BCE angle} açısına eşittir.
+
+Çünkü {BD line} üzerinde bir yerde {F point} noktası alınsın ve daha büyük olan {AE line} üzerinden daha küçük olan {AF line} ile eşit {AG line} kesilsin [Prop. 1.3].
+Ayrıca, düz çizgiler {FC line} ve {GB line} birleştirilsin [Post. 1].
+
+Gerçekten, {AF line} {AG line}'a eşit olduğundan ve {AB line} {AC line}'a eşit olduğundan, iki düz çizgi {FA line}, {AC line} sırasıyla iki düz çizgi {GA line}, {AB line}'a eşittir.
+Ayrıca, ortak bir açı {FAG angle}'ı da kapsarlar.
+Böylece, taban {FC line} taban {GB line}'a eşit olacak ve üçgen {AFC polygon} üçgen {AGB polygon}'a eşit olacak ve eşit kenarlar tarafından sarkıtılan kalan açılar, karşılık gelen kalan açılara eşit olacak [Prop. 1.4].
+(Yani) {ACF angle} {ABG angle}'a ve {AFC angle} {AGB angle}'a eşittir.
+Ve {AF line}'ın tamamı {AG line}'ın tamamına eşit olduğu gösterildiğinden, içinde {AB line} {AC line}'a eşit olduğundan, kalan {BF line} böylece kalan {CG line}'a eşittir [C.N. 3].
+Ama {FC line}'ın da {GB line}'a eşit olduğu gösterildi.
+Yani iki düz çizgi {BF line}, {FC line} sırasıyla iki düz çizgi {CG line}, {GB line}'a eşittir ve {BFC angle} açısı {CGB angle} açısına eşittir ve taban {BC line} onlara ortaktır.
+Böylece, üçgen {BFC polygon} üçgen {CGB polygon}'a eşit olacak ve eşit kenarlar tarafından sarkıtılan kalan açılar, karşılık gelen kalan açılara eşit olacak [Prop. 1.4].
+Böylece, {FBC angle} {GCB angle}'a eşittir ve {BCF angle} {CBG angle}'a eşittir.
+Bu nedenle, tam açı {ABG angle}'ın tam açı {ACF angle}'a eşit olduğu gösterildiğinden, içinde {CBG angle} {BCF angle}'a eşit olduğundan, kalan {ABC angle} böylece kalan {ACB angle}'a eşittir [C.N. 3].
+Ve bunlar {ABC polygon} üçgeninin tabanındadır.
+Ve {FBC angle}'ın da {GCB angle}'a eşit olduğu gösterildi.
+Ve bunlar tabanın altındadır.
+
+Böylece, ikizkenar üçgenler için, tabandaki açılar birbirine eşittir ve eşit kenarlar uzatılırsa, tabanın altındaki açılar da birbirine eşit olacaktır.
+(Gösterilmesi gereken şey tam olarak budur.)

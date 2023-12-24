@@ -1,0 +1,22 @@
+If a solid angle is contained by three plane angles then (the sum of) any two (angles) is greater than the remaining (one), (the angles) being taken up in any (possible way).
+
+For let the solid angle {A given} have been contained by the three plane angles {BAC angle}, {CAD angle}, and {DAB angle}.
+I say that (the sum of) any two of the angles {BAC angle}, {CAD angle}, and {DAB angle} is greater than the remaining (one), (the angles) being taken up in any (possible way).
+
+For if the angles {BAC angle}, {CAD angle}, and {DAB angle} are equal to one another then (it is) clear that (the sum of) any two is greater than the remaining (one).
+But, if not, let {BAC angle} be greater (than {CAD angle} or {DAB angle}).
+And let (angle) {BAE angle}, equal to the angle {DAB angle}, have been constructed in the plane through {BAC polygon}, on the straight-line {AB line}, at the point {A point} on it.
+And let {AE line} be made equal to {AD line}. And {BEC line} being drawn across through point {E point}, let it cut the straight-lines {AB line} and {AC line} at points {B point} and {C point} (respectively).
+And let {DB line} and {DC line} have been joined.
+
+And since {DA line} is equal to {AE line}, and {AB line} (is) common, the two (straight-lines {AD line} and {AB line} are) equal to the two (straight-lines {EA line} and {AB line}, respectively).
+And angle {DAB angle} (is) equal to angle {BAE angle}.
+Thus, the base {DB line} is equal to the base {BE line} [Prop. 1.4].
+And since the (sum of the) two (straight-lines) {BD line} and {DC line} is greater than {BC line} [Prop. 1.20], of which {DB line} was shown (to be) equal to {BE line}, the remainder {DC line} is thus greater than the remainder {EC line}.
+And since {DA line} is equal to {AE line}, but {AC line} (is) common, and the base {DC line} is greater than the base {EC line}, the angle {DAC angle} is thus greater than the angle {EAC angle} [Prop. 1.25].
+And {DAB angle} was also shown (to be) equal to {BAE angle}.
+Thus, (the sum of) {DAB angle} and {DAC angle} is greater than {BAC angle}.
+So, similarly, we can also show that the remaining (angles), being taken in pairs, are greater than the remaining (one).
+
+Thus, if a solid angle is contained by three plane angles then (the sum of) any two (angles) is greater than the remaining (one), (the angles) being taken up in any (possible way).
+(Which is) the very thing it was required to show.

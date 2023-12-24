@@ -1,0 +1,24 @@
+Üç verilen [düz çizgiye] eşit üç düz çizgiden bir üçgen yapmak için, (düz çizgilerin) toplamının kalanından daha büyük olması gerekmektedir, (düz çizgiler) herhangi bir şekilde alınmış olmalıdır [her üçgen için iki kenarın toplamı kalanından daha büyüktür, (kenarlar) herhangi bir şekilde alınmış olmalıdır [Prop. 1.20] ].
+
+{A given}, {B given} ve {C given} üç verilen düz çizgi olsun, bunlardan herhangi ikisinin toplamı kalanından daha büyük olsun, (düz çizgiler) herhangi bir şekilde alınmış olsun.
+(Böylece), {A given} ve {B given}'in toplamı {C given}'den, {A given} ve {C given}'ın toplamı {B given}'den ve aynı zamanda {B given} ve {C given}'ın toplamı {A given}'den daha büyüktür.
+Dolayısıyla, {A given}, {B given} ve {C given}'e eşit (düz çizgilerden) bir üçgen yapmak gerekmektedir.
+
+Bazı düz çizgi {DE line} {D point} noktasında sonlandırılmış ve {E point} yönünde sonsuz olsun.
+Ve {DF line} {A given}'e eşit yapılsın [Prop. 1.3], ve {FG line} {B given}'e eşit [Prop. 1.3], ve {GH line} {C given}'e eşit [Prop. 1.3].
+Ve daire {DKL circle F} merkezi {F point} ve yarıçapı {FD line} olacak şekilde çizilmiş olsun.
+Yine, daire {KLH circle G} merkezi {G point} ve yarıçapı {GH line} olacak şekilde çizilmiş olsun.
+Ve {KF line} ve {KG line} birleştirilmiş olsun.
+Diyorum ki {KFG polygon} üçgeni {A given}, {B given} ve {C given}'e eşit üç düz çizgiden yapılmıştır.
+
+Çünkü {F point} noktası {DKL circle F} dairenin merkezi olduğu için, {FD line} {FK line}'e eşittir.
+Ama, {FD line} {A given}'e eşittir.
+Böylece, {KF line} da {A given}'e eşittir.
+Yine, {G point} noktası {LKH circle G} dairenin merkezi olduğu için, {GH line} {GK line}'e eşittir.
+Ama, {GH line} {C given}'e eşittir.
+Böylece, {KG line} da {C given}'e eşittir.
+Ve {FG line} {B given}'e eşittir.
+Böylece, üç düz çizgi {KF line}, {FG line} ve {GK line} sırasıyla {A given}, {B given} ve {C given}'e eşittir.
+
+Böylece, {KFG polygon} üçgeni üç verilen düz çizgiye {A given}, {B given} ve {C given}'e eşit olan üç düz çizgi {KF line}, {FG line} ve {GK line}'den yapılmıştır.
+(Yapılması gereken tam da buydu.)

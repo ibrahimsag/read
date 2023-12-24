@@ -1,0 +1,70 @@
+To construct a solid angle from three (given) plane angles, (the sum of) two of which is greater than the remaining (one, the angles) being taken up in any (possible way).
+So, it is necessary for the (sum of the) three (angles) to be less than four right-angles [Prop. 11.21].
+
+Let {ABC angle}, {DEF angle}, and {GHK angle} be the three given plane angles, of which let (the sum of) two be greater than the remaining (one, the angles) being taken up in any (possible way), and, further, (let) the (sum of the) three (be) less than four right-angles.
+So, it is necessary to construct a solid angle from (plane angles) equal to {ABC angle}, {DEF angle}, and {GHK angle}.
+
+Let {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line} be cut off (so as to be) equal (to one another).
+And let {AC line}, {DF line}, and {GK line} have been joined.
+It is, thus, possible to construct a triangle from (straight-lines) equal to {AC line}, {DF line}, and {GK line} [Prop. 11.22].
+Let (such a triangle), {LMN polygon}, have be constructed, such that {AC line} is equal to {LM line}, {DF line} to {MN line}, and, further, {GK line} to {NL line}.
+And let the circle {LMN given} have been circumscribed about triangle {LMN polygon} [Prop. 4.5].
+And let its center have been found, and let it be (at) {O point}.
+And let {LO line}, {MO line}, and {NO line} have been joined.
+
+I say that {AB line} is greater than {LO line}.
+For, if not, {AB line} is either equal to, or less than, {LO line}.
+Let it, first of all, be equal.
+And since {AB line} is equal to {LO line}, but {AB line} is equal to {BC line}, and {OL line} to {OM line}, so the two (straight-lines) {AB line} and {BC line} are equal to the two (straight-lines) {LO line} and {OM line}, respectively.
+And the base {AC line} was assumed (to be) equal to the base {LM line}.
+Thus, angle {ABC angle} is equal to angle {LOM angle} [Prop. 1.8].
+So, for the same (reasons), {DEF polygon} is also equal to {MON polygon}, and, further, {GHK polygon} to {NOL polygon}.
+Thus, the three angles {ABC angle}, {DEF angle}, and {GHK angle} are equal to the three angles {LOM angle}, {MON angle}, and {NOL angle}, respectively.
+But, the (sum of the) three angles {LOM angle}, {MON angle}, and {NOL angle} is equal to four right-angles.
+Thus, the (sum of the) three angles {ABC angle}, {DEF angle}, and {GHK angle} is also equal to four right-angles.
+And it was also assumed (to be) less than four right-angles.
+The very thing (is) absurd.
+Thus, {AB line} is not equal to {LO line}.
+So, I say that {AB line} is not less than {LO line} either.
+For, if possible, let it be (less).
+And let {OP line} be made equal to {AB line}, and {OQ line} equal to {BC line}, and let {PQ line} have been joined.
+And since {AB line} is equal to {BC line}, {OP line} is also equal to {OQ line}.
+Hence, the remainder {LP line} is also equal to (the remainder) {QM line}.
+{LM line} is thus parallel to {PQ line} [Prop. 6.2], and (triangle) {LMO polygon} (is) equiangular with (triangle) {PQO polygon} [Prop. 1.29].
+Thus, as {OL line} is to {LM line}, so {OP line} (is) to {PQ line} [Prop. 6.4].
+Alternately, as {LO line} (is) to {OP line}, so {LM line} (is) to {PQ line} [Prop. 5.16].
+And {LO line} (is) greater than {OP line}.
+Thus, {LM line} (is) also greater than {PQ line} [Prop. 5.14].
+But {LM line} was made equal to {AC line}.
+Thus, {AC line} is also greater than {PQ line}.
+Therefore, since the two (straight-lines) {AB line} and {BC line} are equal to the two (straight-lines) {PO line} and {OQ line} (respectively), and the base {AC line} is greater than the base {PQ line}, the angle {ABC angle} is thus greater than the angle {POQ angle} [Prop. 1.25].
+So, similarly, we can show that {DEF angle} is also greater than {MON angle}, and {GHK angle} than {NOL angle}.
+Thus, the (sum of the) three angles {ABC angle}, {DEF angle}, and {GHK angle} is greater than the (sum of the) three angles {LOM angle}, {MON angle}, and {NOL angle}.
+But, (the sum of) {ABC angle}, {DEF angle}, and {GHK angle} was assumed (to be) less than four right-angles.
+Thus, (the sum of) {LOM angle}, {MON angle}, and {NOL angle} is much less than four right-angles.
+But, (it is) also equal (to four right-angles).
+The very thing is absurd.
+Thus, {AB line} is not less than {LO line}.
+And it was shown (to be) not equal either.
+Thus, {AB line} (is) greater than {LO line}.
+
+So let {OR line} have been set up at point {O point} at right-angles to the plane of circle {LMN given} [Prop. 11.12].
+And let the (square) on {OR line} be equal to that (area) by which the square on {AB line} is greater than the (square) on {LO line} [Prop. 11.23 lem.].
+And let {RL line}, {RM line}, and {RN line} have been joined.
+
+And since {RO line} is at right-angles to the plane of circle {LMN given}, {RO line} is thus also at right-angles to each of {LO line}, {MO line}, and {NO line}.
+And since {LO line} is equal to {OM line}, and {OR line} is common and at right-angles, the base {RL line} is thus equal to the base {RM line} [Prop. 1.4].
+So, for the same (reasons), {RN line} is also equal to each of {RL line} and {RM line}.
+Thus, the three (straight-lines) {RL line}, {RM line}, and {RN line} are equal to one another.
+And since the (square) on {OR line} was assumed to be equal to that (area) by which the (square) on {AB line} is greater than the (square) on {LO line}, the (square) on {AB line} is thus equal to the (sum of the squares) on {LO line} and {OR line}.
+And the (square) on {LR line} is equal to the (sum of the squares) on {LO line} and {OR line}.
+For {LOR angle} (is) a right-angle [Prop. 1.47].
+Thus, the (square) on {AB line} is equal to the (square) on {RL line}.
+Thus, {AB line} (is) equal to {RL line}.
+But, each of {BC line}, {DE line}, {EF line}, {GH line}, and {HK line} is equal to {AB line}, and each of {RM line} and {RN line} equal to {RL line}.
+Thus, each of {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line} is equal to each of {RL line}, {RM line}, and {RN line}.
+And since the two (straight-lines) {LR line} and {RM line} are equal to the two (straight-lines) {AB line} and {BC line} (respectively), and the base {LM line} was assumed (to be) equal to the base {AC line}, the angle {LRM angle} is thus equal to the angle {ABC angle} [Prop. 1.8].
+So, for the same (reasons), {MRN angle} is also equal to {DEF angle}, and {LRN angle} to {GHK angle}.
+
+Thus, the solid angle {R given}, contained by the angles {LRM angle}, {MRN angle}, and {LRN angle}, has been constructed out of the three plane angles {LRM angle}, {MRN angle}, and {LRN angle}, which are equal to the three given (plane angles) {ABC angle}, {DEF angle}, and {GHK angle} (respectively).
+(Which is) the very thing it was required to do.

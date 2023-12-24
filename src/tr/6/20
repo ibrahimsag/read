@@ -1,0 +1,55 @@
+Similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.
+
+Let {ABCDE polygon} and {FGHKL polygon} be similar polygons, and let {AB line} correspond to {FG line}.
+I say that polygons {ABCDE polygon} and {FGHKL polygon} can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and (that) polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to that {AB line} (has) to {FG line}.
+
+Let {BE line}, {EC line}, {GL line}, and {LH line} have been joined.
+
+And since polygon {ABCDE polygon} is similar to polygon {FGHKL polygon}, angle {BAE angle} is equal to angle {GFL angle}, and as {BA line} is to {AE line}, so {GF line} (is) to {FL line} [Def. 6.1].
+Therefore, since {ABE polygon} and {FGL polygon} are two triangles having one angle equal to one angle and the sides about the equal angles proportional, triangle {ABE polygon} is thus equiangular to triangle {FGL polygon} [Prop. 6.6].
+Hence, (they are) also similar [Prop. 6.4, Def. 6.1].
+Thus, angle {ABE angle} is equal to (angle) {FGL angle}.
+And the whole (angle) {ABC angle} is equal to the whole (angle) {FGH angle}, on account of the similarity of the polygons.
+Thus, the remaining angle {EBC angle} is equal to {LGH angle}.
+And since, on account of the similarity of triangles {ABE polygon} and {FGL polygon}, as {EB line} is to {BA line}, so {LG line} (is) to {GF line}, but also, on account of the similarity of the polygons, as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, thus, via equality, as {EB line} is to {BC line}, so {LG line} (is) to {GH line} [Prop. 5.22], and the sides about the equal angles, {EBC angle} and {LGH angle}, are proportional.
+Thus, triangle {EBC polygon} is equiangular to triangle {LGH polygon} [Prop. 6.6].
+Hence, triangle {EBC polygon} is also similar to triangle {LGH polygon} [Prop. 6.4, Def. 6.1].
+So, for the same (reasons), triangle {ECD polygon} is also similar to triangle {LHK polygon}.
+Thus, the similar polygons {ABCDE polygon} and {FGHKL polygon} have been divided into equal numbers of similar triangles.
+
+I also say that (the triangles) correspond (in proportion) to the wholes.
+That is to say, the triangles are proportional: {ABE polygon}, {EBC polygon}, and {ECD polygon} are the leading (magnitudes), and their (associated) following (magnitudes are) {FGL polygon}, {LGH polygon}, and {LHK polygon} (respectively).
+(I) also (say) that polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to (that) a corresponding side (has) to a corresponding side---that is to say, (side) {AB line} to {FG line}.
+
+For let {AC line} and {FH line} have been joined.
+And since angle {ABC angle} is equal to {FGH angle}, and as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, on account of the similarity of the polygons, triangle {ABC polygon} is equiangular to triangle {FGH polygon} [Prop. 6.6].
+Thus, angle {BAC angle} is equal to {GFH angle}, and (angle) {BCA angle} to {GHF angle}.
+And since angle {BAM angle} is equal to {GFN angle}, and (angle) {ABM angle} is also equal to {FGN angle} (see earlier), the remaining (angle) {AMB angle} is thus also equal to the remaining (angle) {FNG angle} [Prop. 1.32].
+Thus, triangle {ABM polygon} is equiangular to triangle {FGN polygon}.
+So, similarly, we can show that triangle {BMC polygon} is also equiangular to triangle {GNH polygon}.
+Thus, proportionally, as {AM line} is to {MB line}, so {FN line} (is) to {NG line}, and as {BM line} (is) to {MC line}, so {GN line} (is) to {NH line} [Prop. 6.4].
+Hence, also, via equality, as {AM line} (is) to {MC line}, so {FN line} (is) to {NH line} [Prop. 5.22].
+But, as {AM line} (is) to {MC line}, so [triangle] {ABM polygon} is to {MBC polygon}, and {AME polygon} to {EMC polygon}.
+For they are to one another as their bases [Prop. 6.1].
+And as one of the leading (magnitudes) is to one of the following (magnitudes), so (the sum of) all the leading (magnitudes) is to (the sum of) all the following (magnitudes) [Prop. 5.12].
+Thus, as triangle {AMB polygon} (is) to {BMC polygon}, so (triangle) {ABE polygon} (is) to {CBE polygon}.
+But, as (triangle) {AMB polygon} (is) to {BMC polygon}, so {AM line} (is) to {MC line}.
+Thus, also, as {AM line} (is) to {MC line}, so triangle {ABE polygon} (is) to triangle {EBC polygon}.
+And so, for the same (reasons), as {FN line} (is) to {NH line}, so triangle {FGL polygon} (is) to triangle {GLH polygon}.
+And as {AM line} is to {MC line}, so {FN line} (is) to {NH line}.
+Thus, also, as triangle {ABE polygon} (is) to triangle {BEC polygon}, so triangle {FGL polygon} (is) to triangle {GLH polygon}, and, alternately, as triangle {ABE polygon} (is) to triangle {FGL polygon}, so triangle {BEC polygon} (is) to triangle {GLH polygon} [Prop. 5.16].
+So, similarly, we can also show, by joining {BD line} and {GK line}, that as triangle {BEC polygon} (is) to triangle {LGH polygon}, so triangle {ECD polygon} (is) to triangle {LHK polygon}.
+And since as triangle {ABE polygon} is to triangle {FGL polygon}, so (triangle) {EBC polygon} (is) to {LGH polygon}, and, further, (triangle) {ECD polygon} to {LHK polygon}, and also as one of the leading (magnitudes is) to one of the following, so (the sum of) all the leading (magnitudes is) to (the sum of) all the following [Prop. 5.12], thus as triangle {ABE polygon} is to triangle {FGL polygon}, so polygon {ABCDE polygon} (is) to polygon {FGHKL polygon}.
+But, triangle {ABE polygon} has a squared ratio to triangle {FGL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.
+For, similar triangles are in the squared ratio of corresponding sides [Prop. 6.14].
+Thus, polygon {ABCDE polygon} also has a squared ratio to polygon {FGHKL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.
+
+Thus, similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+And, in the same manner, it can also be shown for [similar] quadrilaterals that they are in the squared ratio of (their) corresponding sides.
+And it was also shown for triangles.
+Hence, in general, similar rectilinear figures are also to one another in the squared ratio of (their) corresponding sides.
+(Which is) the very thing it was required to show.

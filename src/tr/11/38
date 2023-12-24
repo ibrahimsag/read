@@ -1,0 +1,26 @@
+If the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
+
+For let the opposite planes {CF polygon} and {AH polygon} of the cube {AF given} have been cut in half at the points {K point}, {L point}, {M point}, {N point}, {O point}, {Q point}, {P point}, and {R point}.
+And let the planes {KN polygon} and {OR polygon} have been produced through the pieces.
+And let {US line} be the common section of the planes, and {DG line} the diameter of cube {AF given}.
+I say that {UT line} is equal to {TS line}, and {DT line} to {TG line}.
+
+For let {DU line}, {UE line}, {BS line}, and {SG line} have been joined.
+And since {DO line} is parallel to {PE line}, the alternate angles {DOU angle} and {UPE angle} are equal to one another [Prop. 1.29].
+And since {DO line} is equal to {PE line}, and {OU line} to {UP line}, and they contain equal angles, base {DU line} is thus equal to base {UE line}, and triangle {DOU polygon} is equal to triangle {PUE polygon}, and the remaining angles (are) equal to the remaining angles [Prop. 1.4].
+Thus, angle {OUD angle} (is) equal to angle {PUE angle}.
+So, for this (reason), {DUE line} is a straight-line [Prop. 1.14].
+So, for the same (reason), {BSG line} is also a straight-line, and {BS line} equal to {SG line}.
+And since {CA line} is equal and parallel to {DB line}, but {CA line} is also equal and parallel to {EG line}, {DB line} is thus also equal and parallel to {EG line} [Prop. 11.9].
+And the straight-lines {DE line} and {BG line} join them.
+{DE line} is thus parallel to {BG line} [Prop. 1.33].
+Thus, angle {EDT angle} (is) equal to {BGT angle}.
+For (they are) alternate [Prop. 1.29].
+And (angle) {DTU angle} (is equal) to {GTS angle} [Prop. 1.15].
+So, {DTU polygon} and {GTS polygon} are two triangles having two angles equal to two angles, and one side equal to one side—(namely), that subtended by one of the equal angles—(that is), {DU line} (equal) to {GS line}.
+For they are halves of {DE line} and {BG line} (respectively).
+(Thus), they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
+Thus, {DT line} (is) equal to {TG line}, and {UT line} to {TS line}.
+
+Thus, if the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
+(Which is) the very thing it was required to show.

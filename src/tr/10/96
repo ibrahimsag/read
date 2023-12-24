@@ -1,0 +1,37 @@
+If an area is contained by a rational (straight-line) and a sixth apotome then the square-root of the area is that (straight-line) which with a medial (area) makes a medial whole.
+
+For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the sixth apotome {AD line}.
+I say that the square-root of area {AB polygon} is that (straight-line) which with a medial (area) makes a medial whole.
+
+For let {DG line} be an attachment to {AD line}.
+Thus, {AG line} and {GD line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and neither of them is commensurable in length with the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {DG line}, by the (square) on (some straight-line) incommensurable in length with ({AG line}) [Def. 10.16].
+Therefore, since the square on {AG line} is greater than (the square on) {GD line} by the (square) on (some straight-line) incommensurable in length with ({AG line}), thus if (some area), equal to the fourth part of square on {DG line}, is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) incommensurable (in length) [Prop. 10.18].
+Therefore, let {DG line} have been cut in half at [point] {E line}.
+And let (some area), equal to the (square) on {EG line}, have been applied to {AG line}, falling short by a square figure.
+And let it be the (rectangle contained) by {AF line} and {FG line}.
+{AF line} is thus incommensurable in length with {FG line}.
+And as {AF line} (is) to {FG line}, so {AI polygon} is to {FK polygon} [Prop. 6.1].
+Thus, {AI polygon} is incommensurable with {FK polygon} [Prop. 10.11].
+And since {AG line} and {AC line} are rational (straight-lines which are) commensurable in square only, {AK polygon} is a medial (area) [Prop. 10.21].
+Again, since {AC line} and {DG line} are rational (straight-lines which are) incommensurable in length, {DK polygon} is also a medial (area) [Prop. 10.21].
+Therefore, since {AG line} and {GD line} are commensurable in square only, {AG line} is thus incommensurable in length with {GD line}.
+And as {AG line} (is) to {GD line}, so {AK polygon} is to {KD polygon} [Prop. 6.1].
+Thus, {AK polygon} is incommensurable with {KD polygon} [Prop. 10.11].
+
+Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
+And let {NO polygon}, equal to {FK polygon}, (and) about the same angle, have been subtracted (from {LM polygon}).
+Thus, the squares {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
+Let {PR line} be their (common) diagonal, and let (the rest of) the figure have been drawn.
+So, similarly to the above, we can show that {LN line} is the square-root of area {AB polygon}.
+I say that {LN line} is that (straight-line) which with a medial (area) makes a medial whole.
+
+For since {AK polygon} was shown (to be) a medial (area), and is equal to the (sum of the) squares on {LP line} and {PN line}, the sum of the (squares) on {LP line} and {PN line} is medial.
+Again, since {DK polygon} was shown (to be) a medial (area), and is equal to twice the (rectangle contained) by {LP line} and {PN line}, twice the (rectangle contained) by {LP line} and {PN line} is also medial.
+And since {AK polygon} was shown (to be) incommensurable with {DK polygon}, [thus] the (sum of the) squares on {LP line} and {PN line} is also incommensurable with twice the (rectangle contained) by {LP line} and {PN line}.
+And since {AI polygon} is incommensurable with {FK polygon}, the (square) on {LP line} (is) thus also incommensurable with the (square) on {PN line}.
+Thus, {LP line} and {PN line} are (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by medial, and, furthermore, the (sum of the) squares on them incommensurable with twice the (rectangle contained) by them.
+Thus, {LN line} is the irrational (straight-line) called that which with a medial (area) makes a medial whole [Prop. 10.78].
+And it is the square-root of area {AB polygon}.
+
+Thus, the square-root of area ({AB polygon}) is that (straight-line) which with a medial (area) makes a medial whole.
+(Which is) the very thing it was required to show.

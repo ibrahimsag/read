@@ -1,0 +1,28 @@
+In a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.
+And (conversely) if it cuts it at right-angles then it also cuts it in half.
+
+Let {ABC circle E} be a circle, and, within it, let some straight-line through the center, {CD line}, cut in half some straight-line not through the center, {AB line}, at the point {F point}.
+I say that ({CD line}) also cuts ({AB line}) at right-angles.
+
+For let the center of the circle {ABC circle E} have been found [Prop. 3.1], and let it be (at point) {E point}, and let {EA line} and {EB line} have been joined.
+
+And since {AF line} is equal to {FB line}, and {FE line} (is) common, two (sides of triangle {AFE polygon}) [are] equal to two (sides of triangle {BFE polygon}).
+And the base {EA line} (is) equal to the base {EB line}.
+Thus, angle {AFE angle} is equal to angle {BFE angle} [Prop. 1.8].
+And when a straight-line stood upon (another) straight-line makes adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
+Thus, {AFE angle} and {BFE angle} are each right-angles.
+Thus, the (straight-line) {CD line}, which is through the center and cuts in half the (straight-line) {AB line}, which is not through the center, also cuts ({AB line}) at right-angles.
+
+And so let {CD line} cut {AB line} at right-angles.
+I say that it also cuts ({AB line}) in half.
+That is to say, that {AF line} is equal to {FB line}.
+
+For, with the same construction, since {EA line} is equal to {EB line}, angle {EAF angle} is also equal to {EBF angle} [Prop. 1.5].
+And the right-angle {AFE angle} is also equal to the right-angle {BFE angle}.
+Thus, {EAF polygon} and {EFB polygon} are two triangles having two angles equal to two angles, and one side equal to one side---(namely), their common (side) {EF line}, subtending one of the equal angles.
+Thus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].
+Thus, {AF line} (is) equal to {FB line}.
+
+Thus, in a circle, if any straight-line through the center cuts in half any straight-line not through the center then it also cuts it at right-angles.
+And (conversely) if it cuts it at right-angles then it also cuts it in half.
+(Which is) the very thing it was required to show.

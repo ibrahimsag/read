@@ -1,0 +1,16 @@
+Herhangi bir üçgen için, (herhangi iki) açının toplamı iki dik açıdan daha küçüktür, (açılar) herhangi bir (olası şekilde) alınmıştır.
+
+{ABC polygon} bir üçgen olsun.
+{ABC polygon} üçgeninin (herhangi iki) açısının toplamının iki dik açıdan daha küçük olduğunu söylüyorum, (açılar) herhangi bir (olası şekilde) alınmıştır.
+
+Çünkü {BC line} {D point}'e kadar uzatılmış olsun.
+
+Ve {ACD angle} açısı, {ABC polygon} üçgeninin dışında olduğu için, içteki ve karşıt açı {ABC angle}'dan daha büyüktür [Prop. 1.16].
+Her iki tarafa da {ACB angle} eklenmiştir.
+Böylece, {ACD angle} ve {ACB angle} açılarının (toplamı), {ABC angle} ve {BCA angle} açılarının (toplamından) daha büyüktür.
+Ama, {ACD angle} ve {ACB angle}'ın (toplamı) iki dik açıya eşittir [Prop. 1.13].
+Böylece, {ABC angle} ve {BCA angle}'ın (toplamı) iki dik açıdan daha küçüktür.
+Benzer şekilde, {BAC angle} ve {ACB angle}'ın (toplamının) da iki dik açıdan daha küçük olduğunu ve yine {CAB angle} ve {ABC angle}'ın (toplamının) (iki dik açıdan daha küçük olduğunu) gösterebiliriz.
+
+Böylece, herhangi bir üçgen için, (herhangi iki) açının toplamı iki dik açıdan daha küçüktür, (açılar) herhangi bir (olası şekilde) alınmıştır.
+(Gösterilmesi gereken tam da budur.)

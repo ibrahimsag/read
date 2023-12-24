@@ -1,0 +1,34 @@
+To find two square numbers such that the sum of them is not square.
+
+For let the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, as we said, be square.
+And (let) {CA magnitude} (be) even.
+And let {CA magnitude} have been cut in half at {D magnitude}.
+So it is clear that the square (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the square on {CD magnitude}, is equal to the square on {BD magnitude} [see previous lemma].
+Let the unit {DE magnitude} have been subtracted (from {BD magnitude}).
+Thus, the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is less than the square on {BD magnitude}.
+I say, therefore, that the square (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is not square.
+
+For if it is square, it is either equal to the (square) on {BE magnitude}, or less than the (square) on {BE magnitude}, but cannot any more be greater (than the square on {BE magnitude}), lest the unit be divided.
+First of all, if possible, let the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, be equal to the (square) on {BE magnitude}.
+And let {GA magnitude} be double the unit {DE magnitude}.
+Therefore, since the whole of {AC magnitude} is double the whole of {CD magnitude}, of which {AG magnitude} is double {DE magnitude}, the remainder {GC magnitude} is thus double the remainder {EC magnitude}.
+Thus, {GC magnitude} has been cut in half at {E magnitude}.
+Thus, the (number created) from (multiplying) {GB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is equal to the square on {BE magnitude} [Prop. 2.6].
+But, the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, was also assumed (to be) equal to the square on {BE magnitude}.
+Thus, the (number created) from (multiplying) {GB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is equal to the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}.
+And subtracting the (square) on {CE magnitude} from both, {AB magnitude} is inferred (to be) equal to {GB magnitude}.
+The very thing is absurd.
+Thus, the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is not equal to the (square) on {BE magnitude}.
+So I say that (it is) not less than the (square) on {BE magnitude} either.
+For, if possible, let it be equal to the (square) on {BF magnitude}.
+And (let) {HA magnitude} (be) double {DF magnitude}.
+And it can again be inferred that {HC magnitude} (is) double {CF magnitude}.
+Hence, {CH magnitude} has also been cut in half at {F magnitude}.
+And, on account of this, the (number created) from (multiplying) {HB magnitude} and {BC magnitude}, plus the (square) on {FC magnitude}, becomes equal to the (square) on {BF magnitude} [Prop. 2.6].
+And the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, was also assumed (to be) equal to the (square) on {BF magnitude}.
+Hence, the (number created) from (multiplying) {HB magnitude} and {BC magnitude}, plus the (square) on {CF magnitude}, will also be equal to the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}.
+The very thing is absurd.
+Thus, the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the (square) on {CE magnitude}, is not less than the (square) on {BE magnitude}.
+And it was shown that (is it) not equal to the (square) on {BE magnitude} either.
+Thus, the (number created) from (multiplying) {AB magnitude} and {BC magnitude}, plus the square on {CE magnitude}, is not square.
+(Which is) the very thing it was required to show.

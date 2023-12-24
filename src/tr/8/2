@@ -1,0 +1,38 @@
+To find the least numbers, as many as may be prescribed, (which are) continuously proportional in a given ratio.
+
+Let the given ratio, (expressed) in the least numbers, be that of {A magnitude} to {B magnitude}.
+So it is required to find the least numbers, as many as may be prescribed, (which are) in the ratio of {A magnitude} to {B magnitude}.
+
+Let four (numbers) have been prescribed.
+And let {A magnitude} make {C magnitude} (by) multiplying itself, and let it make {D magnitude} (by) multiplying {B magnitude}.
+And, further, let {B magnitude} make {E magnitude} (by) multiplying itself.
+And, further, let {A magnitude} make {F magnitude}, {G magnitude}, {H magnitude} (by) multiplying {C magnitude}, {D magnitude}, {E magnitude}.
+And let {B magnitude} make {K magnitude} (by) multiplying {E magnitude}.
+
+And since {A magnitude} has made {C magnitude} (by) multiplying itself, and has made {D magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, [so] {C magnitude} (is) to {D magnitude} [Prop. 7.17].
+Again, since {A magnitude} has made {D magnitude} (by) multiplying {B magnitude}, and {B magnitude} has made {E magnitude} (by) multiplying itself, {A magnitude}, {B magnitude} have thus made {D magnitude}, {E magnitude}, respectively, (by) multiplying {B magnitude}.
+Thus, as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude} [Prop. 7.18].
+But, as {A magnitude} (is) to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}.
+And thus as {C magnitude} (is) to {D magnitude}, (so) {D magnitude} (is) to {E magnitude}.
+And since {A magnitude} has made {F magnitude}, {G magnitude} (by) multiplying {C magnitude}, {D magnitude}, thus as {C magnitude} is to {D magnitude}, [so] {F magnitude} (is) to {G magnitude} [Prop. 7.17].
+And as {C magnitude} (is) to {D magnitude}, so {A magnitude} was to {B magnitude}.
+And thus as {A magnitude} (is) to {B magnitude}, (so) {F magnitude} (is) to {G magnitude}.
+Again, since {A magnitude} has made {G magnitude}, {H magnitude} (by) multiplying {D magnitude}, {E magnitude}, thus as {D magnitude} is to {E magnitude}, (so) {G magnitude} (is) to {H magnitude} [Prop. 7.17].
+But, as {D magnitude} (is) to {E magnitude}, (so) {A magnitude} (is) to {B magnitude}.
+And thus as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {H magnitude}.
+And since {A magnitude}, {B magnitude} have made {H magnitude}, {K magnitude} (by) multiplying {E magnitude}, thus as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {K magnitude}.
+But, as {A magnitude} (is) to {B magnitude}, so {F magnitude} (is) to {G magnitude}, and {G magnitude} to {H magnitude}.
+And thus as {F magnitude} (is) to {G magnitude}, so {G magnitude} (is) to {H magnitude}, and {H magnitude} to {K magnitude}.
+Thus, {C magnitude}, {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude}, {H magnitude}, {K magnitude} are (both continuously) proportional in the ratio of {A magnitude} to {B magnitude}.
+So I say that (they are) also the least (sets of numbers continuously proportional in that ratio).
+For since {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them, and the least of those (numbers) having the same ratio are prime to one another [Prop. 7.22], {A magnitude} and {B magnitude} are thus prime to one another.
+And {A magnitude}, {B magnitude} have made {C magnitude}, {E magnitude}, respectively, (by) multiplying themselves, and have made {F magnitude}, {K magnitude} by multiplying {C magnitude}, {E magnitude}, respectively.
+Thus, {C magnitude}, {E magnitude} and {F magnitude}, {K magnitude} are prime to one another [Prop. 7.27].
+And if there are any multitude whatsoever of continuously proportional numbers, and the outermost of them are prime to one another, then the (numbers) are the least of those (numbers) having the same ratio as them [Prop. 8.1].
+Thus, {C magnitude}, {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude}, {H magnitude}, {K magnitude} are the least of those (continuously proportional sets of numbers) having the same ratio as {A magnitude} and {B magnitude}.
+(Which is) the very thing it was required to show.
+
+
+Corollary
+
+So it is clear, from this, that if three continuously proportional numbers are the least of those (numbers) having the same ratio as them then the outermost of them are square, and, if four (numbers), cube.

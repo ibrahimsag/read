@@ -1,0 +1,28 @@
+In any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.
+
+Let {ABCD polygon} be a parallelogram, and {AC line} its diagonal.
+And let {EG polygon} and {HK polygon} be parallelograms about {AC line}.
+I say that the parallelograms {EG polygon} and {HK polygon} are each similar to the whole (parallelogram) {ABCD polygon}, and to one another.
+
+For since {EF line} has been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}, proportionally, as {BE line} is to {EA line}, so {CF line} (is) to {FA line} [Prop. 6.2].
+Again, since {FG line} has been drawn parallel to one (of the sides) {CD line} of triangle {ACD polygon}, proportionally, as {CF line} is to {FA line}, so {DG line} (is) to {GA line} [Prop. 6.2].
+But, as {CF line} (is) to {FA line}, so it was also shown (is) {BE line} to {EA line}.
+And thus as {BE line} (is) to {EA line}, so {DG line} (is) to {GA line}.
+And, thus, compounding, as {BA line} (is) to {AE line}, so {DA line} (is) to {AG line} [Prop. 5.18].
+And, alternately, as {BA line} (is) to {AD line}, so {EA line} (is) to {AG line} [Prop. 5.16].
+Thus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the common angle {BAD angle} are proportional.
+And since {GF line} is parallel to {DC line}, angle {AFG angle} is equal to {DCA angle} [Prop. 1.29].
+And angle {DAC angle} (is) common to the two triangles {ADC polygon} and {AGF polygon}.
+Thus, triangle {ADC polygon} is equiangular to triangle {AGF polygon} [Prop. 1.32].
+So, for the same (reasons), triangle {ACB polygon} is equiangular to triangle {AFE polygon}, and the whole parallelogram {ABCD polygon} is equiangular to parallelogram {EG polygon}.
+Thus, proportionally, as {AD line} (is) to {DC line}, so {AG line} (is) to {GF line}, and as {DC line} (is) to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, and, further, as {CB line} (is) to {BA line}, so {FE line} (is) to {EA line} [Prop. 6.4].
+And since it was shown that as {DC line} is to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, thus, via equality, as {DC line} is to {CB line}, so {GF line} (is) to {FE line} [Prop. 5.22].
+Thus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the equal angles are proportional.
+Thus, parallelogram {ABCD polygon} is similar to parallelogram {EG polygon} [Def. 6.1].
+So, for the same (reasons), parallelogram {ABCD polygon} is also similar to parallelogram {KH polygon}.
+Thus, parallelograms {EG polygon} and {HK polygon} are each similar to [parallelogram] {ABCD polygon}.
+And (rectilinear figures) similar to the same rectilinear figure are also similar to one another [Prop. 6.21].
+Thus, parallelogram {EG polygon} is also similar to parallelogram {HK polygon}.
+
+Thus, in any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.
+(Which is) the very thing it was required to show.

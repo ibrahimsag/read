@@ -12,6 +12,20 @@ import en11 from './en/11.js';
 import en12 from './en/12.js';
 import en13 from './en/13.js';
 
+import tr01 from './tr/1.js';
+import tr02 from './tr/2.js';
+import tr03 from './tr/3.js';
+import tr04 from './tr/4.js';
+import tr05 from './tr/5.js';
+import tr06 from './tr/6.js';
+import tr07 from './tr/7.js';
+import tr08 from './tr/8.js';
+import tr09 from './tr/9.js';
+import tr10 from './tr/10.js';
+import tr11 from './tr/11.js';
+import tr12 from './tr/12.js';
+import tr13 from './tr/13.js';
+
 import figures_01 from './figures/1.js';
 import figures_02 from './figures/2.js';
 import figures_03 from './figures/3.js';
@@ -70,6 +84,21 @@ window.books_ = (rg) => {
       11: en11,
       12: en12,
       13: en13,
+    },
+    tr: {
+      1: tr01,
+      2: tr02,
+      3: tr03,
+      4: tr04,
+      5: tr05,
+      6: tr06,
+      7: tr07,
+      8: tr08,
+      9: tr09,
+      10: tr10,
+      11: tr11,
+      12: tr12,
+      13: tr13,
     },
   };
 }

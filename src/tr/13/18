@@ -1,0 +1,115 @@
+To set out the sides of the five (aforementioned) figures, and to compare (them) with one another.
+
+Let the diameter, {AB line}, of the given sphere be laid out.
+And let it have been cut at {C point}, such that {AC line} is equal to {CB line}, and at {D point}, such that {AD line} is double {DB line}.
+And let the semi-circle {AEB arc C} have been drawn on {AB line}.
+And let {CE line} and {DF line} have been drawn from {C point} and {D point} (respectively), at right-angles to {AB line}.
+And let {AF line}, {FB line}, and {EB line} have been joined.
+And since {AD line} is double {DB line}, {AB line} is thus triple {BD line}.
+Thus, via conversion, {BA line} is one and a half times {AD line}.
+And as {BA line} (is) to {AD line}, so the (square) on {BA line} (is) to the (square) on {AF line} [Def. 5.9].
+For triangle {AFB polygon} is equiangular to triangle {AFD polygon} [Prop. 6.8].
+Thus, the (square) on {BA line} is one and a half times the (square) on {AF line}.
+And the square on the diameter of the sphere is also one and a half times the (square) on the side of the pyramid [Prop. 13.13].
+And {AB line} is the diameter of the sphere.
+Thus, {AF line} is equal to the side of the pyramid.
+
+Again, since {AD line} is double {DB line}, {AB line} is thus triple {BD line}.
+And as {AB line} (is) to {BD line}, so the (square) on {AB line} (is) to the (square) on {BF line} [Prop. 6.8, Def. 5.9].
+Thus, the (square) on {AB line} is three times the (square) on {BF line}.
+And the square on the diameter of the sphere is also three times the (square) on the side of the cube [Prop. 13.15].
+And {AB line} is the diameter of the sphere.
+Thus, {BF line} is the side of the cube.
+
+And since {AC line} is equal to {CB line}, {AB line} is thus double {BC line}.
+And as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BE line} [Prop. 6.8, Def. 5.9].
+Thus, the (square) on {AB line} is double the (square) on {BE line}.
+And the square on the diameter of the sphere is also double the (square) on the side of the octahedron [Prop. 13.14].
+And {AB line} is the diameter of the given sphere.
+Thus, {BE line} is the side of the octahedron.
+
+So let {AG line} have been drawn from point {A point} at right-angles to the straight-line {AB line}.
+And let {AG line} be made equal to {AB line}.
+And let {GC line} have been joined.
+And let {HK line} have been drawn from {H point}, perpendicular to {AB line}.
+And since {GA line} is double {AC line}.
+For {GA line} (is) equal to {AB line}.
+And as {GA line} (is) to {AC line}, so {HK line} (is) to {KC line} [Prop. 6.4].
+{HK line} (is) thus also double {KC line}.
+Thus, the (square) on {HK line} is four times the (square) on {KC line}.
+Thus, the (sum of the squares) on {HK line} and {KC line}, which is the (square) on {HC line} [Prop. 1.47], is five times the (square) on {KC line}.
+And {HC line} (is) equal to {CB line}.
+Thus, the (square) on {BC line} (is) five times the (square) on {CK line}.
+And since {AB line} is double {CB line}, of which {AD line} is double {DB line}, the remainder {BD line} is thus double the remainder {DC line}.
+{BC line} (is) thus triple {CD line}.
+The (square) on {BC line} (is) thus nine times the (square) on {CD line}.
+And the (square) on {BC line} (is) five times the (square) on {CK line}.
+Thus, the (square) on {CK line} (is) greater than the (square) on {CD line}.
+{CK line} is thus greater than {CD line}.
+Let {CL line} be made equal to {CK line}.
+And let {LM line} have been drawn from {L point} at right-angles to {AB line}.
+And let {MB line} have been joined.
+And since the (square) on {BC line} is five times the (square) on {CK line}, and {AB line} is double {BC line}, and {KL line} double {CK line}, the (square) on {AB line} is thus five times the (square) on {KL line}.
+And the square on the diameter of the sphere is also five times the (square) on the radius of the circle from which the icosahedron has been described [Prop. 13.16 corr.].
+And {AB line} is the diameter of the sphere.
+Thus, {KL line} is the radius of the circle from which the icosahedron has been described.
+Thus, {KL line} is (the side) of the hexagon (inscribed) in the aforementioned circle [Prop. 4.15 corr.].
+And since the diameter of the sphere is composed of (the side) of the hexagon, and two of (the sides) of the decagon, inscribed in the aforementioned circle, and {AB line} is the diameter of the sphere, and {KL line} the side of the hexagon, and {AK line} (is) equal to {LB line}, thus {AK line} and {LB line} are each sides of the decagon inscribed in the circle from which the icosahedron has been described.
+And since {LB line} is (the side) of the decagon.
+And {ML line} (is the side) of the hexagon—for (it is) equal to {KL line}, since (it is) also (equal) to {HK line}, for they are equally far from the center.
+And {HK line} and {KL line} are each double {KC line}.
+{MB line} is thus (the side) of the pentagon (inscribed in the circle) [Props. 13.10, 1.47].
+And (the side) of the pentagon is (the side) of the icosahedron [Prop. 13.16].
+Thus, {MB line} is (the side) of the icosahedron.
+
+And since {FB line} is the side of the cube, let it have been cut in extreme and mean ratio at {N point}, and let {NB line} be the greater piece.
+Thus, {NB line} is the side of the dodecahedron [Prop. 13.17 corr.].
+
+And since the (square) on the diameter of the sphere was shown (to be) one and a half times the square on the side, {AF line}, of the pyramid, and twice the square on (the side), {BE line}, of the octahedron, and three times the square on (the side), {FB line}, of the cube, thus, of whatever (parts) the (square) on the diameter of the sphere (makes) six, of such (parts) the (square) on (the side) of the pyramid (makes) four, and (the square) on (the side) of the octahedron three, and (the square) on (the side) of the cube two.
+Thus, the (square) on the side of the pyramid is one and a third times the square on the side of the octahedron, and double the square on (the side) of the cube.
+And the (square) on (the side) of the octahedron is one and a half times the square on (the side) of the cube.
+Therefore, the aforementioned sides of the three figures—I mean, of the pyramid, and of the octahedron, and of the cube— are in rational ratios to one another.
+And (the sides of) the remaining two (figures)—I mean, of the icosahedron, and of the dodecahedron—are neither in rational ratios to one another, nor to the (sides) of the aforementioned (three figures).
+For they are irrational (straight lines): (namely), a minor [Prop. 13.16], and an apotome [Prop. 13.17].
+
+(And), we can show that the side, {MB line}, of the icosahedron is greater that the (side), {NB line}, or the dodecahedron, as follows.
+
+For, since triangle {FDB polygon} is equiangular to triangle {FAB polygon} [Prop. 6.8], proportionally, as {DB line} is to {BF line}, so {BF line} (is) to {BA line} [Prop. 6.4].
+And since three straight-lines are (continually) proportional, as the first (is) to the third, so the (square) on the first (is) to the (square) on the second [Def. 5.9, Prop. 6.20 corr.].
+Thus, as {DB line} is to {BA line}, so the (square) on {DB line} (is) to the (square) on {BF line}.
+Thus, inversely, as {AB line} (is) to {BD line}, so the (square) on {FB line} (is) to the (square) on {BD line}.
+And {AB line} (is) triple {BD line}.
+Thus, the (square) on {FB line} (is) three times the (square) on {BD line}.
+And the (square) on {AD line} is also four times the (square) on {DB line}.
+For {AD line} (is) double {DB line}.
+Thus, the (square) on {AD line} (is) greater than the (square) on {FB line}.
+Thus, {AD line} (is) greater than {FB line}.
+Thus, {AL line} is much greater than {FB line}.
+And {KL line} is the greater piece of {AL line}, which is cut in extreme and mean ratio—inasmuch as {LK line} is (the side) of the hexagon, and {KA line} (the side) of the decagon [Prop. 13.9].
+And {NB line} is the greater piece of {FB line}, which is cut in extreme and mean ratio.
+Thus, {KL line} (is) greater than {NB line}.
+And {KL line} (is) equal to {LM line}.
+Thus, {LM line} (is) greater than {NB line} [and {MB line} is greater than {LM line}].
+Thus, {MB line}, which is (the side) of the icosahedron, is much greater than {NB line}, which is (the side) of the dodecahedron.
+(Which is) the very thing it was required to show.
+
+So, I say that, beside the five aforementioned figures, no other (solid) figure can be constructed (which is) contained by equilateral and equiangular (planes), equal to one another.
+
+For a solid angle cannot be constructed from two triangles, or indeed (two) planes (of any sort) [Def. 11.11].
+And (the solid angle) of the pyramid (is constructed) from three (equiangular) triangles, and (that) of the octahedron from four (triangles), and (that) of the icosahedron from (five) triangles.
+And a solid angle cannot be (made) from six equilateral and equiangular triangles set up together at one point.
+For, since the angles of a equilateral triangle are (each) two-thirds of a right-angle, the (sum of the) six (plane) angles (containing the solid angle) will be four right-angles.
+The very thing (is) impossible.
+For every solid angle is contained by (plane angles whose sum is) less than four right-angles [Prop. 11.21].
+So, for the same (reasons), a solid angle cannot be constructed from more than six plane angles (equal to two-thirds of a right-angle) either.
+And the (solid) angle of a cube is contained by three squares.
+And (a solid angle contained) by four (squares is) impossible.
+For, again, the (sum of the plane angles containing the solid angle) will be four right-angles.
+And (the solid angle) of a dodecahedron (is contained) by three equilateral and equiangular pentagons.
+And (a solid angle contained) by four (equiangular pentagons is) impossible.
+For, the angle of an equilateral pentagon being one and one-fifth of right-angle, four (such) angles will be greater (in sum) than four right-angles.
+The very thing (is) impossible.
+And, on account of the same absurdity, a solid angle cannot be constructed from any other (equiangular) polygonal figures either.
+
+Thus, beside the five aforementioned figures, no other solid figure can be constructed (which is) contained by equilateral and equiangular (planes).
+(Which is) the very thing it was required to show.

@@ -1,0 +1,27 @@
+Similar pyramids which also have triangular bases are in the cubed ratio of their corresponding sides.
+
+Let there be similar, and similarly laid out, pyramids whose bases are triangles {ABC polygon} and {DEF polygon}, and apexes the points {G point} and {H point} (respectively).
+I say that pyramid {ABCG given} has to pyramid {DEFH given} the cubed ratio of that {BC line} (has) to {EF line}.
+
+For let the parallelepiped solids {BGML given} and {EHQP given} have been completed.
+And since pyramid {ABCG given} is similar to pyramid {DEFH given}, angle {ABC angle} is thus equal to angle {DEF angle}, and {GBC angle} to {HEF angle}, and {ABG angle} to {DEH angle}.
+And as {AB line} is to {DE line}, so {BC line} (is) to {EF line}, and {BG line} to {EH line} [Def.11.9].
+And since as {AB line} is to {DE line}, so {BC line} (is) to {EF line}, and (so) the sides around equal angles are proportional, parallelogram {BM polygon} is thus similar to paralleleogram {EQ polygon}.
+So, for the same (reasons), {BN polygon} is also similar to {ER polygon}, and {BK polygon} to {EO polygon}.
+Thus, the three (parallelograms) {MB polygon}, {BK polygon}, and {BN polygon} are similar to the three (parallelograms) {EQ polygon}, {EO polygon}, {ER polygon} (respectively).
+But, the three (parallelograms) {MB polygon}, {BK polygon}, and {BN polygon} are (both) equal and similar to the three opposite (parallelograms), and the three (parallelograms) {EQ polygon}, {EO polygon}, and {ER polygon} are (both) equal and similar to the three opposite (parallelograms) [Prop. 11.24].
+Thus, the solids {BGML given} and {EHQP given} are contained by equal numbers of similar (and similarly laid out) planes.
+Thus, solid {BGML given} is similar to solid {EHQP given} [Def. 11.9].
+And similar parallelepiped solids are in the cubed ratio of corresponding sides [Prop. 11.33].
+Thus, solid {BGML given} has to solid {EHQP given} the cubed ratio that the corresponding side {BC line} (has) to the corresponding side {EF line}.
+And as solid {BGML given} (is) to solid {EHQP given}, so pyramid {ABCG given} (is) to pyramid {DEFH given}, inasmuch as the pyramid is the sixth part of the solid, on account of the prism, being half of the parallelepiped solid [Prop. 11.28], also being three times the pyramid [Prop. 12.7].
+Thus, pyramid {ABCG given} also has to pyramid {DEFH given} the cubed ratio that {BC line} (has) to {EF line}.
+(Which is) the very thing it was required to show.
+
+Corollary
+
+So, from this, (it is) also clear that similar pyramids having polygonal bases (are) to one another as the cubed ratio of their corresponding sides.
+For, dividing them into the pyramids (contained) within them which have triangular bases, with the similar polygons of the bases also being divided into similar triangles (which are) both equal in number, and corresponding, to the wholes [Prop. 6.20].
+As one pyramid having a triangular base in the former (pyramid having a polygonal base is) to one pyramid having a triangular base in the latter (pyramid having a polygonal base), so (the sum of) all the pyramids having triangular bases in the former pyramid will also be to (the sum of) all the pyramids having triangular bases in the latter pyramid [Prop. 5.12]---that is to say, the (former) pyramid itself having a polygonal base to the (latter) pyramid having a polygonal base.
+And a pyramid having a triangular base is to a (pyramid) having a triangular base in the cubed ratio of corresponding sides [Prop. 12.8].
+Thus, a (pyramid) having a polygonal base also has to to a (pyramid) having a similar base the cubed ratio of a (corresponding) side to a (corresponding) side.

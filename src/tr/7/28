@@ -1,0 +1,29 @@
+If two numbers are prime to one another then their sum will also be prime to each of them.
+And if the sum (of two numbers) is prime to any one of them then the original numbers will also be prime to one another.
+
+For let the two numbers, {AB magnitude} and {BC magnitude}, (which are) prime to one another, be laid down together.
+I say that their sum {AC magnitude} is also prime to each of {AB magnitude} and {BC magnitude}.
+
+For if {CA magnitude} and {AB magnitude} are not prime to one another then some number will measure {CA magnitude} and {AB magnitude}.
+Let it (so) measure (them), and let it be {D magnitude}.
+Therefore, since {D magnitude} measures {CA magnitude} and {AB magnitude}, it will thus also measure the remainder {BC magnitude}.
+And it also measures {BA magnitude}.
+Thus, {D magnitude} measures {AB magnitude} and {BC magnitude}, which are prime to one another.
+The very thing is impossible.
+Thus, some number cannot measure (both) the numbers {CA magnitude} and {AB magnitude}.
+Thus, {CA magnitude} and {AB magnitude} are prime to one another.
+So, for the same (reasons), {AC magnitude} and {CB magnitude} are also prime to one another.
+Thus, {CA magnitude} is prime to each of {AB magnitude} and {BC magnitude}.
+
+So, again, let {CA magnitude} and {AB magnitude} be prime to one another.
+I say that {AB magnitude} and {BC magnitude} are also prime to one another.
+
+For if {AB magnitude} and {BC magnitude} are not prime to one another then some number will measure {AB magnitude} and {BC magnitude}.
+Let it (so) measure (them), and let it be {D magnitude}.
+And since {D magnitude} measures each of {AB magnitude} and {BC magnitude}, it will thus also measure the whole of {CA magnitude}.
+And it also measures {AB magnitude}.
+Thus, {D magnitude} measures {CA magnitude} and {AB magnitude}, which are prime to one another.
+The very thing is impossible.
+Thus, some number cannot measure (both) the numbers {AB magnitude} and {BC magnitude}.
+Thus, {AB magnitude} and {BC magnitude} are prime to one another.
+(Which is) the very thing it was required to show.

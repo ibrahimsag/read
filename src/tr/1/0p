@@ -1,0 +1,9 @@
+1. Herhangi bir noktadan herhangi bir noktaya düz bir çizgi çizilmesi kabul edilmiştir.
+
+2. Ve bir sonlu düz çizgiyi sürekli olarak düz bir çizgide uzatmak.
+
+3. Ve herhangi bir merkez ve yarıçapla bir çember çizmek.
+
+4. Ve tüm dik açıların birbirine eşit olduğu.
+
+5. Ve bir düz çizginin iki (diğer) düz çizgi üzerine düşmesi durumunda, aynı taraftaki iç açıların toplamı iki dik açıdan daha küçükse, bu iki (diğer) düz çizgi, sonsuza kadar uzatıldığında, orijinal düz çizginin iç açıların toplamının iki dik açıdan daha küçük olduğu tarafta kesişir (ve diğer tarafta kesişmez).

@@ -1,0 +1,63 @@
+If an equilateral pentagon is inscribed in a circle which has a rational diameter then the side of the pentagon is that irrational (straight-line) called minor.
+
+For let the equilateral pentagon {ABCDE polygon} have been inscribed in the circle {ABCDE circle F} which has a rational diameter.
+I say that the side of pentagon [{ABCDE polygon}] is that irrational (straight-line) called minor.
+
+For let the center of the circle, point {F point}, have been found [Prop. 3.1].
+And let {AF line} and {FB line} have been joined.
+And let them have been drawn across to points {G point} and {H point} (respectively).
+And let {AC line} have been joined.
+And let {FK line} made (equal) to the fourth part of {AF line}.
+And {AF line} (is) rational.
+{FK line} (is) thus also rational.
+And {BF line} is also rational.
+Thus, the whole of {BK line} is rational.
+And since circumference {ACG arcc F} is equal to circumference {ADG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remainder {CG arcc F} is thus equal to the remainder {GD arcc F}.
+And if we join {AD line} then the angles at {L point} are inferred (to be) right-angles, and {CD line} (is inferred to be) double {CL line} [Prop. 1.4].
+So, for the same (reasons), the (angles) at {M point} are also right-angles, and {AC line} (is) double {CM line}.
+Therefore, since angle {ALC angle} (is) equal to {AMF angle}, and (angle) {LAC angle} (is) common to the two triangles {ACL polygon} and {AMF polygon}, the remaining (angle) {ACL angle} is thus equal to the remaining (angle) {MFA angle} [Prop. 1.32].
+Thus, triangle {ACL polygon} is equiangular to triangle {AMF polygon}.
+Thus, proportionally, as {LC line} (is) to {CA line}, so {MF line} (is) to {FA line} [Prop. 6.4].
+And (we can take) the doubles of the leading (magnitudes).
+Thus, as double {LC line} (is) to {CA line}, so double {MF line} (is) to {FA line}.
+And as double {MF line} (is) to {FA line}, so {MF line} (is) to half of {FA line}.
+And, thus, as double {LC line} (is) to {CA line}, so {MF line} (is) to half of {FA line}.
+And (we can take) the halves of the following (magnitudes).
+Thus, as double {LC line} (is) to half of {CA line}, so {MF line} (is) to the fourth of {FA line}.
+And {DC line} is double {LC line}, and {CM line} half of {CA line}, and {FK line} the fourth part of {FA line}.
+Thus, as {DC line} is to {CM line}, so {MF line} (is) to {FK line}.
+Via composition, as the sum of DCM (i.e., {DC line} and {CM line}) (is) to {CM line}, so {MK line} (is) to {KF line} [Prop. 5.18].
+And, thus, as the (square) on the sum of {DC line} and {CM line} (is) to the (square) on {CM line}, so the (square) on {MK line} (is) to the (square) on {KF line}.
+And since the greater piece of a (straight-line) subtending two sides of a pentagon, such as {AC line}, (which is) cut in extreme and mean ratio is equal to the side of the pentagon [Prop. 13.8] --- that is to say, to {DC line} --- and the square on the greater piece added to half of the whole is five times the (square) on half of the whole [Prop. 13.1], and {CM line} (is) half of the whole, {AC line}, thus the (square) on {DC line} and {CM line}, (taken) as one, is five times the (square) on {CM line}.
+And the (square) on {DC line} and {CM line}, (taken) as one, (is) to the (square) on {CM line}, so the (square) on {MK line} was shown (to be) to the (square) on {KF line}.
+Thus, the (square) on {MK line} (is) five times the (square) on {KF line}.
+And the square on {KF line} (is) rational.
+For the diameter (is) rational.
+Thus, the (square) on {MK line} (is) also rational.
+Thus, {MK line} is rational [in square only].
+And since {BF line} is four times {FK line}, {BK line} is thus five times {KF line}.
+Thus, the (square) on {BK line} (is) twenty-five times the (square) on {KF line}.
+And the (square) on {MK line} (is) five times the square on {KF line}.
+Thus, the (square) on {BK line} (is) five times the (square) on {KM line}.
+Thus, the (square) on {BK line} does not have to the (square) on {KM line} the ratio which a square number (has) to a square number.
+Thus, {BK line} is incommensurable in length with {KM line} [Prop. 10.9].
+And each of them is a rational (straight-line).
+Thus, {BK line} and {KM line} are rational (straight-lines which are) commensurable in square only.
+And if from a rational (straight-line) a rational (straight-line) is subtracted, which is commensurable in square only with the whole, then the remainder is that irrational (straight-line called) an apotome [Prop. 10.73].
+Thus, {MB line} is an apotome, and {MK line} its attachment.
+So, I say that (it is) also a fourth (apotome).
+So, let the (square) on {N given} be (made) equal to that (magnitude) by which the (square) on {BK line} is greater than the (square) on {KM line}.
+Thus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on {N given}.
+And since {KF line} is commensurable (in length) with {FB line} then, via composition, {KB line} is also commensurable (in length) with {FB line} [Prop. 10.15].
+But, {BF line} is commensurable (in length) with {BH line}.
+Thus, {BK line} is also commensurable (in length) with {BH line} [Prop. 10.12].
+And since the (square) on {BK line} is five times the (square) on {KM line}, the (square) on {BK line} thus has to the (square) on {KM line} the ratio which 5 (has) to one.
+Thus, via conversion, the (square) on {BK line} has to the (square) on {N given} the ratio which 5 (has) to 4 [Prop. 5.19 corr.], which is not (that) of a square (number) to a square (number).
+{BK line} is thus incommensurable (in length) with {N given} [Prop. 10.9].
+Thus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}).
+Therefore, since the square on the whole, {BK line}, is greater than the (square) on the attachment, {KM line}, by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}), and the whole, {BK line}, is commensurable (in length) with the (previously) laid down rational (straight-line) {BH line}, {MB line} is thus a fourth apotome [Def. 10.14].
+And the rectangle contained by a rational (straight-line) and a fourth apotome is irrational, and its square-root is that irrational (straight-line) called minor [Prop. 10.94].
+And the square on {AB line} is the rectangle contained by {HB line} and {BM line}, on account of joining {AH line}, (so that) triangle {ABH polygon} becomes equiangular with triangle {ABM polygon} [Prop. 6.8], and (proportionally) as {HB line} is to {BA line}, so {AB line} (is) to {BM line}.
+
+Thus, the side {AB line} of the pentagon is that irrational (straight-line) called minor.
+(Which is) the very thing it was required to show.

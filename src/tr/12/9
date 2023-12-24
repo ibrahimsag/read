@@ -1,0 +1,31 @@
+The bases of equal pyramids which also have triangular bases are reciprocally proportional to their heights.
+And those pyramids which have triangular bases whose bases are reciprocally proportional to their heights are equal.
+
+For let there be (two) equal pyramids having the triangular bases {ABC polygon} and {DEF polygon}, and apexes the points {G point} and {H point} (respectively).
+I say that the bases of the pyramids {ABCG given} and {DEFH given} are reciprocally proportional to their heights, and (so) that as base {ABC polygon} is to base {DEF polygon}, so the height of pyramid {DEFH given} (is) to the height of pyramid {ABCG given}.
+
+For let the parallelepiped solids {BGML given} and {EHQP given} have been completed.
+And since pyramid {ABCG given} is equal to pyramid {DEFH given}, and solid {BGML given} is six times pyramid {ABCG given} (see previous proposition), and solid {EHQP given} (is) six times pyramid {DEFH given}, solid {BGML given} is thus equal to solid {EHQP given}.
+And the bases of equal parallelepiped solids are reciprocally proportional to their heights [Prop. 11.34].
+Thus, as base {BM polygon} is to base {EQ polygon}, so the height of solid {EHQP given} (is) to the height of solid {BGML given}.
+But, as base {BM polygon} (is) to base {EQ polygon}, so triangle {ABC polygon} (is) to triangle {DEF polygon} [Prop. 1.34].
+And, thus, as triangle {ABC polygon} (is) to triangle {DEF polygon}, so the height of solid {EHQP given} (is) to the height of solid {BGML given} [Prop. 5.11].
+But, the height of solid {EHQP given} is the same as the height of pyramid {DEFH given}, and the height of solid {BGML given} is the same as the height of pyramid {ABCG given}.
+Thus, as base {ABC polygon} is to base {DEF polygon}, so the height of pyramid {DEFH given} (is) to the height of pyramid {ABCG given}.
+Thus, the bases of pyramids {ABCG given} and {DEFH given} are reciprocally proportional to their heights.
+
+And so, let the bases of pyramids {ABCG given} and {DEFH given} be reciprocally proportional to their heights, and (thus) let base {ABC polygon} be to base {DEF polygon}, as the height of pyramid {DEFH given} (is) to the height of pyramid {ABCG given}.
+I say that pyramid {ABCG given} is equal to pyramid {DEFH given}.
+
+For, with the same construction, since as base {ABC polygon} is to base {DEF polygon}, so the height of pyramid {DEFH given} (is) to the height of pyramid {ABCG given}, but as base {ABC polygon} (is) to base {DEF polygon}, so parallelogram {BM polygon} (is) to parallelogram {EQ polygon} [Prop. 1.34], thus as parallelogram {BM polygon} (is) to parallelogram {EQ polygon}, so the height of pyramid {DEFH given} (is) also to the height of pyramid {ABCG given} [Prop. 5.11].
+But, the height of pyramid {DEFH given} is the same as the height of parallelepiped {EHQP given}, and the height of pyramid {ABCG given} is the same as the height of parallelepiped {BGML given}.
+Thus, as base {BM polygon} is to base {EQ polygon}, so the height of parallelepiped {EHQP given} (is) to the height of parallelepiped {BGML given}.
+And those parallelepiped solids whose bases are reciprocally proportional to their heights are equal [Prop. 11.34].
+Thus, the parallelepiped solid {BGML given} is equal to the parallelepiped solid {EHQP given}.
+And pyramid {ABCG given} is a sixth part of {BGML given}, and pyramid {DEFH given} a sixth part of parallelepiped {EHQP given}.
+Thus, pyramid {ABCG given} is equal to pyramid {DEFH given}.
+
+Thus, the bases of equal pyramids which also have triangular bases are reciprocally proportional to their heights.
+And those pyramids having triangular bases whose bases are reciprocally proportional to their heights are equal.
+(Which is) the very thing it was required to show.
+

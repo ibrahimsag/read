@@ -1,0 +1,38 @@
+To find a sixth binomial (straight-line).
+
+Let the two numbers {AC magnitude} and {CB magnitude} be laid down such that {AB magnitude} does not have to each of them the ratio which (some) square number (has) to (some) square number.
+And let {D magnitude} also be another number, which is not square, and does not have to each of {BA magnitude} and {AC magnitude} the ratio which (some) square number (has) to (some) square number either [Prop. 10.28 lem. I].
+And let some rational straight-line {E magnitude} be laid down.
+And let it have been contrived that as {D magnitude} (is) to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
+Thus, the (square) on {E magnitude} (is) commensurable with the (square) on {FG magnitude} [Prop. 10.6].
+And {E magnitude} is rational.
+Thus, {FG magnitude} (is) also rational.
+And since {D magnitude} does not have to {AB magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {E magnitude} thus does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {E magnitude} (is) incommensurable in length with {FG magnitude} [Prop. 10.9].
+So, again, let it have be contrived that as {BA magnitude} (is) to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude} [Prop. 10.6 corr.].
+The (square) on {FG magnitude} (is) thus commensurable with the (square) on {HG magnitude} [Prop. 10.6].
+The (square) on {HG magnitude} (is) thus rational.
+Thus, {HG magnitude} (is) rational.
+And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {FG magnitude} does not have to the (square) on {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {FG magnitude} is incommensurable in length with {GH magnitude} [Prop. 10.9].
+Thus, {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only.
+Thus, {FH magnitude} is a binomial (straight-line) [Prop. 10.36].
+So, we must show that (it is) also a sixth (binomial straight-line).
+
+For since as {D magnitude} is to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude}, and also as {BA magnitude} is to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, thus, via equality, as {D magnitude} is to {AC magnitude}, so the (square) on {E magnitude} (is) to the (square) on {GH magnitude} [Prop. 5.22].
+And {D magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number.
+Thus, the (square) on {E magnitude} does not have to the (square) on {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
+{E magnitude} is thus incommensurable in length with {GH magnitude} [Prop. 10.9].
+And ({E magnitude}) was also shown (to be) incommensurable (in length) with {FG magnitude}.
+Thus, {FG magnitude} and {GH magnitude} are each incommensurable in length with {E magnitude}.
+And since as {BA magnitude} is to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, the (square) on {FG magnitude} (is) thus greater than the (square) on {GH magnitude} [Prop. 5.14].
+Therefore, let (the sum of) the (squares) on {GH magnitude} and {K magnitude} be equal to the (square) on {FG magnitude}.
+Thus, via conversion, as {AB magnitude} (is) to {BC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {K magnitude} [Prop. 5.19 corr.].
+And {AB magnitude} does not have to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
+Hence, the (square) on {FG magnitude} does not have to the (square) on {K magnitude} the ratio which (some) square number (has) to (some) square number either.
+Thus, {FG magnitude} is incommensurable in length with {K magnitude} [Prop. 10.9].
+The square on {FG magnitude} is thus greater than (the square on) {GH magnitude} by the (square) on (some straight-line which is) incommensurable (in length) with ({FG magnitude}).
+And {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only, and neither of them is commensurable in length with the rational (straight-line) {E magnitude} (previously) laid down.
+
+ Thus, {FH magnitude} is a sixth binomial (straight-line) [Def. 10.10].
+ (Which is) the very thing it was required to show.

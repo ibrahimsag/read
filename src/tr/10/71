@@ -1,0 +1,61 @@
+When a rational and a medial (area) are added together, four irrational (straight-lines) arise (as the square-roots of the total area)---either a binomial, or a first bimedial, or a major, or the square-root of a rational plus a medial (area).
+
+Let {AB polygon} be a rational (area), and {CD polygon} a medial (area).
+I say that the square-root of area {AD polygon} is either binomial, or first bimedial, or major, or the square-root of a rational plus a medial (area).
+
+For {AB polygon} is either greater or less than {CD polygon}.
+Let it, first of all, be greater.
+And let the rational (straight-line) {EF line} be laid down.
+And let (the rectangle) {EG polygon}, equal to {AB polygon}, have been applied to {EF line}, producing {EH line} as breadth.
+And let (the recatangle) {HI polygon}, equal to {DC polygon}, have been applied to {EF line}, producing {HK line} as breadth.
+And since {AB polygon} is rational, and is equal to {EG polygon}, {EG polygon} is thus also rational.
+And it has been applied to the [rational] (straight-line) {EF line}, producing {EH line} as breadth.
+{EH line} is thus rational, and commensurable in length with {EF line} [Prop. 10.20].
+Again, since {CD polygon} is medial, and is equal to {HI polygon}, {HI polygon} is thus also medial.
+And it is applied to the rational (straight-line) {EF line}, producing {HK line} as breadth.
+{HK line} is thus rational, and incommensurable in length with {EF line} [Prop. 10.22].
+And since {CD polygon} is medial, and {AB polygon} rational, {AB polygon} is thus incommensurable with {CD polygon}.
+Hence, {EG polygon} is also incommensurable with {HI polygon}.
+And as {EG polygon} (is) to {HI polygon}, so {EH line} is to {HK line} [Prop. 6.1].
+Thus, {EH line} is also incommensurable in length with {HK line} [Prop. 10.11].
+And they are both rational.
+Thus, {EH line} and {HK line} are rational (straight-lines which are) commensurable in square only.
+{EK line} is thus a binomial (straight-line), having been divided (into its component terms) at {H point} [Prop. 10.36].
+And since {AB polygon} is greater than {CD polygon}, and {AB polygon} (is) equal to {EG polygon}, and {CD polygon} to {HI polygon}, {EG polygon} (is) thus also greater than {HI polygon}.
+Thus, {EH line} is also greater than {HK line} [Prop. 5.14].
+Therefore, the square on {EH line} is greater than (the square on) {HK line} either by the (square) on (some straight-line) commensurable in length with ({EH line}), or by the (square) on (some straight-line) incommensurable (in length with {EH line}).
+Let it, first of all, be greater by the (square) on (some straight-line) commensurable (in length with {EH line}).
+And the greater (of the two components of {EK line}) {HE line} is commensurable (in length) with the (previously) laid down (straight-line) {EF line}.
+{EK line} is thus a first binomial (straight-line) [Def. 10.5].
+And {EF line} (is) rational.
+And if an area is contained by a rational (straight-line) and a first binomial (straight-line) then the square-root of the area is a binomial (straight-line) [Prop. 10.54].
+Thus, the square-root of {EI polygon} is a binomial (straight-line).
+Hence the square-root of {AD polygon} is also a binomial (straight-line).
+And, so, let the square on {EH line} be greater than (the square on) {HK line} by the (square) on (some straight-line) incommensurable (in length) with ({EH line}).
+And the greater (of the two components of {EK line}) {EH line} is commensurable in length with the (previously) laid down rational (straight-line) {EF line}.
+Thus, {EK line} is a fourth binomial (straight-line) [Def. 10.8].
+And {EF line} (is) rational.
+And if an area is contained by a rational (straight-line) and a fourth binomial (straight-line) then the square-root of the area is the irrational (straight-line) called major [Prop. 10.57].
+Thus, the square-root of area {EI polygon} is a major (straight-line). Hence, the square-root of {AD polygon} is also major.
+
+And so, let {AB polygon} be less than {CD polygon}.
+Thus, {EG polygon} is also less than {HI polygon}.
+Hence, {EH line} is also less than {HK line} [Props. 6.1, 5.14].
+And the square on {HK line} is greater than (the square on) {EH line} either by the (square) on (some straight-line) commensurable (in length) with ({HK line}), or by the (square) on (some straight-line) incommensurable (in length) with ({HK line}).
+Let it, first of all, be greater by the square on (some straight-line) commensurable in length with ({HK line}).
+And the lesser (of the two components of {EK line}) {EH line} is commensurable in length with the (previously) laid down rational (straight-line) {EF line}.
+Thus, {EK line} is a second binomial (straight-line) [Def. 10.6].
+And {EF line} (is) rational.
+And if an area is contained by a rational (straight-line) and a second binomial (straight-line) then the square-root of the area is a first bimedial (straight-line) [Prop. 10.55].
+Thus, the square-root of area {EI polygon} is a first bimedial (straight-line).
+Hence, the square-root of {AD polygon} is also a first bimedial (straight-line).
+And so, let the square on {HK line} be greater than (the square on) {HE line} by the (square) on (some straight-line) incommensurable (in length) with ({HK line}).
+And the lesser (of the two components of {EK line}) {EH line} is commensurable (in length) with the (previously) laid down rational (straight-line) {EF line}.
+Thus, {EK line} is a fifth binomial (straight-line) [Def. 10.9].
+And {EF line} (is) rational.
+And if an area is contained by a rational (straight-line) and a fifth binomial (straight-line) then the square-root of the area is the square-root of a rational plus a medial (area) [Prop. 10.58].
+Thus, the square-root of area {EI polygon} is the square-root of a rational plus a medial (area).
+Hence, the square-root of area {AD polygon} is also the square-root of a rational plus a medial (area).
+
+Thus, when a rational and a medial area are added together, four irrational (straight-lines) arise (as the square-roots of the total area)---either a binomial, or a first bimedial, or a major, or the square-root of a rational plus a medial (area).
+(Which is) the very thing it was required to show.

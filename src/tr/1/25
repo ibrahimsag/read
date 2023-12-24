@@ -1,0 +1,21 @@
+Eğer iki üçgenin iki kenarı sırasıyla iki kenara eşitse, ancak (birinin) tabanı diğerinin tabanından büyükse, o zaman (ilk üçgenin) eşit düz çizgiler tarafından kapsanan açısı da (ikinci üçgende) karşılık gelen açıdan büyüktür.
+
+{ABC polygon} ve {DEF polygon} iki kenarı {AB line} ve {AC line} sırasıyla {DE line} ve {DF line} olan iki üçgen olsun.
+(Yani), {AB line} {DE line} ile ve {AC line} {DF line} ile eşittir.
+Ve taban {BC line} taban {EF line}'den daha büyük olsun.
+Açı {BAC angle}'nin de {EDF angle}'den daha büyük olduğunu söylüyorum.
+
+Çünkü değilse, ({BAC angle}) kesinlikle ya {EDF angle}'ye eşit ya da ondan daha küçüktür.
+Gerçekte, {BAC angle} {EDF angle}'ye eşit değildir.
+Çünkü o zaman taban {BC line} da {EF line}'ye eşit olurdu [Prop. 1.4].
+Ama değil.
+Böylece, açı {BAC angle} {EDF angle}'ye eşit değildir.
+Ayrıca, {BAC angle} {EDF angle}'den daha küçük de değildir.
+Çünkü o zaman taban {BC line} da {EF line}'den daha küçük olurdu [Prop. 1.24].
+Ama değil.
+Böylece, açı {BAC angle} {EDF angle}'den daha küçük değildir.
+Ama ({BAC angle}'nin) {EDF angle}'ye eşit olmadığı da gösterildi.
+Böylece, {BAC angle} {EDF angle}'den daha büyüktür.
+
+Böylece, eğer iki üçgenin iki kenarı sırasıyla iki kenara eşitse, ancak (birinin) tabanı diğerinin tabanından büyükse, o zaman (ilk üçgenin) eşit düz çizgiler tarafından kapsanan açısı da (ikinci üçgende) karşılık gelen açıdan büyüktür.
+(Gösterilmesi gereken şey tam olarak budur.)

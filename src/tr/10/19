@@ -1,0 +1,13 @@
+The rectangle contained by rational straight-lines (which are) commensurable in length is rational.
+
+For let the rectangle {AC polygon} have been enclosed by the rational straight-lines {AB line} and {BC line} (which are) commensurable in length.
+I say that {AC polygon} is rational.
+
+For let the square {AD polygon} have been described on {AB line}.
+{AD polygon} is thus rational [Def. 10.4].
+And since {AB line} is commensurable in length with {BC line}, and {AB line} is equal to {BD line}, {BD line} is thus commensurable in length with {BC line}.
+And as {BD line} is to {BC line}, so {DA polygon} (is) to {AC polygon} [Prop. 6.1].
+Thus, {DA polygon} is commensurable with {AC polygon} [Prop. 10.11].
+And {DA polygon} (is) rational.
+Thus, {AC polygon} is also rational [Def. 10.4].
+Thus, the ... by rational straight-lines ... commensurable, and so on ....

@@ -1,0 +1,30 @@
+The square on a second bimedial (straight-line) applied to a rational (straight-line) produces as breadth a third binomial (straight-line).
+
+Let {AB magnitude} be a second bimedial (straight-line) having been divided into its (component) medial (straight-lines) at {C point}, such that {AC magnitude} is the greater segment.
+And let {DE line} be some rational (straight-line).
+And let the parallelogram {DF polygon}, equal to the (square) on {AB magnitude}, have been applied to {DE line}, producing {DG line} as breadth.
+I say that {DG line} is a third binomial (straight-line).
+
+Let the same construction be made as that shown previously.
+And since {AB magnitude} is a second bimedial (straight-line), having been divided at {C point}, {AC magnitude} and {CB magnitude} are thus medial (straight-lines) commensurable in square only, and containing a medial (area) [Prop. 10.38].
+Hence, the sum of the (squares) on {AC magnitude} and {CB magnitude} is also medial [Props. 10.15, 10.23 corr.].
+And it is equal to {DL polygon}.
+Thus, {DL polygon} (is) also medial.
+And it is applied to the rational (straight-line) {DE line}.
+{MD line} is thus also rational, and incommensurable in length with {DE line} [Prop. 10.22].
+So, for the same (reasons), {MG line} is also rational, and incommensurable in length with {ML line}---that is to say, with {DE line}.
+Thus, {DM line} and {MG line} are each rational, and incommensurable in length with {DE line}.
+And since {AC magnitude} is incommensurable in length with {CB magnitude}, and as {AC magnitude} (is) to {CB magnitude}, so the (square) on {AC magnitude} (is) to the (rectangle contained) by {ACB magnitude} [Prop. 10.21 lem.], the (square) on {AC magnitude} (is) also incommensurable with the (rectangle contained) by {ACB magnitude} [Prop. 10.11].
+And hence the sum of the (squares) on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {ACB magnitude}---that is to say, {DL polygon} with {MF polygon} [Props. 10.12, 10.13].
+Hence, {DM line} is also incommensurable (in length) with {MG line} [Props. 6.1, 10.11].
+And they are rational.
+{DG line} is thus a binomial (straight-line) [Prop. 10.36].
+[So] we must show that (it is) also a third (binomial straight-line).
+
+So, similarly to the previous (propositions), we can conclude that {DM line} is greater than {MG line}, and {DK line} (is) commensurable (in length) with {KM line}.
+And the (rectangle contained) by {DKM line} is equal to the (square) on {MN line}.
+Thus, the square on {DM line} is greater than (the square on) {MG line} by the (square) on (some straight-line) commensurable (in length) with ({DM line}) [Prop. 10.17].
+And neither of {DM line} and {MG line} is commensurable in length with {DE line}.
+
+Thus, {DG line} is a third binomial (straight-line) [Def. 10.7].
+(Which is) the very thing it was required to show.

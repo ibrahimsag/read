@@ -1,0 +1,46 @@
+If the square on a straight-line is five times the (square) on a piece of it, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line.
+
+For let the square on the straight-line {AB line} be five times the (square) on the piece of it, {AC line}.
+And let {CD line} be double {AC line}.
+I say that if {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.
+
+For let the squares {AF polygon} and {CG polygon} have been described on each of {AB line} and {CD line} (respectively).
+And let the figure in {AF polygon} have been drawn.
+And let {BE line} have been drawn across.
+And since the (square) on {BA line} is five times the (square) on {AC line}, {AF polygon} is five times {AH polygon}.
+Thus, gnomon {MNO given} (is) four times {AH polygon}.
+And since {DC line} is double {CA line}, the (square) on {DC line} is thus four times the (square) on {CA line}—that is to say, {CG polygon} (is four times) {AH polygon}.
+And the gnomon {MNO given} was also shown (to be) four times {AH polygon}.
+Thus, gnomon {MNO given} (is) equal to {CG polygon}.
+And since {DC line} is double {CA line}, and {DC line} (is) equal to {CK line}, and {AC line} to {CH line}, [{KC line} (is) thus also double {CH line}], (and) {KB polygon} (is) also double {BH polygon} [Prop. 6.1].
+And {LH polygon} plus {HB polygon} is also double {HB polygon} [Prop. 1.43].
+Thus, {KB polygon} (is) equal to {LH polygon} plus {HB polygon}.
+And the whole gnomon {MNO given} was also shown (to be) equal to the whole of {CG polygon}.
+Thus, the remainder {HF polygon} is also equal to (the remainder) {BG polygon}.
+And {BG polygon} is the (rectangle contained) by {CD line} and {DB line}.
+For {CD line} (is) equal to {DG line}.
+And {HF polygon} (is) the square on {CB line}.
+Thus, the (rectangle contained) by {CD line} and {DB line} is equal to the (square) on {CB line}.
+Thus, as {DC line} is to {CB line}, so {CB line} (is) to {BD line} [Prop. 6.17].
+And {DC line} (is) greater than {CB line} (see lemma).
+Thus, {CB line} (is) also greater than {BD line} [Prop. 5.14].
+Thus, if the straight-line {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.
+
+Thus, if the square on a straight-line is five times the (square) on a piece of itself, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line. (Which is) the very thing it was required to show.
+
+Lemma
+
+And it can be shown that double {AC line} (i.e., {DC line}) is greater than {BC line}, as follows.
+
+For if (double {AC line} is) not (greater than {BC line}), if possible, let {BC line} be double {CA line}.
+Thus, the (square) on {BC line} (is) four times the (square) on {CA line}.
+Thus, the (sum of) the (squares) on {BC line} and {CA line} (is) five times the (square) on {CA line}.
+And the (square) on {BA line} was assumed (to be) five times the (square) on {CA line}.
+Thus, the (square) on {BA line} is equal to the (sum of) the (squares) on {BC line} and {CA line}.
+The very thing (is) impossible [Prop. 2.4].
+Thus, {CB line} is not double {AC line}.
+So, similarly, we can show that a (straight-line) less than {CB line} is not double {AC line} either.
+For (in this case) the absurdity is much [greater].
+
+Thus, double {AC line} is greater than {CB line}.
+(Which is) the very thing it was required to show.

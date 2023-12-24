@@ -1,0 +1,25 @@
+If a parallelipiped solid is cut by a plane which is parallel to the opposite planes (of the parallelipiped) then as the base (is) to the base, so the solid will be to the solid.
+
+For let the parallelipiped solid {ABCD given} have been cut by the plane {FG polygon} which is parallel to the opposite planes {RA polygon} and {DH polygon}.
+I say that as the base {AEFV polygon} (is) to the base {EHCF polygon}, so the solid {ABFU given} (is) to the solid {EGCD given}.
+
+For let {AH line} have been produced in each direction.
+And let any number whatsoever (of lengths), {AK line} and {KL line}, be made equal to {AE line}, and any number whatsoever (of lengths), {HM line} and {MN line}, equal to {EH line}.
+And let the parallelograms {LP polygon}, {KV polygon}, {HW polygon}, and {MS polygon} have been completed, and the solids {LQ given}, {KR given}, {DM given}, and {MT given}.
+
+And since the straight-lines {LK line}, {KA line}, and {AE line} are equal to one another, the parallelograms {LP polygon}, {KV polygon}, and {AF polygon} are also equal to one another, and {KO polygon}, {KB polygon}, and {AG polygon} (are equal) to one another, and, further, {LX polygon}, {KQ polygon}, and {AR polygon} (are equal) to one another.
+For (they are) opposite [Prop. 11.24].
+So, for the same (reasons), the parallelograms {EC polygon}, {HW polygon}, and {MS polygon} are also equal to one another, and {HG polygon}, {HI polygon}, and {IN polygon} are equal to one another, and, further, {DH polygon}, {MY polygon}, and {NT polygon} (are equal to one another).
+Thus, three planes of (one of) the solids {LQ given}, {KR given}, and {AU given} are equal to the (corresponding) three planes (of the others).
+But, the three planes (in one of the soilds) are equal to the three opposite planes [Prop. 11.24].
+Thus, the three solids {LQ given}, {KR given}, and {AU given} are equal to one another [Def. 11.10].
+So, for the same (reasons), the three solids {ED given}, {DM given}, and {MT given} are also equal to one another.
+Thus, as many multiples as the base {LF polygon} is of the base {AF polygon}, so many multiples is the solid {LU given} also of the the solid {AU given}.
+So, for the same (reasons), as many multiples as the base {NF polygon} is of the base {FH polygon}, so many multiples is the solid {NU given} also of the solid {HU given}.
+And if the base {LF polygon} is equal to the base {NF polygon} then the solid {LU given} is also equal to the solid {NU given}.
+And if the base {LF polygon} exceeds the base {NF polygon} then the solid {LU given} also exceeds the solid {NU given}.
+And if ({LF polygon}) is less than ({NF polygon}) then ({LU given}) is (also) less than ({NU given}).
+So, there are four magnitudes, the two bases {AF polygon} and {FH polygon}, and the two solids {AU given} and {UH given}, and equal multiples have been taken of the base {AF polygon} and the solid {AU given}---(namely), the base {LF polygon} and the solid {LU given}---and of the base {HF polygon} and the solid {HU given}---(namely), the base {NF polygon} and the solid {NU given}.
+And it has been shown that if the base {LF polygon} exceeds the base {FN polygon} then the solid {LU given} also exceeds the [solid] {NU given}, and if ({LF polygon} is) equal (to {FN polygon}) then ({LU given} is) equal (to {NU given}), and if ({LF polygon} is) less than ({FN polygon}) then ({LU given} is) less than ({NU given}).
+Thus, as the base {AF polygon} is to the base {FH polygon}, so the solid {AU given} (is) to the solid {UH given} [Def. 5.5].
+(Which is) the very thing it was required to show.

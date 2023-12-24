@@ -1,0 +1,19 @@
+Eğer iki düz çizgi, aynı tarafta yatmayan, bir düz çizgide aynı noktada iki dik açıya eşit olan bitişik açılar yaparlarsa, bu iki düz çizgi birbirine karşı düz olacaklardır.
+
+İki düz çizgi {BC line} ve {BD line}, aynı tarafta yatmayan, bir düz çizgide aynı nokta {B point} üzerinde iki dik açıya eşit olan bitişik açılar {ABC angle} ve {ABD angle} yapsınlar.
+{BD line}'nin {CB line}'a karşı düz olduğunu söylüyorum.
+
+Eğer {BD line}, {BC line}'a karşı düz değilse, o zaman {BE line}'ın {CB line}'a karşı düz olduğunu varsayalım.
+
+Bu nedenle, düz çizgi {AB line} düz çizgi {CBE line}'ın üzerine dikildiği için, açıların {ABC angle} ve {ABE angle} toplamı iki dik açıya eşittir [Prop. 1.13].
+Ama {ABC angle} ve {ABD angle}'ın toplamı da iki dik açıya eşittir.
+Böylece, {CBA angle} ve {ABE angle}'ın toplamı {CBA angle} ve {ABD angle}'ın toplamına eşittir [C.N. 1].
+Her iki taraftan da {CBA angle}'ı çıkaralım.
+Böylece, kalan {ABE angle} kalan {ABD angle}'a eşittir [C.N. 3], daha küçük olan daha büyüğe eşit olmuştur.
+Bu imkansız bir şeydir.
+Dolayısıyla, {BE line} {CB line}'a karşı düz değildir.
+Benzer şekilde, {BD line}'dan başka hiçbir (düz çizgi) de öyle değildir.
+Böylece, {CB line} {BD line}'a karşı düzdür.
+
+Böylece, eğer iki düz çizgi, aynı tarafta yatmayan, bir düz çizgide aynı noktada iki dik açıya eşit olan bitişik açılar yaparlarsa, bu iki düz çizgi birbirine karşı düz olacaklardır.
+(Gösterilmesi gereken tam olarak budur.)

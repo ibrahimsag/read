@@ -19,6 +19,15 @@ function make(colors, brand)
     link: style_link,
     '@global': {
 
+      '#lang-toggle': {
+        cursor: 'pointer',
+
+        stroke: brand.step,
+        '&:hover': {
+            stroke: brand.bright,
+        }
+      },
+
       '#palette': {
         cursor: 'pointer',
 

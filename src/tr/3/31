@@ -1,0 +1,33 @@
+In a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser segment (is) greater than a right-angle.
+And, further, the angle of a segment greater (than a semi-circle) is greater than a right-angle, and the angle of a segment less (than a semi-circle) is less than a right-angle.
+
+Let {ABCD circle E} be a circle, and let {BC line} be its diameter, and {E point} its center.
+And let {BA line}, {AC line}, {AD line}, and {DC line} have been joined.
+I say that the angle {BAC angle} in the semi-circle {BAC arc E} is a right-angle, and the angle {ABC angle} in the segment {ABC arcc E}, (which is) greater than a semi-circle, is less than a right-angle, and the angle {ADC angle} in the segment {ADC arc E}, (which is) less than a semi-circle, is greater than a right-angle.
+
+Let {AE line} have been joined, and let {BA line} have been drawn through to {F point} (as {BF line}).
+
+And since {BE line} is equal to {EA line}, angle {ABE angle} is also equal to {BAE angle} [Prop. 1.5].
+Again, since {CE line} is equal to {EA line}, {ACE angle} is also equal to {CAE angle} [Prop. 1.5].
+Thus, the whole (angle) {BAC angle} is equal to the two (angles) {ABC angle} and {ACB angle}.
+And {FAC angle}, (which is) external to triangle {ABC polygon}, is also equal to the two angles {ABC angle} and {ACB angle} [Prop. 1.32].
+Thus, angle {BAC angle} (is) also equal to {FAC angle}.
+Thus, (they are) each right-angles [Def. 1.10].
+Thus, the angle {BAC angle} in the semi-circle {BAC arc E} is a right-angle.
+
+And since the two angles {ABC angle} and {BAC angle} of triangle {ABC polygon} are less than two right-angles [Prop. 1.17], and {BAC angle} is a right-angle, angle {ABC angle} is thus less than a right-angle.
+And it is in segment {ABC arcc E}, (which is) greater than a semi-circle.
+
+And since {ABCD polygon} is a quadrilateral within a circle, and for quadrilaterals within circles the (sum of the) opposite angles is equal to two right-angles [Prop. 3.22] [angles {ABC angle} and {ADC angle} are thus equal to two right-angles], and (angle) {ABC angle} is less than a right-angle.
+The remaining angle {ADC angle} is thus greater than a right-angle.
+And it is in segment {ADC arc E}, (which is) less than a semi-circle.
+
+I also say that the angle of the greater segment, (namely) that contained by the circumference {ABC arcc E} and the straight-line {AC line}, is greater than a right-angle.
+And the angle of the lesser segment, (namely) that contained by the circumference {ADC arc E} and the straight-line {AC line}, is less than a right-angle.
+And this is immediately apparent.
+For since the (angle contained by) the two straight-lines {BA line} and {AC line} is a right-angle, the (angle) contained by the circumference {ABC arcc E} and the straight-line {AC line} is thus greater than a right-angle.
+Again, since the (angle contained by) the straight-lines {AC line} and {AF line} is a right-angle, the (angle) contained by the circumference {ADC arc E} and the straight-line {CA line} is thus less than a right-angle.
+
+Thus, in a circle, the angle in a semi-circle is a right-angle, and that in a greater segment (is) less than a right-angle, and that in a lesser [segment] (is) greater than a right-angle.
+And, further, the [angle] of a segment greater (than a semi-circle) [is] greater than a right-angle, and the [angle] of a segment less (than a semi-circle) is less than a right-angle.
+(Which is) the very thing it was required to show.

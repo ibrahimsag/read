@@ -1,0 +1,12 @@
+It can be shown that the angle of an equilateral and equiangular pentagon is one and one-fifth of a right-angle, as follows.
+
+For let {ABCDE polygon} be an equilateral and equiangular pentagon, and let the circle {ABCDE circle F} have been circumscribed about it [Prop. 4.14].
+And let its center, {F point}, have been found [Prop. 3.1].
+And let {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} have been joined.
+Thus, they cut the angles of the pentagon in half at (points) {A point}, {B point}, {C point}, {D point}, and {E point} [Prop. 1.4].
+And since the five angles at {F point} are equal (in sum) to four right-angles, and are also equal (to one another), (any) one of them, like {AFB angle}, is thus one less a fifth of a right-angle.
+Thus, the (sum of the) remaining (angles in triangle {ABF polygon}), {FAB line} and {ABF line}, is one plus a fifth of a right-angle [Prop. 1.32].
+And {FAB angle} (is) equal to {FBC angle}.
+Thus, the whole angle, {ABC angle}, of the pentagon is also one and one-fifth of a right-angle.
+(Which is) the very thing it was required to show.
+

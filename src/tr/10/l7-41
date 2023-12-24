@@ -1,0 +1,18 @@
+We will now demonstrate that the aforementioned irrational (straight-lines) are uniquely divided into the straight-lines of which they are the sum, and which produce the prescribed types, (after) setting forth the following lemma.
+
+Let the straight-line {AB magnitude} be laid out, and let the whole (straight-line) have been cut into unequal parts at each of the (points) {C point} and {D point}.
+And let {AC magnitude} be assumed (to be) greater than {DB magnitude}.
+I say that (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is greater than (the sum of) the (squares) on {AD magnitude} and {DB magnitude}.
+
+For let {AB magnitude} have been cut in half at {E point}.
+And since {AC magnitude} is greater than {DB magnitude}, let {DC magnitude} have been subtracted from both.
+Thus, the remainder {AD magnitude} is greater than the remainder {CB magnitude}.
+And {AE magnitude} (is) equal to {EB magnitude}.
+Thus, {DE magnitude} (is) less than {EC magnitude}.
+Thus, points {C point} and {D point} are not equally far from the point of bisection.
+And since the (rectangle contained) by {AC magnitude} and {CB magnitude}, plus the (square) on {EC magnitude}, is equal to the (square) on {EB magnitude} [Prop. 2.5], but, moreover, the (rectangle contained) by {AD magnitude} and {DB magnitude}, plus the (square) on {DE magnitude}, is also equal to the (square) on {EB magnitude} [Prop. 2.5], the (rectangle contained) by {AC magnitude} and {CB magnitude}, plus the (square) on {EC magnitude}, is thus equal to the (rectangle contained) by {AD magnitude} and {DB magnitude}, plus the (square) on {DE magnitude}.
+And, of these, the (square) on {DE magnitude} is less than the (square) on {EC magnitude}.
+And, thus, the remaining (rectangle contained) by {AC magnitude} and {CB magnitude} is less than the (rectangle contained) by {AD magnitude} and {DB magnitude}.
+And, hence, twice the (rectangle contained) by {AC magnitude} and {CB magnitude} is less than twice the (rectangle contained) by {AD magnitude} and {DB magnitude}.
+And thus the remaining sum of the (squares) on {AC magnitude} and {CB magnitude} is greater than the sum of the (squares) on {AD magnitude} and {DB magnitude}.
+(Which is) the very thing it was required to show.

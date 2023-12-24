@@ -1,0 +1,29 @@
+If the side of a hexagon and of a decagon inscribed in the same circle are added together then the whole straight-line has been cut in extreme and mean ratio (at the junction point), and its greater piece is the side of the hexagon.
+
+Let {ABC circle E} be a circle.
+And of the figures inscribed in circle {ABC circle E}, let {BC line} be the side of a decagon, and {CD line} (the side) of a hexagon.
+And let them be (laid down) straight-on (to one another).
+I say that the whole straight-line {BD line} has been cut in extreme and mean ratio (at {C point}), and that {CD line} is its greater piece.
+
+For let the center of the circle, point {E point}, have been found [Prop. 3.1], and let {EB line}, {EC line}, and {ED line} have been joined, and let {BE line} have been drawn across to {A line}.
+Since {BC line} is a side on an equilateral decagon, circumference {ACB arc E} (is) thus five times circumference {BC arcc E}.
+Thus, circumference {AC arc E} (is) four times {CB arc E}.
+And as circumference {AC arc E} (is) to {CB arc E}, so angle {AEC angle} (is) to {CEB angle} [Prop. 6.33].
+Thus, (angle) {AEC angle} (is) four times {CEB angle}.
+And since angle {EBC angle} (is) equal to {ECB angle} [Prop. 1.5], angle {AEC angle} is thus double {ECB angle} [Prop. 1.32].
+And since straight-line {EC line} is equal to {CD line}—for each of them is equal to the side of the hexagon [inscribed] in circle {ABC circle E} [Prop. 4.15 corr.]— angle {CED angle} is also equal to angle {CDE angle} [Prop. 1.5].
+Thus, angle {ECB angle} (is) double {EDC angle} [Prop. 1.32].
+But, {AEC angle} was shown (to be) double {ECB angle}.
+Thus, {AEC angle} (is) four times {EDC angle}.
+And {AEC angle} was also shown (to be) four times {BEC angle}.
+Thus, {EDC angle} (is) equal to {BEC angle}.
+And angle {EBD angle} (is) common to the two triangles {BEC polygon} and {BED polygon}.
+Thus, the remaining (angle) {BED angle} is equal to the (remaining angle) {ECB angle} [Prop. 1.32].
+Thus, triangle {EBD polygon} is equiangular to triangle {EBC polygon}.
+Thus, proportionally, as {DB line} is to {BE line}, so {EB line} (is) to {BC line} [Prop. 6.4].
+And {EB line} (is) equal to {CD line}.
+Thus, as {BD line} is to {DC line}, so {DC line} (is) to {CB line}.
+And {BD line} (is) greater than {DC line}.
+Thus, {DC line} (is) also greater than {CB line} [Prop. 5.14].
+Thus, the straight-line {BD line} has been cut in extreme and mean ratio [at {C point}], and {DC line} is its greater piece.
+(Which is), the very thing it was required to show.

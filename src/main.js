@@ -1236,6 +1236,17 @@ function elements() {
       .forEach(link => link.onclick = hrefClick);
   }
 
+  function langToggleClick() {
+    if(window.LANG == 'en') {
+      window.localStorage.lang = 'tr';
+    } else {
+      window.localStorage.lang = 'en';
+    }
+    window.location.reload();
+  }
+
+  window.LANG = window.localStorage.lang || 'en';
+
   let cheme_a = [colors_dark, colors_light];
   let chemes = {};
   cheme_a.forEach(c => {chemes[c.id] = c;});
@@ -1361,7 +1372,7 @@ function elements() {
   }
 
   function canPresentSection(i_book, id) {
-    let sections = books.en[i_book];
+    let sections = books[LANG][i_book];
     if(!sections) return false;
 
     if(!section_indices[i_book])
@@ -1390,7 +1401,7 @@ function elements() {
     setupLinks();
     stopPreview = true;
     showOverlay();
-    let sections = books.en[i_book];
+    let sections = books[LANG][i_book];
 
     let i_section = section_indices[i_book][id];
 
@@ -1447,7 +1458,7 @@ function elements() {
       if (i_section > 0) {
         openSection(i_book, sections[i_section-1].id);
       } else if (i_book > 1) {
-        let sections = books.en[i_book-1];
+        let sections = books[LANG][i_book-1];
         openSection(i_book-1, sections[sections.length-1].id);
       }
     }
@@ -1458,7 +1469,7 @@ function elements() {
       if (i_section < sections.length-1) {
         openSection(i_book, sections[i_section+1].id);
       } else if (i_book < 13) {
-        let sections = books.en[i_book+1];
+        let sections = books[LANG][i_book+1];
         openSection(i_book+1, sections[0].id);
       }
     }
@@ -1605,7 +1616,9 @@ function elements() {
           }, 10000);
       };
       //setTimeout(occasional, 1000);
-  }
+    }
+
+    document.querySelector('#lang-toggle').onclick = langToggleClick;
 
     document.querySelector('#palette').onclick = paletteClick;
     {
@@ -1617,7 +1630,7 @@ function elements() {
         hrefClick
       });
       canPresentSection(1, '43')
-      let sections = books.en[1];
+      let sections = books[LANG][1];
 
       let i_section = section_indices[1]['1.43'];
       let prev_section = sections[i_section];
@@ -1777,7 +1790,7 @@ function elements() {
         sectionsColumn.append(e);
       }
 
-      let sections = books.en[id];
+      let sections = books[LANG][id];
       for(let i in sections)
       {
         let sle = document.createElement('div')

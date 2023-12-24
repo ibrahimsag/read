@@ -1,0 +1,24 @@
+Verilen bir üçgene eşit bir paralelkenarı, verilen bir düz çizgiye verilen bir doğrusal açıda uygulamak.
+
+Verilen düz çizgi {AB line} olsun, verilen üçgen {C given} olsun ve verilen doğrusal açı {D given} olsun.
+Bu yüzden, verilen üçgene {C given} eşit bir paralelkenarı, {D given}'e eşit bir açıda verilen düz çizgi {AB line}'a uygulamak gerekmektedir.
+
+Verilen üçgene {C given} eşit olan paralelkenar {BEFG polygon}, {D given}'e eşit olan {EBG angle} açısında inşa edilmiş olsun [Prop. 1.42].
+Ve {BE line}'ın {AB line}'a dik olarak yerleştirilmiş olsun.
+Ve {FG line}, {H point}'e kadar ({FH line} olarak) çizilmiş olsun ve {AH line}, {A point}'ten {BG line} veya {EF line}'a paralel olarak çizilmiş olsun [Prop. 1.31], ve {HB line} birleştirilmiş olsun.
+Ve {HF line} düz çizgisi, paralel çizgiler {AH line} ve {EF line}'a düşerken, {AHF angle} ve {HFE angle} açılarının toplamı iki dik açıya eşittir [Prop. 1.29].
+Bu yüzden, {BHG angle} ve {GFE angle} açılarının toplamı iki dik açıdan daha küçüktür.
+Ve (iç açılarının toplamı) iki dik açıdan daha küçük olan (düz çizgiler) sonsuza kadar uzatıldığında bir araya gelirler [Post. 5].
+Bu yüzden, uzatıldığında, {HB line} ve {FE line} bir araya gelecektir.
+Onları uzatın ve {K point}'de bir araya gelmelerini sağlayın.
+Ve {KL line}, {K point}'ten {EA line} veya {FH line}'a paralel olarak çizilmiş olsun [Prop. 1.31].
+Ve {HA line} ve {GB line}, sırasıyla {L point} ve {M point}'e kadar uzatılmış olsun.
+Bu durumda, {HLKF polygon} bir paralelkenardır ve {HK line} onun köşegenidir.
+Ve {AG polygon} ve {ME polygon} (paralelkenarlar), ve {LB polygon} ve {BF polygon} {HK line} hakkında sözde tamamlayıcılarıdır.
+Bu yüzden, {LB polygon} {BF polygon}'a eşittir [Prop. 1.43].
+Ama, {BF polygon} {C given} üçgene eşittir.
+Bu yüzden, {LB polygon} da {C given}'e eşittir.
+Ayrıca, {GBE angle}'ın {ABM angle}'a eşit olduğu görülür [Prop. 1.15], ama {GBE angle} {D given}'e eşittir, bu yüzden {ABM angle} da {D given} açısına eşittir.
+
+Bu durumda, verilen üçgene {C given} eşit olan paralelkenar {LB polygon}, {D given}'e eşit olan {ABM angle} açısında verilen düz çizgi {AB line}'a uygulanmıştır.
+(Bu, yapılması gereken şeydir.)

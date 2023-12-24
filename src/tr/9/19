@@ -1,0 +1,50 @@
+For three given numbers, to investigate when it is possible to find a fourth (number) proportional to them.
+
+Let {A magnitude}, {B magnitude}, {C magnitude} be the three given numbers.
+And let it be required to investigate when it is possible to find a fourth (number) proportional to them.
+
+In fact, ({A magnitude}, {B magnitude}, {C magnitude}) are either not continuously proportional and the outermost of them are prime to one another, or are continuously proportional and the outermost of them are not prime to one another, or are neither continuously proportional nor are the outermost of them prime to one another, or are continuously proportional and the outermost of them are prime to one another.
+
+In fact, if {A magnitude}, {B magnitude}, {C magnitude} are continuously proportional, and the outermost of them, {A magnitude} and {C magnitude}, are prime to one another, (then) it has (already) been shown that it is impossible to find a fourth number proportional to them [Prop. 9.17].
+So let {A magnitude}, {B magnitude}, {C magnitude} not be continuously proportional, (with) the outermost of them again being prime to one another.
+I say that, in this case, it is also impossible to find a fourth (number) proportional to them.
+For, if possible, let it have been found, (and let it be) {D magnitude}.
+Hence, it will be that as {A magnitude} (is) to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}.
+And let it be contrived that as {B magnitude} (is) to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}.
+And since as {A magnitude} is to {B magnitude}, (so) {C magnitude} (is) to {D magnitude}, and as {B magnitude} (is) to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}, thus, via equality, as {A magnitude} (is) to {C magnitude}, (so) {C magnitude} (is) to {E magnitude} [Prop. 7.14].
+And {A magnitude} and {C magnitude} (are) prime (to one another).
+And (numbers) prime (to one another are) also the least (numbers having the same ratio as them) [Prop. 7.21].
+And the least (numbers) measure those numbers having the same ratio as them (the same number of times), the leading (measuring) the leading, and the following the following [Prop. 7.20].
+Thus, {A magnitude} measures {C magnitude}, (as) the leading (measuring) the leading.
+And it also measures itself.
+Thus, {A magnitude} measures {A magnitude} and {C magnitude}, which are prime to one another.
+The very thing is impossible.
+Thus, it is not possible to find a fourth (number) proportional to {A magnitude}, {B magnitude}, {C magnitude}.
+
+And so let {A magnitude}, {B magnitude}, {C magnitude} again be continuously proportional, and let {A magnitude} and {C magnitude} not be prime to one another.
+I say that it is possible to find a fourth (number) proportional to them.
+For let {B magnitude} make {D magnitude} (by) multiplying {C magnitude}.
+Thus, {A magnitude} either measures or does not measure {D magnitude}.
+Let it, first of all, measure ({D magnitude}) according to {E magnitude}.
+Thus, {A magnitude} has made {D magnitude} (by) multiplying {E magnitude}.
+But, in fact, {B magnitude} has also made {D magnitude} (by) multiplying {C magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to the (number created) from (multiplying) {B magnitude}, {C magnitude}.
+Thus, proportionally, as {A magnitude} [is] to {B magnitude}, (so) {C magnitude} (is) to {E magnitude} [Prop. 7.19].
+Thus, a fourth (number) proportional to {A magnitude}, {B magnitude}, {C magnitude} has been found, (namely) {E magnitude}.
+
+And so let {A magnitude} not measure {D magnitude}.
+I say that it is impossible to find a fourth number proportional to {A magnitude}, {B magnitude}, {C magnitude}.
+For, if possible, let it have been found, (and let it be) {E magnitude}.
+Thus, the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to the (number created) from (multiplying) {B magnitude}, {C magnitude}.
+But, the (number created) from (multiplying) {B magnitude}, {C magnitude} is {D magnitude}.
+And thus the (number created) from (multiplying) {A magnitude}, {E magnitude} is equal to {D magnitude}.
+Thus, {A magnitude} has made {D magnitude} (by) multiplying {E magnitude}.
+Thus, {A magnitude} measures {D magnitude} according to {E magnitude}.
+Hence, {A magnitude} measures {D magnitude}.
+But, it also does not measure ({D magnitude}).
+The very thing (is) absurd.
+Thus, it is not possible to find a fourth number proportional to {A magnitude}, {B magnitude}, {C magnitude} when {A magnitude} does not measure {D magnitude}.
+And so (let) {A magnitude}, {B magnitude}, {C magnitude} (be) neither continuously proportional, nor (let) the outermost of them (be) prime to one another.
+And let {B magnitude} make {D magnitude} (by) multiplying {C magnitude}.
+So, similarly, it can be show that if {A magnitude} measures {D magnitude} then it is possible to find a fourth (number) proportional to ({A magnitude}, {B magnitude}, {C magnitude}), and impossible if ({A magnitude}) does not measure ({D magnitude}).
+(Which is) the very thing it was required to show.

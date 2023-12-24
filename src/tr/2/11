@@ -1,0 +1,31 @@
+To cut a given straight-line such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.
+
+Let {AB line} be the given straight-line.
+So it is required to cut {AB line} such that the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the square on the remaining piece.
+
+For let the square {ABDC polygon} have been described on {AB line} [Prop. 1.46], and let {AC line} have been cut in half at point {E point} [Prop. 1.10], and let {BE line} have been joined.
+And let {CA line} have been drawn through to (point) {F point} (as {CF line}), and let {EF line} be made equal to {BE line} [Prop. 1.3].
+And let the square {FH polygon} have been described on {AF line} [Prop. 1.46], and let {GH line} have been drawn through to (point) {K point} (as {GK line}).
+I say that {AB line} has been cut at {H point} such as to make the rectangle contained by {AB line} and {BH line} equal to the square on {AH line}.
+
+For since the straight-line {AC line} has been cut in half at {E point}, and {FA line} has been added to it, the rectangle contained by {CF line} and {FA line}, plus the square on {AE line}, is thus equal to the square on {EF line} [Prop. 2.6].
+And {EF line} (is) equal to {EB line}.
+Thus, the (rectangle contained) by {CF line} and {FA line}, plus the (square) on {AE line}, is equal to the (square) on {EB line}.
+But, the (sum of the squares) on {BA line} and {AE line} is equal to the (square) on {EB line}.
+For the angle at {A point} (is) a right-angle [Prop. 1.47].
+Thus, the (rectangle contained) by {CF line} and {FA line}, plus the (square) on {AE line}, is equal to the (sum of the squares) on {BA line} and {AE line}.
+Let the square on {AE line} have been subtracted from both.
+Thus, the remaining rectangle contained by {CF line} and {FA line} is equal to the square on {AB line}.
+And {FK polygon} is the (rectangle contained) by {CF line} and {FA line}.
+For {AF line} (is) equal to {FG line}.
+And {AD polygon} (is) the (square) on {AB line}.
+Thus, the (rectangle) {FK polygon} is equal to the (square) {AD polygon}.
+Let (rectangle) {AK polygon} have been subtracted from both.
+Thus, the remaining (square) {FH polygon} is equal to the (rectangle) {HD polygon}.
+And {HD polygon} is the (rectangle contained) by {AB line} and {BH line}.
+For {AB line} (is) equal to {BD line}.
+And {FH polygon} (is) the (square) on {AH line}.
+Thus, the rectangle contained by {AB line} and {BH line} is equal to the square on {HA line}.
+
+Thus, the given straight-line {AB line} has been cut at (point) {H point} such as to make the rectangle contained by {AB line} and {BH line} equal to the square on {HA line}.
+(Which is) the very thing it was required to do.

@@ -1,0 +1,28 @@
+If two medial (straight-lines), commensurable in square only, which contain a medial (area), are added together then the whole (straight-line) is irrational---let it be called a second bimedial (straight-line).
+
+For let the two medial (straight-lines), {AB magnitude} and {BC magnitude}, commensurable in square only, (and) containing a medial (area), be laid down together [Prop. 10.28].
+I say that {AC magnitude} is irrational.
+
+For let the rational (straight-line) {DE line} be laid down, and let (the rectangle) {DF polygon}, equal to the (square) on {AC magnitude}, have been applied to {DE line}, making {DG line} as breadth [Prop. 1.44].
+And since the (square) on {AC line} is equal to (the sum of) the (squares) on {AB line} and {BC line}, plus twice the (rectangle contained) by {AB line} and {BC line} [Prop. 2.4], so let (the rectangle) {EH polygon}, equal to (the sum of) the squares on {AB magnitude} and {BC magnitude}, have been applied to {DE line}.
+The remainder {HF polygon} is thus equal to twice the (rectangle contained) by {AB magnitude} and {BC magnitude}.
+And since {AB magnitude} and {BC magnitude} are each medial, (the sum of) the squares on {AB magnitude} and {BC magnitude} is thus also medial.
+And twice the (rectangle contained) by {AB magnitude} and {BC magnitude} was also assumed (to be) medial.
+And {EH polygon} is equal to (the sum of) the squares on {AB magnitude} and {BC magnitude}, and {FH polygon} (is) equal to twice the (rectangle contained) by {AB magnitude} and {BC magnitude}.
+Thus, {EH polygon} and {HF polygon} (are) each medial.
+And they were applied to the rational (straight-line) {DE line}.
+Thus, {DH line} and {HG line} are each rational, and incommensurable in length with {DE line} [Prop. 10.22].
+Therefore, since {AB magnitude} is incommensurable in length with {BC magnitude}, and as {AB magnitude} is to {BC magnitude}, so the (square) on {AB magnitude} (is) to the (rectangle contained) by {AB magnitude} and {BC magnitude} [Prop. 10.21 lem.], the (square) on {AB magnitude} is thus incommensurable with the (rectangle contained) by {AB magnitude} and {BC magnitude} [Prop. 10.11].
+But, the sum of the squares on {AB magnitude} and {BC magnitude} is commensurable with the (square) on {AB magnitude} [Prop. 10.15], and twice the (rectangle contained) by {AB magnitude} and {BC magnitude} is commensurable with the (rectangle contained) by {AB magnitude} and {BC magnitude} [Prop. 10.6].
+Thus, the sum of the (squares) on {AB magnitude} and {BC magnitude} is incommensurable with twice the (rectangle contained) by {AB magnitude} and {BC magnitude} [Prop. 10.13].
+But, {EH polygon} is equal to (the sum of) the squares on {AB magnitude} and {BC magnitude}, and {HF polygon} is equal to twice the (rectangle) contained by {AB magnitude} and {BC magnitude}.
+Thus, {EH polygon} is incommensurable with {HF polygon}.
+Hence, {DH line} is also incommensurable in length with {HG line} [Props. 6.1, 10.11].
+Thus, {DH line} and {HG line} are rational (straight-lines which are) commensurable in square only.
+Hence, {DG line} is irrational [Prop. 10.36].
+And {DE line} (is) rational.
+And the rectangle contained by irrational and rational (straight-lines) is irrational [Prop. 10.20].
+The area {DF polygon} is thus irrational, and (so) the square-root [of it] is irrational [Def. 10.4].
+And {AC magnitude} is the square-root of {DF polygon}.
+{AC magnitude} is thus irrational---let it be called a second bimedial(straight-line).
+(Which is) the very thing it was required to show.

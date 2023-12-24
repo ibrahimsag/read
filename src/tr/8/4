@@ -1,0 +1,55 @@
+For any multitude whatsoever of given ratios, (expressed) in the least numbers, to find the least numbers continuously proportional in these given ratios.
+
+Let the given ratios, (expressed) in the least numbers, be the (ratios) of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+So it is required to find the least numbers continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+
+For let the least number, {G magnitude}, measured by (both) {B magnitude} and {C magnitude} have be taken [Prop. 7.34].
+And as many times as {B magnitude} measures {G magnitude}, so many times let {A magnitude} also measure {H magnitude}.
+And as many times as {C magnitude} measures {G magnitude}, so many times let {D magnitude} also measure {K magnitude}.
+And {E magnitude} either measures, or does not measure, {K magnitude}.
+{figure 1}Let it, first of all, measure ({K magnitude}).
+And as many times as {E magnitude} measures {K magnitude}, so many times let {F magnitude} also measure {L magnitude}.
+And since {A magnitude} measures {H magnitude} the same number of times that {B magnitude} also (measures) {G magnitude}, thus as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.13, Def. 7.20].
+And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {G magnitude} (is) to {K magnitude}, and, further, as {E magnitude} (is) to {F magnitude}, so {K magnitude} (is) to {L magnitude}.
+Thus, {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+So I say that (they are) also the least (numbers continuously proportional in these ratios).
+For if {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are not the least numbers continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and of {E magnitude} to {F magnitude}, let {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} be (the least such numbers).
+And since as {A magnitude} is to {B magnitude}, so {N magnitude} (is) to {O magnitude}, and {A magnitude} and {B magnitude} are the least (numbers which have the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {O magnitude}.
+So, for the same (reasons), {C magnitude} also measures {O magnitude}.
+Thus, {B magnitude} and {C magnitude} (both) measure {O magnitude}.
+Thus, the least number measured by (both) {B magnitude} and {C magnitude} will also measure {O magnitude} [Prop. 7.35].
+And {G magnitude} (is) the least number measured by (both) {B magnitude} and {C magnitude}.
+Thus, {G magnitude} measures {O magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus, there cannot be any numbers less than {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} (which are) continuously (proportional) in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+
+{figure 2}So let {E magnitude} not measure {K magnitude}.
+And let the least number, {M magnitude}, measured by (both) {E magnitude} and {K magnitude} have been taken [Prop. 7.34].
+And as many times as {K magnitude} measures {M magnitude}, so many times let {H magnitude}, {G magnitude} also measure {N magnitude}, {O magnitude}, respectively.
+And as many times as {E magnitude} measures {M magnitude}, so many times let {F magnitude} also measure {P magnitude}.
+Since {H magnitude} measures {N magnitude} the same number of times as {G magnitude} (measures) {O magnitude}, thus as {H magnitude} is to {G magnitude}, so {N magnitude}(is) to {O magnitude} [Prop. 7.13, Def. 7.20].
+And as {H magnitude} (is) to {G magnitude}, so {A magnitude} (is) to {B magnitude}.
+And thus as {A magnitude} (is) to {B magnitude}, so {N magnitude} (is) to {O magnitude}.
+And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {O magnitude} (is) to {M magnitude}.
+Again, since {E magnitude} measures {M magnitude} the same number of times as {F magnitude} (measures) {P magnitude}, thus as {E magnitude} is to {F magnitude}, so {M magnitude} (is) to {P magnitude} [Prop. 7.13, Def.7.20].
+Thus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+So I say that (they are) also the least (numbers) in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
+For if not, then there will be some numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
+Let them be {Q magnitude}, {R magnitude}, {S magnitude}, {T magnitude}.
+And since as {Q magnitude} is to {R magnitude}, so {A magnitude} (is) to {B magnitude}, and {A magnitude} and {B magnitude} (are) the least (numbers having the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {R magnitude}.
+So, for the same (reasons), {C magnitude} also measures {R magnitude}.
+Thus, {B magnitude} and {C magnitude} (both) measure {R magnitude}.
+Thus, the least (number) measured by (both) {B magnitude} and {C magnitude} will also measure {R magnitude} [Prop. 7.35].
+And {G magnitude} is the least number measured by (both) {B magnitude} and {C magnitude}.
+Thus, {G magnitude} measures {R magnitude}.
+And as {G magnitude} is to {R magnitude}, so {K magnitude} (is) to {S magnitude}.
+Thus, {K magnitude} also measures {S magnitude} [Def. 7.20].
+And {E magnitude} also measures {S magnitude} [Prop. 7.20].
+Thus, {E magnitude} and {K magnitude} (both) measure {S magnitude}.
+Thus, the least (number) measured by (both) {E magnitude} and {K magnitude} will also measure {S magnitude} [Prop. 7.35].
+And {M magnitude} is the least (number) measured by (both) {E magnitude} and {K magnitude}.
+Thus, {M magnitude} measures {S magnitude}, the greater (measuring) the lesser.
+The very thing is impossible.
+Thus there cannot be any numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
+Thus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are the least (numbers) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
+(Which is) the very thing it was required to show.

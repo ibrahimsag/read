@@ -1,0 +1,19 @@
+Herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+
+{ABC polygon} bir üçgen olsun ve kenarlarından biri olan {BC line} {D point} noktasına kadar uzatılmış olsun.
+Dış açı {ACD angle} olanın, iki iç ve karşıt açı {CAB angle} ve {ABC angle} toplamına eşit olduğunu ve üçgenin üç iç açısı ---{ABC angle}, {BCA angle} ve {CAB angle}--- toplamının iki dik açıya eşit olduğunu söylüyorum.
+
+Çünkü {C point} noktasından geçen {CE line} çizgisi {AB line} düz çizgiye paralel olarak çizilmiştir [Prop. 1.31].
+
+Ve {AB line} {CE line} ile paralel olduğundan ve {AC line} onların üzerine düşmüştür, dönüşümlü açılar {BAC angle} ve {ACE angle} birbirine eşittir [Prop. 1.29].
+Yine, {AB line} {CE line} ile paralel olduğundan ve {BD line} düz çizgi onların üzerine düşmüştür, dış açı {ECD angle} iç ve karşıt açı {ABC angle} ile eşittir [Prop. 1.29].
+Ama {ACE angle} da {BAC angle} ile eşit olduğu gösterilmiştir.
+Böylece, tüm açı {ACD angle} iki iç ve karşıt açı {BAC angle} ve {ABC angle} toplamına eşittir.
+
+Her iki tarafa da {ACB angle} ekleyelim.
+Böylece, {ACD angle} ve {ACB angle} toplamı üç açının {ABC angle}, {BCA angle} ve {CAB angle} toplamına eşittir.
+Ama, {ACD angle} ve {ACB angle} toplamı iki dik açıya eşittir [Prop. 1.13].
+Böylece, {ACB angle}, {CBA angle} ve {CAB angle} toplamı da iki dik açıya eşittir.
+
+Böylece, herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+(Gösterilmesi gereken tam olarak budur.)

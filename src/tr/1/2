@@ -1,0 +1,21 @@
+Verilen bir noktada, verilen bir düz çizgiye eşit bir düz çizgi yerleştirmek.
+
+{A point} verilen nokta ve {BC line} verilen düz çizgi olsun.
+Bu durumda, {A point} noktasında verilen düz çizgiye eşit bir düz çizgi yerleştirmek gereklidir.
+
+{A point} noktasından {B point} noktasına {AB line} düz çizgisi çizilmiş olsun [Post. 1], ve üzerine {DAB polygon} eşkenar üçgeni inşa edilmiş olsun [Prop. 1.1].
+Ve {DA line} ve {DB line} ile aynı hizada olan {AE line} ve {BF line} düz çizgileri çizilmiş olsun [Post. 2].
+Ve merkezi {B point} ve yarıçapı {BC line} olan {CGH circle B} çemberi çizilmiş olsun [Post. 3],
+ve yine merkezi {D point} ve yarıçapı {DG line} olan {GKL circle D} çemberi çizilmiş olsun [Post. 3].
+
+Bu nedenle, {B point} noktası {CGH circle B} çemberinin merkezi olduğundan, {BC line} {BG line}'e eşittir [Def. 1.15].
+Yine, {D point} noktası {GKL circle D} çemberinin merkezi olduğundan, {DL line} {DG line}'e eşittir [Def. 1.15].
+Ve bunların içinde, {DA line} {DB line}'e eşittir.
+Böylece, kalan {AL line} kalan {BG line}'e eşittir [C.N. 3].
+Ama {BC line} da {BG line}'e eşit olduğu gösterilmişti.
+Böylece, {AL line} ve {BC line}, her biri {BG line}'e eşittir.
+Ama aynı şeye eşit olan şeyler birbirine de eşittir [C.N. 1].
+Böylece, {AL line} da {BC line}'e eşittir.
+
+Böylece, verilen düz çizgiye eşit olan {AL line} düz çizgisi, verilen {A point} noktasında yerleştirilmiştir.
+(Yapılması gereken tam da budur.)

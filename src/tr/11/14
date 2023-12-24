@@ -1,0 +1,22 @@
+Planes to which the same straight-line is at right-angles will be parallel planes.
+
+For let some straight-line {AB line} be at right-angles to each of the planes {CD polygon} and {EF polygon}.
+I say that the planes are parallel.
+
+For, if not, being produced, they will meet.
+Let them have met.
+So they will make a straight-line as a common section [Prop. 11.3].
+Let them have made {GH line}.
+And let some random point {K point} have been taken on {GH line}.
+And let {AK line} and {BK line} have been joined.
+
+And since {AB line} is at right-angles to the plane {EF polygon}, {AB line} is thus also at right-angles to {BK line}, which is a straight-line in the produced plane {EF polygon} [Def. 11.3].
+Thus, angle {ABK angle} is a right-angle.
+So, for the same (reasons), {BAK angle} is also a right-angle.
+So the (sum of the) two angles {ABK angle} and {BAK angle} in the triangle {ABK polygon} is equal to two right-angles.
+The very thing is impossible [Prop. 1.17].
+Thus, planes {CD polygon} and {EF polygon}, being produced, will not meet.
+Planes {CD polygon} and {EF polygon} are thus parallel [Def. 11.8].
+
+Thus, planes to which the same straight-line is at right-angles are parallel planes.
+(Which is) the very thing it was required to show.

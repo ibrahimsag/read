@@ -1,0 +1,42 @@
+If there are two pyramids with the same height, having trianglular bases, and each of them is divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms then as the base of one pyramid (is) to the base of the other pyramid, so (the sum of) all the prisms in one pyramid will be to (the sum of all) the equal number of prisms in the other pyramid.
+
+Let there be two pyramids with the same height, having the triangular bases {ABC polygon} and {DEF polygon}, (with) apexes the points {G point} and {H point} (respectively).
+And let each of them have been divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms [Prop. 12.3].
+I say that as base {ABC polygon} is to base {DEF polygon}, so (the sum of) all the prisms in pyramid {ABCG given} (is) to (the sum of) all the equal number of prisms in pyramid {DEFH given}.
+
+For since {BO line} is equal to {OC line}, and {AL line} to {LC line}, {LO line} is thus parallel to {AB line}, and triangle {ABC polygon} similar to triangle {LOC polygon} [Prop. 12.3].
+So, for the same (reasons), triangle {DEF polygon} is also similar to triangle {RVF polygon}.
+And since {BC line} is double {CO line}, and {EF line} (double) {FV line}, thus as {BC line} (is) to {CO line}, so {EF line} (is) to {FV line}.
+And the similar, and similarly laid out, rectilinear (figures) {ABC polygon} and {LOC polygon} have been described on {BC line} and {CO line} (respectively), and the similar, and similarly laid out, [rectilinear] (figures) {DEF polygon} and {RVF polygon} on {EF line} and {FV line} (respectively).
+Thus, as triangle {ABC polygon} is to triangle {LOC polygon}, so triangle {DEF polygon} (is) to triangle {RVF polygon} [Prop. 6.22].
+Thus, alternately, as triangle {ABC polygon} is to [triangle] {DEF polygon}, so [triangle] {LOC polygon} (is) to triangle {RVF polygon} [Prop. 5.16].
+But, as triangle {LOC polygon} (is) to triangle {RVF polygon}, so the prism whose base [is] triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon} (see lemma).
+And, thus, as triangle {ABC polygon} (is) to triangle {DEF polygon}, so the prism whose base (is) triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon}.
+And as the aforementioned prisms (are) to one another, so the prism whose base (is) parallelogram {KBOL polygon}, and opposite (side) straight-line {PM line}, (is) to the prism whose base (is) parallelogram {QEVR polygon}, and opposite (side) straight-line {ST line} [Props. 11.39, 12.3].
+Thus, also, (is) the (sum of the) two prisms—that whose base (is) parallelogram {KBOL polygon}, and opposite (side) {PM line}, and that whose base (is) {LOC polygon}, and opposite (plane) {PMN polygon}—to (the sum of) the (two) prisms—that whose base (is) {QEVR polygon}, and opposite (side) straight-line {ST line}, and that whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon} [Prop. 5.12].
+And, thus, as base {ABC polygon} (is) to base {DEF polygon}, so the (sum of the first) aforementioned two prisms (is) to the (sum of the second) aforementioned two prisms.
+
+And, similarly, if pyramids {PMNG given} and {STUH given} are divided into two prisms, and two pyramids, as base {PMN polygon} (is) to base {STU polygon}, so (the sum of) the two prisms in pyramid {PMNG given} will be to (the sum of) the two prisms in pyramid {STUH given}.
+But, as base {PMN polygon} (is) to base {STU polygon}, so base {ABC polygon} (is) to base {DEF polygon}.
+For the triangles {PMN polygon} and {STU polygon} (are) equal to {LOC polygon} and {RVF polygon}, respectively.
+And, thus, as base {ABC polygon} (is) to base {DEF polygon}, so (the sum of) the four prisms (is) to (the sum of) the four prisms [Prop. 5.12].
+So, similarly, even if we divide the pyramids left behind into two pyramids and into two prisms, as base {ABC polygon} (is) to base {DEF polygon}, so (the sum of) all the prisms in pyramid {ABCG given} will be to (the sum of) all the equal number of prisms in pyramid {DEFH given}.
+(Which is) the very thing it was required to show.
+
+Lemma
+
+And one may show, as follows, that as triangle {LOC polygon} is to triangle {RVF polygon}, so the prism whose base (is) triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) [triangle] {RVF polygon}, and opposite (plane) {STU polygon}.
+
+For, in the same figure, let perpendiculars have been conceived (drawn) from (points) {G given} and {H given} to the planes {ABC polygon} and {DEF polygon} (respectively).
+These clearly turn out to be equal, on account of the pyramids being assumed (to be) of equal height.
+And since two straight-lines, {GC line} and the perpendicular from {G point}, are cut by the parallel planes {ABC polygon} and {PMN polygon} they will be cut in the same ratios [Prop. 11.17].
+And {GC line} was cut in half by the plane {PMN polygon} at {N point}.
+Thus, the perpendicular from {G point} to the plane {ABC polygon} will also be cut in half by the plane {PMN polygon}.
+So, for the same (reasons), the perpendicular from {H point} to the plane {DEF polygon} will also be cut in half by the plane {STU polygon}.
+And the perpendiculars from {G point} and {H point} to the planes {ABC polygon} and {DEF polygon} (respectively) are equal.
+Thus, the perpendiculars from the triangles {PMN polygon} and {STU polygon} to {ABC polygon} and {DEF polygon} (respectively, are) also equal.
+Thus, the prisms whose bases are triangles {LOC polygon} and {RVF polygon}, and opposite (sides) {PMN polygon} and {STU polygon} (respectively), [are] of equal height.
+And, hence, the parallelepiped solids described on the aforementioned prisms [are] of equal height and (are) to one another as their bases [Prop. 11.32].
+Likewise, the halves (of the solids) [Prop. 11.28].
+Thus, as base {LOC polygon} is to base {RVF polygon}, so the aforementioned prisms (are) to one another.
+(Which is) the very thing it was required to show.

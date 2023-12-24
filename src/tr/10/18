@@ -1,0 +1,32 @@
+If there are two unequal straight-lines, and a (rectangle) equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) incommensurable [in length], then the square on the greater will be larger than the (square on the) lesser by the (square) on (some straight-line) incommensurable (in length) with the greater.
+And if the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) incommensurable (in length) with the greater, and a (rectangle) equal to the fourth (part) of the (square) on the lesser, falling short by a square figure, is applied to the greater, then it divides it into (parts which are) incommensurable [in length].
+
+Let {A magnitude} and {BC magnitude} be two unequal straight-lines, of which (let) {BC magnitude} (be) the greater.
+And let a (rectangle) equal to the fourth [part] of the (square) on the lesser, {A magnitude}, falling short by a square figure, have been applied to {BC magnitude}.
+And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude}.
+And let {BD magnitude} be incommensurable in length with {DC magnitude}.
+I say that that the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+
+For, similarly, by the same construction as before, we can show that the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on {FD magnitude}.
+[Therefore] it must be shown that {BC magnitude} is incommensurable in length with {DF magnitude}.
+For since {BD magnitude} is incommensurable in length with {DC magnitude}, {BC magnitude} is thus also incommensurable in length with {CD magnitude} [Prop. 10.16].
+But, {DC magnitude} is commensurable (in length) with the sum of {BF magnitude} and {DC magnitude} [Prop. 10.6].
+And, thus, {BC magnitude} is incommensurable (in length) with the sum of {BF magnitude} and {DC magnitude} [Prop. 10.13].
+Hence, {BC magnitude} is also incommensurable in length with the remainder {FD magnitude} [Prop. 10.16].
+And the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on {FD magnitude}.
+Thus, the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+
+So, again, let the square on {BC magnitude} be greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+And let a (rectangle) equal to the fourth [part] of the (square) on {A magnitude}, falling short by a square figure, have been applied to {BC magnitude}.
+And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude}.
+It must be shown that {BD magnitude} is incommensurable in length with {DC magnitude}.
+
+For, similarly, by the same construction, we can show that the square on {BC magnitude} is greater than the (square) on {A magnitude} by the (square) on {FD magnitude}.
+But, the square on {BC magnitude} is greater than the (square) on {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+Thus, {BC magnitude} is incommensurable in length with {FD magnitude}.
+Hence, {BC magnitude} is also incommensurable (in length) with the remaining sum of {BF magnitude} and {DC magnitude} [Prop. 10.16].
+But, the sum of {BF magnitude} and {DC magnitude} is commensurable in length with {DC magnitude} [Prop. 10.6].
+Thus, {BC magnitude} is also incommensurable in length with {DC magnitude} [Prop. 10.13].
+Hence, via separation, {BD magnitude} is also incommensurable in length with {DC magnitude} [Prop. 10.16].
+
+Thus, if there are two ... straight-lines, and so on ....

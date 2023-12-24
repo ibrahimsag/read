@@ -1,0 +1,22 @@
+If a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rectangle contained by the whole, and the said piece, and the square on the remaining piece.
+
+For let any straight-line {AB line} have been cut, at random, at point {C point}.
+I say that the (sum of the) squares on {AB line} and {BC line} is equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {CA line}.
+
+For let the square {ADEB polygon} have been described on {AB line} [Prop. 1.46], and let the (rest of) the figure have been drawn.
+
+Therefore, since (rectangle) {AG polygon} is equal to (rectangle) {GE polygon} [Prop. 1.43], let the (square) {CF polygon} have been added to both.
+Thus, the whole (rectangle) {AF polygon} is equal to the whole (rectangle) {CE polygon}.
+Thus, (rectangle) {AF polygon} plus (rectangle) {CE polygon} is double (rectangle) {AF polygon}.
+But, (rectangle) {AF polygon} plus (rectangle) {CE polygon} is the gnomon {KLM given}, and the square {CF polygon}.
+Thus, the gnomon {KLM given} , and the square {CF polygon}, is double the (rectangle) {AF polygon}.
+But double the (rectangle) {AF polygon} is also twice the (rectangle contained) by {AB line} and {BC line}.
+For {BF line} (is) equal to {BC line}.
+Thus, the gnomon {KLM given}, and the square {CF polygon}, are equal to twice the (rectangle contained) by {AB line} and {BC line}.
+Let {DG polygon}, which is the square on {AC line}, have been added to both.
+Thus, the gnomon {KLM given}, and the squares {BG polygon} and {GD polygon}, are equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {AC line}.
+But, the gnomon {KLM given} and the squares {BG polygon} and {GD polygon} is (equivalent to) the whole of {ADEB polygon} and {CF polygon}, which are the squares on {AB line} and {BC line} (respectively).
+Thus, the (sum of the) squares on {AB line} and {BC line} is equal to twice the rectangle contained by {AB line} and {BC line}, and the square on {AC line}.
+
+Thus, if a straight-line is cut at random then the sum of the squares on the whole (straight-line), and one of the pieces (of the straight-line), is equal to twice the rectangle contained by the whole, and the said piece, and the square on the remaining piece.
+(Which is) the very thing it was required to show.

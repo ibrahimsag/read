@@ -1,0 +1,16 @@
+If two straight-lines are cut by parallel planes then they will be cut in the same ratios.
+
+For let the two straight-lines {AB line} and {CD line} be cut by the parallel planes {GH polygon}, {KL polygon}, and {MN polygon} at the points {A point}, {E point}, {B point}, and {C point}, {F point}, {D point} (respectively).
+I say that as the straight-line {AE line} is to {EB line}, so {CF line} (is) to {FD line}.
+
+For let {AC line}, {BD line}, and {AD line} have been joined, and let {AD line} meet the plane {KL polygon} at point {O point}, and let {EO line} and {OF line} have been joined.
+
+And since two parallel planes {KL polygon} and {MN polygon} are cut by the plane {EBDO polygon}, their common sections {EO line} and {BD line} are parallel [Prop. 11.16].
+So, for the same (reasons), since two parallel planes {GH polygon} and {KL polygon} are cut by the plane {AOFC polygon}, their common sections {AC line} and {OF line} are parallel [Prop. 11.16].
+And since the straight-line {EO line} has been drawn parallel to one of the sides {BD line} of triangle {ABD polygon}, thus, proportionally, as {AE line} is to {EB line}, so {AO line} (is) to {OD line} [Prop. 6.2].
+Again, since the straight-line {OF line} has been drawn parallel to one of the sides {AC line} of triangle {ADC polygon}, proportionally, as {AO line} is to {OD line}, so {CF line} (is) to {FD line} [Prop. 6.2].
+And it was also shown that as {AO line} (is) to {OD line}, so {AE line} (is) to {EB line}.
+And thus as {AE line} (is) to {EB line}, so {CF line} (is) to {FD line} [Prop. 5.11].
+
+Thus, if two straight-lines are cut by parallel planes then they will be cut in the same ratios.
+(Which is) the very thing it was required to show.

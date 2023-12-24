@@ -1,0 +1,27 @@
+Similar triangles are to one another in the squared ratio of (their) corresponding sides.
+
+Let {ABC polygon} and {DEF polygon} be similar triangles having the angle at {B point} equal to the (angle) at {E point}, and {AB line} to {BC line}, as {DE line} (is) to {EF line}, such that {BC line} corresponds to {EF line}.
+I say that triangle {ABC polygon} has a squared ratio to triangle {DEF polygon} with respect to (that side) {BC line} (has) to {EF line}.
+
+For let a third (straight-line), {BG line}, have been taken (which is) proportional to {BC line} and {EF line}, so that as {BC line} (is) to {EF line}, so {EF line} (is) to {BG line} [Prop. 6.11].
+And let {AG line} have been joined.
+
+Therefore, since as {AB line} is to {BC line}, so {DE line} (is) to {EF line}, thus, alternately, as {AB line} is to {DE line}, so {BC line} (is) to {EF line} [Prop. 5.16].
+But, as {BC line} (is) to {EF line}, so {EF line} is to {BG line}.
+And, thus, as {AB line} (is) to {DE line}, so {EF line} (is) to {BG line}.
+Thus, for triangles {ABG polygon} and {DEF polygon}, the sides about the equal angles are reciprocally proportional.
+And those triangles having one (angle) equal to one (angle) for which the sides about the equal angles are reciprocally proportional are equal [Prop. 6.15].
+Thus, triangle {ABG polygon} is equal to triangle {DEF polygon}.
+And since as {BC line} (is) to {EF line}, so {EF line} (is) to {BG line}, and if three straight-lines are proportional then the first has a squared ratio to the third with respect to the second [Def. 5.9], {BC line} thus has a squared ratio to {BG line} with respect to (that) {CB line} (has) to {EF line}.
+And as {CB line} (is) to {BG line}, so triangle {ABC polygon} (is) to triangle {ABG polygon} [Prop. 6.1].
+Thus, triangle {ABC polygon} also has a squared ratio to (triangle) {ABG polygon} with respect to (that side) {BC line} (has) to {EF line}.
+And triangle {ABG polygon} (is) equal to triangle {DEF polygon}.
+Thus, triangle {ABC polygon} also has a squared ratio to triangle {DEF polygon} with respect to (that side) {BC line} (has) to {EF line}.
+
+Thus, similar triangles are to one another in the squared ratio of (their) corresponding sides.
+[(Which is) the very thing it was required to show].
+
+Corollary
+
+So it is clear, from this, that if three straight-lines are proportional, then as the first is to the third, so the figure (described) on the first (is) to the similar, and similarly described, (figure) on the second.
+(Which is) the very thing it was required to show.

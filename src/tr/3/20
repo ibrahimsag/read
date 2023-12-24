@@ -1,0 +1,22 @@
+In a circle, the angle at the center is double that at the circumference, when the angles have the same circumference base.
+
+Let {ABC circle E} be a circle, and let {BEC angle} be an angle at its center, and {BAC angle} (one) at (its) circumference.
+And let them have the same circumference base {BC arcc E}.
+I say that angle {BEC angle} is double (angle) {BAC angle}.
+
+For being joined, let {AE line} have been drawn through to {F point} (as {AF line}).
+
+Therefore, since {EA line} is equal to {EB line}, angle {EAB angle} (is) also equal to {EBA angle} [Prop. 1.5].
+Thus, angle {EAB angle} and {EBA angle} is double (angle) {EAB angle}.
+And {BEF angle} (is) equal to {EAB angle} and {EBA angle} [Prop. 1.32].
+Thus, {BEF angle} is also double {EAB angle}.
+So, for the same (reasons), {FEC angle} is also double {EAC angle}.
+Thus, the whole (angle) {BEC angle} is double the whole (angle) {BAC angle}.
+
+So let another (straight-line) have been inflected, and let there be another angle, {BDC angle}.
+And {DE line} being joined, let it have been produced to {G point}.
+So, similarly, we can show that angle {GEC angle} is double {EDC angle}, of which {GEB angle} is double {EDB angle}.
+Thus, the remaining (angle) {BEC angle} is double the (remaining angle) {BDC angle}.
+
+Thus, in a circle, the angle at the center is double that at the circumference, when [the angles] have the same circumference base.
+(Which is) the very thing it was required to show.

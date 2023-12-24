@@ -1,0 +1,20 @@
+If some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.
+
+Let {ABC circle D} be a circle, and {D point} a point inside it, and let more than two equal straight-lines, {DA line}, {DB line}, and {DC line}, radiate from {D point} towards (the circumference of) circle {ABC circle D}.
+I say that point {D point} is the center of circle {ABC circle D}.
+
+For let {AB line} and {BC line} have been joined, and (then) have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].
+And {ED line} and {FD line} being joined, let them have been drawn through to points {G point}, {K point}, {H point}, and {L point} (as {EG line}, {DK line}, {FH line} and {DL line}, respectively).
+
+Therefore, since {AE line} is equal to {EB line}, and {ED line} (is) common, the two (straight-lines) {AE line}, {ED line} are equal to the two (straight-lines) {BE line}, {ED line} (respectively).
+And the base {DA line} (is) equal to the base {DB line}.
+Thus, angle {AED angle} is equal to angle {BED angle} [Prop. 1.8].
+Thus, angles {AED angle} and {BED angle} (are) each right-angles [Def. 1.10].
+Thus, {GK line} cuts {AB line} in half, and at right-angles.
+And since, if some straight-line in a circle cuts some (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line) [Prop. 3.1 corr.], the center of the circle is thus on {GK line}.
+So, for the same (reasons), the center of circle {ABC circle D} is also on {HL line}.
+And the straight-lines {GK line} and {HL line} have no common (point) other than point {D point}.
+Thus, point {D point} is the center of circle {ABC circle D}.
+
+Thus, if some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.
+(Which is) the very thing it was required to show.
