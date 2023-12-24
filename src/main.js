@@ -1799,23 +1799,29 @@ function elements() {
           }
         }
 
-        if(s.figures)
-          s.figures.forEach(prepare);
-        else
-          prepare(s)
+        let fig = books.figures[s.id];
 
-        if(s.figures || (s.shapes && s.shapes.length > 0))
+        if(!fig) {
+        }
+        else if(fig.figures) {
+          fig.figures.forEach(prepare);
+        }
+        else {
+          prepare(fig)
+        }
+
+        if(fig && (fig.figures || (fig.shapes && fig.shapes.length > 0)))
         {
           let svg = se('svg');
           let g = se('g');
 
-          if(!s.figures)
+          if(!fig.figures)
           {
-            g.append(...s.shapes.map(rg.draw));
+            g.append(...fig.shapes.map(rg.draw));
           }
           else
           {
-            s.figures.forEach(figure => {
+            fig.figures.forEach(figure => {
               g.append(...figure.shapes.map(rg.draw));
             });
           }
