@@ -1,4 +1,6 @@
-import prop0 from './1/0';
+import prop0d from './1/0d';
+import prop0p from './1/0p';
+import prop0c from './1/0c';
 import prop1 from './1/1';
 import prop2 from './1/2';
 import prop3 from './1/3';
@@ -52,7 +54,17 @@ export default [
 {
   id: '1.d',
   title: 'Definitions',
-  prose: prop0,
+  prose: prop0d,
+},
+{
+  id: '1.p',
+  title: 'Postulates',
+  prose: prop0p,
+},
+{
+  id: '1.c',
+  title: 'Common Notions',
+  prose: prop0c,
 },
 
 {
