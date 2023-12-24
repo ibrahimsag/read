@@ -26,7 +26,7 @@ export default [
   plugins: [
     commonjs(),
     string({
-      include: 'build/*.json'
+      include: ['src/en/*/*', 'src/tr/*/*']
     }),
     terser()
   ],

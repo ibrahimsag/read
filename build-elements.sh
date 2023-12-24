@@ -1,5 +1,3 @@
-rollup -c rollup.prepare.config.js
-
 rollup -c rollup.min.elements.config.js
 cp build/elements.js elements-public/build/ && echo "copied elements.js"
 cp build/elements-content.js elements-public/build/ && echo "copied elements-content.js"
