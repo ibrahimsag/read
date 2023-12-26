@@ -1,8 +1,7 @@
 Verilen sonlu bir düz çizgi üzerine bir eşkenar üçgen inşa etmek.
 
 {AB line} verilen sonlu düz çizgi olsun.
-
-Bu nedenle, düz çizgi {AB line} üzerine bir eşkenar üçgen inşa etmek gerekmektedir.
+Bu halde, düz çizgi {AB line} üzerine bir eşkenar üçgen inşa etmek gerekmektedir.
 
 Merkezi {A point} ve yarıçapı {AB line} olan {BCD circle A} çemberi çizilmiş olsun [Post. 3], ve yine merkezi {B point} ve yarıçapı {BA line} olan {ACE circle B} çemberi çizilmiş olsun [Post. 3].
 Ve çemberlerin birbirini kestiği {C point} noktasından {A point} ve {B point} noktalarına (sırasıyla) düz çizgiler {CA line} ve {CB line} birleştirilmiş olsun [Post. 1].
