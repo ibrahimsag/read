@@ -1,16 +1,16 @@
 Eşit tabanlar üzerinde ve aynı paraleller arasında olan paralelkenarlar birbirine eşittir.
 
-{ABCD polygon} ve {EFGH polygon} paralelkenarlarının eşit tabanlar {BC line} ve {FG line} üzerinde ve aynı paraleller {AH line} ve {BG line} arasında olduğunu kabul edelim.
-Paralelkenar {ABCD polygon}'un {EFGH polygon}'a eşit olduğunu söylüyorum.
+{ABCD polygon} ve {EFGH polygon} paralelkenarları, eşit tabanlar {BC line} ve {FG line} üzerinde ve aynı paraleller {AH line} ve {BG line} arasında olsun.
+Diyorum ki {ABCD polygon} paralelkenarı {EFGH polygon}'ye eşittir.
 
-{BE line} ve {CH line}'ın birleştirildiğini kabul edelim.
-Ve {BC line} ile {FG line}'ın eşit olduğu gibi, {FG line} ile {EH line}'ın da eşit olduğu [Prop. 1.34], dolayısıyla {BC line} ile {EH line}'ın da eşit olduğu anlaşılır.
-Ve aynı zamanda paralellerdir ve {EB line} ile {HC line} onları birleştirir.
-Ama aynı tarafta eşit ve paralel (düz çizgileri) birleştiren (düz çizgiler) kendileri de eşit ve paraleldir [Prop. 1.33] [böylece, {EB line} ve {HC line} da eşit ve paraleldir].
-Böylece, {EBCH polygon} bir paralelkenardır [Prop. 1.34] ve {ABCD polygon}'a eşittir.
-Çünkü aynı tabana, {BC line}'a sahiptir, ({ABCD polygon}) ile ve aynı paraleller arasında, {BC line} ve {AH line}, ({ABCD polygon}) ile [Prop. 1.35].
-Aynı şekilde, {EFGH polygon} da aynı (paralelkenar) {EBCH polygon}'a eşittir [Prop. 1.34].
-Böylece paralelkenar {ABCD polygon} da {EFGH polygon}'a eşittir.
+{BE line} ve {CH line} birleştirilsin.
+Ve {BC line} ile {FG line} eşit olduğu için, ama {FG line} ile {EH line} eşit olduğu için [Prop. 1.34], {BC line} ile {EH line} de böylece eşittir.
+Ve onlar aynı zamanda paraleldir ve {EB line} ve {HC line} onları birleştirir.
+Ama aynı tarafta eşit ve paralel olan (düz çizgileri) birleştiren (düz çizgiler) kendileri de eşit ve paraleldir [Prop. 1.33] [böylece, {EB line} ve {HC line} de eşit ve paraleldir].
+Böylece, {EBCH polygon} bir paralelkenardır [Prop. 1.34] ve {ABCD polygon}'ye eşittir.
+Çünkü onun tabanı, {BC line}, {ABCD polygon} ile aynı ve {ABCD polygon} ile aynı paraleller, {BC line} ve {AH line}, arasında [Prop. 1.35].
+Yani, aynı sebeplerden dolayı, {EFGH polygon} de aynı {EBCH polygon} paralelkenarına eşittir [Prop. 1.34].
+Böylece {ABCD polygon} paralelkenarı da {EFGH polygon}'ye eşittir.
 
-Böylece, eşit tabanlar üzerinde ve aynı paraleller arasında olan paralelkenarlar birbirine eşittir.
-(Gösterilmesi gereken şey tam olarak budur.)
+Böylece, aynı tabanlar üzerinde ve aynı paraleller arasında olan paralelkenarlar birbirine eşittir.
+(Gösterilmesi gereken tam olarak budur.)

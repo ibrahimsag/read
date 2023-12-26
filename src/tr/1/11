@@ -1,16 +1,16 @@
-Verilen bir düz çizgi üzerinde verilen bir noktadan, o düz çizgiye dik olarak bir düz çizgi çizmek.
+Verilen bir düz çizgi üzerinde verilen bir noktadan dik bir düz çizgi çizmek.
 
-{AB line} verilen düz çizgi olsun ve {C point} üzerindeki verilen nokta olsun.
-Böylece, {C point} noktasından {AB line} düz çizgisine dik olarak bir düz çizgi çizmek gerekmektedir.
+{AB line} verilen düz çizgi ve {C point} üzerindeki verilen nokta olsun.
+Böylece, {C point} noktasından {AB line} düz çizgisine dik bir düz çizgi çizmek gerekiyor.
 
-{AC line} üzerinde bir yerde {D point} noktası alınsın ve {CE line} çizgisi {CD line} çizgisine eşit yapılsın [Prop. 1.3], ve {DE line} çizgisi üzerine eşkenar üçgen {FDE polygon} inşa edilsin [Prop. 1.1], ve {FC line} çizgisi birleştirilsin.
-Söylüyorum ki, {FC line} düz çizgisi verilen {AB line} düz çizgisine verilen {C point} noktasından dik olarak çizilmiştir.
+{AC line} üzerinde bir yerde {D point} noktası alınsın ve {CE line} {CD line}'ye eşit yapılsın [Prop. 1.3], ve {DE line} üzerine eşkenar üçgen {FDE polygon} inşa edilsin [Prop. 1.1], ve {FC line} birleştirilsin.
+Diyorum ki {FC line} düz çizgisi, verilen {AB line} düz çizgisine, üzerindeki verilen {C point} noktasından dik olarak çizilmiştir.
 
-Çünkü {DC line} çizgisi {CE line} çizgisine eşittir ve {CF line} çizgisi ortaktır, iki (düz çizgi) {DC line}, {CF line} sırasıyla iki (düz çizgi) {EC line}, {CF line} ile eşittir.
-Ve taban {DF line} çizgisi taban {FE line} çizgisi ile eşittir.
-Böylece, {DCF angle} açısı {ECF angle} açısı ile eşittir [Prop. 1.8], ve bunlar bitişiktir.
-Ama bir düz çizgi, bir başka düz çizgi üzerine dikildiğinde bitişik açıları birbirine eşit yaparsa, eşit olan her bir açı bir dik açıdır [Def. 1.10].
-Böylece, {DCF angle} ve {FCE angle} açılarından her biri bir dik açıdır.
+Çünkü {DC line} {CE line}'ye eşit olduğu ve {CF line} ortak olduğu için, iki düz çizgi {DC line}, {CF line} sırasıyla iki düz çizgi {EC line}, {CF line}'ye eşittir.
+Ve taban {DF line} taban {FE line}'ye eşittir.
+Böylece, {DCF angle} açısı {ECF angle} açısına eşittir [Prop. 1.8], ve bunlar bitişiktir.
+Ama bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde bitişik açıları birbirine eşit yaparsa, eşit açıların her biri bir dik açıdır [Def. 1.10].
+Böylece, {DCF angle} ve {FCE angle} açılarının her biri bir dik açıdır.
 
-Böylece, {CF line} düz çizgisi verilen {AB line} düz çizgisine verilen {C point} noktasından dik olarak çizilmiştir.
+Böylece, {CF line} düz çizgisi, verilen {AB line} düz çizgisine, üzerindeki verilen {C point} noktasından dik olarak çizilmiştir.
 (Yapılması gereken tam olarak budur.)

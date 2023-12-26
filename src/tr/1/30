@@ -1,16 +1,16 @@
-Aynı düz çizgiye paralel olan (düz çizgiler) de birbirine paraleldir.
+Aynı düz çizgiye paralel olan düz çizgiler de birbirine paraleldir.
 
-Her biri {AB line} ve {CD line} çizgilerinin {EF line} çizgisine paralel olduğunu varsayalım.
-{AB line} çizgisinin {CD line} çizgisine de paralel olduğunu söylüyorum.
+{AB line} ve {CD line} düz çizgilerinin her biri {EF line}'ye paralel olsun.
+Diyorum ki {AB line} de {CD line}'ye paraleldir.
 
-Çünkü düz çizgi {GK line} ({AB line}, {CD line} ve {EF line}) çizgilerinin üzerine düşsün.
+{GK line} düz çizgisi {AB line}, {CD line} ve {EF line}'nin üzerine düşsün.
 
-Ve {GK line} çizgisi paralel düz çizgiler {AB line} ve {EF line} üzerine düştüğünden, (açı) {AGK angle} açısı {GHF angle} açısına eşittir [Prop. 1.29].
-Yine, {GK line} çizgisi paralel düz çizgiler {EF line} ve {CD line} üzerine düştüğünden, (açı) {GHF angle} açısı {GKD angle} açısına eşittir [Prop. 1.29].
-Ama {AGK angle} açısının da {GHF angle} açısına eşit olduğu gösterildi.
-Böylece, {AGK angle} açısı da {GKD angle} açısına eşittir.
-Ve bunlar sıralı (açılar)dır.
-Böylece, {AB line} çizgisi {CD line} çizgisine paraleldir [Prop. 1.27].
+Ve {GK line} paralel düz çizgiler {AB line} ve {EF line}'nin üzerine düştüğü için, {AGK angle} açısı böylece {GHF angle}'ye eşittir [Prop. 1.29].
+Yine, {GK line} paralel düz çizgiler {EF line} ve {CD line}'nin üzerine düştüğü için, {GHF angle} açısı {GKD angle}'ye eşittir [Prop. 1.29].
+Ama {AGK angle}'nın da {GHF angle}'ye eşit olduğu gösterilmişti.
+Böylece, {AGK angle} da {GKD angle}'ye eşittir.
+Ve bunlar içters açılardır.
+Böylece, {AB line} {CD line}'ye paraleldir [Prop. 1.27].
 
-[Böylece, aynı düz çizgiye paralel olan (düz çizgiler) de birbirine paraleldir.]
-(Gösterilmesi gereken şey tam olarak budur.)
+[Böylece, aynı düz çizgiye paralel olan düz çizgiler de birbirine paraleldir.]
+(Gösterilmesi gereken tam olarak budur.)

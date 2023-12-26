@@ -1,19 +1,19 @@
-Verilen bir üçgene eşit, verilen bir doğrusal açıda bir paralelkenar yapmak.
+Verilen bir üçgene eşit olan ve verilen bir doğrusal açı içinde bir paralelkenar inşa etmek.
 
-{ABC polygon} verilen üçgen olsun ve {D given} verilen doğrusal açı olsun.
-Böylece, doğrusal açı {D given} içinde üçgen {ABC polygon} ile eşit bir paralelkenar yapmak gerekmektedir.
+{ABC polygon} verilen üçgen ve {D given} verilen doğrusal açı olsun.
+Böylece, doğrusal açı {D given} içinde {ABC polygon} üçgenine eşit bir paralelkenar inşa etmek gerekiyor.
 
-{BC line} {E point} noktasında yarıya bölünmüş olsun [Prop. 1.10] ve {AE line} birleştirilmiş olsun.
-Ve {E point} noktasında {EC line} düz çizgi üzerinde {D given} açısına eşit olan {CEF angle} açısı yapılmış olsun [Prop. 1.23].
-Ve {A point} üzerinden {EC line} ile paralel {AG line} çizilmiş olsun [Prop. 1.31] ve {C point} üzerinden {EF line} ile paralel {CG line} çizilmiş olsun [Prop. 1.31].
+{BC line} {E point} noktasında yarıya bölünsün [Prop. 1.10], ve {AE line} birleştirilsin.
+Ve {EC line} düz çizgisi üzerinde {E point} noktasında {D given} açısına eşit olan {CEF angle} açısı inşa edilsin [Prop. 1.23].
+Ve {A point}'dan {EC line}'ye paralel olarak {AG line} çizilsin [Prop. 1.31], ve {C point}'den {EF line}'ye paralel olarak {CG line} çizilsin [Prop. 1.31].
 Böylece, {FECG polygon} bir paralelkenardır.
-Ve {BE line} {EC line}'a eşit olduğundan, üçgen {ABE polygon} da üçgen {AEC polygon}'a eşittir.
-Çünkü onlar eşit tabanlar üzerinde, {BE line} ve {EC line}, ve aynı paraleller arasında, {BC line} ve {AG line} [Prop. 1.38].
-Böylece, üçgen {ABC polygon} üçgen {AEC polygon}'ın iki katıdır.
-Ve paralelkenar {FECG polygon} da üçgen {AEC polygon}'ın iki katıdır.
-Çünkü onun aynı tabanı var ({AEC polygon}) ve aynı paraleller arasında ({AEC polygon}) [Prop. 1.41].
-Böylece, paralelkenar {FECG polygon} üçgen {ABC polygon}'a eşittir.
-({FECG polygon}) ayrıca açı {CEF angle} verilen (açı) {D given}'a eşittir.
+Ve {BE line} {EC line}'ye eşit olduğu için {ABE polygon} üçgeni de {AEC polygon} üçgenine eşittir.
+Çünkü onlar eşit {BE line} ve {EC line} tabanları üzerinde ve aynı {BC line} ve {AG line} paralelleri arasındadır [Prop. 1.38].
+Böylece, {ABC polygon} üçgeni {AEC polygon} üçgeninin iki katıdır (alan).
+Ve {FECG polygon} paralelkenarı da {AEC polygon} üçgeninin iki katıdır (alan).
+Çünkü onunla aynı tabana sahip ve onunla aynı paraleller arasındadır [Prop. 1.41].
+Böylece, {FECG polygon} paralelkenarı {ABC polygon} üçgenine eşittir.
+Ayrıca, ({FECG polygon}'nin) {CEF angle} açısı verilen {D given} açısına eşittir.
 
-Böylece, verilen üçgen {ABC polygon}'a eşit olan paralelkenar {FECG polygon}, {CEF angle} açısında, {D given}'a eşit olarak yapılmıştır.
+Böylece, verilen {ABC polygon} üçgenine eşit olan {FECG polygon} paralelkenarı, {D given}'ye eşit olan {CEF angle} açısı içinde inşa edilmiştir.
 (Yapılması gereken tam olarak budur.)

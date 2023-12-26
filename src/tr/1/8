@@ -1,15 +1,17 @@
-Eğer iki üçgenin karşılık gelen iki kenarı eşitse ve aynı zamanda eşit tabanlara sahiplerse, eşit düz çizgiler tarafından kapsanan açılar da eşit olacaktır.
+Eğer iki üçgenin karşılık gelen iki kenarı eşitse ve aynı zamanda eşit tabanlara sahiplerse, eşit düz çizgiler tarafından sınırlanan açılar da eşit olacaktır.
 
-{ABC polygon} ve {DEF polygon} iki üçgen olsun ve iki kenar {AB line} ve {AC line} sırasıyla {DE line} ve {DF line} iki kenarına eşit olsun.
-(Yani) {AB line} {DE line}'ye ve {AC line} {DF line}'ye eşit.
+{ABC polygon} ve {DEF polygon} iki üçgen olsun ve {AB line} ve {AC line} kenarları sırasıyla {DE line} ve {DF line} kenarlarına eşit olsun.
+(Yani) {AB line} {DE line}'ye ve {AC line} {DF line}'ye eşit olsun.
 Ayrıca taban {BC line} taban {EF line}'ye eşit olsun.
-Diyorum ki açı {BAC angle} da açı {EDF angle}'ye eşittir.
+Diyorum ki {BAC angle} açısı da {EDF angle} açısına eşittir.
 
-Çünkü eğer {ABC polygon} üçgeni {DEF polygon} üçgenine uygulanırsa, {B point} noktası {E point} noktasına ve {BC line} çizgisi {EF line}'ye yerleştirildiğinde, {C point} noktası da {EF line}'ye eşit olduğu için {F point}'yle örtüşecektir.
-Böylece {BC line}'nin {EF line}'yle örtüşmesi nedeniyle, {BA line} ve {CA line} kenarları da sırasıyla {ED line} ve {DF line}'yle örtüşecektir.
-Çünkü eğer taban {BC line} taban {EF line}'yle örtüşüyorsa ama kenarlar {AB line} ve {AC line} sırasıyla {ED line} ve {DF line}'yle örtüşmüyorsa, fakat {EG line} ve {GF line}'la gibi kaçıyorsa, o zaman aynı düz çizgi üzerine iki düz çizgiyi, sırasıyla iki (verilen) düz çizgiye eşit olarak ve düz çizginin aynı tarafındaki farklı bir noktada (buluşarak) ama aynı uçları olan (düz çizgiler) inşa etmiş oluruz. Fakat (böyle düz çizgiler) inşa edilemez [Prop. 1.7].
-Böylece, taban {BC line}'nin taban {EF line}'ye uygulanmasıyla, kenarlar {BA line} ve {AC line} sırasıyla {ED line} ve {DF line}'yle örtüşemez. Böylece, onlar örtüşeceklerdir.
-Bu yüzden açı {BAC angle} da açı {EDF angle}'yle örtüşecek ve onlar eşit olacaklar [C.N. 4].
+Çünkü eğer {ABC polygon} üçgeni {DEF polygon} üçgenine uygulanırsa, {B point} noktası {E point} noktasının üzerine ve {BC line} düz çizgisi {EF line}'nin üzerine yerleştirilirse, {C point} noktası da {BC line} {EF line}'ye eşit olduğu için {F point} noktası ile örtüşecektir.
+Yani {BC line} {EF line}'yle örtüştüğü için, {BA line} ve {CA line} kenarları da sırasıyla {ED line} ve {DF line}'yle örtüşecektir.
+Çünkü eğer taban {BC line} taban {EF line}'yle örtüşüyor ama kenarlar {AB line} ve {AC line} sırasıyla {ED line} ve {DF line}'yle örtüşmüyor, ama {EG line} ve {GF line} gibi kaçırıyorsa, o zaman aynı düz çizgi üzerine, verilen iki düz çizgiye sırasıyla eşit olan iki başka düz çizgi inşa etmiş olacağız ve bunlar aynı tarafta farklı bir noktada kesişecek şekilde, ancak aynı uçlara sahip olacak.
+Ama (böyle düz çizgiler) inşa edilemez [Prop. 1.7].
+Böylece, taban {BC line} taban {EF line}'ye uygulandığında, kenarlar {BA line} ve {AC line} sırasıyla {ED line} ve {DF line}'yle örtüşmez olamaz.
+Böylece, örtüşeceklerdir.
+Yani {BAC angle} açısı da {EDF angle} açısıyla örtüşecek ve eşit olacaklardır [C.N. 4].
 
-Böylece, eğer iki üçgenin karşılık gelen iki kenarı eşitse ve eşit tabanlara sahiplerse, eşit düz çizgiler tarafından kapsanan açılar da eşit olacaktır.
-(Gösterilmesi gereken şey tam olarak) budur.
+Böylece, eğer iki üçgenin karşılık gelen iki kenarı eşitse ve eşit tabanlara sahipse, eşit düz çizgiler tarafından sınırlanan açılar da eşit olacaktır.
+(Gösterilmesi gereken tam olarak budur.)

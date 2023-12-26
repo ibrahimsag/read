@@ -1,19 +1,19 @@
 Eşit tabanlar üzerinde ve aynı paraleller arasında olan üçgenler birbirine eşittir.
 
-{ABC polygon} ve {DEF polygon} üçgenleri, eşit tabanlar {BC line} ve {EF line} üzerinde ve aynı paraleller {BF line} ve {AD line} arasında olsun.
-Üçgen {ABC polygon}'un üçgen {DEF polygon}'a eşit olduğunu söylüyorum.
+{ABC polygon} ve {DEF polygon} üçgenleri eşit {BC line} ve {EF line} tabanları üzerinde ve aynı {BF line} ve {AD line} paralelleri arasında olsun.
+Diyorum ki {ABC polygon} üçgeni {DEF polygon} üçgenine eşittir.
 
-Çünkü {AD line} her yönde {G point} ve {H point}'e kadar uzatılsın,
-ve {B point} üzerinden {CA line}'a paralel olarak {BG line} çizilsin [Prop. 1.31], ve {F point} üzerinden {DE line}'a paralel olarak {FH line} çizilsin [Prop. 1.31].
-Böylece, {GBCA polygon} ve {DEFH polygon} her biri paralelkenar olur.
-Ve {GBCA polygon}, {DEFH polygon}'a eşittir.
-Çünkü onlar eşit tabanlar {BC line} ve {EF line} üzerinde ve aynı paraleller {BF line} ve {GH line} arasındadır [Prop. 1.36].
-Ve üçgen {ABC polygon}, paralelkenar {GBCA polygon}'un yarısıdır.
-Çünkü köşegen {AB line}, sonuncuyu yarıya böler [Prop. 1.34].
-Ve üçgen {FED polygon}, paralelkenar {DEFH polygon}'un yarısıdır.
-Çünkü köşegen {DF line}, sonuncuyu yarıya böler.
+{AD line} her iki yönde {G point} ve {H point}'ye kadar uzatılsın,
+ve {B point}'den geçen {BG line} (düz çizgisi) {CA line}'ya paralel olarak çizilsin [Prop. 1.31], ve {F point}'den geçen {FH line} (düz çizgisi) {DE line}'ye paralel olarak çizilsin [Prop. 1.31].
+Böylece, {GBCA polygon} ve {DEFH polygon}'nin her biri paralelkenar olur.
+Ve {GBCA polygon} {DEFH polygon}'ye eşittir.
+Çünkü onlar eşit {BC line} ve {EF line} tabanları üzerinde ve aynı {BF line} ve {GH line} paralelleri arasındadır [Prop. 1.36].
+Ve {ABC polygon} üçgeni {GBCA polygon} paralelkenarının yarısıdır.
+Çünkü köşegen {AB line} onu yarıya böler [Prop. 1.34].
+Ve {FED polygon} üçgeni {DEFH polygon} paralelkenarının yarısıdır.
+Çünkü köşegen {DF line} onu yarıya böler.
 [Ve eşit şeylerin yarıları birbirine eşittir].
-Böylece, üçgen {ABC polygon}, üçgen {DEF polygon}'a eşittir.
+Böylece, {ABC polygon} üçgeni {DEF polygon} üçgenine eşittir.
 
 Böylece, eşit tabanlar üzerinde ve aynı paraleller arasında olan üçgenler birbirine eşittir.
-(Gösterilmesi gereken şey tam olarak budur.)
+(Gösterilmesi gereken tam olarak budur.)

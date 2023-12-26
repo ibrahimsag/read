@@ -7,7 +7,7 @@ Let {BC line} have been joined.
 And since {AB line} is parallel to {CD line}, and {BC line} has fallen across them, the alternate angles {ABC angle} and {BCD angle} are equal to one another [Prop. 1.29].
 And since {AB line} and {CD line} are equal, and {BC line} is common, the two (straight-lines) {AB line}, {BC line} are equal to the two (straight-lines) {DC line}, {CB line}.
 And the angle {ABC angle} is equal to the angle {BCD angle}.
-Thus, the base {AC line} is equal to the base {BD line}, and triangle {ABC polygon} is equal to triangle {ACD polygon}, and the remaining angles will be equal to the corresponding remaining angles subtended by the equal sides [Prop. 1.4].
+Thus, the base {AC line} is equal to the base {BD line}, and triangle {ABC polygon} is equal to triangle {DCB polygon}, and the remaining angles will be equal to the corresponding remaining angles subtended by the equal sides [Prop. 1.4].
 Thus, angle {ACB angle} is equal to {CBD angle}.
 Also, since the straight-line {BC line}, (in) falling across the two straight-lines {AC line} and {BD line}, has made the alternate angles ({ACB angle} and {CBD angle}) equal to one another, {AC line} is thus parallel to {BD line} [Prop. 1.27].
 And ({AC line}) was also shown (to be) equal to ({BD line}).

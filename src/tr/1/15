@@ -1,15 +1,15 @@
-Eğer iki düz çizgi birbirini keserse, dikey olarak karşıt açıları birbirine eşit yaparlar.
+Eğer iki düz çizgi birbirini kesiyorsa, dikey karşıt açıları birbirine eşit yaparlar.
 
-Öyleyse, iki düz çizgi {AB line} ve {CD line} birbirlerini {E point} noktasında keselim.
-{AEC angle} açısının {DEB angle} açısına eşit olduğunu ve {CEB angle} açısının da {AED angle} açısına eşit olduğunu söylüyorum.
+İki düz çizgi {AB line} ve {CD line} {E point} noktasında birbirini kessin.
+Diyorum ki {AEC angle} açısı {DEB angle}'ye eşittir ve {CEB angle} açısı {AED angle}'ye eşittir.
 
-Çünkü {AE line} düz çizgisi, {CEA angle} ve {AED angle} açılarını oluşturarak {CD line} düz çizgisi üzerine dikildiğinden, {CEA angle} ve {AED angle} açılarının toplamı iki dik açıya eşittir [Prop. 1.13].
-Yine, {DE line} düz çizgisi, {AED angle} ve {DEB angle} açılarını oluşturarak {AB line} düz çizgisi üzerine dikildiğinden, {AED angle} ve {DEB angle} açılarının toplamı iki dik açıya eşittir [Prop. 1.13].
-Ama {CEA angle} ve {AED angle} açılarının toplamının da iki dik açıya eşit olduğu gösterilmişti.
-Dolayısıyla, {CEA angle} ve {AED angle} açılarının toplamı, {AED angle} ve {DEB angle} açılarının toplamına eşittir [C.N. 1].
-Her ikisinden de {AED angle} açısı çıkarılsın.
-Dolayısıyla, kalan {CEA angle} açısı, kalan {BED angle} açısına eşittir [C.N. 3].
-Benzer şekilde, {CEB angle} ve {DEA angle} açılarının da eşit olduğu gösterilebilir.
+Çünkü düz çizgi {AE line} {CD line} düz çizgisi üzerine dikilerek {CEA angle} ve {AED angle} açılarını yapar, {CEA angle} ve {AED angle} açılarının (toplamı) iki dik açıya eşittir [Prop. 1.13].
+Yine, düz çizgi {DE line} {AB line} düz çizgisi üzerine dikilerek {AED angle} ve {DEB angle} açılarını yapar, {AED angle} ve {DEB angle} açılarının (toplamı) iki dik açıya eşittir [Prop. 1.13].
+Ama {CEA angle} ve {AED angle}'nin (toplamı) da iki dik açıya eşit olduğu gösterilmişti.
+Böylece, {CEA angle} ve {AED angle}'nin (toplamı) {AED angle} ve {DEB angle}'nin (toplamına) eşittir [C.N. 1].
+Her ikisinden de {AED angle} çıkarılsın.
+Böylece, kalan {CEA angle} kalan {BED angle}'ye eşittir [C.N. 3].
+Benzer şekilde, {CEB angle} ve {DEA angle}'nin de eşit olduğu gösterilebilir.
 
-Dolayısıyla, eğer iki düz çizgi birbirini keserse, dikey olarak karşıt açıları birbirine eşit yaparlar.
-(Gösterilmesi gereken tam da budur.)
+Böylece, eğer iki düz çizgi birbirini kesiyorsa, dikey karşıt açıları birbirine eşit yaparlar.
+(Gösterilmesi gereken tam olarak budur.)

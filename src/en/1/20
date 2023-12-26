@@ -4,7 +4,7 @@ For let {ABC polygon} be a triangle.
 I say that for triangle {ABC polygon} (the sum of any) two sides is greater than the remaining (side), (the sides) being taken up in any (possible way).
 (So), (the sum of) {BA line} and {AC line} (is greater) than {BC line}, (the sum of) {AB line} and {BC line} than {AC line}, and (the sum of) {BC line} and {CA line} than {AB line}.
 
-For let {BA line} have been drawn through to point {D point} (as {AD line}), and let {AD line} be made equal to {CA line} [Prop. 1.3], and let {DC line} have been joined.
+For let {BA line} have been drawn through to point {D point} (as {BD line}), and let {AD line} be made equal to {CA line} [Prop. 1.3], and let {DC line} have been joined.
 
 Therefore, since {DA line} is equal to {AC line}, the angle {ADC angle} is also equal to {ACD angle} [Prop. 1.5].
 Thus, {BCD angle} is greater than {ADC angle}.

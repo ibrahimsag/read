@@ -1,19 +1,19 @@
-Herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+Herhangi bir üçgen için, kenarlarından biri uzatıldığında, dış açı içteki ve karşıt olan iki açının toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
 
-{ABC polygon} bir üçgen olsun ve kenarlarından biri olan {BC line} {D point} noktasına kadar uzatılmış olsun.
-Dış açı {ACD angle} olanın, iki iç ve karşıt açı {CAB angle} ve {ABC angle} toplamına eşit olduğunu ve üçgenin üç iç açısı ---{ABC angle}, {BCA angle} ve {CAB angle}--- toplamının iki dik açıya eşit olduğunu söylüyorum.
+{ABC polygon} bir üçgen olsun ve kenarlarından biri olan {BC line} {D point} noktasına kadar uzatılsın.
+Diyorum ki dış açı {ACD angle} içteki ve karşıt olan iki açı {CAB angle} ve {ABC angle}'nin toplamına eşittir ve üçgenin üç iç açısı ---{ABC angle}, {BCA angle} ve {CAB angle}--- iki dik açıya eşittir.
 
-Çünkü {C point} noktasından geçen {CE line} çizgisi {AB line} düz çizgiye paralel olarak çizilmiştir [Prop. 1.31].
+{C point} noktasından {AB line} düz çizgisine paralel olarak {CE line} çizilsin [Prop. 1.31].
 
-Ve {AB line} {CE line} ile paralel olduğundan ve {AC line} onların üzerine düşmüştür, dönüşümlü açılar {BAC angle} ve {ACE angle} birbirine eşittir [Prop. 1.29].
-Yine, {AB line} {CE line} ile paralel olduğundan ve {BD line} düz çizgi onların üzerine düşmüştür, dış açı {ECD angle} iç ve karşıt açı {ABC angle} ile eşittir [Prop. 1.29].
-Ama {ACE angle} da {BAC angle} ile eşit olduğu gösterilmiştir.
-Böylece, tüm açı {ACD angle} iki iç ve karşıt açı {BAC angle} ve {ABC angle} toplamına eşittir.
+Ve {AB line} {CE line}'ye paralel olduğu için ve {AC line} onların üzerine düştüğü için, içters açılar {BAC angle} ve {ACE angle} birbirine eşittir [Prop. 1.29].
+Yine, {AB line} {CE line}'ye paralel olduğu için ve {BD line} düz çizgisi onların üzerine düştüğü için, dış açı {ECD angle} iç ve karşıt olan {ABC angle} açısına eşittir [Prop. 1.29].
+Ama {ACE angle}'nin de {BAC angle}'ye eşit olduğu gösterilmişti.
+Böylece, tüm açı {ACD angle} içteki ve karşıt olan iki açı {BAC angle} ve {ABC angle}'nin toplamına eşittir.
 
-Her iki tarafa da {ACB angle} ekleyelim.
-Böylece, {ACD angle} ve {ACB angle} toplamı üç açının {ABC angle}, {BCA angle} ve {CAB angle} toplamına eşittir.
-Ama, {ACD angle} ve {ACB angle} toplamı iki dik açıya eşittir [Prop. 1.13].
-Böylece, {ACB angle}, {CBA angle} ve {CAB angle} toplamı da iki dik açıya eşittir.
+Her ikisine de {ACB angle} eklenmiş olsun.
+Böylece, {ACD angle} ve {ACB angle}'nin toplamı üç açının {ABC angle}, {BCA angle} ve {CAB angle}'nin toplamına eşittir.
+Ama, {ACD angle} ve {ACB angle}'nin toplamı iki dik açıya eşittir [Prop. 1.13].
+Böylece, {ACB angle}, {CBA angle} ve {CAB angle}'nin toplamı da iki dik açıya eşittir.
 
-Böylece, herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+Böylece, herhangi bir üçgen için, kenarlarından biri uzatıldığında, dış açı içteki ve karşıt olan iki açının toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
 (Gösterilmesi gereken tam olarak budur.)

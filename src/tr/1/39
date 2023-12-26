@@ -1,20 +1,20 @@
-Aynı tabanda ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
+Aynı taban üzerinde ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
 
-{ABC polygon} ve {DBC polygon} aynı taban {BC line} üzerinde ve aynı tarafta olan eşit üçgenler olsun.
-Onların aynı zamanda aynı paraleller arasında olduğunu söylüyorum.
+{ABC polygon} ve {DBC polygon} aynı {BC line} tabanı üzerinde ve aynı tarafta olan eşit üçgenler olsun.
+Diyorum ki onlar aynı zamanda aynı paraleller arasındadır.
 
-Çünkü {AD line} birleştirilmiş olsun.
-{AD line} ve {BC line}'ın paralel olduğunu söylüyorum.
+{AD line} birleştirilsin.
+Diyorum ki {AD line} ve {BC line} paraleldir.
 
-Çünkü, eğer değilse, {A point} noktasından geçen ve düz çizgi {BC line}'a paralel olan {AE line} çizilmiş olsun ve {EC line} birleştirilmiş olsun.
+Çünkü değilse, {A point} noktasından {BC line} düz çizgisine paralel olarak {AE line} çizilsin [Prop. 1.31], ve {EC line} birleştirilsin.
 Böylece, {ABC polygon} üçgeni {EBC polygon} üçgenine eşittir.
-Çünkü aynı taban üzerindedir, {BC line}, ve aynı paraleller arasındadır [Prop. 1.37].
-Ama {ABC polygon}, {DBC polygon}'a eşittir.
-Böylece, {DBC polygon} da {EBC polygon}'a eşittir, büyük olan küçük olana.
-Bu imkansız bir şeydir.
-Böylece, {AE line} {BC line}'a paralel değildir.
-Benzer şekilde, {AD line}'dan başka hiçbir (düz çizgi) de gösterebiliriz.
-Böylece, {AD line} {BC line}'a paraleldir.
+Çünkü onunla aynı {BC line} tabanı üzerinde ve aynı paraleller arasındadır [Prop. 1.37].
+Ama {ABC polygon} {DBC polygon}'ye eşittir.
+Böylece, {DBC polygon} de {EBC polygon}'ye eşittir, daha büyük olan daha küçük olana.
+Bu imkansızdır.
+Böylece, {AE line} {BC line}'ye paralel değildir.
+Benzer şekilde, {AD line}'den başka hiçbir (düz çizginin) de {BC line}'ye paralel olmadığını gösterebiliriz.
+Böylece, {AD line} {BC line}'ye paraleldir.
 
-Böylece, aynı tabanda ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
-(Gösterilmesi gereken şey) tam olarak budur.
+Böylece, aynı taban üzerinde ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
+(Gösterilmesi gereken tam olarak budur.)

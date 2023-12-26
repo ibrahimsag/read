@@ -1,6 +1,7 @@
 To describe a square on a given straight-line.
 
-Let {AB line} be the given straight-line. So it is required to describe a square on the straight-line {AB line}.
+Let {AB line} be the given straight-line.
+So it is required to describe a square on the straight-line {AB line}.
 
 Let {AC line} have been drawn at right-angles to the straight-line {AB line} from the point {A point} on it [Prop. 1.11], and let {AD line} have been made equal to {AB line} [Prop. 1.3].
 And let {DE line} have been drawn through point {D point} parallel to {AB line} [Prop. 1.31], and let {BE line} have been drawn through point {B point} parallel to {AD line} [Prop. 1.31].
@@ -18,5 +19,6 @@ Thus, each of the opposite angles {ABE angle} and {BED angle} (are) also right-a
 Thus, {ADEB polygon} is right-angled.
 And it was also shown (to be) equilateral.
 
-Thus, ({ADEB polygon}) is a square [Def. 1.22]. And it is described on the straight-line {AB line}.
+Thus, ({ADEB polygon}) is a square [Def. 1.22].
+And it is described on the straight-line {AB line}.
 (Which is) the very thing it was required to do.

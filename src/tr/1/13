@@ -1,20 +1,20 @@
-Eğer bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde açılar oluşturuyorsa, kesinlikle ya iki dik açı yapar ya da (açıların toplamı) iki dik açıya eşittir.
+Bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde açılar yaparsa, kesinlikle ya iki dik açı yapar ya da (toplamı) iki dik açıya eşit olan açılar yapar.
 
-Diyelim ki bir düz çizgi {AB line}, {CD line} düz çizgi üzerine dikilerek {CBA angle} ve {ABD angle} açılarını oluştursun.
-Söylüyorum ki {CBA angle} ve {ABD angle} açıları kesinlikle ya iki dik açıdır ya da (toplamı) iki dik açıya eşittir.
+Bir düz çizgi {AB line}, {CD line} düz çizgisi üzerine dikilerek {CBA angle} ve {ABD angle} açılarını yapsın.
+Diyorum ki {CBA angle} ve {ABD angle} açıları kesinlikle ya iki dik açıdır ya da (toplamı) iki dik açıya eşittir.
 
-Aslında, eğer {CBA angle} {ABD angle} ile eşitse, o zaman bunlar iki dik açıdır [Def. 1.10].
-Ama eğer değilse, {B point} noktasından {CD line} [düz çizgiye] dik olarak {BE line} çizilmiş olsun [Prop. 1.11].
+Aslında, eğer {CBA angle} {ABD angle}'ye eşitse, o zaman onlar iki dik açıdır [Def. 1.10].
+Ama değilse, {B point} noktasından {CD line} düz çizgisine dik olarak {BE line} çizilmiş olsun [Prop. 1.11].
 Böylece, {CBE angle} ve {EBD angle} iki dik açıdır.
-Ve {CBE angle} iki (açı) {CBA angle} ve {ABE angle} ile eşit olduğundan, her ikisine de {EBD angle} eklenmiş olsun.
-Böylece, (açıların toplamı) {CBE angle} ve {EBD angle} üç (açı) {CBA angle}, {ABE angle} ve {EBD angle} toplamına eşittir [C.N. 2].
-Yine, {DBA angle} iki (açı) {DBE angle} ve {EBA angle} ile eşit olduğundan, her ikisine de {ABC angle} eklenmiş olsun.
-Böylece, (açıların toplamı) {DBA angle} ve {ABC angle} üç (açı) {DBE angle}, {EBA angle} ve {ABC angle} toplamına eşittir [C.N. 2].
-Ama (açıların toplamı) {CBE angle} ve {EBD angle} da aynı üç (açı) toplamına eşit olduğu gösterilmişti.
+Ve {CBE angle} iki açı {CBA angle} ve {ABE angle}'ye eşit olduğu için, her ikisine de {EBD angle} eklenmiş olsun.
+Böylece, {CBE angle} ve {EBD angle} açılarının (toplamı) üç açının (toplamına) {CBA angle}, {ABE angle} ve {EBD angle} eşittir [C.N. 2].
+Yine, {DBA angle} iki açı {DBE angle} ve {EBA angle}'ye eşit olduğu için, her ikisine de {ABC angle} eklenmiş olsun.
+Böylece, {DBA angle} ve {ABC angle} açılarının (toplamı) üç açının (toplamına) {DBE angle}, {EBA angle} ve {ABC angle} eşittir [C.N. 2].
+Ama {CBE angle} ve {EBD angle}'nin (toplamı) aynı üç açının (toplamına) eşit olduğu da gösterilmişti.
 Ve aynı şeye eşit olan şeyler birbirine de eşittir [C.N. 1].
-Bu nedenle, (açıların toplamı) {CBE angle} ve {EBD angle} aynı zamanda (açıların toplamı) {DBA angle} ve {ABC angle} ile de eşittir.
-Ama, (açıların toplamı) {CBE angle} ve {EBD angle} iki dik açıdır.
-Böylece, (açıların toplamı) {ABD angle} ve {ABC angle} da iki dik açıya eşittir.
+Bu nedenle, {CBE angle} ve {EBD angle}'nin (toplamı) da {DBA angle} ve {ABC angle}'nin (toplamına) eşittir.
+Ama, {CBE angle} ve {EBD angle}'nin (toplamı) iki dik açıdır.
+Böylece, {ABD angle} ve {ABC angle}'nin (toplamı) da iki dik açıya eşittir.
 
-Böylece, eğer bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde açılar oluşturuyorsa, kesinlikle ya iki dik açı yapar ya da (açıların toplamı) iki dik açıya eşittir.
-(Gösterilmesi gereken şey tam olarak) budur.
+Böylece, bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde açılar yaparsa, kesinlikle ya iki dik açı yapar ya da (toplamı) iki dik açıya eşit olan açılar yapar.
+(Gösterilmesi gereken tam olarak budur.)

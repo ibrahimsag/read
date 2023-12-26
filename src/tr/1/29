@@ -1,26 +1,26 @@
-Paralel düz çizgiler üzerine düşen bir düz çizgi, sırayla gelen açıları birbirine eşit yapar, dış (açı) iç ve karşıt (açı) ile eşittir ve aynı taraftaki (açıların toplamı) iç (açılar) iki dik açıya eşittir.
+Bir düz çizgi, paralel düz çizgiler üzerine düşerse, içters açıları birbirine eşit yapar, dış iç ve karşıt açıya eşit yapar ve aynı taraftaki iç açıların toplamını iki dik açıya eşit yapar.
 
-Düz çizgi {EF line} paralel düz çizgiler {AB line} ve {CD line} üzerine düşsün.
-Sırayla gelen açılar {AGH angle} ve {GHD angle} eşit olduğunu, dış açı {EGB angle} iç ve karşıt (açı) {GHD angle} ile eşit olduğunu ve aynı taraftaki iç (açılar) toplamının {BGH angle} ve {GHD angle} iki dik açıya eşit olduğunu söylüyorum.
+{EF line} düz çizgisi, paralel düz çizgiler {AB line} ve {CD line} üzerine düşsün.
+Diyorum ki içters açılar {AGH angle} ve {GHD angle}'yi eşit yapar, dış açı {EGB angle}'yi iç ve karşıt açı {GHD angle}'ye eşit yapar ve aynı taraftaki iç açılar {BGH angle} ve {GHD angle}'nin toplamını iki dik açıya eşit yapar.
 
-Eğer {AGH angle} {GHD angle} ile eşit değilse, ikisinden biri daha büyüktür.
+Eğer {AGH angle} {GHD angle}'den farklıysa, ikisinden biri daha büyüktür.
 {AGH angle} daha büyük olsun.
 Her ikisine de {BGH angle} eklenmiş olsun.
-Böylece, {AGH angle} ve {BGH angle} toplamı {BGH angle} ve {GHD angle} toplamından daha büyüktür.
-Ancak, {AGH angle} ve {BGH angle} toplamı iki dik açıya eşittir [Prop. 1.13].
-Böylece, {BGH angle} ve {GHD angle} toplamı [ayrıca] iki dik açıdan daha azdır.
-Ancak (açıların toplamı) iki dik açıdan daha az olan (iç açılardan) sonsuza kadar üretilen (düz çizgiler) bir araya gelir [Post. 5].
-Böylece, {AB line} ve {CD line} sonsuza kadar üretildiğinde bir araya gelecektir.
-Ancak onlar bir araya gelmezler, çünkü başlangıçta birbirlerine paralel oldukları varsayılmıştır [Def. 1.23].
-Böylece, {AGH angle} {GHD angle} ile eşit değildir.
-Böylece, (o) eşittir.
-Ama, {AGH angle} {EGB angle} ile eşittir [Prop. 1.15].
-Ve böylece {EGB angle} de {GHD angle} ile eşittir.
+Böylece, {AGH angle} ve {BGH angle}'nin toplamı {BGH angle} ve {GHD angle}'nin toplamından daha büyüktür.
+Ama, {AGH angle} ve {BGH angle}'nin toplamı iki dik açıya eşittir [Prop. 1.13].
+Böylece, {BGH angle} ve {GHD angle}'nin toplamı da iki dik açıdan daha azdır.
+Ama toplamı iki dik açıdan daha az olan iç açılardan sonsuza kadar uzatılan düz çizgiler bir araya gelir [Post. 5].
+Böylece, {AB line} ve {CD line}, sonsuza kadar uzatıldığında bir araya gelecektir.
+Ama onlar bir araya gelmezler, çünkü onlar (başlangıçta) birbirine paralel varsayıldı [Def. 1.23].
+Böylece, {AGH angle} {GHD angle}'den farklı değildir.
+Böylece, eşittir.
+Ama, {AGH angle} {EGB angle}'ye eşittir [Prop. 1.15].
+Ve {EGB angle} de böylece {GHD angle}'ye eşittir.
 Her ikisine de {BGH angle} eklenmiş olsun.
-Böylece, {EGB angle} ve {BGH angle} toplamı {BGH angle} ve {GHD angle} toplamına eşittir.
+Böylece, {EGB angle} ve {BGH angle}'nin toplamı {BGH angle} ve {GHD angle}'nin toplamına eşittir.
 
-Ancak, {EGB angle} ve {BGH angle} toplamı iki dik açıya eşittir [Prop. 1.13].
-Böylece, {BGH angle} ve {GHD angle} toplamı da iki dik açıya eşittir.
+Ama, {EGB angle} ve {BGH angle}'nin toplamı iki dik açıya eşittir [Prop. 1.13].
+Böylece, {BGH angle} ve {GHD angle}'nin toplamı da iki dik açıya eşittir.
 
-Böylece, paralel düz çizgiler üzerine düşen bir düz çizgi, sırayla gelen açıları birbirine eşit yapar, dış (açı) iç ve karşıt (açı) ile eşittir ve aynı taraftaki iç (açılar) toplamı iki dik açıya eşittir.
+Böylece, bir düz çizgi, paralel düz çizgiler üzerine düşerse, içters açıları birbirine eşit yapar, dış açıyı iç ve karşıt açıya eşit yapar ve aynı taraftaki iç açıların toplamını iki dik açıya eşit yapar.
 (Gösterilmesi gereken tam olarak budur.)

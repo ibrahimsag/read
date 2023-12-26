@@ -1,13 +1,14 @@
-Aynı düz çizgi üzerinde, verilen iki düz çizgiye sırasıyla eşit olan iki başka düz çizgi, düz çizginin aynı tarafında farklı bir noktada kesişecek şekilde (ama verilen düz çizgilerle aynı uçlara sahip olarak) inşa edilemez.
+Aynı düz çizgi üzerinde, iki verilen düz çizgiye sırasıyla eşit olan iki başka düz çizgi, aynı tarafta farklı bir noktada kesişecek şekilde, ancak verilen düz çizgilerle aynı uçlara sahip olarak inşa edilemez.
 
-Çünkü, mümkün olsaydı, iki düz çizgi {AD line}, {DB line}, sırasıyla iki verilen düz çizgiye {AC line}, {CB line} eşit olarak aynı düz çizgi {AB line} üzerine, farklı noktalarda, {C point} ve {D point}, aynı tarafta ({AB line} üzerinde) ve aynı uçlara sahip olarak inşa edilmiş olsun.
-Böylece {CA line} ve {DA line} aynı uçlarda {A point} noktasında eşittir ve {CB line} ve {DB line} aynı uçlarda {B point} noktasında eşittir.
+Eğer mümkünse, iki düz çizgi {AD line}, {DB line}, sırasıyla iki verilen düz çizgiye {AC line}, {CB line} eşit olacak şekilde aynı düz çizgi {AB line} üzerinde, farklı noktalarda, {C point} ve {D point}, aynı tarafta ({AB line}'nin) ve aynı uçlara sahip olarak inşa edilmiş olsun.
+Yani {CA line} ve {DA line} aynı uçlarda {A point}'da eşittir ve {CB line} ve {DB line} aynı uçlarda {B point}'de eşittir.
 Ve {CD line} birleştirilmiş olsun [Post. 1].
 
-Bu nedenle, {AC line} {AD line}'a eşit olduğundan, açı {ACD angle} da açı {ADC angle}'a eşittir [Prop. 1.5].
+Bu nedenle, {AC line} {AD line}'ye eşit olduğu için {ACD angle} açısı da {ADC angle} açısına eşittir [Prop. 1.5].
 Böylece, {ADC angle} açısı {DCB angle} açısından daha büyüktür [C.N. 5].
-Yani, {CDB angle} açısı {DCB angle} açısından çok daha büyüktür [C.N. 5].
-Yine de, {CB line} {DB line}'a eşit olduğundan, açı {CDB angle} da açı {DCB angle}'a eşittir [Prop. 1.5]. Ama önceki (açı {CDB angle})'ın aynı zamanda sonraki açıdan ({DCB angle}) çok daha büyük olduğu gösterildi. Bu imkansız bir şeydir.
+Böylece, {CDB angle} açısı {DCB angle} açısından çok daha büyüktür [C.N. 5].
+Yine, {CB line} {DB line}'ye eşit olduğu için {CDB angle} açısı da {DCB angle} açısına eşittir [Prop. 1.5]. Ama önceki açının ({CDB angle}) da sonraki açıdan ({DCB angle}) çok daha büyük olduğu gösterilmişti.
+Bu imkansızdır.
 
-Böylece, aynı düz çizgi üzerinde, iki verilen düz çizgiye sırasıyla eşit olan iki başka düz çizgi, düz çizginin aynı tarafında farklı bir noktada kesişecek şekilde (ama verilen düz çizgilerle aynı uçlara sahip olarak) inşa edilemez.
-(Gösterilmesi gereken şey tam olarak budur.)
+Böylece, aynı düz çizgi üzerinde, iki verilen düz çizgiye sırasıyla eşit olan iki başka düz çizgi, aynı tarafta farklı bir noktada kesişecek şekilde, ancak verilen düz çizgilerle aynı uçlara sahip olarak inşa edilemez.
+(Gösterilmesi gereken tam olarak budur.)

@@ -1,19 +1,19 @@
-Eğer iki düz çizgi, aynı tarafta yatmayan, bir düz çizgide aynı noktada iki dik açıya eşit olan bitişik açılar yaparlarsa, bu iki düz çizgi birbirine karşı düz olacaklardır.
+Aynı tarafta olmayan iki düz çizgi, bir düz çizgi üzerinde aynı noktada (toplamı) iki dik açıya eşit bitişik açılar yaparlarsa, iki düz çizgi birbirine düz bir şekilde devam eder.
 
-İki düz çizgi {BC line} ve {BD line}, aynı tarafta yatmayan, bir düz çizgide aynı nokta {B point} üzerinde iki dik açıya eşit olan bitişik açılar {ABC angle} ve {ABD angle} yapsınlar.
-{BD line}'nin {CB line}'a karşı düz olduğunu söylüyorum.
+Aynı tarafta olmayan iki düz çizgi {BC line} ve {BD line}, bir düz çizgi üzerinde aynı {B point} noktasında (toplamı) iki dik açıya eşit bitişik açılar {ABC angle} ve {ABD angle} yapsınlar.
+Diyorum ki {BD line} {CB line}'ye düz bir şekilde devam eder.
 
-Eğer {BD line}, {BC line}'a karşı düz değilse, o zaman {BE line}'ın {CB line}'a karşı düz olduğunu varsayalım.
+Eğer {BD line} {BC line}'ye düz bir şekilde devam etmiyorsa, o zaman {BE line} {CB line}'ye düz bir şekilde devam etsin.
 
-Bu nedenle, düz çizgi {AB line} düz çizgi {CBE line}'ın üzerine dikildiği için, açıların {ABC angle} ve {ABE angle} toplamı iki dik açıya eşittir [Prop. 1.13].
-Ama {ABC angle} ve {ABD angle}'ın toplamı da iki dik açıya eşittir.
-Böylece, {CBA angle} ve {ABE angle}'ın toplamı {CBA angle} ve {ABD angle}'ın toplamına eşittir [C.N. 1].
-Her iki taraftan da {CBA angle}'ı çıkaralım.
-Böylece, kalan {ABE angle} kalan {ABD angle}'a eşittir [C.N. 3], daha küçük olan daha büyüğe eşit olmuştur.
-Bu imkansız bir şeydir.
-Dolayısıyla, {BE line} {CB line}'a karşı düz değildir.
-Benzer şekilde, {BD line}'dan başka hiçbir (düz çizgi) de öyle değildir.
-Böylece, {CB line} {BD line}'a karşı düzdür.
+Bu nedenle, düz çizgi {AB line} {CBE given} düz çizgisi üzerine dikildiği için, {ABC angle} ve {ABE angle} açılarının (toplamı) iki dik açıya eşittir [Prop. 1.13].
+Ama {ABC angle} ve {ABD angle}'nin (toplamı) da iki dik açıya eşittir.
+Böylece, {CBA angle} ve {ABE angle} açılarının (toplamı) {CBA angle} ve {ABD angle} açılarının (toplamına) eşittir [C.N. 1].
+Her ikisinden de {CBA angle} çıkarılsın.
+Böylece, kalan {ABE angle} kalan {ABD angle}'ye eşittir [C.N. 3], küçük olan büyük olana.
+Bu imkansızdır.
+Böylece, {BE line} {CB line}'ye düz bir şekilde devam etmez.
+Benzer şekilde, {BD line}'den başka hiçbir (düz çizginin) de {CB line}'ye düz olmadığını gösterebiliriz.
+Böylece, {CB line} {BD line}'ye düz bir şekilde devam eder.
 
-Böylece, eğer iki düz çizgi, aynı tarafta yatmayan, bir düz çizgide aynı noktada iki dik açıya eşit olan bitişik açılar yaparlarsa, bu iki düz çizgi birbirine karşı düz olacaklardır.
+Böylece, aynı tarafta olmayan iki düz çizgi, bir düz çizgi üzerinde aynı noktada (toplamı) iki dik açıya eşit bitişik açılar yaparlarsa, iki düz çizgi birbirine düz bir şekilde devam eder.
 (Gösterilmesi gereken tam olarak budur.)

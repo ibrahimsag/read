@@ -443,6 +443,9 @@ function()
       C: [5],
       D: [5],
       E: [1]
+    },
+    given: {
+      CBE: [rg.line(C, B), rg.line(B,E)],
     }
   }
 },
@@ -877,7 +880,11 @@ function()
       E: [1.8],
       F: [5.3],
       G: [0],
-    }
+    },
+    given: {
+      EFG: [...rg.angle(E, F, D), rg.line(D, G)],
+      GEF: [rg.polygon([G, B, E, F, D])],
+    },
   }
 },
 

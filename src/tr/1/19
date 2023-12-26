@@ -1,19 +1,19 @@
-Herhangi bir üçgende, daha büyük açı daha büyük kenar tarafından karşılanır.
+Herhangi bir üçgen için, daha büyük açı daha büyük kenar tarafından karşılanır.
 
-{ABC polygon} daha büyük {ABC angle} açısına sahip bir üçgen olsun.
-Söylüyorum ki, {AC line} kenarı da {AB line} kenarından daha büyüktür.
+{ABC polygon} üçgeni, {ABC angle} açısının {BCA angle} açısından daha büyük olduğu bir üçgen olsun.
+Diyorum ki {AC line} kenarı da {AB line} kenarından daha büyüktür.
 
-Çünkü değilse, {AC line} kesinlikle ya {AB line}'a eşit ya da ondan daha küçüktür.
-Aslında, {AC line} {AB line}'a eşit değildir.
+Eğer değilse, {AC line} kesinlikle ya {AB line}'ye eşit ya da ondan daha küçüktür.
+Aslında, {AC line} {AB line}'ye eşit değildir.
 Çünkü o zaman {ABC angle} açısı da {ACB angle} açısına eşit olurdu [Prop. 1.5].
 Ama değil.
-Dolayısıyla, {AC line} {AB line}'a eşit değildir.
-Ayrıca, {AC line} {AB line} 'dan daha küçük değildir.
+Böylece, {AC line} {AB line}'ye eşit değildir.
+Gerçekten de, {AC line} {AB line}'den daha küçük değildir.
 Çünkü o zaman {ABC angle} açısı da {ACB angle} açısından daha küçük olurdu [Prop. 1.18].
 Ama değil.
-Dolayısıyla, {AC line} {AB line} 'dan daha küçük değildir.
-Ama ({AC line})'nın da {AB line}'a eşit olmadığı gösterildi.
-Dolayısıyla, {AC line} {AB line} 'dan daha büyüktür.
+Böylece, {AC line} {AB line}'den daha küçük değildir.
+Ama ({AC line})'nin {AB line}'ye eşit olmadığı da gösterilmişti.
+Böylece, {AC line} {AB line}'den daha büyüktür.
 
-Dolayısıyla, herhangi bir üçgende, daha büyük açı daha büyük kenar tarafından karşılanır.
-(Gösterilmesi gereken tam da buydu.)
+Böylece, herhangi bir üçgen için, daha büyük açı daha büyük kenar tarafından karşılanır.
+(Gösterilmesi gereken tam olarak budur.)

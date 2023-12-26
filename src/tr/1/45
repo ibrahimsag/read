@@ -1,28 +1,28 @@
-Verilen bir doğrusal şekle eşit ve verilen bir doğrusal açıda bir paralelkenar oluşturmak.
+Verilen bir doğrusal şekle eşit olan ve verilen bir doğrusal açı içinde bir paralelkenar inşa etmek.
 
-Verilen doğrusal şekil {ABCD polygon} ve verilen doğrusal açı {E given} olsun.
-Dolayısıyla, verilen açı {E given} içinde doğrusal şekil {ABCD polygon} 'a eşit bir paralelkenar oluşturmak gerekmektedir.
+{ABCD polygon} verilen doğrusal şekil ve {E given} verilen doğrusal açı olsun.
+Böylece, verilen açı {E given} içinde doğrusal şekil {ABCD polygon}'ye eşit bir paralelkenar inşa etmek gerekiyor.
 
-{DB line} çizilsin ve {E given} 'a eşit olan {HKF angle} açısında, {ABD polygon} üçgenine eşit olan paralelkenar {FH polygon} oluşturulsun [Prop. 1.42].
-Ve {DBC polygon} üçgenine eşit olan paralelkenar {GM polygon}, {E given} 'a eşit olan {GHM angle} açısında {GH line} düz çizgisine uygulansın [Prop. 1.44].
-Ve {E given} açısı, {HKF angle} ve {GHM angle} açılarına eşit olduğundan, {HKF angle} açısı da {GHM angle} açısına eşittir.
-Her ikisine de {KHG angle} açısı eklenmiştir.
-Dolayısıyla, {FKH angle} ve {KHG angle} toplamı, {KHG angle} ve {GHM angle} toplamına eşittir.
-Ama, {FKH angle} ve {KHG angle} toplamı iki dik açıya eşittir [Prop. 1.29].
-Dolayısıyla, {KHG angle} ve {GHM angle} toplamı da iki dik açıya eşittir.
-Yani, aynı tarafta olmayan iki düz çizgi, {KH line} ve {HM line}, {H point} noktasındaki bazı düz çizgi {GH line} üzerinde, bitişik açıların toplamını iki dik açıya eşit yapar.
-Dolayısıyla, {KH line} çizgisi, {HM line} çizgisine dik olarak durmaktadır [Prop. 1.14].
-Ve {HG line} düz çizgisi, paralel çizgiler {KM line} ve {FG line} üzerine düştüğünden, dönüşümlü açılar {MHG angle} ve {HGF angle} birbirine eşittir [Prop. 1.29].
-Her ikisine de {HGL angle} eklenmiştir.
-Dolayısıyla, {MHG angle} ve {HGL angle} toplamı, {HGF angle} ve {HGL angle} toplamına eşittir.
-Ama, {MHG angle} ve {HGL angle} toplamı iki dik açıya eşittir [Prop. 1.29].
-Dolayısıyla, {HGF angle} ve {HGL angle} toplamı da iki dik açıya eşittir.
-Dolayısıyla, {FG line} çizgisi, {GL line} çizgisine dik olarak durmaktadır [Prop. 1.14].
-Ve {FK line} çizgisi, {HG line} çizgisine eşit ve paralel olduğundan [Prop. 1.34], aynı zamanda {HG line} çizgisi de {ML line} çizgisine eşit ve paraleldir [Prop. 1.34], dolayısıyla {KF line} çizgisi de {ML line} çizgisine eşit ve paraleldir [Prop. 1.30].
+{DB line} birleştirilsin ve {ABD polygon} üçgenine eşit olan {FH polygon} paralelkenarı, {E given}'ye eşit olan {HKF angle} açısı içinde inşa edilsin [Prop. 1.42].
+Ve {DBC polygon} üçgenine eşit olan {GM polygon} paralelkenarı, {E given}'ye eşit olan {GHM angle} açısı içinde {GH line} düz çizgisine uygulansın [Prop. 1.44].
+Ve {E given} açısı hem {HKF angle}'ye hem de {GHM angle}'ye eşit olduğu için, {HKF angle} de böylece {GHM angle}'ye eşittir.
+Her ikisine de {KHG angle} eklenmiş olsun.
+Böylece, {FKH angle} ve {KHG angle}'nin toplamı {KHG angle} ve {GHM angle}'nin toplamına eşittir.
+Ama, {FKH angle} ve {KHG angle}'nin toplamı iki dik açıya eşittir [Prop. 1.29].
+Böylece, {KHG angle} ve {GHM angle}'nin toplamı da iki dik açıya eşittir.
+Yani iki düz çizgi, {KH line} ve {HM line}, aynı tarafta olmayan bir şekilde, {H point} noktasında {GH line} düz çizgisi üzerinde bitişik açıların toplamını iki dik açıya eşit yapar.
+Böylece, {KH line} {HM line}'ye düz bir şekilde devam eder [Prop. 1.14].
+Ve {HG line} düz çizgisi paralel çizgiler {KM line} ve {FG line}'nin üzerine düştüğü için, içters açılar {MHG angle} ve {HGF angle} birbirine eşittir [Prop. 1.29].
+Her ikisine de {HGL angle} eklenmiş olsun.
+Böylece, {MHG angle} ve {HGL angle}'nin toplamı {HGF angle} ve {HGL angle}'nin toplamına eşittir.
+Ama, {MHG angle} ve {HGL angle}'nin toplamı iki dik açıya eşittir [Prop. 1.29].
+Böylece, {HGF angle} ve {HGL angle}'nin toplamı da iki dik açıya eşittir.
+Böylece, {FG line} {GL line}'ye düz bir şekilde devam eder [Prop. 1.14].
+Ve {FK line} {HG line}'ye eşit ve paraleldir [Prop. 1.34], ayrıca {HG line} de {ML line}'ye eşittir [Prop. 1.34], böylece {KF line} de {ML line}'ye eşit ve paraleldir [Prop. 1.30].
 Ve düz çizgiler {KM line} ve {FL line} onları birleştirir.
-Dolayısıyla, {KM line} ve {FL line} çizgileri de eşit ve paraleldir [Prop. 1.33].
-Dolayısıyla, {KFLM polygon} bir paralelkenardır.
-Ve üçgen {ABD polygon} paralelkenar {FH polygon} 'a eşit olduğundan ve {DBC polygon} da {GM polygon} 'a eşit olduğundan, tüm doğrusal şekil {ABCD polygon} dolayısıyla tüm paralelkenar {KFLM polygon} 'a eşittir.
+Böylece, {KM line} ve {FL line} de eşit ve paraleldir [Prop. 1.33].
+Böylece, {KFLM polygon} bir paralelkenardır.
+Ve {ABD polygon} üçgeni {FH polygon} paralelkenarına eşit olduğu ve {DBC polygon} {GM polygon}'ye eşit olduğu için, tüm {ABCD polygon} doğrusal şekli de tüm {KFLM polygon} paralelkenarına eşittir.
 
-Dolayısıyla, verilen doğrusal şekil {ABCD polygon} 'a eşit olan paralelkenar {KFLM polygon}, verilen (açı) {E given} 'a eşit olan {FKM angle} açısında oluşturulmuştur.
-(Yapılması gereken tam olarak bu idi.)
+Böylece, verilen doğrusal şekil {ABCD polygon}'ye eşit olan {KFLM polygon} paralelkenarı, verilen {E given}'ye eşit olan {FKM angle} açısı içinde inşa edilmiştir.
+(Yapılması gereken tam olarak budur.)

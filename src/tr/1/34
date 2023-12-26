@@ -1,24 +1,24 @@
 Paralelkenar şekillerde, karşılıklı kenarlar ve açılar birbirine eşittir ve bir köşegen onları yarıya böler.
 
 {ACDB polygon} bir paralelkenar şekli ve {BC line} onun köşegeni olsun.
-Paralelkenar {ACDB polygon} için, karşılıklı kenarların ve açıların birbirine eşit olduğunu ve köşegen {BC line} onu yarıya böldüğünü söylüyorum.
+Diyorum ki {ACDB polygon} paralelkenarı için, karşılıklı kenarlar ve açılar birbirine eşittir ve köşegen {BC line} onu yarıya böler.
 
-Çünkü {AB line} {CD line}'a paralel olduğu ve düz çizgi {BC line} onların üzerine düştüğü için, sırayla açılar {ABC angle} ve {BCD angle} birbirine eşittir [Prop. 1.29].
-Yine, {AC line} {BD line}'a paralel olduğu ve {BC line} onların üzerine düştüğü için, sırayla açılar {ACB angle} ve {CBD angle} birbirine eşittir [Prop. 1.29].
-Böylece, {ABC polygon} ve {BCD polygon} iki üçgen, sırasıyla iki açıları {ABC angle} ve {BCA angle}, {BCD angle} ve {CBD angle} eşit ve bir kenarları bir kenara eşit—eşit açılara ortak olan (yani) {BC line}.
-Böylece, kalan kenarlar da karşılık gelen kalan (kenarlara) eşit olacak ve kalan açı (kalan) açıya eşit olacak [Prop. 1.26].
-Böylece, kenar {AB line} {CD line}'a eşit ve {AC line} {BD line}'a eşit.
-Ayrıca, açı {BAC angle} {CDB angle}'a eşit.
-Ve açı {ABC angle} {BCD angle}'a eşit olduğu ve {CBD angle} {ACB angle}'a eşit olduğu için, bütün (açı) {ABD angle} bütün (açı) {ACD angle}'a eşittir.
-Ve {BAC angle} da (eşit olduğu) {CDB angle} olarak gösterilmişti.
+Çünkü {AB line} {CD line}'ye paralel olduğu ve {BC line} düz çizgisi onların üzerine düştüğü için, içters açılar {ABC angle} ve {BCD angle} birbirine eşittir [Prop. 1.29].
+Yine, {AC line} {BD line}'ye paralel olduğu ve {BC line} onların üzerine düştüğü için, içters açılar {ACB angle} ve {CBD angle} birbirine eşittir [Prop. 1.29].
+Yani {ABC polygon} ve {BCD polygon} iki üçgen, iki açı {ABC angle} ve {BCA angle} sırasıyla iki açı {BCD angle} ve {CBD angle}'ye eşit ve bir kenar bir kenara eşit —eşit açılara ortak olan, (yani) {BC line}.
+Böylece, aynı zamanda kalan kenarlar karşılık gelen kalan kenarlara eşit ve kalan açı kalan açıya eşit olacak [Prop. 1.26].
+Böylece, kenar {AB line} {CD line}'ye eşit ve {AC line} {BD line}'ye eşittir.
+Ayrıca, açı {BAC angle} {CDB angle}'ye eşittir.
+Ve {ABC angle} açısı {BCD angle}'ye eşit olduğu ve {CBD angle} {ACB angle}'ye eşit olduğu için, tüm açı {ABD angle} böylece tüm açı {ACD angle}'ye eşittir.
+Ve {BAC angle}'nin de {CDB angle}'ye eşit olduğu gösterilmişti.
 
 Böylece, paralelkenar şekillerde, karşılıklı kenarlar ve açılar birbirine eşittir.
 
-Ve, ayrıca bir köşegenin onları yarıya böldüğünü de söylüyorum.
-Çünkü {AB line} {CD line}'a eşit olduğu ve {BC line} (ortak) olduğu için, iki (düz çizgi) {AB line}, {BC line} iki (düz çizgi) {DC line}, {CB line}'a sırasıyla eşittir.
-Ve açı {ABC angle} açı {BCD angle}'a eşittir.
-Böylece, taban {AC line} da {DB line}'a eşittir [Prop. 1.4].
-Ayrıca, üçgen {ABC polygon} üçgen {BCD polygon}'a eşittir [Prop. 1.4].
+Ve ayrıca diyorum ki bir köşegen onları yarıya böler.
+Çünkü {AB line} {CD line}'ye eşit olduğu ve {BC line} ortak olduğu için, iki düz çizgi {AB line}, {BC line} sırasıyla iki düz çizgi {DC line}, {CB line}'ye eşittir.
+Ve {ABC angle} açısı {BCD angle}'ye eşittir.
+Böylece, taban {AC line} de {DB line}'ye eşittir [Prop. 1.4].
+Ayrıca, üçgen {ABC polygon} üçgen {BCD polygon}'ye eşittir [Prop. 1.4].
 
-Böylece, köşegen {BC line} paralelkenarı {ACDB polygon}'ı yarıya böler.
+Böylece, köşegen {BC line} paralelkenar {ACDB polygon}'yi yarıya böler.
 (Gösterilmesi gereken tam olarak budur.)

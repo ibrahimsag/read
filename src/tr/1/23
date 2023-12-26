@@ -1,12 +1,12 @@
-Verilen bir düz çizgi üzerinde, (verilen) bir noktada verilen bir doğrusal açıya eşit bir doğrusal açı inşa etmek.
+Verilen bir düz çizgi üzerinde verilen bir noktada verilen bir doğrusal açıya eşit bir doğrusal açı inşa etmek.
 
 {AB line} verilen düz çizgi, {A point} üzerindeki (verilen) nokta ve {DCE angle} verilen doğrusal açı olsun.
-Böylece, verilen düz çizgi {AB line} üzerindeki (verilen) nokta {A point}’te verilen doğrusal açı {DCE angle}’ye eşit bir doğrusal açı inşa etmek gerekmektedir.
+Böylece, verilen düz çizgi {AB line} üzerindeki (verilen) nokta {A point}'da verilen doğrusal açı {DCE angle}'ye eşit bir doğrusal açı inşa etmek gerekiyor.
 
-Noktalar {D point} ve {E point}’in her biri (düz çizgiler) {CD line} ve {CE line} üzerinde bir yerde alındığını ve {DE line}’ın birleştirildiğini varsayalım.
-Ve {AFG polygon} üçgeni, {CD line}, {DE line} ve {CE line}’a eşit üç düz çizgiden oluşturulsun, öyle ki {CD line} {AF line}’a eşit, {CE line} {AG line}’a eşit ve ayrıca {DE line} {FG line}’a eşit olsun [Prop. 1.22].
+{CD line} ve {CE line} (düz çizgileri) üzerinde her birinde bir yerde {D point} ve {E point} noktaları alınsın ve {DE line} birleştirilsin.
+Ve {CD line}, {DE line} ve {CE line}'ye eşit olan üç düz çizgiden {AFG polygon} üçgeni inşa edilsin, öyle ki {CD line} {AF line}'ye, {CE line} {AG line}'ye ve ayrıca {DE line} {FG line}'ye eşit olsun [Prop. 1.22].
 
-Bu nedenle, iki düz çizgi {DC line}, {CE line} sırasıyla iki düz çizgi {FA line}, {AG line}’a eşit olduğu ve taban {DE line} taban {FG line}’a eşit olduğu için, açı {DCE angle} böylece açı {FAG angle}’ye eşittir [Prop. 1.8].
+Bu nedenle, iki düz çizgi {DC line}, {CE line} sırasıyla iki düz çizgi {FA line}, {AG line}'ye eşit olduğu ve taban {DE line} taban {FG line}'ye eşit olduğu için, {DCE angle} açısı böylece {FAG angle} açısına eşittir [Prop. 1.8].
 
-Böylece, verilen doğrusal açı {DCE angle}’ye eşit olan doğrusal açı {FAG angle}, verilen düz çizgi {AB line} üzerindeki (verilen) nokta {A point}’te inşa edilmiştir.
-(Yapılması gereken tam da budur.)
+Böylece, verilen doğrusal açı {DCE angle}'ye eşit olan doğrusal açı {FAG angle}, verilen düz çizgi {AB line} üzerindeki (verilen) nokta {A point}'da inşa edilmiştir.
+(Yapılması gereken tam olarak budur.)

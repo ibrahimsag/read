@@ -1,20 +1,20 @@
 Eşit tabanlar üzerinde ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
 
-{ABC polygon} ve {CDE polygon} eşit üçgenler olsun, eşit tabanlar {BC line} ve {CE line} üzerinde (sırasıyla) ve aynı tarafta.
-Onların aynı zamanda aynı paraleller arasında olduğunu söylüyorum.
+{ABC polygon} ve {CDE polygon} eşit {BC line} ve {CE line} tabanları üzerinde (sırasıyla) ve aynı tarafta olan eşit üçgenler olsun.
+Diyorum ki onlar aynı zamanda aynı paraleller arasındadır.
 
-Çünkü {AD line} birleştirilmiş olsun.
-{AD line}'ın {BE line}'a paralel olduğunu söylüyorum.
+{AD line} birleştirilsin.
+Diyorum ki {AD line} {BE line}'ye paraleldir.
 
-Eğer değilse, {A point} üzerinden {BE line}'a paralel olarak {AF line} çizilmiş olsun [Prop. 1.31], ve {FE line} birleştirilmiş olsun.
+Eğer değilse, {A point}'dan {BE line}'ye paralel olarak {AF line} çizilsin [Prop. 1.31], ve {FE line} birleştirilsin.
 Böylece, {ABC polygon} üçgeni {FCE polygon} üçgenine eşittir.
-Çünkü onlar eşit tabanlar, {BC line} ve {CE line}, ve aynı paraleller arasında, {BE line} ve {AF line} [Prop. 1.38].
-Ama, {ABC polygon} üçgeni [üçgen] {DCE polygon}'e eşittir.
+Çünkü onlar eşit {BC line} ve {CE line} tabanları üzerinde ve aynı {BE line} ve {AF line} paralelleri arasındadır [Prop. 1.38].
+Ama, {ABC polygon} üçgeni [üçgen] {DCE polygon}'ye eşittir.
 Böylece, [üçgen] {DCE polygon} da {FCE polygon} üçgenine eşittir, daha büyük olan daha küçük olana.
-Bu imkansız bir şeydir.
-Böylece, {AF line} {BE line}'a paralel değildir.
-Benzer şekilde, {AD line}'dan başka hiçbir (düz çizgi) olduğunu da gösterebiliriz.
-Böylece, {AD line} {BE line}'a paraleldir.
+Bu imkansızdır.
+Böylece, {AF line} {BE line}'ye paralel değildir.
+Benzer şekilde, {AD line}'den başka hiçbir (düz çizginin) de {BE line}'ye paralel olmadığını gösterebiliriz.
+Böylece, {AD line} {BE line}'ye paraleldir.
 
 Böylece, eşit tabanlar üzerinde ve aynı tarafta olan eşit üçgenler aynı zamanda aynı paraleller arasındadır.
 (Gösterilmesi gereken tam olarak budur.)

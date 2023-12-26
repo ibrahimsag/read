@@ -1,22 +1,24 @@
-Verilen bir doğru çizgi üzerinde bir kare tanımlamak.
+Verilen bir düz çizgi üzerine bir kare çizmek.
 
-Verilen doğru çizgi {AB çizgisi} olsun. Dolayısıyla, {AB çizgisi} üzerinde bir kare tanımlanması gerekmektedir.
+{AB line} verilen düz çizgi olsun.
+Böylece, düz çizgi {AB line} üzerine bir kare çizmek gerekiyor.
 
-{A noktası} üzerinden {AB çizgisi}'ne dik olarak {AC çizgisi} çizilsin [Prop. 1.11], ve {AD çizgisi}, {AB çizgisi}'ne eşit yapılsın [Prop. 1.3].
-Ve {D noktası} üzerinden {AB çizgisi}'ne paralel olarak {DE çizgisi} çizilsin [Prop. 1.31], ve {B noktası} üzerinden {AD çizgisi}'ne paralel olarak {BE çizgisi} çizilsin [Prop. 1.31].
-Böylece, {ADEB çokgeni} bir paralelkenardır.
-Dolayısıyla, {AB çizgisi} {DE çizgisi}'ne eşit ve {AD çizgisi} {BE çizgisi}'ne eşittir [Prop. 1.34].
-Fakat, {AB çizgisi} {AD çizgisi}'ne eşittir.
-Dolayısıyla, dört (kenar) {BA çizgisi}, {AD çizgisi}, {DE çizgisi} ve {EB çizgisi} birbirine eşittir.
-Böylece, paralelkenar {ADEB çokgeni} eşkenardır.
-Dolayısıyla, (bu) aynı zamanda dik açılıdır.
-Çünkü {AD çizgisi} paralel çizgiler {AB çizgisi} ve {DE çizgisi} üzerine düşer, bu yüzden {BAD açısı} ve {ADE açısı}'nın (toplamı) iki dik açıya eşittir [Prop. 1.29].
-Fakat {BAD açısı} (bir) dik açıdır.
-Dolayısıyla, {ADE açısı} da (bir) dik açıdır.
-Ve paralelkenar şekiller için, karşıt kenarlar ve açılar birbirine eşittir [Prop. 1.34].
-Dolayısıyla, karşıt açıların her biri {ABE açısı} ve {BED açısı} da (birer) dik açıdır.
-Dolayısıyla, {ADEB çokgeni} dik açılıdır.
-Ve aynı zamanda eşkenar olduğu da gösterildi.
+{A point} noktasından {AB line} düz çizgisine dik olarak {AC line} çizilsin [Prop. 1.11], ve {AD line} {AB line}'ye eşit yapılsın [Prop. 1.3].
+Ve {D point} noktasından geçen {DE line} {AB line}'ye paralel olarak çizilsin [Prop. 1.31], ve {B point} noktasından geçen {BE line} {AD line}'ye paralel olarak çizilsin [Prop. 1.31].
+Böylece, {ADEB polygon} bir paralelkenardır.
+Böylece, {AB line} {DE line}'ye eşittir ve {AD line} {BE line}'ye eşittir [Prop. 1.34].
+Ama, {AB line} {AD line}'ye eşittir.
+Böylece, dört kenar {BA line}, {AD line}, {DE line} ve {EB line} birbirine eşittir.
+Böylece, {ADEB polygon} paralelkenarı eşkenardır.
+Ayrıca diyorum ki (o) dik açılıdır.
+Çünkü {AD line} düz çizgisi paralel çizgiler {AB line} ve {DE line}'nin üzerine düştüğü için, {BAD angle} ve {ADE angle} açılarının toplamı iki dik açıya eşittir [Prop. 1.29].
+Ama {BAD angle} (bir) dik açıdır.
+Böylece, {ADE angle} açısı da bir dik açıdır.
+Ve paralelkenar şekillerde, karşılıklı kenarlar ve açılar birbirine eşittir [Prop. 1.34].
+Böylece, karşılıklı açılardan {ABE angle} ve {BED angle} (her biri) de dik açılardır.
+Böylece, {ADEB polygon} dik açılıdır.
+Ve aynı zamanda eşkenar olduğu da gösterilmiştir.
 
-Dolayısıyla, ({ADEB çokgeni}) bir karedir [Def. 1.22]. Ve bu, {AB çizgisi} üzerinde tanımlanmıştır.
-(Bu da) tam olarak yapılması gereken şeydir.
+Böylece, ({ADEB polygon}) bir karedir [Def. 1.22].
+Ve düz çizgi {AB line} üzerine çizilmiştir.
+(Yapılması gereken tam olarak budur.)

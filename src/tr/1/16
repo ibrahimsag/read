@@ -1,20 +1,20 @@
-Herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı her iki iç ve karşı açıdan daha büyüktür.
+Herhangi bir üçgen için, kenarlarından biri uzatıldığında, dış açı her bir iç ve karşıt açıdan daha büyüktür.
 
-{ABC polygon} bir üçgen olsun ve kenarlarından biri {BC line} {BD line} olarak uzatılmış olsun.
-Dış açı {ACD angle}'nin her iki iç ve karşı açıdan, yani {CBA angle} ve {BAC angle} açılarından daha büyük olduğunu söylüyorum.
+{ABC polygon} bir üçgen olsun ve kenarlarından biri olan {BC line} {BD line}'ye uzatılmış olsun.
+Diyorum ki dış açı {ACD angle}, her bir iç ve karşıt açıdan, {CBA angle} ve {BAC angle}'den daha büyüktür.
 
-{AC line} çizgisi {E point} noktasında ikiye bölünsün [Prop. 1.10].
-Ve {BE line} birleştirilip düz bir çizgi olarak {BF line} noktasına kadar uzatılsın.
-Ve {EF line}, {BE line}'a eşit yapılsın [Prop. 1.3], ve {FC line} birleştirilsin, ve {AC line} {G point} noktasına kadar çizilsin ({AG line} olarak).
+{AC line} (düz çizgisi) {E point} noktasında ikiye bölünsün [Prop. 1.10].
+Ve {BE line} birleştirilip düz bir çizgide {BF line}'ye kadar uzatılsın.
+Ve {EF line} {BE line}'ye eşit yapılsın [Prop. 1.3], ve {FC line} birleştirilsin ve {AC line} {G point} noktasına kadar (yani {AG line} olarak) çizilsin.
 
-Dolayısıyla, {AE line} {EC line}'a eşit olduğu için ve {BE line} {EF line}'a eşit olduğu için, iki çizgi {AE line}, {EB line} sırasıyla iki çizgi {CE line}, {EF line}'a eşittir.
-Ayrıca, {AEB angle} açısı {FEC angle} açısına eşittir, çünkü bunlar dikey olarak karşıt açılardır [Prop. 1.15].
-Böylece, taban {AB line} taban {FC line}'a eşittir ve üçgen {ABE polygon} üçgen {FEC polygon}'a eşittir ve eşit kenarları çevreleyen kalan açılar, karşılık gelen kalan açılara eşittir [Prop. 1.4].
+Bu nedenle, {AE line} {EC line}'ye eşit olduğu ve {BE line} {EF line}'ye eşit olduğu için, iki düz çizgi {AE line}, {EB line} sırasıyla iki düz çizgi {CE line}, {EF line}'ye eşittir.
+Ayrıca, {AEB angle} açısı {FEC angle} açısına eşittir, çünkü onlar dikey karşıt açılardır [Prop. 1.15].
+Böylece, taban {AB line} taban {FC line}'ye eşit olacak ve üçgen {ABE polygon} üçgen {FEC polygon}'ye eşit olacak ve eşit kenarlar tarafından karşılanan kalan açılar karşılık gelen kalan açılara eşit olacak [Prop. 1.4].
 
 Böylece, {BAE angle} açısı {ECF angle} açısına eşittir.
 Ama {ECD angle} açısı {ECF angle} açısından daha büyüktür.
 Böylece, {ACD angle} açısı {BAE angle} açısından daha büyüktür.
-Benzer şekilde, {BC line} çizgisini yarıya böldüğümüzde, {BCG angle} açısının -yani {ACD angle} açısının- ayrıca {ABC angle} açısından da daha büyük olduğunu gösterebiliriz.
+Benzer şekilde, {BC line}'yi ikiye bölmek suretiyle, {BCG angle} ---yani {ACD angle}---'nin de {ABC angle}'den daha büyük olduğu gösterilebilir.
 
-Böylece, herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı her iki iç ve karşı açıdan daha büyüktür.
-(Gösterilmesi gereken tam da budur.)
+Böylece, herhangi bir üçgen için, kenarlarından biri uzatıldığında, dış açı her bir iç ve karşıt açıdan daha büyüktür.
+(Gösterilmesi gereken tam olarak budur.)

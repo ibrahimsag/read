@@ -1,17 +1,17 @@
-Herhangi bir üçgen için, (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
+Herhangi bir üçgen için, herhangi iki kenarın toplamı kalan kenardan daha büyüktür, kenarlar herhangi bir şekilde alındığında.
 
-Çünkü {ABC polygon} bir üçgen olsun.
-Diyorum ki, {ABC polygon} üçgeni için (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
-(Yani), {BA line} ve {AC line} toplamı {BC line}'dan, {AB line} ve {BC line} toplamı {AC line}'dan ve {BC line} ve {CA line} toplamı {AB line}'dan daha büyüktür.
+{ABC polygon} bir üçgen olsun.
+Diyorum ki {ABC polygon} üçgeni için herhangi iki kenarın toplamı kalan kenardan daha büyüktür, kenarlar herhangi bir şekilde alındığında.
+(Yani), {BA line} ve {AC line}'nin (toplamı) {BC line}'den, {AB line} ve {BC line}'nin (toplamı) {AC line}'den ve {BC line} ve {CA line}'nın (toplamı) {AB line}'den daha büyüktür.
 
-Çünkü {BA line}, {D point} noktasına kadar çizilmiş olsun (yani {AD line}), ve {AD line}, {CA line}'a eşit yapılmış olsun [Prop. 1.3], ve {DC line} birleştirilmiş olsun.
+{BA line} {D point} noktasına kadar (yani {BD line} olarak) çizilsin ve {AD line} {CA line}'ya eşit yapılsın [Prop. 1.3], ve {DC line} birleştirilsin.
 
-Dolayısıyla, {DA line} {AC line}'a eşit olduğundan, {ADC angle} açısı da {ACD angle} açısına eşittir [Prop. 1.5].
-Dolayısıyla, {BCD angle} açısı {ADC angle} açısından daha büyüktür.
-Ve {DCB polygon} üçgeni, {BCD angle} açısının {BDC angle} açısından daha büyük olduğu durumda, ve daha büyük açı daha büyük kenarı kapsar [Prop. 1.19], dolayısıyla {DB line} {BC line}'dan daha büyüktür.
-Ama {DA line} {AC line}'a eşittir.
-Dolayısıyla, {BA line} ve {AC line} toplamı {BC line}'dan daha büyüktür.
-Benzer şekilde, {AB line} ve {BC line} toplamının da {CA line}'dan daha büyük olduğunu ve {BC line} ve {CA line} toplamının {AB line}'dan daha büyük olduğunu gösterebiliriz.
+Bu nedenle, {DA line} {AC line}'ye eşit olduğu için {ADC angle} açısı da {ACD angle} açısına eşittir [Prop. 1.5].
+Böylece, {BCD angle} açısı {ADC angle} açısından daha büyüktür.
+Ve {DCB polygon} üçgeninin {BCD angle} açısı {BDC angle} açısından daha büyük olduğu için ve daha büyük açı daha büyük kenarı karşıladığı için [Prop. 1.19], {DB line} böylece {BC line}'den daha büyüktür.
+Ama {DA line} {AC line}'ye eşittir.
+Böylece, {BA line} ve {AC line}'nin (toplamı) {BC line}'den daha büyüktür.
+Benzer şekilde, {AB line} ve {BC line}'nin (toplamının) da {CA line}'dan daha büyük olduğunu ve {BC line} ve {CA line}'nin (toplamının) {AB line}'den daha büyük olduğunu gösterebiliriz.
 
-Dolayısıyla, herhangi bir üçgen için, (herhangi iki) kenarın toplamı kalan (kenar)dan daha büyüktür, (kenarlar) herhangi bir (olası şekilde) alınmıştır.
-(Gösterilmesi gereken tam da budur.)
+Böylece, herhangi bir üçgen için, herhangi iki kenarın toplamı kalan kenardan daha büyüktür, kenarlar herhangi bir şekilde alındığında.
+(Gösterilmesi gereken tam olarak budur.)

@@ -8,14 +8,14 @@ Ve {DA line} ve {DB line} ile aynı hizada olan {AE line} ve {BF line} düz çiz
 Ve merkezi {B point} ve yarıçapı {BC line} olan {CGH circle B} çemberi çizilmiş olsun [Post. 3],
 ve yine merkezi {D point} ve yarıçapı {DG line} olan {GKL circle D} çemberi çizilmiş olsun [Post. 3].
 
-Bu nedenle, {B point} noktası {CGH circle B} çemberinin merkezi olduğundan, {BC line} {BG line}'e eşittir [Def. 1.15].
-Yine, {D point} noktası {GKL circle D} çemberinin merkezi olduğundan, {DL line} {DG line}'e eşittir [Def. 1.15].
-Ve bunların içinde, {DA line} {DB line}'e eşittir.
-Böylece, kalan {AL line} kalan {BG line}'e eşittir [C.N. 3].
-Ama {BC line} da {BG line}'e eşit olduğu gösterilmişti.
-Böylece, {AL line} ve {BC line}, her biri {BG line}'e eşittir.
+Bu nedenle, {B point} noktası {CGH circle B} çemberinin merkezi olduğundan, {BC line} {BG line}'ye eşittir [Def. 1.15].
+Yine, {D point} noktası {GKL circle D} çemberinin merkezi olduğundan, {DL line} {DG line}'ye eşittir [Def. 1.15].
+Ve bunların içinde, {DA line} {DB line}'ye eşittir.
+Böylece, kalan {AL line} kalan {BG line}'ye eşittir [C.N. 3].
+Ama {BC line} de {BG line}'ye eşit olduğu gösterilmişti.
+Böylece, {AL line} ve {BC line}'nin, her biri {BG line}'ye eşittir.
 Ama aynı şeye eşit olan şeyler birbirine de eşittir [C.N. 1].
-Böylece, {AL line} da {BC line}'e eşittir.
+Böylece, {AL line} de {BC line}'ye eşittir.
 
 Böylece, verilen düz çizgiye eşit olan {AL line} düz çizgisi, verilen {A point} noktasında yerleştirilmiştir.
 (Yapılması gereken tam da budur.)

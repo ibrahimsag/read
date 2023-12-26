@@ -1,19 +1,16 @@
-Herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+Aynı tarafta eşit ve paralel olan düz çizgileri birleştiren düz çizgilerin kendileri de eşit ve paraleldir.
 
-{ABC polygon} bir üçgen olsun ve kenarlarından biri olan {BC line} {D point} noktasına kadar uzatılmış olsun.
-Dış açı {ACD angle} olanın iki iç ve karşıt açı {CAB angle} ve {ABC angle} toplamına eşit olduğunu ve üçgenin üç iç açısı ---{ABC angle}, {BCA angle} ve {CAB angle}--- toplamının iki dik açıya eşit olduğunu söylüyorum.
+{AB line} ve {CD line} eşit ve paralel (düz çizgiler) olsun ve {AC line} ve {BD line} düz çizgileri onları aynı tarafta birleştirsin.
+Diyorum ki {AC line} ve {BD line} de eşit ve paraleldir.
 
-{C point} noktasından geçen ve düz çizgi {AB line} ile paralel olan {CE line} çizilsin [Prop. 1.31].
+{BC line} birleştirilsin.
+Ve {AB line} {CD line}'ye paralel olduğu için ve {BC line} onların üzerine düştüğü için, içters açılar {ABC angle} ve {BCD angle} birbirine eşittir [Prop. 1.29].
+Ve {AB line} ve {CD line} eşit olduğu ve {BC line} ortak olduğu için, iki düz çizgi {AB line}, {BC line} iki düz çizgi {DC line}, {CB line}'ye eşittir.
+Ve {ABC angle} açısı {BCD angle} açısına eşittir.
+Böylece, taban {AC line} taban {BD line}'ye eşittir ve üçgen {ABC polygon} üçgen {DCB polygon}'ye eşittir ve kalan açılar eşit kenarlar tarafından karşılanan karşılık gelen kalan açılara eşit olacaktır [Prop. 1.4].
+Böylece, açı {ACB angle} {CBD angle}'ye eşittir.
+Ayrıca, düz çizgi {BC line}, iki düz çizgi {AC line} ve {BD line}'nin üzerine düşerken, içters açıları ({ACB angle} ve {CBD angle}) birbirine eşit yapmış olduğu için, {AC line} böylece {BD line}'ye paraleldir [Prop. 1.27].
+Ve {AC line}'nin de {BD line}'ye eşit olduğu gösterilmiştir.
 
-Ve {AB line} {CE line} ile paralel olduğundan ve {AC line} onların üzerine düştüğünden, alternatif açılar {BAC angle} ve {ACE angle} birbirine eşittir [Prop. 1.29].
-Yine, {AB line} {CE line} ile paralel olduğundan ve düz çizgi {BD line} onların üzerine düştüğünden, dış açı {ECD angle} iç ve karşıt açı {ABC angle} ile eşittir [Prop. 1.29].
-Ama {ACE angle} de {BAC angle} ile eşit olduğu gösterildi.
-Böylece, tüm açı {ACD angle} iki iç ve karşıt açı {BAC angle} ve {ABC angle} toplamına eşittir.
-
-Her ikisine de {ACB angle} ekleyelim.
-Böylece, {ACD angle} ve {ACB angle} toplamı üç açı {ABC angle}, {BCA angle} ve {CAB angle} toplamına eşittir.
-Ama, {ACD angle} ve {ACB angle} toplamı iki dik açıya eşittir [Prop. 1.13].
-Böylece, {ACB angle}, {CBA angle} ve {CAB angle} toplamı da iki dik açıya eşittir.
-
-Böylece, herhangi bir üçgen için, kenarlardan biri uzatıldığında, dış açı iki iç ve karşıt açıların toplamına eşittir ve üçgenin üç iç açısının toplamı iki dik açıya eşittir.
+Böylece, aynı tarafta eşit ve paralel olan (düz çizgileri) birleştiren düz çizgiler de kendileri de eşit ve paraleldir.
 (Gösterilmesi gereken tam olarak budur.)

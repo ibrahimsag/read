@@ -7,12 +7,12 @@ Bu nedenle, düz çizgi {AB line} üzerine bir eşkenar üçgen inşa etmek gere
 Merkezi {A point} ve yarıçapı {AB line} olan {BCD circle A} çemberi çizilmiş olsun [Post. 3], ve yine merkezi {B point} ve yarıçapı {BA line} olan {ACE circle B} çemberi çizilmiş olsun [Post. 3].
 Ve çemberlerin birbirini kestiği {C point} noktasından {A point} ve {B point} noktalarına (sırasıyla) düz çizgiler {CA line} ve {CB line} birleştirilmiş olsun [Post. 1].
 
-Ve {A point} noktası {CDB circle A} çemberinin merkezi olduğu için, {AC line} {AB line}'a eşittir [Def. 1.15].
-Yine, {B point} noktası {CAE circle B} çemberinin merkezi olduğu için, {BC line} {BA line}'a eşittir [Def. 1.15].
-Ama {CA line}'ın da {AB line}'a eşit olduğu gösterildi.
-Böylece, {CA line} ve {CB line} her biri {AB line}'a eşittir.
+Ve {A point} noktası {CDB circle A} çemberinin merkezi olduğu için, {AC line} {AB line}'ye eşittir [Def. 1.15].
+Yine, {B point} noktası {CAE circle B} çemberinin merkezi olduğu için, {BC line} {BA line}'ya eşittir [Def. 1.15].
+Ama {CA line}'nın da {AB line}'ye eşit olduğu gösterildi.
+Böylece, {CA line} ve {CB line} her biri {AB line}'ye eşittir.
 Ama aynı şeye eşit olan şeyler birbirine de eşittir [C.N. 1].
-Böylece, {CA line} aynı zamanda {CB line}'a da eşittir.
+Böylece, {CA line} aynı zamanda {CB line}'ye de eşittir.
 Böylece, üç (düz çizgi) {CA line}, {AB line} ve {BC line} birbirine eşittir.
 
 Böylece, {ABC polygon} üçgeni eşkenar olup verilen sonlu düz çizgi {AB line} üzerine inşa edilmiştir.

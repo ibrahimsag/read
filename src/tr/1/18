@@ -1,14 +1,14 @@
-Herhangi bir üçgen için, daha büyük kenar daha büyük açıya karşılık gelir.
+Herhangi bir üçgen için, daha büyük kenar daha büyük açıyı karşılar.
 
-{ABC polygon} üçgeni, {AC line} kenarı {AB line} kenarından daha büyük olan bir üçgen olsun.
-Diyorum ki, {ABC angle} açısı da {BCA angle} açısından daha büyüktür.
+{ABC polygon} üçgeni, {AC line} kenarı {AB line}'den daha büyük olan bir üçgen olsun.
+Diyorum ki {ABC angle} açısı da {BCA angle} açısından daha büyüktür.
 
-Çünkü {AC line} kenarı {AB line} kenarından daha büyük olduğundan, {AD line} kenarını {AB line} kenarına eşit yapalım [Prop. 1.3], ve {BD line} kenarını çizelim.
+Çünkü {AC line} {AB line}'den daha büyük olduğu için, {AD line} {AB line}'ye eşit yapılsın [Prop. 1.3], ve {BD line} birleştirilsin.
 
-Ve {ADB angle} açısı, {BCD polygon} üçgeninin dışında bir açı olduğundan, iç ve karşıt (açı) {DCB angle} açısından daha büyüktür [Prop. 1.16].
-Ama {ADB angle} açısı, {AB line} kenarının da {AD line} kenarına eşit olduğu için {ABD angle} açısına eşittir [Prop. 1.5].
-Dolayısıyla, {ABD angle} açısı da {ACB angle} açısından daha büyüktür.
-Dolayısıyla, {ABC angle} açısı {ACB angle} açısından çok daha büyüktür.
+Ve {ADB angle} açısı {BCD polygon} üçgeninin dışında olduğu için, içteki ve karşıt olan {DCB angle} açısından daha büyüktür [Prop. 1.16].
+Ama {ADB angle} açısı da {ABD angle} açısına eşittir, çünkü {AB line} kenarı da {AD line} kenarına eşittir [Prop. 1.5].
+Böylece, {ABD angle} açısı da {ACB angle} açısından daha büyüktür.
+Böylece, {ABC angle} açısı {ACB angle} açısından çok daha büyüktür.
 
-Dolayısıyla, herhangi bir üçgen için, daha büyük kenar daha büyük açıya karşılık gelir.
-(Gösterilmesi gereken tam da buydu.)
+Böylece, herhangi bir üçgen için, daha büyük kenar daha büyük açıyı karşılar.
+(Gösterilmesi gereken tam olarak budur.)

@@ -1,14 +1,14 @@
-Verilen sonsuz bir düz çizgiye, üzerinde olmayan verilen bir noktadan dik bir düz çizgi çizmek.
+Verilen sonsuz bir düz çizgi üzerinde olmayan verilen bir noktadan, verilen düz çizgiye dik bir düz çizgi çizmek.
 
-{AB çizgi} verilen sonsuz düz çizgi ve {C nokta} üzerinde olmayan verilen nokta olsun.
-Böylece, üzerinde olmayan verilen nokta {C nokta}’dan, verilen sonsuz düz çizgi {AB çizgi}’ye dik bir düz çizgi çizmek gerekmektedir.
+{AB line} verilen sonsuz düz çizgi ve {C point} ({AB line}'nin) üzerinde olmayan verilen nokta olsun.
+Böylece, verilen sonsuz düz çizgi {AB line}'ye, üzerinde olmayan verilen nokta {C point}'den dik bir düz çizgi çizmek gerekiyor.
 
-Diğer tarafta (yani {C nokta}’nın karşısında) düz çizgi {AB çizgi} üzerinde bir yerde {D nokta} alınsın ve merkezi {C nokta} ve yarıçapı {CD çizgi} olan {EFG daire C} çizilsin [Post. 3], ve {EG çizgi} düz çizgisi ortasından {H nokta}’da ikiye bölünsün [Prop. 1.10], ve {CG çizgi}, {CH çizgi} ve {CE çizgi} düz çizgileri birleştirilsin.
-Söylüyorum ki, bir {CH çizgi} düz çizgisi, üzerinde olmayan verilen nokta {C nokta}’dan, verilen sonsuz düz çizgi {AB çizgi}’ye dik olarak çizilmiştir.
+Bunun için, düz çizgi {AB line}'nin diğer tarafında bir yerde {D point} noktası alınsın ve merkezi {C point} ve yarıçapı {CD line} olan {EFG circle C} çemberi çizilsin [Post. 3], ve {EG line} düz çizgisi {H point} noktasında ikiye bölünsün [Prop. 1.10], ve {CG line}, {CH line} ve {CE line} düz çizgileri birleştirilsin.
+Diyorum ki {CH line} düz çizgisi, verilen sonsuz düz çizgi {AB line}'ye, ({AB line}'nin) üzerinde olmayan verilen nokta {C point}'den dik olarak çizilmiştir.
 
-Çünkü {GH çizgi} {HE çizgi}’ye eşit ve {HC çizgi} ortaktır, iki {GH çizgi}, {HC çizgi} düz çizgileri sırasıyla iki {EH çizgi}, {HC çizgi} düz çizgilerine eşittir ve taban {CG çizgi} taban {CE çizgi}’ye eşittir.
-Böylece, açı {CHG açı} açı {EHC açı}’ya eşittir [Prop. 1.8], ve bunlar bitişiktir.
-Ama bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde bitişik açıları birbirine eşit yaparsa, eşit olan her açı bir dik açıdır ve ilk düz çizgi, üzerine dikildiği çizgiye dik olarak adlandırılır [Def. 1.10].
+Çünkü {GH line} {HE line}'ye eşit olduğu ve {HC line} ortak olduğu için, iki düz çizgi {GH line}, {HC line} sırasıyla iki düz çizgi {EH line}, {HC line}'ye eşittir ve taban {CG line} taban {CE line}'ye eşittir.
+Böylece, {CHG angle} açısı {EHC angle} açısına eşittir [Prop. 1.8] ve bitişiktirler.
+Ama bir düz çizgi, başka bir düz çizgi üzerine dikildiğinde bitişik açıları birbirine eşit yaparsa, eşit açıların her biri bir dik açıdır ve ilk düz çizgi, üzerine dikildiği çizgiye dik olarak adlandırılır [Def. 1.10].
 
-Böylece, {CH çizgi} düz çizgisi, üzerinde olmayan verilen nokta {C nokta}’dan, verilen sonsuz düz çizgi {AB çizgi}’ye dik olarak çizilmiştir.
-(Bu) yapılması gereken şeyin ta kendisidir.
+Böylece, {CH line} düz çizgisi, verilen sonsuz düz çizgi {AB line}'ye, ({AB line}'nin) üzerinde olmayan verilen nokta {C point}'den dik olarak çizilmiştir.
+(Yapılması gereken tam olarak budur.)

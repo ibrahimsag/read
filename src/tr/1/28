@@ -1,17 +1,17 @@
-Eğer bir düz çizgi, iki düz çizgi üzerine düşer ve aynı taraftaki dış açıyı, içteki ve karşıt açıya eşit yaparsa, veya (aynı taraftaki) iç açıların (toplamını) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır.
+Eğer bir düz çizgi, iki düz çizgi üzerine düşerse ve dış açıyı aynı taraftaki iç ve karşıt açıya eşit yaparsa, ya da aynı taraftaki iç (açılar) (toplamı) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır.
 
-Öyle ki, iki düz çizgi {AB çizgisi} ve {CD çizgisi} üzerine düşen {EF çizgisi}, dış açı {EGB açısı}nı içteki ve karşıt açı {GHD açısı}na eşit yapar, veya aynı taraftaki iç açıların (toplamı), {BGH açısı} ve {GHD açısı}, iki dik açıya eşit olur.
-Diyorum ki {AB çizgisi}, {CD çizgisi}ne paraleldir.
+{EF line} düz çizgisi, iki düz çizgi {AB line} ve {CD line} üzerine düşsün ve dış açı {EGB angle} iç ve karşıt açı {GHD angle}'ye eşit olsun, ya da aynı taraftaki iç (açılar) {BGH angle} ve {GHD angle}'nin (toplamı) iki dik açıya eşit olsun.
+Diyorum ki {AB line} {CD line}'ye paraleldir.
 
-Çünkü (ilk durumda) {EGB açısı}, {GHD açısı}na eşittir, ama {EGB açısı}, {AGH açısı}na da eşittir [Prop. 1.15], böylece {AGH açısı} da {GHD açısı}na eşittir.
-Ve bunlar sırayla (açılar)dır.
-Böylece, {AB çizgisi}, {CD çizgisi}ne paraleldir [Prop. 1.27].
+Çünkü (ilk durumda) {EGB angle} {GHD angle}'ye eşittir, ama {EGB angle} {AGH angle}'ye eşittir [Prop. 1.15], böylece {AGH angle} de {GHD angle}'ye eşittir.
+Ve bunlar içters (açılar)dır.
+Böylece, {AB line} {CD line}'ye paraleldir [Prop. 1.27].
 
-Yine, (ikinci durumda, toplamı) {BGH açısı} ve {GHD açısı}, iki dik açıya eşittir ve (toplamı) {AGH açısı} ve {BGH açısı} da iki dik açıya eşittir [Prop. 1.13], böylece (toplamı) {AGH açısı} ve {BGH açısı}, (toplamı) {BGH açısı} ve {GHD açısı}na eşittir.
-Her ikisinden de {BGH açısı} çıkarılsın.
-Böylece, kalan {AGH açısı}, kalan {GHD açısı}na eşittir.
-Ve bunlar sırayla (açılar)dır.
-Böylece, {AB çizgisi}, {CD çizgisi}ne paraleldir [Prop. 1.27].
+Yine, (ikinci durumda) {BGH angle} ve {GHD angle}'nin (toplamı) iki dik açıya eşit olduğu ve {AGH angle} ve {BGH angle}'nin (toplamı) da iki dik açıya eşit olduğu [Prop. 1.13], {AGH angle} ve {BGH angle}'nin (toplamı) böylece {BGH angle} ve {GHD angle}'ye (toplamı) eşit olduğu görülür.
+Her ikisinden de {BGH angle} çıkarılsın.
+Böylece, kalan {AGH angle} kalan {GHD angle}'ye eşittir.
+Ve bunlar içters (açılar)dır.
+Böylece, {AB line} {CD line}'ye paraleldir [Prop. 1.27].
 
-Böylece, eğer bir düz çizgi, iki düz çizgi üzerine düşer ve aynı taraftaki dış açıyı içteki ve karşıt açıya eşit yaparsa, veya (aynı taraftaki) iç açıların (toplamını) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır (birbirine).
-(Gösterilmesi gereken şey tam olarak budur).
+Böylece, eğer bir düz çizgi, iki düz çizgi üzerine düşerse ve dış açıyı aynı taraftaki iç ve karşıt açıya eşit yaparsa, ya da aynı taraftaki iç (açılar) (toplamı) iki dik açıya eşit yaparsa, o zaman (iki) düz çizgi birbirine paralel olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
