@@ -33,3 +33,63 @@ Screens are part of the computers for about fifty years now. But couple thousand
 Imitation is mostly effective but it can also be frustrating. But frustrations are a bit difficult to demonstrate. First, It is not obvious how information technology should leave the office and become relevant to life besides facilitation of bureaucracies or consumption of packaged entertainment. Second, criticism of digitized paperwork(i.e. finance) seem to fall on deaf ears. And i will not try to point out that relevance at a time anarchy and chaos are synonymous. Nor will i be an impotent reactionary and define a principal in negation to concentration of power. Instead, the new medium is taken as ground to experiment around prevailing institutional dependence and brute specialization that beats their imagination out of people.
 
 Of course, this alone can't leave a dent in the curricular consumption called education but one question had to be made explicit: What can be done better than on paper? So that we come to be aware of the cultural momentum and possibly see a course correction.
+
+
+### Getting Started: Guide to installing and running this experiment
+
+#### Prerequisites
+
+Before you start, ensure you have **Node.js** and **npm** installed on your system. Follow the installation guides available on the [Node.js official website](https://nodejs.org/).
+
+#### Setup Instructions
+
+1. **Open a Command Line Interface (CLI):**
+
+   Navigate to the root directory of the downloaded project files using a command line interface.
+
+   > **Note for Windows Users:** You will need to have a Bash interface installed, such as Git Bash. You can download it from [Git SCM Downloads](https://git-scm.com/downloads).
+
+2. **Install Dependencies:**
+
+   Run the following command to install the required npm packages:
+
+   ```bash
+   npm install
+   ```
+
+3. **Build the Project:**
+
+   Execute the build scripts with the commands below:
+
+   ```bash
+   sh build.sh
+   sh build-elements.sh
+   ```
+
+   These scripts compile and prepare the project for running.
+
+4. **Start the Local Server:**
+
+   To start the local development server, run:
+
+   ```bash
+   node local.js
+   ```
+
+   Upon successful startup, the command line will display a message similar to:
+
+   ```
+   listening at http://localhost:<port number>
+   ```
+
+   Replace `<port number>` with the actual port number displayed, such as `3000`.
+
+5. **Access the Project:**
+
+   Open a web browser and navigate to the URL indicated in the command line output, for example:
+
+   ```
+   http://localhost:3000
+   ```
+
+   You should now see the application running.
