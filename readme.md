@@ -84,6 +84,19 @@ Before you start, ensure you have **Node.js** and **npm** installed on your syst
 
    Replace `<port number>` with the actual port number displayed, such as `3000`.
 
+   For ongoing development, use Rollup in watch mode to automatically rebuild files when changes are detected. Start Rollup in watch mode for both configurations in separate CLI windows or tabs:
+
+   * For core project files:
+   ```
+   rollup -c rollup.min.elements.config.js -w
+   ```
+   * For project elements:
+   ```
+   rollup -c rollup.min.config.js -w
+   ```
+
+
+
 5. **Access the Project:**
 
    Open a web browser and navigate to the URL indicated in the command line output, for example:
