@@ -79,7 +79,7 @@ Before you start, ensure you have **Node.js** and **npm** installed on your syst
    Upon successful startup, the command line will display the message:
 
    ```
-   listening at http://localhost:<port number>
+   listening at http://localhost:3000
    ```
 
    For ongoing development, use Rollup in watch mode to automatically rebuild files when changes are detected:
