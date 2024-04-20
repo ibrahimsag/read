@@ -76,23 +76,16 @@ Before you start, ensure you have **Node.js** and **npm** installed on your syst
    node local.js
    ```
 
-   Upon successful startup, the command line will display a message similar to:
+   Upon successful startup, the command line will display the message:
 
    ```
    listening at http://localhost:<port number>
    ```
 
-   Replace `<port number>` with the actual port number displayed, such as `3000`.
+   For ongoing development, use Rollup in watch mode to automatically rebuild files when changes are detected:
 
-   For ongoing development, use Rollup in watch mode to automatically rebuild files when changes are detected. Start Rollup in watch mode for both configurations in separate CLI windows or tabs:
-
-   * For core project files:
    ```
-   rollup -c rollup.min.elements.config.js -w
-   ```
-   * For project elements:
-   ```
-   rollup -c rollup.min.config.js -w
+   rollup -c  -w
    ```
 
 
