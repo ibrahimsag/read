@@ -1267,12 +1267,8 @@ function elements() {
       .forEach(link => link.onclick = hrefClick);
   }
 
-  function langToggleClick() {
-    if(window.LANG == 'en') {
-      window.localStorage.lang = 'tr';
-    } else {
-      window.localStorage.lang = 'en';
-    }
+  function langToggleClick(new_lang) {
+    window.localStorage.lang = new_lang;
     window.location.reload();
   }
 
@@ -1649,7 +1645,8 @@ function elements() {
       //setTimeout(occasional, 1000);
     }
 
-    document.querySelector('#lang-toggle').onclick = langToggleClick;
+    document.querySelector('#lang-toggle-en').onclick = () => langToggleClick('en');
+    document.querySelector('#lang-toggle-tr').onclick = () => langToggleClick('tr');
 
     document.querySelector('#palette').onclick = paletteClick;
     {

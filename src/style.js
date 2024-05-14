@@ -157,6 +157,35 @@ function make(colors, brand)
       '.name.name-hover': {
         color: colors.hover_bright
       },
+
+      '.lang-dd': {
+        position: 'relative',
+
+        '&:hover .lang-menu': {
+          display: 'flex',
+        }
+      },
+
+      '.lang-menu': {
+        position: 'absolute',
+        display: 'none',
+        top: '2.5em',
+        left: '0px',
+        backgroundColor: colors.none,
+        padding: '10px',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '10px',
+        borderWidth: '2px',
+        borderStyle: 'solid',
+        borderColor: brand.step,
+      },
+      '.lang-item': {
+        color: brand.step,
+        '&:hover': {
+          color: brand.bright,
+        }
+      }
     },
 
     pg: {
