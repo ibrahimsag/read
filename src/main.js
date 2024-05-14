@@ -1647,6 +1647,7 @@ function elements() {
 
     document.querySelector('#lang-toggle-en').onclick = () => langToggleClick('en');
     document.querySelector('#lang-toggle-tr').onclick = () => langToggleClick('tr');
+    document.querySelector('#lang-toggle-he').onclick = () => langToggleClick('he');
 
     document.querySelector('#palette').onclick = paletteClick;
     {

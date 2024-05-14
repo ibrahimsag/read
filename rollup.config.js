@@ -47,7 +47,7 @@ export default [
   input: 'src/content.js',
   plugins: [
     string({
-      include: ['src/en/*/*', 'src/tr/*/*']
+      include: ['src/en/*/*', 'src/tr/*/*', 'src/he/*/*']
     }),
   ],
   output: {

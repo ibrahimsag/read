@@ -26,7 +26,7 @@ export default [
   plugins: [
     commonjs(),
     string({
-      include: ['src/en/*/*', 'src/tr/*/*']
+      include: ['src/en/*/*', 'src/tr/*/*', 'src/he/*/*']
     }),
     terser()
   ],

@@ -127,6 +127,7 @@ ${window.LANG.toUpperCase()}
     <div class="lang-menu">
       <div id="lang-toggle-en" class="lang-item">EN</div>
       <div id="lang-toggle-tr" class="lang-item">TR</div>
+      <div id="lang-toggle-he" class="lang-item">HE</div>
     </div>
 </div>
 <div id="palette" style="display:flex; padding: 15px;margin-right:15px;">
