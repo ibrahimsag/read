@@ -121,8 +121,13 @@ Interesting propositions: <a href="/13.16">Icosahedron</a>, <a href="/13.17">Dod
   <div style="display: flex;align-items:baseline;"class="${cs.logoWrap}">
   <a class="${cs.logo}" href="https://read.machinepresence.com/"><span class=${cs.b_dim}>re</span><span class="${cs.b_sentence}">a</span><span class="${cs.b_bright}">d</span></a>
   <a class="${cs.headLink}" href="https://read.machinepresence.com/">about</a>
-<div id="lang-toggle" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
+<div id="lang-toggle" class="lang-dd" style="display:flex; margin-left: auto; padding: 15px;margin-right:15px;">
 ${window.LANG.toUpperCase()}
+
+    <div class="lang-menu">
+      <div id="lang-toggle-en" class="lang-item">EN</div>
+      <div id="lang-toggle-tr" class="lang-item">TR</div>
+    </div>
 </div>
 <div id="palette" style="display:flex; padding: 15px;margin-right:15px;">
 ${sun}

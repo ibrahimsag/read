@@ -400,7 +400,7 @@ function makeRG()
     else if(h.typ == 'arcc')
     {
       let c = h.arg;
-      if(/[a-zA-Z]/.test(c))
+      if(/[\p{Alphabetic}]/u.test(c))
       {
         let center = figure.points[c];
         shapes = [arc(center, figure.points[h.name[h.name.length-1]], figure.points[h.name[0]])];
@@ -413,7 +413,7 @@ function makeRG()
     else if(h.typ == 'arc')
     {
       let c = h.arg;
-      if(/[a-zA-Z]/.test(c))
+      if(/[\p{Alphabetic}]/u.test(c))
       {
         let center = figure.points[c];
         shapes = [arc(center, figure.points[h.name[0]], figure.points[h.name[h.name.length-1]])];
@@ -426,7 +426,7 @@ function makeRG()
     else if(h.typ == 'circle')
     {
       let c = h.arg;
-      if(/[a-zA-Z]/.test(c))
+      if(/[\p{Alphabetic}]/u.test(c))
       {
         let center = figure.points[c];
         let a = figure.points[h.name[0]];
@@ -646,7 +646,7 @@ function makePR(rg, w)
     figure.prepared = true;
   }
 
-  function prepareLetterOverlay(figure, letterColor, smallLetters)
+  function prepareLetterOverlay(figure, letterColor, smallLetters, display_map)
   {
     let shapes = [];
     for(var i in figure.letters)
@@ -678,7 +678,7 @@ function makePR(rg, w)
         'font-family': 'Nale',
         'font-size': shouldBeSmall ? 16 : 24,
         'class': 'letter-'+lc,
-        'textContent': i,
+        'textContent': display_map[i] || i,
         'x': pos[0],
         'y': pos[1],
       };
@@ -697,9 +697,32 @@ function makePR(rg, w)
     let lastSeenFigureIndex = 0;
     section.i_count = 0;
     section.i_p = [];
+    section.letter_display_map = { forward: {}, backward: {} };
     section.paragraphs = section.prose.split('\n\n').map(paragraphProse => {
-        return paragraphProse.split('\n').map(sentenceProse =>
+        let array_sentenceProse = paragraphProse.split('\n');
+        let array_sentence = [];
+        for (let i = 0; i < array_sentenceProse.length; i++)
           {
+            let sentenceProse = array_sentenceProse[i];
+            if (sentenceProse.match(/\s*\\\\/)) {
+              sentenceProse.replace(/\\\\/, '').split(',').forEach(m => {
+                let pair = m.trim().split('-').map(p => p.trim()).filter(p => p);
+
+                if(pair.length === 0) {
+                  return;
+                }
+
+                if(pair.length !== 2) {
+                  console.error("problematic letter display pairing", pair, m, sentenceProse, section.id);
+                  return;
+                }
+
+                section.letter_display_map.backward[pair[0]] = pair[1];
+                section.letter_display_map.forward[pair[1]] = pair[0];
+              });
+              continue;
+            }
+
             let k = section.i_p.length;
             section.i_p.push(section.i_count);
             let i_RE = /(\{[^\}]*\}|\[Prop[^\]]*\])/g;
@@ -707,10 +730,9 @@ function makePR(rg, w)
             let seen = false;
             let parts = sentenceParts.filter(x=>x).map(part =>
               {
-
-                let nameRE = /\{([a-zA-Z]+)\}/;
+                let nameRE = /\{([\p{Alphabetic}]+)\}/u;
                 let nm = part.match(nameRE);
-                let overlayRE = /\{([a-zA-Z]+) ([a-z]+)( [a-zA-Z])?\}/;
+                let overlayRE = /\{([\p{Alphabetic}]+) ([a-z]+)( [\p{Alphabetic}])?\}/u;
                 let om = part.match(overlayRE);
                 let figureRE = /\{figure ([0-9])\}/;
                 let fm = part.match(figureRE);
@@ -796,8 +818,9 @@ function makePR(rg, w)
               });
             if(!seen)
               section.i_count++;
-            return {parts, k, seen};
-          });
+            array_sentence.push( {parts, k, seen});
+          }
+        return array_sentence;
       });
     section.i_p.push(section.i_count);
   }
@@ -1023,10 +1046,18 @@ function makePR(rg, w)
 
 
     let appendDraw = (figure, l, ds) => ds.forEach(h => w.svg.append(...rg.makeHighlight(figure, l, h).map(rg.draw)));
-    let setLetterColor = (o, c, ds) => ds.forEach(h => { h.name.split('').forEach(l => o[l] = c); })
+    let setLetterColor = (o, c, ds) => ds.forEach(h => { h.name.split('').forEach(l => o[l] = c); });
 
-    tie.center = tie.center.filter(h=>h.typ);
-    tie.hover = tie.hover.filter(h=>h.typ);
+
+    let trace_letter_display = (h) => {
+      let nh = {...h};
+      nh.name = [...h.name].map(m => section.letter_display_map.backward[m] || m).join('');
+      nh.arg = section.letter_display_map.backward[h.arg] || h.arg;
+      return nh;
+    }
+
+    tie.center = tie.center.filter(h=>h.typ).map(trace_letter_display);;
+    tie.hover = tie.hover.filter(h=>h.typ).map(trace_letter_display);;
     let g = se('g');
     w.svg.append(g);
     if(!fig) {
@@ -1050,7 +1081,7 @@ function makePR(rg, w)
       appendDraw(figure, 'hover_bright', tie.hover);
       setLetterColor(o, 'hover_bright', tie.hover);
 
-      let els = prepareLetterOverlay(figure, o, false);
+      let els = prepareLetterOverlay(figure, o, false, section.letter_display_map.forward);
       w.svg.append(...els);
     }
     else
@@ -1083,7 +1114,7 @@ function makePR(rg, w)
           setLetterColor(o, 'hover_bright', tie.hover);
         }
 
-        let els = prepareLetterOverlay(figure, o, true);
+        let els = prepareLetterOverlay(figure, o, true, section.letter_display_map.forward);
         w.svg.append(...els);
       }
     }
@@ -1236,12 +1267,8 @@ function elements() {
       .forEach(link => link.onclick = hrefClick);
   }
 
-  function langToggleClick() {
-    if(window.LANG == 'en') {
-      window.localStorage.lang = 'tr';
-    } else {
-      window.localStorage.lang = 'en';
-    }
+  function langToggleClick(new_lang) {
+    window.localStorage.lang = new_lang;
     window.location.reload();
   }
 
@@ -1618,7 +1645,8 @@ function elements() {
       //setTimeout(occasional, 1000);
     }
 
-    document.querySelector('#lang-toggle').onclick = langToggleClick;
+    document.querySelector('#lang-toggle-en').onclick = () => langToggleClick('en');
+    document.querySelector('#lang-toggle-tr').onclick = () => langToggleClick('tr');
 
     document.querySelector('#palette').onclick = paletteClick;
     {
