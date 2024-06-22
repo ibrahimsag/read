@@ -12,7 +12,7 @@ This is from Oliver Byrne’s work (a digital version can be found at [c82.net/e
 
 The usual answer is to record a video. However, this dictates a rhythm, isolates fragments, strains potential participation, and often turns ridiculous production costs. While films are awesome, their teaching of technical material is not their strong aspect.
 
-Now follow this: [elements.machinepresence.com/1.43](https://elements.machinepresence.com/1.43). And press j/k or right/left on your keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.
+Now follow this: [elements.ratherthanpaper.com/1.43](https://elements.ratherthanpaper.com/1.43). And press j/k or right/left on your keyboard or use the gray buttons at the bottom of the page. That should move a cursor along the prose and highlight the figure for symbols. You can also click on sentences.
 
 ![](img/highlighted.png)
 
