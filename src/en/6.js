@@ -35,7 +35,7 @@ import prop33 from './6/33';
 
 export default [
 {
-  id: '5.d',
+  id: '6.d',
   title: 'Definitions',
   prose: prop0,
 },
