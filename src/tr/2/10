@@ -1,48 +1,48 @@
-If a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).
+Eğer bir düz çizgi yarıya bölünmüşse ve ona doğrultusunda herhangi bir düz çizgi eklenmişse, o zaman eklenen (düz çizgiyle birlikte) bütün (düz çizgi) üzerindeki karenin ve eklenen (düz çizgi) üzerindeki (karenin) toplamı, yarısı (düz çizginin) üzerindeki (kare toplamının) ve yarısı (düz çizginin) ve eklenen (düz çizginin) toplamı üzerinde tek bir (tam düz çizgi) olarak tanımlanan karenin iki katıdır.
 
-For let any straight-line {AB line} have been cut in half at (point) {C point}, and let any straight-line {BD line} have been added to it straight-on.
-I say that the (sum of the) squares on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.
+Çünkü herhangi bir {AB line} düz çizgisi {C point} (noktasında) yarıya bölünmüş olsun ve ona doğrultusunda herhangi bir {BD line} düz çizgisi eklenmiş olsun.
+Diyorum ki {AD line} ve {DB line} üzerindeki karelerin (toplamı), {AC line} ve {CD line} üzerindeki karelerin (toplamının) iki katıdır.
 
-For let {CE line} have been drawn from point {C point}, at right-angles to {AB line} [Prop. 1.11], and let it be made equal to each of {AC line} and {CB line} [Prop. 1.3], and let {EA line} and {EB line} have been joined.
-And let {EF line} have been drawn through {E point}, parallel to {AD line} [Prop. 1.31], and let {FD line} have been drawn through {D point}, parallel to {CE line} [Prop. 1.31].
-And since some straight-line {EF line} falls across the parallel straight-lines {EC line} and {FD line}, the (internal angles) {CEF angle} and {EFD angle} are thus equal to two right-angles [Prop. 1.29].
-Thus, {FEB angle} and {EFD angle} are less than two right-angles.
-And (straight-lines) produced from (internal angles whose sum is) less than two right-angles meet together [Post. 5].
-Thus, being produced in the direction of {B point} and {D point}, the (straight-lines) {EB line} and {FD line} will meet.
-Let them have been produced, and let them meet together at {G point}, and let {AG line} have been joined.
-And since {AC line} is equal to {CE line}, angle {EAC angle} is also equal to (angle) {AEC angle} [Prop. 1.5].
-And the (angle) at {C point} (is) a right-angle.
-Thus, {EAC angle} and {AEC angle} [are] each half a right-angle [Prop. 1.32].
-So, for the same (reasons), {CEB angle} and {EBC angle} are also each half a right-angle.
-Thus, (angle) {AEB angle} is a right-angle.
-And since {EBC angle} is half a right-angle, {DBG angle} (is) thus also half a right-angle [Prop. 1.15].
-And {BDG angle} is also a right-angle.
-For it is equal to {DCE angle}.
-For (they are) alternate (angles) [Prop. 1.29].
-Thus, the remaining (angle) {DGB angle} is half a right-angle.
-Thus, {DGB angle} is equal to {DBG angle}.
-So side {BD line} is also equal to side {GD line} [Prop. 1.6].
-Again, since {EGF angle} is half a right-angle, and the (angle) at {F point} (is) a right-angle, for it is equal to the opposite (angle) at {C point} [Prop. 1.34], the remaining (angle) {FEG angle} is thus half a right-angle.
-Thus, angle {EGF angle} (is) equal to {FEG angle}.
-So the side {GF line} is also equal to the side {EF line} [Prop. 1.6].
-And since [{EC line} is equal to {CA line}] the square on {EC line} is [also] equal to the square on {CA line}.
-Thus, the (sum of the) squares on {EC line} and {CA line} is double the square on {CA line}.
-And the (square) on {EA line} is equal to the (sum of the squares) on {EC line} and {CA line} [Prop. 1.47].
-Thus, the square on {EA line} is double the square on {AC line}.
-Again, since {FG line} is equal to {EF line}, the (square) on {FG line} is also equal to the (square) on {FE line}.
-Thus, the (sum of the squares) on {GF line} and {FE line} is double the (square) on {EF line}.
-And the (square) on {EG line} is equal to the (sum of the squares) on {GF line} and {FE line} [Prop. 1.47].
-Thus, the (square) on {EG line} is double the (square) on {EF line}.
-And {EF line} (is) equal to {CD line} [Prop. 1.34].
-Thus, the square on {EG line} is double the (square) on {CD line}.
-But it was also shown that the (square) on {EA line} (is) double the (square) on {AC line}.
-Thus, the (sum of the) squares on {AE line} and {EG line} is double the (sum of the) squares on {AC line} and {CD line}.
-And the square on {AG line} is equal to the (sum of the) squares on {AE line} and {EG line} [Prop. 1.47].
-Thus, the (square) on {AG line} is double the (sum of the squares) on {AC line} and {CD line}.
-And the (sum of the squares) on {AD line} and {DG line} is equal to the (square) on {AG line} [Prop. 1.47].
-Thus, the (sum of the) [squares] on {AD line} and {DG line} is double the (sum of the) [squares] on {AC line} and {CD line}.
-And {DG line} (is) equal to {DB line}.
-Thus, the (sum of the) [squares] on {AD line} and {DB line} is double the (sum of the) squares on {AC line} and {CD line}.
+Çünkü {C point} noktasından {AB line}'ye dik açıyla {CE line} çizilmiş olsun [Prop. 1.11] ve {AC line} ve {CB line}'nin her birine eşit yapılmış olsun [Prop. 1.3] ve {EA line} ve {EB line} birleştirilmiş olsun.
+Ve {E point} noktasından geçen {EF line} {AD line}'ye paralel olarak çizilmiş olsun [Prop. 1.31] ve {D point} noktasından geçen {FD line} {CE line}'ye paralel olarak çizilmiş olsun [Prop. 1.31].
+Ve bir {EF line} düz çizgisi paralel düz çizgiler {EC line} ve {FD line}'nin üzerine düştüğü için, (iç açılar) {CEF angle} ve {EFD angle} iki dik açıya eşittir [Prop. 1.29].
+Böylece, {FEB angle} ve {EFD angle} iki dik açıdan küçüktür.
+Ve (toplamı) iki dik açıdan küçük (iç açılardan) uzatılan (düz çizgiler) birleşir [Post. 5].
+Böylece, {B point} ve {D point} yönünde uzatıldığında, (düz çizgiler) {EB line} ve {FD line} birleşecektir.
+Uzatılmış olsunlar ve {G point}'de birleşmiş olsunlar ve {AG line} birleştirilmiş olsun.
+Ve {AC line} {CE line}'ye eşit olduğu için, {EAC angle} açısı da {AEC angle} (açısına) eşittir [Prop. 1.5].
+Ve {C point}'deki (açı) bir dik açıdır.
+Böylece, {EAC angle} ve {AEC angle} [her biri] yarım dik açıdır [Prop. 1.32].
+Dolayısıyla, aynı (nedenlerle), {CEB angle} ve {EBC angle} de her biri yarım dik açıdır.
+Böylece, (açı) {AEB angle} bir dik açıdır.
+Ve {EBC angle} yarım dik açı olduğu için, {DBG angle} de yarım dik açıdır [Prop. 1.15].
+Ve {BDG angle} de bir dik açıdır.
+Çünkü {DCE angle}'ye eşittir.
+Çünkü (bunlar) ters açılardır [Prop. 1.29].
+Böylece, kalan (açı) {DGB angle} yarım dik açıdır.
+Böylece, {DGB angle} {DBG angle}'ye eşittir.
+Dolayısıyla {BD line} kenarı da {GD line} kenarına eşittir [Prop. 1.6].
+Yine, {EGF angle} yarım dik açı olduğu ve {F point}'deki (açı) bir dik açı olduğu için, çünkü {C point}'deki karşı (açıya) eşittir [Prop. 1.34], kalan (açı) {FEG angle} yarım dik açıdır.
+Böylece, {EGF angle} açısı {FEG angle}'ye eşittir.
+Dolayısıyla {GF line} kenarı da {EF line} kenarına eşittir [Prop. 1.6].
+Ve [{EC line} {CA line}'ya eşit olduğu için] {EC line} üzerindeki kare [de] {CA line} üzerindeki kareye eşittir.
+Böylece, {EC line} ve {CA line} üzerindeki karelerin (toplamı) {CA line} üzerindeki karenin iki katıdır.
+Ve {EA line} üzerindeki (kare) {EC line} ve {CA line} üzerindeki (karelerin toplamına) eşittir [Prop. 1.47].
+Böylece, {EA line} üzerindeki kare {AC line} üzerindeki karenin iki katıdır.
+Yine, {FG line} {EF line}'ye eşit olduğu için, {FG line} üzerindeki (kare) de {FE line} üzerindeki (kareye) eşittir.
+Böylece, {GF line} ve {FE line} üzerindeki (karelerin toplamı) {EF line} üzerindeki (karenin) iki katıdır.
+Ve {EG line} üzerindeki (kare) {GF line} ve {FE line} üzerindeki (karelerin toplamına) eşittir [Prop. 1.47].
+Böylece, {EG line} üzerindeki (kare) {EF line} üzerindeki (karenin) iki katıdır.
+Ve {EF line} {CD line}'ye eşittir [Prop. 1.34].
+Böylece, {EG line} üzerindeki kare {CD line} üzerindeki (karenin) iki katıdır.
+Ama {EA line} üzerindeki (karenin) de {AC line} üzerindeki (karenin) iki katı olduğu gösterilmiştir.
+Böylece, {AE line} ve {EG line} üzerindeki karelerin (toplamı) {AC line} ve {CD line} üzerindeki karelerin (toplamının) iki katıdır.
+Ve {AG line} üzerindeki kare {AE line} ve {EG line} üzerindeki karelerin (toplamına) eşittir [Prop. 1.47].
+Böylece, {AG line} üzerindeki (kare) {AC line} ve {CD line} üzerindeki (karelerin toplamının) iki katıdır.
+Ve {AD line} ve {DG line} üzerindeki (karelerin toplamı) {AG line} üzerindeki (kareye) eşittir [Prop. 1.47].
+Böylece, {AD line} ve {DG line} üzerindeki [karelerin] (toplamı) {AC line} ve {CD line} üzerindeki [karelerin] (toplamının) iki katıdır.
+Ve {DG line} {DB line}'ye eşittir.
+Böylece, {AD line} ve {DB line} üzerindeki [karelerin] (toplamı) {AC line} ve {CD line} üzerindeki karelerin (toplamının) iki katıdır.
 
-Thus, if a straight-line is cut in half, and any straight-line added to it straight-on, then the sum of the square on the whole (straight-line) with the (straight-line) having been added, and the (square) on the (straight-line) having been added, is double the (sum of the square) on half (the straight-line), and the square described on the sum of half (the straight-line) and (straight-line) having been added, as on one (complete straight-line).
-(Which is) the very thing it was required to show.
+Böylece, eğer bir düz çizgi yarıya bölünmüşse ve ona doğrultusunda herhangi bir düz çizgi eklenmişse, o zaman eklenen (düz çizgiyle birlikte) bütün (düz çizgi) üzerindeki karenin ve eklenen (düz çizgi) üzerindeki (karenin) toplamı, yarısı (düz çizginin) üzerindeki (kare toplamının) ve yarısı (düz çizginin) ve eklenen (düz çizginin) toplamı üzerinde tek bir (tam düz çizgi) olarak tanımlanan karenin iki katıdır.
+(Gösterilmesi gereken tam olarak budur.)

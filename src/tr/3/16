@@ -1,38 +1,39 @@
-A (straight-line) drawn at right-angles to the diameter of a circle, from its end, will fall outside the circle.
-And another straight-line cannot be inserted into the space between the (aforementioned) straight-line and the circumference.
-And the angle of the semi-circle is greater than any acute rectilinear angle whatsoever, and the remaining (angle is) less (than any acute rectilinear angle).
+Bir çemberin çapına, ucundan dik açıyla çizilen (düz çizgi), çemberin dışına düşecektir.
+Ve (söz konusu) düz çizgi ile çevre arasındaki boşluğa başka bir düz çizgi yerleştirilemez.
+Ve yarım çember açısı herhangi bir dar doğrusal açıdan büyüktür ve kalan (açı) (herhangi bir dar doğrusal açıdan) daha küçüktür.
 
-Let {ABC circle D} be a circle around the center {D point} and the diameter {AB line}.
-I say that the (straight-line) drawn from {A point}, at right-angles to {AB line} [Prop. 1.11], from its end, will fall outside the circle.
+{ABC circle D} merkezi {D point} ve çapı {AB line} olan bir çember olsun.
+Diyorum ki {A point}'dan, ucundan, {AB line}'ye dik açıyla çizilen (düz çizgi) [Prop. 1.11] çemberin dışına düşecektir.
 
-For (if) not then, if possible, let it fall inside, like {CA line} (in the figure), and let {DC line} have been joined.
+Çünkü (eğer) değilse, eğer mümkünse, (şekildeki) {CA line} gibi içeri düşsün ve {DC line} birleştirilmiş olsun.
 
-Since {DA line} is equal to {DC line}, angle {DAC angle} is also equal to angle {ACD angle} [Prop. 1.5].
-And {DAC angle} (is) a right-angle.
-Thus, {ACD angle} (is) also a right-angle.
-So, in triangle {ACD polygon}, the two angles {DAC angle} and {ACD angle} are equal to two right-angles.
-The very thing is impossible [Prop. 1.17].
-Thus, the (straight-line) drawn from point {A point}, at right-angles to {BA line}, will not fall inside the circle.
-So, similarly, we can show that neither (will it fall) on the circumference.
-Thus, (it will fall) outside (the circle).
+{DA line} {DC line}'ye eşit olduğu için, {DAC angle} açısı da {ACD angle} açısına eşittir [Prop. 1.5].
+Ve {DAC angle} bir dik açıdır.
+Böylece, {ACD angle} de bir dik açıdır.
+Dolayısıyla, {ACD polygon} üçgeninde iki açı {DAC angle} ve {ACD angle} iki dik açıya eşittir.
+Tam olarak bu imkansızdır [Prop. 1.17].
+Böylece, {A point} noktasından {BA line}'ya dik açıyla çizilen (düz çizgi) çemberin içine düşmeyecektir.
+Dolayısıyla, benzer şekilde, çevre üzerine de (düşmeyeceğini) gösterebiliriz.
+Böylece, (çemberin) dışına (düşecektir).
 
-Let it fall like {AE line} (in the figure).
-So, I say that another straight-line cannot be inserted into the space between the straight-line {AE line} and the circumference {CHA arcc D}.
+(Şekildeki) {AE line} gibi düşsün.
+Dolayısıyla diyorum ki {AE line} düz çizgisi ile {CHA arcc D} çevresi arasındaki boşluğa başka bir düz çizgi yerleştirilemez.
 
-For, if possible, let it be inserted like {FA line} (in the figure), and let {DG line} have been drawn from point {D point}, perpendicular to {FA line} [Prop. 1.12].
-And since {AGD angle} is a right-angle, and {DAG angle} (is) less than a right-angle, {AD line} (is) thus greater than {DG line} [Prop. 1.19].
-And {DA line} (is) equal to {DH line}.
-Thus, {DH line} (is) greater than {DG line}, the lesser than the greater.
-The very thing is impossible.
-Thus, another straight-line cannot be inserted into the space between the straight-line ({AE line}) and the circumference.
+Çünkü eğer mümkünse, (şekildeki) {FA line} gibi yerleştirilmiş olsun ve {D point} noktasından {FA line}'ya dik olarak {DG line} çizilmiş olsun [Prop. 1.12].
+Ve {AGD angle} bir dik açı olduğu ve {DAG angle} bir dik açıdan küçük olduğu için, {AD line} böylece {DG line}'den büyüktür [Prop. 1.19].
+Ve {DA line} {DH line}'ye eşittir.
+Böylece, {DH line} {DG line}'den büyüktür, küçük büyükten.
+Tam olarak bu imkansızdır.
+Böylece, düz çizgi ({AE line}) ile çevre arasındaki boşluğa başka bir düz çizgi yerleştirilemez.
 
-And I also say that the semi-circular angle contained by the straight-line {BA line} and the circumference {CHA arcc D} is greater than any acute rectilinear angle whatsoever, and the remaining (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line} is less than any acute rectilinear angle whatsoever.
+Ve ayrıca diyorum ki {BA line} düz çizgisi ve {CHA arcc D} çevresi tarafından içerilen yarım çember açısı herhangi bir dar doğrusal açıdan büyüktür ve {CHA arcc D} çevresi ve {AE line} düz çizgisi tarafından içerilen kalan (açı) herhangi bir dar doğrusal açıdan küçüktür.
 
-For if any rectilinear angle is greater than the (angle) contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}, then a straight-line can be inserted into the space between the circumference {CHA arcc D} and the straight-line {AE line}---anything which will make (an angle) contained by straight-lines greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, or less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.
-But (such a straight-line) cannot be inserted.
-Thus, an acute (angle) contained by straight-lines cannot be greater than the angle contained by the straight-line {BA line} and the circumference {CHA arcc D}, neither (can it be) less than the (angle) contained by the circumference {CHA arcc D} and the straight-line {AE line}.
+Çünkü eğer herhangi bir doğrusal açı {BA line} düz çizgisi ve {CHA arcc D} çevresi tarafından içerilen (açıdan) büyük veya {CHA arcc D} çevresi ve {AE line} düz çizgisi tarafından içerilen (açıdan) küçük ise, o zaman {CHA arcc D} çevresi ve {AE line} düz çizgisi arasındaki boşluğa bir düz çizgi yerleştirilebilir---düz çizgiler tarafından içerilen (bir açı) {BA line} düz çizgisi ve {CHA arcc D} çevresi tarafından içerilen açıdan büyük veya {CHA arcc D} çevresi ve {AE line} düz çizgisi tarafından içerilen (açıdan) küçük yapacak herhangi bir şey.
+Ama (böyle bir düz çizgi) yerleştirilemez.
+Böylece, düz çizgiler tarafından içerilen dar bir (açı) {BA line} düz çizgisi ve {CHA arcc D} çevresi tarafından içerilen açıdan büyük olamaz, {CHA arcc D} çevresi ve {AE line} düz çizgisi tarafından içerilen (açıdan) küçük de (olamaz).
 
-Corollary
+Sonuç
 
-So, from this, (it is) manifest that a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [and that the straight-line touches the circle at a single point, inasmuch as it was also shown that a (straight-line) meeting (the circle) at two (points) falls inside it [Prop. 3.2] ].
-(Which is) the very thing it was required to show.
+Dolayısıyla, bundan, bir çemberin çapına, ucundan dik açıyla çizilen (düz çizginin) çembere teğet olduğu açıktır [ve düz çizginin çembere tek bir noktada teğet olduğu, (çemberi) iki (noktada) karşılayan (bir düz çizginin) onun içine düştüğünün de gösterilmiş olmasıyla [Prop. 3.2]].
+(Gösterilmesi gereken tam olarak budur.)
+

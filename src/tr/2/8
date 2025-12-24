@@ -1,38 +1,38 @@
-If a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).
+Eğer bir düz çizgi rastgele kesilmişse, o zaman bütün (düz çizgi) ve parçalardan biri tarafından içerilen dikdörtgenin dört katı artı kalan parça üzerindeki kare, bütün ve eski parça üzerinde tek bir (tam düz çizgi) olarak tanımlanan kareye eşittir.
 
-For let any straight-line {AB line} have been cut, at random, at point {C point}.
-I say that four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the square described on {AB line} and {BC line}, as on one (complete straight-line).
+Çünkü herhangi bir {AB line} düz çizgisi {C point} noktasında rastgele kesilmiş olsun.
+Diyorum ki {AB line} ve {BC line} tarafından içerilen dikdörtgenin dört katı artı {AC line} üzerindeki kare, {AB line} ve {BC line} üzerinde tek bir (tam düz çizgi) olarak tanımlanan kareye eşittir.
 
-For let {BD line} have been produced in a straight-line [with the straight-line {AB line}], and let {BD line} be made equal to {CB line} [Prop. 1.3],
-and let the square {AEFD polygon} have been described on {AD line} [Prop. 1.46],
-and let the (rest of the) figure have been drawn double.
+Çünkü {BD line} [{AB line} düz çizgisiyle] bir doğru üzerinde uzatılmış olsun ve {BD line} {CB line}'ye eşit yapılmış olsun [Prop. 1.3],
+ve {AD line} üzerine {AEFD polygon} karesi çizilmiş olsun [Prop. 1.46],
+ve şeklin (geri kalanı) iki kat çizilmiş olsun.
 
-Therefore, since {CB line} is equal to {BD line}, but {CB line} is equal to {GK line} [Prop. 1.34], and {BD line} to {KN line} [Prop. 1.34], {GK line} is thus also equal to {KN line}.
-So, for the same (reasons), {QR line} is equal to {RP line}.
-And since {BC line} is equal to {BD line}, and {GK line} to {KN line}, (square) {CK polygon} is thus also equal to (square) {KD polygon}, and (square) {GR polygon} to (square) {RN polygon} [Prop. 1.36].
-But, (square) {CK polygon} is equal to (square) {RN polygon}.
-For (they are) complements in the parallelogram {CP polygon} [Prop. 1.43].
-Thus, (square) {KD polygon} is also equal to (square) {GR polygon}.
-Thus, the four (squares) {DK polygon}, {CK polygon}, {GR polygon}, and {RN polygon} are equal to one another.
-Thus, the four (taken together) are quadruple (square) {CK polygon}.
-Again, since {CB line} is equal to {BD line}, but {BD line} (is) equal to {BK line}---that is to say, {CG line}--- and {CB line} is equal to {GK line}---that is to say, {GQ line}--- {CG line} is thus also equal to {GQ line}.
-And since {CG line} is equal to {GQ line}, and {QR line} to {RP line}, (rectangle) {AG polygon} is also equal to (rectangle) {MQ polygon}, and (rectangle) {QL polygon} to (rectangle) {RF polygon} [Prop. 1.36].
-But, (rectangle) {MQ polygon} is equal to (rectangle) {QL polygon}.
-For (they are) complements in the parallelogram {ML polygon} [Prop. 1.43].
-Thus, (rectangle) {AG polygon} is also equal to (rectangle) {RF polygon}.
-Thus, the four (rectangles) {AG polygon}, {MQ polygon}, {QL polygon}, and {RF polygon} are equal to one another.
-Thus, the four (taken together) are quadruple (rectangle) {AG polygon}.
-And it was also shown that the four (squares) {CK polygon}, {KD polygon}, {GR polygon}, and {RN polygon} (taken together are) quadruple (square) {CK polygon}.
-Thus, the eight (figures taken together), which comprise the gnomon {STU given}, are quadruple (rectangle) {AK polygon}.
-And since {AK polygon} is the (rectangle contained) by {AB line} and {BD line}, for {BK line} (is) equal to {BD line}, four times the (rectangle contained) by {AB line} and {BD line} is quadruple (rectangle) {AK polygon}.
-But the gnomon {STU given} was also shown (to be equal to) quadruple (rectangle) {AK polygon}.
-Thus, four times the (rectangle contained) by {AB line} and {BD line} is equal to the gnomon {STU given}.
-Let {OH polygon}, which is equal to the square on {AC line}, have been added to both.
-Thus, four times the rectangle contained by {AB line} and {BD line}, plus the square on {AC line}, is equal to the gnomon {STU given}, and the (square) {OH polygon}.
-But, the gnomon {STU given} and the (square) {OH polygon} is (equivalent to) the whole square {AEFD polygon}, which is on {AD line}.
-Thus, four times the (rectangle contained) by {AB line} and {BD line}, plus the (square) on {AC line}, is equal to the square on {AD line}.
-And {BD line} (is) equal to {BC line}.
-Thus, four times the rectangle contained by {AB line} and {BC line}, plus the square on {AC line}, is equal to the (square) on {AD line}, that is to say the square described on {AB line} and {BC line}, as on one (complete straight-line).
+Dolayısıyla, {CB line} {BD line}'ye eşit olduğu için, ama {CB line} {GK line}'ye [Prop. 1.34] ve {BD line} {KN line}'ye [Prop. 1.34] eşit olduğu için, {GK line} de {KN line}'ye eşittir.
+Dolayısıyla, aynı (nedenlerle), {QR line} {RP line}'ye eşittir.
+Ve {BC line} {BD line}'ye ve {GK line} {KN line}'ye eşit olduğu için, (kare) {CK polygon} de (kare) {KD polygon}'ye ve (kare) {GR polygon} (kare) {RN polygon}'ye eşittir [Prop. 1.36].
+Ama (kare) {CK polygon} (kare) {RN polygon}'ye eşittir.
+Çünkü (bunlar) {CP polygon} paralelkenarındaki tamamlayıcılardır [Prop. 1.43].
+Böylece, (kare) {KD polygon} da (kare) {GR polygon}'ye eşittir.
+Böylece, dört (kare) {DK polygon}, {CK polygon}, {GR polygon} ve {RN polygon} birbirine eşittir.
+Böylece, dördü (birlikte alındığında) (kare) {CK polygon}'nın dört katıdır.
+Yine, {CB line} {BD line}'ye eşit olduğu için, ama {BD line} {BK line}'ye---yani {CG line}'ye---eşit olduğu için ve {CB line} {GK line}'ye---yani {GQ line}'ya---eşit olduğu için, {CG line} de {GQ line}'ya eşittir.
+Ve {CG line} {GQ line}'ya ve {QR line} {RP line}'ye eşit olduğu için, (dikdörtgen) {AG polygon} da (dikdörtgen) {MQ polygon}'ya ve (dikdörtgen) {QL polygon} (dikdörtgen) {RF polygon}'ye eşittir [Prop. 1.36].
+Ama (dikdörtgen) {MQ polygon} (dikdörtgen) {QL polygon}'ye eşittir.
+Çünkü (bunlar) {ML polygon} paralelkenarındaki tamamlayıcılardır [Prop. 1.43].
+Böylece, (dikdörtgen) {AG polygon} da (dikdörtgen) {RF polygon}'ye eşittir.
+Böylece, dört (dikdörtgen) {AG polygon}, {MQ polygon}, {QL polygon} ve {RF polygon} birbirine eşittir.
+Böylece, dördü (birlikte alındığında) (dikdörtgen) {AG polygon}'nin dört katıdır.
+Ve aynı zamanda dört (kare) {CK polygon}, {KD polygon}, {GR polygon} ve {RN polygon}'nin (birlikte alındığında) (kare) {CK polygon}'nın dört katı olduğu da gösterilmiştir.
+Böylece, {STU given} gnomonunu oluşturan sekiz (şekil birlikte alındığında) (dikdörtgen) {AK polygon}'nın dört katıdır.
+Ve {AK polygon} {AB line} ve {BD line} tarafından (içerilen dikdörtgen) olduğu için, çünkü {BK line} {BD line}'ye eşittir, {AB line} ve {BD line} tarafından (içerilen dikdörtgenin) dört katı (dikdörtgen) {AK polygon}'nın dört katıdır.
+Ama {STU given} gnomonunun da (dikdörtgen) {AK polygon}'nın dört katına (eşit olduğu) gösterilmiştir.
+Böylece, {AB line} ve {BD line} tarafından (içerilen dikdörtgenin) dört katı {STU given} gnomonuna eşittir.
+{AC line} üzerindeki kareye eşit olan {OH polygon} her ikisine de eklenmiş olsun.
+Böylece, {AB line} ve {BD line} tarafından içerilen dikdörtgenin dört katı artı {AC line} üzerindeki kare, {STU given} gnomonu ve (kare) {OH polygon}'ye eşittir.
+Ama {STU given} gnomonu ve (kare) {OH polygon} {AD line} üzerindeki bütün {AEFD polygon} karesine (denktir).
+Böylece, {AB line} ve {BD line} tarafından (içerilen dikdörtgenin) dört katı artı {AC line} üzerindeki (kare), {AD line} üzerindeki kareye eşittir.
+Ve {BD line} {BC line}'ye eşittir.
+Böylece, {AB line} ve {BC line} tarafından içerilen dikdörtgenin dört katı artı {AC line} üzerindeki kare, {AD line} üzerindeki (kareye), yani {AB line} ve {BC line} üzerinde tek bir (tam düz çizgi) olarak tanımlanan kareye eşittir.
 
-Thus, if a straight-line is cut at random then four times the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), plus the square on the remaining piece, is equal to the square described on the whole and the former piece, as on one (complete straight-line).
-(Which is) the very thing it was required to show.
+Böylece, eğer bir düz çizgi rastgele kesilmişse, o zaman bütün (düz çizgi) ve parçalardan biri tarafından içerilen dikdörtgenin dört katı artı kalan parça üzerindeki kare, bütün ve eski parça üzerinde tek bir (tam düz çizgi) olarak tanımlanan kareye eşittir.
+(Gösterilmesi gereken tam olarak budur.)

@@ -1,16 +1,17 @@
-If two circles touch one another then they will not have the same center.
+Eğer iki çember birbirine teğet ise, o zaman aynı merkeze sahip olmayacaklardır.
 
-For let the two circles {ABC circle G} and {CDE circle F} touch one another at point {C point}.
-I say that they will not have the same center.
+Çünkü iki çember {ABC circle G} ve {CDE circle F} {C point} noktasında birbirine teğet olsun.
+Diyorum ki aynı merkeze sahip olmayacaklardır.
 
-For, if possible, let {F point} be (the common center), and let {FC line} have been joined, and let {FEB line} have been drawn through (the two circles), at random.
+Çünkü eğer mümkünse, {F point} (ortak merkez) olsun ve {FC line} birleştirilmiş olsun ve {FEB line} (iki çember) boyunca rastgele çizilmiş olsun.
 
-Therefore, since point {F point} is the center of the circle {ABC circle G}, {FC line} is equal to {FB line}.
-Again, since point {F point} is the center of the circle {CDE circle F}, {FC line} is equal to {FE line}.
-But {FC line} was shown (to be) equal to {FB line}.
-Thus, {FE line} is also equal to {FB line}, the lesser to the greater.
-The very thing is impossible.
-Thus, point {F point} is not the (common) center of the circles {ABC circle G} and {CDE circle F}.
+Dolayısıyla, {F point} noktası {ABC circle G} çemberinin merkezi olduğu için, {FC line} {FB line}'ye eşittir.
+Yine, {F point} noktası {CDE circle F} çemberinin merkezi olduğu için, {FC line} {FE line}'ye eşittir.
+Ama {FC line}'nin {FB line}'ye eşit olduğu gösterilmişti.
+Böylece, {FE line} de {FB line}'ye eşittir, küçük büyüğe.
+Tam olarak bu imkansızdır.
+Böylece, {F point} noktası {ABC circle G} ve {CDE circle F} çemberlerinin (ortak) merkezi değildir.
 
-Thus, if two circles touch one another then they will not have the same center.
-(Which is) the very thing it was required to show.
+Böylece, eğer iki çember birbirine teğet ise, o zaman aynı merkeze sahip olmayacaklardır.
+(Gösterilmesi gereken tam olarak budur.)
+

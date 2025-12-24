@@ -8,7 +8,7 @@ Ama değilse, {B point} noktasından {CD line} düz çizgisine dik olarak {BE li
 Böylece, {CBE angle} ve {EBD angle} iki dik açıdır.
 Ve {CBE angle} iki açı {CBA angle} ve {ABE angle}'ye eşit olduğu için, her ikisine de {EBD angle} eklenmiş olsun.
 Böylece, {CBE angle} ve {EBD angle} açılarının (toplamı) üç açının (toplamına) {CBA angle}, {ABE angle} ve {EBD angle} eşittir [C.N. 2].
-Yine, {DBA angle} iki açı {DBE angle} ve {EBA angle}'ye eşit olduğu için, her ikisine de {ABC angle} eklenmiş olsun.
+Yine, {DBA angle} iki açı {DBE angle} ve {EBA angle}'ya eşit olduğu için, her ikisine de {ABC angle} eklenmiş olsun.
 Böylece, {DBA angle} ve {ABC angle} açılarının (toplamı) üç açının (toplamına) {DBE angle}, {EBA angle} ve {ABC angle} eşittir [C.N. 2].
 Ama {CBE angle} ve {EBD angle}'nin (toplamı) aynı üç açının (toplamına) eşit olduğu da gösterilmişti.
 Ve aynı şeye eşit olan şeyler birbirine de eşittir [C.N. 1].

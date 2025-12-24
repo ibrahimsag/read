@@ -39,8 +39,8 @@ Ve {BH line} {EF line}'ye eşit olduğu ve {AB line} {DE line}'ye eşit olduğu 
 Ve onlar tarafından sınırlanan açılar da eşittir.
 Böylece, taban {AH line} taban {DF line}'ye eşit olacak ve üçgen {ABH polygon} üçgen {DEF polygon}'ye eşit olacak ve eşit kenarlar tarafından karşılanan kalan açılar karşılık gelen kalan açılara eşit olacak [Prop. 1.4].
 Böylece, açı {BHA angle} {EFD angle}'ye eşittir.
-Ama, {EFD angle} {BCA angle}'ye eşittir.
-Yani, {AHC polygon} üçgeni için dış açı {BHA angle} iç ve karşıt açı {BCA angle}'ye eşittir.
+Ama, {EFD angle} {BCA angle}'ya eşittir.
+Yani, {AHC polygon} üçgeni için dış açı {BHA angle} iç ve karşıt açı {BCA angle}'ya eşittir.
 Bu imkansızdır [Prop. 1.16].
 Böylece, {BC line} {EF line}'den farklı değildir.
 Böylece, eşittir.

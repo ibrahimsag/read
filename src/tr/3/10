@@ -1,17 +1,18 @@
-A circle does not cut a(nother) circle at more than two points.
+Bir çember (başka bir) çemberi ikiden fazla noktada kesmez.
 
-For, if possible, let the circle {ABC circle P} cut the circle {DEF given} at more than two points, {B point}, {G point}, {F point}, and {H point}.
-And {BH line} and {BG line} being joined, let them (then) have been cut in half at points {K point} and {L point} (respectively).
-And {KC line} and {LM line} being drawn at right-angles to {BH line} and {BG line} from {K point} and {L point} (respectively) [Prop. 1.11], let them (then) have been drawn through to points {A point} and {E point} (as {CA line} and {ME line}, respectively).
+Çünkü eğer mümkünse, {ABC circle P} çemberi {DEF given} çemberini ikiden fazla noktada, {B point}, {G point}, {F point} ve {H point}'de kessin.
+Ve {BH line} ve {BG line} birleştirilerek, (sonra) sırasıyla {K point} ve {L point} noktalarında yarıya bölünmüş olsun.
+Ve {K point} ve {L point}'den sırasıyla {BH line} ve {BG line}'ye dik açıyla {KC line} ve {LM line} çizilerek [Prop. 1.11], (sonra) sırasıyla {A point} ve {E point} noktalarına kadar ({CA line} ve {ME line} olarak) çizilmiş olsun.
 
-Therefore, since in circle {ABC circle P} some straight-line {AC line} cuts some (other) straight-line {BH line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {AC line} [Prop. 3.1 corr.].
-Again, since in the same circle {ABC line} some straight-line {NO line} cuts some (other straight-line) {BG line} in half, and at right-angles, the center of circle {ABC circle P} is thus on {NO line} [Prop. 3.1 corr.].
-And it was also shown (to be) on {AC line}.
-And the straight-lines {AC line} and {NO line} meet at no other (point) than {P point}.
-Thus, point {P point} is the center of circle {ABC circle P}.
-So, similarly, we can show that {P point} is also the center of circle {DEF given}.
-Thus, two circles cutting one another, {ABC circle P} and {DEF given}, have the same center {P point}.
-The very thing is impossible [Prop. 3.5].
+Dolayısıyla, {ABC circle P} çemberinde bir {AC line} düz çizgisi (başka) bir {BH line} düz çizgisini yarıya ve dik açıyla kestiği için, {ABC circle P} çemberinin merkezi böylece {AC line} üzerindedir [Prop. 3.1 sonuç].
+Yine, aynı {ABC line} çemberinde bir {NO line} düz çizgisi (başka bir düz çizgi) {BG line}'yi yarıya ve dik açıyla kestiği için, {ABC circle P} çemberinin merkezi böylece {NO line} üzerindedir [Prop. 3.1 sonuç].
+Ve {AC line} üzerinde olduğu da gösterilmişti.
+Ve {AC line} ve {NO line} düz çizgileri {P point}'den başka hiçbir (noktada) karşılaşmaz.
+Böylece, {P point} noktası {ABC circle P} çemberinin merkezidir.
+Dolayısıyla, benzer şekilde, {P point}'nin {DEF given} çemberinin de merkezi olduğunu gösterebiliriz.
+Böylece, birbirini kesen iki çember {ABC circle P} ve {DEF given} aynı merkez {P point}'ye sahiptir.
+Tam olarak bu imkansızdır [Prop. 3.5].
 
-Thus, a circle does not cut a(nother) circle at more than two points.
-(Which is) the very thing it was required to show.
+Böylece, bir çember (başka bir) çemberi ikiden fazla noktada kesmez.
+(Gösterilmesi gereken tam olarak budur.)
+

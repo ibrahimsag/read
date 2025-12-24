@@ -1,18 +1,19 @@
-In equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.
+Eşit çemberlerde, eşit düz çizgiler eşit çevreler keser, büyük (çevre) büyüğe ve küçük küçüğe (eşit olmak üzere).
 
-Let {ABC circle K} and {DEF circle L} be equal circles, and let {AB line} and {DE line} be equal straight-lines in these circles, cutting off the greater circumferences {ACB arc K} and {DFE arc L}, and the lesser (circumferences) {AGB arcc K} and {DHE arcc L} (respectively).
-I say that the greater circumference {ACB arc K} is equal to the greater circumference {DFE arc L}, and the lesser circumference {AGB arcc K} to (the lesser) {DHE arcc L}.
+{ABC circle K} ve {DEF circle L} eşit çemberler olsun ve bu çemberlerde {AB line} ve {DE line} eşit düz çizgiler olsun; sırasıyla büyük çevreler {ACB arc K} ve {DFE arc L}'yi ve küçük (çevreler) {AGB arcc K} ve {DHE arcc L}'yi kesenler.
+Diyorum ki büyük çevre {ACB arc K} büyük çevre {DFE arc L}'ye ve küçük çevre {AGB arcc K} (küçük) {DHE arcc L}'ye eşittir.
 
-For let the centers of the circles, {K point} and {L point}, have been found [Prop. 3.1], and let {AK line}, {KB line}, {DL line}, and {LE line} have been joined.
+Çünkü çemberlerin merkezleri {K point} ve {L point} bulunmuş olsun [Prop. 3.1] ve {AK line}, {KB line}, {DL line} ve {LE line} birleştirilmiş olsun.
 
-And since ({ABC circle K} and {DEF circle L}) are equal circles, their radii are also equal [Def. 3.1].
-So the two (straight-lines) {AK line}, {KB line} are equal to the two (straight-lines) {DL line}, {LE line} (respectively).
-And the base {AB line} (is) equal to the base {DE line}.
-Thus, angle {AKB angle} is equal to angle {DLE angle} [Prop. 1.8].
-And equal angles stand upon equal circum-ferences, when they are at the centers [Prop. 3.26].
-Thus, circumference {AGB arcc K} (is) equal to {DHE arcc L}.
-And the whole circle {ABC circle K} is also equal to the whole circle {DEF circle L}.
-Thus, the remaining circumference {ACB arc K} is also equal to the remaining circumference {DFE arc L}.
+Ve ({ABC circle K} ve {DEF circle L}) eşit çemberler olduğu için, yarıçapları da eşittir [Def. 3.1].
+Dolayısıyla iki (düz çizgi) {AK line}, {KB line} sırasıyla iki (düz çizgi) {DL line}, {LE line}'ye eşittir.
+Ve taban {AB line} taban {DE line}'ye eşittir.
+Böylece, {AKB angle} açısı {DLE angle} açısına eşittir [Prop. 1.8].
+Ve eşit açılar, merkezlerde olduklarında, eşit çevreler üzerinde durur [Prop. 3.26].
+Böylece, {AGB arcc K} çevresi {DHE arcc L}'ye eşittir.
+Ve {ABC circle K} çemberinin tamamı da {DEF circle L} çemberinin tamamına eşittir.
+Böylece, kalan {ACB arc K} çevresi de kalan {DFE arc L} çevresine eşittir.
 
-Thus, in equal circles, equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser.
-(Which is) the very thing it was required to show.
+Böylece, eşit çemberlerde, eşit düz çizgiler eşit çevreler keser, büyük (çevre) büyüğe ve küçük küçüğe (eşit olmak üzere).
+(Gösterilmesi gereken tam olarak budur.)
+

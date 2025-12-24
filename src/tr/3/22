@@ -1,21 +1,22 @@
-For quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.
+Çemberlerin içindeki dörtgenler için, karşıt açıların (toplamı) iki dik açıya eşittir.
 
-Let {ABCD circle E} be a circle, and let {ABCD polygon} be a quadrilateral within it.
-I say that the (sum of the) opposite angles is equal to two right-angles.
+{ABCD circle E} bir çember olsun ve {ABCD polygon} onun içinde bir dörtgen olsun.
+Diyorum ki karşıt açıların (toplamı) iki dik açıya eşittir.
 
-Let {AC line} and {BD line} have been joined.
+{AC line} ve {BD line} birleştirilmiş olsun.
 
-Therefore, since the three angles of any triangle are equal to two right-angles [Prop. 1.32], the three angles {CAB angle}, {ABC angle}, and {BCA angle} of triangle {ABC polygon} are thus equal to two right-angles.
-And {CAB angle} (is) equal to {BDC angle}.
-For they are in the same segment {BADC arcc E} [Prop. 3.21].
-And {ACB angle} (is equal) to {ADB angle}.
-For they are in the same segment {ADCB arcc E} [Prop. 3.21].
-Thus, the whole of {ADC angle} is equal to {BAC angle} and {ACB angle}.
-Let {ABC angle} have been added to both.
-Thus, {ABC angle}, {BAC angle}, and {ACB angle} are equal to {ABC angle} and {ADC angle}.
-But, {ABC angle}, {BAC angle}, and {ACB angle} are equal to two right-angles.
-Thus, {ABC angle} and {ADC angle} are also equal to two right-angles.
-Similarly, we can show that angles {BAD angle} and {DCB angle} are also equal to two right-angles.
+Dolayısıyla, herhangi bir üçgenin üç açısı iki dik açıya eşit olduğu için [Prop. 1.32], {ABC polygon} üçgeninin üç açısı {CAB angle}, {ABC angle} ve {BCA angle} böylece iki dik açıya eşittir.
+Ve {CAB angle} {BDC angle}'ye eşittir.
+Çünkü aynı parça {BADC arcc E}'dedirler [Prop. 3.21].
+Ve {ACB angle} {ADB angle}'ye (eşittir).
+Çünkü aynı parça {ADCB arcc E}'dedirler [Prop. 3.21].
+Böylece, {ADC angle}'nin tamamı {BAC angle} ve {ACB angle}'ye eşittir.
+{ABC angle} her ikisine de eklenmiş olsun.
+Böylece, {ABC angle}, {BAC angle} ve {ACB angle} {ABC angle} ve {ADC angle}'ye eşittir.
+Ama {ABC angle}, {BAC angle} ve {ACB angle} iki dik açıya eşittir.
+Böylece, {ABC angle} ve {ADC angle} de iki dik açıya eşittir.
+Benzer şekilde, {BAD angle} ve {DCB angle} açılarının da iki dik açıya eşit olduğunu gösterebiliriz.
 
-Thus, for quadrilaterals within circles, the (sum of the) opposite angles is equal to two right-angles.
-(Which is) the very thing it was required to show.
+Böylece, çemberlerin içindeki dörtgenler için, karşıt açıların (toplamı) iki dik açıya eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

@@ -1,17 +1,18 @@
-If two circles touch one another internally, and their centers are found, then the straight-line joining their centers, being produced, will fall upon the point of union of the circles.
+Eğer iki çember birbirine içten teğet ise ve merkezleri bulunursa, o zaman merkezlerini birleştiren düz çizgi, uzatıldığında, çemberlerin birleşme noktasına düşecektir.
 
-For let two circles, {ABC circle F} and {ADE circle K}, touch one another internally at point {A point}, and let the center {F point} of circle {ABC circle F} have been found [Prop. 3.1], and (the center) {G point} of (circle) {ADE circle K} [Prop. 3.1].
-I say that the straight-line joining {G point} to {F point}, being produced, will fall on {A point}.
+Çünkü iki çember {ABC circle F} ve {ADE circle K} {A point} noktasında birbirine içten teğet olsun ve {ABC circle F} çemberinin merkezi {F point} bulunmuş olsun [Prop. 3.1] ve ({ADE circle K} çemberinin) (merkezi) {G point} (bulunmuş olsun) [Prop. 3.1].
+Diyorum ki {G point}'yi {F point}'ye birleştiren düz çizgi, uzatıldığında, {A point}'ya düşecektir.
 
-For (if) not then, if possible, let it fall like {FGH line} (in the figure), and let {AF line} and {AG line} have been joined.
+Çünkü (eğer) değilse, eğer mümkünse, (şekildeki) {FGH line} gibi düşsün ve {AF line} ve {AG line} birleştirilmiş olsun.
 
-Therefore, since {AG line} and {GF line} is greater than {FA line}, that is to say {FH line} [Prop. 1.20], let {FG line} have been taken from both.
-Thus, the remainder {AG line} is greater than the remainder {GH line}.
-And {AG line} (is) equal to {GD line}.
-Thus, {GD line} is also greater than {GH line}, the lesser than the greater.
-The very thing is impossible.
-Thus, the straight-line joining {F point} to {G point} will not fall outside (one circle but inside the other).
-Thus, it will fall upon the point of union (of the circles) at point {A point}.
+Dolayısıyla, {AG line} ve {GF line} {FA line}'dan, yani {FH line}'den büyük olduğu için [Prop. 1.20], {FG line} her ikisinden de çıkarılmış olsun.
+Böylece, kalan {AG line} kalan {GH line}'den büyüktür.
+Ve {AG line} {GD line}'ye eşittir.
+Böylece, {GD line} de {GH line}'den büyüktür, küçük büyükten.
+Tam olarak bu imkansızdır.
+Böylece, {F point}'yi {G point}'ye birleştiren düz çizgi (bir çemberin) dışına (ama diğerinin içine) düşmeyecektir.
+Böylece, (çemberlerin) birleşme noktasına {A point} noktasında düşecektir.
 
-Thus, if two circles touch one another internally, [and their centers are found], then the straight-line joining their centers, [being produced], will fall upon the point of union of the circles.
-(Which is) the very thing it was required to show.
+Böylece, eğer iki çember birbirine içten teğet ise, [ve merkezleri bulunursa], o zaman merkezlerini birleştiren düz çizgi, [uzatıldığında], çemberlerin birleşme noktasına düşecektir.
+(Gösterilmesi gereken tam olarak budur.)
+

@@ -1,19 +1,20 @@
-To cut a given circumference in half.
+Verilen bir çevreyi yarıya bölmek.
 
-Let {ADB arc C} be the given circumference.
-So it is required to cut circumference {ADB arc C} in half.
+{ADB arc C} verilen çevre olsun.
+Böylece {ADB arc C} çevresini yarıya bölmek gerekiyor.
 
-Let {AB line} have been joined, and let it have been cut in half at (point) {C point} [Prop. 1.10].
-And let {CD line} have been drawn from point {C point}, at right-angles to {AB line} [Prop. 1.11].
-And let {AD line}, and {DB line} have been joined.
+{AB line} birleştirilmiş olsun ve ({C point} noktasında) yarıya bölünmüş olsun [Prop. 1.10].
+Ve {C point} noktasından {AB line}'ye dik açıyla {CD line} çizilmiş olsun [Prop. 1.11].
+Ve {AD line} ve {DB line} birleştirilmiş olsun.
 
-And since {AC line} is equal to {CB line}, and {CD line} (is) common, the two (straight-lines) {AC line}, {CD line} are equal to the two (straight-lines) {BC line}, {CD line} (respectively).
-And angle {ACD angle} (is) equal to angle {BCD angle}.
-For (they are) each right-angles.
-Thus, the base {AD line} is equal to the base {DB line} [Prop. 1.4].
-And equal straight-lines cut off equal circumferences, the greater (circumference being equal) to the greater, and the lesser to the lesser [Prop. 1.28].
-And the circumferences {AD arc C} and {DB arc C} are each less than a semi-circle.
-Thus, circumference {AD arc C} (is) equal to circumference {DB arc C}.
+Ve {AC line} {CB line}'ye eşit olduğu ve {CD line} (ortak) olduğu için, iki (düz çizgi) {AC line}, {CD line} sırasıyla iki (düz çizgi) {BC line}, {CD line}'ye eşittir.
+Ve {ACD angle} açısı {BCD angle} açısına eşittir.
+Çünkü (her biri) dik açıdır.
+Böylece, taban {AD line} taban {DB line}'ye eşittir [Prop. 1.4].
+Ve eşit düz çizgiler eşit çevreler keser, büyük (çevre) büyüğe ve küçük küçüğe (eşit olmak üzere) [Prop. 1.28].
+Ve {AD arc C} ve {DB arc C} çevrelerinin her biri yarım çemberden küçüktür.
+Böylece, {AD arc C} çevresi {DB arc C} çevresine eşittir.
 
-Thus, the given circumference has been cut in half at point {D point}.
-(Which is) the very thing it was required to do.
+Böylece, verilen çevre {D point} noktasında yarıya bölünmüştür.
+(Yapılması gereken tam olarak budur.)
+

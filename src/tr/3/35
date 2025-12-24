@@ -1,28 +1,29 @@
-If two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
+Bir çemberdeki iki düz çizgi birbirini keserse, o zaman birinin parçaları tarafından içerilen dikdörtgen diğerinin parçaları tarafından içerilen dikdörtgene eşittir.
 
-For let the two straight-lines {AC line} and {BD line}, in the circle {ABCD circle F}, cut one another at point {E point}.
-I say that the rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.
+Çünkü {ABCD circle F} çemberindeki iki düz çizgi {AC line} ve {BD line} {E point} noktasında birbirini kessin.
+Diyorum ki {AE line} ve {EC line} tarafından içerilen dikdörtgen {DE line} ve {EB line} tarafından içerilen dikdörtgene eşittir.
 
-{figure 1}In fact, if {AC line} and {BD line} are through the center (as in the first diagram from the left), so that {E point} is the center of circle {ABCD circle F}, then (it is) clear that, {AE line}, {EC line}, {DE line}, and {EB line} being equal, the rectangle contained by {AE line} and {EC line} is also equal to the rectangle contained by {DE line} and {EB line}.
+{figure 1}Aslında, eğer {AC line} ve {BD line} merkezden geçiyorsa ((soldan) birinci şekildeki gibi), öyle ki {E point} {ABCD circle F} çemberinin merkezidir, o zaman {AE line}, {EC line}, {DE line} ve {EB line} eşit olduğundan, {AE line} ve {EC line} tarafından içerilen dikdörtgenin de {DE line} ve {EB line} tarafından içerilen dikdörtgene eşit olduğu açıktır.
 
-{figure 2}So let {AC line} and {DB line} not be though the center (as in the second diagram from the left), and let the center of {ABCD circle F} have been found [Prop. 3.1], and let it be (at) {F point}.
-And let {FG line} and {FH line} have been drawn from {F point}, perpendicular to the straight-lines {AC line} and {DB line} (respectively) [Prop. 1.12].
-And let {FB line}, {FC line}, and {FE line} have been joined.
+{figure 2}Öyleyse {AC line} ve {DB line} merkezden geçmesin ((soldan) ikinci şekildeki gibi) ve {ABCD circle F}'nin merkezi bulunmuş olsun [Prop. 3.1] ve ({F point}) noktasında olsun.
+Ve {F point}'den sırasıyla {AC line} ve {DB line} düz çizgilerine dik olarak {FG line} ve {FH line} çizilmiş olsun [Prop. 1.12].
+Ve {FB line}, {FC line} ve {FE line} birleştirilmiş olsun.
 
-And since some straight-line, {GF line}, through the center, cuts at right-angles some (other) straight-line, {AC line}, not through the center, then it also cuts it in half [Prop. 3.3].
-Thus, {AG line} (is) equal to {GC line}.
-Therefore, since the straight-line {AC line} is cut equally at {G point}, and unequally at {E point}, the rectangle contained by {AE line} and {EC line} plus the square on {EG line} is thus equal to the (square) on {GC line} [Prop. 2.5].
-Let the (square) on {GF line} have been added [to both].
-Thus, the (rectangle contained) by {AE line} and {EC line} plus the (sum of the squares) on {GE line} and {GF line} is equal to the (sum of the squares) on {CG line} and {GF line}.
-But, the (square) on {FE line} is equal to the (sum of the squares) on {EG line} and {GF line} [Prop. 1.47], and the (square) on {FC line} is equal to the (sum of the squares) on {CG line} and {GF line} [Prop. 1.47].
-Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FC line}.
-And {FC line} (is) equal to {FB line}.
-Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (square) on {FB line}.
-So, for the same (reasons), the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line} is equal to the (square) on {FB line}.
-And the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} was also shown (to be) equal to the (square) on {FB line}.
-Thus, the (rectangle contained) by {AE line} and {EC line} plus the (square) on {FE line} is equal to the (rectangle contained) by {DE line} and {EB line} plus the (square) on {FE line}.
-Let the (square) on {FE line} have been taken from both.
-Thus, the remaining rectangle contained by {AE line} and {EC line} is equal to the rectangle contained by {DE line} and {EB line}.
+Ve merkezden geçen bir {GF line} düz çizgisi, merkezden geçmeyen bir (başka) {AC line} düz çizgisini dik açıyla kestiği için, onu yarıya da böler [Prop. 3.3].
+Böylece, {AG line} {GC line}'ye eşittir.
+Dolayısıyla, {AC line} düz çizgisi {G point}'de eşit ve {E point}'de eşit olmayan şekilde kesilmiş olduğu için, {AE line} ve {EC line} tarafından içerilen dikdörtgen artı {EG line} üzerindeki kare böylece {GC line} üzerindeki (kareye) eşittir [Prop. 2.5].
+{GF line} üzerindeki (kare) [her ikisine de] eklenmiş olsun.
+Böylece, {AE line} ve {EC line} tarafından (içerilen dikdörtgen) artı {GE line} ve {GF line} üzerindeki (karelerin toplamı) {CG line} ve {GF line} üzerindeki (karelerin toplamına) eşittir.
+Ama {FE line} üzerindeki (kare) {EG line} ve {GF line} üzerindeki (karelerin toplamına) eşittir [Prop. 1.47] ve {FC line} üzerindeki (kare) {CG line} ve {GF line} üzerindeki (karelerin toplamına) eşittir [Prop. 1.47].
+Böylece, {AE line} ve {EC line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (kare) {FC line} üzerindeki (kareye) eşittir.
+Ve {FC line} {FB line}'ye eşittir.
+Böylece, {AE line} ve {EC line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (kare) {FB line} üzerindeki (kareye) eşittir.
+Dolayısıyla, aynı (nedenlerle), {DE line} ve {EB line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (kare) {FB line} üzerindeki (kareye) eşittir.
+Ve {AE line} ve {EC line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (karenin) de {FB line} üzerindeki (kareye) eşit olduğu gösterilmişti.
+Böylece, {AE line} ve {EC line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (kare) {DE line} ve {EB line} tarafından (içerilen dikdörtgen) artı {FE line} üzerindeki (kareye) eşittir.
+{FE line} üzerindeki (kare) her ikisinden de çıkarılmış olsun.
+Böylece, kalan {AE line} ve {EC line} tarafından içerilen dikdörtgen {DE line} ve {EB line} tarafından içerilen dikdörtgene eşittir.
 
-Thus, if two straight-lines in a circle cut one another then the rectangle contained by the pieces of one is equal to the rectangle contained by the pieces of the other.
-(Which is) the very thing it was required to show.
+Böylece, bir çemberdeki iki düz çizgi birbirini keserse, o zaman birinin parçaları tarafından içerilen dikdörtgen diğerinin parçaları tarafından içerilen dikdörtgene eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

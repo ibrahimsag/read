@@ -1,25 +1,26 @@
-If some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.
+Eğer bir düz çizgi bir çembere teğet olursa ve teğet noktasından çemberin içine çemberi (ikiye) kesen (başka) bir düz çizgi çizilirse, o zaman (düz çizginin) teğetle yaptığı açılar çemberin ters parçalarındaki açılara eşit olacaktır.
 
-For let some straight-line {EF line} touch the circle {ABCD circle T} at the point {B point}, and let some (other) straight-line {BD line} have been drawn from point {B point} into the circle {ABCD circle T}, cutting it (in two).
-I say that the angles {BD line} makes with the tangent {EF line} will be equal to the angles in the alternate segments of the circle.
-That is to say, that angle {FBD angle} is equal to the angle constructed in segment {BAD arc T}, and angle {EBD angle} is equal to the angle constructed in segment {DCB arc T}.
+Çünkü bir {EF line} düz çizgisi {ABCD circle T} çemberine {B point} noktasında teğet olsun ve {B point} noktasından {ABCD circle T} çemberinin içine onu (ikiye) kesen (başka) bir {BD line} düz çizgisi çizilmiş olsun.
+Diyorum ki {BD line}'nin {EF line} teğetiyle yaptığı açılar çemberin ters parçalarındaki açılara eşit olacaktır.
+Yani, {FBD angle} açısı {BAD arc T} parçasında inşa edilen açıya ve {EBD angle} açısı {DCB arc T} parçasında inşa edilen açıya eşittir.
 
-For let {BA line} have been drawn from {B point}, at right-angles to {EF line} [Prop. 1.11].
-And let the point {C point} have been taken at random on the circumference {BD arcc T}.
-And let {AD line}, {DC line}, and {CB line} have been joined.
+Çünkü {B point}'den {EF line}'ye dik açıyla {BA line} çizilmiş olsun [Prop. 1.11].
+Ve {BD arcc T} çevresi üzerinde rastgele {C point} noktası alınmış olsun.
+Ve {AD line}, {DC line} ve {CB line} birleştirilmiş olsun.
 
-And since some straight-line {EF line} touches the circle {ABCD circle T} at point {B point}, and {BA line} has been drawn from the point of contact, at right-angles to the tangent, the center of circle {ABCD circle T} is thus on {BA line} [Prop. 3.19].
-Thus, {BA line} is a diameter of circle {ABCD circle T}.
-Thus, angle {ADB angle}, being in a semi-circle, is a right-angle [Prop. 3.31].
-Thus, the remaining angles (of triangle {ADB polygon}) {BAD angle} and {ABD angle} are equal to one right-angle [Prop. 1.32].
-And {ABF angle} is also a right-angle.
-Thus, {ABF angle} is equal to {BAD angle} and {ABD angle}.
-Let {ABD angle} have been subtracted from both.
-Thus, the remaining angle {DBF angle} is equal to the angle {BAD angle} in the alternate segment of the circle.
-And since {ABCD polygon} is a quadrilateral in a circle, (the sum of) its opposite angles is equal to two right-angles [Prop. 3.22].
-And {DBF angle} and {DBE angle} is also equal to two right-angles [Prop. 1.13].
-Thus, {DBF angle} and {DBE angle} is equal to {BAD angle} and {BCD angle}, of which {BAD angle} was shown (to be) equal to {DBF angle}.
-Thus, the remaining (angle) {DBE angle} is equal to the angle {DCB angle} in the alternate segment {DCB arc T} of the circle.
+Ve bir {EF line} düz çizgisi {ABCD circle T} çemberine {B point} noktasında teğet olduğu ve teğet noktasından teğete dik açıyla {BA line} çizilmiş olduğu için, {ABCD circle T} çemberinin merkezi böylece {BA line} üzerindedir [Prop. 3.19].
+Böylece, {BA line} {ABCD circle T} çemberinin çapıdır.
+Böylece, yarım çemberde olan {ADB angle} açısı bir dik açıdır [Prop. 3.31].
+Böylece, ({ADB polygon} üçgeninin) kalan açıları {BAD angle} ve {ABD angle} bir dik açıya eşittir [Prop. 1.32].
+Ve {ABF angle} de bir dik açıdır.
+Böylece, {ABF angle} {BAD angle} ve {ABD angle}'ye eşittir.
+{ABD angle} her ikisinden de çıkarılmış olsun.
+Böylece, kalan {DBF angle} açısı çemberin ters parçasındaki {BAD angle} açısına eşittir.
+Ve {ABCD polygon} bir çemberin içindeki bir dörtgen olduğu için, (onun) karşıt açılarının (toplamı) iki dik açıya eşittir [Prop. 3.22].
+Ve {DBF angle} ve {DBE angle} de iki dik açıya eşittir [Prop. 1.13].
+Böylece, {DBF angle} ve {DBE angle} {BAD angle} ve {BCD angle}'ye eşittir; bunlardan {BAD angle}'nin {DBF angle}'ye eşit olduğu gösterilmişti.
+Böylece, kalan ({DBE angle} açısı) çemberin ters parçası {DCB arc T}'deki {DCB angle} açısına eşittir.
 
-Thus, if some straight-line touches a circle, and some (other) straight-line is drawn across, from the point of contact into the circle, cutting the circle (in two), then those angles the (straight-line) makes with the tangent will be equal to the angles in the alternate segments of the circle.
-(Which is) the very thing it was required to show.
+Böylece, eğer bir düz çizgi bir çembere teğet olursa ve teğet noktasından çemberin içine çemberi (ikiye) kesen (başka) bir düz çizgi çizilirse, o zaman (düz çizginin) teğetle yaptığı açılar çemberin ters parçalarındaki açılara eşit olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
+

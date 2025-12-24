@@ -1,29 +1,29 @@
-To construct a square equal to a given rectilinear figure.
+Verilen bir doğrusal şekle eşit bir kare inşa etmek.
 
-Let {A given} be the given rectilinear figure.
-So it is required to construct a square equal to the rectilinear figure {A given}.
+{A given} verilen doğrusal şekil olsun.
+Böylece, doğrusal şekil {A given}'a eşit bir kare inşa etmek gerekiyor.
 
-For let the right-angled parallelogram {BD polygon}, equal to the rectilinear figure {A given}, have been constructed [Prop. 1.45].
-Therefore, if {BE line} is equal to {ED line} then that (which) was prescribed has taken place.
-For the square {BD polygon}, equal to the rectilinear figure {A given}, has been constructed.
-And if not, then one of the (straight-lines) {BE line} or {ED line} is greater (than the other).
-Let {BE line} be greater, and let it have been produced to {F point}, and let {EF line} be made equal to {ED line} [Prop. 1.3].
-And let {BF line} have been cut in half at (point) {G point} [Prop. 1.10].
-And, with center {G point}, and radius one of the (straight-lines) {GB line} or {GF line}, let the semi-circle {BHF given} have been drawn.
-And let {DE line} have been produced to {H point}, and let {GH line} have been joined.
+Çünkü doğrusal şekil {A given}'a eşit dik açılı paralelkenar {BD polygon} inşa edilmiş olsun [Prop. 1.45].
+Dolayısıyla, eğer {BE line} {ED line}'ye eşitse, o zaman belirtilen (şey) gerçekleşmiştir.
+Çünkü doğrusal şekil {A given}'a eşit {BD polygon} karesi inşa edilmiştir.
+Ve eğer değilse, o zaman (düz çizgilerden) {BE line} veya {ED line}'den biri (diğerinden) büyüktür.
+{BE line} büyük olsun ve {F point} noktasına kadar uzatılmış olsun ve {EF line} {ED line}'ye eşit yapılmış olsun [Prop. 1.3].
+Ve {BF line} {G point} (noktasında) yarıya bölünmüş olsun [Prop. 1.10].
+Ve merkezi {G point} ve yarıçapı (düz çizgilerden) {GB line} veya {GF line}'den biri olan {BHF given} yarım çemberi çizilmiş olsun.
+Ve {DE line} {H point} noktasına kadar uzatılmış olsun ve {GH line} birleştirilmiş olsun.
 
-Therefore, since the straight-line {BF line} has been cut--- equally at {G point}, and unequally at {E point}---the rectangle contained by {BE line} and {EF line}, plus the square on {EG line}, is thus equal to the square on {GF line} [Prop. 2.5].
-And {GF line} (is) equal to {GH line}.
-Thus, the (rectangle contained) by {BE line} and {EF line}, plus the (square) on {GE line}, is equal to the (square) on {GH line}.
-And the (sum of the) squares on {HE line} and {EG line} is equal to the (square) on {GH line} [Prop. 1.47].
-Thus, the (rectangle contained) by {BE line} and {EF line}, plus the (square) on {GE line}, is equal to the (sum of the squares) on {HE line} and {EG line}.
-Let the square on {GE line} have been taken from both.
-Thus, the remaining rectangle contained by {BE line} and {EF line} is equal to the square on {EH line}.
-But, {BD polygon} is the (rectangle contained) by {BE line} and {EF line}.
-For {EF line} (is) equal to {ED line}.
-Thus, the parallelogram {BD polygon} is equal to the square on {HE line}.
-And {BD polygon} (is) equal to the rectilinear figure {A given}.
-Thus, the rectilinear figure {A given} is also equal to the square (which) can be described on {EH line}.
+Dolayısıyla, {BF line} düz çizgisi {G point}'de eşit ve {E point}'de eşit olmayan şekilde kesilmiş olduğu için, {BE line} ve {EF line} tarafından içerilen dikdörtgen artı {EG line} üzerindeki kare, {GF line} üzerindeki kareye eşittir [Prop. 2.5].
+Ve {GF line} {GH line}'ye eşittir.
+Böylece, {BE line} ve {EF line} tarafından (içerilen dikdörtgen) artı {GE line} üzerindeki (kare), {GH line} üzerindeki (kareye) eşittir.
+Ve {HE line} ve {EG line} üzerindeki (karelerin toplamı) {GH line} üzerindeki (kareye) eşittir [Prop. 1.47].
+Böylece, {BE line} ve {EF line} tarafından (içerilen dikdörtgen) artı {GE line} üzerindeki (kare), {HE line} ve {EG line} üzerindeki (karelerin toplamına) eşittir.
+{GE line} üzerindeki kare her ikisinden de çıkarılmış olsun.
+Böylece, kalan {BE line} ve {EF line} tarafından içerilen dikdörtgen {EH line} üzerindeki kareye eşittir.
+Ama {BD polygon} {BE line} ve {EF line} tarafından (içerilen dikdörtgendir).
+Çünkü {EF line} {ED line}'ye eşittir.
+Böylece, paralelkenar {BD polygon} {HE line} üzerindeki kareye eşittir.
+Ve {BD polygon} doğrusal şekil {A given}'a eşittir.
+Böylece, doğrusal şekil {A given} da {EH line} üzerinde tanımlanabilecek kareye eşittir.
 
-Thus, a square---(namely), that (which) can be described on {EH line}---has been constructed, equal to the given rectilinear figure {A given}.
-(Which is) the very thing it was required to do.
+Böylece, bir kare---yani {EH line} üzerinde tanımlanabilecek (kare)---verilen doğrusal şekil {A given}'a eşit olarak inşa edilmiştir.
+(Yapılması gereken tam olarak budur.)

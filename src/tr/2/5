@@ -1,26 +1,26 @@
-If a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).
+Eğer bir düz çizgi eşit ve eşit olmayan (parçalara) kesilmişse, o zaman bütünün (düz çizginin) eşit olmayan parçaları tarafından içerilen dikdörtgen artı (eşit ve eşit olmayan) parçalar arasındaki (fark) üzerindeki kare, yarısının (düz çizginin) üzerindeki kareye eşittir.
 
-For let any straight-line {AB line} have been cut---equally at {C point}, and unequally at {D point}.
-I say that the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.
+Çünkü herhangi bir {AB line} düz çizgisi {C point} noktasında eşit ve {D point} noktasında eşit olmayan şekilde kesilmiş olsun.
+Diyorum ki {AD line} ve {DB line} tarafından içerilen dikdörtgen artı {CD line} üzerindeki kare, {CB line} üzerindeki kareye eşittir.
 
-For let the square {CEFB polygon} have been described on {CB line} [Prop. 1.46],
-and let {BE line} have been joined,
-and let {DG line} have been drawn through {D point}, parallel to either of {CE line} or {BF line} [Prop. 1.31],
-and again let {KM line} have been drawn through {H point}, parallel to either of {AB line} or {EF line} [Prop. 1.31],
-and again let {AK line} have been drawn through {A point}, parallel to either of {CL line} or {BM line} [Prop. 1.31].
-And since the complement {CH polygon} is equal to the complement {HF polygon} [Prop. 1.43], let the (square) {DM polygon} have been added to both.
-Thus, the whole (rectangle) {CM polygon} is equal to the whole (rectangle) {DF polygon}.
-But, (rectangle) {CM polygon} is equal to (rectangle) {AL polygon}, since {AC line} is also equal to {CB line} [Prop. 1.36].
-Thus, (rectangle) {AL polygon} is also equal to (rectangle) {DF polygon}.
-Let (rectangle) {CH polygon} have been added to both.
-Thus, the whole (rectangle) {AH polygon} is equal to the gnomon {NOP given}.
-But, {AH polygon} is the (rectangle contained) by {AD line} and {DB line}.
-For {DH line} (is) equal to {DB line}.
-Thus, the gnomon {NOP given} is also equal to the (rectangle contained) by {AD line} and {DB line}.
-Let {LG polygon}, which is equal to the (square) on {CD line}, have been added to both.
-Thus, the gnomon {NOP given} and the (square) {LG polygon} are equal to the rectangle contained by {AD line} and {DB line}, and the square on {CD line}.
-But, the gnomon {NOP given} and the (square) {LG polygon} is (equivalent to) the whole square {CEFB polygon}, which is on {CB line}.
-Thus, the rectangle contained by {AD line} and {DB line}, plus the square on {CD line}, is equal to the square on {CB line}.
+Çünkü {CB line} üzerine {CEFB polygon} karesi çizilmiş olsun [Prop. 1.46],
+ve {BE line} birleştirilmiş olsun,
+ve {D point} noktasından geçen {DG line} {CE line} veya {BF line}'ye paralel olarak çizilmiş olsun [Prop. 1.31],
+ve yine {H point} noktasından geçen {KM line} {AB line} veya {EF line}'ye paralel olarak çizilmiş olsun [Prop. 1.31],
+ve yine {A point} noktasından geçen {AK line} {CL line} veya {BM line}'ye paralel olarak çizilmiş olsun [Prop. 1.31].
+Ve tamamlayıcı {CH polygon} tamamlayıcı {HF polygon}'ye eşit olduğu için [Prop. 1.43], (kare) {DM polygon} her ikisine de eklenmiş olsun.
+Böylece, bütün (dikdörtgen) {CM polygon} bütün (dikdörtgen) {DF polygon}'ye eşittir.
+Ama (dikdörtgen) {CM polygon} (dikdörtgen) {AL polygon}'ye eşittir, çünkü {AC line} de {CB line}'ye eşittir [Prop. 1.36].
+Böylece, (dikdörtgen) {AL polygon} da (dikdörtgen) {DF polygon}'ye eşittir.
+(Dikdörtgen) {CH polygon} her ikisine de eklenmiş olsun.
+Böylece, bütün (dikdörtgen) {AH polygon} {NOP given} gnomonuna eşittir.
+Ama {AH polygon} {AD line} ve {DB line} tarafından (içerilen dikdörtgendir).
+Çünkü {DH line} {DB line}'ye eşittir.
+Böylece, {NOP given} gnomonu da {AD line} ve {DB line} tarafından (içerilen dikdörtgene) eşittir.
+{CD line} üzerindeki (kareye) eşit olan {LG polygon} her ikisine de eklenmiş olsun.
+Böylece, {NOP given} gnomonu ve (kare) {LG polygon} {AD line} ve {DB line} tarafından içerilen dikdörtgen ve {CD line} üzerindeki kareye eşittir.
+Ama {NOP given} gnomonu ve (kare) {LG polygon} {CB line} üzerindeki bütün {CEFB polygon} karesine (denktir).
+Böylece, {AD line} ve {DB line} tarafından içerilen dikdörtgen artı {CD line} üzerindeki kare, {CB line} üzerindeki kareye eşittir.
 
-Thus, if a straight-line is cut into equal and unequal (pieces) then the rectangle contained by the unequal pieces of the whole (straight-line), plus the square on the (difference) between the (equal and unequal) pieces, is equal to the square on half (of the straight-line).
-(Which is) the very thing it was required to show.
+Böylece, eğer bir düz çizgi eşit ve eşit olmayan (parçalara) kesilmişse, o zaman bütünün (düz çizginin) eşit olmayan parçaları tarafından içerilen dikdörtgen artı (eşit ve eşit olmayan) parçalar arasındaki (fark) üzerindeki kare, yarısının (düz çizginin) üzerindeki kareye eşittir.
+(Gösterilmesi gereken tam olarak budur.)

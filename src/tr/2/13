@@ -1,17 +1,17 @@
-In acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
+Dar açılı üçgenlerde, dar açıyı gören kenar üzerindeki kare, dar açıyı içeren kenarlar üzerindeki karelerin (toplamından), dar açı etrafındaki kenarlardan birinin---üzerine bir dik (düz çizginin) düştüğü---ve dik (düz çizgi) tarafından dar açıya doğru (üçgenin) içinde kesilen (düz çizgi) tarafından içerilen (dikdörtgenin) iki katı kadar küçüktür.
 
-Let {ABC polygon} be an acute-angled triangle, having the angle at (point) {B point} acute.
-And let {AD line} have been drawn from point {A point}, perpendicular to {BC line} [Prop. 1.12].
-I say that the square on {AC line} is less than the (sum of the) squares on {CB line} and {BA line}, by twice the rectangle contained by {CB line} and {BD line}.
+{ABC polygon} dar açılı bir üçgen olsun ve {B point} (noktasındaki) açı dar olsun.
+Ve {A point} noktasından {BC line}'ye dik olarak {AD line} çizilmiş olsun [Prop. 1.12].
+Diyorum ki {AC line} üzerindeki kare, {CB line} ve {BA line} üzerindeki karelerin (toplamından), {CB line} ve {BD line} tarafından içerilen dikdörtgenin iki katı kadar küçüktür.
 
-For since the straight-line {CB line} has been cut, at random, at (point) {D point}, the (sum of the) squares on {CB line} and {BD line} is thus equal to twice the rectangle contained by {CB line} and {BD line}, and the square on {DC line} [Prop. 2.7].
-Let the square on {DA line} have been added to both.
-Thus, the (sum of the) squares on {CB line}, {BD line}, and {DA line} is equal to twice the rectangle contained by {CB line} and {BD line}, and the (sum of the) squares on {AD line} and {DC line}.
-But, the (square) on {AB line} (is) equal to the (sum of the squares) on {BD line} and {DA line}.
-For the angle at (point) {D point} is a right-angle [Prop. 1.47].
-And the (square) on {AC line} (is) equal to the (sum of the squares) on {AD line} and {DC line} [Prop. 1.47].
-Thus, the (sum of the squares) on {CB line} and {BA line} is equal to the (square) on {AC line}, and twice the (rectangle contained) by {CB line} and {BD line}.
-So the (square) on {AC line} alone is less than the (sum of the) squares on {CB line} and {BA line} by twice the rectangle contained by {CB line} and {BD line}.
+Çünkü {CB line} düz çizgisi {D point} (noktasında) rastgele kesilmiş olduğu için, {CB line} ve {BD line} üzerindeki karelerin (toplamı), {CB line} ve {BD line} tarafından içerilen dikdörtgenin iki katına ve {DC line} üzerindeki kareye eşittir [Prop. 2.7].
+{DA line} üzerindeki kare her ikisine de eklenmiş olsun.
+Böylece, {CB line}, {BD line} ve {DA line} üzerindeki karelerin (toplamı), {CB line} ve {BD line} tarafından içerilen dikdörtgenin iki katına ve {AD line} ve {DC line} üzerindeki karelerin (toplamına) eşittir.
+Ama {AB line} üzerindeki (kare) {BD line} ve {DA line} üzerindeki (karelerin toplamına) eşittir.
+Çünkü {D point} (noktasındaki) açı bir dik açıdır [Prop. 1.47].
+Ve {AC line} üzerindeki (kare) {AD line} ve {DC line} üzerindeki (karelerin toplamına) eşittir [Prop. 1.47].
+Böylece, {CB line} ve {BA line} üzerindeki (karelerin toplamı), {AC line} üzerindeki (kareye) ve {CB line} ve {BD line} tarafından (içerilen dikdörtgenin) iki katına eşittir.
+Dolayısıyla {AC line} üzerindeki (kare) tek başına, {CB line} ve {BA line} üzerindeki karelerin (toplamından), {CB line} ve {BD line} tarafından içerilen dikdörtgenin iki katı kadar küçüktür.
 
-Thus, in acute-angled triangles, the square on the side subtending the acute angle is less than the (sum of the) squares on the sides containing the acute angle by twice the (rectangle) contained by one of the sides around the acute angle, to which a perpendicular (straight-line) falls, and the (straight-line) cut off inside (the triangle) by the perpendicular (straight-line) towards the acute angle.
-(Which is) the very thing it was required to show.
+Böylece, dar açılı üçgenlerde, dar açıyı gören kenar üzerindeki kare, dar açıyı içeren kenarlar üzerindeki karelerin (toplamından), dar açı etrafındaki kenarlardan birinin---üzerine bir dik (düz çizginin) düştüğü---ve dik (düz çizgi) tarafından dar açıya doğru (üçgenin) içinde kesilen (düz çizgi) tarafından içerilen (dikdörtgenin) iki katı kadar küçüktür.
+(Gösterilmesi gereken tam olarak budur.)

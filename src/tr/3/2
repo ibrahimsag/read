@@ -1,24 +1,25 @@
-If two points are taken at random on the circumference of a circle then the straight-line joining the points will fall inside the circle.
+Bir çemberin çevresi üzerinde rastgele iki nokta alınırsa, o zaman noktaları birleştiren düz çizgi çemberin içine düşecektir.
 
-Let {ABC circle D} be a circle, and let two points {A point} and {B point} have been taken at random on its circumference.
-I say that the straight-line joining {A point} to {B point} will fall inside the circle.
+{ABC circle D} bir çember olsun ve çevresi üzerinde rastgele iki {A point} ve {B point} noktası alınmış olsun.
+Diyorum ki {A point}'yı {B point}'ye birleştiren düz çizgi çemberin içine düşecektir.
 
-For (if) not then, if possible, let it fall outside (the circle), like {AEB given} (in the figure).
-And let the center of the circle {ABC circle D} have been found [Prop. 3.1], and let it be (at point) {D point}.
-And let {DA line} and {DB line} have been joined, and let {DFE line} have been drawn through.
+Çünkü (eğer) değilse, eğer mümkünse, (şekildeki) {AEB given} gibi dışarı düşsün.
+Ve {ABC circle D} çemberinin merkezi bulunmuş olsun [Prop. 3.1] ve ({D point} noktasında) olsun.
+Ve {DA line} ve {DB line} birleştirilmiş olsun ve {DFE line} boyunca çizilmiş olsun.
 
-Therefore, since {DA line} is equal to {DB line}, the angle {DAE given} (is) thus also equal to {DBE given} [Prop. 1.5].
-And since in triangle {AED given} the one side, {AEB given}, has been produced, angle {DEB given} (is) thus greater than {DAE given} [Prop. 1.16].
-And {DAE given} (is) equal to {DBE given} [Prop. 1.5].
-Thus, {DEB given} (is) greater than {DBE given}.
-And the greater angle is subtended by the greater side [Prop. 1.19].
-Thus, {DB line} (is) greater than {DE line}.
-And {DB line} (is) equal to {DF line}.
-Thus, {DF line} (is) greater than {DE line}, the lesser than the greater.
-The very thing is impossible.
-Thus, the straight-line joining {A point} to {B point} will not fall outside the circle.
-So, similarly, we can show that neither (will it fall) on the circumference itself.
-Thus, (it will fall) inside (the circle).
+Dolayısıyla, {DA line} {DB line}'ye eşit olduğu için, {DAE given} açısı da {DBE given}'ye eşittir [Prop. 1.5].
+Ve {AED given} üçgeninde bir kenar olan {AEB given} uzatılmış olduğu için, {DEB given} açısı böylece {DAE given}'den büyüktür [Prop. 1.16].
+Ve {DAE given} {DBE given}'ye eşittir [Prop. 1.5].
+Böylece, {DEB given} {DBE given}'den büyüktür.
+Ve daha büyük açı daha büyük kenar tarafından karşılanır [Prop. 1.19].
+Böylece, {DB line} {DE line}'den büyüktür.
+Ve {DB line} {DF line}'ye eşittir.
+Böylece, {DF line} {DE line}'den büyüktür, küçük büyükten.
+Tam olarak bu imkansızdır.
+Böylece, {A point}'yı {B point}'ye birleştiren düz çizgi çemberin dışına düşmeyecektir.
+Dolayısıyla, benzer şekilde, çevre üzerine de (düşmeyeceğini) gösterebiliriz.
+Böylece, (çemberin) içine (düşecektir).
 
-Thus, if two points are taken at random on the circumference of a circle then the straight-line joining the points will fall inside the circle.
-(Which is) the very thing it was required to show.
+Böylece, bir çemberin çevresi üzerinde rastgele iki nokta alınırsa, o zaman noktaları birleştiren düz çizgi çemberin içine düşecektir.
+(Gösterilmesi gereken tam olarak budur.)
+

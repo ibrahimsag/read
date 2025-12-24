@@ -1,20 +1,21 @@
-If some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.
+Bir çemberin içinde bir nokta alınırsa ve noktadan (çemberin çevresine) doğru ikiden fazla eşit düz çizgi yayılırsa, o zaman alınan nokta çemberin merkezidir.
 
-Let {ABC circle D} be a circle, and {D point} a point inside it, and let more than two equal straight-lines, {DA line}, {DB line}, and {DC line}, radiate from {D point} towards (the circumference of) circle {ABC circle D}.
-I say that point {D point} is the center of circle {ABC circle D}.
+{ABC circle D} bir çember olsun ve {D point} onun içinde bir nokta olsun ve {D point}'den {ABC circle D} çemberine (çevresine) doğru ikiden fazla eşit düz çizgi {DA line}, {DB line} ve {DC line} yayılmış olsun.
+Diyorum ki {D point} noktası {ABC circle D} çemberinin merkezidir.
 
-For let {AB line} and {BC line} have been joined, and (then) have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].
-And {ED line} and {FD line} being joined, let them have been drawn through to points {G point}, {K point}, {H point}, and {L point} (as {EG line}, {DK line}, {FH line} and {DL line}, respectively).
+Çünkü {AB line} ve {BC line} birleştirilmiş olsun ve (sonra) sırasıyla {E point} ve {F point} noktalarında yarıya bölünmüş olsun [Prop. 1.10].
+Ve {ED line} ve {FD line} birleştirilerek, sırasıyla {G point}, {K point}, {H point} ve {L point} noktalarına kadar ({EG line}, {DK line}, {FH line} ve {DL line} olarak) çizilmiş olsun.
 
-Therefore, since {AE line} is equal to {EB line}, and {ED line} (is) common, the two (straight-lines) {AE line}, {ED line} are equal to the two (straight-lines) {BE line}, {ED line} (respectively).
-And the base {DA line} (is) equal to the base {DB line}.
-Thus, angle {AED angle} is equal to angle {BED angle} [Prop. 1.8].
-Thus, angles {AED angle} and {BED angle} (are) each right-angles [Def. 1.10].
-Thus, {GK line} cuts {AB line} in half, and at right-angles.
-And since, if some straight-line in a circle cuts some (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line) [Prop. 3.1 corr.], the center of the circle is thus on {GK line}.
-So, for the same (reasons), the center of circle {ABC circle D} is also on {HL line}.
-And the straight-lines {GK line} and {HL line} have no common (point) other than point {D point}.
-Thus, point {D point} is the center of circle {ABC circle D}.
+Dolayısıyla, {AE line} {EB line}'ye eşit olduğu ve {ED line} (ortak) olduğu için, iki (düz çizgi) {AE line}, {ED line} sırasıyla iki (düz çizgi) {BE line}, {ED line}'ye eşittir.
+Ve taban {DA line} taban {DB line}'ye eşittir.
+Böylece, {AED angle} açısı {BED angle} açısına eşittir [Prop. 1.8].
+Böylece, {AED angle} ve {BED angle} açılarının her biri dik açıdır [Def. 1.10].
+Böylece, {GK line} {AB line}'yi yarıya ve dik açıyla böler.
+Ve bir çemberde herhangi bir düz çizgi herhangi (başka) bir düz çizgiyi yarıya ve dik açıyla keserse, o zaman çemberin merkezi önceki (düz çizgi) üzerindedir [Prop. 3.1 sonuç], dolayısıyla çemberin merkezi {GK line} üzerindedir.
+Dolayısıyla, aynı (nedenlerle), {ABC circle D} çemberinin merkezi {HL line} üzerindedir de.
+Ve {GK line} ve {HL line} düz çizgilerinin {D point} noktasından başka ortak (noktası) yoktur.
+Böylece, {D point} noktası {ABC circle D} çemberinin merkezidir.
 
-Thus, if some point is taken inside a circle, and more than two equal straight-lines radiate from the point towards the (circumference of the) circle, then the point taken is the center of the circle.
-(Which is) the very thing it was required to show.
+Böylece, bir çemberin içinde bir nokta alınırsa ve noktadan (çemberin çevresine) doğru ikiden fazla eşit düz çizgi yayılırsa, o zaman alınan nokta çemberin merkezidir.
+(Gösterilmesi gereken tam olarak budur.)
+

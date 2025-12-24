@@ -1,9 +1,10 @@
-Two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.
+Aynı düz çizginin aynı tarafında iki benzer ve eşit olmayan çember parçası inşa edilemez.
 
-For, if possible, let the two similar and unequal segments of circles, {ACB arc E} and {ADB arc F}, have been constructed on the same side of the same straight-line {AB line}.
-And let {ACD line} have been drawn through (the segments), and let {CB line} and {DB line} have been joined.
+Çünkü eğer mümkünse, aynı {AB line} düz çizgisinin aynı tarafında iki benzer ve eşit olmayan çember parçası {ACB arc E} ve {ADB arc F} inşa edilmiş olsun.
+Ve {ACD line} (parçalar) boyunca çizilmiş olsun ve {CB line} ve {DB line} birleştirilmiş olsun.
 
-Therefore, since segment {ACB arc E} is similar to segment {ADB arc F}, and similar segments of circles are those accepting equal angles [Def. 3.11], angle {ACB angle} is thus equal to {ADB angle}, the external to the internal.
-The very thing is impossible [Prop. 1.16].
+Dolayısıyla, {ACB arc E} parçası {ADB arc F} parçasına benzer olduğu ve benzer çember parçaları eşit açıları kabul edenler olduğu için [Def. 3.11], {ACB angle} açısı böylece {ADB angle}'ye eşittir, dış iç olana.
+Tam olarak bu imkansızdır [Prop. 1.16].
 
-Thus, two similar and unequal segments of circles cannot be constructed on the same side of the same straight-line.
+Böylece, aynı düz çizginin aynı tarafında iki benzer ve eşit olmayan çember parçası inşa edilemez.
+

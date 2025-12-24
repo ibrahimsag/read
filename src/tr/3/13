@@ -1,28 +1,29 @@
-A circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
+Bir çember (başka bir) çembere birden fazla noktada teğet olmaz, ister içten ister dıştan teğet olsunlar.
 
-For, if possible, let circle {ABDC circle O} touch circle {EBFD given}---first of all, internally---at more than one point, {D point} and {B point}.
+Çünkü eğer mümkünse, {ABDC circle O} çemberi {EBFD given} çemberine---önce içten---birden fazla noktada, {D point} ve {B point}'de teğet olsun.
 
-And let the center {G point} of circle {ABDC circle O} have been found [Prop. 3.1], and (the center) {H point} of {EBFD given} [Prop. 3.1].
+Ve {ABDC circle O} çemberinin merkezi {G point} bulunmuş olsun [Prop. 3.1] ve {EBFD given}'in (merkezi) {H point} (bulunmuş olsun) [Prop. 3.1].
 
-Thus, the (straight-line) joining {G point} and {H point} will fall on {B point} and {D point} [Prop. 3.11].
-Let it fall like {BGHD line} (in the figure).
-And since point {G point} is the center of circle {ABDC circle O}, {BG line} is equal to {GD line}.
-Thus, {BG line} (is) greater than {HD line}.
-Thus, {BH line} (is) much greater than {HD line}.
-Again, since point {H point} is the center of circle {EBFD given}, {BH line} is equal to {HD line}.
-But it was also shown (to be) much greater than it.
-The very thing (is) impossible.
-Thus, a circle does not touch a(nother) circle internally at more than one point.
+Böylece, {G point} ve {H point}'yi birleştiren (düz çizgi) {B point} ve {D point}'ye düşecektir [Prop. 3.11].
+(Şekildeki) {BGHD line} gibi düşsün.
+Ve {G point} noktası {ABDC circle O} çemberinin merkezi olduğu için, {BG line} {GD line}'ye eşittir.
+Böylece, {BG line} {HD line}'den büyüktür.
+Böylece, {BH line} {HD line}'den çok daha büyüktür.
+Yine, {H point} noktası {EBFD given} çemberinin merkezi olduğu için, {BH line} {HD line}'ye eşittir.
+Ama ondan çok daha büyük olduğu da gösterilmişti.
+Tam olarak bu imkansızdır.
+Böylece, bir çember (başka bir) çembere birden fazla noktada içten teğet olmaz.
 
-So, I say that neither (does it touch) externally (at more than one point).
+Dolayısıyla diyorum ki dıştan da (birden fazla noktada) teğet olmaz.
 
-For, if possible, let circle {ACK circle P} touch circle {ABDC circle O} externally at more than one point, {A point} and {C point}.
-And let {AC line} have been joined.
+Çünkü eğer mümkünse, {ACK circle P} çemberi {ABDC circle O} çemberine birden fazla noktada, {A point} ve {C point}'de dıştan teğet olsun.
+Ve {AC line} birleştirilmiş olsun.
 
-Therefore, since two points, {A point} and {C point}, have been taken at random on the circumference of each of the circles {ABDC circle O} and {ACK circle P}, the straight-line joining the points will fall inside each (circle) [Prop. 3.2].
-But, it fell inside {ABDC circle O}, and outside {ACK circle P} [Def. 3.3].
-The very thing (is) absurd.
-Thus, a circle does not touch a(nother) circle externally at more than one point.
-And it was shown that neither (does it) internally.
-Thus, a circle does not touch a(nother) circle at more than one point, whether they touch internally or externally.
-(Which is) the very thing it was required to show.
+Dolayısıyla, {ABDC circle O} ve {ACK circle P} çemberlerinin her birinin çevresinde rastgele iki {A point} ve {C point} noktası alındığı için, noktaları birleştiren düz çizgi her (çemberin) içine düşecektir [Prop. 3.2].
+Ama {ABDC circle O}'nun içine ve {ACK circle P}'nin dışına düştü [Def. 3.3].
+Tam olarak bu saçmadır.
+Böylece, bir çember (başka bir) çembere birden fazla noktada dıştan teğet olmaz.
+Ve içten de (olmadığı) gösterilmişti.
+Böylece, bir çember (başka bir) çembere birden fazla noktada teğet olmaz, ister içten ister dıştan teğet olsunlar.
+(Gösterilmesi gereken tam olarak budur.)
+

@@ -1,16 +1,16 @@
-If a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle contained by (both of) the pieces, and the square on the aforementioned piece.
+Eğer bir düz çizgi rastgele kesilmişse, o zaman bütün (düz çizgi) ve parçalardan biri tarafından içerilen dikdörtgen, (her iki) parça tarafından içerilen dikdörtgene ve söz konusu parça üzerindeki kareye eşittir.
 
-For let the straight-line {AB line} have been cut, at random, at (point) {C point}.
-I say that the rectangle contained by {AB line} and {BC line} is equal to the rectangle contained by {AC line} and {CB line}, plus the square on {BC line}.
+Çünkü {AB line} düz çizgisi {C point} (noktasında) rastgele kesilmiş olsun.
+Diyorum ki {AB line} ve {BC line} tarafından içerilen dikdörtgen, {AC line} ve {CB line} tarafından içerilen dikdörtgen artı {BC line} üzerindeki kareye eşittir.
 
-For let the square {CDEB polygon} have been described on {CB line} [Prop. 1.46], and let {ED line} have been drawn through to {F point} (as {EF line}), and let {AF line} have been drawn through {A point}, parallel to either of {CD line} or {BE line} [Prop. 1.31].
-So the (rectangle) {AE polygon} is equal to the (rectangle) {AD polygon} and the (square) {CE polygon}.
-And {AE polygon} is the rectangle contained by {AB line} and {BC line}.
-For it is contained by {AB line} and {BE line}, and {BE line} (is) equal to {BC line}.
-And {AD polygon} (is) the (rectangle contained) by {AC line} and {CB line}.
-For {DC line} (is) equal to {CB line}.
-And {DB polygon} (is) the square on {CB line}.
-Thus, the rectangle contained by {AB line} and {BC line} is equal to the rectangle contained by {AC line} and {CB line}, plus the square on {BC line}.
+Çünkü {CB line} üzerine {CDEB polygon} karesi çizilmiş olsun [Prop. 1.46] ve {ED line} {F point} noktasına kadar ({EF line} olarak) uzatılmış olsun ve {A point} noktasından geçen {AF line} {CD line} veya {BE line}'ye paralel olarak çizilmiş olsun [Prop. 1.31].
+Böylece (dikdörtgen) {AE polygon} (dikdörtgen) {AD polygon} ve (kare) {CE polygon}'ye eşittir.
+Ve {AE polygon} {AB line} ve {BC line} tarafından içerilen dikdörtgendir.
+Çünkü {AB line} ve {BE line} tarafından içerilir ve {BE line} {BC line}'ye eşittir.
+Ve {AD polygon} {AC line} ve {CB line} tarafından (içerilen dikdörtgendir).
+Çünkü {DC line} {CB line}'ye eşittir.
+Ve {DB polygon} {CB line} üzerindeki karedir.
+Böylece, {AB line} ve {BC line} tarafından içerilen dikdörtgen, {AC line} ve {CB line} tarafından içerilen dikdörtgen artı {BC line} üzerindeki kareye eşittir.
 
-Thus, if a straight-line is cut at random then the rectangle contained by the whole (straight-line), and one of the pieces (of the straight-line), is equal to the rectangle contained by (both of) the pieces, and the square on the aforementioned piece.
-(Which is) the very thing it was required to show.
+Böylece, eğer bir düz çizgi rastgele kesilmişse, o zaman bütün (düz çizgi) ve parçalardan biri tarafından içerilen dikdörtgen, (her iki) parça tarafından içerilen dikdörtgene ve söz konusu parça üzerindeki kareye eşittir.
+(Gösterilmesi gereken tam olarak budur.)

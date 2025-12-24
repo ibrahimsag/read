@@ -1,24 +1,25 @@
-To draw a straight-line touching a given circle from a given point.
+Verilen bir noktadan verilen bir çembere teğet olan bir düz çizgi çizmek.
 
-Let {A point} be the given point, and {BCD circle E} the given circle.
-So it is required to draw a straight-line touching circle {BCD circle E} from point {A point}.
+{A point} verilen nokta ve {BCD circle E} verilen çember olsun.
+Böylece {A point} noktasından {BCD circle E} çemberine teğet olan bir düz çizgi çizmek gerekiyor.
 
-For let the center {E point} of the circle have been found [Prop. 3.1], and let {AE line} have been joined.
-And let (the circle) {AFG circle E} have been drawn with center {E point} and radius {EA line}.
-And let {DF line} have been drawn from from (point) {D point}, at right-angles to {EA line} [Prop. 1.11].
-And let {EF line} and {AB line} have been joined.
-I say that the (straight-line) {AB line} has been drawn from point {A point} touching circle {BCD circle E}.
+Çünkü çemberin merkezi {E point} bulunmuş olsun [Prop. 3.1] ve {AE line} birleştirilmiş olsun.
+Ve merkezi {E point} ve yarıçapı {EA line} olan ({AFG circle E} çemberi) çizilmiş olsun.
+Ve ({D point} noktasından) {EA line}'ya dik açıyla {DF line} çizilmiş olsun [Prop. 1.11].
+Ve {EF line} ve {AB line} birleştirilmiş olsun.
+Diyorum ki {AB line} (düz çizgisi) {A point} noktasından {BCD circle E} çemberine teğet olarak çizilmiştir.
 
-For since {E point} is the center of circles {BCD circle E} and {AFG circle E}, {EA line} is thus equal to {EF line}, and {ED line} to {EB line}.
-So the two (straight-lines) {AE line}, {EB line} are equal to the two (straight-lines) {FE line}, {ED line} (respectively).
-And they contain a common angle at {E point}.
-Thus, the base {DF line} is equal to the base {AB line}, and triangle {DEF polygon} is equal to triangle {EBA polygon}, and the remaining angles (are equal) to the (corresponding) remaining angles [Prop. 1.4].
-Thus, (angle) {EDF angle} (is) equal to {EBA angle}.
-And {EDF angle} (is) a right-angle.
-Thus, {EBA angle} (is) also a right-angle.
-And {EB line} is a radius.
-And a (straight-line) drawn at right-angles to the diameter of a circle, from its extremity, touches the circle [Prop. 3.16 corr.].
-Thus, {AB line} touches circle {BCD circle E}.
+Çünkü {E point} {BCD circle E} ve {AFG circle E} çemberlerinin merkezi olduğu için, {EA line} böylece {EF line}'ye ve {ED line} {EB line}'ye eşittir.
+Dolayısıyla iki (düz çizgi) {AE line}, {EB line} sırasıyla iki (düz çizgi) {FE line}, {ED line}'ye eşittir.
+Ve {E point}'de ortak bir açı içerirler.
+Böylece, taban {DF line} taban {AB line}'ye eşittir ve {DEF polygon} üçgeni {EBA polygon} üçgenine eşittir ve kalan açılar (karşılık gelen) kalan açılara (eşittir) [Prop. 1.4].
+Böylece, ({EDF angle} açısı) {EBA angle}'ya eşittir.
+Ve {EDF angle} bir dik açıdır.
+Böylece, {EBA angle} de bir dik açıdır.
+Ve {EB line} bir yarıçaptır.
+Ve bir çemberin çapına, ucundan dik açıyla çizilen (düz çizgi), çembere teğet olur [Prop. 3.16 sonuç].
+Böylece, {AB line} {BCD circle E} çemberine teğet olur.
 
-Thus, the straight-line {AB line} has been drawn touching the given circle {BCD circle E} from the given point {A point}.
-(Which is) the very thing it was required to do.
+Böylece, {AB line} düz çizgisi verilen {A point} noktasından verilen {BCD circle E} çemberine teğet olarak çizilmiştir.
+(Yapılması gereken tam olarak budur.)
+

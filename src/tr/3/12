@@ -1,19 +1,20 @@
-If two circles touch one another externally then the (straight-line) joining their centers will go through the point of union.
+Eğer iki çember birbirine dıştan teğet ise, o zaman merkezlerini birleştiren (düz çizgi) birleşme noktasından geçecektir.
 
-For let two circles, {ABC circle L} and {ADE circle K}, touch one another externally at point {A point}, and let the center {F point} of {ABC circle L} have been found [Prop. 3.1], and (the center) {G point} of {ADE circle K} [Prop. 3.1].
-I say that the straight-line joining {F point} to {G point} will go through the point of union at {A point}.
+Çünkü iki çember {ABC circle L} ve {ADE circle K} {A point} noktasında birbirine dıştan teğet olsun ve {ABC circle L}'nin merkezi {F point} bulunmuş olsun [Prop. 3.1] ve {ADE circle K}'nin (merkezi) {G point} (bulunmuş olsun) [Prop. 3.1].
+Diyorum ki {F point}'yi {G point}'ye birleştiren düz çizgi {A point}'deki birleşme noktasından geçecektir.
 
-For (if) not then, if possible, let it go like {FCDG line} (in the figure), and let {AF line} and {AG line} have been joined.
+Çünkü (eğer) değilse, eğer mümkünse, (şekildeki) {FCDG line} gibi gitsin ve {AF line} ve {AG line} birleştirilmiş olsun.
 
-Therefore, since point {F point} is the center of circle {ABC circle L}, {FA line} is equal to {FC line}.
-Again, since point {G point} is the center of circle {ADE circle K}, {GA line} is equal to {GD line}.
-And {FA line} was also shown (to be) equal to {FC line}.
-Thus, the (straight-lines) {FA line} and {AG line} are equal to the (straight-lines) {FC line} and {GD line}.
-So the whole of {FG line} is greater than {FA line} and {AG line}.
-But, (it is) also less [Prop. 1.20].
-The very thing is impossible.
-Thus, the straight-line joining {F point} to {G point} cannot not go through the point of union at {A point}.
-Thus, (it will go) through it.
+Dolayısıyla, {F point} noktası {ABC circle L} çemberinin merkezi olduğu için, {FA line} {FC line}'ye eşittir.
+Yine, {G point} noktası {ADE circle K} çemberinin merkezi olduğu için, {GA line} {GD line}'ye eşittir.
+Ve {FA line}'nın {FC line}'ye eşit olduğu da gösterilmişti.
+Böylece, (düz çizgiler) {FA line} ve {AG line} (düz çizgiler) {FC line} ve {GD line}'ye eşittir.
+Dolayısıyla {FG line}'nin tamamı {FA line} ve {AG line}'den büyüktür.
+Ama (aynı zamanda) daha küçüktür [Prop. 1.20].
+Tam olarak bu imkansızdır.
+Böylece, {F point}'yi {G point}'ye birleştiren düz çizgi {A point}'deki birleşme noktasından geçmemezlik edemez.
+Böylece, (ondan) geçecektir.
 
-Thus, if two circles touch one another externally then the [straight-line] joining their centers will go through the point of union.
-(Which is) the very thing it was required to show.
+Böylece, eğer iki çember birbirine dıştan teğet ise, o zaman merkezlerini birleştiren [düz çizgi] birleşme noktasından geçecektir.
+(Gösterilmesi gereken tam olarak budur.)
+

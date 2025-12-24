@@ -1,47 +1,48 @@
-If some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.
-For the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.
-For the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.
-For the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.
-And only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).
+Bir çemberin dışında bir nokta alınırsa ve noktadan (çemberin çevresine) bazı düz çizgiler çizilirse, bunlardan biri merkezden geçerse, kalanı rastgele ise, o zaman içbükey (kısmına) doğru yayılan düz çizgiler için, en büyük merkezden geçen (olandır).
+Diğerleri için, merkezden geçen (düz çizgiye) daha yakın olan (düz çizgi) her zaman daha uzak olandan daha büyüktür.
+Dışbükey (kısma) doğru yayılan düz çizgiler için, en küçük nokta ile çap arasındaki (olandır).
+Diğerleri için, en küçük (düz çizgiye) daha yakın olan (düz çizgi) her zaman daha uzak olandan daha küçüktür.
+Ve noktadan (çemberin çevresine) doğru yalnızca iki eşit (düz çizgi) yayılacaktır, (biri) en küçük (düz çizginin) her (bir tarafında).
 
-Let {ABC circle M} be a circle, and let some point {D point} have been taken outside {ABC circle M}, and from it let some straight-lines, {DA line}, {DE line}, {DF line}, and {DC line}, have been drawn through (the circle), and let {DA line} be through the center.
-I say that for the straight-lines radiating towards the concave (part of the) circumference, {AEFC arc M}, the greatest is the one (passing) through the center, (namely) {AD line}, and (that) {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.
-For the straight-lines radiating towards the convex (part of the) circumference, {HLKG arc M}, the least is the one between the point and the diameter {AG line}, (namely) {DG line}, and a (straight-line) nearer to the least (straight-line) {DG line} is always less than one farther away, (so that) {DK line} (is less) than {DL line}, and {DL line} than than {DH line}.
+{ABC circle M} bir çember olsun ve {ABC circle M}'nin dışında bir {D point} noktası alınmış olsun ve ondan (çember) boyunca bazı düz çizgiler {DA line}, {DE line}, {DF line} ve {DC line} çizilmiş olsun ve {DA line} merkezden geçsin.
+Diyorum ki içbükey (çevre kısmı) {AEFC arc M}'ye doğru yayılan düz çizgiler için, en büyük merkezden geçen (olan), yani {AD line}'dir ve {DE line} {DF line}'den ve {DF line} {DC line}'den büyüktür.
+Dışbükey (çevre kısmı) {HLKG arc M}'ye doğru yayılan düz çizgiler için, en küçük nokta ile çap {AG line} arasındaki, yani {DG line}'dir ve en küçük (düz çizgi) {DG line}'ye daha yakın olan (düz çizgi) her zaman daha uzak olandan daha küçüktür, (yani) {DK line} {DL line}'den ve {DL line} {DH line}'den (küçüktür).
 
-For let the center of the circle have been found [Prop. 3.1], and let it be (at point) {M point} [Prop. 3.1].
-And let {ME line}, {MF line}, {MC line}, {MK line}, {ML line}, and {MH line} have been joined.
-And since {AM line} is equal to {EM line}, let {MD line} have been added to both.
-Thus, {AD line} is equal to {EM line} and {MD line}.
-But, {EM line} and {MD line} is greater than {ED line} [Prop. 1.20].
-Thus, {AD line} is also greater than {ED line}.
-Again, since {ME line} is equal to {MF line}, and {MD line} (is) common, the (straight-lines) {EM line}, {MD line} are thus equal to {FM line}, {MD line}.
-And angle {EMD angle} is greater than angle {FMD angle}.
-Thus, the base {ED line} is greater than the base {FD line} [Prop. 1.24].
-So, similarly, we can show that {FD line} is also greater than {CD line}.
-Thus, {AD line} (is) the greatest (straight-line), and {DE line} (is) greater than {DF line}, and {DF line} than {DC line}.
+Çünkü çemberin merkezi bulunmuş olsun [Prop. 3.1] ve ({M point} noktasında) olsun [Prop. 3.1].
+Ve {ME line}, {MF line}, {MC line}, {MK line}, {ML line} ve {MH line} birleştirilmiş olsun.
+Ve {AM line} {EM line}'ye eşit olduğu için, {MD line} her ikisine de eklenmiş olsun.
+Böylece, {AD line} {EM line} ve {MD line}'ye eşittir.
+Ama {EM line} ve {MD line} {ED line}'den büyüktür [Prop. 1.20].
+Böylece, {AD line} de {ED line}'den büyüktür.
+Yine, {ME line} {MF line}'ye eşit olduğu ve {MD line} (ortak) olduğu için, (düz çizgiler) {EM line}, {MD line} böylece {FM line}, {MD line}'ye eşittir.
+Ve {EMD angle} açısı {FMD angle} açısından büyüktür.
+Böylece, taban {ED line} taban {FD line}'den büyüktür [Prop. 1.24].
+Dolayısıyla, benzer şekilde, {FD line}'nin de {CD line}'den büyük olduğunu gösterebiliriz.
+Böylece, {AD line} en büyük (düz çizgidir) ve {DE line} {DF line}'den ve {DF line} {DC line}'den büyüktür.
 
-And since {MK line} and {KD line} is greater than {MD line} [Prop. 1.20], and {MG line} (is) equal to {MK line}, the remainder {KD line} is thus greater than the remainder {GD line}.
-So {GD line} is less than {KD line}.
-And since in triangle {MLD polygon}, the two internal straight-lines {MK line} and {KD line} were constructed on one of the sides, {MD line}, then {MK line} and {KD line} are thus less than {ML line} and {LD line} [Prop. 1.21].
-And {MK line} (is) equal to {ML line}.
-Thus, the remainder {DK line} is less than the remainder {DL line}.
-So, similarly, we can show that {DL line} is also less than {DH line}.
-Thus, {DG line} (is) the least (straight-line), and {DK line} (is) less than {DL line}, and {DL line} than {DH line}.
+Ve {MK line} ve {KD line} {MD line}'den büyük olduğu için [Prop. 1.20] ve {MG line} {MK line}'ye eşit olduğu için, kalan {KD line} böylece kalan {GD line}'den büyüktür.
+Dolayısıyla {GD line} {KD line}'den küçüktür.
+Ve {MLD polygon} üçgeninde, iki iç düz çizgi {MK line} ve {KD line} kenarlardan biri olan {MD line} üzerinde inşa edilmiş olduğu için, o zaman {MK line} ve {KD line} böylece {ML line} ve {LD line}'den küçüktür [Prop. 1.21].
+Ve {MK line} {ML line}'ye eşittir.
+Böylece, kalan {DK line} kalan {DL line}'den küçüktür.
+Dolayısıyla, benzer şekilde, {DL line}'nin de {DH line}'den küçük olduğunu gösterebiliriz.
+Böylece, {DG line} en küçük (düz çizgidir) ve {DK line} {DL line}'den ve {DL line} {DH line}'den küçüktür.
 
-I also say that only two equal (straight-lines) will radiate from point {D point} towards (the circumference of) the circle, (one) on each (side) on the least (straight-line), {DG line}.
-Let the angle {DMB angle}, equal to angle {KMD angle}, have been constructed on the straight-line {MD line}, at the point {M point} on it [Prop. 1.23], and let {DB line} have been joined.
-And since {MK line} is equal to {MB line}, and {MD line} (is) common, the two (straight-lines) {KM line}, {MD line} are equal to the two (straight-lines) {BM line}, {MD line}, respectively.
-And angle {KMD angle} (is) equal to angle {BMD angle}.
-Thus, the base {DK line} is equal to the base {DB line} [Prop. 1.4].
-[So] I say that another (straight-line) equal to {DK line} will not radiate towards the (circumference of the) circle from point {D point}.
-For, if possible, let (such a straight-line) radiate, and let it be {DN line}.
-Therefore, since {DK line} is equal to {DN line}, but {DK line} is equal to {DB line}, then {DB line} is thus also equal to {DN line}, (so that) a (straight-line) nearer to the least (straight-line) {DG line} [is] equal to one further away.
-The very thing was shown (to be) impossible.
-Thus, not more than two equal (straight-lines) will radiate towards (the circumference of) circle {ABC circle M} from point {D point}, (one) on each side of the least (straight-line) {DG line}.
+Ayrıca diyorum ki {D point} noktasından çembere (çevresine) doğru yalnızca iki eşit (düz çizgi) yayılacaktır, (biri) en küçük (düz çizgi) {DG line}'nin her (bir tarafında).
+{KMD angle} açısına eşit {DMB angle} açısı, {MD line} düz çizgisi üzerinde {M point} noktasında inşa edilmiş olsun [Prop. 1.23] ve {DB line} birleştirilmiş olsun.
+Ve {MK line} {MB line}'ye eşit olduğu ve {MD line} (ortak) olduğu için, iki (düz çizgi) {KM line}, {MD line} sırasıyla iki (düz çizgi) {BM line}, {MD line}'ye eşittir.
+Ve {KMD angle} açısı {BMD angle}'ye eşittir.
+Böylece, taban {DK line} taban {DB line}'ye eşittir [Prop. 1.4].
+[Dolayısıyla] diyorum ki {DK line}'ye eşit başka bir (düz çizgi) {D point} noktasından çembere (çevresine) doğru yayılmayacaktır.
+Çünkü eğer mümkünse, (böyle bir düz çizgi) yayılsın ve {DN line} olsun.
+Dolayısıyla, {DK line} {DN line}'ye eşit olduğu, ama {DK line} {DB line}'ye eşit olduğu için, o zaman {DB line} de {DN line}'ye eşittir, (yani) en küçük (düz çizgi) {DG line}'ye daha yakın olan (düz çizgi) daha uzak olana eşit [olur].
+Tam olarak bunun imkansız olduğu gösterilmişti.
+Böylece, {D point} noktasından {ABC circle M} çemberine (çevresine) doğru ikiden fazla eşit (düz çizgi) yayılmayacaktır, (biri) en küçük (düz çizgi) {DG line}'nin her bir tarafında.
 
-Thus, if some point is taken outside a circle, and some straight-lines are drawn from the point to the (circumference of the) circle, one of which (passes) through the center, the remainder (being) random, then for the straight-lines radiating towards the concave (part of the) circumference, the greatest is that (passing) through the center.
-For the others, a (straight-line) nearer to the (straight-line) through the center is always greater than one further away.
-For the straight-lines radiating towards the convex (part of the) circumference, the least is that between the point and the diameter.
-For the others, a (straight-line) nearer to the least (straight-line) is always less than one further away.
-And only two equal (straight-lines) will radiate from the point towards the (circumference of the) circle, (one) on each (side) of the least (straight-line).
-(Which is) the very thing it was required to show.
+Böylece, bir çemberin dışında bir nokta alınırsa ve noktadan (çemberin çevresine) bazı düz çizgiler çizilirse, bunlardan biri merkezden geçerse, kalanı rastgele ise, o zaman içbükey (çevre kısmına) doğru yayılan düz çizgiler için, en büyük merkezden geçen (olandır).
+Diğerleri için, merkezden geçen (düz çizgiye) daha yakın olan (düz çizgi) her zaman daha uzak olandan daha büyüktür.
+Dışbükey (çevre kısmına) doğru yayılan düz çizgiler için, en küçük nokta ile çap arasındaki (olandır).
+Diğerleri için, en küçük (düz çizgiye) daha yakın olan (düz çizgi) her zaman daha uzak olandan daha küçüktür.
+Ve noktadan (çemberin çevresine) doğru yalnızca iki eşit (düz çizgi) yayılacaktır, (biri) en küçük (düz çizginin) her (bir tarafında).
+(Gösterilmesi gereken tam olarak budur.)
+

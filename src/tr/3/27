@@ -1,19 +1,20 @@
-In equal circles, angles standing upon equal circumferences are equal to one another, whether they are standing at the center or at the circumference.
+Eşit çemberlerde, eşit çevreler üzerinde duran açılar birbirine eşittir, ister merkezde ister çevrede duruyor olsunlar.
 
-For let the angles {BGC angle} and {EHF angle} at the centers {G point} and {H point}, and the (angles) {BAC angle} and {EDF angle} at the circumferences, stand upon the equal circumferences {BC arcc G} and {EF arcc H}, in the equal circles {ABC circle G} and {DEF circle H} (respectively).
-I say that angle {BGC angle} is equal to (angle) {EHF angle}, and {BAC angle} is equal to {EDF angle}.
+Çünkü eşit çemberler {ABC circle G} ve {DEF circle H}'de, merkezlerde {G point} ve {H point}'deki {BGC angle} ve {EHF angle} açıları ve çevrelerdeki ({BAC angle} ve {EDF angle} açıları), sırasıyla eşit çevreler {BC arcc G} ve {EF arcc H} üzerinde dursun.
+Diyorum ki {BGC angle} açısı ({EHF angle} açısına) ve {BAC angle} {EDF angle}'ye eşittir.
 
-For if {BGC angle} is unequal to {EHF angle}, one of them is greater.
-Let {BGC angle} be greater, and let the (angle) {BGK angle}, equal to angle {EHF angle}, have been constructed on the straight-line {BG line}, at the point {G point} on it [Prop. 1.23].
-But equal angles (in equal circles) stand upon equal circumferences, when they are at the centers [Prop. 3.26].
-Thus, circumference {BK arcc G} (is) equal to circumference {EF arcc H}.
-But, {EF arcc H} is equal to {BC arcc G}.
-Thus, {BK arcc G} is also equal to {BC arcc G}, the lesser to the greater.
-The very thing is impossible.
-Thus, angle {BGC angle} is not unequal to {EHF angle}.
-Thus, (it is) equal.
-And the (angle) at {A point} is half {BGC angle}, and the (angle) at {D point} half {EHF angle} [Prop. 3.20].
-Thus, the angle at {A point} (is) also equal to the (angle) at {D point}.
+Çünkü eğer {BGC angle} {EHF angle}'ye eşit değilse, onlardan biri büyüktür.
+{BGC angle} büyük olsun ve {EHF angle} açısına eşit ({BGK angle} açısı), {BG line} düz çizgisi üzerinde {G point} noktasında inşa edilmiş olsun [Prop. 1.23].
+Ama (eşit çemberlerde) eşit açılar, merkezlerde olduklarında, eşit çevreler üzerinde durur [Prop. 3.26].
+Böylece, {BK arcc G} çevresi {EF arcc H} çevresine eşittir.
+Ama {EF arcc H} {BC arcc G}'ye eşittir.
+Böylece, {BK arcc G} de {BC arcc G}'ye eşittir, küçük büyüğe.
+Tam olarak bu imkansızdır.
+Böylece, {BGC angle} açısı {EHF angle}'ye eşit değil değildir.
+Böylece, eşittir.
+Ve {A point}'deki (açı) {BGC angle}'nin yarısı ve {D point}'deki (açı) {EHF angle}'nin yarısıdır [Prop. 3.20].
+Böylece, {A point}'deki açı da {D point}'deki (açıya) eşittir.
 
-Thus, in equal circles, angles standing upon equal circumferences are equal to one another, whether they are standing at the center or at the circumference.
-(Which is) the very thing it was required to show.
+Böylece, eşit çemberlerde, eşit çevreler üzerinde duran açılar birbirine eşittir, ister merkezde ister çevrede duruyor olsunlar.
+(Gösterilmesi gereken tam olarak budur.)
+

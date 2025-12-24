@@ -1,44 +1,45 @@
-In a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.
+Bir çemberde, eşit düz çizgiler merkezden eşit uzaklıktadır ve merkezden eşit uzaklıkta olan (düz çizgiler) birbirine eşittir.
 
-Let {ABDC circle E} be a circle, and let {AB line} and {CD line} be equal straight-lines within it.
-I say that {AB line} and {CD line} are equally far from the center.
+{ABDC circle E} bir çember olsun ve {AB line} ve {CD line} onun içinde eşit düz çizgiler olsun.
+Diyorum ki {AB line} ve {CD line} merkezden eşit uzaklıktadır.
 
-For let the center of circle {ABDC circle E} have been found [Prop. 3.1], and let it be (at) {E point}.
-And let {EF line} and {EG line} have been drawn from (point) {E point}, perpendicular to {AB line} and {CD line} (respectively) [Prop. 1.12].
-And let {AE line} and {EC line} have been joined.
+Çünkü {ABDC circle E} çemberinin merkezi bulunmuş olsun [Prop. 3.1] ve {E point} (noktasında) olsun.
+Ve ({E point} noktasından) sırasıyla {AB line} ve {CD line}'ye dik olarak {EF line} ve {EG line} çizilmiş olsun [Prop. 1.12].
+Ve {AE line} ve {EC line} birleştirilmiş olsun.
 
-Therefore, since some straight-line, {EF line}, through the center (of the circle), cuts some (other) straight-line, {AB line}, not through the center, at right-angles, it also cuts it in half [Prop. 3.3].
-Thus, {AF line} (is) equal to {FB line}.
-Thus, {AB line} (is) double {AF line}.
-So, for the same (reasons), {CD line} is also double {CG line}.
-And {AB line} is equal to {CD line}.
-Thus, {AF line} (is) also equal to {CG line}.
-And since {AE line} is equal to {EC line}, the (square) on {AE line} (is) also equal to the (square) on {EC line}.
-But, the (sum of the squares) on {AF line} and {EF line} (is) equal to the (square) on {AE line}.
-For the angle at {F point} (is) a right-angle [Prop. 1.47].
-And the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {EC line}.
-For the angle at {G point} (is) a right-angle [Prop. 1.47].
-Thus, the (sum of the squares) on {AF line} and {FE line} is equal to the (sum of the squares) on {CG line} and {GE line}, of which the (square) on {AF line} is equal to the (square) on {CG line}.
-For {AF line} is equal to {CG line}.
-Thus, the remaining (square) on {FE line} is equal to the (remaining square) on {EG line}.
-Thus, {EF line} (is) equal to {EG line}.
-And straight-lines in a circle are said to be equally far from the center when perpendicular (straight-lines) which are drawn to them from the center are equal [Def. 3.4].
-Thus, {AB line} and {CD line} are equally far from the center.
+Dolayısıyla, (çemberin) merkezinden geçen bir {EF line} düz çizgisi, merkezden geçmeyen bir (başka) {AB line} düz çizgisini dik açıyla kestiği için, onu yarıya da böler [Prop. 3.3].
+Böylece, {AF line} {FB line}'ye eşittir.
+Böylece, {AB line} {AF line}'nin iki katıdır.
+Dolayısıyla, aynı (nedenlerle), {CD line} de {CG line}'nin iki katıdır.
+Ve {AB line} {CD line}'ye eşittir.
+Böylece, {AF line} de {CG line}'ye eşittir.
+Ve {AE line} {EC line}'ye eşit olduğu için, {AE line} üzerindeki (kare) de {EC line} üzerindeki (kareye) eşittir.
+Ama {AF line} ve {EF line} üzerindeki (karelerin toplamı) {AE line} üzerindeki (kareye) eşittir.
+Çünkü {F point}'deki açı bir dik açıdır [Prop. 1.47].
+Ve {EG line} ve {GC line} üzerindeki (karelerin toplamı) {EC line} üzerindeki (kareye) eşittir.
+Çünkü {G point}'deki açı bir dik açıdır [Prop. 1.47].
+Böylece, {AF line} ve {FE line} üzerindeki (karelerin toplamı) {CG line} ve {GE line} üzerindeki (karelerin toplamına) eşittir; bunlardan {AF line} üzerindeki (kare) {CG line} üzerindeki (kareye) eşittir.
+Çünkü {AF line} {CG line}'ye eşittir.
+Böylece, kalan {FE line} üzerindeki (kare) (kalan) {EG line} üzerindeki (kareye) eşittir.
+Böylece, {EF line} {EG line}'ye eşittir.
+Ve bir çemberde, merkezden onlara çizilen dikler eşit olduğunda düz çizgilerin merkezden eşit uzaklıkta olduğu söylenir [Def. 3.4].
+Böylece, {AB line} ve {CD line} merkezden eşit uzaklıktadır.
 
-So, let the straight-lines {AB line} and {CD line} be equally far from the center.
-That is to say, let {EF line} be equal to {EG line}.
-I say that {AB line} is also equal to {CD line}.
+Öyleyse, {AB line} ve {CD line} düz çizgileri merkezden eşit uzaklıkta olsun.
+Yani, {EF line} {EG line}'ye eşit olsun.
+Diyorum ki {AB line} de {CD line}'ye eşittir.
 
-For, with the same construction, we can, similarly, show that {AB line} is double {AF line}, and {CD line} (double) {CG line}.
-And since {AE line} is equal to {CE line}, the (square) on {AE line} is equal to the (square) on {CE line}.
-But, the (sum of the squares) on {EF line} and {FA line} is equal to the (square) on {AE line} [Prop. 1.47].
-And the (sum of the squares) on {EG line} and {GC line} (is) equal to the (square) on {CE line} [Prop. 1.47].
-Thus, the (sum of the squares) on {EF line} and {FA line} is equal to the (sum of the squares) on {EG line} and {GC line}, of which the (square) on {EF line} is equal to the (square) on {EG line}.
-For {EF line} (is) equal to {EG line}.
-Thus, the remaining (square) on {AF line} is equal to the (remaining square) on {CG line}.
-Thus, {AF line} (is) equal to {CG line}.
-And {AB line} is double {AF line}, and {CD line} double {CG line}.
-Thus, {AB line} (is) equal to {CD line}.
+Çünkü, aynı inşa ile, benzer şekilde, {AB line}'nin {AF line}'nin iki katı ve {CD line}'nin {CG line}'nin (iki katı) olduğunu gösterebiliriz.
+Ve {AE line} {CE line}'ye eşit olduğu için, {AE line} üzerindeki (kare) {CE line} üzerindeki (kareye) eşittir.
+Ama {EF line} ve {FA line} üzerindeki (karelerin toplamı) {AE line} üzerindeki (kareye) eşittir [Prop. 1.47].
+Ve {EG line} ve {GC line} üzerindeki (karelerin toplamı) {CE line} üzerindeki (kareye) eşittir [Prop. 1.47].
+Böylece, {EF line} ve {FA line} üzerindeki (karelerin toplamı) {EG line} ve {GC line} üzerindeki (karelerin toplamına) eşittir; bunlardan {EF line} üzerindeki (kare) {EG line} üzerindeki (kareye) eşittir.
+Çünkü {EF line} {EG line}'ye eşittir.
+Böylece, kalan {AF line} üzerindeki (kare) (kalan) {CG line} üzerindeki (kareye) eşittir.
+Böylece, {AF line} {CG line}'ye eşittir.
+Ve {AB line} {AF line}'nin iki katı ve {CD line} {CG line}'nin iki katıdır.
+Böylece, {AB line} {CD line}'ye eşittir.
 
-Thus, in a circle, equal straight-lines are equally far from the center, and (straight-lines) which are equally far from the center are equal to one another.
-(Which is) the very thing it was required to show.
+Böylece, bir çemberde, eşit düz çizgiler merkezden eşit uzaklıktadır ve merkezden eşit uzaklıkta olan (düz çizgiler) birbirine eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

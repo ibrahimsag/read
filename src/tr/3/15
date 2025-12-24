@@ -1,22 +1,23 @@
-In a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.
+Bir çemberde, çap en büyük (düz çizgidir) ve diğerleri için, merkeze daha yakın olan (düz çizgi) her zaman daha uzak olandan daha büyüktür.
 
-Let {ABCD circle E} be a circle, and let {AD line} be its diameter, and {E point} (its) center.
-And let {BC line} be nearer to the diameter {AD line}, and {FG line} further away.
-I say that {AD line} is the greatest (straight-line), and {BC line} (is) greater than {FG line}.
+{ABCD circle E} bir çember olsun ve {AD line} onun çapı ve {E point} (onun) merkezi olsun.
+Ve {BC line} çap {AD line}'ye daha yakın ve {FG line} daha uzak olsun.
+Diyorum ki {AD line} en büyük (düz çizgidir) ve {BC line} {FG line}'den büyüktür.
 
-For let {EH line} and {EK line} have been drawn from the center {E point}, at right-angles to {BC line} and {FG line} (respectively) [Prop. 1.12].
-And since {BC line} is nearer to the center, and {FG line} further away, {EK line} (is) thus greater than {EH line} [Def. 3.5].
-Let {EL line} be made equal to {EH line} [Prop. 1.3].
-And {LM line} being drawn through {L point}, at right-angles to {EK line} [Prop. 1.11], let it have been drawn through to {N point} (as {MN line}).
-And let {ME line}, {EN line}, {FE line}, and {EG line} have been joined.
+Çünkü merkez {E point}'den sırasıyla {BC line} ve {FG line}'ye dik açıyla {EH line} ve {EK line} çizilmiş olsun [Prop. 1.12].
+Ve {BC line} merkeze daha yakın ve {FG line} daha uzak olduğu için, {EK line} böylece {EH line}'den büyüktür [Def. 3.5].
+{EL line} {EH line}'ye eşit yapılmış olsun [Prop. 1.3].
+Ve {LM line} {L point}'den geçerek {EK line}'ye dik açıyla çizilerek [Prop. 1.11], {N point} noktasına kadar ({MN line} olarak) çizilmiş olsun.
+Ve {ME line}, {EN line}, {FE line} ve {EG line} birleştirilmiş olsun.
 
-And since {EH line} is equal to {EL line}, {BC line} is also equal to {MN line} [Prop. 3.14].
-Again, since {AE line} is equal to {EM line}, and {ED line} to {EN line}, {AD line} is thus equal to {ME line} and {EN line}.
-But, {ME line} and {EN line} is greater than {MN line} [Prop. 1.20], and {MN line} (is) equal to {BC line}.
-Thus, {AD line} is greater than {BC line}.
-And since the two (straight-lines) {ME line}, {EN line} are equal to the two (straight-lines) {FE line}, {EG line} (respectively), and angle {MEN angle} [is] greater than angle {FEG angle}, the base {MN line} is thus greater than the base {FG line} [Prop. 1.24].
-But, {MN line} was shown (to be) equal to {BC line}.
-Thus, the diameter {AD line} (is) the greatest (straight-line), and {BC line} (is) greater than {FG line}.
+Ve {EH line} {EL line}'ye eşit olduğu için, {BC line} de {MN line}'ye eşittir [Prop. 3.14].
+Yine, {AE line} {EM line}'ye eşit olduğu ve {ED line} {EN line}'ye (eşit olduğu) için, {AD line} böylece {ME line} ve {EN line}'ye eşittir.
+Ama {ME line} ve {EN line} {MN line}'den büyüktür [Prop. 1.20] ve {MN line} {BC line}'ye eşittir.
+Böylece, {AD line} {BC line}'den büyüktür.
+Ve iki (düz çizgi) {ME line}, {EN line} sırasıyla iki (düz çizgi) {FE line}, {EG line}'ye eşit olduğu ve {MEN angle} açısı {FEG angle} açısından büyük [olduğu] için, taban {MN line} böylece taban {FG line}'den büyüktür [Prop. 1.24].
+Ama {MN line}'nin {BC line}'ye eşit olduğu gösterilmişti.
+Böylece, çap {AD line} en büyük (düz çizgidir) ve {BC line} {FG line}'den büyüktür.
 
-Thus, in a circle, a diameter (is) the greatest (straight-line), and for the others, a (straight-line) nearer to the center is always greater than one further away.
-(Which is) the very thing it was required to show.
+Böylece, bir çemberde, çap en büyük (düz çizgidir) ve diğerleri için, merkeze daha yakın olan (düz çizgi) her zaman daha uzak olandan daha büyüktür.
+(Gösterilmesi gereken tam olarak budur.)
+

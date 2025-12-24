@@ -1,30 +1,31 @@
-To find the center of a given circle.
+Verilen bir çemberin merkezini bulmak.
 
-Let {ABC circle F} be the given circle.
-So it is required to find the center of circle {ABC circle F}.
+{ABC circle F} verilen çember olsun.
+Böylece {ABC circle F} çemberinin merkezini bulmak gerekiyor.
 
-Let some straight-line {AB line} have been drawn through ({ABC circle F}), at random, and let ({AB line}) have been cut in half at point {D point} [Prop. 1.9].
-And let {DC line} have been drawn from {D point}, at right-angles to {AB line} [Prop. 1.11].
-And let ({CD line}) have been drawn through to {E point} (as {CE line}).
-And let {CE line} have been cut in half at {F point} [Prop. 1.9].
-I say that (point) {F point} is the center of the [circle] {ABC circle F}.
+Herhangi bir {AB line} düz çizgisi ({ABC circle F}) boyunca rastgele çizilmiş olsun ve ({AB line}) {D point} noktasında yarıya bölünmüş olsun [Prop. 1.9].
+Ve {D point}'den {AB line}'ye dik açıyla {DC line} çizilmiş olsun [Prop. 1.11].
+Ve ({CD line}) {E point} noktasına kadar ({CE line} olarak) çizilmiş olsun.
+Ve {CE line} {F point}'de yarıya bölünmüş olsun [Prop. 1.9].
+Diyorum ki {F point} (noktası) [çember] {ABC circle F}'nin merkezidir.
 
-For (if) not then, if possible, let {G point} (be the center of the circle), and let {GA line}, {GD line}, and {GB line} have been joined.
-And since {AD line} is equal to {DB line}, and {DG line} (is) common, the two (straight-lines) {AD line}, {DG line} are equal to the two (straight-lines) {BD line}, {DG line}, respectively.
-And the base {GA line} is equal to the base {GB line}.
-For (they are both) radii.
-Thus, angle {ADG angle} is equal to angle {GDB angle} [Prop. 1.8].
-And when a straight-line stood upon (another) straight-line make adjacent angles (which are) equal to one another, each of the equal angles is a right-angle [Def. 1.10].
-Thus, {GDB angle} is a right-angle.
-And {FDB angle} is also a right-angle.
-Thus, {FDB angle} (is) equal to {GDB angle}, the greater to the lesser.
-The very thing is impossible.
-Thus, (point) {G point} is not the center of the circle {ABC circle F}.
-So, similarly, we can show that neither is any other (point) except {F point}.
+Çünkü (eğer) değilse, o zaman eğer mümkünse, {G point} (çemberin merkezi) olsun ve {GA line}, {GD line} ve {GB line} birleştirilmiş olsun.
+Ve {AD line} {DB line}'ye eşit olduğu ve {DG line} (ortak) olduğu için, iki (düz çizgi) {AD line}, {DG line} sırasıyla iki (düz çizgi) {BD line}, {DG line}'ye eşittir.
+Ve taban {GA line} taban {GB line}'ye eşittir.
+Çünkü (ikisi de) yarıçaptır.
+Böylece, {ADG angle} açısı {GDB angle} açısına eşittir [Prop. 1.8].
+Ve bir düz çizgi (başka bir) düz çizgi üzerinde durduğunda birbirine eşit komşu açılar oluşturduğunda, eşit açıların her biri bir dik açıdır [Def. 1.10].
+Böylece, {GDB angle} bir dik açıdır.
+Ve {FDB angle} de bir dik açıdır.
+Böylece, {FDB angle} {GDB angle}'ye eşittir, büyük küçüğe.
+Tam olarak bu imkansızdır.
+Böylece, {G point} (noktası) {ABC circle F} çemberinin merkezi değildir.
+Dolayısıyla, benzer şekilde, {F point} dışında başka hiçbir (noktanın da merkez) olmadığını gösterebiliriz.
 
-Thus, point {F point} is the center of the [circle] {ABC circle F}.
+Böylece, {F point} noktası [çember] {ABC circle F}'nin merkezidir.
 
-Corollary
+Sonuç
 
-So, from this, (it is) manifest that if any straight-line in a circle cuts any (other) straight-line in half, and at right-angles, then the center of the circle is on the former (straight-line).
-(Which is) the very thing it was required to do.
+Dolayısıyla, bundan, bir çemberde herhangi bir düz çizgi herhangi (başka) bir düz çizgiyi yarıya ve dik açıyla keserse, o zaman çemberin merkezinin önceki (düz çizgi) üzerinde olduğu açıktır.
+(Yapılması gereken tam olarak budur.)
+
