@@ -1,40 +1,42 @@
-To find a sixth apotome.
+Bir altıncı kesit bulmak.
 
-Let the rational (straight-line) {A magnitude}, and the three numbers {E magnitude}, {BC magnitude}, and {CD magnitude}, not having to one another the ratio which (some) square number (has) to (some) square number, be laid down.
-Furthermore, let {CB magnitude} also not have to {BD magnitude} the ratio which (some) square number (has) to (some) square number.
-And let it have been contrived that as {E magnitude} (is) to {BC magnitude}, so the (square) on {A magnitude} (is) to the (square) on {FG magnitude}, and as {BC magnitude} (is) to {CD magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude} [Prop. 10.6 corr.].
+Orantılı (doğru) {A magnitude} ve birbirine (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmayan üç sayı {E magnitude}, {BC magnitude} ve {CD magnitude} konmuş olsun.
+Dahası, {CB magnitude} de {BD magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmasın.
+Ve {E magnitude}, {BC magnitude}'ye nasılsa, {A magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kareye) (öyle) ve {BC magnitude}, {CD magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
 
-Therefore, since as {E magnitude} is to {BC magnitude}, so the (square) on {A magnitude} (is) to the (square) on {FG magnitude}, the (square) on {A magnitude} (is) thus commensurable with the (square) on {FG magnitude} [Prop. 10.6].
-And the (square) on {A magnitude} (is) rational.
-Thus, the (square) on {FG magnitude} (is) also rational.
-Thus, {FG magnitude} is also a rational (straight-line).
-And since {E magnitude} does not have to {BC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {A magnitude} thus does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {A magnitude} is incommensurable in length with {FG magnitude} [Prop. 10.9].
-Again, since as {BC magnitude} is to {CD magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, the (square) on {FG magnitude} (is) thus commensurable with the (square) on {GH magnitude} [Prop. 10.6].
-And the (square) on {FG magnitude} (is) rational.
-Thus, the (square) on {GH magnitude} (is) also rational.
-Thus, {GH magnitude} (is) also rational.
-And since {BC magnitude} does not have to {CD magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {FG magnitude} thus does not have to the (square) on {GH magnitude} the ratio which (some) square (number) has to (some) square (number) either.
-Thus, {FG magnitude} is incommensurable in length with {GH magnitude} [Prop. 10.9].
-And both are rational (straightlines).
-Thus, {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {FH magnitude} is an apotome [Prop. 10.73].
-So, I say that (it is) also a sixth (apotome).
+Bu yüzden, {E magnitude}, {BC magnitude}'ye nasılsa, {A magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, {A magnitude}'nin (üzerindeki kare), böylece {FG magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {A magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {FG magnitude}'nin (üzerindeki kare) de orantılıdır.
+Böylece {FG magnitude} de bir orantılı (doğrudur).
+Ve {E magnitude}, {BC magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmadığı için, {A magnitude}'nin (üzerindeki kare), böylece {FG magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana da sahip değildir.
+Böylece {A magnitude}, {FG magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Tekrar, {BC magnitude}, {CD magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, {FG magnitude}'nin (üzerindeki kare), böylece {GH magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {FG magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {GH magnitude}'nin (üzerindeki kare) de orantılıdır.
+Böylece {GH magnitude} de orantılıdır.
+Ve {BC magnitude}, {CD magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmadığı için, {FG magnitude}'nin (üzerindeki kare), böylece {GH magnitude}'nin (üzerindeki kareye) (bir) kare (sayının) (bir) kare (sayıya) (sahip olduğu) orana da sahip değildir.
+Böylece {FG magnitude}, {GH magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {FG magnitude} ve {GH magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {FH magnitude} bir kesittir [Önerme 10.73].
+Öyleyse diyorum ki (o) ayrıca bir altıncı (kesittir).
 
-For since as {E magnitude} is to {BC magnitude}, so the (square) on {A magnitude} (is) to the (square) on {FG magnitude}, and as {BC magnitude} (is) to {CD magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, thus, via equality, as {E magnitude} is to {CD magnitude}, so the (square) on {A magnitude} (is) to the (square) on {GH magnitude} [Prop. 5.22].
-And {E magnitude} does not have to {CD magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {A magnitude} does not have to the (square) {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
-{A magnitude} is thus incommensurable in length with {GH magnitude} [Prop. 10.9].
-Thus, neither of {FG magnitude} and {GH magnitude} is commensurable in length with the rational (straight-line) {A magnitude}.
-Therefore, let the (square) on {K magnitude} be that (area) by which the (square) on {FG magnitude} is greater than the (square) on {GH magnitude} [Prop. 10.13 lem.].
-Therefore, since as {BC magnitude} is to {CD magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, thus, via conversion, as {CB magnitude} is to {BD magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {K magnitude} [Prop. 5.19 corr.].
-And {CB magnitude} does not have to {BD magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {FG magnitude} does not have to the (square) on {K magnitude} the ratio which (some) square number (has) to (some) square number either.
-{FG magnitude} is thus incommensurable in length with {K magnitude} [Prop. 10.9].
-And the square on {FG magnitude} is greater than (the square on) {GH magnitude} by the (square) on {K magnitude}.
-Thus, the square on {FG magnitude} is greater than (the square on) {GH magnitude} by the (square) on (some straight-line) incommensurable in length with ({FG magnitude}).
-And neither of {FG magnitude} and {GH magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {A magnitude}.
-Thus, {FH magnitude} is a sixth apotome [Def. 10.16].
+Çünkü {E magnitude}, {BC magnitude}'ye nasılsa, {A magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kareye) (öyle) ve {BC magnitude}, {CD magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece eşitlik yoluyla, {E magnitude}, {CD magnitude}'ye nasılsa, {A magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.22].
+Ve {E magnitude}, {CD magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+Böylece {A magnitude}'nin (üzerindeki kare) de {GH magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+{A magnitude}, böylece {GH magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece {FG magnitude} ve {GH magnitude}'nin hiçbiri, orantılı (doğru) {A magnitude} ile uzunlukta ölçüşür değildir.
+Bu yüzden {K magnitude}'nin üzerindeki (kare), {FG magnitude}'nin (üzerindeki karenin) {GH magnitude}'nin (üzerindeki kareden) büyük olduğu o (alan) olsun [Önerme 10.13 ek kısım].
+Bu yüzden, {BC magnitude}, {CD magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece dönüşüm yoluyla, {CB magnitude}, {BD magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare), {K magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.19 ek sonucu].
+Ve {CB magnitude}, {BD magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+Böylece {FG magnitude}'nin (üzerindeki kare) de {K magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+{FG magnitude}, böylece {K magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve {FG magnitude}'nin üzerindeki kare, ({GH magnitude}'nin üzerindeki kareden) {K magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {FG magnitude}'nin üzerindeki kare, ({GH magnitude}'nin üzerindeki kareden) ({FG magnitude}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve {FG magnitude} ve {GH magnitude}'nin hiçbiri, (daha önce) konmuş orantılı (doğru) {A magnitude} ile uzunlukta ölçüşür değildir.
+Böylece {FH magnitude} bir altıncı kesittir [Tanım 10.16].
 
-Thus, the sixth apotome {FH magnitude} has been found.
-(Which is) the very thing it was required to show.
+Böylece altıncı kesit {FH magnitude} bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

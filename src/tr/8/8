@@ -1,23 +1,26 @@
-If between two numbers there fall (some) numbers in continued proportion then, as many numbers as fall in between them in continued proportion, so many (numbers) will also fall in between (any two numbers) having the same ratio [as them] in continued proportion.
-
-For let the numbers, {C magnitude} and {D magnitude}, fall between two numbers, {A magnitude} and {B magnitude}, in continued proportion, and let it have been contrived (that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.
-I say that, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many (numbers) will also fall in between {E magnitude} and {F magnitude} in continued proportion.
-
-For as many as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in multitude, let so many of the least numbers, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, having the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, have been taken [Prop. 7.33].
-Thus, the outermost of them, {G magnitude} and {L magnitude}, are prime to one another [Prop. 8.3].
-And since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in the same ratio as {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, and the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} is equal to the multitude of {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, thus, via equality, as {A magnitude} is to {B magnitude}, so {G magnitude} (is) to {L magnitude} [Prop. 7.14].
-And as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.
-And thus as {G magnitude} (is) to {L magnitude}, so {E magnitude} (is) to {F magnitude}.
-And {G magnitude} and {L magnitude} (are) prime (to one another).
-And (numbers) prime (to one another are) also the least (numbers having the same ratio as them) [Prop. 7.21].
-And the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, {G magnitude} measures {E magnitude} the same number of times as {L magnitude} (measures) {F magnitude}.
-So as many times as {G magnitude} measures {E magnitude}, so many times let {H magnitude}, {K magnitude} also measure {M magnitude}, {N magnitude}, respectively.
-Thus, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} measure {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} (respectively) an equal number of times.
-Thus, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} are in the same ratio as {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} [Def. 7.20].
-But, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} are in the same ratio as {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude}.
-Thus, {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are also in the same ratio as {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude}.
-And {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} are continuously proportional.
-Thus, {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} are also continuously proportional.
-Thus, as many numbers as have fallen in between {A magnitude} and {B magnitude} in continued proportion, so many numbers have also fallen in between {E magnitude} and {F magnitude} in continued proportion.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayı arasına sürekli orantılı olarak (bazı) sayılar düşerse o zaman aralarına sürekli orantılı olarak kaç sayı düşüyorsa, kendileriyle aynı oranda olan (herhangi iki sayının) arasına da sürekli orantılı olarak o kadar (sayı) düşecektir.
+     2→     2→     2→
+     3→     3→     3→Çünkü {C magnitude} ve {D magnitude} sayıları iki sayı, {A magnitude} ve {B magnitude}, arasına sürekli orantılı olarak düşsün ve {A magnitude} {B magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye (öyle) olsun diye düzenlenmiş olsun.
+     4→     4→     4→Diyorum ki {A magnitude} ve {B magnitude} arasına sürekli orantılı olarak kaç sayı düştüyse, {E magnitude} ve {F magnitude} arasına da sürekli orantılı olarak o kadar (sayı) düşecektir.
+     5→     5→     5→
+     6→     6→     6→Çünkü {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} çoklukta kaç (sayı) ise, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} ile aynı oranda olan en küçük sayılardan, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, o kadar (sayı) alınmış olsun [Önerme 7.33].
+     7→     7→     7→Böylece onların en dıştakileri, {G magnitude} ve {L magnitude}, birbirine asaldır [Önerme 8.3].
+     8→     8→     8→Ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude} ile aynı oranda olduğu ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'nin çokluğu {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}'nin çokluğuna eşit olduğu için, böylece, eşitlik yoluyla, {A magnitude} {B magnitude}'ye nasılsa, {G magnitude} {L magnitude}'ye (öyledir) [Önerme 7.14].
+     9→     9→     9→Ve {A magnitude} {B magnitude}'ye nasılsa, (öyle) {E magnitude} {F magnitude}'ye(dir).
+    10→    10→    10→Ve böylece {G magnitude} {L magnitude}'ye nasılsa, (öyle) {E magnitude} {F magnitude}'ye(dir).
+    11→    11→    11→Ve {G magnitude} ve {L magnitude} (birbirine) asaldır.
+    12→    12→    12→Ve (birbirine) asal (sayılar) ayrıca (kendileriyle aynı oranda olanların) en küçükleridir [Önerme 7.21].
+    13→    13→    13→Ve en küçük sayılar (kendileriyle) aynı oranda olan (sayıları) eşit sayıda ölçer, büyük büyüğü ve küçük küçüğü (ölçerek)---yani, öncül öncülü ve ardıl ardılı (ölçerek) [Önerme 7.20].
+    14→    14→    14→Böylece {G magnitude}, {E magnitude}'yi, {L magnitude}'nin {F magnitude}'yi (ölçtüğü) aynı sayıda ölçer.
+    15→    15→    15→Öyle ki {G magnitude}, {E magnitude}'yi kaç kez ölçüyorsa, {H magnitude}, {K magnitude} da sırasıyla {M magnitude}, {N magnitude}'yi o kadar kez ölçsün.
+    16→    16→    16→Böylece {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, sırasıyla {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude}'yi eşit sayıda ölçer.
+    17→    17→    17→Böylece {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} ile aynı orandadır [Tanım 7.20].
+    18→    18→    18→Ama {G magnitude}, {H magnitude}, {K magnitude}, {L magnitude}, {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} ile aynı orandadır.
+    19→    19→    19→Böylece {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} de {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} ile aynı orandadır.
+    20→    20→    20→Ve {A magnitude}, {C magnitude}, {D magnitude}, {B magnitude} sürekli orantılıdır.
+    21→    21→    21→Böylece {E magnitude}, {M magnitude}, {N magnitude}, {F magnitude} de sürekli orantılıdır.
+    22→    22→    22→Böylece {A magnitude} ve {B magnitude} arasına sürekli orantılı olarak kaç sayı düştüyse, {E magnitude} ve {F magnitude} arasına da sürekli orantılı olarak o kadar sayı düşmüştür.
+    23→    23→    23→(Gösterilmesi gereken tam olarak budur.)
+    24→    24→    24→
+    25→
+    26→

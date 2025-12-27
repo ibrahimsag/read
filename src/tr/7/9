@@ -1,14 +1,16 @@
- If a number is part of a number, and another (number) is the same part of another, also, alternately, which(ever) part, or parts, the first (number) is of the third, the second (number) will also be the same part, or the same parts, of the fourth.
+     1→     1→Eğer bir sayı bir sayının parçasıysa ve başka bir (sayı) başkasının aynı parçasıysa, ayrıca değişimli olarak, birinci (sayı) üçüncünün hangi parçası veya parçalarıysa, ikinci (sayı) da dördüncünün aynı parçası veya aynı parçaları olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {A magnitude} sayısı bir {BC magnitude} sayısının parçası olsun ve başka bir (sayı) {D magnitude}, {A magnitude}'nın {BC magnitude}'nin (parçası olduğu) aynı parça başka bir {EF magnitude}'nin (parçası) olsun.
+     4→     4→Diyorum ki, ayrıca değişimli olarak, {A magnitude} {D magnitude}'nin hangi parçası veya parçalarıysa, {BC magnitude} de {EF magnitude}'nin aynı parçası veya parçalarıdır.
+     5→     5→
+     6→     6→Çünkü {A magnitude} {BC magnitude}'nin hangi parçasıysa, {D magnitude} de {EF magnitude}'nin aynı parçası olduğu için, böylece {BC magnitude}'de {A magnitude}'ya eşit kaç sayı varsa, {EF magnitude}'de de {D magnitude}'ye eşit o kadar vardır.
+     7→     7→{BC magnitude}, {A magnitude}'ya eşit {BG magnitude} ve {GC magnitude}'ye bölünmüş olsun ve {EF magnitude}, {D magnitude}'ye eşit {EH magnitude} ve {HF magnitude}'ye (bölünmüş olsun).
+     8→     8→Öyleyse (bölümlerin) {BG magnitude}, {GC magnitude} sayısı (bölümlerin) {EH magnitude}, {HF magnitude} sayısına eşit olacaktır.
+     9→     9→
+    10→    10→Ve {BG magnitude} ve {GC magnitude} sayıları birbirine eşit olduğu ve {EH magnitude} ve {HF magnitude} sayıları da birbirine eşit olduğu ve (bölümlerin) {BG magnitude}, {GC magnitude} sayısı (bölümlerin) {EH magnitude}, {HF magnitude} sayısına eşit olduğu için, böylece {BG magnitude} {EH magnitude}'nin hangi parçası veya parçalarıysa, {GC magnitude} de {HF magnitude}'nin aynı parçası veya aynı parçalarıdır.
+    11→    11→Ve dolayısıyla {BG magnitude} {EH magnitude}'nin hangi parçası veya parçalarıysa, {BC magnitude} toplamı da {EF magnitude} toplamının aynı parçası veya aynı parçalarıdır [Önermeler 7.5, 7.6].
+    12→    12→Ve {BG magnitude} {A magnitude}'ya ve {EH magnitude} {D magnitude}'ye eşittir.
+    13→    13→Böylece {A magnitude} {D magnitude}'nin hangi parçası veya parçalarıysa, {BC magnitude} de {EF magnitude}'nin aynı parçası veya aynı parçalarıdır.
+    14→    14→(Gösterilmesi gereken tam olarak budur.)
+    15→    15→
 
-For let a number {A magnitude} be part of a number {BC magnitude}, and another (number) {D magnitude} (be) the same part of another {EF magnitude} that {A magnitude} (is) of {BC magnitude}.
-I say that, also, alternately, which(ever) part, or parts, {A magnitude} is of {D magnitude}, {BC magnitude} is also the same part, or parts, of {EF magnitude}.
-
-For since which(ever) part {A magnitude} is of {BC magnitude}, {D magnitude} is also the same part of {EF magnitude}, thus as many numbers as are in {BC magnitude} equal to {A magnitude}, so many are also in {EF magnitude} equal to {D magnitude}.
-Let {BC magnitude} have been divided into {BG magnitude} and {GC magnitude}, equal to {A magnitude}, and {EF magnitude} into {EH magnitude} and {HF magnitude}, equal to {D magnitude}.
-So the multitude of (divisions) {BG magnitude}, {GC magnitude} will be equal to the multitude of (divisions) {EH magnitude}, {HF magnitude}.
-
-And since the numbers {BG magnitude} and {GC magnitude} are equal to one another, and the numbers {EH magnitude} and {HF magnitude} are also equal to one another, and the multitude of (divisions) {BG magnitude}, {GC magnitude} is equal to the multitude of (divisions) {EH magnitude}, {HF magnitude}, thus which(ever) part, or parts, {BG magnitude} is of {EH magnitude}, {GC magnitude} is also the same part, or the same parts, of {HF magnitude}.
-And hence, which(ever) part, or parts, {BG magnitude} is of {EH magnitude}, the sum {BC magnitude} is also the same part, or the same parts, of the sum {EF magnitude} [Props. 7.5, 7.6].
-And {BG magnitude} (is) equal to {A magnitude}, and {EH magnitude} to {D magnitude}.
-Thus, which(ever) part, or parts, {A magnitude} is of {D magnitude}, {BC magnitude} is also the same part, or the same parts, of {EF magnitude}.
-(Which is) the very thing it was required to show.

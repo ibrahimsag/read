@@ -1,10 +1,11 @@
-If any multitude whatsoever of odd numbers is added together, and the multitude of them is even, then the whole will be even.
+Eğer herhangi bir çoklukta tek sayılar toplanırsa ve onların çokluğu çiftse o zaman bütün çift olacaktır.
 
-For let any even multitude whatsoever of odd numbers, {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude}, lie together.
-I say that the whole, {AE magnitude}, is even.
+Çünkü herhangi bir çift çoklukta tek sayılar, {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude}, birlikte olsun.
+Diyorum ki bütün, {AE magnitude}, çifttir.
 
-For since everyone of {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude} is odd then, a unit being subtracted from each, everyone of the remainders will be (made) even [Def. 7.7].
-And hence the sum of them will be even [Prop. 9.21].
-And the multitude of the units is even.
-Thus, the whole {AE magnitude} is also even [Prop. 9.21].
-(Which is) the very thing it was required to show.
+Çünkü {AB magnitude}, {BC magnitude}, {CD magnitude}, {DE magnitude}'nin her biri tek olduğu için, her birinden bir birim çıkarıldığında kalanların her biri çift (yapılmış) olacaktır [Tanım 7.7].
+Ve dolayısıyla onların toplamı çift olacaktır [Önerme 9.21].
+Ve birimlerin çokluğu çifttir.
+Böylece bütün {AE magnitude} de çifttir [Önerme 9.21].
+(Gösterilmesi gereken tam olarak budur.)
+

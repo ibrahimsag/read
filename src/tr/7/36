@@ -1,42 +1,45 @@
-To find the least number which three given numbers (all) measure.
-
-Let {A magnitude}, {B magnitude}, and {C magnitude} be the three given numbers.
-So it is required to find the least number which they (all) measure.
-
-For let the least (number), {D magnitude}, measured by the two (numbers) {A magnitude} and {B magnitude} have been taken [Prop. 7.34].
-So {C magnitude} either measures, or does not measure, {D magnitude}.
-Let it, first of all, measure ({D magnitude}).
-And {A magnitude} and {B magnitude} also measure {D magnitude}.
-Thus, {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {D magnitude}.
-So I say that ({D magnitude} is) also the least (number measured by {A magnitude}, {B magnitude}, and {C magnitude}).
-For if not, {A magnitude}, {B magnitude}, and {C magnitude} will (all) measure [some] number which is less than {D magnitude}.
-Let them measure {E magnitude} (which is less than {D magnitude}).
-Since {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {E magnitude} then {A magnitude} and {B magnitude} thus also measure {E magnitude}.
-Thus, the least (number) measured by {A magnitude} and {B magnitude} will also measure [{E magnitude}] [Prop. 7.35].
-And {D magnitude} is the least (number) measured by {A magnitude} and {B magnitude}.
-Thus, {D magnitude} will measure {E magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, {A magnitude}, {B magnitude}, and {C magnitude} cannot (all) measure some number which is less than {D magnitude}.
-Thus, {A magnitude}, {B magnitude}, and {C magnitude} (all) measure the least (number) {D magnitude}.
-
-So, again, let {C magnitude} not measure {D magnitude}.
-And let the least number, {E magnitude}, measured by {C magnitude} and {D magnitude} have been taken [Prop. 7.34].
-Since {A magnitude} and {B magnitude} measure {D magnitude}, and {D magnitude} measures {E magnitude}, {A magnitude} and {B magnitude} thus also measure {E magnitude}.
-And {C magnitude} also measures [{E magnitude}].
-Thus, {A magnitude}, {B magnitude}, and {C magnitude} [also] measure {E magnitude}.
-So I say that ({E magnitude} is) also the least (number measured by {A magnitude}, {B magnitude}, and {C magnitude}).
-For if not, {A magnitude}, {B magnitude}, and {C magnitude} will (all) measure some (number) which is less than {E magnitude}.
-Let them measure {F magnitude} (which is less than {E magnitude}).
-Since {A magnitude}, {B magnitude}, and {C magnitude} (all) measure {F magnitude}, {A magnitude} and {B magnitude} thus also measure {F magnitude}.
-Thus, the least (number) measured by {A magnitude} and {B magnitude} will also measure {F magnitude} [Prop. 7.35].
-And {D magnitude} is the least (number) measured by {A magnitude} and {B magnitude}.
-Thus, {D magnitude} measures {F magnitude}.
-And {C magnitude} also measures {F magnitude}.
-Thus, {D magnitude} and {C magnitude} (both) measure {F magnitude}.
-Hence, the least (number) measured by {D magnitude} and {C magnitude} will also measure {F magnitude} [Prop. 7.35].
-And {E magnitude} is the least (number) measured by {C magnitude} and {D magnitude}.
-Thus, {E magnitude} measures {F magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, {A magnitude}, {B magnitude}, and {C magnitude} cannot measure some number which is less than {E magnitude}.
-Thus, {E magnitude} (is) the least (number) which is measured by {A magnitude}, {B magnitude}, and {C magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Verilen üç sayının (hepsinin) ölçtüğü en küçük sayıyı bulmak.
+     2→     2→     2→
+     3→     3→     3→{A magnitude}, {B magnitude} ve {C magnitude} verilen üç sayı olsun.
+     4→     4→     4→Öyleyse hepsinin ölçtüğü en küçük sayıyı bulmak gereklidir.
+     5→     5→     5→
+     6→     6→     6→Çünkü iki sayı, {A magnitude} ve {B magnitude}, tarafından ölçülen en küçük (sayı), {D magnitude}, alınmış olsun [Önerme 7.34].
+     7→     7→     7→Öyleyse {C magnitude} ya {D magnitude}'yi ölçer ya da ölçmez.
+     8→     8→     8→Her şeyden önce ({D magnitude}'yi) ölçsün.
+     9→     9→     9→Ve {A magnitude} ve {B magnitude} de {D magnitude}'yi ölçer.
+    10→    10→    10→Böylece {A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {D magnitude}'yi ölçer.
+    11→    11→    11→Öyleyse diyorum ki ({D magnitude}) ayrıca ({A magnitude}, {B magnitude} ve {C magnitude} tarafından ölçülenlerin) en küçüğüdür.
+    12→    12→    12→Çünkü eğer değilse, {A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {D magnitude}'den küçük [bir] sayıyı ölçecektir.
+    13→    13→    13→({D magnitude}'den küçük olan) {E magnitude}'yi ölçsünler.
+    14→    14→    14→{A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {E magnitude}'yi ölçtüğü için {A magnitude} ve {B magnitude} böylece {E magnitude}'yi de ölçer.
+    15→    15→    15→Böylece {A magnitude} ve {B magnitude} tarafından ölçülen en küçük (sayı) da [{E magnitude}'yi] ölçecektir [Önerme 7.35].
+    16→    16→    16→Ve {D magnitude}, {A magnitude} ve {B magnitude} tarafından ölçülen en küçük (sayıdır).
+    17→    17→    17→Böylece {D magnitude}, büyük küçüğü (ölçerek) {E magnitude}'yi ölçecektir.
+    18→    18→    18→Ki bu imkansızdır.
+    19→    19→    19→Böylece {A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {D magnitude}'den küçük bir sayıyı ölçemez.
+    20→    20→    20→Böylece {A magnitude}, {B magnitude} ve {C magnitude} (hepsi) en küçük (sayı olan) {D magnitude}'yi ölçer.
+    21→    21→    21→
+    22→    22→    22→Öyleyse, tekrar, {C magnitude} {D magnitude}'yi ölçmesin.
+    23→    23→    23→Ve {C magnitude} ve {D magnitude} tarafından ölçülen en küçük sayı, {E magnitude}, alınmış olsun [Önerme 7.34].
+    24→    24→    24→{A magnitude} ve {B magnitude} {D magnitude}'yi ölçtüğü ve {D magnitude} {E magnitude}'yi ölçtüğü için, {A magnitude} ve {B magnitude} böylece {E magnitude}'yi de ölçer.
+    25→    25→    25→Ve {C magnitude} de [{E magnitude}'yi] ölçer.
+    26→    26→    26→Böylece {A magnitude}, {B magnitude} ve {C magnitude} [de] {E magnitude}'yi ölçer.
+    27→    27→    27→Öyleyse diyorum ki ({E magnitude}) ayrıca ({A magnitude}, {B magnitude} ve {C magnitude} tarafından ölçülenlerin) en küçüğüdür.
+    28→    28→    28→Çünkü eğer değilse, {A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {E magnitude}'den küçük bir (sayıyı) ölçecektir.
+    29→    29→    29→({E magnitude}'den küçük olan) {F magnitude}'yi ölçsünler.
+    30→    30→    30→{A magnitude}, {B magnitude} ve {C magnitude} (hepsi) {F magnitude}'yi ölçtüğü için, {A magnitude} ve {B magnitude} böylece {F magnitude}'yi de ölçer.
+    31→    31→    31→Böylece {A magnitude} ve {B magnitude} tarafından ölçülen en küçük (sayı) da {F magnitude}'yi ölçecektir [Önerme 7.35].
+    32→    32→    32→Ve {D magnitude}, {A magnitude} ve {B magnitude} tarafından ölçülen en küçük (sayıdır).
+    33→    33→    33→Böylece {D magnitude} {F magnitude}'yi ölçer.
+    34→    34→    34→Ve {C magnitude} de {F magnitude}'yi ölçer.
+    35→    35→    35→Böylece {D magnitude} ve {C magnitude} (ikisi de) {F magnitude}'yi ölçer.
+    36→    36→    36→Dolayısıyla, {D magnitude} ve {C magnitude} tarafından ölçülen en küçük (sayı) da {F magnitude}'yi ölçecektir [Önerme 7.35].
+    37→    37→    37→Ve {E magnitude}, {C magnitude} ve {D magnitude} tarafından ölçülen en küçük (sayıdır).
+    38→    38→    38→Böylece {E magnitude}, büyük küçüğü (ölçerek) {F magnitude}'yi ölçer.
+    39→    39→    39→Ki bu imkansızdır.
+    40→    40→    40→Böylece {A magnitude}, {B magnitude} ve {C magnitude} {E magnitude}'den küçük bir sayıyı ölçemez.
+    41→    41→    41→Böylece {E magnitude}, {A magnitude}, {B magnitude} ve {C magnitude} tarafından ölçülen en küçük (sayıdır).
+    42→    42→    42→(Gösterilmesi gereken tam olarak budur.)
+    43→    43→    43→
+    44→
+    45→

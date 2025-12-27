@@ -1,32 +1,34 @@
-If there are two unequal straight-lines, and a (rectangle) equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) incommensurable [in length], then the square on the greater will be larger than the (square on the) lesser by the (square) on (some straight-line) incommensurable (in length) with the greater.
-And if the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line) incommensurable (in length) with the greater, and a (rectangle) equal to the fourth (part) of the (square) on the lesser, falling short by a square figure, is applied to the greater, then it divides it into (parts which are) incommensurable [in length].
+Eğer iki eşit olmayan doğru varsa ve küçük (olanın) üzerindeki (karenin) dört parçasının birine eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, büyük (olana) uygulanırsa ve onu [uzunlukta] ölçüşmez (olan parçalara) bölerse o zaman büyük olanın üzerindeki kare, küçük (olanın üzerindeki kareden) büyük (olanla) (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyük olacaktır.
+Ve eğer büyük olanın üzerindeki kare, küçük (olanın üzerindeki kareden) büyük (olanla) (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyükse ve küçük (olanın) üzerindeki (karenin) dört [parçasının birine] eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, büyük (olana) uygulanırsa o zaman onu [uzunlukta] ölçüşmez (olan parçalara) böler.
 
-Let {A magnitude} and {BC magnitude} be two unequal straight-lines, of which (let) {BC magnitude} (be) the greater.
-And let a (rectangle) equal to the fourth [part] of the (square) on the lesser, {A magnitude}, falling short by a square figure, have been applied to {BC magnitude}.
-And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude}.
-And let {BD magnitude} be incommensurable in length with {DC magnitude}.
-I say that that the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+{A magnitude} ve {BC magnitude} iki eşit olmayan doğru olsun, bunlardan {BC magnitude} büyük (olan) olsun.
+Ve küçük olanın, {A magnitude}'nın, üzerindeki (karenin) dört [parçasının birine] eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, {BC magnitude}'ye uygulanmış olsun.
+Ve {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgen) olsun.
+Ve {BD magnitude}, {DC magnitude} ile uzunlukta ölçüşmez olsun.
+Diyorum ki {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-For, similarly, by the same construction as before, we can show that the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on {FD magnitude}.
-[Therefore] it must be shown that {BC magnitude} is incommensurable in length with {DF magnitude}.
-For since {BD magnitude} is incommensurable in length with {DC magnitude}, {BC magnitude} is thus also incommensurable in length with {CD magnitude} [Prop. 10.16].
-But, {DC magnitude} is commensurable (in length) with the sum of {BF magnitude} and {DC magnitude} [Prop. 10.6].
-And, thus, {BC magnitude} is incommensurable (in length) with the sum of {BF magnitude} and {DC magnitude} [Prop. 10.13].
-Hence, {BC magnitude} is also incommensurable in length with the remainder {FD magnitude} [Prop. 10.16].
-And the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on {FD magnitude}.
-Thus, the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
+Çünkü, benzer şekilde, daha önceki ile aynı inşayla, {BC magnitude}'nin üzerindeki karenin, {A magnitude}'nın (üzerindeki kareden) {FD magnitude}'nin (üzerindeki kare) kadar büyük olduğunu gösterebiliriz.
+[Bundan dolayı] {BC magnitude}'nin {DF magnitude} ile uzunlukta ölçüşmez olduğu gösterilmelidir.
+{BD magnitude}, {DC magnitude} ile uzunlukta ölçüşmez olduğu için, böylece {BC magnitude} de {CD magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.16].
+Ama {DC magnitude}, {BF magnitude} ve {DC magnitude}'nin toplamı ile (uzunlukta) ölçüşürdür [Önerme 10.6].
+Ve böylece {BC magnitude}, {BF magnitude} ve {DC magnitude}'nin toplamı ile (uzunlukta) ölçüşmezdir [Önerme 10.13].
+Bundan dolayı {BC magnitude} de kalan {FD magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.16].
+Ve {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) {FD magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-So, again, let the square on {BC magnitude} be greater than the (square on) {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
-And let a (rectangle) equal to the fourth [part] of the (square) on {A magnitude}, falling short by a square figure, have been applied to {BC magnitude}.
-And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude}.
-It must be shown that {BD magnitude} is incommensurable in length with {DC magnitude}.
+Öyleyse, tekrar, {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyük olsun.
+Ve {A magnitude}'nın üzerindeki (karenin) dört [parçasının birine] eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, {BC magnitude}'ye uygulanmış olsun.
+Ve {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgen) olsun.
+{BD magnitude}'nin {DC magnitude} ile uzunlukta ölçüşmez olduğu gösterilmelidir.
 
-For, similarly, by the same construction, we can show that the square on {BC magnitude} is greater than the (square) on {A magnitude} by the (square) on {FD magnitude}.
-But, the square on {BC magnitude} is greater than the (square) on {A magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BC magnitude}).
-Thus, {BC magnitude} is incommensurable in length with {FD magnitude}.
-Hence, {BC magnitude} is also incommensurable (in length) with the remaining sum of {BF magnitude} and {DC magnitude} [Prop. 10.16].
-But, the sum of {BF magnitude} and {DC magnitude} is commensurable in length with {DC magnitude} [Prop. 10.6].
-Thus, {BC magnitude} is also incommensurable in length with {DC magnitude} [Prop. 10.13].
-Hence, via separation, {BD magnitude} is also incommensurable in length with {DC magnitude} [Prop. 10.16].
+Çünkü, benzer şekilde, aynı inşayla, {BC magnitude}'nin üzerindeki karenin, {A magnitude}'nın (üzerindeki kareden) {FD magnitude}'nin (üzerindeki kare) kadar büyük olduğunu gösterebiliriz.
+Ama {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşmez (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Böylece {BC magnitude}, {FD magnitude} ile uzunlukta ölçüşmezdir.
+Bundan dolayı {BC magnitude} de {BF magnitude} ve {DC magnitude}'nin kalan toplamı ile (uzunlukta) ölçüşmezdir [Önerme 10.16].
+Ama {BF magnitude} ve {DC magnitude}'nin toplamı, {DC magnitude} ile uzunlukta ölçüşürdür [Önerme 10.6].
+Böylece {BC magnitude} de {DC magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Bundan dolayı, ayırarak, {BD magnitude} de {DC magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.16].
 
-Thus, if there are two ... straight-lines, and so on ....
+Böylece eğer iki... doğru (varsa)... ve böyle devam eder...
+
+

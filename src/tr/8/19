@@ -1,39 +1,42 @@
-Two numbers fall (between) two similar solid numbers in mean proportion.
-And a solid (number) has to a similar solid (number) a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side.
-
-Let {A magnitude} and {B magnitude} be two similar solid numbers, and let {C magnitude}, {D magnitude}, {E magnitude} be the sides of {A magnitude}, and {F magnitude}, {G magnitude}, {H magnitude} (the sides) of {B magnitude}.
-And since similar solid (numbers) are those having proportional sides [Def. 7.21], thus as {C magnitude} is to {D magnitude}, so {F magnitude} (is) to {G magnitude}, and as {D magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {H magnitude}.
-I say that two numbers fall (between) {A magnitude} and {B magnitude} in mean proportion, and (that) {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) {C magnitude} (has) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.
-
-For let {C magnitude} make {K magnitude} (by) multiplying {D magnitude}, and let {F magnitude} make {L magnitude} (by) multiplying {G magnitude}.
-And since {C magnitude}, {D magnitude} are in the same ratio as {F magnitude}, {G magnitude}, and {K magnitude} is the (number created) from (multiplying) {C magnitude}, {D magnitude}, and {L magnitude} the (number created) from (multiplying) {F magnitude}, {G magnitude}, [thus] {K magnitude} and {L magnitude} are similar plane numbers [Def. 7.21].
-Thus, there exits one number in mean proportion to {K magnitude} and {L magnitude} [Prop. 8.18].
-Let it be {M magnitude}.
-Thus, {M magnitude} is the (number created) from (multiplying) {D magnitude}, {F magnitude}, as shown in the theorem before this (one).
-And since {D magnitude} has made {K magnitude} (by) multiplying {C magnitude}, and has made {M magnitude} (by) multiplying {F magnitude}, thus as {C magnitude} is to {F magnitude}, so {K magnitude} (is) to {M magnitude} [Prop. 7.17].
-But, as {K magnitude} (is) to {M magnitude}, (so) {M magnitude} (is) to {L magnitude}.
-Thus, {K magnitude}, {M magnitude}, {L magnitude} are continuously proportional in the ratio of {C magnitude} to {F magnitude}.
-And since as {C magnitude} is to {D magnitude}, so {F magnitude} (is) to {G magnitude}, thus, alternately, as {C magnitude} is to {F magnitude}, so {D magnitude} (is) to {G magnitude} [Prop. 7.13].
-And so, for the same (reasons), as {D magnitude} (is) to {G magnitude}, so {E magnitude} (is) to {H magnitude}.
-Thus, {K magnitude}, {M magnitude}, {L magnitude} are continuously proportional in the ratio of {C magnitude} to {F magnitude}, and of {D magnitude} to {G magnitude}, and, further, of {E magnitude} to {H magnitude}.
-So let {E magnitude}, {H magnitude} make {N magnitude}, {O magnitude}, respectively, (by) multiplying {M magnitude}.
-And since {A magnitude} is solid, and {C magnitude}, {D magnitude}, {E magnitude} are its sides, {E magnitude} has thus made {A magnitude} (by) multiplying the (number created) from (multiplying) {C magnitude}, {D magnitude}.
-And {K magnitude} is the (number created) from (multiplying) {C magnitude}, {D magnitude}.
-Thus, {E magnitude} has made {A magnitude} (by) multiplying {K magnitude}.
-And so, for the same (reasons), {H magnitude} has made {B magnitude} (by) multiplying {L magnitude}.
-And since {E magnitude} has made {A magnitude} (by) multiplying {K magnitude}, but has, in fact, also made {N magnitude} (by) multiplying {M magnitude}, thus as {K magnitude} is to {M magnitude}, so {A magnitude} (is) to {N magnitude} [Prop. 7.17].
-And as {K magnitude} (is) to {M magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.
-And thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so {A magnitude} (is) to {N magnitude}.
-Again, since {E magnitude}, {H magnitude} have made {N magnitude}, {O magnitude}, respectively, (by) multiplying {M magnitude}, thus as {E magnitude} is to {H magnitude}, so {N magnitude} (is) to {O magnitude} [Prop. 7.18].
-But, as {E magnitude} (is) to {H magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}.
-And thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so (is) {A magnitude} to {N magnitude}, and {N magnitude} to {O magnitude}.
-Again, since {H magnitude} has made {O magnitude} (by) multiplying {M magnitude}, but has, in fact, also made {B magnitude} (by) multiplying {L magnitude}, thus as {M magnitude} (is) to {L magnitude}, so {O magnitude} (is) to {B magnitude} [Prop. 7.17].
-But, as {M magnitude} (is) to {L magnitude}, so {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}.
-And thus as {C magnitude} (is) to {F magnitude}, and {D magnitude} to {G magnitude}, and {E magnitude} to {H magnitude}, so not only (is) {O magnitude} to {B magnitude}, but also {A magnitude} to {N magnitude}, and {N magnitude} to {O magnitude}.
-Thus, {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude} are continuously proportional in the aforementioned ratios of the sides.
-
-So I say that {A magnitude} also has to {B magnitude} a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number {C magnitude} (has) to {F magnitude}, or {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.
-For since {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude} are four continuously proportional numbers, {A magnitude} thus has to {B magnitude} a cubed ratio with respect to (that) {A magnitude} (has) to {N magnitude} [Def. 5.10].
-But, as {A magnitude} (is) to {N magnitude}, so it was shown (is) {C magnitude} to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.
-And thus {A magnitude} has to {B magnitude} a cubed ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) the number {C magnitude} (has) to {F magnitude}, and {D magnitude} to {G magnitude}, and, further, {E magnitude} to {H magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→İki benzer katı sayı arasına orantısal ortada iki sayı düşer.
+     2→     2→     2→Ve bir katı (sayı) benzer bir katı (sayıya), karşılık gelen kenarın karşılık gelen kenara (taşıdığı oranda) küpsel oran taşır.
+     3→     3→     3→
+     4→     4→     4→{A magnitude} ve {B magnitude} iki benzer katı sayı olsun ve {C magnitude}, {D magnitude}, {E magnitude}, {A magnitude}'nın kenarları ve {F magnitude}, {G magnitude}, {H magnitude}, {B magnitude}'nin (kenarları) olsun.
+     5→     5→     5→Ve benzer katı (sayılar) orantılı kenarlara sahip olanlar olduğu için [Tanım 7.21], böylece {C magnitude} {D magnitude}'ye nasılsa, {F magnitude} {G magnitude}'ye (öyledir) ve {D magnitude} {E magnitude}'ye nasılsa, {G magnitude} {H magnitude}'ye (öyledir).
+     6→     6→     6→Diyorum ki {A magnitude} ve {B magnitude} arasına orantısal ortada iki sayı düşer ve {A magnitude}, {B magnitude}'ye, {C magnitude}'nin {F magnitude}'ye ve {D magnitude}'nin {G magnitude}'ye ve ayrıca {E magnitude}'nin {H magnitude}'ye (taşıdığı oranda) küpsel oran taşır.
+     7→     7→     7→
+     8→     8→     8→Çünkü {C magnitude}, {D magnitude}'yi çarparak {K magnitude}'yı oluştursun ve {F magnitude}, {G magnitude}'yi çarparak {L magnitude}'yi oluştursun.
+     9→     9→     9→Ve {C magnitude}, {D magnitude}, {F magnitude}, {G magnitude} ile aynı oranda olduğu ve {K magnitude}, {C magnitude}, {D magnitude}'nin (çarpılmasından) oluşturulan (sayı) ve {L magnitude}, {F magnitude}, {G magnitude}'nin (çarpılmasından) oluşturulan (sayı) olduğu için, [böylece] {K magnitude} ve {L magnitude} benzer düzlem sayılardır [Tanım 7.21].
+    10→    10→    10→Böylece {K magnitude} ve {L magnitude} arasında orantısal ortada bir sayı vardır [Önerme 8.18].
+    11→    11→    11→O {M magnitude} olsun.
+    12→    12→    12→Böylece {M magnitude}, bundan önceki teoremde gösterildiği gibi, {D magnitude}, {F magnitude}'nin (çarpılmasından) oluşturulan (sayıdır).
+    13→    13→    13→Ve {D magnitude}, {C magnitude}'yi çarparak {K magnitude}'yı oluşturduğu ve {F magnitude}'yi çarparak {M magnitude}'yi oluşturduğu için, böylece {C magnitude} {F magnitude}'ye nasılsa, {K magnitude} {M magnitude}'ye (öyledir) [Önerme 7.17].
+    14→    14→    14→Ama {K magnitude} {M magnitude}'ye nasılsa, (öyle) {M magnitude} {L magnitude}'ye(dir).
+    15→    15→    15→Böylece {K magnitude}, {M magnitude}, {L magnitude}, {C magnitude}'nin {F magnitude}'ye oranında sürekli orantılıdır.
+    16→    16→    16→Ve {C magnitude} {D magnitude}'ye nasılsa, {F magnitude} {G magnitude}'ye (öyle) olduğu için, böylece, ters çevrilmiş olarak, {C magnitude} {F magnitude}'ye nasılsa, {D magnitude} {G magnitude}'ye (öyledir) [Önerme 7.13].
+    17→    17→    17→Ve öyle ki, aynı (nedenlerle), {D magnitude} {G magnitude}'ye nasılsa, (öyle) {E magnitude} {H magnitude}'ye(dir).
+    18→    18→    18→Böylece {K magnitude}, {M magnitude}, {L magnitude}, {C magnitude}'nin {F magnitude}'ye ve {D magnitude}'nin {G magnitude}'ye ve ayrıca {E magnitude}'nin {H magnitude}'ye oranında sürekli orantılıdır.
+    19→    19→    19→Öyleyse {E magnitude}, {H magnitude}, {M magnitude}'yi çarparak sırasıyla {N magnitude}, {O magnitude}'yu oluştursunlar.
+    20→    20→    20→Ve {A magnitude} katı olduğu ve {C magnitude}, {D magnitude}, {E magnitude} onun kenarları olduğu için, {E magnitude} böylece {C magnitude}, {D magnitude}'nin (çarpılmasından) oluşturulan (sayıyı) çarparak {A magnitude}'yı oluşturmuştur.
+    21→    21→    21→Ve {K magnitude}, {C magnitude}, {D magnitude}'nin (çarpılmasından) oluşturulan (sayıdır).
+    22→    22→    22→Böylece {E magnitude}, {K magnitude}'yı çarparak {A magnitude}'yı oluşturmuştur.
+    23→    23→    23→Ve öyle ki, aynı (nedenlerle), {H magnitude}, {L magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur.
+    24→    24→    24→Ve {E magnitude}, {K magnitude}'yı çarparak {A magnitude}'yı oluşturduğu ama aslında {M magnitude}'yi de çarparak {N magnitude}'yi oluşturduğu için, böylece {K magnitude} {M magnitude}'ye nasılsa, {A magnitude} {N magnitude}'ye (öyledir) [Önerme 7.17].
+    25→    25→    25→Ve {K magnitude} {M magnitude}'ye nasılsa, (öyle) {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve ayrıca {E magnitude} {H magnitude}'ye(dir).
+    26→    26→    26→Ve böylece {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve {E magnitude} {H magnitude}'ye nasılsa, {A magnitude} {N magnitude}'ye (öyledir).
+    27→    27→    27→Tekrar, {E magnitude}, {H magnitude}, {M magnitude}'yi çarparak sırasıyla {N magnitude}, {O magnitude}'yu oluşturduğu için, böylece {E magnitude} {H magnitude}'ye nasılsa, {N magnitude} {O magnitude}'ya (öyledir) [Önerme 7.18].
+    28→    28→    28→Ama {E magnitude} {H magnitude}'ye nasılsa, (öyle) {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye(dir).
+    29→    29→    29→Ve böylece {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve {E magnitude} {H magnitude}'ye nasılsa, (öyle) {A magnitude} {N magnitude}'ye ve {N magnitude} {O magnitude}'ya(dır).
+    30→    30→    30→Tekrar, {H magnitude}, {M magnitude}'yi çarparak {O magnitude}'yu oluşturduğu ama aslında {L magnitude}'yi de çarparak {B magnitude}'yi oluşturduğu için, böylece {M magnitude} {L magnitude}'ye nasılsa, {O magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    31→    31→    31→Ama {M magnitude} {L magnitude}'ye nasılsa, (öyle) {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve {E magnitude} {H magnitude}'ye(dir).
+    32→    32→    32→Ve böylece {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve {E magnitude} {H magnitude}'ye nasılsa, yalnızca {O magnitude} {B magnitude}'ye (öyle) değil, ayrıca {A magnitude} {N magnitude}'ye ve {N magnitude} {O magnitude}'ya(dır).
+    33→    33→    33→Böylece {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude}, kenarların yukarıda belirtilen oranlarında sürekli orantılıdır.
+    34→    34→    34→
+    35→    35→    35→Öyleyse diyorum ki {A magnitude} ayrıca {B magnitude}'ye, karşılık gelen kenarın karşılık gelen kenara (taşıdığı oranda)---yani {C magnitude} sayısının {F magnitude}'ye veya {D magnitude}'nin {G magnitude}'ye ve ayrıca {E magnitude}'nin {H magnitude}'ye (taşıdığı oranda) küpsel oran taşır.
+    36→    36→    36→Çünkü {A magnitude}, {N magnitude}, {O magnitude}, {B magnitude} dört sürekli orantılı sayı olduğu için, {A magnitude} böylece {B magnitude}'ye, {A magnitude}'nın {N magnitude}'ye (taşıdığı oranda) küpsel oran taşır [Tanım 5.10].
+    37→    37→    37→Ama {A magnitude} {N magnitude}'ye nasılsa, (öyle) {C magnitude} {F magnitude}'ye ve {D magnitude} {G magnitude}'ye ve ayrıca {E magnitude} {H magnitude}'ye olduğu gösterilmişti.
+    38→    38→    38→Ve böylece {A magnitude}, {B magnitude}'ye, karşılık gelen kenarın karşılık gelen kenara (taşıdığı oranda)---yani {C magnitude} sayısının {F magnitude}'ye ve {D magnitude}'nin {G magnitude}'ye ve ayrıca {E magnitude}'nin {H magnitude}'ye (taşıdığı oranda) küpsel oran taşır.
+    39→    39→    39→(Gösterilmesi gereken tam olarak budur.)
+    40→    40→    40→
+    41→
+    42→

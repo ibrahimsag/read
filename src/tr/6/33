@@ -1,22 +1,24 @@
-In equal circles, angles have the same ratio as the (ratio of the) circumferences on which they stand, whether they are standing at the centers (of the circles) or at the circumferences.
+     1→     1→Eşit çemberlerde, açılar üzerinde durdukları çevrelerin (oranıyla) aynı orana sahiptir, ister (çemberlerin) merkezlerinde ister çevrelerinde duruyor olsunlar.
+     2→     2→
+     3→     3→{ABC circle G} ve {DEF circle H} eşit çemberler olsun ve {BGC angle} ve {EHF angle} sırasıyla merkezleri {G point} ve {H point}'deki açılar olsun ve {BAC angle} ve {EDF angle} çevrelerindeki (açılar) olsun.
+     4→     4→Diyorum ki {BC arcc G} çevresi {EF arcc H} çevresine nasılsa, {BGC angle} açısı {EHF angle}'ye ve ({BAC angle} açısı) {EDF angle}'ye öyledir.
+     5→     5→
+     6→     6→Çünkü herhangi bir sayıda ardışık (çevre), {CK arcc G} ve {KL arcc G}, {BC arcc G} çevresine eşit yapılmış olsun ve herhangi bir sayıda, {FM arcc H} ve {MN arcc H}, {EF arcc H} çevresine (eşit yapılmış olsun).
+     7→     7→Ve {GK line}, {GL line}, {HM line} ve {HN line} birleştirilmiş olsun.
+     8→     8→
+     9→     9→Bu nedenle, {BC arcc G}, {CK arcc G} ve {KL arcc G} çevreleri birbirine eşit olduğu için, {BGC angle}, {CGK angle} ve {KGL angle} açıları da birbirine eşittir [Önerme 3.27].
+    10→    10→Böylece {BL arcc G} çevresi {BC arcc G}'ye kaç katsa, {BGL angle} açısı da {BGC angle}'ye o kadardır.
+    11→    11→Ve öyle ki, aynı (nedenlerle), {EN arcc H} çevresi {EF arcc H}'ye kaç katsa, {NHE angle} açısı da {EHF angle}'ye o kadardır.
+    12→    12→Böylece, eğer {BL arcc G} çevresi {EN arcc H} çevresine eşitse o zaman {BGL angle} açısı da {EHN angle}'ye eşittir [Önerme 3.27] ve eğer {BL arcc G} çevresi {EN arcc H} çevresinden büyükse o zaman {BGL angle} açısı da {EHN angle}'den büyüktür ve eğer ({BL arcc G}) küçükse ({EN arcc H}'den) o zaman ({BGL angle} de) küçüktür ({EHN angle}'den).
+    13→    13→Öyleyse dört büyüklük vardır, iki çevre {BC arcc G} ve {EF arcc H} ve iki açı {BGC angle} ve {EHF angle}.
+    14→    14→Ve {BC arcc G} çevresinin ve {BGC angle} açısının eşit katları---yani {BL arcc G} çevresi ve {BGL angle} açısı---ve {EF arcc H} çevresinin ve {EHF angle} açısının (eşit katları)---yani {EN arcc H} çevresi ve {EHN angle} açısı---alınmıştır.
+    15→    15→Ve eğer {BL arcc G} çevresi {EN arcc H} çevresini aşarsa o zaman {BGL angle} açısı da {EHN angle} açısını aşar ve eğer ({BL arcc G}) eşitse ({EN arcc H}'ye) o zaman ({BGL angle} de) eşittir ({EHN angle}'ye) ve eğer ({BL arcc G}) küçükse ({EN arcc H}'den) o zaman ({BGL angle} de) küçüktür ({EHN angle}'den) olduğu gösterilmiştir.
+    16→    16→Böylece {BC arcc G} çevresi {EF arcc H}'ye nasılsa, {BGC angle} açısı {EHF angle}'ye öyledir [Tanım 5.5].
+    17→    17→Ama {BGC angle} açısı {EHF angle}'ye nasılsa, ({BAC angle} açısı) {EDF angle}'ye öyledir [Önerme 5.15].
+    18→    18→Çünkü birinciler sırasıyla ikincilerin iki katıdır [Önerme 3.20].
+    19→    19→Böylece ayrıca {BC arcc G} çevresi {EF arcc H} çevresine nasılsa, {BGC angle} açısı {EHF angle}'ye ve {BAC angle} {EDF angle}'ye öyledir.
+    20→    20→
+    21→    21→Böylece, eşit çemberlerde, açılar üzerinde durdukları çevrelerin (oranıyla) aynı orana sahiptir, ister (çemberlerin) merkezlerinde ister çevrelerinde duruyor olsunlar.
+    22→    22→(Gösterilmesi gereken tam olarak budur.)
+    23→    23→
 
-Let {ABC circle G} and {DEF circle H} be equal circles, and let {BGC angle} and {EHF angle} be angles at their centers, {G point} and {H point} (respectively), and {BAC angle} and {EDF angle} (angles) at their circumferences.
-I say that as circumference {BC arcc G} is to circumference {EF arcc H}, so angle {BGC angle} (is) to {EHF angle}, and (angle) {BAC angle} to {EDF angle}.
-
-For let any number whatsoever of consecutive (circumferences), {CK arcc G} and {KL arcc G}, be made equal to circumference {BC arcc G}, and any number whatsoever, {FM arcc H} and {MN arcc H}, to circumference {EF arcc H}.
-And let {GK line}, {GL line}, {HM line}, and {HN line} have been joined.
-
-Therefore, since circumferences {BC arcc G}, {CK arcc G}, and {KL arcc G} are equal to one another, angles {BGC angle}, {CGK angle}, and {KGL angle} are also equal to one another [Prop. 3.27].
-Thus, as many times as circumference {BL arcc G} is (divisible) by {BC arcc G}, so many times is angle {BGL angle} also (divisible) by {BGC angle}.
-And so, for the same (reasons), as many times as circumference {EN arcc H} is (divisible) by {EF arcc H}, so many times is angle {NHE angle} also (divisible) by {EHF angle}.
-Thus, if circumference {BL arcc G} is equal to circumference {EN arcc H} then angle {BGL angle} is also equal to {EHN angle} [Prop. 3.27], and if circumference {BL arcc G} is greater than circumference {EN arcc H} then angle {BGL angle} is also greater than {EHN angle}, and if ({BL arcc G} is) less (than {EN arcc H} then {BGL angle} is also) less (than {EHN angle}).
-So there are four magnitudes, two circumferences {BC arcc G} and {EF arcc H}, and two angles {BGC angle} and {EHF angle}.
-And equal multiples have been taken of circumference {BC arcc G} and angle {BGC angle}, (namely) circumference {BL arcc G} and angle {BGL angle}, and of circumference {EF arcc H} and angle {EHF angle}, (namely) circumference {EN arcc H} and angle {EHN angle}.
-And it has been shown that if circumference {BL arcc G} exceeds circumference {EN arcc H} then angle {BGL angle} also exceeds angle {EHN angle}, and if ({BL arcc G} is) equal (to {EN arcc H} then {BGL angle} is also) equal (to {EHN angle}), and if ({BL arcc G} is) less (than {EN arcc H} then {BGL angle} is also) less (than {EHN angle}).
-Thus, as circumference {BC arcc G} (is) to {EF arcc H}, so angle {BGC angle} (is) to {EHF angle} [Def. 5.5].
-But as angle {BGC angle} (is) to {EHF angle}, so (angle) {BAC angle} (is) to {EDF angle} [Prop. 5.15].
-For the former (are) double the latter (respectively) [Prop. 3.20].
-Thus, also, as circumference {BC arcc G} (is) to circumference {EF arcc H}, so angle {BGC angle} (is) to {EHF angle}, and {BAC angle} to {EDF angle}.
-
-Thus, in equal circles, angles have the same ratio as the (ratio of the) circumferences on which they stand, whether they are standing at the centers (of the circles) or at the circumferences.
-(Which is) the very thing it was required to show.

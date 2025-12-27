@@ -1,34 +1,35 @@
-If two incommensurable magnitudes are added together then the whole will also be incommensurable with each of them.
-And if the whole is incommensurable with one of them then the original magnitudes will also be incommensurable (with one another).
+Eğer iki ölçüşmez büyüklük toplanırsa o zaman bütün de onların her biriyle ölçüşmez olacaktır.
+Ve eğer bütün onlardan biriyle ölçüşmez ise o zaman asıl büyüklükler de (birbirleriyle) ölçüşmez olacaktır.
 
-For let the two incommensurable magnitudes {AB magnitude} and {BC magnitude} be laid down together.
-I say that that the whole {AC magnitude} is also incommensurable with each of {AB magnitude} and {BC magnitude}.
+Çünkü iki ölçüşmez büyüklük, {AB magnitude} ve {BC magnitude}, birlikte konmuş olsun.
+Diyorum ki bütün {AC magnitude} de {AB magnitude} ve {BC magnitude}'nin her biriyle ölçüşmezdir.
 
-For if {CA magnitude} and {AB magnitude} are not incommensurable then some magnitude will measure [them].
-If possible, let it (so) measure (them), and let it be {D magnitude}.
-Therefore, since {D magnitude} measures (both) {CA magnitude} and {AB magnitude}, it will thus also measure the remainder {BC magnitude}.
-And it also measures {AB magnitude}.
-Thus, {D magnitude} measures (both) {AB magnitude} and {BC magnitude}.
-Thus, {AB magnitude} and {BC magnitude} are commensurable [Def. 10.1].
-But they were also assumed (to be) incommensurable.
-The very thing is impossible.
-Thus, some magnitude cannot measure (both) {CA magnitude} and {AB magnitude}.
-Thus, {CA magnitude} and {AB magnitude} are incommensurable [Def. 10.1].
-So, similarly, we can show that {AC magnitude} and {CB magnitude} are also incommensurable.
-Thus, {AC magnitude} is incommensurable with each of {AB magnitude} and {BC magnitude}.
+Çünkü eğer {CA magnitude} ve {AB magnitude} ölçüşmez değilse o zaman bir büyüklük [onları] ölçecektir.
+Mümkünse, (öyle) ölçmüş olsun ve {D magnitude} olsun.
+Bu nedenle, {D magnitude} hem {CA magnitude}'yı hem {AB magnitude}'yi ölçtüğü için, böylece kalan {BC magnitude}'yi de ölçecektir.
+Ve {AB magnitude}'yi de ölçer.
+Böylece {D magnitude} hem {AB magnitude}'yi hem {BC magnitude}'yi ölçer.
+Böylece {AB magnitude} ve {BC magnitude} ölçüşürdür [Tanım 10.1].
+Ama ölçüşmez oldukları da varsayılmıştı.
+Şeyin kendisi olanaksızdır.
+Böylece bir büyüklük hem {CA magnitude}'yı hem {AB magnitude}'yi ölçemez.
+Böylece {CA magnitude} ve {AB magnitude} ölçüşmezdir [Tanım 10.1].
+Öyleyse, benzer şekilde, {AC magnitude} ve {CB magnitude}'nin de ölçüşmez olduğunu gösterebiliriz.
+Böylece {AC magnitude}, {AB magnitude} ve {BC magnitude}'nin her biriyle ölçüşmezdir.
 
-And so let {AC magnitude} be incommensurable with one of {AB magnitude} and {BC magnitude}.
-So let it, first of all, be incommensurable with {AB magnitude}.
-I say that {AB magnitude} and {BC magnitude} are also incommensurable.
-For if they are commensurable then some magnitude will measure them.
-Let it (so) measure (them), and let it be {D magnitude}.
-Therefore, since {D magnitude} measures (both) {AB magnitude} and {BC magnitude}, it will thus also measure the whole {AC magnitude}.
-And it also measures {AB magnitude}.
-Thus, {D magnitude} measures (both) {CA magnitude} and {AB magnitude}.
-Thus, {CA magnitude} and {AB magnitude} are commensurable [Def. 10.1].
-But they were also assumed (to be) incommensurable.
-The very thing is impossible.
-Thus, some magnitude cannot measure (both) {AB magnitude} and {BC magnitude}.
-Thus, {AB magnitude} and {BC magnitude} are incommensurable [Def. 10.1].
+Ve öyleyse {AC magnitude}, {AB magnitude} ve {BC magnitude}'den biriyle ölçüşmez olsun.
+Öyleyse önce {AB magnitude} ile ölçüşmez olsun.
+Diyorum ki {AB magnitude} ve {BC magnitude} de ölçüşmezdir.
+Çünkü eğer ölçüşür iseler o zaman bir büyüklük onları ölçecektir.
+(Öyle) ölçmüş olsun ve {D magnitude} olsun.
+Bu nedenle, {D magnitude} hem {AB magnitude}'yi hem {BC magnitude}'yi ölçtüğü için, böylece bütün {AC magnitude}'yi de ölçecektir.
+Ve {AB magnitude}'yi de ölçer.
+Böylece {D magnitude} hem {CA magnitude}'yı hem {AB magnitude}'yi ölçer.
+Böylece {CA magnitude} ve {AB magnitude} ölçüşürdür [Tanım 10.1].
+Ama ölçüşmez oldukları da varsayılmıştı.
+Şeyin kendisi olanaksızdır.
+Böylece bir büyüklük hem {AB magnitude}'yi hem {BC magnitude}'yi ölçemez.
+Böylece {AB magnitude} ve {BC magnitude} ölçüşmezdir [Tanım 10.1].
 
-Thus, if two...magnitudes, and so on ....
+Böylece eğer iki... büyüklük... ve böyle devam eder...
+

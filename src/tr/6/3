@@ -1,37 +1,39 @@
-If an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.
-And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.
+     1→Eğer bir üçgenin açısı ikiye bölünürse ve açıyı kesen doğru parçası aynı zamanda tabanı keserse, o zaman tabanın parçaları üçgenin kalan kenarlarıyla aynı orana sahip olacaktır.
+     2→Ve eğer tabanın parçaları üçgenin kalan kenarlarıyla aynı orana sahipse, o zaman tepe noktasını kesim (noktasına) birleştiren doğru parçası üçgenin açısını ikiye bölecektir.
+     3→
+     4→{ABC polygon} bir üçgen olsun.
+     5→Ve {BAC angle} açısı {AD line} doğru parçası tarafından ikiye bölünmüş olsun.
+     6→Diyorum ki {BD line} {CD line}'ye nasılsa, {BA line} {AC line}'ye öyledir.
+     7→
+     8→Çünkü {CE line} ({C point}) noktasından {DA line}'ya paralel olarak çizilmiş olsun.
+     9→Ve {BA line} uzatılarak ({CE line}'yi) ({E point}) noktasında kessin.
+    10→
+    11→Ve {AC line} doğru parçası paralel (doğru parçaları) {AD line} ve {EC line}'yi kestiği için, böylece {ACE angle} açısı {CAD angle}'ye eşittir [Önerme 1.29].
+    12→Ama (açı) {CAD angle}'nin {BAD angle}'ye eşit olduğu varsayılmıştır.
+    13→Böylece (açı) {BAD angle} de {ACE angle}'ye eşittir.
+    14→Yine, {BAE line} doğru parçası paralel (doğru parçaları) {AD line} ve {EC line}'yi kestiği için, dış açı {BAD angle} iç (açı) {AEC angle}'ye eşittir [Önerme 1.29].
+    15→Ve (açı) {ACE angle}'nin {BAD angle}'ye eşit olduğu da gösterilmişti.
+    16→Böylece {ACE angle} açısı da {AEC angle}'ye eşittir.
+    17→Ve dolayısıyla {AE line} kenarı {AC line} kenarına eşittir [Önerme 1.6].
+    18→Ve {AD line}, {BCE polygon} üçgeninin kenarlarından biri olan {EC line}'ye paralel olarak çizildiği için, böylece orantılı olarak {BD line} {DC line}'ye nasılsa, {BA line} {AE line}'ye öyledir [Önerme 6.2].
+    19→Ve {AE line} {AC line}'ye eşittir.
+    20→Böylece {BD line} {DC line}'ye nasılsa, {BA line} {AC line}'ye öyledir.
+    21→
+    22→Ve öyleyse, {BD line} {DC line}'ye nasılsa, {BA line} {AC line}'ye öyle olsun.
+    23→Ve {AD line} birleştirilmiş olsun.
+    24→Diyorum ki {BAC angle} açısı {AD line} doğru parçası tarafından ikiye bölünmüştür.
+    25→
+    26→Çünkü aynı inşayla, {BD line} {DC line}'ye nasılsa {BA line} {AC line}'ye öyle olduğu için, o zaman ayrıca {BD line} {DC line}'ye nasılsa {BA line} {AE line}'ye öyledir.
+    27→Çünkü {AD line}, {BCE polygon} üçgeninin (kenarlarından) biri olan {EC line}'ye paralel olarak çizilmiştir [Önerme 6.2].
+    28→Böylece ayrıca {BA line} {AC line}'ye nasılsa, {BA line} {AE line}'ye öyledir [Önerme 5.11].
+    29→Böylece {AC line} {AE line}'ye eşittir [Önerme 5.9].
+    30→Ve dolayısıyla {AEC angle} açısı {ACE angle}'ye eşittir [Önerme 1.5].
+    31→Ama {AEC angle} dış (açı) {BAD angle}'ye eşittir ve {ACE angle} ters (açı) {CAD angle}'ye eşittir [Önerme 1.29].
+    32→Böylece (açı) {BAD angle} de {CAD angle}'ye eşittir.
+    33→Böylece {BAC angle} açısı {AD line} doğru parçası tarafından ikiye bölünmüştür.
+    34→
+    35→Böylece, eğer bir üçgenin açısı ikiye bölünürse ve açıyı kesen doğru parçası aynı zamanda tabanı keserse, o zaman tabanın parçaları üçgenin kalan kenarlarıyla aynı orana sahip olacaktır.
+    36→Ve eğer tabanın parçaları üçgenin kalan kenarlarıyla aynı orana sahipse, o zaman tepe noktasını kesim (noktasına) birleştiren doğru parçası üçgenin açısını ikiye bölecektir.
+    37→(Gösterilmesi gereken tam olarak budur.)
+    38→
 
-Let {ABC polygon} be a triangle.
-And let the angle {BAC angle} have been cut in half by the straight-line {AD line}.
-I say that as {BD line} is to {CD line}, so {BA line} (is) to {AC line}.
-
-For let {CE line} have been drawn through (point) {C point} parallel to {DA line}.
-And, {BA line} being drawn through, let it meet ({CE line}) at (point) {E point}.
-
-And since the straight-line {AC line} falls across the parallel (straight-lines) {AD line} and {EC line}, angle {ACE angle} is thus equal to {CAD angle} [Prop. 1.29].
-But, (angle) {CAD angle} is assumed (to be) equal to {BAD angle}.
-Thus, (angle) {BAD angle} is also equal to {ACE angle}.
-Again, since the straight-line {BAE line} falls across the parallel (straight-lines) {AD line} and {EC line}, the external angle {BAD angle} is equal to the internal (angle) {AEC angle} [Prop. 1.29].
-And (angle) {ACE angle} was also shown (to be) equal to {BAD angle}.
-Thus, angle {ACE angle} is also equal to {AEC angle}.
-And, hence, side {AE line} is equal to side {AC line} [Prop. 1.6].
-And since {AD line} has been drawn parallel to one of the sides {EC line} of triangle {BCE polygon}, thus, proportionally, as {BD line} is to {DC line}, so {BA line} (is) to {AE line} [Prop. 6.2].
-And {AE line} (is) equal to {AC line}.
-Thus, as {BD line} (is) to {DC line}, so {BA line} (is) to {AC line}.
-
-And so, let {BD line} be to {DC line}, as {BA line} (is) to {AC line}.
-And let {AD line} have been joined.
-I say that angle {BAC angle} has been cut in half by the straight-line {AD line}.
-
-For, by the same construction, since as {BD line} is to {DC line}, so {BA line} (is) to {AC line}, then also as {BD line} (is) to {DC line}, so {BA line} is to {AE line}.
-For {AD line} has been drawn parallel to one (of the sides) {EC line} of triangle {BCE polygon} [Prop. 6.2].
-Thus, also, as {BA line} (is) to {AC line}, so {BA line} (is) to {AE line} [Prop. 5.11].
-Thus, {AC line} (is) equal to {AE line} [Prop. 5.9].
-And, hence, angle {AEC angle} is equal to {ACE angle} [Prop. 1.5].
-But, {AEC angle} [is] equal to the external (angle) {BAD angle}, and {ACE angle} is equal to the alternate (angle) {CAD angle} [Prop. 1.29].
-Thus, (angle) {BAD angle} is also equal to {CAD angle}.
-Thus, angle {BAC angle} has been cut in half by the straight-line {AD line}.
-
-Thus, if an angle of a triangle is cut in half, and the straight-line cutting the angle also cuts the base, then the segments of the base will have the same ratio as the remaining sides of the triangle.
-And if the segments of the base have the same ratio as the remaining sides of the triangle, then the straight-line joining the vertex to the cutting (point) will cut the angle of the triangle in half.
-(Which is) the very thing it was required to show.

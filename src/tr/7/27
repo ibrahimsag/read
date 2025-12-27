@@ -1,13 +1,15 @@
-If two numbers are prime to one another and each makes some (number by) multiplying itself then the numbers created from them will be prime to one another, and if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be prime to one another.
+     1→     1→Eğer iki sayı birbirine asalsa ve her biri kendini çarparak bir (sayı) oluşturuyorsa, o zaman onlardan oluşturulan sayılar birbirine asal olacaktır ve eğer başlangıçtaki (sayılar) oluşturulan (sayıları) çarparak bir (sayı daha) oluşturursa, bunlar da birbirine asal olacaktır.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} birbirine asal iki sayı olsun ve {A magnitude} kendini çarparak {C magnitude}'yi oluştursun ve {C magnitude}'yi çarparak {D magnitude}'yi oluştursun.
+     4→     4→Ve {B magnitude} kendini çarparak {E magnitude}'yi oluştursun ve {E magnitude}'yi çarparak {F magnitude}'yi oluştursun.
+     5→     5→Diyorum ki {C magnitude} ve {E magnitude} ve {D magnitude} ve {F magnitude} birbirine asaldır.
+     6→     6→
+     7→     7→Çünkü {A magnitude} ve {B magnitude} birbirine asal olduğu ve {A magnitude} kendini çarparak {C magnitude}'yi oluşturduğu için, {C magnitude} ve {B magnitude} böylece birbirine asaldır [Önerme 7.25].
+     8→     8→Bu nedenle, {C magnitude} ve {B magnitude} birbirine asal olduğu ve {B magnitude} kendini çarparak {E magnitude}'yi oluşturduğu için, {C magnitude} ve {E magnitude} böylece birbirine asaldır [Önerme 7.25].
+     9→     9→Yine, {A magnitude} ve {B magnitude} birbirine asal olduğu ve {B magnitude} kendini çarparak {E magnitude}'yi oluşturduğu için, {A magnitude} ve {E magnitude} böylece birbirine asaldır [Önerme 7.25].
+    10→    10→Bu nedenle, {A magnitude} ve {C magnitude} iki sayısı {B magnitude} ve {E magnitude} iki sayısının her birine asal olduğu için, {A magnitude} ve {C magnitude}'nin (çarpımından) oluşturulan (sayı) böylece {B magnitude} ve {E magnitude}'nin (çarpımından oluşturulana) asaldır [Önerme 7.26].
+    11→    11→Ve {D magnitude}, {A magnitude} ve {C magnitude}'nin (çarpımından) oluşturulan (sayıdır) ve {F magnitude}, {B magnitude} ve {E magnitude}'nin (çarpımından) oluşturulan (sayıdır).
+    12→    12→Böylece {D magnitude} ve {F magnitude} birbirine asaldır.
+    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→
 
-Let {A magnitude} and {B magnitude} be two numbers prime to one another, and let {A magnitude} make {C magnitude} (by) multiplying itself, and let it make {D magnitude} (by) multiplying {C magnitude}.
-And let {B magnitude} make {E magnitude} (by) multiplying itself, and let it make {F magnitude} by multiplying {E magnitude}.
-I say that {C magnitude} and {E magnitude}, and {D magnitude} and {F magnitude}, are prime to one another.
-
-For since {A magnitude} and {B magnitude} are prime to one another, and {A magnitude} has made {C magnitude} (by) multiplying itself, {C magnitude} and {B magnitude} are thus prime to one another [Prop. 7.25].
-Therefore, since {C magnitude} and {B magnitude} are prime to one another, and {B magnitude} has made {E magnitude} (by) multiplying itself, {C magnitude} and {E magnitude} are thus prime to one another [Prop. 7.25].
-Again, since {A magnitude} and {B magnitude} are prime to one another, and {B magnitude} has made {E magnitude} (by) multiplying itself, {A magnitude} and {E magnitude} are thus prime to one another [Prop. 7.25].
-Therefore, since the two numbers {A magnitude} and {C magnitude} are both prime to each of the two numbers {B magnitude} and {E magnitude}, the (number) created from (multiplying) {A magnitude} and {C magnitude} is thus prime to the (number created) from (multiplying) {B magnitude} and {E magnitude} [Prop. 7.26].
-And {D magnitude} is the (number created) from (multiplying) {A magnitude} and {C magnitude}, and {F magnitude} the (number created) from (multiplying) {B magnitude} and {E magnitude}.
-Thus, {D magnitude} and {F magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

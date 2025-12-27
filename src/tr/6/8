@@ -1,27 +1,29 @@
-If, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another.
+     1→Eğer dik açılı bir üçgende dik açıdan tabana dik (bir doğru parçası) çizilirse, o zaman dikin çevresindeki üçgenler bütüne (üçgene) ve birbirlerine benzerdir.
+     2→
+     3→{ABC polygon}, {BAC angle} açısı dik açı olan dik açılı bir üçgen olsun ve {AD line} {A point}'den {BC line}'ye dik olarak çizilmiş olsun [Önerme 1.12].
+     4→Diyorum ki {ABD polygon} ve {ADC polygon} üçgenlerinin her biri bütün (üçgen) {ABC polygon}'a ve dahası birbirine benzerdir.
+     5→
+     6→Çünkü (açı) {BAC angle} {ADB angle}'ye eşit olduğu için---çünkü her biri dik açıdır---ve {B point}'deki (açı) {ABC polygon} ve {ABD polygon} iki üçgenine ortaktır, kalan (açı) {ACB angle} böylece kalan (açı) {BAD angle}'ye eşittir [Önerme 1.32].
+     7→Böylece {ABC polygon} üçgeni {ABD polygon} üçgenine eşaçılıdır.
+     8→Böylece {ABC polygon} üçgeninde dik açıyı gören {BC line}, {ABD polygon} üçgeninde dik açıyı gören {BA line}'ya nasılsa, {ABC polygon} üçgeninde {C point}'deki açıyı gören aynı {AB line}, {ABD polygon} üçgeninde eşit (açı) {BAD angle}'yi gören {BD line}'ye öyledir ve dahası, iki üçgene ortak olan {B point}'deki açıyı gören {AC line} (de) {AD line}'ye (öyledir) [Önerme 6.4].
+     9→Böylece {ABC polygon} üçgeni {ABD polygon} üçgenine eşaçılıdır ve eşit açıların çevresindeki kenarlara orantılı olarak sahiptir.
+    10→Böylece {ABC polygon} üçgeni {ABD polygon} üçgenine [benzerdir] [Tanım 6.1].
+    11→Öyleyse, benzer şekilde, {ABC polygon} üçgeninin {ADC polygon} üçgenine de benzer olduğunu gösterebiliriz.
+    12→Böylece [üçgenler] {ABD polygon} ve {ADC polygon}'un her biri bütün (üçgen) {ABC polygon}'a benzerdir.
+    13→
+    14→Öyleyse diyorum ki {ABD polygon} ve {ADC polygon} üçgenleri birbirine de benzerdir.
+    15→
+    16→Çünkü dik açı {BDA angle} dik açı {ADC angle}'ye eşit olduğu ve gerçekten (açı) {BAD angle}'nin de {C point}'deki (açıya) eşit olduğu gösterildiği için, böylece {B point}'deki kalan (açı) da kalan (açı) {DAC angle}'ye eşittir [Önerme 1.32].
+    17→Böylece {ABD polygon} üçgeni {ADC polygon} üçgenine eşaçılıdır.
+    18→Böylece {ABD polygon} üçgeninde (açı) {BAD angle}'yi gören {BD line}, {ADC polygon} üçgeninde (açı) {BAD angle}'ye eşit olan {C point}'deki (açıyı) gören {DA line}'ya nasılsa, {ABD polygon} üçgeninde {B point}'deki açıyı gören aynı {AD line}, {ADC polygon} üçgeninde {B point}'deki (açıya) eşit olan (açı) {DAC angle}'yi gören {DC line}'ye öyledir ve dahası, dik açıları gören {BA line} (de) {AC line}'ye (öyledir) [Önerme 6.4].
+    19→Böylece {ABD polygon} üçgeni {ADC polygon} üçgenine benzerdir [Tanım 6.1].
+    20→
+    21→Böylece, eğer dik açılı bir üçgende dik açıdan tabana dik (bir doğru parçası) çizilirse, o zaman dikin çevresindeki üçgenler bütüne (üçgene) ve birbirlerine benzerdir.
+    22→[(Gösterilmesi gereken tam olarak budur.)]
+    23→
+    24→Sonuç
+    25→
+    26→Öyleyse, bundan, eğer dik açılı bir üçgende dik açıdan tabana dik (bir doğru parçası) çizilirse, o zaman (böyle) çizilen (doğru parçasının) tabanın parçalarına ortalama orantılı olduğu açıktır.
+    27→(Gösterilmesi gereken tam olarak budur.)
+    28→
 
-Let {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle, and let {AD line} have been drawn from {A point}, perpendicular to {BC line} [Prop. 1.12].
-I say that triangles {ABD polygon} and {ADC polygon} are each similar to the whole (triangle) {ABC polygon} and, further, to one another.
-
-For since (angle) {BAC angle} is equal to {ADB angle}---for each (are) right-angles---and the (angle) at {B point} (is) common to the two triangles {ABC polygon} and {ABD polygon}, the remaining (angle) {ACB angle} is thus equal to the remaining (angle) {BAD angle} [Prop. 1.32].
-Thus, triangle {ABC polygon} is equiangular to triangle {ABD polygon}.
-Thus, as {BC line}, subtending the right-angle in triangle {ABC polygon}, is to {BA line}, subtending the right-angle in triangle {ABD polygon}, so the same {AB line}, subtending the angle at {C point} in triangle {ABC polygon}, (is) to {BD line}, subtending the equal (angle) {BAD angle} in triangle {ABD polygon}, and, further, (so is) {AC line} to {AD line}, (both) subtending the angle at {B point} common to the two triangles [Prop. 6.4].
-Thus, triangle {ABC polygon} is equiangular to triangle {ABD polygon}, and has the sides about the equal angles proportional.
-Thus, triangle {ABC polygon} [is] similar to triangle {ABD polygon} [Def. 6.1].
-So, similarly, we can show that triangle {ABC polygon} is also similar to triangle {ADC polygon}.
-Thus, [triangles] {ABD polygon} and {ADC polygon} are each similar to the whole (triangle) {ABC polygon}.
-
-So I say that triangles {ABD polygon} and {ADC polygon} are also similar to one another.
-
-For since the right-angle {BDA angle} is equal to the right-angle {ADC angle}, and, indeed, (angle) {BAD angle} was also shown (to be) equal to the (angle) at {C point}, thus the remaining (angle) at {B point} is also equal to the remaining (angle) {DAC angle} [Prop. 1.32].
-Thus, triangle {ABD polygon} is equiangular to triangle {ADC polygon}.
-Thus, as {BD line}, subtending (angle) {BAD angle} in triangle {ABD polygon}, is to {DA line}, subtending the (angle) at {C point} in triangle {ADC polygon}, (which is) equal to (angle) {BAD angle}, so (is) the same {AD line}, subtending the angle at {B point} in triangle {ABD polygon}, to {DC line}, subtending (angle) {DAC angle} in triangle {ADC polygon}, (which is) equal to the (angle) at {B point}, and, further, (so is) {BA line} to {AC line}, (each) subtending right-angles [Prop. 6.4].
-Thus, triangle {ABD polygon} is similar to triangle {ADC polygon} [Def. 6.1].
-
-Thus, if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the triangles around the perpendicular are similar to the whole (triangle), and to one another.
-[(Which is) the very thing it was required to show.]
-
-Corollary
-
-So (it is) clear, from this, that if, in a right-angled triangle, a (straight-line) is drawn from the right-angle perpendicular to the base then the (straight-line so) drawn is in mean proportion to the pieces of the base.
-(which is) the very thing it was required to show.

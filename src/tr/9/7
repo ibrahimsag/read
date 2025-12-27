@@ -1,12 +1,13 @@
-If a composite number makes some (number by) multiplying some (other) number then the created (number) will be solid.
+Eğer bir bileşik sayı bir (başka) sayıyı çarparak bir (sayı) oluşturursa o zaman oluşturulan (sayı) katı olacaktır.
 
-For let the composite number {A magnitude} make {C magnitude} (by) multiplying some number {B magnitude}.
-I say that {C magnitude} is solid.
+Çünkü {A magnitude} bileşik sayısı bir {B magnitude} sayısını çarparak {C magnitude}'yi oluştursun.
+Diyorum ki {C magnitude} katıdır.
 
-For since {A magnitude} is a composite (number), it will be measured by some number.
-Let it be measured by {D magnitude}.
-And, as many times as {D magnitude} measures {A magnitude}, so many units let there be in {E magnitude}.
-Therefore, since {D magnitude} measures {A magnitude} according to the units in {E magnitude}, {E magnitude} has thus made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].
-And since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, and {A magnitude} is the (number created) from (multiplying) {D magnitude}, {E magnitude}, the (number created) from (multiplying) {D magnitude}, {E magnitude} has thus made {C magnitude} (by) multiplying {B magnitude}.
-Thus, {C magnitude} is solid, and its sides are {D magnitude}, {E magnitude}, {B magnitude}.
-(Which is) the very thing it was required to show.
+Çünkü {A magnitude} bileşik (sayı) olduğu için, bir sayı tarafından ölçülecektir.
+{D magnitude} tarafından ölçülmüş olsun.
+Ve {D magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {E magnitude}'de o kadar birim olsun.
+Bu nedenle, {D magnitude}, {A magnitude}'yı {E magnitude}'deki birimlere göre ölçtüğü için, böylece {E magnitude}, {D magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur [Tanım 7.15].
+Ve {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu ve {A magnitude}, {D magnitude} (ile) {E magnitude}'nin (çarpımından) oluşturulan (sayı) olduğu için, böylece {D magnitude} (ile) {E magnitude}'nin (çarpımından) oluşturulan (sayı), {B magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur.
+Böylece {C magnitude} katıdır ve kenarları {D magnitude}, {E magnitude}, {B magnitude}'dir.
+(Gösterilmesi gereken tam olarak budur.)
+

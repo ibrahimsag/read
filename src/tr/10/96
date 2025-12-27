@@ -1,37 +1,39 @@
-If an area is contained by a rational (straight-line) and a sixth apotome then the square-root of the area is that (straight-line) which with a medial (area) makes a medial whole.
+Eğer bir alan, bir orantılı (doğru) ve bir altıncı kesit tarafından içerilirse o zaman alanın karekökü, bir orta (alanla birlikte) bir orta bütün yapan o (doğrudur).
 
-For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the sixth apotome {AD line}.
-I say that the square-root of area {AB polygon} is that (straight-line) which with a medial (area) makes a medial whole.
+Çünkü {AB polygon} alanı, orantılı (doğru) {AC line} ve altıncı kesit {AD line} tarafından içerilmiş olsun.
+Diyorum ki {AB polygon} alanının karekökü, bir orta (alanla birlikte) bir orta bütün yapan o (doğrudur).
 
-For let {DG line} be an attachment to {AD line}.
-Thus, {AG line} and {GD line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and neither of them is commensurable in length with the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {DG line}, by the (square) on (some straight-line) incommensurable in length with ({AG line}) [Def. 10.16].
-Therefore, since the square on {AG line} is greater than (the square on) {GD line} by the (square) on (some straight-line) incommensurable in length with ({AG line}), thus if (some area), equal to the fourth part of square on {DG line}, is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) incommensurable (in length) [Prop. 10.18].
-Therefore, let {DG line} have been cut in half at [point] {E line}.
-And let (some area), equal to the (square) on {EG line}, have been applied to {AG line}, falling short by a square figure.
-And let it be the (rectangle contained) by {AF line} and {FG line}.
-{AF line} is thus incommensurable in length with {FG line}.
-And as {AF line} (is) to {FG line}, so {AI polygon} is to {FK polygon} [Prop. 6.1].
-Thus, {AI polygon} is incommensurable with {FK polygon} [Prop. 10.11].
-And since {AG line} and {AC line} are rational (straight-lines which are) commensurable in square only, {AK polygon} is a medial (area) [Prop. 10.21].
-Again, since {AC line} and {DG line} are rational (straight-lines which are) incommensurable in length, {DK polygon} is also a medial (area) [Prop. 10.21].
-Therefore, since {AG line} and {GD line} are commensurable in square only, {AG line} is thus incommensurable in length with {GD line}.
-And as {AG line} (is) to {GD line}, so {AK polygon} is to {KD polygon} [Prop. 6.1].
-Thus, {AK polygon} is incommensurable with {KD polygon} [Prop. 10.11].
+Çünkü {DG line}, {AD line}'a ek olsun.
+{AG line} ve {GD line} böylece yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.73] ve onların hiçbiri, (daha önce) konmuş orantılı (doğru) {AC line} ile uzunlukta ölçüşür değildir ve bütünün, {AG line}'ın, üzerindeki kare, ekin, {DG line}'ın, (üzerindeki kareden) ({AG line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür [Tanım 10.16].
+Bu yüzden, {AG line}'ın üzerindeki kare, ({GD line}'ın üzerindeki kareden) ({AG line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olduğu için, böylece eğer {DG line}'ın üzerindeki karenin dörtte birine eşit (bir alan), bir kare şekil kadar eksik düşerek, {AG line}'a uygulanırsa o zaman o ({AG line}'ı) (uzunlukta) ölçüşmez (parçalara) böler [Önerme 10.18].
+Bu yüzden {DG line}, [nokta] {E line}'de ikiye bölünmüş olsun.
+Ve {EG line}'ın üzerindeki (kareye) eşit (bir alan), bir kare şekil kadar eksik düşerek, {AG line}'a uygulanmış olsun.
+Ve o, {AF line} ve {FG line} tarafından (içerilen dikdörtgen) olsun.
+{AF line} böylece {FG line} ile uzunlukta ölçüşmezdir.
+Ve {AF line}, {FG line}'a nasılsa, {AI polygon}, {FK polygon}'a (öyledir) [Önerme 6.1].
+Böylece {AI polygon}, {FK polygon} ile ölçüşmezdir [Önerme 10.11].
+Ve {AG line} ve {AC line} yalnızca karede ölçüşür orantılı (doğrular) olduğu için, {AK polygon} bir orta (alandır) [Önerme 10.21].
+Tekrar, {AC line} ve {DG line} uzunlukta ölçüşmez orantılı (doğrular) olduğu için, {DK polygon} de bir orta (alandır) [Önerme 10.21].
+Bu yüzden, {AG line} ve {GD line} yalnızca karede ölçüşür olduğu için, {AG line}, böylece {GD line} ile uzunlukta ölçüşmezdir.
+Ve {AG line}, {GD line}'a nasılsa, {AK polygon}, {KD polygon}'a (öyledir) [Önerme 6.1].
+Böylece {AK polygon}, {KD polygon} ile ölçüşmezdir [Önerme 10.11].
 
-Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
-And let {NO polygon}, equal to {FK polygon}, (and) about the same angle, have been subtracted (from {LM polygon}).
-Thus, the squares {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
-Let {PR line} be their (common) diagonal, and let (the rest of) the figure have been drawn.
-So, similarly to the above, we can show that {LN line} is the square-root of area {AB polygon}.
-I say that {LN line} is that (straight-line) which with a medial (area) makes a medial whole.
+Bu yüzden {AI polygon}'a eşit {LM polygon} karesi inşa edilmiş olsun.
+Ve aynı açı etrafında olan ve {FK polygon}'a eşit {NO polygon}, ({LM polygon}'dan) çıkarılmış olsun.
+{LM polygon} ve {NO polygon} kareleri böylece aynı köşegen etrafındadır [Önerme 6.26].
+{PR line} onların (ortak) köşegeni olsun ve şeklin (geri kalanı) çizilmiş olsun.
+Öyleyse, benzer şekilde yukarıdakine, {LN line}'ın {AB polygon} alanının karekökü olduğunu gösterebiliriz.
+Diyorum ki {LN line}, bir orta (alanla birlikte) bir orta bütün yapan o (doğrudur).
 
-For since {AK polygon} was shown (to be) a medial (area), and is equal to the (sum of the) squares on {LP line} and {PN line}, the sum of the (squares) on {LP line} and {PN line} is medial.
-Again, since {DK polygon} was shown (to be) a medial (area), and is equal to twice the (rectangle contained) by {LP line} and {PN line}, twice the (rectangle contained) by {LP line} and {PN line} is also medial.
-And since {AK polygon} was shown (to be) incommensurable with {DK polygon}, [thus] the (sum of the) squares on {LP line} and {PN line} is also incommensurable with twice the (rectangle contained) by {LP line} and {PN line}.
-And since {AI polygon} is incommensurable with {FK polygon}, the (square) on {LP line} (is) thus also incommensurable with the (square) on {PN line}.
-Thus, {LP line} and {PN line} are (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by medial, and, furthermore, the (sum of the) squares on them incommensurable with twice the (rectangle contained) by them.
-Thus, {LN line} is the irrational (straight-line) called that which with a medial (area) makes a medial whole [Prop. 10.78].
-And it is the square-root of area {AB polygon}.
+Çünkü {AK polygon}'un bir orta (alan) olduğu ve {LP line} ve {PN line}'ın üzerindeki (karelerin) (toplamına) eşit olduğu gösterildiği için, {LP line} ve {PN line}'ın (üzerindeki karelerin) toplamı ortadır.
+Tekrar, {DK polygon}'un bir orta (alan) olduğu ve {LP line} ve {PN line} tarafından (içerilen dikdörtgenin) iki katına eşit olduğu gösterildiği için, {LP line} ve {PN line} tarafından (içerilen dikdörtgenin) iki katı da ortadır.
+Ve {AK polygon}'un {DK polygon} ile ölçüşmez olduğu gösterildiği için, [böylece] {LP line} ve {PN line}'ın (üzerindeki karelerin) toplamı da {LP line} ve {PN line} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmezdir.
+Ve {AI polygon}, {FK polygon} ile ölçüşmez olduğu için, {LP line}'ın (üzerindeki kare), böylece {PN line}'ın (üzerindeki kare) ile de ölçüşmezdir.
+Böylece {LP line} ve {PN line}, üzerlerindeki karelerin toplamını orta ve onlar tarafından (içerilen dikdörtgenin iki katını) orta ve dahası üzerlerindeki (karelerin toplamını) onlar tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez yapan, karede ölçüşmez (doğrulardır).
+Böylece {LN line}, bir orta (alanla birlikte) bir orta bütün yapan denilen orantısız (doğrudur) [Önerme 10.78].
+Ve o, {AB polygon} alanının karekökü(dür).
 
-Thus, the square-root of area ({AB polygon}) is that (straight-line) which with a medial (area) makes a medial whole.
-(Which is) the very thing it was required to show.
+Böylece ({AB polygon}) alanının karekökü, bir orta (alanla birlikte) bir orta bütün yapan o (doğrudur).
+(Gösterilmesi gereken tam olarak budur.)
+
+

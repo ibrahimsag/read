@@ -1,10 +1,11 @@
-If an odd number makes some (number by) multiplying an odd (number) then the created (number) will be odd.
+Eğer bir tek sayı bir tek (sayıyı) çarparak bir (sayı) oluşturursa o zaman oluşturulan (sayı) tek olacaktır.
 
-For let the odd number {A magnitude} make {C magnitude} (by) multiplying the odd (number) {B magnitude}.
-I say that {C magnitude} is odd.
+Çünkü {A magnitude} tek sayısı {B magnitude} tek (sayısını) çarparak {C magnitude}'yi oluştursun.
+Diyorum ki {C magnitude} tektir.
 
-For since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus composed out of so many (magnitudes) equal to {B magnitude}, as many as (there) are units in {A magnitude} [Def. 7.15].
-And each of {A magnitude}, {B magnitude} is odd.
-Thus, {C magnitude} is composed out of odd (numbers), (and) the multitude of them is odd.
-Hence {C magnitude} is odd [Prop. 9.23].
-(Which is) the very thing it was required to show.
+Çünkü {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, böylece {C magnitude}, {A magnitude}'da kaç birim varsa {B magnitude}'ye eşit o kadar (büyüklükten) oluşmuştur [Tanım 7.15].
+Ve {A magnitude}, {B magnitude}'nin her biri tektir.
+Böylece {C magnitude} tek (sayılardan) oluşmuştur (ve) onların çokluğu tektir.
+Dolayısıyla {C magnitude} tektir [Önerme 9.23].
+(Gösterilmesi gereken tam olarak budur.)
+

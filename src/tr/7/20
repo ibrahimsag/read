@@ -1,22 +1,24 @@
-The least numbers of those (numbers) having the same ratio measure those (numbers) having the same ratio as them an equal number of times, the greater (measuring) the greater, and the lesser the lesser.
+     1→     1→Aynı oranda olan (sayıların) en küçükleri, kendileriyle aynı oranda olan (sayıları) eşit sayıda ölçer, büyük büyüğü ve küçük küçüğü (ölçerek).
+     2→     2→
+     3→     3→Çünkü {CD magnitude} ve {EF magnitude} (sırasıyla) {A magnitude} ve {B magnitude} ile aynı oranda olan en küçük sayılar olsun.
+     4→     4→Diyorum ki {CD magnitude}, {A magnitude}'yı {EF magnitude}'nin {B magnitude}'yi (ölçtüğü) kadar kez ölçer.
+     5→     5→
+     6→     6→Çünkü {CD magnitude}, {A magnitude}'nın parçaları değildir.
+     7→     7→Çünkü, eğer mümkünse, ({A magnitude}'nın parçaları) olsun.
+     8→     8→Böylece {EF magnitude} de {B magnitude}'nin, {CD magnitude}'nin {A magnitude}'nın (parçaları olduğu) aynı parçalarıdır [Önerme 7.13, Tanım 7.20].
+     9→     9→Böylece {CD magnitude}'de {A magnitude}'nın kaç parçası varsa, {EF magnitude}'de de {B magnitude}'nin o kadar parçası vardır.
+    10→    10→{CD magnitude}, {A magnitude}'nın parçaları olan {CG magnitude} ve {GD magnitude}'ye bölünmüş olsun ve {EF magnitude}, {B magnitude}'nin parçaları olan {EH magnitude} ve {HF magnitude}'ye (bölünmüş olsun).
+    11→    11→Öyleyse (bölümlerin) {CG magnitude}, {GD magnitude} sayısı (bölümlerin) {EH magnitude}, {HF magnitude} sayısına eşit olacaktır.
+    12→    12→Ve {CG magnitude} ve {GD magnitude} sayıları birbirine eşit olduğu ve {EH magnitude} ve {HF magnitude} sayıları da birbirine eşit olduğu ve (bölümlerin) {CG magnitude}, {GD magnitude} sayısı (bölümlerin) {EH magnitude}, {HF magnitude} sayısına eşit olduğu için, böylece {CG magnitude} {EH magnitude}'ye nasılsa, {GD magnitude} {HF magnitude}'ye öyledir.
+    13→    13→Böylece öndeki (sayılardan) biri ardıl (sayılardan) birine nasılsa, öndeki (sayıların) toplamı ardıl (sayıların) toplamına öyle olacaktır [Önerme 7.12].
+    14→    14→Böylece {CG magnitude} {EH magnitude}'ye nasılsa, {CD magnitude} {EF magnitude}'ye öyledir.
+    15→    15→Böylece {CG magnitude} ve {EH magnitude}, {CD magnitude} ve {EF magnitude} ile aynı orandadır, onlardan küçük olmalarına rağmen.
+    16→    16→Ki bu imkansızdır.
+    17→    17→Çünkü {CD magnitude} ve {EF magnitude}'nin kendileriyle aynı oranda olanların en küçükleri olduğu varsayılmıştı.
+    18→    18→Böylece {CD magnitude}, {A magnitude}'nın parçaları değildir.
+    19→    19→Böylece ({A magnitude}'nın) parçasıdır [Önerme 7.4].
+    20→    20→Ve {EF magnitude}, {B magnitude}'nin, {CD magnitude}'nin {A magnitude}'nın (parçası olduğu) aynı parçasıdır [Önerme 7.13, Tanım 7.20].
+    21→    21→Böylece {CD magnitude}, {A magnitude}'yı {EF magnitude}'nin {B magnitude}'yi (ölçtüğü) kadar kez ölçer.
+    22→    22→(Gösterilmesi gereken tam olarak budur.)
+    23→    23→
 
-For let {CD magnitude} and {EF magnitude} be the least numbers having the same ratio as {A magnitude} and {B magnitude} (respectively).
-I say that {CD magnitude} measures {A magnitude} the same number of times as {EF magnitude} (measures) {B magnitude}.
-
-For {CD magnitude} is not parts of {A magnitude}.
-For, if possible, let it be (parts of {A magnitude}).
-Thus, {EF magnitude} is also the same parts of {B magnitude} that {CD magnitude} (is) of {A magnitude} [Prop. 7.13, Def. 7.20].
-Thus, as many parts of {A magnitude} as are in {CD magnitude}, so many parts of {B magnitude} are also in {EF magnitude}.
-Let {CD magnitude} have been divided into the parts of {A magnitude}, {CG magnitude} and {GD magnitude}, and {EF magnitude} into the parts of {B magnitude}, {EH magnitude} and {HF magnitude}.
-So the multitude of (divisions) {CG magnitude}, {GD magnitude} will be equal to the multitude of (divisions) {EH magnitude}, {HF magnitude}.
-And since the numbers {CG magnitude} and {GD magnitude} are equal to one another, and the numbers {EH magnitude} and {HF magnitude} are also equal to one another, and the multitude of (divisions) {CG magnitude}, {GD magnitude} is equal to the multitude of (divisions) {EH magnitude}, {HF magnitude}, thus as {CG magnitude} is to {EH magnitude}, so {GD magnitude} (is) to {HF magnitude}.
-Thus, as one of the leading (numbers is) to one of the following, so will (the sum of) all of the leading (numbers) be to (the sum of) all of the following [Prop. 7.12].
-Thus, as {CG magnitude} is to {EH magnitude}, so {CD magnitude} (is) to {EF magnitude}.
-Thus, {CG magnitude} and {EH magnitude} are in the same ratio as {CD magnitude} and {EF magnitude}, being less than them.
-The very thing is impossible.
-For {CD magnitude} and {EF magnitude} were assumed (to be) the least of those (numbers) having the same ratio as them.
-Thus, {CD magnitude} is not parts of {A magnitude}.
-Thus, (it is) a part (of {A magnitude}) [Prop. 7.4].
-And {EF magnitude} is the same part of {B magnitude} that {CD magnitude} (is) of {A magnitude} [Prop. 7.13, Def. 7.20].
-Thus, {CD magnitude} measures {A magnitude} the same number of times that {EF magnitude} (measures) {B magnitude}.
-(Which is) the very thing it was required to show.

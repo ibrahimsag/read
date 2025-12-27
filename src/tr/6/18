@@ -1,24 +1,26 @@
-To describe a rectilinear figure similar, and similarly laid down, to a given rectilinear figure on a given straight-line.
+     1→Verilen bir doğru parçası üzerine, verilen bir doğrusal şekle benzer ve benzer şekilde yerleştirilmiş bir doğrusal şekil çizmek.
+     2→
+     3→{AB line} verilen doğru parçası olsun ve {CE polygon} verilen doğrusal şekil olsun.
+     4→Öyleyse {AB line} doğru parçası üzerine {CE polygon} doğrusal şekline benzer ve benzer şekilde yerleştirilmiş bir doğrusal şekil çizmek gereklidir.
+     5→
+     6→{DF line} birleştirilmiş olsun ve {GAB angle}, {C point}'deki açıya eşit ve {ABG angle}, (açı) {CDF angle}'ye eşit olarak, {AB line} doğru parçası üzerinde sırasıyla üzerindeki {A point} ve {B point} noktalarında inşa edilmiş olsun [Önerme 1.23].
+     7→Böylece kalan (açı) {CFD angle} {AGB angle}'ye eşittir [Önerme 1.32].
+     8→Böylece {FCD polygon} üçgeni {GAB polygon} üçgenine eşaçılıdır.
+     9→Böylece orantılı olarak {FD line} {GB line}'ye nasılsa, {FC line} {GA line}'ya öyledir ve {CD line} {AB line}'ye (öyledir) [Önerme 6.4].
+    10→Yine, {BGH angle}, {DFE angle} açısına eşit ve {GBH angle} (açı) {FDE angle}'ye eşit olarak, {BG line} doğru parçası üzerinde sırasıyla üzerindeki {G point} ve {B point} noktalarında inşa edilmiş olsun [Önerme 1.23].
+    11→Böylece {E point}'deki kalan (açı) {H point}'deki kalan (açıya) eşittir [Önerme 1.32].
+    12→Böylece {FDE polygon} üçgeni {GHB polygon} üçgenine eşaçılıdır.
+    13→Böylece orantılı olarak {FD line} {GB line}'ye nasılsa, {FE line} {GH line}'ye öyledir ve {ED line} {HB line}'ye (öyledir) [Önerme 6.4].
+    14→Ve {FD line} {GB line}'ye nasılsa {FC line} {GA line}'ya ve {CD line} {AB line}'ye öyle olduğu da gösterilmişti.
+    15→Böylece ayrıca {FC line} {AG line}'ye nasılsa, {CD line} {AB line}'ye ve {FE line} {GH line}'ye ve dahası {ED line} {HB line}'ye öyledir.
+    16→Ve {CFD angle} açısı {AGB angle}'ye eşit olduğu ve {DFE angle} {BGH angle}'ye (eşit olduğu) için, böylece bütün (açı) {CFE angle} bütün (açı) {AGH angle}'ye eşittir.
+    17→Öyleyse, aynı (nedenlerle), (açı) {CDE angle} de {ABH angle}'ye eşittir.
+    18→Ve {C point}'deki (açı) da {A point}'deki (açıya) eşittir ve {E point}'deki (açı) {H point}'deki (açıya eşittir).
+    19→Böylece (şekil) {AH polygon} {CE polygon}'ye eşaçılıdır.
+    20→Ve (iki şeklin) eşit açılarının çevresindeki kenarları orantılıdır.
+    21→Böylece {AH polygon} doğrusal şekli {CE polygon} doğrusal şekline benzerdir [Tanım 6.1].
+    22→
+    23→Böylece, verilen doğrusal şekil {CE polygon}'ye benzer ve benzer şekilde yerleştirilmiş {AH polygon} doğrusal şekli verilen doğru parçası {AB line} üzerine inşa edilmiştir.
+    24→(Yapılması gereken tam olarak budur.)
+    25→
 
-Let {AB line} be the given straight-line, and {CE polygon} the given rectilinear figure.
-So it is required to describe a rectilinear figure similar, and similarly laid down, to the rectilinear figure {CE polygon} on the straight-line {AB line}.
-
-Let {DF line} have been joined, and let {GAB angle}, equal to the angle at {C point}, and {ABG angle}, equal to (angle) {CDF angle}, have been constructed on the straight-line {AB line} at the points {A point} and {B point} on it (respectively) [Prop. 1.23].
-Thus, the remaining (angle) {CFD angle} is equal to {AGB angle} [Prop. 1.32].
-Thus, triangle {FCD polygon} is equiangular to triangle {GAB polygon}.
-Thus, proportionally, as {FD line} is to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line} [Prop. 6.4].
-Again, let {BGH angle}, equal to angle {DFE angle}, and {GBH angle} equal to (angle) {FDE angle}, have been constructed on the straight-line {BG line} at the points {G point} and {B point} on it (respectively) [Prop. 1.23].
-Thus, the remaining (angle) at {E point} is equal to the remaining (angle) at {H point} [Prop. 1.32].
-Thus, triangle {FDE polygon} is equiangular to triangle {GHB polygon}.
-Thus, proportionally, as {FD line} is to {GB line}, so {FE line} (is) to {GH line}, and {ED line} to {HB line} [Prop. 6.4].
-And it was also shown (that) as {FD line} (is) to {GB line}, so {FC line} (is) to {GA line}, and {CD line} to {AB line}.
-Thus, also, as {FC line} (is) to {AG line}, so {CD line} (is) to {AB line}, and {FE line} to {GH line}, and, further, {ED line} to {HB line}.
-And since angle {CFD angle} is equal to {AGB angle}, and {DFE angle} to {BGH angle}, thus the whole (angle) {CFE angle} is equal to the whole (angle) {AGH angle}.
-So, for the same (reasons), (angle) {CDE angle} is also equal to {ABH angle}.
-And the (angle) at {C point} is also equal to the (angle) at {A point}, and the (angle) at {E point} to the (angle) at {H point}.
-Thus, (figure) {AH polygon} is equiangular to {CE polygon}.
-And (the two figures) have the sides about their equal angles proportional.
-Thus, the rectilinear figure {AH polygon} is similar to the rectilinear figure {CE polygon} [Def. 6.1].
-
-Thus, the rectilinear figure {AH polygon}, similar, and similarly laid down, to the given rectilinear figure {CE polygon} has been constructed on the given straight-line {AB line}.
-(Which is) the very thing it was required to do.

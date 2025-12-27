@@ -1,29 +1,31 @@
-To find a fourth apotome.
+Bir dördüncü kesit bulmak.
 
-Let the rational (straight-line) {A magnitude}, and {BG magnitude} (which is) commensurable in length with {A magnitude}, be laid down.
-Thus, {BG magnitude} is also a rational (straight-line).
-And let the two numbers {DF magnitude} and {FE magnitude} be laid down such that the whole, {DE magnitude}, does not have to each of {DF magnitude} and {EF magnitude} the ratio which (some) square number (has) to (some) square number.
-And let it have been contrived that as {DE magnitude} (is) to {EF magnitude}, so the square on {BG magnitude} (is) to the (square) on {GC magnitude} [Prop. 10.6 corr.].
-The (square) on {BG magnitude} is thus commensurable with the (square) on {GC magnitude} [Prop. 10.6].
-And the (square) on {BG magnitude} (is) rational.
-Thus, the (square) on {GC magnitude} (is) also rational.
-Thus, {GC magnitude} (is) a rational (straight-line).
-And since {DE magnitude} does not have to {EF magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {BG magnitude} thus does not have to the (square) on {GC magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {BG magnitude} is incommensurable in length with {GC magnitude} [Prop. 10.9].
-And they are both rational (straight-lines).
-Thus, {BG magnitude} and {GC magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {BC magnitude} is an apotome [Prop. 10.73].
-[So, I say that (it is) also a fourth (apotome).]
+Orantılı (doğru) {A magnitude} ve {A magnitude} ile uzunlukta ölçüşür {BG magnitude} konmuş olsun.
+{BG magnitude} böylece de bir orantılı (doğrudur).
+Ve bütün, {DE magnitude}, {DF magnitude} ve {EF magnitude}'nin her birine (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmayacak şekilde iki sayı {DF magnitude} ve {FE magnitude} konmuş olsun.
+Ve {DE magnitude}, {EF magnitude}'ye nasılsa, {BG magnitude}'nin üzerindeki kare, {GC magnitude}'nin (üzerindeki kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+{BG magnitude}'nin (üzerindeki kare), böylece {GC magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {BG magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {GC magnitude}'nin (üzerindeki kare) de orantılıdır.
+Böylece {GC magnitude} bir orantılı (doğrudur).
+Ve {DE magnitude}, {EF magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmadığı için, {BG magnitude}'nin (üzerindeki kare), böylece {GC magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana da sahip değildir.
+Böylece {BG magnitude}, {GC magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {BG magnitude} ve {GC magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {BC magnitude} bir kesittir [Önerme 10.73].
+[Öyleyse diyorum ki (o) ayrıca bir dördüncü (kesittir).]
 
-Now, let the (square) on {H magnitude} be that (area) by which the (square) on {BG magnitude} is greater than the (square) on {GC magnitude} [Prop. 10.13 lem.].
-Therefore, since as {DE magnitude} is to {EF magnitude}, so the (square) on {BG magnitude} (is) to the (square) on {GC magnitude}, thus, also, via conversion, as {ED magnitude} is to {DF magnitude}, so the (square) on {GB magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
-And {ED magnitude} does not have to {DF magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {GB magnitude} does not have to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {BG magnitude} is incommensurable in length with {H magnitude} [Prop. 10.9].
-And the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on {H magnitude}.
-Thus, the square on {BG magnitude} is greater than (the square) on {GC magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({BG magnitude}).
-And the whole, {BG magnitude}, is commensurable in length with the the (previously) laid down rational (straight-line) {A magnitude}.
-Thus, {BC magnitude} is a fourth apotome [Def. 10.14].
+Şimdi, {H magnitude}'nin üzerindeki (kare), {BG magnitude}'nin (üzerindeki karenin) {GC magnitude}'nin (üzerindeki kareden) büyük olduğu o (alan) olsun [Önerme 10.13 ek kısım].
+Bu yüzden, {DE magnitude}, {EF magnitude}'ye nasılsa, {BG magnitude}'nin (üzerindeki kare), {GC magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece de dönüşüm yoluyla, {ED magnitude}, {DF magnitude}'ye nasılsa, {GB magnitude}'nin (üzerindeki kare), {H magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.19 ek sonucu].
+Ve {ED magnitude}, {DF magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+Böylece {GB magnitude}'nin (üzerindeki kare) de {H magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+Böylece {BG magnitude}, {H magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) {H magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) ({BG magnitude}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve bütün, {BG magnitude}, (daha önce) konmuş orantılı (doğru) {A magnitude} ile uzunlukta ölçüşürdür.
+Böylece {BC magnitude} bir dördüncü kesittir [Tanım 10.14].
 
-Thus, a fourth apotome has been found.
-(Which is) the very thing it was required to show.
+Böylece bir dördüncü kesit bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

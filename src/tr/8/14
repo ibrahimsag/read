@@ -1,24 +1,27 @@
-If a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).
-And if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).
-
-Let {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} and {D magnitude} be their sides (respectively).
-And let {A magnitude} measure {B magnitude}.
-I say that {C magnitude} also measures {D magnitude}.
-
-For let {C magnitude} make {E magnitude} (by) multiplying {D magnitude}.
-Thus, {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude} [Prop. 8.11].
-And since {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional, and {A magnitude} measures {B magnitude}, {A magnitude} thus also measures {E magnitude} [Prop. 8.7].
-And as {A magnitude} is to {E magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus,{C magnitude} also measures {D magnitude} [Def. 7.20].
-
-So, again, let {C magnitude} measure {D magnitude}.
-I say that {A magnitude} also measures {B magnitude}.
-
-For similarly, with the same construction, we can show that {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude}.
-And since as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {E magnitude}, and {C magnitude} measures {D magnitude}, {A magnitude} thus also measures {E magnitude} [Def. 7.20].
-And {A magnitude}, {E magnitude}, {B magnitude} are continuously proportional.
-Thus, {A magnitude} also measures {B magnitude}.
-
-Thus, if a square (number) measures a(nother) square (number) then the side (of the former) will also measure the side (of the latter).
-And if the side (of a square number) measures the side (of another square number) then the (former) square (number) will also measure the (latter) square (number).
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer bir kare (sayı) bir (başka) kare (sayıyı) ölçerse o zaman (birincisinin) kenarı da (ikincisinin) kenarını ölçecektir.
+     2→     2→     2→Ve eğer (bir kare sayının) kenarı (bir başka kare sayının) kenarını ölçerse o zaman (birinci) kare (sayı) da (ikinci) kare (sayıyı) ölçecektir.
+     3→     3→     3→
+     4→     4→     4→{A magnitude} ve {B magnitude} kare sayılar olsun ve {C magnitude} ve {D magnitude} (sırasıyla) onların kenarları olsun.
+     5→     5→     5→Ve {A magnitude} {B magnitude}'yi ölçsün.
+     6→     6→     6→Diyorum ki {C magnitude} de {D magnitude}'yi ölçer.
+     7→     7→     7→
+     8→     8→     8→Çünkü {C magnitude}, {D magnitude}'yi çarparak {E magnitude}'yi oluştursun.
+     9→     9→     9→Böylece {A magnitude}, {E magnitude}, {B magnitude}, {C magnitude}'nin {D magnitude}'ye oranında sürekli orantılıdır [Önerme 8.11].
+    10→    10→    10→Ve {A magnitude}, {E magnitude}, {B magnitude} sürekli orantılı olduğu ve {A magnitude} {B magnitude}'yi ölçtüğü için, {A magnitude} böylece {E magnitude}'yi de ölçer [Önerme 8.7].
+    11→    11→    11→Ve {A magnitude} {E magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+    12→    12→    12→Böylece {C magnitude} de {D magnitude}'yi ölçer [Tanım 7.20].
+    13→    13→    13→
+    14→    14→    14→Öyleyse, tekrar, {C magnitude} {D magnitude}'yi ölçsün.
+    15→    15→    15→Diyorum ki {A magnitude} de {B magnitude}'yi ölçer.
+    16→    16→    16→
+    17→    17→    17→Çünkü benzer şekilde, aynı inşa ile, {A magnitude}, {E magnitude}, {B magnitude}'nin {C magnitude}'nin {D magnitude}'ye oranında sürekli orantılı olduğunu gösterebiliriz.
+    18→    18→    18→Ve {C magnitude} {D magnitude}'ye nasılsa, {A magnitude} {E magnitude}'ye (öyle) olduğu ve {C magnitude} {D magnitude}'yi ölçtüğü için, {A magnitude} böylece {E magnitude}'yi de ölçer [Tanım 7.20].
+    19→    19→    19→Ve {A magnitude}, {E magnitude}, {B magnitude} sürekli orantılıdır.
+    20→    20→    20→Böylece {A magnitude} de {B magnitude}'yi ölçer.
+    21→    21→    21→
+    22→    22→    22→Böylece, eğer bir kare (sayı) bir (başka) kare (sayıyı) ölçerse o zaman (birincisinin) kenarı da (ikincisinin) kenarını ölçecektir.
+    23→    23→    23→Ve eğer (bir kare sayının) kenarı (bir başka kare sayının) kenarını ölçerse o zaman (birinci) kare (sayı) da (ikinci) kare (sayıyı) ölçecektir.
+    24→    24→    24→(Gösterilmesi gereken tam olarak budur.)
+    25→    25→    25→
+    26→
+    27→

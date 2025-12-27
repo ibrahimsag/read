@@ -1,25 +1,28 @@
-If one number falls between two numbers in mean proportion then the numbers will be similar plane (numbers).
-
-For let one number {C magnitude} fall between the two numbers {A magnitude} and {B magnitude} in mean proportion.
-I say that {A magnitude} and {B magnitude} are similar plane numbers.
-
-[For] let the least numbers, {D magnitude} and {E magnitude}, having the same ratio as {A magnitude} and {C magnitude} have been taken [Prop. 7.33].
-Thus, {D magnitude} measures {A magnitude} as many times as {E magnitude} (measures) {C magnitude} [Prop. 7.20].
-So as many times as {D magnitude} measures {A magnitude}, so many units let there be in {F magnitude}.
-Thus, {F magnitude} has made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].
-Hence, {A magnitude} is plane, and {D magnitude}, {F magnitude} (are) its sides.
-Again, since {D magnitude} and {E magnitude} are the least of those (numbers) having the same ratio as {C magnitude} and {B magnitude}, {D magnitude} thus measures {C magnitude} as many times as {E magnitude} (measures) {B magnitude} [Prop. 7.20].
-So as many times as {E magnitude} measures {B magnitude}, so many units let there be in {G magnitude}.
-Thus, {E magnitude} measures {B magnitude} according to the units in {G magnitude}.
-Thus, {G magnitude} has made {B magnitude} (by) multiplying {E magnitude} [Def. 7.15].
-Thus, {B magnitude} is plane, and {E magnitude}, {G magnitude} are its sides.
-Thus, {A magnitude} and {B magnitude} are (both) plane numbers.
-So I say that (they are) also similar.
-For since {F magnitude} has made {A magnitude} (by) multiplying {D magnitude}, and has made {C magnitude} (by) multiplying {E magnitude}, thus as {D magnitude} is to {E magnitude}, so {A magnitude} (is) to {C magnitude}---that is to say, {C magnitude} to {B magnitude} [Prop. 7.17].
-Again, since {E magnitude} has made {C magnitude}, {B magnitude} (by) multiplying {F magnitude}, {G magnitude}, respectively, thus as {F magnitude} is to {G magnitude}, so {C magnitude} (is) to {B magnitude} [Prop. 7.17].
-And as {C magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}.
-And thus as {D magnitude} (is) to {E magnitude}, so {F magnitude} (is) to {G magnitude}.
-And, alternately, as {D magnitude} (is) to {F magnitude}, so {E magnitude} (is) to {G magnitude} [Prop. 7.13].
-Thus, {A magnitude} and {B magnitude} are similar plane numbers.
-For their sides are proportional [Def. 7.21].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayı arasına orantısal ortada bir sayı düşerse o zaman sayılar benzer düzlem (sayılardır).
+     2→     2→     2→
+     3→     3→     3→Çünkü {A magnitude} ve {B magnitude} iki sayısı arasına orantısal ortada bir {C magnitude} sayısı düşsün.
+     4→     4→     4→Diyorum ki {A magnitude} ve {B magnitude} benzer düzlem sayılardır.
+     5→     5→     5→
+     6→     6→     6→[Çünkü] {A magnitude} ve {C magnitude} ile aynı oranda olan en küçük sayılar, {D magnitude} ve {E magnitude}, alınmış olsun [Önerme 7.33].
+     7→     7→     7→Böylece {D magnitude}, {A magnitude}'yı, {E magnitude}'nin {C magnitude}'yi (ölçtüğü) kadar kez ölçer [Önerme 7.20].
+     8→     8→     8→Öyleyse {D magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {F magnitude}'de o kadar birim olsun.
+     9→     9→     9→Böylece {F magnitude}, {D magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur [Tanım 7.15].
+    10→    10→    10→Dolayısıyla, {A magnitude} düzlemdir ve {D magnitude}, {F magnitude} onun kenarlarıdır.
+    11→    11→    11→Tekrar, {D magnitude} ve {E magnitude}, {C magnitude} ve {B magnitude} ile aynı oranda olanların en küçükleri olduğu için, {D magnitude} böylece {C magnitude}'yi, {E magnitude}'nin {B magnitude}'yi (ölçtüğü) kadar kez ölçer [Önerme 7.20].
+    12→    12→    12→Öyleyse {E magnitude}, {B magnitude}'yi kaç kez ölçüyorsa, {G magnitude}'de o kadar birim olsun.
+    13→    13→    13→Böylece {E magnitude}, {B magnitude}'yi {G magnitude}'deki birimlere göre ölçer.
+    14→    14→    14→Böylece {G magnitude}, {E magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur [Tanım 7.15].
+    15→    15→    15→Böylece {B magnitude} düzlemdir ve {E magnitude}, {G magnitude} onun kenarlarıdır.
+    16→    16→    16→Böylece {A magnitude} ve {B magnitude} (her ikisi de) düzlem sayılardır.
+    17→    17→    17→Öyleyse diyorum ki (onlar) ayrıca benzerdir.
+    18→    18→    18→Çünkü {F magnitude}, {D magnitude}'yi çarparak {A magnitude}'yı oluşturduğu ve {E magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, böylece {D magnitude} {E magnitude}'ye nasılsa, {A magnitude} {C magnitude}'ye---yani {C magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    19→    19→    19→Tekrar, {E magnitude}, sırasıyla {F magnitude}, {G magnitude}'yi çarparak {C magnitude}, {B magnitude}'yi oluşturduğu için, böylece {F magnitude} {G magnitude}'ye nasılsa, {C magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    20→    20→    20→Ve {C magnitude} {B magnitude}'ye nasılsa, (öyle) {D magnitude} {E magnitude}'ye(dir).
+    21→    21→    21→Ve böylece {D magnitude} {E magnitude}'ye nasılsa, (öyle) {F magnitude} {G magnitude}'ye(dir).
+    22→    22→    22→Ve ters çevrilmiş olarak, {D magnitude} {F magnitude}'ye nasılsa, (öyle) {E magnitude} {G magnitude}'ye(dir) [Önerme 7.13].
+    23→    23→    23→Böylece {A magnitude} ve {B magnitude} benzer düzlem sayılardır.
+    24→    24→    24→Çünkü kenarları orantılıdır [Tanım 7.21].
+    25→    25→    25→(Gösterilmesi gereken tam olarak budur.)
+    26→    26→    26→
+    27→
+    28→

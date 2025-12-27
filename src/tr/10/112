@@ -1,48 +1,50 @@
-The (square) on a rational (straight-line), applied to a binomial (straight-line), produces as breadth an apotome whose terms are commensurable (in length) with the terms of the binomial, and, furthermore, in the same ratio.
-Moreover, the created apotome will have the same order as the binomial.
+Bir orantılı (doğrunun) üzerindeki (kare), bir iki-terimli (doğruya) uygulandığında, genişlik olarak terimleri iki-terimlinin terimleri ile uzunlukta ölçüşür ve dahası aynı oranda olan bir kesit üretir.
+Üstelik, oluşturulan kesit, iki-terimli ile sırada aynı olacaktır.
 
-Let {A magnitude} be a rational (straight-line), and {BC magnitude} a binomial (straight-line), of which let {DC magnitude} be the greater term.
-And let the (rectangle contained) by {BC magnitude} and {EF magnitude} be equal to the (square) on {A magnitude}.
-I say that {EF magnitude} is an apotome whose terms are commensurable (in length) with {CD magnitude} and {DB magnitude}, and in the same ratio, and, moreover, that {EF magnitude} will have the same order as {BC magnitude}.
+{A magnitude} bir orantılı (doğru) ve {BC magnitude}, büyük terimi {DC magnitude} olan, bir iki-terimli (doğru) olsun.
+Ve {BC magnitude} ve {EF magnitude} tarafından (içerilen dikdörtgen), {A magnitude}'nin üzerindeki (kareye) eşit olsun.
+Diyorum ki {EF magnitude}, terimleri {CD magnitude} ve {DB magnitude} ile uzunlukta ölçüşür ve aynı oranda olan bir kesittir ve dahası {EF magnitude}, {BC magnitude} ile sırada aynı olacaktır.
 
-For, again, let the (rectangle contained) by {BD magnitude} and {G magnitude} be equal to the (square) on {A magnitude}.
-Therefore, since the (rectangle contained) by {BC magnitude} and {EF magnitude} is equal to the (rectangle contained) by {BD magnitude} and {G magnitude}, thus as {CB magnitude} is to {BD magnitude}, so {G magnitude} (is) to {EF magnitude} [Prop. 6.16].
-And {CB magnitude} (is) greater than {BD magnitude}.
-Thus, {G magnitude} is also greater than {EF magnitude} [Props. 5.16, 5.14].
-Let {EH magnitude} be equal to {G magnitude}.
-Thus, as {CB magnitude} is to {BD magnitude}, so {HE magnitude} (is) to {EF magnitude}.
-Thus, via separation, as {CD magnitude} is to {BD magnitude}, so {HF magnitude} (is) to {FE magnitude} [Prop. 5.17].
-Let it have been contrived that as {HF magnitude} (is) to {FE magnitude}, so {FK magnitude} (is) to {KE magnitude}.
-And, thus, the whole {HK magnitude} is to the whole {KF magnitude}, as {FK magnitude} (is) to {KE magnitude}.
-For as one of the leading (proportional magnitudes is) to one of the following, so all of the leading (magnitudes) are to all of the following [Prop. 5.12].
-And as {FK magnitude} (is) to {KE magnitude}, so {CD magnitude} is to {DB magnitude} [Prop. 5.11].
-And, thus, as {HK magnitude} (is) to {KF magnitude}, so {CD magnitude} is to {DB magnitude} [Prop. 5.11].
-And the (square) on {CD magnitude} (is) commensurable with the (square) on {DB magnitude} [Prop. 10.36].
-The (square) on {HK magnitude} is thus also commensurable with the (square) on {KF magnitude} [Props. 6.22, 10.11].
-And as the (square) on {HK magnitude} is to the (square) on {KF magnitude}, so {HK magnitude} (is) to {KE magnitude}, since the three (straight-lines) {HK magnitude}, {KF magnitude}, and {KE magnitude} are proportional [Def. 5.9].
-{HK magnitude} is thus commensurable in length with {KE magnitude} [Prop. 10.11].
-Hence, {HE magnitude} is also commensurable in length with {EK magnitude} [Prop. 10.15].
-And since the (square) on {A magnitude} is equal to the (rectangle contained) by {EH magnitude} and {BD magnitude}, and the (square) on {A magnitude} is rational, the (rectangle contained) by {EH magnitude} and {BD magnitude} is thus also rational.
-And it is applied to the rational (straight-line) {BD magnitude}.
-Thus, {EH magnitude} is rational, and commensurable in length with {BD magnitude} [Prop. 10.20].
-And, hence, the (straight-line) commensurable (in length) with it, {EK magnitude}, is also rational [Def. 10.3], and commensurable in length with {BD magnitude} [Prop. 10.12].
-Therefore, since as {CD magnitude} is to {DB magnitude}, so {FK magnitude} (is) to {KE magnitude}, and {CD magnitude} and {DB magnitude} are (straight-lines which are) commensurable in square only, {FK magnitude} and {KE magnitude} are also commensurable in square only [Prop. 10.11].
-And {KE magnitude} is rational.
-Thus, {FK magnitude} is also rational.
-{FK magnitude} and {KE magnitude} are thus rational (straight-lines which are) commensurable in square only.
-Thus, {EF magnitude} is an apotome [Prop. 10.73].
+Çünkü tekrar, {BD magnitude} ve {G magnitude} tarafından (içerilen dikdörtgen), {A magnitude}'nin üzerindeki (kareye) eşit olsun.
+Bu yüzden, {BC magnitude} ve {EF magnitude} tarafından (içerilen dikdörtgen), {BD magnitude} ve {G magnitude} tarafından (içerilen dikdörtgene) eşit olduğu için, böylece {CB magnitude}, {BD magnitude}'ye nasılsa, {G magnitude}, {EF magnitude}'ye (öyledir) [Önerme 6.16].
+Ve {CB magnitude}, {BD magnitude}'den büyüktür.
+Böylece {G magnitude} de {EF magnitude}'den büyüktür [Önermeler 5.16, 5.14].
+{EH magnitude}, {G magnitude}'ye eşit olsun.
+Böylece {CB magnitude}, {BD magnitude}'ye nasılsa, {HE magnitude}, {EF magnitude}'ye (öyledir).
+Böylece ayırma yoluyla, {CD magnitude}, {BD magnitude}'ye nasılsa, {HF magnitude}, {FE magnitude}'ye (öyledir) [Önerme 5.17].
+{HF magnitude}, {FE magnitude}'ye nasılsa, {FK magnitude}, {KE magnitude}'ye (öyle) olacak şekilde düzenlenmiş olsun.
+Ve böylece bütün {HK magnitude}, bütün {KF magnitude}'ye nasılsa, {FK magnitude}, {KE magnitude}'ye (öyledir).
+Çünkü önde gelenlerden biri, arkadan gelenlerden birine nasılsa, önde gelenlerin hepsi, arkadan gelenlerin hepsine (öyledir) [Önerme 5.12].
+Ve {FK magnitude}, {KE magnitude}'ye nasılsa, {CD magnitude}, {DB magnitude}'ye (öyledir) [Önerme 5.11].
+Ve böylece {HK magnitude}, {KF magnitude}'ye nasılsa, {CD magnitude}, {DB magnitude}'ye (öyledir) [Önerme 5.11].
+Ve {CD magnitude}'nin üzerindeki (kare), {DB magnitude}'nin üzerindeki (kare) ile ölçüşürdür [Önerme 10.36].
+{HK magnitude}'nin üzerindeki (kare) böylece de {KF magnitude}'nin üzerindeki (kare) ile ölçüşürdür [Önermeler 6.22, 10.11].
+Ve {HK magnitude}'nin üzerindeki (kare), {KF magnitude}'nin üzerindeki (kareye) nasılsa, {HK magnitude}, {KE magnitude}'ye (öyledir), çünkü üç (doğru) {HK magnitude}, {KF magnitude} ve {KE magnitude} orantılıdır [Tanım 5.9].
+{HK magnitude} böylece {KE magnitude} ile uzunlukta ölçüşürdür [Önerme 10.11].
+Dolayısıyla, {HE magnitude} de {EK magnitude} ile uzunlukta ölçüşürdür [Önerme 10.15].
+Ve {A magnitude}'nin üzerindeki (kare), {EH magnitude} ve {BD magnitude} tarafından (içerilen dikdörtgene) eşit olduğu ve {A magnitude}'nin üzerindeki (kare) orantılı olduğu için, {EH magnitude} ve {BD magnitude} tarafından (içerilen dikdörtgen) böylece de orantılıdır.
+Ve o, orantılı (doğru) {BD magnitude}'ye uygulanmıştır.
+Böylece {EH magnitude} orantılıdır ve {BD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.20].
+Ve dolayısıyla, onunla (uzunlukta) ölçüşür olan (doğru), {EK magnitude}, de orantılıdır [Tanım 10.3] ve {BD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.12].
+Bu yüzden, {CD magnitude}, {DB magnitude}'ye nasılsa, {FK magnitude}, {KE magnitude}'ye (öyle) olduğu ve {CD magnitude} ve {DB magnitude} yalnızca karede ölçüşür (doğrular) olduğu için, {FK magnitude} ve {KE magnitude} de yalnızca karede ölçüşürdür [Önerme 10.11].
+Ve {KE magnitude} orantılıdır.
+Böylece {FK magnitude} de orantılıdır.
+{FK magnitude} ve {KE magnitude} böylece yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EF magnitude} bir kesittir [Önerme 10.73].
 
-And the square on {CD magnitude} is greater than (the square on) {DB magnitude} either by the (square) on (some straight-line) commensurable, or by the (square) on (some straight-line) incommensurable, (in length) with ({CD magnitude}).
+Ve {CD magnitude}'nin üzerindeki kare, ({DB magnitude}'nin üzerindeki kareden) ({CD magnitude}) ile uzunlukta ölçüşür veya ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-Therefore, if the square on {CD magnitude} is greater than (the square on) {DB magnitude} by the (square) on (some straight-line) commensurable (in length) with [{CD magnitude}] then the square on {FK magnitude} will also be greater than (the square on) {KE magnitude} by the (square) on (some straight-line) commensurable (in length) with ({FK magnitude}) [Prop. 10.14].
-And if {CD magnitude} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FK magnitude} [Props. 10.11, 10.12].
-And if {BD magnitude} (is commensurable), (so) also (is) {KE magnitude} [Prop. 10.12].
-And if neither of {CD magnitude} or {DB magnitude} (is commensurable), neither also (are) either of {FK magnitude} or {KE magnitude}.
+Bu yüzden eğer {CD magnitude}'nin üzerindeki kare, ({DB magnitude}'nin üzerindeki kareden) [{CD magnitude}] ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyükse o zaman {FK magnitude}'nin üzerindeki kare de ({KE magnitude}'nin üzerindeki kareden) ({FK magnitude}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyük olacaktır [Önerme 10.14].
+Ve eğer {CD magnitude}, (daha önce) konmuş orantılı (doğru) ile uzunlukta ölçüşürse, {FK magnitude} de (öyledir) [Önermeler 10.11, 10.12].
+Ve eğer {BD magnitude} (ölçüşürse), {KE magnitude} de (öyledir) [Önerme 10.12].
+Ve eğer {CD magnitude} veya {DB magnitude}'nin hiçbiri (ölçüşür değilse), {FK magnitude} veya {KE magnitude}'nin de hiçbiri (ölçüşür değildir).
 
-And if the square on {CD magnitude} is greater than (the square on) {DB magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({CD magnitude}) then the square on {FK magnitude} will also be greater than (the square on) {KE magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({FK magnitude}) [Prop. 10.14].
-And if {CD magnitude} is commensurable in length with a (previously) laid down rational (straight-line), (so) also (is) {FK magnitude} [Props. 10.11, 10.12].
-And if {BD magnitude} (is commensurable), (so) also (is) {KE magnitude} [Prop. 10.12].
-And if neither of {CD magnitude} or {DB magnitude} (is commensurable), neither also (are) either of {FK magnitude} or {KE magnitude}.
-Hence, {FE magnitude} is an apotome whose terms, {FK magnitude} and {KE magnitude}, are commensurable (in length) with the terms, {CD magnitude} and {DB magnitude}, of the binomial, and in the same ratio.
-And ({FE magnitude}) has the same order as {BC magnitude} [Defs. 10.5-10.10].
-(Which is) the very thing it was required to show.
+Ve eğer {CD magnitude}'nin üzerindeki kare, ({DB magnitude}'nin üzerindeki kareden) ({CD magnitude}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyükse o zaman {FK magnitude}'nin üzerindeki kare de ({KE magnitude}'nin üzerindeki kareden) ({FK magnitude}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olacaktır [Önerme 10.14].
+Ve eğer {CD magnitude}, (daha önce) konmuş orantılı (doğru) ile uzunlukta ölçüşürse, {FK magnitude} de (öyledir) [Önermeler 10.11, 10.12].
+Ve eğer {BD magnitude} (ölçüşürse), {KE magnitude} de (öyledir) [Önerme 10.12].
+Ve eğer {CD magnitude} veya {DB magnitude}'nin hiçbiri (ölçüşür değilse), {FK magnitude} veya {KE magnitude}'nin de hiçbiri (ölçüşür değildir).
+Dolayısıyla, {FE magnitude}, terimleri {FK magnitude} ve {KE magnitude}, iki-terimlinin terimleri {CD magnitude} ve {DB magnitude} ile uzunlukta ölçüşür ve aynı oranda olan bir kesittir.
+Ve ({FE magnitude}), {BC magnitude} ile sırada aynıdır [Tanımlar 10.5-10.10].
+(Gösterilmesi gereken tam olarak budur.)
+
+

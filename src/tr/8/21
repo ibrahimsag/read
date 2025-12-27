@@ -1,34 +1,37 @@
-If two numbers fall between two numbers in mean proportion then the (latter) are similar solid (numbers).
-
-For let the two numbers {C magnitude} and {D magnitude} fall between the two numbers {A magnitude} and {B magnitude} in mean proportion.
-I say that {A magnitude} and {B magnitude} are similar solid (numbers).
-
-For let the three least numbers {E magnitude}, {F magnitude}, {G magnitude} having the same ratio as {A magnitude}, {C magnitude}, {D magnitude} have been taken [Prop. 8.2].
-Thus, the outermost of them, {E magnitude} and {G magnitude}, are prime to one another [Prop. 8.3].
-And since one number, {F magnitude}, has fallen (between) {E magnitude} and {G magnitude} in mean proportion, {E magnitude} and {G magnitude} are thus similar plane numbers [Prop. 8.20].
-Therefore, let {H magnitude}, {K magnitude} be the sides of {E magnitude}, and {L magnitude}, {M magnitude} (the sides) of {G magnitude}.
-Thus, it is clear from the (proposition) before this (one) that {E magnitude}, {F magnitude}, {G magnitude} are continuously proportional in the ratio of {H magnitude} to {L magnitude}, and of {K magnitude} to {M magnitude}.
-And since {E magnitude}, {F magnitude}, {G magnitude} are the least (numbers) having the same ratio as {A magnitude}, {C magnitude}, {D magnitude}, and the multitude of {E magnitude}, {F magnitude}, {G magnitude} is equal to the multitude of {A magnitude}, {C magnitude}, {D magnitude}, thus, via equality, as {E magnitude} is to {G magnitude}, so {A magnitude} (is) to {D magnitude} [Prop. 7.14].
-And {E magnitude} and {G magnitude} (are) prime (to one another), and prime (numbers) are also the least (of those numbers having the same ratio as them) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, {E magnitude} measures {A magnitude} the same number of times as {G magnitude} (measures) {D magnitude}.
-So as many times as {E magnitude} measures {A magnitude}, so many units let there be in {N magnitude}.
-Thus, {N magnitude} has made {A magnitude} (by) multiplying {E magnitude} [Def. 7.15].
-And {E magnitude} is the (number created) from (multiplying) {H magnitude} and {K magnitude}.
-Thus, {N magnitude} has made {A magnitude} (by) multiplying the (number created) from (multiplying) {H magnitude} and {K magnitude}.
-Thus, {A magnitude} is solid, and its sides are {H magnitude}, {K magnitude}, {N magnitude}.
-Again, since {E magnitude}, {F magnitude}, {G magnitude} are the least (numbers) having the same ratio as {C magnitude}, {D magnitude}, {B magnitude}, thus {E magnitude} measures {C magnitude} the same number of times as {G magnitude} (measures) {B magnitude} [Prop. 7.20].
-So as many times as {E magnitude} measures {C magnitude}, so many units let there be in {O magnitude}.
-Thus, {G magnitude} measures {B magnitude} according to the units in {O magnitude}.
-Thus, {O magnitude} has made {B magnitude} (by) multiplying {G magnitude}.
-And {G magnitude} is the (number created) from (multiplying) {L magnitude} and {M magnitude}.
-Thus, {O magnitude} has made {B magnitude} (by) multiplying the (number created) from (multiplying) {L magnitude} and {M magnitude}.
-Thus, {B magnitude} is solid, and its sides are {L magnitude}, {M magnitude}, {O magnitude}.
-Thus, {A magnitude} and {B magnitude} are (both) solid.
-
-[So] I say that (they are) also similar.
-For since {N magnitude}, {O magnitude} have made {A magnitude}, {C magnitude} (by) multiplying {E magnitude}, thus as {N magnitude} is to {O magnitude}, so {A magnitude}(is) to {C magnitude}---that is to say, {E magnitude} to {F magnitude} [Prop. 7.18].
-But, as {E magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {L magnitude}, and {K magnitude} to {M magnitude}.
-And thus as {H magnitude} (is) to {L magnitude}, so {K magnitude} (is) to {M magnitude}, and {N magnitude} to {O magnitude}.
-And {H magnitude}, {K magnitude}, {N magnitude} are the sides of {A magnitude}, and {L magnitude}, {M magnitude}, {O magnitude} the sides of {B magnitude}.
-Thus, {A magnitude} and {B magnitude} are similar solid numbers [Def. 7.21].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayı arasına orantısal ortada iki sayı düşerse o zaman (öncekiler) benzer katı (sayılardır).
+     2→     2→     2→
+     3→     3→     3→Çünkü {A magnitude} ve {B magnitude} iki sayısı arasına orantısal ortada iki sayı, {C magnitude} ve {D magnitude}, düşsün.
+     4→     4→     4→Diyorum ki {A magnitude} ve {B magnitude} benzer katı (sayılardır).
+     5→     5→     5→
+     6→     6→     6→Çünkü {A magnitude}, {C magnitude}, {D magnitude} ile aynı oranda olan en küçük üç sayı, {E magnitude}, {F magnitude}, {G magnitude}, alınmış olsun [Önerme 8.2].
+     7→     7→     7→Böylece onların en dıştakileri, {E magnitude} ve {G magnitude}, birbirine asaldır [Önerme 8.3].
+     8→     8→     8→Ve bir sayı, {F magnitude}, orantısal ortada {E magnitude} ve {G magnitude} arasına düştüğü için, {E magnitude} ve {G magnitude} böylece benzer düzlem sayılardır [Önerme 8.20].
+     9→     9→     9→Bu nedenle, {H magnitude}, {K magnitude}, {E magnitude}'nin kenarları olsun ve {L magnitude}, {M magnitude}, {G magnitude}'nin (kenarları) olsun.
+    10→    10→    10→Böylece bundan önceki (önermeden) açıktır ki {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}'nin {L magnitude}'ye ve {K magnitude}'nın {M magnitude}'ye oranında sürekli orantılıdır.
+    11→    11→    11→Ve {E magnitude}, {F magnitude}, {G magnitude}, {A magnitude}, {C magnitude}, {D magnitude} ile aynı oranda olan (sayıların) en küçükleri olduğu ve {E magnitude}, {F magnitude}, {G magnitude}'nin çokluğu {A magnitude}, {C magnitude}, {D magnitude}'nin çokluğuna eşit olduğu için, böylece, eşitlik yoluyla, {E magnitude} {G magnitude}'ye nasılsa, {A magnitude} {D magnitude}'ye (öyledir) [Önerme 7.14].
+    12→    12→    12→Ve {E magnitude} ve {G magnitude} (birbirine) asaldır ve asal (sayılar) ayrıca (kendileriyle aynı oranda olanların) en küçükleridir [Önerme 7.21] ve en küçük (sayılar) kendileriyle aynı oranda olan (sayıları) eşit sayıda ölçer, büyük büyüğü ve küçük küçüğü (ölçerek)---yani, öncül öncülü ve ardıl ardılı (ölçerek) [Önerme 7.20].
+    13→    13→    13→Böylece {E magnitude}, {A magnitude}'yı, {G magnitude}'nin {D magnitude}'yi (ölçtüğü) aynı sayıda ölçer.
+    14→    14→    14→Öyleyse {E magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {N magnitude}'de o kadar birim olsun.
+    15→    15→    15→Böylece {N magnitude}, {E magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur [Tanım 7.15].
+    16→    16→    16→Ve {E magnitude}, {H magnitude} ve {K magnitude}'nın (çarpılmasından) oluşturulan (sayıdır).
+    17→    17→    17→Böylece {N magnitude}, {H magnitude} ve {K magnitude}'nın (çarpılmasından) oluşturulan (sayıyı) çarparak {A magnitude}'yı oluşturmuştur.
+    18→    18→    18→Böylece {A magnitude} katıdır ve kenarları {H magnitude}, {K magnitude}, {N magnitude}'dir.
+    19→    19→    19→Tekrar, {E magnitude}, {F magnitude}, {G magnitude}, {C magnitude}, {D magnitude}, {B magnitude} ile aynı oranda olan (sayıların) en küçükleri olduğu için, böylece {E magnitude}, {C magnitude}'yi, {G magnitude}'nin {B magnitude}'yi (ölçtüğü) aynı sayıda ölçer [Önerme 7.20].
+    20→    20→    20→Öyleyse {E magnitude}, {C magnitude}'yi kaç kez ölçüyorsa, {O magnitude}'da o kadar birim olsun.
+    21→    21→    21→Böylece {G magnitude}, {B magnitude}'yi {O magnitude}'daki birimlere göre ölçer.
+    22→    22→    22→Böylece {O magnitude}, {G magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur.
+    23→    23→    23→Ve {G magnitude}, {L magnitude} ve {M magnitude}'nin (çarpılmasından) oluşturulan (sayıdır).
+    24→    24→    24→Böylece {O magnitude}, {L magnitude} ve {M magnitude}'nin (çarpılmasından) oluşturulan (sayıyı) çarparak {B magnitude}'yi oluşturmuştur.
+    25→    25→    25→Böylece {B magnitude} katıdır ve kenarları {L magnitude}, {M magnitude}, {O magnitude}'dur.
+    26→    26→    26→Böylece {A magnitude} ve {B magnitude} (her ikisi de) katıdır.
+    27→    27→    27→
+    28→    28→    28→[Öyleyse] diyorum ki (onlar) ayrıca benzerdir.
+    29→    29→    29→Çünkü {N magnitude}, {O magnitude}, {E magnitude}'yi çarparak {A magnitude}, {C magnitude}'yi oluşturduğu için, böylece {N magnitude} {O magnitude}'ya nasılsa, {A magnitude} {C magnitude}'ye---yani {E magnitude} {F magnitude}'ye (öyledir) [Önerme 7.18].
+    30→    30→    30→Ama {E magnitude} {F magnitude}'ye nasılsa, (öyle) {H magnitude} {L magnitude}'ye ve {K magnitude} {M magnitude}'ye(dir).
+    31→    31→    31→Ve böylece {H magnitude} {L magnitude}'ye nasılsa, (öyle) {K magnitude} {M magnitude}'ye ve {N magnitude} {O magnitude}'ya(dır).
+    32→    32→    32→Ve {H magnitude}, {K magnitude}, {N magnitude}, {A magnitude}'nın kenarlarıdır ve {L magnitude}, {M magnitude}, {O magnitude}, {B magnitude}'nin kenarlarıdır.
+    33→    33→    33→Böylece {A magnitude} ve {B magnitude} benzer katı sayılardır [Tanım 7.21].
+    34→    34→    34→(Gösterilmesi gereken tam olarak budur.)
+    35→    35→    35→
+    36→
+    37→

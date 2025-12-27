@@ -1,16 +1,18 @@
-If a number is that part of a number that a (part) taken away (is) of a (part) taken away then the remainder will also be the same part of the remainder that the whole (is) of the whole.
+     1→     1→Eğer bir sayı bir sayının, çıkarılan (parçanın) çıkarılan (parçaya) olduğu aynı parçasıysa, o zaman kalan da kalanın, bütünün bütüne olduğu aynı parçası olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {AB magnitude} sayısı bir {CD magnitude} sayısının, çıkarılan (parça) {AE magnitude}'nin çıkarılan parça {CF magnitude}'ye olduğu (aynı) parça olsun.
+     4→     4→Diyorum ki kalan {EB magnitude} de kalan {FD magnitude}'nin, bütün {AB magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçadır.
+     5→     5→
+     6→     6→Çünkü {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {EB magnitude} de {CG magnitude}'nin aynı parçası olsun.
+     7→     7→Ve {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {EB magnitude} de {CG magnitude}'nin aynı parçası olduğu için, böylece {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {AB magnitude} de {GF magnitude}'nin aynı parçasıdır [Önerme 7.5].
+     8→     8→Ve {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {AB magnitude}'nin de {CD magnitude}'nin aynı parçası olduğu varsayılmıştı.
+     9→     9→Böylece, ayrıca, {AB magnitude} {GF magnitude}'nin hangi parçasıysa, ({AB magnitude}) {CD magnitude}'nin de aynı parçasıdır.
+    10→    10→Böylece {GF magnitude} {CD magnitude}'ye eşittir.
+    11→    11→{CF magnitude} her ikisinden de çıkarılmış olsun.
+    12→    12→Böylece kalan {GC magnitude} kalan {FD magnitude}'ye eşittir.
+    13→    13→Ve {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {EB magnitude} [de] {GC magnitude}'nin aynı parçası olduğu ve {GC magnitude} {FD magnitude}'ye eşit olduğu için, böylece {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {EB magnitude} de {FD magnitude}'nin aynı parçasıdır.
+    14→    14→Ama {AE magnitude} {CF magnitude}'nin hangi parçasıysa, {AB magnitude} de {CD magnitude}'nin aynı parçasıdır.
+    15→    15→Böylece kalan {EB magnitude} de kalan {FD magnitude}'nin, bütün {AB magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçadır.
+    16→    16→(Gösterilmesi gereken tam olarak budur.)
+    17→    17→
 
-For let a number {AB magnitude} be that part of a number {CD magnitude} that a (part) taken away {AE magnitude} (is) of a part taken away {CF magnitude}.
-I say that the remainder {EB magnitude} is also the same part of the remainder {FD magnitude} that the whole {AB magnitude} (is) of the whole {CD magnitude}.
-
-For which(ever) part {AE magnitude} is of {CF magnitude}, let {EB magnitude} also be the same part of {CG magnitude}.
-And since which(ever) part {AE magnitude} is of {CF magnitude}, {EB magnitude} is also the same part of {CG magnitude}, thus which(ever) part {AE magnitude} is of {CF magnitude}, {AB magnitude} is also the same part of {GF magnitude} [Prop. 7.5].
-And which(ever) part {AE magnitude} is of {CF magnitude}, {AB magnitude} is also assumed (to be) the same part of {CD magnitude}.
-Thus, also, which(ever) part {AB magnitude} is of {GF magnitude}, ({AB magnitude}) is also the same part of {CD magnitude}.
-Thus, {GF magnitude} is equal to {CD magnitude}.
-Let {CF magnitude} have been subtracted from both.
-Thus, the remainder {GC magnitude} is equal to the remainder {FD magnitude}.
-And since which(ever) part {AE magnitude} is of {CF magnitude}, {EB magnitude} [is] also the same part of {GC magnitude}, and {GC magnitude} (is) equal to {FD magnitude}, thus which(ever) part {AE magnitude} is of {CF magnitude}, {EB magnitude} is also the same part of {FD magnitude}.
-But, which(ever) part {AE magnitude} is of {CF magnitude}, {AB magnitude} is also the same part of {CD magnitude}.
-Thus, the remainder {EB magnitude} is also the same part of the remainder {FD magnitude} that the whole {AB magnitude} (is) of the whole {CD magnitude}.
-(Which is) the very thing it was required to show.

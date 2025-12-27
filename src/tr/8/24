@@ -1,13 +1,16 @@
-If two numbers have to one another the ratio which a square number (has) to a(nother) square number, and the first is square, then the second will also be square.
-
-For let two numbers, {A magnitude} and {B magnitude}, have to one another the ratio which the square number {C magnitude} (has) to the square number {D magnitude}.
-And let {A magnitude} be square.
-I say that {B magnitude} is also square.
-
-For since {C magnitude} and {D magnitude} are square, {C magnitude} and {D magnitude} are thus similar plane (numbers).
-Thus, one number falls (between) {C magnitude} and {D magnitude} in mean proportion [Prop. 8.18].
-And as {C magnitude} is to {D magnitude}, (so) {A magnitude} (is) to {B magnitude}.
-Thus, one number also falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].
-And {A magnitude} is square.
-Thus, {B magnitude} is also square [Prop. 8.22].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayı birbirine bir kare sayının bir (başka) kare sayıya taşıdığı oranı taşır ve birincisi karese o zaman ikincisi de kare olacaktır.
+     2→     2→     2→
+     3→     3→     3→Çünkü iki sayı, {A magnitude} ve {B magnitude}, {C magnitude} kare sayısının {D magnitude} kare sayısına (taşıdığı) oranı birbirine taşısın.
+     4→     4→     4→Ve {A magnitude} kare olsun.
+     5→     5→     5→Diyorum ki {B magnitude} de karedir.
+     6→     6→     6→
+     7→     7→     7→Çünkü {C magnitude} ve {D magnitude} kare olduğu için, {C magnitude} ve {D magnitude} böylece benzer düzlem (sayılardır).
+     8→     8→     8→Böylece {C magnitude} ve {D magnitude} arasına orantısal ortada bir sayı düşer [Önerme 8.18].
+     9→     9→     9→Ve {C magnitude} {D magnitude}'ye nasılsa, (öyle) {A magnitude} {B magnitude}'ye(dir).
+    10→    10→    10→Böylece {A magnitude} ve {B magnitude} arasına da orantısal ortada bir sayı düşer [Önerme 8.8].
+    11→    11→    11→Ve {A magnitude} karedir.
+    12→    12→    12→Böylece {B magnitude} de karedir [Önerme 8.22].
+    13→    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→    14→
+    15→
+    16→

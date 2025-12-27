@@ -1,55 +1,58 @@
-For any multitude whatsoever of given ratios, (expressed) in the least numbers, to find the least numbers continuously proportional in these given ratios.
-
-Let the given ratios, (expressed) in the least numbers, be the (ratios) of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-So it is required to find the least numbers continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-
-For let the least number, {G magnitude}, measured by (both) {B magnitude} and {C magnitude} have be taken [Prop. 7.34].
-And as many times as {B magnitude} measures {G magnitude}, so many times let {A magnitude} also measure {H magnitude}.
-And as many times as {C magnitude} measures {G magnitude}, so many times let {D magnitude} also measure {K magnitude}.
-And {E magnitude} either measures, or does not measure, {K magnitude}.
-{figure 1}Let it, first of all, measure ({K magnitude}).
-And as many times as {E magnitude} measures {K magnitude}, so many times let {F magnitude} also measure {L magnitude}.
-And since {A magnitude} measures {H magnitude} the same number of times that {B magnitude} also (measures) {G magnitude}, thus as {A magnitude} is to {B magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.13, Def. 7.20].
-And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {G magnitude} (is) to {K magnitude}, and, further, as {E magnitude} (is) to {F magnitude}, so {K magnitude} (is) to {L magnitude}.
-Thus, {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are continuously proportional in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-So I say that (they are) also the least (numbers continuously proportional in these ratios).
-For if {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} are not the least numbers continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and of {E magnitude} to {F magnitude}, let {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} be (the least such numbers).
-And since as {A magnitude} is to {B magnitude}, so {N magnitude} (is) to {O magnitude}, and {A magnitude} and {B magnitude} are the least (numbers which have the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {O magnitude}.
-So, for the same (reasons), {C magnitude} also measures {O magnitude}.
-Thus, {B magnitude} and {C magnitude} (both) measure {O magnitude}.
-Thus, the least number measured by (both) {B magnitude} and {C magnitude} will also measure {O magnitude} [Prop. 7.35].
-And {G magnitude} (is) the least number measured by (both) {B magnitude} and {C magnitude}.
-Thus, {G magnitude} measures {O magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, there cannot be any numbers less than {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude} (which are) continuously (proportional) in the ratio of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-
-{figure 2}So let {E magnitude} not measure {K magnitude}.
-And let the least number, {M magnitude}, measured by (both) {E magnitude} and {K magnitude} have been taken [Prop. 7.34].
-And as many times as {K magnitude} measures {M magnitude}, so many times let {H magnitude}, {G magnitude} also measure {N magnitude}, {O magnitude}, respectively.
-And as many times as {E magnitude} measures {M magnitude}, so many times let {F magnitude} also measure {P magnitude}.
-Since {H magnitude} measures {N magnitude} the same number of times as {G magnitude} (measures) {O magnitude}, thus as {H magnitude} is to {G magnitude}, so {N magnitude}(is) to {O magnitude} [Prop. 7.13, Def. 7.20].
-And as {H magnitude} (is) to {G magnitude}, so {A magnitude} (is) to {B magnitude}.
-And thus as {A magnitude} (is) to {B magnitude}, so {N magnitude} (is) to {O magnitude}.
-And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {O magnitude} (is) to {M magnitude}.
-Again, since {E magnitude} measures {M magnitude} the same number of times as {F magnitude} (measures) {P magnitude}, thus as {E magnitude} is to {F magnitude}, so {M magnitude} (is) to {P magnitude} [Prop. 7.13, Def.7.20].
-Thus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-So I say that (they are) also the least (numbers) in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
-For if not, then there will be some numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
-Let them be {Q magnitude}, {R magnitude}, {S magnitude}, {T magnitude}.
-And since as {Q magnitude} is to {R magnitude}, so {A magnitude} (is) to {B magnitude}, and {A magnitude} and {B magnitude} (are) the least (numbers having the same ratio as them), and the least (numbers) measure those (numbers) having the same ratio as them an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20], {B magnitude} thus measures {R magnitude}.
-So, for the same (reasons), {C magnitude} also measures {R magnitude}.
-Thus, {B magnitude} and {C magnitude} (both) measure {R magnitude}.
-Thus, the least (number) measured by (both) {B magnitude} and {C magnitude} will also measure {R magnitude} [Prop. 7.35].
-And {G magnitude} is the least number measured by (both) {B magnitude} and {C magnitude}.
-Thus, {G magnitude} measures {R magnitude}.
-And as {G magnitude} is to {R magnitude}, so {K magnitude} (is) to {S magnitude}.
-Thus, {K magnitude} also measures {S magnitude} [Def. 7.20].
-And {E magnitude} also measures {S magnitude} [Prop. 7.20].
-Thus, {E magnitude} and {K magnitude} (both) measure {S magnitude}.
-Thus, the least (number) measured by (both) {E magnitude} and {K magnitude} will also measure {S magnitude} [Prop. 7.35].
-And {M magnitude} is the least (number) measured by (both) {E magnitude} and {K magnitude}.
-Thus, {M magnitude} measures {S magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus there cannot be any numbers less than {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (which are) continuously proportional in the ratios of {A magnitude} to {B magnitude}, and of {C magnitude} to {D magnitude}, and, further, of {E magnitude} to {F magnitude}.
-Thus, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} are the least (numbers) continuously proportional in the ratios of {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Herhangi bir sayıda verilen oran için, (en küçük sayılarla ifade edilen), bu verilen oranlarda sürekli orantılı en küçük sayıları bulmak.
+     2→     2→     2→
+     3→     3→     3→En küçük sayılarla (ifade edilen) verilen oranlar, {A magnitude}'nın {B magnitude}'ye oranı, {C magnitude}'nin {D magnitude}'ye oranı ve ayrıca {E magnitude}'nin {F magnitude}'ye oranı olsun.
+     4→     4→     4→Öyleyse {A magnitude}'nın {B magnitude}'ye oranında, {C magnitude}'nin {D magnitude}'ye oranında ve ayrıca {E magnitude}'nin {F magnitude}'ye oranında sürekli orantılı en küçük sayıları bulmak gereklidir.
+     5→     5→     5→
+     6→     6→     6→Çünkü hem {B magnitude} hem {C magnitude} tarafından ölçülen en küçük sayı, {G magnitude}, alınmış olsun [Önerme 7.34].
+     7→     7→     7→Ve {B magnitude}, {G magnitude}'yi kaç kez ölçüyorsa, {A magnitude} da {H magnitude}'yi o kadar kez ölçsün.
+     8→     8→     8→Ve {C magnitude}, {G magnitude}'yi kaç kez ölçüyorsa, {D magnitude} da {K magnitude}'yı o kadar kez ölçsün.
+     9→     9→     9→Ve {E magnitude} ya {K magnitude}'yı ölçer ya da ölçmez.
+    10→    10→    10→{figure 1} Her şeyden önce ({K magnitude}'yı) ölçsün.
+    11→    11→    11→Ve {E magnitude}, {K magnitude}'yı kaç kez ölçüyorsa, {F magnitude} da {L magnitude}'yi o kadar kez ölçsün.
+    12→    12→    12→Ve {A magnitude}, {H magnitude}'yi, {B magnitude}'nin de {G magnitude}'yi (ölçtüğü) aynı sayıda ölçtüğü için, böylece {A magnitude} {B magnitude}'ye nasılsa, {H magnitude} {G magnitude}'ye (öyledir) [Önerme 7.13, Tanım 7.20].
+    13→    13→    13→Ve öyle ki, aynı (nedenlerle), {C magnitude} {D magnitude}'ye nasılsa, {G magnitude} {K magnitude}'ya (öyledir) ve ayrıca {E magnitude} {F magnitude}'ye nasılsa, {K magnitude} {L magnitude}'ye (öyledir).
+    14→    14→    14→Böylece {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude}, {A magnitude}'nın {B magnitude}'ye oranında, {C magnitude}'nin {D magnitude}'ye oranında ve ayrıca {E magnitude}'nin {F magnitude}'ye oranında sürekli orantılıdır.
+    15→    15→    15→Öyleyse diyorum ki (onlar) ayrıca (bu oranlarda sürekli orantılıların) en küçükleridir.
+    16→    16→    16→Çünkü eğer {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude}, {A magnitude}'nın {B magnitude}'ye, {C magnitude}'nin {D magnitude}'ye ve {E magnitude}'nin {F magnitude}'ye oranlarında sürekli orantılı en küçük sayılar değilse, {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude} (en küçük öyleler) olsun.
+    17→    17→    17→Ve {A magnitude} {B magnitude}'ye nasılsa, {N magnitude} {O magnitude}'ya (öyle) olduğu ve {A magnitude} ve {B magnitude} (kendileriyle aynı oranda olanların) en küçükleri olduğu ve en küçük (sayılar) (kendileriyle) aynı oranda olan (sayıları) eşit sayıda ölçtüğü, büyük büyüğü ve küçük küçüğü (ölçerek)---yani öncül öncülü ve ardıl ardılı (ölçerek) [Önerme 7.20] için, {B magnitude} böylece {O magnitude}'yu ölçer.
+    18→    18→    18→Öyle ki, aynı (nedenlerle), {C magnitude} de {O magnitude}'yu ölçer.
+    19→    19→    19→Böylece {B magnitude} ve {C magnitude} (ikisi de) {O magnitude}'yu ölçer.
+    20→    20→    20→Böylece hem {B magnitude} hem {C magnitude} tarafından ölçülen en küçük sayı da {O magnitude}'yu ölçecektir [Önerme 7.35].
+    21→    21→    21→Ve {G magnitude} hem {B magnitude} hem {C magnitude} tarafından ölçülen en küçük sayıdır.
+    22→    22→    22→Böylece {G magnitude}, büyük küçüğü (ölçerek) {O magnitude}'yu ölçer.
+    23→    23→    23→Ki bu imkansızdır.
+    24→    24→    24→Böylece {A magnitude}'nın {B magnitude}'ye oranında, {C magnitude}'nin {D magnitude}'ye oranında ve ayrıca {E magnitude}'nin {F magnitude}'ye oranında sürekli (orantılı) {H magnitude}, {G magnitude}, {K magnitude}, {L magnitude}'den küçük sayılar olamaz.
+    25→    25→    25→
+    26→    26→    26→{figure 2} Öyleyse {E magnitude} {K magnitude}'yı ölçmesin.
+    27→    27→    27→Ve hem {E magnitude} hem {K magnitude} tarafından ölçülen en küçük sayı, {M magnitude}, alınmış olsun [Önerme 7.34].
+    28→    28→    28→Ve {K magnitude}, {M magnitude}'yi kaç kez ölçüyorsa, {H magnitude}, {G magnitude} de sırasıyla {N magnitude}, {O magnitude}'yu o kadar kez ölçsün.
+    29→    29→    29→Ve {E magnitude}, {M magnitude}'yi kaç kez ölçüyorsa, {F magnitude} de {P magnitude}'yi o kadar kez ölçsün.
+    30→    30→    30→{H magnitude}, {N magnitude}'yi, {G magnitude}'nin {O magnitude}'yu (ölçtüğü) aynı sayıda ölçtüğü için, böylece {H magnitude} {G magnitude}'ye nasılsa, {N magnitude} {O magnitude}'ya (öyledir) [Önerme 7.13, Tanım 7.20].
+    31→    31→    31→Ve {H magnitude} {G magnitude}'ye nasılsa, (öyle) {A magnitude} {B magnitude}'ye(dir).
+    32→    32→    32→Ve böylece {A magnitude} {B magnitude}'ye nasılsa, (öyle) {N magnitude} {O magnitude}'ya(dır).
+    33→    33→    33→Ve öyle ki, aynı (nedenlerle), {C magnitude} {D magnitude}'ye nasılsa, {O magnitude} {M magnitude}'ye (öyledir).
+    34→    34→    34→Tekrar, {E magnitude}, {M magnitude}'yi, {F magnitude}'nin {P magnitude}'yi (ölçtüğü) aynı sayıda ölçtüğü için, böylece {E magnitude} {F magnitude}'ye nasılsa, {M magnitude} {P magnitude}'ye (öyledir) [Önerme 7.13, Tanım 7.20].
+    35→    35→    35→Böylece {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude}, {A magnitude}'nın {B magnitude}'ye, {C magnitude}'nin {D magnitude}'ye ve ayrıca {E magnitude}'nin {F magnitude}'ye oranlarında sürekli orantılıdır.
+    36→    36→    36→Öyleyse diyorum ki (onlar) ayrıca {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude} oranlarında (olanların) en küçükleridir.
+    37→    37→    37→Çünkü eğer değilse, o zaman {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude} oranlarında sürekli orantılı {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude}'den küçük bazı sayılar olacaktır.
+    38→    38→    38→Onlar {Q magnitude}, {R magnitude}, {S magnitude}, {T magnitude} olsun.
+    39→    39→    39→Ve {Q magnitude} {R magnitude}'ye nasılsa, {A magnitude} {B magnitude}'ye (öyle) olduğu ve {A magnitude} ve {B magnitude} (kendileriyle aynı oranda olanların) en küçükleri olduğu ve en küçük (sayılar) kendileriyle aynı oranda olanları eşit sayıda ölçtüğü, öncül öncülü ve ardıl ardılı (ölçerek) [Önerme 7.20] için, {B magnitude} böylece {R magnitude}'yi ölçer.
+    40→    40→    40→Öyle ki, aynı (nedenlerle), {C magnitude} de {R magnitude}'yi ölçer.
+    41→    41→    41→Böylece {B magnitude} ve {C magnitude} (ikisi de) {R magnitude}'yi ölçer.
+    42→    42→    42→Böylece hem {B magnitude} hem {C magnitude} tarafından ölçülen en küçük (sayı) da {R magnitude}'yi ölçecektir [Önerme 7.35].
+    43→    43→    43→Ve {G magnitude} hem {B magnitude} hem {C magnitude} tarafından ölçülen en küçük sayıdır.
+    44→    44→    44→Böylece {G magnitude} {R magnitude}'yi ölçer.
+    45→    45→    45→Ve {G magnitude} {R magnitude}'ye nasılsa, {K magnitude} {S magnitude}'ye (öyledir).
+    46→    46→    46→Böylece {K magnitude} de {S magnitude}'yi ölçer [Tanım 7.20].
+    47→    47→    47→Ve {E magnitude} de {S magnitude}'yi ölçer [Önerme 7.20].
+    48→    48→    48→Böylece {E magnitude} ve {K magnitude} (ikisi de) {S magnitude}'yi ölçer.
+    49→    49→    49→Böylece hem {E magnitude} hem {K magnitude} tarafından ölçülen en küçük (sayı) da {S magnitude}'yi ölçecektir [Önerme 7.35].
+    50→    50→    50→Ve {M magnitude} hem {E magnitude} hem {K magnitude} tarafından ölçülen en küçük (sayıdır).
+    51→    51→    51→Böylece {M magnitude}, büyük küçüğü (ölçerek) {S magnitude}'yi ölçer.
+    52→    52→    52→Ki bu imkansızdır.
+    53→    53→    53→Böylece {A magnitude}'nın {B magnitude}'ye, {C magnitude}'nin {D magnitude}'ye ve ayrıca {E magnitude}'nin {F magnitude}'ye oranlarında sürekli orantılı {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude}'den küçük sayılar olamaz.
+    54→    54→    54→Böylece {N magnitude}, {O magnitude}, {M magnitude}, {P magnitude}, {A magnitude} {B magnitude}, {C magnitude} {D magnitude}, {E magnitude} {F magnitude} oranlarında sürekli orantılı en küçük (sayılardır).
+    55→    55→    55→(Gösterilmesi gereken tam olarak budur.)
+    56→    56→    56→
+    57→
+    58→

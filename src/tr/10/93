@@ -1,62 +1,64 @@
-If an area is contained by a rational (straight-line) and a third apotome then the square-root of the area is a second apotome of a medial (straight-line).
+Eğer bir alan, bir orantılı (doğru) ve bir üçüncü kesit tarafından içerilirse o zaman alanın karekökü bir orta (doğrunun) ikinci kesitidir.
 
-For let the area {AB polygon} have been contained by the rational (straight-line) {AC line} and the third apotome {AD line}.
-I say that the square-root of area {AB polygon} is the second apotome of a medial (straight-line).
+Çünkü {AB polygon} alanı, orantılı (doğru) {AC line} ve üçüncü kesit {AD line} tarafından içerilmiş olsun.
+Diyorum ki {AB polygon} alanının karekökü bir orta (doğrunun) ikinci kesitidir.
 
-For let {DG line} be an attachment to {AD line}.
-Thus, {AG line} and {GD line} are rational (straight-lines which are) commensurable in square only [Prop. 10.73], and neither of {AG line} and {GD line} is commensurable in length with the (previously) laid down rational (straight-line) {AC line}, and the square on the whole, {AG line}, is greater than (the square on) the attachment, {DG line}, by the (square) on (some straight-line) commensurable (in length) with ({AG line}) [Def. 10.13].
-Therefore, since the square on {AG line} is greater than (the square on) {GD line} by the (square) on (some straight-line) commensurable (in length) with ({AG line}), thus if (an area) equal to the fourth part of the square on {DG line} is applied to {AG line}, falling short by a square figure, then it divides ({AG line}) into (parts which are) commensurable (in length) [Prop. 10.17].
-Therefore, let {DG line} have been cut in half at {E point}.
-And let (an area) equal to the (square) on {EG line} have been applied to {AG line}, falling short by a square figure.
-And let it be the (rectangle contained) by {AF line} and {FG line}.
-And let {EH line}, {FI line}, and {GK line} have been drawn through points {E point}, {F point}, and {G point} (respectively), parallel to {AC line}.
-Thus, {AF line} and {FG line} are commensurable (in length).
-{AI polygon} (is) thus also commensurable with {FK polygon} [Props. 6.1, 10.11].
-And since {AF line} and {FG line} are commensurable in length, {AG line} is thus also commensurable in length with each of {AF line} and {FG line} [Prop. 10.15].
-And {AG line} (is) rational, and incommensurable in length with {AC line}.
-Hence, {AF line} and {FG line} (are) also (rational, and incommensurable in length with {AC line}) [Prop. 10.13].
-Thus, {AI polygon} and {FK polygon} are each medial (areas) [Prop. 10.21].
-Again, since {DE line} is commensurable in length with {EG line}, {DG line} is also commensurable in length with each of {DE line} and {EG line} [Prop. 10.15].
-And {GD line} (is) rational, and incommensurable in length with {AC line}.
-Thus, {DE line} and {EG line} (are) each also rational, and incommensurable in length with {AC line} [Prop. 10.13].
-{DH polygon} and {EK polygon} are thus each medial (areas) [Prop. 10.21].
-And since {AG line} and {GD line} are commensurable in square only, {AG line} is thus incommensurable in length with {GD line}.
-But, {AG line} is commensurable in length with {AF line}, and {DG line} with {EG line}.
-Thus, {AF line} is incommensurable in length with {EG line} [Prop. 10.13].
-And as {AF line} (is) to {EG line}, so {AI polygon} is to {EK polygon} [Prop. 6.1].
-Thus, {AI polygon} is incommensurable with {EK polygon} [Prop. 10.11].
+Çünkü {DG line}, {AD line}'a ek olsun.
+{AG line} ve {GD line} böylece yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.73] ve {AG line} ve {GD line}'ın hiçbiri, (daha önce) konmuş orantılı (doğru) {AC line} ile uzunlukta ölçüşür değildir ve bütünün, {AG line}'ın, üzerindeki kare, ekin, {DG line}'ın, (üzerindeki kareden) ({AG line}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür [Tanım 10.13].
+Bu yüzden, {AG line}'ın üzerindeki kare, ({GD line}'ın üzerindeki kareden) ({AG line}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyük olduğu için, böylece eğer {DG line}'ın üzerindeki karenin dörtte birine eşit (bir alan), bir kare şekil kadar eksik düşerek, {AG line}'a uygulanırsa o zaman o ({AG line}'ı) (uzunlukta) ölçüşür (parçalara) böler [Önerme 10.17].
+Bu yüzden {DG line}, {E point}'de ikiye bölünmüş olsun.
+Ve {EG line}'ın üzerindeki (kareye) eşit (bir alan), bir kare şekil kadar eksik düşerek, {AG line}'a uygulanmış olsun.
+Ve o, {AF line} ve {FG line} tarafından (içerilen dikdörtgen) olsun.
+Ve {EH line}, {FI line} ve {GK line}, {E point}, {F point} ve {G point} noktalarından (sırasıyla), {AC line}'a paralel çizilmiş olsun.
+{AF line} ve {FG line} böylece (uzunlukta) ölçüşürdür.
+{AI polygon}, böylece {FK polygon} ile de ölçüşürdür [Önermeler 6.1, 10.11].
+Ve {AF line} ve {FG line} uzunlukta ölçüşür olduğu için, {AG line}, böylece {AF line} ve {FG line}'ın her biri ile de uzunlukta ölçüşürdür [Önerme 10.15].
+Ve {AG line} orantılıdır ve {AC line} ile uzunlukta ölçüşmezdir.
+Dolayısıyla {AF line} ve {FG line} de (orantılı ve {AC line} ile uzunlukta ölçüşmezdir) [Önerme 10.13].
+Böylece {AI polygon} ve {FK polygon}'un her biri orta (alanlardır) [Önerme 10.21].
+Tekrar, {DE line}, {EG line} ile uzunlukta ölçüşür olduğu için, {DG line} de {DE line} ve {EG line}'ın her biri ile uzunlukta ölçüşürdür [Önerme 10.15].
+Ve {GD line} orantılıdır ve {AC line} ile uzunlukta ölçüşmezdir.
+Böylece {DE line} ve {EG line}'ın her biri de orantılıdır ve {AC line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+{DH polygon} ve {EK polygon}'un her biri böylece orta (alanlardır) [Önerme 10.21].
+Ve {AG line} ve {GD line} yalnızca karede ölçüşür olduğu için, {AG line}, böylece {GD line} ile uzunlukta ölçüşmezdir.
+Fakat {AG line}, {AF line} ile ve {DG line}, {EG line} ile uzunlukta ölçüşürdür.
+Böylece {AF line}, {EG line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Ve {AF line}, {EG line}'a nasılsa, {AI polygon}, {EK polygon}'a (öyledir) [Önerme 6.1].
+Böylece {AI polygon}, {EK polygon} ile ölçüşmezdir [Önerme 10.11].
 
-Therefore, let the square {LM polygon}, equal to {AI polygon}, have been constructed.
-And let {NO polygon}, equal to {FK polygon}, which is about the same angle as {LM polygon}, have been subtracted (from {LM polygon}).
-Thus, {LM polygon} and {NO polygon} are about the same diagonal [Prop. 6.26].
-Let {PR line} be their (common) diagonal, and let the (rest of the) figure have been drawn.
-Therefore, since the (rectangle contained) by {AF line} and {FG line} is equal to the (square) on {EG line}, thus as {AF line} is to {EG line}, so {EG line} (is) to {FG line} [Prop. 6.17].
-But, as {AF line} (is) to {EG line}, so {AI polygon} is to {EK polygon} [Prop.6.1].
-And as {EG line} (is) to {FG line}, so {EK polygon} is to {FK polygon} [Prop. 6.1].
-And thus as {AI polygon} (is) to {EK polygon}, so {EK polygon} (is) to {FK polygon} [Prop. 5.11].
-Thus, {EK polygon} is the mean proportional to {AI polygon} and {FK polygon}.
-And {MN polygon} is also the mean proportional to the squares {LM polygon} and {NO polygon} [Prop. 10.53 lem.].
-And {AI polygon} is equal to {LM polygon}, and {FK polygon} to {NO polygon}.
-Thus, {EK polygon} is also equal to {MN polygon}.
-But, {MN polygon} is equal to {LO polygon}, and {EK polygon} [is] equal to {DH polygon} [Prop. 1.43].
-And thus the whole of {DK polygon} is equal to the gnomon {UVW given} and {NO polygon}.
-And {AK polygon} (is) also equal to {LM polygon} and {NO polygon}.
-Thus, the remainder {AB polygon} is equal to {ST polygon}---that is to say, to the square on {LN line}.
-Thus, {LN line} is the square-root of area {AB polygon}.
-I say that {LN line} is the second apotome of a medial (straight-line).
+Bu yüzden {AI polygon}'a eşit {LM polygon} karesi inşa edilmiş olsun.
+Ve {LM polygon} ile aynı açı etrafında olan ve {FK polygon}'a eşit {NO polygon}, ({LM polygon}'dan) çıkarılmış olsun.
+{LM polygon} ve {NO polygon} böylece aynı köşegen etrafındadır [Önerme 6.26].
+{PR line} onların (ortak) köşegeni olsun ve şeklin (geri kalanı) çizilmiş olsun.
+Bu yüzden, {AF line} ve {FG line} tarafından (içerilen dikdörtgen), {EG line}'ın üzerindeki (kareye) eşit olduğu için, böylece {AF line}, {EG line}'a nasılsa, {EG line}, {FG line}'a (öyledir) [Önerme 6.17].
+Fakat {AF line}, {EG line}'a nasılsa, {AI polygon}, {EK polygon}'a (öyledir) [Önerme 6.1].
+Ve {EG line}, {FG line}'a nasılsa, {EK polygon}, {FK polygon}'a (öyledir) [Önerme 6.1].
+Ve böylece {AI polygon}, {EK polygon}'a nasılsa, {EK polygon}, {FK polygon}'a (öyledir) [Önerme 5.11].
+Böylece {EK polygon}, {AI polygon} ve {FK polygon}'un orantılı ortasıdır.
+Ve {MN polygon} de {LM polygon} ve {NO polygon} karelerinin orantılı ortasıdır [Önerme 10.53 ek kısım].
+Ve {AI polygon}, {LM polygon}'a ve {FK polygon}, {NO polygon}'a eşittir.
+Böylece {EK polygon} de {MN polygon}'a eşittir.
+Fakat {MN polygon}, {LO polygon}'a ve {EK polygon}, {DH polygon}'a eşittir [Önerme 1.43].
+Ve böylece bütün {DK polygon}, {UVW given} gnomonuna ve {NO polygon}'a eşittir.
+Ve {AK polygon} de {LM polygon} ve {NO polygon}'a eşittir.
+Böylece kalan {AB polygon}, {ST polygon}'a --- yani {LN line}'ın üzerindeki kareye --- eşittir.
+Böylece {LN line}, {AB polygon} alanının karekökü(dür).
+Diyorum ki {LN line} bir orta (doğrunun) ikinci kesitidir.
 
-For since {AI polygon} and {FK polygon} were shown (to be) medial (areas), and are equal to the (squares) on {LP line} and {PN line} (respectively), the (squares) on each of {LP line} and {PN line} (are) thus also medial.
-Thus, {LP line} and {PN line} (are) each medial (straight-lines).
-And since {AI polygon} is commensurable with {FK polygon} [Props. 6.1, 10.11], the (square) on {LP line} (is) thus also commensurable with the (square) on {PN line}.
-Again, since {AI polygon} was shown (to be) incommensurable with {EK polygon}, {LM polygon} is thus also incommensurable with {MN polygon}---that is to say, the (square) on {LP line} with the (rectangle contained) by {LP line} and {PN line}.
-Hence, {LP line} is also incommensurable in length with {PN line} [Props. 6.1, 10.11].
-Thus, {LP line} and {PN line} are medial (straight-lines which are) commensurable in square only.
-So, I say that they also contain a medial (area).
+Çünkü {AI polygon} ve {FK polygon}'un orta (alanlar) olduğu ve (sırasıyla) {LP line} ve {PN line}'ın üzerindeki (karelere) eşit olduğu gösterildiği için, {LP line} ve {PN line}'ın her birinin üzerindeki (kareler) böylece de ortadır.
+Böylece {LP line} ve {PN line}'ın (her biri) orta (doğrulardır).
+Ve {AI polygon}, {FK polygon} ile ölçüşür olduğu için [Önermeler 6.1, 10.11], {LP line}'ın (üzerindeki kare), böylece {PN line}'ın (üzerindeki kare) ile de ölçüşürdür.
+Tekrar, {AI polygon}'un {EK polygon} ile ölçüşmez olduğu gösterildiği için, {LM polygon} böylece {MN polygon} ile de ölçüşmezdir --- yani {LP line}'ın üzerindeki (kare), {LP line} ve {PN line} tarafından (içerilen dikdörtgen) ile (ölçüşmezdir).
+Dolayısıyla {LP line} de {PN line} ile uzunlukta ölçüşmezdir [Önermeler 6.1, 10.11].
+Böylece {LP line} ve {PN line} yalnızca karede ölçüşür orta (doğrulardır).
+Öyleyse diyorum ki onlar ayrıca bir orta (alan) içerirler.
 
-For since {EK polygon} was shown (to be) a medial (area), and is equal to the (rectangle contained) by {LP line} and {PN line}, the (rectangle contained) by {LP line} and {PN line} is thus also medial.
-Hence, {LP line} and {PN line} are medial (straight-lines which are) commensurable in square only, and which contain a medial (area).
-Thus, {LN line} is the second apotome of a medial (straight-line) [Prop. 10.75].
-And it is the square-root of area {AB polygon}.
+Çünkü {EK polygon}'un bir orta (alan) olduğu ve {LP line} ve {PN line} tarafından (içerilen dikdörtgene) eşit olduğu gösterildiği için, {LP line} ve {PN line} tarafından (içerilen dikdörtgen) böylece de ortadır.
+Dolayısıyla {LP line} ve {PN line} yalnızca karede ölçüşür ve bir orta (alan) içeren orta (doğrulardır).
+Böylece {LN line} bir orta (doğrunun) ikinci kesitidir [Önerme 10.75].
+Ve o, {AB polygon} alanının karekökü(dür).
 
-Thus, the square-root of area {AB polygon} is the second apotome of a medial (straight-line).
-(Which is) the very thing it was required to show.
+Böylece {AB polygon} alanının karekökü bir orta (doğrunun) ikinci kesitidir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,22 +1,24 @@
-If a number is those parts of a number that a (part) taken away (is) of a (part) taken away then the remainder will also be the same parts of the remainder that the whole (is) of the whole.
+     1→     1→Eğer bir sayı bir sayının, çıkarılan (parçanın) çıkarılan (parçaya) olduğu aynı parçalarıysa, o zaman kalan da kalanın, bütünün bütüne olduğu aynı parçaları olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {AB magnitude} sayısı bir {CD magnitude} sayısının, çıkarılan (parça) {AE magnitude}'nin çıkarılan (parça) {CF magnitude}'ye olduğu (aynı) parçalar olsun.
+     4→     4→Diyorum ki kalan {EB magnitude} de kalan {FD magnitude}'nin, bütün {AB magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçalardır.
+     5→     5→
+     6→     6→Çünkü {GH magnitude} {AB magnitude}'ye eşit olarak konulmuş olsun.
+     7→     7→Böylece {GH magnitude} {CD magnitude}'nin hangi parçalarıysa, {AE magnitude} de {CF magnitude}'nin aynı parçalarıdır.
+     8→     8→{GH magnitude}, {CD magnitude}'nin parçaları olan {GK magnitude} ve {KH magnitude}'ye bölünmüş olsun ve {AE magnitude}, {CF magnitude}'nin parçası olan {AL magnitude} ve {LE magnitude}'ye (bölünmüş olsun).
+     9→     9→Öyleyse (bölümlerin) {GK magnitude}, {KH magnitude} sayısı (bölümlerin) {AL magnitude}, {LE magnitude} sayısına eşit olacaktır.
+    10→    10→Ve {GK magnitude} {CD magnitude}'nin hangi parçasıysa, {AL magnitude} de {CF magnitude}'nin aynı parçası olduğu ve {CD magnitude} {CF magnitude}'den büyük olduğu için, {GK magnitude} böylece {AL magnitude}'den büyüktür.
+    11→    11→{GM magnitude} {AL magnitude}'ye eşit yapılmış olsun.
+    12→    12→Böylece {GK magnitude} {CD magnitude}'nin hangi parçasıysa, {GM magnitude} de {CF magnitude}'nin aynı parçasıdır.
+    13→    13→Böylece kalan {MK magnitude} de kalan {FD magnitude}'nin, bütün {GK magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçadır [Önerme 7.5].
+    14→    14→Yine, {KH magnitude} {CD magnitude}'nin hangi parçasıysa, {EL magnitude} de {CF magnitude}'nin aynı parçası olduğu ve {CD magnitude} {CF magnitude}'den büyük olduğu için, {HK magnitude} böylece {EL magnitude}'den büyüktür.
+    15→    15→{KN magnitude} {EL magnitude}'ye eşit yapılmış olsun.
+    16→    16→Böylece {KH magnitude} {CD magnitude}'nin hangi parçasıysa, {KN magnitude} de {CF magnitude}'nin aynı parçasıdır.
+    17→    17→Böylece kalan {NH magnitude} de kalan {FD magnitude}'nin, bütün {KH magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçadır [Önerme 7.5].
+    18→    18→Ve kalan {MK magnitude}'nin de kalan {FD magnitude}'nin, bütün {GK magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parça olduğu gösterilmişti.
+    19→    19→Böylece {MK magnitude}, {NH magnitude} toplamı, bütün {HG magnitude}'nin bütün {CD magnitude}'nin (parçaları olduğu) aynı parçalardır {DF magnitude}'nin.
+    20→    20→Ve {MK magnitude}, {NH magnitude} toplamı {EB magnitude}'ye ve {HG magnitude} {BA magnitude}'ya eşittir.
+    21→    21→Böylece kalan {EB magnitude} de kalan {FD magnitude}'nin, bütün {AB magnitude}'nin bütün {CD magnitude}'ye olduğu aynı parçalardır.
+    22→    22→(Gösterilmesi gereken tam olarak budur.)
+    23→    23→
 
-For let a number {AB magnitude} be those parts of a number {CD magnitude} that a (part) taken away {AE magnitude} (is) of a (part) taken away {CF magnitude}.
-I say that the remainder {EB magnitude} is also the same parts of the remainder {FD magnitude} that the whole {AB magnitude} (is) of the whole {CD magnitude}.
-
-For let {GH magnitude} be laid down equal to {AB magnitude}.
-Thus, which(ever) parts {GH magnitude} is of {CD magnitude}, {AE magnitude} is also the same parts of {CF magnitude}.
-Let {GH magnitude} have been divided into the parts of {CD magnitude}, {GK magnitude} and {KH magnitude}, and {AE magnitude} into the part of {CF magnitude}, {AL magnitude} and {LE magnitude}.
-So the multitude of (divisions) {GK magnitude}, {KH magnitude} will be equal to the multitude of (divisions) {AL magnitude}, {LE magnitude}.
-And since which(ever) part {GK magnitude} is of {CD magnitude}, {AL magnitude} is also the same part of {CF magnitude}, and {CD magnitude} (is) greater than {CF magnitude}, {GK magnitude} (is) thus also greater than {AL magnitude}.
-Let {GM magnitude} be made equal to {AL magnitude}.
-Thus, which(ever) part {GK magnitude} is of {CD magnitude}, {GM magnitude} is also the same part of {CF magnitude}.
-Thus, the remainder {MK magnitude} is also the same part of the remainder {FD magnitude} that the whole {GK magnitude} (is) of the whole {CD magnitude} [Prop. 7.5].
-Again, since which(ever) part {KH magnitude} is of {CD magnitude}, {EL magnitude} is also the same part of {CF magnitude}, and {CD magnitude} (is) greater than {CF magnitude}, {HK magnitude} (is) thus also greater than {EL magnitude}.
-Let {KN magnitude} be made equal to {EL magnitude}.
-Thus, which(ever) part {KH magnitude} (is) of {CD magnitude}, {KN magnitude} is also the same part of {CF magnitude}.
-Thus, the remainder {NH magnitude} is also the same part of the remainder {FD magnitude} that the whole {KH magnitude} (is) of the whole {CD magnitude} [Prop. 7.5].
-And the remainder {MK magnitude} was also shown to be the same part of the remainder {FD magnitude} that the whole {GK magnitude} (is) of the whole {CD magnitude}.
-Thus, the sum {MK magnitude}, {NH magnitude} is the same parts of {DF magnitude} that the whole {HG magnitude} (is) of the whole {CD magnitude}.
-And the sum {MK magnitude}, {NH magnitude} (is) equal to {EB magnitude}, and {HG magnitude} to {BA magnitude}.
-Thus, the remainder {EB magnitude} is also the same parts of the remainder {FD magnitude} that the whole {AB magnitude} (is) of the whole {CD magnitude}.
-(Which is) the very thing it was required to show.

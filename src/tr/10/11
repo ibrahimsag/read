@@ -1,20 +1,21 @@
-If four magnitudes are proportional, and the first is commensurable with the second, then the third will also be commensurable with the fourth.
-And if the first is incommensurable with the second, then the third will also be incommensurable with the fourth.
+Eğer dört büyüklük orantılı ise ve birinci ikinci ile ölçüşür ise o zaman üçüncü de dördüncü ile ölçüşür olacaktır.
+Ve eğer birinci ikinci ile ölçüşmez ise o zaman üçüncü de dördüncü ile ölçüşmez olacaktır.
 
-Let {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be four proportional magnitudes, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-And let {A magnitude} be commensurable with {B magnitude}.
-I say that {C magnitude} will also be commensurable with {D magnitude}.
+{A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} dört orantılı büyüklük olsun, (öyle ki) {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyle olsun).
+Ve {A magnitude}, {B magnitude} ile ölçüşür olsun.
+Diyorum ki {C magnitude} de {D magnitude} ile ölçüşür olacaktır.
 
-For since {A magnitude} is commensurable with {B magnitude}, {A magnitude} thus has to {B magnitude} the ratio which (some) number (has) to (some) number [Prop. 10.5].
-And as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus, {C magnitude} also has to {D magnitude} the ratio which (some) number (has) to (some) number.
-Thus, {C magnitude} is commensurable with {D magnitude} [Prop. 10.6].
+Çünkü {A magnitude}, {B magnitude} ile ölçüşür olduğu için, böylece {A magnitude}, {B magnitude}'ye (bir) sayının (bir) sayıya taşıdığı oranı taşır [Önerme 10.5].
+Ve {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+Böylece {C magnitude} de {D magnitude}'ye (bir) sayının (bir) sayıya taşıdığı oranı taşır.
+Böylece {C magnitude}, {D magnitude} ile ölçüşürdür [Önerme 10.6].
 
-And so let {A magnitude} be incommensurable with {B magnitude}.
-I say that {C magnitude} will also be incommensurable with {D magnitude}.
-For since {A magnitude} is incommensurable with {B magnitude}, {A magnitude} thus does not have to {B magnitude} the ratio which (some) number (has) to (some) number [Prop. 10.7].
-And as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus, {C magnitude} does not have to {D magnitude} the ratio which (some) number (has) to (some) number either.
-Thus, {C magnitude} is incommensurable with {D magnitude} [Prop. 10.8].
+Ve öyleyse {A magnitude}, {B magnitude} ile ölçüşmez olsun.
+Diyorum ki {C magnitude} de {D magnitude} ile ölçüşmez olacaktır.
+Çünkü {A magnitude}, {B magnitude} ile ölçüşmez olduğu için, böylece {A magnitude}, {B magnitude}'ye (bir) sayının (bir) sayıya taşıdığı oranı taşımaz [Önerme 10.7].
+Ve {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+Böylece {C magnitude} de {D magnitude}'ye (bir) sayının (bir) sayıya taşıdığı oranı taşımaz.
+Böylece {C magnitude}, {D magnitude} ile ölçüşmezdir [Önerme 10.8].
 
-Thus, if four magnitudes, and so on ....
+Böylece eğer dört büyüklük... ve böyle devam eder...
+

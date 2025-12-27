@@ -1,13 +1,15 @@
-If two numbers are prime to one another then the number created from (squaring) one of them will be prime to the remaining (number).
+     1→     1→Eğer iki sayı birbirine asalsa o zaman birinin (karesinden) oluşturulan sayı kalan (sayıya) asal olacaktır.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} birbirine asal iki sayı olsun.
+     4→     4→Ve {A magnitude} kendini çarparak {C magnitude}'yi oluştursun.
+     5→     5→Diyorum ki {B magnitude} ve {C magnitude} birbirine asaldır.
+     6→     6→
+     7→     7→Çünkü {D magnitude} {A magnitude}'ya eşit yapılmış olsun.
+     8→     8→{A magnitude} ve {B magnitude} birbirine asal olduğu ve {A magnitude} {D magnitude}'ye eşit olduğu için, {D magnitude} ve {B magnitude} böylece birbirine asaldır.
+     9→     9→Böylece {D magnitude} ve {A magnitude}'nın her biri {B magnitude}'ye asaldır.
+    10→    10→Böylece {D magnitude} ve {A magnitude}'dan (çarpılarak) oluşturulan (sayı) da {B magnitude}'ye asal olacaktır [Önerme 7.24].
+    11→    11→Ve {C magnitude}, {D magnitude} ve {A magnitude}'dan (çarpılarak) oluşturulan sayıdır.
+    12→    12→Böylece {C magnitude} ve {B magnitude} birbirine asaldır.
+    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→
 
-Let {A magnitude} and {B magnitude} be two numbers (which are) prime to one another.
-And let {A magnitude} make {C magnitude} (by) multiplying itself.
-I say that {B magnitude} and {C magnitude} are prime to one another.
-
-For let {D magnitude} be made equal to {A magnitude}.
-Since {A magnitude} and {B magnitude} are prime to one another, and {A magnitude} (is) equal to {D magnitude}, {D magnitude} and {B magnitude} are thus also prime to one another.
-Thus, {D magnitude} and {A magnitude} are each prime to {B magnitude}.
-Thus, the (number) created from (multilying) {D magnitude} and {A magnitude} will also be prime to {B magnitude} [Prop. 7.24].
-And {C magnitude} is the number created from (multiplying) {D magnitude} and {A magnitude}.
-Thus, {C magnitude} and {B magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

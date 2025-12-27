@@ -1,17 +1,20 @@
-If there are any multitude whatsoever of continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them then the outermost of them are prime to one another.
-
-Let {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any multitude whatsoever of continuously proportional numbers (which are) the least of those (numbers) having the same ratio as them.
-I say that the outermost of them, {A magnitude} and {D magnitude}, are prime to one another.
-
-For let the two least (numbers) {E magnitude}, {F magnitude} (which are) in the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} have been taken [Prop. 7.33].
-And the three (least numbers) {G magnitude}, {H magnitude}, {K magnitude} [Prop. 8.2].
-And (so on), successively increasing by one, until the multitude of (numbers) taken is made equal to the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}.
-Let them have been taken, and let them be {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}.
-
-And since {E magnitude} and {F magnitude} are the least of those (numbers) having the same ratio as them they are prime to one another [Prop. 7.22].
-And since {E magnitude}, {F magnitude} have made {G magnitude}, {K magnitude}, respectively, (by) multiplying themselves [Prop. 8.2 corr.], and have made {L magnitude}, {O magnitude} (by) multiplying {G magnitude}, {K magnitude}, respectively, {G magnitude}, {K magnitude} and {L magnitude}, {O magnitude} are thus also prime to one another [Prop. 7.27].
-And since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them, and {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude} are also the least (of those numbers having the same ratio as them), being in the same ratio as {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, and the multitude of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} is equal to the multitude of {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}, thus {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are equal to {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}, respectively.
-Thus, {A magnitude} is equal to {L magnitude}, and {D magnitude} to {O magnitude}.
-And {L magnitude} and {O magnitude} are prime to one another.
-Thus, {A magnitude} and {D magnitude} are also prime to one another.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer herhangi bir sayıda sürekli orantılı sayı kendileriyle aynı oranda olanların en küçükleriyse o zaman onların en dıştakileri birbirine asaldır.
+     2→     2→     2→
+     3→     3→     3→{A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} kendileriyle aynı oranda olanların en küçükleri olan herhangi bir sayıda sürekli orantılı sayı olsun.
+     4→     4→     4→Diyorum ki onların en dıştakileri, {A magnitude} ve {D magnitude}, birbirine asaldır.
+     5→     5→     5→
+     6→     6→     6→Çünkü {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} ile aynı oranda olan iki en küçük (sayı) {E magnitude}, {F magnitude} alınmış olsun [Önerme 7.33].
+     7→     7→     7→Ve üç (en küçük sayı) {G magnitude}, {H magnitude}, {K magnitude} [Önerme 8.2].
+     8→     8→     8→Ve (böyle devam ederek), alınan (sayıların) çokluğu {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'nin çokluğuna eşit olana kadar, birer birer artırılarak.
+     9→     9→     9→Alınmış olsunlar ve {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude} olsunlar.
+    10→    10→    10→
+    11→    11→    11→Ve {E magnitude} ve {F magnitude} kendileriyle aynı oranda olanların en küçükleri olduğu için birbirine asaldırlar [Önerme 7.22].
+    12→    12→    12→Ve {E magnitude}, {F magnitude} kendilerini çarparak sırasıyla {G magnitude}, {K magnitude}'yı oluşturduğu [Önerme 8.2 ek sonucu] ve {G magnitude}, {K magnitude}'yı sırasıyla çarparak {L magnitude}, {O magnitude}'yu oluşturduğu için, {G magnitude}, {K magnitude} ve {L magnitude}, {O magnitude} böylece birbirine asaldır [Önerme 7.27].
+    13→    13→    13→Ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} kendileriyle aynı oranda olanların en küçükleri olduğu ve {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude} de {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} ile aynı oranda olarak (kendileriyle aynı oranda olanların) en küçükleri olduğu ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'nin çokluğu {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}'nun çokluğuna eşit olduğu için, böylece {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} sırasıyla {L magnitude}, {M magnitude}, {N magnitude}, {O magnitude}'ya eşittir.
+    14→    14→    14→Böylece {A magnitude}, {L magnitude}'ye ve {D magnitude}, {O magnitude}'ya eşittir.
+    15→    15→    15→Ve {L magnitude} ve {O magnitude} birbirine asaldır.
+    16→    16→    16→Böylece {A magnitude} ve {D magnitude} de birbirine asaldır.
+    17→    17→    17→(Gösterilmesi gereken tam olarak budur.)
+    18→    18→    18→
+    19→
+    20→

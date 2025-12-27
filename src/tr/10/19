@@ -1,13 +1,15 @@
-The rectangle contained by rational straight-lines (which are) commensurable in length is rational.
+Uzunlukta ölçüşür (olan) orantılı doğrular tarafından içerilen dikdörtgen orantılıdır.
 
-For let the rectangle {AC polygon} have been enclosed by the rational straight-lines {AB line} and {BC line} (which are) commensurable in length.
-I say that {AC polygon} is rational.
+Çünkü uzunlukta ölçüşür orantılı doğrular, {AB line} ve {BC line}, tarafından {AC polygon} dikdörtgeni çevrelenmiş olsun.
+Diyorum ki {AC polygon} orantılıdır.
 
-For let the square {AD polygon} have been described on {AB line}.
-{AD polygon} is thus rational [Def. 10.4].
-And since {AB line} is commensurable in length with {BC line}, and {AB line} is equal to {BD line}, {BD line} is thus commensurable in length with {BC line}.
-And as {BD line} is to {BC line}, so {DA polygon} (is) to {AC polygon} [Prop. 6.1].
-Thus, {DA polygon} is commensurable with {AC polygon} [Prop. 10.11].
-And {DA polygon} (is) rational.
-Thus, {AC polygon} is also rational [Def. 10.4].
-Thus, the ... by rational straight-lines ... commensurable, and so on ....
+Çünkü {AB line} üzerinde {AD polygon} karesi çizilmiş olsun.
+Böylece {AD polygon} orantılıdır [Tanım 10.4].
+Ve {AB line}, {BC line} ile uzunlukta ölçüşür olduğu ve {AB line}, {BD line}'a eşit olduğu için, böylece {BD line}, {BC line} ile uzunlukta ölçüşürdür.
+Ve {BD line}, {BC line}'a nasılsa, {DA polygon} {AC polygon}'a (öyledir) [Önerme 6.1].
+Böylece {DA polygon}, {AC polygon} ile ölçüşürdür [Önerme 10.11].
+Ve {DA polygon} orantılıdır.
+Böylece {AC polygon} de orantılıdır [Tanım 10.4].
+Böylece orantılı doğrular tarafından... ölçüşür... ve böyle devam eder...
+
+

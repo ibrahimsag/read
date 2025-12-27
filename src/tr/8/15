@@ -1,21 +1,24 @@
-If a cube number measures a(nother) cube number then the side (of the former) will also measure the side (of the latter).
-And if the side (of a cube number) measures the side (of another cube number) then the (former) cube (number) will also measure the (latter) cube (number).
-
-For let the cube number {A magnitude} measure the cube (number) {B magnitude}, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.
-I say that {C magnitude} measures {D magnitude}.
-
-For let {C magnitude} make {E magnitude} (by) multiplying itself.
-And let {D magnitude} make {G magnitude} (by) multiplying itself.
-And, further, [let] {C magnitude} [make] {F magnitude} (by) multiplying {D magnitude}, and let {C magnitude}, {D magnitude} make {H magnitude}, {K magnitude}, respectively, (by) multiplying {F magnitude}.
-So it is clear that {E magnitude}, {F magnitude}, {G magnitude} and {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude} [Prop. 8.12].
-And since {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional, and {A magnitude} measures {B magnitude}, ({A magnitude}) thus also measures {H magnitude} [Prop. 8.7].
-And as {A magnitude} is to {H magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus, {C magnitude} also measures {D magnitude} [Def. 7.20].
-
-And so let {C magnitude} measure {D magnitude}.
-I say that {A magnitude} will also measure {B magnitude}.
-
-For similarly, with the same construction, we can show that {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} are continuously proportional in the ratio of {C magnitude} to {D magnitude}.
-And since {C magnitude} measures {D magnitude}, and as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {H magnitude}, {A magnitude} thus also measures {H magnitude} [Def. 7.20].
-Hence, {A magnitude} also measures {B magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer bir küp sayı bir (başka) küp sayıyı ölçerse o zaman (birincisinin) kenarı da (ikincisinin) kenarını ölçecektir.
+     2→     2→     2→Ve eğer (bir küp sayının) kenarı (bir başka küp sayının) kenarını ölçerse o zaman (birinci) küp (sayı) da (ikinci) küp (sayıyı) ölçecektir.
+     3→     3→     3→
+     4→     4→     4→Çünkü {A magnitude} küp sayısı {B magnitude} küp (sayısını) ölçsün ve {C magnitude}, {A magnitude}'nın kenarı ve {D magnitude}, {B magnitude}'nin (kenarı) olsun.
+     5→     5→     5→Diyorum ki {C magnitude} {D magnitude}'yi ölçer.
+     6→     6→     6→
+     7→     7→     7→Çünkü {C magnitude} kendini çarparak {E magnitude}'yi oluştursun.
+     8→     8→     8→Ve {D magnitude} kendini çarparak {G magnitude}'yi oluştursun.
+     9→     9→     9→Ve ayrıca, {C magnitude}, {D magnitude}'yi çarparak {F magnitude}'yi [oluştursun] ve {C magnitude}, {D magnitude}, {F magnitude}'yi çarparak sırasıyla {H magnitude}, {K magnitude}'yı oluştursunlar.
+    10→    10→    10→Öyleyse açıktır ki {E magnitude}, {F magnitude}, {G magnitude} ve {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude}, {C magnitude}'nin {D magnitude}'ye oranında sürekli orantılıdır [Önerme 8.12].
+    11→    11→    11→Ve {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude} sürekli orantılı olduğu ve {A magnitude} {B magnitude}'yi ölçtüğü için, ({A magnitude}) böylece {H magnitude}'yi de ölçer [Önerme 8.7].
+    12→    12→    12→Ve {A magnitude} {H magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+    13→    13→    13→Böylece {C magnitude} de {D magnitude}'yi ölçer [Tanım 7.20].
+    14→    14→    14→
+    15→    15→    15→Ve öyle ki {C magnitude} {D magnitude}'yi ölçsün.
+    16→    16→    16→Diyorum ki {A magnitude} de {B magnitude}'yi ölçecektir.
+    17→    17→    17→
+    18→    18→    18→Çünkü benzer şekilde, aynı inşa ile, {A magnitude}, {H magnitude}, {K magnitude}, {B magnitude}'nin {C magnitude}'nin {D magnitude}'ye oranında sürekli orantılı olduğunu gösterebiliriz.
+    19→    19→    19→Ve {C magnitude} {D magnitude}'yi ölçtüğü ve {C magnitude} {D magnitude}'ye nasılsa, {A magnitude} {H magnitude}'ye (öyle) olduğu için, {A magnitude} böylece {H magnitude}'yi de ölçer [Tanım 7.20].
+    20→    20→    20→Dolayısıyla, {A magnitude} de {B magnitude}'yi ölçer.
+    21→    21→    21→(Gösterilmesi gereken tam olarak budur.)
+    22→    22→    22→
+    23→
+    24→

@@ -1,22 +1,24 @@
-Equiangular parallelograms have to one another the ratio compounded out of (the ratios of) their sides.
+     1→Eşaçılı paralelkenarlar birbirlerine kenarlarının (oranlarından) bileşik oranda sahiptir.
+     2→
+     3→{AC polygon} ve {CF polygon}, {BCD angle} açısı {ECG angle}'ye eşit olan eşaçılı paralelkenarlar olsun.
+     4→Diyorum ki {AC polygon} paralelkenarı {CF polygon} paralelkenarına kenarlarının (oranlarından) bileşik oranda sahiptir.
+     5→
+     6→Çünkü {BC line} {CG line}'ye doğrultuda olacak şekilde yerleştirilmiş olsun.
+     7→Böylece {DC line} de {CE line}'ye doğrultudadır [Önerme 1.14].
+     8→Ve {DG polygon} paralelkenarı tamamlanmış olsun.
+     9→Ve bir {K magnitude} doğru parçası yerleştirilmiş olsun.
+    10→Ve {BC line} {CG line}'ye nasılsa {K magnitude} {L magnitude}'ya öyle ve {DC line} {CE line}'ye nasılsa {L magnitude} {M magnitude}'ya öyle olacak şekilde düzenlenmiş olsun [Önerme 6.12].
+    11→
+    12→Böylece {K magnitude}'nun {L magnitude}'ya ve {L magnitude}'nun {M magnitude}'ya oranları kenarların oranlarıyla aynıdır, (yani) sırasıyla {BC line}'nin {CG line}'ye ve {DC line}'nin {CE line}'ye (oranlarıyla).
+    13→Ama {K magnitude}'nun {M magnitude}'ya oranı {K magnitude}'nun {L magnitude}'ya oranından ve {L magnitude}'nun {M magnitude}'ya (oranından) bileşiktir.
+    14→Dolayısıyla, {K magnitude} {M magnitude}'ya (paralelkenarların) kenarlarının (oranlarından) bileşik oranda da sahiptir.
+    15→Ve {BC line} {CG line}'ye nasılsa {AC polygon} paralelkenarı {CH polygon}'a öyle olduğu için [Önerme 6.1], ama {BC line} {CG line}'ye nasılsa {K magnitude} {L magnitude}'ya öyledir, böylece ayrıca {K magnitude} {L magnitude}'ya nasılsa, (paralelkenar) {AC polygon} {CH polygon}'a öyledir.
+    16→Yine, {DC line} {CE line}'ye nasılsa {CH polygon} paralelkenarı {CF polygon}'a öyle olduğu için [Önerme 6.1], ama {DC line} {CE line}'ye nasılsa {L magnitude} {M magnitude}'ya öyledir, böylece ayrıca {L magnitude} {M magnitude}'ya nasılsa, {CH polygon} paralelkenarı {CF polygon} paralelkenarına öyledir.
+    17→Bu nedenle, {K magnitude} {L magnitude}'ya nasılsa {AC polygon} paralelkenarı {CH polygon} paralelkenarına öyle olduğu ve {L magnitude} {M magnitude}'ya nasılsa {CH polygon} paralelkenarı {CF polygon} paralelkenarına öyle olduğu gösterildiği için, böylece eşitlik yoluyla {K magnitude} {M magnitude}'ya nasılsa, (paralelkenar) {AC polygon} {CF polygon} paralelkenarına öyledir [Önerme 5.22].
+    18→Ve {K magnitude} {M magnitude}'ya (paralelkenarların) kenarlarının (oranlarından) bileşik oranda sahiptir.
+    19→Böylece (paralelkenar) {AC polygon} de (paralelkenar) {CF polygon}'a kenarlarının (oranından) bileşik oranda sahiptir.
+    20→
+    21→Böylece, eşaçılı paralelkenarlar birbirlerine kenarlarının (oranından) bileşik oranda sahiptir.
+    22→(Gösterilmesi gereken tam olarak budur.)
+    23→
 
-Let {AC polygon} and {CF polygon} be equiangular parallelograms having angle {BCD angle} equal to {ECG angle}.
-I say that parallelogram {AC polygon} has to parallelogram {CF polygon} the ratio compounded out of (the ratios of) their sides.
-
-For let {BC line} be laid down so as to be straight-on to {CG line}.
-Thus, {DC line} is also straight-on to {CE line} [Prop. 1.14].
-And let the parallelogram {DG polygon} have been completed.
-And let some straight-line {K magnitude} have been laid down.
-And let it be contrived that as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, and as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude} [Prop. 6.12].
-
-Thus, the ratios of {K magnitude} to {L magnitude} and of {L magnitude} to {M magnitude} are the same as the ratios of the sides, (namely), {BC line} to {CG line} and {DC line} to {CE line} (respectively).
-But, the ratio of {K magnitude} to {M magnitude} is compounded out of the ratio of {K magnitude} to {L magnitude} and (the ratio) of {L magnitude} to {M magnitude}.
-Hence, {K magnitude} also has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).
-And since as {BC line} is to {CG line}, so parallelogram {AC polygon} (is) to {CH polygon} [Prop. 6.1], but as {BC line} (is) to {CG line}, so {K magnitude} (is) to {L magnitude}, thus, also, as {K magnitude} (is) to {L magnitude}, so (parallelogram) {AC polygon} (is) to {CH polygon}.
-Again, since as {DC line} (is) to {CE line}, so parallelogram {CH polygon} (is) to {CF polygon} [Prop. 6.1], but as {DC line} (is) to {CE line}, so {L magnitude} (is) to {M magnitude}, thus, also, as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}.
-Therefore, since it was shown that as {K magnitude} (is) to {L magnitude}, so parallelogram {AC polygon} (is) to parallelogram {CH polygon}, and as {L magnitude} (is) to {M magnitude}, so parallelogram {CH polygon} (is) to parallelogram {CF polygon}, thus, via equality, as {K magnitude} is to {M magnitude}, so (parallelogram) {AC polygon} (is) to parallelogram {CF polygon} [Prop. 5.22].
-And {K magnitude} has to {M magnitude} the ratio compounded out of (the ratios of) the sides (of the parallelograms).
-Thus, (parallelogram) {AC polygon} also has to (parallelogram) {CF polygon} the ratio compounded out of (the ratio of) their sides.
-
-Thus, equiangular parallelograms have to one another the ratio compounded out of (the ratio of) their sides.
-(Which is) the very thing it was required to show.

@@ -1,49 +1,51 @@
-To find the greatest common measure of three given numbers (which are) not prime to one another.
+     1→     1→Birbirine asal olmayan verilen üç sayının en büyük ortak ölçüsünü bulmak.
+     2→     2→
+     3→     3→{A magnitude}, {B magnitude} ve {C magnitude} birbirine asal olmayan verilen üç sayı olsun.
+     4→     4→Öyleyse {A magnitude}, {B magnitude} ve {C magnitude}'nin en büyük ortak ölçüsünü bulmak gereklidir.
+     5→     5→
+     6→     6→Çünkü iki (sayı) {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsü {D magnitude} alınmış olsun [Önerme 7.2].
+     7→     7→Öyleyse {D magnitude} ya {C magnitude}'yi ölçer ya da ölçmez.
+     8→     8→Önce ({C magnitude}'yi) ölçsün.
+     9→     9→Ve {A magnitude} ve {B magnitude}'yi de ölçer.
+    10→    10→Böylece {D magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'yi ölçer.
+    11→    11→Böylece {D magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin ortak ölçüsüdür.
+    12→    12→Öyleyse diyorum ki en büyük (ortak ölçü) de (odur).
+    13→    13→Çünkü eğer {D magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin en büyük ortak ölçüsü değilse o zaman {D magnitude}'den büyük bir sayı {A magnitude}, {B magnitude} ve {C magnitude} sayılarını ölçecektir.
+    14→    14→({A magnitude}, {B magnitude} ve {C magnitude}'yi) öyle ölçsün ve {E magnitude} olsun.
+    15→    15→Bu nedenle, {E magnitude} {A magnitude}, {B magnitude} ve {C magnitude}'yi ölçtüğü için, böylece {A magnitude} ve {B magnitude}'yi de ölçecektir.
+    16→    16→Böylece {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsünü de ölçecektir [Önerme 7.2 sonucu].
+    17→    17→Ve {D magnitude}, {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsüdür.
+    18→    18→Böylece {E magnitude} {D magnitude}'yi ölçer, büyük küçüğü (ölçerek).
+    19→    19→Ki bu imkansızdır.
+    20→    20→Böylece {D magnitude}'den büyük bir sayı {A magnitude}, {B magnitude} ve {C magnitude} sayılarını ölçemez.
+    21→    21→Böylece {D magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin en büyük ortak ölçüsüdür.
+    22→    22→
+    23→    23→Öyleyse {D magnitude} {C magnitude}'yi ölçmesin.
+    24→    24→Diyorum ki, önce, {C magnitude} ve {D magnitude} birbirine asal değildir.
+    25→    25→Çünkü {A magnitude}, {B magnitude}, {C magnitude} birbirine asal olmadığı için, bir sayı onları ölçecektir.
+    26→    26→Öyleyse {A magnitude}, {B magnitude} ve {C magnitude}'yi ölçen (sayı) {A magnitude} ve {B magnitude}'yi de ölçecektir ve {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsü {D magnitude}'yi de ölçecektir [Önerme 7.2 sonucu].
+    27→    27→Ve {C magnitude}'yi de ölçer.
+    28→    28→Böylece bir sayı {D magnitude} ve {C magnitude} sayılarını ölçecektir.
+    29→    29→Böylece {D magnitude} ve {C magnitude} birbirine asal değildir.
+    30→    30→Bu nedenle onların en büyük ortak ölçüsü {E magnitude} alınmış olsun [Önerme 7.2].
+    31→    31→Ve {E magnitude} {D magnitude}'yi ölçtüğü ve {D magnitude} {A magnitude} ve {B magnitude}'yi ölçtüğü için, {E magnitude} böylece {A magnitude} ve {B magnitude}'yi de ölçer.
+    32→    32→Ve {C magnitude}'yi de ölçer.
+    33→    33→Böylece {E magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'yi ölçer. Böylece {E magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin ortak ölçüsüdür.
+    34→    34→Öyleyse diyorum ki en büyük (ortak ölçü) de (odur).
+    35→    35→Çünkü eğer {E magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin en büyük ortak ölçüsü değilse o zaman {E magnitude}'den büyük bir sayı {A magnitude}, {B magnitude} ve {C magnitude} sayılarını ölçecektir.
+    36→    36→({A magnitude}, {B magnitude} ve {C magnitude}'yi) öyle ölçsün ve {F magnitude} olsun.
+    37→    37→Ve {F magnitude} {A magnitude}, {B magnitude} ve {C magnitude}'yi ölçtüğü için, {A magnitude} ve {B magnitude}'yi de ölçer.
+    38→    38→Böylece {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsünü de ölçecektir [Önerme 7.2 sonucu].
+    39→    39→Ve {D magnitude}, {A magnitude} ve {B magnitude}'nin en büyük ortak ölçüsüdür.
+    40→    40→Böylece {F magnitude} {D magnitude}'yi ölçer.
+    41→    41→Ve {C magnitude}'yi de ölçer.
+    42→    42→Böylece {F magnitude} {D magnitude} ve {C magnitude}'yi ölçer.
+    43→    43→Böylece {D magnitude} ve {C magnitude}'nin en büyük ortak ölçüsünü de ölçecektir [Önerme 7.2 sonucu].
+    44→    44→Ve {E magnitude}, {D magnitude} ve {C magnitude}'nin en büyük ortak ölçüsüdür.
+    45→    45→Böylece {F magnitude} {E magnitude}'yi ölçer, büyük küçüğü (ölçerek).
+    46→    46→Ki bu imkansızdır.
+    47→    47→Böylece {E magnitude}'den büyük bir sayı {A magnitude}, {B magnitude} ve {C magnitude} sayılarını ölçmez.
+    48→    48→Böylece {E magnitude}, {A magnitude}, {B magnitude} ve {C magnitude}'nin en büyük ortak ölçüsüdür.
+    49→    49→(Gösterilmesi gereken tam olarak budur.)
+    50→    50→
 
-Let {A magnitude}, {B magnitude}, and {C magnitude} be the three given numbers (which are) not prime to one another.
-So it is required to find the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
-
-For let the greatest common measure, {D magnitude}, of the two (numbers) {A magnitude} and {B magnitude} have been taken [Prop. 7.2].
-So {D magnitude} either measures, or does not measure, {C magnitude}.
-First of all, let it measure ({C magnitude}).
-And it also measures {A magnitude} and {B magnitude}.
-Thus, {D magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}.
-Thus, {D magnitude} is a common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
-So I say that (it is) also the greatest (common measure).
-For if {D magnitude} is not the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude} then some number greater than {D magnitude} will measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
-Let it (so) measure ({A magnitude}, {B magnitude}, and {C magnitude}), and let it be {E magnitude}.
-Therefore, since {E magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}, it will thus also measure {A magnitude} and {B magnitude}.
-Thus, it will also measure the greatest common measure of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
-And {D magnitude} is the greatest common measure of {A magnitude} and {B magnitude}.
-Thus, {E magnitude} measures {D magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, some number which is greater than {D magnitude} cannot measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
-Thus, {D magnitude} is the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
-
-So let {D magnitude} not measure {C magnitude}.
-I say, first of all, that {C magnitude} and {D magnitude} are not prime to one another.
-For since {A magnitude}, {B magnitude}, {C magnitude} are not prime to one another, some number will measure them.
-So the (number) measuring {A magnitude}, {B magnitude}, and {C magnitude} will also measure {A magnitude} and {B magnitude}, and it will also measure the greatest common measure, {D magnitude}, of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
-And it also measures {C magnitude}.
-Thus, some number will measure the numbers {D magnitude} and {C magnitude}.
-Thus, {D magnitude} and {C magnitude} are not prime to one another.
-Therefore, let their greatest common measure, {E magnitude}, have been taken [Prop. 7.2].
-And since {E magnitude} measures {D magnitude}, and {D magnitude} measures {A magnitude} and {B magnitude}, {E magnitude} thus also measures {A magnitude} and {B magnitude}.
-And it also measures {C magnitude}.
-Thus, {E magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}. Thus, {E magnitude} is a common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
-So I say that (it is) also the greatest (common measure).
-For if {E magnitude} is not the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude} then some number greater than {E magnitude} will measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
-Let it (so) measure ({A magnitude}, {B magnitude}, and {C magnitude}), and let it be {F magnitude}.
-And since {F magnitude} measures {A magnitude}, {B magnitude}, and {C magnitude}, it also measures {A magnitude} and {B magnitude}.
-Thus, it will also measure the greatest common measure of {A magnitude} and {B magnitude} [Prop. 7.2 corr.].
-And {D magnitude} is the greatest common measure of {A magnitude} and {B magnitude}.
-Thus, {F magnitude} measures {D magnitude}.
-And it also measures {C magnitude}.
-Thus, {F magnitude} measures {D magnitude} and {C magnitude}.
-Thus, it will also measure the greatest common measure of {D magnitude} and {C magnitude} [Prop. 7.2 corr.].
-And {E magnitude} is the greatest common measure of {D magnitude} and {C magnitude}.
-Thus, {F magnitude} measures {E magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, some number which is greater than {E magnitude} does not measure the numbers {A magnitude}, {B magnitude}, and {C magnitude}.
-Thus, {E magnitude} is the greatest common measure of {A magnitude}, {B magnitude}, and {C magnitude}.
-(Which is) the very thing it was required to show.

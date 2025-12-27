@@ -1,34 +1,37 @@
-If (some) numbers fall between each of two numbers and a unit in continued proportion then, as many (numbers) as fall between each of the (two numbers) and the unit in continued proportion, so many (numbers) will also fall in between the (two numbers) themselves in continued proportion.
-
-For let the numbers {D magnitude}, {E magnitude} and {F magnitude}, {G magnitude} fall between the numbers {A magnitude} and {B magnitude} (respectively) and the unit {C magnitude} in continued proportion.
-I say that, as many numbers as have fallen between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.
-
-For let {D magnitude} make {H magnitude} (by) multiplying {F magnitude}.
-And let {D magnitude}, {F magnitude} make {K magnitude}, {L magnitude}, respectively, by multiplying {H magnitude}.
-
-As since as the unit {C magnitude} is to the number {D magnitude}, so {D magnitude} (is) to {E magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {D magnitude} (measures) {E magnitude} [Def. 7.20].
-And the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.
-Thus, the number {D magnitude} also measures {E magnitude} according to the units in {D magnitude}.
-Thus, {D magnitude} has made {E magnitude} (by) multiplying itself.
-Again, since as the [unit] {C magnitude} is to the number {D magnitude}, so {E magnitude} (is) to {A magnitude}, the unit {C magnitude} thus measures the number {D magnitude} as many times as {E magnitude} (measures) {A magnitude} [Def. 7.20].
-And the unit {C magnitude} measures the number {D magnitude} according to the units in {D magnitude}.
-Thus, {E magnitude} also measures {A magnitude} according to the units in {D magnitude}.
-Thus, {D magnitude} has made {A magnitude} (by) multiplying {E magnitude}.
-And so, for the same (reasons), {F magnitude} has made {G magnitude} (by) multiplying itself, and has made {B magnitude} (by) multiplying {G magnitude}.
-And since {D magnitude} has made {E magnitude} (by) multiplying itself, and has made {H magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {E magnitude} (is) to {H magnitude} [Prop. 7.17].
-And so, for the same reasons, as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {G magnitude} [Prop. 7.18].
-And thus as {E magnitude} (is) to {H magnitude}, so {H magnitude} (is) to {G magnitude}.
-Again, since {D magnitude} has made {A magnitude}, {K magnitude} (by) multiplying {E magnitude}, {H magnitude}, respectively, thus as {E magnitude} is to {H magnitude}, so {A magnitude} (is) to {K magnitude} [Prop. 7.17].
-But, as {E magnitude} (is) to {H magnitude}, so {D magnitude} (is) to {F magnitude}.
-And thus as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.
-Again, since {D magnitude}, {F magnitude} have made {K magnitude}, {L magnitude}, respectively, (by) multiplying {H magnitude}, thus as {D magnitude} is to {F magnitude}, so {K magnitude} (is) to {L magnitude} [Prop. 7.18].
-But, as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}.
-And thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}.
-Further, since {F magnitude} has made {L magnitude}, {B magnitude} (by) multiplying {H magnitude}, {G magnitude}, respectively, thus as {H magnitude} is to {G magnitude}, so {L magnitude} (is) to {B magnitude} [Prop. 7.17].
-And as {H magnitude} (is) to {G magnitude}, so {D magnitude} (is) to {F magnitude}.
-And thus as {D magnitude} (is) to {F magnitude}, so {L magnitude} (is) to {B magnitude}.
-And it was also shown that as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {K magnitude}, and {K magnitude} to {L magnitude}.
-And thus as {A magnitude} (is) to {K magnitude}, so {K magnitude} (is) to {L magnitude}, and {L magnitude} to {B magnitude}.
-Thus, {A magnitude}, {K magnitude}, {L magnitude}, {B magnitude} are successively in continued proportion.
-Thus, as many numbers as fall between each of {A magnitude} and {B magnitude} and the unit {C magnitude} in continued proportion, so many will also fall in between {A magnitude} and {B magnitude} in continued proportion.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayının her biri ile bir birim arasına sürekli orantılı olarak (bazı) sayılar düşerse o zaman (iki) sayının her biri ile birim arasına sürekli orantılı olarak kaç (sayı) düşüyorsa, (iki) sayının kendileri arasına da sürekli orantılı olarak o kadar (sayı) düşecektir.
+     2→     2→     2→
+     3→     3→     3→Çünkü {D magnitude}, {E magnitude} ve {F magnitude}, {G magnitude} sayıları sırasıyla {A magnitude} ve {B magnitude} sayıları ile {C magnitude} birimi arasına sürekli orantılı olarak düşsün.
+     4→     4→     4→Diyorum ki {A magnitude} ve {B magnitude}'nin her biri ile {C magnitude} birimi arasına sürekli orantılı olarak kaç sayı düştüyse, {A magnitude} ve {B magnitude} arasına da sürekli orantılı olarak o kadar (sayı) düşecektir.
+     5→     5→     5→
+     6→     6→     6→Çünkü {D magnitude}, {F magnitude}'yi çarparak {H magnitude}'yi oluştursun.
+     7→     7→     7→Ve {D magnitude}, {F magnitude}, {H magnitude}'yi çarparak sırasıyla {K magnitude}, {L magnitude}'yi oluştursunlar.
+     8→     8→     8→
+     9→     9→     9→{C magnitude} birimi {D magnitude} sayısına nasılsa, {D magnitude} {E magnitude}'ye (öyle) olduğu için, {C magnitude} birimi böylece {D magnitude} sayısını, {D magnitude}'nin {E magnitude}'yi (ölçtüğü) kadar kez ölçer [Tanım 7.20].
+    10→    10→    10→Ve {C magnitude} birimi {D magnitude} sayısını {D magnitude}'deki birimlere göre ölçer.
+    11→    11→    11→Böylece {D magnitude} sayısı da {E magnitude}'yi {D magnitude}'deki birimlere göre ölçer.
+    12→    12→    12→Böylece {D magnitude} kendini çarparak {E magnitude}'yi oluşturmuştur.
+    13→    13→    13→Tekrar, [{C magnitude}] birimi {D magnitude} sayısına nasılsa, {E magnitude} {A magnitude}'ya (öyle) olduğu için, {C magnitude} birimi böylece {D magnitude} sayısını, {E magnitude}'nin {A magnitude}'yı (ölçtüğü) kadar kez ölçer [Tanım 7.20].
+    14→    14→    14→Ve {C magnitude} birimi {D magnitude} sayısını {D magnitude}'deki birimlere göre ölçer.
+    15→    15→    15→Böylece {E magnitude} de {A magnitude}'yı {D magnitude}'deki birimlere göre ölçer.
+    16→    16→    16→Böylece {D magnitude}, {E magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur.
+    17→    17→    17→Ve öyle ki, aynı (nedenlerle), {F magnitude} kendini çarparak {G magnitude}'yi oluşturmuş ve {G magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur.
+    18→    18→    18→Ve {D magnitude} kendini çarparak {E magnitude}'yi oluşturduğu ve {F magnitude}'yi çarparak {H magnitude}'yi oluşturduğu için, böylece {D magnitude} {F magnitude}'ye nasılsa, {E magnitude} {H magnitude}'ye (öyledir) [Önerme 7.17].
+    19→    19→    19→Ve öyle ki, aynı nedenlerle, {D magnitude} {F magnitude}'ye nasılsa, (öyle) {H magnitude} {G magnitude}'ye(dir) [Önerme 7.18].
+    20→    20→    20→Ve böylece {E magnitude} {H magnitude}'ye nasılsa, (öyle) {H magnitude} {G magnitude}'ye(dir).
+    21→    21→    21→Tekrar, {D magnitude}, sırasıyla {E magnitude}, {H magnitude}'yi çarparak {A magnitude}, {K magnitude}'yı oluşturduğu için, böylece {E magnitude} {H magnitude}'ye nasılsa, {A magnitude} {K magnitude}'ya (öyledir) [Önerme 7.17].
+    22→    22→    22→Ama {E magnitude} {H magnitude}'ye nasılsa, (öyle) {D magnitude} {F magnitude}'ye(dir).
+    23→    23→    23→Ve böylece {D magnitude} {F magnitude}'ye nasılsa, (öyle) {A magnitude} {K magnitude}'ya(dır).
+    24→    24→    24→Tekrar, {D magnitude}, {F magnitude}, {H magnitude}'yi çarparak sırasıyla {K magnitude}, {L magnitude}'yi oluşturduğu için, böylece {D magnitude} {F magnitude}'ye nasılsa, {K magnitude} {L magnitude}'ye (öyledir) [Önerme 7.18].
+    25→    25→    25→Ama {D magnitude} {F magnitude}'ye nasılsa, (öyle) {A magnitude} {K magnitude}'ya(dır).
+    26→    26→    26→Ve böylece {A magnitude} {K magnitude}'ya nasılsa, (öyle) {K magnitude} {L magnitude}'ye(dir).
+    27→    27→    27→Ayrıca, {F magnitude}, sırasıyla {H magnitude}, {G magnitude}'yi çarparak {L magnitude}, {B magnitude}'yi oluşturduğu için, böylece {H magnitude} {G magnitude}'ye nasılsa, {L magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    28→    28→    28→Ve {H magnitude} {G magnitude}'ye nasılsa, (öyle) {D magnitude} {F magnitude}'ye(dir).
+    29→    29→    29→Ve böylece {D magnitude} {F magnitude}'ye nasılsa, (öyle) {L magnitude} {B magnitude}'ye(dir).
+    30→    30→    30→Ve ayrıca {D magnitude} {F magnitude}'ye nasılsa, {A magnitude} {K magnitude}'ya ve {K magnitude} {L magnitude}'ye (öyle) olduğu gösterilmişti.
+    31→    31→    31→Ve böylece {A magnitude} {K magnitude}'ya nasılsa, (öyle) {K magnitude} {L magnitude}'ye ve {L magnitude} {B magnitude}'ye(dir).
+    32→    32→    32→Böylece {A magnitude}, {K magnitude}, {L magnitude}, {B magnitude} art arda sürekli orantılıdır.
+    33→    33→    33→Böylece {A magnitude} ve {B magnitude}'nin her biri ile {C magnitude} birimi arasına sürekli orantılı olarak kaç sayı düşüyorsa, {A magnitude} ve {B magnitude} arasına da sürekli orantılı olarak o kadar (sayı) düşecektir.
+    34→    34→    34→(Gösterilmesi gereken tam olarak budur.)
+    35→    35→    35→
+    36→
+    37→

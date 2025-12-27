@@ -1,20 +1,22 @@
-A (straight-line) commensurable (in length) with a minor (straight-line) is a minor (straight-line).
+Bir küçük (doğru) ile uzunlukta ölçüşür bir (doğru), bir küçük (doğrudur).
 
-For let {AB magnitude} be a minor (straight-line), and (let) {CD magnitude} (be) commensurable (in length) with {AB magnitude}.
-I say that {CD magnitude} is also a minor (straight-line).
+Çünkü {AB magnitude} bir küçük (doğru) ve {CD magnitude}, {AB magnitude} ile uzunlukta ölçüşür olsun.
+Diyorum ki {CD magnitude} de bir küçük (doğrudur).
 
-For let the same things have been contrived (as in the former proposition).
-And since {AE magnitude} and {EB magnitude} are (straight-lines which are) incommensurable in square [Prop. 10.76], {CF magnitude} and {FD magnitude} are thus also (straight-lines which are) incommensurable in square [Prop. 10.13].
-Therefore, since as {AE magnitude} is to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Props. 5.12, 5.16], thus also as the (square) on {AE magnitude} is to the (square) on {EB magnitude}, so the (square) on {CF magnitude} (is) to the (square) on {FD magnitude} [Prop. 6.22].
-Thus, via composition, as the (sum of the squares) on {AE magnitude} and {EB magnitude} is to the (square) on {EB magnitude}, so the (sum of the squares) on {CF magnitude} and {FD magnitude} (is) to the (square) on {FD magnitude} [Prop. 5.18], [also alternately].
-And the (square) on {BE magnitude} is commensurable with the (square) on {DF magnitude} [Prop. 10.104].
-The sum of the squares on {AE magnitude} and {EB magnitude} (is) thus also commensurable with the sum of the squares on {CF magnitude} and {FD magnitude} [Prop. 5.16, 10.11].
-And the sum of the (squares) on {AE magnitude} and {EB magnitude} is rational [Prop. 10.76].
-Thus, the sum of the (squares) on {CF magnitude} and {FD magnitude} is also rational [Def. 10.4].
-Again, since as the (square) on {AE magnitude} is to the (rectangle contained) by {AE magnitude} and {EB magnitude}, so the (square) on {CF magnitude} (is) to the (rectangle contained) by {CF magnitude} and {FD magnitude} [Prop. 10.21 lem.], and the square on {AE magnitude} (is) commensurable with the square on {CF magnitude}, the (rectangle contained) by {AE magnitude} and {EB magnitude} is thus also commensurable with the (rectangle contained) by {CF magnitude} and {FD magnitude}.
-And the (rectangle contained) by {AE magnitude} and {EB magnitude} (is) medial [Prop. 10.76].
-Thus, the (rectangle contained) by {CF magnitude} and {FD magnitude} (is) also medial [Prop. 10.23 corr.].
-{CF magnitude} and {FD magnitude} are thus (straight-lines which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
+Çünkü aynı şeyler (önceki önermede olduğu gibi) düzenlenmiş olsun.
+Ve {AE magnitude} ve {EB magnitude} karede ölçüşmez (doğrular) olduğu için [Önerme 10.76], {CF magnitude} ve {FD magnitude} böylece de karede ölçüşmez (doğrulardır) [Önerme 10.13].
+Bu yüzden, {AE magnitude}, {EB magnitude}'ye nasılsa, {CF magnitude}, {FD magnitude}'ye (öyle) olduğu için [Önermeler 5.12, 5.16], böylece ayrıca {AE magnitude}'nin üzerindeki (kare), {EB magnitude}'nin üzerindeki (kareye) nasılsa, {CF magnitude}'nin üzerindeki (kare), {FD magnitude}'nin üzerindeki (kareye) (öyledir) [Önerme 6.22].
+Böylece birleştirme yoluyla, {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamı), {EB magnitude}'nin üzerindeki (kareye) nasılsa, {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamı), {FD magnitude}'nin üzerindeki (kareye) (öyledir) [Önerme 5.18], [ayrıca ters olarak].
+Ve {BE magnitude}'nin üzerindeki (kare), {DF magnitude}'nin üzerindeki (kare) ile ölçüşürdür [Önerme 10.104].
+{AE magnitude} ve {EB magnitude}'nin üzerindeki karelerin toplamı böylece de {CF magnitude} ve {FD magnitude}'nin üzerindeki karelerin toplamı ile ölçüşürdür [Önermeler 5.16, 10.11].
+Ve {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin) toplamı orantılıdır [Önerme 10.76].
+Böylece {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin) toplamı da orantılıdır [Tanım 10.4].
+Tekrar, {AE magnitude}'nin üzerindeki (kare), {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgene) nasılsa, {CF magnitude}'nin üzerindeki (kare), {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgene) (öyle) olduğu için [Önerme 10.21 ek kısım] ve {AE magnitude}'nin üzerindeki kare, {CF magnitude}'nin üzerindeki kare ile ölçüşür olduğu için, {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) böylece de {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ile ölçüşürdür.
+Ve {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) ortadır [Önerme 10.76].
+Böylece {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) de ortadır [Önerme 10.23 ek sonucu].
+{CF magnitude} ve {FD magnitude} böylece, üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgeni) orta yapan, karede ölçüşmez (doğrulardır).
 
-Thus, {CD magnitude} is a minor (straight-line) [Prop. 10.76].
-(Which is) the very thing it was required to show.
+Böylece {CD magnitude} bir küçük (doğrudur) [Önerme 10.76].
+(Gösterilmesi gereken tam olarak budur.)
+
+

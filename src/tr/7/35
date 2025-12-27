@@ -1,13 +1,15 @@
-If two numbers (both) measure some number then the least (number) measured by them will also measure the same (number).
+     1→     1→Eğer iki sayı (ikisi de) bir sayıyı ölçerse o zaman onlar tarafından ölçülen en küçük (sayı) da aynı (sayıyı) ölçecektir.
+     2→     2→
+     3→     3→Çünkü iki sayı, {A magnitude} ve {B magnitude}, (ikisi de) bir {CD magnitude} sayısını ölçsün ve {E magnitude} ({A magnitude} ve {B magnitude}'nin ikisi tarafından da ölçülen) en küçük (sayı) olsun.
+     4→     4→Diyorum ki {E magnitude} de {CD magnitude}'yi ölçer.
+     5→     5→
+     6→     6→Çünkü eğer {E magnitude} {CD magnitude}'yi ölçmezse o zaman {E magnitude}, {DF magnitude}'yi ölçerken kendinden küçük {CF magnitude}'yi bıraksın.
+     7→     7→Ve {A magnitude} ve {B magnitude} (ikisi de) {E magnitude}'yi ölçtüğü ve {E magnitude} {DF magnitude}'yi ölçtüğü için, {A magnitude} ve {B magnitude} böylece {DF magnitude}'yi de ölçecektir.
+     8→     8→Ve ({A magnitude} ve {B magnitude}) {CD magnitude}'nin bütününü de ölçer.
+     9→     9→Böylece {E magnitude}'den küçük olan kalan {CF magnitude}'yi de ölçeceklerdir.
+    10→    10→Ki bu imkansızdır.
+    11→    11→Böylece {E magnitude} {CD magnitude}'yi ölçmemezlik edemez.
+    12→    12→Böylece ({E magnitude}) ({CD magnitude}'yi) ölçer.
+    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→
 
-For let two numbers, {A magnitude} and {B magnitude}, (both) measure some number {CD magnitude}, and (let) {E magnitude} (be the) least (number measured by both {A magnitude} and {B magnitude}).
-I say that {E magnitude} also measures {CD magnitude}.
-
-For if {E magnitude} does not measure {CD magnitude} then let {E magnitude} leave {CF magnitude} less than itself (in) measuring {DF magnitude}.
-And since {A magnitude} and {B magnitude} (both) measure {E magnitude}, and {E magnitude} measures {DF magnitude}, {A magnitude} and {B magnitude} will thus also measure {DF magnitude}.
-And ({A magnitude} and {B magnitude}) also measure the whole of {CD magnitude}.
-Thus, they will also measure the remainder {CF magnitude}, which is less than {E magnitude}.
-The very thing is impossible.
-Thus, {E magnitude} cannot not measure {CD magnitude}.
-Thus, ({E magnitude}) measures ({CD magnitude}).
-(Which is) the very thing it was required to show.

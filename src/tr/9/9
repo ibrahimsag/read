@@ -1,28 +1,29 @@
-If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, and the (number) after the unit is square, then all the remaining (numbers) will also be square.
-And if the (number) after the unit is cube, then all the remaining (numbers) will also be cube.
+Eğer herhangi bir çoklukta sayılar bir birimden (başlayarak) sürekli orantılı ise ve birimden sonraki (sayı) kare ise o zaman kalan (sayıların) hepsi de kare olacaktır.
+Ve eğer birimden sonraki (sayı) küp ise o zaman kalan (sayıların) hepsi de küp olacaktır.
 
-Let any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, be continuously proportional, (starting) from a unit.
-And let the (number) after the unit, {A magnitude}, be square.
-I say that all the remaining (numbers) will also be square.
+Herhangi bir çoklukta sayılar, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, bir birimden (başlayarak) sürekli orantılı olsun.
+Ve birimden sonraki (sayı), {A magnitude}, kare olsun.
+Diyorum ki kalan (sayıların) hepsi de kare olacaktır.
 
-In fact, it has (already) been shown that the third (number) from the unit, {B magnitude}, is square, and all those (numbers after that) which leave an interval of one (number) [Prop. 9.8].
-[So] I say that all the remaining (numbers) are also square.
-For since {A magnitude}, {B magnitude}, {C magnitude} are continuously proportional, and {A magnitude} (is) square, {C magnitude} is [thus] also square [Prop. 8.22].
-Again, since {B magnitude}, {C magnitude}, {D magnitude} are [also] continuously proportional, and {B magnitude} is square, {D magnitude} is [thus] also square [Prop. 8.22].
-So, similarly, we can show that all the remaining (numbers) are also square.
+Aslında birimden üçüncü (sayının), {B magnitude}'nin, kare olduğu ve bir (sayı) aralık bırakanların (hepsinin de öyle olduğu) zaten gösterilmiştir [Önerme 9.8].
+[Öyleyse] diyorum ki kalan (sayıların) hepsi de karedir.
+Çünkü {A magnitude}, {B magnitude}, {C magnitude} sürekli orantılı olduğu ve {A magnitude} kare olduğu için, [böylece] {C magnitude} de karedir [Önerme 8.22].
+Tekrar, {B magnitude}, {C magnitude}, {D magnitude} [de] sürekli orantılı olduğu ve {B magnitude} kare olduğu için, [böylece] {D magnitude} de karedir [Önerme 8.22].
+Öyleyse, benzer şekilde, kalan (sayıların) hepsinin de kare olduğunu gösterebiliriz.
 
-And so let {A magnitude} be cube.
-I say that all the remaining (numbers) are also cube.
+Ve öyleyse {A magnitude} küp olsun.
+Diyorum ki kalan (sayıların) hepsi de küptür.
 
-In fact, it has (already) been shown that the fourth (number) from the unit, {C magnitude}, is cube, and all those (numbers after that) which leave an interval of two (numbers) [Prop. 9.8].
-[So] I say that all the remaining (numbers) are also cube.
-For since as the unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}, the unit thus measures {A magnitude} the same number of times as {A magnitude} (measures) {B magnitude}.
-And the unit measures {A magnitude} according to the units in it.
-Thus, {A magnitude} also measures {B magnitude} according to the units in ({A magnitude}).
-{A magnitude} has thus made {B magnitude} (by) multiplying itself.
-And {A magnitude} is cube.
-And if a cube number makes some (number by) multiplying itself then the created (number) is cube [Prop. 9.3].
-Thus, {B magnitude} is also cube.
-And since the four numbers {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are continuously proportional, and {A magnitude} is cube, {D magnitude} is thus also cube [Prop. 8.23].
-So, for the same (reasons), {E magnitude} is also cube, and, similarly, all the remaining (numbers) are cube.
-(Which is) the very thing it was required to show.
+Aslında birimden dördüncü (sayının), {C magnitude}'nin, küp olduğu ve iki (sayı) aralık bırakanların (hepsinin de öyle olduğu) zaten gösterilmiştir [Önerme 9.8].
+[Öyleyse] diyorum ki kalan (sayıların) hepsi de küptür.
+Çünkü birim {A magnitude}'ya nasılsa, {A magnitude} {B magnitude}'ye (öyle) olduğu için, böylece birim {A magnitude}'yı, {A magnitude}'nın {B magnitude}'yi (ölçtüğü) aynı sayıda ölçer.
+Ve birim {A magnitude}'yı ondaki birimlere göre ölçer.
+Böylece {A magnitude} da {B magnitude}'yi ({A magnitude})'daki birimlere göre ölçer.
+Böylece {A magnitude} kendini çarparak {B magnitude}'yi oluşturmuştur.
+Ve {A magnitude} küptür.
+Ve eğer bir küp sayı kendini çarparak bir (sayı) oluşturursa o zaman oluşturulan (sayı) küptür [Önerme 9.3].
+Böylece {B magnitude} de küptür.
+Ve dört sayı {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} sürekli orantılı olduğu ve {A magnitude} küp olduğu için, böylece {D magnitude} de küptür [Önerme 8.23].
+Öyleyse, aynı nedenlerle {E magnitude} de küptür ve benzer şekilde kalan (sayıların) hepsi küptür.
+(Gösterilmesi gereken tam olarak budur.)
+

@@ -1,15 +1,16 @@
-If two numbers are prime to one another then as the first is to the second, so the second (will) not (be) to some other (number).
+Eğer iki sayı birbirine asal ise o zaman birinci ikinciye nasılsa, ikinci başka bir (sayıya) (öyle) olmayacaktır.
 
-For let the two numbers {A magnitude} and {B magnitude} be prime to one another.
-I say that as {A magnitude} is to {B magnitude}, so {B magnitude} is not to some other (number).
+Çünkü {A magnitude} ve {B magnitude} iki sayı birbirine asal olsun.
+Diyorum ki {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} başka bir (sayıya) (öyle) değildir.
 
-For, if possible, let it be that as {A magnitude} (is) to {B magnitude}, (so) {B magnitude} (is) to {C magnitude}.
-And {A magnitude} and {B magnitude} (are) prime (to one another).
-And (numbers) prime (to one another are) also the least (of those numbers having the same ratio as them) [Prop. 7.21].
-And the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, {A magnitude} measures {B magnitude}, as the leading (measuring) the leading.
-And ({A magnitude}) also measures itself.
-Thus, {A magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.
-The very thing (is) absurd.
-Thus, as {A magnitude} (is) to {B magnitude}, so {B magnitude} cannot be to {C magnitude}.
-(Which is) the very thing it was required to show.
+Çünkü, mümkünse, {A magnitude} {B magnitude}'ye nasılsa, (öyle) {B magnitude} {C magnitude}'ye olsun.
+Ve {A magnitude} ve {B magnitude} birbirine (asaldır).
+Ve birbirine (asal olan sayılar) aynı zamanda (onlarla aynı orana sahip sayıların) en küçükleri(dir) [Önerme 7.21].
+Ve en küçük sayılar (onlarla) aynı orana sahip (sayıları) eşit sayıda ölçer, öndeki öndekini ve sondaki sondakini (ölçerek) [Önerme 7.20].
+Böylece {A magnitude}, {B magnitude}'yi ölçer, öndeki öndekini (ölçerek).
+Ve kendini de ölçer.
+Böylece {A magnitude}, birbirine asal olan {A magnitude} ve {B magnitude}'yi ölçer.
+Şeyin kendisi saçmadır.
+Böylece {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye (öyle) olamaz.
+(Gösterilmesi gereken tam olarak budur.)
+

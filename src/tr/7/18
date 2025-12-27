@@ -1,10 +1,12 @@
-If two numbers multiplying some number make some (other numbers) then the (numbers) generated from them will have the same ratio as the multiplying (numbers).
+     1→     1→Eğer iki sayı bir sayıyı çarparsa, o zaman onlardan oluşan (sayılar) çarpan (sayılarla) aynı orana sahip olacaktır.
+     2→     2→
+     3→     3→Çünkü {A magnitude} ve {B magnitude} iki sayısı bir {C magnitude} sayısını (sırasıyla) çarparak (sayılar) {D magnitude} ve {E magnitude}'yi oluştursun.
+     4→     4→Diyorum ki {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {E magnitude}'ye öyledir.
+     5→     5→
+     6→     6→Çünkü {A magnitude}, {C magnitude}'yi çarparak {D magnitude}'yi oluşturduğu için, {C magnitude} böylece {A magnitude}'yı çarparak {D magnitude}'yi de oluşturmuştur [Önerme 7.16].
+     7→     7→Öyle ki, aynı (nedenlerle), {C magnitude}, {B magnitude}'yi çarparak {E magnitude}'yi de oluşturmuştur.
+     8→     8→Öyleyse {C magnitude} sayısı, {A magnitude} ve {B magnitude} iki sayısını (sırasıyla) çarparak {D magnitude} ve {E magnitude}'yi oluşturmuştur.
+     9→     9→Böylece {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {E magnitude}'ye öyledir [Önerme 7.17].
+    10→    10→(Gösterilmesi gereken tam olarak budur.)
+    11→    11→
 
-For let the two numbers {A magnitude} and {B magnitude} make (the numbers) {D magnitude} and {E magnitude} (respectively, by) multiplying some number {C magnitude}.
-I say that as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude}.
-
-For since {A magnitude} has made {D magnitude} (by) multiplying {C magnitude}, {C magnitude} has thus also made {D magnitude} (by) multiplying {A magnitude} [Prop. 7.16].
-So, for the same (reasons), {C magnitude} has also made {E magnitude} (by) multiplying {B magnitude}.
-So the number {C magnitude} has made {D magnitude} and {E magnitude} (by) multiplying the two numbers {A magnitude} and {B magnitude} (respectively).
-Thus, as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude} [Prop. 7.17].
-(Which is) the very thing it was required to show.

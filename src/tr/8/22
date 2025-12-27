@@ -1,9 +1,12 @@
-If three numbers are continuously proportional, and the first is square, then the third will also be square.
-
-Let {A magnitude}, {B magnitude}, {C magnitude} be three continuously proportional numbers, and let the first {A magnitude} be square.
-I say that the third {C magnitude} is also square.
-
-For since one number, {B magnitude}, is in mean proportion to {A magnitude} and {C magnitude}, {A magnitude} and {C magnitude} are thus similar plane (numbers) [Prop. 8.20].
-And {A magnitude} is square.
-Thus, {C magnitude} is also square [Def. 7.21].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer üç sayı sürekli orantılıysa ve birincisi karese o zaman üçüncüsü de kare olacaktır.
+     2→     2→     2→
+     3→     3→     3→{A magnitude}, {B magnitude}, {C magnitude} üç sürekli orantılı sayı olsun ve birinci {A magnitude} kare olsun.
+     4→     4→     4→Diyorum ki üçüncü {C magnitude} de karedir.
+     5→     5→     5→
+     6→     6→     6→Çünkü bir sayı, {B magnitude}, {A magnitude} ve {C magnitude} arasında orantısal ortada olduğu için, {A magnitude} ve {C magnitude} böylece benzer düzlem (sayılardır) [Önerme 8.20].
+     7→     7→     7→Ve {A magnitude} karedir.
+     8→     8→     8→Böylece {C magnitude} de karedir [Tanım 7.21].
+     9→     9→     9→(Gösterilmesi gereken tam olarak budur.)
+    10→    10→    10→
+    11→
+    12→

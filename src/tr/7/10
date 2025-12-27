@@ -1,15 +1,17 @@
-If a number is parts of a number, and another (number) is the same parts of another, also, alternately, which(ever) parts, or part, the first (number) is of the third, the second will also be the same parts, or the same part, of the fourth.
+     1→     1→Eğer bir sayı bir sayının parçalarıysa ve başka bir (sayı) başkasının aynı parçalarıysa, ayrıca değişimli olarak, birinci (sayı) üçüncünün hangi parçaları veya parçasıysa, ikinci de dördüncünün aynı parçaları veya aynı parçası olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {AB magnitude} sayısı bir {C magnitude} sayısının parçaları olsun ve başka bir (sayı) {DE magnitude} başka bir {F magnitude}'nin aynı parçaları olsun.
+     4→     4→Diyorum ki, ayrıca değişimli olarak, {AB magnitude} {DE magnitude}'nin hangi parçaları veya parçasıysa, {C magnitude} de {F magnitude}'nin aynı parçaları veya aynı parçasıdır.
+     5→     5→
+     6→     6→Çünkü {AB magnitude} {C magnitude}'nin hangi parçalarıysa, {DE magnitude} de {F magnitude}'nin aynı parçaları olduğu için, böylece {AB magnitude}'de {C magnitude}'nin kaç parçası varsa, {DE magnitude}'de de {F magnitude}'nin o kadar parçası (vardır).
+     7→     7→{AB magnitude}, {C magnitude}'nin parçaları olan {AG magnitude} ve {GB magnitude}'ye bölünmüş olsun ve {DE magnitude}, {F magnitude}'nin parçaları olan {DH magnitude} ve {HE magnitude}'ye (bölünmüş olsun).
+     8→     8→Öyleyse (bölümlerin) {AG magnitude}, {GB magnitude} sayısı (bölümlerin) {DH magnitude}, {HE magnitude} sayısına eşit olacaktır.
+     9→     9→Ve {AG magnitude} {C magnitude}'nin hangi parçasıysa, {DH magnitude} de {F magnitude}'nin aynı parçası olduğu için, ayrıca değişimli olarak, {AG magnitude} {DH magnitude}'nin hangi parçası veya parçalarıysa, {C magnitude} de {F magnitude}'nin aynı parçası veya aynı parçalarıdır [Önerme 7.9].
+    10→    10→Ve öyle ki, aynı (nedenlerle), {GB magnitude} {HE magnitude}'nin hangi parçası veya parçalarıysa, {C magnitude} de {F magnitude}'nin aynı parçası veya aynı parçalarıdır [Önerme 7.9].
+    11→    11→Ve öyle ki [{AG magnitude} {DH magnitude}'nin hangi parçası veya parçalarıysa, {GB magnitude} de {HE magnitude}'nin aynı parçası veya aynı parçalarıdır.
+    12→    12→Ve böylece {AG magnitude} {DH magnitude}'nin hangi parçası veya parçalarıysa, {AB magnitude} de {DE magnitude}'nin aynı parçası veya aynı parçalarıdır [Önermeler 7.5, 7.6].
+    13→    13→Ama {AG magnitude} {DH magnitude}'nin hangi parçası veya parçalarıysa, {C magnitude}'nin de {F magnitude}'nin aynı parçası veya aynı parçaları olduğu gösterilmişti.
+    14→    14→Ve böylece] {AB magnitude} {DE magnitude}'nin hangi parçaları veya parçasıysa, {C magnitude} de {F magnitude}'nin aynı parçaları veya aynı parçasıdır.
+    15→    15→(Gösterilmesi gereken tam olarak budur.)
+    16→    16→
 
-For let a number {AB magnitude} be parts of a number {C magnitude}, and another (number) {DE magnitude} (be) the same parts of another {F magnitude}.
-I say that, also, alternately, which(ever) parts, or part, {AB magnitude} is of {DE magnitude}, {C magnitude} is also the same parts, or the same part, of {F magnitude}.
-
-For since which(ever) parts {AB magnitude} is of {C magnitude}, {DE magnitude} is also the same parts of {F magnitude}, thus as many parts of {C magnitude} as are in {AB magnitude}, so many parts of {F magnitude} (are) also in {DE magnitude}.
-Let {AB magnitude} have been divided into the parts of {C magnitude}, {AG magnitude} and {GB magnitude}, and {DE magnitude} into the parts of {F magnitude}, {DH magnitude} and {HE magnitude}.
-So the multitude of (divisions) {AG magnitude}, {GB magnitude} will be equal to the multitude of (divisions) {DH magnitude}, {HE magnitude}.
-And since which(ever) part {AG magnitude} is of {C magnitude}, {DH magnitude} is also the same part of {F magnitude}, also, alternately, which(ever) part, or parts, {AG magnitude} is of {DH magnitude}, {C magnitude} is also the same part, or the same parts, of {F magnitude} [Prop. 7.9].
-And so, for the same (reasons), which(ever) part, or parts, {GB magnitude} is of {HE magnitude}, {C magnitude} is also the same part, or the same parts, of {F magnitude} [Prop. 7.9].
-And so [which(ever) part, or parts, {AG magnitude} is of {DH magnitude}, {GB magnitude} is also the same part, or the same parts, of {HE magnitude}.
-And thus, which(ever) part, or parts, {AG magnitude} is of {DH magnitude}, {AB magnitude} is also the same part, or the same parts, of {DE magnitude} [Props. 7.5, 7.6].
-But, which(ever) part, or parts, {AG magnitude} is of {DH magnitude}, {C magnitude} was also shown (to be) the same part, or the same parts, of {F magnitude}.
-And, thus] which(ever) parts, or part, {AB magnitude} is of {DE magnitude}, {C magnitude} is also the same parts, or the same part, of {F magnitude}.
-(Which is) the very thing it was required to show.

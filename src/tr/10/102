@@ -1,39 +1,41 @@
-The (square) on that (straight-line) which with a medial (area) makes a medial whole, applied to a rational (straight-line), produces a sixth apotome as breadth.
+Bir orta (alanla birlikte) bir orta bütün yapan o (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir altıncı kesit üretir.
 
-Let {AB magnitude} be that (straight-line) which with a medial (area) makes a medial whole, and {CD line} a rational (straight-line).
-And let {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {CF line} as breadth.
-I say that {CF line} is a sixth apotome.
+{AB magnitude} bir orta (alanla birlikte) bir orta bütün yapan o (doğru) ve {CD line} bir orantılı (doğru) olsun.
+Ve {AB magnitude}'nin üzerindeki (kareye) eşit {CE polygon}, genişlik olarak {CF line}'ı üreterek, {CD line}'a uygulanmış olsun.
+Diyorum ki {CF line} bir altıncı kesittir.
 
-For let {BG magnitude} be an attachment to {AB magnitude}.
-Thus, {AG magnitude} and {GB magnitude} are incommensurable in square, making the sum of the squares on them medial, and twice the (rectangle contained) by {AG magnitude} and {GB magnitude} medial, and the (sum of the squares) on {AG magnitude} and {GB magnitude} incommensurable with twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [Prop. 10.78].
-Therefore, let {CH polygon}, equal to the (square) on {AG magnitude}, have been applied to {CD line}, producing {CK line} as breadth, and {KL polygon}, equal to the (square) on {BG magnitude}.
-Thus, the whole of {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}.
-{CL polygon} [is] thus also medial.
-And it is applied to the rational (straight-line) {CD line}, producing {CM line} as breadth.
-Thus, {CM line} is rational, and incommensurable in length with {CD line} [Prop. 10.22].
-Therefore, since {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, of which {CE polygon} (is) equal to the (square) on {AB magnitude}, the remainder {FL polygon} is thus equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [Prop. 2.7].
-And twice the (rectangle contained) by {AG magnitude} and {GB magnitude} (is) medial.
-Thus, {FL polygon} is also medial.
-And it is applied to the rational (straight-line) {FE line}, producing {FM line} as breadth.
-{FM line} is thus rational, and incommensurable in length with {CD line} [Prop. 10.22].
-And since the (sum of the squares) on {AG magnitude} and {GB magnitude} is incommensurable with twice the (rectangle contained) by {AG magnitude} and {GB magnitude}, and {CL polygon} equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, and {FL polygon} equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude}, {CL polygon} [is] thus incommensurable with {FL polygon}.
-And as {CL polygon} (is) to {FL polygon}, so {CM line} is to {MF line} [Prop. 6.1].
-Thus,{CM line} is incommensurable in length with {MF line} [Prop. 10.11].
-And they are both rational.
-Thus, {CM line} and {MF line} are rational (straight-lines which are) commensurable in square only.
-{CF line} is thus an apotome [Prop. 10.73].
-So, I say that (it is) also a sixth (apotome).
+Çünkü {BG magnitude}, {AB magnitude}'ye ek olsun.
+{AG magnitude} ve {GB magnitude} böylece, üzerlerindeki karelerin toplamını orta ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katını orta ve {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamını), {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez yapan, karede ölçüşmez (doğrulardır) [Önerme 10.78].
+Bu yüzden {AG magnitude}'nin üzerindeki (kareye) eşit {CH polygon}, genişlik olarak {CK line}'ı üreterek, {CD line}'a uygulanmış olsun ve {BG magnitude}'nin üzerindeki (kareye) eşit {KL polygon} (uygulanmış olsun).
+Böylece bütün {CL polygon}, {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamına) eşittir.
+{CL polygon} [böylece] de ortadır.
+Ve o, orantılı (doğru) {CD line}'a uygulanmış olup, genişlik olarak {CM line}'ı üretmiştir.
+Böylece {CM line} orantılıdır ve {CD line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Bu yüzden, {CL polygon}, {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamına) eşit olduğu için, bunlardan {CE polygon}, {AB magnitude}'nin üzerindeki (kareye) eşittir, kalan {FL polygon}, böylece {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşittir [Önerme 2.7].
+Ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı ortadır.
+{FL polygon} böylece de ortadır.
+Ve o, orantılı (doğru) {FE line}'a uygulanmış olup, genişlik olarak {FM line}'ı üretmiştir.
+{FM line} böylece orantılıdır ve {CD line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamı), {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez olduğu ve {CL polygon}, {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamına) ve {FL polygon}, {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşit olduğu için, {CL polygon} [böylece] {FL polygon} ile ölçüşmezdir.
+Ve {CL polygon}, {FL polygon}'a nasılsa, {CM line}, {MF line}'a (öyledir) [Önerme 6.1].
+Böylece {CM line}, {MF line} ile uzunlukta ölçüşmezdir [Önerme 10.11].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {CM line} ve {MF line} yalnızca karede ölçüşür orantılı (doğrulardır).
+{CF line} böylece bir kesittir [Önerme 10.73].
+Öyleyse diyorum ki (o) ayrıca bir altıncı (kesittir).
 
-For since {FL polygon} is equal to twice the (rectangle contained) by {AG magnitude} and {GB magnitude}, let {FM line} have been cut in half at {N point}, and let {NO line} have been drawn through {N point}, parallel to {CD line}.
-Thus, {FO polygon} and {NL polygon} are each equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}.
-And since {AG magnitude} and {GB magnitude} are incommensurable in square, the (square) on {AG magnitude} is thus incommensurable with the (square) on {GB magnitude}.
-But, {CH polygon} is equal to the (square) on {AG magnitude}, and {KL polygon} is equal to the (square) on {GB magnitude}.
-Thus, {CH polygon} is incommensurable with {KL polygon}.
-And as {CH polygon} (is) to {KL polygon}, so {CK line} is to {KM line} [Prop. 6.1].
-Thus, {CK line} is incommensurable (in length) with {KM line} [Prop. 10.11].
-And since the (rectangle contained) by {AG magnitude} and {GB magnitude} is the mean proportional to the (squares) on {AG magnitude} and {GB magnitude} [Prop. 10.21 lem.], and {CH polygon} is equal to the (square) on {AG magnitude}, and {KL polygon} equal to the (square) on {GB magnitude}, and {NL polygon} equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}, {NL polygon} is thus also the mean proportional to {CH polygon} and {KL polygon}.
-Thus, as {CH polygon} is to {NL polygon}, so {NL polygon} (is) to {KL polygon}.
-And for the same (reasons as the preceding propositions), the square on {CM line} is greater than (the square on) {MF line} by the (square) on (some straight-line) incommensurable (in length) with ({CM line}) [Prop. 10.18].
-And neither of them is commensurable with the (previously) laid down rational (straight-line) {CD line}.
-Thus, {CF line} is a sixth apotome [Def. 10.16].
-(Which is) the very thing it was required to show.
+Çünkü {FL polygon}, {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşit olduğu için, {FM line}, {N point} noktasında ikiye bölünmüş olsun ve {NO line}, {CD line}'a paralel, {N point}'den çizilmiş olsun.
+{FO polygon} ve {NL polygon}'un böylece her biri, {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgene) eşittir.
+Ve {AG magnitude} ve {GB magnitude} karede ölçüşmez olduğu için, {AG magnitude}'nin üzerindeki (kare), böylece {GB magnitude}'nin üzerindeki (kare) ile ölçüşmezdir.
+Fakat {CH polygon}, {AG magnitude}'nin üzerindeki (kareye) ve {KL polygon}, {GB magnitude}'nin üzerindeki (kareye) eşittir.
+Böylece {CH polygon}, {KL polygon} ile ölçüşmezdir.
+Ve {CH polygon}, {KL polygon}'a nasılsa, {CK line}, {KM line}'a (öyledir) [Önerme 6.1].
+Böylece {CK line}, {KM line} ile uzunlukta ölçüşmezdir [Önerme 10.11].
+Ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgen), {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin) orantılı ortası olduğu için [Önerme 10.21 ek kısım] ve {CH polygon}, {AG magnitude}'nin üzerindeki (kareye) ve {KL polygon}, {GB magnitude}'nin üzerindeki (kareye) ve {NL polygon}, {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgene) eşit olduğu için, {NL polygon} böylece de {CH polygon} ve {KL polygon}'un orantılı ortasıdır.
+Böylece {CH polygon}, {NL polygon}'a nasılsa, {NL polygon}, {KL polygon}'a (öyledir).
+Ve aynı nedenlerle (önceki önermelerde olduğu gibi), {CM line}'ın üzerindeki kare, ({MF line}'ın üzerindeki kareden) ({CM line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür [Önerme 10.18].
+Ve onların hiçbiri, (daha önce) konmuş orantılı (doğru) {CD line} ile ölçüşür değildir.
+Böylece {CF line} bir altıncı kesittir [Tanım 10.16].
+(Gösterilmesi gereken tam olarak budur.)
+
+

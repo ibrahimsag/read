@@ -1,12 +1,14 @@
-If a number is parts of a number, and another (number) is the same parts of another, then the sum (of the leading numbers) will also be the same parts of the sum (of the following numbers) that one (number) is of another.
+     1→     1→Eğer bir sayı bir sayının parçalarıysa ve başka bir (sayı) başkasının aynı parçalarıysa, o zaman (öndeki sayıların) toplamı da (ardıl sayıların) toplamının, bir (sayının) diğerine olduğu aynı parçalar olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {AB magnitude} sayısı bir {C magnitude} sayısının parçaları olsun ve başka bir (sayı) {DE magnitude}, {AB magnitude}'nin {C magnitude}'nin (parçaları olduğu) aynı parçalar başka bir (sayı) {F magnitude}'nin (parçaları) olsun.
+     4→     4→Diyorum ki {AB magnitude}, {DE magnitude} toplamı da {C magnitude}, {F magnitude} toplamının, {AB magnitude}'nin {C magnitude}'nin (parçaları olduğu) aynı parçalarıdır.
+     5→     5→
+     6→     6→Çünkü {AB magnitude} {C magnitude}'nin hangi parçalarıysa, {DE magnitude} de {F magnitude}'nin aynı parçaları olduğu için, böylece {AB magnitude}'de {C magnitude}'nin kaç parçası varsa, {DE magnitude}'de de {F magnitude}'nin o kadar parçası vardır.
+     7→     7→{AB magnitude}, {C magnitude}'nin parçaları olan {AG magnitude} ve {GB magnitude}'ye bölünmüş olsun ve {DE magnitude}, {F magnitude}'nin parçaları olan {DH magnitude} ve {HE magnitude}'ye (bölünmüş olsun).
+     8→     8→Öyleyse (bölümlerin) {AG magnitude}, {GB magnitude} sayısı (bölümlerin) {DH magnitude}, {HE magnitude} sayısına eşit olacaktır.
+     9→     9→Ve {AG magnitude} {C magnitude}'nin hangi parçasıysa, {DH magnitude} de {F magnitude}'nin aynı parçası olduğu için, böylece {AG magnitude} {C magnitude}'nin hangi parçasıysa, {AG magnitude}, {DH magnitude} toplamı da {C magnitude}, {F magnitude} toplamının aynı parçasıdır [Önerme 7.5].
+    10→    10→Ve öyle ki, aynı (nedenlerle), {GB magnitude} {C magnitude}'nin hangi parçasıysa, {GB magnitude}, {HE magnitude} toplamı da {C magnitude}, {F magnitude} toplamının aynı parçasıdır.
+    11→    11→Böylece {AB magnitude} {C magnitude}'nin hangi parçalarıysa, {AB magnitude}, {DE magnitude} toplamı da {C magnitude}, {F magnitude} toplamının aynı parçalarıdır.
+    12→    12→(Gösterilmesi gereken tam olarak budur.)
+    13→    13→
 
-For let a number {AB magnitude} be parts of a number {C magnitude}, and another (number) {DE magnitude} (be) the same parts of another (number) {F magnitude} that {AB magnitude} (is) of {C magnitude}.
-I say that the sum {AB magnitude}, {DE magnitude} is also the same parts of the sum {C magnitude}, {F magnitude} that {AB magnitude} (is) of {C magnitude}.
-
-For since which(ever) parts {AB magnitude} is of {C magnitude}, {DE magnitude} (is) also the same parts of {F magnitude}, thus as many parts of {C magnitude} as are in {AB magnitude}, so many parts of {F magnitude} are also in {DE magnitude}.
-Let {AB magnitude} have been divided into the parts of {C magnitude}, {AG magnitude} and {GB magnitude}, and {DE magnitude} into the parts of {F magnitude}, {DH magnitude} and {HE magnitude}.
-So the multitude of (divisions) {AG magnitude}, {GB magnitude} will be equal to the multitude of (divisions) {DH magnitude}, {HE magnitude}.
-And since which(ever) part {AG magnitude} is of {C magnitude}, {DH magnitude} is also the same part of {F magnitude}, thus which(ever) part {AG magnitude} is of {C magnitude}, the sum {AG magnitude}, {DH magnitude} is also the same part of the sum {C magnitude}, {F magnitude} [Prop. 7.5].
-And so, for the same (reasons), which(ever) part {GB magnitude} is of {C magnitude}, the sum {GB magnitude}, {HE magnitude} is also the same part of the sum {C magnitude}, {F magnitude}.
-Thus, which(ever) parts {AB magnitude} is of {C magnitude}, the sum {AB magnitude}, {DE magnitude} is also the same parts of the sum {C magnitude}, {F magnitude}.
-(Which is) the very thing it was required to show.

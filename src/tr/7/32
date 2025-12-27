@@ -1,10 +1,12 @@
-Every number is either prime or is measured by some prime number.
+     1→     1→Her sayı ya asaldır ya da bir asal sayı tarafından ölçülür.
+     2→     2→
+     3→     3→{A magnitude} bir sayı olsun.
+     4→     4→Diyorum ki {A magnitude} ya asaldır ya da bir asal sayı tarafından ölçülür.
+     5→     5→
+     6→     6→Aslında, eğer {A magnitude} asalsa o zaman öngörülen gerçekleşmiştir.
+     7→     7→Ve eğer bileşikse o zaman bir asal sayı onu ölçecektir [Önerme 7.31].
+     8→     8→
+     9→     9→Böylece, her sayı ya asaldır ya da bir asal sayı tarafından ölçülür.
+    10→    10→(Gösterilmesi gereken tam olarak budur.)
+    11→    11→
 
-Let {A magnitude} be a number.
-I say that {A magnitude} is either prime or is measured by some prime number.
-
-In fact, if {A magnitude} is prime then that which was prescribed has happened.
-And if (it is) composite then some prime number will measure it [Prop. 7.31].
-
-Thus, every number is either prime or is measured by some prime number.
-(Which is) the very thing it was required to show.

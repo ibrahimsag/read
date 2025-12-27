@@ -1,38 +1,40 @@
-The rectangle contained by medial straight-lines (which are) commensurable in square only is either rational or medial.
+Yalnızca karede ölçüşür (olan) orta doğrular tarafından içerilen dikdörtgen ya orantılı ya da ortadır.
 
-For let the rectangle {AC polygon} be contained by the medial straight-lines {AB line} and {BC line} (which are) commensurable in square only.
-I say that {AC polygon} is either rational or medial.
+Çünkü yalnızca karede ölçüşür orta doğrular, {AB line} ve {BC line}, tarafından {AC polygon} dikdörtgeni içerilmiş olsun.
+Diyorum ki {AC polygon} ya orantılı ya da ortadır.
 
-For let the squares {AD polygon} and {BE polygon} have been described on (the straight-lines) {AB line} and {BC line} (respectively).
-{AD polygon} and {BE polygon} are thus each medial.
-And let the rational (straight-line) {FG line} be laid out.
-And let the rectangular parallelogram {GH polygon}, equal to {AD polygon}, have been applied to {FG line}, producing {FH line} as breadth.
-And let the rectangular parallelogram {MK polygon}, equal to {AC polygon}, have been applied to {HM line}, producing {HK line} as breadth.
-And, finally, let {NL polygon}, equal to {BE polygon}, have similarly been applied to {KN line}, producing {KL line} as breadth.
-Thus, {FH line}, {HK line}, and {KL line} are in a straight-line.
-Therefore, since {AD polygon} and {BE polygon} are each medial, and {AD polygon} is equal to {GH polygon}, and {BE polygon} to {NL polygon}, {GH polygon} and {NL polygon} (are) thus each also medial.
-And they are applied to the rational (straight-line) {FG line}.
-{FH line} and {KL line} are thus each rational, and incommensurable in length with {FG line} [Prop. 10.22].
-And since {AD polygon} is commensurable with {BE polygon}, {GH polygon} is thus also commensurable with {NL polygon}.
-And as {GH polygon} is to {NL polygon}, so {FH line} (is) to {KL line} [Prop. 6.1].
-Thus, {FH line} is commensurable in length with {KL line} [Prop. 10.11].
-Thus, {FH line} and {KL line} are rational (straight-lines which are) commensurable in length.
-Thus, the (rectangle contained) by {FH line} and {KL line} is rational [Prop. 10.19].
-And since {DB line} is equal to {BA line}, and {OB line} to {BC line}, thus as {DB line} is to {BC line}, so {AB line} (is) to {BO line}.
-But, as {DB line} (is) to {BC line}, so {DA polygon} (is) to {AC polygon} [Props. 6.1].
-And as {AB line} (is) to {BO line}, so {AC polygon} (is) to {CO polygon} [Prop. 6.1].
-Thus, as {DA polygon} is to {AC polygon}, so {AC polygon} (is) to {CO polygon}.
-And {AD polygon} is equal to {GH polygon}, and {AC polygon} to {MK polygon}, and {CO polygon}  to {NL polygon}.
-Thus, as {GH polygon} is to {MK polygon}, so {MK polygon} (is) to {NL polygon}.
-Thus, also, as {FH line} is to {HK line}, so {HK line} (is) to {KL line} [Props. 6.1, 5.11].
-Thus, the (rectangle contained) by {FH line} and {KL line} is equal to the (square) on {HK line} [Prop. 6.17].
-And the (rectangle contained) by {FH line} and {KL line} (is) rational.
-Thus, the (square) on {HK line} is also rational.
-Thus, {HK line} is rational.
-And if it is commensurable in length with {FG line} then {HN polygon} is rational [Prop. 10.19].
-And if it is incommensurable in length with {FG line} then {KH line} and {HM line} are rational (straight-lines which are) commensurable in square only: thus, {HN polygon} is medial [Prop. 10.21].
-Thus, {HN polygon} is either rational or medial.
-And {HN polygon} (is) equal to {AC polygon}.
-Thus, {AC polygon} is either rational or medial.
+Çünkü ({AB line} ve {BC line} doğruları) üzerinde (sırasıyla) {AD polygon} ve {BE polygon} kareleri çizilmiş olsun.
+Böylece {AD polygon} ve {BE polygon}'nin her biri ortadır.
+Ve orantılı (doğru) {FG line} konmuş olsun.
+Ve {AD polygon}'a eşit {GH polygon} dikdörtgen paralelkenarı, genişlik olarak {FH line}'ı oluşturarak, {FG line}'a uygulanmış olsun.
+Ve {AC polygon}'a eşit {MK polygon} dikdörtgen paralelkenarı, genişlik olarak {HK line}'ı oluşturarak, {HM line}'a uygulanmış olsun.
+Ve sonunda, {BE polygon}'a eşit {NL polygon}, benzer şekilde, genişlik olarak {KL line}'ı oluşturarak, {KN line}'a uygulanmış olsun.
+Böylece {FH line}, {HK line} ve {KL line} bir doğru üzerindedir.
+Bu nedenle, {AD polygon} ve {BE polygon}'nin her biri orta olduğu ve {AD polygon}, {GH polygon}'a ve {BE polygon}, {NL polygon}'a eşit olduğu için, böylece {GH polygon} ve {NL polygon}'nun (her biri de) ortadır.
+Ve orantılı (doğru) {FG line}'a uygulanmışlardır.
+Böylece {FH line} ve {KL line}'ın her biri orantılıdır ve {FG line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {AD polygon}, {BE polygon} ile ölçüşür olduğu için, böylece {GH polygon} de {NL polygon} ile ölçüşürdür.
+Ve {GH polygon}, {NL polygon}'a nasılsa, {FH line} {KL line}'a (öyledir) [Önerme 6.1].
+Böylece {FH line}, {KL line} ile uzunlukta ölçüşürdür [Önerme 10.11].
+Böylece {FH line} ve {KL line}, uzunlukta ölçüşür orantılı (doğrulardır).
+Böylece {FH line} ve {KL line} tarafından (içerilen dikdörtgen) orantılıdır [Önerme 10.19].
+Ve {DB line}, {BA line}'a ve {OB line}, {BC line}'a eşit olduğu için, böylece {DB line}, {BC line}'a nasılsa, {AB line} {BO line}'a (öyledir).
+Ama {DB line}, {BC line}'a nasılsa, {DA polygon} {AC polygon}'a (öyledir) [Önerme 6.1].
+Ve {AB line}, {BO line}'a nasılsa, {AC polygon} {CO polygon}'a (öyledir) [Önerme 6.1].
+Böylece {DA polygon}, {AC polygon}'a nasılsa, {AC polygon} {CO polygon}'a (öyledir).
+Ve {AD polygon}, {GH polygon}'a ve {AC polygon}, {MK polygon}'a ve {CO polygon}, {NL polygon}'a eşittir.
+Böylece {GH polygon}, {MK polygon}'a nasılsa, {MK polygon} {NL polygon}'a (öyledir).
+Böylece ayrıca, {FH line}, {HK line}'a nasılsa, {HK line} {KL line}'a (öyledir) [Önermeler 6.1, 5.11].
+Böylece {FH line} ve {KL line} tarafından (içerilen dikdörtgen), {HK line}'ın (üzerindeki kareye) eşittir [Önerme 6.17].
+Ve {FH line} ve {KL line} tarafından (içerilen dikdörtgen) orantılıdır.
+Böylece {HK line}'ın (üzerindeki kare) de orantılıdır.
+Böylece {HK line} orantılıdır.
+Ve eğer {FG line} ile uzunlukta ölçüşür ise o zaman {HN polygon} orantılıdır [Önerme 10.19].
+Ve eğer {FG line} ile uzunlukta ölçüşmez ise o zaman {KH line} ve {HM line} yalnızca karede ölçüşür orantılı (doğrulardır): böylece {HN polygon} ortadır [Önerme 10.21].
+Böylece {HN polygon} ya orantılı ya da ortadır.
+Ve {HN polygon}, {AC polygon}'a eşittir.
+Böylece {AC polygon} ya orantılı ya da ortadır.
 
-Thus, the ... by medial straight-lines (which are) commensurable in square only, and so on ....
+Böylece yalnızca karede ölçüşür orta doğrular tarafından... ve böyle devam eder...
+
+

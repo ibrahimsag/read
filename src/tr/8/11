@@ -1,19 +1,22 @@
-There exists one number in mean proportion to two (given) square numbers.
-And (one) square (number) has to the (other) square (number) a squared ratio with respect to (that) the side (of the former has) to the side (of the latter).
-
-Let {A magnitude} and {B magnitude} be square numbers, and let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.
-I say that there exists one number in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {D magnitude}.
-
-For let {C magnitude} make {E magnitude} (by) multiplying {D magnitude}.
-And since {A magnitude} is square, and {C magnitude} is its side, {C magnitude} has thus made {A magnitude} (by) multiplying itself.
-And so, for the same (reasons), {D magnitude} has made {B magnitude} (by) multiplying itself.
-Therefore, since {C magnitude} has made {A magnitude}, {E magnitude} (by) multiplying {C magnitude}, {D magnitude}, respectively, thus as {C magnitude} is to {D magnitude}, so {A magnitude} (is) to {E magnitude} [Prop. 7.17].
-And so, for the same (reasons), as {C magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {B magnitude} [Prop. 7.18].
-And thus as {A magnitude} (is) to {E magnitude}, so {E magnitude} (is) to {B magnitude}.
-Thus, one number (namely, {E magnitude}) is in mean proportion to {A magnitude} and {B magnitude}.
-
-So I say that {A magnitude} also has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {D magnitude}.
-For since {A magnitude}, {E magnitude}, {B magnitude} are three (continuously) proportional numbers, {A magnitude} thus has to {B magnitude} a squared ratio with respect to (that) {A magnitude} (has) to {E magnitude} [Def. 5.9].
-And as {A magnitude} (is) to {E magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus, {A magnitude} has to {B magnitude} a squared ratio with respect to (that) side {C magnitude} (has) to (side) {D magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→İki (verilen) kare sayı arasında orantısal ortada bir sayı vardır.
+     2→     2→     2→Ve (bir) kare (sayı) (diğer) kare (sayıya), kenarın kenara (taşıdığı oranda) karesel oran taşır.
+     3→     3→     3→
+     4→     4→     4→{A magnitude} ve {B magnitude} kare sayılar olsun ve {C magnitude}, {A magnitude}'nın kenarı ve {D magnitude}, {B magnitude}'nin (kenarı) olsun.
+     5→     5→     5→Diyorum ki {A magnitude} ve {B magnitude} arasında orantısal ortada bir sayı vardır ve {A magnitude}, {B magnitude}'ye, {C magnitude}'nin {D magnitude}'ye (taşıdığı oranda) karesel oran taşır.
+     6→     6→     6→
+     7→     7→     7→Çünkü {C magnitude}, {D magnitude}'yi çarparak {E magnitude}'yi oluştursun.
+     8→     8→     8→Ve {A magnitude} kare olduğu ve {C magnitude} onun kenarı olduğu için, {C magnitude} böylece kendini çarparak {A magnitude}'yı oluşturmuştur.
+     9→     9→     9→Ve öyle ki, aynı (nedenlerle), {D magnitude} kendini çarparak {B magnitude}'yi oluşturmuştur.
+    10→    10→    10→Bu nedenle, {C magnitude}, sırasıyla {C magnitude}, {D magnitude}'yi çarparak {A magnitude}, {E magnitude}'yi oluşturduğu için, böylece {C magnitude} {D magnitude}'ye nasılsa, {A magnitude} {E magnitude}'ye (öyledir) [Önerme 7.17].
+    11→    11→    11→Ve öyle ki, aynı (nedenlerle), {C magnitude} {D magnitude}'ye nasılsa, (öyle) {E magnitude} {B magnitude}'ye(dir) [Önerme 7.18].
+    12→    12→    12→Ve böylece {A magnitude} {E magnitude}'ye nasılsa, (öyle) {E magnitude} {B magnitude}'ye(dir).
+    13→    13→    13→Böylece bir sayı (yani {E magnitude}) {A magnitude} ve {B magnitude} arasında orantısal ortadadır.
+    14→    14→    14→
+    15→    15→    15→Öyleyse diyorum ki {A magnitude} ayrıca {B magnitude}'ye, {C magnitude}'nin {D magnitude}'ye (taşıdığı oranda) karesel oran taşır.
+    16→    16→    16→Çünkü {A magnitude}, {E magnitude}, {B magnitude} üç (sürekli) orantılı sayı olduğu için, {A magnitude} böylece {B magnitude}'ye, {A magnitude}'nın {E magnitude}'ye (taşıdığı oranda) karesel oran taşır [Tanım 5.9].
+    17→    17→    17→Ve {A magnitude} {E magnitude}'ye nasılsa, (öyle) {C magnitude} {D magnitude}'ye(dir).
+    18→    18→    18→Böylece {A magnitude}, {B magnitude}'ye, {C magnitude} kenarının ({D magnitude}) kenarına (taşıdığı oranda) karesel oran taşır.
+    19→    19→    19→(Gösterilmesi gereken tam olarak budur.)
+    20→    20→    20→
+    21→
+    22→

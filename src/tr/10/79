@@ -1,20 +1,22 @@
-[Only] one rational straight-line, which is commensurable in square only with the whole, can be attached to an apotome.
+Bütünle yalnızca karede ölçüşür [yalnızca] bir orantılı doğru, bir kesite eklenebilir.
 
-Let {AB magnitude} be an apotome, with {BC magnitude} (so) attached to it.
-{AC magnitude} and {CB magnitude} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.73].
-I say that another rational (straight-line), which is commensurable in square only with the whole, cannot be attached to {AB magnitude}.
+{AB magnitude} bir kesit olsun, {BC magnitude} ona (öyle) eklenmiş (olsun).
+{AC magnitude} ve {CB magnitude} böylece yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.73].
+Diyorum ki bütünle yalnızca karede ölçüşür başka bir orantılı (doğru), {AB magnitude}'ye eklenemez.
 
-For, if possible, let {BD magnitude} be (so) attached (to {AB magnitude}).
-Thus, {AD magnitude} and {DB magnitude} are also rational (straight-lines which are) commensurable in square only [Prop. 10.73].
-And since by whatever (area) the (sum of the squares) on {AD magnitude} and {DB magnitude} exceeds twice the (rectangle contained) by {AD magnitude} and {DB magnitude}, the (sum of the squares) on {AC magnitude} and {CB magnitude} also exceeds twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by this (same area).
-For both exceed by the same (area)---(namely), the (square) on {AB magnitude} [Prop. 2.7].
-Thus, alternately, by whatever (area) the (sum of the squares) on {AD magnitude} and {DB magnitude} exceeds the (sum of the squares) on {AC magnitude} and {CB magnitude}, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} [also] exceeds twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by this (same area).
-And the (sum of the squares) on {AD magnitude} and {DB magnitude} exceeds the (sum of the squares) on {AC magnitude} and {CB magnitude} by a rational (area).
-For both (are) rational (areas).
-Thus, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also exceeds twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area).
-The very thing is impossible.
-For both are medial (areas) [Prop. 10.21], and a medial (area) cannot exceed a(nother) medial (area) by a rational (area) [Prop. 10.26].
-Thus, another rational (straight-line), which is commensurable in square only with the whole, cannot be attached to {AB magnitude}.
+Çünkü mümkünse, {BD magnitude} ({AB magnitude}'ye) (öyle) eklenmiş olsun.
+Böylece {AD magnitude} ve {DB magnitude} de yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.73].
+Ve {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katını hangi (alan) kadar aşıyorsa, {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı) da {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katını bu (aynı alan) kadar aştığı için.
+Çünkü her ikisi de aynı (alanı) --- (yani) {AB magnitude}'nin üzerindeki (kareyi) --- kadar aşar [Önerme 2.7].
+Böylece değişimli olarak, {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı), {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamını) hangi (alan) kadar aşıyorsa, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı [da] {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katını bu (aynı alan) kadar aşar.
+Ve {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı), {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamını) bir orantılı (alan) kadar aşar.
+Çünkü her ikisi de orantılı (alanlardır).
+Böylece {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı da {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katını bir orantılı (alan) kadar aşar.
+Tam olarak bu imkansızdır.
+Çünkü her ikisi de orta (alanlardır) [Önerme 10.21] ve bir orta (alan), (başka) bir orta (alanı) bir orantılı (alan) kadar aşamaz [Önerme 10.26].
+Böylece bütünle yalnızca karede ölçüşür başka bir orantılı (doğru), {AB magnitude}'ye eklenemez.
 
-Thus, only one rational (straight-line), which is commensurable in square only with the whole, can be attached to an apotome.
-(Which is) the very thing it was required to show.
+Böylece bütünle yalnızca karede ölçüşür yalnızca bir orantılı (doğru), bir kesite eklenebilir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

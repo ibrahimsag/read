@@ -1,20 +1,21 @@
-Commensurable magnitudes have to one another the ratio which (some) number (has) to (some) number.
+Ölçüşür büyüklükler birbirine (bir) sayının (bir) sayıya taşıdığı oranı taşır.
 
-Let {A magnitude} and {B magnitude} be commensurable magnitudes.
-I say that {A magnitude} has to {B magnitude} the ratio which (some) number (has) to (some) number.
+{A magnitude} ve {B magnitude} ölçüşür büyüklükler olsun.
+Diyorum ki {A magnitude}, {B magnitude}'ye (bir) sayının (bir) sayıya taşıdığı oranı taşır.
 
-For if {A magnitude} and {B magnitude} are commensurable (magnitudes) then some magnitude will measure them.
-Let it (so) measure (them), and let it be {C magnitude}.
-And as many times as {C magnitude} measures {A magnitude}, so many units let there be in {D magnitude}.
-And as many times as {C magnitude} measures {B magnitude}, so many units let there be in {E magnitude}.
+Çünkü eğer {A magnitude} ve {B magnitude} ölçüşür (büyüklükler) ise o zaman bir büyüklük onları ölçecektir.
+(Öyle) ölçmüş olsun ve {C magnitude} olsun.
+Ve {C magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {D magnitude}'de o kadar birim olsun.
+Ve {C magnitude}, {B magnitude}'yi kaç kez ölçüyorsa, {E magnitude}'de o kadar birim olsun.
 
-Therefore, since {C magnitude} measures {A magnitude} according to the units in {D magnitude}, and a unit also measures {D magnitude} according to the units in it, a unit thus measures the number {D magnitude} as many times as the magnitude {C magnitude} (measures) {A magnitude}.
-Thus, as {C magnitude} is to {A magnitude}, so a unit (is) to {D magnitude} [Def. 7.20].
-Thus, inversely, as {A magnitude} (is) to {C magnitude}, so {D magnitude} (is) to a unit [Prop. 5.7 corr.].
-Again, since {C magnitude} measures {B magnitude} according to the units in {E magnitude}, and a unit also measures {E magnitude} according to the units in it, a unit thus measures {E magnitude} the same number of times that {C magnitude} (measures) {B magnitude}.
-Thus, as {C magnitude} is to {B magnitude}, so a unit (is) to {E magnitude} [Def. 7.20].
-And it was also shown that as {A magnitude} (is) to {C magnitude}, so {D magnitude} (is) to a unit.
-Thus, via equality, as {A magnitude} is to {B magnitude}, so the number {D magnitude} (is) to the (number) {E magnitude} [Prop. 5.22].
+Bu nedenle, {C magnitude}, {A magnitude}'yı {D magnitude}'deki birimlere göre ölçtüğü ve bir birim de {D magnitude}'yi ondaki birimlere göre ölçtüğü için, böylece bir birim {D magnitude} sayısını, {C magnitude} büyüklüğünün {A magnitude}'yı (ölçtüğü) kadar ölçer.
+Böylece {C magnitude} {A magnitude}'ya nasılsa, bir birim {D magnitude}'ye (öyledir) [Tanım 7.20].
+Böylece, ters çevirerek, {A magnitude} {C magnitude}'ye nasılsa, (öyle) {D magnitude} bir birime(dir) [Önerme 5.7 ek sonucu].
+Tekrar, {C magnitude}, {B magnitude}'yi {E magnitude}'deki birimlere göre ölçtüğü ve bir birim de {E magnitude}'yi ondaki birimlere göre ölçtüğü için, böylece bir birim {E magnitude}'yi, {C magnitude}'nin {B magnitude}'yi (ölçtüğü) aynı sayıda ölçer.
+Böylece {C magnitude} {B magnitude}'ye nasılsa, bir birim {E magnitude}'ye (öyledir) [Tanım 7.20].
+Ve {A magnitude} {C magnitude}'ye nasılsa, (öyle) {D magnitude} bir birime(dir) (olduğu da gösterilmişti).
+Böylece, eşitlik aracılığıyla, {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} sayısı ({E magnitude}) sayısına (öyledir) [Önerme 5.22].
 
-Thus, the commensurable magnitudes {A magnitude} and {B magnitude} have to one another the ratio which the number {D magnitude} (has) to the number {E magnitude}.
-(Which is) the very thing it was required to show.
+Böylece ölçüşür büyüklükler {A magnitude} ve {B magnitude}, {D magnitude} sayısının {E magnitude} sayısına taşıdığı oranı birbirine taşır.
+(Gösterilmesi gereken tam olarak budur.)
+

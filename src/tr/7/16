@@ -1,17 +1,19 @@
-If two numbers multiplying one another make some (numbers) then the (numbers) generated from them will be equal to one another.
+     1→     1→Eğer iki sayı birbirini çarparsa, o zaman onlardan oluşan (sayılar) birbirine eşit olacaktır.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} iki sayı olsun.
+     4→     4→Ve {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluştursun ve {B magnitude}, {A magnitude}'yı çarparak {D magnitude}'yi oluştursun.
+     5→     5→Diyorum ki {C magnitude} {D magnitude}'ye eşittir.
+     6→     6→
+     7→     7→Çünkü {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, {B magnitude} böylece {C magnitude}'yi {A magnitude}'daki birimlere göre ölçer [Tanım 7.15].
+     8→     8→Ve {E magnitude} birimi de {A magnitude} sayısını içindeki birimlere göre ölçer.
+     9→     9→Böylece {E magnitude} birimi {A magnitude} sayısını {B magnitude}'nin {C magnitude}'yi (ölçtüğü) kadar kez ölçer.
+    10→    10→Böylece, değişimli olarak, {E magnitude} birimi {B magnitude} sayısını {A magnitude}'nın {C magnitude}'yi (ölçtüğü) kadar kez ölçer [Önerme 7.15].
+    11→    11→Yine, {B magnitude}, {A magnitude}'yı çarparak {D magnitude}'yi oluşturduğu için, {A magnitude} böylece {D magnitude}'yi {B magnitude}'deki birimlere göre ölçer [Tanım 7.15].
+    12→    12→Ve {E magnitude} birimi de {B magnitude}'yi içindeki birimlere göre ölçer.
+    13→    13→Böylece {E magnitude} birimi {B magnitude} sayısını {A magnitude}'nın {D magnitude}'yi (ölçtüğü) kadar kez ölçer.
+    14→    14→Ve {E magnitude} birimi {B magnitude} sayısını {A magnitude}'nın {C magnitude}'yi (ölçtüğü) kadar kez ölçüyordu.
+    15→    15→Böylece {A magnitude}, {C magnitude} ve {D magnitude}'nin her birini eşit sayıda ölçer.
+    16→    16→Böylece {C magnitude} {D magnitude}'ye eşittir.
+    17→    17→(Gösterilmesi gereken tam olarak budur.)
+    18→    18→
 
-Let {A magnitude} and {B magnitude} be two numbers.
-And let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}, and let {B magnitude} make {D magnitude} (by) multiplying {A magnitude}.
-I say that {C magnitude} is equal to {D magnitude}.
-
-For since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {B magnitude} thus measures {C magnitude} according to the units in {A magnitude} [Def. 7.15].
-And the unit {E magnitude} also measures the number {A magnitude} according to the units in it.
-Thus, the unit {E magnitude} measures the number {A magnitude} as many times as {B magnitude} (measures) {C magnitude}.
-Thus, alternately, the unit {E magnitude} measures the number {B magnitude} as many times as {A magnitude} (measures) {C magnitude} [Prop. 7.15].
-Again, since {B magnitude} has made {D magnitude} (by) multiplying {A magnitude}, {A magnitude} thus measures {D magnitude} according to the units in {B magnitude} [Def. 7.15].
-And the unit {E magnitude} also measures {B magnitude} according to the units in it.
-Thus, the unit {E magnitude} measures the number {B magnitude} as many times as {A magnitude} (measures) {D magnitude}.
-And the unit {E magnitude} was measuring the number {B magnitude} as many times as {A magnitude} (measures) {C magnitude}.
-Thus, {A magnitude} measures each of {C magnitude} and {D magnitude} an equal number of times.
-Thus, {C magnitude} is equal to {D magnitude}.
-(Which is) the very thing it was required to show.

@@ -1,19 +1,20 @@
-To find two straight-lines incommensurable with a given straight-line, the one (incommensurable) in length only, the other also (incommensurable) in square.
+Verilen bir doğruyla ölçüşmez iki doğru bulmak, biri yalnızca uzunlukta (ölçüşmez), diğeri karede de (ölçüşmez).
 
-Let {A magnitude} be the given straight-line.
-So it is required to find two straight-lines incommensurable with {A magnitude}, the one (incommensurable) in length only, the other also (incommensurable) in square.
+{A magnitude} verilen doğru olsun.
+Öyleyse {A magnitude} ile ölçüşmez iki doğru bulmak gereklidir, biri yalnızca uzunlukta (ölçüşmez), diğeri karede de (ölçüşmez).
 
-For let two numbers, {B magnitude} and {C magnitude}, not having to one another the ratio which (some) square number (has) to (some) square number---that is to say, not (being) similar plane (numbers)---have been taken.
-And let it be contrived that as {B magnitude} (is) to {C magnitude}, so the square on {A magnitude} (is) to the square on {D magnitude}.
-For we learned (how to do this) [Prop. 10.6 corr.].
-Thus, the (square) on {A magnitude} (is) commensurable with the (square) on {D magnitude} [Prop. 10.6].
-And since {B magnitude} does not have to {C magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {A magnitude} thus does not have to the (square) on {D magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {A magnitude} is incommensurable in length with {D magnitude} [Prop. 10.9].
-Let the (straight-line) {E magnitude} (which is) in mean proportion to {A magnitude} and {D magnitude} have been taken [Prop. 6.13].
-Thus, as {A magnitude} is to {D magnitude}, so the square on {A magnitude} (is) to the (square) on {E magnitude} [Def. 5.9].
-And {A magnitude} is incommensurable in length with {D magnitude}.
-Thus, the square on {A magnitude} is also incommensurable with the square on {E magnitude} [Prop. 10.11].
-Thus, {A magnitude} is incommensurable in square with {E magnitude}.
+Çünkü birbirine (bir) kare sayının (bir) kare sayıya taşıdığı oranı taşımayan --- yani benzer düzlem (sayılar) olmayan --- iki sayı, {B magnitude} ve {C magnitude}, alınmış olsun.
+Ve {B magnitude} {C magnitude}'ye nasılsa, {A magnitude}'nın üzerindeki karenin {D magnitude}'nin üzerindeki kareye (öyle olacak şekilde) ayarlanmış olsun.
+Çünkü (bunu nasıl yapacağımızı) öğrendik [Önerme 10.6 ek sonucu].
+Böylece {A magnitude}'nın (üzerindeki kare), {D magnitude}'nin (üzerindeki kareyle) ölçüşürdür [Önerme 10.6].
+Ve {B magnitude}, {C magnitude}'ye (bir) kare sayının (bir) kare sayıya taşıdığı oranı taşımadığı için, böylece {A magnitude}'nın (üzerindeki kare) de {D magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya taşıdığı oranı taşımaz.
+Böylece {A magnitude}, {D magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+{A magnitude} ve {D magnitude}'nin orantısal ortasında olan {E magnitude} (doğrusu) alınmış olsun [Önerme 6.13].
+Böylece {A magnitude} {D magnitude}'ye nasılsa, {A magnitude}'nın üzerindeki kare {E magnitude}'nin (üzerindeki kareye) (öyledir) [Tanım 5.9].
+Ve {A magnitude}, {D magnitude} ile uzunlukta ölçüşmezdir.
+Böylece {A magnitude}'nın üzerindeki kare de {E magnitude}'nin üzerindeki kareyle ölçüşmezdir [Önerme 10.11].
+Böylece {A magnitude}, {E magnitude} ile karede ölçüşmezdir.
 
-Thus, two straight-lines, {D magnitude} and {E magnitude}, (which are) incommensurable with the given straight-line {A magnitude}, have been found, the one, {D magnitude}, (incommensurable) in length only, the other, {E magnitude}, (incommensurable) in square, and, clearly, also in length.
-[(Which is) the very thing it was required to show.]
+Böylece verilen {A magnitude} doğrusuyla ölçüşmez iki doğru, {D magnitude} ve {E magnitude}, bulunmuştur, biri, {D magnitude}, yalnızca uzunlukta (ölçüşmez), diğeri, {E magnitude}, karede ve açıkça uzunlukta da (ölçüşmez).
+[(Gösterilmesi gereken tam olarak budur.)]
+

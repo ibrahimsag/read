@@ -1,30 +1,32 @@
-The square on a second bimedial (straight-line) applied to a rational (straight-line) produces as breadth a third binomial (straight-line).
+Bir ikinci iki-ortalı (doğrunun) üzerindeki kare, bir orantılı (doğruya) uygulandığında, genişlik olarak bir üçüncü iki-terimli (doğru) üretir.
 
-Let {AB magnitude} be a second bimedial (straight-line) having been divided into its (component) medial (straight-lines) at {C point}, such that {AC magnitude} is the greater segment.
-And let {DE line} be some rational (straight-line).
-And let the parallelogram {DF polygon}, equal to the (square) on {AB magnitude}, have been applied to {DE line}, producing {DG line} as breadth.
-I say that {DG line} is a third binomial (straight-line).
+{AB magnitude}, (bileşen) orta (doğrularına) {C point}'de bölünmüş bir ikinci iki-ortalı (doğru) olsun, öyle ki {AC magnitude} büyük parça (olsun).
+Ve {DE line} bir orantılı (doğru) olsun.
+Ve {AB magnitude}'nin (üzerindeki kareye) eşit {DF polygon} dikdörtgen paralelkenarı, genişlik olarak {DG line}'ı üreterek, {DE line}'a uygulanmış olsun.
+Diyorum ki {DG line} bir üçüncü iki-terimli (doğrudur).
 
-Let the same construction be made as that shown previously.
-And since {AB magnitude} is a second bimedial (straight-line), having been divided at {C point}, {AC magnitude} and {CB magnitude} are thus medial (straight-lines) commensurable in square only, and containing a medial (area) [Prop. 10.38].
-Hence, the sum of the (squares) on {AC magnitude} and {CB magnitude} is also medial [Props. 10.15, 10.23 corr.].
-And it is equal to {DL polygon}.
-Thus, {DL polygon} (is) also medial.
-And it is applied to the rational (straight-line) {DE line}.
-{MD line} is thus also rational, and incommensurable in length with {DE line} [Prop. 10.22].
-So, for the same (reasons), {MG line} is also rational, and incommensurable in length with {ML line}---that is to say, with {DE line}.
-Thus, {DM line} and {MG line} are each rational, and incommensurable in length with {DE line}.
-And since {AC magnitude} is incommensurable in length with {CB magnitude}, and as {AC magnitude} (is) to {CB magnitude}, so the (square) on {AC magnitude} (is) to the (rectangle contained) by {ACB magnitude} [Prop. 10.21 lem.], the (square) on {AC magnitude} (is) also incommensurable with the (rectangle contained) by {ACB magnitude} [Prop. 10.11].
-And hence the sum of the (squares) on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {ACB magnitude}---that is to say, {DL polygon} with {MF polygon} [Props. 10.12, 10.13].
-Hence, {DM line} is also incommensurable (in length) with {MG line} [Props. 6.1, 10.11].
-And they are rational.
-{DG line} is thus a binomial (straight-line) [Prop. 10.36].
-[So] we must show that (it is) also a third (binomial straight-line).
+Daha önce gösterilen ile aynı inşa yapılmış olsun.
+Ve {AB magnitude}, {C point}'de bölünmüş bir ikinci iki-ortalı (doğru) olduğu için, böylece {AC magnitude} ve {CB magnitude}, bir orta (alan) içeren, yalnızca karede ölçüşür orta (doğrulardır) [Önerme 10.38].
+Dolayısıyla {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin) toplamı da ortadır [Önermeler 10.15, 10.23 ek sonucu].
+Ve o, {DL polygon}'a eşittir.
+Böylece {DL polygon} de ortadır.
+Ve o, orantılı (doğru) {DE line}'a uygulanmıştır.
+Böylece {MD line} de orantılıdır ve {DE line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Öyleyse, aynı (nedenlerden dolayı), {MG line} de orantılıdır ve {ML line} ile --- yani {DE line} ile --- uzunlukta ölçüşmezdir.
+Böylece {DM line} ve {MG line}'ın her biri orantılıdır ve {DE line} ile uzunlukta ölçüşmezdir.
+Ve {AC magnitude}, {CB magnitude} ile uzunlukta ölçüşmez olduğu ve {AC magnitude}, {CB magnitude}'ye nasılsa, {AC magnitude}'nin (üzerindeki kare), {ACB magnitude} tarafından (içerilen dikdörtgene) (öyle) olduğu için [Önerme 10.21 yardımcı önermesi], {AC magnitude}'nin (üzerindeki kare) de {ACB magnitude} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.11].
+Ve dolayısıyla {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin) toplamı, {ACB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile --- yani {DL polygon}, {MF polygon} ile --- ölçüşmezdir [Önermeler 10.12, 10.13].
+Dolayısıyla {DM line} de {MG line} ile (uzunlukta) ölçüşmezdir [Önermeler 6.1, 10.11].
+Ve onlar orantılıdır.
+Böylece {DG line} bir iki-terimli (doğrudur) [Önerme 10.36].
+[Öyleyse,] (onun) ayrıca bir üçüncü (iki-terimli doğru) olduğunu göstermeliyiz.
 
-So, similarly to the previous (propositions), we can conclude that {DM line} is greater than {MG line}, and {DK line} (is) commensurable (in length) with {KM line}.
-And the (rectangle contained) by {DKM line} is equal to the (square) on {MN line}.
-Thus, the square on {DM line} is greater than (the square on) {MG line} by the (square) on (some straight-line) commensurable (in length) with ({DM line}) [Prop. 10.17].
-And neither of {DM line} and {MG line} is commensurable in length with {DE line}.
+Öyleyse, önceki (önermelere) benzer şekilde, {DM line}'ın {MG line}'dan büyük olduğu ve {DK line}'ın {KM line} ile (uzunlukta) ölçüşür olduğu sonucuna varabiliriz.
+Ve {DKM line} tarafından (içerilen dikdörtgen), {MN line}'ın (üzerindeki kareye) eşittir.
+Böylece {DM line}'ın üzerindeki kare, {MG line}'ın (üzerindeki kareden), ({DM line}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür [Önerme 10.17].
+Ve {DM line} ve {MG line}'ın hiçbiri, {DE line} ile uzunlukta ölçüşür değildir.
 
-Thus, {DG line} is a third binomial (straight-line) [Def. 10.7].
-(Which is) the very thing it was required to show.
+Böylece {DG line} bir üçüncü iki-terimli (doğrudur) [Tanım 10.7].
+(Gösterilmesi gereken tam olarak budur.)
+
+

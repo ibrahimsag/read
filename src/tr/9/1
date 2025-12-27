@@ -1,14 +1,17 @@
-If two similar plane numbers make some (number by) multiplying one another then the created (number) will be square.
-
-Let {A magnitude} and {B magnitude} be two similar plane numbers, and let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.
-I say that {C magnitude} is square.
-
-For let {A magnitude} make {D magnitude} (by) multiplying itself.
-{D magnitude} is thus square.
-Therefore, since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].
-And since {A magnitude} and {B magnitude} are similar plane numbers, one number thus falls (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.18].
-And if (some) numbers fall between two numbers in continued proportion then, as many (numbers) as fall in (between) them (in continued proportion), so many also (fall) in (between numbers) having the same ratio (as them in continued proportion) [Prop. 8.8].
-And hence one number falls (between) {D magnitude} and {C magnitude} in mean proportion.
-And {D magnitude} is square.
-Thus, {C magnitude} (is) also square [Prop. 8.22].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki benzer düzlem sayı birbirini çarparak bir (sayı) oluşturursa o zaman oluşturulan (sayı) kare olacaktır.
+     2→     2→     2→
+     3→     3→     3→{A magnitude} ve {B magnitude} iki benzer düzlem sayı olsun ve {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluştursun.
+     4→     4→     4→Diyorum ki {C magnitude} karedir.
+     5→     5→     5→
+     6→     6→     6→Çünkü {A magnitude} kendini çarparak {D magnitude}'yi oluştursun.
+     7→     7→     7→{D magnitude} böylece karedir.
+     8→     8→     8→Bu nedenle, {A magnitude} kendini çarparak {D magnitude}'yi oluşturduğu ve {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, böylece {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {C magnitude}'ye (öyledir) [Önerme 7.17].
+     9→     9→     9→Ve {A magnitude} ve {B magnitude} benzer düzlem sayılar olduğu için, {A magnitude} ve {B magnitude} arasına orantısal ortada bir sayı düşer [Önerme 8.18].
+    10→    10→    10→Ve eğer (bazı) sayılar iki sayı arasına sürekli orantılı olarak düşerse o zaman aralarına (sürekli orantılı olarak) kaç (sayı) düşüyorsa, kendileriyle aynı oranda olan (sayıların) arasına da (sürekli orantılı olarak) o kadar (sayı) düşer [Önerme 8.8].
+    11→    11→    11→Ve dolayısıyla {D magnitude} ve {C magnitude} arasına da orantısal ortada bir sayı düşer.
+    12→    12→    12→Ve {D magnitude} karedir.
+    13→    13→    13→Böylece {C magnitude} de karedir [Önerme 8.22].
+    14→    14→    14→(Gösterilmesi gereken tam olarak budur.)
+    15→    15→    15→
+    16→
+    17→

@@ -1,55 +1,57 @@
-Similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.
+     1→Benzer çokgenler, bütünlere (orantılı olarak) karşılık gelen eşit sayıda benzer üçgene bölünebilir ve bir çokgen (diğer) çokgene, bir karşılık gelen kenarın bir karşılık gelen kenara (sahip olduğu) karesinin oranına sahiptir.
+     2→
+     3→{ABCDE polygon} ve {FGHKL polygon} benzer çokgenler olsun ve {AB line} {FG line}'ye karşılık gelsin.
+     4→Diyorum ki {ABCDE polygon} ve {FGHKL polygon} çokgenleri bütünlere (orantılı olarak) karşılık gelen eşit sayıda benzer üçgene bölünebilir ve {ABCDE polygon} çokgeni {FGHKL polygon} çokgenine, {AB line} {FG line}'ye (sahip olduğu) karesinin oranına sahiptir.
+     5→
+     6→{BE line}, {EC line}, {GL line} ve {LH line} birleştirilmiş olsun.
+     7→
+     8→Ve {ABCDE polygon} çokgeni {FGHKL polygon} çokgenine benzer olduğu için, {BAE angle} açısı {GFL angle} açısına eşittir ve {BA line} {AE line}'ye nasılsa, {GF line} {FL line}'ye öyledir [Tanım 6.1].
+     9→Bu nedenle, {ABE polygon} ve {FGL polygon} bir açısı bir açıya eşit olan ve eşit açıların çevresindeki kenarları orantılı olan iki üçgen olduğu için, {ABE polygon} üçgeni böylece {FGL polygon} üçgenine eşaçılıdır [Önerme 6.6].
+    10→Dolayısıyla, (onlar) da benzerdir [Önerme 6.4, Tanım 6.1].
+    11→Böylece {ABE angle} açısı (açı) {FGL angle}'ye eşittir.
+    12→Ve bütün (açı) {ABC angle}, çokgenlerin benzerliğinden dolayı, bütün (açı) {FGH angle}'ye eşittir.
+    13→Böylece kalan {EBC angle} açısı {LGH angle}'ye eşittir.
+    14→Ve {ABE polygon} ve {FGL polygon} üçgenlerinin benzerliğinden dolayı {EB line} {BA line}'ya nasılsa {LG line} {GF line}'ye öyle olduğu için, ama ayrıca çokgenlerin benzerliğinden dolayı {AB line} {BC line}'ye nasılsa {FG line} {GH line}'ye öyle olduğu için, böylece eşitlik yoluyla {EB line} {BC line}'ye nasılsa {LG line} {GH line}'ye öyledir [Önerme 5.22] ve eşit açıların, {EBC angle} ve {LGH angle}'nin, çevresindeki kenarlar orantılıdır.
+    15→Böylece {EBC polygon} üçgeni {LGH polygon} üçgenine eşaçılıdır [Önerme 6.6].
+    16→Dolayısıyla, {EBC polygon} üçgeni {LGH polygon} üçgenine de benzerdir [Önerme 6.4, Tanım 6.1].
+    17→Öyleyse, aynı (nedenlerle), {ECD polygon} üçgeni de {LHK polygon} üçgenine benzerdir.
+    18→Böylece, benzer çokgenler {ABCDE polygon} ve {FGHKL polygon} eşit sayıda benzer üçgene bölünmüştür.
+    19→
+    20→Ayrıca diyorum ki (üçgenler) bütünlere (orantılı olarak) karşılık gelir.
+    21→Yani, üçgenler orantılıdır: {ABE polygon}, {EBC polygon} ve {ECD polygon} önceki (büyüklükler)dir ve onların (ilişkili) sonraki (büyüklükleri) sırasıyla {FGL polygon}, {LGH polygon} ve {LHK polygon}'dur.
+    22→Ayrıca (diyorum ki) {ABCDE polygon} çokgeni {FGHKL polygon} çokgenine, bir karşılık gelen kenarın bir karşılık gelen kenara (sahip olduğu) karesinin oranına sahiptir---yani (kenar) {AB line} {FG line}'ye (sahip olduğu).
+    23→
+    24→Çünkü {AC line} ve {FH line} birleştirilmiş olsun.
+    25→Ve {ABC angle} açısı {FGH angle}'ye eşit olduğu ve çokgenlerin benzerliğinden dolayı {AB line} {BC line}'ye nasılsa {FG line} {GH line}'ye öyle olduğu için, {ABC polygon} üçgeni {FGH polygon} üçgenine eşaçılıdır [Önerme 6.6].
+    26→Böylece {BAC angle} açısı {GFH angle}'ye eşittir ve (açı) {BCA angle} {GHF angle}'ye (eşittir).
+    27→Ve {BAM angle} açısı {GFN angle}'ye eşit olduğu ve (açı) {ABM angle} de {FGN angle}'ye eşit olduğu için (daha önce bakınız), kalan (açı) {AMB angle} böylece kalan (açı) {FNG angle}'ye de eşittir [Önerme 1.32].
+    28→Böylece {ABM polygon} üçgeni {FGN polygon} üçgenine eşaçılıdır.
+    29→Öyleyse, benzer şekilde, {BMC polygon} üçgeninin de {GNH polygon} üçgenine eşaçılı olduğunu gösterebiliriz.
+    30→Böylece orantılı olarak {AM line} {MB line}'ye nasılsa, {FN line} {NG line}'ye öyledir ve {BM line} {MC line}'ye nasılsa, {GN line} {NH line}'ye öyledir [Önerme 6.4].
+    31→Dolayısıyla, ayrıca, eşitlik yoluyla {AM line} {MC line}'ye nasılsa, {FN line} {NH line}'ye öyledir [Önerme 5.22].
+    32→Ama {AM line} {MC line}'ye nasılsa, [üçgen] {ABM polygon} {MBC polygon}'a öyledir ve {AME polygon} {EMC polygon}'a (öyledir).
+    33→Çünkü onlar birbirlerine tabanları gibidir [Önerme 6.1].
+    34→Ve önceki (büyüklüklerden) biri sonraki (büyüklüklerden) birine nasılsa, önceklerin tümü de sonrakilerin tümüne öyledir [Önerme 5.12].
+    35→Böylece {AMB polygon} üçgeni {BMC polygon}'a nasılsa, (üçgen) {ABE polygon} {CBE polygon}'a öyledir.
+    36→Ama (üçgen) {AMB polygon} {BMC polygon}'a nasılsa, {AM line} {MC line}'ye öyledir.
+    37→Böylece ayrıca {AM line} {MC line}'ye nasılsa, {ABE polygon} üçgeni {EBC polygon} üçgenine öyledir.
+    38→Ve öyleyse, aynı (nedenlerle), {FN line} {NH line}'ye nasılsa, {FGL polygon} üçgeni {GLH polygon} üçgenine öyledir.
+    39→Ve {AM line} {MC line}'ye nasılsa, {FN line} {NH line}'ye öyledir.
+    40→Böylece ayrıca {ABE polygon} üçgeni {BEC polygon} üçgenine nasılsa, {FGL polygon} üçgeni {GLH polygon} üçgenine öyledir ve değişimli olarak {ABE polygon} üçgeni {FGL polygon} üçgenine nasılsa, {BEC polygon} üçgeni {GLH polygon} üçgenine öyledir [Önerme 5.16].
+    41→Öyleyse, benzer şekilde, {BD line} ve {GK line} birleştirilerek, {BEC polygon} üçgeni {LGH polygon} üçgenine nasılsa, {ECD polygon} üçgeni {LHK polygon} üçgenine öyle olduğunu da gösterebiliriz.
+    42→Ve {ABE polygon} üçgeni {FGL polygon} üçgenine nasılsa (üçgen) {EBC polygon} {LGH polygon}'a öyle olduğu ve dahası (üçgen) {ECD polygon} {LHK polygon}'a (öyle olduğu) ve ayrıca önceki (büyüklüklerden) biri sonrakilerden birine nasılsa önceklerin tümü de sonrakilerin tümüne öyle olduğu için [Önerme 5.12], böylece {ABE polygon} üçgeni {FGL polygon} üçgenine nasılsa, {ABCDE polygon} çokgeni {FGHKL polygon} çokgenine öyledir.
+    43→Ama {ABE polygon} üçgeni, karşılık gelen kenar {AB line} karşılık gelen kenar {FG line}'ye (sahip olduğu) karesinin oranına {FGL polygon} üçgenine sahiptir.
+    44→Çünkü benzer üçgenler karşılık gelen kenarların karesinin oranındadır [Önerme 6.14].
+    45→Böylece {ABCDE polygon} çokgeni de, karşılık gelen kenar {AB line} karşılık gelen kenar {FG line}'ye (sahip olduğu) karesinin oranına {FGHKL polygon} çokgenine sahiptir.
+    46→
+    47→Böylece, benzer çokgenler, bütünlere (orantılı olarak) karşılık gelen eşit sayıda benzer üçgene bölünebilir ve bir çokgen (diğer) çokgene, bir karşılık gelen kenarın bir karşılık gelen kenara (sahip olduğu) karesinin oranına sahiptir.
+    48→[(Gösterilmesi gereken tam olarak budur)].
+    49→
+    50→Sonuç
+    51→
+    52→Ve aynı şekilde, [benzer] dörtgenler için de karşılık gelen kenarlarının karesinin oranında oldukları gösterilebilir.
+    53→Ve bu üçgenler için de gösterilmişti.
+    54→Dolayısıyla, genel olarak, benzer doğrusal şekiller de birbirlerine karşılık gelen kenarlarının karesinin oranındadır.
+    55→(Gösterilmesi gereken tam olarak budur.)
+    56→
 
-Let {ABCDE polygon} and {FGHKL polygon} be similar polygons, and let {AB line} correspond to {FG line}.
-I say that polygons {ABCDE polygon} and {FGHKL polygon} can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and (that) polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to that {AB line} (has) to {FG line}.
-
-Let {BE line}, {EC line}, {GL line}, and {LH line} have been joined.
-
-And since polygon {ABCDE polygon} is similar to polygon {FGHKL polygon}, angle {BAE angle} is equal to angle {GFL angle}, and as {BA line} is to {AE line}, so {GF line} (is) to {FL line} [Def. 6.1].
-Therefore, since {ABE polygon} and {FGL polygon} are two triangles having one angle equal to one angle and the sides about the equal angles proportional, triangle {ABE polygon} is thus equiangular to triangle {FGL polygon} [Prop. 6.6].
-Hence, (they are) also similar [Prop. 6.4, Def. 6.1].
-Thus, angle {ABE angle} is equal to (angle) {FGL angle}.
-And the whole (angle) {ABC angle} is equal to the whole (angle) {FGH angle}, on account of the similarity of the polygons.
-Thus, the remaining angle {EBC angle} is equal to {LGH angle}.
-And since, on account of the similarity of triangles {ABE polygon} and {FGL polygon}, as {EB line} is to {BA line}, so {LG line} (is) to {GF line}, but also, on account of the similarity of the polygons, as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, thus, via equality, as {EB line} is to {BC line}, so {LG line} (is) to {GH line} [Prop. 5.22], and the sides about the equal angles, {EBC angle} and {LGH angle}, are proportional.
-Thus, triangle {EBC polygon} is equiangular to triangle {LGH polygon} [Prop. 6.6].
-Hence, triangle {EBC polygon} is also similar to triangle {LGH polygon} [Prop. 6.4, Def. 6.1].
-So, for the same (reasons), triangle {ECD polygon} is also similar to triangle {LHK polygon}.
-Thus, the similar polygons {ABCDE polygon} and {FGHKL polygon} have been divided into equal numbers of similar triangles.
-
-I also say that (the triangles) correspond (in proportion) to the wholes.
-That is to say, the triangles are proportional: {ABE polygon}, {EBC polygon}, and {ECD polygon} are the leading (magnitudes), and their (associated) following (magnitudes are) {FGL polygon}, {LGH polygon}, and {LHK polygon} (respectively).
-(I) also (say) that polygon {ABCDE polygon} has a squared ratio to polygon {FGHKL polygon} with respect to (that) a corresponding side (has) to a corresponding side---that is to say, (side) {AB line} to {FG line}.
-
-For let {AC line} and {FH line} have been joined.
-And since angle {ABC angle} is equal to {FGH angle}, and as {AB line} is to {BC line}, so {FG line} (is) to {GH line}, on account of the similarity of the polygons, triangle {ABC polygon} is equiangular to triangle {FGH polygon} [Prop. 6.6].
-Thus, angle {BAC angle} is equal to {GFH angle}, and (angle) {BCA angle} to {GHF angle}.
-And since angle {BAM angle} is equal to {GFN angle}, and (angle) {ABM angle} is also equal to {FGN angle} (see earlier), the remaining (angle) {AMB angle} is thus also equal to the remaining (angle) {FNG angle} [Prop. 1.32].
-Thus, triangle {ABM polygon} is equiangular to triangle {FGN polygon}.
-So, similarly, we can show that triangle {BMC polygon} is also equiangular to triangle {GNH polygon}.
-Thus, proportionally, as {AM line} is to {MB line}, so {FN line} (is) to {NG line}, and as {BM line} (is) to {MC line}, so {GN line} (is) to {NH line} [Prop. 6.4].
-Hence, also, via equality, as {AM line} (is) to {MC line}, so {FN line} (is) to {NH line} [Prop. 5.22].
-But, as {AM line} (is) to {MC line}, so [triangle] {ABM polygon} is to {MBC polygon}, and {AME polygon} to {EMC polygon}.
-For they are to one another as their bases [Prop. 6.1].
-And as one of the leading (magnitudes) is to one of the following (magnitudes), so (the sum of) all the leading (magnitudes) is to (the sum of) all the following (magnitudes) [Prop. 5.12].
-Thus, as triangle {AMB polygon} (is) to {BMC polygon}, so (triangle) {ABE polygon} (is) to {CBE polygon}.
-But, as (triangle) {AMB polygon} (is) to {BMC polygon}, so {AM line} (is) to {MC line}.
-Thus, also, as {AM line} (is) to {MC line}, so triangle {ABE polygon} (is) to triangle {EBC polygon}.
-And so, for the same (reasons), as {FN line} (is) to {NH line}, so triangle {FGL polygon} (is) to triangle {GLH polygon}.
-And as {AM line} is to {MC line}, so {FN line} (is) to {NH line}.
-Thus, also, as triangle {ABE polygon} (is) to triangle {BEC polygon}, so triangle {FGL polygon} (is) to triangle {GLH polygon}, and, alternately, as triangle {ABE polygon} (is) to triangle {FGL polygon}, so triangle {BEC polygon} (is) to triangle {GLH polygon} [Prop. 5.16].
-So, similarly, we can also show, by joining {BD line} and {GK line}, that as triangle {BEC polygon} (is) to triangle {LGH polygon}, so triangle {ECD polygon} (is) to triangle {LHK polygon}.
-And since as triangle {ABE polygon} is to triangle {FGL polygon}, so (triangle) {EBC polygon} (is) to {LGH polygon}, and, further, (triangle) {ECD polygon} to {LHK polygon}, and also as one of the leading (magnitudes is) to one of the following, so (the sum of) all the leading (magnitudes is) to (the sum of) all the following [Prop. 5.12], thus as triangle {ABE polygon} is to triangle {FGL polygon}, so polygon {ABCDE polygon} (is) to polygon {FGHKL polygon}.
-But, triangle {ABE polygon} has a squared ratio to triangle {FGL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.
-For, similar triangles are in the squared ratio of corresponding sides [Prop. 6.14].
-Thus, polygon {ABCDE polygon} also has a squared ratio to polygon {FGHKL polygon} with respect to (that) the corresponding side {AB line} (has) to the corresponding side {FG line}.
-
-Thus, similar polygons can be divided into equal numbers of similar triangles corresponding (in proportion) to the wholes, and one polygon has to the (other) polygon a squared ratio with respect to (that) a corresponding side (has) to a corresponding side.
-[(Which is) the very thing it was required to show].
-
-Corollary
-
-And, in the same manner, it can also be shown for [similar] quadrilaterals that they are in the squared ratio of (their) corresponding sides.
-And it was also shown for triangles.
-Hence, in general, similar rectilinear figures are also to one another in the squared ratio of (their) corresponding sides.
-(Which is) the very thing it was required to show.

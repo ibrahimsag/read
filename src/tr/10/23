@@ -1,24 +1,26 @@
-A (straight-line) commensurable with a medial (straight-line) is medial.
+Bir orta (doğru) ile ölçüşür (bir doğru) ortadır.
 
-Let {A magnitude} be a medial (straight-line), and let {B magnitude} be commensurable with {A magnitude}.
-I say that {B magnitude} is also a medial (staight-line).
+{A magnitude} bir orta (doğru) olsun ve {B magnitude}, {A magnitude} ile ölçüşür olsun.
+Diyorum ki {B magnitude} de bir orta (doğrudur).
 
-Let the rational (straight-line) {CD line} be set out, and let the rectangular area {CE polygon}, equal to the (square) on {A magnitude}, have been applied to {CD line}, producing {ED line} as width.
-{ED line} is thus rational, and incommensurable in length with {CD line} [Prop. 10.22].
-And let the rectangular area {CF polygon}, equal to the (square) on {B magnitude}, have been applied to {CD line}, producing {DF line} as width.
-Therefore, since {A magnitude} is commensurable with {B magnitude}, the (square) on {A magnitude} is also commensurable with the (square) on {B magnitude}.
-But, {EC polygon} is equal to the (square) on {A magnitude}, and {CF polygon} is equal to the (square) on {B magnitude}.
-Thus, {EC polygon} is commensurable with {CF polygon}.
-And as {EC polygon} is to {CF polygon}, so {ED line} (is) to {DF line} [Prop. 6.1].
-Thus, {ED line} is commensurable in length with {DF line} [Prop. 10.11].
-And {ED line} is rational, and incommensurable in length with {CD line}.
-{DF line} is thus also rational [Def. 10.3], and incommensurable in length with {DC line} [Prop. 10.13].
-Thus, {CD line} and {DF line} are rational, and commensurable in square only.
-And the square-root of a (rectangle contained) by rational (straight-lines which are) commensurable in square only is medial [Prop. 10.21].
-Thus, the square-root of the (rectangle contained) by {CD line} and {DF line} is medial.
-And the square on {B magnitude} is equal to the (rectangle contained) by {CD line} and {DF line}.
-Thus, {B magnitude} is a medial (straight-line).
+Orantılı (doğru) {CD line} konmuş olsun ve {A magnitude}'nın (üzerindeki kareye) eşit {CE polygon} dikdörtgen alanı, genişlik olarak {ED line}'ı oluşturarak, {CD line}'a uygulanmış olsun.
+Böylece {ED line} orantılıdır ve {CD line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {B magnitude}'nin (üzerindeki kareye) eşit {CF polygon} dikdörtgen alanı, genişlik olarak {DF line}'ı oluşturarak, {CD line}'a uygulanmış olsun.
+Bu nedenle, {A magnitude}, {B magnitude} ile ölçüşür olduğu için, {A magnitude}'nın (üzerindeki kare) de {B magnitude}'nin (üzerindeki kare) ile ölçüşürdür.
+Ama {EC polygon}, {A magnitude}'nın (üzerindeki kareye) eşittir ve {CF polygon}, {B magnitude}'nin (üzerindeki kareye) eşittir.
+Böylece {EC polygon}, {CF polygon} ile ölçüşürdür.
+Ve {EC polygon}, {CF polygon}'a nasılsa, {ED line} {DF line}'a (öyledir) [Önerme 6.1].
+Böylece {ED line}, {DF line} ile uzunlukta ölçüşürdür [Önerme 10.11].
+Ve {ED line} orantılıdır ve {CD line} ile uzunlukta ölçüşmezdir.
+Böylece {DF line} de orantılıdır [Tanım 10.3] ve {DC line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Böylece {CD line} ve {DF line} orantılıdır ve yalnızca karede ölçüşürdür.
+Ve yalnızca karede ölçüşür orantılı (doğrular) tarafından (içerilen bir dikdörtgenin) karekökü ortadır [Önerme 10.21].
+Böylece {CD line} ve {DF line} tarafından (içerilen dikdörtgenin) karekökü ortadır.
+Ve {B magnitude}'nin üzerindeki kare, {CD line} ve {DF line} tarafından (içerilen dikdörtgene) eşittir.
+Böylece {B magnitude} bir orta (doğrudur).
 
-Corollary
+Ek Sonuç
 
-And (it is) clear, from this, that an (area) commensurable with a medial area is medial.
+Ve bundan, bir orta alan ile ölçüşür (bir alanın) orta olduğu açıktır.
+
+

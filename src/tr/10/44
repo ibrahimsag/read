@@ -1,41 +1,43 @@
-A second bimedial (straight-line) can be divided (into its component terms) at one point only.
+Bir ikinci iki-ortalı (doğru), (bileşen terimlerine) yalnızca bir noktada bölünebilir.
 
-Let {AB magnitude} be a second bimedial (straight-line) which has been divided at {C point}, so that {AC magnitude} and {BC magnitude} are medial (straight-lines), commensurable in square only, (and) containing a medial (area) [Prop. 10.38].
-So, (it is) clear that {C point} is not (located) at the point of bisection, since ({AC magnitude} and {BC magnitude}) are not commensurable in length.
-I say that {AB magnitude} cannot be (so) divided at another point.
+{AB magnitude}, {C point}'de bölünmüş bir ikinci iki-ortalı (doğru) olsun, öyle ki {AC magnitude} ve {BC magnitude}, yalnızca karede ölçüşür, bir orta (alan) içeren orta (doğrular olsun) [Önerme 10.38].
+Öyleyse, {C point}'in ikiye bölme noktasında (bulunmadığı) açıktır, çünkü ({AC magnitude} ve {BC magnitude}) uzunlukta ölçüşür değildir.
+Diyorum ki {AB magnitude} başka bir noktada (öyle) bölünemez.
 
-For, if possible, let it also have been (so) divided at {D point}, so that {AC magnitude} is not the same as {DB magnitude}, but {AC magnitude} (is), by hypothesis, greater.
-So, (it is) clear that (the sum of) the (squares) on {AD magnitude} and {DB magnitude} is also less than (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, as we showed above [Prop. 10.41 lem.].
-And {AD magnitude} and {DB magnitude} are medial (straight-lines), commensurable in square only, (and) containing a medial (area).
-And let the rational (straight-line) {EF line} be laid down.
-And let the rectangular parallelogram {EK polygon}, equal to the (square) on {AB magnitude}, have been applied to {EF line}.
-And let {EG polygon}, equal to (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, have been cut off (from {EK polygon}).
-Thus, the remainder, {HK polygon}, is equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 2.4].
-So, again, let {EL polygon}, equal to (the sum of) the (squares) on {AD magnitude} and {DB magnitude}---which was shown (to be) less than (the sum of) the (squares) on {AC magnitude} and {CB magnitude}---have been cut off (from {EK polygon}).
-And, thus, the remainder, {MK polygon}, (is) equal to twice the (rectangle contained) by {AD magnitude} and {DB magnitude}.
-And since (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is medial, {EG polygon} (is) thus [also] medial.
-And it is applied to the rational (straight-line) {EF line}.
-Thus, {EH line} is rational, and incommensurable in length with {EF line} [Prop. 10.22].
-So, for the same (reasons), {HN line} is also rational, and incommensurable in length with {EF line}.
-And since {AC magnitude} and {CB magnitude} are medial (straight-lines which are) commensurable in square only, {AC magnitude} is thus incommensurable in length with {CB magnitude}.
-And as {AC magnitude} (is) to {CB magnitude}, so the (square) on {AC magnitude} (is) to the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.21 lem.].
-Thus, the (square) on {AC magnitude} is incommensurable with the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.11].
-But, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is commensurable with the (square) on {AC magnitude}.
-For, {AC magnitude} and {CB magnitude} are commensurable in square [Prop. 10.15].
-And twice the (rectangle contained) by {AC magnitude} and {CB magnitude} is commensurable with the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.6].
-And thus (the sum of) the squares on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {AC magnitude} and {CB magnitude} [Prop. 10.13].
-But, {EG polygon} is equal to (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, and {HK polygon} equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude}.
-Thus, {EG polygon} is polygon incommensurable with {HK polygon}.
-Hence, {EH line} is also incommensurable in length with {HN line} [Props. 6.1, 10.11].
-And (they are) rational (straight-lines).
-Thus, {EH line} and {HN line} are rational (straight-lines which are) commensurable in square only.
-And if two rational (straight-lines which are) commensurable in square only are added together then the whole (straight-line) is that irrational called binomial [Prop. 10.36].
-Thus, {EN line} is a binomial (straightline) which has been divided (into its component terms) at {H point}.
-So, according to the same (reasoning), {EM line} and {MN line} can be shown (to be) rational (straight-lines which are) commensurable in square only.
-And {EN line} will (thus) be a binomial (straight-line) which has been divided (into its component terms) at the different (points) {H point} and {M point} (which is absurd [Prop. 10.42]).
-And {EH line} is not the same as {MN line}, since (the sum of) the (squares) on {AC magnitude} and {CB magnitude} is greater than (the sum of) the (squares) on {AD magnitude} and {DB magnitude}.
-But, (the sum of) the (squares) on {AD magnitude} and {DB magnitude} is greater than twice the (rectangle contained) by {AD magnitude} and {DB magnitude} [Prop. 10.59 lem.].
-Thus, (the sum of) the (squares) on {AC magnitude} and {CB magnitude}---that is to say, {EG polygon}---is also much greater than twice the (rectangle contained) by {AD magnitude} and {DB magnitude}---that is to say, {MK polygon}.
-Hence, {EH line} is also greater than {MN line} [Prop. 6.1].
-Thus, {EH line} is not the same as {MN line}.
-(Which is) the very thing it was required to show.
+Çünkü, mümkünse, {D point}'de de (öyle) bölünmüş olsun, öyle ki {AC magnitude}, {DB magnitude} ile aynı olmasın, ama {AC magnitude}, varsayıma göre, büyük (olsun).
+Öyleyse, yukarıda gösterdiğimiz gibi, {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamının) da {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamından) küçük olduğu açıktır [Önerme 10.41 yardımcı önermesi].
+Ve {AD magnitude} ve {DB magnitude}, yalnızca karede ölçüşür, bir orta (alan) içeren orta (doğrulardır).
+Ve orantılı (doğru) {EF line} konmuş olsun.
+Ve {AB magnitude}'nin (üzerindeki kareye) eşit {EK polygon} dikdörtgen paralelkenarı, {EF line}'a uygulanmış olsun.
+Ve ({EK polygon}'dan) {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamına) eşit {EG polygon} kesilmiş olsun.
+Böylece kalan {HK polygon}, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşittir [Önerme 2.4].
+Öyleyse, tekrar, ({EK polygon}'dan) {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamına) --- {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamından) küçük olduğu gösterilen --- eşit {EL polygon} kesilmiş olsun.
+Ve böylece kalan {MK polygon}, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşittir.
+Ve {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı) orta olduğu için, böylece {EG polygon} [de] ortadır.
+Ve orantılı (doğru) {EF line}'a uygulanmıştır.
+Böylece {EH line} orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Öyleyse, aynı (nedenlerden dolayı), {HN line} de orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir.
+Ve {AC magnitude} ve {CB magnitude} yalnızca karede ölçüşür orta (doğrular) olduğu için, böylece {AC magnitude}, {CB magnitude} ile uzunlukta ölçüşmezdir.
+Ve {AC magnitude}, {CB magnitude}'ye nasılsa, {AC magnitude}'nin (üzerindeki kare), {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgene) (öyledir) [Önerme 10.21 yardımcı önermesi].
+Böylece {AC magnitude}'nin (üzerindeki kare), {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.11].
+Ama {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AC magnitude}'nin (üzerindeki kare) ile ölçüşürdür.
+Çünkü {AC magnitude} ve {CB magnitude} karede ölçüşürdür [Önerme 10.15].
+Ve {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgen) ile ölçüşürdür [Önerme 10.6].
+Ve böylece {AC magnitude} ve {CB magnitude}'nin üzerindeki karelerin (toplamı), {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmezdir [Önerme 10.13].
+Ama {EG polygon}, {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamına) ve {HK polygon}, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşittir.
+Böylece {EG polygon}, {HK polygon} ile ölçüşmezdir.
+Bundan dolayı {EH line} de {HN line} ile uzunlukta ölçüşmezdir [Önermeler 6.1, 10.11].
+Ve (onlar) orantılı (doğrulardır).
+Böylece {EH line} ve {HN line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Ve eğer yalnızca karede ölçüşür iki orantılı (doğru) birlikte toplanırsa o zaman bütün (doğru), iki-terimli denilen o orantısız (doğrudur) [Önerme 10.36].
+Böylece {EN line}, {H point}'de (bileşen terimlerine) bölünmüş bir iki-terimli (doğrudur).
+Öyleyse, aynı (akıl yürütmeye göre), {EM line} ve {MN line}'ın yalnızca karede ölçüşür orantılı (doğrular) olduğu gösterilebilir.
+Ve {EN line} (böylece) farklı (noktalar), {H point} ve {M point}'de, (bileşen terimlerine) bölünmüş bir iki-terimli (doğru) olacaktır (ki bu saçmadır [Önerme 10.42]).
+Ve {EH line}, {MN line} ile aynı değildir, çünkü {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamından) büyüktür.
+Ama {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katından büyüktür [Önerme 10.59 yardımcı önermesi].
+Böylece {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı) --- yani {EG polygon} --- de {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katından --- yani {MK polygon}'dan --- çok büyüktür.
+Bundan dolayı {EH line} de {MN line}'dan büyüktür [Önerme 6.1].
+Böylece {EH line}, {MN line} ile aynı değildir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

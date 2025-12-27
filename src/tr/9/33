@@ -1,13 +1,14 @@
-If a number has an odd half then it is an even-time-odd (number) only.
+Eğer bir sayının tek yarısı varsa o zaman yalnızca çift-tek (sayıdır).
 
-For let the number {A magnitude} have an odd half.
-I say that {A magnitude} is an even-times-odd (number) only.
+Çünkü {A magnitude} sayısının tek yarısı olsun.
+Diyorum ki {A magnitude} yalnızca çift-tek (sayıdır).
 
-In fact, (it is) clear that ({A magnitude}) is an even-times-odd (number).
-For its half, being odd, measures it an even number of times [Def. 7.9].
-So I also say that (it is an even-times-odd number) only.
-For if {A magnitude} is also an even-times-even (number) then it will be measured by an even (number) according to an even number [Def. 7.8].
-Hence, its half will also be measured by an even number, (despite) being odd.
-The very thing is absurd.
-Thus, {A magnitude} is an even-times-odd (number) only.
-(Which is) the very thing it was required to show.
+Aslında ({A magnitude})'nın çift-tek (sayı) olduğu açıktır.
+Çünkü tek olan yarısı, onu çift sayıda ölçer [Tanım 7.9].
+Öyleyse yalnızca (çift-tek sayı olduğunu) da diyorum.
+Çünkü eğer {A magnitude} aynı zamanda çift-çift (sayı) ise o zaman bir çift (sayı) tarafından çift bir sayıya göre ölçülecektir [Tanım 7.8].
+Dolayısıyla tek olmasına (rağmen) yarısı da bir çift sayı tarafından ölçülecektir.
+Şeyin kendisi saçmadır.
+Böylece {A magnitude} yalnızca çift-tek (sayıdır).
+(Gösterilmesi gereken tam olarak budur.)
+

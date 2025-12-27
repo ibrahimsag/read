@@ -1,14 +1,16 @@
-If two numbers are prime to one another then a number measuring one of them will be prime to the remaining (one).
+     1→     1→Eğer iki sayı birbirine asalsa o zaman birini ölçen bir sayı kalan (sayıya) da asal olacaktır.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} birbirine asal iki sayı olsun ve bir {C magnitude} sayısı {A magnitude}'yı ölçsün.
+     4→     4→Diyorum ki {C magnitude} ve {B magnitude} de birbirine asaldır.
+     5→     5→
+     6→     6→Çünkü eğer {C magnitude} ve {B magnitude} birbirine asal değilse o zaman [bir] sayı {C magnitude} ve {B magnitude}'yi ölçecektir.
+     7→     7→(Öyle) ölçsün ve {D magnitude} olsun.
+     8→     8→{D magnitude} {C magnitude}'yi ölçtüğü ve {C magnitude} {A magnitude}'yı ölçtüğü için, {D magnitude} böylece {A magnitude}'yı da ölçer.
+     9→     9→Ve ({D magnitude}) {B magnitude}'yi de ölçer.
+    10→    10→Böylece {D magnitude}, birbirine asal olan {A magnitude} ve {B magnitude}'yi ölçer.
+    11→    11→Ki bu imkansızdır.
+    12→    12→Böylece bir sayı {C magnitude} ve {B magnitude} sayılarını ölçmez.
+    13→    13→Böylece {C magnitude} ve {B magnitude} birbirine asaldır.
+    14→    14→(Gösterilmesi gereken tam olarak budur.)
+    15→    15→
 
-Let {A magnitude} and {B magnitude} be two numbers (which are) prime to one another, and let some number {C magnitude} measure {A magnitude}.
-I say that {C magnitude} and {B magnitude} are also prime to one another.
-
-For if {C magnitude} and {B magnitude} are not prime to one another then [some] number will measure {C magnitude} and {B magnitude}.
-Let it (so) measure (them), and let it be {D magnitude}.
-Since {D magnitude} measures {C magnitude}, and {C magnitude} measures {A magnitude}, {D magnitude} thus also measures {A magnitude}.
-And ({D magnitude}) also measures {B magnitude}.
-Thus, {D magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.
-The very thing is impossible.
-Thus, some number does not measure the numbers {C magnitude} and {B magnitude}.
-Thus, {C magnitude} and {B magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

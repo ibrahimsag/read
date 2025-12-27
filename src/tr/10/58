@@ -1,23 +1,25 @@
-If an area is contained by a rational (straight-line) and a fifth binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called the square-root of a rational plus a medial (area).
+Eğer bir alan, bir orantılı (doğru) ve bir beşinci iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü, bir orantılı artı bir orta (alanın) karekökü denilen o orantısız (doğrudur).
 
-For let the area {AC polygon} be contained by the rational (straight-line) {AB line} and the fifth binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, such that {AE line} is the greater term.
-[So] I say that the square-root of area {AC polygon} is the irrational (straight-line which is) called the square-root of a rational plus a medial (area).
+Çünkü {AC polygon} alanı, orantılı (doğru) {AB line} ve (bileşen) terimlerine {E point}'de bölünmüş beşinci iki-terimli (doğru) {AD line} tarafından --- {AE line} büyük terim olacak şekilde --- içerilmiş olsun.
+[Öyleyse] diyorum ki {AC polygon} alanının karekökü, bir orantılı artı bir orta (alanın) karekökü denilen o orantısız (doğrudur).
 
-For let the same construction be made as that shown previously.
-So, (it is) clear that {MO line} is the square-root of area {AC polygon}.
-So, we must show that {MO line} is the square-root of a rational plus a medial (area).
+Çünkü daha önce gösterilen ile aynı inşa yapılmış olsun.
+Öyleyse, {MO line}'ın {AC polygon} alanının karekökü olduğu açıktır.
+Öyleyse, {MO line}'ın bir orantılı artı bir orta (alanın) karekökü olduğunu göstermeliyiz.
 
-For since {AG line} is incommensurable (in length) with {GE line} [Prop. 10.18], {AH polygon} is thus also incommensurable with {HE polygon}---that is to say, the (square) on {MN line} with the (square) on {NO line} [Props. 6.1, 10.11].
-Thus, {MN line} and {NO line} are incommensurable in square.
-And since {AD line} is a fifth binomial (straight-line), and {ED line} [is] its lesser segment, {ED line} (is) thus commensurable in length with {AB line} [Def. 10.9].
-But, {AE line} is incommensurable (in length) with {ED line}.
-Thus, {AB line} is also incommensurable in length with {AE line} [{BA line} and {AE line} are rational (straight-lines which are) commensurable in square only] [Prop. 10.13].
-Thus, {AK polygon} ---that is to say, the sum of the (squares) on {MN line} and {NO line}---is medial [Prop. 10.21].
-And since {DE line} is commensurable in length with {AB line}---that is to say, with {EK line}---but, {DE line} is commensurable (in length) with {EF line}, {EF line} is thus also commensurable (in length) with {EK line} [Prop. 10.12].
-And {EK line} (is) rational.
-Thus, {EL polygon}---that is to say, {MR polygon}---that is to say, the (rectangle contained) by {MN line} and {NO line}---(is) also rational [Prop. 10.19].
-{MN line} and {NO line} are thus (straight-lines which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational.
+Çünkü {AG line}, {GE line} ile (uzunlukta) ölçüşmez olduğu için [Önerme 10.18], böylece {AH polygon} da {HE polygon} ile --- yani {MN line}'ın (üzerindeki kare), {NO line}'ın (üzerindeki kare) ile --- ölçüşmezdir [Önermeler 6.1, 10.11].
+Böylece {MN line} ve {NO line} karede ölçüşmezdir.
+Ve {AD line} bir beşinci iki-terimli (doğru) ve {ED line} [de] onun küçük parçası olduğu için, böylece {ED line}, {AB line} ile uzunlukta ölçüşürdür [Tanım 10.9].
+Ama {AE line}, {ED line} ile (uzunlukta) ölçüşmezdir.
+Böylece {AB line} de {AE line} ile uzunlukta ölçüşmezdir [{BA line} ve {AE line} yalnızca karede ölçüşür orantılı (doğrulardır)] [Önerme 10.13].
+Böylece {AK polygon} --- yani {MN line} ve {NO line}'ın (üzerindeki karelerin) toplamı --- ortadır [Önerme 10.21].
+Ve {DE line}, {AB line} ile --- yani {EK line} ile --- uzunlukta ölçüşür ve {DE line}, {EF line} ile (uzunlukta) ölçüşür olduğu için, böylece {EF line} de {EK line} ile (uzunlukta) ölçüşürdür [Önerme 10.12].
+Ve {EK line} orantılıdır.
+Böylece {EL polygon} --- yani {MR polygon} --- yani {MN line} ve {NO line} tarafından (içerilen dikdörtgen) --- de orantılıdır [Önerme 10.19].
+Böylece {MN line} ve {NO line}, üzerlerindeki karelerin toplamını orta ve onlar tarafından (içerilen dikdörtgeni) orantılı yapan, karede ölçüşmez (doğrulardır).
 
-Thus, {MO line} is the square-root of a rational plus a medial (area) [Prop. 10.40].
-And (it is) the square-root of area {AC polygon}.
-(Which is) the very thing it was required to show.
+Böylece {MO line} bir orantılı artı bir orta (alanın) karekökü(dür) [Önerme 10.40].
+Ve (o) {AC polygon} alanının karekökü(dür).
+(Gösterilmesi gereken tam olarak budur.)
+
+

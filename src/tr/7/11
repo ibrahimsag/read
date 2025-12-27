@@ -1,9 +1,11 @@
-If as the whole (of a number) is to the whole (of another), so a (part) taken away (is) to a (part) taken away, then the remainder will also be to the remainder as the whole (is) to the whole.
+     1→     1→Eğer bütün (bir sayı) bütün (bir başkasına) nasılsa, çıkarılan (parça) çıkarılan (parçaya) öyleyse, o zaman kalan da kalana bütünün bütüne olduğu gibi olacaktır.
+     2→     2→
+     3→     3→Bütün {AB magnitude} bütün {CD magnitude}'ye, çıkarılan (parça) {AE magnitude}'nin çıkarılan (parça) {CF magnitude}'ye olduğu gibi olsun.
+     4→     4→Diyorum ki kalan {EB magnitude} kalan {FD magnitude}'ye bütün {AB magnitude}'nin bütün {CD magnitude}'ye olduğu gibidir.
+     5→     5→
+     6→     6→(Çünkü) {AB magnitude} {CD magnitude}'ye nasılsa, {AE magnitude} {CF magnitude}'ye öyle olduğu için, böylece {AB magnitude} {CD magnitude}'nin hangi parçası veya parçalarıysa, {AE magnitude} de {CF magnitude}'nin aynı parçası veya aynı parçalarıdır [Tanım 7.20].
+     7→     7→Böylece kalan {EB magnitude} de kalan {FD magnitude}'nin, {AB magnitude}'nin {CD magnitude}'nin (parçası veya parçaları olduğu) aynı parçası veya parçalarıdır [Önermeler 7.7, 7.8].
+     8→     8→Böylece {EB magnitude} {FD magnitude}'ye nasılsa, {AB magnitude} {CD magnitude}'ye öyledir [Tanım 7.20].
+     9→     9→(Gösterilmesi gereken tam olarak budur.)
+    10→    10→
 
-Let the whole {AB magnitude} be to the whole {CD magnitude} as the (part) taken away {AE magnitude} (is) to the (part) taken away {CF magnitude}.
-I say that the remainder {EB magnitude} is to the remainder {FD magnitude} as the whole {AB magnitude} (is) to the whole {CD magnitude}.
-
-(For) since as {AB magnitude} is to {CD magnitude}, so {AE magnitude} (is) to {CF magnitude}, thus which(ever) part, or parts, {AB magnitude} is of {CD magnitude}, {AE magnitude} is also the same part, or the same parts, of {CF magnitude} [Def. 7.20].
-Thus, the remainder {EB magnitude} is also the same part, or parts, of the remainder {FD magnitude} that {AB magnitude} (is) of {CD magnitude} [Props. 7.7, 7.8].
-Thus, as {EB magnitude} is to {FD magnitude}, so {AB magnitude} (is) to {CD magnitude} [Def. 7.20].
-(Which is) the very thing it was required to show.

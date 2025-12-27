@@ -1,10 +1,11 @@
-If an even (number) is subtracted from an(other) even number then the remainder will be even.
+Eğer bir çift (sayı) bir (başka) çift sayıdan çıkarılırsa o zaman kalan çift olacaktır.
 
-For let the even (number) {BC magnitude} have been subtracted from the even number {AB magnitude}.
-I say that the remainder {CA magnitude} is even.
+Çünkü {BC magnitude} çift (sayısı) {AB magnitude} çift sayısından çıkarılmış olsun.
+Diyorum ki kalan {CA magnitude} çifttir.
 
-For since {AB magnitude} is even, it has a half part [Def. 7.6].
-So, for the same (reasons), {BC magnitude} also has a half part.
-And hence the remainder [{CA magnitude} has a half part].
-[Thus,] {AC magnitude} is even.
-(Which is) the very thing it was required to show.
+Çünkü {AB magnitude} çift olduğu için, bir yarım parçası vardır [Tanım 7.6].
+Öyleyse, aynı nedenlerle {BC magnitude}'nin de bir yarım parçası vardır.
+Ve dolayısıyla kalan [{CA magnitude}'nin bir yarım parçası vardır].
+[Böylece] {AC magnitude} çifttir.
+(Gösterilmesi gereken tam olarak budur.)
+

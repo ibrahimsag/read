@@ -1,25 +1,27 @@
-A binomial (straight-line) can be divided into its (component) terms at one point only.
+Bir iki-terimli (doğru), (bileşen) terimlerine yalnızca bir noktada bölünebilir.
 
-Let {AB magnitude} be a binomial (straight-line) which has been divided into its (component) terms at {C point}.
-{AC magnitude} and {CB magnitude} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
-I say that {AB magnitude} cannot be divided at another point into two rational (straight-lines which are) commensurable in square only.
+{AB magnitude}, {C point}'de (bileşen) terimlerine bölünmüş bir iki-terimli (doğru) olsun.
+Böylece {AC magnitude} ve {CB magnitude} yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.36].
+Diyorum ki {AB magnitude} başka bir noktada yalnızca karede ölçüşür iki orantılı (doğruya) bölünemez.
 
-For, if possible, let it also have been divided at {D point}, such that {AD magnitude} and {DB magnitude} are also rational (straight-lines which are) commensurable in square only.
-So, (it is) clear that {AC magnitude} is not the same as {DB magnitude}.
-For, if possible, let it be (the same).
-So, {AD magnitude} will also be the same as {CB magnitude}.
-And as {AC magnitude} will be to {CB magnitude}, so {BD magnitude} (will be) to {DA magnitude}.
-And {AB magnitude} will (thus) also be divided at {D point} in the same (manner) as the division at {C point}.
-The very opposite was assumed.
-Thus, {AC magnitude} is not the same as {DB magnitude}.
-So, on account of this, points {C point} and {D point} are not equally far from the point of bisection.
-Thus, by whatever (amount the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by this (same amount)---on account of both (the sum of) the (squares) on {AC magnitude} and {CB magnitude}, plus twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, and (the sum of) the (squares) on {AD magnitude} and {DB magnitude}, plus twice the (rectangle contained) by {AD magnitude} and {DB magnitude}, being equal to the (square) on {AB magnitude} [Prop. 2.4].
-But, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by a rational (area).
-For (they are) both rational (areas).
-Thus, twice the (rectangle contained) by {AD magnitude} and {DB magnitude} also differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area, despite both) being medial (areas) [Prop. 10.21].
-The very thing is absurd.
-For a medial (area) cannot exceed a medial (area) by a rational (area) [Prop. 10.26].
+Çünkü, mümkünse, {D point}'de de bölünmüş olsun, öyle ki {AD magnitude} ve {DB magnitude} de yalnızca karede ölçüşür orantılı (doğrular olsun).
+Öyleyse, {AC magnitude}'nin {DB magnitude} ile aynı olmadığı açıktır.
+Çünkü, mümkünse, (aynı) olsun.
+Öyleyse {AD magnitude} de {CB magnitude} ile aynı olacaktır.
+Ve {AC magnitude}, {CB magnitude}'ye nasılsa, {BD magnitude} {DA magnitude}'ya (öyle olacaktır).
+Ve böylece {AB magnitude}, {D point}'de {C point}'deki bölünme ile aynı (şekilde) bölünmüş olacaktır.
+Tam tersi varsayılmıştı.
+Böylece {AC magnitude}, {DB magnitude} ile aynı değildir.
+Öyleyse, bundan dolayı, {C point} ve {D point} noktaları ikiye bölme noktasından eşit uzaklıkta değildir.
+Böylece {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamından) ne kadar farklı ise, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı da {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katından bu (aynı kadar) farklıdır --- hem {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamının), artı {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katının, hem de {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamının), artı {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katının, {AB magnitude}'nin (üzerindeki kareye) eşit olması nedeniyle [Önerme 2.4].
+Ama {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamından) bir orantılı (alan) kadar farklıdır.
+Çünkü (her ikisi de) orantılı (alanlardır).
+Böylece {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı da {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katından, (her ikisi de) orta (alanlar) olmalarına rağmen, bir orantılı (alan) kadar farklıdır [Önerme 10.21].
+Şeyin kendisi saçmadır.
+Çünkü bir orta (alan), bir orta (alanı) bir orantılı (alan) kadar aşamaz [Önerme 10.26].
 
-Thus, a binomial (straight-line) cannot be divided (into its component terms) at different points.
-Thus, (it can be so divided) at one point only.
-(Which is) the very thing it was required to show.
+Böylece bir iki-terimli (doğru), farklı noktalarda (bileşen terimlerine) bölünemez.
+Böylece (öyle) yalnızca bir noktada bölünebilir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

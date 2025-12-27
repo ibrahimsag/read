@@ -1,32 +1,34 @@
-If some straight-line is drawn parallel to one of the sides of a triangle then it will cut the (other) sides of the triangle proportionally.
-And if (two of) the sides of a triangle are cut proportionally then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.
+     1→Eğer bir üçgenin kenarlarından birine paralel bir doğru parçası çizilirse, o zaman üçgenin (diğer) kenarlarını orantılı olarak kesecektir.
+     2→Ve eğer bir üçgenin (iki) kenarı orantılı olarak kesilirse, o zaman kesim (noktalarını) birleştiren doğru parçası üçgenin kalan kenarına paralel olacaktır.
+     3→
+     4→Çünkü {DE line}, {ABC polygon} üçgeninin kenarlarından biri olan {BC line}'ye paralel olarak çizilmiş olsun.
+     5→Diyorum ki {BD line} {DA line}'ya nasılsa, {CE line} {EA line}'ya öyledir.
+     6→
+     7→Çünkü {BE line} ve {CD line} birleştirilmiş olsun.
+     8→
+     9→Böylece {BDE polygon} üçgeni {CDE polygon} üçgenine eşittir.
+    10→Çünkü onlar aynı taban {DE line} üzerinde ve aynı paraleller {DE line} ve {BC line} arasındadır [Önerme 1.38].
+    11→Ve {ADE polygon} başka bir üçgendir.
+    12→Ve eşit (büyüklükler) aynı (büyüklüğe) aynı orana sahiptir [Önerme 5.7].
+    13→Böylece {BDE polygon} üçgeni [üçgen] {ADE polygon}'a nasılsa, {CDE polygon} üçgeni üçgen {ADE polygon}'a öyledir.
+    14→Ama {BDE polygon} üçgeni {ADE polygon} üçgenine nasılsa, {BD line} {DA line}'ya öyledir.
+    15→Çünkü aynı yüksekliğe sahip olarak---yani {E point}'den {AB line}'ye dik olarak çizilen (doğru parçası)---birbirlerine tabanları gibidir [Önerme 6.1].
+    16→Öyleyse, aynı (nedenlerle), {CDE polygon} üçgeni {ADE polygon}'a nasılsa, {CE line} {EA line}'ya öyledir.
+    17→Ve böylece, {BD line} {DA line}'ya nasılsa, {CE line} {EA line}'ya öyledir [Önerme 5.11].
+    18→
+    19→Ve öyleyse, {ABC polygon} üçgeninin kenarları {AB line} ve {AC line} orantılı olarak kesilmiş olsun, (öyle ki) {BD line} {DA line}'ya nasılsa, {CE line} {EA line}'ya öyle olsun.
+    20→Ve {DE line} birleştirilmiş olsun.
+    21→Diyorum ki {DE line} {BC line}'ye paraleldir.
+    22→
+    23→Çünkü aynı inşayla, {BD line} {DA line}'ya nasılsa {CE line} {EA line}'ya öyle olduğu için, ama {BD line} {DA line}'ya nasılsa {BDE polygon} üçgeni {ADE polygon} üçgenine öyledir ve {CE line} {EA line}'ya nasılsa {CDE polygon} üçgeni {ADE polygon} üçgenine öyledir [Önerme 6.1], böylece ayrıca {BDE polygon} üçgeni {ADE polygon} üçgenine nasılsa, {CDE polygon} üçgeni {ADE polygon} üçgenine öyledir [Önerme 5.11].
+    24→Böylece {BDE polygon} ve {CDE polygon} üçgenlerinin her biri {ADE polygon}'a aynı orana sahiptir.
+    25→Böylece {BDE polygon} üçgeni {CDE polygon} üçgenine eşittir [Önerme 5.9].
+    26→Ve onlar aynı taban {DE line} üzerindedir.
+    27→Ve aynı taban üzerinde olan eşit üçgenler, aynı paraleller arasındadır da [Önerme 1.39].
+    28→Böylece {DE line} {BC line}'ye paraleldir.
+    29→
+    30→Böylece, eğer bir üçgenin kenarlarından birine paralel bir doğru parçası çizilirse, o zaman üçgenin (diğer) kenarlarını orantılı olarak kesecektir.
+    31→Ve eğer bir üçgenin (iki) kenarı orantılı olarak kesilirse, o zaman kesim (noktalarını) birleştiren doğru parçası üçgenin kalan kenarına paralel olacaktır.
+    32→(Gösterilmesi gereken tam olarak budur.)
+    33→
 
-For let {DE line} have been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}.
-I say that as {BD line} is to {DA line}, so {CE line} (is) to {EA line}.
-
-For let {BE line} and {CD line} have been joined.
-
-Thus, triangle {BDE polygon} is equal to triangle {CDE polygon}.
-For they are on the same base {DE line} and between the same parallels {DE line} and {BC line} [Prop. 1.38].
-And {ADE polygon} is some other triangle.
-And equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7].
-Thus, as triangle {BDE polygon} is to [triangle] {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon}.
-But, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so (is) {BD line} to {DA line}.
-For, having the same height---(namely), the (straight-line) drawn from {E point} perpendicular to {AB line}--- they are to one another as their bases [Prop. 6.1].
-So, for the same (reasons), as triangle {CDE polygon} (is) to {ADE polygon}, so {CE line} (is) to {EA line}.
-And, thus, as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line} [Prop. 5.11].
-
-And so, let the sides {AB line} and {AC line} of triangle {ABC polygon} have been cut proportionally (such that) as {BD line} (is) to {DA line}, so {CE line} (is) to {EA line}.
-And let {DE line} have been joined.
-I say that {DE line} is parallel to {BC line}.
-
-For, by the same construction, since as {BD line} is to {DA line}, so {CE line} (is) to {EA line}, but as {BD line} (is) to {DA line}, so triangle {BDE polygon} (is) to triangle {ADE polygon}, and as {CE line} (is) to {EA line}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 6.1], thus, also, as triangle {BDE polygon} (is) to triangle {ADE polygon}, so triangle {CDE polygon} (is) to triangle {ADE polygon} [Prop. 5.11].
-Thus, triangles {BDE polygon} and {CDE polygon} each have the same ratio to {ADE polygon}.
-Thus, triangle {BDE polygon} is equal to triangle {CDE polygon} [Prop. 5.9].
-And they are on the same base {DE line}.
-And equal triangles, which are also on the same base, are also between the same parallels [Prop. 1.39].
-Thus, {DE line} is parallel to {BC line}.
-
-Thus, if some straight-line is drawn parallel to one of the sides of a triangle, then it will cut the (other) sides of the triangle proportionally.
-And if (two of) the sides of a triangle are cut proportionally, then the straight-line joining the cutting (points) will be parallel to the remaining side of the triangle.
-(Which is) the very thing it was required to show.

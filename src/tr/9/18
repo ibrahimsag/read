@@ -1,30 +1,31 @@
-For two given numbers, to investigate whether it is possible to find a third (number) proportional to them.
+Verilen iki sayı için, onlara orantılı üçüncü bir (sayı) bulmanın mümkün olup olmadığını araştırmak.
 
-Let {A magnitude} and {B magnitude} be the two given numbers.
-And let it be required to investigate whether it is possible to find a third (number) proportional to them.
+{A magnitude} ve {B magnitude} verilen iki sayı olsun.
+Ve onlara orantılı üçüncü bir (sayı) bulmanın mümkün olup olmadığını araştırmak gerekli olsun.
 
-So {A magnitude} and {B magnitude} are either prime to one another, or not.
-And if they are prime to one another then it has (already) been show that it is impossible to find a third (number) proportional to them [Prop. 9.16].
+Öyleyse {A magnitude} ve {B magnitude} ya birbirine asaldır ya da değildir.
+Ve eğer birbirine asal iseler o zaman onlara orantılı üçüncü bir (sayı) bulmanın olanaksız olduğu zaten gösterilmiştir [Önerme 9.16].
 
-And so let {A magnitude} and {B magnitude} not be prime to one another.
-And let {B magnitude} make {C magnitude} (by) multiplying itself.
-So {A magnitude} either measures, or does not measure, {C magnitude}.
-Let it first of all measure ({C magnitude}) according to {D magnitude}.
-Thus, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.
-But, in fact, {B magnitude} has also made {C magnitude} (by) multiplying itself.
-Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude}.
-Thus, as {A magnitude} is to {B magnitude}, (so) {B magnitude} (is) to {D magnitude} [Prop. 7.19].
-Thus, a third number has been found proportional to {A magnitude}, {B magnitude}, (namely) {D magnitude}.
+Ve öyleyse {A magnitude} ve {B magnitude} birbirine asal olmasın.
+Ve {B magnitude} kendini çarparak {C magnitude}'yi oluştursun.
+Öyleyse {A magnitude} ya {C magnitude}'yi ölçer ya da ölçmez.
+Önce ({C magnitude}'yi) {D magnitude}'ye göre ölçmüş olsun.
+Böylece {A magnitude}, {D magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur.
+Ama aslında {B magnitude} de kendini çarparak {C magnitude}'yi oluşturmuştur.
+Böylece {A magnitude} (ile) {D magnitude}'nin (çarpımından) oluşturulan (sayı), {B magnitude}'nin karesine eşittir.
+Böylece {A magnitude} {B magnitude}'ye nasılsa, (öyle) {B magnitude} {D magnitude}'ye(dir) [Önerme 7.19].
+Böylece {A magnitude}, {B magnitude}'ye orantılı üçüncü bir sayı, (yani) {D magnitude}, bulunmuştur.
 
-And so let {A magnitude} not measure {C magnitude}.
-I say that it is impossible to find a third number proportional to {A magnitude}, {B magnitude}.
-For, if possible, let it have been found, (and let it be) {D magnitude}.
-Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to the (square) on {B magnitude} [Prop. 7.19].
-And the (square) on {B magnitude} is {C magnitude}.
-Thus, the (number created) from (multiplying) {A magnitude}, {D magnitude} is equal to {C magnitude}.
-Hence, {A magnitude} has made {C magnitude} (by) multiplying {D magnitude}.
-Thus, {A magnitude} measures {C magnitude} according to {D magnitude}.
-But ({A magnitude}) was, in fact, also assumed (to be) not measuring ({C magnitude}).
-The very thing (is) absurd.
-Thus, it is not possible to find a third number proportional to {A magnitude}, {B magnitude} when {A magnitude} does not measure {C magnitude}.
-(Which is) the very thing it was required to show.
+Ve öyleyse {A magnitude}, {C magnitude}'yi ölçmesin.
+Diyorum ki {A magnitude}, {B magnitude}'ye orantılı üçüncü bir sayı bulmak olanaksızdır.
+Çünkü, mümkünse, bulunmuş olsun (ve {D magnitude} olsun).
+Böylece {A magnitude} (ile) {D magnitude}'nin (çarpımından) oluşturulan (sayı), {B magnitude}'nin karesine eşittir [Önerme 7.19].
+Ve {B magnitude}'nin karesi {C magnitude}'dir.
+Böylece {A magnitude} (ile) {D magnitude}'nin (çarpımından) oluşturulan (sayı), {C magnitude}'ye eşittir.
+Dolayısıyla {A magnitude}, {D magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur.
+Böylece {A magnitude}, {C magnitude}'yi {D magnitude}'ye göre ölçer.
+Ama ({A magnitude})'nın aslında ({C magnitude}'yi) ölçmediği de varsayılmıştı.
+Şeyin kendisi saçmadır.
+Böylece {A magnitude}, {C magnitude}'yi ölçmediğinde {A magnitude}, {B magnitude}'ye orantılı üçüncü bir sayı bulmak mümkün değildir.
+(Gösterilmesi gereken tam olarak budur.)
+

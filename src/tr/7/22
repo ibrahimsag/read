@@ -1,19 +1,21 @@
-The least numbers of those (numbers) having the same ratio as them are prime to one another.
+     1→     1→Kendileriyle aynı oranda olan (sayıların) en küçükleri birbirine asaldır.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} kendileriyle aynı oranda olan (sayıların) en küçükleri olsun.
+     4→     4→Diyorum ki {A magnitude} ve {B magnitude} birbirine asaldır.
+     5→     5→
+     6→     6→Çünkü eğer birbirine asal değillerse o zaman bir sayı onları ölçecektir.
+     7→     7→(Öyle) ölçsün ve {C magnitude} olsun.
+     8→     8→Ve {C magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {D magnitude}'de o kadar birim olsun.
+     9→     9→Ve {C magnitude}, {B magnitude}'yi kaç kez ölçüyorsa, {E magnitude}'de o kadar birim olsun.
+    10→    10→
+    11→    11→{C magnitude}, {A magnitude}'yı {D magnitude}'deki birimlere göre ölçtüğü için, {C magnitude} böylece {D magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur [Tanım 7.15].
+    12→    12→Öyle ki, aynı (nedenlerle), {C magnitude}, {E magnitude}'yi çarparak {B magnitude}'yi de oluşturmuştur.
+    13→    13→Öyleyse {C magnitude} sayısı, {D magnitude} ve {E magnitude} iki sayısını (sırasıyla) çarparak {A magnitude} ve {B magnitude}'yi oluşturmuştur.
+    14→    14→Böylece {D magnitude} {E magnitude}'ye nasılsa, {A magnitude} {B magnitude}'ye öyledir [Önerme 7.17].
+    15→    15→Böylece {D magnitude} ve {E magnitude}, {A magnitude} ve {B magnitude} ile aynı orandadır, onlardan küçük olmalarına rağmen.
+    16→    16→Ki bu imkansızdır.
+    17→    17→Böylece bir sayı {A magnitude} ve {B magnitude} sayılarını ölçmez.
+    18→    18→Böylece {A magnitude} ve {B magnitude} birbirine asaldır.
+    19→    19→(Gösterilmesi gereken tam olarak budur.)
+    20→    20→
 
-Let {A magnitude} and {B magnitude} be the least numbers of those (numbers) having the same ratio as them.
-I say that {A magnitude} and {B magnitude} are prime to one another.
-
-For if they are not prime to one another then some number will measure them.
-Let it (so measure them), and let it be {C magnitude}.
-And as many times as {C magnitude} measures {A magnitude}, so many units let there be in {D magnitude}.
-And as many times as {C magnitude} measures {B magnitude}, so many units let there be in {E magnitude}.
-
-Since {C magnitude} measures {A magnitude} according to the units in {D magnitude}, {C magnitude} has thus made {A magnitude} (by) multiplying {D magnitude} [Def. 7.15].
-So, for the same (reasons), {C magnitude} has also made {B magnitude} (by) multiplying {E magnitude}.
-So the number {C magnitude} has made {A magnitude} and {B magnitude} (by) multiplying the two numbers {D magnitude} and {E magnitude} (respectively).
-Thus, as {D magnitude} is to {E magnitude}, so {A magnitude} (is) to {B magnitude} [Prop. 7.17].
-Thus, {D magnitude} and {E magnitude} are in the same ratio as {A magnitude} and {B magnitude}, being less than them.
-The very thing is impossible.
-Thus, some number does not measure the numbers {A magnitude} and {B magnitude}.
-Thus, {A magnitude} and {B magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

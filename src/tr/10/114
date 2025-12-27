@@ -1,33 +1,35 @@
-If an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome then the square-root of the area is a rational (straight-line).
+Eğer bir alan, bir kesit ve terimleri kesitin terimleri ile ölçüşür ve aynı oranda olan bir iki-terimli tarafından içerilirse o zaman alanın karekökü bir orantılı (doğrudur).
 
-For let an area, the (rectangle contained) by {AB magnitude} and {CD magnitude}, have been contained by the apotome {AB magnitude}, and the binomial {CD magnitude}, of which let the greater term be {CE magnitude}.
-And let the terms of the binomial, {CE magnitude} and {ED magnitude}, be commensurable with the terms of the apotome, {AF magnitude} and {FB magnitude} (respectively), and in the same ratio.
-And let the square-root of the (rectangle contained) by {AB magnitude} and {CD magnitude} be {G magnitude}.
-I say that {G magnitude} is a rational (straight-line).
+Çünkü bir alan, {AB magnitude} ve {CD magnitude} tarafından (içerilen dikdörtgen), büyük terimi {CE magnitude} olan, kesit {AB magnitude} ve iki-terimli {CD magnitude} tarafından içerilmiş olsun.
+Ve iki-terimlinin terimleri {CE magnitude} ve {ED magnitude}, kesitin terimleri {AF magnitude} ve {FB magnitude} ile (sırasıyla) ölçüşür ve aynı oranda olsun.
+Ve {AB magnitude} ve {CD magnitude} tarafından (içerilen dikdörtgenin) karekökü {G magnitude} olsun.
+Diyorum ki {G magnitude} bir orantılı (doğrudur).
 
-For let the rational (straight-line) {H magnitude} be laid down.
-And let (some rectangle), equal to the (square) on {H magnitude}, have been applied to {CD magnitude}, producing {KL magnitude} as breadth.
-Thus, {KL magnitude} is an apotome, of which let the terms, {KM magnitude} and {ML magnitude}, be commensurable with the terms of the binomial, {CE magnitude} and {ED magnitude} (respectively), and in the same ratio [Prop. 10.112].
-But, {CE magnitude} and {ED magnitude} are also commensurable with {AF magnitude} and {FB magnitude} (respectively), and in the same ratio.
-Thus, as {AF magnitude} is to {FB magnitude}, so {KM magnitude} (is) to {ML magnitude}.
-Thus, alternately, as {AF magnitude} is to {KM magnitude}, so {BF magnitude} (is) to {LM magnitude} [Prop. 5.16].
-Thus, the remainder {AB magnitude} is also to the remainder {KL magnitude} as {AF magnitude} (is) to {KM magnitude} [Prop. 5.19].
-And {AF magnitude} (is) commensurable with {KM magnitude} [Prop. 10.12].
-{AB magnitude} is thus also commensurable with {KL magnitude} [Prop. 10.11].
-And as {AB magnitude} is to {KL magnitude}, so the (rectangle contained) by {CD magnitude} and {AB magnitude} (is) to the (rectangle contained) by {CD magnitude} and {KL magnitude} [Prop. 6.1].
-Thus, the (rectangle contained) by {CD magnitude} and {AB magnitude} is also commensurable with the (rectangle contained) by {CD magnitude} and {KL magnitude} [Prop. 10.11].
-And the (rectangle contained) by {CD magnitude} and {KL magnitude} (is) equal to the (square) on {H magnitude}.
-Thus, the (rectangle contained) by {CD magnitude} and {AB magnitude} is commensurable with the (square) on {H magnitude}.
-And the (square) on {G magnitude} is equal to the (rectangle contained) by {CD magnitude} and {AB magnitude}.
-The (square) on {G magnitude} is thus commensurable with the (square) on {H magnitude}.
-And the (square) on {H magnitude} (is) rational.
-Thus, the (square) on {G magnitude} is also rational.
-{G magnitude} is thus rational.
-And it is the square-root of the (rectangle contained) by {CD magnitude} and {AB magnitude}.
+Çünkü orantılı (doğru) {H magnitude} konmuş olsun.
+Ve {H magnitude}'nin üzerindeki (kareye) eşit (bir dikdörtgen), genişlik olarak {KL magnitude}'yi üreterek, {CD magnitude}'ye uygulanmış olsun.
+{KL magnitude} böylece bir kesittir, ki terimleri {KM magnitude} ve {ML magnitude}, iki-terimlinin terimleri {CE magnitude} ve {ED magnitude} ile (sırasıyla) ölçüşür ve aynı orandadır [Önerme 10.112].
+Fakat {CE magnitude} ve {ED magnitude} de {AF magnitude} ve {FB magnitude} ile (sırasıyla) ölçüşür ve aynı orandadır.
+Böylece {AF magnitude}, {FB magnitude}'ye nasılsa, {KM magnitude}, {ML magnitude}'ye (öyledir).
+Böylece ters olarak, {AF magnitude}, {KM magnitude}'ye nasılsa, {BF magnitude}, {LM magnitude}'ye (öyledir) [Önerme 5.16].
+Böylece kalan {AB magnitude}, kalan {KL magnitude}'ye de nasılsa, {AF magnitude}, {KM magnitude}'ye (öyledir) [Önerme 5.19].
+Ve {AF magnitude}, {KM magnitude} ile ölçüşürdür [Önerme 10.12].
+{AB magnitude} böylece de {KL magnitude} ile ölçüşürdür [Önerme 10.11].
+Ve {AB magnitude}, {KL magnitude}'ye nasılsa, {CD magnitude} ve {AB magnitude} tarafından (içerilen dikdörtgen), {CD magnitude} ve {KL magnitude} tarafından (içerilen dikdörtgene) (öyledir) [Önerme 6.1].
+Böylece {CD magnitude} ve {AB magnitude} tarafından (içerilen dikdörtgen) de {CD magnitude} ve {KL magnitude} tarafından (içerilen dikdörtgen) ile ölçüşürdür [Önerme 10.11].
+Ve {CD magnitude} ve {KL magnitude} tarafından (içerilen dikdörtgen), {H magnitude}'nin üzerindeki (kareye) eşittir.
+Böylece {CD magnitude} ve {AB magnitude} tarafından (içerilen dikdörtgen), {H magnitude}'nin üzerindeki (kare) ile ölçüşürdür.
+Ve {G magnitude}'nin üzerindeki (kare), {CD magnitude} ve {AB magnitude} tarafından (içerilen dikdörtgene) eşittir.
+{G magnitude}'nin üzerindeki (kare) böylece {H magnitude}'nin üzerindeki (kare) ile ölçüşürdür.
+Ve {H magnitude}'nin üzerindeki (kare) orantılıdır.
+Böylece {G magnitude}'nin üzerindeki (kare) de orantılıdır.
+{G magnitude} böylece orantılıdır.
+Ve o, {CD magnitude} ve {AB magnitude} tarafından (içerilen dikdörtgenin) karekökü(dür).
 
-Thus, if an area is contained by an apotome, and a binomial whose terms are commensurable with, and in the same ratio as, the terms of the apotome, then the square-root of the area is a rational (straight-line).
+Böylece eğer bir alan, bir kesit ve terimleri kesitin terimleri ile ölçüşür ve aynı oranda olan bir iki-terimli tarafından içerilirse o zaman alanın karekökü bir orantılı (doğrudur).
 
-Corollary
+Ek Sonuç
 
-And it has also been made clear to us, through this, that it is possible for a rational area to be contained by irrational straight-lines.
-(Which is) the very thing it was required to show.
+Ve bunun aracılığıyla, bir orantılı alanın orantısız doğrular tarafından içerilmesinin mümkün olduğu bize açıkça gösterilmiştir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,21 +1,23 @@
-Triangles and parallelograms which are of the same height are to one another as their bases.
+     1→Aynı yüksekliğe sahip üçgenler ve paralelkenarlar, birbirlerine tabanları gibidir.
+     2→
+     3→{ABC polygon} ve {ACD angle} aynı yüksekliğe {AC line} sahip üçgenler olsun ve {EC polygon} ve {CF polygon} (aynı yüksekliğe sahip) paralelkenarlar olsun.
+     4→Diyorum ki taban {BC line} taban {CD line}'ye nasılsa, üçgen {ABC polygon} üçgen {ACD polygon}'a öyledir ve paralelkenar {EC polygon} paralelkenar {CF polygon}'a (öyledir).
+     5→
+     6→Çünkü (doğru parçası) {BD line} her iki yönde {H point} ve {L point} noktalarına uzatılmış olsun ve [herhangi sayıda] (doğru parçası) {BG line} ve {GH line} taban {BC line}'ye eşit yapılmış olsun ve herhangi sayıda (doğru parçası) {DK line} ve {KL line} taban {CD line}'ye eşit (yapılmış olsun). Ve {AG line}, {AH line}, {AK line} ve {AL line} birleştirilmiş olsun.
+     7→
+     8→Ve {CB line}, {BG line} ve {GH line} birbirine eşit olduğu için, {AHG polygon}, {AGB polygon} ve {ABC polygon} üçgenleri de birbirine eşittir [Önerme 1.38].
+     9→Böylece taban {HC line} taban {BC line} tarafından kaç kez (bölünebilirse), üçgen {AHC polygon} de üçgen {ABC polygon} tarafından o kadar kez (bölünebilir).
+    10→Öyleyse, aynı (nedenlerle), taban {LC line} taban {CD line} tarafından kaç kez (bölünebilirse), üçgen {ALC polygon} de üçgen {ACD polygon} tarafından o kadar kez (bölünebilir).
+    11→Ve eğer taban {HC line} taban {CL line}'ye eşitse, o zaman üçgen {AHC polygon} de üçgen {ACL polygon}'a eşittir [Önerme 1.38].
+    12→Ve eğer taban {HC line} taban {CL line}'yi aşarsa, o zaman üçgen {AHC polygon} de üçgen {ACL polygon}'u aşar.
+    13→Ve eğer ({HC line}) ({CL line}'den) küçükse ({AHC polygon} de) ({ACL polygon}'dan) küçük(tür).
+    14→Öyleyse, dört büyüklük olarak iki taban {BC line} ve {CD line} ve iki üçgen {ABC polygon} ve {ACD polygon} olduğunda, taban {BC line} ve üçgen {ABC polygon}'un eşit katları alınmıştır---(yani) taban {HC line} ve üçgen {AHC polygon}---ve taban {CD line} ve üçgen {ADC polygon}'un diğer rastgele eşit katları (alınmıştır)---(yani) taban {LC line} ve üçgen {ALC polygon}.
+    15→Ve eğer taban {HC line} taban {CL line}'yi aşarsa üçgen {AHC polygon}'un da üçgen {ALC polygon}'u aştığı ve eğer ({HC line}) ({CL line}'ye) eşitse ({AHC polygon}'un da) ({ALC polygon}'a) eşit (olduğu) ve eğer ({HC line}) ({CL line}'den) küçükse ({AHC polygon}'un da) ({ALC polygon}'dan) küçük (olduğu) gösterilmiştir.
+    16→Böylece taban {BC line} taban {CD line}'ye nasılsa, üçgen {ABC polygon} üçgen {ACD polygon}'a öyledir [Tanım 5.5].
+    17→Ve paralelkenar {EC polygon} üçgen {ABC polygon}'un iki katı olduğu ve paralelkenar {FC polygon} üçgen {ACD polygon}'un iki katı olduğu için [Önerme 1.34] ve parçalar benzer katlarla aynı orana sahip olduğu için [Önerme 5.15], böylece üçgen {ABC polygon} üçgen {ACD polygon}'a nasılsa, paralelkenar {EC polygon} paralelkenar {FC polygon}'a öyledir.
+    18→Aslında, taban {BC line} {CD line}'ye nasılsa üçgen {ABC polygon} üçgen {ACD polygon}'a öyle olduğu ve üçgen {ABC polygon} üçgen {ACD polygon}'a nasılsa paralelkenar {EC polygon} paralelkenar {CF polygon}'a öyle olduğu gösterildiği için, böylece ayrıca taban {BC line} taban {CD line}'ye nasılsa paralelkenar {EC polygon} paralelkenar {FC polygon}'a öyledir [Önerme 5.11].
+    19→
+    20→Böylece, aynı yüksekliğe sahip üçgenler ve paralelkenarlar, birbirlerine tabanları gibidir.
+    21→(Gösterilmesi gereken tam olarak budur.)
+    22→
 
-Let {ABC polygon} and {ACD angle} be triangles, and {EC polygon} and {CF polygon} parallelograms, of the same height {AC line}.
-I say that as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and parallelogram {EC polygon} to parallelogram {CF polygon}.
-
-For let the (straight-line) {BD line} have been produced in each direction to points {H point} and {L point}, and let [any number] (of straight-lines) {BG line} and {GH line} be made equal to base {BC line}, and any number (of straight-lines) {DK line} and {KL line} equal to base {CD line}. And let {AG line}, {AH line}, {AK line}, and {AL line} have been joined.
-
-And since {CB line}, {BG line}, and {GH line} are equal to one another, triangles {AHG polygon}, {AGB polygon}, and {ABC polygon} are also equal to one another [Prop. 1.38].
-Thus, as many times as base {HC line} is (divisible by) base {BC line}, so many times is triangle {AHC polygon} also (divisible) by triangle {ABC polygon}.
-So, for the same (reasons), as many times as base {LC line} is (divisible) by base {CD line}, so many times is triangle {ALC polygon} also (divisible) by triangle {ACD polygon}.
-And if base {HC line} is equal to base {CL line} then triangle {AHC polygon} is also equal to triangle {ACL polygon} [Prop. 1.38].
-And if base {HC line} exceeds base {CL line} then triangle {AHC polygon} also exceeds triangle {ACL polygon}.
-And if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (than {ACL polygon}).
-So, their being four magnitudes, two bases, {BC line} and {CD line}, and two triangles, {ABC polygon} and {ACD polygon}, equal multiples have been taken of base {BC line} and triangle {ABC polygon}---(namely), base {HC line} and triangle {AHC polygon}---and other random equal multiples of base {CD line} and triangle {ADC polygon}---(namely), base {LC line} and triangle {ALC polygon}.
-And it has been shown that if base {HC line} exceeds base {CL line} then triangle {AHC polygon} also exceeds triangle {ALC polygon}, and if ({HC line} is) equal (to {CL line} then {AHC polygon} is also) equal (to {ALC polygon}), and if ({HC line} is) less (than {CL line} then {AHC polygon} is also) less (than {ALC polygon}).
-Thus, as base {BC line} is to base {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon} [Def. 5.5].
-And since parallelogram {EC polygon} is double triangle {ABC polygon}, and parallelogram {FC polygon} is double triangle {ACD polygon} [Prop. 1.34], and parts have the same ratio as similar multiples [Prop. 5.15], thus as triangle {ABC polygon} is to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon}.
-In fact, since it was shown that as base {BC line} (is) to {CD line}, so triangle {ABC polygon} (is) to triangle {ACD polygon}, and as triangle {ABC polygon} (is) to triangle {ACD polygon}, so parallelogram {EC polygon} (is) to parallelogram {CF polygon}, thus, also, as base {BC line} (is) to base {CD line}, so parallelogram {EC polygon} (is) to parallelogram {FC polygon} [Prop. 5.11].
-
-Thus, triangles and parallelograms which are of the same height are to one another as their bases.
-(Which is) the very thing it was required to show.

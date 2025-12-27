@@ -1,14 +1,16 @@
-To find the (straight-line) in mean proportion to two given straight-lines.
+     1→Verilen iki doğru parçasına ortalama orantılı (doğru parçasını) bulmak.
+     2→
+     3→{AB line} ve {BC line} verilen iki doğru parçası olsun.
+     4→Öyleyse {AB line} ve {BC line}'ye ortalama orantılı (doğru parçasını) bulmak gereklidir.
+     5→
+     6→({AB line} ve {BC line}) (birbirine göre) doğrultuda yerleştirilmiş olsun ve {AC line} üzerine {ADC arc O} yarım çemberi çizilmiş olsun [Önerme 1.10].
+     7→Ve {BD line} ({B point}) noktasından {AC line}'ye dik açılarla çizilmiş olsun [Önerme 1.11].
+     8→Ve {AD line} ve {DC line} birleştirilmiş olsun.
+     9→
+    10→Ve {ADC angle} yarım çemberde bir açı olduğu için, o bir dik açıdır [Önerme 3.31].
+    11→Ve dik açılı üçgen {ADC polygon}'da, (doğru parçası) {DB line} dik açıdan tabana dik olarak çizildiği için, {DB line} böylece tabanın parçaları olan {AB line} ve {BC line}'ye ortalama orantılıdır [Önerme 6.8 sonucu].
+    12→
+    13→Böylece, verilen iki doğru parçası {AB line} ve {BC line}'ye ortalama orantılı {DB line} bulunmuştur.
+    14→(Yapılması gereken tam olarak budur.)
+    15→
 
-Let {AB line} and {BC line} be the two given straight-lines.
-So it is required to find the (straight-line) in mean proportion to {AB line} and {BC line}.
-
-Let ({AB line} and {BC line}) be laid down straight-on (with respect to one another), and let the semi-circle {ADC arc O} have been drawn on {AC line} [Prop. 1.10].
-And let {BD line} have been drawn from (point) {B point}, at right-angles to {AC line} [Prop. 1.11].
-And let {AD line} and {DC line} have been joined.
-
-And since {ADC angle} is an angle in a semi-circle, it is a right-angle [Prop. 3.31].
-And since, in the right-angled triangle {ADC polygon}, the (straight-line) {DB line} has been drawn from the right-angle perpendicular to the base, {DB line} is thus the mean proportional to the pieces of the base, {AB line} and {BC line} [Prop. 6.8 corr.].
-
-Thus, {DB line} has been found (which is) in mean proportion to the two given straight-lines, {AB line} and {BC line}.
-(Which is) the very thing it was required to do.

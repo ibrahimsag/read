@@ -1,28 +1,30 @@
-If an area is contained by a rational (straight-line) and a fourth binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called major.
+Eğer bir alan, bir orantılı (doğru) ve bir dördüncü iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü, büyük denilen o orantısız (doğrudur).
 
-For let the area {AC polygon} be contained by the rational (straight-line) {AB line} and the fourth binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, of which let {AE line} be the greater.
-I say that the square-root of {AC polygon} is the irrational (straight-line which is) called major.
+Çünkü {AC polygon} alanı, orantılı (doğru) {AB line} ve (bileşen) terimlerine {E point}'de bölünmüş dördüncü iki-terimli (doğru) {AD line} tarafından --- {AE line} bunlardan büyük olsun --- içerilmiş olsun.
+Diyorum ki {AC polygon}'un karekökü, büyük denilen o orantısız (doğrudur).
 
-For since {AD line} is a fourth binomial (straight-line), {AE line} and {ED line} are thus rational (straight-lines which are) commensurable in square only, and the square on {AE line} is greater than (the square on) {ED line} by the (square) on (some straight-line) incommensurable (in length) with ({AE line}), and {AE line} [is] commensurable in length with {AB line} [Def. 10.8].
-Let {DE line} have been cut in half at {F point}, and let the parallelogram (contained by) {AG line} and {GE line}, equal to the (square) on {EF line}, (and falling short by a square figure) have been applied to {AE line}.
-{AG line} is thus incommensurable in length with {GE line} [Prop. 10.18].
-Let {GH line}, {EK line}, and {FL line} have been drawn parallel to {AB line}, and let the rest (of the construction) have been made the same as the (proposition) before this.
-So, it is clear that {MO line} is the square-root of area {AC polygon}.
-So, we must show that {MO line} is the irrational (straight-line which is) called major.
+Çünkü {AD line} bir dördüncü iki-terimli (doğru) olduğu için, böylece {AE line} ve {ED line} yalnızca karede ölçüşür orantılı (doğrulardır) ve {AE line}'ın üzerindeki kare, {ED line}'ın (üzerindeki kareden), ({AE line}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür ve {AE line}, {AB line} ile uzunlukta ölçüşürdür [Tanım 10.8].
+{DE line}, {F point}'de ikiye bölünmüş olsun ve {EF line}'ın (üzerindeki kareye) eşit ({AG line} ve {GE line} tarafından içerilen) dikdörtgen paralelkenar, (bir kare şekil kadar eksik kalarak,) {AE line}'a uygulanmış olsun.
+Böylece {AG line}, {GE line} ile uzunlukta ölçüşmezdir [Önerme 10.18].
+{GH line}, {EK line} ve {FL line}, {AB line}'a paralel olarak çizilmiş olsun ve (inşanın) geri kalanı bundan önceki (önerme) ile aynı yapılmış olsun.
+Öyleyse, {MO line}'ın {AC polygon} alanının karekökü olduğu açıktır.
+Öyleyse, {MO line}'ın büyük denilen o orantısız (doğru) olduğunu göstermeliyiz.
 
-Since {AG line} is incommensurable in length with {EG line}, {AH polygon} is also incommensurable with {GK polygon}---that is to say, {SN polygon} with {NQ polygon} [Props. 6.1, 10.11].
-Thus, {MN line} and {NO line} are incommensurable in square.
-And since {AE line} is commensurable in length with {AB line}, {AK polygon} is rational [Prop. 10.19].
-And it is equal to the (sum of the squares) on {MN line} and {NO line}.
-Thus, the sum of the (squares) on {MN line} and {NO line} [is] also rational.
-And since {DE line} [is] incommensurable in length with {AB line} [Prop. 10.13]---that is to say, with {EK line}---but {DE line} is commensurable (in length) with {EF line}, {EF line} (is) thus incommensurable in length with {EK line} [Prop. 10.13].
-Thus, {EK line} and {EF line} are rational (straight-lines which are) commensurable in square only.
-{LE polygon}---that is to say, {MR polygon}---(is) thus medial [Prop. 10.21].
-And it is contained by {MN line} and {NO line}.
-The (rectangle contained) by {MN line} and {NO line} is thus medial.
-And the [sum] of the (squares) on {MN line} and {NO line} (is) rational, and {MN line} and {NO line} are incommensurable in square.
-And if two straight-lines (which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial, are added together, then the whole is the irrational (straight-line which is) called major [Prop. 10.39].
+{AG line}, {EG line} ile uzunlukta ölçüşmez olduğu için, {AH polygon} da {GK polygon} ile --- yani {SN polygon}, {NQ polygon} ile --- ölçüşmezdir [Önermeler 6.1, 10.11].
+Böylece {MN line} ve {NO line} karede ölçüşmezdir.
+Ve {AE line}, {AB line} ile uzunlukta ölçüşür olduğu için, {AK polygon} orantılıdır [Önerme 10.19].
+Ve o, {MN line} ve {NO line}'ın (üzerindeki kareler toplamına) eşittir.
+Böylece {MN line} ve {NO line}'ın (üzerindeki karelerin) toplamı [da] orantılıdır.
+Ve {DE line}, {AB line} ile --- yani {EK line} ile --- [Önerme 10.13] uzunlukta ölçüşmez ama {DE line}, {EF line} ile (uzunlukta) ölçüşür olduğu için, böylece {EF line}, {EK line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Böylece {EK line} ve {EF line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {LE polygon} --- yani {MR polygon} --- ortadır [Önerme 10.21].
+Ve o, {MN line} ve {NO line} tarafından içerilmiştir.
+Böylece {MN line} ve {NO line} tarafından (içerilen dikdörtgen) ortadır.
+Ve {MN line} ve {NO line}'ın (üzerindeki karelerin) [toplamı] orantılıdır ve {MN line} ve {NO line} karede ölçüşmezdir.
+Ve eğer üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgeni) orta yapan, karede ölçüşmez iki doğru birlikte toplanırsa, o zaman bütün (doğru) büyük denilen o orantısız (doğrudur) [Önerme 10.39].
 
-Thus, {MO line} is the irrational (straight-line which is) called major.
-And (it is) the square-root of area {AC polygon}.
-(Which is) the very thing it was required to show.
+Böylece {MO line}, büyük denilen o orantısız (doğrudur).
+Ve (o) {AC polygon} alanının karekökü(dür).
+(Gösterilmesi gereken tam olarak budur.)
+
+

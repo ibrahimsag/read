@@ -1,26 +1,29 @@
-If a cube number makes some (number by) multiplying itself then the created (number) will be cube.
-
-For let the cube number {A magnitude} make {B magnitude} (by) multiplying itself.
-I say that {B magnitude} is cube.
-
-For let the side {C magnitude} of {A magnitude} have been taken.
-And let {C magnitude} make {D magnitude} by multiplying itself.
-So it is clear that {C magnitude} has made {A magnitude} (by) multiplying {D magnitude}.
-And since {C magnitude} has made {D magnitude} (by) multiplying itself, {C magnitude} thus measures {D magnitude} according to the units in it [Def. 7.15].
-But, in fact, a unit also measures {C magnitude} according to the units in it [Def. 7.20].
-Thus, as a unit is to {C magnitude}, so {C magnitude} (is) to {D magnitude}.
-Again, since {C magnitude} has made {A magnitude} (by) multiplying {D magnitude}, {D magnitude} thus measures {A magnitude} according to the units in {C magnitude}.
-And a unit also measures {C magnitude} according to the units in it.
-Thus, as a unit is to {C magnitude}, so {D magnitude} (is) to {A magnitude}.
-But, as a unit (is) to {C magnitude}, so {C magnitude} (is) to {D magnitude}.
-And thus as a unit (is) to {C magnitude}, so {C magnitude} (is) to {D magnitude}, and {D magnitude} to {A magnitude}.
-Thus, two numbers,{C magnitude} and {D magnitude}, have fallen (between) a unit and the number {A magnitude} in continued mean proportion.
-Again, since {A magnitude} has made {B magnitude} (by) multiplying itself, {A magnitude} thus measures {B magnitude} according to the units in it.
-And a unit also measures {A magnitude} according to the units in it.
-Thus, as a unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}.
-And two numbers have fallen (between) a unit and {A magnitude} in mean proportion.
-Thus two numbers will also fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].
-And if two (numbers) fall (between) two numbers in mean proportion, and the first (number) is cube, then the second will also be cube [Prop. 8.23].
-And {A magnitude} is cube.
-Thus, {B magnitude} is also cube.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer bir küp sayı kendini çarparak bir (sayı) oluşturursa o zaman oluşturulan (sayı) küp olacaktır.
+     2→     2→     2→
+     3→     3→     3→Çünkü {A magnitude} küp sayısı kendini çarparak {B magnitude}'yi oluştursun.
+     4→     4→     4→Diyorum ki {B magnitude} küptür.
+     5→     5→     5→
+     6→     6→     6→Çünkü {A magnitude}'nın {C magnitude} kenarı alınmış olsun.
+     7→     7→     7→Ve {C magnitude} kendini çarparak {D magnitude}'yi oluştursun.
+     8→     8→     8→Öyleyse açıktır ki {C magnitude}, {D magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur.
+     9→     9→     9→Ve {C magnitude} kendini çarparak {D magnitude}'yi oluşturduğu için, {C magnitude} böylece {D magnitude}'yi ondaki birimlere göre ölçer [Tanım 7.15].
+    10→    10→    10→Ama aslında bir birim de {C magnitude}'yi ondaki birimlere göre ölçer [Tanım 7.20].
+    11→    11→    11→Böylece bir birim {C magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+    12→    12→    12→Tekrar, {C magnitude}, {D magnitude}'yi çarparak {A magnitude}'yı oluşturduğu için, {D magnitude} böylece {A magnitude}'yı {C magnitude}'deki birimlere göre ölçer.
+    13→    13→    13→Ve bir birim de {C magnitude}'yi ondaki birimlere göre ölçer.
+    14→    14→    14→Böylece bir birim {C magnitude}'ye nasılsa, {D magnitude} {A magnitude}'ya (öyledir).
+    15→    15→    15→Ama bir birim {C magnitude}'ye nasılsa, (öyle) {C magnitude} {D magnitude}'ye(dir).
+    16→    16→    16→Ve böylece bir birim {C magnitude}'ye nasılsa, (öyle) {C magnitude} {D magnitude}'ye ve {D magnitude} {A magnitude}'ya(dır).
+    17→    17→    17→Böylece iki sayı, {C magnitude} ve {D magnitude}, bir birim ile {A magnitude} sayısı arasına sürekli orantısal ortada düşmüştür.
+    18→    18→    18→Tekrar, {A magnitude} kendini çarparak {B magnitude}'yi oluşturduğu için, {A magnitude} böylece {B magnitude}'yi ondaki birimlere göre ölçer.
+    19→    19→    19→Ve bir birim de {A magnitude}'yı ondaki birimlere göre ölçer.
+    20→    20→    20→Böylece bir birim {A magnitude}'ya nasılsa, {A magnitude} {B magnitude}'ye (öyledir).
+    21→    21→    21→Ve bir birim ile {A magnitude} arasına orantısal ortada iki sayı düşmüştür.
+    22→    22→    22→Böylece {A magnitude} ve {B magnitude} arasına da orantısal ortada iki sayı düşecektir [Önerme 8.8].
+    23→    23→    23→Ve eğer iki (sayı) orantısal ortada iki sayı arasına düşerse ve birinci (sayı) küpse o zaman ikincisi de küp olacaktır [Önerme 8.23].
+    24→    24→    24→Ve {A magnitude} küptür.
+    25→    25→    25→Böylece {B magnitude} de küptür.
+    26→    26→    26→(Gösterilmesi gereken tam olarak budur.)
+    27→    27→    27→
+    28→
+    29→

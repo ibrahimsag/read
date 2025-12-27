@@ -1,15 +1,16 @@
-If a cube number makes a(nother) cube number (by) multiplying some (number) then the (number) multiplied will also be cube.
+Eğer bir küp sayı bir (sayıyı) çarparak bir (başka) küp sayı oluşturursa o zaman çarpılan (sayı) da küp olacaktır.
 
-For let the cube number {A magnitude} make the cube (number) {C magnitude} (by) multiplying some number {B magnitude}.
-I say that {B magnitude} is cube.
+Çünkü {A magnitude} küp sayısı bir {B magnitude} sayısını çarparak {C magnitude} küp (sayısını) oluştursun.
+Diyorum ki {B magnitude} küptür.
 
-For let {A magnitude} make {D magnitude} (by) multiplying itself.
-{D magnitude} is thus cube [Prop. 9.3].
-And since {A magnitude} has made {D magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, thus as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude} [Prop. 7.17].
-And since {D magnitude} and {C magnitude} are (both) cube, they are similar solid (numbers).
-Thus, two numbers fall (between) {D magnitude} and {C magnitude} in mean proportion [Prop.8.19].
-And as {D magnitude} is to {C magnitude}, so {A magnitude} (is) to {B magnitude}.
-Thus, two numbers also fall (between) {A magnitude} and {B magnitude} in mean proportion [Prop. 8.8].
-And {A magnitude} is cube.
-Thus, {B magnitude} is also cube [Prop. 8.23].
-(Which is) the very thing it was required to show.
+Çünkü {A magnitude} kendini çarparak {D magnitude}'yi oluştursun.
+Böylece {D magnitude} küptür [Önerme 9.3].
+Ve {A magnitude} kendini çarparak {D magnitude}'yi oluşturduğu ve {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, böylece {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {C magnitude}'ye (öyledir) [Önerme 7.17].
+Ve {D magnitude} ve {C magnitude} (ikisi de) küp olduğu için, onlar benzer katı (sayılardır).
+Böylece {D magnitude} ve {C magnitude} arasına orantısal ortada iki sayı düşer [Önerme 8.19].
+Ve {D magnitude} {C magnitude}'ye nasılsa, {A magnitude} {B magnitude}'ye (öyledir).
+Böylece {A magnitude} ve {B magnitude} arasına da orantısal ortada iki sayı düşer [Önerme 8.8].
+Ve {A magnitude} küptür.
+Böylece {B magnitude} de küptür [Önerme 8.23].
+(Gösterilmesi gereken tam olarak budur.)
+

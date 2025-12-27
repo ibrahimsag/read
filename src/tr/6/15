@@ -1,25 +1,27 @@
-In equal triangles also having one angle equal to one (angle) the sides about the equal angles are reciprocally proportional.
-And those triangles having one angle equal to one angle for which the sides about the equal angles (are) reciprocally proportional are equal.
+     1→Ayrıca bir açısı bir (açıya) eşit olan eşit üçgenlerde eşit açıların çevresindeki kenarlar ters orantılıdır.
+     2→Ve eşit açıların çevresindeki kenarları ters orantılı olan, bir açısı bir açıya eşit üçgenler eşittir.
+     3→
+     4→{ABC polygon} ve {ADE polygon} bir açısı bir (açıya) eşit olan eşit üçgenler olsun, (yani) {BAC angle} {DAE angle}'ye (eşit olsun).
+     5→Diyorum ki {ABC polygon} ve {ADE polygon} üçgenlerinde eşit açıların çevresindeki kenarlar ters orantılıdır, yani {CA line} {AD line}'ye nasılsa, {EA line} {AB line}'ye öyledir.
+     6→
+     7→Çünkü {CA line} {AD line}'ye (göre) doğrultuda olacak şekilde yerleştirilmiş olsun.
+     8→Böylece {EA line} da {AB line}'ye (göre) doğrultudadır [Önerme 1.14].
+     9→Ve {BD line} birleştirilmiş olsun.
+    10→
+    11→Bu nedenle, {ABC polygon} üçgeni {ADE polygon} üçgenine eşit olduğu ve {BAD polygon} başka bir (üçgen) olduğu için, böylece {CAB polygon} üçgeni {BAD polygon} üçgenine nasılsa, {EAD polygon} üçgeni {BAD polygon} üçgenine öyledir [Önerme 5.7].
+    12→Ama (üçgen) {CAB polygon} {BAD polygon}'a nasılsa, {CA line} {AD line}'ye öyledir ve (üçgen) {EAD polygon} {BAD polygon}'a nasılsa, {EA line} {AB line}'ye öyledir [Önerme 6.1].
+    13→Ve böylece {CA line} {AD line}'ye nasılsa, {EA line} {AB line}'ye öyledir.
+    14→Böylece {ABC polygon} ve {ADE polygon} üçgenlerinde eşit açıların çevresindeki kenarlar ters orantılıdır.
+    15→
+    16→Ve öyleyse, {ABC polygon} ve {ADE polygon} üçgenlerinin kenarları ters orantılı olsun ve (böylece) {CA line} {AD line}'ye nasılsa, {EA line} {AB line}'ye öyle olsun.
+    17→Diyorum ki {ABC polygon} üçgeni {ADE polygon} üçgenine eşittir.
+    18→
+    19→Çünkü {BD line} yine birleştirilerek, {CA line} {AD line}'ye nasılsa {EA line} {AB line}'ye öyle olduğu için, ama {CA line} {AD line}'ye nasılsa {ABC polygon} üçgeni {BAD polygon} üçgenine öyledir ve {EA line} {AB line}'ye nasılsa {EAD polygon} üçgeni {BAD polygon} üçgenine öyledir [Önerme 6.1], böylece {ABC polygon} üçgeni {BAD polygon} üçgenine nasılsa, {EAD polygon} üçgeni {BAD polygon} üçgenine öyledir.
+    20→Böylece (üçgenler) {ABC polygon} ve {EAD polygon}'un her biri {BAD polygon}'a aynı orana sahiptir.
+    21→Böylece [üçgen] {ABC polygon} {EAD polygon} üçgenine eşittir [Önerme 5.9].
+    22→
+    23→Böylece, ayrıca bir açısı bir (açıya) eşit olan eşit üçgenlerde eşit açıların çevresindeki kenarlar ters orantılıdır.
+    24→Ve eşit açıların çevresindeki kenarları ters orantılı olan, bir açısı bir açıya eşit üçgenler eşittir.
+    25→(Gösterilmesi gereken tam olarak budur.)
+    26→
 
-Let {ABC polygon} and {ADE polygon} be equal triangles having one angle equal to one (angle), (namely) {BAC angle} (equal) to {DAE angle}.
-I say that, in triangles {ABC polygon} and {ADE polygon}, the sides about the equal angles are reciprocally proportional, that is to say, that as {CA line} is to {AD line}, so {EA line} (is) to {AB line}.
-
-For let {CA line} be laid down so as to be straight-on (with respect) to {AD line}.
-Thus, {EA line} is also straight-on (with respect) to {AB line} [Prop. 1.14].
-And let {BD line} have been joined.
-
-Therefore, since triangle {ABC polygon} is equal to triangle {ADE polygon}, and {BAD polygon} (is) some other (triangle), thus as triangle {CAB polygon} is to triangle {BAD polygon}, so triangle {EAD polygon} (is) to triangle {BAD polygon} [Prop. 5.7].
-But, as (triangle) {CAB polygon} (is) to {BAD polygon}, so {CA line} (is) to {AD line}, and as (triangle) {EAD polygon} (is) to {BAD polygon}, so {EA line} (is) to {AB line} [Prop. 6.1].
-And thus, as {CA line} (is) to {AD line}, so {EA line} (is) to {AB line}.
-Thus, in triangles {ABC polygon} and {ADE polygon} the sides about the equal angles (are) reciprocally proportional.
-
-And so, let the sides of triangles {ABC polygon} and {ADE polygon} be reciprocally proportional, and (thus) let {CA line} be to {AD line}, as {EA line} (is) to {AB line}.
-I say that triangle {ABC polygon} is equal to triangle {ADE polygon}.
-
-For, {BD line} again being joined, since as {CA line} is to {AD line}, so {EA line} (is) to {AB line}, but as {CA line} (is) to {AD line}, so triangle {ABC polygon} (is) to triangle {BAD polygon}, and as {EA line} (is) to {AB line}, so triangle {EAD polygon} (is) to triangle {BAD polygon} [Prop. 6.1], thus as triangle {ABC polygon} (is) to triangle {BAD polygon}, so triangle {EAD polygon} (is) to triangle {BAD polygon}.
-Thus, (triangles) {ABC polygon} and {EAD polygon} each have the same ratio to {BAD polygon}.
-Thus, [triangle] {ABC polygon} is equal to triangle {EAD polygon} [Prop. 5.9].
-
-Thus, in equal triangles also having one angle equal to one (angle) the sides about the equal angles (are) reciprocally proportional.
-And those triangles having one angle equal to one angle for which the sides about the equal angles (are) reciprocally proportional are equal.
-(Which is) the very thing it was required to show.

@@ -1,12 +1,14 @@
-Every prime number is prime to every number which it does not measure.
+     1→     1→Her asal sayı, ölçmediği her sayıya asaldır.
+     2→     2→
+     3→     3→{A magnitude} bir asal sayı olsun ve {B magnitude}'yi ölçmesin.
+     4→     4→Diyorum ki {B magnitude} ve {A magnitude} birbirine asaldır.
+     5→     5→Çünkü eğer {B magnitude} ve {A magnitude} birbirine asal değilse o zaman bir sayı onları ölçecektir.
+     6→     6→{C magnitude} (onları) ölçsün.
+     7→     7→{C magnitude} {B magnitude}'yi ölçtüğü ve {A magnitude} {B magnitude}'yi ölçmediği için, {C magnitude} böylece {A magnitude} ile aynı değildir.
+     8→     8→Ve {C magnitude} {B magnitude} ve {A magnitude}'yı ölçtüğü için, böylece asal olan {A magnitude}'yı da ölçer, onunla aynı olmadığı halde.
+     9→     9→Ki bu imkansızdır.
+    10→    10→Böylece bir sayı {B magnitude} ve {A magnitude}'yı (ikisini birden) ölçemez.
+    11→    11→Böylece {A magnitude} ve {B magnitude} birbirine asaldır.
+    12→    12→(Gösterilmesi gereken tam olarak budur.)
+    13→    13→
 
-Let {A magnitude} be a prime number, and let it not measure {B magnitude}.
-I say that {B magnitude} and {A magnitude} are prime to one another.
-For if {B magnitude} and {A magnitude} are not prime to one another then some number will measure them.
-Let {C magnitude} measure (them).
-Since {C magnitude} measures {B magnitude}, and {A magnitude} does not measure {B magnitude}, {C magnitude} is thus not the same as {A magnitude}.
-And since {C magnitude} measures {B magnitude} and {A magnitude}, it thus also measures {A magnitude}, which is prime, (despite) not being the same as it.
-The very thing is impossible.
-Thus, some number cannot measure (both) {B magnitude} and {A magnitude}.
-Thus, {A magnitude} and {B magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

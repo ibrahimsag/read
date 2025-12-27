@@ -1,21 +1,23 @@
-If an area is contained by a rational (straight-line) and a sixth binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called the square-root of (the sum of) two medial (areas).
+Eğer bir alan, bir orantılı (doğru) ve bir altıncı iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü, iki orta (alanın toplamının) karekökü denilen o orantısız (doğrudur).
 
-For let the area {ABCD polygon} be contained by the rational (straight-line) {AB line} and the sixth binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, such that {AE line} is the greater term.
-So, I say that the square-root of {AC polygon} is the square-root of (the sum of) two medial (areas).
+Çünkü {ABCD polygon} alanı, orantılı (doğru) {AB line} ve (bileşen) terimlerine {E point}'de bölünmüş altıncı iki-terimli (doğru) {AD line} tarafından --- {AE line} büyük terim olacak şekilde --- içerilmiş olsun.
+Öyleyse, diyorum ki {AC polygon}'un karekökü, iki orta (alanın toplamının) karekökü(dür).
 
-[For] let the same construction be made as that shown previously.
-So, (it is) clear that {MO line} is the square-root of {AC polygon}, and that {MN line} is incommensurable in square with {NO line}.
-And since {EA line} is incommensurable in length with {AB line} [Def. 10.10], {EA line} and {AB line} are thus rational (straight-lines which are) commensurable in square only.
-Thus, {AK polygon} ---that is to say, the sum of the (squares) on {MN line} and {NO line}---is medial [Prop. 10.21].
-Again, since {ED line} is incommensurable in length with {AB line} [Def. 10.10], {FE line} is thus also incommensurable (in length) with {EK line} [Prop. 10.13].
-Thus, {FE line} and {EK line} are rational (straight-lines which are) commensurable in square only.
-Thus, {EL polygon}---that is to say, {MR polygon}---that is to say, the (rectangle contained) by {MN line} and {NO line}---is medial [Prop. 10.21].
-And since {AE line} is incommensurable (in length) with {EF line}, {AK polygon} is also incommensurable with {EL polygon} [Props. 6.1, 10.11].
-But, {AK polygon} is the sum of the (squares) on {MN line} and {NO line}, and {EL polygon} is the (rectangle contained) by {MN line} and {NO line}.
-Thus, the sum of the (squares) on {MN line} and {NO line} is incommensurable with the (rectangle contained) by {MN line} and {NO line}.
-And each of them is medial.
-And {MN line} and {NO line} are incommensurable in square.
+[Çünkü] daha önce gösterilen ile aynı inşa yapılmış olsun.
+Öyleyse, {MO line}'ın {AC polygon}'un karekökü olduğu ve {MN line}'ın {NO line} ile karede ölçüşmez olduğu açıktır.
+Ve {EA line}, {AB line} ile uzunlukta ölçüşmez olduğu için [Tanım 10.10], böylece {EA line} ve {AB line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {AK polygon} --- yani {MN line} ve {NO line}'ın (üzerindeki karelerin) toplamı --- ortadır [Önerme 10.21].
+Tekrar, {ED line}, {AB line} ile uzunlukta ölçüşmez olduğu için [Tanım 10.10], böylece {FE line} de {EK line} ile (uzunlukta) ölçüşmezdir [Önerme 10.13].
+Böylece {FE line} ve {EK line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EL polygon} --- yani {MR polygon} --- yani {MN line} ve {NO line} tarafından (içerilen dikdörtgen) --- ortadır [Önerme 10.21].
+Ve {AE line}, {EF line} ile (uzunlukta) ölçüşmez olduğu için, {AK polygon} da {EL polygon} ile ölçüşmezdir [Önermeler 6.1, 10.11].
+Ama {AK polygon}, {MN line} ve {NO line}'ın (üzerindeki karelerin) toplamı ve {EL polygon}, {MN line} ve {NO line} tarafından (içerilen dikdörtgendir).
+Böylece {MN line} ve {NO line}'ın (üzerindeki karelerin) toplamı, {MN line} ve {NO line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir.
+Ve onların her biri ortadır.
+Ve {MN line} ve {NO line} karede ölçüşmezdir.
 
-Thus, {MO line} is the square-root of (the sum of) two medial (areas) [Prop. 10.41].
-And (it is) the square-root of {AC polygon}.
-(Which is) the very thing it was required to show.
+Böylece {MO line} iki orta (alanın toplamının) karekökü(dür) [Önerme 10.41].
+Ve (o) {AC polygon}'un karekökü(dür).
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,30 +1,32 @@
-If three straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the square on the middle (one).
-And if the rectangle contained by the (two) outermost is equal to the square on the middle (one) then the three straight-lines will be proportional.
+     1→Eğer üç doğru parçası orantılıysa, o zaman (iki) uçtaki tarafından kapsanan dikdörtgen ortadakinin (birinin) üzerindeki kareye eşittir.
+     2→Ve eğer (iki) uçtaki tarafından kapsanan dikdörtgen ortadakinin (birinin) üzerindeki kareye eşitse, o zaman üç doğru parçası orantılı olacaktır.
+     3→
+     4→{A magnitude}, {B magnitude} ve {C magnitude} üç orantılı doğru parçası olsun, (öyle ki) {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye öyle olsun.
+     5→Diyorum ki {A magnitude} ve {C magnitude} tarafından kapsanan dikdörtgen {B magnitude} üzerindeki kareye eşittir.
+     6→
+     7→{D magnitude} {B magnitude}'ye eşit yapılmış olsun [Önerme 1.3].
+     8→
+     9→Ve {A magnitude} {B magnitude}'ye nasılsa {B magnitude} {C magnitude}'ye öyle olduğu ve {B magnitude} {D magnitude}'ye eşit olduğu için, böylece {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {C magnitude}'ye (öyledir).
+    10→Ve eğer dört doğru parçası orantılıysa o zaman (iki) uçtaki tarafından kapsanan [dikdörtgen] ortadaki (ikisi) tarafından kapsanan dikdörtgene eşittir [Önerme 6.16].
+    11→Böylece {A magnitude} ve {C magnitude} tarafından (kapsanan dikdörtgen) {B magnitude} ve {D magnitude} tarafından (kapsanan dikdörtgene) eşittir.
+    12→Ama {B magnitude} ve {D magnitude} tarafından (kapsanan dikdörtgen) {B magnitude} üzerindeki (karedir).
+    13→Çünkü {B magnitude} {D magnitude}'ye eşittir.
+    14→Böylece {A magnitude} ve {C magnitude} tarafından kapsanan dikdörtgen {B magnitude} üzerindeki kareye eşittir.
+    15→
+    16→Ve öyleyse, {A magnitude} ve {C magnitude} tarafından (kapsanan dikdörtgen) {B magnitude} üzerindeki (kareye) eşit olsun.
+    17→Diyorum ki {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye öyledir.
+    18→
+    19→Çünkü aynı inşayla, {A magnitude} ve {C magnitude} tarafından (kapsanan dikdörtgen) {B magnitude} üzerindeki (kareye) eşit olduğu için.
+    20→Ama {B magnitude} üzerindeki (kare) {B magnitude} ve {D magnitude} tarafından (kapsanan dikdörtgendir).
+    21→Çünkü {B magnitude} {D magnitude}'ye eşittir.
+    22→{A magnitude} ve {C magnitude} tarafından (kapsanan dikdörtgen) böylece {B magnitude} ve {D magnitude} tarafından (kapsanan dikdörtgene) eşittir.
+    23→Ve eğer (iki) uçtaki tarafından (kapsanan dikdörtgen) ortadaki (ikisi) tarafından (kapsanan dikdörtgene) eşitse o zaman dört doğru parçası orantılıdır [Önerme 6.16].
+    24→Böylece {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {C magnitude}'ye öyledir.
+    25→Ve {B magnitude} {D magnitude}'ye eşittir.
+    26→Böylece {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye öyledir.
+    27→
+    28→Böylece, eğer üç doğru parçası orantılıysa, o zaman (iki) uçtaki tarafından kapsanan dikdörtgen ortadakinin (birinin) üzerindeki kareye eşittir.
+    29→Ve eğer (iki) uçtaki tarafından kapsanan dikdörtgen ortadakinin (birinin) üzerindeki kareye eşitse, o zaman üç doğru parçası orantılı olacaktır.
+    30→(Gösterilmesi gereken tam olarak budur.)
+    31→
 
-Let {A magnitude}, {B magnitude} and {C magnitude} be three proportional straight-lines, (such that) as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-I say that the rectangle contained by {A magnitude} and {C magnitude} is equal to the square on {B magnitude}.
-
-Let {D magnitude} be made equal to {B magnitude} [Prop. 1.3].
-
-And since as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}, and {B magnitude} (is) equal to {D magnitude}, thus as {A magnitude} is to {B magnitude}, (so) {D magnitude} (is) to {C magnitude}.
-And if four straight-lines are proportional then the [rectangle] contained by the (two) outermost is equal to the rectangle contained by the middle (two) [Prop. 6.16].
-Thus, the (rectangle contained) by {A magnitude} and {C magnitude} is equal to the (rectangle contained) by {B magnitude} and {D magnitude}.
-But, the (rectangle contained) by {B magnitude} and {D magnitude} is the (square) on {B magnitude}.
-For {B magnitude} (is) equal to {D magnitude}.
-Thus, the rectangle contained by {A magnitude} and {C magnitude} is equal to the square on {B magnitude}.
-
-And so, let the (rectangle contained) by {A magnitude} and {C magnitude} be equal to the (square) on {B magnitude}.
-I say that as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-
-For, with the same construction, since the (rectangle contained) by {A magnitude} and {C magnitude} is equal to the (square) on {B magnitude}.
-But, the (square) on {B magnitude} is the (rectangle contained) by {B magnitude} and {D magnitude}.
-For {B magnitude} (is) equal to {D magnitude}.
-The (rectangle contained) by {A magnitude} and {C magnitude} is thus equal to the (rectangle contained) by {B magnitude} and {D magnitude}.
-And if the (rectangle contained) by the (two) outermost is equal to the (rectangle contained) by the middle (two) then the four straight-lines are proportional [Prop. 6.16].
-Thus, as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {C magnitude}.
-And {B magnitude} (is) equal to {D magnitude}.
-Thus, as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-
-Thus, if three straight-lines are proportional then the rectangle contained by the (two) outermost is equal to the square on the middle (one).
-And if the rectangle contained by the (two) outermost is equal to the square on the middle (one) then the three straight-lines will be proportional.
-(Which is) the very thing it was required to show.

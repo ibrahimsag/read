@@ -1,17 +1,19 @@
-To cut a given uncut straight-line similarly to a given cut (straight-line).
+     1→Verilen kesilmemiş bir doğru parçasını, verilen kesilmiş (doğru parçasına) benzer şekilde kesmek.
+     2→
+     3→{AB line} verilen kesilmemiş doğru parçası olsun ve {AC line}, {D point} ve {E point} noktalarında kesilmiş bir (doğru parçası) olsun ve ({AC line}) ({AB line} ile) rastgele bir açı kaplayacak şekilde yerleştirilmiş olsun.
+     4→Ve {CB line} birleştirilmiş olsun.
+     5→Ve {DF line} ve {EG line} sırasıyla ({D point}) ve ({E point}) noktalarından {BC line}'ye paralel olarak çizilmiş olsun ve {DHK line} ({D point}) noktasından {AB line}'ye paralel olarak çizilmiş olsun [Önerme 1.31].
+     6→
+     7→Böylece {FH polygon} ve {HB polygon}'un her biri paralelkenardır.
+     8→Böylece {DH line} {FG line}'ye eşittir ve {HK line} {GB line}'ye (eşittir) [Önerme 1.34].
+     9→Ve {HE line} doğru parçası {DKC polygon} üçgeninin kenarlarından biri olan {KC line}'ye paralel olarak çizildiği için, böylece orantılı olarak {CE line} {ED line}'ye nasılsa, {KH line} {HD line}'ye öyledir [Önerme 6.2].
+    10→Ve {KH line} {BG line}'ye eşittir ve {HD line} {GF line}'ye (eşittir).
+    11→Böylece {CE line} {ED line}'ye nasılsa, {BG line} {GF line}'ye öyledir.
+    12→Yine, {FD line}, {AGE polygon} üçgeninin kenarlarından biri olan {GE line}'ye paralel olarak çizildiği için, böylece orantılı olarak {ED line} {DA line}'ya nasılsa, {GF line} {FA line}'ya öyledir [Önerme 6.2].
+    13→Ve {CE line} {ED line}'ye nasılsa {BG line} {GF line}'ye öyle olduğu da gösterilmişti.
+    14→Böylece {CE line} {ED line}'ye nasılsa {BG line} {GF line}'ye öyledir ve {ED line} {DA line}'ya nasılsa {GF line} {FA line}'ya öyledir.
+    15→
+    16→Böylece, verilen kesilmemiş doğru parçası {AB line}, verilen kesilmiş doğru parçası {AC line}'ye benzer şekilde kesilmiştir.
+    17→(Yapılması gereken tam olarak budur.)
+    18→
 
-Let {AB line} be the given uncut straight-line, and {AC line} a (straight-line) cut at points {D point} and {E point}, and let ({AC line}) be laid down so as to encompass a random angle (with {AB line}).
-And let {CB line} have been joined.
-And let {DF line} and {EG line} have been drawn through (points) {D point} and {E point} (respectively), parallel to {BC line}, and let {DHK line} have been drawn through (point) {D point}, parallel to {AB line} [Prop. 1.31].
-
-Thus, {FH polygon} and {HB polygon} are each parallelograms.
-Thus, {DH line} (is) equal to {FG line}, and {HK line} to {GB line} [Prop. 1.34].
-And since the straight-line {HE line} has been drawn parallel to one of the sides, {KC line}, of triangle {DKC polygon}, thus, proportionally, as {CE line} is to {ED line}, so {KH line} (is) to {HD line} [Prop. 6.2].
-And {KH line} (is) equal to {BG line}, and {HD line} to {GF line}.
-Thus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}.
-Again, since {FD line} has been drawn parallel to one of the sides, {GE line}, of triangle {AGE polygon}, thus, proportionally, as {ED line} is to {DA line}, so {GF line} (is) to {FA line} [Prop. 6.2].
-And it was also shown that as {CE line} (is) to {ED line}, so {BG line} (is) to {GF line}.
-Thus, as {CE line} is to {ED line}, so {BG line} (is) to {GF line}, and as {ED line} (is) to {DA line}, so {GF line} (is) to {FA line}.
-
-Thus, the given uncut straight-line, {AB line}, has been cut similarly to the given cut straight-line, {AC line}.
-(Which is) the very thing it was required to do.

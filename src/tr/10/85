@@ -1,32 +1,34 @@
-To find a first apotome.
+Bir birinci kesit bulmak.
 
-Let the rational (straight-line) {A magnitude} be laid down.
-And let {BG magnitude} be commensurable in length with {A magnitude}.
-{BG magnitude} is thus also a rational (straight-line).
-And let two square numbers {DE magnitude} and {EF magnitude} be laid down, and let their difference {FD magnitude} be not square [Prop. 10.28 lem. I].
-Thus, {ED magnitude} does not have to {DF magnitude} the ratio which (some) square number (has) to (some) square number.
-And let it have been contrived that as {ED magnitude} (is) to {DF magnitude}, so the square on {BG magnitude} (is) to the square on {GC magnitude} [Prop. 10.6. corr.].
-Thus, the (square) on {BG magnitude} is commensurable with the (square) on {GC magnitude} [Prop. 10.6].
-And the (square) on {BG magnitude} (is) rational.
-Thus, the (square) on {GC magnitude} (is) also rational.
-Thus, {GC magnitude} is also rational.
-And since {ED magnitude} does not have to {DF magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {BG magnitude} thus does not have to the (square) on {GC magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {BG magnitude} is incommensurable in length with {GC magnitude} [Prop. 10.9].
-And they are both rational (straight-lines).
-Thus, {BG magnitude} and {GC magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {BC magnitude} is an apotome [Prop. 10.73].
-So, I say that (it is) also a first (apotome).
+Orantılı (doğru) {A magnitude} konmuş olsun.
+Ve {BG magnitude}, {A magnitude} ile uzunlukta ölçüşür olsun.
+{BG magnitude} böylece de bir orantılı (doğrudur).
+Ve iki kare sayı {DE magnitude} ve {EF magnitude} konmuş olsun ve onların farkı {FD magnitude} kare olmasın [Önerme 10.28 ek kısım I].
+Böylece {ED magnitude}, {DF magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip değildir.
+Ve {ED magnitude}, {DF magnitude}'ye nasılsa, {BG magnitude}'nin üzerindeki kare, {GC magnitude}'nin üzerindeki kareye (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Böylece {BG magnitude}'nin (üzerindeki kare), {GC magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {BG magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {GC magnitude}'nin (üzerindeki kare) de orantılıdır.
+Böylece {GC magnitude} de orantılıdır.
+Ve {ED magnitude}, {DF magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmadığı için, {BG magnitude}'nin (üzerindeki kare), böylece {GC magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana da sahip değildir.
+Böylece {BG magnitude}, {GC magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {BG magnitude} ve {GC magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {BC magnitude} bir kesittir [Önerme 10.73].
+Öyleyse diyorum ki (o) ayrıca bir birinci (kesittir).
 
-Let the (square) on {H magnitude} be that (area) by which the (square) on {BG magnitude} is greater than the (square) on {GC magnitude} [Prop. 10.13 lem.].
-And since as {ED magnitude} is to {FD magnitude}, so the (square) on {BG magnitude} (is) to the (square) on {GC magnitude}, thus, via conversion, as {DE magnitude} is to {EF magnitude}, so the (square) on {GB magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
-And {DE magnitude} has to {EF magnitude} the ratio which (some) square-number (has) to (some) square-number.
-For each is a square (number).
-Thus, the (square) on {GB magnitude} also has to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, {BG magnitude} is commensurable in length with {H magnitude} [Prop. 10.9].
-And the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on {H magnitude}.
-Thus, the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on (some straight-line) commensurable in length with ({BG magnitude}).
-And the whole, {BG magnitude}, is commensurable in length with the (previously) laid down rational (straight-line) {A magnitude}.
-Thus, {BC magnitude} is a first apotome [Def. 10.11].
+{H magnitude}'nin üzerindeki (kare), {BG magnitude}'nin (üzerindeki karenin) {GC magnitude}'nin (üzerindeki kareden) büyük olduğu o (alan) olsun [Önerme 10.13 ek kısım].
+Ve {ED magnitude}, {FD magnitude}'ye nasılsa, {BG magnitude}'nin (üzerindeki kare), {GC magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece dönüşüm yoluyla, {DE magnitude}, {EF magnitude}'ye nasılsa, {GB magnitude}'nin (üzerindeki kare), {H magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.19 ek sonucu].
+Ve {DE magnitude}, {EF magnitude}'ye (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahiptir.
+Çünkü her biri bir kare (sayıdır).
+Böylece {GB magnitude}'nin (üzerindeki kare) de {H magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahiptir.
+Böylece {BG magnitude}, {H magnitude} ile uzunlukta ölçüşürdür [Önerme 10.9].
+Ve {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) {H magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) ({BG magnitude}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve bütün, {BG magnitude}, (daha önce) konmuş orantılı (doğru) {A magnitude} ile uzunlukta ölçüşürdür.
+Böylece {BC magnitude} bir birinci kesittir [Tanım 10.11].
 
-Thus, the first apotome {BC magnitude} has been found.
-(Which is) the very thing it was required to find.
+Böylece birinci kesit {BC magnitude} bulunmuştur.
+(Bulunması gereken tam olarak budur.)
+
+

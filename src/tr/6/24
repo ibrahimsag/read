@@ -1,28 +1,30 @@
-In any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.
+     1→Herhangi bir paralelkenarda köşegen çevresindeki paralelkenarlar bütüne ve birbirlerine benzerdir.
+     2→
+     3→{ABCD polygon} bir paralelkenar olsun ve {AC line} onun köşegeni (olsun).
+     4→Ve {EG polygon} ve {HK polygon} {AC line} çevresindeki paralelkenarlar olsun.
+     5→Diyorum ki {EG polygon} ve {HK polygon} paralelkenarlarının her biri bütün (paralelkenar) {ABCD polygon}'a ve birbirine benzerdir.
+     6→
+     7→Çünkü {EF line}, {ABC polygon} üçgeninin kenarlarından biri olan {BC line}'ye paralel olarak çizildiği için, orantılı olarak {BE line} {EA line}'ya nasılsa, {CF line} {FA line}'ya öyledir [Önerme 6.2].
+     8→Yine, {FG line}, {ACD polygon} üçgeninin (kenarlarından) biri olan {CD line}'ye paralel olarak çizildiği için, orantılı olarak {CF line} {FA line}'ya nasılsa, {DG line} {GA line}'ya öyledir [Önerme 6.2].
+     9→Ama {CF line} {FA line}'ya nasılsa, {BE line} {EA line}'ya da öyle olduğu gösterilmişti.
+    10→Ve böylece {BE line} {EA line}'ya nasılsa, {DG line} {GA line}'ya öyledir.
+    11→Ve böylece bileşik olarak {BA line} {AE line}'ye nasılsa, {DA line} {AG line}'ye öyledir [Önerme 5.18].
+    12→Ve değişimli olarak {BA line} {AD line}'ye nasılsa, {EA line} {AG line}'ye öyledir [Önerme 5.16].
+    13→Böylece {ABCD polygon} ve {EG polygon} paralelkenarlarında ortak açı {BAD angle}'nin çevresindeki kenarlar orantılıdır.
+    14→Ve {GF line} {DC line}'ye paralel olduğu için, {AFG angle} açısı {DCA angle}'ye eşittir [Önerme 1.29].
+    15→Ve {DAC angle} açısı {ADC polygon} ve {AGF polygon} iki üçgenine ortaktır.
+    16→Böylece {ADC polygon} üçgeni {AGF polygon} üçgenine eşaçılıdır [Önerme 1.32].
+    17→Öyleyse, aynı (nedenlerle), {ACB polygon} üçgeni {AFE polygon} üçgenine eşaçılıdır ve bütün {ABCD polygon} paralelkenarı {EG polygon} paralelkenarına eşaçılıdır.
+    18→Böylece orantılı olarak {AD line} {DC line}'ye nasılsa, {AG line} {GF line}'ye öyledir ve {DC line} {CA line}'ya nasılsa, {GF line} {FA line}'ya öyledir ve {AC line} {CB line}'ye nasılsa, {AF line} {FE line}'ye öyledir ve dahası {CB line} {BA line}'ya nasılsa, {FE line} {EA line}'ya öyledir [Önerme 6.4].
+    19→Ve {DC line} {CA line}'ya nasılsa {GF line} {FA line}'ya öyle olduğu ve {AC line} {CB line}'ye nasılsa {AF line} {FE line}'ye öyle olduğu gösterildiği için, böylece eşitlik yoluyla {DC line} {CB line}'ye nasılsa, {GF line} {FE line}'ye öyledir [Önerme 5.22].
+    20→Böylece {ABCD polygon} ve {EG polygon} paralelkenarlarında eşit açıların çevresindeki kenarlar orantılıdır.
+    21→Böylece {ABCD polygon} paralelkenarı {EG polygon} paralelkenarına benzerdir [Tanım 6.1].
+    22→Öyleyse, aynı (nedenlerle), {ABCD polygon} paralelkenarı {KH polygon} paralelkenarına da benzerdir.
+    23→Böylece {EG polygon} ve {HK polygon} paralelkenarlarının her biri [paralelkenar] {ABCD polygon}'a benzerdir.
+    24→Ve aynı doğrusal şekle benzer (doğrusal şekiller) birbirlerine de benzerdir [Önerme 6.21].
+    25→Böylece {EG polygon} paralelkenarı {HK polygon} paralelkenarına da benzerdir.
+    26→
+    27→Böylece, herhangi bir paralelkenarda köşegen çevresindeki paralelkenarlar bütüne ve birbirlerine benzerdir.
+    28→(Gösterilmesi gereken tam olarak budur.)
+    29→
 
-Let {ABCD polygon} be a parallelogram, and {AC line} its diagonal.
-And let {EG polygon} and {HK polygon} be parallelograms about {AC line}.
-I say that the parallelograms {EG polygon} and {HK polygon} are each similar to the whole (parallelogram) {ABCD polygon}, and to one another.
-
-For since {EF line} has been drawn parallel to one of the sides {BC line} of triangle {ABC polygon}, proportionally, as {BE line} is to {EA line}, so {CF line} (is) to {FA line} [Prop. 6.2].
-Again, since {FG line} has been drawn parallel to one (of the sides) {CD line} of triangle {ACD polygon}, proportionally, as {CF line} is to {FA line}, so {DG line} (is) to {GA line} [Prop. 6.2].
-But, as {CF line} (is) to {FA line}, so it was also shown (is) {BE line} to {EA line}.
-And thus as {BE line} (is) to {EA line}, so {DG line} (is) to {GA line}.
-And, thus, compounding, as {BA line} (is) to {AE line}, so {DA line} (is) to {AG line} [Prop. 5.18].
-And, alternately, as {BA line} (is) to {AD line}, so {EA line} (is) to {AG line} [Prop. 5.16].
-Thus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the common angle {BAD angle} are proportional.
-And since {GF line} is parallel to {DC line}, angle {AFG angle} is equal to {DCA angle} [Prop. 1.29].
-And angle {DAC angle} (is) common to the two triangles {ADC polygon} and {AGF polygon}.
-Thus, triangle {ADC polygon} is equiangular to triangle {AGF polygon} [Prop. 1.32].
-So, for the same (reasons), triangle {ACB polygon} is equiangular to triangle {AFE polygon}, and the whole parallelogram {ABCD polygon} is equiangular to parallelogram {EG polygon}.
-Thus, proportionally, as {AD line} (is) to {DC line}, so {AG line} (is) to {GF line}, and as {DC line} (is) to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, and, further, as {CB line} (is) to {BA line}, so {FE line} (is) to {EA line} [Prop. 6.4].
-And since it was shown that as {DC line} is to {CA line}, so {GF line} (is) to {FA line}, and as {AC line} (is) to {CB line}, so {AF line} (is) to {FE line}, thus, via equality, as {DC line} is to {CB line}, so {GF line} (is) to {FE line} [Prop. 5.22].
-Thus, in parallelograms {ABCD polygon} and {EG polygon} the sides about the equal angles are proportional.
-Thus, parallelogram {ABCD polygon} is similar to parallelogram {EG polygon} [Def. 6.1].
-So, for the same (reasons), parallelogram {ABCD polygon} is also similar to parallelogram {KH polygon}.
-Thus, parallelograms {EG polygon} and {HK polygon} are each similar to [parallelogram] {ABCD polygon}.
-And (rectilinear figures) similar to the same rectilinear figure are also similar to one another [Prop. 6.21].
-Thus, parallelogram {EG polygon} is also similar to parallelogram {HK polygon}.
-
-Thus, in any parallelogram the parallelograms about the diagonal are similar to the whole, and to one another.
-(Which is) the very thing it was required to show.

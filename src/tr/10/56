@@ -1,20 +1,22 @@
-If an area is contained by a rational (straight-line) and a third binomial (straight-line) then the square-root of the area is the irrational (straight-line which is) called second bimedial.
+Eğer bir alan, bir orantılı (doğru) ve bir üçüncü iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü, ikinci iki-ortalı denilen o orantısız (doğrudur).
 
-For let the area {ABCD polygon} be contained by the rational (straight-line) {AB line} and by the third binomial (straight-line) {AD line}, which has been divided into its (component) terms at {E point}, of which {AE line} is the greater.
-I say that the square-root of area {AC polygon} is the irrational (straight-line which is) called second bimedial.
+Çünkü {ABCD polygon} alanı, orantılı (doğru) {AB line} ve (bileşen) terimlerine {E point}'de bölünmüş üçüncü iki-terimli (doğru) {AD line} tarafından --- {AE line} bunlardan büyük olandır --- içerilmiş olsun.
+Diyorum ki {AC polygon} alanının karekökü, ikinci iki-ortalı denilen o orantısız (doğrudur).
 
-For let the same construction be made as previously.
-And since {AD line} is a third binomial (straight-line), {AE line} and {ED line} are thus rational (straight-lines which are) commensurable in square only, and the square on {AE line} is greater than (the square on) {ED line} by the (square) on (some straight-line) commensurable (in length) with ({AE line}), and neither of {AE line} and {ED line} [is] commensurable in length with {AB line} [Def. 10.7].
-So, similarly to that which has been previously demonstrated, we can show that {MO line} is the square-root of area {AC polygon}, and {MN line} and {NO line} are medial (straight-lines which are) commensurable in square only.
-Hence, {MO line} is bimedial.
-So, we must show that (it is) also second (bimedial).
+Çünkü daha önce(ki) ile aynı inşa yapılmış olsun.
+Ve {AD line} bir üçüncü iki-terimli (doğru) olduğu için, böylece {AE line} ve {ED line} yalnızca karede ölçüşür orantılı (doğrulardır) ve {AE line}'ın üzerindeki kare, {ED line}'ın (üzerindeki kareden), ({AE line}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür ve {AE line} ve {ED line}'ın hiçbiri {AB line} ile uzunlukta ölçüşür [değildir] [Tanım 10.7].
+Öyleyse, daha önce gösterilene benzer şekilde, {MO line}'ın {AC polygon} alanının karekökü olduğunu ve {MN line} ve {NO line}'ın yalnızca karede ölçüşür orta (doğrular) olduğunu gösterebiliriz.
+Dolayısıyla {MO line} iki-ortalıdır.
+Öyleyse, (onun) ayrıca ikinci (iki-ortalı) olduğunu göstermeliyiz.
 
-[And] since {DE line} is incommensurable in length with {AB line}---that is to say, with {EK line}---and {DE line} (is) commensurable (in length) with {EF line}, {EF line} is thus incommensurable in length with {EK line} [Prop. 10.13].
-And they are (both) rational (straight-lines).
-Thus, {FE line} and {EK line} are rational (straight-lines which are) commensurable in square only.
-{EL polygon}---that is to say, {MR polygon}---[is] thus medial [Prop. 10.21].
-And it is contained by {MN line} and {NO line}.
-Thus, the (rectangle contained) by {MN line} and {NO line} is medial.
+[Ve] {DE line}, {AB line} ile --- yani {EK line} ile --- uzunlukta ölçüşmez ve {DE line}, {EF line} ile (uzunlukta) ölçüşür olduğu için, böylece {EF line}, {EK line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Ve onlar (her ikisi de) orantılı (doğrulardır).
+Böylece {FE line} ve {EK line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EL polygon} --- yani {MR polygon} --- ortadır [Önerme 10.21].
+Ve o, {MN line} ve {NO line} tarafından içerilmiştir.
+Böylece {MN line} ve {NO line} tarafından (içerilen dikdörtgen) ortadır.
 
-Thus, {MO line} is a second bimedial (straight-line) [Prop. 10.38].
-(Which is) the very thing it was required to show.
+Böylece {MO line} bir ikinci iki-ortalı (doğrudur) [Önerme 10.38].
+(Gösterilmesi gereken tam olarak budur.)
+
+

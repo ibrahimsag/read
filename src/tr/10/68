@@ -1,28 +1,30 @@
-A (straight-line) commensurable (in length) with a major (straight-line) is itself also major.
+Bir büyük (doğru) ile (uzunlukta) ölçüşür (bir doğru), kendisi de büyük(tür).
 
-Let {AB magnitude} be a major (straight-line), and let {CD magnitude} be commensurable (in length) with {AB magnitude}.
-I say that {CD magnitude} is a major (straight-line).
+{AB magnitude} bir büyük (doğru) olsun ve {CD magnitude}, {AB magnitude} ile (uzunlukta) ölçüşür olsun.
+Diyorum ki {CD magnitude} bir büyük (doğrudur).
 
-Let {AB magnitude} have been divided (into its component terms) at {E point}.
-{AE magnitude} and {EB magnitude} are thus incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial [Prop. 10.39].
-And let (the) same (things) have been contrived as in the previous (propositions).
-And since as {AB magnitude} is to {CD magnitude}, so {AE magnitude} (is) to {CF magnitude} and {EB magnitude} to {FD magnitude}, thus also as {AE magnitude} (is) to {CF magnitude}, so {EB magnitude} (is) to {FD magnitude} [Prop. 5.11].
-And {AB magnitude} (is) commensurable (in length) with {CD magnitude}.
-Thus, {AE magnitude} and {EB magnitude} (are) also commensurable (in length) with {CF magnitude} and {FD magnitude}, respectively [Prop. 10.11].
-And since as {AE magnitude} is to {CF magnitude}, so {EB magnitude} (is) to {FD magnitude}, also, alternately, as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Prop. 5.16], and thus, via composition, as {AB magnitude} is to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude} [Prop. 5.18].
-And thus as the (square) on {AB magnitude} (is) to the (square) on {BE magnitude}, so the (square) on {CD magnitude} (is) to the (square) on {DF magnitude} [Prop. 6.20].
-So, similarly, we can also show that as the (square) on {AB magnitude} (is) to the (square) on {AE magnitude}, so the (square) on {CD magnitude} (is) to the (square) on {CF magnitude}.
-And thus as the (square) on {AB magnitude} (is) to (the sum of) the (squares) on {AE magnitude} and {EB magnitude}, so the (square) on {CD magnitude} (is) to (the sum of) the (squares) on {CF magnitude} and {FD magnitude}.
-And thus, alternately, as the (square) on {AB magnitude} is to the (square) on {CD magnitude}, so (the sum of) the (squares) on {AE magnitude} and {EB magnitude} (is) to (the sum of) the (squares) on {CF magnitude} and {FD magnitude} [Prop. 5.16].
-And the (square) on {AB magnitude} (is) commensurable with the (square) on {CD magnitude}.
-Thus, (the sum of) the (squares) on {AE magnitude} and {EB magnitude} (is) also commensurable with (the sum of) the (squares) on {CF magnitude} and {FD magnitude} [Prop. 10.11].
-And the (squares) on {AE magnitude} and {EB magnitude} (added) together are rational.
-The (squares) on {CF magnitude} and {FD magnitude} (added) together (are) thus also rational.
-So, similarly, twice the (rectangle contained) by {AE magnitude} and {EB magnitude} is also commensurable with twice the (rectangle contained) by {CF magnitude} and {FD magnitude}.
-And twice the (rectangle contained) by {AE magnitude} and {EB magnitude} is medial.
-Therefore, twice the (rectangle contained) by {CF magnitude} and {FD magnitude} (is) also medial [Prop. 10.23 corr.].
-{CF magnitude} and {FD magnitude} are thus (straight-lines which are) incommensurable in square [Prop 10.13], simultaneously making the sum of the squares on them rational, and twice the (rectangle contained) by them medial.
-The whole, {CD magnitude}, is thus that irrational (straight-line) called major [Prop. 10.39].
+{AB magnitude}, (bileşen terimlerine) {E point}'de bölünmüş olsun.
+Böylece {AE magnitude} ve {EB magnitude}, üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgeni) orta yapan, karede ölçüşmez (doğrulardır) [Önerme 10.39].
+Ve önceki (önermelerde olduğu) gibi aynı (şeyler) ayarlanmış olsun.
+Ve {AB magnitude}, {CD magnitude}'ye nasılsa, {AE magnitude}, {CF magnitude}'ye ve {EB magnitude}, {FD magnitude}'ye (öyle) olduğu için, böylece {AE magnitude}, {CF magnitude}'ye nasılsa, {EB magnitude}, {FD magnitude}'ye (öyledir) [Önerme 5.11].
+Ve {AB magnitude}, {CD magnitude} ile (uzunlukta) ölçüşürdür.
+Böylece {AE magnitude} ve {EB magnitude} de sırasıyla {CF magnitude} ve {FD magnitude} ile (uzunlukta) ölçüşürdür [Önerme 10.11].
+Ve {AE magnitude}, {CF magnitude}'ye nasılsa, {EB magnitude}, {FD magnitude}'ye (öyle) olduğu için, ayrıca, değişimli olarak, {AE magnitude}, {EB magnitude}'ye nasılsa, {CF magnitude}, {FD magnitude}'ye (öyledir) [Önerme 5.16] ve böylece, bileşik olarak, {AB magnitude}, {BE magnitude}'ye nasılsa, {CD magnitude}, {DF magnitude}'ye (öyledir) [Önerme 5.18].
+Ve böylece {AB magnitude}'nin (üzerindeki kare), {BE magnitude}'nin (üzerindeki kareye) nasılsa, {CD magnitude}'nin (üzerindeki kare), {DF magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 6.20].
+Öyleyse, benzer şekilde, {AB magnitude}'nin (üzerindeki kare), {AE magnitude}'nin (üzerindeki kareye) nasılsa, {CD magnitude}'nin (üzerindeki kare), {CF magnitude}'nin (üzerindeki kareye) (öyle) olduğunu da gösterebiliriz.
+Ve böylece {AB magnitude}'nin (üzerindeki kare), {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamına) nasılsa, {CD magnitude}'nin (üzerindeki kare), {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamına) (öyledir).
+Ve böylece, değişimli olarak, {AB magnitude}'nin (üzerindeki kare), {CD magnitude}'nin (üzerindeki kareye) nasılsa, {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamı), {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamına) (öyledir) [Önerme 5.16].
+Ve {AB magnitude}'nin (üzerindeki kare), {CD magnitude}'nin (üzerindeki kare) ile ölçüşürdür.
+Böylece {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamı) da {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamı) ile ölçüşürdür [Önerme 10.11].
+Ve {AE magnitude} ve {EB magnitude}'nin (üzerindeki kareler) birlikte (toplandığında) orantılıdır.
+Böylece {CF magnitude} ve {FD magnitude}'nin (üzerindeki kareler) birlikte (toplandığında) da orantılıdır.
+Öyleyse, benzer şekilde, {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgenin) iki katı da {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşürdür.
+Ve {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgenin) iki katı ortadır.
+Bundan dolayı {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgenin) iki katı da ortadır [Önerme 10.23 ek sonucu].
+Böylece {CF magnitude} ve {FD magnitude}, aynı anda üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgenin) iki katını orta yapan, karede ölçüşmez (doğrulardır) [Önerme 10.13].
+Böylece bütün, {CD magnitude}, büyük denilen o orantısız (doğrudur) [Önerme 10.39].
 
-Thus, a (straight-line) commensurable (in length) with a major (straight-line) is major.
-(Which is) the very thing it was required to show.
+Böylece bir büyük (doğru) ile (uzunlukta) ölçüşür (bir doğru), büyük(tür).
+(Gösterilmesi gereken tam olarak budur.)
+
+

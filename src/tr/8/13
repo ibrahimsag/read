@@ -1,18 +1,21 @@
-If there are any multitude whatsoever of continuously proportional numbers, and each makes some (number by) multiplying itself, then the (numbers) created from them will (also) be (continuously) proportional.
-And if the original (numbers) make some (more numbers by) multiplying the created (numbers) then these will also be (continuously) proportional.
-
-Let {A magnitude}, {B magnitude}, {C magnitude} be any multitude whatsoever of continuously proportional numbers, (such that) as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-And let {A magnitude}, {B magnitude}, {C magnitude} make {D magnitude}, {E magnitude}, {F magnitude} (by) multiplying themselves, and let them make {G magnitude}, {H magnitude}, {K magnitude} (by) multiplying {D magnitude}, {E magnitude}, {F magnitude}.
-I say that {D magnitude}, {E magnitude}, {F magnitude} and {G magnitude}, {H magnitude}, {K magnitude} are continuously proportional.
-
-For let {A magnitude} make {L magnitude} (by) multiplying {B magnitude}.
-And let {A magnitude}, {B magnitude} make {M magnitude}, {N magnitude}, respectively, (by) multiplying {L magnitude}.
-And, again, let {B magnitude} make {O magnitude} (by) multiplying {C magnitude}.
-And let {B magnitude}, {C magnitude} make {P magnitude}, {Q magnitude}, respectively, (by) multplying {O magnitude}.
-
-So, similarly to the above, we can show that {D magnitude}, {L magnitude}, {E magnitude} and {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} are continuously proportional in the ratio of {A magnitude} to {B magnitude}, and, further, (that) {E magnitude}, {O magnitude}, {F magnitude} and {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude} are continuously proportional in the ratio of {B magnitude} to {C magnitude}.
-And as {A magnitude} is to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-And thus {D magnitude}, {L magnitude}, {E magnitude} are in the same ratio as {E magnitude}, {O magnitude}, {F magnitude}, and, further, {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} (are in the same ratio) as {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}.
-And the multitude of {D magnitude}, {L magnitude}, {E magnitude} is equal to the multitude of {E magnitude}, {O magnitude}, {F magnitude}, and that of {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude} to that of {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}.
-Thus, via equality, as {D magnitude} is to {E magnitude}, so {E magnitude} (is) to {F magnitude}, and as {G magnitude} (is) to {H magnitude}, so {H magnitude} (is) to {K magnitude} [Prop. 7.14].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer herhangi bir sayıda sürekli orantılı sayı varsa ve her biri kendini çarparak bir (sayı) oluşturursa o zaman onlardan oluşturulanlar da (sürekli) orantılı olacaktır.
+     2→     2→     2→Ve eğer özgün (sayılar) oluşturulanları çarparak bazı (sayılar daha) oluşturursa bunlar da (sürekli) orantılı olacaktır.
+     3→     3→     3→
+     4→     4→     4→{A magnitude}, {B magnitude}, {C magnitude}, {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye (öyle) olan, herhangi bir sayıda sürekli orantılı sayı olsun.
+     5→     5→     5→Ve {A magnitude}, {B magnitude}, {C magnitude} kendilerini çarparak {D magnitude}, {E magnitude}, {F magnitude}'yi oluştursunlar ve {D magnitude}, {E magnitude}, {F magnitude}'yi çarparak {G magnitude}, {H magnitude}, {K magnitude}'yı oluştursunlar.
+     6→     6→     6→Diyorum ki {D magnitude}, {E magnitude}, {F magnitude} ve {G magnitude}, {H magnitude}, {K magnitude} sürekli orantılıdır.
+     7→     7→     7→
+     8→     8→     8→Çünkü {A magnitude}, {B magnitude}'yi çarparak {L magnitude}'yi oluştursun.
+     9→     9→     9→Ve {A magnitude}, {B magnitude}, {L magnitude}'yi çarparak sırasıyla {M magnitude}, {N magnitude}'yi oluştursunlar.
+    10→    10→    10→Ve tekrar, {B magnitude}, {C magnitude}'yi çarparak {O magnitude}'yu oluştursun.
+    11→    11→    11→Ve {B magnitude}, {C magnitude}, {O magnitude}'yu çarparak sırasıyla {P magnitude}, {Q magnitude}'yu oluştursunlar.
+    12→    12→    12→
+    13→    13→    13→Öyle ki, yukarıdakine benzer şekilde, {D magnitude}, {L magnitude}, {E magnitude} ve {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude}'nin {A magnitude}'nın {B magnitude}'ye oranında sürekli orantılı olduğunu ve ayrıca, {E magnitude}, {O magnitude}, {F magnitude} ve {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}'nın {B magnitude}'nin {C magnitude}'ye oranında sürekli orantılı olduğunu gösterebiliriz.
+    14→    14→    14→Ve {A magnitude} {B magnitude}'ye nasılsa, {B magnitude} {C magnitude}'ye (öyledir).
+    15→    15→    15→Ve böylece {D magnitude}, {L magnitude}, {E magnitude}, {E magnitude}, {O magnitude}, {F magnitude} ile aynı orandadır ve ayrıca {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude}, {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude} (ile aynı orandadır).
+    16→    16→    16→Ve {D magnitude}, {L magnitude}, {E magnitude}'nin çokluğu {E magnitude}, {O magnitude}, {F magnitude}'nin çokluğuna ve {G magnitude}, {M magnitude}, {N magnitude}, {H magnitude}'ninki {H magnitude}, {P magnitude}, {Q magnitude}, {K magnitude}'nınkine eşittir.
+    17→    17→    17→Böylece, eşitlik yoluyla, {D magnitude} {E magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye (öyledir) ve {G magnitude} {H magnitude}'ye nasılsa, {H magnitude} {K magnitude}'ya (öyledir) [Önerme 7.14].
+    18→    18→    18→(Gösterilmesi gereken tam olarak budur.)
+    19→    19→    19→
+    20→
+    21→

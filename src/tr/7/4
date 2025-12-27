@@ -1,21 +1,23 @@
-Any number is either part or parts of any (other) number, the lesser of the greater.
+     1→     1→Herhangi bir sayı, herhangi bir (başka) sayının ya parçasıdır ya da parçalarıdır, büyüğün küçüğü.
+     2→     2→
+     3→     3→{A magnitude} ve {BC magnitude} iki sayı olsun ve {BC magnitude} küçük olsun.
+     4→     4→Diyorum ki {BC magnitude} ya {A magnitude}'nın parçasıdır ya da parçalarıdır.
+     5→     5→
+     6→     6→Çünkü {A magnitude} ve {BC magnitude} ya birbirine asaldır ya da değildir.
+     7→     7→Önce {A magnitude} ve {BC magnitude} birbirine asal olsun.
+     8→     8→Öyleyse {BC magnitude} birimlerine ayrıldığında, {BC magnitude}'deki birimlerin her biri {A magnitude}'nın bir parçası olacaktır.
+     9→     9→Dolayısıyla {BC magnitude}, {A magnitude}'nın parçalarıdır.
+    10→    10→
+    11→    11→Öyleyse {A magnitude} ve {BC magnitude} birbirine asal olmasın.
+    12→    12→Öyleyse {BC magnitude} ya {A magnitude}'yı ölçer ya da ölçmez.
+    13→    13→Bu nedenle, eğer {BC magnitude} {A magnitude}'yı ölçerse o zaman {BC magnitude}, {A magnitude}'nın parçasıdır.
+    14→    14→Ve eğer değilse, {A magnitude} ve {BC magnitude}'nin en büyük ortak ölçüsü {D magnitude} alınmış olsun [Önerme 7.2] ve {BC magnitude}, {D magnitude}'ye eşit {BE magnitude}, {EF magnitude} ve {FC magnitude}'ye bölünmüş olsun.
+    15→    15→Ve {D magnitude} {A magnitude}'yı ölçtüğü için, {D magnitude} {A magnitude}'nın parçasıdır.
+    16→    16→Ve {D magnitude}, {BE magnitude}, {EF magnitude} ve {FC magnitude}'nin her birine eşittir.
+    17→    17→Böylece {BE magnitude}, {EF magnitude} ve {FC magnitude} de her biri {A magnitude}'nın parçasıdır.
+    18→    18→Dolayısıyla {BC magnitude}, {A magnitude}'nın parçalarıdır.
+    19→    19→
+    20→    20→Böylece, herhangi bir sayı, herhangi bir (başka) sayının ya parçasıdır ya da parçalarıdır, büyüğün küçüğü.
+    21→    21→(Gösterilmesi gereken tam olarak budur.)
+    22→    22→
 
-Let {A magnitude} and {BC magnitude} be two numbers, and let {BC magnitude} be the lesser.
-I say that {BC magnitude} is either part or parts of {A magnitude}.
-
-For {A magnitude} and {BC magnitude} are either prime to one another, or not.
-Let {A magnitude} and {BC magnitude}, first of all, be prime to one another.
-So separating {BC magnitude} into its constituent units, each of the units in {BC magnitude} will be some part of {A magnitude}.
-Hence, {BC magnitude} is parts of {A magnitude}.
-
-So let {A magnitude} and {BC magnitude} be not prime to one another.
-So {BC magnitude} either measures, or does not measure, {A magnitude}.
-Therefore, if {BC magnitude} measures {A magnitude} then {BC magnitude} is part of {A magnitude}.
-And if not, let the greatest common measure, {D magnitude}, of {A magnitude} and {BC magnitude} have been taken [Prop. 7.2], and let {BC magnitude} have been divided into {BE magnitude}, {EF magnitude}, and {FC magnitude}, equal to {D magnitude}.
-And since {D magnitude} measures {A magnitude}, {D magnitude} is a part of {A magnitude}.
-And {D magnitude} is equal to each of {BE magnitude}, {EF magnitude}, and {FC magnitude}.
-Thus, {BE magnitude}, {EF magnitude}, and {FC magnitude} are also each part of {A magnitude}.
-Hence, {BC magnitude} is parts of {A magnitude}.
-
-Thus, any number is either part or parts of any (other) number, the lesser of the greater.
-(Which is) the very thing it was required to show.

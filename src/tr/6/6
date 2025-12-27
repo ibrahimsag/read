@@ -1,26 +1,28 @@
-If two triangles have one angle equal to one angle, and the sides about the equal angles proportional, then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.
+     1→Eğer iki üçgenin bir açısı bir açıya eşitse ve eşit açıların çevresindeki kenarlar orantılıysa, o zaman üçgenler eşaçılı olacaktır ve karşılık gelen kenarların gördüğü açılar eşit olacaktır.
+     2→
+     3→{ABC polygon} ve {DEF polygon} bir açısı, {BAC angle}, sırasıyla bir açıya, {EDF angle}'ye, eşit olan ve eşit açıların çevresindeki kenarları orantılı olan iki üçgen olsun, (öyle ki) {BA line} {AC line}'ye nasılsa {ED line} {DF line}'ye öyle olsun.
+     4→Diyorum ki {ABC polygon} üçgeni {DEF polygon} üçgenine eşaçılıdır ve {ABC angle} açısı {DEF angle}'ye eşit olacaktır ve (açı) {ACB angle} {DFE angle}'ye (eşit olacaktır).
+     5→
+     6→Çünkü (açı) {FDG angle}, {BAC angle} ve {EDF angle}'nin her birine eşit ve (açı) {DFG angle}, {ACB angle}'ye eşit olarak, {DF line} doğru parçası üzerinde, sırasıyla üzerindeki {D point} ve {F point} noktalarında inşa edilmiş olsun [Önerme 1.23].
+     7→Böylece {B point}'deki kalan açı {G point}'deki kalan açıya eşittir [Önerme 1.32].
+     8→
+     9→Böylece {ABC polygon} üçgeni {DGF polygon} üçgenine eşaçılıdır.
+    10→Böylece orantılı olarak {BA line} {AC line}'ye nasılsa, {GD line} {DF line}'ye öyledir [Önerme 6.4].
+    11→Ve {BA line} {AC line}'ye nasılsa {ED line} {DF line}'ye öyle olduğu da varsayılmıştı.
+    12→Ve böylece {ED line} {DF line}'ye nasılsa, {GD line} {DF line}'ye öyledir [Önerme 5.11].
+    13→Böylece {ED line} {DG line}'ye eşittir [Önerme 5.9].
+    14→Ve {DF line} ortaktır.
+    15→Öyleyse, iki (kenar) {ED line}, {DF line} sırasıyla iki (kenara) {GD line}, {DF line}'ye eşittir.
+    16→Ve {EDF angle} açısı {GDF angle} açısına [eşittir].
+    17→Böylece taban {EF line} taban {GF line}'ye eşittir ve {DEF polygon} üçgeni {GDF polygon} üçgenine eşittir ve kalan açılar eşit kenarların gördüğü kalan açılara eşit olacaktır [Önerme 1.4].
+    18→Böylece (açı) {DFG angle} {DFE angle}'ye eşittir ve (açı) {DGF angle} {DEF angle}'ye (eşittir).
+    19→Ama (açı) {DFG angle} {ACB angle}'ye eşittir.
+    20→Böylece (açı) {ACB angle} de {DFE angle}'ye eşittir.
+    21→Ve (açı) {BAC angle}'nin de {EDF angle}'ye eşit olduğu varsayılmıştı.
+    22→Böylece {B point}'deki kalan (açı) {E point}'deki kalan (açıya) eşittir [Önerme 1.32].
+    23→Böylece {ABC polygon} üçgeni {DEF polygon} üçgenine eşaçılıdır.
+    24→
+    25→Böylece, eğer iki üçgenin bir açısı bir açıya eşitse ve eşit açıların çevresindeki kenarlar orantılıysa, o zaman üçgenler eşaçılı olacaktır ve karşılık gelen kenarların gördüğü açılar eşit olacaktır.
+    26→(Gösterilmesi gereken tam olarak budur.)
+    27→
 
-Let {ABC polygon} and {DEF polygon} be two triangles having one angle, {BAC angle}, equal to one angle, {EDF angle} (respectively), and the sides about the equal angles proportional, (so that) as {BA line} (is) to {AC line}, so {ED line} (is) to {DF line}.
-I say that triangle {ABC polygon} is equiangular to triangle {DEF polygon}, and will have angle {ABC angle} equal to {DEF angle}, and (angle) {ACB angle} to {DFE angle}.
-
-For let (angle) {FDG angle}, equal to each of {BAC angle} and {EDF angle}, and (angle) {DFG angle}, equal to {ACB angle}, have been constructed on the straight-line {DF line} at the points {D point} and {F point} on it (respectively) [Prop. 1.23].
-Thus, the remaining angle at {B point} is equal to the remaining angle at {G point} [Prop. 1.32].
-
-Thus, triangle {ABC polygon} is equiangular to triangle {DGF polygon}.
-Thus, proportionally, as {BA line} (is) to {AC line}, so {GD line} (is) to {DF line} [Prop. 6.4].
-And it was also assumed that as {BA line} is) to {AC line}, so {ED line} (is) to {DF line}.
-And, thus, as {ED line} (is) to {DF line}, so {GD line} (is) to {DF line} [Prop. 5.11].
-Thus, {ED line} (is) equal to {DG line} [Prop. 5.9].
-And {DF line} (is) common.
-So, the two (sides) {ED line}, {DF line} are equal to the two (sides) {GD line}, {DF line} (respectively).
-And angle {EDF angle} [is] equal to angle {GDF angle}.
-Thus, base {EF line} is equal to base {GF line}, and triangle {DEF polygon} is equal to triangle {GDF polygon}, and the remaining angles will be equal to the remaining angles which the equal sides subtend [Prop. 1.4].
-Thus, (angle) {DFG angle} is equal to {DFE angle}, and (angle) {DGF angle} to {DEF angle}.
-But, (angle) {DFG angle} is equal to {ACB angle}.
-Thus, (angle) {ACB angle} is also equal to {DFE angle}.
-And (angle) {BAC angle} was also assumed (to be) equal to {EDF angle}.
-Thus, the remaining (angle) at {B point} is equal to the remaining (angle) at {E point} [Prop. 1.32].
-Thus, triangle {ABC polygon} is equiangular to triangle {DEF polygon}.
-
-Thus, if two triangles have one angle equal to one angle, and the sides about the equal angles proportional, then the triangles will be equiangular, and will have the angles which corresponding sides subtend equal.
-(Which is) the very thing it was required to show.

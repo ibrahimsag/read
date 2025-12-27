@@ -1,14 +1,16 @@
-If a number is part of a number, and another (number) is the same part of another, then the sum (of the leading numbers) will also be the same part of the sum (of the following numbers) that one (number) is of another.
+     1→     1→Eğer bir sayı bir sayının parçasıysa ve başka bir (sayı) başkasının aynı parçasıysa, o zaman (öndeki sayıların) toplamı da (ardıl sayıların) toplamının, bir (sayının) diğerine olduğu aynı parça olacaktır.
+     2→     2→
+     3→     3→Çünkü bir {A magnitude} sayısı bir [sayı] {BC magnitude}'nin parçası olsun ve başka bir (sayı) {D magnitude}, {A magnitude}'nın {BC magnitude}'nin (parçası olduğu) aynı parça başka bir (sayı) {EF magnitude}'nin (parçası) olsun.
+     4→     4→Diyorum ki {A magnitude}, {D magnitude} toplamı da {BC magnitude}, {EF magnitude} toplamının, {A magnitude}'nın {BC magnitude}'nin (parçası olduğu) aynı parçadır.
+     5→     5→
+     6→     6→Çünkü {A magnitude} {BC magnitude}'nin hangi parçasıysa, {D magnitude} de {EF magnitude}'nin aynı parçası olduğu için, böylece {BC magnitude}'de {A magnitude}'ya eşit kaç sayı varsa, {EF magnitude}'de de {D magnitude}'ye eşit o kadar sayı vardır.
+     7→     7→{BC magnitude}, {A magnitude}'ya eşit {BG magnitude} ve {GC magnitude}'ye bölünmüş olsun ve {EF magnitude}, {D magnitude}'ye eşit {EH magnitude} ve {HF magnitude}'ye (bölünmüş olsun).
+     8→     8→Öyleyse (bölümlerin) {BG magnitude}, {GC magnitude} sayısı (bölümlerin) {EH magnitude}, {HF magnitude} sayısına eşit olacaktır.
+     9→     9→Ve {BG magnitude} {A magnitude}'ya ve {EH magnitude} {D magnitude}'ye eşit olduğu için, böylece {BG magnitude}, {EH magnitude} de {A magnitude}, {D magnitude}'ye eşittir.
+    10→    10→Öyle ki, aynı (nedenlerle), {GC magnitude}, {HF magnitude} de {A magnitude}, {D magnitude}'ye (eşittir).
+    11→    11→Böylece {BC magnitude}'de {A magnitude}'ya eşit kaç sayı [varsa], {BC magnitude}, {EF magnitude}'de de {A magnitude}, {D magnitude}'ye eşit o kadar vardır.
+    12→    12→Böylece {BC magnitude} {A magnitude}'ya kaç katsa, {BC magnitude}, {EF magnitude} toplamı da {A magnitude}, {D magnitude} toplamına o kadardır.
+    13→    13→Böylece {A magnitude} {BC magnitude}'nin hangi parçasıysa, {A magnitude}, {D magnitude} toplamı da {BC magnitude}, {EF magnitude} toplamının aynı parçasıdır.
+    14→    14→(Gösterilmesi gereken tam olarak budur.)
+    15→    15→
 
-For let a number {A magnitude} be part of a [number] {BC magnitude}, and another (number) {D magnitude} (be) the same part of another (number){EF magnitude} that {A magnitude} (is) of {BC magnitude}.
-I say that the sum {A magnitude}, {D magnitude} is also the same part of the sum {BC magnitude}, {EF magnitude} that {A magnitude} (is) of {BC magnitude}.
-
-For since which(ever) part {A magnitude} is of {BC magnitude}, {D magnitude} is the same part of {EF magnitude}, thus as many numbers as are in {BC magnitude} equal to {A magnitude}, so many numbers are also in {EF magnitude} equal to {D magnitude}.
-Let {BC magnitude} have been divided into {BG magnitude} and {GC magnitude}, equal to {A magnitude}, and {EF magnitude} into {EH magnitude} and {HF magnitude}, equal to {D magnitude}.
-So the multitude of (divisions) {BG magnitude}, {GC magnitude} will be equal to the multitude of (divisions) {EH magnitude}, {HF magnitude}.
-And since {BG magnitude} is equal to {A magnitude}, and {EH magnitude} to {D magnitude}, thus {BG magnitude}, {EH magnitude} (is) also equal to {A magnitude}, {D magnitude}.
-So, for the same (reasons), {GC magnitude}, {HF magnitude} (is) also (equal) to {A magnitude}, {D magnitude}.
-Thus, as many numbers as [are] in {BC magnitude} equal to {A magnitude}, so many are also in {BC magnitude}, {EF magnitude} equal to {A magnitude}, {D magnitude}.
-Thus, as many times as {BC magnitude} is (divisible) by {A magnitude}, so many times is the sum {BC magnitude}, {EF magnitude} also (divisible) by the sum {A magnitude}, {D magnitude}.
-Thus, which (ever) part {A magnitude} is of {BC magnitude}, the sum {A magnitude}, {D magnitude} is also the same part of the sum {BC magnitude}, {EF magnitude}.
-(Which is) the very thing it was required to show.

@@ -1,17 +1,19 @@
-If two numbers make some (number by) multiplying one another, and some prime number measures the number (so) created from them, then it will also measure one of the original (numbers).
+     1→     1→Eğer iki sayı birbirini çarparak bir (sayı) oluşturursa ve bir asal sayı (böylece) onlardan oluşturulan sayıyı ölçerse, o zaman başlangıçtaki (sayılardan) birini de ölçecektir.
+     2→     2→
+     3→     3→Çünkü {A magnitude} ve {B magnitude} iki sayısı birbirini çarparak {C magnitude}'yi oluştursun ve bir {D magnitude} asal sayısı {C magnitude}'yi ölçsün.
+     4→     4→Diyorum ki {D magnitude}, {A magnitude} ve {B magnitude}'den birini ölçer.
+     5→     5→
+     6→     6→Çünkü {A magnitude}'yı ölçmesin.
+     7→     7→Ve {D magnitude} asal olduğu için, {A magnitude} ve {D magnitude} böylece birbirine asaldır [Önerme 7.29].
+     8→     8→Ve {D magnitude}, {C magnitude}'yi kaç kez ölçüyorsa, {E magnitude}'de o kadar birim olsun.
+     9→     9→Bu nedenle, {D magnitude} {C magnitude}'yi {E magnitude} birimlerine göre ölçtüğü için, {D magnitude} böylece {E magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur [Tanım 7.15].
+    10→    10→Ama, aslında, {A magnitude} da {B magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur.
+    11→    11→Böylece {D magnitude} ve {E magnitude}'den (çarpılarak) oluşturulan (sayı) {A magnitude} ve {B magnitude}'den (çarpılarak) oluşturulan (sayıya) eşittir.
+    12→    12→Böylece {D magnitude} {A magnitude}'ya nasılsa, {B magnitude} {E magnitude}'ye öyledir [Önerme 7.19].
+    13→    13→Ve {D magnitude} ve {A magnitude} (birbirine) asaldır ve (birbirine) asal (sayılar) ayrıca (aynı oranda olan sayıların) en küçükleridir [Önerme 7.21] ve en küçük (sayılar), (kendileriyle) aynı oranda olan (sayıları) eşit sayıda ölçer, büyük büyüğü ve küçük küçüğü ölçerek---yani önde gelen önde geleni ve ardıl ardılı (ölçerek) [Önerme 7.20].
+    14→    14→Böylece {D magnitude}, {B magnitude}'yi ölçer.
+    15→    15→Öyle ki, benzer şekilde, eğer ({D magnitude}) {B magnitude}'yi ölçmezse o zaman {A magnitude}'yı ölçeceğini de gösterebiliriz.
+    16→    16→Böylece {D magnitude}, {A magnitude} ve {B magnitude}'den birini ölçer.
+    17→    17→(Gösterilmesi gereken tam olarak budur.)
+    18→    18→
 
-For let two numbers {A magnitude} and {B magnitude} make {C magnitude} (by) multiplying one another, and let some prime number {D magnitude} measure {C magnitude}.
-I say that {D magnitude} measures one of {A magnitude} and {B magnitude}.
-
-For let it not measure {A magnitude}.
-And since {D magnitude} is prime, {A magnitude} and {D magnitude} are thus prime to one another [Prop. 7.29].
-And as many times as {D magnitude} measures {C magnitude}, so many units let there be in {E magnitude}.
-Therefore, since {D magnitude} measures {C magnitude} according to the units {E magnitude}, {D magnitude} has thus made {C magnitude} (by) multiplying {E magnitude} [Def. 7.15].
-But, in fact, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude}.
-Thus, the (number created) from (multiplying) {D magnitude} and {E magnitude} is equal to the (number created) from (multiplying) {A magnitude} and {B magnitude}.
-Thus, as {D magnitude} is to {A magnitude}, so {B magnitude} (is) to {E magnitude} [Prop. 7.19].
-And {D magnitude} and {A magnitude} (are) prime (to one another), and (numbers) prime (to one another are) also the least (of those numbers having the same ratio) [Prop. 7.21], and the least (numbers) measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser—that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, {D magnitude} measures {B magnitude}.
-So, similarly, we can also show that if ({D magnitude}) does not measure {B magnitude} then it will measure {A magnitude}.
-Thus, {D magnitude} measures one of {A magnitude} and {B magnitude}.
-(Which is) the very thing it was required to show.

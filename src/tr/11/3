@@ -1,13 +1,14 @@
-If two planes cut one another then their common section is a straight-line.
+Eğer iki düzlem birbirini keserse o zaman onların ortak kesiti bir doğrudur.
 
-For let the two planes {AB polygon} and {BC polygon} cut one another, and let their common section be the line {DB line}.
-I say that the line {DB line} is straight.
+Çünkü iki düzlem {AB polygon} ve {BC polygon} birbirini kesmiş olsun ve onların ortak kesiti {DB line} doğrusu olsun.
+Diyorum ki {DB line} doğrusu düzdür.
 
-For, if not, let the straight-line {DEB given} have been joined from {D point} to {B point} in the plane {AB polygon}, and the straight-line {DFB given} in the plane {BC polygon}.
-So two straight-lines, {DEB given} and {DFB given}, will have the same ends, and they will clearly enclose an area.
-The very thing (is) absurd.
-Thus, {DEB given} and {DFB given} are not straight-lines.
-So, similarly, we can show than no other straight-line can be joined from {D point} to {B point} except {DB line}, the common section of the planes {AB polygon} and {BC polygon}.
+Çünkü değilse, {D point}'den {B point}'ye {DEB given} doğrusu {AB polygon} düzleminde ve {DFB given} doğrusu {BC polygon} düzleminde birleştirilmiş olsun.
+Öyleyse iki doğru, {DEB given} ve {DFB given}, aynı uçlara sahip olacaktır ve onlar açıkça bir alan çevreleyecektir.
+Tam olarak bu saçmadır.
+Böylece {DEB given} ve {DFB given} doğru (doğrular) değildir.
+Öyleyse benzer şekilde, {AB polygon} ve {BC polygon} düzlemlerinin ortak kesiti {DB line} dışında {D point}'den {B point}'ye başka hiçbir doğrunun birleştirilemeyeceğini gösterebiliriz.
 
-Thus, if two planes cut one another then their common section is a straight-line.
-(Which is) the very thing it was required to show.
+Böylece eğer iki düzlem birbirini keserse o zaman onların ortak kesiti bir doğrudur.
+(Gösterilmesi gereken tam olarak budur.)
+

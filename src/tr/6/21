@@ -1,10 +1,12 @@
-(Rectilinear figures) similar to the same rectilinear figure are also similar to one another.
+     1→Aynı doğrusal şekle benzer (doğrusal şekiller) birbirlerine de benzerdir.
+     2→
+     3→{A given} ve {B given} doğrusal şekillerinin her biri ({C given} doğrusal şekline) benzer olsun.
+     4→Diyorum ki {A given} {B given}'ye de benzerdir.
+     5→
+     6→Çünkü {A given} {C given}'ye benzer olduğu için, ({A given}) ({C given}'ye) eşaçılıdır ve eşit açıların çevresindeki kenarları orantılıdır [Tanım 6.1].
+     7→Yine, {B given} {C given}'ye benzer olduğu için, ({B given}) ({C given}'ye) eşaçılıdır ve eşit açıların çevresindeki kenarları orantılıdır [Tanım 6.1].
+     8→Böylece {A given} ve {B given}'nin her biri {C given}'ye eşaçılıdır ve eşit açıların çevresindeki kenarları orantılıdır.
+     9→Böylece {A given} {B given}'ye benzerdir [Tanım 6.1].
+    10→(Gösterilmesi gereken tam olarak budur.)
+    11→
 
-Let each of the rectilinear figures {A given} and {B given} be similar to (the rectilinear figure) {C given}.
-I say that {A given} is also similar to {B given}.
-
-For since {A given} is similar to {C given}, ({A given}) is equiangular to ({C given}), and has the sides about the equal angles proportional [Def. 6.1].
-Again, since {B given} is similar to {C given}, ({B given}) is equiangular to ({C given}), and has the sides about the equal angles proportional [Def. 6.1].
-Thus, {A given} and {B given} are each equiangular to {C given}, and have the sides about the equal angles proportional.
-Thus, {A given} is similar to {B given} [Def. 6.1].
-(Which is) the very thing it was required to show.

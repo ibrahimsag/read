@@ -1,18 +1,20 @@
-An infinite (series) of irrational (straight-lines) can be created from a medial (straight-line), and none of them is the same as any of the preceding (straight-lines).
+Bir orta (doğrudan) sonsuz (dizi) orantısız (doğru) oluşturulabilir ve onların hiçbiri, önceki (doğrulardan) herhangi biri ile aynı değildir.
 
-Let {A magnitude} be a medial (straight-line).
-I say that an infinite (series) of irrational (straight-lines) can be created from {A magnitude}, and that none of them is the same as any of the preceding (straight-lines).
+{A magnitude} bir orta (doğru) olsun.
+Diyorum ki {A magnitude}'den sonsuz (dizi) orantısız (doğru) oluşturulabilir ve onların hiçbiri, önceki (doğrulardan) herhangi biri ile aynı değildir.
 
-Let the rational (straight-line) {B magnitude} be laid down.
-And let the (square) on {C magnitude} be equal to the (rectangle contained) by {B magnitude} and {A magnitude}.
-Thus, {C magnitude} is irrational [Def. 10.4].
-For an (area contained) by an irrational and a rational (straight-line) is irrational [Prop. 10.20].
-And ({C magnitude} is) not the same as any of the preceding (straight-lines).
-For the (square) on none of the preceding (straight-lines), applied to a rational (straight-line), produces a medial (straight-line) as breadth.
-So, again, let the (square) on {D magnitude} be equal to the (rectangle contained) by {B magnitude} and {C magnitude}.
-Thus, the (square) on {D magnitude} is irrational [Prop. 10.20].
-{D magnitude} is thus irrational [Def. 10.4].
-And ({D magnitude} is) not the same as any of the preceding (straight-lines).
-For the (square) on none of the preceding (straight-lines), applied to a rational (straight-line), produces {C magnitude} as breadth.
-So, similarly, this arrangement being advanced to infinity, it is clear that an infinite (series) of irrational (straight-lines) can be created from a medial (straight-line), and that none of them is the same as any of the preceding (straight-lines).
-(Which is) the very thing it was required to show.
+Orantılı (doğru) {B magnitude} konmuş olsun.
+Ve {C magnitude}'nin üzerindeki (kare), {B magnitude} ve {A magnitude} tarafından (içerilen dikdörtgene) eşit olsun.
+{C magnitude} böylece orantısızdır [Tanım 10.4].
+Çünkü bir orantısız ve bir orantılı (doğru) tarafından (içerilen bir alan) orantısızdır [Önerme 10.20].
+Ve ({C magnitude}), önceki (doğrulardan) herhangi biri ile aynı değildir.
+Çünkü önceki (doğrulardan) hiçbirinin üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir orta (doğru) üretmez.
+Öyleyse tekrar, {D magnitude}'nin üzerindeki (kare), {B magnitude} ve {C magnitude} tarafından (içerilen dikdörtgene) eşit olsun.
+{D magnitude}'nin üzerindeki (kare) böylece orantısızdır [Önerme 10.20].
+{D magnitude} böylece orantısızdır [Tanım 10.4].
+Ve ({D magnitude}), önceki (doğrulardan) herhangi biri ile aynı değildir.
+Çünkü önceki (doğrulardan) hiçbirinin üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak {C magnitude}'yi üretmez.
+Öyleyse benzer şekilde, bu düzenleme sonsuza ilerletildiğinde, bir orta (doğrudan) sonsuz (dizi) orantısız (doğrunun) oluşturulabileceği ve onların hiçbirinin, önceki (doğrulardan) herhangi biri ile aynı olmadığı açıktır.
+(Gösterilmesi gereken tam olarak budur.)
+
+

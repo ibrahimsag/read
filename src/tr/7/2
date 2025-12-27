@@ -1,44 +1,46 @@
-To find the greatest common measure of two given numbers (which are) not prime to one another.
+     1→     1→Birbirine asal olmayan verilen iki sayının en büyük ortak ölçüsünü bulmak.
+     2→     2→
+     3→     3→{AB magnitude} ve {CD magnitude} birbirine asal olmayan verilen iki sayı olsun.
+     4→     4→Öyleyse {AB magnitude} ve {CD magnitude}'nin en büyük ortak ölçüsünü bulmak gereklidir.
+     5→     5→
+     6→     6→Aslında, eğer {CD magnitude} {AB magnitude}'yi ölçerse, {CD magnitude} böylece {CD magnitude} ve {AB magnitude}'nin ortak ölçüsüdür, ({CD magnitude}) kendini de ölçtüğü için.
+     7→     7→Ve en büyük (ortak ölçü) olduğu açıktır.
+     8→     8→Çünkü {CD magnitude}'den büyük hiçbir şey {CD magnitude}'yi ölçemez.
+     9→     9→
+    10→    10→Ama eğer {CD magnitude} {AB magnitude}'yi ölçmezse o zaman {AB magnitude} ve {CD magnitude}'den, küçük büyükten sırayla sürekli çıkarılarak, bir sayı kalacaktır ve o kendinden önceki (sayıyı) ölçecektir.
+    11→    11→Çünkü bir birim kalmayacaktır.
+    12→    12→Ama eğer kalırsa, {AB magnitude} ve {CD magnitude} birbirine asal olacaktır [Önerme 7.1].
+    13→    13→Ki tam tersi varsayılmıştı.
+    14→    14→Böylece bir sayı kalacaktır ve o kendinden önceki (sayıyı) ölçecektir.
+    15→    15→Ve {CD magnitude} {BE magnitude}'yi ölçerek kendinden küçük {EA magnitude}'yı bıraksın ve {EA magnitude} {DF magnitude}'yi ölçerek kendinden küçük {FC magnitude}'yi bıraksın ve {CF magnitude} {AE magnitude}'yi ölçsün.
+    16→    16→Bu nedenle, {CF magnitude} {AE magnitude}'yi ölçtüğü ve {AE magnitude} {DF magnitude}'yi ölçtüğü için, {CF magnitude} böylece {DF magnitude}'yi de ölçecektir.
+    17→    17→Ve kendini de ölçer.
+    18→    18→Böylece {CD magnitude}'nin bütününü de ölçecektir.
+    19→    19→Ve {CD magnitude} {BE magnitude}'yi ölçer.
+    20→    20→Böylece {CF magnitude} {BE magnitude}'yi de ölçer.
+    21→    21→Ve {EA magnitude}'yı da ölçer.
+    22→    22→Böylece {BA magnitude}'nın bütününü de ölçecektir.
+    23→    23→Ve {CD magnitude}'yi de ölçer.
+    24→    24→Böylece {CF magnitude} {AB magnitude} ve {CD magnitude}'nin (ikisini de) ölçer.
+    25→    25→Böylece {CF magnitude}, {AB magnitude} ve {CD magnitude}'nin ortak ölçüsüdür.
+    26→    26→Öyleyse diyorum ki en büyük (ortak ölçü) de (odur).
+    27→    27→Çünkü eğer {CF magnitude}, {AB magnitude} ve {CD magnitude}'nin en büyük ortak ölçüsü değilse o zaman {CF magnitude}'den büyük bir sayı {AB magnitude} ve {CD magnitude} sayılarını ölçecektir.
+    28→    28→({AB magnitude} ve {CD magnitude}'yi) öyle ölçsün ve {G magnitude} olsun.
+    29→    29→Ve {G magnitude} {CD magnitude}'yi ölçtüğü ve {CD magnitude} {BE magnitude}'yi ölçtüğü için, {G magnitude} böylece {BE magnitude}'yi de ölçer.
+    30→    30→Ve {BA magnitude}'nın bütününü de ölçer.
+    31→    31→Böylece kalan {AE magnitude}'yi de ölçecektir.
+    32→    32→Ve {AE magnitude} {DF magnitude}'yi ölçer.
+    33→    33→Böylece {G magnitude} {DF magnitude}'yi de ölçecektir.
+    34→    34→Ve {DC magnitude}'nin bütününü de ölçer.
+    35→    35→Böylece kalan {CF magnitude}'yi de ölçecektir, büyük küçüğü (ölçerek).
+    36→    36→Ki bu imkansızdır.
+    37→    37→Böylece {CF magnitude}'den büyük bir sayı {AB magnitude} ve {CD magnitude} sayılarını ölçemez.
+    38→    38→Böylece {CF magnitude}, {AB magnitude} ve {CD magnitude}'nin en büyük ortak ölçüsüdür.
+    39→    39→[(Gösterilmesi gereken tam olarak budur).]
+    40→    40→
+    41→    41→Sonuç
+    42→    42→
+    43→    43→Öyleyse bundan açıktır ki, eğer bir sayı iki sayıyı ölçerse o zaman onların en büyük ortak ölçüsünü de ölçecektir.
+    44→    44→(Gösterilmesi gereken tam olarak budur.)
+    45→    45→
 
-Let {AB magnitude} and {CD magnitude} be the two given numbers (which are) not prime to one another.
-So it is required to find the greatest common measure of {AB magnitude} and {CD magnitude}.
-
-In fact, if {CD magnitude} measures {AB magnitude}, {CD magnitude} is thus a common measure of {CD magnitude} and {AB magnitude}, (since {CD magnitude}) also measures itself.
-And (it is) manifest that (it is) also the greatest (common measure).
-For nothing greater than {CD magnitude} can measure {CD magnitude}.
-
-But if {CD magnitude} does not measure {AB magnitude} then some number will remain from {AB magnitude} and {CD magnitude}, the lesser being continually subtracted, in turn, from the greater, which will measure the (number) preceding it.
-For a unit will not be left.
-But if not, {AB magnitude} and {CD magnitude} will be prime to one another [Prop. 7.1].
-The very opposite thing was assumed.
-Thus, some number will remain which will measure the (number) preceding it.
-And let {CD magnitude} measuring {BE magnitude} leave {EA magnitude} less than itself, and let {EA magnitude} measuring {DF magnitude} leave {FC magnitude} less than itself, and let {CF magnitude} measure {AE magnitude}.
-Therefore, since {CF magnitude} measures {AE magnitude}, and {AE magnitude} measures {DF magnitude}, {CF magnitude} will thus also measure {DF magnitude}.
-And it also measures itself.
-Thus, it will also measure the whole of {CD magnitude}.
-And {CD magnitude} measures {BE magnitude}.
-Thus, {CF magnitude} also measures {BE magnitude}.
-And it also measures {EA magnitude}.
-Thus, it will also measure the whole of {BA magnitude}.
-And it also measures {CD magnitude}.
-Thus, {CF magnitude} measures (both) {AB magnitude} and {CD magnitude}.
-Thus, {CF magnitude} is a common measure of {AB magnitude} and {CD magnitude}.
-So I say that (it is) also the greatest (common measure).
-For if {CF magnitude} is not the greatest common measure of {AB magnitude} and {CD magnitude} then some number which is greater than {CF magnitude} will measure the numbers {AB magnitude} and {CD magnitude}.
-Let it (so) measure ({AB magnitude} and {CD magnitude}), and let it be {G magnitude}.
-And since {G magnitude} measures {CD magnitude}, and {CD magnitude} measures {BE magnitude}, {G magnitude} thus also measures {BE magnitude}.
-And it also measures the whole of {BA magnitude}.
-Thus, it will also measure the remainder {AE magnitude}.
-And {AE magnitude} measures {DF magnitude}.
-Thus, {G magnitude} will also measure {DF magnitude}.
-And it also measures the whole of {DC magnitude}.
-Thus, it will also measure the remainder {CF magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, some number which is greater than {CF magnitude} cannot measure the numbers {AB magnitude} and {CD magnitude}.
-Thus, {CF magnitude} is the greatest common measure of {AB magnitude} and {CD magnitude}.
-[(Which is) the very thing it was required to show].
-
-Corollary
-
-So it is manifest, from this, that if a number measures two numbers then it will also measure their greatest common measure.
-(Which is) the very thing it was required to show.

@@ -1,44 +1,46 @@
-When two medial (areas which are) incommensurable with one another are added together, the remaining two irrational (straight-lines) arise (as the square-roots of the total area)---either a second bimedial, or the square-root of (the sum of) two medial (areas).
+Birbirleriyle ölçüşmez iki orta (alan) birlikte toplandığında, kalan iki orantısız (doğru) (toplam alanın karekökleri olarak) ortaya çıkar --- ya bir ikinci iki-ortalı, ya da iki orta (alanın toplamının) karekökü.
 
-For let the two medial (areas) {AB polygon} and {CD polygon}, (which are) incommensurable with one another, have been added together.
-I say that the square-root of area {AD polygon} is either a second bimedial, or the square-root of (the sum of) two medial (areas).
+Çünkü birbirleriyle ölçüşmez iki orta (alan), {AB polygon} ve {CD polygon}, birlikte toplanmış olsun.
+Diyorum ki {AD polygon} alanının karekökü ya bir ikinci iki-ortalı, ya da iki orta (alanın toplamının) karekökü(dür).
 
-For {AB polygon} is either greater than or less than {CD polygon}.
-By chance, let {AB polygon}, first of all, be greater than {CD polygon}.
-And let the rational (straight-line) {EF line} be laid down.
-And let {EG polygon}, equal to {AB polygon}, have been applied to {EF line}, producing {EH line} as breadth, and {HI polygon}, equal to {CD polygon}, producing {HK line} as breadth.
-And since {AB polygon} and {CD polygon} are each medial, {EG polygon} and {HI polygon} (are) thus also each medial.
-And they are applied to the rational straight-line {FE line}, producing {EH line} and {HK line} (respectively) as breadth.
-Thus, {EH line} and {HK line} are each rational (straight-lines which are) incommensurable in length with {EF line} [Prop. 10.22].
-And since {AB polygon} is incommensurable with {CD polygon}, and {AB polygon} is equal to {EG polygon}, and {CD polygon} to {HI polygon}, {EG polygon} is thus also incommensurable with {HI polygon}.
-And as {EG polygon} (is) to {HI polygon}, so {EH line} is to {HK line} [Prop. 6.1].
-EHis thus incommensurable in length with {HK line} [Prop. 10.11].
-Thus, {EH line} and {HK line} are rational (straight-lines which are) commensurable in square only.
-{EK line} is thus a binomial (straight-line) [Prop. 10.36].
-And the square on {EH line} is greater than (the square on) {HK line} either by the (square) on (some straight-line) commensurable (in length) with ({EH line}), or by the (square) on (some straight-line) incommensurable (in length with {EH line}).
-Let it, first of all, be greater by the square on (some straight-line) commensurable in length with ({EH line}).
-And neither of {EH line} or {HK line} is commensurable in length with the (previously) laid down rational (straight-line) {EF line}.
-Thus, {EK line} is a third binomial (straight-line) [Def. 10.7].
-And {EF line} (is) rational.
-And if an area is contained by a rational (straight-line) and a third binomial (straight-line) then the square-root of the area is a second bimedial (straight-line) [Prop. 10.56].
-Thus, the square-root of {EI polygon}---that is to say, of {AD polygon}---is a second bimedial.
-And so, let the square on {EH line} be greater than (the square) on {HK line} by the (square) on (some straight-line) incommensurable in length with ({EH line}).
-And {EH line} and {HK line} are each incommensurable in length with {EF line}.
-Thus, {EK line} is a sixth binomial (straight-line) [Def. 10.10].
-And if an area is contained by a rational (straight-line) and a sixth binomial (straight-line) then the square-root of the area is the square-root of (the sum of) two medial (areas) [Prop. 10.59].
-Hence, the square-root of area {AD polygon} is also the square-root of (the sum of) two medial (areas).
+Çünkü {AB polygon}, {CD polygon}'dan ya büyüktür ya küçüktür.
+Tesadüfen, ilk olarak, {AB polygon}, {CD polygon}'dan büyük olsun.
+Ve orantılı (doğru) {EF line} konmuş olsun.
+Ve {AB polygon}'a eşit {EG polygon}, genişlik olarak {EH line}'ı üreterek ve {CD polygon}'a eşit {HI polygon}, genişlik olarak {HK line}'yı üreterek, {EF line}'a uygulanmış olsun.
+Ve {AB polygon} ve {CD polygon}'un her biri orta olduğu için, böylece {EG polygon} ve {HI polygon}'un (da) her biri ortadır.
+Ve onlar, orantılı doğru {FE line}'a uygulanmış olup, (sırasıyla) genişlik olarak {EH line} ve {HK line}'yı üretmiştir.
+Böylece {EH line} ve {HK line}'ın her biri, {EF line} ile uzunlukta ölçüşmez orantılı (doğrulardır) [Önerme 10.22].
+Ve {AB polygon}, {CD polygon} ile ölçüşmez ve {AB polygon}, {EG polygon}'a ve {CD polygon}, {HI polygon}'a eşit olduğu için, böylece {EG polygon} de {HI polygon} ile ölçüşmezdir.
+Ve {EG polygon}, {HI polygon}'a nasılsa, {EH line}, {HK line}'ya (öyledir) [Önerme 6.1].
+Böylece {EH line}, {HK line} ile uzunlukta ölçüşmezdir [Önerme 10.11].
+Böylece {EH line} ve {HK line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EK line} bir iki-terimli (doğrudur) [Önerme 10.36].
+Ve {EH line}'ın üzerindeki kare, {HK line}'ın (üzerindeki kareden), ({EH line}) ile (uzunlukta) ölçüşür veya ({EH line} ile uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+İlk olarak, o ({EH line}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyük olsun.
+Ve {EH line} veya {HK line}'ın hiçbiri, (daha önce) konmuş orantılı (doğru) {EF line} ile uzunlukta ölçüşür değildir.
+Böylece {EK line} bir üçüncü iki-terimli (doğrudur) [Tanım 10.7].
+Ve {EF line} orantılıdır.
+Ve eğer bir alan, bir orantılı (doğru) ve bir üçüncü iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü bir ikinci iki-ortalı (doğrudur) [Önerme 10.56].
+Böylece {EI polygon}'un --- yani {AD polygon}'un --- karekökü bir ikinci iki-ortalı(dır).
+Ve öyleyse, {EH line}'ın üzerindeki kare, {HK line}'ın (üzerindeki kareden), ({EH line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olsun.
+Ve {EH line} ve {HK line}'ın her biri {EF line} ile uzunlukta ölçüşmezdir.
+Böylece {EK line} bir altıncı iki-terimli (doğrudur) [Tanım 10.10].
+Ve eğer bir alan, bir orantılı (doğru) ve bir altıncı iki-terimli (doğru) tarafından içerilirse o zaman alanın karekökü, iki orta (alanın toplamının) karekökü(dür) [Önerme 10.59].
+Dolayısıyla {AD polygon} alanının karekökü de iki orta (alanın toplamının) karekökü(dür).
 
-[So, similarly, we can show that, even if {AB polygon} is less than {CD polygon}, the square-root of area {AD polygon} is either a second bimedial or the square-root of (the sum of) two medial (areas).]
+[Öyleyse, benzer şekilde, {AB polygon}, {CD polygon}'dan küçük olsa bile, {AD polygon} alanının karekökünün ya bir ikinci iki-ortalı ya da iki orta (alanın toplamının) karekökü olduğunu gösterebiliriz.]
 
-Thus, when two medial (areas which are) incommensurable with one another are added together, the remaining two irrational (straight-lines) arise (as the square-roots of the total area)---either a second bimedial, or the square-root of (the sum of) two medial (areas).
+Böylece birbirleriyle ölçüşmez iki orta (alan) birlikte toplandığında, kalan iki orantısız (doğru) (toplam alanın karekökleri olarak) ortaya çıkar --- ya bir ikinci iki-ortalı, ya da iki orta (alanın toplamının) karekökü.
 
-A binomial (straight-line), and the (other) irrational (straight-lines) after it, are neither the same as a medial (straight-line) nor (the same) as one another.
-For the (square) on a medial (straight-line), applied to a rational (straight-line), produces as breadth a rational (straight-line which is) also incommensurable in length with (the straight-line) to which it is applied [Prop. 10.22].
-And the (square) on a binomial (straight-line), applied to a rational (straight-line), produces as breadth a first binomial [Prop. 10.60].
-And the (square) on a first bimedial (straight-line), applied to a rational (straight-line), produces as breadth a second binomial [Prop. 10.61].
-And the (square) on a second bimedial (straight-line), applied to a rational (straight-line), produces as breadth a third binomial [Prop. 10.62].
-And the (square) on a major (straight-line), applied to a rational (straight-line), produces as breadth a fourth binomial [Prop. 10.63].
-And the (square) on the square-root of a rational plus a medial (area), applied to a rational (straight-line), produces as breadth a fifth binomial [Prop. 10.64].
-And the (square) on the square-root of (the sum of) two medial (areas), applied to a rational (straight-line), produces as breadth a sixth binomial [Prop. 10.65].
-And the aforementioned breadths differ from the first (breadth), and from one another---from the first, because it is rational---and from one another, because they are not the same in order.
-Hence, the (previously mentioned) irrational (straight-lines) themselves also differ from one another.
+Bir iki-terimli (doğru) ve ondan sonraki (diğer) orantısız (doğrular), ne bir orta (doğru) ile ne de birbirleriyle aynıdır.
+Çünkü bir orta (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak, uygulandığı (doğru) ile uzunlukta ölçüşmez de olan bir orantılı (doğru) üretir [Önerme 10.22].
+Ve bir iki-terimli (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir birinci iki-terimli üretir [Önerme 10.60].
+Ve bir birinci iki-ortalı (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir ikinci iki-terimli üretir [Önerme 10.61].
+Ve bir ikinci iki-ortalı (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir üçüncü iki-terimli üretir [Önerme 10.62].
+Ve bir büyük (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir dördüncü iki-terimli üretir [Önerme 10.63].
+Ve bir orantılı artı bir orta (alanın) karekökünün (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir beşinci iki-terimli üretir [Önerme 10.64].
+Ve iki orta (alanın toplamının) karekökünün (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir altıncı iki-terimli üretir [Önerme 10.65].
+Ve sözü edilen genişlikler, birinci (genişlikten) ve birbirlerinden farklıdır --- birincisindendir çünkü o orantılıdır --- ve birbirlerinden çünkü onlar sıralamada aynı değildir.
+Dolayısıyla (daha önce sözü edilen) orantısız (doğrular) kendileri de birbirlerinden farklıdır.
+
+

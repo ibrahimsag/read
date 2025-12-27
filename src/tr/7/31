@@ -1,20 +1,22 @@
-Every composite number is measured by some prime number.
+     1→     1→Her bileşik sayı bir asal sayı tarafından ölçülür.
+     2→     2→
+     3→     3→{A magnitude} bir bileşik sayı olsun.
+     4→     4→Diyorum ki {A magnitude} bir asal sayı tarafından ölçülür.
+     5→     5→
+     6→     6→Çünkü {A magnitude} bileşik olduğu için, bir sayı onu ölçecektir.
+     7→     7→(Öyle) ölçsün ({A magnitude}'yı) ve {B magnitude} olsun.
+     8→     8→Ve eğer {B magnitude} asalsa o zaman öngörülen gerçekleşmiştir.
+     9→     9→Ve eğer ({B magnitude}) bileşikse o zaman bir sayı onu ölçecektir.
+    10→    10→(Öyle) ölçsün ({B magnitude}'yi) ve {C magnitude} olsun.
+    11→    11→Ve {C magnitude} {B magnitude}'yi ölçtüğü ve {B magnitude} {A magnitude}'yı ölçtüğü için, {C magnitude} böylece {A magnitude}'yı da ölçer.
+    12→    12→Ve eğer {C magnitude} asalsa o zaman öngörülen gerçekleşmiştir.
+    13→    13→Ve eğer ({C magnitude}) bileşikse o zaman bir sayı onu ölçecektir.
+    14→    14→Öyleyse, bu sürekli araştırma yöntemiyle, (kendinden önceki sayıyı ve ayrıca {A magnitude}'yı ölçecek) bir asal sayı bulunacaktır.
+    15→    15→Ve eğer (böyle bir sayı) bulunamazsa o zaman sonsuz (bir dizi) sayı, her biri öncekinden küçük olacak şekilde, {A magnitude} sayısını ölçecektir.
+    16→    16→Ki bu sayılar için imkansızdır.
+    17→    17→Böylece bir asal sayı (sonunda) bulunacaktır ve o kendinden önceki (sayıyı) ölçecek, bu da {A magnitude}'yı ölçecektir.
+    18→    18→
+    19→    19→Böylece, her bileşik sayı bir asal sayı tarafından ölçülür.
+    20→    20→(Gösterilmesi gereken tam olarak budur.)
+    21→    21→
 
-Let {A magnitude} be a composite number.
-I say that {A magnitude} is measured by some prime number.
-
-For since {A magnitude} is composite, some number will measure it.
-Let it (so) measure ({A magnitude}), and let it be {B magnitude}.
-And if {B magnitude} is prime then that which was prescribed has happened.
-And if ({B magnitude} is) composite then some number will measure it.
-Let it (so) measure ({B magnitude}), and let it be {C magnitude}.
-And since {C magnitude} measures {B magnitude}, and {B magnitude} measures {A magnitude}, {C magnitude} thus also measures {A magnitude}.
-And if {C magnitude} is prime then that which was prescribed has happened.
-And if ({C magnitude} is) composite then some number will measure it.
-So, in this manner of continued investigation, some prime number will be found which will measure (the number preceding it, which will also measure {A magnitude}).
-And if (such a number) cannot be found then an infinite (series of) numbers, each of which is less than the preceding, will measure the number {A magnitude}.
-The very thing is impossible for numbers.
-Thus, some prime number will (eventually) be found which will measure the (number) preceding it, which will also measure {A magnitude}.
-
-Thus, every composite number is measured by some prime number.
-(Which is) the very thing it was required to show.

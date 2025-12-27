@@ -1,34 +1,36 @@
-A medial (area) does not exceed a medial (area) by a rational (area).
+Bir orta (alan), bir orta (alanı) bir orantılı (alan) kadar aşmaz.
 
-For, if possible, let the medial (area) {AB polygon} exceed the medial (area) {AC polygon} by the rational (area) {DB polygon}.
-And let the rational (straight-line) {EF line} be laid down.
-And let the rectangular parallelogram {FH polygon}, equal to {AB polygon}, have been applied to to {EF line}, producing {EH line} as breadth.
-And let {FG polygon}, equal to {AC polygon}, have been cut off (from {FH polygon}).
-Thus, the remainder {BD polygon} is equal to the remainder {KH polygon}.
-And {DB polygon} is rational.
-Thus, {KH polygon} is also rational.
-Therefore, since {AB polygon} and {AC polygon} are each medial, and {AB polygon} is equal to {FH polygon}, and {AC polygon} to {FG polygon}, {FH polygon} and {FG polygon} are thus each also medial.
+Çünkü, mümkünse, orta (alan) {AB polygon}, orta (alan) {AC polygon}'u orantılı (alan) {DB polygon} kadar aşsın.
+Ve orantılı (doğru) {EF line} konmuş olsun.
+Ve {AB polygon}'a eşit {FH polygon} dikdörtgen paralelkenarı, genişlik olarak {EH line}'ı oluşturarak, {EF line}'a uygulanmış olsun.
+Ve ({FH polygon}'dan) {AC polygon}'a eşit {FG polygon} kesilmiş olsun.
+Böylece kalan {BD polygon}, kalan {KH polygon}'a eşittir.
+Ve {DB polygon} orantılıdır.
+Böylece {KH polygon} da orantılıdır.
+Bu nedenle, {AB polygon} ve {AC polygon}'un her biri orta olduğu ve {AB polygon}, {FH polygon}'a ve {AC polygon}, {FG polygon}'a eşit olduğu için, böylece {FH polygon} ve {FG polygon}'nun (her biri de) ortadır.
 
-And they are applied to the rational (straight-line) {EF line}.
-Thus, {HE line} and {EG line} are each rational, and incommensurable in length with {EF line} [Prop. 10.22].
-And since {DB polygon} is rational, and is equal to {KH polygon}, {KH polygon} is thus also rational.
-And ({KH polygon}) is applied to the rational (straight-line) {EF line}.
-{GH line} is thus rational, and commensurable in length with {EF line} [Prop. 10.20].
-But, {EG line} is also rational, and incommensurable in length with {EF line}.
-Thus, {EG line} is incommensurable in length with {GH line} [Prop. 10.13].
-And as {EG line} is to {GH line}, so the (square) on {EG line} (is) to the (rectangle contained) by {EG line} and {GH line} [Prop. 10.13 lem.].
-Thus, the (square) on {EG line} is incommensurable with the (rectangle contained) by {EG line} and {GH line} [Prop. 10.11].
-But, the (sum of the) squares on {EG line} and {GH line} is commensurable with the (square) on {EG line}.
-For ({EG line} and {GH line} are) both rational.
-And twice the (rectangle contained) by {EG line} and {GH line} is commensurable with the (rectangle contained) by {EG line} and {GH line} [Prop. 10.6].
-For (the former) is double the latter.
-Thus, the (sum of the squares) on {EG line} and {GH line} is incommensurable with twice the (rectangle contained) by {EG line} and {GH line} [Prop. 10.13].
-And thus the sum of the (squares) on {EG line} and {GH line} plus twice the (rectangle contained) by {EG line} and {GH line}, that is the (square) on {EH line} [Prop. 2.4], is incommensurable with the (sum of the squares) on {EG line} and {GH line} [Prop. 10.16].
-And the (sum of the squares) on {EG line} and {GH line} (is) rational.
-Thus, the (square) on {EH line} is irrational [Def. 10.4].
-Thus, {EH line} is irrational [Def. 10.4].
-But, (it is) also rational.
-The very thing is impossible.
+Ve orantılı (doğru) {EF line}'a uygulanmışlardır.
+Böylece {HE line} ve {EG line}'ın her biri orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {DB polygon} orantılı olduğu ve {KH polygon}'a eşit olduğu için, böylece {KH polygon} da orantılıdır.
+Ve ({KH polygon}), orantılı (doğru) {EF line}'a uygulanmıştır.
+Böylece {GH line} orantılıdır ve {EF line} ile uzunlukta ölçüşürdür [Önerme 10.20].
+Ama {EG line} de orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir.
+Böylece {EG line}, {GH line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Ve {EG line}, {GH line}'a nasılsa, {EG line}'ın (üzerindeki kare), {EG line} ve {GH line} tarafından (içerilen dikdörtgene) (öyledir) [Önerme 10.13 yardımcı önermesi].
+Böylece {EG line}'ın (üzerindeki kare), {EG line} ve {GH line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.11].
+Ama {EG line} ve {GH line}'ın (üzerindeki karelerin toplamı), {EG line}'ın (üzerindeki kare) ile ölçüşürdür.
+Çünkü ({EG line} ve {GH line}'ın) her ikisi de orantılıdır.
+Ve {EG line} ve {GH line} tarafından (içerilen dikdörtgenin) iki katı, {EG line} ve {GH line} tarafından (içerilen dikdörtgen) ile ölçüşürdür [Önerme 10.6].
+Çünkü (birincisi) ikincisinin iki katıdır.
+Böylece {EG line} ve {GH line}'ın (üzerindeki karelerin toplamı), {EG line} ve {GH line} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmezdir [Önerme 10.13].
+Ve böylece {EG line} ve {GH line}'ın (üzerindeki karelerin) toplamı artı {EG line} ve {GH line} tarafından (içerilen dikdörtgenin) iki katı, yani {EH line}'ın (üzerindeki kare) [Önerme 2.4], {EG line} ve {GH line}'ın (üzerindeki karelerin toplamı) ile ölçüşmezdir [Önerme 10.16].
+Ve {EG line} ve {GH line}'ın (üzerindeki karelerin toplamı) orantılıdır.
+Böylece {EH line}'ın (üzerindeki kare) orantısızdır [Tanım 10.4].
+Böylece {EH line} orantısızdır [Tanım 10.4].
+Ama (o) aynı zamanda orantılıdır.
+Şeyin kendisi olanaksızdır.
 
-Thus, a medial (area) does not exceed a medial (area) by a rational (area).
-(Which is) the very thing it was required to show.
+Böylece bir orta (alan), bir orta (alanı) bir orantılı (alan) kadar aşmaz.
+(Gösterilmesi gereken tam olarak budur.)
+
+

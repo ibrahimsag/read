@@ -1,27 +1,29 @@
-To find a fourth binomial (straight-line).
+Bir dördüncü iki-terimli (doğru) bulmak.
 
-Let the two numbers {AC magnitude} and {CB magnitude} be laid down such that {AB magnitude} does not have to {BC magnitude}, or to {AC magnitude} either, the ratio which (some) square number (has) to (some) square number [Prop. 10.28 lem. I].
-And let the rational (straight-line) {D magnitude} be laid down.
-And let {EF magnitude} be commensurable in length with {D magnitude}.
-Thus, {EF magnitude} is also a rational (straight-line).
-And let it have been contrived that as the number {BA magnitude} (is) to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
-Thus, the (square) on {EF magnitude} is commensurable with the (square) on {FG magnitude} [Prop. 10.6].
-Thus, {FG magnitude} is also a rational (straight-line).
-And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {EF magnitude} does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {EF magnitude} is incommensurable in length with {FG magnitude} [Prop. 10.9].
-Thus, {EF magnitude} and {FG magnitude} are rational (straight-lines which are) commensurable in square only.
-Hence, {EG magnitude} is a binomial (straight-line) [Prop. 10.36].
-So, I say that (it is) also a fourth (binomial straight-line).
+İki sayı, {AC magnitude} ve {CB magnitude}, {AB magnitude}'nin {BC magnitude}'ye veya {AC magnitude}'ya da (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımayacağı şekilde, konmuş olsun [Önerme 10.28 yardımcı önerme I].
+Ve orantılı (doğru) {D magnitude} konmuş olsun.
+Ve {EF magnitude}, {D magnitude} ile uzunlukta ölçüşür olsun.
+Böylece {EF magnitude} de bir orantılı (doğrudur).
+Ve {BA magnitude} sayısı {AC magnitude}'ye nasılsa, {EF magnitude}'nin (üzerindeki kare) {FG magnitude}'nin (üzerindeki kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Böylece {EF magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Böylece {FG magnitude} de bir orantılı (doğrudur).
+Ve {BA magnitude}, {AC magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımadığı için, {EF magnitude}'nin (üzerindeki kare) de {FG magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {EF magnitude}, {FG magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece {EF magnitude} ve {FG magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Dolayısıyla {EG magnitude} bir iki-terimli (doğrudur) [Önerme 10.36].
+Diyorum ki (o) ayrıca bir dördüncü (iki-terimli doğrudur).
 
-For since as {BA magnitude} is to {AC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {FG magnitude} [and {BA magnitude} (is) greater than {AC magnitude}], the (square) on {EF magnitude} (is) thus greater than the (square) on {FG magnitude} [Prop. 5.14].
-Therefore, let (the sum of) the squares on {FG magnitude} and {H magnitude} be equal to the (square) on {EF magnitude}.
-Thus, via conversion, as the number {AB magnitude} (is) to {BC magnitude}, so the (square) on {EF magnitude} (is) to the (square) on {H magnitude} [Prop. 5.19 corr.].
-And {AB magnitude} does not have to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {EF magnitude} does not have to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {EF magnitude} is incommensurable in length with {H magnitude} [Prop. 10.9].
-Thus, the square on {EF magnitude} is greater than (the square on) {GF magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({EF magnitude}).
-And {EF magnitude} and {FG magnitude} are rational (straight-lines which are) commensurable in square only.
-And {EF magnitude} is commensurable in length with {D magnitude}.
+Çünkü {BA magnitude}, {AC magnitude}'ye nasılsa, {EF magnitude}'nin (üzerindeki kare) {FG magnitude}'nin (üzerindeki kareye) (öyle) olduğu [ve {BA magnitude}, {AC magnitude}'den büyük olduğu] için, böylece {EF magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kareden) büyüktür [Önerme 5.14].
+Bundan dolayı {FG magnitude} ve {H magnitude}'nin üzerindeki karelerin (toplamı), {EF magnitude}'nin (üzerindeki kareye) eşit olsun.
+Böylece, çevirerek, {AB magnitude} sayısı {BC magnitude}'ye nasılsa, {EF magnitude}'nin (üzerindeki kare) {H magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.19 ek sonucu].
+Ve {AB magnitude}, {BC magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {EF magnitude}'nin (üzerindeki kare) de {H magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {EF magnitude}, {H magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece {EF magnitude}'nin üzerindeki kare, {GF magnitude}'nin (üzerindeki kareden), ({EF magnitude}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve {EF magnitude} ve {FG magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Ve {EF magnitude}, {D magnitude} ile uzunlukta ölçüşürdür.
 
-Thus, {EG magnitude} is a fourth binomial (straight-line) [Def. 10.8].
-(Which is) the very thing it was required to show.
+Böylece {EG magnitude} bir dördüncü iki-terimli (doğrudur) [Tanım 10.8].
+(Gösterilmesi gereken tam olarak budur.)
+
+

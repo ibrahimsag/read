@@ -1,18 +1,20 @@
-Numbers prime to one another are the least of those (numbers) having the same ratio as them.
+     1→     1→Birbirine asal sayılar, kendileriyle aynı oranda olan (sayıların) en küçükleridir.
+     2→     2→
+     3→     3→{A magnitude} ve {B magnitude} birbirine asal sayılar olsun.
+     4→     4→Diyorum ki {A magnitude} ve {B magnitude} kendileriyle aynı oranda olan (sayıların) en küçükleridir.
+     5→     5→
+     6→     6→Çünkü eğer değilse o zaman {A magnitude} ve {B magnitude} ile aynı oranda olan {A magnitude} ve {B magnitude}'den küçük bazı sayılar olacaktır.
+     7→     7→Onlar {C magnitude} ve {D magnitude} olsun.
+     8→     8→
+     9→     9→Bu nedenle, aynı oranda olan (sayıların) en küçükleri, (kendileriyle) aynı oranda olan (sayıları) eşit sayıda ölçtüğü için, büyük büyüğü ve küçük küçüğü ölçerek---yani önde gelen önde geleni ve ardıl ardılı (ölçerek)---{C magnitude} böylece {A magnitude}'yı {D magnitude}'nin {B magnitude}'yi (ölçtüğü) kadar kez ölçer [Önerme 7.20].
+    10→    10→Öyleyse {C magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {E magnitude}'de o kadar birim olsun.
+    11→    11→Böylece {D magnitude} de {B magnitude}'yi {E magnitude}'deki birimlere göre ölçer.
+    12→    12→Ve {C magnitude}, {A magnitude}'yı {E magnitude}'deki birimlere göre ölçtüğü için, {E magnitude} böylece {A magnitude}'yı da {C magnitude}'deki birimlere göre ölçer [Önerme 7.16].
+    13→    13→Öyle ki, aynı (nedenlerle), {E magnitude}, {B magnitude}'yi de {D magnitude}'deki birimlere göre ölçer [Önerme 7.16].
+    14→    14→Böylece {E magnitude}, birbirine asal olan {A magnitude} ve {B magnitude}'yi ölçer.
+    15→    15→Ki bu imkansızdır.
+    16→    16→Böylece {A magnitude} ve {B magnitude} ile aynı oranda olan {A magnitude} ve {B magnitude}'den küçük sayılar olamaz.
+    17→    17→Böylece {A magnitude} ve {B magnitude} kendileriyle aynı oranda olan (sayıların) en küçükleridir.
+    18→    18→(Gösterilmesi gereken tam olarak budur.)
+    19→    19→
 
-Let {A magnitude} and {B magnitude} be numbers prime to one another.
-I say that {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them.
-
-For if not then there will be some numbers less than {A magnitude} and {B magnitude} which are in the same ratio as {A magnitude} and {B magnitude}.
-Let them be {C magnitude} and {D magnitude}.
-
-Therefore, since the least numbers of those (numbers) having the same ratio measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following---{C magnitude} thus measures {A magnitude} the same number of times that {D magnitude} (measures) {B magnitude} [Prop. 7.20].
-So as many times as {C magnitude} measures {A magnitude}, so many units let there be in {E magnitude}.
-Thus, {D magnitude} also measures {B magnitude} according to the units in {E magnitude}.
-And since {C magnitude} measures {A magnitude} according to the units in {E magnitude}, {E magnitude} thus also measures {A magnitude} according to the units in {C magnitude} [Prop. 7.16].
-So, for the same (reasons), {E magnitude} also measures {B magnitude} according to the units in {D magnitude} [Prop. 7.16].
-Thus, {E magnitude} measures {A magnitude} and {B magnitude}, which are prime to one another.
-The very thing is impossible.
-Thus, there cannot be any numbers less than {A magnitude} and {B magnitude} which are in the same ratio as {A magnitude} and {B magnitude}.
-Thus, {A magnitude} and {B magnitude} are the least of those (numbers) having the same ratio as them.
-(Which is) the very thing it was required to show.

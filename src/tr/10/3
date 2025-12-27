@@ -1,42 +1,43 @@
-To find the greatest common measure of two given commensurable magnitudes.
+Verilen iki ölçüşür büyüklüğün en büyük ortak ölçüsünü bulmak.
 
-Let {AB magnitude} and {CD magnitude} be the two given magnitudes, of which (let) {AB magnitude} (be) the lesser.
-So, it is required to find the greatest common measure of {AB magnitude} and {CD magnitude}.
+{AB magnitude} ve {CD magnitude} verilen iki büyüklük olsun, ki bunların {AB magnitude} (olanı) küçük olsun.
+Öyleyse {AB magnitude} ve {CD magnitude}'nin en büyük ortak ölçüsünü bulmak gereklidir.
 
-For the magnitude {AB magnitude} either measures, or (does) not (measure), {CD magnitude}.
-Therefore, if it measures ({CD magnitude}), and (since) it also measures itself, {AB magnitude} is thus a common measure of {AB magnitude} and {CD magnitude}.
-And (it is) clear that (it is) also (the) greatest.
-For a (magnitude) greater than magnitude {AB magnitude} cannot measure {AB magnitude}.
+Çünkü {AB magnitude} büyüklüğü ya {CD magnitude}'yi ölçer ya da ölçmez.
+Bu nedenle, eğer ({CD magnitude}'yi) ölçerse ve kendini de ölçtüğü için, böylece {AB magnitude}, {AB magnitude} ve {CD magnitude}'nin ortak ölçüsüdür.
+Ve en büyük (olduğu) da açıktır.
+Çünkü {AB magnitude} büyüklüğünden büyük bir (büyüklük) {AB magnitude}'yi ölçemez.
 
-So let {AB magnitude} not measure {CD magnitude}.
-And continually subtracting in turn the lesser (magnitude) from the greater, the remaining (magnitude) will (at) some time measure the (magnitude) before it, on account of {AB magnitude} and {CD magnitude} not being incommensurable [Prop. 10.2].
-And let {AB magnitude} leave {EC magnitude} less than itself (in) measuring {ED magnitude}, and let {EC magnitude} leave {AF magnitude} less than itself (in) measuring {FB magnitude}, and let {AF magnitude} measure {CE magnitude}.
+Öyleyse {AB magnitude}, {CD magnitude}'yi ölçmesin.
+Ve sürekli sırayla küçük (büyüklük) büyükten çıkarıldığında, kalan (büyüklük) bir zaman öncekini ölçecektir, {AB magnitude} ve {CD magnitude}'nin ölçüşmez olmaması nedeniyle [Önerme 10.2].
+Ve {AB magnitude}, {ED magnitude}'yi ölçerek kendinden küçük {EC magnitude}'yi bıraksın ve {EC magnitude}, {FB magnitude}'yi ölçerek kendinden küçük {AF magnitude}'yi bıraksın ve {AF magnitude}, {CE magnitude}'yi ölçsün.
 
-Therefore, since {AF magnitude} measures {CE magnitude}, but {CE magnitude} measures {FB magnitude}, {AF magnitude} will thus also measure {FB magnitude}.
-And it also measures itself.
-Thus, {AF magnitude} will also measure the whole (of) {AB magnitude}.
-But, {AB magnitude} measures {DE magnitude}.
-Thus, {AF magnitude} will also measure {ED magnitude}.
-And it also measures {CE magnitude}.
-Thus, it also measures the whole of {CD magnitude}.
-Thus, {AF magnitude} is a common measure of {AB magnitude} and {CD magnitude}.
-So I say that (it is) also (the) greatest (common measure).
-For, if not, there will be some magnitude, greater than {AF magnitude}, which will measure (both) {AB magnitude} and {CD magnitude}.
-Let it be {G magnitude}.
-Therefore, since {G magnitude} measures {AB magnitude}, but {AB magnitude} measures {ED magnitude}, {G magnitude} will thus also measure {ED magnitude}.
-And it also measures the whole of {CD magnitude}.
-Thus, {G magnitude} will also measure the remainder {CE magnitude}.
-But {CE magnitude} measures {FB magnitude}.
-Thus, {G magnitude} will also measure {FB magnitude}.
-And it also measures the whole (of) {AB magnitude}.
-And (so) it will measure the remainder {AF magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, some magnitude greater than {AF magnitude} cannot measure (both) {AB magnitude} and {CD magnitude}.
-Thus, {AF magnitude} is the greatest common measure of {AB magnitude} and {CD magnitude}.
+Bu nedenle, {AF magnitude}, {CE magnitude}'yi ölçtüğü ve {CE magnitude}, {FB magnitude}'yi ölçtüğü için, böylece {AF magnitude} de {FB magnitude}'yi ölçecektir.
+Ve kendini de ölçer.
+Böylece {AF magnitude} bütün {AB magnitude}'yi de ölçecektir.
+Ama {AB magnitude}, {DE magnitude}'yi ölçer.
+Böylece {AF magnitude} de {ED magnitude}'yi ölçecektir.
+Ve {CE magnitude}'yi de ölçer.
+Böylece bütün {CD magnitude}'yi de ölçer.
+Böylece {AF magnitude}, {AB magnitude} ve {CD magnitude}'nin ortak ölçüsüdür.
+Öyleyse diyorum ki en büyük (ortak ölçü) de (odur).
+Çünkü, değilse, {AF magnitude}'den büyük, hem {AB magnitude}'yi hem {CD magnitude}'yi ölçecek bir büyüklük olacaktır.
+{G magnitude} olsun.
+Bu nedenle, {G magnitude}, {AB magnitude}'yi ölçtüğü ve {AB magnitude}, {ED magnitude}'yi ölçtüğü için, böylece {G magnitude} de {ED magnitude}'yi ölçecektir.
+Ve bütün {CD magnitude}'yi de ölçer.
+Böylece {G magnitude} kalan {CE magnitude}'yi de ölçecektir.
+Ama {CE magnitude}, {FB magnitude}'yi ölçer.
+Böylece {G magnitude} de {FB magnitude}'yi ölçecektir.
+Ve bütün {AB magnitude}'yi de ölçer.
+Ve (böylece) kalan {AF magnitude}'yi ölçecektir, büyük (olan) küçüğü (ölçerek).
+Şeyin kendisi olanaksızdır.
+Böylece {AF magnitude}'den büyük bir büyüklük hem {AB magnitude}'yi hem {CD magnitude}'yi ölçemez.
+Böylece {AF magnitude}, {AB magnitude} ve {CD magnitude}'nin en büyük ortak ölçüsüdür.
 
-Thus, the greatest common measure of two given commensurable magnitudes, {AB magnitude} and {CD magnitude}, has been found.
-(Which is) the very thing it was required to show.
+Böylece verilen iki ölçüşür büyüklüğün, {AB magnitude} ve {CD magnitude}'nin, en büyük ortak ölçüsü bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
 
-Corollary
+Ek Sonuç
 
-So (it is) clear, from this, that if a magnitude measures two magnitudes then it will also measure their greatest common measure.
+Öyleyse, bundan, açıktır ki eğer bir büyüklük iki büyüklüğü ölçerse o zaman onların en büyük ortak ölçüsünü de ölçecektir.
+

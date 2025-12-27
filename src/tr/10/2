@@ -1,21 +1,22 @@
-If the remainder of two unequal magnitudes (which are) [laid out] never measures the (magnitude) before it, (when) the lesser (magnitude is) continually subtracted in turn from the greater, then the (original) magnitudes will be incommensurable.
+Eğer [dizilen] iki eşit olmayan büyüklüğün kalanı, küçük (büyüklük) sürekli sırayla büyükten çıkarıldığında, önceki (büyüklüğü) asla ölçmezse o zaman (asıl) büyüklükler ölçüşmez olacaktır.
 
-For, {AB magnitude} and {CD magnitude} being two unequal magnitudes, and {AB magnitude} (being) the lesser, let the remainder never measure the (magnitude) before it, (when) the lesser (magnitude is) continually subtracted in turn from the greater.
-I say that the magnitudes {AB magnitude} and {CD magnitude} are incommensurable.
+Çünkü {AB magnitude} ve {CD magnitude} iki eşit olmayan büyüklük olsun ve {AB magnitude} küçük olsun, küçük (büyüklük) sürekli sırayla büyükten çıkarıldığında kalan önceki (büyüklüğü) asla ölçmesin.
+Diyorum ki {AB magnitude} ve {CD magnitude} büyüklükleri ölçüşmezdir.
 
-For if they are commensurable then some magnitude will measure them (both).
-If possible, let it (so) measure (them), and let it be {E magnitude}.
-And let {AB magnitude} leave {CF magnitude} less than itself (in) measuring {FD magnitude}, and let {CF magnitude} leave {AG magnitude} less than itself (in) measuring {BG magnitude}, and let this happen continually, until some magnitude which is less than {E magnitude} is left.
-Let (this) have occurred, and let {AG magnitude}, (which is) less than {E magnitude}, have been left.
-Therefore, since {E magnitude} measures {AB magnitude}, but {AB magnitude} measures {DF magnitude}, {E magnitude} will thus also measure {FD magnitude}.
-And it also measures the whole (of) {CD magnitude}.
-Thus, it will also measure the remainder {CF magnitude}.
-But, {CF magnitude} measures {BG magnitude}.
-Thus, {E magnitude} also measures {BG magnitude}.
-And it also measures the whole (of) {AB magnitude}.
-Thus, it will also measure the remainder {AG magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, some magnitude cannot measure (both) the magnitudes {AB magnitude} and {CD magnitude}.
-Thus, the magnitudes {AB magnitude} and {CD magnitude} are incommensurable [Def. 10.1].
+Çünkü eğer ölçüşür iseler o zaman bir büyüklük onları (ikisini de) ölçecektir.
+Mümkünse, (öyle) ölçsün ve {E magnitude} olsun.
+Ve {AB magnitude}, {FD magnitude}'yi ölçerek kendinden küçük {CF magnitude}'yi bıraksın ve {CF magnitude}, {BG magnitude}'yi ölçerek kendinden küçük {AG magnitude}'yi bıraksın ve bu, {E magnitude}'den küçük bir büyüklük kalana kadar sürekli olsun.
+(Bu) olmuş olsun ve {E magnitude}'den küçük olan {AG magnitude} kalmış olsun.
+Bu nedenle, {E magnitude}, {AB magnitude}'yi ölçtüğü ve {AB magnitude}, {DF magnitude}'yi ölçtüğü için, böylece {E magnitude} de {FD magnitude}'yi ölçecektir.
+Ve bütün {CD magnitude}'yi de ölçer.
+Böylece kalan {CF magnitude}'yi de ölçecektir.
+Ama {CF magnitude}, {BG magnitude}'yi ölçer.
+Böylece {E magnitude} de {BG magnitude}'yi ölçer.
+Ve bütün {AB magnitude}'yi de ölçer.
+Böylece kalan {AG magnitude}'yi de ölçecektir, büyük (olan) küçüğü (ölçerek).
+Şeyin kendisi olanaksızdır.
+Böylece bir büyüklük hem {AB magnitude} hem {CD magnitude} büyüklüklerini ölçemez.
+Böylece {AB magnitude} ve {CD magnitude} büyüklükleri ölçüşmezdir [Tanım 10.1].
 
-Thus, if ...of two unequal magnitudes, and so on ....
+Böylece eğer iki eşit olmayan büyüklüğün... ve böyle devam eder...
+

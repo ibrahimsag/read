@@ -1,21 +1,23 @@
-To cut a given finite straight-line in extreme and mean ratio.
+     1→     1→Verilen sonlu bir doğru parçasını aşırı ve ortalama oranında kesmek.
+     2→     2→
+     3→     3→{AB line} verilen sonlu doğru parçası olsun.
+     4→     4→Öyleyse {AB line} doğru parçasını aşırı ve ortalama oranında kesmek gereklidir.
+     5→     5→
+     6→     6→{BC polygon} karesi {AB line} üzerine çizilmiş olsun [Önerme 1.46] ve {BC polygon}'a eşit {CD polygon} paralelkenarı, {BC polygon}'a benzer olan {AD polygon} şekliyle aşacak şekilde {AC line}'ye uygulanmış olsun [Önerme 6.29].
+     7→     7→
+     8→     8→Ve {BC polygon} bir karedir.
+     9→     9→Böylece {AD polygon} da bir karedir.
+    10→    10→Ve {BC polygon} {CD polygon}'a eşit olduğu için, (dikdörtgen) {CE polygon} her ikisinden de çıkarılmış olsun.
+    11→    11→Böylece kalan (dikdörtgen) {BF polygon} kalan (kare) {AD polygon}'a eşittir.
+    12→    12→Ve ona eşaçılıdır da.
+    13→    13→Böylece {BF polygon} ve {AD polygon}'un eşit açıların çevresindeki kenarları ters orantılıdır [Önerme 6.14].
+    14→    14→Böylece {FE line} {ED line}'ye nasılsa, {AE line} {EB line}'ye öyledir.
+    15→    15→Ve {FE line} {AB line}'ye ve {ED line} {AE line}'ye eşittir.
+    16→    16→Böylece {BA line} {AE line}'ye nasılsa, {AE line} {EB line}'ye öyledir.
+    17→    17→Ve {AB line} {AE line}'den büyüktür.
+    18→    18→Böylece {AE line} de {EB line}'den büyüktür [Önerme 5.14].
+    19→    19→
+    20→    20→Böylece {AB line} doğru parçası ({E point}) noktasında aşırı ve ortalama oranında kesilmiştir ve {AE line} onun büyük parçasıdır.
+    21→    21→(Yapılması gereken tam olarak budur.)
+    22→    22→
 
-Let {AB line} be the given finite straight-line.
-So it is required to cut the straight-line {AB line} in extreme and mean ratio.
-
-Let the square {BC polygon} have been described on {AB line} [Prop.  1.46], and let the parallelogram {CD polygon}, equal to {BC polygon}, have been applied to {AC line}, overshooting by the figure {AD polygon} (which is) similar to {BC polygon} [Prop. 6.29].
-
-And {BC polygon} is a square.
-Thus, {AD polygon} is also a square.
-And since {BC polygon} is equal to {CD polygon}, let (rectangle) {CE polygon} have been subtracted from both.
-Thus, the remaining (rectangle) {BF polygon} is equal to the remaining (square) {AD polygon}.
-And it is also equiangular to it.
-Thus, the sides of {BF polygon} and {AD polygon} about the equal angles are reciprocally proportional [Prop. 6.14].
-Thus, as {FE line} is to {ED line}, so {AE line} (is) to {EB line}.
-And {FE line} (is) equal to {AB line}, and {ED line} to {AE line}.
-Thus, as {BA line} is to {AE line}, so {AE line} (is) to {EB line}.
-And {AB line} (is) greater than {AE line}.
-Thus, {AE line} (is) also greater than {EB line} [Prop. 5.14].
-
-Thus, the straight-line {AB line} has been cut in extreme and mean ratio at {E point}, and {AE line} is its greater piece.
-(Which is) the very thing it was required to do.

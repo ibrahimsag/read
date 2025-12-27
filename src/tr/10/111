@@ -1,53 +1,55 @@
-An apotome is not the same as a binomial.
+Bir kesit, bir iki-terimli ile aynı değildir.
 
-Let {AB magnitude} be an apotome.
-I say that {AB magnitude} is not the same as a binomial.
+{AB magnitude} bir kesit olsun.
+Diyorum ki {AB magnitude}, bir iki-terimli ile aynı değildir.
 
-For, if possible, let it be (the same).
-And let a rational (straight-line) {DC line} be laid down.
-And let the rectangle {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {DE magnitude} as breadth.
-Therefore, since {AB magnitude} is an apotome, {DE magnitude} is a first apotome [Prop. 10.97].
-Let {EF magnitude} be an attachment to it.
-Thus, {DF magnitude} and {FE magnitude} are rational (straight-lines which are) commensurable in square only, and the square on {DF magnitude} is greater than (the square on) {FE magnitude} by the (square) on (some straight-line) commensurable (in length) with ({DF magnitude}), and {DF magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {DC line} [Def. 10.10].
-Again, since {AB magnitude} is a binomial, {DE magnitude} is thus a first binomial [Prop. 10.60].
-Let ({DE magnitude}) have been divided into its (component) terms at {G point}, and let {DG magnitude} be the greater term.
-Thus, {DG magnitude} and {GE magnitude} are rational (straight-lines which are) commensurable in square only, and the square on {DG magnitude} is greater than (the square on) {GE magnitude} by the (square) on (some straight-line) commensurable (in length) with ({DG magnitude}), and the greater (term) {DG magnitude} is commensurable in length with the (previously) laid down rational (straight-line) {DC line} [Def. 10.5].
-Thus, {DF magnitude} is also commensurable in length with {DG magnitude} [Prop. 10.12].
-The remainder {GF magnitude} is thus commensurable in length with {DF magnitude} [Prop. 10.15].
-[Therefore, since {DF magnitude} is commensurable with {GF magnitude}, and {DF magnitude} is rational, {GF magnitude} is thus also rational.
-Therefore, since {DF magnitude} is commensurable in length with {GF magnitude},] {DF magnitude} (is) incommensurable in length with {EF magnitude}.
-Thus, {FG magnitude} is also incommensurable in length with {EF magnitude} [Prop. 10.13].
-{GF magnitude} and {FE magnitude} [are] thus rational (straight-lines which are) commensurable in square only.
-Thus, {EG magnitude} is an apotome [Prop. 10.73].
-But, (it is) also rational.
-The very thing is impossible.
+Çünkü mümkünse, (aynı) olsun.
+Ve orantılı (doğru) {DC line} konmuş olsun.
+Ve {AB magnitude}'nin üzerindeki (kareye) eşit dikdörtgen {CE polygon}, genişlik olarak {DE magnitude}'yi üreterek, {CD line}'a uygulanmış olsun.
+Bu yüzden, {AB magnitude} bir kesit olduğu için, {DE magnitude} bir birinci kesittir [Önerme 10.97].
+{EF magnitude} ona ek olsun.
+{DF magnitude} ve {FE magnitude} böylece yalnızca karede ölçüşür orantılı (doğrulardır) ve {DF magnitude}'nin üzerindeki kare, ({FE magnitude}'nin üzerindeki kareden) ({DF magnitude}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür ve {DF magnitude}, (daha önce) konmuş orantılı (doğru) {DC line} ile uzunlukta ölçüşürdür [Tanım 10.10].
+Tekrar, {AB magnitude} bir iki-terimli olduğu için, {DE magnitude} böylece bir birinci iki-terimlidir [Önerme 10.60].
+({DE magnitude}), {G point} noktasında (bileşen) terimlere bölünmüş olsun ve {DG magnitude} büyük terim olsun.
+{DG magnitude} ve {GE magnitude} böylece yalnızca karede ölçüşür orantılı (doğrulardır) ve {DG magnitude}'nin üzerindeki kare, ({GE magnitude}'nin üzerindeki kareden) ({DG magnitude}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür ve büyük (terim) {DG magnitude}, (daha önce) konmuş orantılı (doğru) {DC line} ile uzunlukta ölçüşürdür [Tanım 10.5].
+Böylece {DF magnitude} de {DG magnitude} ile uzunlukta ölçüşürdür [Önerme 10.12].
+Kalan {GF magnitude} böylece {DF magnitude} ile uzunlukta ölçüşürdür [Önerme 10.15].
+[Bu yüzden, {DF magnitude}, {GF magnitude} ile ölçüşür olduğu ve {DF magnitude} orantılı olduğu için, {GF magnitude} böylece de orantılıdır.
+Bu yüzden, {DF magnitude}, {GF magnitude} ile uzunlukta ölçüşür olduğu için,] {DF magnitude}, {EF magnitude} ile uzunlukta ölçüşmezdir.
+Böylece {FG magnitude} de {EF magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+{GF magnitude} ve {FE magnitude} [böylece] yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EG magnitude} bir kesittir [Önerme 10.73].
+Fakat (o) ayrıca orantılıdır.
+Tam olarak bu imkansızdır.
 
-Thus, an apotome is not the same as a binomial.
-(Which is) the very thing it was required to show.
+Böylece bir kesit, bir iki-terimli ile aynı değildir.
+(Gösterilmesi gereken tam olarak budur.)
 
-[Corollary]
+[Ek Sonuç]
 
-The apotome and the irrational (straight-lines) after it are neither the same as a medial (straight-line) nor (the same) as one another.
+Kesit ve ondan sonraki orantısız (doğrular), ne bir orta (doğru) ile ne de birbirleriyle aynıdır.
 
-For the (square) on a medial (straight-line), applied to a rational (straight-line), produces as breadth a rational (straight-line which is) incommensurable in length with the (straight-line) to which (the area) is applied [Prop. 10.22].
-And the (square) on an apotome, applied to a rational (straight-line), produces as breadth a first apotome [Prop. 10.97].
-And the (square) on a first apotome of a medial (straight-line), applied to a rational (straight-line), produces as breadth a second apotome [Prop. 10.98].
-And the (square) on a second apotome of a medial (straight-line), applied to a rational (straight-line), produces as breadth a third apotome [Prop. 10.99].
-And (square) on a minor (straight-line), applied to a rational (straight-line), produces as breadth a fourth apotome [Prop. 10.100].
-And (square) on that (straight-line) which with a rational (area) produces a medial whole, applied to a rational (straight-line), produces as breadth a fifth apotome [Prop. 10.101].
-And (square) on that (straight-line) which with a medial (area) produces a medial whole, applied to a rational (straight-line), produces as breadth a sixth apotome [Prop. 10.102].
-Therefore, since the aforementioned breadths differ from the first (breadth), and from one another---from the first, because it is rational, and from one another since they are not the same in order---clearly, the irrational (straight-lines) themselves also differ from one another.
-And since it has been shown that an apotome is not the same as a binomial [Prop. 10.111], and (that) the (irrational straight-lines) after the apotome, being applied to a rational (straight-line), produce as breadth, each according to its own (order), apotomes, and (that) the (irrational straight-lines) after the binomial themselves also (produce as breadth), according (to their) order, binomials, the (irrational straight-lines) after the apotome are thus different, and the (irrational straight-lines) after the binomial (are also) different, so that there are, in order, 13 irrational (straight-lines) in all:
-Medial,
-Binomial,
-First bimedial,
-Second bimedial,
-Major,
-Square-root of a rational plus a medial (area),
-Square-root of (the sum of) two medial (areas),
-Apotome,
-First apotome of a medial,
-Second apotome of a medial,
-Minor,
-That which with a rational (area) produces a medial whole,
-That which with a medial (area) produces a medial whole.
+Çünkü bir orta (doğrunun) üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak, (alanın) uygulandığı (doğru) ile uzunlukta ölçüşmez bir orantılı (doğru) üretir [Önerme 10.22].
+Ve bir kesitin üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir birinci kesit üretir [Önerme 10.97].
+Ve bir orta (doğrunun) birinci kesitinin üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir ikinci kesit üretir [Önerme 10.98].
+Ve bir orta (doğrunun) ikinci kesitinin üzerindeki (kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir üçüncü kesit üretir [Önerme 10.99].
+Ve bir küçük (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir dördüncü kesit üretir [Önerme 10.100].
+Ve bir orantılı (alanla birlikte) bir orta bütün yapan o (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir beşinci kesit üretir [Önerme 10.101].
+Ve bir orta (alanla birlikte) bir orta bütün yapan o (doğrunun) (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir altıncı kesit üretir [Önerme 10.102].
+Bu yüzden, söz konusu genişlikler birinci (genişlikten) ve birbirlerinden farklı oldukları için --- birinciden, çünkü o orantılıdır ve birbirlerinden çünkü sırada aynı değildirler --- açıkça, orantısız (doğrular) kendileri de birbirlerinden farklıdır.
+Ve bir kesitin bir iki-terimli ile aynı olmadığı [Önerme 10.111] ve kesitten sonraki (orantısız doğruların), bir orantılı (doğruya) uygulandığında, her birinin kendi (sırasına) göre genişlik olarak kesitler ürettiği ve iki-terimliden sonrakilerin de kendilerinin, (kendi) sıralarına göre, iki-terimliler ürettiği gösterildiği için, kesitten sonraki (orantısız doğrular) böylece farklıdır ve iki-terimliden sonrakiler de farklıdır, öyle ki toplamda sırayla 13 orantısız (doğru) vardır:
+Orta,
+İki-terimli,
+Birinci iki-orta,
+İkinci iki-orta,
+Büyük,
+Bir orantılı artı bir orta (alanın) karekökü,
+İki orta (alanın toplamının) karekökü,
+Kesit,
+Bir ortanın birinci kesiti,
+Bir ortanın ikinci kesiti,
+Küçük,
+Bir orantılı (alanla birlikte) bir orta bütün yapan o,
+Bir orta (alanla birlikte) bir orta bütün yapan o.
+
+

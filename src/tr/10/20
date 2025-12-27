@@ -1,17 +1,19 @@
-If a rational (area) is applied to a rational (straightline) then it produces as breadth a (straight-line which is) rational, and commensurable in length with the (straightline) to which it is applied.
+Eğer bir orantılı (alan), bir orantılı (doğruya) uygulanırsa o zaman genişlik olarak, orantılı olan ve uygulandığı (doğru) ile uzunlukta ölçüşür (bir doğru) oluşturur.
 
-For let the rational (area) {AC polygon} have been applied to the rational (straight-line) {AB line}, producing the (straight-line) {BC line} as breadth.
-I say that {BC line} is rational, and commensurable in length with {BA line}.
+Çünkü orantılı (alan) {AC polygon}, genişlik olarak {BC line} doğrusunu oluşturarak, orantılı (doğru) {AB line}'a uygulanmış olsun.
+Diyorum ki {BC line} orantılıdır ve {BA line} ile uzunlukta ölçüşürdür.
 
-For let the square {AD polygon} have been described on {AB line}.
-{AD polygon} is thus rational [Def. 10.4].
-And {AC polygon} (is) also rational.
-{DA polygon} is thus commensurable with {AC polygon}.
-And as {DA polygon} is to {AC polygon}, so {DB line} (is) to {BC line} [Prop. 6.1].
-Thus, {DB line} is also commensurable (in length) with {BC line} [Prop. 10.11].
-And {DB line} (is) equal to {BA line}.
-Thus, {AB line} (is) also commensurable (in length) with {BC line}.
-And {AB line} is rational.
-Thus, {BC line} is also rational, and commensurable in length with {AB line} [Def. 10.3].
+Çünkü {AB line} üzerinde {AD polygon} karesi çizilmiş olsun.
+Böylece {AD polygon} orantılıdır [Tanım 10.4].
+Ve {AC polygon} de orantılıdır.
+Böylece {DA polygon}, {AC polygon} ile ölçüşürdür.
+Ve {DA polygon}, {AC polygon}'a nasılsa, {DB line} {BC line}'a (öyledir) [Önerme 6.1].
+Böylece {DB line} de {BC line} ile (uzunlukta) ölçüşürdür [Önerme 10.11].
+Ve {DB line}, {BA line}'a eşittir.
+Böylece {AB line} de {BC line} ile (uzunlukta) ölçüşürdür.
+Ve {AB line} orantılıdır.
+Böylece {BC line} de orantılıdır ve {AB line} ile uzunlukta ölçüşürdür [Tanım 10.3].
 
-Thus, if a rational (area) is applied to a rational (straight-line), and so on ....
+Böylece eğer bir orantılı (alan), bir orantılı (doğruya) uygulanırsa... ve böyle devam eder...
+
+

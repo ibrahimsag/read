@@ -1,26 +1,28 @@
-The square on a major (straight-line) applied to a rational (straight-line) produces as breadth a fourth binomial (straight-line).
+Bir büyük (doğrunun) üzerindeki kare, bir orantılı (doğruya) uygulandığında, genişlik olarak bir dördüncü iki-terimli (doğru) üretir.
 
-Let {AB magnitude} be a major (straight-line) having been divided at {C point}, such that {AC magnitude} is greater than {CB magnitude}, and (let) {DE line} (be) a rational (straight-line).
-And let the parallelogram {DF polygon}, equal to the (square) on {AB magnitude}, have been applied to {DE line}, producing {DG line} as breadth.
-I say that {DG line} is a fourth binomial (straight-line).
+{AB magnitude}, {C point}'de bölünmüş bir büyük (doğru) olsun, öyle ki {AC magnitude}, {CB magnitude}'den büyük (olsun) ve {DE line} bir orantılı (doğru) (olsun).
+Ve {AB magnitude}'nin (üzerindeki kareye) eşit {DF polygon} dikdörtgen paralelkenarı, genişlik olarak {DG line}'ı üreterek, {DE line}'a uygulanmış olsun.
+Diyorum ki {DG line} bir dördüncü iki-terimli (doğrudur).
 
-Let the same construction be made as that shown previously.
-And since {AB magnitude} is a major (straight-line), having been divided at {C point}, {AC magnitude} and {CB magnitude} are incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial [Prop. 10.39].
-Therefore, since the sum of the (squares) on {AC magnitude} and {CB magnitude} is rational, {DL polygon} is thus rational.
-Thus, {DM line} (is) also rational, and commensurable in length with {DE line} [Prop. 10.20].
-Again, since twice the (rectangle contained) by {AC magnitude} and {CB magnitude}---that is to say, {MF polygon}---is medial, and is (applied to) the rational (straight-line) {ML line}, {MG line} is thus also rational, and incommensurable in length with {DE line} [Prop. 10.22].
-{DM line} is thus also incommensurable in length with {MG line} [Prop. 10.13].
-{DM line} and {MG line} are thus rational (straight-lines which are) commensurable in square only.
-Thus, {DG line} is a binomial (straight-line) [Prop. 10.36].
-[So] we must show that (it is) also a fourth (binomial straight-line).
+Daha önce gösterilen ile aynı inşa yapılmış olsun.
+Ve {AB magnitude}, {C point}'de bölünmüş bir büyük (doğru) olduğu için, {AC magnitude} ve {CB magnitude}, üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgeni) orta yapan, karede ölçüşmez (doğrulardır) [Önerme 10.39].
+Bundan dolayı, {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin) toplamı orantılı olduğu için, böylece {DL polygon} orantılıdır.
+Böylece {DM line} de orantılıdır ve {DE line} ile uzunlukta ölçüşürdür [Önerme 10.20].
+Tekrar, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı --- yani {MF polygon} --- orta ve orantılı (doğru) {ML line}'a (uygulanmış) olduğu için, böylece {MG line} de orantılıdır ve {DE line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Böylece {DM line} de {MG line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Böylece {DM line} ve {MG line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {DG line} bir iki-terimli (doğrudur) [Önerme 10.36].
+[Öyleyse,] (onun) ayrıca bir dördüncü (iki-terimli doğru) olduğunu göstermeliyiz.
 
-So, similarly to the previous (propositions), we can show that {DM line} is greater than {MG line}, and that the (rectangle contained) by {DKM line} is equal to the (square) on {MN line}.
-Therefore, since the (square) on {AC magnitude} is incommensurable with the (square) on {CB magnitude}, {DH polygon} is also incommensurable with {KL polygon}.
-Hence, {DK line} is also incommensurable with {KM line} [Props. 6.1, 10.11].
-And if there are two unequal straight-lines, and a parallelogram equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) incommensurable (in length), then the square on the greater will be larger than (the square on) the lesser by the (square) on (some straight-line) incommensurable in length with the greater [Prop. 10.18].
-Thus, the square on {DM line} is greater than (the square on) {MG line} by the (square) on (some straight-line) incommensurable (in length) with ({DM line}).
-And {DM line} and {MG line} are rational (straight-lines which are) commensurable in square only.
-And {DM line} is commensurable (in length) with the (previously) laid down rational (straight-line) {DE line}.
+Öyleyse, önceki (önermelere) benzer şekilde, {DM line}'ın {MG line}'dan büyük olduğunu ve {DKM line} tarafından (içerilen dikdörtgenin), {MN line}'ın (üzerindeki kareye) eşit olduğunu gösterebiliriz.
+Bundan dolayı, {AC magnitude}'nin (üzerindeki kare), {CB magnitude}'nin (üzerindeki kare) ile ölçüşmez olduğu için, {DH polygon} da {KL polygon} ile ölçüşmezdir.
+Dolayısıyla {DK line} de {KM line} ile ölçüşmezdir [Önermeler 6.1, 10.11].
+Ve eğer iki eşit olmayan doğru varsa ve küçüğün (üzerindeki karenin) dörtte birine eşit bir dikdörtgen paralelkenar, bir kare şekil kadar eksik kalarak, büyüğe uygulanırsa ve onu (uzunlukta) ölçüşmez (parçalara) bölerse, o zaman büyüğün üzerindeki kare, küçüğün (üzerindeki kareden), büyük ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olacaktır [Önerme 10.18].
+Böylece {DM line}'ın üzerindeki kare, {MG line}'ın (üzerindeki kareden), ({DM line}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve {DM line} ve {MG line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Ve {DM line}, (daha önce) konmuş orantılı (doğru) {DE line} ile (uzunlukta) ölçüşürdür.
 
-Thus, {DG line} is a fourth binomial (straight-line) [Def. 10.8].
-(Which is) the very thing it was required to show.
+Böylece {DG line} bir dördüncü iki-terimli (doğrudur) [Tanım 10.8].
+(Gösterilmesi gereken tam olarak budur.)
+
+

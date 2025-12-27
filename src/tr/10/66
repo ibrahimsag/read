@@ -1,35 +1,37 @@
-A (straight-line) commensurable in length with a binomial (straight-line) is itself also binomial, and the same in order.
+Bir iki-terimli (doğru) ile uzunlukta ölçüşür (bir doğru), kendisi de iki-terimli(dir) ve sıralamada aynıdır.
 
-Let {AB magnitude} be a binomial (straight-line), and let {CD magnitude} be commensurable in length with {AB magnitude}.
-I say that {CD magnitude} is a binomial (straight-line), and (is) the same in order as {AB magnitude}.
+{AB magnitude} bir iki-terimli (doğru) olsun ve {CD magnitude}, {AB magnitude} ile uzunlukta ölçüşür olsun.
+Diyorum ki {CD magnitude} bir iki-terimli (doğrudur) ve {AB magnitude} ile sıralamada aynıdır.
 
-For since {AB magnitude} is a binomial (straight-line), let it have been divided into its (component) terms at {E point}, and let {AE magnitude} be the greater term.
-{AE magnitude} and {EB magnitude} are thus rational (straight-lines which are) commensurable in square only [Prop. 10.36].
-Let it have been contrived that as {AB magnitude} (is) to {CD magnitude}, so {AE magnitude} (is) to {CF magnitude} [Prop. 6.12].
-Thus, the remainder {EB magnitude} is also to the remainder {FD magnitude}, as {AB magnitude} (is) to {CD magnitude} [Props. 6.16, 5.19 corr.].
-And {AB magnitude} (is) commensurable in length with {CD magnitude}.
-Thus, {AE magnitude} is also commensurable (in length) with {CF magnitude}, and {EB magnitude} with {FD magnitude} [Prop. 10.11].
-And {AE magnitude} and {EB magnitude} are rational.
-Thus, {CF magnitude} and {FD magnitude} are also rational.
-And as {AE magnitude} is to {CF magnitude}, (so) {EB magnitude} (is) to {FD magnitude} [Prop. 5.11].
-Thus, alternately, as {AE magnitude} is to {EB magnitude}, (so) {CF magnitude} (is) to {FD magnitude} [Prop. 5.16].
-And {AE magnitude} and {EB magnitude} [are] commensurable in square only.
-Thus, {CF magnitude} and {FD magnitude} are also commensurable in square only [Prop. 10.11].
-And they are rational.
-{CD magnitude} is thus a binomial (straight-line) [Prop. 10.36].
-So, I say that it is the same in order as {AB magnitude}.
+Çünkü {AB magnitude} bir iki-terimli (doğru) olduğu için, o (bileşen) terimlerine {E point}'de bölünmüş olsun ve {AE magnitude} büyük terim olsun.
+Böylece {AE magnitude} ve {EB magnitude} yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.36].
+{AB magnitude}, {CD magnitude}'ye nasılsa, {AE magnitude}, {CF magnitude}'ye (öyle) olacak şekilde ayarlanmış olsun [Önerme 6.12].
+Böylece kalan {EB magnitude} de kalan {FD magnitude}'ye, {AB magnitude}, {CD magnitude}'ye nasılsa (öyledir) [Önermeler 6.16, 5.19 ek sonucu].
+Ve {AB magnitude}, {CD magnitude} ile uzunlukta ölçüşürdür.
+Böylece {AE magnitude} de {CF magnitude} ile ve {EB magnitude}, {FD magnitude} ile (uzunlukta) ölçüşürdür [Önerme 10.11].
+Ve {AE magnitude} ve {EB magnitude} orantılıdır.
+Böylece {CF magnitude} ve {FD magnitude} de orantılıdır.
+Ve {AE magnitude}, {CF magnitude}'ye nasılsa, {EB magnitude}, {FD magnitude}'ye (öyledir) [Önerme 5.11].
+Böylece, değişimli olarak, {AE magnitude}, {EB magnitude}'ye nasılsa, {CF magnitude}, {FD magnitude}'ye (öyledir) [Önerme 5.16].
+Ve {AE magnitude} ve {EB magnitude} yalnızca karede ölçüşürdür.
+Böylece {CF magnitude} ve {FD magnitude} de yalnızca karede ölçüşürdür [Önerme 10.11].
+Ve onlar orantılıdır.
+Böylece {CD magnitude} bir iki-terimli (doğrudur) [Önerme 10.36].
+Öyleyse, diyorum ki o, {AB magnitude} ile sıralamada aynıdır.
 
-For the square on {AE magnitude} is greater than (the square on) {EB magnitude} by the (square) on (some straight-line) either commensurable or incommensurable (in length) with ({AE magnitude}).
-Therefore, if the square on {AE magnitude} is greater than (the square on) {EB magnitude} by the (square) on (some straight-line) commensurable (in length) with ({AE magnitude}) then the square on {CF magnitude} will also be greater than (the square on) {FD magnitude} by the (square) on (some straight-line) commensurable (in length) with ({CF magnitude}) [Prop. 10.14].
-And if {AE magnitude} is commensurable (in length) with (some previously) laid down rational (straight-line) then {CF magnitude} will also be commensurable (in length) with it [Prop. 10.12].
-And, on account of this, {AB magnitude} and {CD magnitude} are each first binomial (straight-lines) [Def. 10.5]---that is to say, the same in order.
-And if {EB magnitude} is commensurable (in length) with the (previously) laid down rational (straight-line) then {FD magnitude} is also commensurable (in length) with it [Prop. 10.12], and, again, on account of this, ({CD magnitude}) will be the same in order as {AB magnitude}.
-For each of them will be second binomial (straight-lines) [Def. 10.6].
-And if neither of {AE magnitude} and {EB magnitude} is commensurable (in length) with the (previously) laid down rational (straight-line) then neither of {CF magnitude} and {FD magnitude} will be commensurable (in length) with it [Prop. 10.13], and each (of {AB magnitude} and {CD magnitude}) is a third (binomial straight-line) [Def. 10.7].
-And if the square on {AE magnitude} is greater than (the square on) {EB magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({AE magnitude}) then the square on {CF magnitude} is also greater than (the square on) {FD magnitude} by the (square) on (some straight-line) incommensurable (in length) with ({CF magnitude}) [Prop. 10.14].
-And if {AE magnitude} is commensurable (in length) with the (previously) laid down rational (straight-line) then {CF magnitude} is also commensurable (in length) with it [Prop. 10.12], and each (of {AB magnitude} and {CD magnitude}) is a fourth (binomial straight-line) [Def. 10.8].
-And if {EB magnitude} (is commensurable in length with the previously laid down rational straight-line) then {FD magnitude} (is) also (commensurable in length with it), and each (of {AB magnitude} and {CD magnitude}) will be a fifth (binomial straight-line) [Def. 10.9].
-And if neither of {AE magnitude} and {EB magnitude} (is commensurable in length with the previously laid down rational straight-line) then also neither of {CF magnitude} and {FD magnitude} is commensurable (in length) with the laid down rational (straight-line), and each (of {AB magnitude} and {CD magnitude}) will be a sixth (binomial straight-line) [Def. 10.10].
+Çünkü {AE magnitude}'nin üzerindeki kare, {EB magnitude}'nin (üzerindeki kareden), ({AE magnitude}) ile (uzunlukta) ölçüşür veya ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Bundan dolayı, eğer {AE magnitude}'nin üzerindeki kare, {EB magnitude}'nin (üzerindeki kareden), ({AE magnitude}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyükse, o zaman {CF magnitude}'nin üzerindeki kare de {FD magnitude}'nin (üzerindeki kareden), ({CF magnitude}) ile (uzunlukta) ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyük olacaktır [Önerme 10.14].
+Ve eğer {AE magnitude}, (daha önce) konmuş (bir) orantılı (doğru) ile (uzunlukta) ölçüşürse, o zaman {CF magnitude} de onunla (uzunlukta) ölçüşür olacaktır [Önerme 10.12].
+Ve bundan dolayı, {AB magnitude} ve {CD magnitude}'nın her biri birinci iki-terimli (doğrulardır) [Tanım 10.5] --- yani sıralamada aynıdır.
+Ve eğer {EB magnitude}, (daha önce) konmuş orantılı (doğru) ile (uzunlukta) ölçüşürse, o zaman {FD magnitude} de onunla (uzunlukta) ölçüşürdür [Önerme 10.12] ve tekrar, bundan dolayı, ({CD magnitude}), {AB magnitude} ile sıralamada aynı olacaktır.
+Çünkü onların her biri ikinci iki-terimli (doğrular) olacaktır [Tanım 10.6].
+Ve eğer {AE magnitude} ve {EB magnitude}'nin hiçbiri, (daha önce) konmuş orantılı (doğru) ile (uzunlukta) ölçüşür değilse, o zaman {CF magnitude} ve {FD magnitude}'nin de hiçbiri onunla (uzunlukta) ölçüşür olmayacaktır [Önerme 10.13] ve ({AB magnitude} ve {CD magnitude}'nın) her biri bir üçüncü (iki-terimli doğrudur) [Tanım 10.7].
+Ve eğer {AE magnitude}'nin üzerindeki kare, {EB magnitude}'nin (üzerindeki kareden), ({AE magnitude}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyükse, o zaman {CF magnitude}'nin üzerindeki kare de {FD magnitude}'nin (üzerindeki kareden), ({CF magnitude}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür [Önerme 10.14].
+Ve eğer {AE magnitude}, (daha önce) konmuş orantılı (doğru) ile (uzunlukta) ölçüşürse, o zaman {CF magnitude} de onunla (uzunlukta) ölçüşürdür [Önerme 10.12] ve ({AB magnitude} ve {CD magnitude}'nın) her biri bir dördüncü (iki-terimli doğrudur) [Tanım 10.8].
+Ve eğer {EB magnitude} (daha önce konmuş orantılı doğru ile uzunlukta ölçüşürse), o zaman {FD magnitude} de (onunla uzunlukta ölçüşür) ve ({AB magnitude} ve {CD magnitude}'nın) her biri bir beşinci (iki-terimli doğru) olacaktır [Tanım 10.9].
+Ve eğer {AE magnitude} ve {EB magnitude}'nin hiçbiri (daha önce konmuş orantılı doğru ile uzunlukta ölçüşür değilse), o zaman {CF magnitude} ve {FD magnitude}'nin de hiçbiri konmuş orantılı (doğru) ile (uzunlukta) ölçüşür değildir ve ({AB magnitude} ve {CD magnitude}'nın) her biri bir altıncı (iki-terimli doğru) olacaktır [Tanım 10.10].
 
-Hence, a (straight-line) commensurable in length with a binomial (straight-line) is a binomial (straight-line), and the same in order.
-(Which is) the very thing it was required to show.
+Dolayısıyla, bir iki-terimli (doğru) ile uzunlukta ölçüşür (bir doğru), bir iki-terimli (doğrudur) ve sıralamada aynıdır.
+(Gösterilmesi gereken tam olarak budur.)
+
+

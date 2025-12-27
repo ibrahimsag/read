@@ -1,13 +1,16 @@
-If two numbers have to one another the ratio which a cube number (has) to a(nother) cube number, and the first is cube, then the second will also be cube.
-
-For let two numbers, {A magnitude} and {B magnitude}, have to one another the ratio which the cube number {C magnitude} (has) to the cube number {D magnitude}.
-And let {A magnitude} be cube.
-[So] I say that {B magnitude} is also cube.
-
-For since {C magnitude} and {D magnitude} are cube (numbers), {C magnitude} and {D magnitude} are (thus) similar solid (numbers).
-Thus, two numbers fall (between) {C magnitude} and {D magnitude} in mean proportion [Prop. 8.19].
-And as many (numbers) as fall in between {C magnitude} and {D magnitude} in continued proportion, so many also (fall) in (between) those (numbers) having the same ratio as them (in continued proportion) [Prop. 8.8].
-And hence two numbers fall (between) {A magnitude} and {B magnitude} in mean proportion.
-Let {E magnitude} and {F magnitude} (so) fall.
-Therefore, since the four numbers {A magnitude}, {E magnitude}, {F magnitude}, {B magnitude} are continuously proportional, and {A magnitude} is cube, {B magnitude} (is) thus also cube [Prop. 8.23].
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer iki sayı birbirine bir küp sayının bir (başka) küp sayıya taşıdığı oranı taşır ve birincisi küpse o zaman ikincisi de küp olacaktır.
+     2→     2→     2→
+     3→     3→     3→Çünkü iki sayı, {A magnitude} ve {B magnitude}, {C magnitude} küp sayısının {D magnitude} küp sayısına (taşıdığı) oranı birbirine taşısın.
+     4→     4→     4→Ve {A magnitude} küp olsun.
+     5→     5→     5→[Öyleyse] diyorum ki {B magnitude} de küptür.
+     6→     6→     6→
+     7→     7→     7→Çünkü {C magnitude} ve {D magnitude} küp (sayılar) olduğu için, {C magnitude} ve {D magnitude} (böylece) benzer katı (sayılardır).
+     8→     8→     8→Böylece {C magnitude} ve {D magnitude} arasına orantısal ortada iki sayı düşer [Önerme 8.19].
+     9→     9→     9→Ve {C magnitude} ve {D magnitude} arasına sürekli orantılı olarak kaç (sayı) düşüyorsa, kendileriyle aynı oranda olan (sayıların) arasına da (sürekli orantılı olarak) o kadar (sayı) düşer [Önerme 8.8].
+    10→    10→    10→Ve dolayısıyla {A magnitude} ve {B magnitude} arasına da orantısal ortada iki sayı düşer.
+    11→    11→    11→{E magnitude} ve {F magnitude} (öyle) düşsün.
+    12→    12→    12→Bu nedenle, {A magnitude}, {E magnitude}, {F magnitude}, {B magnitude} dört sayısı sürekli orantılı olduğu ve {A magnitude} küp olduğu için, {B magnitude} de böylece küptür [Önerme 8.23].
+    13→    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→    14→
+    15→
+    16→

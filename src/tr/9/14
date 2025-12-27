@@ -1,19 +1,20 @@
-If a least number is measured by (some) prime numbers then it will not be measured by any other prime number except (one of) the original measuring (numbers).
+Eğer en küçük bir sayı (bazı) asal sayılar tarafından ölçülürse o zaman asıl ölçen (sayılardan biri) dışında başka hiçbir asal sayı tarafından ölçülmeyecektir.
 
-For let {A magnitude} be the least number measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.
-I say that {A magnitude} will not be measured by any other prime number except (one of) {B magnitude}, {C magnitude}, {D magnitude}.
+Çünkü {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} asal sayıları tarafından ölçülen en küçük sayı olsun.
+Diyorum ki {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'den (biri) dışında başka hiçbir asal sayı tarafından ölçülmeyecektir.
 
-For, if possible, let it be measured by the prime (number) {E magnitude}.
-And let {E magnitude} not be the same as one of {B magnitude}, {C magnitude}, {D magnitude}.
-And since {E magnitude} measures {A magnitude}, let it measure it according to {F magnitude}.
-Thus, {E magnitude} has made {A magnitude} (by) multiplying {F magnitude}.
-And {A magnitude} is measured by the prime numbers {B magnitude}, {C magnitude}, {D magnitude}.
-And if two numbers make some (number by) multiplying one another, and some prime number measures the number created from them, then (the prime number) will also measure one of the original (numbers) [Prop. 7.30].
-Thus, {B magnitude}, {C magnitude}, {D magnitude} will measure one of {E magnitude}, {F magnitude}.
-In fact, they do not measure {E magnitude}.
-For {E magnitude} is prime, and not the same as one of {B magnitude}, {C magnitude}, {D magnitude}.
-Thus, they (all) measure {F magnitude}, which is less than {A magnitude}.
-The very thing (is) impossible.
-For {A magnitude} was assumed (to be) the least (number) measured by {B magnitude}, {C magnitude}, {D magnitude}.
-Thus, no prime number can measure {A magnitude} except (one of) {B magnitude}, {C magnitude}, {D magnitude}.
-(Which is) the very thing it was required to show.
+Çünkü, mümkünse, {E magnitude} asal (sayısı) tarafından ölçülmüş olsun.
+Ve {E magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'den biriyle aynı olmasın.
+Ve {E magnitude}, {A magnitude}'yı ölçtüğü için, onu {F magnitude}'ye göre ölçmüş olsun.
+Böylece {E magnitude}, {F magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur.
+Ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} asal sayıları tarafından ölçülür.
+Ve eğer iki sayı birbirini çarparak bir (sayı) oluşturursa ve onlardan oluşturulan sayıyı bir asal sayı ölçerse o zaman (asal sayı) asıl (sayılardan) birini de ölçecektir [Önerme 7.30].
+Böylece {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}'den birini ölçecektir.
+Aslında {E magnitude}'yi ölçmezler.
+Çünkü {E magnitude} asaldır ve {B magnitude}, {C magnitude}, {D magnitude}'den biriyle aynı değildir.
+Böylece (hepsi) {A magnitude}'dan küçük olan {F magnitude}'yi ölçer.
+Şeyin kendisi olanaksızdır.
+Çünkü {A magnitude}'nın {B magnitude}, {C magnitude}, {D magnitude} tarafından ölçülen en küçük (sayı) olduğu varsayılmıştı.
+Böylece {B magnitude}, {C magnitude}, {D magnitude}'den (biri) dışında hiçbir asal sayı {A magnitude}'yı ölçemez.
+(Gösterilmesi gereken tam olarak budur.)
+

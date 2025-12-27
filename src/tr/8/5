@@ -1,19 +1,22 @@
-Plane numbers have to one another the ratio compounded out of (the ratios of) their sides.
-
-Let {A magnitude} and {B magnitude} be plane numbers, and let the numbers {C magnitude}, {D magnitude} be the sides of {A magnitude}, and (the numbers) {E magnitude}, {F magnitude} (the sides) of {B magnitude}.
-I say that {A magnitude} has to {B magnitude} the ratio compounded out of (the ratios of) their sides.
-
-For given the ratios which {C magnitude} has to {E magnitude}, and {D magnitude} (has) to {F magnitude}, let the least numbers, {G magnitude}, {H magnitude}, {K magnitude}, continuously proportional in the ratios {C magnitude} {E magnitude}, {D magnitude} {F magnitude} have been taken [Prop. 8.4], so that as {C magnitude} is to {E magnitude}, so {G magnitude} (is) to {H magnitude}, and as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {K magnitude}.
-And let {D magnitude} make {L magnitude} (by) multiplying {E magnitude}.
-
-And since {D magnitude} has made {A magnitude} (by) multiplying {C magnitude}, and has made {L magnitude} (by) multiplying {E magnitude}, thus as {C magnitude} is to {E magnitude}, so {A magnitude} (is) to {L magnitude} [Prop. 7.17].
-And as {C magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {H magnitude}.
-And thus as {G magnitude} (is) to {H magnitude}, so {A magnitude} (is) to {L magnitude}.
-Again, since {E magnitude} has made {L magnitude} (by) multiplying {D magnitude} [Prop. 7.16], but, in fact, has also made {B magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {L magnitude} (is) to {B magnitude} [Prop. 7.17].
-But, as {D magnitude} (is) to {F magnitude}, so {H magnitude} (is) to {K magnitude}.
-And thus as {H magnitude} (is) to {K magnitude}, so {L magnitude} (is) to {B magnitude}.
-And it was also shown that as {G magnitude} (is) to {H magnitude}, so {A magnitude} (is) to {L magnitude}.
-Thus, via equality, as {G magnitude} is to {K magnitude}, [so] {A magnitude} (is) to {B magnitude} [Prop. 7.14].
-And {G magnitude} has to {K magnitude} the ratio compounded out of (the ratios of) the sides (of {A magnitude} and {B magnitude}).
-Thus, {A magnitude} also has to {B magnitude} the ratio compounded out of (the ratios of) the sides (of {A magnitude} and {B magnitude}).
-(Which is) the very thing it was required to show.
+     1→     1→     1→Düzlem sayılar birbirine kenarlarının (oranlarından) bileşik oranı taşır.
+     2→     2→     2→
+     3→     3→     3→{A magnitude} ve {B magnitude} düzlem sayılar olsun ve {C magnitude}, {D magnitude} sayıları {A magnitude}'nın kenarları olsun ve ({E magnitude}, {F magnitude} sayıları) {B magnitude}'nin (kenarları olsun).
+     4→     4→     4→Diyorum ki {A magnitude}, {B magnitude}'ye kenarlarının (oranlarından) bileşik oranı taşır.
+     5→     5→     5→
+     6→     6→     6→Çünkü {C magnitude}'nin {E magnitude}'ye ve {D magnitude}'nin {F magnitude}'ye taşıdığı oranlar verildiğinde, {C magnitude} {E magnitude}, {D magnitude} {F magnitude} oranlarında sürekli orantılı en küçük sayılar, {G magnitude}, {H magnitude}, {K magnitude}, alınmış olsun [Önerme 8.4], öyle ki {C magnitude} {E magnitude}'ye nasılsa, {G magnitude} {H magnitude}'ye (öyle) ve {D magnitude} {F magnitude}'ye nasılsa, {H magnitude} {K magnitude}'ya (öyle) olsun.
+     7→     7→     7→Ve {D magnitude}, {E magnitude}'yi çarparak {L magnitude}'yi oluştursun.
+     8→     8→     8→
+     9→     9→     9→Ve {D magnitude}, {C magnitude}'yi çarparak {A magnitude}'yı oluşturduğu ve {E magnitude}'yi çarparak {L magnitude}'yi oluşturduğu için, böylece {C magnitude} {E magnitude}'ye nasılsa, {A magnitude} {L magnitude}'ye (öyledir) [Önerme 7.17].
+    10→    10→    10→Ve {C magnitude} {E magnitude}'ye nasılsa, (öyle) {G magnitude} {H magnitude}'ye(dir).
+    11→    11→    11→Ve böylece {G magnitude} {H magnitude}'ye nasılsa, (öyle) {A magnitude} {L magnitude}'ye(dir).
+    12→    12→    12→Tekrar, {E magnitude}, {D magnitude}'yi çarparak {L magnitude}'yi oluşturduğu [Önerme 7.16] ama aslında {F magnitude}'yi de çarparak {B magnitude}'yi oluşturduğu için, böylece {D magnitude} {F magnitude}'ye nasılsa, {L magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    13→    13→    13→Ama {D magnitude} {F magnitude}'ye nasılsa, (öyle) {H magnitude} {K magnitude}'ya(dır).
+    14→    14→    14→Ve böylece {H magnitude} {K magnitude}'ya nasılsa, {L magnitude} {B magnitude}'ye (öyledir).
+    15→    15→    15→Ve ayrıca {G magnitude} {H magnitude}'ye nasılsa, {A magnitude} {L magnitude}'ye (öyle) olduğu gösterilmişti.
+    16→    16→    16→Böylece, eşitlik yoluyla, {G magnitude} {K magnitude}'ya nasılsa, [öyle] {A magnitude} {B magnitude}'ye(dir) [Önerme 7.14].
+    17→    17→    17→Ve {G magnitude}, {K magnitude}'ya ({A magnitude} ve {B magnitude}'nin) kenarlarının (oranlarından) bileşik oranı taşır.
+    18→    18→    18→Böylece {A magnitude} da {B magnitude}'ye ({A magnitude} ve {B magnitude}'nin) kenarlarının (oranlarından) bileşik oranı taşır.
+    19→    19→    19→(Gösterilmesi gereken tam olarak budur.)
+    20→    20→    20→
+    21→
+    22→

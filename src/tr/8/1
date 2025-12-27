@@ -1,16 +1,19 @@
-If there are any multitude whatsoever of continuously proportional numbers, and the outermost of them are prime to one another, then the (numbers) are the least of those (numbers) having the same ratio as them.
-
-Let {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} be any multitude whatsoever of continuously proportional numbers.
-And let the outermost of them, {A magnitude} and {D magnitude}, be prime to one another.
-I say that {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them.
-
-For if not, let {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude} be less than {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} (respectively), being in the same ratio as them.
-And since {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are in the same ratio as {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}, and the multitude [of {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}] is equal to the multitude [of {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}], thus, via equality, as {A magnitude} is to {D magnitude}, (so) {E magnitude} (is) to {H magnitude} [Prop. 7.14].
-And {A magnitude} and {D magnitude} (are) prime (to one another).
-And prime (numbers are) also the least of those (numbers having the same ratio as them) [Prop. 7.21].
-And the least numbers measure those (numbers) having the same ratio (as them) an equal number of times, the greater (measuring) the greater, and the lesser the lesser---that is to say, the leading (measuring) the leading, and the following the following [Prop. 7.20].
-Thus, {A magnitude} measures {E magnitude}, the greater (measuring) the lesser.
-The very thing is impossible.
-Thus, {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}, being less than {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, are not in the same ratio as them.
-Thus, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} are the least of those (numbers) having the same ratio as them.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer herhangi bir sayıda sürekli orantılı sayı varsa ve onların en dıştakileri birbirine asalsa o zaman (sayılar) kendileriyle aynı oranda olanların en küçükleridir.
+     2→     2→     2→
+     3→     3→     3→{A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} herhangi bir sayıda sürekli orantılı sayı olsun.
+     4→     4→     4→Ve onların en dıştakileri, {A magnitude} ve {D magnitude}, birbirine asal olsun.
+     5→     5→     5→Diyorum ki {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} kendileriyle aynı oranda olan (sayıların) en küçükleridir.
+     6→     6→     6→
+     7→     7→     7→Çünkü eğer değilse, onlarla aynı oranda olan {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'den (sırasıyla) küçük {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude} olsun.
+     8→     8→     8→Ve {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude} ile aynı oranda olduğu ve [{A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'nin] çokluğu [{E magnitude}, {F magnitude}, {G magnitude}, {H magnitude}'nin] çokluğuna eşit olduğu için, böylece, eşitlik yoluyla, {A magnitude} {D magnitude}'ye nasılsa, {E magnitude} {H magnitude}'ye (öyledir) [Önerme 7.14].
+     9→     9→     9→Ve {A magnitude} ve {D magnitude} (birbirine) asaldır.
+    10→    10→    10→Ve asal (sayılar) ayrıca (kendileriyle aynı oranda olanların) en küçükleridir [Önerme 7.21].
+    11→    11→    11→Ve en küçük sayılar (kendileriyle) aynı oranda olan (sayıları) eşit sayıda ölçer, büyük büyüğü ve küçük küçüğü (ölçerek)---yani, öncül öncülü ve ardıl ardılı (ölçerek) [Önerme 7.20].
+    12→    12→    12→Böylece {A magnitude}, büyük küçüğü (ölçerek) {E magnitude}'yi ölçer.
+    13→    13→    13→Ki bu imkansızdır.
+    14→    14→    14→Böylece {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}'den küçük olan {E magnitude}, {F magnitude}, {G magnitude}, {H magnitude} onlarla aynı oranda değildir.
+    15→    15→    15→Böylece {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude} kendileriyle aynı oranda olan (sayıların) en küçükleridir.
+    16→    16→    16→(Gösterilmesi gereken tam olarak budur.)
+    17→    17→    17→
+    18→
+    19→

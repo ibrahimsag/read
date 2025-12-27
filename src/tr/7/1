@@ -1,24 +1,26 @@
-Two unequal numbers (being) laid down, and the lesser being continually subtracted, in turn, from the greater, if the remainder never measures the (number) preceding it, until a unit remains, then the original numbers will be prime to one another.
+     1→     1→İki eşit olmayan sayı konulduğunda ve küçük büyükten sırayla sürekli çıkarıldığında, eğer kalan hiçbir zaman kendinden önceki (sayıyı) ölçmezse, bir birim kalana kadar, o zaman başlangıçtaki sayılar birbirine asaldır.
+     2→     2→
+     3→     3→Çünkü iki [eşit olmayan] sayı, {AB magnitude} ve {CD magnitude}, için, küçük büyükten sırayla sürekli çıkarılsın, bir birim kalana kadar kalan hiçbir zaman kendinden önceki (sayıyı) ölçmesin.
+     4→     4→Diyorum ki {AB magnitude} ve {CD magnitude} birbirine asaldır---yani yalnızca birim {AB magnitude} ve {CD magnitude}'nin (ikisini de) ölçer.
+     5→     5→
+     6→     6→Çünkü eğer {AB magnitude} ve {CD magnitude} birbirine asal değilse o zaman bir sayı onları ölçecektir.
+     7→     7→(Bir sayı) onları ölçsün ve {E magnitude} olsun.
+     8→     8→Ve {CD magnitude} {BF magnitude}'yi ölçerek kendinden küçük {FA magnitude}'yı bıraksın ve {AF magnitude} {DG magnitude}'yi ölçerek kendinden küçük {GC magnitude}'yi bıraksın ve {GC magnitude} {FH magnitude}'yi ölçerek bir birim, {HA magnitude}'yı, bıraksın.
+     9→     9→
+    10→    10→Aslında, {E magnitude} {CD magnitude}'yi ölçtüğü ve {CD magnitude} {BF magnitude}'yi ölçtüğü için, {E magnitude} böylece {BF magnitude}'yi de ölçer.
+    11→    11→Ve ({E magnitude}) {BA magnitude}'nın bütününü de ölçer.
+    12→    12→Böylece ({E magnitude}) kalan {AF magnitude}'yi de ölçecektir.
+    13→    13→Ve {AF magnitude} {DG magnitude}'yi ölçer.
+    14→    14→Böylece {E magnitude} {DG magnitude}'yi de ölçer.
+    15→    15→Ve ({E magnitude}) {DC magnitude}'nin bütününü de ölçer.
+    16→    16→Böylece ({E magnitude}) kalan {CG magnitude}'yi de ölçecektir.
+    17→    17→Ve {CG magnitude} {FH magnitude}'yi ölçer.
+    18→    18→Böylece {E magnitude} {FH magnitude}'yi de ölçer.
+    19→    19→Ve ({E magnitude}) {FA magnitude}'nın bütününü de ölçer.
+    20→    20→Böylece ({E magnitude}), bir sayı olmasına rağmen, kalan {AH magnitude} birimini de ölçecektir.
+    21→    21→Ki bu imkansızdır.
+    22→    22→Böylece bir sayı {AB magnitude} ve {CD magnitude} sayılarının (ikisini de) ölçmez.
+    23→    23→Böylece {AB magnitude} ve {CD magnitude} birbirine asaldır.
+    24→    24→(Gösterilmesi gereken tam olarak budur.)
+    25→    25→
 
-For two [unequal] numbers, {AB magnitude} and {CD magnitude}, the lesser being continually subtracted, in turn, from the greater, let the remainder never measure the (number) preceding it, until a unit remains.
-I say that {AB magnitude} and {CD magnitude} are prime to one another---that is to say, that a unit alone measures (both) {AB magnitude} and {CD magnitude}.
-
-For if {AB magnitude} and {CD magnitude} are not prime to one another then some number will measure them.
-Let (some number) measure them, and let it be {E magnitude}.
-And let {CD magnitude} measuring {BF magnitude} leave {FA magnitude} less than itself, and let {AF magnitude} measuring {DG magnitude} leave {GC magnitude} less than itself, and let {GC magnitude} measuring {FH magnitude} leave a unit, {HA magnitude}.
-
-In fact, since {E magnitude} measures {CD magnitude}, and {CD magnitude} measures {BF magnitude}, {E magnitude} thus also measures {BF magnitude}.
-And ({E magnitude}) also measures the whole of {BA magnitude}.
-Thus, ({E magnitude}) will also measure the remainder {AF magnitude}.
-And {AF magnitude} measures {DG magnitude}.
-Thus, {E magnitude} also measures {DG magnitude}.
-And ({E magnitude}) also measures the whole of {DC magnitude}.
-Thus, ({E magnitude}) will also measure the remainder {CG magnitude}.
-And {CG magnitude} measures {FH magnitude}.
-Thus, {E magnitude} also measures {FH magnitude}.
-And ({E magnitude}) also measures the whole of {FA magnitude}.
-Thus, ({E magnitude}) will also measure the remaining unit {AH magnitude}, (despite) being a number.
-The very thing is impossible.
-Thus, some number does not measure (both) the numbers {AB magnitude} and {CD magnitude}.
-Thus, {AB magnitude} and {CD magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

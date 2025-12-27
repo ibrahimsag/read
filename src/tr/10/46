@@ -1,13 +1,15 @@
-The square-root of a rational plus a medial (area) can be divided (into its component terms) at one point only.
+Bir orantılı artı bir orta (alanın) karekökü, (bileşen terimlerine) yalnızca bir noktada bölünebilir.
 
-Let {AB magnitude} be the square-root of a rational plus a medial (area) which has been divided at {C point}, so that {AC magnitude} and {CB magnitude} are incommensurable in square, making the sum of the (squares) on {AC magnitude} and {CB magnitude} medial, and twice the (rectangle contained) by {AC magnitude} and {CB magnitude} rational [Prop. 10.40].
-I say that {AB magnitude} cannot be (so) divided at another point.
+{AB magnitude}, {C point}'de bölünmüş bir orantılı artı bir orta (alanın) karekökü olsun, öyle ki {AC magnitude} ve {CB magnitude}, {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin) toplamını orta ve {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katını orantılı yaparak, karede ölçüşmez (olsun) [Önerme 10.40].
+Diyorum ki {AB magnitude} başka bir noktada (öyle) bölünemez.
 
-For, if possible, let it also have been divided at {D point}, so that {AD magnitude} and {DB magnitude} are also incommensurable in square, making the sum of the (squares) on {AD magnitude} and {DB magnitude} medial, and twice the (rectangle contained) by {AD magnitude} and {DB magnitude} rational.
-Therefore, since by whatever (amount) twice the (rectangle contained) by {AC magnitude} and {CB magnitude} differs from twice the (rectangle contained) by {AD magnitude} and {DB magnitude}, (the sum of) the (squares) on {AD magnitude} and {DB magnitude} also differs from (the sum of) the (squares) on {AC magnitude} and {CB magnitude} by this (same amount).
-And twice the (rectangle contained) by {AC magnitude} and {CB magnitude} exceeds twice the (rectangle contained) by {AD magnitude} and {DB magnitude} by a rational (area).
-(The sum of) the (squares) on {AD magnitude} and {DB magnitude} thus also exceeds (the sum of) the (squares) on {AC magnitude} and {CB magnitude} by a rational (area), (despite both) being medial (areas).
-The very thing is impossible [Prop. 10.26].
-Thus, the square-root of a rational plus a medial (area) cannot be divided (into its component terms) at different points.
-Thus, it can be (so) divided at one point (only).
-(Which is) the very thing it was required to show.
+Çünkü, mümkünse, {D point}'de de bölünmüş olsun, öyle ki {AD magnitude} ve {DB magnitude} de, {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin) toplamını orta ve {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katını orantılı yaparak, karede ölçüşmez (olsun).
+Bu nedenle, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katından ne kadar farklı ise, {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı) da {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamından) bu (aynı kadar) farklı olduğu için.
+Ve {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katını bir orantılı (alan) kadar aşar.
+Böylece {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamı) da {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamını), (her ikisi de) orta (alanlar) olmalarına rağmen, bir orantılı (alan) kadar aşar.
+Şeyin kendisi olanaksızdır [Önerme 10.26].
+Böylece bir orantılı artı bir orta (alanın) karekökü, farklı noktalarda (bileşen terimlerine) bölünemez.
+Böylece o (öyle) bir noktada (yalnızca) bölünebilir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

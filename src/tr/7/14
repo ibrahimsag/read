@@ -1,11 +1,13 @@
-If there are any multitude of numbers whatsoever, and (some) other (numbers) of equal multitude to them, (which are) also in the same ratio taken two by two, then they will also be in the same ratio via equality.
+     1→     1→Eğer herhangi bir sayıda sayılar varsa ve onlara eşit sayıda başka (sayılar) vardır ve bunlar ikişer ikişer alındığında aynı orandaysa, o zaman eşitlik yoluyla da aynı oranda olacaklardır.
+     2→     2→
+     3→     3→Herhangi bir sayıda sayı, {A magnitude}, {B magnitude}, {C magnitude}, ve onlara eşit sayıda başka (sayılar), {D magnitude}, {E magnitude}, {F magnitude}, ikişer ikişer alındığında aynı oranda olsun, (yani) {A magnitude} {B magnitude}'ye nasılsa {D magnitude} {E magnitude}'ye öyle olsun ve {B magnitude} {C magnitude}'ye nasılsa {E magnitude} {F magnitude}'ye öyle olsun.
+     4→     4→Diyorum ki, ayrıca eşitlik yoluyla, {A magnitude} {C magnitude}'ye nasılsa, {D magnitude} {F magnitude}'ye öyledir.
+     5→     5→
+     6→     6→Çünkü {A magnitude} {B magnitude}'ye nasılsa, {D magnitude} {E magnitude}'ye öyle olduğu için, böylece değişimli olarak {A magnitude} {D magnitude}'ye nasılsa, {B magnitude} {E magnitude}'ye öyledir [Önerme 7.13].
+     7→     7→Yine, {B magnitude} {C magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye öyle olduğu için, böylece değişimli olarak {B magnitude} {E magnitude}'ye nasılsa, {C magnitude} {F magnitude}'ye öyledir [Önerme 7.13].
+     8→     8→Ve {B magnitude} {E magnitude}'ye nasılsa, {A magnitude} {D magnitude}'ye (öyledir).
+     9→     9→Böylece, ayrıca, {A magnitude} {D magnitude}'ye nasılsa, {C magnitude} {F magnitude}'ye (öyledir).
+    10→    10→Böylece değişimli olarak {A magnitude} {C magnitude}'ye nasılsa, {D magnitude} {F magnitude}'ye öyledir [Önerme 7.13].
+    11→    11→(Gösterilmesi gereken tam olarak budur.)
+    12→    12→
 
-Let there be any multitude of numbers whatsoever, {A magnitude}, {B magnitude}, {C magnitude}, and (some) other (numbers), {D magnitude}, {E magnitude}, {F magnitude}, of equal multitude to them, (which are) in the same ratio taken two by two, (such that) as {A magnitude} (is) to {B magnitude}, so {D magnitude} (is) to {E magnitude}, and as {B magnitude} (is) to {C magnitude}, so {E magnitude} (is) to {F magnitude}.
-I say that also, via equality, as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {F magnitude}.
-
-For since as {A magnitude} is to {B magnitude}, so {D magnitude} (is) to {E magnitude}, thus, alternately, as {A magnitude} is to {D magnitude}, so {B magnitude} (is) to {E magnitude} [Prop. 7.13].
-Again, since as {B magnitude} is to {C magnitude}, so {E magnitude} (is) to {F magnitude}, thus, alternately, as {B magnitude} is to {E magnitude}, so {C magnitude} (is) to {F magnitude} [Prop. 7.13].
-And as {B magnitude} (is) to {E magnitude}, so {A magnitude} (is) to {D magnitude}.
-Thus, also, as {A magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {F magnitude}.
-Thus, alternately, as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {F magnitude} [Prop. 7.13].
-(Which is) the very thing it was required to show.

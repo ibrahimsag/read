@@ -1,25 +1,26 @@
-If a straight-line is set up at right-angles to three straight-lines cutting one another, at the common point of section, then the three straight-lines are in one plane.
+Eğer bir doğru, birbirini kesen üç doğruya, ortak kesim noktasında, dik açılarla dikilirse o zaman üç doğru bir düzlemdedir.
 
-For let some straight-line {AB line} have been set up at right-angles to three straight-lines {BC line}, {BD line}, and {BE line}, at the (common) point of section {B point}.
-I say that {BC line}, {BD line}, and {BE line} are in one plane.
+Çünkü bir doğru {AB line}, üç doğruya, {BC line}, {BD line} ve {BE line}'ye, (ortak) kesim noktası {B point}'de dik açılarla dikilmiş olsun.
+Diyorum ki {BC line}, {BD line} ve {BE line} bir düzlemdedir.
 
-For (if) not, and if possible, let {BD line} and {BE line} be in the reference plane, and {BC line} in a more elevated (plane).
-And let the plane through {AB line} and {BC line} have been produced.
-So it will make a straight-line as a common section with the reference plane [Def. 11.3].
-Let it make {BF line}.
-Thus, the three straight-lines {AB line}, {BC line}, and {BF line} are in one plane—(namely), that drawn through {AB line} and {BC line}.
-And since {AB line} is at right-angles to each of {BD line} and {BE line}, {AB line} is thus also at right-angles to the plane (passing) through {BD line} and {BE line} [Prop. 11.4].
-And the plane (passing) through {BD line} and {BE line} is the reference plane.
-Thus, {AB line} is at right-angles to the reference plane.
-Hence, {AB line} will also make right-angles with all straight-lines joined to it which are also in the reference plane [Def. 11.3].
-And {BF line}, which is in the reference plane, is joined to it.
-Thus, the angle {ABF angle} is a right-angle.
-And {ABC angle} was also assumed to be a right-angle.
-Thus, angle {ABF angle} (is) equal to {ABC angle}.
-And they are in one plane.
-The very thing is impossible.
-Thus, {BC line} is not in a more elevated plane.
-Thus, the three straight-lines {BC line}, {BD line}, and {BE line} are in one plane.
+Çünkü (değilse) ve mümkünse, {BD line} ve {BE line} referans düzleminde ve {BC line} daha yüksek (bir düzlemde) olsun.
+Ve {AB line} ve {BC line}'dan geçen düzlem üretilmiş olsun.
+Öyleyse o, referans düzlemiyle ortak kesit olarak bir doğru yapacaktır [Tanım 11.3].
+{BF line}'ı yapsın.
+Böylece üç doğru {AB line}, {BC line} ve {BF line} bir düzlemdedir --- (yani) {AB line} ve {BC line}'dan geçirilen (düzlemde).
+Ve {AB line}, {BD line} ve {BE line}'nin her birine dik açılarda olduğu için, {AB line} böylece de {BD line} ve {BE line}'den geçen düzleme dik açılardadır [Önerme 11.4].
+Ve {BD line} ve {BE line}'den geçen düzlem, referans düzlemidir.
+Böylece {AB line}, referans düzlemine dik açılardadır.
+Dolayısıyla, {AB line}, ona birleştirilmiş ve ayrıca referans düzleminde bulunan tüm doğrularla da dik açılar yapacaktır [Tanım 11.3].
+Ve referans düzleminde bulunan {BF line}, ona birleştirilmiştir.
+Böylece {ABF angle} açısı bir dik açıdır.
+Ve {ABC angle}'ın da bir dik açı olduğu varsayıldı.
+Böylece {ABF angle} açısı, {ABC angle}'a eşittir.
+Ve onlar bir düzlemdedir.
+Tam olarak bu imkansızdır.
+Böylece {BC line} daha yüksek bir düzlemde değildir.
+Böylece üç doğru {BC line}, {BD line} ve {BE line} bir düzlemdedir.
 
-Thus, if a straight-line is set up at right-angles to three straight-lines cutting one another, at the (common) point of section, then the three straight-lines are in one plane.
-(Which is) the very thing it was required to show.
+Böylece eğer bir doğru, birbirini kesen üç doğruya, (ortak) kesim noktasında, dik açılarla dikilirse o zaman üç doğru bir düzlemdedir.
+(Gösterilmesi gereken tam olarak budur.)
+

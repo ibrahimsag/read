@@ -1,44 +1,46 @@
-If there are two unequal straight-lines, and a (rectangle) equal to the fourth part of the (square) on the lesser, falling short by a square figure, is applied to the greater, and divides it into (parts which are) commensurable in length, then the square on the greater will be larger than (the square on) the lesser by the (square) on (some straight-line) commensurable [in length] with the greater.
-And if the square on the greater is larger than (the square on) the lesser by the (square) on (some straight-line) commensurable [in length] with the greater, and a (rectangle) equal to the fourth (part) of the (square) on the lesser, falling short by a square figure, is applied to the greater, then it divides it into (parts which are) commensurable in length.
+Eğer iki eşit olmayan doğru varsa ve küçük (olanın) üzerindeki (karenin) dört parçasının birine eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, büyük (olana) uygulanırsa ve onu uzunlukta ölçüşür (parçalara) bölerse o zaman büyük olanın üzerindeki kare, küçük (olanın üzerindeki kareden) büyük (olanla) [uzunlukta] ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyük olacaktır.
+Ve eğer büyük olanın üzerindeki kare, küçük (olanın üzerindeki kareden) büyük (olanla) [uzunlukta] ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyükse ve küçük (olanın) üzerindeki (karenin) dört (parçasının birine) eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, büyük (olana) uygulanırsa o zaman onu uzunlukta ölçüşür (olan parçalara) böler.
 
-Let {A magnitude} and {BC magnitude} be two unequal straight-lines, of which (let) {BC magnitude} (be) the greater.
-And let a (rectangle) equal to the fourth part of the (square) on the lesser, {A magnitude}---that is, (equal) to the (square) on half of {A magnitude}---falling short by a square figure, have been applied to {BC magnitude}.
-And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude} [see previous lemma].
-And let {BD magnitude} be commensurable in length with {DC magnitude}.
-I say that that the square on {BC magnitude} is greater than the (square on) {A magnitude} by (the square on some straight-line) commensurable (in length) with ({BC magnitude}).
+{A magnitude} ve {BC magnitude} iki eşit olmayan doğru olsun, bunlardan {BC magnitude} büyük (olan) olsun.
+Ve küçük olanın, {A magnitude}'nın, üzerindeki (karenin) dört parçasının birine --- yani {A magnitude}'nın yarısının (üzerindeki kareye) --- eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, {BC magnitude}'ye uygulanmış olsun.
+Ve {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgen) olsun [önceki yardımcı önermeye bak].
+Ve {BD magnitude}, {DC magnitude} ile uzunlukta ölçüşür olsun.
+Diyorum ki {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-For let {BC magnitude} have been cut in half at the point {E point} [Prop. 1.10].
-And let {EF magnitude} be made equal to {DE magnitude} [Prop. 1.3].
-Thus, the remainder {DC magnitude} is equal to {BF magnitude}.
-And since the straight-line {BC magnitude} has been cut into equal (pieces) at {E point}, and into unequal (pieces) at {D point}, the rectangle contained by {BD magnitude} and {DC magnitude}, plus the square on {ED magnitude}, is thus equal to the square on {EC magnitude} [Prop. 2.5].
-(The same) also (for) the quadruples.
-Thus, four times the (rectangle contained) by {BD magnitude} and {DC magnitude}, plus the quadruple of the (square) on {DE magnitude}, is equal to four times the square on {EC magnitude}.
-But, the square on {A magnitude} is equal to the quadruple of the (rectangle contained) by {BD magnitude} and {DC magnitude}, and the square on {DF magnitude} is equal to the quadruple of the (square) on {DE magnitude}.
-For {DF magnitude} is double {DE magnitude}.
-And the square on {BC magnitude} is equal to the quadruple of the (square) on {EC magnitude}.
-For, again, {BC magnitude} is double {CE magnitude}.
-Thus, the (sum of the) squares on {A magnitude} and {DF magnitude} is equal to the square on {BC magnitude}.
-Hence, the (square) on {BC magnitude} is greater than the (square) on {A magnitude} by the (square) on {DF magnitude}.
-Thus, {BC magnitude} is greater in square than {A magnitude} by {DF magnitude}.
-It must also be shown that {BC magnitude} is commensurable (in length) with {DF magnitude}.
-For since {BD magnitude} is commensurable in length with {DC magnitude}, {BC magnitude} is thus also commensurable in length with {CD magnitude} [Prop. 10.15].
-But, {CD magnitude} is commensurable in length with {CD magnitude} plus {BF magnitude}.
-For {CD magnitude} is equal to {BF magnitude} [Prop. 10.6].
-Thus, {BC magnitude} is also commensurable in length with {BF magnitude} plus {CD magnitude} [Prop. 10.12].
-Hence, {BC magnitude} is also commensurable in length with the remainder {FD magnitude} [Prop. 10.15].
-Thus, the square on {BC magnitude} is greater than (the square on) {A magnitude} by the (square) on (some straight-line) commensurable (in length) with ({BC magnitude}).
+Çünkü {BC magnitude}, {E point} noktasında ikiye bölünmüş olsun [Önerme 1.10].
+Ve {EF magnitude}, {DE magnitude}'ye eşit yapılmış olsun [Önerme 1.3].
+Böylece kalan {DC magnitude}, {BF magnitude}'ye eşittir.
+Ve {BC magnitude} doğrusu {E point}'de eşit (parçalara) ve {D point}'de eşit olmayan (parçalara) bölündüğü için, böylece {BD magnitude} ve {DC magnitude} tarafından içerilen dikdörtgen, artı {ED magnitude}'nin üzerindeki kare, {EC magnitude}'nin üzerindeki kareye eşittir [Önerme 2.5].
+(Aynı) dört katları için de (geçerli).
+Böylece {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgenin) dört katı, artı {DE magnitude}'nin (üzerindeki karenin) dört katı, {EC magnitude}'nin üzerindeki karenin dört katına eşittir.
+Ama {A magnitude}'nın üzerindeki kare, {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgenin) dört katına eşittir ve {DF magnitude}'nin üzerindeki kare, {DE magnitude}'nin (üzerindeki karenin) dört katına eşittir.
+Çünkü {DF magnitude}, {DE magnitude}'nin iki katıdır.
+Ve {BC magnitude}'nin üzerindeki kare, {EC magnitude}'nin (üzerindeki karenin) dört katına eşittir.
+Çünkü, tekrar, {BC magnitude}, {CE magnitude}'nin iki katıdır.
+Böylece {A magnitude} ve {DF magnitude}'nin (üzerindeki karelerin toplamı), {BC magnitude}'nin üzerindeki kareye eşittir.
+Bundan dolayı {BC magnitude}'nin (üzerindeki kare), {A magnitude}'nın (üzerindeki kareden) {DF magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {BC magnitude}, {A magnitude}'dan karede {DF magnitude} kadar büyüktür.
+{BC magnitude}'nin {DF magnitude} ile (uzunlukta) ölçüşür olduğu da gösterilmelidir.
+{BD magnitude}, {DC magnitude} ile uzunlukta ölçüşür olduğu için, böylece {BC magnitude} de {CD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.15].
+Ama {CD magnitude}, {CD magnitude} artı {BF magnitude} ile uzunlukta ölçüşürdür.
+Çünkü {CD magnitude}, {BF magnitude}'ye eşittir [Önerme 10.6].
+Böylece {BC magnitude} de {BF magnitude} artı {CD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.12].
+Bundan dolayı {BC magnitude} de kalan {FD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.15].
+Böylece {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-And so let the square on {BC magnitude} be greater than the (square on) {A magnitude} by the (square) on (some straight-line) commensurable (in length) with ({BC magnitude}).
-And let a (rectangle) equal to the fourth (part) of the (square) on {A magnitude}, falling short by a square figure, have been applied to {BC magnitude}.
-And let it be the (rectangle contained) by {BD magnitude} and {DC magnitude}.
-It must be shown that {BD magnitude} is commensurable in length with {DC magnitude}.
+Ve öyleyse {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyük olsun.
+Ve {A magnitude}'nın üzerindeki (karenin) dört (parçasının birine) eşit (bir dikdörtgen), bir kare şeklinden eksik düşerek, {BC magnitude}'ye uygulanmış olsun.
+Ve {BD magnitude} ve {DC magnitude} tarafından (içerilen dikdörtgen) olsun.
+{BD magnitude}'nin {DC magnitude} ile uzunlukta ölçüşür olduğu gösterilmelidir.
 
-For, similarly, by the same construction, we can show that the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on {FD magnitude}.
-And the square on {BC magnitude} is greater than the (square on) {A magnitude} by the (square) on (some straight-line) commensurable (in length) with ({BC magnitude}).
-Thus, {BC magnitude} is commensurable in length with {FD magnitude}.
-Hence, {BC magnitude} is also commensurable in length with the remaining sum of {BF magnitude} and {DC magnitude} [Prop. 10.15].
-But, the sum of {BF magnitude} and {DC magnitude} is commensurable [in length] with {DC magnitude} [Prop. 10.6].
-Hence, {BC magnitude} is also commensurable in length with {CD magnitude} [Prop. 10.12].
-Thus, via separation, {BD magnitude} is also commensurable in length with {DC magnitude} [Prop. 10.15].
+Çünkü, benzer şekilde, aynı inşayla, {BC magnitude}'nin üzerindeki karenin, {A magnitude}'nın (üzerindeki kareden) {FD magnitude}'nin (üzerindeki kare) kadar büyük olduğunu gösterebiliriz.
+Ve {BC magnitude}'nin üzerindeki kare, {A magnitude}'nın (üzerindeki kareden) ({BC magnitude}) ile (uzunlukta) ölçüşür (olan bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Böylece {BC magnitude}, {FD magnitude} ile uzunlukta ölçüşürdür.
+Bundan dolayı {BC magnitude} de {BF magnitude} ve {DC magnitude}'nin kalan toplamı ile uzunlukta ölçüşürdür [Önerme 10.15].
+Ama {BF magnitude} ve {DC magnitude}'nin toplamı, {DC magnitude} ile [uzunlukta] ölçüşürdür [Önerme 10.6].
+Bundan dolayı {BC magnitude} de {CD magnitude} ile uzunlukta ölçüşürdür [Önerme 10.12].
+Böylece, ayırarak, {BD magnitude} de {DC magnitude} ile uzunlukta ölçüşürdür [Önerme 10.15].
 
-Thus, if there are two unequal straight-lines, and so on ....
+Böylece eğer iki eşit olmayan doğru varsa... ve böyle devam eder...
+
+

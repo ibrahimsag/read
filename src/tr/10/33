@@ -1,29 +1,31 @@
-To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
+Karede ölçüşmez iki doğru bulmak, (öyle ki) üzerlerindeki karelerin toplamı orantılı olsun ve onlar tarafından (içerilen dikdörtgen) orta olsun.
 
-Let the two rational (straight-lines) {AB line} and {BC line}, (which are) commensurable in square only, be laid out such that the square on the greater, {AB line}, is larger than (the square on) the lesser, {BC line}, by the (square) on (some straight-line which is) incommensurable (in length) with ({AB line}) [Prop. 10.30].
-And let {BC line} have been cut in half at {D point}.
-And let a parallelogram equal to the (square) on either of {BD line} or {DC line}, (and) falling short by a square figure, have been applied to {AB line} [Prop. 6.28], and let it be the (rectangle contained) by {AE line} and {EB line}.
-And let the semi-circle {AFB arc O} have been drawn on {AB line}.
-And let {EF line} have been drawn at right-angles to {AB line}.
-And let {AF line} and {FB line} have been joined.
+Yalnızca karede ölçüşür iki orantılı (doğru), {AB line} ve {BC line}, büyük olanın, {AB line}'ın, üzerindeki karenin, küçük (olanın), {BC line}'ın, (üzerindeki kareden), ({AB line}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olacak şekilde, konmuş olsun [Önerme 10.30].
+Ve {BC line}, {D point}'de ikiye bölünmüş olsun.
+Ve {BD line} veya {DC line}'dan birinin (üzerindeki kareye) eşit, bir kare şeklinden eksik düşen bir paralelkenar, {AB line}'a uygulanmış olsun [Önerme 6.28] ve {AE line} ve {EB line} tarafından (içerilen dikdörtgen) olsun.
+Ve {AB line} üzerinde {AFB arc O} yarıçemberi çizilmiş olsun.
+Ve {EF line}, {AB line}'a dik açılarla çizilmiş olsun.
+Ve {AF line} ve {FB line} birleştirilmiş olsun.
 
-And since {AB line} and {BC line} are [two] unequal straightlines, and the square on {AB line} is greater than (the square on) {BC line} by the (square) on (some straight-line which is) incommensurable (in length) with ({AB line}).
-And a parallelogram, equal to one quarter of the (square) on {BC line}---that is to say, (equal) to the (square) on half of it---(and) falling short by a square figure, has been applied to {AB line}, and makes the (rectangle contained) by {AE line} and {EB line}.
-{AE line} is thus incommensurable (in length) with {EB line} [Prop. 10.18].
-And as {AE line} is to {EB line}, so the (rectangle contained) by {BA line} and {AE line} (is) to the (rectangle contained) by {AB line} and {BE line}.
-And the (rectangle contained) by {BA line} and {AE line} (is) equal to the (square) on {AF line}, and the (rectangle contained) by {AB line} and {BE line} to the (square) on {BF line} [Prop. 10.32 lem.].
-The (square) on {AF line} is thus incommensurable with the (square) on {FB line} [Prop. 10.11].
-Thus, {AF line} and {FB line} are incommensurable in square.
-And since {AB line} is rational, the (square) on {AB line} is also rational.
-Hence, the sum of the (squares) on {AF line} and {FB line} is also rational [Prop. 1.47].
-And, again, since the (rectangle contained) by {AE line} and {EB line} is equal to the (square) on {EF line}, and the (rectangle contained) by {AE line} and {EB line} was assumed (to be) equal to the (square) on {BD line}, {FE line} is thus equal to {BD line}.
-Thus, {BC line} is double {FE line}.
-And hence the (rectangle contained) by {AB line} and {BC line} is commensurable with the (rectangle contained) by {AB line} and {EF line} [Prop. 10.6].
-And the (rectangle contained) by {AB line} and {BC line} (is) medial [Prop. 10.21].
-Thus, the (rectangle contained) by {AB line} and {EF line} (is) also medial [Prop. 10.23 corr.].
-And the (rectangle contained) by {AB line} and {EF line} (is) equal to the (rectangle contained) by {AF line} and {FB line} [Prop. 10.32 lem.].
-Thus, the (rectangle contained) by {AF line} and {FB line} (is) also medial.
-And the sum of the squares on them was also shown (to be) rational.
+Ve {AB line} ve {BC line} [iki] eşit olmayan doğru olduğu ve {AB line}'ın üzerindeki kare, {BC line}'ın (üzerindeki kareden), ({AB line}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olduğu için.
+Ve {BC line}'ın (üzerindeki karenin) dörtte birine --- yani yarısının (üzerindeki kareye) --- eşit, bir kare şeklinden eksik düşen bir paralelkenar, {AB line}'a uygulanmış ve {AE line} ve {EB line} tarafından (içerilen dikdörtgeni) oluşturmuştur.
+Böylece {AE line}, {EB line} ile (uzunlukta) ölçüşmezdir [Önerme 10.18].
+Ve {AE line}, {EB line}'ye nasılsa, {BA line} ve {AE line} tarafından (içerilen dikdörtgen), {AB line} ve {BE line} tarafından (içerilen dikdörtgene) (öyledir).
+Ve {BA line} ve {AE line} tarafından (içerilen dikdörtgen), {AF line}'ın (üzerindeki kareye) ve {AB line} ve {BE line} tarafından (içerilen dikdörtgen), {BF line}'ın (üzerindeki kareye) eşittir [Önerme 10.32 yardımcı önermesi].
+Böylece {AF line}'ın (üzerindeki kare), {FB line}'ın (üzerindeki kare) ile ölçüşmezdir [Önerme 10.11].
+Böylece {AF line} ve {FB line} karede ölçüşmezdir.
+Ve {AB line} orantılı olduğu için, {AB line}'ın (üzerindeki kare) de orantılıdır.
+Bundan dolayı {AF line} ve {FB line}'ın (üzerindeki karelerin) toplamı da orantılıdır [Önerme 1.47].
+Ve tekrar, {AE line} ve {EB line} tarafından (içerilen dikdörtgen), {EF line}'ın (üzerindeki kareye) eşit olduğu ve {AE line} ve {EB line} tarafından (içerilen dikdörtgenin) {BD line}'ın (üzerindeki kareye) eşit (olduğu) varsayıldığı için, böylece {FE line}, {BD line}'a eşittir.
+Böylece {BC line}, {FE line}'ın iki katıdır.
+Ve bundan dolayı {AB line} ve {BC line} tarafından (içerilen dikdörtgen), {AB line} ve {EF line} tarafından (içerilen dikdörtgen) ile ölçüşürdür [Önerme 10.6].
+Ve {AB line} ve {BC line} tarafından (içerilen dikdörtgen) ortadır [Önerme 10.21].
+Böylece {AB line} ve {EF line} tarafından (içerilen dikdörtgen) de ortadır [Önerme 10.23 ek sonucu].
+Ve {AB line} ve {EF line} tarafından (içerilen dikdörtgen), {AF line} ve {FB line} tarafından (içerilen dikdörtgene) eşittir [Önerme 10.32 yardımcı önermesi].
+Böylece {AF line} ve {FB line} tarafından (içerilen dikdörtgen) de ortadır.
+Ve üzerlerindeki karelerin toplamının da orantılı olduğu gösterilmişti.
 
-Thus, the two straight-lines, {AF line} and {FB line}, (which are) incommensurable in square, have been found, making the sum of the squares on them rational, and the (rectangle contained) by them medial.
-(Which is) the very thing it was required to show.
+Böylece karede ölçüşmez iki doğru, {AF line} ve {FB line}, üzerlerindeki karelerin toplamını orantılı ve onlar tarafından (içerilen dikdörtgeni) orta yaparak, bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

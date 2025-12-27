@@ -1,63 +1,64 @@
-If any multitude whatsoever of numbers is continuously proportional, (starting) from a unit, and the (number) after the unit is prime, then the greatest (number) will be measured by no [other] (numbers) except (numbers) existing among the proportional numbers.
+Eğer herhangi bir çoklukta sayılar bir birimden (başlayarak) sürekli orantılı ise ve birimden sonraki (sayı) asal ise o zaman en büyük (sayı) orantılı sayılar arasında var olanlar dışında [başka] hiçbir (sayı) tarafından ölçülmeyecektir.
 
-Let any multitude whatsoever of numbers, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, be continuously proportional, (starting) from a unit.
-And let the (number) after the unit, {A magnitude}, be prime.
-I say that the greatest of them, {D magnitude}, will be measured by no other (numbers) except {A magnitude}, {B magnitude}, {C magnitude}.
+Herhangi bir çoklukta sayılar, {A magnitude}, {B magnitude}, {C magnitude}, {D magnitude}, bir birimden (başlayarak) sürekli orantılı olsun.
+Ve birimden sonraki (sayı), {A magnitude}, asal olsun.
+Diyorum ki onların en büyüğü, {D magnitude}, {A magnitude}, {B magnitude}, {C magnitude} dışında başka hiçbir (sayı) tarafından ölçülmeyecektir.
 
-For, if possible, let it be measured by {E magnitude}, and let {E magnitude} not be the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
-So it is clear that {E magnitude} is not prime.
-For if {E magnitude} is prime, and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
-The very thing is impossible.
-Thus, {E magnitude} is not prime.
-Thus, (it is) composite.
-And every composite number is measured by some prime number [Prop. 7.31].
-Thus, {E magnitude} is measured by some prime number.
-So I say that it will be measured by no other prime number than {A magnitude}.
-For if {E magnitude} is measured by another (prime number), and {E magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.
-Hence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
-The very thing is impossible.
-Thus, {A magnitude} measures {E magnitude}.
-And since {E magnitude} measures {D magnitude}, let it measure it according to {F magnitude}.
-I say that {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
-For if {F magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}, and measures {D magnitude} according to {E magnitude}, then one of {A magnitude}, {B magnitude}, {C magnitude} thus also measures {D magnitude} according to {E magnitude}.
-But one of {A magnitude}, {B magnitude}, {C magnitude} (only) measures {D magnitude} according to some (one) of {A magnitude}, {B magnitude}, {C magnitude} [Prop. 9.11].
-And thus {E magnitude} is the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
-The very opposite thing was assumed.
-Thus, {F magnitude} is not the same as one of {A magnitude}, {B magnitude}, {C magnitude}.
-Similarly, we can show that {F magnitude} is measured by {A magnitude}, (by) again showing that {F magnitude} is not prime.
-For if ({F magnitude} is prime), and measures {D magnitude}, then it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
-The very thing is impossible.
-Thus, {F magnitude} is not prime.
-Thus, (it is) composite.
-And every composite number is measured by some prime number [Prop. 7.31].
-Thus, {F magnitude} is measured by some prime number.
-So I say that it will be measured by no other prime number than {A magnitude}.
-For if some other prime (number) measures {F magnitude}, and {F magnitude} measures {D magnitude}, then this (prime number) will thus also measure {D magnitude}.
-Hence, it will also measure {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it [Prop. 9.12].
-The very thing is impossible.
-Thus, {A magnitude} measures {F magnitude}.
-And since {E magnitude} measures {D magnitude} according to {F magnitude}, {E magnitude} has thus made {D magnitude} (by) multiplying {F magnitude}.
-But, in fact, {A magnitude} has also made {D magnitude} (by) multiplying {C magnitude} [Prop. 9.11 corr.].
-Thus, the (number created) from (multiplying) {A magnitude}, {C magnitude} is equal to the (number created) from (multiplying) {E magnitude}, {F magnitude}.
-Thus, proportionally, as {A magnitude} is to {E magnitude}, so {F magnitude} (is) to {C magnitude} [Prop. 7.19].
-And {A magnitude} measures {E magnitude}.
-Thus, {F magnitude} also measures {C magnitude}.
-Let it measure it according to {G magnitude}.
-So, similarly, we can show that {G magnitude} is not the same as one of {A magnitude}, {B magnitude}, and that it is measured by {A magnitude}.
-And since {F magnitude} measures {C magnitude} according to {G magnitude}, {F magnitude} has thus made {C magnitude} (by) multiplying {G magnitude}.
-But, in fact, {A magnitude} has also made {C magnitude} (by) multiplying {B magnitude} [Prop. 9.11 corr.].
-Thus, the (number created) from (multiplying) {A magnitude}, {B magnitude} is equal to the (number created) from (multiplying) {F magnitude}, {G magnitude}.
-Thus, proportionally, as {A magnitude} (is) to {F magnitude}, so {G magnitude} (is) to {B magnitude} [Prop. 7.19].
-And {A magnitude} measures {F magnitude}.
-Thus, {G magnitude} also measures {B magnitude}.
-Let it measure it according to {H magnitude}.
-So, similarly, we can show that {H magnitude} is not the same as {A magnitude}.
-And since {G magnitude} measures {B magnitude} according to {H magnitude}, {G magnitude} has thus made {B magnitude} (by) multiplying {H magnitude}.
-But, in fact, {A magnitude} has also made {B magnitude} (by) multiplying itself [Prop. 9.8].
-Thus, the (number created) from (multiplying) {H magnitude}, {G magnitude} is equal to the square on {A magnitude}.
-Thus, as {H magnitude} is to {A magnitude}, (so) {A magnitude} (is) to {G magnitude} [Prop. 7.19].
-And {A magnitude} measures {G magnitude}.
-Thus, {H magnitude} also measures {A magnitude}, (despite {A magnitude}) being prime (and) not being the same as it.
-The very thing (is) absurd.
-Thus, the greatest (number) {D magnitude} cannot be measured by another (number) except (one of) {A magnitude}, {B magnitude}, {C magnitude}.
-(Which is) the very thing it was required to show.
+Çünkü, mümkünse, {E magnitude} tarafından ölçülmüş olsun ve {E magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den biriyle aynı olmasın.
+Öyleyse açıktır ki {E magnitude} asal değildir.
+Çünkü eğer {E magnitude} asal ise ve {D magnitude}'yi ölçerse o zaman {A magnitude}'yı da ölçecektir, ({A magnitude}) asal olmasına ve onunla aynı olmamasına (rağmen) [Önerme 9.12].
+Şeyin kendisi olanaksızdır.
+Böylece {E magnitude} asal değildir.
+Böylece bileşiktir.
+Ve her bileşik sayı bir asal sayı tarafından ölçülür [Önerme 7.31].
+Böylece {E magnitude} bir asal sayı tarafından ölçülür.
+Öyleyse diyorum ki {A magnitude}'dan başka hiçbir asal sayı tarafından ölçülmeyecektir.
+Çünkü eğer {E magnitude} başka bir (asal sayı) tarafından ölçülürse ve {E magnitude}, {D magnitude}'yi ölçerse o zaman bu (asal sayı) da {D magnitude}'yi ölçecektir.
+Dolayısıyla {A magnitude}'yı da ölçecektir, ({A magnitude}) asal olmasına ve onunla aynı olmamasına (rağmen) [Önerme 9.12].
+Şeyin kendisi olanaksızdır.
+Böylece {A magnitude}, {E magnitude}'yi ölçer.
+Ve {E magnitude}, {D magnitude}'yi ölçtüğü için, onu {F magnitude}'ye göre ölçmüş olsun.
+Diyorum ki {F magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den biriyle aynı değildir.
+Çünkü eğer {F magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den biriyle aynı ise ve {D magnitude}'yi {E magnitude}'ye göre ölçerse o zaman {A magnitude}, {B magnitude}, {C magnitude}'den biri de {D magnitude}'yi {E magnitude}'ye göre ölçer.
+Ama {A magnitude}, {B magnitude}, {C magnitude}'den biri {D magnitude}'yi (yalnızca) {A magnitude}, {B magnitude}, {C magnitude}'den birine göre ölçer [Önerme 9.11].
+Ve böylece {E magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den biriyle aynıdır.
+Varsayılanın tam tersi.
+Böylece {F magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den biriyle aynı değildir.
+Benzer şekilde, {F magnitude}'nin {A magnitude} tarafından ölçüldüğünü, {F magnitude}'nin asal olmadığını tekrar göstererek, gösterebiliriz.
+Çünkü eğer ({F magnitude} asal ise) ve {D magnitude}'yi ölçerse o zaman {A magnitude}'yı da ölçecektir, ({A magnitude}) asal olmasına ve onunla aynı olmamasına (rağmen) [Önerme 9.12].
+Şeyin kendisi olanaksızdır.
+Böylece {F magnitude} asal değildir.
+Böylece bileşiktir.
+Ve her bileşik sayı bir asal sayı tarafından ölçülür [Önerme 7.31].
+Böylece {F magnitude} bir asal sayı tarafından ölçülür.
+Öyleyse diyorum ki {A magnitude}'dan başka hiçbir asal sayı tarafından ölçülmeyecektir.
+Çünkü eğer başka bir asal (sayı) {F magnitude}'yi ölçerse ve {F magnitude}, {D magnitude}'yi ölçerse o zaman bu (asal sayı) da {D magnitude}'yi ölçecektir.
+Dolayısıyla {A magnitude}'yı da ölçecektir, ({A magnitude}) asal olmasına ve onunla aynı olmamasına (rağmen) [Önerme 9.12].
+Şeyin kendisi olanaksızdır.
+Böylece {A magnitude}, {F magnitude}'yi ölçer.
+Ve {E magnitude}, {D magnitude}'yi {F magnitude}'ye göre ölçtüğü için, böylece {E magnitude}, {F magnitude}'yi çarparak {D magnitude}'yi oluşturmuştur.
+Ama aslında {A magnitude} da {C magnitude}'yi çarparak {D magnitude}'yi oluşturmuştur [Önerme 9.11 ek sonucu].
+Böylece {A magnitude} (ile) {C magnitude}'nin (çarpımından) oluşturulan (sayı), {E magnitude} (ile) {F magnitude}'nin (çarpımından) oluşturulan (sayıya) eşittir.
+Böylece orantısal olarak, {A magnitude} {E magnitude}'ye nasılsa, {F magnitude} {C magnitude}'ye (öyledir) [Önerme 7.19].
+Ve {A magnitude}, {E magnitude}'yi ölçer.
+Böylece {F magnitude} de {C magnitude}'yi ölçer.
+Onu {G magnitude}'ye göre ölçmüş olsun.
+Öyleyse, benzer şekilde, {G magnitude}'nin {A magnitude}, {B magnitude}'den biriyle aynı olmadığını ve {A magnitude} tarafından ölçüldüğünü gösterebiliriz.
+Ve {F magnitude}, {C magnitude}'yi {G magnitude}'ye göre ölçtüğü için, böylece {F magnitude}, {G magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur.
+Ama aslında {A magnitude} da {B magnitude}'yi çarparak {C magnitude}'yi oluşturmuştur [Önerme 9.11 ek sonucu].
+Böylece {A magnitude} (ile) {B magnitude}'nin (çarpımından) oluşturulan (sayı), {F magnitude} (ile) {G magnitude}'nin (çarpımından) oluşturulan (sayıya) eşittir.
+Böylece orantısal olarak, {A magnitude} {F magnitude}'ye nasılsa, {G magnitude} {B magnitude}'ye (öyledir) [Önerme 7.19].
+Ve {A magnitude}, {F magnitude}'yi ölçer.
+Böylece {G magnitude} de {B magnitude}'yi ölçer.
+Onu {H magnitude}'ye göre ölçmüş olsun.
+Öyleyse, benzer şekilde, {H magnitude}'nin {A magnitude} ile aynı olmadığını gösterebiliriz.
+Ve {G magnitude}, {B magnitude}'yi {H magnitude}'ye göre ölçtüğü için, böylece {G magnitude}, {H magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur.
+Ama aslında {A magnitude} da kendini çarparak {B magnitude}'yi oluşturmuştur [Önerme 9.8].
+Böylece {H magnitude} (ile) {G magnitude}'nin (çarpımından) oluşturulan (sayı), {A magnitude}'nın karesine eşittir.
+Böylece {H magnitude} {A magnitude}'ya nasılsa, (öyle) {A magnitude} {G magnitude}'ye(dir) [Önerme 7.19].
+Ve {A magnitude}, {G magnitude}'yi ölçer.
+Böylece {H magnitude} de {A magnitude}'yı ölçer, ({A magnitude}) asal olmasına ve onunla aynı olmamasına (rağmen).
+Şeyin kendisi saçmadır.
+Böylece en büyük (sayı) {D magnitude}, {A magnitude}, {B magnitude}, {C magnitude}'den (biri) dışında başka bir (sayı) tarafından ölçülemez.
+(Gösterilmesi gereken tam olarak budur.)
+

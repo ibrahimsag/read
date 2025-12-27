@@ -1,19 +1,20 @@
-If an odd number is prime to some number then it will also be prime to its double.
+Eğer bir tek sayı bir sayıya asal ise o zaman onun iki katına da asal olacaktır.
 
-For let the odd number {A magnitude} be prime to some number {B magnitude}.
-And let {C magnitude} be double {B magnitude}.
-I say that {A magnitude} is [also] prime to {C magnitude}.
+Çünkü {A magnitude} tek sayısı bir {B magnitude} sayısına asal olsun.
+Ve {C magnitude}, {B magnitude}'nin iki katı olsun.
+Diyorum ki {A magnitude}, {C magnitude}'ye [de] asaldır.
 
-For if [{A magnitude} and {C magnitude}] are not prime (to one another) then some number will measure them.
-Let it measure (them), and let it be {D magnitude}.
-And {A magnitude} is odd.
-Thus, {D magnitude} (is) also odd.
-And since {D magnitude}, which is odd, measures {C magnitude}, and {C magnitude} is even, [{D magnitude}] will thus also measure half of {C magnitude} [Prop. 9.30].
-And {B magnitude} is half of {C magnitude}.
-Thus, {D magnitude} measures {B magnitude}.
-And it also measures {A magnitude}.
-Thus, {D magnitude} measures (both) {A magnitude} and {B magnitude}, (despite) them being prime to one another.
-The very thing is impossible.
-Thus, {A magnitude} is not unprime to {C magnitude}.
-Thus, {A magnitude} and {C magnitude} are prime to one another.
-(Which is) the very thing it was required to show.
+Çünkü eğer [{A magnitude} ve {C magnitude}] birbirine asal değilse o zaman bir sayı onları ölçecektir.
+Ölçmüş olsun ve {D magnitude} olsun.
+Ve {A magnitude} tektir.
+Böylece {D magnitude} (de) tektir.
+Ve tek olan {D magnitude}, {C magnitude}'yi ölçtüğü ve {C magnitude} çift olduğu için, böylece [{D magnitude}] {C magnitude}'nin yarısını da ölçecektir [Önerme 9.30].
+Ve {B magnitude}, {C magnitude}'nin yarısıdır.
+Böylece {D magnitude}, {B magnitude}'yi ölçer.
+Ve {A magnitude}'yı da ölçer.
+Böylece {D magnitude}, birbirine asal olmalarına (rağmen), hem {A magnitude}'yı hem {B magnitude}'yi ölçer.
+Şeyin kendisi olanaksızdır.
+Böylece {A magnitude}, {C magnitude}'ye asal olmayan değildir.
+Böylece {A magnitude} ve {C magnitude} birbirine asaldır.
+(Gösterilmesi gereken tam olarak budur.)
+

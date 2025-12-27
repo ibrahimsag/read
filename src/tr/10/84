@@ -1,34 +1,36 @@
-Only one straight-line, which is incommensurable in square with the whole, and (together) with the whole makes the sum of the squares on them medial, and twice the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the (squares) on them, can be attached to that (straight-line) which with a medial (area) makes a medial whole.
+Bütünle karede ölçüşmez ve (bütünle birlikte) üzerlerindeki karelerin toplamını orta ve onlar tarafından (içerilen dikdörtgenin) iki katını orta ve üstelik üzerlerindeki (karelerin toplamını) onlar tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez yapan yalnızca bir doğru, bir orta (alanla birlikte) bir orta bütün yapan o (doğruya) eklenebilir.
 
-Let {AB magnitude} be a (straight-line) which with a medial (area) makes a medial whole, {BC magnitude} being (so) attached to it.
-Thus, {AC magnitude} and {CB magnitude} are incommensurable in square, fulfilling the (other) aforementioned (conditions) [Prop. 10.78].
-I say that a(nother) (straight-line) fulfilling the aforementioned (conditions) cannot be attached to {AB magnitude}.
+{AB magnitude} bir orta (alanla birlikte) bir orta bütün yapan (doğru) olsun, {BC magnitude} ona (öyle) eklenmiş (olsun).
+{AC magnitude} ve {CB magnitude} böylece karede ölçüşmez, sözü edilen (diğer) (koşulları) yerine getiren (doğrulardır) [Önerme 10.78].
+Diyorum ki sözü edilen (koşulları) yerine getiren (başka) (bir doğru), {AB magnitude}'ye eklenemez.
 
-For, if possible, let {BD magnitude} be (so) attached.
-Hence, {AD magnitude} and {DB magnitude} are also (straight-lines which are) incommensurable in square, making the squares on {AD magnitude} and {DB magnitude} (added) together medial, and twice the (rectangle contained) by {AD magnitude} and {DB magnitude} medial, and, moreover, the (sum of the squares) on {AD magnitude} and {DB magnitude} incommensurable with twice the (rectangle contained) by {AD magnitude} and {DB magnitude} [Prop. 10.78].
-And let the rational (straight-line) {EF line} be laid down.
-And let {EG polygon}, equal to the (sum of the squares) on {AC magnitude} and {CB magnitude}, have been applied to {EF line}, producing {EM line} as breadth.
-And let {HG polygon}, equal to twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, have been applied to {EF line}, producing {HM line} as breadth.
-Thus, the remaining (square) on {AB magnitude} is equal to {EL polygon} [Prop. 2.7].
-Thus, {AB magnitude} is the square-root of {EL polygon}.
-Again, let {EI polygon}, equal to the (sum of the squares) on {AD magnitude} and {DB magnitude}, have been applied to {EF line}, producing {EN line} as breadth.
-And the (square) on {AB magnitude} is also equal to {EL polygon}.
-Thus, the remaining twice the (rectangle contained) by {AD magnitude} and {DB magnitude} [is] equal to {HI polygon} [Prop. 2.7].
-And since the sum of the (squares) on {AC magnitude} and {CB magnitude} is medial, and is equal to {EG polygon}, {EG polygon} is thus also medial.
-And it is applied to the rational (straight-line) {EF line}, producing {EM line} as breadth.
-{EM line} is thus rational, and incommensurable in length with {EF line} [Prop. 10.22].
-Again, since twice the (rectangle contained) by {AC magnitude} and {CB magnitude} is medial, and is equal to {HG polygon}, {HG polygon} is thus also medial.
-And it is applied to the rational (straight-line) {EF line}, producing {HM line} as breadth.
-{HM line} is thus rational, and incommensurable in length with {EF line} [Prop. 10.22].
-And since the (sum of the squares) on {AC magnitude} and {CB magnitude} is incommensurable with twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, {EG polygon} is also incommensurable with {HG polygon}.
-Thus, {EM line} is also incommensurable in length with {MH line} [Props. 6.1, 10.11].
-And they are both rational (straight-lines).
-Thus, {EM line} and {MH line} are rational (straight-lines which are) commensurable in square only.
-Thus, {EH line} is an apotome [Prop. 10.73], with {HM line} attached to it.
-So, similarly, we can show that {EH line} is again an apotome, with {HN line} attached to it.
-Thus, different rational (straight-lines), which are commensurable in square only with the whole, are attached to an apotome.
-The very thing was shown (to be) impossible [Prop. 10.79].
-Thus, another straight-line cannot be (so) attached to {AB magnitude}.
+Çünkü mümkünse, {BD magnitude} (öyle) eklenmiş olsun.
+Dolayısıyla {AD magnitude} ve {DB magnitude} de karede ölçüşmez, {AD magnitude} ve {DB magnitude}'nin üzerindeki karelerin (toplamını) orta ve {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katını orta ve üstelik {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamını) {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez yapan (doğrulardır) [Önerme 10.78].
+Ve orantılı (doğru) {EF line} konmuş olsun.
+Ve {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamına) eşit {EG polygon}, genişlik olarak {EM line}'ı üreterek, {EF line}'a uygulanmış olsun.
+Ve {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katına eşit {HG polygon}, genişlik olarak {HM line}'ı üreterek, {EF line}'a uygulanmış olsun.
+Böylece {AB magnitude}'nin üzerindeki kalan (kare), {EL polygon}'a eşittir [Önerme 2.7].
+Böylece {AB magnitude}, {EL polygon}'un karekökü(dür).
+Tekrar, {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamına) eşit {EI polygon}, genişlik olarak {EN line}'ı üreterek, {EF line}'a uygulanmış olsun.
+Ve {AB magnitude}'nin üzerindeki (kare) de {EL polygon}'a eşittir.
+Böylece kalan {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {HI polygon}'a eşittir [Önerme 2.7].
+Ve {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı) orta ve {EG polygon}'a eşit olduğu için, {EG polygon} böylece de ortadır.
+Ve o, orantılı (doğru) {EF line}'a uygulanmış olup, genişlik olarak {EM line}'ı üretmiştir.
+{EM line} böylece orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Tekrar, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı orta ve {HG polygon}'a eşit olduğu için, {HG polygon} böylece de ortadır.
+Ve o, orantılı (doğru) {EF line}'a uygulanmış olup, genişlik olarak {HM line}'ı üretmiştir.
+{HM line} böylece orantılıdır ve {EF line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katı ile ölçüşmez olduğu için, {EG polygon} de {HG polygon} ile ölçüşmezdir.
+Böylece {EM line} de {MH line} ile uzunlukta ölçüşmezdir [Önermeler 6.1, 10.11].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {EM line} ve {MH line} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {EH line} bir kesittir [Önerme 10.73], {HM line} ona eklenmiştir.
+Öyleyse benzer şekilde, {EH line}'ın tekrar bir kesit olduğunu, {HN line} ona eklenmiş (olarak) gösterebiliriz.
+Böylece bütünle yalnızca karede ölçüşür farklı orantılı (doğrular), bir kesite eklenmiştir.
+Tam olarak bu imkansız olduğu gösterildi [Önerme 10.79].
+Böylece başka bir doğru, {AB magnitude}'ye (öyle) eklenemez.
 
-Thus, only one straight-line, which is incommensurable in square with the whole, and (together) with the whole makes the squares on them (added) together medial, and twice the (rectangle contained) by them medial, and, moreover, the (sum of the) squares on them incommensurable with the (rectangle contained) by them, can be attached to {AB magnitude}.
-(Which is) the very thing it was required to show.
+Böylece bütünle karede ölçüşmez ve (bütünle birlikte) üzerlerindeki karelerin (toplamını) orta ve onlar tarafından (içerilen dikdörtgenin) iki katını orta ve üstelik üzerlerindeki (karelerin toplamını) onlar tarafından (içerilen dikdörtgen) ile ölçüşmez yapan yalnızca bir doğru, {AB magnitude}'ye eklenebilir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

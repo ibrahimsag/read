@@ -1,22 +1,24 @@
-To find (two) medial (straight-lines), containing a medial (area), (which are) commensurable in square only.
+Yalnızca karede ölçüşür, bir orta (alan) içeren (iki) orta (doğru) bulmak.
 
-Let the [three] rational (straight-lines) {A magnitude}, {B magnitude}, and {C magnitude}, (which are) commensurable in square only, be laid down.
-And let, {D magnitude}, the mean proportional (straight-line) to {A magnitude} and {B magnitude}, have been taken [Prop. 6.13].
-And let it be contrived that as {B magnitude} (is) to {C magnitude}, (so) {D magnitude} (is) to {E magnitude} [Prop. 6.12].
+[Üç] orantılı (doğru), {A magnitude}, {B magnitude} ve {C magnitude}, yalnızca karede ölçüşür olarak konmuş olsun.
+Ve {A magnitude} ve {B magnitude}'nin orta orantılısı (doğru), {D magnitude}, alınmış olsun [Önerme 6.13].
+Ve {B magnitude}, {C magnitude}'ye nasılsa, (öyle) {D magnitude} {E magnitude}'ye (olacak şekilde) ayarlanmış olsun [Önerme 6.12].
 
-Since the rational (straight-lines) {A magnitude} and {B magnitude} are commensurable in square only, the (rectangle contained) by {A magnitude} and {B magnitude}---that is to say, the (square) on {D magnitude} [Prop. 6.17]---is medial [Prop. 10.21].
-Thus, {D magnitude} (is) medial [Prop. 10.21].
-And since {B magnitude} and {C magnitude} are commensurable in square only, and as {B magnitude} is to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}, {D magnitude} and {E magnitude} are thus commensurable in square only [Prop. 10.11].
-And {D magnitude} (is) medial.
-{E magnitude} (is) thus also medial [Prop. 10.23].
-Thus, {D magnitude} and {E magnitude} are medial (straight-lines which are) commensurable in square only.
-So, I say that they also enclose a medial (area).
-For since as {B magnitude} is to {C magnitude}, (so) {D magnitude} (is) to {E magnitude}, thus, alternately, as {B magnitude} (is) to {D magnitude}, (so) {C magnitude} (is) to {E magnitude} [Prop. 5.16].
-And as {B magnitude} (is) to {D magnitude}, (so) {D magnitude} (is) to {A magnitude}.
-And thus as {D magnitude} (is) to {A magnitude}, (so) {C magnitude} (is) to {E magnitude}.
-Thus, the (rectangle contained) by {A magnitude} and {C magnitude} is equal to the (rectangle contained) by {D magnitude} and {E magnitude} [Prop. 6.16].
-And the (rectangle contained) by {A magnitude} and {C magnitude} is medial [Prop. 10.21].
-Thus, the (rectangle contained) by {D magnitude} and {E magnitude} (is) also medial.
+Orantılı (doğrular) {A magnitude} ve {B magnitude} yalnızca karede ölçüşür olduğu için, {A magnitude} ve {B magnitude} tarafından (içerilen dikdörtgen) --- yani {D magnitude}'nin (üzerindeki kare) [Önerme 6.17] --- ortadır [Önerme 10.21].
+Böylece {D magnitude} ortadır [Önerme 10.21].
+Ve {B magnitude} ve {C magnitude} yalnızca karede ölçüşür olduğu ve {B magnitude}, {C magnitude}'ye nasılsa, (öyle) {D magnitude} {E magnitude}'ye (olduğu için), böylece {D magnitude} ve {E magnitude} yalnızca karede ölçüşürdür [Önerme 10.11].
+Ve {D magnitude} ortadır.
+Böylece {E magnitude} de ortadır [Önerme 10.23].
+Böylece {D magnitude} ve {E magnitude}, yalnızca karede ölçüşür orta (doğrulardır).
+Öyleyse, diyorum ki bir orta (alan) da çevreliyorlar.
+Çünkü {B magnitude}, {C magnitude}'ye nasılsa, (öyle) {D magnitude} {E magnitude}'ye (olduğu için), böylece, ters çevirerek, {B magnitude}, {D magnitude}'ye nasılsa, (öyle) {C magnitude} {E magnitude}'ye(dir) [Önerme 5.16].
+Ve {B magnitude}, {D magnitude}'ye nasılsa, (öyle) {D magnitude} {A magnitude}'ya(dır).
+Ve böylece {D magnitude}, {A magnitude}'ya nasılsa, (öyle) {C magnitude} {E magnitude}'ye(dir).
+Böylece {A magnitude} ve {C magnitude} tarafından (içerilen dikdörtgen), {D magnitude} ve {E magnitude} tarafından (içerilen dikdörtgene) eşittir [Önerme 6.16].
+Ve {A magnitude} ve {C magnitude} tarafından (içerilen dikdörtgen) ortadır [Önerme 10.21].
+Böylece {D magnitude} ve {E magnitude} tarafından (içerilen dikdörtgen) de ortadır.
 
-Thus, (two) medial (straight-lines, {D magnitude} and {E magnitude}), containing a medial (area), (which are) commensurable in square only, have been found.
-(Which is) the very thing it was required to show.
+Böylece yalnızca karede ölçüşür, bir orta (alan) içeren (iki) orta (doğru, {D magnitude} ve {E magnitude}) bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

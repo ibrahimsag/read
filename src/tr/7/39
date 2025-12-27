@@ -1,21 +1,24 @@
-To find the least number that will have given parts.
-
-Let {A magnitude}, {B magnitude}, and {C magnitude} be the given parts.
-So it is required to find the least number which will have the parts {A magnitude}, {B magnitude}, and {C magnitude} (i.e., an {A magnitude}th part, a {B magnitude}th part, and a {C magnitude}th part).
-
-For let {D magnitude}, {E magnitude}, and {F magnitude} be numbers having the same names as the parts {A magnitude}, {B magnitude}, and {C magnitude} (respectively).
-And let the least number, {G magnitude}, measured by {D magnitude}, {E magnitude}, and {F magnitude}, have been taken [Prop. 7.36].
-
-Thus, {G magnitude} has parts called the same as {D magnitude}, {E magnitude}, and {F magnitude} [Prop. 7.37].
-And {A magnitude}, {B magnitude}, and {C magnitude} are parts called the same as {D magnitude}, {E magnitude}, and {F magnitude} (respectively).
-Thus, {G magnitude} has the parts {A magnitude}, {B magnitude}, and {C magnitude}.
-So I say that ({G magnitude}) is also the least (number having the parts {A magnitude}, {B magnitude}, and {C magnitude}).
-For if not, there will be some number less than {G magnitude} which will have the parts {A magnitude}, {B magnitude}, and {C magnitude}.
-Let it be {H magnitude}.
-Since {H magnitude} has the parts {A magnitude}, {B magnitude}, and {C magnitude}, {H magnitude} will thus be measured by numbers called the same as the parts {A magnitude}, {B magnitude}, and {C magnitude} [Prop. 7.38].
-And {D magnitude}, {E magnitude}, and {F magnitude} are numbers called the same as the parts {A magnitude}, {B magnitude}, and {C magnitude} (respectively).
-Thus, {H magnitude} is measured by {D magnitude}, {E magnitude}, and {F magnitude}.
-And ({H magnitude}) is less than {G magnitude}.
-The very thing is impossible.
-Thus, there cannot be some number less than {G magnitude} which will have the parts {A magnitude}, {B magnitude}, and {C magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Verilen parçalara sahip olacak en küçük sayıyı bulmak.
+     2→     2→     2→
+     3→     3→     3→{A magnitude}, {B magnitude} ve {C magnitude} verilen parçalar olsun.
+     4→     4→     4→Öyleyse {A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahip olacak en küçük sayıyı bulmak gereklidir (yani bir {A magnitude}'ıncı parçaya, bir {B magnitude}'inci parçaya ve bir {C magnitude}'inci parçaya).
+     5→     5→     5→
+     6→     6→     6→Çünkü {D magnitude}, {E magnitude} ve {F magnitude}, (sırasıyla) {A magnitude}, {B magnitude} ve {C magnitude} parçalarıyla aynı adlara sahip sayılar olsun.
+     7→     7→     7→Ve {D magnitude}, {E magnitude} ve {F magnitude} tarafından ölçülen en küçük sayı, {G magnitude}, alınmış olsun [Önerme 7.36].
+     8→     8→     8→
+     9→     9→     9→Böylece {G magnitude}, {D magnitude}, {E magnitude} ve {F magnitude} ile aynı adla anılan parçalara sahiptir [Önerme 7.37].
+    10→    10→    10→Ve {A magnitude}, {B magnitude} ve {C magnitude}, (sırasıyla) {D magnitude}, {E magnitude} ve {F magnitude} ile aynı adla anılan parçalardır.
+    11→    11→    11→Böylece {G magnitude}, {A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahiptir.
+    12→    12→    12→Öyleyse diyorum ki ({G magnitude}) ayrıca ({A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahip olanların) en küçüğüdür.
+    13→    13→    13→Çünkü eğer değilse, {A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahip olacak {G magnitude}'den küçük bir sayı olacaktır.
+    14→    14→    14→O {H magnitude} olsun.
+    15→    15→    15→{H magnitude}, {A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahip olduğu için, {H magnitude} böylece {A magnitude}, {B magnitude} ve {C magnitude} parçalarıyla aynı adla anılan sayılar tarafından ölçülecektir [Önerme 7.38].
+    16→    16→    16→Ve {D magnitude}, {E magnitude} ve {F magnitude}, (sırasıyla) {A magnitude}, {B magnitude} ve {C magnitude} parçalarıyla aynı adla anılan sayılardır.
+    17→    17→    17→Böylece {H magnitude}, {D magnitude}, {E magnitude} ve {F magnitude} tarafından ölçülür.
+    18→    18→    18→Ve ({H magnitude}) {G magnitude}'den küçüktür.
+    19→    19→    19→Ki bu imkansızdır.
+    20→    20→    20→Böylece {A magnitude}, {B magnitude} ve {C magnitude} parçalarına sahip olacak {G magnitude}'den küçük bir sayı olamaz.
+    21→    21→    21→(Gösterilmesi gereken tam olarak budur.)
+    22→    22→    22→
+    23→
+    24→

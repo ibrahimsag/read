@@ -1,9 +1,11 @@
-If four numbers are proportional then they will also be proportional alternately.
+     1→     1→Eğer dört sayı orantılıysa, o zaman değişimli olarak da orantılı olacaklardır.
+     2→     2→
+     3→     3→{A magnitude}, {B magnitude}, {C magnitude} ve {D magnitude} dört sayısı, {A magnitude} {B magnitude}'ye nasılsa {C magnitude} {D magnitude}'ye öyle olacak şekilde orantılı olsun.
+     4→     4→Diyorum ki değişimli olarak da orantılı olacaklardır, (yani) {A magnitude} {C magnitude}'ye nasılsa, {B magnitude} {D magnitude}'ye öyle (olacaktır).
+     5→     5→
+     6→     6→Çünkü {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye öyle olduğu için, böylece {A magnitude} {B magnitude}'nin hangi parçası veya parçalarıysa, {C magnitude} de {D magnitude}'nin aynı parçası veya aynı parçalarıdır [Tanım 7.20].
+     7→     7→Böylece, değişimli olarak, {A magnitude} {C magnitude}'nin hangi parçası veya parçalarıysa, {B magnitude} de {D magnitude}'nin aynı parçası veya aynı parçalarıdır [Önermeler 7.9, 7.10].
+     8→     8→Böylece {A magnitude} {C magnitude}'ye nasılsa, {B magnitude} {D magnitude}'ye öyledir [Tanım 7.20].
+     9→     9→(Gösterilmesi gereken tam olarak budur.)
+    10→    10→
 
-Let the four numbers {A magnitude}, {B magnitude}, {C magnitude}, and {D magnitude} be proportional, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-I say that they will also be proportional alternately, (such that) as {A magnitude} (is) to {C magnitude}, so {B magnitude} (is) to {D magnitude}.
-
-For since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, thus which(ever) part, or parts, {A magnitude} is of {B magnitude}, {C magnitude} is also the same part, or the same parts, of {D magnitude} [Def. 7.20].
-Thus, alterately, which (ever) part, or parts, {A magnitude} is of {C magnitude}, {B magnitude} is also the same part, or the same parts, of {D magnitude} [Props. 7.9, 7.10].
-Thus, as {A magnitude} is to {C magnitude}, so {B magnitude} (is) to {D magnitude} [Def. 7.20].
-(Which is) the very thing it was required to show.

@@ -1,28 +1,30 @@
-To find a second apotome.
+Bir ikinci kesit bulmak.
 
-Let the rational (straight-line) {A magnitude}, and {GC magnitude} (which is) commensurable in length with {A magnitude}, be laid down.
-Thus, {GC magnitude} is a rational (straight-line).
-And let the two square numbers {DE magnitude} and {EF magnitude} be laid down, and let their difference {DF magnitude} be not square [Prop. 10.28 lem. I].
-And let it have been contrived that as {FD magnitude} (is) to {DE magnitude}, so the square on {CG magnitude} (is) to the square on {GB magnitude} [Prop. 10.6 corr.].
-Thus, the square on {CG magnitude} is commensurable with the square on {GB magnitude} [Prop. 10.6].
-And the (square) on {CG magnitude} (is) rational.
-Thus, the (square) on {GB magnitude} [is] also rational.
-Thus, {BG magnitude} is a rational (straight-line).
-And since the square on {GC magnitude} does not have to the (square) on {GB magnitude} the ratio which (some) square number (has) to (some) square number, {CG magnitude} is incommensurable in length with {GB magnitude} [Prop. 10.9].
-And they are both rational (straight-lines).
-Thus, {CG magnitude} and {GB magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {BC magnitude} is an apotome [Prop. 10.73].
-So, I say that it is also a second (apotome).
+Orantılı (doğru) {A magnitude} ve {A magnitude} ile uzunlukta ölçüşür {GC magnitude} konmuş olsun.
+{GC magnitude} böylece bir orantılı (doğrudur).
+Ve iki kare sayı {DE magnitude} ve {EF magnitude} konmuş olsun ve onların farkı {DF magnitude} kare olmasın [Önerme 10.28 ek kısım I].
+Ve {FD magnitude}, {DE magnitude}'ye nasılsa, {CG magnitude}'nin üzerindeki kare, {GB magnitude}'nin üzerindeki kareye (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Böylece {CG magnitude}'nin üzerindeki kare, {GB magnitude}'nin üzerindeki kare ile ölçüşürdür [Önerme 10.6].
+Ve {CG magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {GB magnitude}'nin (üzerindeki kare) de orantılıdır.
+Böylece {BG magnitude} bir orantılı (doğrudur).
+Ve {GC magnitude}'nin üzerindeki kare, {GB magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahip olmadığı için, {CG magnitude}, {GB magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {CG magnitude} ve {GB magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {BC magnitude} bir kesittir [Önerme 10.73].
+Öyleyse diyorum ki o ayrıca bir ikinci (kesittir).
 
-For let the (square) on {H magnitude} be that (area) by which the (square) on {BG magnitude} is greater than the (square) on {GC magnitude} [Prop. 10.13 lem.].
-Therefore, since as the (square) on {BG magnitude} is to the (square) on {GC magnitude}, so the number {ED magnitude} (is) to the number {DF magnitude}, thus, also, via conversion, as the (square) on {BG magnitude} is to the (square) on {H magnitude}, so {DE magnitude} (is) to {EF magnitude} [Prop. 5.19 corr.].
-And {DE magnitude} and {EF magnitude} are each square (numbers).
-Thus, the (square) on {BG magnitude} has to the (square) on {H magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, {BG magnitude} is commensurable in length with {H magnitude} [Prop. 10.9].
-And the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on {H magnitude}.
-Thus, the square on {BG magnitude} is greater than (the square on) {GC magnitude} by the (square) on (some straight-line) commensurable in length with ({BG magnitude}).
-And the attachment {CG magnitude} is commensurable (in length) with the (prevously) laid down rational (straight-line) {A magnitude}.
-Thus, {BC magnitude} is a second apotome [Def. 10.12].
+Çünkü {H magnitude}'nin üzerindeki (kare), {BG magnitude}'nin (üzerindeki karenin) {GC magnitude}'nin (üzerindeki kareden) büyük olduğu o (alan) olsun [Önerme 10.13 ek kısım].
+Bu yüzden, {BG magnitude}'nin (üzerindeki kare), {GC magnitude}'nin (üzerindeki kareye) nasılsa, {ED magnitude} sayısı, {DF magnitude} sayısına (öyle) olduğu için, böylece de dönüşüm yoluyla, {BG magnitude}'nin (üzerindeki kare), {H magnitude}'nin (üzerindeki kareye) nasılsa, {DE magnitude}, {EF magnitude}'ye (öyledir) [Önerme 5.19 ek sonucu].
+Ve {DE magnitude} ve {EF magnitude}'nin her biri kare (sayılardır).
+Böylece {BG magnitude}'nin (üzerindeki kare), {H magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (sahip olduğu) orana sahiptir.
+Böylece {BG magnitude}, {H magnitude} ile uzunlukta ölçüşürdür [Önerme 10.9].
+Ve {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) {H magnitude}'nin (üzerindeki kare) kadar büyüktür.
+Böylece {BG magnitude}'nin üzerindeki kare, ({GC magnitude}'nin üzerindeki kareden) ({BG magnitude}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve ek {CG magnitude}, (daha önce) konmuş orantılı (doğru) {A magnitude} ile (uzunlukta) ölçüşürdür.
+Böylece {BC magnitude} bir ikinci kesittir [Tanım 10.12].
 
-Thus, the second apotome {BC magnitude} has been found.
-(Which is) the very thing it was required to show.
+Böylece ikinci kesit {BC magnitude} bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

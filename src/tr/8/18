@@ -1,26 +1,29 @@
-There exists one number in mean proportion to two similar plane numbers.
-And (one) plane (number) has to the (other) plane (number) a squared ratio with respect to (that) a corresponding side (of the former has) to a corresponding side (of the latter).
-
-Let {A magnitude} and {B magnitude} be two similar plane numbers.
-And let the numbers {C magnitude}, {D magnitude} be the sides of {A magnitude}, and {E magnitude}, {F magnitude} (the sides) of {B magnitude}.
-And since similar numbers are those having proportional sides [Def. 7.21], thus as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude}.
-Therefore, I say that there exists one number in mean proportion to {A magnitude} and {B magnitude}, and that {A magnitude} has to {B magnitude} a squared ratio with respect to that {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude} ---that is to say, with respect to (that) a corresponding side (has) to a corresponding [side].
-
-For since as {C magnitude} is to {D magnitude}, so {E magnitude} (is) to {F magnitude}, thus, alternately, as {C magnitude} is to {E magnitude}, so {D magnitude} (is) to {F magnitude} [Prop. 7.13].
-And since {A magnitude} is plane, and {C magnitude}, {D magnitude} its sides, {D magnitude} has thus made {A magnitude} (by) multiplying {C magnitude}.
-And so, for the same (reasons), {E magnitude} has made {B magnitude} (by) multiplying {F magnitude}.
-So let {D magnitude} make {G magnitude} (by) multiplying {E magnitude}.
-And since {D magnitude} has made {A magnitude} (by) multiplying {C magnitude}, and has made {G magnitude} (by) multiplying {E magnitude}, thus as {C magnitude} is to {E magnitude}, so {A magnitude} (is) to {G magnitude} [Prop. 7.17].
-But as {C magnitude} (is) to {E magnitude}, [so] {D magnitude} (is) to {F magnitude}.
-And thus as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {G magnitude}.
-Again, since {E magnitude} has made {G magnitude} (by) multiplying {D magnitude}, and has made {B magnitude} (by) multiplying {F magnitude}, thus as {D magnitude} is to {F magnitude}, so {G magnitude} (is) to {B magnitude} [Prop. 7.17].
-And it was also shown that as {D magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {G magnitude}.
-And thus as {A magnitude} (is) to {G magnitude}, so {G magnitude} (is) to {B magnitude}.
-Thus, {A magnitude}, {G magnitude}, {B magnitude} are continously proportional.
-Thus, there exists one number (namely, {G magnitude}) in mean proportion to {A magnitude} and {B magnitude}.
-
-So I say that {A magnitude} also has to {B magnitude} a squared ratio with respect to (that) a corresponding side (has) to a corresponding side---that is to say, with respect to (that) {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude}.
-For since {A magnitude}, {G magnitude}, {B magnitude} are continuously proportional, {A magnitude} has to {B magnitude} a squared ratio with respect to (that {A magnitude} has) to {G magnitude} [Prop. 5.9].
-And as {A magnitude} is to {G magnitude}, so {C magnitude} (is) to {E magnitude}, and {D magnitude} to {F magnitude}.
-And thus {A magnitude} has to {B magnitude} a squared ratio with respect to (that) {C magnitude} (has) to {E magnitude}, or {D magnitude} to {F magnitude}.
-(Which is) the very thing it was required to show.
+     1→     1→     1→İki benzer düzlem sayı arasında orantısal ortada bir sayı vardır.
+     2→     2→     2→Ve (bir) düzlem (sayı) (diğer) düzlem (sayıya), karşılık gelen kenarın karşılık gelen kenara (taşıdığı oranda) karesel oran taşır.
+     3→     3→     3→
+     4→     4→     4→{A magnitude} ve {B magnitude} iki benzer düzlem sayı olsun.
+     5→     5→     5→Ve {C magnitude}, {D magnitude} sayıları {A magnitude}'nın kenarları ve {E magnitude}, {F magnitude} (sayıları) {B magnitude}'nin (kenarları) olsun.
+     6→     6→     6→Ve benzer sayılar orantılı kenarlara sahip olanlar olduğu için [Tanım 7.21], böylece {C magnitude} {D magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye (öyledir).
+     7→     7→     7→Bu nedenle, diyorum ki {A magnitude} ve {B magnitude} arasında orantısal ortada bir sayı vardır ve {A magnitude}, {B magnitude}'ye, {C magnitude}'nin {E magnitude}'ye veya {D magnitude}'nin {F magnitude}'ye (taşıdığı oranda) karesel oran taşır---yani karşılık gelen kenarın karşılık gelen [kenara] (taşıdığı oranda).
+     8→     8→     8→
+     9→     9→     9→Çünkü {C magnitude} {D magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye (öyle) olduğu için, böylece, ters çevrilmiş olarak, {C magnitude} {E magnitude}'ye nasılsa, {D magnitude} {F magnitude}'ye (öyledir) [Önerme 7.13].
+    10→    10→    10→Ve {A magnitude} düzlem olduğu ve {C magnitude}, {D magnitude} onun kenarları olduğu için, {D magnitude} böylece {C magnitude}'yi çarparak {A magnitude}'yı oluşturmuştur.
+    11→    11→    11→Ve öyle ki, aynı (nedenlerle), {E magnitude}, {F magnitude}'yi çarparak {B magnitude}'yi oluşturmuştur.
+    12→    12→    12→Öyleyse {D magnitude}, {E magnitude}'yi çarparak {G magnitude}'yi oluştursun.
+    13→    13→    13→Ve {D magnitude}, {C magnitude}'yi çarparak {A magnitude}'yı oluşturduğu ve {E magnitude}'yi çarparak {G magnitude}'yi oluşturduğu için, böylece {C magnitude} {E magnitude}'ye nasılsa, {A magnitude} {G magnitude}'ye (öyledir) [Önerme 7.17].
+    14→    14→    14→Ama {C magnitude} {E magnitude}'ye nasılsa, [öyle] {D magnitude} {F magnitude}'ye(dir).
+    15→    15→    15→Ve böylece {D magnitude} {F magnitude}'ye nasılsa, (öyle) {A magnitude} {G magnitude}'ye(dir).
+    16→    16→    16→Tekrar, {E magnitude}, {D magnitude}'yi çarparak {G magnitude}'yi oluşturduğu ve {F magnitude}'yi çarparak {B magnitude}'yi oluşturduğu için, böylece {D magnitude} {F magnitude}'ye nasılsa, {G magnitude} {B magnitude}'ye (öyledir) [Önerme 7.17].
+    17→    17→    17→Ve ayrıca {D magnitude} {F magnitude}'ye nasılsa, {A magnitude} {G magnitude}'ye (öyle) olduğu gösterilmişti.
+    18→    18→    18→Ve böylece {A magnitude} {G magnitude}'ye nasılsa, (öyle) {G magnitude} {B magnitude}'ye(dir).
+    19→    19→    19→Böylece {A magnitude}, {G magnitude}, {B magnitude} sürekli orantılıdır.
+    20→    20→    20→Böylece {A magnitude} ve {B magnitude} arasında orantısal ortada bir sayı (yani {G magnitude}) vardır.
+    21→    21→    21→
+    22→    22→    22→Öyleyse diyorum ki {A magnitude} ayrıca {B magnitude}'ye, karşılık gelen kenarın karşılık gelen kenara (taşıdığı oranda)---yani {C magnitude}'nin {E magnitude}'ye veya {D magnitude}'nin {F magnitude}'ye (taşıdığı oranda) karesel oran taşır.
+    23→    23→    23→Çünkü {A magnitude}, {G magnitude}, {B magnitude} sürekli orantılı olduğu için, {A magnitude}, {B magnitude}'ye, ({A magnitude}'nın) {G magnitude}'ye (taşıdığı oranda) karesel oran taşır [Önerme 5.9].
+    24→    24→    24→Ve {A magnitude} {G magnitude}'ye nasılsa, {C magnitude} {E magnitude}'ye ve {D magnitude} {F magnitude}'ye (öyledir).
+    25→    25→    25→Ve böylece {A magnitude}, {B magnitude}'ye, {C magnitude}'nin {E magnitude}'ye veya {D magnitude}'nin {F magnitude}'ye (taşıdığı oranda) karesel oran taşır.
+    26→    26→    26→(Gösterilmesi gereken tam olarak budur.)
+    27→    27→    27→
+    28→
+    29→

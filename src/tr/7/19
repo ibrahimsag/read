@@ -1,26 +1,28 @@
-If four number are proportional then the number created from (multiplying) the first and fourth will be equal to the number created from (multiplying) the second and third.
-And if the number created from (multiplying) the first and fourth is equal to the (number created) from (multiplying) the second and third then the four numbers will be proportional.
+     1→     1→Eğer dört sayı orantılıysa, o zaman birinci ve dördüncüden (çarparak) oluşturulan sayı ikinci ve üçüncüden (çarparak) oluşturulan sayıya eşit olacaktır.
+     2→     2→Ve eğer birinci ve dördüncüden (çarparak) oluşturulan sayı ikinci ve üçüncüden (çarparak oluşturulana) eşitse, o zaman dört sayı orantılı olacaktır.
+     3→     3→
+     4→     4→{A magnitude}, {B magnitude}, {C magnitude} ve {D magnitude}, {A magnitude} {B magnitude}'ye nasılsa {C magnitude} {D magnitude}'ye öyle olacak şekilde dört orantılı sayı olsun.
+     5→     5→Ve {A magnitude}, {D magnitude}'yi çarparak {E magnitude}'yi oluştursun ve {B magnitude}, {C magnitude}'yi çarparak {F magnitude}'yi oluştursun.
+     6→     6→Diyorum ki {E magnitude} {F magnitude}'ye eşittir.
+     7→     7→
+     8→     8→Çünkü {A magnitude}, {C magnitude}'yi çarparak {G magnitude}'yi oluştursun.
+     9→     9→Bu nedenle, {A magnitude}, {C magnitude}'yi çarparak {G magnitude}'yi oluşturduğu ve {D magnitude}'yi çarparak {E magnitude}'yi oluşturduğu için, {A magnitude} sayısı {C magnitude} ve {D magnitude} iki sayısını (sırasıyla) çarparak {G magnitude} ve {E magnitude}'yi oluşturmuştur.
+    10→    10→Böylece {C magnitude} {D magnitude}'ye nasılsa, {G magnitude} {E magnitude}'ye öyledir [Önerme 7.17].
+    11→    11→Ama {C magnitude} {D magnitude}'ye nasılsa, {A magnitude} {B magnitude}'ye (öyledir).
+    12→    12→Böylece, ayrıca, {A magnitude} {B magnitude}'ye nasılsa, {G magnitude} {E magnitude}'ye (öyledir).
+    13→    13→Yine, {A magnitude}, {C magnitude}'yi çarparak {G magnitude}'yi oluşturduğu, ama aslında {B magnitude} de {C magnitude}'yi çarparak {F magnitude}'yi oluşturduğu için, {A magnitude} ve {B magnitude} iki sayısı bir {C magnitude} sayısını (sırasıyla) çarparak {G magnitude} ve {F magnitude}'yi oluşturmuştur.
+    14→    14→Böylece {A magnitude} {B magnitude}'ye nasılsa, {G magnitude} {F magnitude}'ye öyledir [Önerme 7.18].
+    15→    15→Ama, ayrıca, {A magnitude} {B magnitude}'ye nasılsa, {G magnitude} {E magnitude}'ye (öyledir).
+    16→    16→Ve böylece {G magnitude} {E magnitude}'ye nasılsa, {G magnitude} {F magnitude}'ye (öyledir).
+    17→    17→Böylece {G magnitude}, {E magnitude} ve {F magnitude}'nin her birine aynı orana sahiptir.
+    18→    18→Böylece {E magnitude} {F magnitude}'ye eşittir [Önerme 5.9].
+    19→    19→
+    20→    20→Öyleyse, yine, {E magnitude} {F magnitude}'ye eşit olsun.
+    21→    21→Diyorum ki {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye öyledir.
+    22→    22→Çünkü aynı inşayla, {E magnitude} {F magnitude}'ye eşit olduğu için, böylece {G magnitude} {E magnitude}'ye nasılsa, {G magnitude} {F magnitude}'ye öyledir [Önerme 5.7].
+    23→    23→Ama {G magnitude} {E magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir) [Önerme 7.17].
+    24→    24→Ve {G magnitude} {F magnitude}'ye nasılsa, {A magnitude} {B magnitude}'ye (öyledir) [Önerme 7.18].
+    25→    25→Ve böylece {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye (öyledir).
+    26→    26→(Gösterilmesi gereken tam olarak budur.)
+    27→    27→
 
-Let {A magnitude}, {B magnitude}, {C magnitude}, and {D magnitude} be four proportional numbers, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-And let {A magnitude} make {E magnitude} (by) multiplying {D magnitude}, and let {B magnitude} make {F magnitude} (by) multiplying {C magnitude}.
-I say that {E magnitude} is equal to {F magnitude}.
-
-For let {A magnitude} make {G magnitude} (by) multiplying {C magnitude}.
-Therefore, since {A magnitude} has made {G magnitude} (by) multiplying {C magnitude}, and has made {E magnitude} (by) multiplying {D magnitude}, the number {A magnitude} has made {G magnitude} and {E magnitude} by multiplying the two numbers {C magnitude} and {D magnitude} (respectively).
-Thus, as {C magnitude} is to {D magnitude}, so {G magnitude} (is) to {E magnitude} [Prop. 7.17].
-But, as {C magnitude} (is) to {D magnitude}, so {A magnitude} (is) to {B magnitude}.
-Thus, also, as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {E magnitude}.
-Again, since {A magnitude} has made {G magnitude} (by) multiplying {C magnitude}, but, in fact, {B magnitude} has also made {F magnitude} (by) multiplying {C magnitude}, the two numbers {A magnitude} and {B magnitude} have made {G magnitude} and {F magnitude} (respectively, by) multiplying some number {C magnitude}.
-Thus, as {A magnitude} is to {B magnitude}, so {G magnitude} (is) to {F magnitude} [Prop. 7.18].
-But, also, as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {E magnitude}.
-And thus, as {G magnitude} (is) to {E magnitude}, so {G magnitude} (is) to {F magnitude}.
-Thus, {G magnitude} has the same ratio to each of {E magnitude} and {F magnitude}.
-Thus, {E magnitude} is equal to {F magnitude} [Prop. 5.9].
-
-So, again, let {E magnitude} be equal to {F magnitude}.
-I say that as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-For, with the same construction, since {E magnitude} is equal to {F magnitude}, thus as {G magnitude} is to {E magnitude}, so {G magnitude} (is) to {F magnitude} [Prop. 5.7].
-But, as {G magnitude} (is) to {E magnitude}, so {C magnitude} (is) to {D magnitude} [Prop. 7.17].
-And as {G magnitude} (is) to {F magnitude}, so {A magnitude} (is) to {B magnitude} [Prop. 7.18].
-And, thus, as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-(Which is) the very thing it was required to show.

@@ -1,22 +1,23 @@
-If a number makes a cube (number by) multiplying itself then it itself will also be cube.
+Eğer bir sayı kendini çarparak bir küp (sayı) oluşturursa o zaman kendisi de küp olacaktır.
 
-For let the number {A magnitude} make the cube (number) {B magnitude} (by) multiplying itself.
-I say that {A magnitude} is also cube.
+Çünkü {A magnitude} sayısı kendini çarparak {B magnitude} küp (sayısını) oluştursun.
+Diyorum ki {A magnitude} da küptür.
 
-For let {A magnitude} make {C magnitude} (by) multiplying {B magnitude}.
-Therefore, since {A magnitude} has made {B magnitude} (by) multiplying itself, and has made {C magnitude} (by) multiplying {B magnitude}, {C magnitude} is thus cube.
-And since {A magnitude} has made {B magnitude} (by) multiplying itself, {A magnitude} thus measures {B magnitude} according to the units in ({A magnitude}).
-And a unit also measures {A magnitude} according to the units in it.
-Thus, as a unit is to {A magnitude}, so {A magnitude} (is) to {B magnitude}.
-And since {A magnitude} has made {C magnitude} (by) multiplying {B magnitude}, {B magnitude} thus measures {C magnitude} according to the units in {A magnitude}.
-And a unit also measures {A magnitude} according to the units in it.
-Thus, as a unit is to {A magnitude}, so {B magnitude} (is) to {C magnitude}.
-But, as a unit (is) to {A magnitude}, so {A magnitude} (is) to {B magnitude}.
-And thus as {A magnitude} (is) to {B magnitude}, (so) {B magnitude} (is) to {C magnitude}.
-And since {B magnitude} and {C magnitude} are cube, they are similar solid (numbers).
-Thus, there exist two numbers in mean proportion (between) {B magnitude} and {C magnitude} [Prop. 8.19].
-And as {B magnitude} is to {C magnitude}, (so) {A magnitude} (is) to {B magnitude}.
-Thus, there also exist two numbers in mean proportion (between) {A magnitude} and {B magnitude} [Prop. 8.8].
-And {B magnitude} is cube.
-Thus, {A magnitude} is also cube [Prop. 8.23].
-(Which is) the very thing it was required to show.
+Çünkü {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluştursun.
+Bu nedenle, {A magnitude} kendini çarparak {B magnitude}'yi oluşturduğu ve {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, böylece {C magnitude} küptür.
+Ve {A magnitude} kendini çarparak {B magnitude}'yi oluşturduğu için, {A magnitude} böylece {B magnitude}'yi ({A magnitude})'daki birimlere göre ölçer.
+Ve bir birim de {A magnitude}'yı ondaki birimlere göre ölçer.
+Böylece bir birim {A magnitude}'ya nasılsa, {A magnitude} {B magnitude}'ye (öyledir).
+Ve {A magnitude}, {B magnitude}'yi çarparak {C magnitude}'yi oluşturduğu için, {B magnitude} böylece {C magnitude}'yi {A magnitude}'daki birimlere göre ölçer.
+Ve bir birim de {A magnitude}'yı ondaki birimlere göre ölçer.
+Böylece bir birim {A magnitude}'ya nasılsa, {B magnitude} {C magnitude}'ye (öyledir).
+Ama bir birim {A magnitude}'ya nasılsa, (öyle) {A magnitude} {B magnitude}'ye(dir).
+Ve böylece {A magnitude} {B magnitude}'ye nasılsa, (öyle) {B magnitude} {C magnitude}'ye(dir).
+Ve {B magnitude} ve {C magnitude} küp olduğu için, onlar benzer katı (sayılardır).
+Böylece {B magnitude} ve {C magnitude} arasına orantısal ortada iki sayı düşer [Önerme 8.19].
+Ve {B magnitude} {C magnitude}'ye nasılsa, (öyle) {A magnitude} {B magnitude}'ye(dir).
+Böylece {A magnitude} ve {B magnitude} arasına da orantısal ortada iki sayı düşer [Önerme 8.8].
+Ve {B magnitude} küptür.
+Böylece {A magnitude} de küptür [Önerme 8.23].
+(Gösterilmesi gereken tam olarak budur.)
+

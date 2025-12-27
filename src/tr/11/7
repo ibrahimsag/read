@@ -1,16 +1,17 @@
-If there are two parallel straight-lines, and random points are taken on each of them, then the straight-line joining the two points is in the same plane as the parallel (straight-lines).
+Eğer iki paralel doğru varsa ve onların her birinde rasgele noktalar alınırsa o zaman iki noktayı birleştiren doğru, paralel (doğrularla) aynı düzlemdedir.
 
-Let {AB line} and {CD line} be two parallel straight-lines, and let the random points {E point} and {F point} have been taken on each of them (respectively).
-I say that the straight-line joining points {E point} and {F point} is in the same (reference) plane as the parallel (straight-lines).
+{AB line} ve {CD line} iki paralel doğru olsun ve onların her birinde (sırasıyla) rasgele noktalar {E point} ve {F point} alınmış olsun.
+Diyorum ki {E point} ve {F point} noktalarını birleştiren doğru, paralel (doğrularla) aynı (referans) düzlemdedir.
 
-For (if) not, and if possible, let it be in a more elevated (plane), such as {EGF given}.
-And let a plane have been drawn through {EGF given}.
-So it will make a straight cutting in the reference plane [Prop. 11.3].
-Let it make {EF line}.
-Thus, two straight-lines (with the same end-points), {EGF given} and {EF line}, will enclose an area.
-The very thing is impossible.
-Thus, the straight-line joining {E point} to {F point} is not in a more elevated plane.
-The straight-line joining {E point} to {F point} is thus in the plane through the parallel (straight-lines) {AB line} and {CD line}.
+Çünkü (değilse) ve mümkünse, o, {EGF given} gibi, daha yüksek (bir düzlemde) olsun.
+Ve {EGF given}'den geçen bir düzlem çizilmiş olsun.
+Öyleyse o, referans düzleminde düz bir kesit yapacaktır [Önerme 11.3].
+{EF line}'ı yapsın.
+Böylece iki doğru (aynı uçlara sahip), {EGF given} ve {EF line}, bir alan çevreleyecektir.
+Tam olarak bu imkansızdır.
+Böylece {E point}'yi {F point}'ye birleştiren doğru, daha yüksek bir düzlemde değildir.
+{E point}'yi {F point}'ye birleştiren doğru böylece paralel (doğrular) {AB line} ve {CD line}'dan geçen düzlemdedir.
 
-Thus, if there are two parallel straight-lines, and random points are taken on each of them, then the straight-line joining the two points is in the same plane as the parallel (straight-lines).
-(Which is) the very thing it was required to show.
+Böylece eğer iki paralel doğru varsa ve onların her birinde rasgele noktalar alınırsa o zaman iki noktayı birleştiren doğru, paralel (doğrularla) aynı düzlemdedir.
+(Gösterilmesi gereken tam olarak budur.)
+

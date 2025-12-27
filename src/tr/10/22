@@ -1,32 +1,34 @@
-The square on a medial (straight-line), being applied to a rational (straight-line), produces as breadth a (straight-line which is) rational, and incommensurable in length with the (straight-line) to which it is applied.
+Bir orta (doğrunun) üzerindeki kare, bir orantılı (doğruya) uygulandığında, genişlik olarak, orantılı olan ve uygulandığı (doğru) ile uzunlukta ölçüşmez (bir doğru) oluşturur.
 
-Let {A magnitude} be a medial (straight-line), and {CB line} a rational (straight-line), and let the rectangular area {BD polygon}, equal to the (square) on {A magnitude}, have been applied to {BC line}, producing {CD line} as breadth.
-I say that {CD line} is rational, and incommensurable in length with {CB line}.
+{A magnitude} bir orta (doğru) olsun ve {CB line} bir orantılı (doğru) olsun ve {A magnitude}'nın (üzerindeki kareye) eşit {BD polygon} dikdörtgen alanı, genişlik olarak {CD line}'ı oluşturarak, {BC line}'a uygulanmış olsun.
+Diyorum ki {CD line} orantılıdır ve {CB line} ile uzunlukta ölçüşmezdir.
 
-For since {A magnitude} is medial, the square on it is equal to a (rectangular) area contained by rational (straight-lines which are) commensurable in square only [Prop. 10.21].
-Let the square on ({A magnitude}) be equal to {GF polygon}.
-And the square on ({A magnitude}) is also equal to {BD polygon}.
-Thus, {BD polygon} is equal to {GF polygon}.
-And ({BD polygon}) is also equiangular with ({GF polygon}).
-And for equal and equiangular parallelograms, the sides about the equal angles are reciprocally proportional [Prop. 6.14].
-Thus, proportionally, as {BC line} is to {EG line}, so {EF line} (is) to {CD line}.
-And, also, as the (square) on {BC line} is to the (square) on {EG line}, so the (square) on {EF line} (is) to the (square) on {CD line} [Prop. 6.22].
-And the (square) on {CB line} is commensurable with the (square) on {EG line}.
-For they are each rational.
-Thus, the (square) on {EF line} is also commensurable with the (square) on {CD line} [Prop. 10.11].
-And the (square) on {EF line} is rational.
-Thus, the (square) on {CD line} is also rational [Def. 10.4].
-Thus, {CD line} is rational.
-And since {EF line} is incommensurable in length with {EG line}.
-For they are commensurable in square only.
-And as {EF line} (is) to {EG line}, so the (square) on {EF line} (is) to the (rectangle contained) by {FE line} and {EG line} [see previous lemma].
-The (square) on {EF line} [is] thus incommensurable with the (rectangle contained) by {FE line} and {EG line} [Prop. 10.11].
-But, the (square) on {CD line} is commensurable with the (square) on {EF line}.
-For they are rational in square.
-And the (rectangle contained) by {DC line} and {CB line} is commensurable with the (rectangle contained) by {FE line} and {EG line}.
-For they are (both) equal to the (square) on {A magnitude}.
-Thus, the (square) on {CD line} is also incommensurable with the (rectangle contained) by {DC line} and {CB line} [Prop. 10.13].
-And as the (square) on {CD line} (is) to the (rectangle contained) by {DC line} and {CB line}, so {DC line} is to {CB line} [see previous lemma].
-Thus, {DC line} is incommensurable in length with {CB line} [Prop. 10.11].
-Thus, {CD line} is rational, and incommensurable in length with {CB line}.
-(Which is) the very thing it was required to show.
+Çünkü {A magnitude} orta olduğu için, onun üzerindeki kare, yalnızca karede ölçüşür orantılı (doğrular) tarafından içerilen (dikdörtgen) bir alana eşittir [Önerme 10.21].
+({A magnitude}'nın) üzerindeki kare, {GF polygon}'a eşit olsun.
+Ve ({A magnitude}'nın) üzerindeki kare de {BD polygon}'a eşittir.
+Böylece {BD polygon}, {GF polygon}'a eşittir.
+Ve ({BD polygon}), ({GF polygon}) ile de eşaçılıdır.
+Ve eşit ve eşaçılı paralelkenarlar için, eşit açıların etrafındaki kenarlar ters orantılıdır [Önerme 6.14].
+Böylece, orantılı olarak, {BC line}, {EG line}'a nasılsa, {EF line} {CD line}'a (öyledir).
+Ve ayrıca {BC line}'ın (üzerindeki kare), {EG line}'ın (üzerindeki kareye) nasılsa, {EF line}'ın (üzerindeki kare) {CD line}'ın (üzerindeki kareye) (öyledir) [Önerme 6.22].
+Ve {CB line}'ın (üzerindeki kare), {EG line}'ın (üzerindeki kare) ile ölçüşürdür.
+Çünkü her biri orantılıdır.
+Böylece {EF line}'ın (üzerindeki kare) de {CD line}'ın (üzerindeki kare) ile ölçüşürdür [Önerme 10.11].
+Ve {EF line}'ın (üzerindeki kare) orantılıdır.
+Böylece {CD line}'ın (üzerindeki kare) de orantılıdır [Tanım 10.4].
+Böylece {CD line} orantılıdır.
+Ve {EF line}, {EG line} ile uzunlukta ölçüşmez olduğu için.
+Çünkü yalnızca karede ölçüşürdürler.
+Ve {EF line}, {EG line}'a nasılsa, {EF line}'ın (üzerindeki kare), {FE line} ve {EG line} tarafından (içerilen dikdörtgene) (öyledir) [önceki yardımcı önermeye bak].
+Böylece {EF line}'ın (üzerindeki kare), {FE line} ve {EG line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.11].
+Ama {CD line}'ın (üzerindeki kare), {EF line}'ın (üzerindeki kare) ile ölçüşürdür.
+Çünkü karede orantılıdırlar.
+Ve {DC line} ve {CB line} tarafından (içerilen dikdörtgen), {FE line} ve {EG line} tarafından (içerilen dikdörtgen) ile ölçüşürdür.
+Çünkü (her ikisi de) {A magnitude}'nın (üzerindeki kareye) eşittir.
+Böylece {CD line}'ın (üzerindeki kare) de {DC line} ve {CB line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.13].
+Ve {CD line}'ın (üzerindeki kare), {DC line} ve {CB line} tarafından (içerilen dikdörtgene) nasılsa, {DC line}, {CB line}'a (öyledir) [önceki yardımcı önermeye bak].
+Böylece {DC line}, {CB line} ile uzunlukta ölçüşmezdir [Önerme 10.11].
+Böylece {CD line} orantılıdır ve {CB line} ile uzunlukta ölçüşmezdir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,43 +1,45 @@
-1. A unit is (that) according to which each existing (thing) is said (to be) one.
+     1→     1→1. Birim, kendisine göre var olan her (şeyin) bir olarak söylendiği (şey)dir.
+     2→     2→
+     3→     3→2. Ve sayı, birimlerden oluşan bir çokluktur.
+     4→     4→
+     5→     5→3. Bir sayı, küçüğü büyüğü ölçtüğünde, bir (başka) sayının parçasıdır, büyüğün küçüğü.
+     6→     6→
+     7→     7→4. Ama (küçük, büyüğün) parçalarıdır, onu ölçmediğinde.
+     8→     8→
+     9→     9→5. Ve büyük (sayı), küçük tarafından ölçüldüğünde, küçüğün katıdır.
+    10→    10→
+    11→    11→6. Çift sayı, ikiye bölünebilen sayıdır.
+    12→    12→
+    13→    13→7. Ve tek sayı, ikiye bölünemeyen veya çift sayıdan bir birim farklı olan sayıdır.
+    14→    14→
+    15→    15→8. Çift-kere-çift sayı, çift sayı tarafından çift sayıya göre ölçülen sayıdır.
+    16→    16→
+    17→    17→9. Ve çift-kere-tek sayı, çift sayı tarafından tek sayıya göre ölçülen sayıdır.
+    18→    18→
+    19→    19→10. Ve tek-kere-tek sayı, tek sayı tarafından tek sayıya göre ölçülen sayıdır.
+    20→    20→
+    21→    21→11. Asal sayı, yalnızca birim tarafından ölçülen sayıdır.
+    22→    22→
+    23→    23→12. Birbirine asal sayılar, ortak ölçü olarak yalnızca birim tarafından ölçülen sayılardır.
+    24→    24→
+    25→    25→13. Bileşik sayı, bir sayı tarafından ölçülen sayıdır.
+    26→    26→
+    27→    27→14. Ve birbirine bileşik sayılar, ortak ölçü olarak bir sayı tarafından ölçülen sayılardır.
+    28→    28→
+    29→    29→15. Bir sayının bir (başka) sayıyı çarptığı söylenir, çarpılan (sayı) birinci (sayıda) kaç birim varsa kendisine o kadar kez eklendiğinde ve (böylece) bir (başka sayı) üretildiğinde.
+    30→    30→
+    31→    31→16. Ve iki sayı birbirini çarparak bir (başka sayı) oluşturduğunda, (böylece) oluşturulan (sayıya) düzlem denir ve kenarları birbirini çarpan sayılardır.
+    32→    32→
+    33→    33→17. Ve üç sayı birbirini çarparak bir (başka sayı) oluşturduğunda, (böylece) oluşturulan (sayıya) katı denir ve kenarları birbirini çarpan sayılardır.
+    34→    34→
+    35→    35→18. Kare sayı, eşitin eşit katıdır veya iki eşit sayı tarafından kapsanan (düzlem sayıdır).
+    36→    36→
+    37→    37→19. Ve küp (sayı), eşitin eşit kere eşit katıdır veya üç eşit sayı tarafından kapsanan (katı sayıdır).
+    38→    38→
+    39→    39→20. Sayılar orantılıdır, birinci ikincinin aynı katı, aynı parçası veya aynı parçaları olduğunda üçüncü dördüncününkiyle.
+    40→    40→
+    41→    41→21. Benzer düzlem ve katı sayılar, orantılı kenarlara sahip olanlardır.
+    42→    42→
+    43→    43→22. Mükemmel sayı, kendi parçalarına eşit olandır.
+    44→    44→
 
-2. And a number (is) a multitude composed of units.
-
-3. A number is part of a(nother) number, the lesser of the greater, when it measures the greater.
-
-4. But (the lesser is) parts (of the greater) when it does not measure it.
-
-5. And the greater (number is) a multiple of the lesser when it is measured by the lesser.
-
-6. An even number is one (which can be) divided in half.
-
-7. And an odd number is one (which can)not (be) divided in half, or which differs from an even number by a unit.
-
-8. An even-times-even number is one (which is) measured by an even number according to an even number.
-
-9. And an even-times-odd number is one (which is) measured by an even number according to an odd number.
-
-10. And an odd-times-odd number is one (which is) measured by an odd number according to an odd number.
-
-11. A prime number is one (which is) measured by a unit alone.
-
-12. Numbers prime to one another are those (which are) measured by a unit alone as a common measure.
-
-13. A composite number is one (which is) measured by some number.
-
-14. And numbers composite to one another are those (which are) measured by some number as a common measure.
-
-15. A number is said to multiply a(nother) number when the (number being) multiplied is added (to itself) as many times as there are units in the former (number), and (thereby) some (other number) is produced.
-
-16. And when two numbers multiplying one another make some (other number) then the (number so) created is called plane, and its sides (are) the numbers which multiply one another.
-
-17. And when three numbers multiplying one another make some (other number) then the (number so) created is (called) solid, and its sides (are) the numbers which multiply one another.
-
-18. A square number is an equal times an equal, or (a plane number) contained by two equal numbers.
-
-19. And a cube (number) is an equal times an equal times an equal, or (a solid number) contained by three equal numbers.
-
-20. Numbers are proportional when the first is the same multiple, or the same part, or the same parts, of the second that the third (is) of the fourth.
-
-21. Similar plane and solid numbers are those having proportional sides.
-
-22. A perfect number is that which is equal to its own parts.

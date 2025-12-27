@@ -1,13 +1,15 @@
-If a number multiplying two numbers makes some (numbers) then the (numbers) generated from them will have the same ratio as the multiplied (numbers).
+     1→     1→Eğer bir sayı iki sayıyı çarparsa, o zaman onlardan oluşan (sayılar) çarpılan (sayılarla) aynı orana sahip olacaktır.
+     2→     2→
+     3→     3→Çünkü {A magnitude} sayısı, {B magnitude} ve {C magnitude} iki sayısını (sırasıyla) çarparak (sayılar) {D magnitude} ve {E magnitude}'yi oluştursun.
+     4→     4→Diyorum ki {B magnitude} {C magnitude}'ye nasılsa, {D magnitude} {E magnitude}'ye öyledir.
+     5→     5→
+     6→     6→Çünkü {A magnitude}, {B magnitude}'yi çarparak {D magnitude}'yi oluşturduğu için, {B magnitude} böylece {D magnitude}'yi {A magnitude}'daki birimlere göre ölçer [Tanım 7.15].
+     7→     7→Ve {F magnitude} birimi de {A magnitude} sayısını içindeki birimlere göre ölçer.
+     8→     8→Böylece {F magnitude} birimi {A magnitude} sayısını {B magnitude}'nin {D magnitude}'yi (ölçtüğü) kadar kez ölçer.
+     9→     9→Böylece {F magnitude} birimi {A magnitude} sayısına nasılsa, {B magnitude} {D magnitude}'ye öyledir [Tanım 7.20].
+    10→    10→Ve öyle ki, aynı (nedenlerle), {F magnitude} birimi {A magnitude} sayısına nasılsa, {C magnitude} {E magnitude}'ye öyledir.
+    11→    11→Ve böylece {B magnitude} {D magnitude}'ye nasılsa, {C magnitude} {E magnitude}'ye öyledir.
+    12→    12→Böylece, değişimli olarak, {B magnitude} {C magnitude}'ye nasılsa, {D magnitude} {E magnitude}'ye öyledir [Önerme 7.13].
+    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→
 
-For let the number {A magnitude} make (the numbers) {D magnitude} and {E magnitude} (by) multiplying the two numbers {B magnitude} and {C magnitude} (respectively).
-I say that as {B magnitude} is to {C magnitude}, so {D magnitude} (is) to {E magnitude}.
-
-For since {A magnitude} has made {D magnitude} (by) multiplying {B magnitude}, {B magnitude} thus measures {D magnitude} according to the units in {A magnitude} [Def. 7.15].
-And the unit {F magnitude} also measures the number {A magnitude} according to the units in it.
-Thus, the unit {F magnitude} measures the number {A magnitude} as many times as {B magnitude} (measures) {D magnitude}.
-Thus, as the unit {F magnitude} is to the number {A magnitude}, so {B magnitude} (is) to {D magnitude} [Def. 7.20].
-And so, for the same (reasons), as the unit {F magnitude} (is) to the number {A magnitude}, so {C magnitude} (is) to {E magnitude}.
-And thus, as {B magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {E magnitude}.
-Thus, alternately, as {B magnitude} is to {C magnitude}, so {D magnitude} (is) to {E magnitude} [Prop. 7.13].
-(Which is) the very thing it was required to show.

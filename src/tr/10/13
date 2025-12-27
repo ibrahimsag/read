@@ -1,12 +1,13 @@
-If two magnitudes are commensurable, and one of them is incommensurable with some magnitude, then the remaining (magnitude) will also be incommensurable with it.
+Eğer iki büyüklük ölçüşür ise ve onlardan biri bir büyüklükle ölçüşmez ise o zaman kalan (büyüklük) de onunla ölçüşmez olacaktır.
 
-Let {A magnitude} and {B magnitude} be two commensurable magnitudes, and let one of them, {A magnitude}, be incommensurable with some other (magnitude), {C magnitude}.
-I say that the remaining (magnitude), {B magnitude}, is also incommensurable with {C magnitude}.
+{A magnitude} ve {B magnitude} iki ölçüşür büyüklük olsun ve onlardan biri, {A magnitude}, başka bir (büyüklük), {C magnitude}, ile ölçüşmez olsun.
+Diyorum ki kalan (büyüklük), {B magnitude}, de {C magnitude} ile ölçüşmezdir.
 
-For if {B magnitude} is commensurable with {C magnitude}, but {A magnitude} is also commensurable with {B magnitude}, {A magnitude} is thus also commensurable with {C magnitude} [Prop. 10.12].
-But, (it is) also incommensurable (with {C magnitude}).
-The very thing (is) impossible.
-Thus, {B magnitude} is not commensurable with {C magnitude}.
-Thus, (it is) incommensurable.
+Çünkü eğer {B magnitude}, {C magnitude} ile ölçüşür ise ama {A magnitude} da {B magnitude} ile ölçüşür ise, böylece {A magnitude} de {C magnitude} ile ölçüşürdür [Önerme 10.12].
+Ama ({C magnitude} ile) ölçüşmez de.
+Şeyin kendisi olanaksızdır.
+Böylece {B magnitude}, {C magnitude} ile ölçüşür değildir.
+Böylece ölçüşmezdir.
 
-Thus, if two magnitudes are commensurable, and so on ....
+Böylece eğer iki büyüklük ölçüşür ise... ve böyle devam eder...
+

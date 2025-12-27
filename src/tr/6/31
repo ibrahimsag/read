@@ -1,18 +1,20 @@
-In right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
+     1→     1→Dik açılı üçgenlerde, dik açıyı geren kenar üzerinde (çizilen) şekil, dik açıyı çevreleyen kenarlar üzerindeki benzer ve benzer şekilde çizilmiş şekillerin (toplamına) eşittir.
+     2→     2→
+     3→     3→{ABC polygon} dik açılı bir üçgen olsun, {BAC angle} açısı dik açı olsun.
+     4→     4→Diyorum ki {BC line} üzerinde (çizilen) şekil, {BA line} ve {AC line} üzerindeki benzer ve benzer şekilde çizilmiş şekillerin (toplamına) eşittir.
+     5→     5→
+     6→     6→{AD line} dikme çizilmiş olsun [Önerme 1.12].
+     7→     7→
+     8→     8→Bu nedenle, dik açılı {ABC polygon} üçgeninde, {A point}'daki dik açıdan {BC line} tabanına dik olarak {AD line} (doğru parçası) çizildiği için, dikmenin çevresindeki {ABD polygon} ve {ADC polygon} üçgenleri bütün ({ABC polygon} üçgenine) ve birbirine benzerdir [Önerme 6.8].
+     9→     9→Ve {ABC polygon} {ABD polygon}'a benzer olduğu için, böylece {CB line} {BA line}'ya nasılsa, {AB line} {BD line}'ye öyledir [Tanım 6.1].
+    10→    10→Ve üç doğru parçası orantılı olduğunda, birinci üçüncüye nasılsa, birinci üzerindeki (çizilen) şekil ikinci üzerindeki benzer ve benzer şekilde çizilmiş (şekle) öyledir [Önerme 6.19 sonucu].
+    11→    11→Böylece {CB line} {BD line}'ye nasılsa, {CB line} üzerinde (çizilen) şekil {BA line} üzerindeki benzer ve benzer şekilde çizilmiş (şekle) öyledir.
+    12→    12→Ve öyle ki, aynı (nedenlerle), {BC line} {CD line}'ye nasılsa, {BC line} üzerinde (çizilen) şekil {CA line} üzerindeki (şekle) öyledir.
+    13→    13→Dolayısıyla, ayrıca {BC line} {BD line} ve {DC line}'ye nasılsa, {BC line} üzerinde (çizilen) şekil {BA line} ve {AC line} üzerindeki benzer ve benzer şekilde çizilmiş (şekillerin toplamına) öyledir [Önerme 5.24].
+    14→    14→Ve {BC line} {BD line} ve {DC line}'ye eşittir.
+    15→    15→Böylece {BC line} üzerinde (çizilen) şekil de {BA line} ve {AC line} üzerindeki benzer ve benzer şekilde çizilmiş şekillerin (toplamına) eşittir [Önerme 5.9].
+    16→    16→
+    17→    17→Böylece, dik açılı üçgenlerde, dik açıyı geren kenar üzerinde (çizilen) şekil, dik açıyı çevreleyen kenarlar üzerindeki benzer ve benzer şekilde çizilmiş şekillerin (toplamına) eşittir.
+    18→    18→(Gösterilmesi gereken tam olarak budur.)
+    19→    19→
 
-Let {ABC polygon} be a right-angled triangle having the angle {BAC angle} a right-angle.
-I say that the figure (drawn) on {BC line} is equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line}.
-
-Let the perpendicular {AD line} have been drawn [Prop. 1.12].
-
-Therefore, since, in the right-angled triangle {ABC polygon}, the (straight-line) {AD line} has been drawn from the rightangle at {A point} perpendicular to the base {BC line}, the triangles {ABD polygon} and {ADC polygon} about the perpendicular are similar to the whole (triangle) {ABC polygon}, and to one another [Prop. 6.8].
-And since {ABC polygon} is similar to {ABD polygon}, thus as {CB line} is to {BA line}, so {AB line} (is) to {BD line} [Def. 6.1].
-And since three straight-lines are proportional, as the first is to the third, so the figure (drawn) on the first is to the similar, and similarly described, (figure) on the second [Prop. 6.19 corr.].
-Thus, as {CB line} (is) to {BD line}, so the figure (drawn) on {CB line} (is) to the similar, and similarly described, (figure) on {BA line}.
-And so, for the same (reasons), as {BC line} (is) to {CD line}, so the figure (drawn) on {BC line} (is) to the (figure) on {CA line}.
-Hence, also, as {BC line} (is) to {BD line} and {DC line}, so the figure (drawn) on {BC line} (is) to the (sum of the) similar, and similarly described, (figures) on {BA line} and {AC line} [Prop. 5.24].
-And {BC line} is equal to {BD line} and {DC line}.
-Thus, the figure (drawn) on {BC line} (is) also equal to the (sum of the) similar, and similarly described, figures on {BA line} and {AC line} [Prop. 5.9].
-
-Thus, in right-angled triangles, the figure (drawn) on the side subtending the right-angle is equal to the (sum of the) similar, and similarly described, figures on the sides surrounding the right-angle.
-(Which is) the very thing it was required to show.

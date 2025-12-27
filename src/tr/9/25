@@ -1,12 +1,13 @@
-If an odd (number) is subtracted from an even number then the remainder will be odd.
+Eğer bir tek (sayı) bir çift sayıdan çıkarılırsa o zaman kalan tek olacaktır.
 
-For let the odd (number) {BC magnitude} have been subtracted from the even number {AB magnitude}.
-I say that the remainder {CA magnitude} is odd.
+Çünkü {BC magnitude} tek (sayısı) {AB magnitude} çift sayısından çıkarılmış olsun.
+Diyorum ki kalan {CA magnitude} tektir.
 
-For let the unit {CD magnitude} have been subtracted from {BC magnitude}.
-{DB magnitude} is thus even [Def. 7.7].
-And {AB magnitude} is also even.
-And thus the remainder {AD magnitude} is even [Prop. 9.24].
-And {CD magnitude} is a unit.
-Thus, {CA magnitude} is odd [Def. 7.7].
-(Which is) the very thing it was required to show.
+Çünkü {CD magnitude} birimi {BC magnitude}'den çıkarılmış olsun.
+Böylece {DB magnitude} çifttir [Tanım 7.7].
+Ve {AB magnitude} de çifttir.
+Ve böylece kalan {AD magnitude} çifttir [Önerme 9.24].
+Ve {CD magnitude} bir birimdir.
+Böylece {CA magnitude} tektir [Tanım 7.7].
+(Gösterilmesi gereken tam olarak budur.)
+

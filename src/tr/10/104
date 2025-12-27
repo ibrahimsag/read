@@ -1,21 +1,23 @@
-A (straight-line) commensurable (in length) with an apotome of a medial (straight-line) is an apotome of a medial (straight-line), and (is) the same in order.
+Bir orta (doğrunun) bir kesiti ile uzunlukta ölçüşür bir (doğru), bir orta (doğrunun) bir kesitidir ve sırada aynıdır.
 
-Let {AB magnitude} be an apotome of a medial (straight-line), and let {CD magnitude} be commensurable in length with {AB magnitude}.
-I say that {CD magnitude} is also an apotome of a medial (straight-line), and (is) the same in order as {AB magnitude}.
+{AB magnitude} bir orta (doğrunun) bir kesiti ve {CD magnitude}, {AB magnitude} ile uzunlukta ölçüşür olsun.
+Diyorum ki {CD magnitude} de bir orta (doğrunun) bir kesitidir ve {AB magnitude} ile sırada aynıdır.
 
-For since {AB magnitude} is an apotome of a medial (straight-line), let {EB magnitude} be an attachment to it.
-Thus, {AE magnitude} and {EB magnitude} are medial (straight-lines which are) commensurable in square only [Props. 10.74, 10.75].
-And let it have been contrived that as {AB magnitude} is to {CD magnitude}, so {BE magnitude} (is) to {DF magnitude} [Prop. 6.12].
-Thus, {AE magnitude} [is] also commensurable (in length) with {CF magnitude}, and {BE magnitude} with {DF magnitude} [Props. 5.12, 10.11].
-And {AE magnitude} and {EB magnitude} are medial (straight-lines which are) commensurable in square only.
-{CF magnitude} and {FD magnitude} are thus also medial (straight-lines which are) commensurable in square only [Props. 10.23, 10.13].
-Thus, {CD magnitude} is an apotome of a medial (straight-line) [Props. 10.74, 10.75].
-So, I say that it is also the same in order as {AB magnitude}.
+Çünkü {AB magnitude} bir orta (doğrunun) bir kesiti olduğu için, {EB magnitude} ona ek olsun.
+{AE magnitude} ve {EB magnitude} böylece yalnızca karede ölçüşür orta (doğrulardır) [Önermeler 10.74, 10.75].
+Ve {AB magnitude}, {CD magnitude}'ye nasılsa, {BE magnitude}, {DF magnitude}'ye (öyle) olacak şekilde düzenlenmiş olsun [Önerme 6.12].
+{AE magnitude} böylece de {CF magnitude} ile ve {BE magnitude}, {DF magnitude} ile ölçüşürdür [Önermeler 5.12, 10.11].
+Ve {AE magnitude} ve {EB magnitude} yalnızca karede ölçüşür orta (doğrulardır).
+{CF magnitude} ve {FD magnitude} böylece de yalnızca karede ölçüşür orta (doğrulardır) [Önermeler 10.23, 10.13].
+Böylece {CD magnitude} bir orta (doğrunun) bir kesitidir [Önermeler 10.74, 10.75].
+Öyleyse diyorum ki o, {AB magnitude} ile sırada da aynıdır.
 
-[For] since as {AE magnitude} is to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Props. 5.12, 5.16] [but as {AE magnitude} (is) to {EB magnitude}, so the (square) on {AE magnitude} (is) to the (rectangle contained) by {AE magnitude} and {EB magnitude}, and as {CF magnitude} (is) to {FD magnitude}, so the (square) on {CF magnitude} (is) to the (rectangle contained) by {CF magnitude} and {FD magnitude}], thus as the (square) on {AE magnitude} is to the (rectangle contained) by {AE magnitude} and {EB magnitude}, so the (square) on {CF magnitude} also (is) to the (rectangle contained) by {CF magnitude} and {FD magnitude} [Prop. 10.21 lem.] [and, alternately, as the (square) on {AE magnitude} (is) to the (square) on {CF magnitude}, so the (rectangle contained) by {AE magnitude} and {EB magnitude} (is) to the (rectangle contained) by {CF magnitude} and {FD magnitude}].
-And the (square) on {AE magnitude} (is) commensurable with the (square) on {CF magnitude}.
-Thus, the (rectangle contained) by {AE magnitude} and {EB magnitude} is also commensurable with the (rectangle contained) by {CF magnitude} and {FD magnitude} [Props. 5.16, 10.11].
-Therefore, either the (rectangle contained) by {AE magnitude} and {EB magnitude} is rational, and the (rectangle contained) by {CF magnitude} and {FD magnitude} will also be rational [Def. 10.4], or the (rectangle contained) by {AE magnitude} and {EB magnitude} [is] medial, and the (rectangle contained) by {CF magnitude} and {FD magnitude} [is] also medial [Prop. 10.23 corr.].
+[Çünkü] {AE magnitude}, {EB magnitude}'ye nasılsa, {CF magnitude}, {FD magnitude}'ye (öyle) olduğu için [Önermeler 5.12, 5.16] [fakat {AE magnitude}, {EB magnitude}'ye nasılsa, {AE magnitude}'nin üzerindeki (kare), {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgene) (öyle) ve {CF magnitude}, {FD magnitude}'ye nasılsa, {CF magnitude}'nin üzerindeki (kare), {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgene) (öyledir)], böylece {AE magnitude}'nin üzerindeki (kare), {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgene) nasılsa, {CF magnitude}'nin üzerindeki (kare) de {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgene) (öyledir) [Önerme 10.21 ek kısım] [ve ters olarak, {AE magnitude}'nin üzerindeki (kare), {CF magnitude}'nin üzerindeki (kareye) nasılsa, {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen), {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgene) (öyledir)].
+Ve {AE magnitude}'nin üzerindeki (kare), {CF magnitude}'nin üzerindeki (kare) ile ölçüşürdür.
+Böylece {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) de {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ile ölçüşürdür [Önermeler 5.16, 10.11].
+Bu yüzden ya {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) orantılıdır ve {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) de orantılı olacaktır [Tanım 10.4] ya da {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) [ortadır] ve {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) de ortadır [Önerme 10.23 ek sonucu].
 
-Therefore, {CD magnitude} is the apotome of a medial (straight-line), and is the same in order as {AB magnitude} [Props. 10.74, 10.75].
-(Which is) the very thing it was required to show.
+Bu yüzden {CD magnitude}, bir orta (doğrunun) bir kesitidir ve {AB magnitude} ile sırada aynıdır [Önermeler 10.74, 10.75].
+(Gösterilmesi gereken tam olarak budur.)
+
+

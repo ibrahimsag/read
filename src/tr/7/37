@@ -1,13 +1,16 @@
-If a number is measured by some number then the (number) measured will have a part called the same as the measuring (number).
-
-For let the number {A magnitude} be measured by some number {B magnitude}.
-I say that {A magnitude} has a part called the same as {B magnitude}.
-
-For as many times as {B magnitude} measures {A magnitude}, so many units let there be in {C magnitude}.
-Since {B magnitude} measures {A magnitude} according to the units in {C magnitude}, and the unit {D magnitude} also measures {C magnitude} according to the units in it, the unit {D magnitude} thus measures the number {C magnitude} as many times as {B magnitude} (measures) {A magnitude}.
-Thus, alternately, the unit {D magnitude} measures the number {B magnitude} as many times as {C magnitude} (measures) {A magnitude} [Prop. 7.15].
-Thus, which(ever) part the unit {D magnitude} is of the number {B magnitude}, {C magnitude} is also the same part of {A magnitude}.
-And the unit {D magnitude} is a part of the number {B magnitude} called the same as it (i.e., a {B magnitude}th part).
-Thus, {C magnitude} is also a part of {A magnitude} called the same as {B magnitude} (i.e., {C magnitude} is the {B magnitude}th part of {A magnitude}).
-Hence, {A magnitude} has a part {C magnitude} which is called the same as {B magnitude} (i.e., {A magnitude} has a {B magnitude}th part).
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer bir sayı bir sayı tarafından ölçülürse o zaman ölçülen (sayı) ölçen (sayı) ile aynı adla anılan bir parçaya sahip olacaktır.
+     2→     2→     2→
+     3→     3→     3→Çünkü {A magnitude} sayısı bir {B magnitude} sayısı tarafından ölçülsün.
+     4→     4→     4→Diyorum ki {A magnitude}, {B magnitude} ile aynı adla anılan bir parçaya sahiptir.
+     5→     5→     5→
+     6→     6→     6→Çünkü {B magnitude}, {A magnitude}'yı kaç kez ölçüyorsa, {C magnitude}'de o kadar birim olsun.
+     7→     7→     7→{B magnitude}, {A magnitude}'yı {C magnitude}'deki birimlere göre ölçtüğü ve {D magnitude} birimi de {C magnitude}'yi ondaki birimlere göre ölçtüğü için, {D magnitude} birimi böylece {C magnitude} sayısını {B magnitude}'nin {A magnitude}'yı (ölçtüğü) kadar kez ölçer.
+     8→     8→     8→Böylece, ters çevrilmiş olarak, {D magnitude} birimi {B magnitude} sayısını {C magnitude}'nin {A magnitude}'yı (ölçtüğü) kadar kez ölçer [Önerme 7.15].
+     9→     9→     9→Böylece {D magnitude} birimi {B magnitude} sayısının hangi parçasıysa, {C magnitude} de {A magnitude}'nın aynı parçasıdır.
+    10→    10→    10→Ve {D magnitude} birimi {B magnitude} sayısının onunla aynı adla anılan bir parçasıdır (yani bir {B magnitude}'inci parçadır).
+    11→    11→    11→Böylece {C magnitude} de {A magnitude}'nın {B magnitude} ile aynı adla anılan bir parçasıdır (yani {C magnitude}, {A magnitude}'nın {B magnitude}'inci parçasıdır).
+    12→    12→    12→Dolayısıyla, {A magnitude}, {B magnitude} ile aynı adla anılan bir {C magnitude} parçasına sahiptir (yani {A magnitude}, bir {B magnitude}'inci parçaya sahiptir).
+    13→    13→    13→(Gösterilmesi gereken tam olarak budur.)
+    14→    14→    14→
+    15→
+    16→

@@ -1,23 +1,25 @@
-To find two straight-lines (which are) incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them.
+Karede ölçüşmez iki doğru bulmak, (öyle ki) üzerlerindeki karelerin toplamı orta olsun ve onlar tarafından (içerilen dikdörtgen) orta olsun ve üstelik üzerlerindeki karelerin toplamı ile ölçüşmez olsun.
 
-Let the two medial (straight-lines) {AB line} and {BC line}, (which are) commensurable in square only, be laid out containing a medial (area), such that the square on {AB line} is greater than (the square on) {BC line} by the (square) on (some straight-line) incommensurable (in length) with ({AB line}) [Prop. 10.32].
-And let the semi-circle {ADB arc O} have been drawn on {AB line}.
-And let the remainder (of the figure) be generated similarly to the above (proposition).
+Yalnızca karede ölçüşür iki orta (doğru), {AB line} ve {BC line}, bir orta (alan) içerecek şekilde ve {AB line}'ın üzerindeki karenin, {BC line}'ın (üzerindeki kareden), ({AB line}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyük olacak şekilde, konmuş olsun [Önerme 10.32].
+Ve {AB line} üzerinde {ADB arc O} yarıçemberi çizilmiş olsun.
+Ve (şeklin) geri kalanı yukarıdaki (önermeye) benzer şekilde oluşturulmuş olsun.
 
-And since {AF line} is incommensurable in length with {FB line} [Prop. 10.18], {AD line} is also incommensurable in square with {DB line} [Prop. 10.11].
-And since the (square) on {AB line} is medial, the sum of the (squares) on {AD line} and {DB line} (is) thus also medial [Props. 3.31, 1.47].
-And since the (rectangle contained) by {AF line} and {FB line} is equal to the (square) on each of {BE line} and {DF line}, {BE line} is thus equal to {DF line}.
-Thus, {BC line} (is) double {FD line}.
-And hence the (rectangle contained) by {AB line} and {BC line} is double the (rectangle) contained by {AB line} and {FD line}.
-And the (rectangle contained) by {AB line} and {BC line} (is) medial.
-Thus, the (rectangle contained) by {AB line} and {FD line} (is) also medial.
-And it is equal to the (rectangle contained) by {AD line} and {DB line} [Prop. 10.32 lem.].
-Thus, the (rectangle contained) by {AD line} and {DB line} (is) also medial.
-And since {AB line} is incommensurable in length with {BC line}, and {CB line} (is) commensurable (in length) with {BE line}, {AB line} (is) thus also incommensurable in length with {BE line} [Prop. 10.13].
-And hence the (square) on {AB line} is also incommensurable with the (rectangle contained) by {AB line} and {BE line} [Prop. 10.11].
-But the (sum of the squares) on {AD line} and {DB line} is equal to the (square) on {AB line} [Prop. 1.47].
-And the (rectangle contained) by {AB line} and {FD line}---that is to say, the (rectangle contained) by {AD line} and {DB line}---is equal to the (rectangle contained) by {AB line} and {BE line}.
-Thus, the sum of the (squares) on {AD line} and {DB line} is incommensurable with the (rectangle contained) by {AD line} and {DB line}.
+Ve {AF line}, {FB line} ile uzunlukta ölçüşmez olduğu için [Önerme 10.18], {AD line} de {DB line} ile karede ölçüşmezdir [Önerme 10.11].
+Ve {AB line}'ın (üzerindeki kare) orta olduğu için, böylece {AD line} ve {DB line}'ın (üzerindeki karelerin) toplamı da ortadır [Önermeler 3.31, 1.47].
+Ve {AF line} ve {FB line} tarafından (içerilen dikdörtgen), {BE line} ve {DF line}'dan her birinin (üzerindeki kareye) eşit olduğu için, böylece {BE line}, {DF line}'a eşittir.
+Böylece {BC line}, {FD line}'ın iki katıdır.
+Ve bundan dolayı {AB line} ve {BC line} tarafından (içerilen dikdörtgen), {AB line} ve {FD line} tarafından içerilen (dikdörtgenin) iki katıdır.
+Ve {AB line} ve {BC line} tarafından (içerilen dikdörtgen) ortadır.
+Böylece {AB line} ve {FD line} tarafından (içerilen dikdörtgen) de ortadır.
+Ve o, {AD line} ve {DB line} tarafından (içerilen dikdörtgene) eşittir [Önerme 10.32 yardımcı önermesi].
+Böylece {AD line} ve {DB line} tarafından (içerilen dikdörtgen) de ortadır.
+Ve {AB line}, {BC line} ile uzunlukta ölçüşmez olduğu ve {CB line}, {BE line} ile (uzunlukta) ölçüşür olduğu için, böylece {AB line} de {BE line} ile uzunlukta ölçüşmezdir [Önerme 10.13].
+Ve bundan dolayı {AB line}'ın (üzerindeki kare) de {AB line} ve {BE line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir [Önerme 10.11].
+Ama {AD line} ve {DB line}'ın (üzerindeki karelerin toplamı), {AB line}'ın (üzerindeki kareye) eşittir [Önerme 1.47].
+Ve {AB line} ve {FD line} tarafından (içerilen dikdörtgen) --- yani {AD line} ve {DB line} tarafından (içerilen dikdörtgen) --- {AB line} ve {BE line} tarafından (içerilen dikdörtgene) eşittir.
+Böylece {AD line} ve {DB line}'ın (üzerindeki karelerin) toplamı, {AD line} ve {DB line} tarafından (içerilen dikdörtgen) ile ölçüşmezdir.
 
-Thus, two straight-lines, {AD line} and {DB line}, (which are) incommensurable in square, have been found, making the sum of the (squares) on them medial, and the (rectangle contained) by them medial, and, moreover, incommensurable with the sum of the squares on them.
-(Which is) the very thing it was required to show.
+Böylece karede ölçüşmez iki doğru, {AD line} ve {DB line}, (üzerlerindeki karelerin) toplamını orta ve onlar tarafından (içerilen dikdörtgeni) orta ve üstelik üzerlerindeki karelerin toplamı ile ölçüşmez yaparak, bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,15 +1,17 @@
-A first bimedial (straight-line) can be divided (into its component terms) at one point only
+Bir birinci iki-ortalı (doğru), (bileşen terimlerine) yalnızca bir noktada bölünebilir.
 
-Let {AB magnitude} be a first bimedial (straight-line) which has been divided at {C point}, such that {AC magnitude} and {CB magnitude} are medial (straight-lines), commensurable in square only, (and) containing a rational (area) [Prop. 10.37].
-I say that {AB magnitude} cannot be (so) divided at another point.
+{AB magnitude}, {C point}'de bölünmüş bir birinci iki-ortalı (doğru) olsun, öyle ki {AC magnitude} ve {CB magnitude}, yalnızca karede ölçüşür, bir orantılı (alan) içeren orta (doğrular olsun) [Önerme 10.37].
+Diyorum ki {AB magnitude} başka bir noktada (öyle) bölünemez.
 
-For, if possible, let it also have been divided at {D point}, such that {AD magnitude} and {DB magnitude} are also medial (straight-lines), commensurable in square only, (and) containing a rational (area).
-Since, therefore, by whatever (amount) twice the (rectangle contained) by {AD magnitude} and {DB magnitude} differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude}, (the sum of) the (squares) on {AC magnitude} and {CB magnitude} differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by this (same amount) [Prop. 10.41 lem.].
-And twice the (rectangle contained) by {AD magnitude} and {DB magnitude} differs from twice the (rectangle contained) by {AC magnitude} and {CB magnitude} by a rational (area).
-For (they are) both rational (areas).
-(The sum of) the (squares) on {AC magnitude} and {CB magnitude} thus differs from (the sum of) the (squares) on {AD magnitude} and {DB magnitude} by a rational (area, despite both) being medial (areas).
-The very thing is absurd [Prop. 10.26].
+Çünkü, mümkünse, {D point}'de de bölünmüş olsun, öyle ki {AD magnitude} ve {DB magnitude} de, yalnızca karede ölçüşür, bir orantılı (alan) içeren orta (doğrular olsun).
+Bu nedenle, {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katından ne kadar farklı ise, {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı) da {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamından) bu (aynı kadar) farklı olduğu için [Önerme 10.41 yardımcı önermesi].
+Ve {AD magnitude} ve {DB magnitude} tarafından (içerilen dikdörtgenin) iki katı, {AC magnitude} ve {CB magnitude} tarafından (içerilen dikdörtgenin) iki katından bir orantılı (alan) kadar farklıdır.
+Çünkü (her ikisi de) orantılı (alanlardır).
+Böylece {AC magnitude} ve {CB magnitude}'nin (üzerindeki karelerin toplamı), {AD magnitude} ve {DB magnitude}'nin (üzerindeki karelerin toplamından), (her ikisi de) orta (alanlar) olmalarına rağmen, bir orantılı (alan) kadar farklıdır.
+Şeyin kendisi saçmadır [Önerme 10.26].
 
-Thus, a first bimedial (straight-line) cannot be divided into its (component) terms at different points.
-Thus, (it can be so divided) at one point only.
-(Which is) the very thing it was required to show.
+Böylece bir birinci iki-ortalı (doğru), (bileşen) terimlerine farklı noktalarda bölünemez.
+Böylece (öyle) yalnızca bir noktada bölünebilir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

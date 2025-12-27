@@ -1,40 +1,42 @@
-The (square) on a first apotome of a medial (straight-line), applied to a rational (straight-line), produces a second apotome as breadth.
+Bir orta (doğrunun) birinci kesitinin (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir ikinci kesit üretir.
 
-Let {AB magnitude} be a first apotome of a medial (straight-line), and {CD line} a rational (straight-line).
-And let {CE polygon}, equal to the (square) on {AB magnitude}, have been applied to {CD line}, producing {CF line} as breadth.
-I say that {CF line} is a second apotome.
+{AB magnitude} bir orta (doğrunun) birinci kesiti ve {CD line} bir orantılı (doğru) olsun.
+Ve {AB magnitude}'nin üzerindeki (kareye) eşit {CE polygon}, genişlik olarak {CF line}'ı üreterek, {CD line}'a uygulanmış olsun.
+Diyorum ki {CF line} bir ikinci kesittir.
 
-For let {BG magnitude} be an attachment to {AB magnitude}.
-Thus, {AG magnitude} and {GB magnitude} are medial (straight-lines which are) commensurable in square only, containing a rational (area) [Prop. 10.74].
-And let {CH polygon}, equal to the (square) on {AG magnitude}, have been applied to {CD line}, producing {CK line} as breadth, and {KL polygon}, equal to the (square) on {GB magnitude}, producing {KM line} as breadth.
-Thus, the whole of {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}.
-Thus, {CL polygon} (is) also a medial (area) [Props. 10.15, 10.23 corr.].
-And it is applied to the rational (straight-line) {CD line}, producing {CM line} as breadth.
-{CM line} is thus rational, and incommensurable in length with {CD line} [Prop. 10.22].
-And since {CL polygon} is equal to the (sum of the squares) on {AG magnitude} and {GB magnitude}, of which the (square) on {AB magnitude} is equal to {CE polygon}, the remainder, twice the (rectangle contained) by {AG magnitude} and {GB magnitude}, is thus equal to {FL polygon} [Prop. 2.7].
-And twice the (rectangle contained) by {AG magnitude} and {GB magnitude} [is] rational.
-Thus, {FL polygon} (is) rational.
-And it is applied to the rational (straight-line) {FE line}, producing {FM line} as breadth.
-{FM line} is thus also rational, and commensurable in length with {CD line} [Prop. 10.20].
-Therefore, since the (sum of the squares) on {AG magnitude} and {GB magnitude}---that is to say, {CL polygon}---is medial, and twice the (rectangle contained) by {AG magnitude} and {GB magnitude}---that is to say, {FL polygon}---(is) rational, {CL polygon} is thus incommensurable with {FL polygon}.
-And as {CL polygon} (is) to {FL polygon}, so {CM line} is to {FM line} [Prop. 6.1].
-Thus, {CM line} (is) incommensurable in length with {FM line} [Prop. 10.11].
-And they are both rational (straight-lines).
-Thus, {CM line} and {MF line} are rational (straight-lines which are) commensurable in square only.
-{CF line} is thus an apotome [Prop. 10.73].
-So, I say that (it is) also a second (apotome).
+Çünkü {BG magnitude}, {AB magnitude}'ye ek olsun.
+{AG magnitude} ve {GB magnitude} böylece yalnızca karede ölçüşür, bir orantılı (alan) içeren orta (doğrulardır) [Önerme 10.74].
+Ve {AG magnitude}'nin üzerindeki (kareye) eşit {CH polygon}, genişlik olarak {CK line}'ı üreterek, {CD line}'a uygulanmış olsun ve {GB magnitude}'nin üzerindeki (kareye) eşit {KL polygon}, genişlik olarak {KM line}'ı üreterek, (uygulanmış olsun).
+Bütün {CL polygon} böylece {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamına) eşittir.
+{CL polygon} böylece de bir orta (alandır) [Önermeler 10.15, 10.23 ek sonucu].
+Ve o, orantılı (doğru) {CD line}'a uygulanmış olup, genişlik olarak {CM line}'ı üretmiştir.
+{CM line} böylece orantılıdır ve {CD line} ile uzunlukta ölçüşmezdir [Önerme 10.22].
+Ve {CL polygon}, {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamına) eşit olduğu için, bunlardan {AB magnitude}'nin üzerindeki (kare), {CE polygon}'a eşittir, kalan {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı, böylece {FL polygon}'a eşittir [Önerme 2.7].
+Ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı orantılıdır.
+{FL polygon} böylece orantılıdır.
+Ve o, orantılı (doğru) {FE line}'a uygulanmış olup, genişlik olarak {FM line}'ı üretmiştir.
+{FM line} böylece de orantılıdır ve {CD line} ile uzunlukta ölçüşürdür [Önerme 10.20].
+Bu yüzden, {AG magnitude} ve {GB magnitude}'nin (üzerindeki karelerin toplamı) --- yani {CL polygon} --- orta ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgenin) iki katı --- yani {FL polygon} --- orantılı olduğu için, {CL polygon}, böylece {FL polygon} ile ölçüşmezdir.
+Ve {CL polygon}, {FL polygon}'a nasılsa, {CM line}, {FM line}'a (öyledir) [Önerme 6.1].
+{CM line} böylece {FM line} ile uzunlukta ölçüşmezdir [Önerme 10.11].
+Ve her ikisi de orantılı (doğrulardır).
+Böylece {CM line} ve {MF line} yalnızca karede ölçüşür orantılı (doğrulardır).
+{CF line} böylece bir kesittir [Önerme 10.73].
+Öyleyse diyorum ki (o) ayrıca bir ikinci (kesittir).
 
-For let {FM line} have been cut in half at {N point}.
-And let {NO line} have been drawn through (point) {N point}, parallel to {CD line}.
-Thus, {FO polygon} and {NL polygon} are each equal to the (rectangle contained) by {AG magnitude} and {GB magnitude}.
-And since the (rectangle contained) by {AG magnitude} and {GB magnitude} is the mean proportional to the squares on {AG magnitude} and {GB magnitude} [Prop. 10.21 lem.], and the (square) on {AG magnitude} is equal to {CH polygon}, and the (rectangle contained) by {AG magnitude} and {GB magnitude} to {NL polygon}, and the (square) on {BG magnitude} to {KL polygon}, {NL polygon} is thus also the mean proportional to {CH polygon} and {KL polygon}.
-Thus, as {CH polygon} is to {NL polygon}, so {NL polygon} (is) to {KL polygon} [Prop. 5.11].
-But, as {CH polygon} (is) to {NL polygon}, so {CK line} is to {NM line}, and as {NL polygon} (is) to {KL polygon}, so {NM line} is to {MK line} [Prop. 6.1].
-Thus, as {CK line} (is) to {NM line}, so {NM line} is to {KM line} [Prop. 5.11].
-The (rectangle contained) by {CK line} and {KM line} is thus equal to the (square) on {NM line} [Prop. 6.17]---that is to say, to the fourth part of the (square) on {FM line} [and since the (square) on {AG magnitude} is commensurable with the (square) on {BG magnitude}, {CH polygon} is also commensurable with {KL polygon}---that is to say, {CK line} with {KM line}].
-Therefore, since {CM line} and {MF line} are two unequal straight-lines, and the (rectangle contained) by {CK line} and {KM line}, equal to the fourth part of the (square) on {MF line}, has been applied to the greater {CM line}, falling short by a square figure, and divides it into commensurable (parts), the square on {CM line} is thus greater than (the square on) {MF line} by the (square) on (some straight-line) commensurable in length with ({CM line}) [Prop. 10.17].
-The attachment {FM line} is also commensurable in length with the (previously) laid down rational (straight-line) {CD line}.
-{CF line} is thus a second apotome [Def. 10.16].
+Çünkü {FM line}, {N point}'de ikiye bölünmüş olsun.
+Ve {NO line}, (nokta) {N point}'den, {CD line}'a paralel çizilmiş olsun.
+{FO polygon} ve {NL polygon}'un böylece her biri, {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgene) eşittir.
+Ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgen), {AG magnitude} ve {GB magnitude}'nin üzerindeki karelerin orantılı ortası olduğu için [Önerme 10.21 ek kısım] ve {AG magnitude}'nin üzerindeki (kare), {CH polygon}'a ve {AG magnitude} ve {GB magnitude} tarafından (içerilen dikdörtgen), {NL polygon}'a ve {BG magnitude}'nin üzerindeki (kare), {KL polygon}'a eşit olduğu için, {NL polygon}, böylece {CH polygon} ve {KL polygon}'un da orantılı ortasıdır.
+Böylece {CH polygon}, {NL polygon}'a nasılsa, {NL polygon}, {KL polygon}'a (öyledir) [Önerme 5.11].
+Fakat {CH polygon}, {NL polygon}'a nasılsa, {CK line}, {NM line}'a (öyle) ve {NL polygon}, {KL polygon}'a nasılsa, {NM line}, {MK line}'a (öyledir) [Önerme 6.1].
+Böylece {CK line}, {NM line}'a nasılsa, {NM line}, {KM line}'a (öyledir) [Önerme 5.11].
+{CK line} ve {KM line} tarafından (içerilen dikdörtgen), böylece {NM line}'ın üzerindeki (kareye) [Önerme 6.17] --- yani {FM line}'ın üzerindeki (karenin) dörtte birine --- eşittir [ve {AG magnitude}'nin üzerindeki (kare), {BG magnitude}'nin üzerindeki (kare) ile ölçüşür olduğu için, {CH polygon} de {KL polygon} ile ölçüşürdür --- yani {CK line}, {KM line} ile (ölçüşürdür)].
+Bu yüzden, {CM line} ve {MF line} iki eşit olmayan doğru olduğu için ve {MF line}'ın üzerindeki (karenin) dörtte birine eşit {CK line} ve {KM line} tarafından (içerilen dikdörtgen), bir kare şekil kadar eksik düşerek, büyük olan {CM line}'a uygulandığı ve onu ölçüşür (parçalara) böldüğü için, {CM line}'ın üzerindeki kare, böylece ({MF line}'ın üzerindeki kareden) ({CM line}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyüktür [Önerme 10.17].
+Ek {FM line} de (daha önce) konmuş orantılı (doğru) {CD line} ile uzunlukta ölçüşürdür.
+{CF line} böylece bir ikinci kesittir [Tanım 10.16].
 
-Thus, the (square) on a first apotome of a medial (straight-line), applied to a rational (straight-line), produces a second apotome as breadth.
-(Which is) the very thing it was required to show.
+Böylece bir orta (doğrunun) birinci kesitinin (üzerindeki kare), bir orantılı (doğruya) uygulandığında, genişlik olarak bir ikinci kesit üretir.
+(Gösterilmesi gereken tam olarak budur.)
+
+

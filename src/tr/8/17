@@ -1,17 +1,20 @@
-If a cube number does not measure a(nother) cube number then the side (of the former) will not measure the side (of the latter) either.
-And if the side (of a cube number) does not measure the side (of another cube number) then the (former) cube (number) will not measure the (latter) cube (number) either.
-
-For let the cube number {A magnitude} not measure the cube number {B magnitude}.
-And let {C magnitude} be the side of {A magnitude}, and {D magnitude} (the side) of {B magnitude}.
-I say that {C magnitude} will not measure {D magnitude}.
-
-For if {C magnitude} measures {D magnitude} then {A magnitude} will also measure {B magnitude} [Prop. 8.15].
-And {A magnitude} does not measure {B magnitude}.
-Thus, {C magnitude} does not measure {D magnitude} either.
-
-And so let {C magnitude} not measure {D magnitude}.
-I say that {A magnitude} will not measure {B magnitude} either.
-For if {A magnitude} measures {B magnitude} then {C magnitude} will also measure {D magnitude} [Prop. 8.15].
-And {C magnitude} does not measure {D magnitude}.
-Thus, {A magnitude} will not measure {B magnitude} either.
-(Which is) the very thing it was required to show.
+     1→     1→     1→Eğer bir küp sayı bir (başka) küp sayıyı ölçmezse o zaman (birincisinin) kenarı da (ikincisinin) kenarını ölçmeyecektir.
+     2→     2→     2→Ve eğer (bir küp sayının) kenarı (bir başka küp sayının) kenarını ölçmezse o zaman (birinci) küp (sayı) da (ikinci) küp (sayıyı) ölçmeyecektir.
+     3→     3→     3→
+     4→     4→     4→Çünkü {A magnitude} küp sayısı {B magnitude} küp sayısını ölçmesin.
+     5→     5→     5→Ve {C magnitude}, {A magnitude}'nın kenarı ve {D magnitude}, {B magnitude}'nin (kenarı) olsun.
+     6→     6→     6→Diyorum ki {C magnitude} {D magnitude}'yi ölçmeyecektir.
+     7→     7→     7→
+     8→     8→     8→Çünkü eğer {C magnitude} {D magnitude}'yi ölçerse o zaman {A magnitude} de {B magnitude}'yi ölçecektir [Önerme 8.15].
+     9→     9→     9→Ve {A magnitude} {B magnitude}'yi ölçmez.
+    10→    10→    10→Böylece {C magnitude} de {D magnitude}'yi ölçmez.
+    11→    11→    11→
+    12→    12→    12→Ve öyle ki {C magnitude} {D magnitude}'yi ölçmesin.
+    13→    13→    13→Diyorum ki {A magnitude} de {B magnitude}'yi ölçmeyecektir.
+    14→    14→    14→Çünkü eğer {A magnitude} {B magnitude}'yi ölçerse o zaman {C magnitude} de {D magnitude}'yi ölçecektir [Önerme 8.15].
+    15→    15→    15→Ve {C magnitude} {D magnitude}'yi ölçmez.
+    16→    16→    16→Böylece {A magnitude} de {B magnitude}'yi ölçmeyecektir.
+    17→    17→    17→(Gösterilmesi gereken tam olarak budur.)
+    18→    18→    18→
+    19→
+    20→

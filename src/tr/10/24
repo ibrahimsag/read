@@ -1,12 +1,14 @@
-A rectangle contained by medial straight-lines (which are) commensurable in length is medial.
+Uzunlukta ölçüşür (olan) orta doğrular tarafından içerilen dikdörtgen ortadır.
 
-For let the rectangle {AC polygon} be contained by the medial straight-lines {AB line} and {BC line} (which are) commensurable in length.
-I say that {AC polygon} is medial.
+Çünkü uzunlukta ölçüşür orta doğrular, {AB line} ve {BC line}, tarafından {AC polygon} dikdörtgeni içerilmiş olsun.
+Diyorum ki {AC polygon} ortadır.
 
-For let the square {AD polygon} have been described on {AB line}.
-{AD polygon} is thus medial [Prop. 10.23 corr.].
-And since {AB line} is commensurable in length with {BC line}, and {AB line} (is) equal to {BD line}, {DB line} is thus also commensurable in length with {BC line}.
-Hence, {DA polygon} is also commensurable with {AC polygon} [Props. 6.1, 10.11].
-And {DA polygon} (is) medial.
-Thus, {AC polygon} (is) also medial [Prop. 10.23 corr.].
-(Which is) the very thing it was required to show.
+Çünkü {AB line} üzerinde {AD polygon} karesi çizilmiş olsun.
+Böylece {AD polygon} ortadır [Önerme 10.23 ek sonucu].
+Ve {AB line}, {BC line} ile uzunlukta ölçüşür olduğu ve {AB line}, {BD line}'a eşit olduğu için, böylece {DB line} de {BC line} ile uzunlukta ölçüşürdür.
+Bundan dolayı {DA polygon} de {AC polygon} ile ölçüşürdür [Önermeler 6.1, 10.11].
+Ve {DA polygon} ortadır.
+Böylece {AC polygon} de ortadır [Önerme 10.23 ek sonucu].
+(Gösterilmesi gereken tam olarak budur.)
+
+

@@ -1,24 +1,26 @@
-To find two rational (straight-lines which are) commensurable in square only, such that the square on the greater is larger than the (square on the) lesser by the (square) on (some straight-line which is) commensurable in length with the greater.
+Yalnızca karede ölçüşür iki orantılı (doğru) bulmak, öyle ki büyük olanın üzerindeki kare, küçük (olanın üzerindeki kareden), büyük (olanla) uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyük olsun.
 
-For let some rational (straight-line) {AB line} be laid down, and two square numbers, {CD magnitude} and {DE magnitude}, such that the difference between them, {CE magnitude}, is not square [Prop. 10.28 lem. I].
-And let the semi-circle {AFB arc O} have been drawn on {AB line}.
-And let it be contrived that as {DC magnitude} (is) to {CE magnitude}, so the square on {BA line} (is) to the square on {AF line} [Prop. 10.6 corr.].
-And let {FB line} have been joined.
+Çünkü bir orantılı (doğru), {AB line}, ve iki kare sayı, {CD magnitude} ve {DE magnitude}, aralarındaki farkı, {CE magnitude}, kare olmayacak şekilde, konmuş olsun [Önerme 10.28 yardımcı önerme I].
+Ve {AB line} üzerinde {AFB arc O} yarıçemberi çizilmiş olsun.
+Ve {DC magnitude}, {CE magnitude}'ye nasılsa, {BA line}'ın üzerindeki kare {AF line}'ın üzerindeki (kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Ve {FB line} birleştirilmiş olsun.
 
-[Therefore,] since as the (square) on {BA line} is to the (square) on {AF line}, so {DC magnitude} (is) to {CE magnitude}, the (square) on {BA line} thus has to the (square) on {AF line} the ratio which the number {DC magnitude} (has) to the number {CE magnitude}.
-Thus, the (square) on {BA line} is commensurable with the (square) on {AF line} [Prop. 10.6].
-And the (square) on {AB line} (is) rational [Def. 10.4].
-Thus, the (square) on {AF line} (is) also rational.
-Thus, {AF line} (is) also rational.
-And since {DC magnitude} does not have to {CE magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {BA line} thus does not have to the (square) on {AF line} the ratio which (some) square number has to (some) square number either.
-Thus, {AB line} is incommensurable in length with {AF line} [Prop. 10.9].
-Thus, the rational (straight-lines) {BA line} and {AF line} are commensurable in square only.
-And since as {DC magnitude} [is] to {CE magnitude}, so the (square) on {BA line} (is) to the (square) on {AF line}, thus, via conversion, as {CD magnitude} (is) to {DE magnitude}, so the (square) on {AB line} (is) to the (square) on {BF line} [Props. 5.19 corr., 3.31, 1.47].
-And {CD magnitude} has to {DE magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {AB line} also has to the (square) on {BF line} the ratio which (some) square number has to (some) square number.
-{AB line} is thus commensurable in length with {BF line} [Prop. 10.9].
-And the (square) on {AB line} is equal to the (sum of the squares) on {AF line} and {FB line} [Prop. 1.47].
-Thus, the square on {AB line} is greater than (the square on) {AF line} by (the square on) {BF line}, (which is) commensurable (in length) with ({AB line}).
+[Bundan dolayı,] {BA line}'ın (üzerindeki kare), {AF line}'ın (üzerindeki kareye) nasılsa, {DC magnitude} {CE magnitude}'ye (öyle) olduğu için, böylece {BA line}'ın (üzerindeki kare), {AF line}'ın (üzerindeki kareye) {DC magnitude} sayısının {CE magnitude} sayısına (taşıdığı) oranı taşır.
+Böylece {BA line}'ın (üzerindeki kare), {AF line}'ın (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {AB line}'ın (üzerindeki kare) orantılıdır [Tanım 10.4].
+Böylece {AF line}'ın (üzerindeki kare) de orantılıdır.
+Böylece {AF line} de orantılıdır.
+Ve {DC magnitude}, {CE magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımadığı için, böylece {BA line}'ın (üzerindeki kare) de {AF line}'ın (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya taşıdığı oranı taşımaz.
+Böylece {AB line}, {AF line} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece orantılı (doğrular) {BA line} ve {AF line} yalnızca karede ölçüşürdür.
+Ve {DC magnitude} {CE magnitude}'ye nasılsa, {BA line}'ın (üzerindeki kare) {AF line}'ın (üzerindeki kareye) (öyle) olduğu için, böylece, çevirerek, {CD magnitude}, {DE magnitude}'ye nasılsa, {AB line}'ın (üzerindeki kare) {BF line}'ın (üzerindeki kareye) (öyledir) [Önermeler 5.19 ek sonucu, 3.31, 1.47].
+Ve {CD magnitude}, {DE magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşır.
+Böylece {AB line}'ın (üzerindeki kare) de {BF line}'ın (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya taşıdığı oranı taşır.
+Böylece {AB line}, {BF line} ile uzunlukta ölçüşürdür [Önerme 10.9].
+Ve {AB line}'ın (üzerindeki kare), {AF line} ve {FB line}'ın (üzerindeki karelerin toplamına) eşittir [Önerme 1.47].
+Böylece {AB line}'ın üzerindeki kare, {AF line}'ın (üzerindeki kareden), ({AB line}) ile (uzunlukta) ölçüşür (olan) {BF line}'ın (üzerindeki kare) kadar büyüktür.
 
-Thus, two rational (straight-lines), {BA line} and {AF line}, commensurable in square only, have been found such that the square on the greater, {AB line}, is larger than (the square on) the lesser, {AF line}, by the (square) on {BF line}, (which is) commensurable in length with ({AB line}).
-(Which is) the very thing it was required to show.
+Böylece yalnızca karede ölçüşür iki orantılı (doğru), {BA line} ve {AF line}, büyük olanın, {AB line}'ın, üzerindeki karenin, küçük (olanın), {AF line}'ın, (üzerindeki kareden), ({AB line}) ile uzunlukta ölçüşür (olan) {BF line}'ın (üzerindeki kare) kadar büyük olacak şekilde, bulunmuştur.
+(Gösterilmesi gereken tam olarak budur.)
+
+

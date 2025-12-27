@@ -1,15 +1,17 @@
-If two numbers are both prime to each of two numbers then the (numbers) created from (multiplying) them will also be prime to one another.
+     1→     1→Eğer iki sayı iki sayının her birine asalsa o zaman onların (çarpımından) oluşturulan (sayılar) da birbirine asal olacaktır.
+     2→     2→
+     3→     3→Çünkü {A magnitude} ve {B magnitude} iki sayısı {C magnitude} ve {D magnitude} iki sayısının her birine asal olsun.
+     4→     4→Ve {A magnitude}, {B magnitude}'yi çarparak {E magnitude}'yi oluştursun ve {C magnitude}, {D magnitude}'yi çarparak {F magnitude}'yi oluştursun.
+     5→     5→Diyorum ki {E magnitude} ve {F magnitude} birbirine asaldır.
+     6→     6→
+     7→     7→Çünkü {A magnitude} ve {B magnitude}'nin her biri {C magnitude}'ye asal olduğu için, {A magnitude} ve {B magnitude}'nin (çarpımından) oluşturulan (sayı) böylece {C magnitude}'ye de asal olacaktır [Önerme 7.24].
+     8→     8→Ve {E magnitude}, {A magnitude} ve {B magnitude}'nin (çarpımından) oluşturulan (sayıdır).
+     9→     9→Böylece {E magnitude} ve {C magnitude} birbirine asaldır.
+    10→    10→Öyle ki, aynı (nedenlerle), {E magnitude} ve {D magnitude} de birbirine asaldır.
+    11→    11→Böylece {C magnitude} ve {D magnitude}'nin her biri {E magnitude}'ye asaldır.
+    12→    12→Böylece {C magnitude} ve {D magnitude}'nin (çarpımından) oluşturulan (sayı) da {E magnitude}'ye asal olacaktır [Önerme 7.24].
+    13→    13→Ve {F magnitude}, {C magnitude} ve {D magnitude}'nin (çarpımından) oluşturulan (sayıdır).
+    14→    14→Böylece {E magnitude} ve {F magnitude} birbirine asaldır.
+    15→    15→(Gösterilmesi gereken tam olarak budur.)
+    16→    16→
 
-For let two numbers, {A magnitude} and {B magnitude}, both be prime to each of two numbers, {C magnitude} and {D magnitude}.
-And let {A magnitude} make {E magnitude} (by) multiplying {B magnitude}, and let {C magnitude} make {F magnitude} (by) multiplying {D magnitude}.
-I say that {E magnitude} and {F magnitude} are prime to one another.
-
-For since {A magnitude} and {B magnitude} are each prime to {C magnitude}, the (number) created from (multiplying) {A magnitude} and {B magnitude} will thus also be prime to {C magnitude} [Prop. 7.24].
-And {E magnitude} is the (number) created from (multiplying) {A magnitude} and {B magnitude}.
-Thus, {E magnitude} and {C magnitude} are prime to one another.
-So, for the same (reasons), {E magnitude} and {D magnitude} are also prime to one another.
-Thus, {C magnitude} and {D magnitude} are each prime to {E magnitude}.
-Thus, the (number) created from (multiplying) {C magnitude} and {D magnitude} will also be prime to {E magnitude} [Prop. 7.24].
-And {F magnitude} is the (number) created from (multiplying) {C magnitude} and {D magnitude}.
-Thus, {E magnitude} and {F magnitude} are prime to one another.
-(Which is) the very thing it was required to show.

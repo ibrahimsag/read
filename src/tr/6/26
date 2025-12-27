@@ -1,20 +1,22 @@
-If from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.
+     1→Eğer bir paralelkenardan, onunla ortak bir açıya sahip, bütüne benzer ve benzer şekilde yerleştirilmiş (başka) bir paralelkenar çıkarılırsa, o zaman (çıkarılan paralelkenar) bütünle aynı köşegen üzerindedir.
+     2→
+     3→Çünkü {ABCD polygon} paralelkenarından, onunla ortak {DAB angle} açısına sahip, {ABCD polygon}'a benzer ve benzer şekilde yerleştirilmiş (paralelkenar) {AF polygon} çıkarılmış olsun.
+     4→Diyorum ki {ABCD polygon} {AF polygon} ile aynı köşegen üzerindedir.
+     5→
+     6→Çünkü (eğer) değilse, o zaman mümkünse {AHC given} [{ABCD polygon}'un] köşegeni olsun.
+     7→Ve {GF line} uzatılarak ({H point}) noktasına ({GH line} olarak) çizilmiş olsun.
+     8→Ve {HK line} ({H point}) noktasından {AD line} veya {BC line}'nin ikisine de paralel olarak çizilmiş olsun [Önerme 1.31].
+     9→
+    10→Bu nedenle, {ABCD polygon} {KG polygon} ile aynı köşegen üzerinde olduğu için, böylece {DA line} {AB line}'ye nasılsa, {GA line} {AK line}'ye öyledir [Önerme 6.24].
+    11→Ve {ABCD polygon} ve {EG polygon}'un benzerliğinden dolayı, ayrıca {DA line} {AB line}'ye nasılsa, {GA line} {AE line}'ye öyledir.
+    12→Böylece ayrıca {GA line} {AK line}'ye nasılsa, {GA line} {AE line}'ye öyledir.
+    13→Böylece {GA line} {AK line} ve {AE line}'nin her birine aynı orana sahiptir.
+    14→Böylece {AE line} {AK line}'ye eşittir [Önerme 5.9], küçük büyüğe.
+    15→Ki bu imkansızdır.
+    16→Böylece {ABCD polygon} {AF polygon} ile aynı köşegen üzerinde değil değildir.
+    17→Böylece {ABCD polygon} paralelkenarı {AF polygon} paralelkenarıyla aynı köşegen üzerindedir.
+    18→
+    19→Böylece, eğer bir paralelkenardan, onunla ortak bir açıya sahip, bütüne benzer ve benzer şekilde yerleştirilmiş (başka) bir paralelkenar çıkarılırsa, o zaman (çıkarılan paralelkenar) bütünle aynı köşegen üzerindedir.
+    20→(Gösterilmesi gereken tam olarak budur.)
+    21→
 
-For, from parallelogram {ABCD polygon}, let (parallelogram) {AF polygon} have been subtracted (which is) similar, and similarly laid out, to {ABCD polygon}, having the common angle {DAB angle} with it.
-I say that {ABCD polygon} is about the same diagonal as {AF polygon}.
-
-For (if) not, then, if possible, let {AHC given} be [{ABCD polygon}'s] diagonal.
-And producing {GF line}, let it have been drawn through to (point) {H point} (as {GH line}).
-And let {HK line} have been drawn through (point) {H point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].
-
-Therefore, since {ABCD polygon} is about the same diagonal as {KG polygon}, thus as {DA line} is to {AB line}, so {GA line} (is) to {AK line} [Prop. 6.24].
-And, on account of the similarity of {ABCD polygon} and {EG polygon}, also, as {DA line} (is) to {AB line}, so {GA line} (is) to {AE line}.
-Thus, also, as {GA line} (is) to {AK line}, so {GA line} (is) to {AE line}.
-Thus, {GA line} has the same ratio to each of {AK line} and {AE line}.
-Thus, {AE line} is equal to {AK line} [Prop. 5.9], the lesser to the greater.
-The very thing is impossible.
-Thus, {ABCD polygon} is not not about the same diagonal as {AF polygon}.
-Thus, parallelogram {ABCD polygon} is about the same diagonal as parallelogram {AF polygon}.
-
-Thus, if from a parallelogram a(nother) parallelogram is subtracted (which is) similar, and similarly laid out, to the whole, having a common angle with it, then (the subtracted parallelogram) is about the same diagonal as the whole.
-(Which is) the very thing it was required to show.

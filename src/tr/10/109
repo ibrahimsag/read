@@ -1,18 +1,20 @@
-A rational (area) being subtracted from a medial (area), two other irrational (straight-lines) arise (as the square-root of the remaining area)---either a first apotome of a medial (straight-line), or that (straight-line) which with a rational (area) makes a medial whole.
+Bir orantılı (alan), bir orta (alandan) çıkarıldığında, (kalan alanın karekökü olarak) iki başka orantısız (doğru) ortaya çıkar --- ya bir orta (doğrunun) birinci kesiti ya da bir orantılı (alanla birlikte) bir orta bütün yapan o (doğru).
 
-For let the rational (area) {BD polygon} have been subtracted from the medial (area) {BC polygon}.
-I say that one of two irrational (straight-lines) arise (as) the square-root of the remaining (area), {EC polygon}---either a first apotome of a medial (straight-line), or that (straight-line) which with a rational (area) makes a medial whole.
+Çünkü orantılı (alan) {BD polygon}, orta (alan) {BC polygon}'dan çıkarılmış olsun.
+Diyorum ki kalan (alanın), {EC polygon}'un, karekökü (olarak) iki orantısız (doğrudan) biri ortaya çıkar --- ya bir orta (doğrunun) birinci kesiti ya da bir orantılı (alanla birlikte) bir orta bütün yapan o (doğru).
 
-For let the rational (straight-line) {FG line} be laid down, and let similar areas (to the preceding proposition) have been applied (to it).
-So, accordingly, {FH line} is rational, and incommensurable in length with {FG line}, and {KF line} (is) also rational, and commensurable in length with {FG line}.
-Thus, {FH line} and {FK line} are rational (straight-lines which are) commensurable in square only [Prop. 10.13].
-{KH line} is thus an apotome [Prop. 10.73], and {FK line} an attachment to it.
-So, the square on {HF line} is greater than (the square on) {FK line} either by the (square) on (some straight-line) commensurable (in length) with ({HF line}), or by the (square) on (some straight-line) incommensurable (in length with {HF line}).
+Çünkü orantılı (doğru) {FG line} konmuş olsun ve (önceki önermeye) benzer alanlar (ona) uygulanmış olsun.
+Öyleyse buna göre, {FH line} orantılıdır ve {FG line} ile uzunlukta ölçüşmezdir ve {KF line} de orantılıdır ve {FG line} ile uzunlukta ölçüşürdür.
+Böylece {FH line} ve {FK line} yalnızca karede ölçüşür orantılı (doğrulardır) [Önerme 10.13].
+{KH line} böylece bir kesittir [Önerme 10.73] ve {FK line} ona ektir.
+Öyleyse, {HF line}'ın üzerindeki kare, ({FK line}'ın üzerindeki kareden) ({HF line}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar ya da ({HF line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
 
-Therefore, if the square on {HF line} is greater than (the square on) {FK line} by the (square) on (some straight-line) commensurable (in length) with ({HF line}), and (since) the attachment {FK line} is commensurable in length with the (previously) laid down rational (straight-line) {FG line}, {KH line} is a second apotome [Def. 10.12].
-And {FG line} (is) rational.
-Hence, the square-root of {LH polygon}---that is to say, (of) {EC polygon}---is a first apotome of a medial (straight-line) [Prop. 10.92].
+Bu yüzden eğer {HF line}'ın üzerindeki kare, ({FK line}'ın üzerindeki kareden) ({HF line}) ile uzunlukta ölçüşür (bir doğrunun) (üzerindeki kare) kadar büyükse ve (ek {FK line}, (daha önce) konmuş orantılı (doğru) {FG line} ile uzunlukta ölçüşür olduğu için), {KH line} bir ikinci kesittir [Tanım 10.12].
+Ve {FG line} orantılıdır.
+Dolayısıyla, {LH polygon}'un --- yani {EC polygon}'un --- karekökü bir orta (doğrunun) birinci kesitidir [Önerme 10.92].
 
-And if the square on {HF line} is greater than (the square on) {FK line} by the (square) on (some straight-line) incommensurable (in length with {HF line}), and (since) the attachment {FK line} is commensurable in length with the (previously) laid down rational (straight-line) {FG line}, {KH line} is a fifth apotome [Def. 10.15].
-Hence, the square-root of {EC polygon} is that (straight-line) which with a rational (area) makes a medial whole [Prop. 10.95].
-(Which is) the very thing it was required to show.
+Ve eğer {HF line}'ın üzerindeki kare, ({FK line}'ın üzerindeki kareden) ({HF line}) ile uzunlukta ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyükse ve (ek {FK line}, (daha önce) konmuş orantılı (doğru) {FG line} ile uzunlukta ölçüşür olduğu için), {KH line} bir beşinci kesittir [Tanım 10.15].
+Dolayısıyla, {EC polygon}'un karekökü bir orantılı (alanla birlikte) bir orta bütün yapan o (doğrudur) [Önerme 10.95].
+(Gösterilmesi gereken tam olarak budur.)
+
+

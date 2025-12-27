@@ -1,13 +1,15 @@
-A (straight-line) commensurable (in length) with the square-root of (the sum of) two medial (areas) is (itself also) the square-root of (the sum of) two medial (areas).
+İki orta (alanın toplamının) karekökü ile (uzunlukta) ölçüşür (bir doğru), (kendisi de) iki orta (alanın toplamının) karekökü(dür).
 
-Let {AB magnitude} be the square-root of (the sum of) two medial (areas), and (let) {CD magnitude} (be) commensurable (in length) with {AB magnitude}.
-We must show that {CD magnitude} is also the square-root of (the sum of) two medial (areas).
+{AB magnitude}, iki orta (alanın toplamının) karekökü olsun ve {CD magnitude}, {AB magnitude} ile (uzunlukta) ölçüşür (olsun).
+{CD magnitude}'nin de iki orta (alanın toplamının) karekökü olduğunu göstermeliyiz.
 
-For since {AB magnitude} is the square-root of (the sum of) two medial (areas), let it have been divided into its (component) straight-lines at {E point}.
-Thus, {AE magnitude} and {EB magnitude} are incommensurable in square, making the sum of the [squares] on them medial, and the (rectangle contained) by them medial, and, moreover, the sum of the (squares) on {AE magnitude} and {EB magnitude} incommensurable with the (rectangle) contained by {AE magnitude} and {EB magnitude} [Prop. 10.41].
-And let the same construction have been made as in the previous (propositions).
-So, similarly, we can show that {CF magnitude} and {FD magnitude} are also incommensurable in square, and (that) the sum of the (squares) on {AE magnitude} and {EB magnitude} (is) commensurable with the sum of the (squares) on {CF magnitude} and {FD magnitude}, and the (rectangle contained) by {AE magnitude} and {EB magnitude} with the (rectangle contained) by {CF magnitude} and {FD magnitude}.
-Hence, the sum of the squares on {CF magnitude} and {FD magnitude} is also medial, and the (rectangle contained) by {CF magnitude} and {FD magnitude} (is) medial, and, moreover, the sum of the squares on {CF magnitude} and {FD magnitude} (is) incommensurable with the (rectangle contained) by {CF magnitude} and {FD magnitude}.
+Çünkü {AB magnitude}, iki orta (alanın toplamının) karekökü olduğu için, o (bileşen) doğrularına {E point}'de bölünmüş olsun.
+Böylece {AE magnitude} ve {EB magnitude}, üzerlerindeki [karelerin] toplamını orta ve onlar tarafından (içerilen dikdörtgeni) orta ve üstelik {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin) toplamını {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgen) ile ölçüşmez yapan, karede ölçüşmez (doğrulardır) [Önerme 10.41].
+Ve önceki (önermelerde olduğu) gibi aynı inşa yapılmış olsun.
+Öyleyse, benzer şekilde, {CF magnitude} ve {FD magnitude}'nin de karede ölçüşmez olduğunu ve {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamının), {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamı) ile ölçüşür olduğunu ve {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgenin), {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ile (ölçüşür olduğunu) gösterebiliriz.
+Dolayısıyla {CF magnitude} ve {FD magnitude}'nin üzerindeki karelerin toplamı da ortadır ve {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ortadır ve üstelik {CF magnitude} ve {FD magnitude}'nin üzerindeki karelerin toplamı, {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ile ölçüşmezdir.
 
-Thus, {CD magnitude} is the square-root of (the sum of) two medial (areas) [Prop. 10.41].
-(Which is) the very thing it was required to show.
+Böylece {CD magnitude} iki orta (alanın toplamının) karekökü(dür) [Önerme 10.41].
+(Gösterilmesi gereken tam olarak budur.)
+
+

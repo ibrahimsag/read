@@ -1,37 +1,38 @@
-If a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
+Eğer bir doğru, birbirini kesen iki doğruya, ortak kesim noktasında, dik açılarla dikilirse o zaman (her ikisinden) geçen düzleme de dik açılarda olacaktır.
 
-For let some straight-line {EF line} have (been) set up at right-angles to two straight-lines, {AB line} and {CD line}, cutting one another at point {E point}, at {E point}.
-I say that {EF line} is also at right-angles to the plane (passing) through {AB line} and {CD line}.
+Çünkü bir doğru {EF line}, birbirini {E point} noktasında kesen iki doğruya, {AB line} ve {CD line}'a, {E point}'de dik açılarla dikil(miş ol)sun.
+Diyorum ki {EF line}, {AB line} ve {CD line}'dan geçen düzleme de dik açılardadır.
 
-For let {AE line}, {EB line}, {CE line} and {ED line} have been cut off from (the two straight-lines so as to be) equal to one another.
-And let {GEH line} have been drawn, at random, through {E point} (in the plane passing through {AB line} and {CD line}).
-And let {AD line} and {CB line} have been joined.
-And, furthermore, let {FA line}, {FG line}, {FD line}, {FC line}, {FH line}, and {FB line} have been joined from the random (point) {F point} (on {EF line}).
+Çünkü {AE line}, {EB line}, {CE line} ve {ED line}, (iki doğrudan) birbirine eşit (olacak şekilde) kesilmiş olsun.
+Ve {GEH line}, {E point}'den, rasgele, ({AB line} ve {CD line}'dan geçen düzlemde) çizilmiş olsun.
+Ve {AD line} ve {CB line} birleştirilmiş olsun.
+Ve dahası, {FA line}, {FG line}, {FD line}, {FC line}, {FH line} ve {FB line}, ({EF line} üzerindeki) rasgele (nokta) {F point}'den birleştirilmiş olsun.
 
-For since the two (straight-lines) {AE line} and {ED line} are equal to the two (straight-lines) {CE line} and {EB line}, and they enclose equal angles [Prop. 1.15], the base {AD line} is thus equal to the base {CB line}, and triangle {AED polygon} will be equal to triangle {CEB polygon} [Prop. 1.4].
-Hence, the angle {DAE angle} [is] equal to the angle {EBC angle}.
-And the angle {AEG angle} (is) also equal to the angle {BEH angle} [Prop. 1.15].
-So {AGE polygon} and {BEH polygon} are two triangles having two angles equal to two angles, respectively, and one side equal to one side---(namely), those by the equal angles, {AE line} and {EB line}.
-Thus, they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
-Thus, {GE line} (is) equal to {EH line}, and {AG line} to {BH line}
-And since {AE line} is equal to {EB line}, and {FE line} is common and at right-angles, the base {FA line} is thus equal to the base {FB line} [Prop. 1.4].
-So, for the same (reasons), {FC line} is also equal to {FD line}.
-And since {AD line} is equal to {CB line}, and {FA line} is also equal to {FB line}, the two (straight-lines) {FA line} and {AD line} are equal to the two (straight-lines) {FB line} and {BC line}, respectively.
-And the base {FD line} was shown (to be) equal to the base {FC line}.
-Thus, the angle {FAD angle} is also equal to the angle {FBC angle} [Prop. 1.8].
-And, again, since {AG line} was shown (to be) equal to {BH line}, but {FA line} (is) also equal to {FB line}, the two (straight-lines) {FA line} and {AG line} are equal to the two (straight-lines) {FB line} and {BH line} (respectively).
-And the angle {FAG angle} was shown (to be) equal to the angle {FBH angle}.
-Thus, the base {FG line} is equal to the base {FH line} [Prop. 1.4].
-And, again, since {GE line} was shown (to be) equal to {EH line}, and {EF line} (is) common, the two (straight-lines) {GE line} and {EF line} are equal to the two (straight-lines) {HE line} and {EF line} (respectively).
-And the base {FG line} (is) equal to the base {FH line}.
-Thus, the angle {GEF angle} is equal to the angle {HEF angle} [Prop. 1.8].
-Each of the angles {GEF angle} and {HEF angle} (are) thus right-angles [Def. 1.10].
-Thus, {FE line} is at right-angles to {GH line}, which was drawn at random through {E point} (in the reference plane passing though {AB line} and {CD line}).
-So, similarly, we can show that {FE line} will make right-angles with all straight-lines joined to it which are in the reference plane.
-And a straight-line is at right-angles to a plane when it makes right-angles with all straight-lines joined to it which are in the plane [Def. 11.3].
-Thus, {FE line} is at right-angles to the reference plane.
-And the reference plane is that (passing) through the straight-lines {AB line} and {CD line}.
-Thus, {FE line} is at right-angles to the plane (passing) through {AB line} and {CD line}.
+Çünkü iki (doğru) {AE line} ve {ED line}, iki (doğruya) {CE line} ve {EB line}'ye eşit olduğu ve onlar eşit açılar çevreledikleri için [Önerme 1.15], taban {AD line} böylece taban {CB line}'ye eşittir ve {AED polygon} üçgeni, {CEB polygon} üçgenine eşit olacaktır [Önerme 1.4].
+Dolayısıyla, {DAE angle} açısı {EBC angle} açısına [eşittir].
+Ve {AEG angle} açısı da {BEH angle} açısına eşittir [Önerme 1.15].
+Öyleyse {AGE polygon} ve {BEH polygon}, sırasıyla iki açısı iki açıya eşit olan ve bir kenarı bir kenara eşit olan --- (yani) eşit açıların yanındakiler, {AE line} ve {EB line} --- iki üçgendir.
+Böylece onların kalan kenarları da kalan kenarlara eşit olacaktır [Önerme 1.26].
+Böylece {GE line}, {EH line}'ye ve {AG line}, {BH line}'ye eşittir.
+Ve {AE line}, {EB line}'ye eşit olduğu ve {FE line} ortak ve dik açılarda olduğu için, taban {FA line} böylece taban {FB line}'ye eşittir [Önerme 1.4].
+Öyleyse aynı (nedenlerle), {FC line} de {FD line}'a eşittir.
+Ve {AD line}, {CB line}'ye eşit olduğu ve {FA line} de {FB line}'ye eşit olduğu için, iki (doğru) {FA line} ve {AD line}, sırasıyla iki (doğruya) {FB line} ve {BC line}'ye eşittir.
+Ve taban {FD line}, taban {FC line}'ye eşit (olduğu) gösterildi.
+Böylece {FAD angle} açısı da {FBC angle} açısına eşittir [Önerme 1.8].
+Ve tekrar, {AG line}, {BH line}'ye eşit (olduğu) gösterildiği için, fakat {FA line} da {FB line}'ye eşit olduğu için, iki (doğru) {FA line} ve {AG line}, iki (doğruya) {FB line} ve {BH line}'ye (sırasıyla) eşittir.
+Ve {FAG angle} açısı, {FBH angle} açısına eşit (olduğu) gösterildi.
+Böylece taban {FG line}, taban {FH line}'ye eşittir [Önerme 1.4].
+Ve tekrar, {GE line}, {EH line}'ye eşit (olduğu) gösterildiği ve {EF line} ortak olduğu için, iki (doğru) {GE line} ve {EF line}, iki (doğruya) {HE line} ve {EF line}'ye (sırasıyla) eşittir.
+Ve taban {FG line}, taban {FH line}'ye eşittir.
+Böylece {GEF angle} açısı, {HEF angle} açısına eşittir [Önerme 1.8].
+{GEF angle} ve {HEF angle} açılarının her biri böylece dik açılardır [Tanım 1.10].
+Böylece {FE line}, ({AB line} ve {CD line}'dan geçen referans düzleminde) {E point}'den rasgele çizilmiş {GH line}'ye dik açılardadır.
+Öyleyse benzer şekilde, {FE line}'ın ona birleştirilmiş ve referans düzleminde bulunan tüm doğrularla dik açılar yapacağını gösterebiliriz.
+Ve bir doğru, bir düzleme diktir, ona birleştirilmiş ve düzlemde bulunan tüm doğrularla dik açılar yaptığında [Tanım 11.3].
+Böylece {FE line}, referans düzlemine diktir.
+Ve referans düzlemi, {AB line} ve {CD line} doğrularından geçen (düzlemdir).
+Böylece {FE line}, {AB line} ve {CD line}'dan geçen düzleme diktir.
 
-Thus, if a straight-line is set up at right-angles to two straight-lines cutting one another, at the common point of section, then it will also be at right-angles to the plane (passing) through them (both).
-(Which is) the very thing it was required to show.
+Böylece eğer bir doğru, birbirini kesen iki doğruya, ortak kesim noktasında, dik açılarla dikilirse o zaman (her ikisinden) geçen düzleme de dik açılarda olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
+

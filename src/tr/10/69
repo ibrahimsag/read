@@ -1,13 +1,15 @@
-A (straight-line) commensurable (in length) with the square-root of a rational plus a medial (area) is [itself also] the square-root of a rational plus a medial (area).
+Bir orantılı artı bir orta (alanın) karekökü ile (uzunlukta) ölçüşür (bir doğru), [kendisi de] bir orantılı artı bir orta (alanın) karekökü(dür).
 
-Let {AB magnitude} be the square-root of a rational plus a medial (area), and let {CD magnitude} be commensurable (in length) with {AB magnitude}.
-We must show that {CD magnitude} is also the square-root of a rational plus a medial (area).
+{AB magnitude}, bir orantılı artı bir orta (alanın) karekökü olsun ve {CD magnitude}, {AB magnitude} ile (uzunlukta) ölçüşür olsun.
+{CD magnitude}'nin de bir orantılı artı bir orta (alanın) karekökü olduğunu göstermeliyiz.
 
-Let {AB magnitude} have been divided into its (component) straight-lines at {E point}.
-{AE magnitude} and {EB magnitude} are thus incommensurable in square, making the sum of the squares on them medial, and the (rectangle contained) by them rational [Prop. 10.40].
-And let the same construction have been made as in the previous (propositions).
-So, similarly, we can show that {CF magnitude} and {FD magnitude} are also incommensurable in square, and that the sum of the (squares) on {AE magnitude} and {EB magnitude} (is) commensurable with the sum of the (squares) on {CF magnitude} and {FD magnitude}, and the (rectangle contained) by {AE magnitude} and {EB magnitude} with the (rectangle contained) by {CF magnitude} and {FD magnitude}.
-And hence the sum of the squares on {CF magnitude} and {FD magnitude} is medial, and the (rectangle contained) by {CF magnitude} and {FD magnitude} (is) rational.
+{AB magnitude}, (bileşen) doğrularına {E point}'de bölünmüş olsun.
+Böylece {AE magnitude} ve {EB magnitude}, üzerlerindeki karelerin toplamını orta ve onlar tarafından (içerilen dikdörtgeni) orantılı yapan, karede ölçüşmez (doğrulardır) [Önerme 10.40].
+Ve önceki (önermelerde olduğu) gibi aynı inşa yapılmış olsun.
+Öyleyse, benzer şekilde, {CF magnitude} ve {FD magnitude}'nin de karede ölçüşmez olduğunu ve {AE magnitude} ve {EB magnitude}'nin (üzerindeki karelerin toplamının), {CF magnitude} ve {FD magnitude}'nin (üzerindeki karelerin toplamı) ile ölçüşür olduğunu ve {AE magnitude} ve {EB magnitude} tarafından (içerilen dikdörtgenin), {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) ile (ölçüşür olduğunu) gösterebiliriz.
+Ve dolayısıyla {CF magnitude} ve {FD magnitude}'nin üzerindeki karelerin toplamı ortadır ve {CF magnitude} ve {FD magnitude} tarafından (içerilen dikdörtgen) orantılıdır.
 
-Thus, {CD magnitude} is the square-root of a rational plus a medial (area) [Prop. 10.40].
-(Which is) the very thing it was required to show.
+Böylece {CD magnitude} bir orantılı artı bir orta (alanın) karekökü(dür) [Önerme 10.40].
+(Gösterilmesi gereken tam olarak budur.)
+
+

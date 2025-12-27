@@ -1,38 +1,40 @@
-To find a sixth binomial (straight-line).
+Bir altıncı iki-terimli (doğru) bulmak.
 
-Let the two numbers {AC magnitude} and {CB magnitude} be laid down such that {AB magnitude} does not have to each of them the ratio which (some) square number (has) to (some) square number.
-And let {D magnitude} also be another number, which is not square, and does not have to each of {BA magnitude} and {AC magnitude} the ratio which (some) square number (has) to (some) square number either [Prop. 10.28 lem. I].
-And let some rational straight-line {E magnitude} be laid down.
-And let it have been contrived that as {D magnitude} (is) to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude} [Prop. 10.6 corr.].
-Thus, the (square) on {E magnitude} (is) commensurable with the (square) on {FG magnitude} [Prop. 10.6].
-And {E magnitude} is rational.
-Thus, {FG magnitude} (is) also rational.
-And since {D magnitude} does not have to {AB magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {E magnitude} thus does not have to the (square) on {FG magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {E magnitude} (is) incommensurable in length with {FG magnitude} [Prop. 10.9].
-So, again, let it have be contrived that as {BA magnitude} (is) to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude} [Prop. 10.6 corr.].
-The (square) on {FG magnitude} (is) thus commensurable with the (square) on {HG magnitude} [Prop. 10.6].
-The (square) on {HG magnitude} (is) thus rational.
-Thus, {HG magnitude} (is) rational.
-And since {BA magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number, the (square) on {FG magnitude} does not have to the (square) on {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {FG magnitude} is incommensurable in length with {GH magnitude} [Prop. 10.9].
-Thus, {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {FH magnitude} is a binomial (straight-line) [Prop. 10.36].
-So, we must show that (it is) also a sixth (binomial straight-line).
+İki sayı, {AC magnitude} ve {CB magnitude}, {AB magnitude}'nin onların her birine (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımayacağı şekilde, konmuş olsun.
+Ve {D magnitude} de kare olmayan başka bir sayı olsun ve o da {BA magnitude} ve {AC magnitude}'nın her birine (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımasın [Önerme 10.28 yardımcı önerme I].
+Ve bir orantılı doğru {E magnitude} konmuş olsun.
+Ve {D magnitude}, {AB magnitude}'ye nasılsa, {E magnitude}'nin (üzerindeki kare) {FG magnitude}'nin (üzerindeki kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Böylece {E magnitude}'nin (üzerindeki kare), {FG magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Ve {E magnitude} orantılıdır.
+Böylece {FG magnitude} de orantılıdır.
+Ve {D magnitude}, {AB magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımadığı için, böylece {E magnitude}'nin (üzerindeki kare) de {FG magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {E magnitude}, {FG magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Öyleyse, tekrar, {BA magnitude}, {AC magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare) {GH magnitude}'nin (üzerindeki kareye) (öyle) olacak şekilde ayarlanmış olsun [Önerme 10.6 ek sonucu].
+Böylece {FG magnitude}'nin (üzerindeki kare), {HG magnitude}'nin (üzerindeki kare) ile ölçüşürdür [Önerme 10.6].
+Böylece {HG magnitude}'nin (üzerindeki kare) orantılıdır.
+Böylece {HG magnitude} orantılıdır.
+Ve {BA magnitude}, {AC magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımadığı için, {FG magnitude}'nin (üzerindeki kare) de {GH magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {FG magnitude}, {GH magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece {FG magnitude} ve {GH magnitude} yalnızca karede ölçüşür orantılı (doğrulardır).
+Böylece {FH magnitude} bir iki-terimli (doğrudur) [Önerme 10.36].
+Öyleyse, (onun) ayrıca bir altıncı (iki-terimli doğru) olduğunu göstermeliyiz.
 
-For since as {D magnitude} is to {AB magnitude}, so the (square) on {E magnitude} (is) to the (square) on {FG magnitude}, and also as {BA magnitude} is to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, thus, via equality, as {D magnitude} is to {AC magnitude}, so the (square) on {E magnitude} (is) to the (square) on {GH magnitude} [Prop. 5.22].
-And {D magnitude} does not have to {AC magnitude} the ratio which (some) square number (has) to (some) square number.
-Thus, the (square) on {E magnitude} does not have to the (square) on {GH magnitude} the ratio which (some) square number (has) to (some) square number either.
-{E magnitude} is thus incommensurable in length with {GH magnitude} [Prop. 10.9].
-And ({E magnitude}) was also shown (to be) incommensurable (in length) with {FG magnitude}.
-Thus, {FG magnitude} and {GH magnitude} are each incommensurable in length with {E magnitude}.
-And since as {BA magnitude} is to {AC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {GH magnitude}, the (square) on {FG magnitude} (is) thus greater than the (square) on {GH magnitude} [Prop. 5.14].
-Therefore, let (the sum of) the (squares) on {GH magnitude} and {K magnitude} be equal to the (square) on {FG magnitude}.
-Thus, via conversion, as {AB magnitude} (is) to {BC magnitude}, so the (square) on {FG magnitude} (is) to the (square) on {K magnitude} [Prop. 5.19 corr.].
-And {AB magnitude} does not have to {BC magnitude} the ratio which (some) square number (has) to (some) square number.
-Hence, the (square) on {FG magnitude} does not have to the (square) on {K magnitude} the ratio which (some) square number (has) to (some) square number either.
-Thus, {FG magnitude} is incommensurable in length with {K magnitude} [Prop. 10.9].
-The square on {FG magnitude} is thus greater than (the square on) {GH magnitude} by the (square) on (some straight-line which is) incommensurable (in length) with ({FG magnitude}).
-And {FG magnitude} and {GH magnitude} are rational (straight-lines which are) commensurable in square only, and neither of them is commensurable in length with the rational (straight-line) {E magnitude} (previously) laid down.
+Çünkü {D magnitude}, {AB magnitude}'ye nasılsa, {E magnitude}'nin (üzerindeki kare) {FG magnitude}'nin (üzerindeki kareye) (öyle) olduğu ve ayrıca {BA magnitude}, {AC magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare) {GH magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece, eşitlik yoluyla, {D magnitude}, {AC magnitude}'ye nasılsa, {E magnitude}'nin (üzerindeki kare) {GH magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.22].
+Ve {D magnitude}, {AC magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {E magnitude}'nin (üzerindeki kare) de {GH magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {E magnitude}, {GH magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Ve ({E magnitude}), {FG magnitude} ile de (uzunlukta) ölçüşmez olduğu gösterildi.
+Böylece {FG magnitude} ve {GH magnitude}'nın her biri, {E magnitude} ile uzunlukta ölçüşmezdir.
+Ve {BA magnitude}, {AC magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare) {GH magnitude}'nin (üzerindeki kareye) (öyle) olduğu için, böylece {FG magnitude}'nin (üzerindeki kare), {GH magnitude}'nin (üzerindeki kareden) büyüktür [Önerme 5.14].
+Bundan dolayı {GH magnitude} ve {K magnitude}'nin (üzerindeki karelerin toplamı), {FG magnitude}'nin (üzerindeki kareye) eşit olsun.
+Böylece, çevirerek, {AB magnitude}, {BC magnitude}'ye nasılsa, {FG magnitude}'nin (üzerindeki kare) {K magnitude}'nin (üzerindeki kareye) (öyledir) [Önerme 5.19 ek sonucu].
+Ve {AB magnitude}, {BC magnitude}'ye (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Dolayısıyla {FG magnitude}'nin (üzerindeki kare) de {K magnitude}'nin (üzerindeki kareye) (bir) kare sayının (bir) kare sayıya (taşıdığı) oranı taşımaz.
+Böylece {FG magnitude}, {K magnitude} ile uzunlukta ölçüşmezdir [Önerme 10.9].
+Böylece {FG magnitude}'nin üzerindeki kare, {GH magnitude}'nin (üzerindeki kareden), ({FG magnitude}) ile (uzunlukta) ölçüşmez (bir doğrunun) (üzerindeki kare) kadar büyüktür.
+Ve {FG magnitude} ve {GH magnitude} yalnızca karede ölçüşür orantılı (doğrulardır) ve onların hiçbiri (daha önce) konmuş orantılı (doğru) {E magnitude} ile uzunlukta ölçüşür değildir.
 
- Thus, {FH magnitude} is a sixth binomial (straight-line) [Def. 10.10].
- (Which is) the very thing it was required to show.
+Böylece {FH magnitude} bir altıncı iki-terimli (doğrudur) [Tanım 10.10].
+(Gösterilmesi gereken tam olarak budur.)
+
+
