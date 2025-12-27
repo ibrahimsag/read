@@ -1,34 +1,35 @@
-Similar parallelepiped solids are to one another as the cubed ratio of their corresponding sides.
+Benzer paralel yüzlü katılar, birbirlerine karşılık gelen kenarlarının küplü oranı gibidir.
 
-Let {AB given} and {CD given} be similar parallelepiped solids, and let {AE line} correspond to {CF line}.
-I say that solid {AB given} has to solid {CD given} the cubed ratio that {AE line} (has) to {CF line}.
+{AB given} ve {CD given} benzer paralel yüzlü katılar olsun ve {AE line}, {CF line}'a karşılık gelsin.
+Diyorum ki {AB given} katısı, {CD given} katısına, {AE line}'nin {CF line}'a (sahip olduğu) küplü orana sahiptir.
 
-For let {EK line}, {EL line}, and {EM line} have been produced in a straight-line with {AE line}, {GE line}, and {HE line} (respectively).
-And let {EK line} be made equal to {CF line}, and {EL line} equal to {FN line}, and, further, {EM line} equal to {FR line}.
-And let the parallelogram {KL polygon} have been completed, and the solid {KP given}.
+Çünkü {EK line}, {EL line} ve {EM line}, (sırasıyla) {AE line}, {GE line} ve {HE line} ile düz bir doğru olarak üretilmiş olsun.
+Ve {EK line}, {CF line}'a eşit ve {EL line}, {FN line}'ye eşit ve dahası {EM line}, {FR line}'a eşit yapılmış olsun.
+Ve {KL polygon} paralelkenarı ve {KP given} katısı tamamlanmış olsun.
 
-And since the two (straight-lines) {KE line} and {EL line} are equal to the two (straight-lines) {CF line} and {FN line}, but angle {KEL angle} is also equal to angle {CFN angle}, inasmuch as {AEG angle} is also equal to {CFN angle}, on account of the similarity of the solids {AB given} and {CD given}, parallelogram {KL polygon} is thus equal [and similar] to parallelogram {CN polygon}.
-So, for the same (reasons), parallelogram {KM polygon} is also equal and similar to [parallelogram] {CR polygon}, and, further, {EP polygon} to {DF polygon}.
-Thus, three parallelograms of solid {KP given} are equal and similar to three parallelograms of solid {CD given}.
-But the three (former parallelograms) are equal and similar to the three opposite (parallelograms), and the three (latter parallelograms) are equal and similar to the three opposite (parallelograms) [Prop. 11.24].
-Thus, the whole of solid {KP given} is equal and similar to the whole of solid {CD given} [Def. 11.10].
-Let parallelogram {GK polygon} have been completed.
-And let the the solids {EO given} and {LQ given}, with bases the parallelograms {GK polygon} and {KL polygon} (respectively), and with the same height as {AB given}, have been completed.
-And since, on account of the similarity of solids {AB given} and {CD given}, as {AE line} is to {CF line}, so {EG line} (is) to {FN line}, and {EH line} to {FR line} [Defs. 6.1, 11.9], and {CF line} (is) equal to {EK line}, and {FN line} to {EL line}, and {FR line} to {EM line}, thus as {AE line} is to {EK line}, so {GE line} (is) to {EL line}, and {HE line} to {EM line}.
-But, as {AE line} (is) to {EK line}, so [parallelogram] {AG polygon} (is) to parallelogram {GK polygon}, and as {GE line} (is) to {EL line}, so {GK polygon} (is) to {KL polygon}, and as {HE line} (is) to {EM line}, so {QE polygon} (is) to {KM polygon} [Prop. 6.1].
-And thus as parallelogram {AG polygon} (is) to {GK polygon}, so {GK polygon} (is) to {KL polygon}, and {QE polygon} (is) to {KM polygon}.
-But, as {AG polygon} (is) to {GK polygon}, so solid {AB given} (is) to solid {EO given}, and as {GK polygon} (is) to {KL polygon}, so solid {OE given} (is) to solid {QL given}, and as {QE polygon} (is) to {KM polygon}, so solid {QL given} (is) to solid {KP given} [Prop. 11.32].
-And, thus, as solid {AB given} is to {EO given}, so {EO given} (is) to {QL given}, and {QL given} to {KP given}.
-And if four magnitudes are continuously proportional then the first has to the fourth the cubed ratio that (it has) to the second [Def. 5.10].
-Thus, solid {AB given} has to {KP given} the cubed ratio which {AB given} (has) to {EO given}.
-But, as {AB given} (is) to {EO given}, so parallelogram {AG polygon} (is) to {GK polygon}, and the straight-line {AE line} to {EK line} [Prop. 6.1].
-Hence, solid {AB given} also has to {KP given} the cubed ratio that {AE line} (has) to {EK line}.
-And solid {KP given} (is) equal to solid {CD given}, and straight-line {EK line} to {CF line}.
-Thus, solid {AB given} also has to solid {CD given} the cubed ratio which its corresponding side {AE line} (has) to the corresponding side {CF line}.
+Ve iki (doğru) {KE line} ve {EL line}, iki (doğruya) {CF line} ve {FN line}'ye eşit olduğu, fakat {KEL angle} açısı da {CFN angle} açısına eşit olduğu için --- nitekim {AB given} ve {CD given} katılarının benzerliğinden dolayı {AEG angle} de {CFN angle}'a eşittir --- {KL polygon} paralelkenarı böylece {CN polygon} paralelkenarına eşit [ve benzerdir].
+Öyleyse aynı (nedenlerle), {KM polygon} paralelkenarı da [paralelkenar] {CR polygon}'a eşit ve benzerdir ve dahası {EP polygon}, {DF polygon}'a (eşit ve benzerdir).
+Böylece {KP given} katısının üç paralelkenarı, {CD given} katısının üç paralelkenarına eşit ve benzerdir.
+Fakat (önceki) üç (paralelkenar), üç karşıt (paralelkenara) eşit ve benzerdir ve (sonraki) üç (paralelkenar), üç karşıt (paralelkenara) eşit ve benzerdir [Önerme 11.24].
+Böylece {KP given} katısının bütünü, {CD given} katısının bütününe eşit ve benzerdir [Tanım 11.10].
+{GK polygon} paralelkenarı tamamlanmış olsun.
+Ve {AB given} ile aynı yükseklikte, (sırasıyla) {GK polygon} ve {KL polygon} paralelkenarlarını tabanlar olarak alan {EO given} ve {LQ given} katıları tamamlanmış olsun.
+Ve {AB given} ve {CD given} katılarının benzerliğinden dolayı, {AE line}, {CF line}'a nasılsa, {EG line} de {FN line}'ye ve {EH line} de {FR line}'a öyle olduğu için [Tanımlar 6.1, 11.9] ve {CF line}, {EK line}'a ve {FN line}, {EL line}'ye ve {FR line}, {EM line}'ye eşit olduğu için, böylece {AE line}, {EK line}'a nasılsa, {GE line} de {EL line}'ye ve {HE line} de {EM line}'ye öyledir.
+Fakat {AE line}, {EK line}'a nasılsa, [paralelkenar] {AG polygon} de {GK polygon} paralelkenarına ve {GE line}, {EL line}'ye nasılsa, {GK polygon} de {KL polygon}'a ve {HE line}, {EM line}'ye nasılsa, {QE polygon} de {KM polygon}'a öyledir [Önerme 6.1].
+Ve böylece {AG polygon} paralelkenarı {GK polygon}'a nasılsa, {GK polygon} de {KL polygon}'a ve {QE polygon} de {KM polygon}'a öyledir.
+Fakat {AG polygon}, {GK polygon}'a nasılsa, {AB given} katısı da {EO given} katısına ve {GK polygon}, {KL polygon}'a nasılsa, {OE given} katısı da {QL given} katısına ve {QE polygon}, {KM polygon}'a nasılsa, {QL given} katısı da {KP given} katısına öyledir [Önerme 11.32].
+Ve böylece {AB given} katısı {EO given}'e nasılsa, {EO given} de {QL given}'e ve {QL given}, {KP given}'e öyledir.
+Ve eğer dört büyüklük sürekli orantılıysa o zaman birincinin dördüncüye, ikinciye (sahip olduğu) küplü oranı (vardır) [Tanım 5.10].
+Böylece {AB given} katısı, {KP given}'e, {AB given}'nin {EO given}'e (sahip olduğu) küplü orana sahiptir.
+Fakat {AB given}, {EO given}'e nasılsa, {AG polygon} paralelkenarı da {GK polygon}'a ve {AE line} doğrusu {EK line}'a öyledir [Önerme 6.1].
+Dolayısıyla, {AB given} katısı, {KP given}'e de, {AE line}'nin {EK line}'a (sahip olduğu) küplü orana sahiptir.
+Ve {KP given} katısı, {CD given} katısına ve {EK line} doğrusu, {CF line}'a eşittir.
+Böylece {AB given} katısı, {CD given} katısına da, karşılık gelen kenarı {AE line}'nin karşılık gelen kenar {CF line}'a (sahip olduğu) küplü orana sahiptir.
 
-Thus, similar parallelepiped solids are to one another as the cubed ratio of their corresponding sides.
-(Which is) the very thing it was required to show.
+Böylece benzer paralel yüzlü katılar, birbirlerine karşılık gelen kenarlarının küplü oranı gibidir.
+(Gösterilmesi gereken tam olarak budur.)
 
-Corollary
+Ek Sonuç
 
-So, (it is) clear, from this, that if four straight-lines are (continuously) proportional then as the first is to the fourth, so the parallelepiped solid on the first will be to the similar, and similarly described, parallelepiped solid on the second, since the first also has to the fourth the cubed ratio that (it has) to the second.
+Öyleyse bundan açıktır ki, eğer dört doğru (sürekli) orantılıysa o zaman birincinin dördüncüye nasılsa, birincinin üzerindeki paralel yüzlü katı da ikincinin üzerindeki benzer ve benzer şekilde betimlenen paralel yüzlü katıya öyle olacaktır, zira birincinin de dördüncüye, ikinciye (sahip olduğu) küplü oranı (vardır).
+

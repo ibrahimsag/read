@@ -1,17 +1,18 @@
-(Straight-lines) parallel to the same straight-line, and which are not in the same plane as it, are also parallel to one another.
+Aynı doğruya paralel olan ve onunla aynı düzlemde olmayan (doğrular), birbirlerine de paraleldir.
 
-For let {AB line} and {CD line} each be parallel to {EF line}, not being in the same plane as it.
-I say that {AB line} is parallel to {CD line}.
+Çünkü {AB line} ve {CD line}'ın her biri, onunla aynı düzlemde olmayarak, {EF line}'a paralel olsun.
+Diyorum ki {AB line}, {CD line}'a paraleldir.
 
-For let some point {G point} have been taken at random on {EF line}.
-And from it let {GH line} have been drawn at right-angles to {EF line} in the plane through {EF line} and {AB line}.
-And let {GK line} have been drawn, again at right-angles to {EF line}, in the plane through {FE line} and {CD line}.
+Çünkü {EF line} üzerinde rasgele bir nokta {G point} alınmış olsun.
+Ve ondan, {EF line} ve {AB line}'den geçen düzlemde, {GH line}, {EF line}'a dik olarak çizilmiş olsun.
+Ve {GK line}, tekrar, {FE line} ve {CD line}'dan geçen düzlemde, {EF line}'a dik olarak çizilmiş olsun.
 
-And since {EF line} is at right-angles to each of {GH line} and {GK line}, {EF line} is thus also at right-angles to the plane through {GH line} and {GK line} [Prop. 11.4].
-And {EF line} is parallel to {AB line}.
-Thus, {AB line} is also at right-angles to the plane through {HGK given} [Prop. 11.8].
-So, for the same (reasons), {CD line} is also at right-angles to the plane through {HGK given}.
-Thus, {AB line} and {CD line} are each at right-angles to the plane through {HGK given}.
-And if two straight-lines are at right–angles to the same plane then the straight-lines are parallel [Prop. 11.6].
-Thus, {AB line} is parallel to {CD line}.
-(Which is) the very thing it was required to show.
+Ve {EF line}, {GH line} ve {GK line}'ın her birine dik açılarda olduğu için, {EF line} böylece de {GH line} ve {GK line}'dan geçen düzleme dik açılardadır [Önerme 11.4].
+Ve {EF line}, {AB line}'ye paraleldir.
+Böylece {AB line} de {HGK given}'dan geçen düzleme dik açılardadır [Önerme 11.8].
+Öyleyse aynı (nedenlerle), {CD line} de {HGK given}'dan geçen düzleme dik açılardadır.
+Böylece {AB line} ve {CD line}'ın her biri, {HGK given}'dan geçen düzleme dik açılardadır.
+Ve eğer iki doğru aynı düzleme dik açılardaysa o zaman doğrular paraleldir [Önerme 11.6].
+Böylece {AB line}, {CD line}'a paraleldir.
+(Gösterilmesi gereken tam olarak budur.)
+

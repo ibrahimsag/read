@@ -1,12 +1,13 @@
-To set up a straight-line at right-angles to a given plane from a given point in it.
+Verilmiş bir düzleme, içindeki verilmiş bir noktadan dik açılarda bir doğru dikmek.
 
-Let the given plane be the reference (plane), and {A point} a point in it.
-So, it is required to set up a straight-line at right-angles to the reference plane at point {A point}.
+Verilmiş düzlem, referans (düzlemi) ve {A point} onun içinde bir nokta olsun.
+Öyleyse {A point} noktasında referans düzlemine dik açılarda bir doğru dikmek gerekiyor.
 
-Let some raised point {B point} have been assumed, and let the perpendicular (straight-line) {BC line} have been drawn from {B point} to the reference plane [Prop. 11.11].
-And let {AD line} have been drawn from point {A point} parallel to {BC line} [Prop. 1.31].
+Bir yükseltilmiş nokta {B point} varsayılmış olsun ve dik (doğru) {BC line}, {B point}'den referans düzlemine çizilmiş olsun [Önerme 11.11].
+Ve {AD line}, {A point} noktasından {BC line}'ye paralel olarak çizilmiş olsun [Önerme 1.31].
 
-Therefore, since {AD line} and {CB line} are two parallel straight-lines, and one of them, {BC line}, is at right-angles to the reference plane, the remaining (one) {AD line} is thus also at right-angles to the reference plane [Prop. 11.8].
+Öyleyse {AD line} ve {CB line} iki paralel doğru olduğu ve onlardan biri, {BC line}, referans düzlemine dik açılarda olduğu için, kalan(ı) {AD line} böylece de referans düzlemine dik açılardadır [Önerme 11.8].
 
-Thus, {AD line} has been set up at right-angles to the given plane, from the point in it, {A point}.
-(Which is) the very thing it was required to do.
+Böylece {AD line}, verilmiş düzleme, içindeki nokta {A point}'den, dik açılarda dikilmiştir.
+(Yapılması gereken tam olarak budur.)
+

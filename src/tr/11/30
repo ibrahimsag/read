@@ -1,16 +1,17 @@
-Parallelepiped solids which are on the same base, and (have) the same height, and in which the (ends of the straight-lines) standing up are not on the same straight-lines, are equal to one another.
+Aynı taban üzerinde olan ve aynı yükseklikte olan ve dikilen (doğruların uçları) aynı doğrular üzerinde olmayan paralel yüzlü katılar birbirine eşittir.
 
-Let the parallelepiped solids {CM given} and {CN given} be on the same base, {AB polygon}, and (have) the same height, and let the (ends of the straight-lines) standing up in them, {AF line}, {AG line}, {LM line}, {LN line}, {CD line}, {CE line}, {BH line}, and {BK line}, not be on the same straight-lines.
-I say that the solid {CM given} is equal to the solid {CN given}.
+Paralel yüzlü katılar {CM given} ve {CN given}, aynı taban {AB polygon} üzerinde olsun ve aynı yükseklikte olsun ve onlardaki dikilen (doğruların uçları), {AF line}, {AG line}, {LM line}, {LN line}, {CD line}, {CE line}, {BH line} ve {BK line}, aynı doğrular üzerinde olmasın.
+Diyorum ki {CM given} katısı, {CN given} katısına eşittir.
 
-For let {NK line} and {DH line} have been produced, and let them have joined one another at {R point}.
-And, further, let {FM line} and {GE line} have been produced to {P point} and {Q point} (respectively).
-And let {AO line}, {LP line}, {CQ line}, and {BR line} have been joined.
-So, solid {CM given}, whose base (is) parallelogram {ACBL polygon}, and opposite (face) {FDHM polygon}, is equal to solid {CP given}, whose base (is) parallelogram {ACBL polygon}, and opposite (face) {OQRP polygon}.
-For they are on the same base, {ACBL polygon}, and (have) the same height, and the (ends of the straight-lines) standing up in them, {AF line}, {AO line}, {LM line}, {LP line}, {CD line}, {CQ line}, {BH line}, and {BR line}, are on the same straight-lines, {FP line} and {DR line} [Prop. 11.29].
-But, solid {CP given}, whose base is parallelogram {ACBL polygon}, and opposite (face) {OQRP polygon}, is equal to solid {CN given}, whose base (is) parallelogram {ACBL polygon}, and opposite (face) {GEKN polygon}.
-For, again, they are on the same base, {ACBL polygon}, and (have) the same height, and the (ends of the straight-lines) standing up in them, {AG line}, {AO line}, {CE line}, {CQ line}, {LN line}, {LP line}, {BK line}, and {BR line}, are on the same straight-lines, {GQ line} and {NR line} [Prop. 11.29].
-Hence, solid {CM given} is also equal to solid {CN given}.
+Çünkü {NK line} ve {DH line} üretilmiş olsun ve birbirleriyle {R point}'de birleşmiş olsunlar.
+Ve dahası {FM line} ve {GE line}, (sırasıyla) {P point}'ye ve {Q point}'ye üretilmiş olsun.
+Ve {AO line}, {LP line}, {CQ line} ve {BR line} birleştirilmiş olsun.
+Öyleyse tabanı {ACBL polygon} paralelkenarı ve karşıt (yüzü) {FDHM polygon} olan {CM given} katısı, tabanı {ACBL polygon} paralelkenarı ve karşıt (yüzü) {OQRP polygon} olan {CP given} katısına eşittir.
+Çünkü onlar aynı taban, {ACBL polygon}, üzerindedir ve aynı yüksekliktedir ve onlardaki dikilen (doğruların uçları), {AF line}, {AO line}, {LM line}, {LP line}, {CD line}, {CQ line}, {BH line} ve {BR line}, aynı doğrular, {FP line} ve {DR line}, üzerindedir [Önerme 11.29].
+Fakat tabanı {ACBL polygon} paralelkenarı ve karşıt (yüzü) {OQRP polygon} olan {CP given} katısı, tabanı {ACBL polygon} paralelkenarı ve karşıt (yüzü) {GEKN polygon} olan {CN given} katısına eşittir.
+Çünkü yine, onlar aynı taban, {ACBL polygon}, üzerindedir ve aynı yüksekliktedir ve onlardaki dikilen (doğruların uçları), {AG line}, {AO line}, {CE line}, {CQ line}, {LN line}, {LP line}, {BK line} ve {BR line}, aynı doğrular, {GQ line} ve {NR line}, üzerindedir [Önerme 11.29].
+Dolayısıyla, {CM given} katısı da {CN given} katısına eşittir.
 
-Thus, parallelepiped solids (which are) on the same base, and (have) the same height, and in which the (ends of the straight-lines) standing up are not on the same straight-lines, are equal to one another.
-(Which is) the very thing it was required to show.
+Böylece aynı taban üzerinde olan ve aynı yükseklikte olan ve dikilen (doğruların uçları) aynı doğrular üzerinde olmayan paralel yüzlü katılar birbirine eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

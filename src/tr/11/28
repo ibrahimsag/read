@@ -1,9 +1,10 @@
-If a parallelepiped solid is cut by a plane (passing) through the diagonals of (a pair of) opposite planes then the solid will be cut in half by the plane.
+Eğer bir paralel yüzlü katı, (bir çift) karşıt düzlemin köşegenlerinden geçen bir düzlem tarafından kesilirse o zaman katı, düzlem tarafından ikiye bölünecektir.
 
-For let the parallelepiped solid {AB given} have been cut by the plane {CDEF polygon} (passing) through the diagonals of the opposite planes {CF line} and {DE line}.
-I say that the solid {AB given} will be cut in half by the plane {CDEF polygon}.
+Çünkü paralel yüzlü katı {AB given}, {CF line} ve {DE line} karşıt düzlemlerinin köşegenlerinden geçen {CDEF polygon} düzlemi tarafından kesilmiş olsun.
+Diyorum ki {AB given} katısı, {CDEF polygon} düzlemi tarafından ikiye bölünecektir.
 
-For since triangle {CGF polygon} is equal to triangle {CFB polygon}, and {ADE polygon} (is equal) to {DEH polygon} [Prop. 1.34], and parallelogram {CA polygon} is also equal to {EB polygon}---for (they are) opposite [Prop. 11.24]---and {GE polygon} (equal) to {CH polygon}, thus the prism contained by the two triangles {CGF polygon} and {ADE polygon}, and the three parallelograms {GE polygon}, {AC polygon}, and {CE polygon}, is also equal to the prism contained by the two triangles {CFB polygon} and {DEH polygon}, and the three parallelograms {CH polygon}, {BE polygon}, and {CE polygon}.
-For they are contained by planes (which are) equal in number and in magnitude [Def. 11.10].
-Thus, the whole of solid {AB given} is cut in half by the plane {CDEF polygon}.
-(Which is) the very thing it was required to show.
+Çünkü {CGF polygon} üçgeni, {CFB polygon} üçgenine ve {ADE polygon}, {DEH polygon}'ye eşit olduğu için [Önerme 1.34] ve {CA polygon} paralelkenarı da {EB polygon}'ye eşit olduğu için --- çünkü (onlar) karşıttır [Önerme 11.24] --- ve {GE polygon}, {CH polygon}'ye (eşit) olduğu için, böylece iki üçgen {CGF polygon} ve {ADE polygon} ve üç paralelkenar {GE polygon}, {AC polygon} ve {CE polygon} tarafından çevrili prizma, iki üçgen {CFB polygon} ve {DEH polygon} ve üç paralelkenar {CH polygon}, {BE polygon} ve {CE polygon} tarafından çevrili prizmaya da eşittir.
+Çünkü onlar sayı ve büyüklük olarak eşit düzlemler tarafından çevrelidir [Tanım 11.10].
+Böylece {AB given} katısının bütünü, {CDEF polygon} düzlemi tarafından ikiye bölünür.
+(Gösterilmesi gereken tam olarak budur.)
+

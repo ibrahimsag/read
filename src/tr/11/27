@@ -1,18 +1,19 @@
-To describe a parallelepiped solid similar, and similarly laid out, to a given parallelepiped solid on a given straight-line.
+Verilmiş bir doğru üzerinde, verilmiş bir paralel yüzlü katıya benzer ve benzer şekilde düzenlenmiş bir paralel yüzlü katı betimlemek.
 
-Let the given straight-line be {AB line}, and the given parallelepiped solid {CD given}.
-So, it is necessary to describe a parallelepiped solid similar, and similarly laid out, to the given parallelepiped solid {CD given} on the given straight-line {AB line}.
+Verilmiş doğru {AB line} ve verilmiş paralel yüzlü katı {CD given} olsun.
+Öyleyse verilmiş {AB line} doğrusu üzerinde, verilmiş {CD given} paralel yüzlü katısına benzer ve benzer şekilde düzenlenmiş bir paralel yüzlü katı betimlemek gerekiyor.
 
-For, let a (solid angle) contained by the (plane angles) {BAH angle}, {HAK angle}, and {KAB angle} have been constructed, equal to solid angle at {C given}, on the straight-line {AB line} at the point {A point} on it [Prop. 11.26], such that angle {BAH angle} is equal to {ECF angle}, and {BAK angle} to {ECG angle}, and {KAH angle} to {GCF angle}.
-And let it have been contrived that as {EC line} (is) to {CG line}, so {BA line} (is) to {AK line}, and as {GC line} (is) to {CF line}, so {KA line} (is) to {AH line} [Prop. 6.12].
-And thus, via equality, as {EC line} is to {CF line}, so {BA line} (is) to {AH line} [Prop. 5.22].
-And let the parallelogram {HB polygon} have been completed, and the solid {AL given}.
+Çünkü (düzlem) açılar {BAH angle}, {HAK angle} ve {KAB angle} tarafından çevrili (bir katı açı), {C given}'deki katı açıya eşit olarak, {AB line} doğrusu üzerinde, onun üzerindeki {A point} noktasında inşa edilmiş olsun [Önerme 11.26], öyle ki {BAH angle} açısı, {ECF angle}'a ve {BAK angle}, {ECG angle}'a ve {KAH angle}, {GCF angle}'a eşit olsun.
+Ve {EC line}, {CG line}'ye nasılsa, {BA line}'nın {AK line}'a ve {GC line}, {CF line}'a nasılsa, {KA line}'nın {AH line}'ye öyle olması düzenlenmiş olsun [Önerme 6.12].
+Ve böylece eşitlik yoluyla, {EC line}, {CF line}'a nasılsa, {BA line} de {AH line}'ye öyledir [Önerme 5.22].
+Ve {HB polygon} paralelkenarı ve {AL given} katısı tamamlanmış olsun.
 
-And since as {EC line} is to {CG line}, so {BA line} (is) to {AK line}, and the sides about the equal angles {ECG angle} and {BAK angle} are (thus) proportional, the parallelogram {GE polygon} is thus similar to the parallelogram {KB polygon}.
-So, for the same (reasons), the parallelogram {KH polygon} is also similar to the parallelogram {GF polygon}, and, further, {FE polygon} (is similar) to {HB polygon}.
-Thus, three of the parallelograms of solid {CD given} are similar to three of the parallelograms of solid {AL given}.
-But, the (former) three are equal and similar to the three opposite, and the (latter) three are equal and similar to the three opposite.
-Thus, the whole solid {CD given} is similar to the whole solid {AL given} [Def. 11.9].
+Ve {EC line}, {CG line}'ye nasılsa, {BA line} de {AK line}'a öyle olduğu ve eşit açılar {ECG angle} ve {BAK angle}'ın yanındaki kenarlar (böylece) orantılı olduğu için, {GE polygon} paralelkenarı böylece {KB polygon} paralelkenarına benzerdir.
+Öyleyse aynı (nedenlerle), {KH polygon} paralelkenarı da {GF polygon} paralelkenarına benzerdir ve dahası {FE polygon}, {HB polygon}'ya (benzerdir).
+Böylece {CD given} katısının üç paralelkenarı, {AL given} katısının üç paralelkenarına benzerdir.
+Fakat (önceki) üç, üç karşıt (düzleme) eşit ve benzerdir ve (sonraki) üç, üç karşıt (düzleme) eşit ve benzerdir.
+Böylece bütün {CD given} katısı, bütün {AL given} katısına benzerdir [Tanım 11.9].
 
-Thus, {AL given}, similar, and similarly laid out, to the given parallelepiped solid {CD given}, has been described on the given straight-lines {AB line}.
-(Which is) the very thing it was required to do.
+Böylece {AL given}, verilmiş {CD given} paralel yüzlü katısına benzer ve benzer şekilde düzenlenmiş olarak, verilmiş {AB line} doğrusu üzerinde betimlemiştir.
+(Yapılması gereken tam olarak budur.)
+

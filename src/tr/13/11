@@ -1,63 +1,64 @@
-If an equilateral pentagon is inscribed in a circle which has a rational diameter then the side of the pentagon is that irrational (straight-line) called minor.
+Eğer bir eşkenarlı beşgen, rasyonel çapa sahip bir çembere içyazılırsa o zaman beşgenin kenarı, minör olarak adlandırılan irrasyonel (doğru)dur.
 
-For let the equilateral pentagon {ABCDE polygon} have been inscribed in the circle {ABCDE circle F} which has a rational diameter.
-I say that the side of pentagon [{ABCDE polygon}] is that irrational (straight-line) called minor.
+Çünkü eşkenarlı {ABCDE polygon} beşgeni, rasyonel çapa sahip {ABCDE circle F} çemberine içyazılmış olsun.
+Diyorum ki [{ABCDE polygon}] beşgeninin kenarı, minör olarak adlandırılan irrasyonel (doğru)dur.
 
-For let the center of the circle, point {F point}, have been found [Prop. 3.1].
-And let {AF line} and {FB line} have been joined.
-And let them have been drawn across to points {G point} and {H point} (respectively).
-And let {AC line} have been joined.
-And let {FK line} made (equal) to the fourth part of {AF line}.
-And {AF line} (is) rational.
-{FK line} (is) thus also rational.
-And {BF line} is also rational.
-Thus, the whole of {BK line} is rational.
-And since circumference {ACG arcc F} is equal to circumference {ADG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remainder {CG arcc F} is thus equal to the remainder {GD arcc F}.
-And if we join {AD line} then the angles at {L point} are inferred (to be) right-angles, and {CD line} (is inferred to be) double {CL line} [Prop. 1.4].
-So, for the same (reasons), the (angles) at {M point} are also right-angles, and {AC line} (is) double {CM line}.
-Therefore, since angle {ALC angle} (is) equal to {AMF angle}, and (angle) {LAC angle} (is) common to the two triangles {ACL polygon} and {AMF polygon}, the remaining (angle) {ACL angle} is thus equal to the remaining (angle) {MFA angle} [Prop. 1.32].
-Thus, triangle {ACL polygon} is equiangular to triangle {AMF polygon}.
-Thus, proportionally, as {LC line} (is) to {CA line}, so {MF line} (is) to {FA line} [Prop. 6.4].
-And (we can take) the doubles of the leading (magnitudes).
-Thus, as double {LC line} (is) to {CA line}, so double {MF line} (is) to {FA line}.
-And as double {MF line} (is) to {FA line}, so {MF line} (is) to half of {FA line}.
-And, thus, as double {LC line} (is) to {CA line}, so {MF line} (is) to half of {FA line}.
-And (we can take) the halves of the following (magnitudes).
-Thus, as double {LC line} (is) to half of {CA line}, so {MF line} (is) to the fourth of {FA line}.
-And {DC line} is double {LC line}, and {CM line} half of {CA line}, and {FK line} the fourth part of {FA line}.
-Thus, as {DC line} is to {CM line}, so {MF line} (is) to {FK line}.
-Via composition, as the sum of DCM (i.e., {DC line} and {CM line}) (is) to {CM line}, so {MK line} (is) to {KF line} [Prop. 5.18].
-And, thus, as the (square) on the sum of {DC line} and {CM line} (is) to the (square) on {CM line}, so the (square) on {MK line} (is) to the (square) on {KF line}.
-And since the greater piece of a (straight-line) subtending two sides of a pentagon, such as {AC line}, (which is) cut in extreme and mean ratio is equal to the side of the pentagon [Prop. 13.8] --- that is to say, to {DC line} --- and the square on the greater piece added to half of the whole is five times the (square) on half of the whole [Prop. 13.1], and {CM line} (is) half of the whole, {AC line}, thus the (square) on {DC line} and {CM line}, (taken) as one, is five times the (square) on {CM line}.
-And the (square) on {DC line} and {CM line}, (taken) as one, (is) to the (square) on {CM line}, so the (square) on {MK line} was shown (to be) to the (square) on {KF line}.
-Thus, the (square) on {MK line} (is) five times the (square) on {KF line}.
-And the square on {KF line} (is) rational.
-For the diameter (is) rational.
-Thus, the (square) on {MK line} (is) also rational.
-Thus, {MK line} is rational [in square only].
-And since {BF line} is four times {FK line}, {BK line} is thus five times {KF line}.
-Thus, the (square) on {BK line} (is) twenty-five times the (square) on {KF line}.
-And the (square) on {MK line} (is) five times the square on {KF line}.
-Thus, the (square) on {BK line} (is) five times the (square) on {KM line}.
-Thus, the (square) on {BK line} does not have to the (square) on {KM line} the ratio which a square number (has) to a square number.
-Thus, {BK line} is incommensurable in length with {KM line} [Prop. 10.9].
-And each of them is a rational (straight-line).
-Thus, {BK line} and {KM line} are rational (straight-lines which are) commensurable in square only.
-And if from a rational (straight-line) a rational (straight-line) is subtracted, which is commensurable in square only with the whole, then the remainder is that irrational (straight-line called) an apotome [Prop. 10.73].
-Thus, {MB line} is an apotome, and {MK line} its attachment.
-So, I say that (it is) also a fourth (apotome).
-So, let the (square) on {N given} be (made) equal to that (magnitude) by which the (square) on {BK line} is greater than the (square) on {KM line}.
-Thus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on {N given}.
-And since {KF line} is commensurable (in length) with {FB line} then, via composition, {KB line} is also commensurable (in length) with {FB line} [Prop. 10.15].
-But, {BF line} is commensurable (in length) with {BH line}.
-Thus, {BK line} is also commensurable (in length) with {BH line} [Prop. 10.12].
-And since the (square) on {BK line} is five times the (square) on {KM line}, the (square) on {BK line} thus has to the (square) on {KM line} the ratio which 5 (has) to one.
-Thus, via conversion, the (square) on {BK line} has to the (square) on {N given} the ratio which 5 (has) to 4 [Prop. 5.19 corr.], which is not (that) of a square (number) to a square (number).
-{BK line} is thus incommensurable (in length) with {N given} [Prop. 10.9].
-Thus, the square on {BK line} is greater than the (square) on {KM line} by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}).
-Therefore, since the square on the whole, {BK line}, is greater than the (square) on the attachment, {KM line}, by the (square) on (some straight-line which is) incommensurable (in length) with ({BK line}), and the whole, {BK line}, is commensurable (in length) with the (previously) laid down rational (straight-line) {BH line}, {MB line} is thus a fourth apotome [Def. 10.14].
-And the rectangle contained by a rational (straight-line) and a fourth apotome is irrational, and its square-root is that irrational (straight-line) called minor [Prop. 10.94].
-And the square on {AB line} is the rectangle contained by {HB line} and {BM line}, on account of joining {AH line}, (so that) triangle {ABH polygon} becomes equiangular with triangle {ABM polygon} [Prop. 6.8], and (proportionally) as {HB line} is to {BA line}, so {AB line} (is) to {BM line}.
+Çünkü çemberin merkezi, {F point} noktası, bulunmuş olsun [Önerme 3.1].
+Ve {AF line} ve {FB line} birleştirilmiş olsun.
+Ve onlar (sırasıyla) {G point} ve {H point} noktalarına kadar geçirilmiş olsun.
+Ve {AC line} birleştirilmiş olsun.
+Ve {FK line}, {AF line}'nin dörtte birine (eşit) yapılmış olsun.
+Ve {AF line} rasyoneldir.
+{FK line} böylece de rasyoneldir.
+Ve {BF line} de rasyoneldir.
+Böylece bütün {BK line} rasyoneldir.
+Ve {ACG arcc F} çevresi, {ADG arc F} çevresine eşit olduğu ve bunlardan {ABC arcc F}, {AED arc F}'ye eşit olduğu için, kalan {CG arcc F} böylece kalan {GD arcc F}'ye eşittir.
+Ve eğer {AD line}'yi birleştirirsek o zaman {L point}'deki açıların dik açılar olduğu ve {CD line}'nin, {CL line}'nin iki katı olduğu çıkarılır [Önerme 1.4].
+Öyleyse aynı (nedenlerle), {M point}'deki (açılar) da dik açılardır ve {AC line}, {CM line}'nin iki katıdır.
+Öyleyse {ALC angle} açısı, {AMF angle}'ye eşit olduğu ve {LAC angle} (açısı), {ACL polygon} ve {AMF polygon} iki üçgeninde ortak olduğu için, kalan {ACL angle} (açısı) böylece kalan {MFA angle} (açısına) eşittir [Önerme 1.32].
+Böylece {ACL polygon} üçgeni, {AMF polygon} üçgeni ile eşaçılıdır.
+Böylece orantılı olarak, {LC line}, {CA line}'ya nasılsa, {MF line} de {FA line}'ya öyledir [Önerme 6.4].
+Ve (önceki büyüklüklerin) iki katlarını (alabiliriz).
+Böylece {LC line}'nin iki katı, {CA line}'ya nasılsa, {MF line}'nin iki katı da {FA line}'ya öyledir.
+Ve {MF line}'nin iki katı, {FA line}'ya nasılsa, {MF line} de {FA line}'nın yarısına öyledir.
+Ve böylece {LC line}'nin iki katı, {CA line}'ya nasılsa, {MF line} de {FA line}'nın yarısına öyledir.
+Ve (sonraki büyüklüklerin) yarılarını (alabiliriz).
+Böylece {LC line}'nin iki katı, {CA line}'nın yarısına nasılsa, {MF line} de {FA line}'nın dörtte birine öyledir.
+Ve {DC line}, {LC line}'nin iki katı ve {CM line}, {CA line}'nın yarısı ve {FK line}, {FA line}'nın dörtte biridir.
+Böylece {DC line}, {CM line}'ye nasılsa, {MF line} de {FK line}'ye öyledir.
+Bileşik olarak, DCM'nin toplamı (yani {DC line} ve {CM line}), {CM line}'ye nasılsa, {MK line} de {KF line}'ye öyledir [Önerme 5.18].
+Ve böylece {DC line} ve {CM line} toplamı üzerindeki (kare), {CM line} üzerindeki (kareye) nasılsa, {MK line} üzerindeki (kare) de {KF line} üzerindeki (kareye) öyledir.
+Ve beşgenin iki kenarının altına gerilen (bir doğrunun), {AC line} gibi, son ve orta orana göre kesilmesinin büyük parçası, beşgenin kenarına eşit olduğu için [Önerme 13.8] --- yani {DC line}'ye --- ve büyük parça üzerindeki kare, bütünün yarısına eklenerek, bütünün yarısı üzerindeki (karenin) beş katı olduğu için [Önerme 13.1] ve {CM line}, bütünün, {AC line}'nin, yarısı olduğu için, böylece {DC line} ve {CM line} üzerindeki (kare), (birlikte alınarak), {CM line} üzerindeki (karenin) beş katıdır.
+Ve {DC line} ve {CM line} üzerindeki (karenin), (birlikte alınarak), {CM line} üzerindeki (kareye) nasıl olduğu, {MK line} üzerindeki (karenin), {KF line} üzerindeki (kareye) nasıl olduğunu gösterdi.
+Böylece {MK line} üzerindeki (kare), {KF line} üzerindeki (karenin) beş katıdır.
+Ve {KF line} üzerindeki kare rasyoneldir.
+Çünkü çap rasyoneldir.
+Böylece {MK line} üzerindeki (kare) de rasyoneldir.
+Böylece {MK line} rasyoneldir [yalnızca karede].
+Ve {BF line}, {FK line}'nin dört katı olduğu için, {BK line} böylece {KF line}'nin beş katıdır.
+Böylece {BK line} üzerindeki (kare), {KF line} üzerindeki (karenin) yirmi beş katıdır.
+Ve {MK line} üzerindeki (kare), {KF line} üzerindeki karenin beş katıdır.
+Böylece {BK line} üzerindeki (kare), {KM line} üzerindeki (karenin) beş katıdır.
+Böylece {BK line} üzerindeki (kare), {KM line} üzerindeki (kareye), bir kare sayının bir kare sayıya (sahip olduğu) orana sahip değildir.
+Böylece {BK line}, {KM line} ile uzunlukta ölçülemezdir [Önerme 10.9].
+Ve onların her biri bir rasyonel (doğru)dur.
+Böylece {BK line} ve {KM line}, yalnızca karede ölçülebilir rasyonel (doğrular)dır.
+Ve eğer bir rasyonel (doğrudan), bütün ile yalnızca karede ölçülebilir bir rasyonel (doğru) çıkarılırsa o zaman kalan, (apotom olarak adlandırılan) irrasyonel (doğru)dur [Önerme 10.73].
+Böylece {MB line} bir apotomdur ve {MK line} onun eki'dir.
+Öyleyse diyorum ki (o) ayrıca bir dördüncü (apotom)dur.
+Öyleyse {N given} üzerindeki (kare), {BK line} üzerindeki (karenin) {KM line} üzerindeki (kareden) büyük olduğu (büyüklüğe) eşit (yapılmış) olsun.
+Böylece {BK line} üzerindeki kare, {KM line} üzerindeki (kareden), {N given} üzerindeki (kare) kadar büyüktür.
+Ve {KF line}, {FB line} ile (uzunlukta) ölçülebilir olduğu için o zaman bileşik olarak, {KB line} de {FB line} ile (uzunlukta) ölçülebilirdir [Önerme 10.15].
+Fakat {BF line}, {BH line} ile (uzunlukta) ölçülebilirdir.
+Böylece {BK line} de {BH line} ile (uzunlukta) ölçülebilirdir [Önerme 10.12].
+Ve {BK line} üzerindeki (kare), {KM line} üzerindeki (karenin) beş katı olduğu için, {BK line} üzerindeki (kare) böylece {KM line} üzerindeki (kareye), 5'in bire (sahip olduğu) orana sahiptir.
+Böylece tersine, {BK line} üzerindeki (kare), {N given} üzerindeki (kareye), 5'in 4'e (sahip olduğu) orana sahiptir [Önerme 5.19 ek sonucu], ki bu bir kare (sayının) bir kare (sayıya olan oranı) değildir.
+{BK line} böylece {N given} ile (uzunlukta) ölçülemezdir [Önerme 10.9].
+Böylece {BK line} üzerindeki kare, {KM line} üzerindeki (kareden), ({BK line}) ile (uzunlukta) ölçülemez (bir doğru) üzerindeki (kare) kadar büyüktür.
+Öyleyse bütün, {BK line}, üzerindeki kare, ek, {KM line}, üzerindeki (kareden), ({BK line}) ile (uzunlukta) ölçülemez (bir doğru) üzerindeki (kare) kadar büyük olduğu ve bütün, {BK line}, (daha önce) konulan rasyonel (doğru) {BH line} ile (uzunlukta) ölçülebilir olduğu için, {MB line} böylece bir dördüncü apotomdur [Tanım 10.14].
+Ve bir rasyonel (doğru) ve bir dördüncü apotom tarafından kapsanan dikdörtgen, irrasyoneldir ve karekökü, minör olarak adlandırılan irrasyonel (doğru)dur [Önerme 10.94].
+Ve {AB line} üzerindeki kare, {HB line} ve {BM line} tarafından kapsanan dikdörtgendir, {AH line} birleştirildiği için (böylece) {ABH polygon} üçgeni, {ABM polygon} üçgeni ile eşaçılı olur [Önerme 6.8] ve (orantılı olarak) {HB line}, {BA line}'ya nasılsa, {AB line} de {BM line}'ye öyledir.
 
-Thus, the side {AB line} of the pentagon is that irrational (straight-line) called minor.
-(Which is) the very thing it was required to show.
+Böylece beşgenin {AB line} kenarı, minör olarak adlandırılan irrasyonel (doğru)dur.
+(Gösterilmesi gereken tam olarak budur.)
+

@@ -1,22 +1,23 @@
-If two straight-lines joined to one another are parallel (respectively) to two straight-lines joined to one another, which are not in the same plane, then the planes through them are parallel (to one another).
+Eğer birbirine birleştirilen iki doğru, aynı düzlemde olmayan, birbirine birleştirilen iki doğruya (sırasıyla) paralelse o zaman onlardan geçen düzlemler (birbirine) paraleldir.
 
-For let the two straight-lines joined to one another, {AB line} and {BC line}, be parallel to the two straight-lines joined to one another, {DE line} and {EF line} (respectively), not being in the same plane.
-I say that the planes through {AB line}, {BC line} and {DE line}, {EF line} will not meet one another (when) produced.
+Çünkü birbirine birleştirilen iki doğru, {AB line} ve {BC line}, aynı düzlemde olmayarak, birbirine birleştirilen iki doğruya, {DE line} ve {EF line}'a, (sırasıyla) paralel olsun.
+Diyorum ki {AB line}, {BC line}'den ve {DE line}, {EF line}'dan geçen düzlemler, üretildiklerinde, birbirleriyle karşılaşmayacaktır.
 
-For let {BG line} have been drawn from point {B point} perpendicular to the plane through {DE line} and {EF line} [Prop. 11.11], and let it meet the plane at point {G point}.
-And let {GH line} have been drawn through {G point} parallel to {ED line}, and {GK line} (parallel) to {EF line} [Prop. 1.31].
+Çünkü {BG line}, {B point} noktasından {DE line} ve {EF line}'dan geçen düzleme dik olarak çizilmiş olsun [Önerme 11.11] ve düzlemle {G point} noktasında karşılaşsın.
+Ve {GH line}, {G point}'den geçen {ED line}'ye paralel ve {GK line}, {EF line}'a (paralel) olarak çizilmiş olsun [Önerme 1.31].
 
-And since {BG line} is at right-angles to the plane through {DE line} and {EF line}, it will thus also make right-angles with all of the straight-lines joined to it, which are also in the plane through {DE line} and {EF line} [Def. 11.3].
-And each of {GH line} and {GK line}, which are in the plane through {DE line} and {EF line}, are joined to it.
-Thus, each of the angles {BGH angle} and {BGK angle} are right-angles.
-And since {BA line} is parallel to {GH line} [Prop. 11.9], the (sum of the) angles {GBA angle} and {BGH angle} is equal to two right-angles [Prop. 1.29].
-And {BGH angle} (is) a right-angle.
-{GBA angle} (is) thus also a right-angle.
-Thus, {GB line} is at right-angles to {BA line}.
-So, for the same (reasons), {GB line} is also at right-angles to {BC line}.
-Therefore, since the straight-line {GB line} has been set up at right-angles to two straight-lines, {BA line} and {BC line}, cutting one another, {GB line} is thus at right-angles to the plane through {BA line} and {BC line} [Prop. 11.4].
-And planes to which the same straight-line is at right-angles are parallel planes [Prop. 11.14].
-Thus, the plane through {AB line} and {BC line} is parallel to the (plane) through {DE line} and {EF line}.
+Ve {BG line}, {DE line} ve {EF line}'dan geçen düzleme dik açılarda olduğu için, o böylece ona birleştirilmiş ve ayrıca {DE line} ve {EF line}'dan geçen düzlemde bulunan tüm doğrularla da dik açılar yapacaktır [Tanım 11.3].
+Ve {DE line} ve {EF line}'dan geçen düzlemde bulunan {GH line} ve {GK line}'ın her biri, ona birleştirilmiştir.
+Böylece {BGH angle} ve {BGK angle} açılarının her biri dik açılardır.
+Ve {BA line}, {GH line}'ye paralel olduğu için [Önerme 11.9], {GBA angle} ve {BGH angle} açılarının (toplamı) iki dik açıya eşittir [Önerme 1.29].
+Ve {BGH angle} bir dik açıdır.
+{GBA angle} böylece de bir dik açıdır.
+Böylece {GB line}, {BA line}'ya dik açılardadır.
+Öyleyse aynı (nedenlerle), {GB line}, {BC line}'ye de dik açılardadır.
+Öyleyse {GB line} doğrusu, birbirini kesen iki doğruya, {BA line} ve {BC line}'ye, dik açılarla dikildiği için, {GB line} böylece {BA line} ve {BC line}'den geçen düzleme dik açılardadır [Önerme 11.4].
+Ve aynı doğrunun dik açılarda olduğu düzlemler, paralel düzlemlerdir [Önerme 11.14].
+Böylece {AB line} ve {BC line}'den geçen düzlem, {DE line} ve {EF line}'dan geçen (düzleme) paraleldir.
 
-Thus, if two straight-lines joined to one another are parallel (respectively) to two straight-lines joined to one another, which are not in the same plane, then the planes through them are parallel (to one another).
-(Which is) the very thing it was required to show.
+Böylece eğer birbirine birleştirilen iki doğru, aynı düzlemde olmayan, birbirine birleştirilen iki doğruya (sırasıyla) paralelse o zaman onlardan geçen düzlemler (birbirine) paraleldir.
+(Gösterilmesi gereken tam olarak budur.)
+

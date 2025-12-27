@@ -1,22 +1,23 @@
-If a solid angle is contained by three plane angles then (the sum of) any two (angles) is greater than the remaining (one), (the angles) being taken up in any (possible way).
+Eğer bir katı açı üç düzlem açı tarafından çevrelenirse o zaman herhangi ikisinin (toplamı), (açılar) herhangi bir (olası şekilde) alınarak, kalan(dan) büyüktür.
 
-For let the solid angle {A given} have been contained by the three plane angles {BAC angle}, {CAD angle}, and {DAB angle}.
-I say that (the sum of) any two of the angles {BAC angle}, {CAD angle}, and {DAB angle} is greater than the remaining (one), (the angles) being taken up in any (possible way).
+Çünkü katı açı {A given}, üç düzlem açı {BAC angle}, {CAD angle} ve {DAB angle} tarafından çevrelenmiş olsun.
+Diyorum ki {BAC angle}, {CAD angle} ve {DAB angle} açılarından herhangi ikisinin (toplamı), (açılar) herhangi bir (olası şekilde) alınarak, kalan(dan) büyüktür.
 
-For if the angles {BAC angle}, {CAD angle}, and {DAB angle} are equal to one another then (it is) clear that (the sum of) any two is greater than the remaining (one).
-But, if not, let {BAC angle} be greater (than {CAD angle} or {DAB angle}).
-And let (angle) {BAE angle}, equal to the angle {DAB angle}, have been constructed in the plane through {BAC polygon}, on the straight-line {AB line}, at the point {A point} on it.
-And let {AE line} be made equal to {AD line}. And {BEC line} being drawn across through point {E point}, let it cut the straight-lines {AB line} and {AC line} at points {B point} and {C point} (respectively).
-And let {DB line} and {DC line} have been joined.
+Çünkü eğer {BAC angle}, {CAD angle} ve {DAB angle} açıları birbirine eşitse o zaman herhangi ikisinin (toplamının) kalan(dan) büyük olduğu açıktır.
+Fakat değilse, {BAC angle}, ({CAD angle} veya {DAB angle}'dan) büyük olsun.
+Ve {DAB angle} açısına eşit ({BAE angle} açısı), {BAC polygon}'dan geçen düzlemde, {AB line} doğrusu üzerinde, onun üzerindeki {A point} noktasında inşa edilmiş olsun.
+Ve {AE line}, {AD line}'a eşit yapılmış olsun. Ve {BEC line}, {E point} noktasından geçerek çizilerek, {AB line} ve {AC line} doğrularını (sırasıyla) {B point} ve {C point} noktalarında kessin.
+Ve {DB line} ve {DC line} birleştirilmiş olsun.
 
-And since {DA line} is equal to {AE line}, and {AB line} (is) common, the two (straight-lines {AD line} and {AB line} are) equal to the two (straight-lines {EA line} and {AB line}, respectively).
-And angle {DAB angle} (is) equal to angle {BAE angle}.
-Thus, the base {DB line} is equal to the base {BE line} [Prop. 1.4].
-And since the (sum of the) two (straight-lines) {BD line} and {DC line} is greater than {BC line} [Prop. 1.20], of which {DB line} was shown (to be) equal to {BE line}, the remainder {DC line} is thus greater than the remainder {EC line}.
-And since {DA line} is equal to {AE line}, but {AC line} (is) common, and the base {DC line} is greater than the base {EC line}, the angle {DAC angle} is thus greater than the angle {EAC angle} [Prop. 1.25].
-And {DAB angle} was also shown (to be) equal to {BAE angle}.
-Thus, (the sum of) {DAB angle} and {DAC angle} is greater than {BAC angle}.
-So, similarly, we can also show that the remaining (angles), being taken in pairs, are greater than the remaining (one).
+Ve {DA line}, {AE line}'ye eşit olduğu ve {AB line} ortak olduğu için, iki (doğru {AD line} ve {AB line}), iki (doğruya {EA line} ve {AB line}'ye) sırasıyla eşittir.
+Ve {DAB angle} açısı, {BAE angle} açısına eşittir.
+Böylece taban {DB line}, taban {BE line}'ye eşittir [Önerme 1.4].
+Ve iki (doğrunun) {BD line} ve {DC line} (toplamı), {BC line}'den büyük olduğu için [Önerme 1.20], bunlardan {DB line}'nin {BE line}'ye eşit olduğu gösterildiği için, kalan {DC line} böylece kalan {EC line}'den büyüktür.
+Ve {DA line}, {AE line}'ye eşit olduğu, fakat {AC line} ortak olduğu ve taban {DC line}, taban {EC line}'den büyük olduğu için, {DAC angle} açısı böylece {EAC angle} açısından büyüktür [Önerme 1.25].
+Ve {DAB angle}'ın da {BAE angle}'a eşit olduğu gösterildi.
+Böylece {DAB angle} ve {DAC angle}'ın (toplamı), {BAC angle}'dan büyüktür.
+Öyleyse benzer şekilde, kalan (açıların), ikişer alınarak, kalan(dan) büyük olduğunu da gösterebiliriz.
 
-Thus, if a solid angle is contained by three plane angles then (the sum of) any two (angles) is greater than the remaining (one), (the angles) being taken up in any (possible way).
-(Which is) the very thing it was required to show.
+Böylece eğer bir katı açı üç düzlem açı tarafından çevrelenirse o zaman herhangi ikisinin (toplamı), (açılar) herhangi bir (olası şekilde) alınarak, kalan(dan) büyüktür.
+(Gösterilmesi gereken tam olarak budur.)
+

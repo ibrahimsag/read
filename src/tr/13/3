@@ -1,28 +1,29 @@
-If a straight-line is cut in extreme and mean ratio then the square on the lesser piece added to half of the greater piece is five times the square on half of the greater piece.
+Eğer bir doğru, son ve orta orana göre kesilirse o zaman küçük parça üzerindeki kare, büyük parçanın yarısına eklenerek, büyük parçanın yarısı üzerindeki karenin beş katıdır.
 
-For let some straight-line {AB line} have been cut in extreme and mean ratio at point {C point}.
-And let {AC line} be the greater piece.
-And let {AC line} have been cut in half at {D point}.
-I say that the (square) on {BD line} is five times the (square) on {DC line}.
+Çünkü bir {AB line} doğrusu, {C point} noktasında son ve orta orana göre kesilmiş olsun.
+Ve {AC line}, büyük parça olsun.
+Ve {AC line}, {D point}'de ikiye bölünmüş olsun.
+Diyorum ki {BD line} üzerindeki (kare), {DC line} üzerindeki (karenin) beş katıdır.
 
-For let the square {AE polygon} have been described on {AB line}.
-And let the figure have been drawn double.
-Since {AC line} is double {DC line}, the (square) on {AC line} (is) thus four times the (square) on {DC line}—that is to say, {RS polygon} (is four times) {FG polygon}.
-And since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17], and {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, {CE polygon} is thus equal to {RS polygon}.
-And {RS polygon} (is) four times {FG polygon}.
-Thus, {CE polygon} (is) also four times {FG polygon}.
-Again, since {AD line} is equal to {DC line}, {HK line} is also equal to {KF line}.
-Hence, square {GF polygon} is also equal to square {HL polygon}.
-Thus, {GK line} (is) equal to {KL line} ---that is to say, {MN line} to {NE line}.
-Hence, {MF polygon} is also equal to {FE polygon}.
-But, {MF polygon} is equal to {CG polygon}.
-Thus, {CG polygon} is also equal to {FE polygon}.
-Let {CN polygon} have been added to both.
-Thus, gnomon {OPQ given} is equal to {CE polygon}.
-But, {CE polygon} was shown (to be) equal to four times {GF polygon}.
-Thus, gnomon {OPQ given} is also four times square {FG polygon}.
-Thus, gnomon {OPQ given} plus square {FG polygon} is five times {FG polygon}.
-But, gnomon {OPQ given} plus square {FG polygon} is (square) {DN polygon}.
-And {DN polygon} is the (square) on {DB line}, and {GF polygon} the (square) on {DC line}.
-Thus, the (square) on {DB line} is five times the (square) on {DC line}.
-(Which is) the very thing it was required to show.
+Çünkü {AE polygon} karesi, {AB line} üzerinde betimlenmiş olsun.
+Ve şekil iki kere çizilmiş olsun.
+{AC line}, {DC line}'nin iki katı olduğu için, {AC line} üzerindeki (kare) böylece {DC line} üzerindeki (karenin) dört katıdır --- yani {RS polygon}, {FG polygon}'nin (dört katıdır).
+Ve ({AB line} ve {BC line} tarafından kapsanan dikdörtgen), {AC line} üzerindeki (kareye) eşit olduğu [Tanım 6.3, Önerme 6.17] ve {CE polygon}, ({AB line} ve {BC line} tarafından kapsanan dikdörtgen) olduğu için, {CE polygon} böylece {RS polygon}'ye eşittir.
+Ve {RS polygon}, {FG polygon}'nin dört katıdır.
+Böylece {CE polygon} de {FG polygon}'nin dört katıdır.
+Yine, {AD line}, {DC line}'ye eşit olduğu için, {HK line} de {KF line}'ye eşittir.
+Dolayısıyla {GF polygon} karesi de {HL polygon} karesine eşittir.
+Böylece {GK line}, {KL line}'ye eşittir --- yani {MN line}, {NE line}'ye.
+Dolayısıyla {MF polygon} de {FE polygon}'ye eşittir.
+Fakat {MF polygon}, {CG polygon}'ye eşittir.
+Böylece {CG polygon} de {FE polygon}'ye eşittir.
+{CN polygon} her ikisine de eklenmiş olsun.
+Böylece {OPQ given} gnomonu, {CE polygon}'ye eşittir.
+Fakat {CE polygon}'nin, {GF polygon}'nin dört katına eşit olduğu gösterildi.
+Böylece {OPQ given} gnomonu da {FG polygon} karesinin dört katıdır.
+Böylece {OPQ given} gnomonu artı {FG polygon} karesi, {FG polygon}'nin beş katıdır.
+Fakat {OPQ given} gnomonu artı {FG polygon} karesi, {DN polygon} (karesi)dir.
+Ve {DN polygon}, {DB line} üzerindeki (kare) ve {GF polygon}, {DC line} üzerindeki (kare)dir.
+Böylece {DB line} üzerindeki (kare), {DC line} üzerindeki (karenin) beş katıdır.
+(Gösterilmesi gereken tam olarak budur.)
+

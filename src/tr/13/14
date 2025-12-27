@@ -1,43 +1,44 @@
-To construct an octahedron, and to enclose (it) in a (given) sphere, like in the preceding (proposition), and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
+Bir sekizyüzlü inşa etmek ve onu, önceki (önermede olduğu gibi), (verilen) bir küreye almak ve kürenin çapı üzerindeki karenin, sekizyüzlünün kenarı üzerindeki (karenin) iki katı olduğunu göstermek.
 
-Let the diameter {AB line} of the given sphere be laid out, and let it have been cut in half at {C point}.
-And let the semi-circle {ADB arc C} have been drawn on {AB line}.
-And let {CD line} be drawn from {C point} at right-angles to {AB line}.
-And let {DB line} have been joined.
-And let the square {EFGH polygon}, having each of its sides equal to {DB line}, be laid out.
-And let {HF line} and {EG line} have been joined.
-And let the straight-line {KL line} have been set up, at point {K point}, at right-angles to the plane of square {EFGH polygon} [Prop. 11.12].
-And let it have been drawn across on the other side of the plane, like {KM line}.
-And let {KL line} and {KM line}, equal to one of {EK line}, {FK line}, {GK line}, and {HK line}, have been cut off from {KL line} and {KM line}, respectively.
-And let {LE line}, {LF line}, {LG line}, {LH line}, {ME line}, {MF line}, {MG line}, and {MH line} have been joined.
+Verilen kürenin {AB line} çapı konmuş olsun ve {C point}'de ikiye bölünmüş olsun.
+Ve {ADB arc C} yarım çemberi, {AB line} üzerinde çizilmiş olsun.
+Ve {CD line}, {C point}'den {AB line}'ye dik açılarda çizilmiş olsun.
+Ve {DB line} birleştirilmiş olsun.
+Ve kenarlarının her biri {DB line}'ye eşit olan {EFGH polygon} karesi konmuş olsun.
+Ve {HF line} ve {EG line} birleştirilmiş olsun.
+Ve {KL line} doğrusu, {K point} noktasında, {EFGH polygon} karesinin düzlemine dik açılarda dikilmiş olsun [Önerme 11.12].
+Ve düzlemin diğer tarafına, {KM line} gibi, geçirilmiş olsun.
+Ve {EK line}, {FK line}, {GK line} ve {HK line}'den birine eşit {KL line} ve {KM line}, sırasıyla {KL line} ve {KM line}'den kesilmiş olsun.
+Ve {LE line}, {LF line}, {LG line}, {LH line}, {ME line}, {MF line}, {MG line} ve {MH line} birleştirilmiş olsun.
 
-And since {KE line} is equal to {KH line}, and angle {EKH angle} is a right-angle, the (square) on the {HE line} is thus double the (square) on {EK line} [Prop. 1.47].
-Again, since {LK line} is equal to {KE line}, and angle {LKE angle} is a right-angle, the (square) on {EL line} is thus double the (square) on {EK line} [Prop. 1.47].
-And the (square) on {HE line} was also shown (to be) double the (square) on {EK line}.
-Thus, the (square) on {LE line} is equal to the (square) on {EH line}.
-Thus, {LE line} is equal to {EH line}.
-So, for the same (reasons), {LH line} is also equal to {HE line}.
-Triangle {LEH polygon} is thus equilateral.
-So, similarly, we can show that each of the remaining triangles, whose bases are the sides of the square {EFGH polygon}, and apexes the points {L point} and {M point}, are equilateral.
-Thus, an octahedron contained by eight equilateral triangles has been constructed.
+Ve {KE line}, {KH line}'ye eşit olduğu ve {EKH angle} açısı bir dik açı olduğu için, {HE line} üzerindeki (kare) böylece {EK line} üzerindeki (karenin) iki katıdır [Önerme 1.47].
+Yine, {LK line}, {KE line}'ye eşit olduğu ve {LKE angle} açısı bir dik açı olduğu için, {EL line} üzerindeki (kare) böylece {EK line} üzerindeki (karenin) iki katıdır [Önerme 1.47].
+Ve {HE line} üzerindeki (karenin) de {EK line} üzerindeki (karenin) iki katı olduğu gösterildi.
+Böylece {LE line} üzerindeki (kare), {EH line} üzerindeki (kareye) eşittir.
+Böylece {LE line}, {EH line}'ye eşittir.
+Öyleyse aynı (nedenlerle), {LH line} de {HE line}'ye eşittir.
+{LEH polygon} üçgeni böylece eşkenarlıdır.
+Öyleyse benzer şekilde, tabanları {EFGH polygon} karesinin kenarları ve tepeleri {L point} ve {M point} noktaları olan kalan üçgenlerin her birinin eşkenarlı olduğunu gösterebiliriz.
+Böylece sekiz eşkenarlı üçgen tarafından çevrelenen bir sekizyüzlü inşa edilmiştir.
 
-So, it is also necessary to enclose it by the given sphere, and to show that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
+Öyleyse onu verilen küre tarafından almak ve kürenin çapı üzerindeki karenin, sekizyüzlünün kenarı üzerindeki (karenin) iki katı olduğunu göstermek de gereklidir.
 
-For since the three (straight-lines) {LK line}, {KM line}, and {KE line} are equal to one another, the semi-circle drawn on {LM line} will thus also pass through {E point}.
-And, for the same (reasons), if {LM line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, then it will also pass through points {F point}, {G point}, and {H point}, and the octahedron will have been enclosed by a sphere.
-So, I say that (it is) also (enclosed) by the given (sphere).
-For since {LK line} is equal to {KM line}, and {KE line} (is) common, and they contain right-angles, the base {LE line} is thus equal to the base {EM line} [Prop. 1.4].
-And since angle {LEM angle} is a right-angle—for (it is) in a semi-circle [Prop. 3.31]—the (square) on {LM line} is thus double the (square) on {LE line} [Prop. 1.47].
-Again, since {AC line} is equal to {CB line}, {AB line} is double {BC line}.
-And as {AB line} (is) to {BC line}, so the (square) on {AB line} (is) to the (square) on {BD line} [Prop. 6.8, Def. 5.9].
-Thus, the (square) on {AB line} is double the (square) on {BD line}.
-And the (square) on {LM line} was also shown (to be) double the (square) on {LE line}.
-And the (square) on {DB line} is equal to the (square) on {LE line}.
-For {EH line} was made equal to {DB line}.
-Thus, the (square) on {AB line} (is) also equal to the (square) on {LM line}.
-Thus, {AB line} (is) equal to {LM line}.
-And {AB line} is the diameter of the given sphere.
-Thus, {LM line} is equal to the diameter of the given sphere.
+Çünkü üç (doğru) {LK line}, {KM line} ve {KE line} birbirine eşit olduğu için, {LM line} üzerinde çizilen yarım çember böylece {E point}'den de geçecektir.
+Ve aynı (nedenlerle), eğer {LM line} (sabit) kalırsa ve yarım çember etrafta döndürülürse ve hareket etmeye başladığı (konuma) tekrar yerleştirilirse o zaman {F point}, {G point} ve {H point} noktalarından da geçecektir ve sekizyüzlü bir küre tarafından alınmış olacaktır.
+Öyleyse diyorum ki (o) ayrıca verilen (küre tarafından da alınmıştır).
+Çünkü {LK line}, {KM line}'ye eşit olduğu ve {KE line} ortak olduğu ve dik açılar kapsadığı için, {LE line} tabanı böylece {EM line} tabanına eşittir [Önerme 1.4].
+Ve {LEM angle} açısı bir dik açı olduğu için --- çünkü (o) bir yarım çemberin içindedir [Önerme 3.31] --- {LM line} üzerindeki (kare) böylece {LE line} üzerindeki (karenin) iki katıdır [Önerme 1.47].
+Yine, {AC line}, {CB line}'ye eşit olduğu için, {AB line}, {BC line}'nin iki katıdır.
+Ve {AB line}, {BC line}'ye nasılsa, {AB line} üzerindeki (kare) de {BD line} üzerindeki (kareye) öyledir [Önerme 6.8, Tanım 5.9].
+Böylece {AB line} üzerindeki (kare), {BD line} üzerindeki (karenin) iki katıdır.
+Ve {LM line} üzerindeki (karenin) de {LE line} üzerindeki (karenin) iki katı olduğu gösterildi.
+Ve {DB line} üzerindeki (kare), {LE line} üzerindeki (kareye) eşittir.
+Çünkü {EH line}, {DB line}'ye eşit yapılmıştı.
+Böylece {AB line} üzerindeki (kare) de {LM line} üzerindeki (kareye) eşittir.
+Böylece {AB line}, {LM line}'ye eşittir.
+Ve {AB line}, verilen kürenin çapıdır.
+Böylece {LM line}, verilen kürenin çapına eşittir.
 
-Thus, the octahedron has been enclosed by the given sphere, and it has been simultaneously proved that the square on the diameter of the sphere is double the (square) on the side of the octahedron.
-(Which is) the very thing it was required to show.
+Böylece sekizyüzlü, verilen küre tarafından alınmıştır ve aynı zamanda kürenin çapı üzerindeki karenin, sekizyüzlünün kenarı üzerindeki (karenin) iki katı olduğu kanıtlanmıştır.
+(Gösterilmesi gereken tam olarak budur.)
+

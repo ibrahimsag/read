@@ -1,19 +1,20 @@
-If two straight-lines joined to one another are (respectively) parallel to two straight-lines joined to one another, (but are) not in the same plane, then they will contain equal angles.
+Eğer birbirine birleştirilen iki doğru, birbirine birleştirilen iki doğruya (sırasıyla) paralelse, (fakat) aynı düzlemde değilse, o zaman onlar eşit açılar içerecektir.
 
-For let the two straight-lines joined to one another, {AB line} and {BC line}, be (respectively) parallel to the two straight-lines joined to one another, {DE line} and {EF line}, (but) not in the same plane.
-I say that angle {ABC angle} is equal to (angle) {DEF angle}.
+Çünkü birbirine birleştirilen iki doğru, {AB line} ve {BC line}, birbirine birleştirilen iki doğruya, {DE line} ve {EF line}'a, (sırasıyla) paralel olsun, (fakat) aynı düzlemde değil.
+Diyorum ki {ABC angle} açısı, {DEF angle} (açısına) eşittir.
 
-For let {BA line}, {BC line}, {ED line}, and {EF line} have been cut off (so as to be, respectively) equal to one another.
-And let {AD line}, {CF line}, {BE line}, {AC line}, and {DF line} have been joined.
+Çünkü {BA line}, {BC line}, {ED line} ve {EF line}, (sırasıyla) birbirine eşit (olacak şekilde) kesilmiş olsun.
+Ve {AD line}, {CF line}, {BE line}, {AC line} ve {DF line} birleştirilmiş olsun.
 
-And since {BA line} is equal and parallel to {ED line}, {AD line} is thus also equal and parallel to {BE line} [Prop. 1.33].
-So, for the same reasons, {CF line} is also equal and parallel to {BE line}.
-Thus, {AD line} and {CF line} are each equal and parallel to {BE line}.
-And straight-lines parallel to the same straight-line, and which are not in the same plane as it, are also parallel to one another [Prop. 11.9].
-Thus, {AD line} is parallel and equal to {CF line}.
-And {AC line} and {DF line} join them.
-Thus, {AC line} is also equal and parallel to {DF line} [Prop. 1.33].
-And since the two (straight-lines) {AB line} and {BC line} are equal to the two (straight-lines) {DE line} and {EF line} (respectvely), and the base {AC line} (is) equal to the base {DF line}, the angle {ABC angle} is thus equal to the (angle) {DEF angle} [Prop. 1.8].
+Ve {BA line}, {ED line}'ye eşit ve paralel olduğu için, {AD line} böylece de {BE line}'ye eşit ve paraleldir [Önerme 1.33].
+Öyleyse aynı (nedenlerle), {CF line} de {BE line}'ye eşit ve paraleldir.
+Böylece {AD line} ve {CF line}'ın her biri, {BE line}'ye eşit ve paraleldir.
+Ve aynı doğruya paralel olan ve onunla aynı düzlemde olmayan doğrular, birbirlerine de paraleldir [Önerme 11.9].
+Böylece {AD line}, {CF line}'a paralel ve eşittir.
+Ve {AC line} ve {DF line} onları birleştirir.
+Böylece {AC line} de {DF line}'a eşit ve paraleldir [Önerme 1.33].
+Ve iki (doğru) {AB line} ve {BC line}, iki (doğruya) {DE line} ve {EF line}'a (sırasıyla) eşit olduğu ve taban {AC line}, taban {DF line}'a eşit olduğu için, {ABC angle} açısı böylece {DEF angle} (açısına) eşittir [Önerme 1.8].
 
-Thus, if two straight-lines joined to one another are (respectively) parallel to two straight-lines joined to one another, (but are) not in the same plane, then they will contain equal angles.
-(Which is) the very thing it was required to show.
+Böylece eğer birbirine birleştirilen iki doğru, birbirine birleştirilen iki doğruya (sırasıyla) paralelse, (fakat) aynı düzlemde değilse, o zaman onlar eşit açılar içerecektir.
+(Gösterilmesi gereken tam olarak budur.)
+

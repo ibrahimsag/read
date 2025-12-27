@@ -1,76 +1,77 @@
-The bases of equal parallelepiped solids are reciprocally proportional to their heights.
-And those parallelepiped solids whose bases are reciprocally proportional to their heights are equal.
+Eşit paralel yüzlü katıların tabanları, yüksekliklerine ters orantılıdır.
+Ve tabanları yüksekliklerine ters orantılı olan paralel yüzlü katılar eşittir.
 
-Let {AB given} and {CD given} be equal parallelepiped solids.
-I say that the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights, and (so) as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
+{AB given} ve {CD given} eşit paralel yüzlü katılar olsun.
+Diyorum ki {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılıdır ve (öyle ki) {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.
 
-{figure 1}For, first of all, let the (straight-lines) standing up, {AG line}, {EF line}, {LB line}, {HK line}, {CM line}, {NO line}, {PD line}, and {QR line}, be at right-angles to their bases.
-I say that as base {EH polygon} is to base {NQ polygon}, so {CM line} (is) to {AG line}.
+{şekil 1}Çünkü ilk olarak, dikilen (doğrular), {AG line}, {EF line}, {LB line}, {HK line}, {CM line}, {NO line}, {PD line} ve {QR line}, tabanlarına dik açılarda olsun.
+Diyorum ki {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CM line} de {AG line}'ye öyledir.
 
-Therefore, if base {EH polygon} is equal to base {NQ polygon}, and solid {AB given} is also equal to solid {CD given}, {CM line} will also be equal to {AG line}.
-For parallelepiped solids of the same height are to one another as their bases [Prop. 11.32].
-And as base {EH polygon} (is) to {NQ polygon}, so {CM line} will be to {AG line}.
-And (so it is) clear that the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
+Öyleyse eğer {EH polygon} tabanı {NQ polygon} tabanına eşitse ve {AB given} katısı da {CD given} katısına eşitse, {CM line} de {AG line}'ye eşit olacaktır.
+Çünkü aynı yükseklikteki paralel yüzlü katılar, birbirlerine tabanları gibidir [Önerme 11.32].
+Ve {EH polygon} tabanı {NQ polygon}'a nasılsa, {CM line} de {AG line}'ye öyle olacaktır.
+Ve {AB given} ve {CD given} paralel yüzlü katılarının tabanlarının, yüksekliklerine ters orantılı olduğu açıktır.
 
-So let base {EH polygon} not be equal to base {NQ polygon}, but let {EH polygon} be greater.
-And solid {AB given} is also equal to solid {CD given}.
-Thus, {CM line} is also greater than {AG line}.
-Therefore, let {CT line} be made equal to {AG line}.
-And let the parallelepiped solid {VC given} have been completed on the base {NQ polygon}, with height {CT line}.
-And since solid {AB given} is equal to solid {CD given}, and {CV given} (is) extrinsic (to them), and equal (magnitudes) have the same ratio to the same (magnitude) [Prop. 5.7], thus as solid {AB given} is to solid {CV given}, so solid {CD given} (is) to solid {CV given}.
-But, as solid {AB given} (is) to solid {CV given}, so base {EH polygon} (is) to base {NQ polygon}.
-For the solids {AB given} and {CV given} (are) of equal height [Prop. 11.32].
-And as solid {CD given} (is) to solid {CV given}, so base {MQ polygon} (is) to base {TQ polygon} [Prop. 11.25], and {CM line} to {CT line} [Prop. 6.1].
-And, thus, as base {EH polygon} is to base {NQ polygon}, so {MC line} (is) to {AG line}.
-And {CT line} (is) equal to {AG line}.
-And thus as base {EH polygon} (is) to base {NQ polygon}, so {MC line} (is) to {AG line}.
-Thus, the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
+Öyleyse {EH polygon} tabanı {NQ polygon} tabanına eşit olmasın, fakat {EH polygon} büyük olsun.
+Ve {AB given} katısı da {CD given} katısına eşittir.
+Böylece {CM line} de {AG line}'den büyüktür.
+Öyleyse {CT line}, {AG line}'ye eşit yapılmış olsun.
+Ve {NQ polygon} tabanı üzerinde, {CT line} yüksekliğiyle, paralel yüzlü katı {VC given} tamamlanmış olsun.
+Ve {AB given} katısı {CD given} katısına eşit olduğu ve {CV given} (onlara) dışsal olduğu ve eşit (büyüklükler) aynı (büyüklüğe) aynı orana sahip olduğu için [Önerme 5.7], böylece {AB given} katısı {CV given} katısına nasılsa, {CD given} katısı da {CV given} katısına öyledir.
+Fakat {AB given} katısı {CV given} katısına nasılsa, {EH polygon} tabanı da {NQ polygon} tabanına öyledir.
+Çünkü {AB given} ve {CV given} katıları eşit yüksekliktedir [Önerme 11.32].
+Ve {CD given} katısı {CV given} katısına nasılsa, {MQ polygon} tabanı da {TQ polygon} tabanına ve {CM line}, {CT line}'ye öyledir [Önerme 11.25, 6.1].
+Ve böylece {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {MC line} de {AG line}'ye öyledir.
+Ve {CT line}, {AG line}'ye eşittir.
+Ve böylece {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {MC line} de {AG line}'ye öyledir.
+Böylece {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılıdır.
 
-So, again, let the bases of the parallelepipid solids {AB given} and {CD given} be reciprocally proportional to their heights, and let base {EH polygon} be to base {NQ polygon}, as the height of solid {CD given} (is) to the height of solid {AB given}.
-I say that solid {AB given} is equal to solid {CD given}.
-[For] let the (straight-lines) standing up again be at right-angles to the bases.
-And if base {EH polygon} is equal to base {NQ polygon}, and as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}, the height of solid {CD given} is thus also equal to the height of solid {AB given}.
-And parallelepiped solids on equal bases, and also with the same height, are equal to one another [Prop. 11.31].
-Thus, solid {AB given} is equal to solid {CD given}.
+Öyleyse tekrar, {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılı olsun ve {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyle olsun.
+Diyorum ki {AB given} katısı, {CD given} katısına eşittir.
+[Çünkü] dikilen (doğrular) yine tabanlara dik açılarda olsun.
+Ve eğer {EH polygon} tabanı {NQ polygon} tabanına eşitse ve {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyleyse, {CD given} katısının yüksekliği böylece de {AB given} katısının yüksekliğine eşittir.
+Ve eşit tabanlar üzerinde ve ayrıca aynı yükseklikte olan paralel yüzlü katılar birbirine eşittir [Önerme 11.31].
+Böylece {AB given} katısı, {CD given} katısına eşittir.
 
-So, let base {EH polygon} not be equal to [base] {NQ polygon}, but let {EH polygon} be greater.
-Thus, the height of solid {CD given} is also greater than the height of solid {AB given}, that is to say {CM line} (greater) than {AG line}.
-Let {CT line} again be made equal to {AG line}, and let the solid {CV given} have been similarly completed.
-Since as base {EH polygon} is to base {NQ polygon}, so {MC line} (is) to {AG line}, and {AG line} (is) equal to {CT line}, thus as base {EH polygon} (is) to base {NQ polygon}, so {CM line} (is) to {CT line}.
-But, as [base] {EH polygon} (is) to base {NQ polygon}, so solid {AB given} (is) to solid {CV given}.
-For solids {AB given} and {CV given} are of equal heights [Prop. 11.32].
-And as {CM line} (is) to {CT line}, so (is) base {MQ polygon} to base {QT polygon} [Prop. 6.1], and solid {CD given} to solid {CV given} [Prop. 11.25].
-And thus as solid {AB given} (is) to solid {CV given}, so solid {CD given} (is) to solid {CV given}.
-Thus, {AB given} and {CD given} each have the same ratio to {CV given}.
-Thus, solid {AB given} is equal to solid {CD given} [Prop. 5.9].
+Öyleyse {EH polygon} tabanı, [taban] {NQ polygon}'a eşit olmasın, fakat {EH polygon} büyük olsun.
+Böylece {CD given} katısının yüksekliği de {AB given} katısının yüksekliğinden, yani {CM line}, {AG line}'den büyüktür.
+{CT line} yine {AG line}'ye eşit yapılmış olsun ve {CV given} katısı benzer şekilde tamamlanmış olsun.
+{EH polygon} tabanı {NQ polygon} tabanına nasılsa, {MC line} de {AG line}'ye öyle olduğu için ve {AG line}, {CT line}'ye eşit olduğu için, böylece {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CM line} de {CT line}'ye öyledir.
+Fakat [taban] {EH polygon}, {NQ polygon} tabanına nasılsa, {AB given} katısı da {CV given} katısına öyledir.
+Çünkü {AB given} ve {CV given} katıları eşit yüksekliktedir [Önerme 11.32].
+Ve {CM line}, {CT line}'ye nasılsa, {MQ polygon} tabanı da {QT polygon} tabanına ve {CD given} katısı, {CV given} katısına öyledir [Önermeler 6.1, 11.25].
+Ve böylece {AB given} katısı {CV given} katısına nasılsa, {CD given} katısı da {CV given} katısına öyledir.
+Böylece {AB given} ve {CD given}'in her biri, {CV given}'e aynı orana sahiptir.
+Böylece {AB given} katısı, {CD given} katısına eşittir [Önerme 5.9].
 
-{figure 2}So, let the (straight-lines) standing up, {FE line}, {BL line}, {GA line}, {KH line}, {ON line}, {DP line}, {MC line}, and {RQ line}, not be at right-angles to their bases.
-And let perpendiculars have been drawn to the planes through {EH polygon} and {NQ polygon} from points {F point}, {G point}, {B point}, {K point}, {O point}, {M point}, {R point}, and {D point}, and let them have joined the planes at (points) {S point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point}, and {a point}(respectively).
-And let the solids {FV given} and {OY given} have been completed.
-In this case, also, I say that the solids {AB given} and {CD given} being equal, their bases are reciprocally proportional to their heights, and (so) as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
+{şekil 2}Öyleyse dikilen (doğrular), {FE line}, {BL line}, {GA line}, {KH line}, {ON line}, {DP line}, {MC line} ve {RQ line}, tabanlarına dik açılarda olmasın.
+Ve dikler, {F point}, {G point}, {B point}, {K point}, {O point}, {M point}, {R point} ve {D point} noktalarından {EH polygon} ve {NQ polygon}'dan geçen düzlemlere çizilmiş olsun ve (sırasıyla) {S point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point} ve {a point} (noktalarında) düzlemlerle birleşmiş olsunlar.
+Ve {FV given} ve {OY given} katıları tamamlanmış olsun.
+Bu durumda da diyorum ki, {AB given} ve {CD given} katıları eşit olunca, tabanları yüksekliklerine ters orantılıdır ve (öyle ki) {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.
 
-Since solid {AB given} is equal to solid {CD given}, but {AB given} is equal to {BT given}.
-For they are on the same base {FK polygon}, and (have) the same height [Props. 11.29, 11.30].
-And solid {CD given} is equal is equal to {DX given}.
-For, again, they are on the same base {RO polygon}, and (have) the same height [Props. 11.29, 11.30].
-Solid {BT given} is thus also equal to solid {DX given}.
-Thus, as base {FK polygon} (is) to base {OR polygon}, so the height of solid {DX given} (is) to the height of solid {BT given} (see first part of proposition).
-And base {FK polygon} (is) equal to base {EH polygon}, and base {OR polygon} to {NQ polygon}.
-Thus, as base {EH polygon} is to base {NQ polygon}, so the height of solid {DX given} (is) to the height of solid {BT given}.
-And solids {DX given}, {BT given} are the same height as (solids) {DC given}, {BA given} (respectively).
-Thus, as base {EH polygon} is to base {NQ polygon}, so the height of solid {DC given} (is) to the height of solid {AB given}.
-Thus, the bases of the parallelepiped solids {AB given} and {CD given} are reciprocally proportional to their heights.
+{AB given} katısı {CD given} katısına eşit olduğu için, fakat {AB given}, {BT given}'e eşittir.
+Çünkü onlar aynı taban {FK polygon} üzerindedir ve aynı yüksekliktedir [Önermeler 11.29, 11.30].
+Ve {CD given} katısı, {DX given}'e eşittir.
+Çünkü yine, onlar aynı taban {RO polygon} üzerindedir ve aynı yüksekliktedir [Önermeler 11.29, 11.30].
+{BT given} katısı böylece de {DX given} katısına eşittir.
+Böylece {FK polygon} tabanı {OR polygon} tabanına nasılsa, {DX given} katısının yüksekliği de {BT given} katısının yüksekliğine öyledir (önermenin birinci kısmına bakınız).
+Ve {FK polygon} tabanı, {EH polygon} tabanına ve {OR polygon} tabanı, {NQ polygon}'a eşittir.
+Böylece {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {DX given} katısının yüksekliği de {BT given} katısının yüksekliğine öyledir.
+Ve {DX given}, {BT given} katıları, (sırasıyla) {DC given}, {BA given} (katılarıyla) aynı yüksekliktedir.
+Böylece {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {DC given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.
+Böylece {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılıdır.
 
-So, again, let the bases of the parallelepiped solids {AB given} and {CD given} be reciprocally proportional to their heights, and (so) let base {EH polygon} be to base {NQ polygon}, as the height of solid {CD given} (is) to the height of solid {AB given}.
-I say that solid {AB given} is equal to solid {CD given}.
+Öyleyse tekrar, {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılı olsun ve (öyle ki) {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyle olsun.
+Diyorum ki {AB given} katısı, {CD given} katısına eşittir.
 
-For, with the same construction (as before), since as base {EH polygon} is to base {NQ polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}, and base {EH polygon} (is) equal to base {FK polygon}, and {NQ polygon} to {OR polygon}, thus as base {FK polygon} is to base {OR polygon}, so the height of solid {CD given} (is) to the height of solid {AB given}.
-And solids {AB given}, {CD given} are the same height as (solids) {BT given}, {DX given} (respectively).
-Thus, as base {FK polygon} is to base {OR polygon}, so the height of solid {DX given} (is) to the height of solid {BT given}.
-Thus, the bases of the parallelepiped solids {BT given} and {DX given} are reciprocally proportional to their heights.
-Thus, solid {BT given} is equal to solid {DX given} (see first part of proposition).
-But, {BT given} is equal to {BA given}.
-For [they are] on the same base {FK polygon}, and (have) the same height [Props. 11.29, 11.30].
-And solid {DX given} is equal to solid {DC given} [Props. 11.29, 11.30].
-Thus, solid {AB given} is also equal to solid {CD given}.
-(Which is) the very thing it was required to show.
+Çünkü (öncekiyle) aynı inşayla, {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyle olduğu ve {EH polygon} tabanı {FK polygon} tabanına ve {NQ polygon}, {OR polygon}'a eşit olduğu için, böylece {FK polygon} tabanı {OR polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.
+Ve {AB given}, {CD given} katıları, (sırasıyla) {BT given}, {DX given} (katılarıyla) aynı yüksekliktedir.
+Böylece {FK polygon} tabanı {OR polygon} tabanına nasılsa, {DX given} katısının yüksekliği de {BT given} katısının yüksekliğine öyledir.
+Böylece {BT given} ve {DX given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılıdır.
+Böylece {BT given} katısı, {DX given} katısına eşittir (önermenin birinci kısmına bakınız).
+Fakat {BT given}, {BA given}'ya eşittir.
+Çünkü [onlar] aynı taban {FK polygon} üzerindedir ve aynı yüksekliktedir [Önermeler 11.29, 11.30].
+Ve {DX given} katısı, {DC given} katısına eşittir [Önermeler 11.29, 11.30].
+Böylece {AB given} katısı da {CD given} katısına eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

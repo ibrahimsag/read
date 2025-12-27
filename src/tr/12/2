@@ -1,54 +1,55 @@
-Circles are to one another as the squares on (their) diameters.
+Çemberler, birbirine çapları üzerindeki kareler gibidir.
 
-Let {ABCD circle X} and {EFGH circle Y} be circles, and [let] {BD line} and {FH line} [be] their diameters.
-I say that as circle {ABCD circle X} is to circle {EFGH circle Y}, so the square on {BD line} (is) to the square on {FH line}.
+{ABCD circle X} ve {EFGH circle Y} çemberler olsun ve {BD line} ve {FH line} onların çapları [olsun].
+Diyorum ki {ABCD circle X} çemberi, {EFGH circle Y} çemberine nasılsa, {BD line} üzerindeki (kare) de {FH line} üzerindeki (kareye) öyledir.
 
-For if the circle {ABCD circle X} is not to the (circle) {EFGH circle Y}, as the square on {BD line} (is) to the (square) on {FH line}, then as the (square) on {BD line} (is) to the (square) on {FH line}, so circle {ABCD circle X} will be to some area either less than, or greater than, circle {EFGH circle Y}.
-Let it, first of all, be (in that ratio) to (some) lesser (area), {S given}.
-And let the square {EFGH polygon} have been inscribed in circle {EFGH circle Y} [Prop. 4.6].
-So the inscribed square is greater than half of circle {EFGH circle Y}, inasmuch as if we draw tangents to the circle through the points {E point}, {F point}, {G point}, and {H point}, then square {EFGH polygon} is half of the square circumscribed about the circle [Prop. 1.47], and the circle is less than the circumscribed square.
-Hence, the inscribed square {EFGH polygon} is greater than half of circle {EFGH circle Y}.
-Let the circumferences {EF arcc Y}, {FG arcc Y}, {GH arcc Y}, and {HE arcc Y} have been cut in half at points {K point}, {L point}, {M point}, and {N point} (respectively), and let {EK line}, {KF line}, {FL line}, {LG line}, {GM line}, {MH line}, {HN line}, and {NE line} have been joined.
-And, thus, each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} is greater than half of the segment of the circle about it, inasmuch as if we draw tangents to the circle through points {K point}, {L point}, {M point}, and {N point}, and complete the parallelograms on the straight-lines {EF line}, {FG line}, {GH line}, and {HE line}, then each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} will be half of the parallelogram about it, but the segment about it is less than the parallelogram.
-Hence, each of the triangles {EKF polygon}, {FLG polygon}, {GMH polygon}, and {HNE polygon} is greater than half of the segment of the circle about it.
-So, by cutting the circumferences remaining behind in half, and joining straight-lines, and doing this continually, we will (eventually) leave behind some segments of the circle whose (sum) will be less than the excess by which circle {EFGH circle Y} exceeds the area {S given}.
-For we showed in the first theorem of the tenth book that if two unequal magnitudes are laid out, and if (a part) greater than a half is subtracted from the greater, and (if from) the remainder (a part) greater than a half (is subtracted), and this happens continually, then some magnitude will (eventually) be left which will be less than the lesser laid out magnitude [Prop. 10.1].
-Therefore, let the (segments) have been left, and let the (sum of the) segments of the circle {EFGH circle Y} on {EK arcc Y}, {KF arcc Y}, {FL arcc Y}, {LG arcc Y}, {GM arcc Y}, {MH arcc Y}, {HN arcc Y}, and {NE arcc Y} be less than the excess by which circle {EFGH circle Y} exceeds area {S given}.
-Thus, the remaining polygon {EKFLGMHN polygon} is greater than area {S given}.
-And let the polygon {AOBPCQDR polygon}, similar to the polygon {EKFLGMHN polygon}, have been inscribed in circle {ABCD circle X}.
-Thus, as the square on {BD line} is to the square on {FH line}, so polygon {AOBPCQDR polygon} (is) to polygon {EKFLGMHN polygon} [Prop. 12.1].
-But, also, as the square on {BD line} (is) to the square on {FH line}, so circle {ABCD circle X} (is) to area {S given}.
-And, thus, as circle {ABCD circle X} (is) to area {S given}, so polygon {AOBPCQDR polygon} (is) to polygon {EKFLGMHN polygon} [Prop. 5.11].
-Thus, alternately, as circle {ABCD circle X} (is) to the polygon (inscribed) within it, so area {S given} (is) to polygon {EKFLGMHN polygon} [Prop. 5.16].
-And circle {ABCD circle X} (is) greater than the polygon (inscribed) within it.
-Thus, area {S given} is also greater than polygon {EKFLGMHN polygon}.
-But, (it is) also less.
-The very thing is impossible.
-Thus, the square on {BD line} is not to the (square) on {FH line}, as circle {ABCD circle X} (is) to some area less than circle {EFGH circle Y}.
-So,similarly,wecan show that the (square) on {FH line} (is) not to the (square) on {BD line} as circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} either.
+Çünkü eğer {ABCD circle X} çemberi, {EFGH circle Y} (çemberine), {BD line} üzerindeki (karenin) {FH line} üzerindeki (kareye) olduğu gibi değilse o zaman {BD line} üzerindeki (kare), {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberi de {EFGH circle Y} çemberinden daha küçük ya da daha büyük bir alana öyle olacaktır.
+Her şeyden önce, (daha) küçük (bir alana), {S given}'e, (o oranda) olsun.
+Ve {EFGH polygon} karesi, {EFGH circle Y} çemberinin içine çizilmiş olsun [Önerme 4.6].
+Öyleyse içine çizilmiş kare, {EFGH circle Y} çemberinin yarısından büyüktür, zira eğer {E point}, {F point}, {G point} ve {H point} noktalarından geçen çembere teğetler çizersek o zaman {EFGH polygon} karesi, çemberin çevresine çizilmiş karenin yarısıdır [Önerme 1.47] ve çember, çevresine çizilmiş kareden küçüktür.
+Öyleyse içine çizilmiş {EFGH polygon} karesi, {EFGH circle Y} çemberinin yarısından büyüktür.
+{EF arcc Y}, {FG arcc Y}, {GH arcc Y} ve {HE arcc Y} çevreleri (sırasıyla) {K point}, {L point}, {M point} ve {N point} noktalarında ikiye bölünmüş olsun ve {EK line}, {KF line}, {FL line}, {LG line}, {GM line}, {MH line}, {HN line} ve {NE line} birleştirilmiş olsun.
+Ve böylece {EKF polygon}, {FLG polygon}, {GMH polygon} ve {HNE polygon} üçgenlerinin her biri, onun etrafındaki çember diliminin yarısından büyüktür, zira eğer {K point}, {L point}, {M point} ve {N point} noktalarından geçen çembere teğetler çizer ve {EF line}, {FG line}, {GH line} ve {HE line} doğruları üzerinde paralelkenarları tamamlarsak o zaman {EKF polygon}, {FLG polygon}, {GMH polygon} ve {HNE polygon} üçgenlerinin her biri, onun etrafındaki paralelkenarın yarısı olacaktır, fakat onun etrafındaki dilim, paralelkenardan küçüktür.
+Öyleyse {EKF polygon}, {FLG polygon}, {GMH polygon} ve {HNE polygon} üçgenlerinin her biri, onun etrafındaki çember diliminin yarısından büyüktür.
+Öyleyse geride kalan çevreleri ikiye bölerek ve doğruları birleştirerek ve bunu sürekli yaparak, (sonunda) çemberin, (toplamı) {EFGH circle Y} çemberinin {S given} alanını aştığı fazlalıktan daha az olan bir miktar dilim geride bırakacağız.
+Çünkü onuncu kitabın ilk teoreminde gösterdik ki eğer iki eşit olmayan büyüklük konursa ve büyükten yarısından büyük (bir parça) çıkarılırsa ve kalanından (da) yarısından büyük (bir parça çıkarılırsa) ve bu sürekli olursa o zaman (sonunda) konulan küçük büyüklükten daha az olacak bir büyüklük kalacaktır [Önerme 10.1].
+Öyleyse (dilimler) kalmış olsun ve {EFGH circle Y} çemberinin {EK arcc Y}, {KF arcc Y}, {FL arcc Y}, {LG arcc Y}, {GM arcc Y}, {MH arcc Y}, {HN arcc Y} ve {NE arcc Y} üzerindeki dilimlerinin (toplamı), {EFGH circle Y} çemberinin {S given} alanını aştığı fazlalıktan daha az olsun.
+Böylece kalan {EKFLGMHN polygon} çokgeni, {S given} alanından büyüktür.
+Ve {EKFLGMHN polygon} çokgenine benzer {AOBPCQDR polygon} çokgeni, {ABCD circle X} çemberinin içine çizilmiş olsun.
+Böylece {BD line} üzerindeki kare, {FH line} üzerindeki kareye nasılsa, {AOBPCQDR polygon} çokgeni de {EKFLGMHN polygon} çokgenine öyledir [Önerme 12.1].
+Fakat ayrıca {BD line} üzerindeki (kare), {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberi de {S given} alanına öyledir.
+Ve böylece {ABCD circle X} çemberi, {S given} alanına nasılsa, {AOBPCQDR polygon} çokgeni de {EKFLGMHN polygon} çokgenine öyledir [Önerme 5.11].
+Böylece ters olarak, {ABCD circle X} çemberi, (içine çizilmiş) çokgenine nasılsa, {S given} alanı da {EKFLGMHN polygon} çokgenine öyledir [Önerme 5.16].
+Ve {ABCD circle X} çemberi, (içine çizilmiş) çokgeninden büyüktür.
+Böylece {S given} alanı da {EKFLGMHN polygon} çokgeninden büyüktür.
+Fakat (o) ayrıca daha küçüktür.
+Tam olarak bu imkansızdır.
+Böylece {BD line} üzerindeki (kare), {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberi, {EFGH circle Y} çemberinden daha küçük bir alana öyle değildir.
+Öyleyse benzer şekilde, {FH line} üzerindeki (karenin) {BD line} üzerindeki (kareye) nasılsa, {EFGH circle Y} çemberinin de {ABCD circle X} çemberinden daha küçük bir alana öyle olmadığını gösterebiliriz.
 
-So, I say that neither (is) the (square) on {BD line} to the (square) on {FH line}, as circle {ABCD circle X} (is) to some area greater than circle {EFGH circle Y}.
+Öyleyse diyorum ki {BD line} üzerindeki (karenin), {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberinin de {EFGH circle Y} çemberinden daha büyük bir alana öyle olmadığını (söylüyorum).
 
-For, if possible, let it be (in that ratio) to (some) greater (area), {S given}.
-Thus, inversely, as the square on {FH line} [is] to the (square) on {DB line}, so area {S given} (is) to circle {ABCD circle X} [Prop. 5.7 corr.].
-But, as area {S given} (is) to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} (see lemma).
-And, thus, as the (square) on {FH line} (is) to the (square) on {BD line}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X} [Prop. 5.11].
-The very thing was shown (to be) impossible.
-Thus, as the square on {BD line} is to the (square) on {FH line}, so circle {ABCD circle X} (is) not to some area greater than circle {EFGH circle Y}.
-And it was shown that neither (is it in that ratio) to (some) lesser (area).
-Thus, as the square on {BD line} is to the (square) on {FH line}, so circle {ABCD circle X} (is) to circle {EFGH circle Y}.
+Çünkü eğer mümkünse, (daha) büyük (bir alana), {S given}'e, (o oranda) olsun.
+Böylece ters olarak, {FH line} üzerindeki (kare), {DB line} üzerindeki (kareye) nasılsa, {S given} alanı da {ABCD circle X} çemberine öyledir [Önerme 5.7 ek sonucu].
+Fakat {S given} alanı, {ABCD circle X} çemberine nasılsa, {EFGH circle Y} çemberi de {ABCD circle X} çemberinden daha küçük bir alana öyledir (yardımcı önermeye bak).
+Ve böylece {FH line} üzerindeki (kare), {BD line} üzerindeki (kareye) nasılsa, {EFGH circle Y} çemberi de {ABCD circle X} çemberinden daha küçük bir alana öyledir [Önerme 5.11].
+Tam olarak bu imkansız olduğu gösterildi.
+Böylece {BD line} üzerindeki kare, {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberi, {EFGH circle Y} çemberinden daha büyük bir alana öyle değildir.
+Ve (daha) küçük (bir alana da o oranda) olmadığı gösterildi.
+Böylece {BD line} üzerindeki kare, {FH line} üzerindeki (kareye) nasılsa, {ABCD circle X} çemberi de {EFGH circle Y} çemberine öyledir.
 
-Thus, circles are to one another as the squares on (their) diameters.
-(Which is) the very thing it was required to show.
+Böylece çemberler, birbirine çapları üzerindeki kareler gibidir.
+(Gösterilmesi gereken tam olarak budur.)
 
-Lemma
+Yardımcı Önerme
 
-So, I say that, area {S given} being greater than circle {EFGH circle Y}, as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X}.
+Öyleyse diyorum ki, {S given} alanı {EFGH circle Y} çemberinden büyük olduğunda, {S given} alanı, {ABCD circle X} çemberine nasılsa, {EFGH circle Y} çemberi de {ABCD circle X} çemberinden daha küçük bir alana öyledir.
 
-For let it have been contrived that as area {S given} (is) to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to area {T given}.
-I say that area {T given} is less than circle {ABCD circle X}.
-For since as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to area {T given}, alternately, as area {S given} is to circle {EFGH circle Y}, so circle {ABCD circle X} (is) to area {T given} [Prop. 5.16].
-And area {S given} (is) greater than circle {EFGH circle Y}.
-Thus, circle {ABCD circle X} (is) also greater than area {T given} [Prop. 5.14].
-Hence, as area {S given} is to circle {ABCD circle X}, so circle {EFGH circle Y} (is) to some area less than circle {ABCD circle X}.
-(Which is) the very thing it was required to show.
+Çünkü {S given} alanı, {ABCD circle X} çemberine nasılsa, {EFGH circle Y} çemberi de {T given} alanına öyle olacak şekilde düzenlenmiş olsun.
+Diyorum ki {T given} alanı, {ABCD circle X} çemberinden küçüktür.
+Çünkü {S given} alanı, {ABCD circle X} çemberine nasılsa, {EFGH circle Y} çemberi de {T given} alanına öyle olduğu için, ters olarak, {S given} alanı, {EFGH circle Y} çemberine nasılsa, {ABCD circle X} çemberi de {T given} alanına öyledir [Önerme 5.16].
+Ve {S given} alanı, {EFGH circle Y} çemberinden büyüktür.
+Böylece {ABCD circle X} çemberi de {T given} alanından büyüktür [Önerme 5.14].
+Öyleyse {S given} alanı, {ABCD circle X} çemberine nasılsa, {EFGH circle Y} çemberi de {ABCD circle X} çemberinden daha küçük bir alana öyledir.
+(Gösterilmesi gereken tam olarak budur.)
+

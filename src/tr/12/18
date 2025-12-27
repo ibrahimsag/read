@@ -1,32 +1,33 @@
-Spheres are to one another in the cubed ratio of their respective diameters.
+Küreler, birbirine kendi çaplarının küplü oranındadır.
 
-Let the spheres {ABC circle b} and {DEF circle e} have been conceived, and (let) their diameters (be) {BC line} and {EF line} (respectively).
-I say that sphere {ABC circle b} has to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
+{ABC circle b} ve {DEF circle e} küreleri tasavvur edilmiş olsun ve çapları (sırasıyla) {BC line} ve {EF line} [olsun].
+Diyorum ki {ABC circle b} küresi, {DEF circle e} küresine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir.
 
-For if sphere {ABC circle b} does not have to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} then sphere {ABC circle b} will have to some (sphere) either less than, or greater than, sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
-Let it, first of all, have (such a ratio) to a lesser (sphere), {GHK circle e}.
-And let {DEF circle e} have been conceived about the same center as {GHK circle e}.
-And let a polyhedral solid have been inscribed in the greater sphere {DEF circle e}, not touching the lesser sphere {GHK circle e} on its surface [Prop. 12.17].
-And let a polyhedral solid, similar to the polyhedral solid in sphere {DEF circle e}, have also been inscribed in sphere {ABC circle b}.
-Thus, the polyhedral solid in sphere {ABC circle b} has to the polyhedral solid in sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} [Prop. 12.17 corr.].
-And sphere {ABC circle b} also has to sphere {GHK circle e} the cubed ratio that {BC line} (has) to {EF line}.
-Thus, as sphere {ABC circle b} is to sphere {GHK circle e}, so the polyhedral solid in sphere {ABC circle b} (is) to the polyhedral solid in sphere {DEF circle e}.
-[Thus], alternately, as sphere {ABC circle b} (is) to the polyhedral solid within it, so sphere {GHK circle e} (is) to the polyhedral solid within sphere {DEF circle e} [Prop. 5.16].
-And sphere {ABC circle b} (is) greater than the polyhedron within it.
-Thus, sphere {GHK circle e} (is) also greater than the polyhedron within sphere {DEF circle e} [Prop. 5.14].
-But, (it is) also less.
-For it is encompassed by it.
-Thus, sphere {ABC circle b} does not have to (a sphere) less than sphere {DEF circle e} the cubed ratio that diameter {BC line} (has) to {EF line}.
-So, similarly, we can show that sphere {DEF circle e} does not have to (a sphere) less than sphere {ABC circle b} the cubed ratio that {EF line} (has) to {BC line} either.
+Çünkü eğer {ABC circle b} küresi, {DEF circle e} küresine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahip değilse o zaman {ABC circle b} küresi, {DEF circle e} küresinden daha küçük ya da daha büyük bir (küreye), {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahip olacaktır.
+Her şeyden önce, (daha) küçük (bir küreye), {GHK circle e}'ya, (böyle bir orana) sahip olsun.
+Ve {DEF circle e}, {GHK circle e} ile aynı merkez etrafında tasavvur edilmiş olsun.
+Ve büyük {DEF circle e} küresinin içine, yüzeyinde küçük {GHK circle e} küresine dokunmayan çokyüzlü bir katı çizilmiş olsun [Önerme 12.17].
+Ve {DEF circle e} küresindeki çokyüzlü katıya benzer çokyüzlü bir katı da {ABC circle b} küresine çizilmiş olsun.
+Böylece {ABC circle b} küresindeki çokyüzlü katı, {DEF circle e} küresindeki çokyüzlü katıya, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir [Önerme 12.17 ek sonucu].
+Ve {ABC circle b} küresi de {GHK circle e} küresine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir.
+Böylece {ABC circle b} küresi, {GHK circle e} küresine nasılsa, {ABC circle b} küresindeki çokyüzlü katı da {DEF circle e} küresindeki çokyüzlü katıya öyledir.
+[Böylece] ters olarak, {ABC circle b} küresi, içindeki çokyüzlü katıya nasılsa, {GHK circle e} küresi de {DEF circle e} küresi içindeki çokyüzlü katıya öyledir [Önerme 5.16].
+Ve {ABC circle b} küresi, içindeki çokyüzlüden büyüktür.
+Böylece {GHK circle e} küresi de {DEF circle e} küresi içindeki çokyüzlüden büyüktür [Önerme 5.14].
+Fakat (o) ayrıca daha küçüktür.
+Çünkü o, onun tarafından kapsanmaktadır.
+Böylece {ABC circle b} küresi, {DEF circle e} küresinden daha küçük (bir küreye), {BC line} çapının {EF line}'a (sahip olduğu) küplü orana sahip değildir.
+Öyleyse benzer şekilde, {DEF circle e} küresinin de {ABC circle b} küresinden daha küçük (bir küreye), {EF line}'ın {BC line}'ye (sahip olduğu) küplü orana sahip olmadığını gösterebiliriz.
 
-So, I say that sphere {ABC circle b} does not have to some (sphere) greater than sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line} either.
+Öyleyse diyorum ki {ABC circle b} küresi de {DEF circle e} küresinden daha büyük bir (küreye), {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahip değildir.
 
-For, if possible, let it have (the cubed ratio) to a greater (sphere), {LMN circle m}.
-Thus, inversely, sphere {LMN circle m} (has) to sphere {ABC circle b} the cubed ratio that diameter {EF line} (has) to diameter {BC line} [Prop. 5.7 corr.].
-And as sphere {LMN circle m} (is) to sphere {ABC circle b}, so sphere {DEF circle e} (is) to some (sphere) less than sphere {ABC circle b}, inasmuch as {LMN circle m} is greater than {DEF circle e}, as was shown before [Prop. 12.2 lem.].
-And, thus, sphere {DEF circle e} has to some (sphere) less than sphere {ABC circle b} the cubed ratio that {EF line} (has) to {BC line}.
-The very thing was shown (to be) impossible.
-Thus, sphere {ABC circle b} does not have to some (sphere) greater than sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
-And it was shown that neither (does it have such a ratio) to a lesser (sphere).
-Thus, sphere {ABC circle b} has to sphere {DEF circle e} the cubed ratio that {BC line} (has) to {EF line}.
-(Which is) the very thing it was required to show.
+Çünkü eğer mümkünse, (daha) büyük (bir küreye), {LMN circle m}'ye, (küplü orana) sahip olsun.
+Böylece ters olarak, {LMN circle m} küresi, {ABC circle b} küresine, {EF line} çapının {BC line} çapına (sahip olduğu) küplü orana sahiptir [Önerme 5.7 ek sonucu].
+Ve {LMN circle m} küresi, {ABC circle b} küresine nasılsa, {DEF circle e} küresi de {ABC circle b} küresinden daha küçük bir (küreye) öyledir, zira daha önce gösterildiği gibi {LMN circle m}, {DEF circle e}'den büyüktür [Önerme 12.2 yardımcı önerme].
+Ve böylece {DEF circle e} küresi, {ABC circle b} küresinden daha küçük bir (küreye), {EF line}'ın {BC line}'ye (sahip olduğu) küplü orana sahiptir.
+Tam olarak bunun imkansız olduğu gösterildi.
+Böylece {ABC circle b} küresi, {DEF circle e} küresinden daha büyük bir (küreye), {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahip değildir.
+Ve (daha) küçük (bir küreye de böyle bir orana sahip) olmadığı gösterildi.
+Böylece {ABC circle b} küresi, {DEF circle e} küresine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir.
+(Gösterilmesi gereken tam olarak budur.)
+

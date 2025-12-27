@@ -1,55 +1,56 @@
-If an equilateral pentagon is inscribed in a circle then the square on the side of the pentagon is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.
+Eğer bir eşkenarlı beşgen, bir çembere içyazılırsa o zaman beşgenin kenarı üzerindeki kare, aynı çembere içyazılan altıgenin ve ongenin (kenarları) üzerindeki (karelerin toplamına) (eşittir).
 
-Let {ABCDE circle F} be a circle.
-And let the equilateral pentagon {ABCDE polygon} have been inscribed in circle {ABCDE circle F}.
-I say that the square on the side of pentagon {ABCDE polygon} is the (sum of the squares) on the sides of the hexagon and of the decagon inscribed in circle {ABCDE circle F}.
+{ABCDE circle F} bir çember olsun.
+Ve eşkenarlı {ABCDE polygon} beşgeni, {ABCDE circle F} çemberine içyazılmış olsun.
+Diyorum ki {ABCDE polygon} beşgeninin kenarı üzerindeki kare, {ABCDE circle F} çemberine içyazılan altıgenin ve ongenin kenarları üzerindeki (karelerin toplamı)dır.
 
-For let the center of the circle, point {F point}, have been found [Prop. 3.1].
-And, {AF line} being joined, let it have been drawn across to point {G point}.
-And let {FB line} have been joined.
-And let {FH line} have been drawn from {F point} perpendicular to {AB line}.
-And let it have been drawn across to {K point}.
-And let {AK line} and {KB line} have been joined.
-And, again, let {FL line} have been drawn from {F point} perpendicular to {AK line}.
-And let it have been drawn across to {M point}.
-And let {KN line} have been joined.
+Çünkü çemberin merkezi, {F point} noktası, bulunmuş olsun [Önerme 3.1].
+Ve {AF line} birleştirilerek, {G point} noktasına kadar geçirilmiş olsun.
+Ve {FB line} birleştirilmiş olsun.
+Ve {FH line}, {F point}'den {AB line}'ye dik olarak çizilmiş olsun.
+Ve {K point}'e kadar geçirilmiş olsun.
+Ve {AK line} ve {KB line} birleştirilmiş olsun.
+Ve yine, {FL line}, {F point}'den {AK line}'ya dik olarak çizilmiş olsun.
+Ve {M point}'e kadar geçirilmiş olsun.
+Ve {KN line} birleştirilmiş olsun.
 
-Since circumference {ABCG arcc F} is equal to circumference {AEDG arc F}, of which {ABC arcc F} is equal to {AED arc F}, the remaining circumference {CG arcc F} is thus equal to the remaining (circumference) {GD arcc F}.
-And {CD line} (is the side) of the pentagon.
-{CG line} (is) thus (the side) of the decagon.
-And since {FA line} is equal to {FB line}, and {FH line} is perpendicular (to {AB line}), angle {AFK angle} (is) thus also equal to {KFB angle} [Props. 1.5, 1.26].
-Hence, circumference {AK arcc F} is also equal to {KB arcc F} [Prop. 3.26].
-Thus, circumference {AB arcc F} (is) double circumference {BK arc F}.
-Thus, straight-line {AK line} is the side of the decagon.
-So, for the same (reasons, circumference) {AK arcc F} is also double {KM arc F}.
-And since circumference {AB arcc F} is double circumference {BK arc F}, and circumference {CD arcc F} (is) equal to circumference {AB arcc F}, circumference {CD arcc F} (is) thus also double circumference {BK arc F}.
-And circumference {CD arcc F} is also double {CG arcc F}.
-Thus, circumference {CG arcc F} (is) equal to circumference {BK arc F}.
-But, {BK arc F} is double {KM arc F}, since {KA arc F} (is) also (double {KM arc F}).
-Thus, (circumference) {CG arcc F} is also double {KM arc F}.
-But, indeed, circumference {CB arc F} is also double circumference {BK arc F}.
-For circumference {CB arc F} (is) equal to {BA arc F}.
-Thus, the whole circumference {GB arc F} is also double {BM arc F}.
-Hence, angle {GFB angle} [is] also double angle {BFM angle} [Prop. 6.33].
-And {GFB angle} (is) also double {FAB angle}.
-For {FAB angle} (is) equal to {ABF angle}.
-Thus, {BFN angle} is also equal to {FAB angle}.
-And angle {ABF angle} (is) common to the two triangles {ABF polygon} and {BFN polygon}.
-Thus, the remaining (angle) {AFB angle} is equal to the remaining (angle) {BNF angle} [Prop. 1.32].
-Thus, triangle {ABF polygon} is equiangular to triangle {BFN polygon}.
-Thus, proportionally, as straight-line {AB line} (is) to {BF line}, so {FB line} (is) to {BN line} [Prop. 6.4].
-Thus, the (rectangle contained) by {AB line} and {BN line} is equal to the (square) on {BF line} [Prop. 6.17].
-Again, since {AL line} is equal to {LK line}, and {LN line} is common and at right-angles (to {KA line}), base {KN line} is thus equal to base {AN line} [Prop. 1.4].
-And, thus, angle {LKN angle} is equal to angle {LAN angle}.
-But, {LAN angle} is equal to {KBN angle} [Props. 3.29, 1.5].
-Thus, {LKN angle} is also equal to {KBN angle}.
-And the (angle) at {A point} (is) common to the two triangles {AKB polygon} and {AKN polygon}.
-Thus, the remaining (angle) {AKB angle} is equal to the remaining (angle) {KNA angle} [Prop. 1.32].
-Thus, triangle {KBA polygon} is equiangular to triangle {KNA polygon}.
-Thus, proportionally, as straight-line {BA line} is to {AK line}, so {KA line} (is) to {AN line} [Prop. 6.4].
-Thus, the (rectangle contained) by {BA line} and {AN line} is equal to the (square) on {AK line} [Prop. 6.17].
-And the (rectangle contained) by {AB line} and {BN line} was also shown (to be) equal to the (square) on {BF line}.
-Thus, the (rectangle contained) by {AB line} and {BN line} plus the (rectangle contained) by {BA line} and {AN line}, which is the (square) on {BA line} [Prop. 2.2], is equal to the (square) on {BF line} plus the (square) on {AK line}.
-And {BA line} is the side of the pentagon, and {BF line} (the side) of the hexagon [Prop. 4.15 corr.], and {AK line} (the side) of the decagon.
+{ABCG arcc F} çevresi, {AEDG arc F} çevresine eşit olduğu ve bunlardan {ABC arcc F}, {AED arc F}'ye eşit olduğu için, kalan {CG arcc F} çevresi böylece kalan {GD arcc F} (çevresine) eşittir.
+Ve {CD line}, beşgenin (kenarı)dır.
+{CG line} böylece ongenin (kenarı)dır.
+Ve {FA line}, {FB line}'ye eşit olduğu ve {FH line}, ({AB line}'ye) dik olduğu için, {AFK angle} açısı böylece de {KFB angle}'ye eşittir [Önermeler 1.5, 1.26].
+Dolayısıyla {AK arcc F} çevresi de {KB arcc F}'ye eşittir [Önerme 3.26].
+Böylece {AB arcc F} çevresi, {BK arc F} çevresinin iki katıdır.
+Böylece {AK line} doğrusu, ongenin kenarıdır.
+Öyleyse aynı (nedenlerle), {AK arcc F} (çevresi) de {KM arc F}'nin iki katıdır.
+Ve {AB arcc F} çevresi, {BK arc F} çevresinin iki katı olduğu ve {CD arcc F} çevresi, {AB arcc F} çevresine eşit olduğu için, {CD arcc F} çevresi böylece de {BK arc F} çevresinin iki katıdır.
+Ve {CD arcc F} çevresi de {CG arcc F}'nin iki katıdır.
+Böylece {CG arcc F} çevresi, {BK arc F} çevresine eşittir.
+Fakat {BK arc F}, {KM arc F}'nin iki katıdır, zira {KA arc F} da ({KM arc F}'nin iki katıdır).
+Böylece {CG arcc F} (çevresi) de {KM arc F}'nin iki katıdır.
+Fakat gerçekten, {CB arc F} çevresi de {BK arc F} çevresinin iki katıdır.
+Çünkü {CB arc F} (çevresi), {BA arc F}'ye eşittir.
+Böylece bütün {GB arc F} çevresi de {BM arc F}'nin iki katıdır.
+Dolayısıyla {GFB angle} açısı da {BFM angle} açısının iki katıdır [Önerme 6.33].
+Ve {GFB angle} de {FAB angle}'nin iki katıdır.
+Çünkü {FAB angle}, {ABF angle}'ye eşittir.
+Böylece {BFN angle} de {FAB angle}'ye eşittir.
+Ve {ABF angle} açısı, {ABF polygon} ve {BFN polygon} iki üçgeninde ortaktır.
+Böylece kalan {AFB angle} (açısı), kalan {BNF angle} (açısına) eşittir [Önerme 1.32].
+Böylece {ABF polygon} üçgeni, {BFN polygon} üçgeni ile eşaçılıdır.
+Böylece orantılı olarak, {AB line} doğrusu, {BF line}'ye nasılsa, {FB line} de {BN line}'ye öyledir [Önerme 6.4].
+Böylece ({AB line} ve {BN line} tarafından kapsanan dikdörtgen), {BF line} üzerindeki (kareye) eşittir [Önerme 6.17].
+Yine, {AL line}, {LK line}'ye eşit olduğu ve {LN line} ortak ve ({KA line}'ya) dik açılarda olduğu için, {KN line} tabanı böylece {AN line} tabanına eşittir [Önerme 1.4].
+Ve böylece {LKN angle} açısı, {LAN angle} açısına eşittir.
+Fakat {LAN angle}, {KBN angle}'ye eşittir [Önermeler 3.29, 1.5].
+Böylece {LKN angle} de {KBN angle}'ye eşittir.
+Ve {A point}'deki (açı), {AKB polygon} ve {AKN polygon} iki üçgeninde ortaktır.
+Böylece kalan {AKB angle} (açısı), kalan {KNA angle} (açısına) eşittir [Önerme 1.32].
+Böylece {KBA polygon} üçgeni, {KNA polygon} üçgeni ile eşaçılıdır.
+Böylece orantılı olarak, {BA line} doğrusu, {AK line}'ya nasılsa, {KA line} de {AN line}'ye öyledir [Önerme 6.4].
+Böylece ({BA line} ve {AN line} tarafından kapsanan dikdörtgen), {AK line} üzerindeki (kareye) eşittir [Önerme 6.17].
+Ve ({AB line} ve {BN line} tarafından kapsanan dikdörtgenin) de {BF line} üzerindeki (kareye) eşit olduğu gösterildi.
+Böylece ({AB line} ve {BN line} tarafından kapsanan dikdörtgen) artı ({BA line} ve {AN line} tarafından kapsanan dikdörtgen), ki bu {BA line} üzerindeki (kare)dir [Önerme 2.2], {BF line} üzerindeki (kare) artı {AK line} üzerindeki (kareye) eşittir.
+Ve {BA line}, beşgenin kenarı ve {BF line}, altıgenin (kenarı) [Önerme 4.15 ek sonucu] ve {AK line}, ongenin (kenarı)dır.
 
-Thus, the square on the side of the pentagon (inscribed in a circle) is (equal to) the (sum of the squares) on the (sides) of the hexagon and of the decagon inscribed in the same circle.
+Böylece (bir çembere içyazılan) beşgenin kenarı üzerindeki kare, aynı çembere içyazılan altıgenin ve ongenin (kenarları) üzerindeki (karelerin toplamına) (eşittir).
+

@@ -1,15 +1,16 @@
-If two planes cutting one another are at right-angles to some plane then their common section will also be at right-angles to the same plane.
+Eğer birbirini kesen iki düzlem bir düzleme dik açılardaysa o zaman onların ortak kesiti de aynı düzleme dik açılarda olacaktır.
 
-For let the two planes {AB polygon} and {BC polygon} be at right-angles to a reference plane, and let their common section be {BD line}.
-I say that {BD line} is at right-angles to the reference plane.
+Çünkü iki düzlem {AB polygon} ve {BC polygon}, bir referans düzlemine dik açılarda olsun ve onların ortak kesiti {BD line} olsun.
+Diyorum ki {BD line}, referans düzlemine dik açılardadır.
 
-For (if) not, let {DE line} also have been drawn from point {D point}, in the plane {AB polygon}, at right-angles to the straight-line {AD line}, and {DF line}, in the plane {BC polygon}, at right-angles to {CD line}.
+Çünkü (değilse), {DE line} de {D point} noktasından, {AB polygon} düzleminde, {AD line} doğrusuna dik olarak ve {DF line}, {BC polygon} düzleminde, {CD line}'ye dik olarak çizilmiş olsun.
 
-And since the plane {AB polygon} is at right-angles to the reference (plane), and {DE line} has been drawn at right-angles to their common section {AD line}, in the plane {AB polygon}, {DE line} is thus at right-angles to the reference plane [Def. 11.4].
-So, similarly, we can show that {DF line} is also at right-angles to the reference plane.
-Thus, two (different) straight-lines are set up, at the same point {D point}, at right-angles to the reference plane, on the same side.
-The very thing is impossible [Prop. 11.13].
-Thus, no (other straight-line) except the common section {DB line} of the planes {AB polygon} and {BC polygon} can be set up at point {D point}, at right-angles to the reference plane.
+Ve {AB polygon} düzlemi, referans (düzlemine) dik açılarda olduğu ve {DE line}, {AB polygon} düzleminde onların ortak kesiti {AD line}'a dik olarak çizildiği için, {DE line} böylece referans düzlemine dik açılardadır [Tanım 11.4].
+Öyleyse benzer şekilde, {DF line}'ın da referans düzlemine dik açılarda olduğunu gösterebiliriz.
+Böylece iki (farklı) doğru, aynı nokta {D point}'de, referans düzlemine, aynı tarafta, dik açılarla dikilmiştir.
+Tam olarak bu imkansızdır [Önerme 11.13].
+Böylece {AB polygon} ve {BC polygon} düzlemlerinin ortak kesiti {DB line} dışında hiçbir (başka doğru), {D point} noktasında, referans düzlemine, dik açılarla dikilemez.
 
-Thus, if two planes cutting one another are at right-angles to some plane then their common section will also be at right-angles to the same plane.
-(Which is) the very thing it was required to show.
+Böylece eğer birbirini kesen iki düzlem bir düzleme dik açılardaysa o zaman onların ortak kesiti de aynı düzleme dik açılarda olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
+

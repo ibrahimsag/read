@@ -1,20 +1,21 @@
-If a straight-line is cut in extreme and mean ratio then the sum of the squares on the whole and the lesser piece is three times the square on the greater piece.
+Eğer bir doğru, son ve orta orana göre kesilirse o zaman bütün ve küçük parça üzerindeki karelerin toplamı, büyük parça üzerindeki karenin üç katıdır.
 
-Let {AB line} be a straight-line, and let it have been cut in extreme and mean ratio at {C point}, and let {AC line} be the greater piece.
-I say that the (sum of the squares) on {AB line} and {BC line} is three times the (square) on {CA line}.
+{AB line} bir doğru olsun ve {C point}'de son ve orta orana göre kesilmiş olsun ve {AC line}, büyük parça olsun.
+Diyorum ki {AB line} ve {BC line} üzerindeki (karelerin toplamı), {CA line} üzerindeki (karenin) üç katıdır.
 
-For let the square {ADEB polygon} have been described on {AB line}, and let the (remainder of the) figure have been drawn.
-Therefore, since {AB line} has been cut in extreme and mean ratio at {C point}, and {AC line} is the greater piece, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].
-And {AK polygon} is the (rectangle contained) by {AB line} and {BC line}, and {HG polygon} the (square) on {AC line}.
-Thus, {AK polygon} is equal to {HG polygon}.
-And since {AF polygon} is equal to {FE polygon} [Prop. 1.43], let {CK polygon} have been added to both.
-Thus, the whole of {AK polygon} is equal to the whole of {CE polygon}.
-Thus, {AK polygon} plus {CE polygon} is double {AK polygon}.
-But, {AK polygon} plus {CE polygon} is the gnomon {LMN given} plus the square {CK polygon}.
-Thus, gnomon {LMN given} plus square {CK polygon} is double {AK polygon}.
-But, indeed, {AK polygon} was also shown (to be) equal to {HG polygon}.
-Thus, gnomon {LMN given} plus [square {CK polygon} is double {HG polygon}.
-Hence, gnomon {LMN given} plus] the squares {CK polygon} and {HG polygon} is three times the square {HG polygon}.
-And gnomon {LMN given} plus the squares {CK polygon} and {HG polygon} is the whole of {AE polygon} plus {CK polygon}—which are the squares on {AB line} and {BC line} (respectively)—and {GH polygon} (is) the square on {AC line}.
-Thus, the (sum of the) squares on {AB line} and {BC line} is three times the square on {AC line}.
-(Which is) the very thing it was required to show.
+Çünkü {ADEB polygon} karesi, {AB line} üzerinde betimlenmiş olsun ve (şeklin geri kalanı) çizilmiş olsun.
+Öyleyse {AB line}, {C point}'de son ve orta orana göre kesildiği ve {AC line}, büyük parça olduğu için, ({AB line} ve {BC line} tarafından kapsanan dikdörtgen) böylece {AC line} üzerindeki (kareye) eşittir [Tanım 6.3, Önerme 6.17].
+Ve {AK polygon}, ({AB line} ve {BC line} tarafından kapsanan dikdörtgen) ve {HG polygon}, {AC line} üzerindeki (kare)dir.
+Böylece {AK polygon}, {HG polygon}'ye eşittir.
+Ve {AF polygon}, {FE polygon}'ye eşit olduğu için [Önerme 1.43], {CK polygon} her ikisine de eklenmiş olsun.
+Böylece bütün {AK polygon}, bütün {CE polygon}'ye eşittir.
+Böylece {AK polygon} artı {CE polygon}, {AK polygon}'nin iki katıdır.
+Fakat {AK polygon} artı {CE polygon}, {LMN given} gnomonu artı {CK polygon} karesdir.
+Böylece {LMN given} gnomonu artı {CK polygon} karesi, {AK polygon}'nin iki katıdır.
+Fakat gerçekten {AK polygon}'nin de {HG polygon}'ye eşit olduğu gösterildi.
+Böylece {LMN given} gnomonu artı [{CK polygon} karesi, {HG polygon}'nin iki katıdır.
+Dolayısıyla {LMN given} gnomonu artı] {CK polygon} ve {HG polygon} kareleri, {HG polygon} karesinin üç katıdır.
+Ve {LMN given} gnomonu artı {CK polygon} ve {HG polygon} kareleri, bütün {AE polygon} artı {CK polygon}'dir --- ki bunlar (sırasıyla) {AB line} ve {BC line} üzerindeki karelerdir --- ve {GH polygon}, {AC line} üzerindeki (kare)dir.
+Böylece {AB line} ve {BC line} üzerindeki (karelerin toplamı), {AC line} üzerindeki karenin üç katıdır.
+(Gösterilmesi gereken tam olarak budur.)
+

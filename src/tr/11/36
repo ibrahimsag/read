@@ -1,22 +1,22 @@
-If three straight-lines are (continuously) proportional then the parallelepiped solid (formed) from the three (straight-lines) is equal to the equilateral parallelepiped solid on the middle (straight-line which is) equiangular to the aforementioned (parallelepiped solid).
+Eğer üç doğru (sürekli) orantılıysa o zaman üç (doğrudan oluşan) paralel yüzlü katı, orta (doğru) üzerindeki, bahsedilen (paralel yüzlü katı) ile eşaçılı olan eşkenarlı paralel yüzlü katıya eşittir.
 
-Let {A magnitude}, {B magnitude}, and {C magnitude} be three (continuously) proportional straight-lines, (such that) as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}.
-I say that the (parallelepiped) solid (formed) from {A magnitude}, {B magnitude}, and {C magnitude} is equal to the equilateral solid on {B magnitude} (which is) equiangular with the aforementioned (solid).
+{A magnitude}, {B magnitude} ve {C magnitude} üç (sürekli) orantılı doğru olsun, (öyle ki) {A magnitude}, {B magnitude}'ye nasılsa, {B magnitude} de {C magnitude}'ye öyledir.
+Diyorum ki {A magnitude}, {B magnitude} ve {C magnitude}'den (oluşan paralel yüzlü) katı, {B magnitude} üzerindeki, bahsedilen (katı) ile eşaçılı eşkenarlı katıya eşittir.
 
-Let the solid angle at {E point}, contained by {DEG angle}, {GEF angle}, and {FED angle}, be set out.
-And let {DE line}, {GE line}, and {EF line} each be made equal to {B magnitude}.
-And let the parallelepiped solid {EK given} have been completed.
-And (let) {LM line} (be made) equal to {A magnitude}.
-And let the solid angle contained by {NLO angle}, {OLM angle}, and {MLN angle} have been constructed on the straight-line {LM line}, and at the point {L point} on it, (so as to be) equal to the solid angle {E point} [Prop. 11.23].
-And let {LO line} be made equal to {B magnitude}, and {LN line} equal to {C magnitude}.
-And since as {A magnitude} (is) to {B magnitude}, so {B magnitude} (is) to {C magnitude}, and {A magnitude} (is) equal to {LM line}, and {B magnitude} to each of {LO line} and {ED line}, and {C magnitude} to {LN line}, thus as {LM line} (is) to {EF line}, so {DE line} (is) to {LN line}.
-And (so) the sides around the equal angles {NLM angle} and {DEF angle} are reciprocally proportional.
-Thus, parallelogram {MN polygon} is equal to parallelogram {DF polygon} [Prop. 6.14].
-And since the two plane rectilinear angles {DEF angle} and {NLM angle} are equal, and the raised straight-lines stood on them (at their apexes), {LO line} and {EG line}, are equal to one another, and contain equal angles respectively with the original straight-lines (forming the angles), the perpendiculars drawn from points {G point} and {O point} to the planes through {NLM angle} and {DEF angle} (respectively) are thus equal to one another [Prop. 11.35 corr.].
-Thus, the solids {LH given} and {EK given} (have) the same height.
-And parallelepiped solids on equal bases, and with the same height, are equal to one another [Prop. 11.31].
-Thus, solid {HL given} is equal to solid {EK given}.
-And {LH given} is the solid (formed) from {A magnitude}, {B magnitude}, and {C magnitude}, and {EK given} the solid on {B magnitude}.
-Thus, the parallelepiped solid (formed) from {A magnitude}, {B magnitude}, and {C magnitude} is equal to the equilateral solid on {B magnitude} (which is) equiangular with the aforementioned (solid).
-(Which is) the very thing it was required to show.
+{DEG angle}, {GEF angle} ve {FED angle} tarafından çevrili katı açı, {E point}'de konmuş olsun.
+Ve {DE line}, {GE line} ve {EF line}'ın her biri, {B magnitude}'ye eşit yapılmış olsun.
+Ve paralel yüzlü katı {EK given} tamamlanmış olsun.
+Ve {LM line}, {A magnitude}'ye eşit (yapılmış olsun).
+Ve {NLO angle}, {OLM angle} ve {MLN angle} tarafından çevrili katı açı, {LM line} doğrusu üzerinde ve onun üzerindeki {L point} noktasında, {E point} katı açısına eşit (olacak şekilde) inşa edilmiş olsun [Önerme 11.23].
+Ve {LO line}, {B magnitude}'ye eşit ve {LN line}, {C magnitude}'ye eşit yapılmış olsun.
+Ve {A magnitude}, {B magnitude}'ye nasılsa, {B magnitude} de {C magnitude}'ye öyle olduğu ve {A magnitude}, {LM line}'ye ve {B magnitude}, {LO line} ve {ED line}'nin her birine ve {C magnitude}, {LN line}'ye eşit olduğu için, böylece {LM line}, {EF line}'a nasılsa, {DE line} de {LN line}'ye öyledir.
+Ve (öyleyse) eşit açılar {NLM angle} ve {DEF angle}'ın yanındaki kenarlar ters orantılıdır.
+Böylece {MN polygon} paralelkenarı, {DF polygon} paralelkenarına eşittir [Önerme 6.14].
+Ve iki düzlem doğrusal açı {DEF angle} ve {NLM angle} eşit olduğu ve onların (tepelerinde) dikilen yükseltilmiş doğrular, {LO line} ve {EG line}, birbirine eşit olduğu ve orijinal doğrularla (açıları oluşturan) sırasıyla eşit açılar içerdiği için, {G point} ve {O point} noktalarından (sırasıyla) {NLM angle} ve {DEF angle}'dan geçen düzlemlere çizilen dikler böylece birbirine eşittir [Önerme 11.35 ek sonucu].
+Böylece {LH given} ve {EK given} katıları aynı yüksekliktedir.
+Ve eşit tabanlar üzerinde ve aynı yükseklikte olan paralel yüzlü katılar birbirine eşittir [Önerme 11.31].
+Böylece {HL given} katısı, {EK given} katısına eşittir.
+Ve {LH given}, {A magnitude}, {B magnitude} ve {C magnitude}'den (oluşan) katıdır ve {EK given}, {B magnitude} üzerindeki katıdır.
+Böylece {A magnitude}, {B magnitude} ve {C magnitude}'den (oluşan) paralel yüzlü katı, {B magnitude} üzerindeki, bahsedilen (katı) ile eşaçılı eşkenarlı katıya eşittir.
+(Gösterilmesi gereken tam olarak budur.)
 

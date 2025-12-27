@@ -1,14 +1,15 @@
-It must be shown that as {AB line} is to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}.
+{AB line}, {BC line}'ye nasılsa, {AD line} üzerindeki (karenin) de {DC line} üzerindeki (kareye) öyle olduğunun gösterilmesi gereklidir.
 
-For, let the figure of the semi-circle have been set out, and let {DB line} have been joined.
-And let the square {EC polygon} have been described on {AC line}.
-And let the parallelogram {FB polygon} have been completed.
-Therefore, since, on account of triangle {DAB polygon} being equiangular to triangle {DAC polygon} [Props. 6.8, 6.4], (proportionally) as {BA line} is to {AD line}, so {DA line} (is) to {AC line}, the (rectangle contained) by {BA line} and {AC line} is thus equal to the (square) on {AD line} [Prop. 6.17].
-And since as {AB line} is to {BC line}, so {EB polygon} (is) to {BF polygon} [Prop. 6.1].
-And {EB polygon} is the (rectangle contained) by {BA line} and {AC line}—for {EA line} (is) equal to {AC line}.
-And {BF polygon} the (rectangle contained) by {AC line} and {CB line}.
-Thus, as {AB line} (is) to {BC line}, so the (rectangle contained) by {BA line} and {AC line} (is) to the (rectangle contained) by {AC line} and {CB line}.
-And the (rectangle contained) by {BA line} and {AC line} is equal to the (square) on {AD line}, and the (rectangle contained) by {AC line} and {CB line} (is) equal to the (square) on {DC line}.
-For the perpendicular {DC line} is the mean proportional to the pieces of the base, {AC line} and {CB line}, on account of {ADB angle} being a right-angle [Prop. 6.8 corr.].
-Thus, as {AB line} (is) to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}.
-(Which is) the very thing it was required to show.
+Çünkü yarım çemberin şekli çizilmiş olsun ve {DB line} birleştirilmiş olsun.
+Ve {EC polygon} karesi, {AC line} üzerinde betimlenmiş olsun.
+Ve {FB polygon} paralelkenarı tamamlanmış olsun.
+Öyleyse {DAB polygon} üçgeni, {DAC polygon} üçgeni ile eşaçılı olduğu için [Önermeler 6.8, 6.4], (orantılı olarak) {BA line}, {AD line}'ye nasılsa, {DA line} de {AC line}'ye öyledir, ({BA line} ve {AC line} tarafından kapsanan dikdörtgen) böylece {AD line} üzerindeki (kareye) eşittir [Önerme 6.17].
+Ve {AB line}, {BC line}'ye nasılsa, {EB polygon} de {BF polygon}'ye öyle olduğu için [Önerme 6.1].
+Ve {EB polygon}, ({BA line} ve {AC line} tarafından kapsanan dikdörtgen)dir --- çünkü {EA line}, {AC line}'ye eşittir.
+Ve {BF polygon}, ({AC line} ve {CB line} tarafından kapsanan dikdörtgen)dir.
+Böylece {AB line}, {BC line}'ye nasılsa, ({BA line} ve {AC line} tarafından kapsanan dikdörtgen) de ({AC line} ve {CB line} tarafından kapsanan dikdörtgene) öyledir.
+Ve ({BA line} ve {AC line} tarafından kapsanan dikdörtgen), {AD line} üzerindeki (kareye) ve ({AC line} ve {CB line} tarafından kapsanan dikdörtgen), {DC line} üzerindeki (kareye) eşittir.
+Çünkü {DC line} diki, {ADB angle} bir dik açı olduğu için, tabanın parçaları, {AC line} ve {CB line}, arasındaki orta orantılıdır [Önerme 6.8 ek sonucu].
+Böylece {AB line}, {BC line}'ye nasılsa, {AD line} üzerindeki (kare) de {DC line} üzerindeki (kareye) öyledir.
+(Gösterilmesi gereken tam olarak budur.)
+

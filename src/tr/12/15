@@ -1,38 +1,39 @@
-The bases of equal cones and cylinders are reciprocally proportional to their heights.
-And, those cones and cylinders whose bases (are) reciprocally proportional to their heights are equal.
+Eşit konilerin ve silindirlerin tabanları, yüksekliklerine ters orantılıdır.
+Ve tabanları yüksekliklerine ters orantılı olan koniler ve silindirler eşittir.
 
-Let there be equal cones and cylinders whose bases are the circles {ABCD given} and {EFGH given}, and the diameters of (the bases) {AC line} and {EG line}, and (whose) axes (are) {KL line} and {MN line}, which are also the heights of the cones and cylinders (respectively).
-And let the cylinders {AO given} and {EP given} have been completed.
-I say that the bases of cylinders {AO given} and {EP given} are reciprocally proportional to their heights, and (so) as base {ABCD given} is to base {EFGH given}, so height {MN line} (is) to height {KL line}.
+Tabanları {ABCD given} ve {EFGH given} çemberleri ve (tabanların) çapları {AC line} ve {EG line} ve eksenleri de konilerin ve silindirlerin yükseklikleri olan {KL line} ve {MN line} olan eşit koniler ve silindirler olsun.
+Ve {AO given} ve {EP given} silindirleri tamamlanmış olsun.
+Diyorum ki {AO given} ve {EP given} silindirlerinin tabanları, yüksekliklerine ters orantılıdır ve (öyleyse) {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {KL line} yüksekliğine öyledir.
 
-For height {LK line} is either equal to height {MN line}, or not.
-Let it, first of all, be equal.
-And cylinder {AO given} is also equal to cylinder {EP given}.
-And cones and cylinders having the same height are to one another as their bases [Prop. 12.11].
-Thus, base {ABCD given} (is) also equal to base {EFGH given}.
-And, hence, reciprocally, as base {ABCD given} (is) to base {EFGH given}, so height {MN line} (is) to height {KL line}.
-And so, let height {LK line} not be equal to {MN line}, but let {MN line} be greater.
-And let {QN line}, equal to {KL line}, have been cut off from height {MN line}.
-And let the cylinder {EP given} have been cut, through point {Q point}, by the plane {TUS given} (which is) parallel to the planes of the circles {EFGH given} and {RP given}.
-And let cylinder {ES given} have been conceived, with base the circle {EFGH given}, and height {NQ line}.
-And since cylinder {AO given} is equal to cylinder {EP given}, thus, as cylinder {AO given} (is) to cylinder {ES given}, so cylinder {EP given} (is) to cylinder {ES given} [Prop. 5.7].
-But, as cylinder {AO given} (is) to cylinder {ES given}, so base {ABCD given} (is) to base {EFGH given}.
-For cylinders {AO given} and {ES given} (have) the same height [Prop. 12.11].
-And as cylinder {EP given} (is) to (cylinder) {ES given}, so height {MN line} (is) to height {QN line}.
-For cylinder {EP given} has been cut by a plane which is parallel to its opposite planes [Prop. 12.13].
-And, thus, as base {ABCD given} is to base {EFGH given}, so height {MN line} (is) to height {QN line} [Prop. 5.11].
-And height {QN line} (is) equal to height {KL line}.
-Thus, as base {ABCD given} is to base {EFGH given}, so height {MN line} (is) to height {KL line}.
-Thus, the bases of cylinders {AO given} and {EP given} are reciprocally proportional to their heights.
+Çünkü {LK line} yüksekliği, {MN line} yüksekliğine ya eşittir ya da değildir.
+Her şeyden önce, eşit olsun.
+Ve {AO given} silindiri de {EP given} silindirine eşittir.
+Ve aynı yüksekliğe sahip olan koniler ve silindirler, birbirine tabanları gibidir [Önerme 12.11].
+Böylece {ABCD given} tabanı da {EFGH given} tabanına eşittir.
+Ve öyleyse ters olarak, {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {KL line} yüksekliğine öyledir.
+Ve öyleyse {LK line} yüksekliği, {MN line}'ye eşit olmasın, fakat {MN line} daha büyük olsun.
+Ve {MN line} yüksekliğinden, {KL line}'ye eşit {QN line} kesilmiş olsun.
+Ve {EP given} silindiri, {Q point} noktasından geçerek, {EFGH given} ve {RP given} çemberlerinin düzlemlerine paralel olan {TUS given} düzlemi tarafından kesilmiş olsun.
+Ve tabanı {EFGH given} çemberi ve yüksekliği {NQ line} olan {ES given} silindiri tasavvur edilmiş olsun.
+Ve {AO given} silindiri, {EP given} silindirine eşit olduğu için, böylece {AO given} silindiri, {ES given} silindirine nasılsa, {EP given} silindiri de {ES given} silindirine öyledir [Önerme 5.7].
+Fakat {AO given} silindiri, {ES given} silindirine nasılsa, {ABCD given} tabanı da {EFGH given} tabanına öyledir.
+Çünkü {AO given} ve {ES given} silindirleri aynı yüksekliğe (sahiptir) [Önerme 12.11].
+Ve {EP given} silindiri, {ES given} (silindirine) nasılsa, {MN line} yüksekliği de {QN line} yüksekliğine öyledir.
+Çünkü {EP given} silindiri, karşıt düzlemlerine paralel bir düzlem tarafından kesilmiştir [Önerme 12.13].
+Ve böylece {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {QN line} yüksekliğine öyledir [Önerme 5.11].
+Ve {QN line} yüksekliği, {KL line} yüksekliğine eşittir.
+Böylece {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {KL line} yüksekliğine öyledir.
+Böylece {AO given} ve {EP given} silindirlerinin tabanları, yüksekliklerine ters orantılıdır.
 
-And, so, let the bases of cylinders {AO given} and {EP given} be reciprocally proportional to their heights, and (thus) let base {ABCD given} be to base {EFGH given}, as height {MN line} (is) to height {KL line}.
-I say that cylinder {AO given} is equal to cylinder {EP given}.
+Ve öyleyse {AO given} ve {EP given} silindirlerinin tabanları, yüksekliklerine ters orantılı olsun ve (böylece) {ABCD given} tabanı, {EFGH given} tabanına, {MN line} yüksekliğinin {KL line} yüksekliğine olduğu gibi olsun.
+Diyorum ki {AO given} silindiri, {EP given} silindirine eşittir.
 
-For, with the same construction, since as base {ABCD given} is to base {EFGH given}, so height {MN line} (is) to height {KL line}, and height {KL line} (is) equal to height {QN line}, thus, as base {ABCD given} (is) to base {EFGH given}, so height {MN line} will be to height {QN line}.
-But, as base {ABCD given} (is) to base {EFGH given}, so cylinder {AO given} (is) to cylinder {ES given}.
-For they are the same height [Prop. 12.11].
-And as height {MN line} (is) to [height] {QN line}, so cylinder {EP given} (is) to cylinder {ES given} [Prop. 12.13].
-Thus, as cylinder {AO given} is to cylinder {ES given}, so cylinder {EP given} (is) to (cylinder) {ES given} [Prop. 5.11].
-Thus, cylinder {AO given} (is) equal to cylinder {EP given} [Prop. 5.9].
-In the same manner, (the proposition can) also (be demonstrated) for the cones.
-(Which is) the very thing it was required to show.
+Çünkü aynı inşa ile, {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {KL line} yüksekliğine öyle olduğu ve {KL line} yüksekliği, {QN line} yüksekliğine eşit olduğu için, böylece {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {MN line} yüksekliği de {QN line} yüksekliğine öyle olacaktır.
+Fakat {ABCD given} tabanı, {EFGH given} tabanına nasılsa, {AO given} silindiri de {ES given} silindirine öyledir.
+Çünkü onlar aynı yüksekliktedir [Önerme 12.11].
+Ve {MN line} yüksekliği, {QN line} [yüksekliğine] nasılsa, {EP given} silindiri de {ES given} silindirine öyledir [Önerme 12.13].
+Böylece {AO given} silindiri, {ES given} silindirine nasılsa, {EP given} silindiri de {ES given} (silindirine) öyledir [Önerme 5.11].
+Böylece {AO given} silindiri, {EP given} silindirine eşittir [Önerme 5.9].
+Aynı şekilde (önerme) koniler için de (gösterilebilir).
+(Gösterilmesi gereken tam olarak budur.)
+

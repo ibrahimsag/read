@@ -1,29 +1,30 @@
-If a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.
+Eğer bir doğru, son ve orta orana göre kesilirse o zaman büyük parça üzerindeki kare, bütünün yarısına eklenerek, yarı üzerindeki karenin beş katıdır.
 
-For let the straight-line {AB line} have been cut in extreme and mean ratio at point {C point}, and let {AC line} be the greater piece.
-And let the straight-line {AD line} have been produced in a straight-line with {CA line}.
-And let {AD line} be made (equal to) half of {AB line}.
-I say that the (square) on {CD line} is five times the (square) on {DA line}.
+Çünkü {AB line} doğrusu, {C point} noktasında son ve orta orana göre kesilmiş olsun ve {AC line}, büyük parça olsun.
+Ve {AD line} doğrusu, {CA line} ile aynı doğru üzerinde uzatılmış olsun.
+Ve {AD line}, {AB line}'nin yarısına (eşit) yapılmış olsun.
+Diyorum ki {CD line} üzerindeki (kare), {DA line} üzerindeki (karenin) beş katıdır.
 
-For let the squares {AE polygon} and {DF polygon} have been described on {AB line} and {DC line} (respectively).
-And let the figure in {DF polygon} have been drawn.
-And let {FC line} have been drawn across to {G point}.
-And since {AB line} has been cut in extreme and mean ratio at {C point}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {AC line} [Def. 6.3, Prop. 6.17].
-And {CE polygon} is the (rectangle contained) by {AB line} and {BC line}, and {FH polygon} the (square) on {AC line}.
-Thus, {CE polygon} (is) equal to {FH polygon}.
-And since {BA line} is double {AD line}, and {BA line} (is) equal to {KA line}, and {AD line} to {AH line}, {KA line} (is) thus also double {AH line}.
-And as {KA line} (is) to {AH line}, so {CK polygon} (is) to {CH polygon} [Prop. 6.1].
-Thus, {CK polygon} (is) double {CH polygon}.
-And {LH polygon} plus {HC polygon} is also double {CH polygon} [Prop. 1.43].
-Thus, {KC polygon} (is) equal to {LH polygon} plus {HC polygon}.
-And {CE polygon} was also shown (to be) equal to {HF polygon}.
-Thus, the whole square {AE polygon} is equal to the gnomon {MNO given}.
-And since {BA line} is double {AD line}, the (square) on {BA line} is four times the (square) on {AD line}—that is to say, {AE polygon} (is four times) {DH polygon}.
-And {AE polygon} (is) equal to gnomon {MNO given}.
-And, thus, gnomon {MNO given} is also four times {AP polygon}.
-Thus, the whole of {DF polygon} is five times {AP polygon}.
-And {DF polygon} is the (square) on {DC line}, and {AP polygon} the (square) on {DA line}.
-Thus, the (square) on {CD line} is five times the (square) on {DA line}.
+Çünkü {AE polygon} ve {DF polygon} kareleri, (sırasıyla) {AB line} ve {DC line} üzerinde betimlenmiş olsun.
+Ve {DF polygon}'deki şekil çizilmiş olsun.
+Ve {FC line}, {G point}'e kadar geçirilmiş olsun.
+Ve {AB line}, {C point}'de son ve orta orana göre kesildiği için, ({AB line} ve {BC line} tarafından kapsanan dikdörtgen) böylece {AC line} üzerindeki (kareye) eşittir [Tanım 6.3, Önerme 6.17].
+Ve {CE polygon}, ({AB line} ve {BC line} tarafından kapsanan dikdörtgen) ve {FH polygon}, {AC line} üzerindeki (kare)dir.
+Böylece {CE polygon}, {FH polygon}'ye eşittir.
+Ve {BA line}, {AD line}'nin iki katı olduğu ve {BA line}, {KA line}'ya ve {AD line}, {AH line}'ye eşit olduğu için, {KA line} böylece de {AH line}'nin iki katıdır.
+Ve {KA line}, {AH line}'ye nasılsa, {CK polygon} da {CH polygon}'ye öyledir [Önerme 6.1].
+Böylece {CK polygon}, {CH polygon}'nin iki katıdır.
+Ve {LH polygon} artı {HC polygon} da {CH polygon}'nin iki katıdır [Önerme 1.43].
+Böylece {KC polygon}, {LH polygon} artı {HC polygon}'ye eşittir.
+Ve {CE polygon}'nin de {HF polygon}'ye eşit olduğu gösterildi.
+Böylece bütün {AE polygon} karesi, {MNO given} gnomonuna eşittir.
+Ve {BA line}, {AD line}'nin iki katı olduğu için, {BA line} üzerindeki (kare), {AD line} üzerindeki (karenin) dört katıdır --- yani {AE polygon}, {DH polygon}'nin (dört katıdır).
+Ve {AE polygon}, {MNO given} gnomonuna eşittir.
+Ve böylece {MNO given} gnomonu da {AP polygon}'nin dört katıdır.
+Böylece bütün {DF polygon}, {AP polygon}'nin beş katıdır.
+Ve {DF polygon}, {DC line} üzerindeki (kare) ve {AP polygon}, {DA line} üzerindeki (kare)dir.
+Böylece {CD line} üzerindeki (kare), {DA line} üzerindeki (karenin) beş katıdır.
 
-Thus, if a straight-line is cut in extreme and mean ratio then the square on the greater piece, added to half of the whole, is five times the square on the half.
-(Which is) the very thing it was required to show.
+Böylece eğer bir doğru, son ve orta orana göre kesilirse o zaman büyük parça üzerindeki kare, bütünün yarısına eklenerek, yarı üzerindeki karenin beş katıdır.
+(Gösterilmesi gereken tam olarak budur.)
+

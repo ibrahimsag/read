@@ -1,46 +1,47 @@
-If the square on a straight-line is five times the (square) on a piece of it, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line.
+Eğer bir doğru üzerindeki kare, onun bir parçası üzerindeki (karenin) beş katıysa ve bahsedilen parçanın iki katı, son ve orta orana göre kesilirse o zaman büyük parça, orijinal doğrunun kalan kısmıdır.
 
-For let the square on the straight-line {AB line} be five times the (square) on the piece of it, {AC line}.
-And let {CD line} be double {AC line}.
-I say that if {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.
+Çünkü {AB line} doğrusu üzerindeki kare, onun parçası {AC line} üzerindeki (karenin) beş katı olsun.
+Ve {CD line}, {AC line}'nin iki katı olsun.
+Diyorum ki eğer {CD line}, son ve orta orana göre kesilirse o zaman büyük parça {CB line}'dir.
 
-For let the squares {AF polygon} and {CG polygon} have been described on each of {AB line} and {CD line} (respectively).
-And let the figure in {AF polygon} have been drawn.
-And let {BE line} have been drawn across.
-And since the (square) on {BA line} is five times the (square) on {AC line}, {AF polygon} is five times {AH polygon}.
-Thus, gnomon {MNO given} (is) four times {AH polygon}.
-And since {DC line} is double {CA line}, the (square) on {DC line} is thus four times the (square) on {CA line}—that is to say, {CG polygon} (is four times) {AH polygon}.
-And the gnomon {MNO given} was also shown (to be) four times {AH polygon}.
-Thus, gnomon {MNO given} (is) equal to {CG polygon}.
-And since {DC line} is double {CA line}, and {DC line} (is) equal to {CK line}, and {AC line} to {CH line}, [{KC line} (is) thus also double {CH line}], (and) {KB polygon} (is) also double {BH polygon} [Prop. 6.1].
-And {LH polygon} plus {HB polygon} is also double {HB polygon} [Prop. 1.43].
-Thus, {KB polygon} (is) equal to {LH polygon} plus {HB polygon}.
-And the whole gnomon {MNO given} was also shown (to be) equal to the whole of {CG polygon}.
-Thus, the remainder {HF polygon} is also equal to (the remainder) {BG polygon}.
-And {BG polygon} is the (rectangle contained) by {CD line} and {DB line}.
-For {CD line} (is) equal to {DG line}.
-And {HF polygon} (is) the square on {CB line}.
-Thus, the (rectangle contained) by {CD line} and {DB line} is equal to the (square) on {CB line}.
-Thus, as {DC line} is to {CB line}, so {CB line} (is) to {BD line} [Prop. 6.17].
-And {DC line} (is) greater than {CB line} (see lemma).
-Thus, {CB line} (is) also greater than {BD line} [Prop. 5.14].
-Thus, if the straight-line {CD line} is cut in extreme and mean ratio then the greater piece is {CB line}.
+Çünkü {AF polygon} ve {CG polygon} kareleri, (sırasıyla) {AB line} ve {CD line}'nin her birinin üzerinde betimlenmiş olsun.
+Ve {AF polygon}'deki şekil çizilmiş olsun.
+Ve {BE line} geçirilmiş olsun.
+Ve {BA line} üzerindeki (kare), {AC line} üzerindeki (karenin) beş katı olduğu için, {AF polygon}, {AH polygon}'nin beş katıdır.
+Böylece {MNO given} gnomonu, {AH polygon}'nin dört katıdır.
+Ve {DC line}, {CA line}'nın iki katı olduğu için, {DC line} üzerindeki (kare) böylece {CA line} üzerindeki (karenin) dört katıdır --- yani {CG polygon}, {AH polygon}'nin (dört katıdır).
+Ve {MNO given} gnomonunun da {AH polygon}'nin dört katı olduğu gösterildi.
+Böylece {MNO given} gnomonu, {CG polygon}'ye eşittir.
+Ve {DC line}, {CA line}'nın iki katı olduğu ve {DC line}, {CK line}'ye ve {AC line}, {CH line}'ye eşit olduğu için, [{KC line} böylece de {CH line}'nin iki katıdır], (ve) {KB polygon} da {BH polygon}'nin iki katıdır [Önerme 6.1].
+Ve {LH polygon} artı {HB polygon} da {HB polygon}'nin iki katıdır [Önerme 1.43].
+Böylece {KB polygon}, {LH polygon} artı {HB polygon}'ye eşittir.
+Ve bütün {MNO given} gnomonunun da bütün {CG polygon}'ye eşit olduğu gösterildi.
+Böylece kalan {HF polygon} da (kalan) {BG polygon}'ye eşittir.
+Ve {BG polygon}, ({CD line} ve {DB line} tarafından kapsanan dikdörtgen)dir.
+Çünkü {CD line}, {DG line}'ye eşittir.
+Ve {HF polygon}, {CB line} üzerindeki karedir.
+Böylece ({CD line} ve {DB line} tarafından kapsanan dikdörtgen), {CB line} üzerindeki (kareye) eşittir.
+Böylece {DC line}, {CB line}'ye nasılsa, {CB line} de {BD line}'ye öyledir [Önerme 6.17].
+Ve {DC line}, {CB line}'den büyüktür (yardımcı önermeye bakınız).
+Böylece {CB line} de {BD line}'den büyüktür [Önerme 5.14].
+Böylece eğer {CD line} doğrusu, son ve orta orana göre kesilirse o zaman büyük parça {CB line}'dir.
 
-Thus, if the square on a straight-line is five times the (square) on a piece of itself, and double the aforementioned piece is cut in extreme and mean ratio, then the greater piece is the remaining part of the original straight-line. (Which is) the very thing it was required to show.
+Böylece eğer bir doğru üzerindeki kare, onun bir parçası üzerindeki (karenin) beş katıysa ve bahsedilen parçanın iki katı, son ve orta orana göre kesilirse o zaman büyük parça, orijinal doğrunun kalan kısmıdır. (Gösterilmesi gereken tam olarak budur.)
 
-Lemma
+Yardımcı Önerme
 
-And it can be shown that double {AC line} (i.e., {DC line}) is greater than {BC line}, as follows.
+Ve {AC line}'nin iki katının (yani {DC line}'nin), {BC line}'den büyük olduğu şu şekilde gösterilebilir.
 
-For if (double {AC line} is) not (greater than {BC line}), if possible, let {BC line} be double {CA line}.
-Thus, the (square) on {BC line} (is) four times the (square) on {CA line}.
-Thus, the (sum of) the (squares) on {BC line} and {CA line} (is) five times the (square) on {CA line}.
-And the (square) on {BA line} was assumed (to be) five times the (square) on {CA line}.
-Thus, the (square) on {BA line} is equal to the (sum of) the (squares) on {BC line} and {CA line}.
-The very thing (is) impossible [Prop. 2.4].
-Thus, {CB line} is not double {AC line}.
-So, similarly, we can show that a (straight-line) less than {CB line} is not double {AC line} either.
-For (in this case) the absurdity is much [greater].
+Çünkü eğer ({AC line}'nin iki katı, {BC line}'den büyük) değilse, mümkünse {BC line}, {CA line}'nın iki katı olsun.
+Böylece {BC line} üzerindeki (kare), {CA line} üzerindeki (karenin) dört katıdır.
+Böylece {BC line} ve {CA line} üzerindeki (karelerin toplamı), {CA line} üzerindeki (karenin) beş katıdır.
+Ve {BA line} üzerindeki (karenin), {CA line} üzerindeki (karenin) beş katı olduğu kabul edilmişti.
+Böylece {BA line} üzerindeki (kare), {BC line} ve {CA line} üzerindeki (karelerin toplamına) eşittir.
+Tam olarak (bu) imkansızdır [Önerme 2.4].
+Böylece {CB line}, {AC line}'nin iki katı değildir.
+Öyleyse benzer şekilde, {CB line}'den küçük bir (doğrunun) da {AC line}'nin iki katı olmadığını gösterebiliriz.
+Çünkü (bu durumda) saçmalık çok [daha büyüktür].
 
-Thus, double {AC line} is greater than {CB line}.
-(Which is) the very thing it was required to show.
+Böylece {AC line}'nin iki katı, {CB line}'den büyüktür.
+(Gösterilmesi gereken tam olarak budur.)
+

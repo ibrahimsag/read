@@ -1,24 +1,25 @@
-If a solid (figure) is contained by (six) parallel planes then its opposite planes are both equal and parallelogrammic.
+Eğer bir katı (şekil), (altı) paralel düzlem tarafından çevrelenirse o zaman onun karşıt düzlemleri hem eşit hem de paralelkenardır.
 
-For let the solid (figure) {CDHG given} have been contained by the parallel planes {AC polygon}, {GF polygon}, and {AH polygon}, {DF polygon}, and {BF polygon}, {AE polygon}.
-I say that its opposite planes are both equal and parallelogrammic.
+Çünkü katı (şekil) {CDHG given}, {AC polygon}, {GF polygon} ve {AH polygon}, {DF polygon} ve {BF polygon}, {AE polygon} paralel düzlemleri tarafından çevrelenmiş olsun.
+Diyorum ki onun karşıt düzlemleri hem eşit hem de paralelkenardır.
 
-For since the two parallel planes {BG polygon} and {CE polygon} are cut by the plane {AC polygon}, their common sections are parallel [Prop. 11.16].
-Thus, {AB line} is parallel to {DC line}.
-Again, since the two parallel planes {BF polygon} and {AE polygon} are cut by the plane {AC polygon}, their common sections are parallel [Prop. 11.16].
-Thus, {BC line} is parallel to {AD line}.
-And {AB line} was also shown (to be) parallel to {DC line}.
-Thus, {AC polygon} is a parallelogram.
-So, similarly, we can also show that {DF polygon}, {FG polygon}, {GB polygon}, {BF polygon}, and {AE polygon} are each parallelograms.
+Çünkü iki paralel düzlem {BG polygon} ve {CE polygon}, {AC polygon} düzlemi tarafından kesildiği için, onların ortak kesitleri paraleldir [Önerme 11.16].
+Böylece {AB line}, {DC line}'ye paraleldir.
+Ve tekrar, iki paralel düzlem {BF polygon} ve {AE polygon}, {AC polygon} düzlemi tarafından kesildiği için, onların ortak kesitleri paraleldir [Önerme 11.16].
+Böylece {BC line}, {AD line}'a paraleldir.
+Ve {AB line}'nin de {DC line}'ye paralel olduğu gösterildi.
+Böylece {AC polygon} bir paralelkenardır.
+Öyleyse benzer şekilde, {DF polygon}, {FG polygon}, {GB polygon}, {BF polygon} ve {AE polygon}'un her birinin paralelkenar olduğunu da gösterebiliriz.
 
-Let {AH line} and {DF line} have been joined.
-And since {AB line} is parallel to {DC line}, and {BH line} to {CF line}, so the two (straight-lines) joining one another, {AB line} and {BH line}, are parallel to the two straight-lines joining one another, {DC line} and {CF line} (respectively), not (being) in the same plane.
-Thus, they will contain equal angles [Prop. 11.10].
-Thus, angle {ABH angle} (is) equal to (angle) {DCF angle}.
-And since the two (straight-lines) {AB line} and {BH line} are equal to the two (straight-lines) {DC line} and {CF line} (respectively) [Prop. 1.34], and angle {ABH angle} is equal to angle {DCF angle}, the base {AH line} is thus equal to the base {DF line}, and triangle {ABH polygon} is equal to triangle {DCF polygon} [Prop. 1.4].
-And parallelogram {BG polygon} is double (triangle) {ABH polygon}, and parallelogram {CE polygon} double (triangle) {DCF polygon} [Prop. 1.34].
-Thus, parallelogram {BG polygon} (is) equal to parallelogram {CE polygon}.
-So, similarly, we can show that {AC polygon} is also equal to {GF polygon}, and {AE polygon} to {BF polygon}.
+{AH line} ve {DF line} birleştirilmiş olsun.
+Ve {AB line}, {DC line}'ye paralel olduğu ve {BH line}, {CF line}'a (paralel) olduğu için, öyleyse birbirine birleştirilen iki (doğru), {AB line} ve {BH line}, birbirine birleştirilen iki doğruya, {DC line} ve {CF line}'a, aynı düzlemde (bulunmayarak), (sırasıyla) paraleldir.
+Böylece onlar eşit açılar içerecektir [Önerme 11.10].
+Böylece {ABH angle} açısı, {DCF angle} (açısına) eşittir.
+Ve iki (doğru) {AB line} ve {BH line}, iki (doğruya) {DC line} ve {CF line}'a (sırasıyla) eşit olduğu için [Önerme 1.34] ve {ABH angle} açısı, {DCF angle} açısına eşit olduğu için, taban {AH line} böylece taban {DF line}'a eşittir ve {ABH polygon} üçgeni, {DCF polygon} üçgenine eşittir [Önerme 1.4].
+Ve {BG polygon} paralelkenarı, (üçgen) {ABH polygon}'un iki katıdır ve {CE polygon} paralelkenarı, (üçgen) {DCF polygon}'un iki katıdır [Önerme 1.34].
+Böylece {BG polygon} paralelkenarı, {CE polygon} paralelkenarına eşittir.
+Öyleyse benzer şekilde, {AC polygon}'un da {GF polygon}'a ve {AE polygon}'un {BF polygon}'a eşit olduğunu gösterebiliriz.
 
-Thus, if a solid (figure) is contained by (six) parallel planes then its opposite planes are both equal and parallelogrammic.
-(Which is) the very thing it was required to show.
+Böylece eğer bir katı (şekil), (altı) paralel düzlem tarafından çevrelenirse o zaman onun karşıt düzlemleri hem eşit hem de paralelkenardır.
+(Gösterilmesi gereken tam olarak budur.)
+

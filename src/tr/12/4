@@ -1,42 +1,43 @@
-If there are two pyramids with the same height, having trianglular bases, and each of them is divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms then as the base of one pyramid (is) to the base of the other pyramid, so (the sum of) all the prisms in one pyramid will be to (the sum of all) the equal number of prisms in the other pyramid.
+Eğer aynı yükseklikte, üçgensel tabanlı iki piramit varsa ve onların her biri birbirine eşit, bütüne benzer iki piramide ve iki eşit prizmaya bölünürse o zaman bir piramidin tabanı, diğer piramidin tabanına nasılsa, bir piramitteki tüm prizmaların (toplamı) da diğer piramitteki eşit sayıdaki (tüm) prizmaların (toplamına) öyle olacaktır.
 
-Let there be two pyramids with the same height, having the triangular bases {ABC polygon} and {DEF polygon}, (with) apexes the points {G point} and {H point} (respectively).
-And let each of them have been divided into two pyramids equal to one another, and similar to the whole, and into two equal prisms [Prop. 12.3].
-I say that as base {ABC polygon} is to base {DEF polygon}, so (the sum of) all the prisms in pyramid {ABCG given} (is) to (the sum of) all the equal number of prisms in pyramid {DEFH given}.
+{ABC polygon} ve {DEF polygon} üçgensel tabanları olan, (tepeleri sırasıyla) {G point} ve {H point} noktaları olan aynı yükseklikte iki piramit olsun.
+Ve onların her biri, birbirine eşit, bütüne benzer iki piramide ve iki eşit prizmaya bölünmüş olsun [Önerme 12.3].
+Diyorum ki {ABC polygon} tabanı, {DEF polygon} tabanına nasılsa, {ABCG given} piramidindeki tüm prizmaların (toplamı) da {DEFH given} piramidindeki eşit sayıdaki tüm prizmaların (toplamına) öyledir.
 
-For since {BO line} is equal to {OC line}, and {AL line} to {LC line}, {LO line} is thus parallel to {AB line}, and triangle {ABC polygon} similar to triangle {LOC polygon} [Prop. 12.3].
-So, for the same (reasons), triangle {DEF polygon} is also similar to triangle {RVF polygon}.
-And since {BC line} is double {CO line}, and {EF line} (double) {FV line}, thus as {BC line} (is) to {CO line}, so {EF line} (is) to {FV line}.
-And the similar, and similarly laid out, rectilinear (figures) {ABC polygon} and {LOC polygon} have been described on {BC line} and {CO line} (respectively), and the similar, and similarly laid out, [rectilinear] (figures) {DEF polygon} and {RVF polygon} on {EF line} and {FV line} (respectively).
-Thus, as triangle {ABC polygon} is to triangle {LOC polygon}, so triangle {DEF polygon} (is) to triangle {RVF polygon} [Prop. 6.22].
-Thus, alternately, as triangle {ABC polygon} is to [triangle] {DEF polygon}, so [triangle] {LOC polygon} (is) to triangle {RVF polygon} [Prop. 5.16].
-But, as triangle {LOC polygon} (is) to triangle {RVF polygon}, so the prism whose base [is] triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon} (see lemma).
-And, thus, as triangle {ABC polygon} (is) to triangle {DEF polygon}, so the prism whose base (is) triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon}.
-And as the aforementioned prisms (are) to one another, so the prism whose base (is) parallelogram {KBOL polygon}, and opposite (side) straight-line {PM line}, (is) to the prism whose base (is) parallelogram {QEVR polygon}, and opposite (side) straight-line {ST line} [Props. 11.39, 12.3].
-Thus, also, (is) the (sum of the) two prisms—that whose base (is) parallelogram {KBOL polygon}, and opposite (side) {PM line}, and that whose base (is) {LOC polygon}, and opposite (plane) {PMN polygon}—to (the sum of) the (two) prisms—that whose base (is) {QEVR polygon}, and opposite (side) straight-line {ST line}, and that whose base (is) triangle {RVF polygon}, and opposite (plane) {STU polygon} [Prop. 5.12].
-And, thus, as base {ABC polygon} (is) to base {DEF polygon}, so the (sum of the first) aforementioned two prisms (is) to the (sum of the second) aforementioned two prisms.
+Çünkü {BO line}, {OC line}'ye ve {AL line}, {LC line}'ye eşit olduğu için, {LO line} böylece {AB line}'ye paraleldir ve {ABC polygon} üçgeni, {LOC polygon} üçgenine benzerdir [Önerme 12.3].
+Öyleyse aynı (nedenlerle), {DEF polygon} üçgeni de {RVF polygon} üçgenine benzerdir.
+Ve {BC line}, {CO line}'nun iki katı ve {EF line}, {FV line}'nin (iki katı) olduğu için, böylece {BC line}, {CO line}'ya nasılsa, {EF line} de {FV line}'ye öyledir.
+Ve benzer ve benzer şekilde düzenlenmiş doğrusal (şekiller) {ABC polygon} ve {LOC polygon}, (sırasıyla) {BC line} ve {CO line} üzerinde betimlenmiştir ve benzer ve benzer şekilde düzenlenmiş [doğrusal] (şekiller) {DEF polygon} ve {RVF polygon}, (sırasıyla) {EF line} ve {FV line} üzerinde (betimlenmiştir).
+Böylece {ABC polygon} üçgeni, {LOC polygon} üçgenine nasılsa, {DEF polygon} üçgeni de {RVF polygon} üçgenine öyledir [Önerme 6.22].
+Böylece ters olarak, {ABC polygon} üçgeni, {DEF polygon} [üçgenine] nasılsa, {LOC polygon} [üçgeni] de {RVF polygon} üçgenine öyledir [Önerme 5.16].
+Fakat {LOC polygon} üçgeni, {RVF polygon} üçgenine nasılsa, tabanı {LOC polygon} üçgeni ve karşıt (düzlemi) {PMN polygon} olan prizma da tabanı {RVF polygon} üçgeni ve karşıt (düzlemi) {STU polygon} olan prizmaya öyledir (yardımcı önermeye bak).
+Ve böylece {ABC polygon} üçgeni, {DEF polygon} üçgenine nasılsa, tabanı {LOC polygon} üçgeni ve karşıt (düzlemi) {PMN polygon} olan prizma da tabanı {RVF polygon} üçgeni ve karşıt (düzlemi) {STU polygon} olan prizmaya öyledir.
+Ve bahsedilen prizmalar birbirine nasılsa, tabanı {KBOL polygon} paralelkenarı ve karşıt (kenarı) {PM line} doğrusu olan prizma da tabanı {QEVR polygon} paralelkenarı ve karşıt (kenarı) {ST line} doğrusu olan prizmaya öyledir [Önermeler 11.39, 12.3].
+Böylece ayrıca (iki prizmanın toplamı) --- tabanı {KBOL polygon} paralelkenarı ve karşıt (kenarı) {PM line} olan ve tabanı {LOC polygon} ve karşıt (düzlemi) {PMN polygon} olan --- (iki prizmanın toplamına) --- tabanı {QEVR polygon} ve karşıt (kenarı) {ST line} doğrusu olan ve tabanı {RVF polygon} üçgeni ve karşıt (düzlemi) {STU polygon} olan --- (öyledir) [Önerme 5.12].
+Ve böylece {ABC polygon} tabanı, {DEF polygon} tabanına nasılsa, (birinci) bahsedilen iki prizmanın (toplamı) da (ikinci) bahsedilen iki prizmanın (toplamına) öyledir.
 
-And, similarly, if pyramids {PMNG given} and {STUH given} are divided into two prisms, and two pyramids, as base {PMN polygon} (is) to base {STU polygon}, so (the sum of) the two prisms in pyramid {PMNG given} will be to (the sum of) the two prisms in pyramid {STUH given}.
-But, as base {PMN polygon} (is) to base {STU polygon}, so base {ABC polygon} (is) to base {DEF polygon}.
-For the triangles {PMN polygon} and {STU polygon} (are) equal to {LOC polygon} and {RVF polygon}, respectively.
-And, thus, as base {ABC polygon} (is) to base {DEF polygon}, so (the sum of) the four prisms (is) to (the sum of) the four prisms [Prop. 5.12].
-So, similarly, even if we divide the pyramids left behind into two pyramids and into two prisms, as base {ABC polygon} (is) to base {DEF polygon}, so (the sum of) all the prisms in pyramid {ABCG given} will be to (the sum of) all the equal number of prisms in pyramid {DEFH given}.
-(Which is) the very thing it was required to show.
+Ve benzer şekilde, eğer {PMNG given} ve {STUH given} piramitleri iki prizmaya ve iki piramide bölünürse, {PMN polygon} tabanı, {STU polygon} tabanına nasılsa, {PMNG given} piramidindeki (iki prizmanın toplamı) da {STUH given} piramidindeki (iki prizmanın toplamına) öyle olacaktır.
+Fakat {PMN polygon} tabanı, {STU polygon} tabanına nasılsa, {ABC polygon} tabanı da {DEF polygon} tabanına öyledir.
+Çünkü {PMN polygon} ve {STU polygon} üçgenleri, sırasıyla {LOC polygon} ve {RVF polygon}'a eşittir.
+Ve böylece {ABC polygon} tabanı, {DEF polygon} tabanına nasılsa, (dört prizmanın toplamı) da (dört prizmanın toplamına) öyledir [Önerme 5.12].
+Öyleyse benzer şekilde, geride kalan piramitleri iki piramide ve iki prizmaya bölsek bile, {ABC polygon} tabanı, {DEF polygon} tabanına nasılsa, {ABCG given} piramidindeki tüm prizmaların (toplamı) da {DEFH given} piramidindeki eşit sayıdaki tüm prizmaların (toplamına) öyle olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
 
-Lemma
+Yardımcı Önerme
 
-And one may show, as follows, that as triangle {LOC polygon} is to triangle {RVF polygon}, so the prism whose base (is) triangle {LOC polygon}, and opposite (plane) {PMN polygon}, (is) to the prism whose base (is) [triangle] {RVF polygon}, and opposite (plane) {STU polygon}.
+Ve {LOC polygon} üçgeni, {RVF polygon} üçgenine nasılsa, tabanı {LOC polygon} üçgeni ve karşıt (düzlemi) {PMN polygon} olan prizmanın da tabanı {RVF polygon} [üçgeni] ve karşıt (düzlemi) {STU polygon} olan prizmaya öyle olduğu aşağıdaki gibi gösterilebilir.
 
-For, in the same figure, let perpendiculars have been conceived (drawn) from (points) {G given} and {H given} to the planes {ABC polygon} and {DEF polygon} (respectively).
-These clearly turn out to be equal, on account of the pyramids being assumed (to be) of equal height.
-And since two straight-lines, {GC line} and the perpendicular from {G point}, are cut by the parallel planes {ABC polygon} and {PMN polygon} they will be cut in the same ratios [Prop. 11.17].
-And {GC line} was cut in half by the plane {PMN polygon} at {N point}.
-Thus, the perpendicular from {G point} to the plane {ABC polygon} will also be cut in half by the plane {PMN polygon}.
-So, for the same (reasons), the perpendicular from {H point} to the plane {DEF polygon} will also be cut in half by the plane {STU polygon}.
-And the perpendiculars from {G point} and {H point} to the planes {ABC polygon} and {DEF polygon} (respectively) are equal.
-Thus, the perpendiculars from the triangles {PMN polygon} and {STU polygon} to {ABC polygon} and {DEF polygon} (respectively, are) also equal.
-Thus, the prisms whose bases are triangles {LOC polygon} and {RVF polygon}, and opposite (sides) {PMN polygon} and {STU polygon} (respectively), [are] of equal height.
-And, hence, the parallelepiped solids described on the aforementioned prisms [are] of equal height and (are) to one another as their bases [Prop. 11.32].
-Likewise, the halves (of the solids) [Prop. 11.28].
-Thus, as base {LOC polygon} is to base {RVF polygon}, so the aforementioned prisms (are) to one another.
-(Which is) the very thing it was required to show.
+Çünkü aynı şekilde, dikler (sırasıyla) {G given} ve {H given} (noktalarından) {ABC polygon} ve {DEF polygon} düzlemlerine çizilmiş (tasavvur edilmiş) olsun.
+Bunlar açıkça eşittir, piramitlerin eşit yükseklikte olduğu varsayıldığı için.
+Ve iki doğru, {GC line} ve {G point}'den gelen dik, paralel {ABC polygon} ve {PMN polygon} düzlemleri tarafından kesildiği için, onlar aynı oranlarda kesilecektir [Önerme 11.17].
+Ve {GC line}, {PMN polygon} düzlemi tarafından {N point}'de ikiye bölündü.
+Böylece {G point}'den {ABC polygon} düzlemine gelen dik de {PMN polygon} düzlemi tarafından ikiye bölünecektir.
+Öyleyse aynı (nedenlerle), {H point}'den {DEF polygon} düzlemine gelen dik de {STU polygon} düzlemi tarafından ikiye bölünecektir.
+Ve {G point} ve {H point}'den (sırasıyla) {ABC polygon} ve {DEF polygon} düzlemlerine gelen dikler eşittir.
+Böylece {PMN polygon} ve {STU polygon} üçgenlerinden (sırasıyla) {ABC polygon} ve {DEF polygon}'a gelen dikler de eşittir.
+Böylece tabanları {LOC polygon} ve {RVF polygon} üçgenleri ve karşıt (kenarları) (sırasıyla) {PMN polygon} ve {STU polygon} olan prizmalar eşit yüksekliktedir.
+Ve öyleyse bahsedilen prizmalar üzerinde betimlenen paralel yüzlü katılar eşit yüksekliktedir ve (birbirine) tabanları gibidir [Önerme 11.32].
+Aynı şekilde (katıların) yarıları (da öyledir) [Önerme 11.28].
+Böylece {LOC polygon} tabanı, {RVF polygon} tabanına nasılsa, bahsedilen prizmalar da birbirine öyledir.
+(Gösterilmesi gereken tam olarak budur.)
+

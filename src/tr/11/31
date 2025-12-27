@@ -1,52 +1,53 @@
-Parallelepiped solids which are on equal bases, and (have) the same height, are equal to one another.
+Eşit tabanlar üzerinde olan ve aynı yükseklikte olan paralel yüzlü katılar birbirine eşittir.
 
-Let the parallelepiped solids {AE given} and {CF given} be on the equal bases {AB polygon} and {CD polygon} (respectively), and (have) the same height.
-I say that solid {AE given} is equal to solid {CF given}.
+Paralel yüzlü katılar {AE given} ve {CF given}, (sırasıyla) eşit tabanlar {AB polygon} ve {CD polygon} üzerinde olsun ve aynı yükseklikte olsun.
+Diyorum ki {AE given} katısı, {CF given} katısına eşittir.
 
-{figure 1}So, let the (straight-lines) standing up, {HK line}, {BE line}, {AG line}, {LM line}, {PQ line}, {DF line}, {CO line}, and {RS line}, first of all, be at right-angles to the bases {AB polygon} and {CD polygon}.
-And let {RT line} have been produced in a straight-line with {CR line}.
-And let (angle) {TRU angle}, equal to angle {ALB angle}, have been constructed on the straight-line {RT line}, at the point {R point} on it [Prop. 1.23].
-And let {RT line} be made equal to {AL line}, and {RU line} to {LB line}.
-And let the base {RW polygon}, and the solid {XU given}, have been completed.
+{şekil 1}Öyleyse dikilen (doğrular), {HK line}, {BE line}, {AG line}, {LM line}, {PQ line}, {DF line}, {CO line} ve {RS line}, ilk olarak {AB polygon} ve {CD polygon} tabanlarına dik açılarda olsun.
+Ve {RT line}, {CR line} ile düz bir doğru olarak üretilmiş olsun.
+Ve {ALB angle} açısına eşit {TRU angle} (açısı), {RT line} doğrusu üzerinde, onun üzerindeki {R point} noktasında inşa edilmiş olsun [Önerme 1.23].
+Ve {RT line}, {AL line}'ye eşit ve {RU line}, {LB line}'ye eşit yapılmış olsun.
+Ve {RW polygon} tabanı ve {XU given} katısı tamamlanmış olsun.
 
-And since the two (straight-lines) {TR line} and {RU line} are equal to the two (straight-lines) {AL line} and {LB line} (respectively), and they contain equal angles, parallelogram {RW polygon} is thus equal and similar to parallelogram {HL polygon} [Prop. 6.14].
-And, again, since {AL line} is equal to {RT line}, and {LM line} to {RS line}, and they contain right-angles, parallelogram {RX polygon} is thus equal and similar to parallelogram {AM polygon} [Prop. 6.14].
-So, for the same (reasons), {LE polygon} is also equal and similar to {SU polygon}.
-Thus, three parallelograms of solid {AE given} are equal and similar to three parallelograms of solid {XU given}.
-But, the three (faces of the former solid) are equal and similar to the three opposite (faces), and the three (faces of the latter solid) to the three opposite (faces) [Prop. 11.24].
-Thus, the whole parallelepiped solid {AE given} is equal to the whole parallelepiped solid {XU given} [Def. 11.10].
-Let {DR line} and {WU line} have been drawn across, and let them have met one another at {Y point}.
-And let {aTb line} have been drawn through {T line} parallel to {DY line}.
-And let {PD line} have been produced to {a point}.
-And let the solids {YX given} and {RI given} have been completed.
-So, solid {XY given}, whose base is parallelogram {RX polygon}, and opposite (face) {Yc polygon}, is equal to solid {XU given}, whose base (is) parallelogram {RX polygon}, and opposite (face) {UV polygon}.
-For they are on the same base {RX polygon}, and (have) the same height, and the (ends of the straight-lines) standing up in them, {RY line}, {RU line}, {Tb line}, {TW line}, {Se line}, {Sd line}, {Xc line} and {XV line}, are on the same straight-lines, {YW line} and {eV line} [Prop. 11.29].
-But, solid {XU given} is equal to {AE given}.
-Thus, solid {XY given} is also equal to solid {AE given}.
-And since parallelogram {RUWT polygon} is equal to parallelogram {YT polygon}.
-For they are on the same base {RT line}, and between the same parallels {RT line} and {YW line} [Prop. 1.35].
-But, {RUWT polygon} is equal to {CD polygon}, since (it is) also (equal) to {AB polygon}.
-Parallelogram {YT polygon} is thus also equal to {CD polygon}.
-And {DT polygon} is another (parallelogram).
-Thus, as base {CD polygon} is to {DT polygon}, so {YT polygon} (is) to {DT polygon} [Prop. 5.7].
-And since the parallelepiped solid {CI given} has been cut by the plane {RF polygon}, which is parallel to the opposite planes (of {CI given}), as base {CD polygon} is to base {DT polygon}, so solid {CF given} (is) to solid {RI given} [Prop. 11.25].
-So, for the same (reasons), since the parallelepiped solid {YI given} has been cut by the plane {RX polygon}, which is parallel to the opposite planes (of {YI given}), as base {YT polygon} is to base {TD polygon}, so solid {YX given} (is) to solid {RI given} [Prop. 11.25].
-But, as base {CD polygon} (is) to {DT polygon}, so {YT polygon} (is) to {DT polygon}.
-And, thus, as solid {CF given} (is) to solid {RI given}, so solid {YX given} (is) to solid {RI given}.
-Thus, solids {CF given} and {YX given} each have the same ratio to {RI given} [Prop. 5.11].
-Thus, solid {CF given} is equal to solid {YX given} [Prop. 5.9].
-But, {YX given} was show (to be) equal to {AE given}.
-Thus, {AE given} is also equal to {CF given}.
+Ve iki (doğru) {TR line} ve {RU line}, iki (doğruya) {AL line} ve {LB line}'ye (sırasıyla) eşit olduğu ve onlar eşit açılar içerdiği için, {RW polygon} paralelkenarı böylece {HL polygon} paralelkenarına eşit ve benzerdir [Önerme 6.14].
+Ve tekrar, {AL line}, {RT line}'ye eşit olduğu ve {LM line}, {RS line}'ye (eşit) olduğu ve onlar dik açılar içerdiği için, {RX polygon} paralelkenarı böylece {AM polygon} paralelkenarına eşit ve benzerdir [Önerme 6.14].
+Öyleyse aynı (nedenlerle), {LE polygon} de {SU polygon}'a eşit ve benzerdir.
+Böylece {AE given} katısının üç paralelkenarı, {XU given} katısının üç paralelkenarına eşit ve benzerdir.
+Fakat (önceki katının) üç (yüzü), üç karşıt (yüze) eşit ve benzerdir ve (sonraki katının) üç (yüzü), üç karşıt (yüze) (eşit ve benzerdir) [Önerme 11.24].
+Böylece bütün paralel yüzlü katı {AE given}, bütün paralel yüzlü katı {XU given}'e eşittir [Tanım 11.10].
+{DR line} ve {WU line} karşıdan çizilmiş olsun ve birbirleriyle {Y point}'de karşılaşmış olsunlar.
+Ve {aTb line}, {T line}'den geçen, {DY line}'a paralel olarak çizilmiş olsun.
+Ve {PD line}, {a point}'ye üretilmiş olsun.
+Ve {YX given} ve {RI given} katıları tamamlanmış olsun.
+Öyleyse tabanı {RX polygon} paralelkenarı ve karşıt (yüzü) {Yc polygon} olan {XY given} katısı, tabanı {RX polygon} paralelkenarı ve karşıt (yüzü) {UV polygon} olan {XU given} katısına eşittir.
+Çünkü onlar aynı taban {RX polygon} üzerindedir ve aynı yüksekliktedir ve onlardaki dikilen (doğruların uçları), {RY line}, {RU line}, {Tb line}, {TW line}, {Se line}, {Sd line}, {Xc line} ve {XV line}, aynı doğrular, {YW line} ve {eV line}, üzerindedir [Önerme 11.29].
+Fakat {XU given} katısı, {AE given}'e eşittir.
+Böylece {XY given} katısı da {AE given} katısına eşittir.
+Ve {RUWT polygon} paralelkenarı, {YT polygon} paralelkenarına eşit olduğu için.
+Çünkü onlar aynı taban {RT line} üzerinde ve aynı paraleller {RT line} ve {YW line} arasındadır [Önerme 1.35].
+Fakat {RUWT polygon}, {CD polygon}'ye eşittir, zira (o) {AB polygon}'ya da (eşittir).
+{YT polygon} paralelkenarı böylece de {CD polygon}'ye eşittir.
+Ve {DT polygon} başka (bir paralelkenardır).
+Böylece {CD polygon} tabanı {DT polygon}'ya nasılsa, {YT polygon} de {DT polygon}'ya öyledir [Önerme 5.7].
+Ve paralel yüzlü katı {CI given}, ({CI given}'ün) karşıt düzlemlerine paralel {RF polygon} düzlemi tarafından kesildiği için, {CD polygon} tabanı {DT polygon} tabanına nasılsa, {CF given} katısı da {RI given} katısına öyledir [Önerme 11.25].
+Öyleyse aynı (nedenlerle), paralel yüzlü katı {YI given}, ({YI given}'ün) karşıt düzlemlerine paralel {RX polygon} düzlemi tarafından kesildiği için, {YT polygon} tabanı {TD polygon} tabanına nasılsa, {YX given} katısı da {RI given} katısına öyledir [Önerme 11.25].
+Fakat {CD polygon} tabanı {DT polygon}'ya nasılsa, {YT polygon} de {DT polygon}'ya öyledir.
+Ve böylece {CF given} katısı {RI given} katısına nasılsa, {YX given} katısı da {RI given} katısına öyledir.
+Böylece {CF given} ve {YX given} katılarının her biri, {RI given}'e aynı orana sahiptir [Önerme 5.11].
+Böylece {CF given} katısı, {YX given} katısına eşittir [Önerme 5.9].
+Fakat {YX given}'ın {AE given}'e eşit olduğu gösterildi.
+Böylece {AE given} de {CF given}'e eşittir.
 
-{figure 2}And so let the (straight-lines) standing up, {AG line}, {HK line}, {BE line}, {LM line}, {CO line}, {PQ line}, {DF line}, and {RS line}, not be at right-angles to the bases {AB polygon} and {CD polygon}.
-Again, I say that solid {AE given} (is) equal to solid {CF given}.
-For let {KN line}, {ET line}, {GU line}, {MV line}, {QW line}, {FX line}, {OY line}, and {SI line} have been drawn from points {K point}, {E point}, {G point}, {M point}, {Q point}, {F point}, {O point}, and {S point} (respectively) perpendicular to the reference plane (i.e., the plane of the bases {AB polygon} and {CD polygon}), and let them have met the plane at points {N point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point}, and {I point} (respectively).
-And let {NT line}, {NU line}, {UV line}, {TV line}, {WX line}, {WY line}, {YI line}, and {IX line} have been joined.
-So solid {KV given} is equal to solid {QI given}.
-For they are on the equal bases {KM polygon} and {QS polygon}, and (have) the same height, and the (straight-lines) standing up in them are at right-angles to their bases (see first part of proposition).
-But, solid {KV given} is equal to solid {AE given}, and {QI given} to {CF given}.
-For they are on the same base, and (have) the same height, and the (straight-lines) standing up in them are not on the same straight-lines [Prop. 11.30].
-Thus, solid {AE given} is also equal to solid {CF given}.
+{şekil 2}Ve öyleyse dikilen (doğrular), {AG line}, {HK line}, {BE line}, {LM line}, {CO line}, {PQ line}, {DF line} ve {RS line}, {AB polygon} ve {CD polygon} tabanlarına dik açılarda olmasın.
+Yine diyorum ki {AE given} katısı, {CF given} katısına eşittir.
+Çünkü {KN line}, {ET line}, {GU line}, {MV line}, {QW line}, {FX line}, {OY line} ve {SI line}, {K point}, {E point}, {G point}, {M point}, {Q point}, {F point}, {O point} ve {S point} noktalarından (sırasıyla) referans düzlemine (yani {AB polygon} ve {CD polygon} tabanlarının düzlemine) dik olarak çizilmiş olsun ve düzlemle (sırasıyla) {N point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point} ve {I point} noktalarında karşılaşmış olsunlar.
+Ve {NT line}, {NU line}, {UV line}, {TV line}, {WX line}, {WY line}, {YI line} ve {IX line} birleştirilmiş olsun.
+Öyleyse {KV given} katısı, {QI given} katısına eşittir.
+Çünkü onlar eşit tabanlar {KM polygon} ve {QS polygon} üzerindedir ve aynı yüksekliktedir ve onlardaki dikilen (doğrular), tabanlarına dik açılardadır (önermenin birinci kısmına bakınız).
+Fakat {KV given} katısı, {AE given} katısına ve {QI given}, {CF given}'e eşittir.
+Çünkü onlar aynı taban üzerindedir ve aynı yüksekliktedir ve onlardaki dikilen (doğrular) aynı doğrular üzerinde değildir [Önerme 11.30].
+Böylece {AE given} katısı da {CF given} katısına eşittir.
 
-Thus, parallelepiped solids which are on equal bases, and (have) the same height, are equal to one another.
-(Which is) the very thing it was required to show.
+Böylece eşit tabanlar üzerinde olan ve aynı yükseklikte olan paralel yüzlü katılar birbirine eşittir.
+(Gösterilmesi gereken tam olarak budur.)
+

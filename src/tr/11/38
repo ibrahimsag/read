@@ -1,26 +1,27 @@
-If the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
+Eğer bir küpün karşıt düzlemlerinin kenarları ikiye bölünürse ve parçalardan geçen düzlemler üretilirse o zaman (sonraki) düzlemlerin ortak kesiti ve küpün köşegeni birbirini ikiye böler.
 
-For let the opposite planes {CF polygon} and {AH polygon} of the cube {AF given} have been cut in half at the points {K point}, {L point}, {M point}, {N point}, {O point}, {Q point}, {P point}, and {R point}.
-And let the planes {KN polygon} and {OR polygon} have been produced through the pieces.
-And let {US line} be the common section of the planes, and {DG line} the diameter of cube {AF given}.
-I say that {UT line} is equal to {TS line}, and {DT line} to {TG line}.
+Çünkü küp {AF given}'ün karşıt düzlemleri {CF polygon} ve {AH polygon}, {K point}, {L point}, {M point}, {N point}, {O point}, {Q point}, {P point} ve {R point} noktalarında ikiye bölünmüş olsun.
+Ve {KN polygon} ve {OR polygon} düzlemleri, parçalardan geçerek üretilmiş olsun.
+Ve {US line}, düzlemlerin ortak kesiti ve {DG line}, küp {AF given}'ün köşegeni olsun.
+Diyorum ki {UT line}, {TS line}'ye ve {DT line}, {TG line}'ye eşittir.
 
-For let {DU line}, {UE line}, {BS line}, and {SG line} have been joined.
-And since {DO line} is parallel to {PE line}, the alternate angles {DOU angle} and {UPE angle} are equal to one another [Prop. 1.29].
-And since {DO line} is equal to {PE line}, and {OU line} to {UP line}, and they contain equal angles, base {DU line} is thus equal to base {UE line}, and triangle {DOU polygon} is equal to triangle {PUE polygon}, and the remaining angles (are) equal to the remaining angles [Prop. 1.4].
-Thus, angle {OUD angle} (is) equal to angle {PUE angle}.
-So, for this (reason), {DUE line} is a straight-line [Prop. 1.14].
-So, for the same (reason), {BSG line} is also a straight-line, and {BS line} equal to {SG line}.
-And since {CA line} is equal and parallel to {DB line}, but {CA line} is also equal and parallel to {EG line}, {DB line} is thus also equal and parallel to {EG line} [Prop. 11.9].
-And the straight-lines {DE line} and {BG line} join them.
-{DE line} is thus parallel to {BG line} [Prop. 1.33].
-Thus, angle {EDT angle} (is) equal to {BGT angle}.
-For (they are) alternate [Prop. 1.29].
-And (angle) {DTU angle} (is equal) to {GTS angle} [Prop. 1.15].
-So, {DTU polygon} and {GTS polygon} are two triangles having two angles equal to two angles, and one side equal to one side—(namely), that subtended by one of the equal angles—(that is), {DU line} (equal) to {GS line}.
-For they are halves of {DE line} and {BG line} (respectively).
-(Thus), they will also have the remaining sides equal to the remaining sides [Prop. 1.26].
-Thus, {DT line} (is) equal to {TG line}, and {UT line} to {TS line}.
+Çünkü {DU line}, {UE line}, {BS line} ve {SG line} birleştirilmiş olsun.
+Ve {DO line}, {PE line}'ye paralel olduğu için, ters açılar {DOU angle} ve {UPE angle} birbirine eşittir [Önerme 1.29].
+Ve {DO line}, {PE line}'ye eşit olduğu ve {OU line}, {UP line}'ye (eşit) olduğu ve onlar eşit açılar içerdiği için, taban {DU line} böylece taban {UE line}'ye eşittir ve {DOU polygon} üçgeni, {PUE polygon} üçgenine eşittir ve kalan açılar, kalan açılara eşittir [Önerme 1.4].
+Böylece {OUD angle} açısı, {PUE angle} açısına eşittir.
+Öyleyse bu (nedenle), {DUE line} düz bir doğrudur [Önerme 1.14].
+Öyleyse aynı (nedenle), {BSG line} de düz bir doğrudur ve {BS line}, {SG line}'ye eşittir.
+Ve {CA line}, {DB line}'ye eşit ve paralel olduğu, fakat {CA line} aynı zamanda {EG line}'ye eşit ve paralel olduğu için, {DB line} böylece de {EG line}'ye eşit ve paraleldir [Önerme 11.9].
+Ve {DE line} ve {BG line} doğruları onları birleştirir.
+{DE line} böylece {BG line}'ye paraleldir [Önerme 1.33].
+Böylece {EDT angle} açısı, {BGT angle}'a eşittir.
+Çünkü (onlar) terstir [Önerme 1.29].
+Ve {DTU angle} (açısı), {GTS angle}'a (eşittir) [Önerme 1.15].
+Öyleyse {DTU polygon} ve {GTS polygon}, iki açısı iki açıya eşit olan ve bir kenarı bir kenara eşit olan --- (yani) eşit açılardan birinin karşısındaki --- (yani) {DU line}, {GS line}'ye (eşit) --- iki üçgendir.
+Çünkü onlar (sırasıyla) {DE line} ve {BG line}'nin yarılarıdır.
+(Böylece) onların kalan kenarları da kalan kenarlara eşit olacaktır [Önerme 1.26].
+Böylece {DT line}, {TG line}'ye ve {UT line}, {TS line}'ye eşittir.
 
-Thus, if the sides of the opposite planes of a cube are cut in half, and planes are produced through the pieces, then the common section of the (latter) planes and the diameter of the cube cut one another in half.
-(Which is) the very thing it was required to show.
+Böylece eğer bir küpün karşıt düzlemlerinin kenarları ikiye bölünürse ve parçalardan geçen düzlemler üretilirse o zaman (sonraki) düzlemlerin ortak kesiti ve küpün köşegeni birbirini ikiye böler.
+(Gösterilmesi gereken tam olarak budur.)
+

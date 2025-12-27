@@ -1,12 +1,12 @@
-It can be shown that the angle of an equilateral and equiangular pentagon is one and one-fifth of a right-angle, as follows.
+Bir eşkenarlı ve eşaçılı beşgenin açısının, bir dik açının bir ve beşte biri olduğu şu şekilde gösterilebilir.
 
-For let {ABCDE polygon} be an equilateral and equiangular pentagon, and let the circle {ABCDE circle F} have been circumscribed about it [Prop. 4.14].
-And let its center, {F point}, have been found [Prop. 3.1].
-And let {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} have been joined.
-Thus, they cut the angles of the pentagon in half at (points) {A point}, {B point}, {C point}, {D point}, and {E point} [Prop. 1.4].
-And since the five angles at {F point} are equal (in sum) to four right-angles, and are also equal (to one another), (any) one of them, like {AFB angle}, is thus one less a fifth of a right-angle.
-Thus, the (sum of the) remaining (angles in triangle {ABF polygon}), {FAB line} and {ABF line}, is one plus a fifth of a right-angle [Prop. 1.32].
-And {FAB angle} (is) equal to {FBC angle}.
-Thus, the whole angle, {ABC angle}, of the pentagon is also one and one-fifth of a right-angle.
-(Which is) the very thing it was required to show.
+Çünkü {ABCDE polygon}, bir eşkenarlı ve eşaçılı beşgen olsun ve {ABCDE circle F} çemberi, onun etrafına çevrel olarak çizilmiş olsun [Önerme 4.14].
+Ve onun merkezi, {F point}, bulunmuş olsun [Önerme 3.1].
+Ve {FA line}, {FB line}, {FC line}, {FD line} ve {FE line} birleştirilmiş olsun.
+Böylece onlar, beşgenin açılarını ({A point}, {B point}, {C point}, {D point} ve {E point} noktalarında) ikiye böler [Önerme 1.4].
+Ve {F point}'deki beş açı, (toplamda) dört dik açıya eşit olduğu ve ayrıca (birbirine) eşit olduğu için, onlardan (herhangi) biri, {AFB angle} gibi, böylece bir dik açının beşte bir eksiğidir.
+Böylece ({ABF polygon} üçgenindeki) kalan (açıların toplamı), {FAB line} ve {ABF line}, bir dik açının bir artı beşte biridir [Önerme 1.32].
+Ve {FAB angle}, {FBC angle}'ye eşittir.
+Böylece beşgenin bütün açısı, {ABC angle}, de bir dik açının bir ve beşte biridir.
+(Gösterilmesi gereken tam olarak budur.)
 

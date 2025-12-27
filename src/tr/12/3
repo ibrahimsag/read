@@ -1,51 +1,52 @@
-Any pyramid having a triangular base is divided into two pyramids having triangular bases (which are) equal, similar to one another, and [similar] to the whole, and into two equal prisms.
-And the (sum of the) two prisms is greater than half of the whole pyramid.
+Üçgensel tabanlı herhangi bir piramit, birbirine eşit, birbirine benzer ve [bütüne benzer] üçgensel tabanlı iki piramide ve iki eşit prizmaya bölünür.
+Ve (iki prizmanın toplamı), bütün piramidin yarısından büyüktür.
 
-Let there be a pyramid whose base is triangle {ABC polygon}, and (whose) apex (is) point {D point}.
-I say that pyramid {ABCD given} is divided into two pyramids having triangular bases (which are) equal to one another, and similar to the whole, and into two equal prisms.
-And the (sum of the) two prisms is greater than half of the whole pyramid.
+Tabanı {ABC polygon} üçgeni ve (tepesi) {D point} noktası olan bir piramit olsun.
+Diyorum ki {ABCD given} piramidi, birbirine eşit, bütüne benzer üçgensel tabanlı iki piramide ve iki eşit prizmaya bölünür.
+Ve (iki prizmanın toplamı), bütün piramidin yarısından büyüktür.
 
-For let {AB line}, {BC line}, {CA line}, {AD line}, {DB line}, and {DC line} have been cut in half at points {E point}, {F point}, {G point}, {H point}, {K point}, and {L point} (respectively).
-And let {HE line}, {EG line}, {GH line}, {HK line}, {KL line}, {LH line}, {KF line}, and {FG line} have been joined.
-Since {AE line} is equal to {EB line}, and {AH line} to {DH line}, {EH line} is thus parallel to {DB line} [Prop. 6.2].
-So, for the same (reasons), {HK line} is also parallel to {AB line}.
-Thus, {HEBK polygon} is a parallelogram.
-Thus, {HK line} is equal to {EB line} [Prop. 1.34].
-But, {EB line} is equal to {EA line}.
-Thus, {AE line} is also equal to {HK line}.
-And {AH line} is also equal to {HD line}.
-So the two (straight-lines) {EA line} and {AH line} are equal to the two (straight-lines) {KH line} and {HD line}, respectively.
-And angle {EAH angle} (is) equal to angle {KHD angle} [Prop. 1.29].
-Thus, base {EH line} is equal to base {KD line} [Prop. 1.4].
-Thus, triangle {AEH polygon} is equal and similar to triangle {HKD polygon} [Prop. 1.4].
-So, for the same (reasons), triangle {AHG polygon} is also equal and similar to triangle {HLD polygon}.
-And since {EH line} and {HG line} are two straight-lines joining one another (which are respectively) parallel to two straight-lines joining one another, {KD line} and {DL line}, not being in the same plane, they will contain equal angles [Prop. 11.10].
-Thus, angle {EHG angle} is equal to angle {KDL angle}.
-And since the two straight-lines {EH line} and {HG line} are equal to the two straight-lines {KD line} and {DL line}, respectively, and angle {EHG angle} is equal to angle {KDL angle}, base {EG line} [is] thus equal to base {KL line} [Prop. 1.4].
-Thus, triangle {EHG polygon} is equal and similar to triangle {KDL polygon}.
-So, for the same (reasons), triangle {AEG polygon} is also equal and similar to triangle {HKL polygon}.
-Thus, the pyramid whose base is triangle {AEG polygon}, and apex the point {H point}, is equal and similar to the pyramid whose base is triangle {HKL polygon}, and apex the point {D point} [Def. 11.10].
-And since {HK line} has been drawn parallel to one of the sides, {AB line}, of triangle {ADB polygon}, triangle {ADB polygon} is equiangular to triangle {DHK polygon} [Prop. 1.29], and they have proportional sides.
-Thus, triangle {ADB polygon} is similar to triangle {DHK polygon} [Def. 6.1].
-So, for the same (reasons), triangle {DBC polygon} is also similar to triangle {DKL polygon}, and {ADC polygon} to {DLH polygon}.
-And since two straight-lines joining one another, {BA line} and {AC line}, are parallel to two straight-lines joining one another, {KH line} and {HL line}, not in the same plane, they will contain equal angles [Prop. 11.10].
-Thus, angle {BAC angle} is equal to (angle) {KHL angle}.
-And as {BA line} is to {AC line}, so {KH line} (is) to {HL line}.
-Thus, triangle {ABC polygon} is similar to triangle {HKL polygon} [Prop. 6.6].
-And, thus, the pyramid whose base is triangle {ABC polygon}, and apex the point {D point}, is similar to the pyramid whose base is triangle {HKL polygon}, and apex the point {D point} [Def. 11.9].
-But, the pyramid whose base [is] triangle {HKL polygon}, and apex the point {D point}, was shown (to be) similar to the pyramid whose base is triangle {AEG polygon}, and apex the point {H point}.
-Thus, each of the pyramids {AEGH given} and {HKLD given} is similar to the whole pyramid {ABCD given}.
+Çünkü {AB line}, {BC line}, {CA line}, {AD line}, {DB line} ve {DC line} (sırasıyla) {E point}, {F point}, {G point}, {H point}, {K point} ve {L point} noktalarında ikiye bölünmüş olsun.
+Ve {HE line}, {EG line}, {GH line}, {HK line}, {KL line}, {LH line}, {KF line} ve {FG line} birleştirilmiş olsun.
+{AE line}, {EB line}'ye ve {AH line}, {DH line}'ye eşit olduğu için, {EH line} böylece {DB line}'ye paraleldir [Önerme 6.2].
+Öyleyse aynı (nedenlerle), {HK line} de {AB line}'ye paraleldir.
+Böylece {HEBK polygon} bir paralelkenardır.
+Böylece {HK line}, {EB line}'ye eşittir [Önerme 1.34].
+Fakat {EB line}, {EA line}'ya eşittir.
+Böylece {AE line} de {HK line}'ye eşittir.
+Ve {AH line} de {HD line}'ye eşittir.
+Öyleyse iki (doğru) {EA line} ve {AH line}, iki (doğruya) {KH line} ve {HD line}'ye sırasıyla eşittir.
+Ve {EAH angle} açısı, {KHD angle} açısına eşittir [Önerme 1.29].
+Böylece taban {EH line}, taban {KD line}'ye eşittir [Önerme 1.4].
+Böylece {AEH polygon} üçgeni, {HKD polygon} üçgenine eşit ve benzerdir [Önerme 1.4].
+Öyleyse aynı (nedenlerle), {AHG polygon} üçgeni de {HLD polygon} üçgenine eşit ve benzerdir.
+Ve {EH line} ve {HG line}, birbirine birleşen, aynı düzlemde olmayan birbirine birleşen iki doğruya, {KD line} ve {DL line}'ye (sırasıyla) paralel olan iki doğru olduğu için, onlar eşit açılar çevreleyecektir [Önerme 11.10].
+Böylece {EHG angle} açısı, {KDL angle} açısına eşittir.
+Ve iki doğru {EH line} ve {HG line}, iki doğruya {KD line} ve {DL line}'ye sırasıyla eşit olduğu ve {EHG angle} açısı, {KDL angle} açısına eşit olduğu için, taban {EG line} [böylece] taban {KL line}'ye eşittir [Önerme 1.4].
+Böylece {EHG polygon} üçgeni, {KDL polygon} üçgenine eşit ve benzerdir.
+Öyleyse aynı (nedenlerle), {AEG polygon} üçgeni de {HKL polygon} üçgenine eşit ve benzerdir.
+Böylece tabanı {AEG polygon} üçgeni ve tepesi {H point} noktası olan piramit, tabanı {HKL polygon} üçgeni ve tepesi {D point} noktası olan piramide eşit ve benzerdir [Tanım 11.10].
+Ve {HK line}, {ADB polygon} üçgeninin kenarlarından biri olan {AB line}'ye paralel olarak çizildiği için, {ADB polygon} üçgeni, {DHK polygon} üçgeni ile eşaçılıdır [Önerme 1.29] ve onların orantılı kenarları vardır.
+Böylece {ADB polygon} üçgeni, {DHK polygon} üçgenine benzerdir [Tanım 6.1].
+Öyleyse aynı (nedenlerle), {DBC polygon} üçgeni de {DKL polygon} üçgenine ve {ADC polygon}, {DLH polygon}'a benzerdir.
+Ve birbirine birleşen iki doğru, {BA line} ve {AC line}, aynı düzlemde olmayan birbirine birleşen iki doğruya, {KH line} ve {HL line}'ye paralel olduğu için, onlar eşit açılar çevreleyecektir [Önerme 11.10].
+Böylece {BAC angle} açısı, {KHL angle}'a eşittir.
+Ve {BA line}, {AC line}'ye nasılsa, {KH line} de {HL line}'ye öyledir.
+Böylece {ABC polygon} üçgeni, {HKL polygon} üçgenine benzerdir [Önerme 6.6].
+Ve böylece tabanı {ABC polygon} üçgeni ve tepesi {D point} noktası olan piramit, tabanı {HKL polygon} üçgeni ve tepesi {D point} noktası olan piramide benzerdir [Tanım 11.9].
+Fakat tabanı {HKL polygon} üçgeni ve tepesi {D point} noktası olan piramit, tabanı {AEG polygon} üçgeni ve tepesi {H point} noktası olan piramide benzer olduğu gösterildi.
+Böylece {AEGH given} ve {HKLD given} piramitlerinin her biri, bütün {ABCD given} piramidine benzerdir.
 
-And since {BF line} is equal to {FC line}, parallelogram {EBFG polygon} is double triangle {GFC polygon} [Prop. 1.41].
-And since, if two prisms (have) equal heights, and the former has a parallelogram as a base, and the latter a triangle, and the parallelogram (is) double the triangle, then the prisms are equal [Prop. 11.39], the prism contained by the two triangles {BKF polygon} and {EHG polygon}, and the three parallelograms {EBFG polygon}, {EBKH polygon}, and {HKFG polygon}, is thus equal to the prism contained by the two triangles {GFC polygon} and {HKL polygon}, and the three parallelograms {KFCL polygon}, {LCGH polygon}, and {HKFG polygon}.
-And (it is) clear that each of the prisms whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, and whose base (is) triangle {GFC polygon}, and opposite (plane) triangle {HKL polygon}, is greater than each of the pyramids whose bases are triangles {AEG polygon} and {HKL polygon}, and apexes the points {H point} and {D point} (respectively), inasmuch as, if we [also] join the straight-lines {EF line} and {EK line} then the prism whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, is greater than the pyramid whose base (is) triangle {EBF polygon}, and apex the point {K point}.
-But the pyramid whose base (is) triangle {EBF polygon}, and apex the point {K point}, is equal to the pyramid whose base is triangle {AEG polygon}, and apex point {H point}.
-For they are contained by equal and similar planes.
-And, hence, the prism whose base (is) parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, is greater than the pyramid whose base (is) triangle {AEG polygon}, and apex the point {H point}.
-And the prism whose base is parallelogram {EBFG polygon}, and opposite (side) straight-line {HK line}, (is) equal to the prism whose base (is) triangle {GFC polygon}, and opposite (plane) triangle {HKL polygon}.
-And the pyramid whose base (is) triangle {AEG polygon}, and apex the point {H point}, is equal to the pyramid whose base (is) triangle {HKL polygon}, and apex the point {D point}.
-Thus, the (sum of the) aforementioned two prisms is greater than the (sum of the) aforementioned two pyramids, whose bases (are) triangles {AEG polygon} and {HKL polygon}, and apexes the points {H point} and {D point} (respectively).
+Ve {BF line}, {FC line}'ye eşit olduğu için, {EBFG polygon} paralelkenarı, {GFC polygon} üçgeninin iki katıdır [Önerme 1.41].
+Ve eğer iki prizma eşit yükseklikteyse ve önceki tabanı bir paralelkenar ve sonraki (tabanı) bir üçgen olarak alıyorsa ve paralelkenar üçgenin iki katıysa o zaman prizmalar eşittir [Önerme 11.39], iki {BKF polygon} ve {EHG polygon} üçgeni ve üç {EBFG polygon}, {EBKH polygon} ve {HKFG polygon} paralelkenarı tarafından çevrelenen prizma böylece iki {GFC polygon} ve {HKL polygon} üçgeni ve üç {KFCL polygon}, {LCGH polygon} ve {HKFG polygon} paralelkenarı tarafından çevrelenen prizmaya eşittir.
+Ve açıktır ki tabanı {EBFG polygon} paralelkenarı ve karşıt (kenarı) {HK line} doğrusu olan ve tabanı {GFC polygon} üçgeni ve karşıt (düzlemi) {HKL polygon} üçgeni olan prizmaların her biri, tabanları {AEG polygon} ve {HKL polygon} üçgenleri ve tepeleri (sırasıyla) {H point} ve {D point} noktaları olan piramitlerin her birinden büyüktür, zira eğer {EF line} ve {EK line} doğrularını [da] birleştirirsek o zaman tabanı {EBFG polygon} paralelkenarı ve karşıt (kenarı) {HK line} doğrusu olan prizma, tabanı {EBF polygon} üçgeni ve tepesi {K point} noktası olan piramidden büyüktür.
+Fakat tabanı {EBF polygon} üçgeni ve tepesi {K point} noktası olan piramit, tabanı {AEG polygon} üçgeni ve tepesi {H point} noktası olan piramide eşittir.
+Çünkü onlar eşit ve benzer düzlemler tarafından çevrelenmişlerdir.
+Ve öyleyse tabanı {EBFG polygon} paralelkenarı ve karşıt (kenarı) {HK line} doğrusu olan prizma, tabanı {AEG polygon} üçgeni ve tepesi {H point} noktası olan piramidden büyüktür.
+Ve tabanı {EBFG polygon} paralelkenarı ve karşıt (kenarı) {HK line} doğrusu olan prizma, tabanı {GFC polygon} üçgeni ve karşıt (düzlemi) {HKL polygon} üçgeni olan prizmaya eşittir.
+Ve tabanı {AEG polygon} üçgeni ve tepesi {H point} noktası olan piramit, tabanı {HKL polygon} üçgeni ve tepesi {D point} noktası olan piramide eşittir.
+Böylece (bahsedilen iki prizmanın toplamı), tabanları {AEG polygon} ve {HKL polygon} üçgenleri ve tepeleri (sırasıyla) {H point} ve {D point} noktaları olan (bahsedilen iki piramidin toplamından) büyüktür.
 
-Thus, the whole pyramid, whose base (is) triangle {ABC polygon}, and apex the point {D point}, has been divided into two pyramids (which are) equal to one another [and similar to the whole], and into two equal prisms.
-And the (sum of the) two prisms is greater than half of the whole pyramid.
-(Which is) the very thing it was required to show.
+Böylece tabanı {ABC polygon} üçgeni ve tepesi {D point} noktası olan bütün piramit, birbirine eşit [ve bütüne benzer] iki piramide ve iki eşit prizmaya bölünmüştür.
+Ve (iki prizmanın toplamı), bütün piramidin yarısından büyüktür.
+(Gösterilmesi gereken tam olarak budur.)
+

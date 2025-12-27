@@ -1,23 +1,24 @@
-If a rational straight-line is cut in extreme and mean ratio then each of the pieces is that irrational (straight-line) called an apotome.
+Eğer bir rasyonel doğru, son ve orta orana göre kesilirse o zaman parçaların her biri, apotom olarak adlandırılan irrasyonel (doğru)dur.
 
-Let {AB magnitude} be a rational straight-line cut in extreme and mean ratio at {C point}, and let {AC magnitude} be the greater piece.
-I say that {AC magnitude} and {CB magnitude} is each that irrational (straight-line) called an apotome.
+{AB magnitude}, {C point}'de son ve orta orana göre kesilmiş bir rasyonel doğru olsun ve {AC magnitude}, büyük parça olsun.
+Diyorum ki {AC magnitude} ve {CB magnitude}'nin her biri, apotom olarak adlandırılan irrasyonel (doğru)dur.
 
-For let {BA magnitude} have been produced, and let {AD magnitude} be made (equal) to half of {BA magnitude}.
-Therefore, since the straight-line {AB magnitude} has been cut in extreme and mean ratio at {C point}, and {AD magnitude}, which is half of {AB magnitude}, has been added to the greater piece {AC magnitude}, the (square) on {CD magnitude} is thus five times the (square) on {DA magnitude} [Prop. 13.1].
-Thus, the (square) on {CD magnitude} has to the (square) on {DA magnitude} the ratio which a number (has) to a number.
-The (square) on {CD magnitude} (is) thus commensurable with the (square) on {DA magnitude} [Prop. 10.6].
-And the (square) on {DA magnitude} (is) rational.
-For {DA magnitude} [is] rational, being half of {AB magnitude}, which is rational.
-Thus, the (square) on {CD magnitude} (is) also rational [Def. 10.4].
-Thus, {CD magnitude} is also rational.
-And since the (square) on {CD magnitude} does not have to the (square) on {DA magnitude} the ratio which a square number (has) to a square number, {CD magnitude} (is) thus incommensurable in length with {DA magnitude} [Prop. 10.9].
-Thus, {CD magnitude} and {DA magnitude} are rational (straight-lines which are) commensurable in square only.
-Thus, {AC magnitude} is an apotome [Prop. 10.73].
-Again, since {AB magnitude} has been cut in extreme and mean ratio, and {AC magnitude} is the greater piece, the (rectangle contained) by {AB magnitude} and {BC magnitude} is thus equal to the (square) on {AC magnitude} [Def. 6.3, Prop. 6.17].
-Thus, the (square) on the apotome {AC magnitude}, applied to the rational (straight-line) {AB magnitude}, makes {BC magnitude} as width.
-And the (square) on an apotome, applied to a rational (straight-line), makes a first apotome as width [Prop. 10.97].
-Thus, {CB magnitude} is a first apotome.
-And {CA magnitude} was also shown (to be) an apotome.
+Çünkü {BA magnitude} uzatılmış olsun ve {AD magnitude}, {BA magnitude}'nun yarısına (eşit) yapılmış olsun.
+Öyleyse {AB magnitude} doğrusu, {C point}'de son ve orta orana göre kesildiği ve {AB magnitude}'nun yarısı olan {AD magnitude}, büyük parça {AC magnitude}'ye eklendiği için, {CD magnitude} üzerindeki (kare) böylece {DA magnitude} üzerindeki (karenin) beş katıdır [Önerme 13.1].
+Böylece {CD magnitude} üzerindeki (kare), {DA magnitude} üzerindeki (kareye), bir sayının (bir başka) sayıya (sahip olduğu) orana sahiptir.
+{CD magnitude} üzerindeki (kare) böylece {DA magnitude} üzerindeki (kare) ile ölçülebilirdir [Önerme 10.6].
+Ve {DA magnitude} üzerindeki (kare) rasyoneldir.
+Çünkü {DA magnitude} rasyoneldir, rasyonel olan {AB magnitude}'nun yarısı olduğundan.
+Böylece {CD magnitude} üzerindeki (kare) de rasyoneldir [Tanım 10.4].
+Böylece {CD magnitude} de rasyoneldir.
+Ve {CD magnitude} üzerindeki (kare), {DA magnitude} üzerindeki (kareye), bir kare sayının bir kare sayıya (sahip olduğu) orana sahip olmadığı için, {CD magnitude} böylece {DA magnitude} ile uzunlukta ölçülemezdir [Önerme 10.9].
+Böylece {CD magnitude} ve {DA magnitude}, yalnızca karede ölçülebilir rasyonel (doğrular)dır.
+Böylece {AC magnitude} bir apotomdur [Önerme 10.73].
+Yine, {AB magnitude}, son ve orta orana göre kesildiği ve {AC magnitude}, büyük parça olduğu için, ({AB magnitude} ve {BC magnitude} tarafından kapsanan dikdörtgen) böylece {AC magnitude} üzerindeki (kareye) eşittir [Tanım 6.3, Önerme 6.17].
+Böylece {AC magnitude} apotomu üzerindeki (kare), rasyonel {AB magnitude} (doğrusuna) uygulanarak, {BC magnitude}'yu genişlik olarak verir.
+Ve bir apotom üzerindeki (kare), bir rasyonel (doğruya) uygulanarak, birinci apotomu genişlik olarak verir [Önerme 10.97].
+Böylece {CB magnitude} bir birinci apotomdur.
+Ve {CA magnitude}'nun da bir apotom olduğu gösterildi.
 
-Thus, if a rational straight-line is cut in extreme and mean ratio then each of the pieces is that irrational (straight-line) called an apotome.
+Böylece eğer bir rasyonel doğru, son ve orta orana göre kesilirse o zaman parçaların her biri, apotom olarak adlandırılan irrasyonel (doğru)dur.
+

@@ -1,49 +1,50 @@
-To construct a (regular) pyramid (i.e., a tetrahedron), and to enclose (it) in a given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
+Bir (düzgün) piramit (yani bir dörtyüzlü) inşa etmek ve onu verilen bir küreye almak ve kürenin çapı üzerindeki karenin, piramidin kenarı üzerindeki (karenin) bir buçuk katı olduğunu göstermek.
 
-Let the diameter {AB line} of the given sphere be laid out, and let it have been cut at point {C point} such that {AC line} is double {CB line} [Prop. 6.10].
-And let the semi-circle {ADB arc O} have been drawn on {AB line}.
-And let {CD line} have been drawn from point {C point} at right-angles to {AB line}.
-And let {DA line} have been joined.
-And let the circle {EFG given} be laid down having a radius equal to {DC line}, and let the equilateral triangle {EFG polygon} have been inscribed in circle {EFG given} [Prop. 4.2].
-And let the center of the circle, point {H point}, have been found [Prop. 3.1].
-And let {EH line}, {HF line}, and {HG line} have been joined.
-And let {HK line} have been set up, at point {H point}, at right-angles to the plane of circle {EFG given} [Prop. 11.12].
-And let {HK line}, equal to the straight-line {AC line}, have been cut off from {HK line}.
-And let {KE line}, {KF line}, and {KG line} have been joined.
-And since {KH line} is at right-angles to the plane of circle {EFG given}, it will thus also make right-angles with all of the straight-lines joining it (which are) also in the plane of circle {EFG given} [Def. 11.3].
-And {HE line}, {HF line}, and {HG line} each join it.
-Thus, {HK line} is at right-angles to each of {HE line}, {HF line}, and {HG line}.
-And since {AC line} is equal to {HK line}, and {CD line} to {HE line}, and they contain right-angles, the base {DA line} is thus equal to the base {KE line} [Prop. 1.4].
-So, for the same (reasons), {KF line} and {KG line} is each equal to {DA line}.
-Thus, the three (straight-lines) {KE line}, {KF line}, and {KG line} are equal to one another.
-And since {AC line} is double {CB line}, {AB line} (is) thus triple {BC line}.
-And as {AB line} (is) to {BC line}, so the (square) on {AD line} (is) to the (square) on {DC line}, as will be shown later [see lemma].
-Thus, the (square) on {AD line} (is) three times the (square) on {DC line}.
-And the (square) on {FE line} is also three times the (square) on {EH line} [Prop. 13.12], and {DC line} is equal to {EH line}.
-Thus, {DA line} (is) also equal to {EF line}.
-But, {DA line} was shown (to be) equal to each of {KE line}, {KF line}, and {KG line}.
-Thus, {EF line}, {FG line}, and {GE line} are equal to {KE line}, {KF line}, and {KG line}, respectively.
-Thus, the four triangles {EFG polygon}, {KEF polygon}, {KFG polygon}, and {KEG polygon} are equilateral.
-Thus, a pyramid, whose base is triangle {EFG polygon}, and apex the point {K point}, has been constructed from four equilateral triangles.
+Verilen kürenin {AB line} çapı konmuş olsun ve {AC line}, {CB line}'nin iki katı olacak şekilde {C point} noktasında kesilmiş olsun [Önerme 6.10].
+Ve {ADB arc O} yarım çemberi, {AB line} üzerinde çizilmiş olsun.
+Ve {CD line}, {C point} noktasından {AB line}'ye dik açılarda çizilmiş olsun.
+Ve {DA line} birleştirilmiş olsun.
+Ve yarıçapı {DC line}'ye eşit olan {EFG given} çemberi konmuş olsun ve eşkenarlı {EFG polygon} üçgeni, {EFG given} çemberine içyazılmış olsun [Önerme 4.2].
+Ve çemberin merkezi, {H point} noktası, bulunmuş olsun [Önerme 3.1].
+Ve {EH line}, {HF line} ve {HG line} birleştirilmiş olsun.
+Ve {HK line}, {H point} noktasında, {EFG given} çemberinin düzlemine dik açılarda dikilmiş olsun [Önerme 11.12].
+Ve {AC line} doğrusuna eşit {HK line}, {HK line}'den kesilmiş olsun.
+Ve {KE line}, {KF line} ve {KG line} birleştirilmiş olsun.
+Ve {KH line}, {EFG given} çemberinin düzlemine dik açılarda olduğu için, onu birleştiren ve ayrıca {EFG given} çemberinin düzleminde olan tüm doğrularla da dik açılar yapacaktır [Tanım 11.3].
+Ve {HE line}, {HF line} ve {HG line}'nin her biri onu birleştirir.
+Böylece {HK line}, {HE line}, {HF line} ve {HG line}'nin her birine dik açılardadır.
+Ve {AC line}, {HK line}'ye ve {CD line}, {HE line}'ye eşit olduğu ve dik açılar kapsadığı için, {DA line} tabanı böylece {KE line} tabanına eşittir [Önerme 1.4].
+Öyleyse aynı (nedenlerle), {KF line} ve {KG line}'nin her biri, {DA line}'ya eşittir.
+Böylece üç (doğru) {KE line}, {KF line} ve {KG line} birbirine eşittir.
+Ve {AC line}, {CB line}'nin iki katı olduğu için, {AB line} böylece {BC line}'nin üç katıdır.
+Ve {AB line}, {BC line}'ye nasılsa, {AD line} üzerindeki (kare) de {DC line} üzerindeki (kareye) öyledir, daha sonra gösterileceği gibi [yardımcı önermeye bakınız].
+Böylece {AD line} üzerindeki (kare), {DC line} üzerindeki (karenin) üç katıdır.
+Ve {FE line} üzerindeki (kare) de {EH line} üzerindeki (karenin) üç katıdır [Önerme 13.12] ve {DC line}, {EH line}'ye eşittir.
+Böylece {DA line} de {EF line}'ye eşittir.
+Fakat {DA line}'nın, {KE line}, {KF line} ve {KG line}'nin her birine eşit olduğu gösterildi.
+Böylece {EF line}, {FG line} ve {GE line}, sırasıyla {KE line}, {KF line} ve {KG line}'ye eşittir.
+Böylece dört üçgen {EFG polygon}, {KEF polygon}, {KFG polygon} ve {KEG polygon} eşkenarlıdır.
+Böylece tabanı {EFG polygon} üçgeni ve tepesi {K point} noktası olan bir piramit, dört eşkenarlı üçgenden inşa edilmiştir.
 
-So, it is also necessary to enclose it in the given sphere, and to show that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
+Öyleyse onu verilen küreye almak ve kürenin çapı üzerindeki karenin, piramidin kenarı üzerindeki (karenin) bir buçuk katı olduğunu göstermek de gereklidir.
 
-For let the straight-line {HL line} have been produced in a straight-line with {KH line}, and let {HL line} be made equal to {CB line}.
-And since as {AC line} (is) to {CD line}, so {CD line} (is) to {CB line} [Prop. 6.8 corr.], and {AC line} (is) equal to {KH line}, and {CD line} to {HE line}, and {CB line} to {HL line}, thus as {KH line} is to {HE line}, so {EH line} (is) to {HL line}.
-Thus, the (rectangle contained) by {KH line} and {HL line} is equal to the (square) on {EH line} [Prop. 6.17].
-And each of the angles {KHE angle} and {EHL angle} is a right-angle.
-Thus, the semi-circle drawn on {KL line} will also pass through {E point} [inasmuch as if we join {EL line} then the angle {LEK angle} becomes a right-angle, on account of triangle {ELK polygon} becoming equiangular to each of the triangles {ELH polygon} and {EHK polygon} [Props. 6.8, 3.31] ].
-So, if {KL line} remains (fixed), and the semi-circle is carried around, and again established at the same (position) from which it began to be moved, it will also pass through points {F point} and {G point}, (because) if {FL line} and {LG line} are joined, the angles at {F point} and {G point} will similarly become right-angles.
-And the pyramid will have been enclosed by the given sphere.
-For the diameter, {KL line}, of the sphere is equal to the diameter, {AB line}, of the given sphere— inasmuch as {KH line} was made equal to {AC line}, and {HL line} to {CB line}.
+Çünkü {HL line} doğrusu, {KH line} ile aynı doğru üzerinde uzatılmış olsun ve {HL line}, {CB line}'ye eşit yapılmış olsun.
+Ve {AC line}, {CD line}'ye nasılsa, {CD line} de {CB line}'ye öyle olduğu için [Önerme 6.8 ek sonucu] ve {AC line}, {KH line}'ye ve {CD line}, {HE line}'ye ve {CB line}, {HL line}'ye eşit olduğu için, böylece {KH line}, {HE line}'ye nasılsa, {EH line} de {HL line}'ye öyledir.
+Böylece ({KH line} ve {HL line} tarafından kapsanan dikdörtgen), {EH line} üzerindeki (kareye) eşittir [Önerme 6.17].
+Ve {KHE angle} ve {EHL angle} açılarının her biri bir dik açıdır.
+Böylece {KL line} üzerinde çizilen yarım çember, {E point}'den de geçecektir [zira eğer {EL line}'yi birleştirirsek o zaman {LEK angle} açısı, {ELK polygon} üçgeni, {ELH polygon} ve {EHK polygon} üçgenlerinin her biri ile eşaçılı olduğu için, bir dik açı olur [Önermeler 6.8, 3.31]].
+Öyleyse eğer {KL line} (sabit) kalırsa ve yarım çember etrafta döndürülürse ve hareket etmeye başladığı (konuma) tekrar yerleştirilirse, {F point} ve {G point} noktalarından da geçecektir, (çünkü) eğer {FL line} ve {LG line} birleştirilirse, {F point} ve {G point}'deki açılar benzer şekilde dik açılar olacaktır.
+Ve piramit, verilen küre tarafından alınmış olacaktır.
+Çünkü kürenin çapı, {KL line}, verilen kürenin çapı, {AB line}'ye eşittir --- zira {KH line}, {AC line}'ye ve {HL line}, {CB line}'ye eşit yapılmıştır.
 
-So, I say that the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
+Öyleyse diyorum ki kürenin çapı üzerindeki kare, piramidin kenarı üzerindeki (karenin) bir buçuk katıdır.
 
-For since {AC line} is double {CB line}, {AB line} is thus triple {BC line}.
-Thus, via conversion, {BA line} is one and a half times {AC line}.
-And as {BA line} (is) to {AC line}, so the (square) on {BA line} (is) to the (square) on {AD line} [inasmuch as if {DB line} is joined then as {BA line} is to {AD line}, so {DA line} (is) to {AC line}, on account of the similarity of triangles {DAB polygon} and {DAC polygon}.
-And as the first is to the third (of four proportional magnitudes), so the (square) on the first (is) to the (square) on the second.] Thus, the (square) on {BA line} (is) also one and a half times the (square) on {AD line}.
-And {BA line} is the diameter of the given sphere, and {AD line} (is) equal to the side of the pyramid.
+Çünkü {AC line}, {CB line}'nin iki katı olduğu için, {AB line} böylece {BC line}'nin üç katıdır.
+Böylece tersine, {BA line}, {AC line}'nin bir buçuk katıdır.
+Ve {BA line}, {AC line}'ye nasılsa, {BA line} üzerindeki (kare) de {AD line} üzerindeki (kareye) öyledir [zira eğer {DB line} birleştirilirse o zaman {BA line}, {AD line}'ye nasılsa, {DA line} de {AC line}'ye öyledir, {DAB polygon} ve {DAC polygon} üçgenlerinin benzerliği nedeniyle.
+Ve (dört orantılı büyüklüğün) birincisi üçüncüsüne nasılsa, birincisi üzerindeki (kare) de ikincisi üzerindeki (kareye) öyledir.] Böylece {BA line} üzerindeki (kare) de {AD line} üzerindeki (karenin) bir buçuk katıdır.
+Ve {BA line}, verilen kürenin çapı ve {AD line}, piramidin kenarına eşittir.
 
-Thus, the square on the diameter of the sphere is one and a half times the (square) on the side of the pyramid.
-(Which is) the very thing it was required to show.
+Böylece kürenin çapı üzerindeki kare, piramidin kenarı üzerindeki (karenin) bir buçuk katıdır.
+(Gösterilmesi gereken tam olarak budur.)
+

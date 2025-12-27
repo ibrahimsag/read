@@ -1,40 +1,41 @@
-If two straight-lines are parallel, and one of them is at right-angles to some plane, then the remaining (one) will also be at right-angles to the same plane.
+Eğer iki doğru paralelse ve onlardan biri bir düzleme dik açılardaysa o zaman kalan(ı) da aynı düzleme dik açılarda olacaktır.
 
-Let {AB line} and {CD line} be two parallel straight-lines, and let one of them, {AB line}, be at right-angles to a reference plane.
-I say that the remaining (one), {CD line}, will also be at right-angles to the same plane.
+{AB line} ve {CD line} iki paralel doğru olsun ve onlardan biri, {AB line}, bir referans düzlemine dik açılarda olsun.
+Diyorum ki kalan(ı), {CD line}, de aynı düzleme dik açılarda olacaktır.
 
-For let {AB line} and {CD line} meet the reference plane at points {B point} and {D point} (respectively).
-And let {BD line} have been joined.
-{AB line}, {CD line}, and {BD line} are thus in one plane [Prop. 11.7].
-Let {DE line} have been drawn at right-angles to {BD line} in the reference plane, and let {DE line} be made equal to {AB line}, and let {BE line}, {AE line}, and {AD line} have been joined.
+Çünkü {AB line} ve {CD line}, referans düzlemiyle (sırasıyla) {B point} ve {D point} noktalarında karşılaşsın.
+Ve {BD line} birleştirilmiş olsun.
+{AB line}, {CD line} ve {BD line} böylece bir düzlemdedir [Önerme 11.7].
+{DE line}, referans düzleminde {BD line}'a dik olarak çizilmiş olsun ve {DE line}, {AB line}'ye eşit yapılmış olsun ve {BE line}, {AE line} ve {AD line} birleştirilmiş olsun.
 
-And since {AB line} is at right-angles to the reference plane, {AB line} is thus also at right-angles to all of the straight-lines joined to it which are in the reference plane [Def. 11.3].
-Thus, the angles {ABD angle} and {ABE angle} [are] each right-angles.
-And since the straight-line {BD line} has met the parallel (straight-lines) {AB line} and {CD line}, the (sum of the) angles {ABD angle} and {CDB angle} is thus equal to two right-angles [Prop. 1.29].
-And {ABD angle} (is) a right-angle.
-Thus, {CDB angle} (is) also a right-angle.
-{CD line} is thus at right-angles to {BD line}.
-And since {AB line} is equal to {DE line}, and {BD line} (is) common, the two (straight-lines) {AB line} and {BD line} are equal to the two (straight-lines) {ED line} and {DB line} (respectively).
-And angle {ABD angle} (is) equal to angle {EDB angle}.
-For each (is) a right-angle.
-Thus, the base {AD line} (is) equal to the base {BE line} [Prop. 1.4].
-And since {AB line} is equal to {DE line}, and {BE line} to {AD line}, the two (sides) {AB line}, {BE line} are equal to the two (sides) {ED line}, {DA line}, respectively.
-And their base {AE line} is common.
-Thus, angle {ABE angle} is equal to angle {EDA angle} [Prop. 1.8].
-And {ABE angle} (is) a right-angle.
-{EDA angle} (is) thus also a right-angle.
-Thus, {ED line} is at right-angles to {AD line}.
-And it is also at right-angles to {DB line}.
-Thus, {ED line} is also at right-angles to the plane through {BD line} and {DA line} [Prop. 11.4].
-And {ED line} will thus make right-angles with all of the straight-lines joined to it which are also in the plane through {BDA polygon}.
-And {DC line} is in the plane through {BDA polygon}, inasmuch as {AB line} and {BD line} are in the plane through {BDA polygon} [Prop. 11.2], and in which(ever plane) {AB line} and {BD line} (are found), {DC line} is also (found).
-Thus, {ED line} is at right-angles to {DC line}.
-Hence, {CD line} is also at right-angles to {DE line}.
-And {CD line} is also at right-angles to {BD line}.
-Thus, {CD line} is standing at right-angles to two straight-lines, {DE line} and {DB line}, which meet one another, at the (point) of section, {D point}.
-Hence, {CD line} is also at right-angles to the plane through {DE line} and {DB line} [Prop. 11.4].
-And the plane through {DE line} and {DB line} is the reference (plane).
-{CD line} is thus at right-angles to the reference plane.
+Ve {AB line}, referans düzlemine dik açılarda olduğu için, {AB line} böylece de ona birleştirilmiş ve referans düzleminde bulunan tüm doğrulara dik açılardadır [Tanım 11.3].
+Böylece {ABD angle} ve {ABE angle} açılarının her biri dik açılardır.
+Ve {BD line} doğrusu, {AB line} ve {CD line} paralel (doğrularla) karşılaştığı için, {ABD angle} ve {CDB angle} açılarının (toplamı) böylece iki dik açıya eşittir [Önerme 1.29].
+Ve {ABD angle} bir dik açıdır.
+Böylece {CDB angle} de bir dik açıdır.
+{CD line} böylece {BD line}'a dik açılardadır.
+Ve {AB line}, {DE line}'ye eşit olduğu ve {BD line} ortak olduğu için, iki (doğru) {AB line} ve {BD line}, iki (doğruya) {ED line} ve {DB line}'ye (sırasıyla) eşittir.
+Ve {ABD angle} açısı, {EDB angle} açısına eşittir.
+Çünkü her biri bir dik açıdır.
+Böylece taban {AD line}, taban {BE line}'ye eşittir [Önerme 1.4].
+Ve {AB line}, {DE line}'ye eşit olduğu ve {BE line}, {AD line}'a (eşit) olduğu için, iki (kenar) {AB line}, {BE line}, sırasıyla iki (kenara) {ED line}, {DA line}'ya eşittir.
+Ve onların tabanı {AE line} ortaktır.
+Böylece {ABE angle} açısı, {EDA angle} açısına eşittir [Önerme 1.8].
+Ve {ABE angle} bir dik açıdır.
+{EDA angle} böylece de bir dik açıdır.
+Böylece {ED line}, {AD line}'a dik açılardadır.
+Ve o aynı zamanda {DB line}'ye de dik açılardadır.
+Böylece {ED line}, {BD line} ve {DA line}'dan geçen düzleme de dik açılardadır [Önerme 11.4].
+Ve {ED line} böylece ona birleştirilmiş ve ayrıca {BDA polygon}'dan geçen düzlemde bulunan tüm doğrularla dik açılar yapacaktır.
+Ve {DC line}, {BDA polygon}'dan geçen düzlemdedir, zira {AB line} ve {BD line}, {BDA polygon}'dan geçen düzlemdedir [Önerme 11.2] ve {AB line} ve {BD line} hangi (düzlemde bulunursa), {DC line} de (bulunur).
+Böylece {ED line}, {DC line}'ye dik açılardadır.
+Dolayısıyla, {CD line} de {DE line}'ye dik açılardadır.
+Ve {CD line} aynı zamanda {BD line}'ye de dik açılardadır.
+Böylece {CD line}, birbirini kesen iki doğruya, {DE line} ve {DB line}'ye, kesim (noktası) {D point}'de, dik açılarla dikilmiştir.
+Dolayısıyla, {CD line}, {DE line} ve {DB line}'den geçen düzleme de dik açılardadır [Önerme 11.4].
+Ve {DE line} ve {DB line}'den geçen düzlem, referans (düzlemidir).
+{CD line} böylece referans düzlemine dik açılardadır.
 
-Thus, if two straight-lines are parallel, and one of them is at right-angles to some plane, then the remaining (one) will also be at right-angles to the same plane.
-(Which is) the very thing it was required to show.
+Böylece eğer iki doğru paralelse ve onlardan biri bir düzleme dik açılardaysa o zaman kalan(ı) da aynı düzleme dik açılarda olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
+

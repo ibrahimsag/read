@@ -1,17 +1,18 @@
-If four straight-lines are proportional then the similar, and similarly described, parallelepiped solids on them will also be proportional.
-And if the similar, and similarly described, parallelepiped solids on them are proportional then the straight-lines themselves will be proportional.
+Eğer dört doğru orantılıysa o zaman onların üzerindeki benzer ve benzer şekilde betimlenen paralel yüzlü katılar da orantılı olacaktır.
+Ve eğer onların üzerindeki benzer ve benzer şekilde betimlenen paralel yüzlü katılar orantılıysa o zaman doğruların kendileri de orantılı olacaktır.
 
-Let {AB line}, {CD line}, {EF line}, and {GH line}, be four proportional straight-lines, (such that) as {AB line} (is) to {CD line}, so {EF line} (is) to {GH line}.
-And let the similar, and similarly laid out, parallelepiped solids {KA given}, {LC given}, {ME given} and {NG given} have been described on {AB line}, {CD line}, {EF line}, and {GH line} (respectively).
-I say that as {KA given} is to {LC given}, so {ME given} (is) to {NG given}.
+{AB line}, {CD line}, {EF line} ve {GH line} dört orantılı doğru olsun, (öyle ki) {AB line}, {CD line}'ye nasılsa, {EF line} de {GH line}'ye öyledir.
+Ve (sırasıyla) {AB line}, {CD line}, {EF line} ve {GH line} üzerinde benzer ve benzer şekilde düzenlenmiş paralel yüzlü katılar {KA given}, {LC given}, {ME given} ve {NG given} betimlemiş olsun.
+Diyorum ki {KA given}, {LC given}'e nasılsa, {ME given} de {NG given}'e öyledir.
 
-For since the parallelepiped solid {KA given} is similar to {LC given}, {KA given} thus has to {LC given} the cubed ratio that {AB line} (has) to {CD line} [Prop. 11.33].
-So, for the same (reasons), {ME given} also has to {NG given} the cubed ratio that {EF line} (has) to {GH line} [Prop. 11.33].
-And since as {AB line} is to {CD line}, so {EF line} (is) to {GH line}, thus, also, as {AK given} (is) to {LC given}, so {ME given} (is) to {NG given}.
+Çünkü paralel yüzlü katı {KA given}, {LC given}'e benzer olduğu için, {KA given} böylece {LC given}'e, {AB line}'nin {CD line}'ye (sahip olduğu) küplü orana sahiptir [Önerme 11.33].
+Öyleyse aynı (nedenlerle), {ME given} de {NG given}'e, {EF line}'ın {GH line}'ye (sahip olduğu) küplü orana sahiptir [Önerme 11.33].
+Ve {AB line}, {CD line}'ye nasılsa, {EF line} de {GH line}'ye öyle olduğu için, böylece de {AK given}, {LC given}'e nasılsa, {ME given} de {NG given}'e öyledir.
 
-And so let solid {AK given} be to solid {LC given}, as solid {ME given} (is) to {NG given}.
-I say that as straight-line {AB line} is to {CD line}, so {EF line} (is) to {GH line}.
+Ve öyleyse {AK given} katısı {LC given} katısına nasılsa, {ME given} katısı da {NG given}'e öyle olsun.
+Diyorum ki {AB line} doğrusu {CD line}'ye nasılsa, {EF line} de {GH line}'ye öyledir.
 
-For, again, since {KA given} has to {LC given} the cubed ratio that {AB line} (has) to {CD line} [Prop. 11.33], and {ME given} also has to {NG given} the cubed ratio that {EF line} (has) to {GH line} [Prop. 11.33], and as {KA given} is to {LC given}, so {ME given} (is) to {NG given}, thus, also, as {AB line} (is) to {CD line}, so {EF line} (is) to {GH line}.
-Thus, if four straight-lines are proportional, and so on of the proposition.
-(Which is) the very thing it was required to show.
+Çünkü yine, {KA given}, {LC given}'e, {AB line}'nin {CD line}'ye (sahip olduğu) küplü orana sahip olduğu için [Önerme 11.33] ve {ME given} de {NG given}'e, {EF line}'ın {GH line}'ye (sahip olduğu) küplü orana sahip olduğu için [Önerme 11.33] ve {KA given}, {LC given}'e nasılsa, {ME given} de {NG given}'e öyle olduğu için, böylece de {AB line}, {CD line}'ye nasılsa, {EF line} de {GH line}'ye öyledir.
+Böylece eğer dört doğru orantılıysa ve önermenin geri kalanı.
+(Gösterilmesi gereken tam olarak budur.)
+

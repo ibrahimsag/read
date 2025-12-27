@@ -1,27 +1,28 @@
-Similar pyramids which also have triangular bases are in the cubed ratio of their corresponding sides.
+Üçgensel tabanları da olan benzer piramitler, birbirine karşılık gelen kenarlarının küplü oranındadır.
 
-Let there be similar, and similarly laid out, pyramids whose bases are triangles {ABC polygon} and {DEF polygon}, and apexes the points {G point} and {H point} (respectively).
-I say that pyramid {ABCG given} has to pyramid {DEFH given} the cubed ratio of that {BC line} (has) to {EF line}.
+Tabanları {ABC polygon} ve {DEF polygon} üçgenleri ve tepeleri (sırasıyla) {G point} ve {H point} noktaları olan benzer ve benzer şekilde düzenlenmiş piramitler olsun.
+Diyorum ki {ABCG given} piramidi, {DEFH given} piramidine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir.
 
-For let the parallelepiped solids {BGML given} and {EHQP given} have been completed.
-And since pyramid {ABCG given} is similar to pyramid {DEFH given}, angle {ABC angle} is thus equal to angle {DEF angle}, and {GBC angle} to {HEF angle}, and {ABG angle} to {DEH angle}.
-And as {AB line} is to {DE line}, so {BC line} (is) to {EF line}, and {BG line} to {EH line} [Def.11.9].
-And since as {AB line} is to {DE line}, so {BC line} (is) to {EF line}, and (so) the sides around equal angles are proportional, parallelogram {BM polygon} is thus similar to paralleleogram {EQ polygon}.
-So, for the same (reasons), {BN polygon} is also similar to {ER polygon}, and {BK polygon} to {EO polygon}.
-Thus, the three (parallelograms) {MB polygon}, {BK polygon}, and {BN polygon} are similar to the three (parallelograms) {EQ polygon}, {EO polygon}, {ER polygon} (respectively).
-But, the three (parallelograms) {MB polygon}, {BK polygon}, and {BN polygon} are (both) equal and similar to the three opposite (parallelograms), and the three (parallelograms) {EQ polygon}, {EO polygon}, and {ER polygon} are (both) equal and similar to the three opposite (parallelograms) [Prop. 11.24].
-Thus, the solids {BGML given} and {EHQP given} are contained by equal numbers of similar (and similarly laid out) planes.
-Thus, solid {BGML given} is similar to solid {EHQP given} [Def. 11.9].
-And similar parallelepiped solids are in the cubed ratio of corresponding sides [Prop. 11.33].
-Thus, solid {BGML given} has to solid {EHQP given} the cubed ratio that the corresponding side {BC line} (has) to the corresponding side {EF line}.
-And as solid {BGML given} (is) to solid {EHQP given}, so pyramid {ABCG given} (is) to pyramid {DEFH given}, inasmuch as the pyramid is the sixth part of the solid, on account of the prism, being half of the parallelepiped solid [Prop. 11.28], also being three times the pyramid [Prop. 12.7].
-Thus, pyramid {ABCG given} also has to pyramid {DEFH given} the cubed ratio that {BC line} (has) to {EF line}.
-(Which is) the very thing it was required to show.
+Çünkü {BGML given} ve {EHQP given} paralel yüzlü katıları tamamlanmış olsun.
+Ve {ABCG given} piramidi {DEFH given} piramidine benzer olduğu için, böylece {ABC angle} açısı, {DEF angle} açısına ve {GBC angle}, {HEF angle}'a ve {ABG angle}, {DEH angle}'a eşittir.
+Ve {AB line}, {DE line}'ye nasılsa, {BC line} de {EF line}'a ve {BG line} de {EH line}'ye öyledir [Tanım 11.9].
+Ve {AB line}, {DE line}'ye nasılsa, {BC line} de {EF line}'a öyle olduğu ve (öyleyse) eşit açıların yanındaki kenarlar orantılı olduğu için, {BM polygon} paralelkenarı böylece {EQ polygon} paralelkenarına benzerdir.
+Öyleyse aynı (nedenlerle), {BN polygon} de {ER polygon}'a ve {BK polygon} de {EO polygon}'a benzerdir.
+Böylece üç (paralelkenar) {MB polygon}, {BK polygon} ve {BN polygon}, üç (paralelkenara) {EQ polygon}, {EO polygon}, {ER polygon}'a (sırasıyla) benzerdir.
+Fakat üç (paralelkenar) {MB polygon}, {BK polygon} ve {BN polygon}, üç karşıt (paralelkenara hem) eşit ve (hem de) benzerdir ve üç (paralelkenar) {EQ polygon}, {EO polygon} ve {ER polygon}, üç karşıt (paralelkenara hem) eşit ve (hem de) benzerdir [Önerme 11.24].
+Böylece {BGML given} ve {EHQP given} katıları, eşit sayıda benzer (ve benzer şekilde düzenlenmiş) düzlemler tarafından çevrelenmişlerdir.
+Böylece {BGML given} katısı, {EHQP given} katısına benzerdir [Tanım 11.9].
+Ve benzer paralel yüzlü katılar, birbirine karşılık gelen kenarların küplü oranındadır [Önerme 11.33].
+Böylece {BGML given} katısı, {EHQP given} katısına, karşılık gelen {BC line} kenarının karşılık gelen {EF line} kenarına (sahip olduğu) küplü orana sahiptir.
+Ve {BGML given} katısı, {EHQP given} katısına nasılsa, {ABCG given} piramidi de {DEFH given} piramidine öyledir, zira piramit, katının altıda bir parçasıdır, çünkü prizma, paralel yüzlü katının yarısı olduğundan [Önerme 11.28], piramidinin de üç katıdır [Önerme 12.7].
+Böylece {ABCG given} piramidi de {DEFH given} piramidine, {BC line}'nin {EF line}'a (sahip olduğu) küplü orana sahiptir.
+(Gösterilmesi gereken tam olarak budur.)
 
-Corollary
+Ek Sonuç
 
-So, from this, (it is) also clear that similar pyramids having polygonal bases (are) to one another as the cubed ratio of their corresponding sides.
-For, dividing them into the pyramids (contained) within them which have triangular bases, with the similar polygons of the bases also being divided into similar triangles (which are) both equal in number, and corresponding, to the wholes [Prop. 6.20].
-As one pyramid having a triangular base in the former (pyramid having a polygonal base is) to one pyramid having a triangular base in the latter (pyramid having a polygonal base), so (the sum of) all the pyramids having triangular bases in the former pyramid will also be to (the sum of) all the pyramids having triangular bases in the latter pyramid [Prop. 5.12]---that is to say, the (former) pyramid itself having a polygonal base to the (latter) pyramid having a polygonal base.
-And a pyramid having a triangular base is to a (pyramid) having a triangular base in the cubed ratio of corresponding sides [Prop. 12.8].
-Thus, a (pyramid) having a polygonal base also has to to a (pyramid) having a similar base the cubed ratio of a (corresponding) side to a (corresponding) side.
+Öyleyse bundan açıktır ki çokgensel tabanları olan benzer piramitler de birbirine karşılık gelen kenarlarının küplü oranındadır.
+Çünkü onları, tabanlarının benzer çokgenleri, eşit sayıda ve (bütüne) karşılık gelen benzer üçgenlere bölünmüş olarak, içerilen üçgensel tabanlı piramitlere bölerek [Önerme 6.20].
+Önceki (çokgensel tabanlı piramitteki) bir üçgensel tabanlı piramit, sonraki (çokgensel tabanlı piramitteki) bir üçgensel tabanlı piramide nasılsa, önceki piramitteki tüm üçgensel tabanlı piramitlerin (toplamı) da sonraki piramitteki tüm üçgensel tabanlı piramitlerin (toplamına) öyle olacaktır [Önerme 5.12] --- yani çokgensel tabanlı (önceki) piramidin kendisi, çokgensel tabanlı (sonraki) piramide.
+Ve üçgensel tabanlı bir piramit, bir (üçgensel tabanlı piramide), karşılık gelen kenarların küplü oranındadır [Önerme 12.8].
+Böylece çokgensel tabanlı bir (piramit) de benzer tabanlı bir (piramide), bir (karşılık gelen) kenarın bir (karşılık gelen) kenara küplü oranına sahiptir.
+

@@ -1,21 +1,22 @@
-If there are three plane angles, of which (the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way), and if equal straight-lines contain them, then it is possible to construct a triangle from (the straight-lines created by) joining the (ends of the) equal straight-lines.
+Eğer üç düzlem açı varsa, bunların (herhangi) ikisinin (toplamı), (açılar) herhangi bir (olası şekilde) alınarak, kalan(dan) büyükse ve eğer eşit doğrular onları çevrelerse o zaman eşit doğruların (uçlarını) birleştir(erek oluşturulan doğrular)dan bir üçgen inşa etmek mümkündür.
 
-Let {ABC angle}, {DEF angle}, and {GHK angle} be three plane angles, of which the sum of any) two is greater than the remaining (one), (the angles) being taken up in any (possible way)—(that is), {ABC angle} and {DEF angle} (greater) than {GHK angle}, {DEF angle} and {GHK angle} (greater) than {ABC angle}, and, further, {GHK angle} and {ABC angle} (greater) than {DEF angle}.
-And let {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line} be equal straight-lines.
-And let {AC line}, {DF line}, and {GK line} have been joined.
-I say that that it is possible to construct a triangle out of (straight-lines) equal to {AC line}, {DF line}, and {GK line}—that is to say, that (the sum of) any two of {AC line}, {DF line}, and {GK line} is greater than the remaining (one).
+{ABC angle}, {DEF angle} ve {GHK angle} üç düzlem açı olsun, bunların (herhangi) ikisinin (toplamı), (açılar) herhangi bir (olası şekilde) alınarak, kalan(dan) büyüktür — (yani) {ABC angle} ve {DEF angle}, {GHK angle}'dan (büyük), {DEF angle} ve {GHK angle}, {ABC angle}'dan (büyük) ve dahası {GHK angle} ve {ABC angle}, {DEF angle}'dan (büyük).
+Ve {AB line}, {BC line}, {DE line}, {EF line}, {GH line} ve {HK line} eşit doğrular olsun.
+Ve {AC line}, {DF line} ve {GK line} birleştirilmiş olsun.
+Diyorum ki {AC line}, {DF line} ve {GK line}'a eşit (doğrular)dan bir üçgen inşa etmek mümkündür — yani {AC line}, {DF line} ve {GK line}'dan herhangi ikisinin (toplamı) kalan(dan) büyüktür.
 
-Now, if the angles {ABC angle}, {DEF angle}, and {GHK angle} are equal to one another then (it is) clear that, (with) {AC line}, {DF line}, and {GK line} also becoming equal, it is possible to construct a triangle from (straight-lines) equal to {AC line}, {DF line}, and {GK line}.
-And if not, let them be unequal, and let {KHL angle}, equal to angle {ABC angle}, have been constructed on the straight-line {HK line}, at the point {H point} on it.
-And let {HL line} be made equal to one of {AB line}, {BC line}, {DE line}, {EF line}, {GH line}, and {HK line}.
-And let {KL line} and {GL line} have been joined.
-And since the two (straight-lines) {AB line} and {BC line} are equal to the two (straight-lines) {KH line} and {HL line} (respectively), and the angle at {B point} (is) equal to {KHL angle}, the base {AC line} is thus equal to the base {KL line} [Prop. 1.4].
-And since (the sum of) {ABC angle} and {GHK angle} is greater than {DEF angle}, and {ABC angle} equal to {KHL angle}, {GHL angle} is thus greater than {DEF angle}.
-And since the two (straight-lines) {GH line} and {HL line} are equal to the two (straight-lines) {DE line} and {EF line} (respectively), and angle {GHL angle} (is) greater than {DEF angle}, the base {GL line} is thus greater than the base {DF line} [Prop. 1.24].
-But, (the sum of) {GK line} and {KL line} is greater than {GL line} [Prop. 1.20].
-Thus, (the sum of) {GK line} and {KL line} is much greater than {DF line}.
-And {KL line} (is) equal to {AC line}.
-Thus, (the sum of) {AC line} and {GK line} is greater than the remaining (straight-line) {DF line}.
-So, similarly, we can show that (the sum of) {AC line} and {DF line} is greater than {GK line}, and, further, that (the sum of) {DF line} and {GK line} is greater than {AC line}.
-Thus, it is possible to construct a triangle from (straight-lines) equal to {AC line}, {DF line}, and {GK line}.
-(Which is) the very thing it was required to show.
+Şimdi, eğer {ABC angle}, {DEF angle} ve {GHK angle} açıları birbirine eşitse o zaman, {AC line}, {DF line} ve {GK line} de eşit olarak, {AC line}, {DF line} ve {GK line}'a eşit (doğrular)dan bir üçgen inşa etmenin mümkün olduğu açıktır.
+Ve değilse, onlar eşitsiz olsun ve {ABC angle} açısına eşit {KHL angle}, {HK line} doğrusu üzerinde, onun üzerindeki {H point} noktasında inşa edilmiş olsun.
+Ve {HL line}, {AB line}, {BC line}, {DE line}, {EF line}, {GH line} ve {HK line}'dan birine eşit yapılmış olsun.
+Ve {KL line} ve {GL line} birleştirilmiş olsun.
+Ve iki (doğru) {AB line} ve {BC line}, iki (doğruya) {KH line} ve {HL line}'ye (sırasıyla) eşit olduğu ve {B point}'deki açı {KHL angle}'ye eşit olduğu için, taban {AC line} böylece taban {KL line}'ye eşittir [Önerme 1.4].
+Ve {ABC angle} ve {GHK angle}'ın (toplamı), {DEF angle}'dan büyük olduğu ve {ABC angle}, {KHL angle}'ye eşit olduğu için, {GHL angle} böylece {DEF angle}'dan büyüktür.
+Ve iki (doğru) {GH line} ve {HL line}, iki (doğruya) {DE line} ve {EF line}'a (sırasıyla) eşit olduğu ve {GHL angle} açısı {DEF angle}'dan büyük olduğu için, taban {GL line} böylece taban {DF line}'den büyüktür [Önerme 1.24].
+Fakat {GK line} ve {KL line}'ın (toplamı), {GL line}'den büyüktür [Önerme 1.20].
+Böylece {GK line} ve {KL line}'ın (toplamı), {DF line}'dan çok daha büyüktür.
+Ve {KL line}, {AC line}'ye eşittir.
+Böylece {AC line} ve {GK line}'ın (toplamı), kalan (doğru) {DF line}'den büyüktür.
+Öyleyse benzer şekilde, {AC line} ve {DF line}'ın (toplamının) {GK line}'dan ve dahası {DF line} ve {GK line}'ın (toplamının) {AC line}'den büyük olduğunu gösterebiliriz.
+Böylece {AC line}, {DF line} ve {GK line}'a eşit (doğrular)dan bir üçgen inşa etmek mümkündür.
+(Gösterilmesi gereken tam olarak budur.)
+
