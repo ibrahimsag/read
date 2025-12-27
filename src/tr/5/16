@@ -1,20 +1,22 @@
-If four magnitudes are proportional then they will also be proportional alternately.
+     1→Eğer dört büyüklük orantılıysa, o zaman değişimli olarak da orantılı olacaklardır.
+     2→
+     3→{A magnitude}, {B magnitude}, {C magnitude} ve {D magnitude} dört orantılı büyüklük olsun, (öyle ki) {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye öyle olsun.
+     4→Diyorum ki değişimli olarak da [orantılı] olacaklardır, (öyle ki) {A magnitude} {C magnitude}'ye nasılsa, {B magnitude} {D magnitude}'ye öyle (olacaktır).
+     5→
+     6→Çünkü sırasıyla {A magnitude} ve {B magnitude}'nin eşit katları {E magnitude} ve {F magnitude} alınmış olsun ve sırasıyla {C magnitude} ve {D magnitude}'nin diğer rastgele eşit katları {G magnitude} ve {H magnitude} (alınmış olsun).
+     7→
+     8→Ve {E magnitude} ve {F magnitude} sırasıyla {A magnitude} ve {B magnitude}'nin eşit katları olduğu ve parçalar benzer katlarla aynı orana sahip olduğu için [Önerme 5.15], böylece {A magnitude} {B magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye öyledir.
+     9→Ama {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye öyledir.
+    10→Ve böylece, {C magnitude} {D magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye öyledir [Önerme 5.11].
+    11→Yine, {G magnitude} ve {H magnitude} sırasıyla {C magnitude} ve {D magnitude}'nin eşit katları olduğu için, böylece {C magnitude} {D magnitude}'ye nasılsa, {G magnitude} {H magnitude}'ye öyledir [Önerme 5.15].
+    12→Ama {C magnitude} {D magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye [öyle] (idi).
+    13→Ve böylece, {E magnitude} {F magnitude}'ye nasılsa, {G magnitude} {H magnitude}'ye öyledir [Önerme 5.11].
+    14→Ve eğer dört büyüklük orantılıysa ve birinci üçüncüden büyükse, o zaman ikinci de dördüncüden büyük olacaktır, ve eğer (birinci) (üçüncüye) eşitse (ikinci de) (dördüncüye) eşit (olacaktır) ve eğer (birinci) (üçüncüden) küçükse (ikinci de) (dördüncüden) küçük (olacaktır) [Önerme 5.14].
+    15→Böylece eğer {E magnitude} {G magnitude}'yi aşarsa {F magnitude} de {H magnitude}'yi aşar, ve eğer ({E magnitude}) ({G magnitude}'ye) eşitse ({F magnitude} de) ({H magnitude}'ye) eşit(tir), ve eğer ({E magnitude}) ({G magnitude}'den) küçükse ({F magnitude} de) ({H magnitude}'den) küçük(tür).
+    16→Ve {E magnitude} ve {F magnitude} sırasıyla {A magnitude} ve {B magnitude}'nin eşit katlarıdır ve {G magnitude} ve {H magnitude} sırasıyla {C magnitude} ve {D magnitude}'nin diğer rastgele eşit katlarıdır.
+    17→Böylece {A magnitude} {C magnitude}'ye nasılsa, {B magnitude} {D magnitude}'ye öyledir [Tanım 5.5].
+    18→
+    19→Böylece, eğer dört büyüklük orantılıysa, o zaman değişimli olarak da orantılı olacaklardır.
+    20→(Gösterilmesi gereken tam olarak budur.)
+    21→
 
-Let {A magnitude}, {B magnitude}, {C magnitude} and {D magnitude} be four proportional magnitudes, (such that) as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-I say that they will also be [proportional] alternately, (so that) as {A magnitude} (is) to {C magnitude}, so {B magnitude} (i{s magnitude}) to {{D magnitude} magnitude}.
-
-For let the equal multiples {E magnitude} and {F magnitude} have been taken of {A magnitude} and {B magnitude} (respectively), and the other random equal multiples {G magnitude} and {H magnitude} of {C magnitude} and {D magnitude} (respectively).
-
-And since {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude}.
-But as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-And, thus, as {C magnitude} (is) to {D magnitude}, so {E magnitude} (is) to {F magnitude} [Prop. 5.11].
-Again, since {G magnitude} and {H magnitude} are equal multiples of {C magnitude} and {D magnitude} (respectively), thus as {C magnitude} is to {D magnitude}, so {G magnitude} (is) to {H magnitude} [Prop. 5.15].
-But as {C magnitude} (is) to {D magnitude}, [so] {E magnitude} (is) to {F magnitude}.
-And, thus, as {E magnitude} (is) to {F magnitude}, so {G magnitude} (is) to {H magnitude} [Prop. 5.11].
-And if four magnitudes are proportional, and the first is greater than the third then the second will also be greater than the fourth, and if (the first is) equal (to the third then the second will also be) equal (to the fourth), and if (the first is) less (than the third then the second will also be) less (than the fourth) [Prop. 5.14].
-Thus, if {E magnitude} exceeds {G magnitude} then {F magnitude} also exceeds {H magnitude}, and if ({E magnitude} is) equal (to {G magnitude} then {F magnitude} is also) equal (to {H magnitude}), and if ({E magnitude} is) less (than {G magnitude} then {F magnitude} is also) less (than {H magnitude}).
-And {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and {G magnitude} and {H magnitude} other random equal multiples of {C magnitude} and {D magnitude} (respectively).
-Thus, as {A magnitude} is to {C magnitude}, so {B magnitude} (is) to {D magnitude} [Def. 5.5].
-
-Thus, if four magnitudes are proportional then they will also be proportional alternately.
-(Which is) the very thing it was required to show.

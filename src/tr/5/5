@@ -1,20 +1,21 @@
-If a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).
+Eğer bir büyüklük bir büyüklüğün aynı katıysa ve çıkarılan (parça) çıkarılan (parçanın aynı katıysa) (sırasıyla), o zaman kalan da kalanın aynı katı olacaktır, bütünün bütüne (oranı gibi) (sırasıyla).
 
-For let the magnitude {AB magnitude} be the same multiple of the magnitude {CD magnitude} that the (part) taken away {AE magnitude} (is) of the (part) taken away {CF magnitude} (respectively).
-I say that the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).
+Çünkü {AB magnitude} büyüklüğü {CD magnitude} büyüklüğünün aynı katı olsun ve çıkarılan (parça) {AE magnitude} çıkarılan (parça) {CF magnitude}'nin (aynı katı olsun) (sırasıyla).
+Diyorum ki kalan {EB magnitude} de kalan {FD magnitude}'nin aynı katı olacaktır, bütün {AB magnitude}'nun bütün {CD magnitude}'ye (oranı gibi) (sırasıyla).
 
-For as many times as {AE magnitude} is (divisible) by {CF magnitude}, so many times let {EB magnitude} also have been made (divisible) by {CG magnitude}.
+Çünkü {AE magnitude} {CF magnitude} tarafından kaç kez (bölünebilirse), {EB magnitude} de {CG magnitude} tarafından o kadar kez (bölünebilir) yapılmış olsun.
 
-And since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), {AE magnitude} and {AB magnitude} are thus equal multiples of {CF magnitude} and {GF magnitude} (respectively) [Prop. 5.1].
-And {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).
-Thus, {AB magnitude} is an equal multiple of each of {GF magnitude} and {CD magnitude}.
-Thus, {GF magnitude} (is) equal to {CD magnitude}.
-Let {CF magnitude} have been subtracted from both.
-Thus, the remainder {GC magnitude} is equal to the remainder {FD magnitude}.
-And since {AE magnitude} and {EB magnitude} are equal multiples of {CF magnitude} and {GC magnitude} (respectively), and {GC magnitude} (is) equal to {DF magnitude}, {AE magnitude} and {EB magnitude} are thus equal multiples of {CF magnitude} and {FD magnitude} (respectively).
-And {AE magnitude} and {AB magnitude} are assumed (to be) equal multiples of {CF magnitude} and {CD magnitude} (respectively).
-Thus, {EB magnitude} and {AB magnitude} are equal multiples of {FD magnitude} and {CD magnitude} (respectively).
-Thus, the remainder {EB magnitude} will also be the same multiple of the remainder {FD magnitude} as that which the whole {AB magnitude} (is) of the whole {CD magnitude} (respectively).
+Ve {AE magnitude} ve {EB magnitude} sırasıyla {CF magnitude} ve {GC magnitude}'nin eşit katları olduğu için, {AE magnitude} ve {AB magnitude} böylece sırasıyla {CF magnitude} ve {GF magnitude}'nin eşit katlarıdır [Önerme 5.1].
+Ve {AE magnitude} ve {AB magnitude}'nun sırasıyla {CF magnitude} ve {CD magnitude}'nin eşit katları olduğu varsayılmıştır.
+Böylece {AB magnitude} hem {GF magnitude}'nin hem de {CD magnitude}'nin eşit katıdır.
+Böylece {GF magnitude} {CD magnitude}'ye eşittir.
+Her ikisinden de {CF magnitude} çıkarılmış olsun.
+Böylece kalan {GC magnitude} kalan {FD magnitude}'ye eşittir.
+Ve {AE magnitude} ve {EB magnitude} sırasıyla {CF magnitude} ve {GC magnitude}'nin eşit katları olduğu ve {GC magnitude} {DF magnitude}'ye eşit olduğu için, {AE magnitude} ve {EB magnitude} böylece sırasıyla {CF magnitude} ve {FD magnitude}'nin eşit katlarıdır.
+Ve {AE magnitude} ve {AB magnitude}'nun sırasıyla {CF magnitude} ve {CD magnitude}'nin eşit katları olduğu varsayılmıştır.
+Böylece {EB magnitude} ve {AB magnitude} sırasıyla {FD magnitude} ve {CD magnitude}'nin eşit katlarıdır.
+Böylece kalan {EB magnitude} de kalan {FD magnitude}'nin aynı katı olacaktır, bütün {AB magnitude}'nun bütün {CD magnitude}'ye (oranı gibi) (sırasıyla).
 
-Thus, if a magnitude is the same multiple of a magnitude that a (part) taken away (is) of a (part) taken away (respectively) then the remainder will also be the same multiple of the remainder as that which the whole (is) of the whole (respectively).
-(Which is) the very thing it was required to show.
+Böylece, eğer bir büyüklük bir büyüklüğün aynı katıysa ve çıkarılan (parça) çıkarılan (parçanın aynı katıysa) (sırasıyla), o zaman kalan da kalanın aynı katı olacaktır, bütünün bütüne (oranı gibi) (sırasıyla).
+(Gösterilmesi gereken tam olarak budur.)
+

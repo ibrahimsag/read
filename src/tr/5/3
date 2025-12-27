@@ -1,14 +1,15 @@
-If a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and equal multiples are taken of the first and the third, then, via equality, the (magnitudes) taken will also be equal multiples of the second (magnitude) and the fourth, respectively.
+Eğer birinci (büyüklük) ve üçüncü, sırasıyla ikinci ve dördüncünün eşit katlarıysa ve birinci ve üçüncünün eşit katları alınırsa, o zaman eşitlik yoluyla, alınan (büyüklükler) de sırasıyla ikinci (büyüklüğün) ve dördüncünün eşit katları olacaktır.
 
-For let a first (magnitude) {A magnitude} and a third {C magnitude} be equal multiples of a second {B magnitude} and a fourth {D magnitude} (respectively), and let the equal multiples {EF magnitude} and {GH magnitude} have been taken of {A magnitude} and {C magnitude} (respectively).
-I say that {EF magnitude} and {GH magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).
+Çünkü birinci (büyüklük) {A magnitude} ve üçüncü {C magnitude} sırasıyla ikinci {B magnitude} ve dördüncü {D magnitude}'nin eşit katları olsun ve {A magnitude} ve {C magnitude}'nin sırasıyla eşit katları {EF magnitude} ve {GH magnitude} alınmış olsun.
+Diyorum ki {EF magnitude} ve {GH magnitude} sırasıyla {B magnitude} ve {D magnitude}'nin eşit katlarıdır.
 
-For since {EF magnitude} and {GH magnitude} are equal multiples of {A magnitude} and {C magnitude} (respectively), thus as many (magnitudes) as (there) are in {EF magnitude} equal to {A magnitude}, so many (are there) also in {GH magnitude} equal to {C magnitude}.
-Let {EF magnitude} have been divided into magnitudes {EK magnitude}, {KF magnitude} equal to {A magnitude}, and {GH magnitude} into (magnitudes) {GL magnitude}, {LH magnitude} equal to {C magnitude}.
-So,the number of (magnitudes) {EK magnitude}, {KF magnitude} will be equal to the number of (magnitudes) {GL magnitude}, {LH magnitude}.
-And since {A magnitude} and {C magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively), and {EK magnitude} (is) equal to {A magnitude}, and {GL magnitude} to {C magnitude}, {EK magnitude} and {GL magnitude} are thus equal multiples of {B magnitude} and {D magnitude} (respectively).
-So, for the same (reasons), {KF magnitude} and {LH magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).
-Therefore, since the first (magnitude) {EK magnitude} and the third {GL magnitude} are equal multiples of the second {B magnitude} and the fourth {D magnitude} (respectively), and the fifth (magnitude) {KF magnitude} and the sixth {LH magnitude} are also equal multiples of the second {B magnitude} and the fourth {D magnitude} (respectively), then the first (magnitude) and fifth, being added together, (to give) {EF magnitude}, and the third (magnitude) and sixth, (being added together, to give) {GH magnitude}, are thus also equal multiples of the second (magnitude) {B magnitude} and the fourth {D magnitude} (respectively) [Prop. 5.2].
+Çünkü {EF magnitude} ve {GH magnitude} sırasıyla {A magnitude} ve {C magnitude}'nin eşit katları olduğu için, böylece {EF magnitude}'da {A magnitude}'ya eşit kaç (büyüklük) varsa, {GH magnitude}'da da {C magnitude}'ye eşit o kadar (büyüklük) vardır.
+{EF magnitude} {A magnitude}'ya eşit {EK magnitude}, {KF magnitude} büyüklüklerine bölünmüş olsun ve {GH magnitude} {C magnitude}'ye eşit {GL magnitude}, {LH magnitude} (büyüklüklerine bölünmüş olsun).
+Böylece {EK magnitude}, {KF magnitude} (büyüklüklerinin) sayısı {GL magnitude}, {LH magnitude} (büyüklüklerinin) sayısına eşit olacaktır.
+Ve {A magnitude} ve {C magnitude} sırasıyla {B magnitude} ve {D magnitude}'nin eşit katları olduğu ve {EK magnitude} {A magnitude}'ya ve {GL magnitude} {C magnitude}'ye eşit olduğu için, {EK magnitude} ve {GL magnitude} böylece sırasıyla {B magnitude} ve {D magnitude}'nin eşit katlarıdır.
+Dolayısıyla, aynı (nedenlerle), {KF magnitude} ve {LH magnitude} sırasıyla {B magnitude} ve {D magnitude}'nin eşit katlarıdır.
+Dolayısıyla, birinci (büyüklük) {EK magnitude} ve üçüncü {GL magnitude} sırasıyla ikinci {B magnitude} ve dördüncü {D magnitude}'nin eşit katları olduğu ve beşinci (büyüklük) {KF magnitude} ve altıncı {LH magnitude} de sırasıyla ikinci {B magnitude} ve dördüncü {D magnitude}'nin eşit katları olduğu için, o zaman birinci (büyüklük) ve beşinci birlikte toplanarak {EF magnitude}'yu vererek ve üçüncü (büyüklük) ve altıncı (birlikte toplanarak) {GH magnitude}'yu vererek, böylece sırasıyla ikinci (büyüklük) {B magnitude} ve dördüncü {D magnitude}'nin de eşit katlarıdır [Önerme 5.2].
 
-Thus, if a first (magnitude) and a third are equal multiples of a second and a fourth (respectively), and equal multiples are taken of the first and the third, then, via equality, the (magnitudes) taken will also be equal multiples of the second (magnitude) and the fourth, respectively.
-(Which is) the very thing it was required to show.
+Böylece, eğer birinci (büyüklük) ve üçüncü, sırasıyla ikinci ve dördüncünün eşit katlarıysa ve birinci ve üçüncünün eşit katları alınırsa, o zaman eşitlik yoluyla, alınan (büyüklükler) de sırasıyla ikinci (büyüklüğün) ve dördüncünün eşit katları olacaktır.
+(Gösterilmesi gereken tam olarak budur.)
+

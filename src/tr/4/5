@@ -1,32 +1,33 @@
-To circumscribe a circle about a given triangle.
+Verilen bir üçgenin etrafına bir çember çizmek.
 
-Let {ABC polygon} be the given triangle.
-So it is required to circumscribe a circle about the given triangle {ABC polygon}.
+{ABC polygon} verilen üçgen olsun.
+Böylece verilen {ABC polygon} üçgeninin etrafına bir çember çizmek gerekiyor.
 
-Let the straight-lines {AB line} and {AC line} have been cut in half at points {D point} and {E point} (respectively) [Prop. 1.10].
-And let {DF line} and {EF line} have been drawn from points {D point} and {E point}, at right-angles to {AB line} and {AC line} (respectively) [Prop. 1.11].
-So ({DF line} and {EF line} ) will surely either meet inside triangle {ABC polygon}, on the straight-line {BC line}, or beyond {BC line}.
+{AB line} ve {AC line} düz çizgileri sırasıyla {D point} ve {E point} noktalarında yarıya bölünmüş olsun [Önerme 1.10].
+Ve {D point} ve {E point} noktalarından sırasıyla {AB line} ve {AC line}'ye dik açıyla {DF line} ve {EF line} çizilmiş olsun [Önerme 1.11].
+Böylece ({DF line} ve {EF line}) kesinlikle ya {ABC polygon} üçgeninin içinde, {BC line} düz çizgisi üzerinde veya {BC line}'nin ötesinde kesişecektir.
 
-{figure 1}Let them, first of all, meet inside (triangle {ABC polygon}) at (point) {F point}, and let {FB line}, {FC line}, and {FA line} have been joined.
-And since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {FB line} [Prop. 1.4].
-So, similarly, we can show that {CF line} is also equal to {AF line}.
-So that {FB line} is also equal to {FC line}.
-Thus, the three (straight-lines) {FA line}, {FB line}, and {FC line} are equal to one another.
-Thus, the circle drawn with center {F point}, and radius one of {A point}, {B point}, or {C point}, will also go through the remaining points.
-And the circle will have been circumscribed about triangle {ABC polygon}.
-Let it have been (so) circumscribed, like {ABC circle F} (in the first diagram from the left).
+{figure 1}İlk olarak, ({ABC polygon} üçgeninin) içinde {F point} (noktasında) kesişsinler ve {FB line}, {FC line} ve {FA line} birleştirilmiş olsun.
+Ve {AD line} {DB line}'ye eşit olduğu ve {DF line} ortak ve dik açıda olduğu için, taban {AF line} böylece taban {FB line}'ye eşittir [Önerme 1.4].
+Dolayısıyla, benzer şekilde, {CF line}'nin de {AF line}'ye eşit olduğunu gösterebiliriz.
+Öyle ki {FB line} de {FC line}'ye eşittir.
+Böylece, üç (düz çizgi) {FA line}, {FB line} ve {FC line} birbirine eşittir.
+Böylece, merkezi {F point} ve yarıçapı {A point}, {B point} veya {C point}'den biri olan çember, kalan noktalardan da geçecektir.
+Ve çember {ABC polygon} üçgeninin etrafına çizilmiş olacaktır.
+(Soldan birinci şekildeki) {ABC circle F} gibi çizilmiş olsun.
 
-{figure 2}And so, let {DF line} and {EF line} meet on the straight-line {BC line} at (point) {F point}, like in the second diagram (from the left).
-And let {AF line} have been joined.
-So, similarly, we can show that point {F point} is the center of the circle circumscribed about triangle {ABC polygon}.
+{figure 2}Ve öyleyse, {DF line} ve {EF line} (soldan ikinci şekildeki) gibi {BC line} düz çizgisi üzerinde {F point} (noktasında) kesişsinler.
+Ve {AF line} birleştirilmiş olsun.
+Dolayısıyla, benzer şekilde, {F point} noktasının {ABC polygon} üçgeninin etrafına çizilen çemberin merkezi olduğunu gösterebiliriz.
 
-{figure 3}And so, let {DF line} and {EF line} meet outside triangle {ABC polygon}, again at (point) {F point}, like in the third diagram (from the left).
-And let {AF line}, {BF line}, and {CF line} have been joined.
-And, again, since {AD line} is equal to {DB line}, and {DF line} is common and at right-angles, the base {AF line} is thus equal to the base {BF line} [Prop. 1.4].
-So, similarly, we can show that {CF line} is also equal to {AF line}.
-So that {BF line} is also equal to {FC line}.
-Thus, [again] the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, and {FC line}, will also go through the remaining points.
-And it will have been circumscribed about triangle {ABC polygon}.
+{figure 3}Ve öyleyse, {DF line} ve {EF line} (soldan üçüncü şekildeki) gibi {ABC polygon} üçgeninin dışında, yine {F point} (noktasında) kesişsinler.
+Ve {AF line}, {BF line} ve {CF line} birleştirilmiş olsun.
+Ve yine, {AD line} {DB line}'ye eşit olduğu ve {DF line} ortak ve dik açıda olduğu için, taban {AF line} böylece taban {BF line}'ye eşittir [Önerme 1.4].
+Dolayısıyla, benzer şekilde, {CF line}'nin de {AF line}'ye eşit olduğunu gösterebiliriz.
+Öyle ki {BF line} de {FC line}'ye eşittir.
+Böylece, [yine] merkezi {F point} ve yarıçapı {FA line}, {FB line} ve {FC line}'den biri olan çember, kalan noktalardan da geçecektir.
+Ve {ABC polygon} üçgeninin etrafına çizilmiş olacaktır.
 
-Thus, a circle has been circumscribed about the given triangle.
-(Which is) the very thing it was required to do.
+Böylece, verilen üçgenin etrafına bir çember çizilmiştir.
+(Yapılması gereken tam olarak budur.)
+

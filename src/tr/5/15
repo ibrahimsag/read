@@ -1,16 +1,18 @@
-Parts have the same ratio as similar multiples, taken in corresponding order.
+     1→Parçalar, karşılık gelen sırada alınmış benzer katlarla aynı orana sahiptir.
+     2→
+     3→Çünkü {AB magnitude} ve {DE magnitude} sırasıyla {C magnitude} ve {F magnitude}'nin eşit katları olsun.
+     4→Diyorum ki {C magnitude} {F magnitude}'ye nasılsa, {AB magnitude} (de) {DE magnitude}'ye öyledir.
+     5→
+     6→Çünkü {AB magnitude} ve {DE magnitude} sırasıyla {C magnitude} ve {F magnitude}'nin eşit katları olduğu için, böylece {AB magnitude}'da {C magnitude}'ye eşit kaç büyüklük varsa, {DE magnitude}'de de {F magnitude}'ye eşit o kadar (büyüklük) vardır.
+     7→{AB magnitude}, {C magnitude}'ye eşit (büyüklükler olan) {AG magnitude}, {GH magnitude}, {HB magnitude}'ye bölünmüş olsun ve {DE magnitude} de {F magnitude}'ye eşit (büyüklükler olan) {DK magnitude}, {KL magnitude}, {LE magnitude}'ye (bölünmüş olsun).
+     8→Böylece {AG magnitude}, {GH magnitude}, {HB magnitude} (büyüklüklerinin) sayısı {DK magnitude}, {KL magnitude}, {LE magnitude} (büyüklüklerinin) sayısına eşit olacaktır.
+     9→Ve {AG magnitude}, {GH magnitude}, {HB magnitude} birbirine eşit olduğu ve {DK magnitude}, {KL magnitude}, {LE magnitude} de birbirine eşit olduğu için, böylece {AG magnitude} {DK magnitude}'ye nasılsa, {GH magnitude} {KL magnitude}'ye ve {HB magnitude} {LE magnitude}'ye öyledir [Önerme 5.7].
+    10→Ve böylece (orantılı büyüklükler için), öncekilerden biri sonrakilerden birine nasılsa, önceklerin tümü de sonrakilerin tümüne öyle olacaktır [Önerme 5.12].
+    11→Böylece {AG magnitude} {DK magnitude}'ye nasılsa, {AB magnitude} (de) {DE magnitude}'ye öyledir.
+    12→Ve {AG magnitude} {C magnitude}'ye eşittir ve {DK magnitude} {F magnitude}'ye (eşittir).
+    13→Böylece {C magnitude} {F magnitude}'ye nasılsa, {AB magnitude} (de) {DE magnitude}'ye öyledir.
+    14→
+    15→Böylece, parçalar, karşılık gelen sırada alınmış benzer katlarla aynı orana sahiptir.
+    16→(Gösterilmesi gereken tam olarak budur.)
+    17→
 
-For let {AB magnitude} and {DE magnitude} be equal multiples of {C magnitude} and {F magnitude} (respectively).
-I say that as {C magnitude} is to {F magnitude}, so {AB magnitude} (is) to {DE magnitude}.
-
-For since {AB magnitude} and {DE magnitude} are equal multiples of {C magnitude} and {F magnitude} (respectively), thus as many magnitudes as there are in {AB magnitude} equal to {C magnitude}, so many (are there) also in {DE magnitude} equal to {F magnitude}.
-Let {AB magnitude} have been divided into (magnitudes) {AG magnitude}, {GH magnitude}, {HB magnitude}, equal to {C magnitude}, and {DE magnitude} into (magnitudes) {DK magnitude}, {KL magnitude}, {LE magnitude}, equal to {F magnitude}.
-So, the number of (magnitudes) {AG magnitude}, {GH magnitude}, {HB magnitude} will equal the number of (magnitudes) {DK magnitude}, {KL magnitude}, {LE magnitude}.
-And since {AG magnitude}, {GH magnitude}, {HB magnitude} are equal to one another, and {DK magnitude}, {KL magnitude}, {LE magnitude} are also equal to one another, thus as {AG magnitude} is to {DK magnitude}, so {GH magnitude} (is) to {KL magnitude}, and {HB magnitude} to {LE magnitude} [Prop. 5.7].
-And, thus (for proportional magnitudes), as one of the leading (magnitudes) will be to one of the following, so all of the leading (magnitudes will be) to all of the following [Prop. 5.12].
-Thus, as {AG magnitude} is to {DK magnitude}, so {AB magnitude} (is)to {DE magnitude}.
-And {AG magnitude} is equal to {C magnitude}, and {DK magnitude} to {F magnitude}.
-Thus, as {C magnitude} is to {F magnitude}, so {AB magnitude} (is) to {DE magnitude}.
-
-Thus, parts have the same ratio as similar multiples, taken in corresponding order.
-(Which is) the very thing it was required to show.

@@ -1,26 +1,28 @@
-If composed magnitudes are proportional then they will also be proportional (when) separarted.
+     1→Eğer bileşik büyüklükler orantılıysa, o zaman ayrıldıklarında da orantılı olacaklardır.
+     2→
+     3→{AB magnitude}, {BE magnitude}, {CD magnitude} ve {DF magnitude} orantılı bileşik büyüklükler olsun, (öyle ki) {AB magnitude} {BE magnitude}'ye nasılsa, {CD magnitude} {DF magnitude}'ye öyle olsun.
+     4→Diyorum ki ayrıldıklarında da orantılı olacaklardır, (öyle ki) {AE magnitude} {EB magnitude}'ye nasılsa, {CF magnitude} {DF magnitude}'ye öyle (olacaktır).
+     5→
+     6→Çünkü sırasıyla {AE magnitude}, {EB magnitude}, {CF magnitude} ve {FD magnitude}'nin eşit katları {GH magnitude}, {HK magnitude}, {LM magnitude} ve {MN magnitude} alınmış olsun ve sırasıyla {EB magnitude} ve {FD magnitude}'nin diğer rastgele eşit katları {KO magnitude} ve {NP magnitude} (alınmış olsun).
+     7→
+     8→Ve {GH magnitude} ve {HK magnitude} sırasıyla {AE magnitude} ve {EB magnitude}'nin eşit katları olduğu için, {GH magnitude} ve {GK magnitude} böylece sırasıyla {AE magnitude} ve {AB magnitude}'nun eşit katlarıdır [Önerme 5.1].
+     9→Ama {GH magnitude} ve {LM magnitude} sırasıyla {AE magnitude} ve {CF magnitude}'nin eşit katlarıdır.
+    10→Böylece {GK magnitude} ve {LM magnitude} sırasıyla {AB magnitude} ve {CF magnitude}'nin eşit katlarıdır.
+    11→Yine, {LM magnitude} ve {MN magnitude} sırasıyla {CF magnitude} ve {FD magnitude}'nin eşit katları olduğu için, {LM magnitude} ve {LN magnitude} böylece sırasıyla {CF magnitude} ve {CD magnitude}'nin eşit katlarıdır [Önerme 5.1].
+    12→Ve {LM magnitude} ve {GK magnitude} sırasıyla {CF magnitude} ve {AB magnitude}'nun eşit katlarıydı.
+    13→Böylece {GK magnitude} ve {LN magnitude} sırasıyla {AB magnitude} ve {CD magnitude}'nin eşit katlarıdır.
+    14→Böylece {GK magnitude}, {LN magnitude} sırasıyla {AB magnitude}, {CD magnitude}'nin eşit katlarıdır.
+    15→Yine, {HK magnitude} ve {MN magnitude} sırasıyla {EB magnitude} ve {FD magnitude}'nin eşit katları olduğu ve {KO magnitude} ve {NP magnitude} de sırasıyla {EB magnitude} ve {FD magnitude}'nin eşit katları olduğu için, o zaman toplanarak {HO magnitude} ve {MP magnitude} de sırasıyla {EB magnitude} ve {FD magnitude}'nin eşit katlarıdır [Önerme 5.2].
+    16→Ve {AB magnitude} {BE magnitude}'ye nasılsa {CD magnitude} {DF magnitude}'ye öyle olduğu ve {AB magnitude}, {CD magnitude}'nin eşit katları {GK magnitude}, {LN magnitude} ve {EB magnitude}, {FD magnitude}'nin eşit katları {HO magnitude}, {MP magnitude} alındığı için, o zaman eğer {GK magnitude} {HO magnitude}'yu aşarsa {LN magnitude} de {MP magnitude}'yi aşar, ve eğer ({GK magnitude}) ({HO magnitude}'ya) eşitse ({LN magnitude} de) ({MP magnitude}'ye) eşit(tir), ve eğer ({GK magnitude}) ({HO magnitude}'dan) küçükse ({LN magnitude} de) ({MP magnitude}'den) küçük(tür) [Tanım 5.5].
+    17→Öyleyse {GK magnitude} {HO magnitude}'yu aşsın ve böylece {HK magnitude} her ikisinden çıkarılınca, {GH magnitude} {KO magnitude}'yu aşar.
+    18→Ama (gördük ki) eğer {GK magnitude} {HO magnitude}'yu aşıyorsa {LN magnitude} de {MP magnitude}'yi aşıyordu.
+    19→Böylece {LN magnitude} de {MP magnitude}'yi aşar ve {MN magnitude} her ikisinden çıkarılınca, {LM magnitude} de {NP magnitude}'yi aşar.
+    20→Dolayısıyla, eğer {GH magnitude} {KO magnitude}'yu aşarsa {LM magnitude} de {NP magnitude}'yi aşar.
+    21→Öyleyse, benzer şekilde, eğer {GH magnitude} {KO magnitude}'ya eşitse {LM magnitude}'nin de {NP magnitude}'ye eşit olacağını ve eğer ({GH magnitude}) ({KO magnitude}'dan) küçükse ({LM magnitude}'nin de) ({NP magnitude}'den) küçük (olacağını) gösterebiliriz.
+    22→Ve {GH magnitude}, {LM magnitude} sırasıyla {AE magnitude}, {CF magnitude}'nin eşit katlarıdır ve {KO magnitude}, {NP magnitude} sırasıyla {EB magnitude}, {FD magnitude}'nin diğer rastgele eşit katlarıdır.
+    23→Böylece {AE magnitude} {EB magnitude}'ye nasılsa, {CF magnitude} {FD magnitude}'ye öyledir [Tanım 5.5].
+    24→
+    25→Böylece, eğer bileşik büyüklükler orantılıysa, o zaman ayrıldıklarında da orantılı olacaklardır.
+    26→(Gösterilmesi gereken tam olarak budur.)
+    27→
 
-Let {AB magnitude}, {BE magnitude}, {CD magnitude}, and {DF magnitude} be composed magnitudes (which are) proportional, (so that) as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}.
-I say that they will also be proportional (when) separated, (so that) as {AE magnitude} (is) to {EB magnitude}, so {CF magnitude} (is) to {DF magnitude}.
-
-For let the equal multiples {GH magnitude}, {HK magnitude}, {LM magnitude}, and {MN magnitude} have been taken of {AE magnitude}, {EB magnitude}, {CF magnitude}, and {FD magnitude} (respectively), and the other random equal multiples {KO magnitude} and {NP magnitude} of {EB magnitude} and {FD magnitude} (respectively).
-
-And since {GH magnitude} and {HK magnitude} are equal multiples of {AE magnitude} and {EB magnitude} (respectively), {GH magnitude} and {GK magnitude} are thus equal multiples of {AE magnitude} and {AB magnitude} (respectively) [Prop. 5.1].
-But {GH magnitude} and {LM magnitude} are equal multiples of {AE magnitude} and {CF magnitude} (respectively).
-Thus, {GK magnitude} and {LM magnitude} are equal multiples of {AB magnitude} and {CF magnitude} (respectively).
-Again, since {LM magnitude} and {MN magnitude} are equal multiples of {CF magnitude} and {FD magnitude} (respectively), {LM magnitude} and {LN magnitude} are thus equal multiples of {CF magnitude} and {CD magnitude} (respectively) [Prop. 5.1].
-And {LM magnitude} and {GK magnitude} were equal multiples of {CF magnitude} and {AB magnitude} (respectively).
-Thus, {GK magnitude} and {LN magnitude} are equal multiples of {AB magnitude} and {CD magnitude} (respectively).
-Thus, {GK magnitude}, {LN magnitude} are equal multiples of {AB magnitude}, {CD magnitude}.
-Again, since {HK magnitude} and {MN magnitude} are equal multiples of {EB magnitude} and {FD magnitude} (respectively), and {KO magnitude} and {NP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively), then, added together, {HO magnitude} and {MP magnitude} are also equal multiples of {EB magnitude} and {FD magnitude} (respectively) [Prop. 5.2].
-And since as {AB magnitude} (is) to {BE magnitude}, so {CD magnitude} (is) to {DF magnitude}, and the equal multiples {GK magnitude}, {LN magnitude} have been taken of {AB magnitude}, {CD magnitude}, and the equal multiples {HO magnitude}, {MP magnitude} of {EB magnitude}, {FD magnitude}, thus if {GK magnitude} exceeds {HO magnitude} then {LN magnitude} also exceeds {MP magnitude}, and if ({GK magnitude} is) equal (to {HO magnitude} then {LN magnitude} is also) equal (to {MP magnitude}), and if ({GK magnitude} is) less (than {HO magnitude} then {LN magnitude} is also) less (than {MP magnitude}) [Def. 5.5].
-So let {GK magnitude} exceed {HO magnitude}, and thus, {HK magnitude} being taken away from both, {GH magnitude} exceeds {KO magnitude}.
-But (we saw that) if {GK magnitude} was exceeding {HO magnitude} then {LN magnitude} was also exceeding {MP magnitude}.
-Thus, {LN magnitude} also exceeds {MP magnitude}, and, {MN magnitude} being taken away from both, {LM magnitude} also exceeds {NP magnitude}.
-Hence, if {GH magnitude} exceeds {KO magnitude} then {LM magnitude} also exceeds {NP magnitude}.
-So, similarly, we can show that even if {GH magnitude} is equal to {KO magnitude} then {LM magnitude} will also be equal to {NP magnitude}, and even if ({GH magnitude} is) less (than {KO magnitude} then {LM magnitude} will also be) less (than {NP magnitude}).
-And {GH magnitude}, {LM magnitude} are equal multiples of {AE magnitude}, {CF magnitude}, and {KO magnitude}, {NP magnitude} other random equal multiples of {EB magnitude}, {FD magnitude}.
-Thus, as {AE magnitude} is to {EB magnitude}, so {CF magnitude} (is) to {FD magnitude} [Def. 5.5].
-
-Thus, if composed magnitudes are proportional then they will also be proportional (when) separated.
-(Which is) the very thing it was required to show.

@@ -1,17 +1,18 @@
-To circumscribe a circle about a given pentagon which is equilateral and equiangular.
+Eşkenar ve eşaçılı olan verilen bir beşgenin etrafına bir çember çizmek.
 
-Let {ABCDE polygon} be the given pentagon which is equilateral and equiangular.
-So it is required to circumscribe a circle about the pentagon {ABCDE polygon}.
+{ABCDE polygon} eşkenar ve eşaçılı olan verilen beşgen olsun.
+Böylece {ABCDE polygon} beşgeninin etrafına bir çember çizmek gerekiyor.
 
-So let angles {BCD angle} and {CDE angle} have been cut in half by the (straight-lines) {CF line} and {DF line}, respectively [Prop. 1.9].
-And let the straight-lines {FB line}, {FA line}, and {FE line} have been joined from point {F point}, at which the straight-lines meet, to the points {B point}, {A point}, and {E point} (respectively).
-So, similarly, to the (proposition) before this (one), it can be shown that angles {CBA angle}, {BAE angle}, and {AED angle} have also been cut in half by the straight-lines {FB line}, {FA line}, and {FE line}, respectively.
-And since angle {BCD angle} is equal to {CDE angle}, and {FCD angle} is half of {BCD angle}, and {CDF angle} half of {CDE angle}, {FCD angle} is thus also equal to {FDC angle}.
-So that side {FC line} is also equal to side {FD line} [Prop. 1.6].
-So, similarly, it can be shown that {FB line}, {FA line}, and {FE line} are also each equal to each of {FC line} and {FD line}.
-Thus, the five straight-lines {FA line}, {FB line}, {FC line}, {FD line}, and {FE line} are equal to one another.
-Thus, the circle drawn with center {F point}, and radius one of {FA line}, {FB line}, {FC line}, {FD line}, or {FE line}, will also go through the remaining points, and will have been circumscribed.
-Let it have been (so) circumscribed, and let it be {ABCDE circle F}.
+Öyleyse {BCD angle} ve {CDE angle} açıları sırasıyla {CF line} ve {DF line} (düz çizgileri) tarafından yarıya bölünmüş olsun [Önerme 1.9].
+Ve düz çizgilerin kesiştiği {F point} noktasından sırasıyla {B point}, {A point} ve {E point} noktalarına {FB line}, {FA line} ve {FE line} düz çizgileri birleştirilmiş olsun.
+Dolayısıyla, benzer şekilde, bundan önceki (önermeye göre), {CBA angle}, {BAE angle} ve {AED angle} açılarının da sırasıyla {FB line}, {FA line} ve {FE line} düz çizgileri tarafından yarıya bölündüğü gösterilebilir.
+Ve {BCD angle} açısı {CDE angle}'ye eşit olduğu ve {FCD angle} {BCD angle}'nin yarısı ve {CDF angle} {CDE angle}'nin yarısı olduğu için, {FCD angle} böylece {FDC angle}'ye de eşittir.
+Öyle ki {FC line} kenarı da {FD line} kenarına eşittir [Önerme 1.6].
+Dolayısıyla, benzer şekilde, {FB line}, {FA line} ve {FE line}'nin de her birinin {FC line} ve {FD line}'nin her birine eşit olduğu gösterilebilir.
+Böylece beş düz çizgi {FA line}, {FB line}, {FC line}, {FD line} ve {FE line} birbirine eşittir.
+Böylece, merkezi {F point} ve yarıçapı {FA line}, {FB line}, {FC line}, {FD line} veya {FE line}'den biri olan çember, kalan noktalardan da geçecek ve (beşgenin) etrafına çizilmiş olacaktır.
+(Böyle) çizilmiş olsun ve o {ABCDE circle F} olsun.
 
-Thus, a circle has been circumscribed about the given pentagon, which is equilateral and equiangular.
-(Which is) the very thing it was required to do.
+Böylece, eşkenar ve eşaçılı olan verilen beşgenin etrafına bir çember çizilmiştir.
+(Yapılması gereken tam olarak budur.)
+

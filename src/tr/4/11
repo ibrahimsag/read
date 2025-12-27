@@ -1,26 +1,27 @@
-To inscribe an equilateral and equiangular pentagon in a given circle.
+Verilen bir çemberin içine eşkenar ve eşaçılı bir beşgen yazmak.
 
-Let {ABCDE circle O} be the given circle.
-So it is required to inscribed an equilateral and equiangular pentagon in circle {ABCDE circle O}.
+{ABCDE circle O} verilen çember olsun.
+Böylece {ABCDE circle O} çemberinin içine eşkenar ve eşaçılı bir beşgen yazmak gerekiyor.
 
-Let the the isosceles triangle {FGH polygon} be set up having each of the angles at {G point} and {H point} double the (angle) at {F point} [Prop. 4.10].
-And let triangle {ACD polygon}, equiangular to {FGH polygon}, have been inscribed in circle {ABCDE circle O}, such that {CAD angle} is equal to the angle at {F point}, and the (angles) at {G point} and {H point} (are) equal to {ACD angle} and {CDA angle}, respectively [Prop. 4.2].
-Thus, {ACD angle} and {CDA angle} are each double {CAD angle}.
-So let {ACD angle} and {CDA angle} have been cut in half by the straight-lines {CE line} and {DB line}, respectively [Prop. 1.9].
-And let {AB line}, {BC line}, {DE line} and {EA line} have been joined.
+{G point} ve {H point}'deki açıların her biri {F point}'deki (açının) iki katı olan {FGH polygon} ikizkenar üçgeni kurulmuş olsun [Önerme 4.10].
+Ve {FGH polygon} ile eşaçılı olan {ACD polygon} üçgeni {ABCDE circle O} çemberinin içine yazılmış olsun, öyle ki {CAD angle} {F point}'deki açıya eşit olsun ve {G point} ve {H point}'deki (açılar) sırasıyla {ACD angle} ve {CDA angle}'ya eşit olsun [Önerme 4.2].
+Böylece {ACD angle} ve {CDA angle}'nın her biri {CAD angle}'nın iki katıdır.
+Öyleyse {ACD angle} ve {CDA angle} sırasıyla {CE line} ve {DB line} düz çizgileriyle yarıya bölünmüş olsun [Önerme 1.9].
+Ve {AB line}, {BC line}, {DE line} ve {EA line} birleştirilmiş olsun.
 
-Therefore, since angles {ACD angle} and {CDA angle} are each double {CAD angle}, and are cut in half by the straight-lines {CE line} and {DB line}, the five angles {DAC angle}, {ACE angle}, {ECD angle}, {CDB angle}, and {BDA angle} are thus equal to one another.
-And equal angles stand upon equal circumferences [Prop. 3.26].
-Thus, the five circumferences {AB arcc O}, {BC arcc O}, {CD arcc O}, {DE arcc O}, and {EA arcc O} are equal to one another [Prop. 3.29].
-Thus, the pentagon {ABCDE polygon} is equilateral.
-So I say that (it is) also equiangular.
-For since the circumference {AB arcc O} is equal to the circumference {DE arcc O}, let {BCD arcc O} have been added to both.
-Thus, the whole circumference {ABCD arcc O} is equal to the whole circumference {EDCB arc O}.
-And the angle {AED angle} stands upon circumference {ABCD arcc O}, and angle {BAE angle} upon circumference {EDCB arc O}.
-Thus, angle {BAE angle} is also equal to {AED angle} [Prop. 3.27].
-So, for the same (reasons), each of the angles {ABC angle}, {BCD angle}, and {CDE angle} is also equal to each of {BAE angle} and {AED angle}.
-Thus, pentagon {ABCDE polygon} is equiangular.
-And it was also shown (to be) equilateral.
+Dolayısıyla, {ACD angle} ve {CDA angle} açılarının her biri {CAD angle}'nın iki katı olduğu ve {CE line} ve {DB line} düz çizgileriyle yarıya bölündüğü için, beş açı {DAC angle}, {ACE angle}, {ECD angle}, {CDB angle} ve {BDA angle} böylece birbirine eşittir.
+Ve eşit açılar eşit çevreler üzerinde durur [Önerme 3.26].
+Böylece beş çevre {AB arcc O}, {BC arcc O}, {CD arcc O}, {DE arcc O} ve {EA arcc O} birbirine eşittir [Önerme 3.29].
+Böylece {ABCDE polygon} beşgeni eşkenardır.
+Öyleyse diyorum ki (o) aynı zamanda eşaçılıdır.
+Çünkü {AB arcc O} çevresi {DE arcc O} çevresine eşit olduğu için, her ikisine de {BCD arcc O} eklenmiş olsun.
+Böylece {ABCD arcc O} çevresinin tamamı {EDCB arc O} çevresinin tamamına eşittir.
+Ve {AED angle} açısı {ABCD arcc O} çevresi üzerinde ve {BAE angle} açısı {EDCB arc O} çevresi üzerinde durur.
+Böylece {BAE angle} açısı da {AED angle}'ye eşittir [Önerme 3.27].
+Dolayısıyla, aynı (nedenlerle), {ABC angle}, {BCD angle} ve {CDE angle} açılarının her biri de {BAE angle} ve {AED angle}'nin her birine eşittir.
+Böylece {ABCDE polygon} beşgeni eşaçılıdır.
+Ve eşkenar olduğu da gösterilmişti.
 
-Thus, an equilateral and equiangular pentagon has been inscribed in the given circle.
-(Which is) the very thing it was required to do.
+Böylece, verilen çemberin içine eşkenar ve eşaçılı bir beşgen yazılmıştır.
+(Yapılması gereken tam olarak budur.)
+

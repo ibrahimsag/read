@@ -1,48 +1,49 @@
-To inscribe an equilateral and equiangular hexagon in a given circle.
+Verilen bir çemberin içine eşkenar ve eşaçılı bir altıgen yazmak.
 
-Let {ABCDEF circle G} be the given circle.
-So it is required to inscribe an equilateral and equiangular hexagon in circle {ABCDEF circle G}.
+{ABCDEF circle G} verilen çember olsun.
+Böylece {ABCDEF circle G} çemberinin içine eşkenar ve eşaçılı bir altıgen yazmak gerekiyor.
 
-Let the diameter {AD line} of circle {ABCDEF circle G} have been drawn, and let the center {G point} of the circle have been found [Prop. 3.1].
-And let the circle {EGCH circle D} have been drawn, with center {D point}, and radius {DG line}.
-And {EG line} and {CG line} being joined, let them have been drawn across (the circle) to points {B point} and {F point} (respectively).
-And let {AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line} have been joined.
-I say that the hexagon {ABCDEF polygon} is equilateral and equiangular.
+{ABCDEF circle G} çemberinin çapı {AD line} çizilmiş olsun ve çemberin merkezi {G point} bulunmuş olsun [Önerme 3.1].
+Ve merkezi {D point} ve yarıçapı {DG line} olan {EGCH circle D} çemberi çizilmiş olsun.
+Ve {EG line} ve {CG line} birleştirilerek sırasıyla {B point} ve {F point} noktalarına kadar (çember boyunca) çizilmiş olsun.
+Ve {AB line}, {BC line}, {CD line}, {DE line}, {EF line} ve {FA line} birleştirilmiş olsun.
+Diyorum ki {ABCDEF polygon} altıgeni eşkenar ve eşaçılıdır.
 
-For since point {G point} is the center of circle {ABCDEF circle G}, {GE line} is equal to {GD line}.
-Again, since point {D point} is the center of circle {GCH circle D}, {DE line} is equal to {DG line}.
-But, {GE line} was shown (to be) equal to {GD line}.
-Thus, {GE line} is also equal to {ED line}.
-Thus, triangle {EGD polygon} is equilateral.
-Thus, its three angles {EGD angle}, {GDE angle}, and {DEG angle} are also equal to one another, inasmuch as the angles at the base of isosceles triangles are equal to one another [Prop. 1.5].
-And the three angles of the triangle are equal to two right-angles [Prop. 1.32].
-Thus, angle {EGD angle} is one third of two right-angles.
-So, similarly, {DGC angle} can also be shown (to be) one third of two right-angles.
-And since the straight-line {CG line}, standing on {EB line}, makes adjacent angles {EGC angle} and {CGB angle} equal to two right-angles [Prop. 1.13], the remaining angle {CGB angle} is thus also one third of two right-angles.
-Thus, angles {EGD angle}, {DGC angle}, and {CGB angle} are equal to one another.
-And hence the (angles) opposite to them {BGA angle}, {AGF angle}, and {FGE angle} are also equal[Prop. 1.15].
-Thus, the six angles {EGD angle}, {DGC angle}, {CGB angle}, {BGA angle}, {AGF angle}, and {FGE angle} are equal to one another.
-And equal angles stand on equal circumferences [Prop. 3.26].
-Thus, the six circumferences {AB arc G}, {BC arc G}, {CD arc G}, {DE arc G}, {EF arc G}, and {FA arc G} are equal to one another.
-And equal circumferences are subtended by equal straight-lines [Prop. 3.29].
-Thus, the six straight-lines ({AB line}, {BC line}, {CD line}, {DE line}, {EF line}, and {FA line}) are equal to one another.
-Thus, hexagon {ABCDEF polygon} is equilateral.
-So, I say that (it is) also equiangular.
-For since circumference {FA arc G} is equal to circumference {ED arcc G}, let circumference {ABCD arc G} have been added to both.
-Thus, the whole of {FABCD arc G} is equal to the whole of {EDCBA arcc G}.
-And angle {FED angle} stands on circumference {FABCD arc G}, and angle {AFE angle} on circumference {EDCBA arcc G}.
-Thus, angle {AFE angle} is equal to {DEF angle} [Prop. 3.27].
-Similarly, it can also be shown that the remaining angles of hexagon {ABCDEF polygon} are individually equal to each of the angles {AFE angle} and {FED angle}.
-Thus, hexagon {ABCDEF polygon} is equiangular.
-And it was also shown (to be) equilateral.
-And it has been inscribed in circle {ABCDE circle G}.
+Çünkü {G point} noktası {ABCDEF circle G} çemberinin merkezi olduğu için, {GE line} {GD line}'ye eşittir.
+Yine, {D point} noktası {GCH circle D} çemberinin merkezi olduğu için, {DE line} {DG line}'ye eşittir.
+Ama {GE line}'nin {GD line}'ye eşit olduğu gösterilmişti.
+Böylece {GE line} de {ED line}'ye eşittir.
+Böylece {EGD polygon} üçgeni eşkenardır.
+Böylece onun üç açısı {EGD angle}, {GDE angle} ve {DEG angle} de birbirine eşittir, ikizkenar üçgenlerin tabanındaki açılar birbirine eşit olduğundan [Önerme 1.5].
+Ve üçgenin üç açısı iki dik açıya eşittir [Önerme 1.32].
+Böylece {EGD angle} açısı iki dik açının üçte biridir.
+Dolayısıyla, benzer şekilde, {DGC angle}'nin de iki dik açının üçte biri olduğu gösterilebilir.
+Ve {CG line} düz çizgisi {EB line} üzerinde durarak komşu açılar {EGC angle} ve {CGB angle}'yi iki dik açıya eşit yaptığı için [Önerme 1.13], kalan {CGB angle} açısı böylece de iki dik açının üçte biridir.
+Böylece {EGD angle}, {DGC angle} ve {CGB angle} açıları birbirine eşittir.
+Ve dolayısıyla onların karşıtları {BGA angle}, {AGF angle} ve {FGE angle} de eşittir [Önerme 1.15].
+Böylece altı açı {EGD angle}, {DGC angle}, {CGB angle}, {BGA angle}, {AGF angle} ve {FGE angle} birbirine eşittir.
+Ve eşit açılar eşit çevreler üzerinde durur [Önerme 3.26].
+Böylece altı çevre {AB arc G}, {BC arc G}, {CD arc G}, {DE arc G}, {EF arc G} ve {FA arc G} birbirine eşittir.
+Ve eşit çevreler eşit düz çizgiler tarafından görülür [Önerme 3.29].
+Böylece altı düz çizgi ({AB line}, {BC line}, {CD line}, {DE line}, {EF line} ve {FA line}) birbirine eşittir.
+Böylece {ABCDEF polygon} altıgeni eşkenardır.
+Öyleyse diyorum ki (o) aynı zamanda eşaçılıdır.
+Çünkü {FA arc G} çevresi {ED arcc G} çevresine eşit olduğu için, her ikisine de {ABCD arc G} çevresi eklenmiş olsun.
+Böylece {FABCD arc G}'nin tamamı {EDCBA arcc G}'nin tamamına eşittir.
+Ve {FED angle} açısı {FABCD arc G} çevresi üzerinde ve {AFE angle} açısı {EDCBA arcc G} çevresi üzerinde durur.
+Böylece {AFE angle} açısı {DEF angle}'ye eşittir [Önerme 3.27].
+Benzer şekilde, {ABCDEF polygon} altıgeninin kalan açılarının her birinin {AFE angle} ve {FED angle} açılarının her birine eşit olduğu da gösterilebilir.
+Böylece {ABCDEF polygon} altıgeni eşaçılıdır.
+Ve eşkenar olduğu da gösterilmişti.
+Ve {ABCDE circle G} çemberinin içine yazılmıştır.
 
-Thus, an equilateral and equiangular hexagon has been inscribed in the given circle.
-(Which is) the very thing it was required to do.
+Böylece, verilen çemberin içine eşkenar ve eşaçılı bir altıgen yazılmıştır.
+(Yapılması gereken tam olarak budur.)
 
-Corollary
+Sonuç
 
-So, from this, (it is) manifest that a side of the hexagon is equal to the radius of the circle.
-And similarly to a pentagon, if we draw tangents to the circle through the (sixfold) divisions of the (circumference of the) circle, an equilateral and equiangular hexagon can be circumscribed about the circle, analogously to the aforementioned pentagon.
-And, further, by (means) similar to the aforementioned pentagon, we can inscribe and circumscribe a circle in (and about) a given hexagon.
-(Which is) the very thing it was required to do.
+Dolayısıyla, bundan, altıgenin bir kenarının çemberin yarıçapına eşit olduğu açıktır.
+Ve beşgende olduğu gibi, çembere çemberin (çevresinin) (altılı) bölümleri boyunca teğetler çizersek, yukarıda sözü edilen beşgene benzer şekilde çemberin etrafına eşkenar ve eşaçılı bir altıgen çizilebilir.
+Ve ayrıca, yukarıda sözü edilen beşgene benzer (yollarla), verilen bir altıgenin içine (ve etrafına) bir çember yazabilir ve çizebiliriz.
+(Yapılması gereken tam olarak budur.)
+

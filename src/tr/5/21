@@ -1,24 +1,26 @@
-If there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if) their proportion (is) perturbed, and (if), via equality, the first is greater than the third then the fourth will also be greater than the sixth.
-And if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).
-And if (the first is) less (than the third then the fourth will also be) less (than the sixth).
+     1→Eğer üç büyüklük ve onlarla eşit sayıda başka (büyüklükler) varsa, (onlar) ikişer ikişer alınmış aynı oranda (olarak) ve eğer oranları karıştırılmışsa ve eğer eşitlik yoluyla birinci üçüncüden büyükse, o zaman dördüncü de altıncıdan büyük olacaktır.
+     2→Ve eğer (birinci) (üçüncüye) eşitse (dördüncü de) (altıncıya) eşit (olacaktır).
+     3→Ve eğer (birinci) (üçüncüden) küçükse (dördüncü de) (altıncıdan) küçük (olacaktır).
+     4→
+     5→{A magnitude}, {B magnitude} ve {C magnitude} üç büyüklük olsun ve {D magnitude}, {E magnitude}, {F magnitude} onlarla eşit sayıda başka (büyüklükler) olsun, ikişer ikişer alınmış aynı oranda.
+     6→Ve oranları karıştırılmış olsun, (öyle ki) {A magnitude} {B magnitude}'ye nasılsa {E magnitude} {F magnitude}'ye öyle olsun ve {B magnitude} {C magnitude}'ye nasılsa {D magnitude} {E magnitude}'ye öyle olsun.
+     7→Ve eşitlik yoluyla {A magnitude} {C magnitude}'den büyük olsun.
+     8→Diyorum ki {D magnitude} de {F magnitude}'den büyük olacaktır.
+     9→Ve eğer ({A magnitude}) ({C magnitude}'ye) eşitse ({D magnitude} de) ({F magnitude}'ye) eşit (olacaktır).
+    10→Ve eğer ({A magnitude}) ({C magnitude}'den) küçükse ({D magnitude} de) ({F magnitude}'den) küçük (olacaktır).
+    11→
+    12→Çünkü {A magnitude} {C magnitude}'den büyük olduğu ve {B magnitude} başka bir (büyüklük) olduğu için, {A magnitude}'nun {B magnitude}'ye oranı böylece {C magnitude}'nin {B magnitude}'ye (oranından) büyüktür [Önerme 5.8].
+    13→Ama {A magnitude} {B magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye öyledir.
+    14→Ve tersine, {C magnitude} {B magnitude}'ye nasılsa {E magnitude} {D magnitude}'ye öyledir [Önerme 5.7 sonucu].
+    15→Böylece {E magnitude}'nin {F magnitude}'ye oranı da {E magnitude}'nin {D magnitude}'ye (oranından) büyüktür [Önerme 5.13].
+    16→Ve aynı (büyüklüğün) daha büyük orana sahip olduğu (büyüklük) daha küçük (büyüklüktür) [Önerme 5.10].
+    17→Böylece {F magnitude} {D magnitude}'den küçüktür.
+    18→Böylece {D magnitude} {F magnitude}'den büyüktür.
+    19→Benzer şekilde, eğer {A magnitude} {C magnitude}'ye eşitse {D magnitude}'nin de {F magnitude}'ye eşit olacağını ve eğer ({A magnitude}) ({C magnitude}'den) küçükse ({D magnitude}'nin de) ({F magnitude}'den) küçük (olacağını) gösterebiliriz.
+    20→
+    21→Böylece, eğer üç büyüklük ve onlarla eşit sayıda başka (büyüklükler) varsa, (onlar) ikişer ikişer alınmış aynı oranda (olarak) ve eğer oranları karıştırılmışsa ve eğer eşitlik yoluyla birinci üçüncüden büyükse, o zaman dördüncü de altıncıdan büyük olacaktır.
+    22→Ve eğer (birinci) (üçüncüye) eşitse (dördüncü de) (altıncıya) eşit (olacaktır).
+    23→Ve eğer (birinci) (üçüncüden) küçükse (dördüncü de) (altıncıdan) küçük (olacaktır).
+    24→(Gösterilmesi gereken tam olarak budur.)
+    25→
 
-Let {A magnitude}, {B magnitude}, and {C magnitude} be three magnitudes, and {D magnitude}, {E magnitude}, {F magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two.
-And let their proportion be perturbed, (so that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}, and as {B magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {E magnitude}.
-And let {A magnitude} be greater than {C magnitude}, via equality.
-I say that {D magnitude} will also be greater than {F magnitude}.
-And if ({A magnitude} is) equal (to {C magnitude} then {D magnitude} will also be) equal (to {F magnitude}).
-And if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).
-
-For since {A magnitude} is greater than {C magnitude}, and {B magnitude} some other (magnitude), {A magnitude} thus has a greater ratio to {B magnitude} than {C magnitude} (has) to {B magnitude} [Prop. 5.8].
-But as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}.
-And, inversely, as {C magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {D magnitude} [Prop. 5.7 corr.].
-Thus, {E magnitude} also has a greater ratio to {F magnitude} than {E magnitude} (has) to {D magnitude} [Prop. 5.13].
-And that (magnitude) to which the same (magnitude) has a greater ratio is (the) lesser (magnitude) [Prop. 5.10].
-Thus, {F magnitude} is less than {D magnitude}.
-Thus, {D magnitude} is greater than {F magnitude}.
-Similarly, we can show that even if {A magnitude} is equal to {C magnitude} then {D magnitude} will also be equal to {F magnitude}, and even if ({A magnitude} is) less (than {C magnitude} then {D magnitude} will also be) less (than {F magnitude}).
-
-Thus, if there are three magnitudes, and others of equal number to them, (being) also in the same ratio taken two by two, and (if) their proportion (is) perturbed, and (if), via equality, the first is greater than the third then the fourth will also be greater than the sixth.
-And if (the first is) equal (to the third then the fourth will also be) equal (to the sixth).
-And if (the first is) less (than the third then the fourth will also be) less (than the sixth).
-(Which is) the very thing it was required to show.

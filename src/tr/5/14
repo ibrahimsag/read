@@ -1,21 +1,23 @@
-If a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the first (magnitude) is greater than the third, then the second will also be greater than the fourth.
-And if (the first magnitude is) equal (to the third then the second will also be) equal (to the fourth).
-And if (the first magnitude is) less (than the third then the second will also be) less (than the fourth).
+     1→Eğer birinci (büyüklük) ikinciye, üçüncünün dördüncüye (sahip olduğu) aynı orana sahipse ve birinci (büyüklük) üçüncüden büyükse, o zaman ikinci de dördüncüden büyük olacaktır.
+     2→Ve eğer (birinci büyüklük) (üçüncüye) eşitse (ikinci de) (dördüncüye) eşit (olacaktır).
+     3→Ve eğer (birinci büyüklük) (üçüncüden) küçükse (ikinci de) (dördüncüden) küçük (olacaktır).
+     4→
+     5→Çünkü birinci (büyüklük) {A magnitude} ikinci {B magnitude}'ye, üçüncü {C magnitude}'nin dördüncü {D magnitude}'ye (sahip olduğu) aynı orana sahip olsun.
+     6→Ve {A magnitude} {C magnitude}'den büyük olsun.
+     7→Diyorum ki {B magnitude} de {D magnitude}'den büyüktür.
+     8→
+     9→Çünkü {A magnitude} {C magnitude}'den büyük olduğu ve {B magnitude} başka bir rastgele [büyüklük] olduğu için, {A magnitude}'nun {B magnitude}'ye oranı böylece {C magnitude}'nin {B magnitude}'ye (oranından) büyüktür [Önerme 5.8].
+    10→Ve {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} {D magnitude}'ye öyledir.
+    11→Böylece {C magnitude}'nin {D magnitude}'ye oranı da {C magnitude}'nin {B magnitude}'ye (oranından) büyüktür.
+    12→Ve aynı (büyüklüğün) daha büyük orana sahip olduğu (büyüklük) daha küçüktür [Önerme 5.10].
+    13→Böylece {D magnitude} {B magnitude}'den küçüktür.
+    14→Dolayısıyla, {B magnitude} {D magnitude}'den büyüktür.
+    15→
+    16→Öyleyse, benzer şekilde, eğer {A magnitude} {C magnitude}'ye eşitse {B magnitude}'nin de {D magnitude}'ye eşit olacağını ve eğer {A magnitude} {C magnitude}'den küçükse {B magnitude}'nin de {D magnitude}'den küçük olacağını gösterebiliriz.
+    17→
+    18→Böylece, eğer birinci (büyüklük) ikinciye, üçüncünün dördüncüye (sahip olduğu) aynı orana sahipse ve birinci (büyüklük) üçüncüden büyükse, o zaman ikinci de dördüncüden büyük olacaktır.
+    19→Ve eğer (birinci büyüklük) (üçüncüye) eşitse (ikinci de) (dördüncüye) eşit (olacaktır).
+    20→Ve eğer (birinci büyüklük) (üçüncüden) küçükse (ikinci de) (dördüncüden) küçük (olacaktır).
+    21→(Gösterilmesi gereken tam olarak budur.)
+    22→
 
-For let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}.
-And let {A magnitude} be greater than {C magnitude}.
-I say that {B magnitude} is also greater than {D magnitude}.
-
-For since {A magnitude} is greater than {C magnitude}, and {B magnitude} (is) another random [magnitude], {A magnitude} thus has a greater ratio to {B magnitude} than {C magnitude} (has) to {B magnitude} [Prop. 5.8].
-And as {A magnitude} (is) to {B magnitude}, so {C magnitude} (is) to {D magnitude}.
-Thus, {C magnitude} also has a greater ratio to {D magnitude} than {C magnitude} (has) to {B magnitude}.
-And that (magnitude) to which the same (magnitude) has a greater ratio is the lesser [Prop. 5.10].
-Thus, {D magnitude} (is) less than {B magnitude}.
-Hence, {B magnitude} is greater than {D magnitude}.
-
-So, similarly, we can show that even if {A magnitude} is equal to {C magnitude} then {B magnitude} will also be equal to {D magnitude}, and even if {A magnitude} is less than {C magnitude} then {B magnitude} will also be less than {D magnitude}.
-
-Thus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the first (magnitude) is greater than the third, then the second will also be greater than the fourth.
-And if (the first magnitude is) equal (to the third then the second will also be) equal (to the fourth).
-And if (the first magnitude is) less (than the third then the second will also be) less (than the fourth).
-(Which is) the very thing it was required to show.

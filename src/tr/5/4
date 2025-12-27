@@ -1,16 +1,17 @@
-If a first (magnitude) has the same ratio to a second that a third (has) to a fourth then equal multiples of the first (magnitude) and the third will also have the same ratio to equal multiples of the second and the fourth, being taken in corresponding order, according to any kind of multiplication whatsoever.
+Eğer birinci (büyüklüğün) ikinciye oranı üçüncünün dördüncüye (oranıyla) aynıysa, o zaman birinci (büyüklüğün) ve üçüncünün eşit katları da ikinci ve dördüncünün eşit katlarına aynı orana sahip olacaktır, karşılık gelen sırada alınarak, herhangi bir çarpma türüne göre.
 
-For let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}.
-And let equal multiples {E magnitude} and {F magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and other random equal multiples {G magnitude} and {H magnitude} of {B magnitude} and {D magnitude} (respectively).
-I say that as {E magnitude} (is) to {G magnitude}, so {F magnitude} (is) to {H magnitude}.
+Çünkü birinci (büyüklük) {A magnitude}'nun ikinci {B magnitude}'ye oranı üçüncü {C magnitude}'nin dördüncü {D magnitude}'ye (oranıyla) aynı olsun.
+Ve {A magnitude} ve {C magnitude}'nin sırasıyla eşit katları {E magnitude} ve {F magnitude} alınmış olsun ve {B magnitude} ve {D magnitude}'nin sırasıyla diğer rastgele eşit katları {G magnitude} ve {H magnitude} (alınmış olsun).
+Diyorum ki {E magnitude} {G magnitude}'ye nasılsa, {F magnitude} de {H magnitude}'ya öyledir.
 
-For let equal multiples {K magnitude} and {L magnitude} have been taken of {E magnitude} and {F magnitude} (respectively), and other random equal multiples {M magnitude} and {N magnitude} of {G magnitude} and {H magnitude} (respectively).
+Çünkü {E magnitude} ve {F magnitude}'nin sırasıyla eşit katları {K magnitude} ve {L magnitude} alınmış olsun ve {G magnitude} ve {H magnitude}'nın sırasıyla diğer rastgele eşit katları {M magnitude} ve {N magnitude} (alınmış olsun).
 
-[And] since {E magnitude} and {F magnitude} are equal multiples of {A magnitude} and {C magnitude} (respectively), and the equal multiples {K magnitude} and {L magnitude} have been taken of {E magnitude} and {F magnitude} (respectively), {K magnitude} and {L magnitude} are thus equal multiples of {A magnitude} and {C magnitude} (respectively) [Prop. 5.3].
-So, for the same (reasons), {M magnitude} and {N magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively).
-And since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {K magnitude} and {L magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {M magnitude} and {N magnitude} of {B magnitude} and {D magnitude} (respectively), then if {K magnitude} exceeds {M magnitude} then {L magnitude} also exceeds {N magnitude} , and if ({K magnitude} is) equal (to {M magnitude} then {L magnitude} is also) equal (to {N magnitude}), and if ({K magnitude} is) less (than {M magnitude} then {L magnitude} is also) less (than {N magnitude} ) [Def. 5.5].
-And {K magnitude} and {L magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively), and {M magnitude} and {N magnitude} other random equal multiples of {G magnitude} and {H magnitude} (respectively).
-Thus, as {E magnitude} (is) to {G magnitude}, so {F magnitude} (is) to {H magnitude} [Def.5.5].
+[Ve] {E magnitude} ve {F magnitude} sırasıyla {A magnitude} ve {C magnitude}'nin eşit katları olduğu ve {E magnitude} ve {F magnitude}'nin sırasıyla eşit katları {K magnitude} ve {L magnitude} alındığı için, {K magnitude} ve {L magnitude} böylece sırasıyla {A magnitude} ve {C magnitude}'nin eşit katlarıdır [Önerme 5.3].
+Dolayısıyla, aynı (nedenlerle), {M magnitude} ve {N magnitude} sırasıyla {B magnitude} ve {D magnitude}'nin eşit katlarıdır.
+Ve {A magnitude} {B magnitude}'ye nasılsa, {C magnitude} de {D magnitude}'ye öyle olduğu ve {A magnitude} ve {C magnitude}'nin sırasıyla eşit katları {K magnitude} ve {L magnitude} alındığı ve {B magnitude} ve {D magnitude}'nin sırasıyla diğer rastgele eşit katları {M magnitude} ve {N magnitude} (alındığı) için, o zaman eğer {K magnitude} {M magnitude}'yi aşarsa {L magnitude} de {N magnitude}'yi aşar, ve eğer ({K magnitude}) ({M magnitude}'ye) eşitse ({L magnitude} de) ({N magnitude}'ye) eşit(tir), ve eğer ({K magnitude}) ({M magnitude}'den) küçükse ({L magnitude} de) ({N magnitude}'den) küçük(tür) [Tanım 5.5].
+Ve {K magnitude} ve {L magnitude} sırasıyla {E magnitude} ve {F magnitude}'nin eşit katlarıdır ve {M magnitude} ve {N magnitude} sırasıyla {G magnitude} ve {H magnitude}'nın diğer rastgele eşit katlarıdır.
+Böylece {E magnitude} {G magnitude}'ye nasılsa, {F magnitude} de {H magnitude}'ya öyledir [Tanım 5.5].
 
-Thus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth then equal multiples of the first (magnitude) and the third will also have the same ratio to equal multiples of the second and the fourth, being taken in corresponding order, according to any kind of multiplication whatsoever.
-(Which is) the very thing it was required to show.
+Böylece, eğer birinci (büyüklüğün) ikinciye oranı üçüncünün dördüncüye (oranıyla) aynıysa, o zaman birinci (büyüklüğün) ve üçüncünün eşit katları da ikinci ve dördüncünün eşit katlarına aynı orana sahip olacaktır, karşılık gelen sırada alınarak, herhangi bir çarpma türüne göre.
+(Gösterilmesi gereken tam olarak budur.)
+

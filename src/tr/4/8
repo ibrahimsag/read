@@ -1,22 +1,23 @@
-To inscribe a circle in a given square.
+Verilen bir karenin içine bir çember yazmak.
 
-Let the given square be {ABCD polygon}.
-So it is required to inscribe a circle in square {ABCD polygon}.
+Verilen kare {ABCD polygon} olsun.
+Böylece {ABCD polygon} karesinin içine bir çember yazmak gerekiyor.
 
-Let {AD line} and {AB line} each have been cut in half at points {E point} and {F point} (respectively) [Prop. 1.10].
-And let {EH line} have been drawn through {E point}, parallel to either of {AB line} or {CD line}, and let {FK line} have been drawn through {F point}, parallel to either of {AD line} or {BC line} [Prop. 1.31].
-Thus, {AK polygon}, {KB polygon}, {AH polygon}, {HD polygon}, {AG polygon}, {GC polygon}, {BG polygon}, and {GD polygon} are each parallelograms, and their opposite sides [are] manifestly equal [Prop. 1.34].
-And since {AD line} is equal to {AB line}, and {AE line} is half of {AD line}, and {AF line} half of {AB line}, {AE line} (is) thus also equal to {AF line}.
-So that the opposite (sides are) also (equal).
-Thus, {FG line} (is) also equal to {GE line}.
-So, similarly, we can also show that each of {GH line} and {GK line} is equal to each of {FG line} and {GE line}.
-Thus, the four (straight-lines) {GE line}, {GF line}, {GH line}, and {GK line} [are] equal to one another.
-Thus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, will also go through the remaining points.
-And it will touch the straight-lines {AB line}, {BC line}, {CD line}, and {DA line}, on account of the angles at {E point}, {F point}, {H point}, and {K point} being right-angles.
-For if the circle cuts {AB line}, {BC line}, {CD line}, or {DA line}, then a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, will fall inside the circle.
-The very thing was shown (to be) absurd [Prop. 3.16].
-Thus, the circle drawn with center {G point}, and radius one of {E point}, {F point}, {H point}, or {K point}, does not cut the straight-lines {AB line}, {BC line}, {CD line}, or {DA line}.
-Thus, it will touch them, and will have been inscribed in the square {ABCD polygon}.
+{AD line} ve {AB line}'nin her biri sırasıyla {E point} ve {F point} noktalarında yarıya bölünmüş olsun [Önerme 1.10].
+Ve {AB line} veya {CD line}'den birine paralel olarak {E point}'den geçen {EH line} çizilmiş olsun ve {AD line} veya {BC line}'den birine paralel olarak {F point}'den geçen {FK line} çizilmiş olsun [Önerme 1.31].
+Böylece {AK polygon}, {KB polygon}, {AH polygon}, {HD polygon}, {AG polygon}, {GC polygon}, {BG polygon} ve {GD polygon}'nin her biri paralelkenardır ve karşı kenarları açıkça eşittir [Önerme 1.34].
+Ve {AD line} {AB line}'ye eşit olduğu ve {AE line} {AD line}'nin yarısı ve {AF line} {AB line}'nin yarısı olduğu için, {AE line} böylece {AF line}'ye de eşittir.
+Öyle ki karşı (kenarlar da) (eşittir).
+Böylece {FG line} (de) {GE line}'ye eşittir.
+Dolayısıyla, benzer şekilde, {GH line} ve {GK line}'nin her birinin {FG line} ve {GE line}'nin her birine eşit olduğunu da gösterebiliriz.
+Böylece dört (düz çizgi) {GE line}, {GF line}, {GH line} ve {GK line} birbirine eşittir.
+Böylece, merkezi {G point} ve yarıçapı {E point}, {F point}, {H point} veya {K point}'den biri olan çember, kalan noktalardan da geçecektir.
+Ve {E point}, {F point}, {H point} ve {K point}'deki açılar dik açı olduğu için {AB line}, {BC line}, {CD line} ve {DA line} düz çizgilerine teğet olacaktır.
+Çünkü eğer çember {AB line}, {BC line}, {CD line} veya {DA line}'yı keserse, o zaman çemberin çapına, ucundan dik açıyla çizilen (bir düz çizgi) çemberin içine düşecektir.
+Bu şeyin imkansız olduğu gösterilmişti [Önerme 3.16].
+Böylece, merkezi {G point} ve yarıçapı {E point}, {F point}, {H point} veya {K point}'den biri olan çember {AB line}, {BC line}, {CD line} veya {DA line} düz çizgilerini kesmez.
+Böylece onlara teğet olacak ve {ABCD polygon} karesinin içine yazılmış olacaktır.
 
-Thus, a circle has been inscribed in the given square.
-(Which is) the very thing it was required to do.
+Böylece, verilen karenin içine bir çember yazılmıştır.
+(Yapılması gereken tam olarak budur.)
+

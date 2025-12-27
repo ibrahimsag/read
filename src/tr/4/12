@@ -1,45 +1,46 @@
-To circumscribe an equilateral and equiangular pentagon about a given circle.
+Verilen bir çemberin etrafına eşkenar ve eşaçılı bir beşgen çizmek.
 
-Let {ABCDE circle F} be the given circle.
-So it is required to circumscribe an equilateral and equiangular pentagon about circle {ABCDE circle F}.
+{ABCDE circle F} verilen çember olsun.
+Böylece {ABCDE circle F} çemberinin etrafına eşkenar ve eşaçılı bir beşgen çizmek gerekiyor.
 
-Let {A point}, {B point}, {C point}, {D point}, and {E point} have been conceived as the angular points of a pentagon having been inscribed (in circle {ABCDE circle F}) [Prop. 3.11], such that the circumferences {AB arcc F}, {BC arcc F}, {CD arcc F}, {DE arcc F}, and {EA arcc F} are equal.
-And let {GH line}, {HK line}, {KL line}, {LM line}, and {MG line} have been drawn through (points) {A point}, {B point}, {C point}, {D point}, and {E point} (respectively), touching the circle.
-And let the center {F point} of the circle {ABCDE circle F} have been found [Prop. 3.1].
-And let {FB line}, {FK line}, {FC line}, {FL line}, and {FD line} have been joined.
+{A point}, {B point}, {C point}, {D point} ve {E point} ({ABCDE circle F} çemberinin içine yazılmış olan) bir beşgenin köşe noktaları olarak düşünülmüş olsun [Önerme 3.11], öyle ki {AB arcc F}, {BC arcc F}, {CD arcc F}, {DE arcc F} ve {EA arcc F} çevreleri eşit olsun.
+Ve {GH line}, {HK line}, {KL line}, {LM line} ve {MG line} çembere teğet olarak sırasıyla {A point}, {B point}, {C point}, {D point} ve {E point} (noktalarından) geçecek şekilde çizilmiş olsun.
+Ve {ABCDE circle F} çemberinin merkezi {F point} bulunmuş olsun [Önerme 3.1].
+Ve {FB line}, {FK line}, {FC line}, {FL line} ve {FD line} birleştirilmiş olsun.
 
-And since the straight-line {KL line} touches (circle) {ABCDE circle F} at {C point}, and {FC line} has been joined from the center {F point} to the point of contact {C point}, {FC line} is thus perpendicular to {KL line} [Prop. 3.18].
-Thus, each of the angles at {C point} is a right-angle.
-So, for the same (reasons), the angles at {B point} and {D point} are also right-angles.
-And since angle {FCK angle} is a right-angle, the (square) on {FK line} is thus equal to the (sum of the squares) on {FC line} and {CK line} [Prop. 1.47].
-So, for the same (reasons), the (square) on {FK line} is also equal to the (sum of the squares) on {FB line} and {BK line}.
-So that the (sum of the squares) on {FC line} and {CK line} is equal to the (sum of the squares) on {FB line} and {BK line}, of which the (square) on {FC line} is equal to the (square) on {FB line}.
-Thus, the remaining (square) on {CK line} is equal to the remaining (square) on {BK line}.
-Thus, {BK line} (is) equal to {CK line}.
-And since {FB line} is equal to {FC line}, and {FK line} (is) common, the two (straight-lines) {BF line}, {FK line} are equal to the two (straight-lines) {CF line}, {FK line}.
-And the base {BK line} [is] equal to the base {CK line}.
-Thus, angle {BFK angle} is equal to [angle] {KFC angle} [Prop. 1.8].
-And {BKF angle} (is equal) to {FKC angle} [Prop. 1.8].
-Thus, {BFC angle} (is) double {KFC angle}, and {BKC angle} (is double) {FKC angle}.
-So, for the same (reasons), {CFD angle} is also double {CFL angle}, and {DLC angle} (is also double) {FLC angle}.
-And since circumference {BC arcc F} is equal to {CD arcc F}, angle {BFC angle} is also equal to {CFD angle} [Prop. 3.27].
-And {BFC angle} is double {KFC angle}, and {DFC angle} (is double) {LFC angle}.
-Thus, {KFC angle} is also equal to {LFC angle}.
-And angle {FCK angle} is also equal to {FCL angle}.
-So, {FKC polygon} and {FLC polygon} are two triangles having two angles equal to two angles, and one side equal to one side, (namely) their common (side) {FC line}.
-Thus, they will also have the remaining sides equal to the (corresponding) remaining sides, and the remaining angle to the remaining angle [Prop. 1.26].
-Thus, the straight-line {KC line} (is) equal to {CL line}, and the angle {FKC angle} to {FLC angle}.
-And since {KC line} is equal to {CL line}, {KL line} (is) thus double {KC line}.
-So, for the same (reasons), it can be shown that {HK line} (is) also double {BK line}.
-And {BK line} is equal to {KC line}.
-Thus, {HK line} is also equal to {KL line}.
-So, similarly, each of {HG line}, {GM line}, and {ML line} can also be shown (to be) equal to each of {HK line} and {KL line}.
-Thus, pentagon {GHKLM polygon} is equilateral.
-So I say that (it is) also equiangular.
-For since angle {FKC angle} is equal to {FLC angle}, and {HKL angle} was shown (to be) double {FKC angle}, and {KLM angle} double {FLC angle}, {HKL angle} is thus also equal to {KLM angle}.
-So, similarly, each of {KHG angle}, {HGM angle}, and {GML angle} can also be shown (to be) equal to each of {HKL angle} and {KLM angle}.
-Thus, the five angles {GHK angle}, {HKL angle}, {KLM angle}, {LMG angle}, and {MGH angle} are equal to one another.
-Thus, the pentagon {GHKLM polygon} is equiangular.
-And it was also shown (to be) equilateral, and has been circumscribed about circle {ABCDE circle F}.
+Ve {KL line} düz çizgisi {ABCDE circle F} (çemberine) {C point}'de teğet olduğu ve {FC line} merkez {F point}'den temas noktası {C point}'ye birleştirildiği için, {FC line} böylece {KL line}'ye diktir [Önerme 3.18].
+Böylece {C point}'deki açıların her biri dik açıdır.
+Dolayısıyla, aynı (nedenlerle), {B point} ve {D point}'deki açılar da dik açılardır.
+Ve {FCK angle} açısı dik açı olduğu için, {FK line} üzerindeki (kare) böylece {FC line} ve {CK line} üzerindeki (karelerin toplamına) eşittir [Önerme 1.47].
+Dolayısıyla, aynı (nedenlerle), {FK line} üzerindeki (kare) {FB line} ve {BK line} üzerindeki (karelerin toplamına) da eşittir.
+Öyle ki {FC line} ve {CK line} üzerindeki (karelerin toplamı) {FB line} ve {BK line} üzerindeki (karelerin toplamına) eşittir, bunlardan {FC line} üzerindeki (kare) {FB line} üzerindeki (kareye) eşittir.
+Böylece, kalan {CK line} üzerindeki (kare) kalan {BK line} üzerindeki (kareye) eşittir.
+Böylece {BK line} {CK line}'ya eşittir.
+Ve {FB line} {FC line}'ye eşit olduğu ve {FK line} (ortak) olduğu için, iki (düz çizgi) {BF line}, {FK line} iki (düz çizgi) {CF line}, {FK line}'ya eşittir.
+Ve taban {BK line} taban {CK line}'ya eşittir.
+Böylece {BFK angle} açısı {KFC angle} [açısına] eşittir [Önerme 1.8].
+Ve {BKF angle} {FKC angle}'ya (eşittir) [Önerme 1.8].
+Böylece {BFC angle} {KFC angle}'nın iki katıdır ve {BKC angle} {FKC angle}'nın (iki katıdır).
+Dolayısıyla, aynı (nedenlerle), {CFD angle} de {CFL angle}'nin iki katıdır ve {DLC angle} (de) {FLC angle}'nin (iki katıdır).
+Ve {BC arcc F} çevresi {CD arcc F}'ye eşit olduğu için, {BFC angle} açısı da {CFD angle}'ye eşittir [Önerme 3.27].
+Ve {BFC angle} {KFC angle}'nın iki katıdır ve {DFC angle} {LFC angle}'nin (iki katıdır).
+Böylece {KFC angle} de {LFC angle}'ye eşittir.
+Ve {FCK angle} açısı da {FCL angle}'ye eşittir.
+Böylece {FKC polygon} ve {FLC polygon} iki açısı iki açıya eşit olan ve bir kenarı bir kenara eşit olan --- yani ortak (kenarları) {FC line} olan --- iki üçgendir.
+Böylece, kalan kenarları da (karşılık gelen) kalan kenarlara ve kalan açı kalan açıya eşit olacaktır [Önerme 1.26].
+Böylece {KC line} düz çizgisi {CL line}'ye ve {FKC angle} açısı {FLC angle}'ye eşittir.
+Ve {KC line} {CL line}'ye eşit olduğu için, {KL line} böylece {KC line}'nin iki katıdır.
+Dolayısıyla, aynı (nedenlerle), {HK line}'nin de {BK line}'nin iki katı olduğu gösterilebilir.
+Ve {BK line} {KC line}'ya eşittir.
+Böylece {HK line} de {KL line}'ya eşittir.
+Dolayısıyla, benzer şekilde, {HG line}, {GM line} ve {ML line}'nin her birinin de {HK line} ve {KL line}'nin her birine eşit olduğu gösterilebilir.
+Böylece {GHKLM polygon} beşgeni eşkenardır.
+Öyleyse diyorum ki (o) aynı zamanda eşaçılıdır.
+Çünkü {FKC angle} açısı {FLC angle}'ye eşit olduğu ve {HKL angle}'nin {FKC angle}'nın iki katı olduğu ve {KLM angle}'nin {FLC angle}'nin iki katı olduğu gösterildiği için, {HKL angle} böylece de {KLM angle}'ye eşittir.
+Dolayısıyla, benzer şekilde, {KHG angle}, {HGM angle} ve {GML angle}'nin her birinin de {HKL angle} ve {KLM angle}'nin her birine eşit olduğu gösterilebilir.
+Böylece beş açı {GHK angle}, {HKL angle}, {KLM angle}, {LMG angle} ve {MGH angle} birbirine eşittir.
+Böylece {GHKLM polygon} beşgeni eşaçılıdır.
+Ve eşkenar olduğu da gösterilmişti ve {ABCDE circle F} çemberinin etrafına çizilmiştir.
 
-(Which is) the very thing it was required to do.
+(Yapılması gereken tam olarak budur.)
+

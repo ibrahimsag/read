@@ -1,21 +1,22 @@
-To inscribe a circle in a given triangle.
+Verilen bir üçgenin içine bir çember yazmak.
 
-Let {ABC polygon} be the given triangle.
-So it is required to inscribe a circle in triangle {ABC polygon}.
+{ABC polygon} verilen üçgen olsun.
+Böylece {ABC polygon} üçgeninin içine bir çember yazmak gerekiyor.
 
-Let the angles {ABC angle} and {ACB angle} have been cut in half by the straight-lines {BD line} and {CD line} (respectively) [Prop. 1.9], and let them meet one another at point {D point}, and let {DE line}, {DF line}, and {DG line} have been drawn from point {D point}, perpendicular to the straight-lines {AB line}, {BC line}, and {CA line} (respectively) [Prop. 1.12].
+{ABC angle} ve {ACB angle} açıları sırasıyla {BD line} ve {CD line} düz çizgileriyle yarıya bölünmüş olsun [Önerme 1.9] ve bunlar {D point} noktasında birbirleriyle kesişsinler ve {D point} noktasından sırasıyla {AB line}, {BC line} ve {CA line} düz çizgilerine dik olarak {DE line}, {DF line} ve {DG line} çizilmiş olsun [Önerme 1.12].
 
-And since angle {ABD angle} is equal to {CBD angle}, and the right-angle {BED angle} is also equal to the right-angle {BFD angle}, {EBD polygon} and {FBD polygon} are thus two triangles having two angles equal to two angles, and one side equal to one side---the (one) subtending one of the equal angles (which is) common to the (triangles)---(namely), {BD line}.
-Thus, they will also have the remaining sides equal to the (corresponding) remaining sides [Prop. 1.26].
-Thus, {DE line} (is) equal to {DF line}.
-So, for the same (reasons), {DG line} is also equal to {DF line}.
-Thus, the three straight-lines {DE line}, {DF line}, and {DG line} are equal to one another.
-Thus, the circle drawn with center {D point}, and radius one of {E point}, {F point}, or {G point}, will also go through the remaining points, and will touch the straight-lines {AB line}, {BC line}, and {CA line}, on account of the angles at {E point}, {F point}, and {G point} being right-angles.
-For if it cuts (one of) them then it will be a (straight-line) drawn at right-angles to a diameter of the circle, from its extremity, falling inside the circle.
-The very thing was shown (to be) absurd [Prop. 3.16].
-Thus, the circle drawn with center {D point}, and radius one of {E point}, {F point}, or {G point}, does not cut the straight-lines {AB line}, {BC line}, and {CA line}.
-Thus, it will touch them and will be the circle inscribed in triangle {ABC polygon}.
-Let it have been (so) inscribed, like {FGE circle D} (in the figure).
+Ve {ABD angle} açısı {CBD angle}'ye eşit olduğu ve {BED angle} dik açısı da {BFD angle} dik açısına eşit olduğu için, {EBD polygon} ve {FBD polygon} böylece iki açısı iki açıya eşit olan ve bir kenarı bir kenara eşit olan --- eşit açılardan birini gören (ve üçgenlere) ortak (olan kenar) --- yani {BD line} --- iki üçgendir.
+Böylece, kalan kenarları da (karşılık gelen) kalan kenarlara eşit olacaktır [Önerme 1.26].
+Böylece {DE line} {DF line}'ye eşittir.
+Dolayısıyla, aynı (nedenlerle), {DG line} de {DF line}'ye eşittir.
+Böylece üç düz çizgi {DE line}, {DF line} ve {DG line} birbirine eşittir.
+Böylece, merkezi {D point} ve yarıçapı {E point}, {F point} veya {G point}'den biri olan çember, kalan noktalardan da geçecek ve {E point}, {F point} ve {G point}'deki açılar dik açı olduğu için {AB line}, {BC line} ve {CA line} düz çizgilerine teğet olacaktır.
+Çünkü eğer (bunlardan birini) keserse, o zaman çemberin çapına, ucundan dik açıyla çizilen (bir düz çizgi) olacak ve çemberin içine düşecektir.
+Bu şeyin imkansız olduğu gösterilmişti [Önerme 3.16].
+Böylece, merkezi {D point} ve yarıçapı {E point}, {F point} veya {G point}'den biri olan çember {AB line}, {BC line} ve {CA line} düz çizgilerini kesmez.
+Böylece onlara teğet olacak ve {ABC polygon} üçgeninin içine yazılmış çember olacaktır.
+(Şekildeki) {FGE circle D} gibi yazılmış olsun.
 
-Thus, the circle {EFG circle D} has been inscribed in the given triangle {ABC polygon}.
-(Which is) the very thing it was required to do.
+Böylece, {EFG circle D} çemberi verilen {ABC polygon} üçgeninin içine yazılmıştır.
+(Yapılması gereken tam olarak budur.)
+

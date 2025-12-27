@@ -1,21 +1,22 @@
-To circumscribe a circle about a given square.
+Verilen bir karenin etrafına bir çember çizmek.
 
-Let {ABCD polygon} be the given square.
-So it is required to circumscribe a circle about square {ABCD polygon}.
+{ABCD polygon} verilen kare olsun.
+Böylece {ABCD polygon} karesinin etrafına bir çember çizmek gerekiyor.
 
-{AC line} and {BD line} being joined, let them cut one another at {E point}.
+{AC line} ve {BD line} birleştirilerek, birbirlerini {E point}'de kessinler.
 
-And since {DA line} is equal to {AB line}, and {AC line} (is) common, the two (straight-lines) {DA line}, {AC line} are thus equal to the two (straight-lines) {BA line}, {AC line}.
-And the base {DC line} (is) equal to the base {BC line}.
-Thus, angle {DAC angle} is equal to angle {BAC angle} [Prop. 1.8].
-Thus, the angle {DAB angle} has been cut in half by {AC line}.
-So, similarly, we can show that {ABC angle}, {BCD angle}, and {CDA angle} have each been cut in half by the straight-lines {AC line} and {DB line}.
-And since angle {DAB angle} is equal to {ABC angle}, and {EAB angle} is half of {DAB angle}, and {EBA angle} half of {ABC angle}, {EAB angle} is thus also equal to {EBA angle}.
-So that side {EA line} is also equal to {EB line} [Prop. 1.6].
-So, similarly, we can show that each of the [straight-lines] {EA line} and {EB line} are also equal to each of {EC line} and {ED line}.
-Thus, the four (straight-lines) {EA line}, {EB line}, {EC line}, and {ED line} are equal to one another.
-Thus, the circle drawn with center {E point}, and radius one of {A point}, {B point}, {C point}, or {D point}, will also go through the remaining points, and will have been circumscribed about the square {ABCD polygon}.
-Let it have been (so) circumscribed, like {ABCD circle E} (in the figure).
+Ve {DA line} {AB line}'ye eşit olduğu ve {AC line} (ortak) olduğu için, iki (düz çizgi) {DA line}, {AC line} böylece iki (düz çizgi) {BA line}, {AC line}'ye eşittir.
+Ve taban {DC line} taban {BC line}'ye eşittir.
+Böylece {DAC angle} açısı {BAC angle} açısına eşittir [Önerme 1.8].
+Böylece {DAB angle} açısı {AC line} tarafından yarıya bölünmüştür.
+Dolayısıyla, benzer şekilde, {ABC angle}, {BCD angle} ve {CDA angle}'nin her birinin {AC line} ve {DB line} düz çizgileri tarafından yarıya bölündüğünü gösterebiliriz.
+Ve {DAB angle} açısı {ABC angle}'ye eşit olduğu ve {EAB angle} {DAB angle}'nin yarısı ve {EBA angle} {ABC angle}'nin yarısı olduğu için, {EAB angle} böylece {EBA angle}'ya da eşittir.
+Öyle ki {EA line} kenarı da {EB line}'ye eşittir [Önerme 1.6].
+Dolayısıyla, benzer şekilde, [düz çizgilerin] {EA line} ve {EB line}'nin her birinin {EC line} ve {ED line}'nin her birine de eşit olduğunu gösterebiliriz.
+Böylece dört (düz çizgi) {EA line}, {EB line}, {EC line} ve {ED line} birbirine eşittir.
+Böylece, merkezi {E point} ve yarıçapı {A point}, {B point}, {C point} veya {D point}'den biri olan çember, kalan noktalardan da geçecek ve {ABCD polygon} karesinin etrafına çizilmiş olacaktır.
+(Şekildeki) {ABCD circle E} gibi çizilmiş olsun.
 
-Thus, a circle has been circumscribed about the given square.
-(Which is) the very thing it was required to do.
+Böylece, verilen karenin etrafına bir çember çizilmiştir.
+(Yapılması gereken tam olarak budur.)
+

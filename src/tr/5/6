@@ -1,25 +1,26 @@
-If two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
+Eğer iki büyüklük iki (diğer) büyüklüğün eşit katlarıysa ve (önceki büyüklüklerden) çıkarılan bazı (parçalar) sonraki (büyüklüklerin) eşit katlarıysa (sırasıyla), o zaman kalanlar da ya sonraki (büyüklüklere) eşittir ya da onların eşit katlarıdır (sırasıyla).
 
-For let two magnitudes {AB magnitude} and {CD magnitude} be equal multiples of two magnitudes {E magnitude} and {F magnitude} (respectively).
-And let the (parts) taken away {AG magnitude} and {CH magnitude} be equal multiples of {E magnitude} and {F magnitude} (respectively).
-I say that the remainders {GB magnitude} and {HD magnitude} are also either equal to {E magnitude} and {F magnitude} (respectively), or (are) equal multiples of them.
+Çünkü iki büyüklük {AB magnitude} ve {CD magnitude} sırasıyla iki büyüklük {E magnitude} ve {F magnitude}'nin eşit katları olsun.
+Ve çıkarılan (parçalar) {AG magnitude} ve {CH magnitude} sırasıyla {E magnitude} ve {F magnitude}'nin eşit katları olsun.
+Diyorum ki kalanlar {GB magnitude} ve {HD magnitude} de ya sırasıyla {E magnitude} ve {F magnitude}'ye eşittir ya da onların eşit katlarıdır.
 
-For let {GB magnitude} be, first of all, equal to {E magnitude}.
-I say that {HD magnitude} is also equal to {F magnitude}.
+Çünkü ilk olarak, {GB magnitude} {E magnitude}'ye eşit olsun.
+Diyorum ki {HD magnitude} de {F magnitude}'ye eşittir.
 
-For let {CK magnitude} be made equal to {F magnitude}.
-Since {AG magnitude} and {CH magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively), and {GB magnitude} (is) equal to {E magnitude}, and {KC magnitude} to {F magnitude}, {AB magnitude} and {KH magnitude} are thus equal multiples of {E magnitude} and {F magnitude} (respectively) [Prop. 5.2].
-And {AB magnitude} and {CD magnitude} are assumed (to be) equal multiples of {E magnitude} and {F magnitude} (respectively).
-Thus, {KH magnitude} and {CD magnitude} are equal multiples of {E magnitude} and {F magnitude} (respectively).
-Therefore, {KH magnitude} and {CD magnitude} are each equal multiples of {F magnitude}.
-Thus, {KH magnitude} is equal to {CD magnitude}.
-Let {CH magnitude} have be taken away from both.
-Thus, the remainder {KC magnitude} is equal to the remainder {HD magnitude}.
-But, {F magnitude} is equal to {KC magnitude}.
-Thus, {HD magnitude} is also equal to {F magnitude}.
-Hence, if {GB magnitude} is equal to {E magnitude} then {HD magnitude} will also be equal to {F magnitude}.
+Çünkü {CK magnitude} {F magnitude}'ye eşit yapılmış olsun.
+{AG magnitude} ve {CH magnitude} sırasıyla {E magnitude} ve {F magnitude}'nin eşit katları olduğu ve {GB magnitude} {E magnitude}'ye ve {KC magnitude} {F magnitude}'ye eşit olduğu için, {AB magnitude} ve {KH magnitude} böylece sırasıyla {E magnitude} ve {F magnitude}'nin eşit katlarıdır [Önerme 5.2].
+Ve {AB magnitude} ve {CD magnitude}'nin sırasıyla {E magnitude} ve {F magnitude}'nin eşit katları olduğu varsayılmıştır.
+Böylece {KH magnitude} ve {CD magnitude} sırasıyla {E magnitude} ve {F magnitude}'nin eşit katlarıdır.
+Dolayısıyla {KH magnitude} ve {CD magnitude}'nin her biri {F magnitude}'nin eşit katıdır.
+Böylece {KH magnitude} {CD magnitude}'ye eşittir.
+Her ikisinden de {CH magnitude} çıkarılmış olsun.
+Böylece kalan {KC magnitude} kalan {HD magnitude}'ye eşittir.
+Ama {F magnitude} {KC magnitude}'ye eşittir.
+Böylece {HD magnitude} de {F magnitude}'ye eşittir.
+Dolayısıyla, eğer {GB magnitude} {E magnitude}'ye eşitse, o zaman {HD magnitude} de {F magnitude}'ye eşit olacaktır.
 
-So, similarly, we can show that even if {GB magnitude} is a multiple of {E magnitude} then {HD magnitude} will also be the same multiple of {F magnitude}.
+Dolayısıyla, benzer şekilde, {GB magnitude} {E magnitude}'nin bir katı olsa bile {HD magnitude}'nin de {F magnitude}'nin aynı katı olacağını gösterebiliriz.
 
-Thus, if two magnitudes are equal multiples of two (other) magnitudes, and some (parts) taken away (from the former magnitudes) are equal multiples of the latter (magnitudes, respectively), then the remainders are also either equal to the latter (magnitudes), or (are) equal multiples of them (respectively).
-(Which is) the very thing it was required to show.
+Böylece, eğer iki büyüklük iki (diğer) büyüklüğün eşit katlarıysa ve (önceki büyüklüklerden) çıkarılan bazı (parçalar) sonraki (büyüklüklerin) eşit katlarıysa (sırasıyla), o zaman kalanlar da ya sonraki (büyüklüklere) eşittir ya da onların eşit katlarıdır (sırasıyla).
+(Gösterilmesi gereken tam olarak budur.)
+

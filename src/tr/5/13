@@ -1,19 +1,21 @@
-If a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and the third (magnitude) has a greater ratio to the fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.
+     1→Eğer birinci (büyüklük) ikinciye, üçüncünün dördüncüye (sahip olduğu) aynı orana sahipse ve üçüncü (büyüklük) dördüncüye, beşincinin altıncıya (sahip olduğundan) daha büyük bir orana sahipse, o zaman birinci (büyüklük) de ikinciye, beşincinin altıncıya (sahip olduğundan) daha büyük bir orana sahip olacaktır.
+     2→
+     3→Çünkü birinci (büyüklük) {A magnitude} ikinci {B magnitude}'ye, üçüncü {C magnitude}'nin dördüncü {D magnitude}'ye (sahip olduğu) aynı orana sahip olsun ve üçüncü (büyüklük) {C magnitude} dördüncü {D magnitude}'ye, beşinci {E magnitude}'nin altıncı {F magnitude}'ye (sahip olduğundan) daha büyük bir orana sahip olsun.
+     4→Diyorum ki birinci (büyüklük) {A magnitude} de ikinci {B magnitude}'ye, beşinci {E magnitude}'nin altıncı {F magnitude}'ye (sahip olduğundan) daha büyük bir orana sahip olacaktır.
+     5→
+     6→Çünkü {C magnitude} ve {E magnitude}'nin bazı eşit katları ve {D magnitude} ve {F magnitude}'nin diğer rastgele eşit katları olduğu için, (öyle ki) {C magnitude}'nin katı {D magnitude}'nin (katını) aşar ve {E magnitude}'nin katı {F magnitude}'nin katını aşmaz [Tanım 5.7], onlar alınmış olsun.
+     7→Ve {G magnitude} ve {H magnitude} sırasıyla {C magnitude} ve {E magnitude}'nin eşit katları ve {K magnitude} ve {L magnitude} sırasıyla {D magnitude} ve {F magnitude}'nin diğer rastgele eşit katları olsun, öyle ki {G magnitude} {K magnitude}'yi aşsın ama {H magnitude} {L magnitude}'yi aşmasın.
+     8→Ve {G magnitude} {C magnitude} tarafından kaç kez (bölünebilirse), {M magnitude} de {A magnitude} tarafından o kadar kez (bölünebilir) olsun.
+     9→Ve {K magnitude} {D magnitude} tarafından kaç kez (bölünebilirse), {N magnitude} de {B magnitude} tarafından o kadar kez (bölünebilir) olsun.
+    10→
+    11→Ve {A magnitude} {B magnitude}'ye nasılsa {C magnitude} {D magnitude}'ye öyle olduğu ve sırasıyla {A magnitude} ve {C magnitude}'nin eşit katları {M magnitude} ve {G magnitude} ve sırasıyla {B magnitude} ve {D magnitude}'nin diğer rastgele eşit katları {N magnitude} ve {K magnitude} alındığı için, o zaman eğer {M magnitude} {N magnitude}'yi aşarsa {G magnitude} {K magnitude}'yi aşar, ve eğer ({M magnitude}) ({N magnitude}'ye) eşitse ({G magnitude} de) ({K magnitude}'ye) eşit(tir), ve eğer ({M magnitude}) ({N magnitude}'den) küçükse ({G magnitude} de) ({K magnitude}'den) küçük(tür) [Tanım 5.5].
+    12→Ve {G magnitude} {K magnitude}'yi aşar.
+    13→Böylece {M magnitude} de {N magnitude}'yi aşar.
+    14→Ve {H magnitude} {L magnitude}'yi aşmaz.
+    15→Ve {M magnitude} ve {H magnitude} sırasıyla {A magnitude} ve {E magnitude}'nin eşit katlarıdır ve {N magnitude} ve {L magnitude} sırasıyla {B magnitude} ve {F magnitude}'nin diğer rastgele eşit katlarıdır.
+    16→Böylece {A magnitude}'nun {B magnitude}'ye oranı {E magnitude}'nin {F magnitude}'ye (oranından) büyüktür [Tanım 5.7].
+    17→
+    18→Böylece, eğer birinci (büyüklük) ikinciye, üçüncünün dördüncüye (sahip olduğu) aynı orana sahipse ve üçüncü (büyüklük) dördüncüye, beşincinin altıncıya (sahip olduğundan) daha büyük bir orana sahipse, o zaman birinci (büyüklük) de ikinciye, beşincinin altıncıya (sahip olduğundan) daha büyük bir orana sahip olacaktır.
+    19→(Gösterilmesi gereken tam olarak budur.)
+    20→
 
-For let a first (magnitude) {A magnitude} have the same ratio to a second {B magnitude} that a third {C magnitude} (has) to a fourth {D magnitude}, and let the third (magnitude) {C magnitude} have a greater ratio to the fourth {D magnitude} than a fifth {E magnitude} (has) to a sixth {F magnitude}.
-I say that the first (magnitude) {A magnitude} will also have a greater ratio to the second {B magnitude} than the fifth {E magnitude} (has) to the sixth {F magnitude}.
-
-For since there are some equal multiples of {C magnitude} and {E magnitude}, and other random equal multiples of {D magnitude} and {F magnitude}, (for which) the multiple of {C magnitude} exceeds the (multiple) of {D magnitude}, and the multiple of {E magnitude} does not exceed the multiple of {F magnitude} [Def. 5.7], let them have been taken.
-And let {G magnitude} and {H magnitude} be equal multiples of {C magnitude} and {E magnitude} (respectively), and {K magnitude} and {L magnitude} other random equal multiples of {D magnitude} and {F magnitude} (respectively), such that {G magnitude} exceeds {K magnitude}, but {H magnitude} does not exceed {L magnitude}.
-And as many times as {G magnitude} is (divisible) by {C magnitude}, so many times let {M magnitude} be (divisible) by {A magnitude}.
-And as many times as {K magnitude} (is divisible) by {D magnitude}, so many times let {N magnitude} be (divisible) by {B magnitude}.
-
-And since as {A magnitude} is to {B magnitude}, so {C magnitude} (is) to {D magnitude}, and the equal multiples {M magnitude} and {G magnitude} have been taken of {A magnitude} and {C magnitude} (respectively), and the other random equal multiples {N magnitude} and {K magnitude} of {B magnitude} and {D magnitude} (respectively), thus if {M magnitude} exceeds {N magnitude} then {G magnitude} exceeds {K magnitude}, and if ({M magnitude} is) equal (to {N magnitude} then {G magnitude} is also) equal (to {K magnitude}), and if ({M magnitude} is) less (than {N magnitude} then {G magnitude} is also) less (than {K magnitude}) [Def. 5.5].
-And {G magnitude} exceeds {K magnitude}.
-Thus, {M magnitude} also exceeds {N magnitude}.
-And {H magnitude} does not exceeds {L magnitude}.
-And {M magnitude} and {H magnitude} are equal multiples of {A magnitude} and {E magnitude} (respectively), and {N magnitude} and {L magnitude} other random equal multiples of {B magnitude} and {F magnitude} (respectively).
-Thus, {A magnitude} has a greater ratio to {B magnitude} than {E magnitude} (has) to {F magnitude} [Def. 5.7].
-
-Thus, if a first (magnitude) has the same ratio to a second that a third (has) to a fourth, and a third (magnitude) has a greater ratio to a fourth than a fifth (has) to a sixth, then the first (magnitude) will also have a greater ratio to the second than the fifth (has) to the sixth.
-(Which is) the very thing it was required to show.

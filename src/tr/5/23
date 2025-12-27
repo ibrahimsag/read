@@ -1,27 +1,29 @@
-If there are three magnitudes, and others of equal number to them, (being) in the same ratio taken two by two, and (if) their proportion is perturbed, then they will also be in the same ratio via equality.
+     1→Eğer üç büyüklük ve onlarla eşit sayıda başka (büyüklükler) varsa, ikişer ikişer alınmış aynı oranda ve eğer oranları karıştırılmışsa, o zaman eşitlik yoluyla da aynı oranda olacaklardır.
+     2→
+     3→{A magnitude}, {B magnitude} ve {C magnitude} üç büyüklük olsun ve {D magnitude}, {E magnitude} ve {F magnitude} onlarla eşit sayıda başka (büyüklükler) olsun, ikişer ikişer alınmış aynı oranda.
+     4→Ve oranları karıştırılmış olsun, (öyle ki) {A magnitude} {B magnitude}'ye nasılsa {E magnitude} {F magnitude}'ye öyle olsun ve {B magnitude} {C magnitude}'ye nasılsa {D magnitude} {E magnitude}'ye öyle olsun.
+     5→Diyorum ki {A magnitude} {C magnitude}'ye nasılsa, {D magnitude} {F magnitude}'ye öyledir.
+     6→
+     7→Sırasıyla {A magnitude}, {B magnitude} ve {D magnitude}'nin eşit katları {G magnitude}, {H magnitude} ve {K magnitude} alınmış olsun ve sırasıyla {C magnitude}, {E magnitude} ve {F magnitude}'nin diğer rastgele eşit katları {L magnitude}, {M magnitude} ve {N magnitude} (alınmış olsun).
+     8→
+     9→Ve {G magnitude} ve {H magnitude} sırasıyla {A magnitude} ve {B magnitude}'nin eşit katları olduğu ve parçalar benzer katlarla aynı orana sahip olduğu için [Önerme 5.15], böylece {A magnitude} {B magnitude}'ye nasılsa {G magnitude} {H magnitude}'ye öyledir.
+    10→Ve öyleyse, aynı (nedenlerle), {E magnitude} {F magnitude}'ye nasılsa {M magnitude} {N magnitude}'ye öyledir.
+    11→Ve {A magnitude} {B magnitude}'ye nasılsa, {E magnitude} {F magnitude}'ye öyledir.
+    12→Ve böylece, {G magnitude} {H magnitude}'ye nasılsa {M magnitude} {N magnitude}'ye öyledir [Önerme 5.11].
+    13→Ve {B magnitude} {C magnitude}'ye nasılsa {D magnitude} {E magnitude}'ye öyle olduğu için, değişimli olarak {B magnitude} {D magnitude}'ye nasılsa {C magnitude} {E magnitude}'ye öyledir [Önerme 5.16].
+    14→Ve {H magnitude} ve {K magnitude} sırasıyla {B magnitude} ve {D magnitude}'nin eşit katları olduğu ve parçalar benzer katlarla aynı orana sahip olduğu için [Önerme 5.15], böylece {B magnitude} {D magnitude}'ye nasılsa {H magnitude} {K magnitude}'ye öyledir.
+    15→Ama {B magnitude} {D magnitude}'ye nasılsa, {C magnitude} {E magnitude}'ye (öyle idi).
+    16→Ve böylece, {H magnitude} {K magnitude}'ye nasılsa {C magnitude} {E magnitude}'ye öyledir [Önerme 5.11].
+    17→Yine, {L magnitude} ve {M magnitude} sırasıyla {C magnitude} ve {E magnitude}'nin eşit katları olduğu için, böylece {C magnitude} {E magnitude}'ye nasılsa {L magnitude} {M magnitude}'ye öyledir [Önerme 5.15].
+    18→Ama {C magnitude} {E magnitude}'ye nasılsa, {H magnitude} {K magnitude}'ye (öyle idi).
+    19→Ve böylece, {H magnitude} {K magnitude}'ye nasılsa {L magnitude} {M magnitude}'ye öyledir [Önerme 5.11].
+    20→Ayrıca, değişimli olarak {H magnitude} {L magnitude}'ye nasılsa {K magnitude} {M magnitude}'ye öyledir [Önerme 5.16].
+    21→Ve {G magnitude} {H magnitude}'ye nasılsa {M magnitude} {N magnitude}'ye öyle olduğu da gösterilmişti.
+    22→Bu nedenle, {G magnitude}, {H magnitude} ve {L magnitude} üç büyüklük ve {K magnitude}, {M magnitude} ve {N magnitude} onlarla eşit sayıda başka (büyüklükler) olduğu için, ikişer ikişer alınmış aynı oranda ve oranları karıştırılmış olduğu için, böylece eşitlik yoluyla eğer {G magnitude} {L magnitude}'yi aşarsa {K magnitude} de {N magnitude}'yi aşar, ve eğer ({G magnitude}) ({L magnitude}'ye) eşitse ({K magnitude} de) ({N magnitude}'ye) eşit(tir), ve eğer ({G magnitude}) ({L magnitude}'den) küçükse ({K magnitude} de) ({N magnitude}'den) küçük(tür) [Önerme 5.21].
+    23→Ve {G magnitude} ve {K magnitude} sırasıyla {A magnitude} ve {D magnitude}'nin eşit katlarıdır ve {L magnitude} ve {N magnitude} sırasıyla {C magnitude} ve {F magnitude}'nin (eşit katlarıdır).
+    24→Böylece {A magnitude} {C magnitude}'ye nasılsa, {D magnitude} {F magnitude}'ye öyledir [Tanım 5.5].
+    25→
+    26→Böylece, eğer üç büyüklük ve onlarla eşit sayıda başka (büyüklükler) varsa, ikişer ikişer alınmış aynı oranda ve eğer oranları karıştırılmışsa, o zaman eşitlik yoluyla da aynı oranda olacaklardır.
+    27→(Gösterilmesi gereken tam olarak budur.)
+    28→
 
-Let {A magnitude}, {B magnitude}, and {C magnitude} be three magnitudes, and {D magnitude}, {E magnitude} and {F magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two.
-And let their proportion be perturbed, (so that) as {A magnitude} (is) to {B magnitude}, so {E magnitude} (is) to {F magnitude}, and as {B magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {E magnitude}.
-I say that as {A magnitude} is to {C magnitude}, so {D magnitude} (is) to {F magnitude}.
-
-Let the equal multiples {G magnitude}, {H magnitude}, and {K magnitude} have been taken of {A magnitude}, {B magnitude}, and {D magnitude} (respectively), and the other random equal multiples {L magnitude}, {M magnitude}, and {N magnitude} of {C magnitude}, {E magnitude}, and {F magnitude} (respectively).
-
-And since {G magnitude} and {H magnitude} are equal multiples of {A magnitude} and {B magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {A magnitude} (is) to {B magnitude}, so {G magnitude} (is) to {H magnitude}.
-And, so, for the same (reasons), as {E magnitude} (is) to {F magnitude}, so {M magnitude} (is)to {N magnitude}.
-And as {A magnitude} is to {B magnitude}, so {E magnitude} (is) to {F magnitude}.
-And, thus, as {G magnitude} (is) to {H magnitude}, so {M magnitude} (is) to {N magnitude} [Prop. 5.11].
-And since as {B magnitude} is to {C magnitude}, so {D magnitude} (is) to {E magnitude}, also, alternately, as {B magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {E magnitude} [Prop. 5.16].
-And since {H magnitude} and {K magnitude} are equal multiples of {B magnitude} and {D magnitude} (respectively), and parts have the same ratio as similar multiples [Prop. 5.15], thus as {B magnitude} is to {D magnitude}, so {H magnitude} (is) to {K magnitude}.
-But, as {B magnitude} (is) to {D magnitude}, so {C magnitude} (is) to {E magnitude}.
-And, thus, as {H magnitude} (is) to {K magnitude}, so {C magnitude} (is) to {E magnitude} [Prop. 5.11].
-Again, since {L magnitude} and {M magnitude} are equal multiples of {C magnitude} and {E magnitude} (respectively), thus as {C magnitude} is to {E magnitude}, so {L magnitude} (is) to {M magnitude} [Prop. 5.15].
-But, as {C magnitude} (is) to {E magnitude}, so {H magnitude} (is) to {K magnitude}.
-And, thus, as {H magnitude} (is) to {K magnitude}, so {L magnitude} (is) to {M magnitude} [Prop. 5.11].
-Also, alternately, as {H magnitude} (is) to {L magnitude}, so {K magnitude} (is) to {M magnitude} [Prop. 5.16].
-And it was also shown (that) as {G magnitude} (is) to {H magnitude}, so {M magnitude} (is) to {N magnitude}.
-Therefore, since {G magnitude}, {H magnitude}, and {L magnitude} are three magnitudes, and {K magnitude}, {M magnitude}, and {N magnitude} other (magnitudes) of equal number to them, (being) in the same ratio taken two by two, and their proportion is perturbed, thus, via equality, if {G magnitude} exceeds {L magnitude} then {K magnitude} also exceeds {N magnitude}, and if ({G magnitude} is) equal (to {L magnitude} then {K magnitude} is also) equal (to {N magnitude}), and if ({G magnitude} is) less (than {L magnitude} then {K magnitude} is also) less (than {N magnitude}) [Prop. 5.21].
-And {G magnitude} and {K magnitude} are equal multiples of {A magnitude} and {D magnitude} (respectively), and {L magnitude} and {N magnitude} of {C magnitude} and {F magnitude} (respectively).
-Thus, as {A magnitude} (is) to {C magnitude}, so {D magnitude} (is) to {F magnitude} [Def. 5.5].
-
-Thus, if there are three magnitudes, and others of equal number to them, (being) in the same ratio taken two by two, and (if) their proportion is perturbed, then they will also be in the same ratio via equality.
-(Which is) the very thing it was required to show.

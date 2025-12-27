@@ -1,30 +1,31 @@
-To construct an isosceles triangle having each of the angles at the base double the remaining (angle).
+Tabandaki açıların her biri kalan (açının) iki katı olan bir ikizkenar üçgen inşa etmek.
 
-Let some straight-line {AB line} be taken, and let it have been cut at point {C point} so that the rectangle contained by {AB line} and {BC line} is equal to the square on {CA line} [Prop. 2.11].
-And let the circle {BDE circle A} have been drawn with center {A point}, and radius {AB line}.
-And let the straight-line {BD line}, equal to the straight-line {AC line}, being not greater than the diameter of circle {BDE circle A}, have been inserted into circle {BDE circle A} [Prop. 4.1].
-And let {AD line} and {DC line} have been joined.
-And let the circle {ACD circle O} have been circumscribed about triangle {ACD polygon} [Prop. 4.5].
+Bir {AB line} düz çizgisi alınsın ve {AB line} ve {BC line} tarafından içerilen dikdörtgen {CA line} üzerindeki kareye eşit olacak şekilde {C point} noktasında kesilmiş olsun [Önerme 2.11].
+Ve merkezi {A point} ve yarıçapı {AB line} olan {BDE circle A} çemberi çizilmiş olsun.
+Ve {BDE circle A} çemberinin çapından büyük olmayan, {AC line} düz çizgisine eşit {BD line} düz çizgisi {BDE circle A} çemberine yerleştirilmiş olsun [Önerme 4.1].
+Ve {AD line} ve {DC line} birleştirilmiş olsun.
+Ve {ACD polygon} üçgeninin etrafına {ACD circle O} çemberi çizilmiş olsun [Önerme 4.5].
 
-And since the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {AC line}, and {AC line} (is) equal to {BD line}, the (rectangle contained) by {AB line} and {BC line} is thus equal to the (square) on {BD line}.
-And since some point {B point} has been taken outside of circle {ACD circle O}, and two straight-lines {BA line} and {BD line} have radiated from {B point} towards the circle {ACD circle O}, and (one) of them cuts (the circle), and (the other) meets (the circle), and the (rectangle contained) by {AB line} and {BC line} is equal to the (square) on {BD line}, {BD line} thus touches circle {ACD circle O} [Prop. 3.37].
-Therefore, since {BD line} touches (the circle), and {DC line} has been drawn across (the circle) from the point of contact {D point}, the angle {BDC angle} is thus equal to the angle {DAC angle} in the alternate segment of the circle [Prop. 3.32].
-Therefore, since {BDC angle} is equal to {DAC angle}, let {CDA angle} have been added to both.
-Thus, the whole of {BDA angle} is equal to the two (angles) {CDA angle} and {DAC angle}.
-But, the external (angle) {BCD angle} is equal to {CDA angle} and {DAC angle} [Prop. 1.32].
-Thus, {BDA angle} is also equal to {BCD angle}.
-But, {BDA angle} is equal to {CBD angle}, since the side {AD line} is also equal to {AB line} [Prop. 1.5].
-So that {DBA angle} is also equal to {BCD angle}.
-Thus, the three (angles) {BDA angle}, {DBA angle}, and {BCD angle} are equal to one another.
-And since angle {DBC angle} is equal to {BCD angle}, side {BD line} is also equal to side {DC line} [Prop. 1.6].
-But, {BD line} was assumed (to be) equal to {CA line}.
-Thus, {CA line} is also equal to {CD line}.
-So that angle {CDA angle} is also equal to angle {DAC angle} [Prop. 1.5].
-Thus, {CDA angle} and {DAC angle} is double {DAC angle}.
-But {BCD angle} (is) equal to {CDA angle} and {DAC angle}.
-Thus, {BCD angle} is also double {CAD angle}.
-And {BCD angle} (is) equal to to each of {BDA angle} and {DBA angle}.
-Thus, {BDA angle} and {DBA angle} are each double {DAB angle}.
+Ve {AB line} ve {BC line} tarafından (içerilen dikdörtgen) {AC line} üzerindeki (kareye) eşit olduğu ve {AC line} {BD line}'ye eşit olduğu için, {AB line} ve {BC line} tarafından (içerilen dikdörtgen) böylece {BD line} üzerindeki (kareye) eşittir.
+Ve {ACD circle O} çemberinin dışında bir {B point} noktası alındığı ve {B point}'den {ACD circle O} çemberine doğru iki düz çizgi {BA line} ve {BD line} çıktığı ve (bunlardan biri) (çemberi) kestiği ve (diğeri) (çemberle) buluştuğu ve {AB line} ve {BC line} tarafından (içerilen dikdörtgen) {BD line} üzerindeki (kareye) eşit olduğu için, {BD line} böylece {ACD circle O} çemberine teğettir [Önerme 3.37].
+Dolayısıyla, {BD line} (çembere) teğet olduğu ve {DC line} temas noktası {D point}'den (çember) boyunca çizildiği için, {BDC angle} açısı böylece çemberin karşı parçasındaki {DAC angle} açısına eşittir [Önerme 3.32].
+Dolayısıyla, {BDC angle} {DAC angle}'ya eşit olduğu için, her ikisine de {CDA angle} eklenmiş olsun.
+Böylece, {BDA angle}'nın tamamı iki açı {CDA angle} ve {DAC angle}'ya eşittir.
+Ama dış açı {BCD angle} {CDA angle} ve {DAC angle}'ya eşittir [Önerme 1.32].
+Böylece {BDA angle} de {BCD angle}'ye eşittir.
+Ama {BDA angle} {CBD angle}'ye eşittir, çünkü {AD line} kenarı da {AB line}'ye eşittir [Önerme 1.5].
+Öyle ki {DBA angle} de {BCD angle}'ye eşittir.
+Böylece üç açı {BDA angle}, {DBA angle} ve {BCD angle} birbirine eşittir.
+Ve {DBC angle} açısı {BCD angle}'ye eşit olduğu için, {BD line} kenarı da {DC line} kenarına eşittir [Önerme 1.6].
+Ama {BD line}'nin {CA line}'ya eşit olduğu varsayılmıştı.
+Böylece {CA line} de {CD line}'ye eşittir.
+Öyle ki {CDA angle} açısı da {DAC angle} açısına eşittir [Önerme 1.5].
+Böylece {CDA angle} ve {DAC angle} {DAC angle}'nın iki katıdır.
+Ama {BCD angle} {CDA angle} ve {DAC angle}'ya eşittir.
+Böylece {BCD angle} de {CAD angle}'nın iki katıdır.
+Ve {BCD angle} {BDA angle} ve {DBA angle}'nın her birine eşittir.
+Böylece {BDA angle} ve {DBA angle}'nın her biri {DAB angle}'nin iki katıdır.
 
-Thus, the isosceles triangle {ABD polygon} has been constructed having each of the angles at the base {BD line} double the remaining (angle).
-(Which is) the very thing it was required to do.
+Böylece, tabandaki {BD line} açıların her biri kalan (açının) iki katı olan {ABD polygon} ikizkenar üçgeni inşa edilmiştir.
+(Yapılması gereken tam olarak budur.)
+
