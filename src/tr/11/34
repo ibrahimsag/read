@@ -4,7 +4,7 @@ Ve tabanları yüksekliklerine ters orantılı olan paralel yüzlü katılar eş
 {AB given} ve {CD given} eşit paralel yüzlü katılar olsun.
 Diyorum ki {AB given} ve {CD given} paralel yüzlü katılarının tabanları, yüksekliklerine ters orantılıdır ve (öyle ki) {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.
 
-{şekil 1}Çünkü ilk olarak, dikilen (doğrular), {AG line}, {EF line}, {LB line}, {HK line}, {CM line}, {NO line}, {PD line} ve {QR line}, tabanlarına dik açılarda olsun.
+{figure 1}Çünkü ilk olarak, dikilen (doğrular), {AG line}, {EF line}, {LB line}, {HK line}, {CM line}, {NO line}, {PD line} ve {QR line}, tabanlarına dik açılarda olsun.
 Diyorum ki {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CM line} de {AG line}'ye öyledir.
 
 Öyleyse eğer {EH polygon} tabanı {NQ polygon} tabanına eşitse ve {AB given} katısı da {CD given} katısına eşitse, {CM line} de {AG line}'ye eşit olacaktır.
@@ -44,7 +44,7 @@ Ve böylece {AB given} katısı {CV given} katısına nasılsa, {CD given} katı
 Böylece {AB given} ve {CD given}'in her biri, {CV given}'e aynı orana sahiptir.
 Böylece {AB given} katısı, {CD given} katısına eşittir [Önerme 5.9].
 
-{şekil 2}Öyleyse dikilen (doğrular), {FE line}, {BL line}, {GA line}, {KH line}, {ON line}, {DP line}, {MC line} ve {RQ line}, tabanlarına dik açılarda olmasın.
+{figure 2}Öyleyse dikilen (doğrular), {FE line}, {BL line}, {GA line}, {KH line}, {ON line}, {DP line}, {MC line} ve {RQ line}, tabanlarına dik açılarda olmasın.
 Ve dikler, {F point}, {G point}, {B point}, {K point}, {O point}, {M point}, {R point} ve {D point} noktalarından {EH polygon} ve {NQ polygon}'dan geçen düzlemlere çizilmiş olsun ve (sırasıyla) {S point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point} ve {a point} (noktalarında) düzlemlerle birleşmiş olsunlar.
 Ve {FV given} ve {OY given} katıları tamamlanmış olsun.
 Bu durumda da diyorum ki, {AB given} ve {CD given} katıları eşit olunca, tabanları yüksekliklerine ters orantılıdır ve (öyle ki) {EH polygon} tabanı {NQ polygon} tabanına nasılsa, {CD given} katısının yüksekliği de {AB given} katısının yüksekliğine öyledir.

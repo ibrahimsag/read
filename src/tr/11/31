@@ -3,7 +3,7 @@ Eşit tabanlar üzerinde olan ve aynı yükseklikte olan paralel yüzlü katıla
 Paralel yüzlü katılar {AE given} ve {CF given}, (sırasıyla) eşit tabanlar {AB polygon} ve {CD polygon} üzerinde olsun ve aynı yükseklikte olsun.
 Diyorum ki {AE given} katısı, {CF given} katısına eşittir.
 
-{şekil 1}Öyleyse dikilen (doğrular), {HK line}, {BE line}, {AG line}, {LM line}, {PQ line}, {DF line}, {CO line} ve {RS line}, ilk olarak {AB polygon} ve {CD polygon} tabanlarına dik açılarda olsun.
+{figure 1}Öyleyse dikilen (doğrular), {HK line}, {BE line}, {AG line}, {LM line}, {PQ line}, {DF line}, {CO line} ve {RS line}, ilk olarak {AB polygon} ve {CD polygon} tabanlarına dik açılarda olsun.
 Ve {RT line}, {CR line} ile düz bir doğru olarak üretilmiş olsun.
 Ve {ALB angle} açısına eşit {TRU angle} (açısı), {RT line} doğrusu üzerinde, onun üzerindeki {R point} noktasında inşa edilmiş olsun [Önerme 1.23].
 Ve {RT line}, {AL line}'ye eşit ve {RU line}, {LB line}'ye eşit yapılmış olsun.
@@ -38,7 +38,7 @@ Böylece {CF given} katısı, {YX given} katısına eşittir [Önerme 5.9].
 Fakat {YX given}'ın {AE given}'e eşit olduğu gösterildi.
 Böylece {AE given} de {CF given}'e eşittir.
 
-{şekil 2}Ve öyleyse dikilen (doğrular), {AG line}, {HK line}, {BE line}, {LM line}, {CO line}, {PQ line}, {DF line} ve {RS line}, {AB polygon} ve {CD polygon} tabanlarına dik açılarda olmasın.
+{figure 2}Ve öyleyse dikilen (doğrular), {AG line}, {HK line}, {BE line}, {LM line}, {CO line}, {PQ line}, {DF line} ve {RS line}, {AB polygon} ve {CD polygon} tabanlarına dik açılarda olmasın.
 Yine diyorum ki {AE given} katısı, {CF given} katısına eşittir.
 Çünkü {KN line}, {ET line}, {GU line}, {MV line}, {QW line}, {FX line}, {OY line} ve {SI line}, {K point}, {E point}, {G point}, {M point}, {Q point}, {F point}, {O point} ve {S point} noktalarından (sırasıyla) referans düzlemine (yani {AB polygon} ve {CD polygon} tabanlarının düzlemine) dik olarak çizilmiş olsun ve düzlemle (sırasıyla) {N point}, {T point}, {U point}, {V point}, {W point}, {X point}, {Y point} ve {I point} noktalarında karşılaşmış olsunlar.
 Ve {NT line}, {NU line}, {UV line}, {TV line}, {WX line}, {WY line}, {YI line} ve {IX line} birleştirilmiş olsun.
